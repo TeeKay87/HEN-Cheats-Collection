@@ -1,0 +1,28 @@
+{
+  "name": "LEGO Harry Potter Collection",
+  "id": "CUSA05954",
+  "version": "01.00",
+  "process": "harry2.elf",
+  "mods": [
+    {
+      "name": "Godmode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "116BC01",
+          "on": "418B8D3012000041C7853012000008080000E9FF42C3FF",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "D9FF0F",
+          "on": "E9EDBC3C00909090",
+          "off": "410FB68D30120000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "PS4Guru",
+    "Molly"
+  ]
+}

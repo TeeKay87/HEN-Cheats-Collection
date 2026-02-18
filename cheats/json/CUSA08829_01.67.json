@@ -1,0 +1,27 @@
+{
+  "name": "Call of Duty: Modern Warfare",
+  "id": "CUSA08829",
+  "version": "01.67",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Dev Features",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "6AB0EF0",
+          "on": "4C53535252534D4E4D52203100",
+          "off": "4C53535252534D4E4D52203000"
+        },
+        {
+          "offset": "6AC0EF4",
+          "on": "0C",
+          "off": "0C"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "DEv_ShOoTz"
+  ]
+}

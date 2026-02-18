@@ -1,0 +1,110 @@
+{
+  "name": "Final Fantasy XII: The Zodiac Age",
+  "id": "CUSA08116",
+  "version": "01.08",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Gil 99999999 \u6240\u6301\u91D199999999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "00244EA5",
+          "on": "909090",
+          "off": "0F4EC8"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Item \u65E0\u9650\u9053\u5177",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0016BDC7",
+          "on": "89D190",
+          "off": "4401F1"
+        }
+      ]
+    },
+    {
+      "name": "EXP Multi 10 on Gain \u7ECF\u9A8C\u503C10\u500D\u83B7\u5F97",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1AB33F04",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "LP 9999999 on Gain LP\u83B7\u5F97\u65F69999999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "003BFF02",
+          "on": "89C890",
+          "off": "0F47C1"
+        }
+      ]
+    },
+    {
+      "name": "Infinite HP \u65E0\u9650HP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1AB33F00",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite MP \u65E0\u9650MP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1AB33F01",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Always Action \u4E00\u76F4\u53EF\u4EE5\u884C\u52A8",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1AB33F03",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "EXP Max on Gain \u7ECF\u9A8C\u503C\u6700\u5927\u83B7\u5F97",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1AB33F05",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1AB33F06",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    " Fullcodes\uFF08PLAYSTATION/PC\u4FEE\u6539\u8BA8\u8BBA\u7FA4:1167084913\uFF09"
+  ]
+}

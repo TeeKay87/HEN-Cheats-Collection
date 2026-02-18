@@ -1,0 +1,108 @@
+{
+  "name": "Need for Speed Payback",
+  "id": "CUSA05986",
+  "version": "01.08",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Cash",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3EAB800",
+          "on": "4885C9BBFFC99A3B41891FE9B25BA5FE",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "29013BC",
+          "on": "E93FA45A0190",
+          "off": "4885C941891F"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Tokens",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3EAB810",
+          "on": "B9FFC99A3B41894C2418E9213CABFE",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "295F43B",
+          "on": "E9D0C35401",
+          "off": "41894C2418"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Nitrous",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3EAB81F",
+          "on": "41C78514020000595ABA40E905A055FE",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "240582B",
+          "on": "E9EF5FAA0190909090",
+          "off": "C4C17A118514020000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Money",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3EAB00B",
+          "on": "BB7F96980041891F48898D58FDFFFFC3",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "29013BF",
+          "on": "E8479C5A019090909090",
+          "off": "41891F48898D58FDFFFF"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Tokens",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3EAB000",
+          "on": "B941894C2418C3",
+          "off": "00000000000000"
+        },
+        {
+          "offset": "295F43B",
+          "on": "E8C0BB5401",
+          "off": "41894C2418"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Nitro",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "240582B",
+          "on": "909090909090909090",
+          "off": "C4C17A118514020000"
+        },
+        {
+          "offset": "2405FF9",
+          "on": "909090909090909090",
+          "off": "C4C17A118514020000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Weysincha \u0026 hejran7",
+    "Weysincha"
+  ]
+}

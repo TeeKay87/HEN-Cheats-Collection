@@ -1,0 +1,232 @@
+{
+  "name": "The Long Dark",
+  "id": "CUSA09690",
+  "version": "01.98",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1903DB0",
+          "on": "C5FA10431CC5FA114318E9D683F77F526564646576696C3832202D20465720392E3030",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "8187C190",
+          "on": "E91B7C0880",
+          "off": "C5FA114318"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1903DD3",
+          "on": "C5FA104B78E922A6EC7F",
+          "off": "00000000000000000000"
+        },
+        {
+          "offset": "817CE3FA",
+          "on": "E9D4591380",
+          "off": "C5FA104B7C"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Backpack Weight ( must be activated )",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1903DDD",
+          "on": "C7406000000000C5FA104060E94395DF7F",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "816FD32C",
+          "on": "E9AC6A2080",
+          "off": "C5FA104060"
+        }
+      ]
+    },
+    {
+      "name": "Max Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1903DEE",
+          "on": "415741BF6300000044897818415FC5E22A4018E9D7E0E17F",
+          "off": "000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "81721ED8",
+          "on": "E9111F1E80",
+          "off": "C5E22A4018"
+        }
+      ]
+    },
+    {
+      "name": "God Mode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "84437828",
+          "on": "C743180000C842C5FA104318E95C4984FD",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "81C7C190",
+          "on": "E993B67B02",
+          "off": "C5FA114318"
+        }
+      ]
+    },
+    {
+      "name": "inf lantern fuel",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "81E3D170",
+          "on": "9090909090",
+          "off": "E89B0A0000"
+        }
+      ]
+    },
+    {
+      "name": "inf stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "81CD070E",
+          "on": "909090909090",
+          "off": "C4C17A11467C"
+        },
+        {
+          "offset": "81CD0757",
+          "on": "909090909090",
+          "off": "C4C17A11467C"
+        }
+      ]
+    },
+    {
+      "name": "NO Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8259C282",
+          "on": "9090909090",
+          "off": "E8C9A4ADFF"
+        }
+      ]
+    },
+    {
+      "name": "inf items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "84437815",
+          "on": "C740183C000000C5E22A4018E9B7A66EFD",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "81B21ED8",
+          "on": "E938599102",
+          "off": "C5E22A4018"
+        }
+      ]
+    },
+    {
+      "name": "inf drinking water",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "81AD822E",
+          "on": "9090909090",
+          "off": "C5FA114B1C"
+        },
+        {
+          "offset": "81AD8263",
+          "on": "9090909090",
+          "off": "C5FA11431C"
+        }
+      ]
+    },
+    {
+      "name": "inf crafting",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8213C62C",
+          "on": "90909090",
+          "off": "41894518"
+        },
+        {
+          "offset": "81D43BA0",
+          "on": "9090909090",
+          "off": "E87B883F00"
+        },
+        {
+          "offset": "81D44BB6",
+          "on": "9090909090",
+          "off": "E8E5EDFFFF"
+        }
+      ]
+    },
+    {
+      "name": "inf climing",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "81A85831",
+          "on": "9090909090",
+          "off": "C5FA11437C"
+        },
+        {
+          "offset": "81A85879",
+          "on": "9090909090",
+          "off": "C5FA11437C"
+        }
+      ]
+    },
+    {
+      "name": "Inf weight",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "84437800",
+          "on": "41C7476000000000C4C17A104760E9E4EFCFFD",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "821367F1",
+          "on": "E90A10300290",
+          "off": "C4C17A114760"
+        }
+      ]
+    },
+    {
+      "name": "inf durability for all items and weapons",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "81B27244",
+          "on": "9090909090909090",
+          "off": "C5FA119310030000"
+        },
+        {
+          "offset": "81B2728F",
+          "on": "9090909090909090",
+          "off": "C5FA118310030000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Reddevil82 ",
+    " FW 9.00",
+    "LMN"
+  ]
+}

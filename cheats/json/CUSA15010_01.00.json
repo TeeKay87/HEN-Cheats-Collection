@@ -1,0 +1,155 @@
+{
+  "name": "Call of Duty: Black Ops Cold War",
+  "id": "CUSA15010",
+  "version": "01.00",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "All Client Godmode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "170AE7B",
+          "on": "9090909090909090",
+          "off": "4389840490030000"
+        }
+      ]
+    },
+    {
+      "name": "All Client Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "13F9477",
+          "on": "9090909090909090",
+          "off": "43898CB464130000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "178C92C",
+          "on": "C78432EC5B0000FFFFFF7F909090",
+          "off": "898C32EC5B0000418986EC5B0000"
+        }
+      ]
+    },
+    {
+      "name": "1-Hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1949AB4",
+          "on": "29C090",
+          "off": "4429E0"
+        }
+      ]
+    },
+    {
+      "name": "Load Zombies Step 1",
+      "hint": "Go to the main menu and navigate to \u0022Multiplayer\u0022\nthen hit Step 1.",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "B994B58",
+          "on": "14",
+          "off": "14"
+        }
+      ]
+    },
+    {
+      "name": "Load Zombies Step 2",
+      "hint": "Wait for the error to pop up then hit Step 2.",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "2870620",
+          "on": "646973636F6E6E65637400",
+          "off": "646973636F6E6E65637400"
+        },
+        {
+          "offset": "28705EC",
+          "on": "0A",
+          "off": "0A"
+        }
+      ]
+    },
+    {
+      "name": "All Client Godmode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "130ae7b",
+          "on": "9090909090909090",
+          "off": "4389840490030000"
+        }
+      ]
+    },
+    {
+      "name": "All Client Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "ff9477",
+          "on": "9090909090909090",
+          "off": "43898CB464130000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "138c92c",
+          "on": "C78432EC5B0000FFFFFF7F909090",
+          "off": "898C32EC5B0000418986EC5B0000"
+        }
+      ]
+    },
+    {
+      "name": "1-Hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1549ab4",
+          "on": "29C090",
+          "off": "4429E0"
+        }
+      ]
+    },
+    {
+      "name": "Load Zombies Step 1",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "b594b58",
+          "on": "14",
+          "off": "14"
+        }
+      ]
+    },
+    {
+      "name": "Load Zombies Step 2",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "2470620",
+          "on": "646973636F6E6E65637400",
+          "off": "646973636F6E6E65637400"
+        },
+        {
+          "offset": "24705ec",
+          "on": "0A",
+          "off": "0A"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "DeathRGH"
+  ]
+}

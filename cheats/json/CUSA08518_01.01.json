@@ -1,0 +1,81 @@
+{
+  "name": "Dragon Quest XI: Echoes of an Elusive Age",
+  "id": "CUSA08518",
+  "version": "01.01",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Money Gain After Battle Is Always \u002B500(Disable Exp Cheat)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "71BF800",
+          "on": "85C90F49D081C2F4010000E93A7D06FA",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "1227545",
+          "on": "E9B682F905",
+          "off": "85C90F49D0"
+        }
+      ]
+    },
+    {
+      "name": "Item Increase Upon Use/Sell(Dont Use In Battle)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "125A5D8",
+          "on": "4401F0",
+          "off": "4429F0"
+        }
+      ]
+    },
+    {
+      "name": "Quick Exp Gain(\u002B1K)(Disable Money Cheat)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "71BF800",
+          "on": "450F4DEC4101C54181C5E8030000E9A5EB02FA",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "11EE3B1",
+          "on": "E94A14FD059090",
+          "off": "450F4DEC4101C5"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Focus Point",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E8874E",
+          "on": "90909090909090",
+          "off": "41298698030000"
+        }
+      ]
+    },
+    {
+      "name": "Perfectionist Pearl Gain Extra 10",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "71BF800",
+          "on": "83C20A4189D641895118E9399E09FA",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "1259641",
+          "on": "E9BA61F6059090",
+          "off": "4189D641895118"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Faizzudin"
+  ]
+}

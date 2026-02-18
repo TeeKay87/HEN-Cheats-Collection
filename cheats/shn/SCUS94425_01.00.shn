@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Spyro 2: Ripto's Rage!" Moder="Skal" Cusa="SCUS94425" Version="01.00" Process="eboot.bin">
+  <Genres Name="Action" />
+  <Items />
+  <Cheat Text="Max gems">
+    <Cheatline>
+      <Offset>15236C</Offset>
+      <Section>11</Section>
+      <ValueOn>61-A8</ValueOn>
+      <ValueOff>61-A8</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Lives">
+    <Cheatline>
+      <Offset>11E286</Offset>
+      <Section>11</Section>
+      <ValueOn>00</ValueOn>
+      <ValueOff>42</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Health">
+    <Cheatline>
+      <Offset>1163B8</Offset>
+      <Section>11</Section>
+      <ValueOn>00</ValueOn>
+      <ValueOff>FF</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>1163B9</Offset>
+      <Section>11</Section>
+      <ValueOn>00</ValueOn>
+      <ValueOff>FF</ValueOff>
+    </Cheatline>
+  </Cheat>
+</Trainer>

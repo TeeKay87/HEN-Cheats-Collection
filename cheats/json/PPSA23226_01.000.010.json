@@ -1,0 +1,70 @@
+{
+  "name": "Black Myth: Wukong",
+  "id": "PPSA23226",
+  "version": "01.000.010",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Easy Exp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD17000",
+          "on": "8B5020BAFFE0F505895148E96F528388",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "854C279",
+          "on": "E982AD7C7790",
+          "off": "8B5020895148"
+        }
+      ]
+    },
+    {
+      "name": "God Mode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "AD23154",
+          "on": "909090",
+          "off": "FF5718"
+        }
+      ]
+    },
+    {
+      "name": "Inf Money",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD17030",
+          "on": "488B502048C7C23F420F0048895120E9F3358288",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "853A62F",
+          "on": "E9FCC97D77909090",
+          "off": "488B502048895120"
+        }
+      ]
+    },
+    {
+      "name": "Inf Skill Points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD17064",
+          "on": "8B5020BAE703000089514CE943528388",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "854C2B1",
+          "on": "E9AEAD7C7790",
+          "off": "8B502089514C"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

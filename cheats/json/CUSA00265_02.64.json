@@ -1,0 +1,174 @@
+{
+  "name": "Minecraft: PlayStation 4 Edition",
+  "id": "CUSA00265",
+  "version": "02.64",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "\uD83D\uDD1DMultijump\uD83D\uDD1D",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "177AE50",
+          "on": "85D27552",
+          "off": "85D27452"
+        }
+      ]
+    },
+    {
+      "name": "\u27A1\uFE0FJump Foward x4\u27A1\uFE0F",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "85013C4",
+          "on": "33333340",
+          "off": "CDCC4C3E"
+        }
+      ]
+    },
+    {
+      "name": "\u2694\uFE0FUnfair Attack\u2694\uFE0F",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8500E43",
+          "on": "0000008040000040",
+          "off": "00CDCCCC3D000080"
+        }
+      ]
+    },
+    {
+      "name": "\u2694\uFE0FAntiknockback\u2694\uFE0F",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4532D10",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "\u2764\uFE0FGodmode\u2764\uFE0F",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "AB9614F",
+          "on": "C780A40000000000A041C5FA1080A4000000E9DA9EA0F6",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "15A0038",
+          "on": "E912615F09909090",
+          "off": "C5FA1080A4000000"
+        }
+      ]
+    },
+    {
+      "name": "\uD83C\uDF56Infinite Food\uD83C\uDF56",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "AB96166",
+          "on": "41C782A40000000000A041C4C17A1082A4000000E9DFAED8F9",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4921055",
+          "on": "E90C51270690909090",
+          "off": "C4C17A1082A4000000"
+        }
+      ]
+    },
+    {
+      "name": "\uD83D\uDE24Infinite Oxygen\uD83D\uDE24",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "82B8E55",
+          "on": "909090909090",
+          "off": "664489740812"
+        }
+      ]
+    },
+    {
+      "name": "\u267E\uFE0FInfinite Max Items\u267E\uFE0F",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "AB9617F",
+          "on": "42C644362A4042807C362A000F846FA34EF9E9DFA34EF9",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "408056D",
+          "on": "E90D5CB106909090",
+          "off": "42807C362A00748B"
+        }
+      ]
+    },
+    {
+      "name": "\u267E\uFE0FInfinite Items\u267E\uFE0F",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "AB96196",
+          "on": "C6432A40807B2A00C5F857C0E91FAADFF9",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "4990BBE",
+          "on": "E9D3552006909090",
+          "off": "807B2A00C5F857C0"
+        }
+      ]
+    },
+    {
+      "name": "\uD83D\uDD34Change Specified Colour To Red\uD83D\uDD34",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B351D20",
+          "on": "00002041",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "\uD83D\uDFE2Change Specified Colour To Green\uD83D\uDFE2",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B351D24",
+          "on": "00002041",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "\uD83D\uDD35Change Specified Colour To Blue\uD83D\uDD35",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B351D28",
+          "on": "00002041",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "\uD83D\uDD35Set Entity Colour Aqua\uD83D\uDD35",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B351DB0",
+          "on": "00000000000020410000204100000040",
+          "off": "00000000000000000000000000000000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "\uD83D\uDD25MELTED NINJA\uD83D\uDD25"
+  ]
+}

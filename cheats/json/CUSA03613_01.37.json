@@ -1,0 +1,512 @@
+{
+  "name": "Fallout 4",
+  "id": "CUSA03613",
+  "version": "01.37",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "TRAINER INFO (read only)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "228EFC0",
+          "on": "00",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Master Switch (Must be enabled first)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "228F000",
+          "on": "C5F81080C000000048A36128A0020000000048050004000048A37028A002000000004883C00C48A38028A002000000004883C01848A39028A00200000000482D24040000E94E296FFE",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "98198F",
+          "on": "E96CD69001000000",
+          "off": "C5F81080C0000000"
+        },
+        {
+          "offset": "228F05F",
+          "on": "4C3B35FB373700747D833D9E00000001751B4981FA0000803F74124D39FC750D4C3B25DB373700750431D2EB7241504151833D7A0000000175104C8B05D03737004C8D0C884D39C87432833D6500000001752D4C8B05C73737004C8D0C884D39C87419833D500000000175144C8B05BE3737004C8D0C884D39C8750431D2EB0041594158EB194D39FE0F847AFFFFFF833D28000000017507BAF02374C9EB00891488C5FA104B0CE9B9B678FE",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "A1A7BC",
+          "on": "E99E488701909090",
+          "off": "891488C5FA104B0C"
+        }
+      ]
+    },
+    {
+      "name": "---God Mode  (Req. MS)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "228F10D",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "---Infinite Health (Req. MS)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "228F111",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "---Infinite AP-Stamina (Req. MS)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "228F115",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "---No Radiation (Req. MS)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "228F119",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "---One Hit Kill (Req. MS)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "228F11D",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Invincible",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "228F400",
+          "on": "C5F85C83C000000048A30029A00200000000E988256FFE",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "981997",
+          "on": "E964DA9001909090",
+          "off": "C5F85C83C0000000"
+        },
+        {
+          "offset": "228F41B",
+          "on": "4C89F74889DE4C3935D83437000F84CBBD70FEE9C1BD70FE",
+          "off": "000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "99B1EE",
+          "on": "E928428F0190",
+          "off": "4C89F74889DE"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Power Armor Core Power",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "228F130",
+          "on": "C7048800000000C5FA100488E97EBA78FE",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "A1ABBA",
+          "on": "E971458701",
+          "off": "C5FA100488"
+        }
+      ]
+    },
+    {
+      "name": "No Weight Limit",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "118106",
+          "on": "31C0909090",
+          "off": "418B442408"
+        }
+      ]
+    },
+    {
+      "name": "Stealth Mode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B43F37",
+          "on": "C5F057C9",
+          "off": "C5F259C9"
+        }
+      ]
+    },
+    {
+      "name": "Instant Lock Picking",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "D70115",
+          "on": "EB109090",
+          "off": "C5F82EC1"
+        }
+      ]
+    },
+    {
+      "name": "Easy Terminal Hacking (PWNed)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "88266A",
+          "on": "909090909090",
+          "off": "0F8539030000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Hacking Attempts",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "88265C",
+          "on": "9090",
+          "off": "FFC8"
+        }
+      ]
+    },
+    {
+      "name": "No Reload - Bottomless clip",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "A2A554",
+          "on": "909090",
+          "off": "2B4DB8"
+        }
+      ]
+    },
+    {
+      "name": "Max Accuracy",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "228F150",
+          "on": "0F57C0C4C17A118690000000E9AD5438FE",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "614605",
+          "on": "E946ABC70190909090",
+          "off": "C4C17A118690000000"
+        }
+      ]
+    },
+    {
+      "name": "No Recoil",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "228F190",
+          "on": "48C7477000000000C5FB104770E91E5D38FE",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "614EBB",
+          "on": "E9D0A2C701",
+          "off": "C5FB104770"
+        }
+      ]
+    },
+    {
+      "name": "No Weapon Spin-up",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "92203B",
+          "on": "BE0081000090",
+          "off": "8BB610010000"
+        },
+        {
+          "offset": "31273A",
+          "on": "F6801101000008",
+          "off": "F6801101000002"
+        }
+      ]
+    },
+    {
+      "name": "Manual Weapon Rapid Fire",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B32E48",
+          "on": "0F57C090",
+          "off": "C5FA5FC2"
+        }
+      ]
+    },
+    {
+      "name": "Small Arms Fully Automatic",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "228F450",
+          "on": "66C7000081440FB72041C1EC0FE92E2F8AFE",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "B32388",
+          "on": "E9C3D07501909090",
+          "off": "440FB72041C1EC0F"
+        },
+        {
+          "offset": "A2A63D",
+          "on": "F6811201000000",
+          "off": "F6811201000040"
+        }
+      ]
+    },
+    {
+      "name": "Max Items and Ammo On Use or Gain",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "115A93",
+          "on": "B93F420F00",
+          "off": "8B4F0C01C1"
+        }
+      ]
+    },
+    {
+      "name": "Super Jump",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "228F290",
+          "on": "C5F8118330010000D98338010000D80D0B000000D99B38010000E94CC9DFFE0000803F",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "108BBF3",
+          "on": "E998362001909090",
+          "off": "C5F8118330010000"
+        }
+      ]
+    },
+    {
+      "name": "---x2.5 Jump Multiplier",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "228F2AF",
+          "on": "00002040",
+          "off": "0000803F"
+        }
+      ]
+    },
+    {
+      "name": "Set Game Speed",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "228EFC4",
+          "on": "00",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "---x0.1 Speed Multiplier",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "1CBF540",
+          "on": "17B7D138",
+          "off": "6F12833A"
+        }
+      ]
+    },
+    {
+      "name": "Set Game Speed (Including Speech)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "228F500",
+          "on": "538B1D1000000089185BC5EA5900C5FA5EC1E9B55091FE0000803F",
+          "off": "000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "BA45C4",
+          "on": "E937AF6E01909090",
+          "off": "C5EA5900C5FA5EC1"
+        }
+      ]
+    },
+    {
+      "name": "---x0.1 Speed Multiplier",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "228F517",
+          "on": "CDCCCC3D",
+          "off": "0000803F"
+        }
+      ]
+    },
+    {
+      "name": "Set Time of Day",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "228F350",
+          "on": "C5FA10150A000000C5FA115030E961E06DFE00000041",
+          "off": "00000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "96D3BE",
+          "on": "E98D1F9201",
+          "off": "C5FA115030"
+        }
+      ]
+    },
+    {
+      "name": "---12pm",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "228F362",
+          "on": "00004041",
+          "off": "00000041"
+        }
+      ]
+    },
+    {
+      "name": "Max Bottle Caps On Trade",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "228F300",
+          "on": "4983F90C750941C74424207F96980041837C242000E9864EE8FD",
+          "off": "0000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "11419A",
+          "on": "E961B1170290",
+          "off": "41837C242000"
+        }
+      ]
+    },
+    {
+      "name": "70 Perk Points On Game Start (OTU)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "228F1C0",
+          "on": "4983BC058000000015750B41C744050046000000EB00418B440500E9E1DE02FF",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "12BD0BC",
+          "on": "E9FF20FD00",
+          "off": "418B440500"
+        }
+      ]
+    },
+    {
+      "name": "Ignore Perk Points Requirements",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80F208",
+          "on": "9090",
+          "off": "740C"
+        },
+        {
+          "offset": "80D7C9",
+          "on": "B8630000009090",
+          "off": "0FB680C10B0000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Perk Points Upgrade Requirements",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "ADF2E4",
+          "on": "9090",
+          "off": "FEC8"
+        }
+      ]
+    },
+    {
+      "name": "Max XP and Level (OTU)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "228F200",
+          "on": "4839D3751F4881FBC902000075168178080000803F750D50B820BCBE4C660F6EC058EB00C5FA11004D85F6E90B1E7BFE",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "A41034",
+          "on": "E9C7E184019090",
+          "off": "C5FA11004D85F6"
+        }
+      ]
+    },
+    {
+      "name": "Max Crafting Stock",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "228F250",
+          "on": "C746203F420F008B4620894720E9B154E8FD",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "11470D",
+          "on": "E93EAB170290",
+          "off": "8B4620894720"
+        }
+      ]
+    },
+    {
+      "name": "Minimum Building Requirement",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "228F270",
+          "on": "C7430801000000448B63084585E4E9995161FE",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "8A4415",
+          "on": "E956AE9E019090",
+          "off": "448B63084585E4"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Pharaoh2k"
+  ]
+}

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Bloodstained: Ritual of the Night" Moder="Ali-mk" Cusa="CUSA07953" Version="01.60" Process="eboot.bin">
+  <Genres Name="Action" />
+  <Items />
+  <Cheat Text="Infinite-Health-Aurora(MC)">
+    <Cheatline>
+      <Offset>D3DF800</Offset>
+      <Section>0</Section>
+      <ValueOn>83-BB-98-02-00-00-01-75-08-8B-43-0C-E9-88-E1-E4-F8-89-83-40-02-00-00-E9-7D-E1-E4-F8</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>622D993</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-68-1E-1B-07-90</ValueOn>
+      <ValueOff>89-83-40-02-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite-Health-Zengetsu(MC)">
+    <Cheatline>
+      <Offset>D3DF83C</Offset>
+      <Section>0</Section>
+      <ValueOn>83-BB-9C-03-00-00-10-75-08-8B-43-0C-E9-4C-E1-E4-F8-89-83-40-02-00-00-E9-41-E1-E4-F8</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>622D993</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-A4-1E-1B-07</ValueOn>
+      <ValueOff>E9-86-1E-1B-07</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite-MP(Aurora)">
+    <Cheatline>
+      <Offset>34C0C55</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-93-A4-04-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite-MP(Zengetsu)">
+    <Cheatline>
+      <Offset>5E2DABD</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90</ValueOn>
+      <ValueOff>89-8B-44-02-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max-Gold(99999999)">
+    <Cheatline>
+      <Offset>CFDF81E</Offset>
+      <Section>0</Section>
+      <ValueOn>BE-FF-E0-F5-05-89-B7-30-04-00-00-E9-29-87-ED-F8</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>5EB7F51</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-C8-78-12-07-90</ValueOn>
+      <ValueOff>89-B7-30-04-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Inf-Health-2">
+    <Cheatline>
+      <Offset>5E2D93C</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90</ValueOn>
+      <ValueOff>80-78-03-01</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Time never decrease (Miriam Classic Mode)" Description="You can activate it at any time of the game (Puedes activarlo en cualquier parte del juego)">
+    <Cheatline>
+      <Offset>CFDF800</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-83-48-05-00-00-00-00-FA-43-E9-DC-47-9F-F8</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>59D3FE3</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-18-B8-60-07-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-83-48-05-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite potions x99 (Miriam Classic Mode)" Description="The potions will decrease when use, but restore to 99 when you collect blue roses (Las pociones bajarán cuando las usas, pero se restauran a 99 cuando recolectas rosas azules)">
+    <Cheatline>
+      <Offset>CFDF811</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-87-B4-00-00-00-63-00-00-00-E9-F1-38-A1-F8</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>59F310B</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-01-C7-5E-07-90</ValueOn>
+      <ValueOff>89-87-B4-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite health + One hit kill (Miriam Classic Mode)" Description="You can activate it at any time of the game (Puedes activarlo en cualquier parte del juego)">
+    <Cheatline>
+      <Offset>CFDF822</Offset>
+      <Section>0</Section>
+      <ValueOn>0F-2E-C9-0F-85-6F-86-99-F8-41-C7-87-68-02-00-00-00-00-80-42-E9-5F-86-99-F8</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>5977E91</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-8C-79-66-07-90-90-90-90</ValueOn>
+      <ValueOff>C4-C1-7A-11-8F-68-02-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite lives x99 (Miriam Classic Mode)" Description="You can activate it at any time of the game (Puedes activarlo en cualquier parte del juego)">
+    <Cheatline>
+      <Offset>CFDF83D</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-87-B0-00-00-00-63-00-00-00-E9-04-46-A2-F8</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>5A03E4A</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-EE-B9-5D-07-90</ValueOn>
+      <ValueOff>89-87-B0-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Health + One hit kill" Description="You can activate it at any time of the game (Puedes activarlo en cualquier parte del juego)">
+    <Cheatline>
+      <Offset>CFDF800</Offset>
+      <Section>0</Section>
+      <ValueOn>49-83-F9-00-0F-85-8F-E1-E4-F8-B8-00-00-00-00-89-83-40-02-00-00-E9-7F-E1-E4-F8</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>5E2D993</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-68-1E-1B-07-90</ValueOn>
+      <ValueOff>89-83-40-02-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Magic" Description="You can activate it at any time of the game (Puedes activarlo en cualquier parte del juego)">
+    <Cheatline>
+      <Offset>CFDF81C</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-83-44-02-00-00-3F-42-0F-00-E9-8B-FB-E4-F8</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>5E2F3B0</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-67-04-1B-07-90</ValueOn>
+      <ValueOff>89-8B-44-02-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Gold x999999" Description="You can activate it at any time of the game (Puedes activarlo en cualquier parte del juego)">
+    <Cheatline>
+      <Offset>CFDF82D</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-87-30-04-00-00-3F-42-0F-00-E9-1B-87-ED-F8</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>5EB7F51</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-D7-78-12-07-90</ValueOn>
+      <ValueOff>89-B7-30-04-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Items x99 (Need 2 to work)" Description="You can activate it at any time of the game (Puedes activarlo en cualquier parte del juego)">
+    <Cheatline>
+      <Offset>CFDF83E</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-42-48-63-00-00-00-E9-F3-F2-E0-F8</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>5DEEB33</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-06-0D-1F-07-90-90-90-90-90</ValueOn>
+      <ValueOff>44-89-6A-48-0F-88-F2-01-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Bullets x99" Description="You can activate it at any time of the game (Puedes activarlo en cualquier parte del juego)">
+    <Cheatline>
+      <Offset>CFDF84C</Offset>
+      <Section>0</Section>
+      <ValueOn>41-C7-47-48-63-00-00-00-E9-29-43-E1-F8</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>5DF3B77</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-D0-BC-1E-07-90-90-90-90-90-90</ValueOn>
+      <ValueOff>41-89-47-48-80-BD-EC-FC-FF-FF-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+</Trainer>

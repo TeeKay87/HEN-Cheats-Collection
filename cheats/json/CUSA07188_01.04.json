@@ -1,0 +1,44 @@
+{
+  "name": "Bulletstorm: Full Clip Edition",
+  "id": "CUSA07188",
+  "version": "01.04",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Life And Exp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "AE2A4",
+          "on": "0345C8",
+          "off": "2B45C8"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "16BF3B2",
+          "on": "90909090909090",
+          "off": "29948BE8170000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "16BF3B9",
+          "on": "90909090909090",
+          "off": "29948BE0170000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

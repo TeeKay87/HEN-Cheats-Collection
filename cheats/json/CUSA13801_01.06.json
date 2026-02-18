@@ -1,0 +1,659 @@
+{
+  "name": "Sekiro: Shadows Die Twice",
+  "id": "CUSA13801",
+  "version": "01.06",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "MasterCode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3AD3000",
+          "on": "48833D9500000001743E48833D9300000001744948833D9100000001746341898630010000E9F25AC9FD48833D6B00000001741448833D6900000001741F48833D670000000174390F2EC80F84CB5AC9FD41898630010000E9BF5AC9FD0F2EC8741348C7C00000000041898630010000E9A75AC9FD41898630010000E99B5AC9FD0F2EC80F84925AC9FD48C7C00000000041898630010000E97F5AC9FD000000000000000000000000000000000000000000000000",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1768B15",
+          "on": "E9E6A436029090",
+          "off": "41898630010000"
+        }
+      ]
+    },
+    {
+      "name": "--Infinite_Life",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3AD309D",
+          "on": "0100000000000000",
+          "off": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "--Infinite_Life_One_Hit_Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3AD30AD",
+          "on": "0100000000000000",
+          "off": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "--One_Hit_Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3AD30A5",
+          "on": "0100000000000000",
+          "off": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "God Mode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "177F2AA",
+          "on": "9090909090",
+          "off": "E8415AFDFF"
+        }
+      ]
+    },
+    {
+      "name": "Inf items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "11AE81E",
+          "on": "418900",
+          "off": "458938"
+        }
+      ]
+    },
+    {
+      "name": "Level 99 After first kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "11CD215",
+          "on": "41899D60010000",
+          "off": "4589B560010000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Money",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3AD30D5",
+          "on": "4189D68B15090000004189557CE9B4139FFD3F420F0000000000",
+          "off": "0000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "14C4494",
+          "on": "E93CEC60029090",
+          "off": "4189D64189557C"
+        }
+      ]
+    },
+    {
+      "name": "Max/Infinite Health/1 Hit Kill (Master Code)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5FA20",
+          "on": "41837E500075154189863001000041898630010000E9E290B08131C041898630010000E9D490B081",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1768B15",
+          "on": "E9066F4F7E9090",
+          "off": "41898630010000"
+        }
+      ]
+    },
+    {
+      "name": "Max/Infinite Health (Need MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5FA27",
+          "on": "418B8634010000",
+          "off": "418B8630010000"
+        }
+      ]
+    },
+    {
+      "name": "1 Hit Kill (Need MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5FA25",
+          "on": "7513",
+          "off": "7515"
+        }
+      ]
+    },
+    {
+      "name": "Max/Infinite All Items (Need 2 To Work)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5C1D0",
+          "on": "458938418900E949265581",
+          "off": "0000000000000000000000"
+        },
+        {
+          "offset": "11AE81E",
+          "on": "E9ADD9AA7E90",
+          "off": "4589384489FA"
+        }
+      ]
+    },
+    {
+      "name": "Max/Infinite Money On Start",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5C270",
+          "on": "4189557C41C7457CFFE0F505E91D828681",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "14C4497",
+          "on": "E9D47D797E9090",
+          "off": "4189557C4529E6"
+        }
+      ]
+    },
+    {
+      "name": "Max/Infinite Skill Points (Kill N Turn Off)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3AD3800",
+          "on": "41899D60010000E9109A6FFD",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "11CD215",
+          "on": "E9E66590029090",
+          "off": "4589B560010000"
+        }
+      ]
+    },
+    {
+      "name": "Speed MC (Must Be On)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "03AAF067",
+          "on": "4881FA075D3604750FC787700900000000803FE9F55BC6FDC787700900000000803FE9E65BC6FD",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "01714C6A",
+          "on": "E9F8A339029090909090",
+          "off": "C787700900000000803F"
+        }
+      ]
+    },
+    {
+      "name": "Super HP Bar On Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "03AAF15E",
+          "on": "B9404B4C0041894F1841894F20E92C17A3FD",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "014E0896",
+          "on": "E9C3E85C0290",
+          "off": "8B8834010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "03AAF0B4",
+          "on": "8B8834010000898830010000E9F51405FE",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "01B005B4",
+          "on": "E9FBEAFA0190",
+          "off": "8B8830010000"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01762316",
+          "on": "B00190909090",
+          "off": "8A05BD398002"
+        }
+      ]
+    },
+    {
+      "name": "Untouchable",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "03AAF136",
+          "on": "4C89FE4C89EA6681FCC0840F849AD8CAFDE990D8CAFD",
+          "off": "00000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "0175C9D6",
+          "on": "E95B27350290",
+          "off": "4C89FE4C89EA"
+        }
+      ]
+    },
+    {
+      "name": "Auto Block Target",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "03AD3800",
+          "on": "48891D594D5400488B43084885C0E9EBBDC1FD",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "016EF5F7",
+          "on": "E904423E029090",
+          "off": "488B43084885C0"
+        },
+        {
+          "offset": "03AD3813",
+          "on": "488B36483B35434D5400750848C7467004000000488B7E70E92404CAFD",
+          "off": "0000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "01773C4D",
+          "on": "E9C1FB35029090",
+          "off": "488B36488B7E70"
+        }
+      ]
+    },
+    {
+      "name": "Parry Always On Time",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "014C710F",
+          "on": "803DD7EBA90201",
+          "off": "803DD7EBA90200"
+        }
+      ]
+    },
+    {
+      "name": "Player Infinite Posture",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01769A25",
+          "on": "803DC3C27F0201",
+          "off": "803DC3C27F0200"
+        }
+      ]
+    },
+    {
+      "name": "Quick Deathblow",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "03AAF08E",
+          "on": "41837D1800750C4589A548010000E93F07D8FD4589BD48010000E93307D8FD",
+          "off": "00000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "0182F7D9",
+          "on": "E9B0F827029090",
+          "off": "4589A548010000"
+        }
+      ]
+    },
+    {
+      "name": "Enemy Infinite posture",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0182F7AF",
+          "on": "803D3965730201",
+          "off": "803D3965730200"
+        }
+      ]
+    },
+    {
+      "name": "100% Drop Rate",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "03AAF170",
+          "on": "50B800007A44660F6EC058E9F2878DFD",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "0138796A",
+          "on": "E901787202909090",
+          "off": "C5FA108204020000"
+        },
+        {
+          "offset": "013872A9",
+          "on": "E9A6060000909090",
+          "off": "F6412170C5F057C9"
+        }
+      ]
+    },
+    {
+      "name": "Max Money",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "014C448A",
+          "on": "89C890",
+          "off": "0F4CC8"
+        }
+      ]
+    },
+    {
+      "name": "Max Items On Use",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "011AE809",
+          "on": "9090",
+          "off": "7513"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Quick Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "014904AF",
+          "on": "803D2558AD0201",
+          "off": "803D2558AD0200"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Merchant Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0107FFD8",
+          "on": "31D2909090",
+          "off": "BA01000000"
+        }
+      ]
+    },
+    {
+      "name": "Auto Pick Enemy Drops",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01378334",
+          "on": "B000",
+          "off": "B001"
+        }
+      ]
+    },
+    {
+      "name": "Exp Quick lvl Up",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "03AAF10C",
+          "on": "418B8DF0090000FFC941398D600100007D0C41898D60010000E9AE1F05FE418B8D60010000E9A21F05FE",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "01B010D1",
+          "on": "E936E0FA019090",
+          "off": "418B8D60010000"
+        }
+      ]
+    },
+    {
+      "name": "High Jump",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "03AAF0C5",
+          "on": "C4C1791086C0080000C5F911052A4F15FCC705244F15FC0000A040C5F91005184F15FCE9C19374FD",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "011F84A5",
+          "on": "E91B6C8B0290909090",
+          "off": "C4C1791086C0080000"
+        }
+      ]
+    },
+    {
+      "name": "Undetected",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0182DFE1",
+          "on": "B00190909090",
+          "off": "8A05FA7C7302"
+        },
+        {
+          "offset": "01E9D819",
+          "on": "803DC2840C0201",
+          "off": "803DC2840C0200"
+        }
+      ]
+    },
+    {
+      "name": "Enemy Location",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "F579BC",
+          "on": "45898768010000",
+          "off": "41898768010000"
+        }
+      ]
+    },
+    {
+      "name": "Enemy Don\u0027t Move",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "011FEC4B",
+          "on": "803D9670D60200",
+          "off": "803D9670D60201"
+        }
+      ]
+    },
+    {
+      "name": "Enemy Don\u0027t Attack",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "E84E9E",
+          "on": "803D410E0E0301",
+          "off": "803D410E0E0300"
+        }
+      ]
+    },
+    {
+      "name": "No Fall Damage",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "017C7FD3",
+          "on": "89C890",
+          "off": "4429E0"
+        }
+      ]
+    },
+    {
+      "name": "No Status Effects",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0145EB43",
+          "on": "89C890",
+          "off": "0F4EC1"
+        },
+        {
+          "offset": "0145EB7E",
+          "on": "89C890",
+          "off": "0F4EC1"
+        },
+        {
+          "offset": "0145EBC3",
+          "on": "89C890",
+          "off": "0F4EC1"
+        },
+        {
+          "offset": "0145EBFE",
+          "on": "89C890",
+          "off": "0F4EC1"
+        },
+        {
+          "offset": "0145EC3B",
+          "on": "89C890",
+          "off": "0F4EC1"
+        },
+        {
+          "offset": "01775CEF",
+          "on": "4189C690",
+          "off": "440F4EF0"
+        }
+      ]
+    },
+    {
+      "name": "No Money\\Exp loss Upon Death",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01FC8949",
+          "on": "4489F2",
+          "off": "0F4FD0"
+        },
+        {
+          "offset": "01FC8A3F",
+          "on": "4489CF",
+          "off": "0F4FF9"
+        }
+      ]
+    },
+    {
+      "name": "Practice Mode (No One Dies)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01768B15",
+          "on": "90909090909090",
+          "off": "41898630010000"
+        }
+      ]
+    },
+    {
+      "name": "Resurrection Charge No Cooldown",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "03AAF180",
+          "on": "0F57C9C5FA118850010000E9B82D05FE",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "01B01F40",
+          "on": "E93BD2FA01909090",
+          "off": "C5FA108850010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Resurrection",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "014BD532",
+          "on": "803DA487AA0201",
+          "off": "803DA487AA0200"
+        }
+      ]
+    },
+    {
+      "name": "Player Speed 1.50",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "03AAF070",
+          "on": "C787700900000000C03F",
+          "off": "C787700900000000803F"
+        }
+      ]
+    },
+    {
+      "name": "Enemy Speed 0.00",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "03AAF07F",
+          "on": "C7877009000000000000",
+          "off": "C787700900000000803F"
+        }
+      ]
+    },
+    {
+      "name": "Untouchable v2",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "03AD3830",
+          "on": "4981FAB8FF01000F85DF1892FDE9E00F92FD",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "013F481C",
+          "on": "E90FF06D0290",
+          "off": "0F8FFA080000"
+        }
+      ]
+    },
+    {
+      "name": "Mikiri Counter Always On Time Test",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "03AD3842",
+          "on": "4981FAB8FF01007402B001888520FCFFFFE9FF0F92FD",
+          "off": "00000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "013F4851",
+          "on": "E9ECEF6D0290",
+          "off": "888520FCFFFF"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme",
+    "Celogamez",
+    "hejran7 and Pharaoh2k"
+  ]
+}

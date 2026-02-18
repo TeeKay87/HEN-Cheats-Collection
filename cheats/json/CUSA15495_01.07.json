@@ -1,0 +1,294 @@
+{
+  "name": "Surviving the Aftermath",
+  "id": "CUSA15495",
+  "version": "01.07",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "ressources field Quickly taken",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "48DB43",
+          "on": "01F0",
+          "off": "89F0"
+        }
+      ]
+    },
+    {
+      "name": "Field Ressources Multiplies (use with Caution)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "48DB40",
+          "on": "014128",
+          "off": "894128"
+        }
+      ]
+    },
+    {
+      "name": "Research Points Multiplier (use with Caution)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3C0CDD",
+          "on": "017060",
+          "off": "897060"
+        }
+      ]
+    },
+    {
+      "name": "Free Starter building do not decrease",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "733FF8",
+          "on": "909090",
+          "off": "FF4818"
+        }
+      ]
+    },
+    {
+      "name": "Resources never decrease (build general storage to request more)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80E9F199",
+          "on": "9090909090",
+          "off": "E8E28E2901"
+        },
+        {
+          "offset": "80EA5836",
+          "on": "9090909090",
+          "off": "E845282901"
+        }
+      ]
+    },
+    {
+      "name": "infinite travel distance on the map",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "83303800",
+          "on": "C78088000000F4010000E94411EFFD",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "811F494D",
+          "on": "E9AEEE100290",
+          "off": "89B088000000"
+        }
+      ]
+    },
+    {
+      "name": "MAX money on get or use",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8330383D",
+          "on": "C780A0000000B88201005DC3E9371577FD",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "80A74D7D",
+          "on": "E9BBEA880290",
+          "off": "89B0A0000000"
+        }
+      ]
+    },
+    {
+      "name": "MAX science Points on get or use",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8330382D",
+          "on": "C74060B88201005DC3E9A71477FD",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "80A74CDD",
+          "on": "E94BEB8802",
+          "off": "8970605DC3"
+        }
+      ]
+    },
+    {
+      "name": "happy population ( effect production rate positively)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "83303850",
+          "on": "41C74740003C1C46E90D22CCFD",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "80FC5A64",
+          "on": "E9E7DD330290",
+          "off": "C4C17A114740"
+        }
+      ]
+    },
+    {
+      "name": "infinite stored energy",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8330386D",
+          "on": "C7435080E57349E9BB1377FD",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "80A74C2F",
+          "on": "E939EC8802",
+          "off": "C5FA114350"
+        }
+      ]
+    },
+    {
+      "name": "infinite stored water",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8330385F",
+          "on": "C7433C80E57349E90D1477FD",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "80A74C73",
+          "on": "E9E7EB8802",
+          "off": "C5FA11433C"
+        }
+      ]
+    },
+    {
+      "name": "infinite stored tower water (use with caution)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "833038D5",
+          "on": "C780B000000080E57349E9814377FD",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "80A77C5D",
+          "on": "E973BC8802909090",
+          "off": "C5FA1180B0000000"
+        }
+      ]
+    },
+    {
+      "name": "infinite battery storage capacity(build or destroy a battery)(need save reloading to be disabled)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "83303897",
+          "on": "C7404C80E57349E9664977FD",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "80A78204",
+          "on": "E98EB68802",
+          "off": "C5FA11404C"
+        },
+        {
+          "offset": "833038A5",
+          "on": "C7404C80E57349E9E84977FD",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "80A78294",
+          "on": "E90CB68802",
+          "off": "C5FA11404C"
+        }
+      ]
+    },
+    {
+      "name": "infinite water storage capacity(build or destroy a water storage)(need save reloading to be disabled)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8330387B",
+          "on": "C7403880E57349E9F54977FD",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "80A78277",
+          "on": "E9FFB58802",
+          "off": "C5FA114038"
+        },
+        {
+          "offset": "83303889",
+          "on": "C7403880E57349E9574977FD",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "80A781E7",
+          "on": "E99DB68802",
+          "off": "C5FA114038"
+        }
+      ]
+    },
+    {
+      "name": "infinite water tower storage capacity(build or destroy a tower)(need save reloading to be disabled)(use with caution)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "833038B3",
+          "on": "C780AC00000080E57349E95B4A77FD",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "80A78315",
+          "on": "E999B58802909090",
+          "off": "C5FA1180AC000000"
+        },
+        {
+          "offset": "833038C4",
+          "on": "C780AC00000080E57349E90A4A77FD",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "80A782D5",
+          "on": "E9EAB58802909090",
+          "off": "C5FA1180AC000000"
+        }
+      ]
+    },
+    {
+      "name": "infinite energy production (need save reloading to be disabled)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "83303811",
+          "on": "C74040003C1C46E9B64077FD",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "80A778CE",
+          "on": "E93EBF8802",
+          "off": "C5FA114040"
+        }
+      ]
+    },
+    {
+      "name": "infinite water production (build or destroy a water source)(need save reloading to be disabled)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8330381F",
+          "on": "C7402C003C1C46E9844077FD",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "80A778AA",
+          "on": "E970BF8802",
+          "off": "C5FA11402C"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Wander FW9.00",
+    "LMN"
+  ]
+}

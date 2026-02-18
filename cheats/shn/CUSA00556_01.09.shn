@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="The Last of Us: Remastered" Moder="TLH" Cusa="CUSA00556" Version="01.09" Process="eboot.bin">
+  <Genres Name="Action" />
+  <Genres Name="Adventure" />
+  <Genres Name="Fighting" />
+  <Genres Name="Horror" />
+  <Genres Name="Shooter" />
+  <Genres Name="Strategy" />
+  <Items />
+  <Cheat Text="Debug Menu (Enable)">
+    <Cheatline>
+      <Offset>4108</Offset>
+      <Section>0</Section>
+      <ValueOn>C6-81-81-2E-00-00-01</ValueOn>
+      <ValueOff>80-B9-81-2E-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>410F</Offset>
+      <Section>0</Section>
+      <ValueOn>EB-04-90-90-90-90</ValueOn>
+      <ValueOff>0F-84-8E-12-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Debug Menu (Disable)">
+    <Cheatline>
+      <Offset>4108</Offset>
+      <Section>0</Section>
+      <ValueOn>C6-81-81-2E-00-00-00</ValueOn>
+      <ValueOff>80-B9-81-2E-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+</Trainer>

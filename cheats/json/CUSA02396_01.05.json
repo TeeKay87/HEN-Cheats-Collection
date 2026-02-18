@@ -1,0 +1,33 @@
+{
+  "name": "Frozen Free Fall: Snowball Fight",
+  "id": "CUSA02396",
+  "version": "01.05",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Hearts",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "A786C5",
+          "on": "9090",
+          "off": "8908"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Moves",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "9E6230",
+          "on": "90909090",
+          "off": "4189474C"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Bandicootmonito"
+  ]
+}

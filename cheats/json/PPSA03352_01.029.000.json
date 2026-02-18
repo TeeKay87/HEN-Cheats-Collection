@@ -1,0 +1,59 @@
+{
+  "name": "The Callisto Protocol",
+  "id": "PPSA03352",
+  "version": "01.029.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7083000",
+          "on": "BE0600000089B7B8000000E9436BD6FA",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "1DE9B4D",
+          "on": "E9AE94290590",
+          "off": "89B7B8000000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Credits",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7083030",
+          "on": "41BCE38601004689643B10E91DFFD6FA",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "1DF2F58",
+          "on": "E9D3002905",
+          "off": "4689643B10"
+        }
+      ]
+    },
+    {
+      "name": "Inf HP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7083060",
+          "on": "83BBE8000000027517C783180100000000C842C5FA109318010000E9E751F5FAC5FA119318010000E9DA51F5FA",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1FD825F",
+          "on": "E9FCAD0A05909090",
+          "off": "C5FA119318010000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

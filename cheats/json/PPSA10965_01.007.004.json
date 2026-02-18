@@ -1,0 +1,27 @@
+{
+  "name": "Pacific Drive",
+  "id": "PPSA10965",
+  "version": "01.007.004",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCC7000",
+          "on": "E991846581458993B8000000E985846581",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "131F48F",
+          "on": "E96C7B9A7E9090",
+          "off": "458993B8000000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

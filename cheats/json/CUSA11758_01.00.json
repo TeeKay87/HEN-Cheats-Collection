@@ -1,0 +1,38 @@
+{
+  "name": "Shaq Fu: A Legend Reborn",
+  "id": "CUSA11758",
+  "version": "01.00",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Life",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5B000",
+          "on": "488B4D1081FEDC0100000F84543E9F00488908E94C3E9F00",
+          "off": "000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "8064EE5D",
+          "on": "E99EC160FF9090",
+          "off": "488B4D10488908"
+        }
+      ]
+    },
+    {
+      "name": "Inf Special",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "806E9350",
+          "on": "90909090",
+          "off": "48894810"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

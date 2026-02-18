@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="NINJA GAIDEN: Ragebound" Moder="Ali-mk" Cusa="CUSA53132" Version="01.02" Process="eboot.bin">
+  <Genres Name="Action" />
+  <Items />
+  <Cheat Text="Invincible">
+    <Cheatline>
+      <Offset>82BD06E9</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90</ValueOn>
+      <ValueOff>C5-F8-2E-40-68</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite-Ki">
+    <Cheatline>
+      <Offset>8269F176</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90</ValueOn>
+      <ValueOff>E8-95-00-47-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="MAX-Points-1-buy">
+    <Cheatline>
+      <Offset>844A7800</Offset>
+      <Section>0</Section>
+      <ValueOn>B8-E7-03-00-00-42-89-44-3B-0C-E9-1B-00-01-FD</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>814B7825</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-D6-FF-FE-02</ValueOn>
+      <ValueOff>42-89-44-3B-0C</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="one-Hit-Kill">
+    <Cheatline>
+      <Offset>82B0F386</Offset>
+      <Section>0</Section>
+      <ValueOn>45-0F-4C-FE</ValueOn>
+      <ValueOff>45-0F-4C-E7</ValueOff>
+    </Cheatline>
+  </Cheat>
+</Trainer>

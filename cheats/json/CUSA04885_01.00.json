@@ -1,0 +1,461 @@
+{
+  "name": "Resident Evil 4",
+  "id": "CUSA04885",
+  "version": "01.00",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Godmode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "608A26",
+          "on": "909090909090900F",
+          "off": "668988185000000F"
+        }
+      ]
+    },
+    {
+      "name": "Modded Stock Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6E0DEE",
+          "on": "6641014F02E9E002",
+          "off": "6641894F02E9E002"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "208A26",
+          "on": "90909090909090",
+          "off": "66898818500000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2e208e",
+          "on": "909090",
+          "off": "894306"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Inventory Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2e0dee",
+          "on": "6641014f02",
+          "off": "6641894f02"
+        }
+      ]
+    },
+    {
+      "name": "99999999 PTAS",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "1031C7C",
+          "on": "FFE0F505",
+          "off": "FFE0F505"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Inventory Ammo (NOP)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2E0DEC",
+          "on": "9090",
+          "off": "29C1"
+        }
+      ]
+    },
+    {
+      "name": "Matrix",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2B5C73",
+          "on": "C5FA104F01",
+          "off": "C5FA104F04"
+        }
+      ]
+    },
+    {
+      "name": "Change starting Hangun to P.R.L. 412",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2041407D8",
+          "on": "0602",
+          "off": "0201"
+        },
+        {
+          "offset": "2041407CE",
+          "on": "41",
+          "off": "23"
+        }
+      ]
+    },
+    {
+      "name": "Invisible",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8FA330",
+          "on": "0FB64705C647059EA880E977A579FF",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "948B0",
+          "on": "E97B5A860090",
+          "off": "0FB64705A880"
+        }
+      ]
+    },
+    {
+      "name": "Walk Through Walls",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "65E0",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "Player Not Easy To Shake",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3686D1",
+          "on": "C6831401000000",
+          "off": "C6831401000001"
+        }
+      ]
+    },
+    {
+      "name": "Enemy Freeze",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "94260",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "Speed Normal",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "8FA0C0",
+          "on": "C5FA108704030000C787040300000000803FE91999A0FF",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "3039E8",
+          "on": "E9D3665F00909090",
+          "off": "C5FA108704030000"
+        }
+      ]
+    },
+    {
+      "name": "Speed 3x",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "8FA100",
+          "on": "C5FA108704030000C7870403000000004040E9D998A0FF",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "3039E8",
+          "on": "E913675F00909090",
+          "off": "C5FA108704030000"
+        }
+      ]
+    },
+    {
+      "name": "Speed 5x",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "8FA070",
+          "on": "C5FA108704030000C787040300000000A040E96999A0FF",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "3039E8",
+          "on": "E983665F00909090",
+          "off": "C5FA108704030000"
+        }
+      ]
+    },
+    {
+      "name": "Change Character Size To Normal",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "8FA1A0",
+          "on": "41807C240B03740FC4C17A108424BC000000E9C6FBC4FF41C78424BC0000000000803F41C78424C00000000000803F41C78424C40000000000803FC4C17A108424BC000000E993FBC4FF",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "549D73",
+          "on": "E928043B009090909090",
+          "off": "C4C17A108424BC000000"
+        }
+      ]
+    },
+    {
+      "name": "Change Character Size To Big",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "8FA140",
+          "on": "41807C240B03740FC4C17A108424BC000000E926FCC4FF41C78424BC0000000000004041C78424C00000000000004041C78424C400000000000040C4C17A108424BC000000E9F3FBC4FF",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "549D73",
+          "on": "E9C8033B009090909090",
+          "off": "C4C17A108424BC000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health All Players",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC57AB0",
+          "on": "0F4EDA90E9550F5B80",
+          "off": "000000000000000000"
+        },
+        {
+          "offset": "208A09",
+          "on": "E9A2F0A47F",
+          "off": "0F4EDA29DA"
+        },
+        {
+          "offset": "7FC57870",
+          "on": "0F4ECA90E9FD115B80",
+          "off": "000000000000000000"
+        },
+        {
+          "offset": "208A71",
+          "on": "E9FAEDA47F",
+          "off": "0F4ECA29CA"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Clip Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC57F50",
+          "on": "90E99D8E6880",
+          "off": "000000000000"
+        },
+        {
+          "offset": "2E0DEE",
+          "on": "E95D71977F",
+          "off": "6641894F02"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC57F40",
+          "on": "09C890E949A16880",
+          "off": "0000000000000000"
+        },
+        {
+          "offset": "2E208C",
+          "on": "E9AF5E977F",
+          "off": "09C8894306"
+        }
+      ]
+    },
+    {
+      "name": "Save Always 0",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC57E90",
+          "on": "C6800050000000E90EC96480",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "2A47A3",
+          "on": "E9E8369B7F9090",
+          "off": "66898800500000"
+        }
+      ]
+    },
+    {
+      "name": "Attache Case XL (Activate B4 Starting The Game)",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "740806",
+          "on": "7F",
+          "off": "AD"
+        }
+      ]
+    },
+    {
+      "name": "Infinite R. Launcher (Put Handgun In The Center)",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "7407CE",
+          "on": "6D00",
+          "off": "2300"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Chicago Typewriter (Put Handgun In The Center)",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "7407CE",
+          "on": "3400",
+          "off": "2300"
+        },
+        {
+          "offset": "7407D4",
+          "on": "0660",
+          "off": "0000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health: Leon/Ada",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "208A0C",
+          "on": "9090",
+          "off": "29DA"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health: Ashley/Louis",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "208A74",
+          "on": "9090",
+          "off": "29CA"
+        }
+      ]
+    },
+    {
+      "name": "Infinite PTAS",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2F9D0D",
+          "on": "9090",
+          "off": "29C1"
+        },
+        {
+          "offset": "5368C9",
+          "on": "909090909090",
+          "off": "29810C500000"
+        }
+      ]
+    },
+    {
+      "name": "999.999 PTAS on Pick",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "91F800",
+          "on": "B83F420F0001810C500000E9CF809BFF",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "2D78D9",
+          "on": "E9227F640090",
+          "off": "01810C500000"
+        }
+      ]
+    },
+    {
+      "name": "Freeze Save-Counter",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2A4794",
+          "on": "9090",
+          "off": "FFC1"
+        }
+      ]
+    },
+    {
+      "name": "Freeze Retry-Counter",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "25DA93",
+          "on": "909090",
+          "off": "41FFC5"
+        },
+        {
+          "offset": "25DA8E",
+          "on": "909090",
+          "off": "41FFC7"
+        }
+      ]
+    },
+    {
+      "name": "Easy Shooting Range",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "44F987",
+          "on": "4589CC90",
+          "off": "468B2481"
+        },
+        {
+          "offset": "91F810",
+          "on": "0F8E9E01B3FFC7400CFF000000E99801B3FF",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "44F9B5",
+          "on": "E956FE4C00",
+          "off": "7E03FF400C"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "PS4Guru",
+    "TylerMods",
+    "TylerMods \u002B Gatot Kaca \u002B Celogamez_9.00",
+    "TLH"
+  ]
+}

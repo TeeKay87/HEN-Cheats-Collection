@@ -1,0 +1,55 @@
+{
+  "name": "Gradius III and IV",
+  "id": "SLUS20040",
+  "version": "01.00",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Gradius-III-Inf-lives",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8080C01050",
+          "on": "63000000",
+          "off": "63000000"
+        }
+      ]
+    },
+    {
+      "name": "Gradius-III-Inf-SPEED-UP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8080C0106A",
+          "on": "01",
+          "off": "01"
+        }
+      ]
+    },
+    {
+      "name": "Gradius-IV-Inf-lives",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8080496008",
+          "on": "63000000",
+          "off": "63000000"
+        }
+      ]
+    },
+    {
+      "name": "Gradius-IV-Inf-SPEED-UP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8080496042",
+          "on": "01",
+          "off": "01"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Ali-mk"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Peggle 2",
+  "id": "CUSA00743",
+  "version": "01.01",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Balls",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2398B0",
+          "on": "909090",
+          "off": "897728"
+        },
+        {
+          "offset": "2216BD",
+          "on": "9090909090909090",
+          "off": "4189842410090000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Bandicootmonito"
+  ]
+}

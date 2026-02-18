@@ -1,0 +1,215 @@
+{
+  "name": "Biomutant",
+  "id": "CUSA09848",
+  "version": "02.09",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "stats points active after getting points ",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "34A172",
+          "on": "909090909090",
+          "off": "FF8EE80C0000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health/1 Hit Kill (Master Code/Must Be On)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "449FA00",
+          "on": "4983F8017510C5FA118384180000E991EEE2FB0F57C0C5FA118384180000E981EEE2FB",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "2CE89C",
+          "on": "E95F111D04909090",
+          "off": "C5FA118384180000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "449FA06",
+          "on": "C5FA108384180000",
+          "off": "C5FA118384180000"
+        }
+      ]
+    },
+    {
+      "name": "1 Hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "449FA04",
+          "on": "750D",
+          "off": "7510"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo/No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "449F920",
+          "on": "C4C17A108718010000E98F8A4DFC",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "9783B4",
+          "on": "E96775B20390909090",
+          "off": "C4C17A118718010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Special Attack",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "449F9A0",
+          "on": "C4C17A108D88180000E93F97E0FB",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "2A90E4",
+          "on": "E9B7681F0490909090",
+          "off": "C4C17A118D88180000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Breath/Jump (Water)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "449F5A0",
+          "on": "C5FA108388180000E95CF5E4FB",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "2EEB01",
+          "on": "E99A0A1B04909090",
+          "off": "C5FA118388180000"
+        },
+        {
+          "offset": "449F650",
+          "on": "C5FA108B88180000E9C74AE2FB",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "2C411C",
+          "on": "E92FB51D04909090",
+          "off": "C5FA118B88180000"
+        }
+      ]
+    },
+    {
+      "name": "Max/Infinite Consumables",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "449F880",
+          "on": "498D752041C6457863E92EEC14FC",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "5EE4B4",
+          "on": "E9C713EB03909090",
+          "off": "498D752041895D78"
+        }
+      ]
+    },
+    {
+      "name": "Max/Infinite Avaliable Points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "449F6C0",
+          "on": "C686E80C000063E9ACAAEAFB",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "34A172",
+          "on": "E94955150490",
+          "off": "FF8EE80C0000"
+        }
+      ]
+    },
+    {
+      "name": "Max/Infinite Upgrade Points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "449E0A0",
+          "on": "41C685E00C000063E9DDD428FC",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "72B583",
+          "on": "E9182BD7039090",
+          "off": "418985E00C0000"
+        }
+      ]
+    },
+    {
+      "name": "Max/Infinite Bio Points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "449F9E0",
+          "on": "41C685C40C000063E951B528FC",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "72AF37",
+          "on": "E9A44AD7039090",
+          "off": "418985C40C0000"
+        }
+      ]
+    },
+    {
+      "name": "Max/Infinite Psi-Points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "449F1D0",
+          "on": "41C685EC0C000063E998C428FC",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "72B66E",
+          "on": "E95D3BD7039090",
+          "off": "4589B5EC0C0000"
+        }
+      ]
+    },
+    {
+      "name": "Max XP On Gain",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "449FDF0",
+          "on": "8983B81D0000E9E244DFFB",
+          "off": "0000000000000000000000"
+        },
+        {
+          "offset": "2942D7",
+          "on": "E914BB200490",
+          "off": "01B3B81D0000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "wander",
+    "Celogamez"
+  ]
+}

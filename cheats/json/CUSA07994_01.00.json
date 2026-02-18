@@ -1,0 +1,22 @@
+{
+  "name": "FIFA 18",
+  "id": "CUSA07994",
+  "version": "01.00",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Transfer Budget",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5553387",
+          "on": "9090",
+          "off": "8932"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Sean"
+  ]
+}

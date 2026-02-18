@@ -1,0 +1,43 @@
+{
+  "name": "Ghostrunner 2",
+  "id": "PPSA09911",
+  "version": "01.000.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6133000",
+          "on": "C4C17A104638C4C17A114638E903B572FB",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "185E50E",
+          "on": "E9ED4A8D0490",
+          "off": "C4C17A114638"
+        }
+      ]
+    },
+    {
+      "name": "Max Score",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6133031",
+          "on": "C740503F420F00488B4870E9681877FB",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "18A48A2",
+          "on": "E98AE788049090",
+          "off": "895850488B4870"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Resident Evil 7: Biohazard",
+  "id": "CUSA03842",
+  "version": "01.00",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "17CCD01",
+          "on": "9090",
+          "off": "8907"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "13CCD01",
+          "on": "9090",
+          "off": "8907"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "DeathRGH"
+  ]
+}

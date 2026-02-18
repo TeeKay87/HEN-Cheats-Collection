@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Doom" Moder="TLH" Cusa="CUSA02092" Version="01.11" Process="eboot.bin">
+  <Genres Name="Action" />
+  <Genres Name="Fighting" />
+  <Genres Name="FPS" />
+  <Genres Name="Horror" />
+  <Genres Name="Shooter" />
+  <Items />
+  <Cheat Text="Infinite Health/Shield">
+    <Cheatline>
+      <Offset>7562E6</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>C4-C3-79-17-5D-00-01</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Ammo">
+    <Cheatline>
+      <Offset>E0CBD8</Offset>
+      <Section>0</Section>
+      <ValueOn>EB-40</ValueOn>
+      <ValueOff>74-32</ValueOff>
+    </Cheatline>
+  </Cheat>
+</Trainer>

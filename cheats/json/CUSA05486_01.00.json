@@ -1,0 +1,44 @@
+{
+  "name": "The Elder Scrolls V: Skyrim Special Edition",
+  "id": "CUSA05486",
+  "version": "01.00",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Health/Stamina/Magic",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7988D5",
+          "on": "9090909090",
+          "off": "C5FA1104C1"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Money",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "13CFBF",
+          "on": "90909090",
+          "off": "41294610"
+        }
+      ]
+    },
+    {
+      "name": "Buy To Earn Money",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B86DC9",
+          "on": "4401F8",
+          "off": "4429F8"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Mrpc85"
+  ]
+}

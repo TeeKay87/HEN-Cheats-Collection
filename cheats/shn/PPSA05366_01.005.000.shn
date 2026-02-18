@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="A Plague Tale: Requiem" Moder="Weysincha" Cusa="PPSA05366" Version="01.005.000" Process="eboot.bin">
+  <Genres Name="Action" />
+  <Items />
+  <Cheat Text="Infinite Throwable/ Equipped / Craftable Items on using" Description="On using">
+    <Cheatline>
+      <Offset>B56DD0</Offset>
+      <Section>0</Section>
+      <ValueOn>44-01-70-48</ValueOn>
+      <ValueOff>44-29-70-48</ValueOff>
+    </Cheatline>
+  </Cheat>
+</Trainer>

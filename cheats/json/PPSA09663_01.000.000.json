@@ -1,0 +1,59 @@
+{
+  "name": "Dragon\u0027s Dogma 2",
+  "id": "PPSA09663",
+  "version": "01.000.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Easy Exp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "C9A7000",
+          "on": "0FB64510814224FFFFFF00E9A88AC1F3",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "5BFAB0",
+          "on": "E94B753E0C909090",
+          "off": "0FB6451044014224"
+        }
+      ]
+    },
+    {
+      "name": "Inf Money",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "C9A7030",
+          "on": "C78298020000FFE0F505E9A48BE4FA",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "77EFBDC",
+          "on": "E94F741B059090",
+          "off": "4489A298020000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "C9A705F",
+          "on": "C4C17A104620C4C17A114620E9142160F6",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "2FA917E",
+          "on": "E9DCDE9F0990",
+          "off": "C4C17A114620"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dragon's Dogma 2" Moder="Super Death" Cusa="PPSA09663" Version="01.000.000" Process="eboot.bin">
+  <Genres Name="Action" />
+  <Items />
+  <Cheat Text="Infinite Money" Description="9,999,999 Gold (sell or buy something)">
+    <Cheatline>
+      <PS5Offset>800-executable[0]-5</PS5Offset>
+      <Offset>C9A7800</Offset>
+      <Section>0</Section>
+      <ValueOn>41-BC-7F-96-98-00-44-89-A2-98-02-00-00-E9-D1-83-E4-FA-90</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <PS5Offset>51B8424-executable[0]-5</PS5Offset>
+      <Offset>77EFBDC</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-1F-7C-1B-05-90-90</ValueOn>
+      <ValueOff>44-89-A2-98-02-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Items" Description="Items will not decrease when discarding or selling. They will be CONSUMED. Drop items to duplicate and pick them back up.">
+    <Cheatline>
+      <PS5Offset>50D4799-executable[0]-5</PS5Offset>
+      <Offset>78D3867</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90</ValueOn>
+      <ValueOff>66-89-41-1A</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="50,000,000 XP" Description="Each enemy will give 50m exp. Turn off cheat and kill 1 more enemy to level up">
+    <Cheatline>
+      <PS5Offset>800-executable[0]-5</PS5Offset>
+      <Offset>C9A7800</Offset>
+      <Section>0</Section>
+      <ValueOn>81-42-24-80-F0-FA-02-90-90-E9-AE-82-C1-F3</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <PS5Offset>C3E854C-executable[0]-5</PS5Offset>
+      <Offset>5BFAB4</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-47-7D-3E-0C-90-90-90</ValueOn>
+      <ValueOff>44-01-42-24-48-8B-4B-50</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="God Mode + OHK" Description="Do not use with any other health/kill codes" />
+  <Cheat Text="God Mode" Description="Do not use with One Hit Kill. Game MUST be restarted if you want to use One Hit Kill after activating God Mode">
+    <Cheatline>
+      <PS5Offset>7EB-executable[0]-5</PS5Offset>
+      <Offset>C9A7815</Offset>
+      <Section>0</Section>
+      <ValueOn>EB-FE</ValueOn>
+      <ValueOff>00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <PS5Offset>91B9EB1-executable[0]-5</PS5Offset>
+      <Offset>37EE14F</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-C1-96-1B-09</ValueOn>
+      <ValueOff>C5-FA-11-46-10</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <PS5Offset>7E7-executable[0]-5</PS5Offset>
+      <Offset>C9A7819</Offset>
+      <Section>0</Section>
+      <ValueOn>81-7E-14-66-86-11-45-0F-84-2E-69-E4-F6-C5-F8-57-C0-C5-FA-11-46-10-E9-20-69-E4-F6</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="One Hit Kill" Description="Do not use with God Mode. Game MUST be restarted if you want to use God Mode after activating One Hit Kill">
+    <Cheatline>
+      <PS5Offset>7E7-executable[0]-5</PS5Offset>
+      <Offset>C9A7819</Offset>
+      <Section>0</Section>
+      <ValueOn>EB-FE</ValueOn>
+      <ValueOff>00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <PS5Offset>91B9EB1-executable[0]-5</PS5Offset>
+      <Offset>37EE14F</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-C5-96-1B-09</ValueOn>
+      <ValueOff>C5-FA-11-46-10</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <PS5Offset>7E3-executable[0]-5</PS5Offset>
+      <Offset>C9A781D</Offset>
+      <Section>0</Section>
+      <ValueOn>81-7E-14-66-86-11-45-0F-84-2A-69-E4-F6-C5-FA-11-46-10-E9-20-69-E4-F6</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="One Hit Kill" Description="Do not use with any other health/kill codes">
+    <Cheatline>
+      <PS5Offset>7E3-executable[0]-5</PS5Offset>
+      <Offset>C9A781D</Offset>
+      <Section>0</Section>
+      <ValueOn>EB-FE</ValueOn>
+      <ValueOff>00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <PS5Offset>91B9EB1-executable[0]-5</PS5Offset>
+      <Offset>37EE14F</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-C9-96-1B-09</ValueOn>
+      <ValueOff>C5-FA-11-46-10</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <PS5Offset>7DF-executable[0]-5</PS5Offset>
+      <Offset>C9A7821</Offset>
+      <Section>0</Section>
+      <ValueOn>81-7E-14-66-86-11-45-74-0E-C5-F8-57-C0-C5-FA-11-46-10-E9-1C-69-E4-F6-C5-FA-11-46-10-E9-12-69-E4-F6</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Stamina">
+    <Cheatline>
+      <PS5Offset>99FEE82-executable[0]-5</PS5Offset>
+      <Offset>2FA917E</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90</ValueOn>
+      <ValueOff>C4-C1-7A-11-46-20</ValueOff>
+    </Cheatline>
+  </Cheat>
+</Trainer>

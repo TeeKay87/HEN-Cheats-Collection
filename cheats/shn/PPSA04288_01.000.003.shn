@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Resident Evil 2" Moder="Super Death" Cusa="PPSA04288" Version="01.000.003" Process="eboot.bin">
+  <Genres Name="Action" />
+  <Items />
+  <Cheat Text="Infinite Weapon ammo (no reload)" Description="Weapons will never run out of ammo">
+    <Cheatline>
+      <PS5Offset>45E8430-executable[0]-5</PS5Offset>
+      <Offset>1497BD0</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90</ValueOn>
+      <ValueOff>44-89-69-20</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Health" Description="Instant kill grab attacks {Tyrant (Mr. X), G (Birkin), or Ivy Zombies} will still kill you. Use a subweapon to prevent a game over.">
+    <Cheatline>
+      <PS5Offset>427862A-executable[0]-5</PS5Offset>
+      <Offset>18079D6</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90</ValueOn>
+      <ValueOff>E8-65-CB-2E-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+</Trainer>

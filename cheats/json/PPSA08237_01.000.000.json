@@ -1,0 +1,91 @@
+{
+  "name": "Immortals of Aveum",
+  "id": "PPSA08237",
+  "version": "01.000.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf HP Cristals",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5F63000",
+          "on": "B90300000089CB894820E91E0D36FC",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "22C3D28",
+          "on": "E9D3F2C903",
+          "off": "89CB894820"
+        }
+      ]
+    },
+    {
+      "name": "Inf HP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5F6302F",
+          "on": "817F48000080BE0F848D9D53FAC5FA114708E9839D53FA",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "49CDC4",
+          "on": "E96662AC05",
+          "off": "C5FA114708"
+        }
+      ]
+    },
+    {
+      "name": "Inf Magic",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5F63066",
+          "on": "837F1C040F84399D53FAC5FA11470CE92F9D53FAC7470C0000C842E9239D53FA",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "49CDA4",
+          "on": "E9BD62AC05",
+          "off": "C5FA11470C"
+        }
+      ]
+    },
+    {
+      "name": "Inf Resources",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5F630A6",
+          "on": "410F42DCBB3F420F0041891EE93F0A36FC",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "22C3AEF",
+          "on": "E9B2F5C9039090",
+          "off": "410F42DC41891E"
+        }
+      ]
+    },
+    {
+      "name": "Inf Whip",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5F630D7",
+          "on": "418B872C1000004189872C100000E9955426FC",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "21C8578",
+          "on": "E95AABD9039090",
+          "off": "4189872C100000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

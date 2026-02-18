@@ -1,0 +1,70 @@
+{
+  "name": "No More Heroes 3",
+  "id": "CUSA32167",
+  "version": "01.03",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Sword battery never decreases",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "E21996",
+          "on": "898F341D0000",
+          "off": "8987341D0000"
+        }
+      ]
+    },
+    {
+      "name": "Max Uc on gain",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "64CB800",
+          "on": "C7872C030000FFE0F505E91D75AAFA",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "F72D26",
+          "on": "E9D58A550590",
+          "off": "898F2C030000"
+        }
+      ]
+    },
+    {
+      "name": "Max WESN on gain",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "64CB811",
+          "on": "C78730030000FFE0F505E98C75AAFA",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "F72DA6",
+          "on": "E9668A550590",
+          "off": "898F30030000"
+        }
+      ]
+    },
+    {
+      "name": "1 Hit Kill \u002B Godmode (Normal Combat Only)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "64CB900",
+          "on": "4983F80A742E4983F80874284983F80074224983F820740B89B7640A0000E9B79F8BFA31C031D231F689B7640A0000E9A69F8BFA89C889CA89CE89B7640A0000E9959F8BFA",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "D858D4",
+          "on": "E92760740590",
+          "off": "89B7640A0000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Skal"
+  ]
+}

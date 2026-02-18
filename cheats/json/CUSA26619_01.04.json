@@ -1,0 +1,204 @@
+{
+  "name": "Grand Theft Auto: San Andreas \u2013 The Definitive Edition",
+  "id": "CUSA26619",
+  "version": "01.04",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Health (WIP/Experimental) (Works only on PS4 Trainer/G.C.M.)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "11A1143",
+          "on": "909090909090909090",
+          "off": "C4C17A119704070000"
+        }
+      ]
+    },
+    {
+      "name": "Vehicles No Damage (They can explode if hit by bullets) (Works only on PS4 Trainer/G.C.M.)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "146635F",
+          "on": "909090909090909090",
+          "off": "C4C17A118AC4060000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Armour On Gain",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "11A0BFE",
+          "on": "90909090",
+          "off": "C5FA5CC2"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo/No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "14E673C",
+          "on": "90909090",
+          "off": "41895008"
+        },
+        {
+          "offset": "14E67A4",
+          "on": "90909090",
+          "off": "4189700C"
+        },
+        {
+          "offset": "14B38D2",
+          "on": "9090",
+          "off": "8910"
+        }
+      ]
+    },
+    {
+      "name": "Max Money Instantly",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1175DA0",
+          "on": "410386E8000000",
+          "off": "418B86E8000000"
+        }
+      ]
+    },
+    {
+      "name": "No Wanted Level (Kill anyone to reset)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5B87DB0",
+          "on": "C7432C00000000E9E51661FB",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "119949A",
+          "on": "E911E99E049090",
+          "off": "C7432C01000000"
+        },
+        {
+          "offset": "5B87E00",
+          "on": "C7432C00000000E93E1661FB",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "1199443",
+          "on": "E9B8E99E049090",
+          "off": "C7432C02000000"
+        },
+        {
+          "offset": "5B87E50",
+          "on": "C7432C00000000E9941561FB",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "11993E9",
+          "on": "E962EA9E049090",
+          "off": "C7432C03000000"
+        },
+        {
+          "offset": "5B87EA0",
+          "on": "C7432C00000000E9EA1461FB",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "119938F",
+          "on": "E90CEB9E049090",
+          "off": "C7432C04000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5B87220",
+          "on": "4181BF2407000000001041751041C7870407000000009643E90F9F61FBC4C17A119704070000E9019F61FB",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "11A1143",
+          "on": "E9D8609E0490909090",
+          "off": "C4C17A119704070000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Car Health (when driving it)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5B87AB0",
+          "on": "4180BA3C06000000751041C782C40600000080BB44E99EE88DFBC4C17A118AC4060000E990E88DFB",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "146635F",
+          "on": "E94C17720490909090",
+          "off": "C4C17A118AC4060000"
+        }
+      ]
+    },
+    {
+      "name": "Fast Car driving skill level up",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "11757CC",
+          "on": "01057EF14705",
+          "off": "89057EF14705"
+        }
+      ]
+    },
+    {
+      "name": "Max Weapons/Muscles/Stamina skill level",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5B87890",
+          "on": "43C704B70080BB44E9F4895FFB",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "118028B",
+          "on": "E90076A00490",
+          "off": "C4817A1104B7"
+        }
+      ]
+    },
+    {
+      "name": "Fast Motorcycle driving skill level up",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1176B79",
+          "on": "0105E5DE4705",
+          "off": "8905E5DE4705"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Service vehicules timer",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "112E1EF",
+          "on": "909090",
+          "off": "893C08"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "AngelDavil88_9.00",
+    "Wander FW9.00"
+  ]
+}

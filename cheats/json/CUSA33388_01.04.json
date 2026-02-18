@@ -1,0 +1,898 @@
+{
+  "name": "Resident Evil 4",
+  "id": "CUSA33388",
+  "version": "01.04",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CF960",
+          "on": "90E9B66AD4F8",
+          "off": "000000000000"
+        },
+        {
+          "offset": "4116417",
+          "on": "E944952B07",
+          "off": "E84460D3FF"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CF9B0",
+          "on": "41C644244432E9AE3FC6F7",
+          "off": "0000000000000000000000"
+        },
+        {
+          "offset": "3033964",
+          "on": "E947C03908",
+          "off": "4189442444"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Items (on craft)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CFA30",
+          "on": "C640341E498B4618E984FBF4F9",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "531F5BA",
+          "on": "E971040B069090",
+          "off": "894834498B4618"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Knife Durability",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CFA80",
+          "on": "41C74730881300004883C408E9B0AE31F7",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "26EA939",
+          "on": "E94251CE08909090",
+          "off": "458967304883C408"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ptas (on get)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CFAE0",
+          "on": "41C7442410FFC99A3BE91EFBD8F6",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "215F607",
+          "on": "E9D4042709",
+          "off": "4189442410"
+        }
+      ]
+    },
+    {
+      "name": "Max Spinel (on Spend have 2)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CFCE0",
+          "on": "C743209F860100807DCF00E9E39C68F9",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "4A599CC",
+          "on": "E90F6397069090",
+          "off": "894320807DCF00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Shoot range coins (on spend)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CF940",
+          "on": "C7403484030000498B442418E9C1DB0DF7",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "24AD50A",
+          "on": "E93124F208909090",
+          "off": "894834498B442418"
+        }
+      ]
+    },
+    {
+      "name": "Max Score at Shoot range ",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CF8C0",
+          "on": "C781DC0000003F420F00E929401BF9",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "45838F2",
+          "on": "E9C9BFE40690",
+          "off": "0181DC000000"
+        }
+      ]
+    },
+    {
+      "name": "Max CP (on spend)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CFB10",
+          "on": "C783A0000000FFE0F505E943C7ECF8",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "429C25B",
+          "on": "E9B03813079090",
+          "off": "4489BBA0000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health (Mercenaries)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CFDC0",
+          "on": "90E94C9578F6",
+          "off": "000000000000"
+        },
+        {
+          "offset": "1B5930D",
+          "on": "E9AE6A8709",
+          "off": "E84E312F02"
+        }
+      ]
+    },
+    {
+      "name": "Infinite timer (Mercenaries)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CFFB0",
+          "on": "41C747180000F042E94B970CF7",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "2499702",
+          "on": "E9A968F30890",
+          "off": "C4C17A114718"
+        }
+      ]
+    },
+    {
+      "name": "[00] iNFO: Cheat [06] (Ganados Don\u0060t Move) will not allow you to continue if it\u0060s ON in some situations where NMEs must come to you, like in the Crane (Chapter 14) or defending the house with Luis. Turn [13] and [15] on when getting an item/weapon and then better turn them OFF. You can leave them ON but it can be a mess if you don\u0060t pay attention.",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5E280",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "[01a] Start Fresh New Game With Infinite Rocket Launcher (Instead SG-09) Before Loading",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CFDD0",
+          "on": "817B6800A861107515C7436880AD7710C7431805000000C7431C00000000E8AD0DADF6E9D800F6F9",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "532FECB",
+          "on": "E900FF0906",
+          "off": "E8D00CB7FC"
+        }
+      ]
+    },
+    {
+      "name": "[02] Immunity",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CF974",
+          "on": "488B8A48010000EB09E96AA068F6B001EBF7817A38A086010074F3817A385E0D030074EA817A38600D030074E1817A38C027090074D8817A38C127090074CF817A38C227090074C6817A38C327090074BDEBB6",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1A599E5",
+          "on": "E98A5F97099090",
+          "off": "488B8A48010000"
+        },
+        {
+          "offset": "4C82B5E",
+          "on": "EB5A",
+          "off": "745A"
+        },
+        {
+          "offset": "7FC5E180",
+          "on": "90EB0C4889E54157E9A9D28F855DC34885F674EF817E20A086010074F0EBE4",
+          "off": "00000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "555B431",
+          "on": "E94A2D707A",
+          "off": "4889E54157"
+        }
+      ]
+    },
+    {
+      "name": "[03] Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3E4C488",
+          "on": "9090909090",
+          "off": "E823B8CFFF"
+        },
+        {
+          "offset": "B3CF940",
+          "on": "817838A0860100740C488B8048010000E9658477F8488B8048010000BBD809000089581089581441C7868800000000000000EBDC",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "3B47DB3",
+          "on": "E9887B88079090",
+          "off": "488B8048010000"
+        }
+      ]
+    },
+    {
+      "name": "[04] 1 Hit Kill (Exception Coded: Krauser)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CFE00",
+          "on": "41837C245402741541C686CD000000014180BECD00000000E9FA8277F8498B7C2450817F384B0D030074E5817F38A086010074DC817F38600D030074D3817F385E0D030074CA817F38C027090072B9817F38C327090077B0EBB6",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "3B4810F",
+          "on": "E9EC7C8807909090",
+          "off": "4180BECD00000000"
+        }
+      ]
+    },
+    {
+      "name": "[05a] Player\u0060s Speed x1",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CFC50",
+          "on": "4D85ED741B4831C0B00441837C050002750E04103C7475F2B80000803F894320C5FA594320E927276EFB",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "6AB239C",
+          "on": "E9AFD89104",
+          "off": "C5FA594320"
+        }
+      ]
+    },
+    {
+      "name": "[06] Ganados Almost Don\u0060t Move (Only When Attacking) Cheat [43] Must Be OFF",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "417DD0D",
+          "on": "C7402000000000",
+          "off": "C740200000803F"
+        },
+        {
+          "offset": "417E2E0",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "[08] Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CF9D0",
+          "on": "817C24C8FF00000077048B4424C84189442444E9813FC6F7",
+          "off": "000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "3033964",
+          "on": "E967C03908",
+          "off": "4189442444"
+        }
+      ]
+    },
+    {
+      "name": "[09] Grenades: No Decrement",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5325505",
+          "on": "FFC090",
+          "off": "0F4CC2"
+        }
+      ]
+    },
+    {
+      "name": "[10] Infinite Knife Durability",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "9FC330",
+          "on": "C390909090",
+          "off": "B8003F0000"
+        }
+      ]
+    },
+    {
+      "name": "[11] Infinite Ammo \u002B Grenades (Instead Of [08] and [09])",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "9FC320",
+          "on": "C3909090909090",
+          "off": "488BB6A0000000"
+        }
+      ]
+    },
+    {
+      "name": "[12] Rapid Fire",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CF9F0",
+          "on": "837B38057507C7432000000041C5FA594320E9DA2B6EFB",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "6AB25DC",
+          "on": "E90FD49104",
+          "off": "C5FA594320"
+        }
+      ]
+    },
+    {
+      "name": "[13] Get Any Weapon: Store A New One (If 2 Same Weapons Stored, 1 Dissapears)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CF8D0",
+          "on": "48B840F87C0B000000003B3074188338FF74064883C004EBF1BE00127A10897228E9448ED3F88B7004EBF3",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "410872E",
+          "on": "E99D712C0790",
+          "off": "81FE40A77710"
+        },
+        {
+          "offset": "B3CF840",
+          "on": "00127a1040187a1080377a1000a8611080b46110007c921040ae611000c16110c0ba61100019641040829210401f641080256410006c6b1080786b1040726b1040e36d1000dd6d1080e96d10008a6610809666104090661000a17710004e701080ad771040a7771000127a10ffffffff",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "[14] Rocket Launcher (Saddler One) Can Be Stored If Chosen With [13]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4108734",
+          "on": "909090909090",
+          "off": "0F84C6040000"
+        }
+      ]
+    },
+    {
+      "name": "[15] Get Any Key/Item In Slot 1 - (Un)Select It",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5E000",
+          "on": "80e51a07c0eb1a0700f21a0780fe1a07c0041b07000b1b0740111b07c01d1b0700241b07402a1b0780301b07c0361b07003d1b07c04f1b0700561b0780621b07c0681b07006f1b0700881b0780941b07c09a1b0700a11b0780ad1b07c0b31b0700ba1b0740c01b0780c61b07c0cc1b0740d91b0780df1b07c0e51b0700ec1b0780f81b07c0fe1b0700051c07400b1c0780111c07c0171c07001e1c0740241c07802a1c07c0301c0700371c07408e1b0780e51a07ffffffff",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "7FC5E0D0",
+          "on": "4183FB5375064183FA04742F488B064889DFE91BE984828B462848BF00E00580000000003B07740B833FFF74DF4883C704EBF18B4704894628EBD141837E1C0074D5EBC8",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "24AC9FC",
+          "on": "E9CF167B7D90",
+          "off": "488B064889DF"
+        }
+      ]
+    },
+    {
+      "name": "[16][Vehicle] Boat: Infinite Durability",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "24001CF",
+          "on": "9090909090909090",
+          "off": "41898C2488010000"
+        }
+      ]
+    },
+    {
+      "name": "[17][Vehicle] Crane: Infinite Durability",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1DEA332",
+          "on": "909090909090909090",
+          "off": "C4c17a118694000000"
+        }
+      ]
+    },
+    {
+      "name": "[18][Vehicle] Water Scooter: Infinite Durability",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "49A82F0",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "[19] Anti-Aircraft Gun: Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CFA20",
+          "on": "B99A020000898B80030000E9031460F7",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "29D0E2D",
+          "on": "E9EEEB9F0890",
+          "off": "898B80030000"
+        }
+      ]
+    },
+    {
+      "name": "[20] Cannon No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5E1D0",
+          "on": "0F57C0C5FA11800C010000E9E91DF983",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "3BEFCA1",
+          "on": "E92AE5067C909090",
+          "off": "C5FA11800C010000"
+        }
+      ]
+    },
+    {
+      "name": "[21] Knights Forever Frozen (L2) [Ashley]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "51D95E8",
+          "on": "909090909090909090",
+          "off": "C4C17A1180F0020000"
+        }
+      ]
+    },
+    {
+      "name": "[22] Infinite Treasures \u002B Small Keys/Tokens",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5E130",
+          "on": "817B2800881B07742E817B28802A1C077425817B28C0301C07741C817B2800371C07770B8B43344885C9E925C9A88266817B2A400773EDB89A020000894334EBE690",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "26EAA7E",
+          "on": "E9AD36577D90",
+          "off": "8B43344885C9"
+        }
+      ]
+    },
+    {
+      "name": "[23] Most Keys Stay When Used (-Blue Dial)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CF918",
+          "on": "81782840241C070F85F7DB0DF7E957DC0DF79090",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "24AD516",
+          "on": "E9FD23F20890",
+          "off": "837834007E65"
+        }
+      ]
+    },
+    {
+      "name": "[24] Infinite Spinels (Go To Trade)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CFAD0",
+          "on": "C741209A020000488B40588B4920E9EC351FF9",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "45C30C8",
+          "on": "E903CAE0069090",
+          "off": "488B40588B4920"
+        }
+      ]
+    },
+    {
+      "name": "[25] Infinite Pesetas",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CFAF0",
+          "on": "4189442410807DCF00740941C7442410AA40F903E903FBD8F6",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "215F607",
+          "on": "E9E4042709",
+          "off": "4189442410"
+        }
+      ]
+    },
+    {
+      "name": "[26] Infinite Completion Points (CP)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CFB20",
+          "on": "B82A2C0A008983A0000000E9F5D0ECF8",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "429CC1F",
+          "on": "E9FC2E130790",
+          "off": "8B83A0000000"
+        }
+      ]
+    },
+    {
+      "name": "[27][Total Results] Rank S\u002B / Time 00:00:00",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1AA82E8",
+          "on": "EB6F90",
+          "off": "8B4014"
+        },
+        {
+          "offset": "7FC5E260",
+          "on": "C74114060000008B491441894D10E926C6A183",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "367A892",
+          "on": "E9C9395E7C9090",
+          "off": "8B491441894D10"
+        },
+        {
+          "offset": "7FC5E200",
+          "on": "4831C948894A1848894E184831C0C3",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "11E0EB2",
+          "on": "E949D3A77E",
+          "off": "48894E18C3"
+        }
+      ]
+    },
+    {
+      "name": "[28][Total Results] Saves = 0",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5E220",
+          "on": "31FF31C0897E14897A14C3",
+          "off": "0000000000000000000000"
+        },
+        {
+          "offset": "11E0F46",
+          "on": "E9D5D2A77E90",
+          "off": "0F4FF9897E14"
+        }
+      ]
+    },
+    {
+      "name": "[29][Saving] Times Saved: 0 (After Saving)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CFD5A",
+          "on": "41BC000000004489634C488B01E9504081F9",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4BE3DB5",
+          "on": "E9A0BF7E069090",
+          "off": "4489634C488B01"
+        }
+      ]
+    },
+    {
+      "name": "[30a][Saving] Difficulty: Assisted",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CFE60",
+          "on": "BA0A000000895028E8E3A535F7E9D3CB35F7",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "272CA40",
+          "on": "E91B34CA08",
+          "off": "E80BDAFFFF"
+        }
+      ]
+    },
+    {
+      "name": "[31][End Of Chapter] Accuracy 100 Per Cent",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CFEF0",
+          "on": "31C089421439C10F4FC8E97F3281F8",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "3BE3179",
+          "on": "E972CD7E07",
+          "off": "39C10F4FC8"
+        }
+      ]
+    },
+    {
+      "name": "[32][End Of Chapter] Max Enemies Killed",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CFED8",
+          "on": "B89A02000089421439C10F4FC8E9340DE1F5",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "11E0C19",
+          "on": "E9BAF21E0A",
+          "off": "39C10F4FC8"
+        }
+      ]
+    },
+    {
+      "name": "[33][Target Practice] Timer Frozen",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CFB40",
+          "on": "41C7869C0100000050D045C4C17A10869C0100000F57D2E981B11AF9",
+          "off": "00000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "457ACD4",
+          "on": "E9674EE50690909090",
+          "off": "C4C17A10869C010000"
+        }
+      ]
+    },
+    {
+      "name": "[34][Target Practice] All Pirates Killed",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CFB60",
+          "on": "448B98AC010000448998A8010000E908F31AF9",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "457EE74",
+          "on": "E9E70CE5069090",
+          "off": "448B98A8010000"
+        }
+      ]
+    },
+    {
+      "name": "[35][Target Practice] All Skulls Killed",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CFB80",
+          "on": "8BB0DC01000089B0D8010000E93CF61AF9",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "457F1C7",
+          "on": "E9B409E50690",
+          "off": "8BB0D8010000"
+        }
+      ]
+    },
+    {
+      "name": "[36][Target Practice] \u002BPoints",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CFBA0",
+          "on": "B82A2C0A008981DC000000E9FDEE1AF9",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "457EAA7",
+          "on": "E9F410E50690",
+          "off": "8B81DC000000"
+        }
+      ]
+    },
+    {
+      "name": "[37][Mercs] Timer Frozen",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CFBC0",
+          "on": "41C7471800E07745C4C17A104718E9359B0CF7",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "2499702",
+          "on": "E9B964F30890",
+          "off": "C4C17A114718"
+        }
+      ]
+    },
+    {
+      "name": "[38][Mercs] Combo Timer Frozen",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "33B4BFC",
+          "on": "909090909090",
+          "off": "C4C17A114F24"
+        }
+      ]
+    },
+    {
+      "name": "[39][Mercs] 666 Combos",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CFBE0",
+          "on": "81F99A0200000F835850FEF7B99A020000E94E50FEF7",
+          "off": "00000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "33B4C3F",
+          "on": "E99CAF0108",
+          "off": "39F10F4FCE"
+        }
+      ]
+    },
+    {
+      "name": "[40][Mercs] Mayhem Turbo Loading",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CFC10",
+          "on": "528B50348950145AC5FA2A4014E9ACE85BFA",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "598E4C9",
+          "on": "E94217A405",
+          "off": "C5FA2A4014"
+        }
+      ]
+    },
+    {
+      "name": "[41][Mercs] Mayhem Yellow Bar Frozen",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2CF7285",
+          "on": "909090909090",
+          "off": "C4C17A114720"
+        }
+      ]
+    },
+    {
+      "name": "[42][Mercs] Just 1 Kill = S\u002B\u002B (If [37] ON)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CFC30",
+          "on": "81BB080100000A1A00007305B89A020000898308010000E988B65BFA",
+          "off": "00000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "598B2CE",
+          "on": "E95D49A40590",
+          "off": "898308010000"
+        }
+      ]
+    },
+    {
+      "name": "[43a] Most NME\u0060s Speed x0.2",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CFC80",
+          "on": "4D85ED740741837D1402740AC5FA11431CE906276EFB4831C0B00441837C050002750804103C7475F2EBE1C5FA11431CB8CDCC4C3E894320C5FA594320E9DF266EFB",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "6AB2397",
+          "on": "E9E4D89104",
+          "off": "C5FA11431C"
+        }
+      ]
+    },
+    {
+      "name": "[44a] Player\u0060s Size x0.5",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CFD00",
+          "on": "837B0803740AC5FA106B50E973ACFDFAC743500000003FC743540000003FC743580000003FEBDF",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "63AA97E",
+          "on": "E97D530205",
+          "off": "C5FA106B50"
+        }
+      ]
+    },
+    {
+      "name": "[45a] NME\u0060s Size x0.5",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CFD30",
+          "on": "C5FA10734C837B08030F860BACFDFAC743500000003FC743540000003FC743580000003FE9F1ABFDFA",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "63AA945",
+          "on": "E9E6530205",
+          "off": "C5FA10734C"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Wander FW9.00",
+    "Dioniso"
+  ]
+}

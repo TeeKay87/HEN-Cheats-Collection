@@ -1,0 +1,38 @@
+{
+  "name": "Alone in the Dark",
+  "id": "PPSA08135",
+  "version": "01.000.008",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Ammo INF (No reload)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "661B000",
+          "on": "41C785000400000A000000E93D061FFB",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "180B646",
+          "on": "E9B5F9E0049090",
+          "off": "41898D00040000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Items (even Keys)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1970C1E",
+          "on": "90909090",
+          "off": "44296228"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

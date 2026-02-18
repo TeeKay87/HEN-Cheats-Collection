@@ -1,0 +1,44 @@
+{
+  "name": "Resident Evil: Code: Veronica X",
+  "id": "SLES50306",
+  "version": "01.00",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite-Magnum",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8080049BAE",
+          "on": "20080001",
+          "off": "20080001"
+        }
+      ]
+    },
+    {
+      "name": "rocket-Launeher",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8080049BAA",
+          "on": "01080001",
+          "off": "01080001"
+        }
+      ]
+    },
+    {
+      "name": "Infinite-Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8080048F2C",
+          "on": "99990000",
+          "off": "99990000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Ali-mk"
+  ]
+}

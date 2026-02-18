@@ -1,0 +1,59 @@
+{
+  "name": "SILENT HILL 2",
+  "id": "PPSA08710",
+  "version": "01.005.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD17000",
+          "on": "C74208630000008B520841895208E9FD8F4480",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "160009",
+          "on": "E9F26FBB7F9090",
+          "off": "8B520841895208"
+        }
+      ]
+    },
+    {
+      "name": "Inf HP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD17033",
+          "on": "C783F80000000000C842C5FA1083F8000000C5FA1183F8000000E939FF4482",
+          "off": "00000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "2166F83",
+          "on": "E9AB00BB7D909090",
+          "off": "C5FA1183F8000000"
+        }
+      ]
+    },
+    {
+      "name": "No reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD17072",
+          "on": "BE0A00000089B3AC0B0000E975AE4D82",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "21F1EF1",
+          "on": "E97C51B27D90",
+          "off": "89B3AC0B0000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

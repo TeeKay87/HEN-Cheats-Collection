@@ -1,0 +1,49 @@
+{
+  "name": "RoboCop: Rogue City",
+  "id": "PPSA05059",
+  "version": "01.000.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Ammo and Repair Kit",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "18C05E9",
+          "on": "42014CC008",
+          "off": "42294CC008"
+        }
+      ]
+    },
+    {
+      "name": "Inf Exp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4DEF000",
+          "on": "41C785C00000003F420F00E93B07B9FC",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "197F744",
+          "on": "E9B7F846039090",
+          "off": "41898DC0000000"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1AD8132",
+          "on": "909090909090",
+          "off": "FF8BC0060000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

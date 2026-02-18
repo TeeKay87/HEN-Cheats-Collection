@@ -1,0 +1,43 @@
+{
+  "name": "Maneater",
+  "id": "CUSA14538",
+  "version": "01.00",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Godmode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "D27DF0",
+          "on": "554889E5C5FA11470C",
+          "off": "554889E5C5FA11470C"
+        },
+        {
+          "offset": "5CD3000",
+          "on": "83BF28010000007501C3554889E5C5FA11470CE9E14D05FB",
+          "off": "000000000000000000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "Godmode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "927df0",
+          "on": "554889E5C5FA11470C",
+          "off": "554889E5C5FA11470C"
+        },
+        {
+          "offset": "58d3000",
+          "on": "83BF28010000007501C3554889E5C5FA11470CE9E14D05FB",
+          "off": "000000000000000000000000000000000000000000000000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "DeathRGH"
+  ]
+}

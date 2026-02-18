@@ -1,0 +1,33 @@
+{
+  "name": "The Last of Us: Remastered",
+  "id": "CUSA00556",
+  "version": "01.00",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Enable Debug Menu",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "403A28",
+          "on": "80B9872E0000000F851F0D0000C681812E000001EB04120D000089C0",
+          "off": "80B9872E0000000F851F0D0000C681812E000001EB04120D000089C0"
+        }
+      ]
+    },
+    {
+      "name": "Enable Debug Menu",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "3A28",
+          "on": "80B9872E0000000F851F0D0000C681812E000001EB04120D000089C0",
+          "off": "80B9872E0000000F851F0D0000C681812E000001EB04120D000089C0"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "DeathRGH"
+  ]
+}

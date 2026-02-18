@@ -1,0 +1,119 @@
+{
+  "name": "Frostpunk",
+  "id": "CUSA15690",
+  "version": "01.02",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "infinite resoures",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2313800",
+          "on": "41C7440E0850020000E9B30995FE",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "C641BC",
+          "on": "E93FF66A01",
+          "off": "45897C0E08"
+        }
+      ]
+    },
+    {
+      "name": "coal never decrease",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "DF9AA0",
+          "on": "9090909090",
+          "off": "E89BA42600"
+        }
+      ]
+    },
+    {
+      "name": "inf overdrive",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "E0C2B3",
+          "on": "9090909090",
+          "off": "E828DC9C00"
+        }
+      ]
+    },
+    {
+      "name": "no build cost",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "DF7C85",
+          "on": "9090909090",
+          "off": "E826C92600"
+        },
+        {
+          "offset": "10649E1",
+          "on": "9090909090",
+          "off": "E86AF5FFFF"
+        }
+      ]
+    },
+    {
+      "name": "no tech upgrade cost",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1064686",
+          "on": "9090909090",
+          "off": "E8C5F8FFFF"
+        }
+      ]
+    },
+    {
+      "name": "food never decrease",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "F658E4",
+          "on": "9090909090",
+          "off": "E8F7060000"
+        }
+      ]
+    },
+    {
+      "name": "inf stockpiles (disable to be able to remove one)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2713800",
+          "on": "C74058F401000048C1E320E9859D7DFE",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "EED58E",
+          "on": "E96D6282019090",
+          "off": "89485848C1E320"
+        }
+      ]
+    },
+    {
+      "name": "set all resources to 200 OR",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2713812",
+          "on": "41C7440E08C8000000E9A10995FE",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "10641BC",
+          "on": "E951F66A01",
+          "off": "45897C0E08"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "LMN"
+  ]
+}

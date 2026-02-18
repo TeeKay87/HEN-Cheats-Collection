@@ -1,0 +1,54 @@
+{
+  "name": "Ghostwire: Tokyo",
+  "id": "PPSA03397",
+  "version": "01.001.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "999 Skill Points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6527000",
+          "on": "C702E70300008945B4E990AD3EFB",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "1911D98",
+          "on": "E96352C10490",
+          "off": "4489228945B4"
+        }
+      ]
+    },
+    {
+      "name": "Inf Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2729FE6",
+          "on": "90909090",
+          "off": "42891CB8"
+        }
+      ]
+    },
+    {
+      "name": "Inf EXP (Level 50)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "652702E",
+          "on": "C787340300003F420F00E94EFE1FFC",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "2726E85",
+          "on": "E9A401E00390",
+          "off": "898734030000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

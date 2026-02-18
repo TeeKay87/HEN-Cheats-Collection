@@ -1,0 +1,44 @@
+{
+  "name": "Neva",
+  "id": "CUSA51046",
+  "version": "01.10",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Easy health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8095E82E",
+          "on": "C7838401000005000000",
+          "off": "C7838401000000000000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Air Dash",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80952D70",
+          "on": "909090909090",
+          "off": "89881C010000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Double Jump",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80953319",
+          "on": "909090909090",
+          "off": "898804010000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

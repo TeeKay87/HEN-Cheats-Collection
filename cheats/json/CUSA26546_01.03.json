@@ -1,0 +1,261 @@
+{
+  "name": "Green Hell",
+  "id": "CUSA26546",
+  "version": "01.03",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "C76426",
+          "on": "C4C17A114E2C",
+          "off": "C4C17A11462C"
+        }
+      ]
+    },
+    {
+      "name": "Inf HP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "C76EE1",
+          "on": "C5FA58C1",
+          "off": "C5FA5DC1"
+        }
+      ]
+    },
+    {
+      "name": "Water",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "C78FB2",
+          "on": "C5F258C8",
+          "off": "C5F25DC8"
+        }
+      ]
+    },
+    {
+      "name": "Carbohydrate",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "C77921",
+          "on": "C5F258C8",
+          "off": "C5F25DC8"
+        }
+      ]
+    },
+    {
+      "name": "Proteins",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "C77BEF",
+          "on": "C5F258C8",
+          "off": "C5F25DC8"
+        }
+      ]
+    },
+    {
+      "name": "FAT",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "C77A8C",
+          "on": "C5F258C8",
+          "off": "C5F25DC8"
+        }
+      ]
+    },
+    {
+      "name": "inf small building resources and resource stands and charcoal (build long sticks stands first)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80C958A8",
+          "on": "909090909090",
+          "off": "FF90E8090000"
+        },
+        {
+          "offset": "80A53E40",
+          "on": "9090909090",
+          "off": "E82B000000"
+        },
+        {
+          "offset": "80C98212",
+          "on": "909090909090",
+          "off": "89838C040000"
+        },
+        {
+          "offset": "80C979B2",
+          "on": "909090909090",
+          "off": "FF8B8C040000"
+        },
+        {
+          "offset": "80C97CE2",
+          "on": "909090909090",
+          "off": "FF8B8C040000"
+        },
+        {
+          "offset": "80C97E2C",
+          "on": "909090909090",
+          "off": "FF8B8C040000"
+        },
+        {
+          "offset": "80C97F70",
+          "on": "909090909090",
+          "off": "FF8B8C040000"
+        }
+      ]
+    },
+    {
+      "name": "freeze stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "81329211",
+          "on": "9090909090",
+          "off": "C5FA11432C"
+        },
+        {
+          "offset": "8132A3C3",
+          "on": "909090909090",
+          "off": "C4C17A11562C"
+        }
+      ]
+    },
+    {
+      "name": "never gets tired",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "811B8FBF",
+          "on": "909090909090",
+          "off": "C4C17A114754"
+        },
+        {
+          "offset": "8132A754",
+          "on": "909090909090",
+          "off": "C4C17A114654"
+        },
+        {
+          "offset": "8132A7E6",
+          "on": "909090909090",
+          "off": "C4C17A114654"
+        }
+      ]
+    },
+    {
+      "name": "infinite fire fuel",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80CBA3A3",
+          "on": "909090909090909090",
+          "off": "C4C17A118680040000"
+        }
+      ]
+    },
+    {
+      "name": "infinite torch fuel",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8108A1E2",
+          "on": "9090909090",
+          "off": "C5FA114844"
+        },
+        {
+          "offset": "8108A9EF",
+          "on": "9090909090",
+          "off": "C5FA114044"
+        }
+      ]
+    },
+    {
+      "name": "full durability",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "82DB7D9E",
+          "on": "C740440000C842E9FB5DCBFD",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "80A6DE36",
+          "on": "E9639F3402",
+          "off": "C5FA114044"
+        },
+        {
+          "offset": "82DB7DAC",
+          "on": "41C747440000C842E92FCD02FE",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "80DE4AE2",
+          "on": "E9C532FD0190",
+          "off": "C4C17A114744"
+        },
+        {
+          "offset": "82DB7DBB",
+          "on": "41C786EC0000000000C842E931F916FE",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "80F276F3",
+          "on": "E9C306E90190909090",
+          "off": "C4C17A1186EC000000"
+        },
+        {
+          "offset": "82DB7DCD",
+          "on": "C740440000C842E948D1E9FD",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "80C54F1C",
+          "on": "E9AC2E1602",
+          "off": "C5FA114044"
+        }
+      ]
+    },
+    {
+      "name": "set trust to 1000 (gain any)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "82DB7DDB",
+          "on": "C7435000007A44E9B924E4FD",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "80BFA29B",
+          "on": "E93BDB1B02",
+          "off": "C5FA114B50"
+        }
+      ]
+    },
+    {
+      "name": "inf carrying weight (press L1 to update your weight)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "82DB7DE9",
+          "on": "41C7878400000000000000E927CFC9FD",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "80A54D61",
+          "on": "E98330360290909090",
+          "off": "C4C17A118784000000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "aran",
+    "LMN"
+  ]
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Uncharted: Legacy of Thieves Collection" Moder="hejran7" Cusa="PPSA05684" Version="01.000.000" Process="eboot.bin">
+  <Genres Name="Adventure" />
+  <Items />
+  <Cheat Text="Dev Menu Press (L3 + Touch Pad)">
+    <Cheatline>
+      <Offset>1C03800</Offset>
+      <Section>0</Section>
+      <ValueOn>52-48-BA-49-4A-5D-0C-11-00-00-00-48-8B-12-80-E2-40-88-90-45-33-00-00-80-B8-45-33-00-00-00-5A-E9-E1-CA-9A-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>5B02FE</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-FD-34-65-01-90-90</ValueOn>
+      <ValueOff>80-B8-45-33-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Dev Menu Press (L3 + Touch Pad)">
+    <Cheatline>
+      <Offset>1B9F800</Offset>
+      <Section>0</Section>
+      <ValueOn>52-48-BA-49-4A-5D-0C-11-00-00-00-48-8B-12-80-E2-40-88-90-45-33-00-00-80-B8-45-33-00-00-00-5A-E9-61-10-A1-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>5B087E</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-7D-EF-5E-01-90-90</ValueOn>
+      <ValueOff>80-B8-45-33-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+</Trainer>

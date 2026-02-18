@@ -1,0 +1,386 @@
+{
+  "name": "Resident Evil 3",
+  "id": "CUSA14168",
+  "version": "01.03",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Speed Master Code",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6DFFF5D",
+          "on": "0F85BAC33EFA498B465841C746700000803FE99BC33EFA",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "11EC309",
+          "on": "E94F3CC10590",
+          "off": "7518498B4658"
+        }
+      ]
+    },
+    {
+      "name": "Max Health Player",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "68FDB0D",
+          "on": "0F84FF30B9FB8B5854895858E9F830B9FB",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "2490C11",
+          "on": "E9F7CE4604",
+          "off": "74058B5858"
+        }
+      ]
+    },
+    {
+      "name": "Inf. Health Player\u002B No Bleeding",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3140F0",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "Easy Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6D00002",
+          "on": "488B8188010000C7425800000000E9DB76D2FA",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1A276E6",
+          "on": "E917892D059090909090",
+          "off": "488B81880100008B5A58"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Clip Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E3203A",
+          "on": "909090",
+          "off": "895120"
+        }
+      ]
+    },
+    {
+      "name": "20 Inventory Slot",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6DFFE35",
+          "on": "41BC140000004489A090000000E96DB380F9",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "60B1AD",
+          "on": "E9834C7F069090",
+          "off": "448BA090000000"
+        }
+      ]
+    },
+    {
+      "name": "Inc. Speed [x2.0]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6DFFF67",
+          "on": "41C7467000000040",
+          "off": "41C746700000803F"
+        }
+      ]
+    },
+    {
+      "name": "Fire Resistance",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "325260",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "Swap HandGun Ammo To:",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "712E139",
+          "on": "837B101F0F84E1D04EF9E928D04EF9C7431000000000C743141F000000E915D04EF9C7431000000000C7431407000000E902D04EF9C7431000000000C743140B000000E9EFCF4EF9C7431000000000C7431416000000E9DCCF4EF9C7431000000000C7431420000000E9C9CF4EF9C7431000000000C743142A000000E9B6CF4EF9C7431000000000C7431430000000E9A3CF4EF9C7431000000000C7431431000000E990CF4EF9C7431097000000E984CF4EF9C7431098000000E978CF4EF9",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "61B16A",
+          "on": "E9CA2FB10690",
+          "off": "0F84B4000000"
+        }
+      ]
+    },
+    {
+      "name": "44 AE Lightning Hawk",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "712E13D",
+          "on": "740990909090",
+          "off": "0F84E1D04EF9"
+        }
+      ]
+    },
+    {
+      "name": "Reset Gameplay Timer [Dont Freez It]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "712E1F8",
+          "on": "0F84E46BA7FA4831DB48895818E9316BA7FA",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1BA4D31",
+          "on": "E9C29458059090909090",
+          "off": "0F84B1000000488B5818"
+        }
+      ]
+    },
+    {
+      "name": "Prevent Zombie To Grab Player",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "314310",
+          "on": "C3909090",
+          "off": "488B4750"
+        }
+      ]
+    },
+    {
+      "name": "Player Pointer",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "712E240",
+          "on": "48A3F03FEF0B00000000448B7858E96EBE96F9",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "A9A072",
+          "on": "E9C941690690",
+          "off": "448B7858EB49"
+        }
+      ]
+    },
+    {
+      "name": "Health / 1 Hit Mastercode(May not be needed)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "712E253",
+          "on": "000048A1F03FEF0B000000004839F08B4658740D803DE6FFFFFF01750D31C0EB0E803DD8FFFFFF0174050F4CCA29C8E9C8B27CF9",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "8F954A",
+          "on": "E9064D8306",
+          "off": "0F4CCA29C8"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "712E253",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "1 Hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "712E254",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Bottomless Clip",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E31F5E",
+          "on": "909090",
+          "off": "4429F2"
+        }
+      ]
+    },
+    {
+      "name": "Max Clip Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E31F66",
+          "on": "89C290",
+          "off": "0F4ED0"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E99A03",
+          "on": "909090909090",
+          "off": "2B9578FFFFFF"
+        },
+        {
+          "offset": "1E99A0B",
+          "on": "909090",
+          "off": "4401F2"
+        }
+      ]
+    },
+    {
+      "name": "Max Ammo on Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E99A10",
+          "on": "89C290",
+          "off": "0F4ED0"
+        }
+      ]
+    },
+    {
+      "name": "Short Animationtime for Aiming",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "DEA8BB",
+          "on": "0F57C090",
+          "off": "C5FA5CC1"
+        }
+      ]
+    },
+    {
+      "name": "Instant Gun-Focus",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1D34444",
+          "on": "C5FA1005D4732A03",
+          "off": "C5F358C0C5FB5AC0"
+        },
+        {
+          "offset": "1D34E05",
+          "on": "C5FA5F05136A2A03",
+          "off": "C5FA5D05136A2A03"
+        },
+        {
+          "offset": "1D3466D",
+          "on": "C5FA1005AB712A03",
+          "off": "C5F358C0C5FB5AC0"
+        }
+      ]
+    },
+    {
+      "name": "Freeze SaveCounter",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "15D3882",
+          "on": "9090",
+          "off": "FFC0"
+        }
+      ]
+    },
+    {
+      "name": "Max Items on Combine",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E98F51",
+          "on": "89C290",
+          "off": "0F4ED0"
+        }
+      ]
+    },
+    {
+      "name": "Dupe Items into Storage",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "60D11B",
+          "on": "909090",
+          "off": "294820"
+        }
+      ]
+    },
+    {
+      "name": "Max Items on move from Storage",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E328B1",
+          "on": "4189C590",
+          "off": "440F4EE8"
+        }
+      ]
+    },
+    {
+      "name": "Max Itemslots on Get",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "60B95E",
+          "on": "90909090",
+          "off": "450F4CF4"
+        }
+      ]
+    },
+    {
+      "name": "Nemesis stays down",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "236EA01",
+          "on": "C5F828C1",
+          "off": "C5F25CC0"
+        }
+      ]
+    },
+    {
+      "name": "Always Open Code-Locks",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "15CA801",
+          "on": "9090",
+          "off": "752B"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "KevinTamvan",
+    "TLH"
+  ]
+}

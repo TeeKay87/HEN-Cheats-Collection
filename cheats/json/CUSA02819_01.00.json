@@ -1,0 +1,33 @@
+{
+  "name": "Tom Clancy\u0027s Ghost Recon: Wildlands",
+  "id": "CUSA02819",
+  "version": "01.00",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "30CC867",
+          "on": "9090",
+          "off": "FFCA"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2CCC867",
+          "on": "9090",
+          "off": "FFCA"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "GoldZ"
+  ]
+}

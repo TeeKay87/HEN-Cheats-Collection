@@ -1,0 +1,130 @@
+{
+  "name": "Rico: London",
+  "id": "CUSA26491",
+  "version": "01.01",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Health Seryngs",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5D310",
+          "on": "42034C3828E9CAF02E01",
+          "off": "00000000000000000000"
+        },
+        {
+          "offset": "80F4C3DF",
+          "on": "E92C0FD1FE",
+          "off": "42FF4C3828"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo/No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5CB30",
+          "on": "42034C2848E9DE036201",
+          "off": "00000000000000000000"
+        },
+        {
+          "offset": "8127CF13",
+          "on": "E918FC9DFE",
+          "off": "42FF4C2848"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Throwables",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5D070",
+          "on": "4A8D4CA32C8B01E91BE1CA00",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "8090B190",
+          "on": "E9DB1E35FF9090",
+          "off": "4A8D4CA32C8901"
+        }
+      ]
+    },
+    {
+      "name": "Max Infinite Money [9999]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5D860",
+          "on": "C74488240F270000E99BE29C00",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "8062BB03",
+          "on": "E9581D63FF",
+          "off": "4429648824"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health / 1Hit (master Code)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1985B40",
+          "on": "488D0CC94883F9007512BA640000008954C828E9E4B51D7F31D2EBF32954C828E9D7B51D7F",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "80B61134",
+          "on": "E9074AE280909090",
+          "off": "488D0CC92954C828"
+        }
+      ]
+    },
+    {
+      "name": "1 Hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1985B48",
+          "on": "750E",
+          "off": "7512"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo / No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "FC8F13",
+          "on": "9090909090",
+          "off": "42FF4C2848"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Throwing Knives",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1985BF0",
+          "on": "B8050000008901498B4630E99B55F87E",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "8090B195",
+          "on": "E956AA078190",
+          "off": "8901498B4630"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Celogamez_9.00",
+    "Saso"
+  ]
+}

@@ -1,0 +1,602 @@
+{
+  "name": "Dead Island 2",
+  "id": "CUSA27043",
+  "version": "01.03",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "HP Master (Must Be ON for health/one hit)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3421E8B",
+          "on": "C5FA5E80F0000000",
+          "off": "C5FA5E80F0000000"
+        },
+        {
+          "offset": "9417000",
+          "on": "C5FA5E80F000000048A3009FDB0A00000000E97CAE00FA",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "2B2B92E",
+          "on": "C5FA118D34FFFFFF",
+          "off": "C5FA118D34FFFFFF"
+        },
+        {
+          "offset": "9417017",
+          "on": "483B3DE22E9A017406F30F10C0EB08C5FA108778010000E9034971F9",
+          "off": "00000000000000000000000000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "9417026",
+          "on": "C5FA1087F0000000",
+          "off": "C5FA108778010000"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "9417020",
+          "on": "0F57C090",
+          "off": "F30F10C0"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3012885",
+          "on": "F30F10D0",
+          "off": "C5EA5DC0"
+        }
+      ]
+    },
+    {
+      "name": "Zombie No Stamina Recovery after Hit",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "30126E5",
+          "on": "0F57C090",
+          "off": "C5EA5DC0"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Weapon Durability",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "31693F6",
+          "on": "C5F25FC0",
+          "off": "C5F25CC0"
+        }
+      ]
+    },
+    {
+      "name": "Max XP on Gain",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "329F7C8",
+          "on": "4589EF90",
+          "off": "450F4FEF"
+        }
+      ]
+    },
+    {
+      "name": "Max Items on Gain",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6FA8EBC",
+          "on": "4589CE90",
+          "off": "410F4FD6"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Items\u002BMoney (Disable to Sell Items)",
+      "hint": "This will also allow you to drop unlimited amount of weapons from your inventory but weapons you drop seem to not become usable after you pick them up. ",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6FA9264",
+          "on": "4531F6",
+          "off": "4429F0"
+        }
+      ]
+    },
+    {
+      "name": "9999999 Money (Open Player Menu or Workbench)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3622C82",
+          "on": "E869B09803",
+          "off": "E869B09803"
+        },
+        {
+          "offset": "9417033",
+          "on": "488935CE2E9A01E8B16CB9FDE943BC20FA",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "6FADD80",
+          "on": "440330EBDB",
+          "off": "440330EBDB"
+        },
+        {
+          "offset": "9417044",
+          "on": "483B1DBD2E9A017506C7007F969800440330E9056DB9FDE9256DB9FD",
+          "off": "00000000000000000000000000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2FEB869",
+          "on": "BA00000000",
+          "off": "B901000000"
+        }
+      ]
+    },
+    {
+      "name": "No Recoil",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2FD7934",
+          "on": "BE00000000909090909090909090",
+          "off": "BE01000000C4C17A1185AC010000"
+        }
+      ]
+    },
+    {
+      "name": "Less Bullet Spread",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2FED79F",
+          "on": "0F57C090",
+          "off": "C5FA5EC1"
+        }
+      ]
+    },
+    {
+      "name": "Max Fury on Gain",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3269C74",
+          "on": "C5FA108B58010000C5FA11888000000090",
+          "off": "7407C681B000000001C5FA118880000000"
+        }
+      ]
+    },
+    {
+      "name": "Max Infinite Fury on Use",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "398FB5B",
+          "on": "F30F10C3",
+          "off": "C5F25CC0"
+        }
+      ]
+    },
+    {
+      "name": "No Fall Damage\u002BImmune to Some Effects (Effects Also Applies to Some Zombies)",
+      "hint": "By Effects i mean Fire, Poison, Frozen... It does not work for every single one only some of them.",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2C61822",
+          "on": "9090909090",
+          "off": "E8F956FFFF"
+        }
+      ]
+    },
+    {
+      "name": "Super Jump",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5E394E1",
+          "on": "31C990",
+          "off": "894E08"
+        }
+      ]
+    },
+    {
+      "name": "Crazy Weapon Stats (May reset after buying a mod in shop for the weapon)",
+      "hint": "This does not work on every stat or on every weapon only works on some of them. ",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "296BB14",
+          "on": "E977B5AA06",
+          "off": "E977B5AA06"
+        },
+        {
+          "offset": "94170A8",
+          "on": "415741BF7F96184B44893C01415FC5FA100C01E9594A55F9",
+          "off": "000000000000000000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "x2 Melee Weapon Attack Speed (Disable \u0026 Swap Weapon for Original Speed)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "28D2F8F",
+          "on": "C5FA105210",
+          "off": "C5FA105210"
+        },
+        {
+          "offset": "94170C0",
+          "on": "83F8027507C7421000000040C5FA105210E9BEBE4BF9",
+          "off": "00000000000000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2BC8EEA",
+          "on": "8B8704010000",
+          "off": "038704010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "90081FF",
+          "on": "C5FA108720010000C5FA118314010000E998A6C0F9",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "2C128A4",
+          "on": "E956593F06909090",
+          "off": "C5FA118314010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Weapon Durability",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2D69402",
+          "on": "9090909090909090",
+          "off": "C5FA1187780B0000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Medkit/Parts | Drop Items/Weapons For Duplicates",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6BA9264",
+          "on": "909090",
+          "off": "4429F0"
+        }
+      ]
+    },
+    {
+      "name": "Max Parts On Gain",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "9008000",
+          "on": "B96300000041894CDC20E9BC0EBAFD",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "6BA8EC6",
+          "on": "E935F14502",
+          "off": "41894CDC20"
+        }
+      ]
+    },
+    {
+      "name": "50x Medkits/Items/Parts/Ammo in Inventory",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "9008180",
+          "on": "0F85D45BBAFD66C7003200448B30E9F05BBAFD",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "6BADD7E",
+          "on": "E9FDA34502",
+          "off": "75E0440330"
+        }
+      ]
+    },
+    {
+      "name": "Max Money ON Sell| Turn off After Use",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "90080DA",
+          "on": "B97F96980041894CDC20E9E20DBAFD",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "6BA8EC6",
+          "on": "E90FF24502",
+          "off": "41894CDC20"
+        }
+      ]
+    },
+    {
+      "name": "\u002B200 EXP Per Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "9008048",
+          "on": "4189D681C6C80000004189F7E96F7EE9F9",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "2E9FEC2",
+          "on": "E98181160690",
+          "off": "4189D64189F7"
+        }
+      ]
+    },
+    {
+      "name": "\u002B500 EXP Per Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "9008061",
+          "on": "4189D681C6F40100004189F7E9567EE9F9",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "2E9FEC2",
+          "on": "E99A81160690",
+          "off": "4189D64189F7"
+        }
+      ]
+    },
+    {
+      "name": "\u002B1500 EXP Per Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "9008078",
+          "on": "4189D681C6DC0500004189F7E93F7EE9F9",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "2E9FEC2",
+          "on": "E9B181160690",
+          "off": "4189D64189F7"
+        }
+      ]
+    },
+    {
+      "name": "\u002B3500 EXP Per Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "9008091",
+          "on": "4189D681C6AC0D00004189F7E9267EE9F9",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "2E9FEC2",
+          "on": "E9CA81160690",
+          "off": "4189D64189F7"
+        }
+      ]
+    },
+    {
+      "name": "\u002B9999 exp Per Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "90080A8",
+          "on": "4189D681C60F2700004189F7E90F7EE9F9",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "2E9FEC2",
+          "on": "E9E181160690",
+          "off": "4189D64189F7"
+        }
+      ]
+    },
+    {
+      "name": "\u002B99999 EXP Per Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "90080C1",
+          "on": "4189D681C69F8601004189F7E9F67DE9F9",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "2E9FEC2",
+          "on": "E9FA81160690",
+          "off": "4189D64189F7"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "900D590",
+          "on": "4180BF7001000002750D41C7877801000000803B45EB09C4C17A118778010000E95FEC71F9",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "272C20B",
+          "on": "E980138E0690909090",
+          "off": "C4C17A118778010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite weapon Durability",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "900D510",
+          "on": "C787780B00000000C842E9EBBED5F9",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "2D69402",
+          "on": "E909412A06909090",
+          "off": "C5FA1187780B0000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "9008810",
+          "on": "C783140100000000C842E98DA0C0F9",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "2C128A4",
+          "on": "E9675F3F06909090",
+          "off": "C5FA118314010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "9015450",
+          "on": "C687040100001EE99A3ABBF9",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "2BC8EF0",
+          "on": "E95BC5440690",
+          "off": "898704010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Fury",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "900F5F0",
+          "on": "C780800000000000803FE961B8E5F9",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "2E6AE58",
+          "on": "E993471A06909090",
+          "off": "C5FA118080000000"
+        }
+      ]
+    },
+    {
+      "name": "Max Cash (on get turn off items cheat first)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "900C260",
+          "on": "41C744DC20FFE0F505E95DCCB9FD",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "6BA8EC6",
+          "on": "E995334602",
+          "off": "41894CDC20"
+        }
+      ]
+    },
+    {
+      "name": "Max Experience (on 2nd kill)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "900D1E0",
+          "on": "C74078FFC99A3B44037078498B0424E90829E9F9",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "2E9FAF4",
+          "on": "E9E7D61606909090",
+          "off": "44037078498B0424"
+        }
+      ]
+    },
+    {
+      "name": "sell 999 items (on the store if items cheat bugged out)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "900D400",
+          "on": "66C783E0090000E703E9ECC407FA",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "30898F4",
+          "on": "E9073BF80590",
+          "off": "898BE0090000"
+        }
+      ]
+    },
+    {
+      "name": "x60 Items (on get turn off the cash cheat and have 2 items)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "900D4A0",
+          "on": "41C644DC203CE920BAB9FD",
+          "off": "0000000000000000000000"
+        },
+        {
+          "offset": "6BA8EC6",
+          "on": "E9D5454602",
+          "off": "41894CDC20"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Rizla",
+    "GamerX2",
+    "Wander FW9.00"
+  ]
+}

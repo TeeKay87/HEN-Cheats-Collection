@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="SILENT HILL 2" Moder="Yharnam" Cusa="PPSA08710" Version="01.005.000" Process="eboot.bin">
+  <Genres Name="Action" />
+  <Items />
+  <Cheat Text="Infi HP">
+    <Cheatline>
+      <Offset>2166F83</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-83-F8-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="1 Hit Kill" Description="Turn Off OHK Cheat During Boss Battles.">
+    <Cheatline>
+      <Offset>9A1BEE</Offset>
+      <Section>0</Section>
+      <ValueOn>C5-F0-57-C9-90</ValueOn>
+      <ValueOff>C5-FA-10-4D-BC</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infi Ammo &amp; Items">
+    <Cheatline>
+      <Offset>A0FD580</Offset>
+      <Section>0</Section>
+      <ValueOn>29-D6-BE-63-00-00-00-89-74-08-08-E9-EE-2D-0A-F8</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>21A0378</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-03-D2-F5-07-90</ValueOn>
+      <ValueOff>29-D6-89-74-08-08</ValueOff>
+    </Cheatline>
+  </Cheat>
+</Trainer>

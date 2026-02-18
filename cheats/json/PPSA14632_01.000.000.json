@@ -1,0 +1,43 @@
+{
+  "name": "LEGO\u00AE Horizon Adventures\u2122",
+  "id": "PPSA14632",
+  "version": "01.000.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf HP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "57F3000",
+          "on": "81FC009AFFEE0F844DBAD9FDC5FA11470CE943BAD9FD",
+          "off": "00000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "358EA54",
+          "on": "E9A7452602",
+          "off": "C5FA11470C"
+        }
+      ]
+    },
+    {
+      "name": "Inf Pieces",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "57F3036",
+          "on": "B93F420F00898B88020000E9A084CAFE",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "449B4E0",
+          "on": "E9517B350190",
+          "off": "898B88020000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}
