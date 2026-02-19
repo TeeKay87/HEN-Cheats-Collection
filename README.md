@@ -4,7 +4,7 @@ FTP into your PlayStation 5 and delete, rename or backup the `cheats` folder fro
 `IMPORTANT!` Restart and re-jb the PlayStation. Enjoy your brand new cheats.
 
 ## Find compatible cheats
-Open the [CHEATSLIST](https://github.com/TeeKay87/HEN-Cheats-Collection/blob/master/cheatslist.txt) and `CTRL+F` search for either an `ID` or `game title` to find what version of the game has a compatible cheat file.
+Open the [CHEATSLIST](https://htmlpreview.github.io/?https://github.com/TeeKay87/HEN-Cheats-Collection/blob/master/lists/index.html) and `CTRL+F` search for either an `ID` or `game title` to find what version of the game has a compatible cheat file.
 
 The cheatlist now shows the number of cheats available for each game.
 
