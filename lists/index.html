@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CheatsList</title>
+  <style>
+    :root{
+      --bg:#0b1020;
+      --panel:rgba(255,255,255,.06);
+      --panel2:rgba(255,255,255,.09);
+      --border:rgba(255,255,255,.10);
+      --text:rgba(255,255,255,.92);
+      --muted:rgba(255,255,255,.65);
+      --muted2:rgba(255,255,255,.45);
+      --good:#27d17f;
+      --warn:#f5b942;
+      --bad:#ff5c7a;
+      --chip:#101a36;
+      --shadow: 0 10px 35px rgba(0,0,0,.35);
+      --radius:18px;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      --sans: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:var(--sans);
+      color:var(--text);
+      background:
+        radial-gradient(1000px 500px at 20% -10%, rgba(120,130,255,.18), transparent 60%),
+        radial-gradient(900px 450px at 80% 0%, rgba(40,210,160,.12), transparent 55%),
+        radial-gradient(800px 400px at 50% 110%, rgba(255,90,140,.10), transparent 55%),
+        var(--bg);
+      min-height:100vh;
+    }
+    a{color:inherit}
+    .wrap{max-width:1200px;margin:0 auto;padding:28px 18px 60px}
+    header{
+      display:flex;gap:18px;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;
+      margin-bottom:18px;
+    }
+    .title{
+      display:flex;flex-direction:column;gap:6px;
+    }
+    .title h1{margin:0;font-size:28px;letter-spacing:.2px}
+    .title .sub{color:var(--muted);font-size:14px;line-height:1.35}
+    .toolbar{
+      flex:1 1 420px;
+      display:flex;gap:10px;justify-content:flex-end;flex-wrap:wrap;
+    }
+    .search{
+      flex:1 1 320px;
+      position:relative;
+    }
+    .search input{
+      width:100%;
+      padding:12px 42px 12px 42px;
+      border-radius:999px;
+      border:1px solid var(--border);
+      background:rgba(0,0,0,.28);
+      color:var(--text);
+      outline:none;
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,.03);
+    }
+    .search input::placeholder{color:var(--muted2)}
+    .search .icon{
+      position:absolute;left:14px;top:50%;transform:translateY(-50%);
+      width:18px;height:18px;opacity:.65
+    }
+    .search .clear{
+      position:absolute;right:10px;top:50%;transform:translateY(-50%);
+      border:0;background:transparent;color:var(--muted);
+      padding:6px 10px;border-radius:999px;cursor:pointer;
+    }
+    .search .clear:hover{background:rgba(255,255,255,.06);color:var(--text)}
+    .pill{
+      padding:10px 12px;
+      border-radius:999px;
+      border:1px solid var(--border);
+      background:rgba(0,0,0,.20);
+      color:var(--muted);
+      font-size:12px;
+      display:flex;gap:8px;align-items:center;
+      user-select:none;
+    }
+    .pill b{color:var(--text);font-weight:600}
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(12, 1fr);
+      gap:14px;
+      margin-top:14px;
+    }
+    .card{
+      grid-column:span 12;
+      background:linear-gradient(180deg, rgba(255,255,255,.08), rgba(255,255,255,.05));
+      border:1px solid var(--border);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      overflow:hidden;
+    }
+    @media (min-width:720px){
+      .card{grid-column:span 6}
+    }
+    @media (min-width:1040px){
+      .card{grid-column:span 4}
+    }
+    .card .top{
+      padding:16px 16px 12px;
+      display:flex;justify-content:space-between;gap:12px;align-items:flex-start;
+    }
+    .id{
+      font-family:var(--mono);
+      font-size:12px;
+      letter-spacing:.6px;
+      color:rgba(255,255,255,.86);
+      display:inline-flex;gap:8px;align-items:center;
+    }
+    .id .tag{
+      font-family:var(--sans);
+      font-size:11px;
+      padding:4px 8px;
+      border-radius:999px;
+      background:rgba(255,255,255,.08);
+      border:1px solid rgba(255,255,255,.10);
+      color:var(--muted);
+    }
+    .name{
+      margin-top:8px;
+      font-size:16px;
+      line-height:1.2;
+      font-weight:650;
+      letter-spacing:.2px;
+    }
+    .meta{
+      margin-top:8px;
+      color:var(--muted);
+      font-size:12.5px;
+      display:flex;gap:10px;flex-wrap:wrap;align-items:center;
+    }
+    .meta .dot{opacity:.7}
+    .meta .mono{font-family:var(--mono)}
+    .badges{
+      display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end;
+      padding-top:2px;
+    }
+    .badge{
+      display:inline-flex;gap:7px;align-items:center;
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid var(--border);
+      background:rgba(0,0,0,.20);
+      font-size:12px;
+      color:var(--muted);
+      user-select:none;
+      white-space:nowrap;
+    }
+    .badge .b{font-weight:650;color:var(--text);font-family:var(--mono);font-size:11px}
+    .led{
+      width:9px;height:9px;border-radius:999px;
+      box-shadow:0 0 0 3px rgba(255,255,255,.04);
+      background:var(--bad);
+    }
+    .led.good{background:var(--good)}
+    .led.warn{background:var(--warn)}
+    .divider{height:1px;background:rgba(255,255,255,.08)}
+    .bottom{
+      padding:12px 16px 16px;
+      display:flex;flex-direction:column;gap:10px;
+    }
+    details{
+      background:rgba(0,0,0,.18);
+      border:1px solid rgba(255,255,255,.08);
+      border-radius:14px;
+      padding:10px 12px;
+    }
+    summary{
+      cursor:pointer;
+      list-style:none;
+      display:flex;align-items:center;justify-content:space-between;gap:10px;
+      color:var(--text);
+      font-size:13px;
+    }
+    summary::-webkit-details-marker{display:none}
+    .cheatlist{
+      margin:10px 0 0;
+      padding:0 0 0 18px;
+      color:rgba(255,255,255,.82);
+      font-size:12.5px;
+      line-height:1.35;
+    }
+    .cheatlist li{margin:6px 0}
+    .hint{
+      color:var(--muted2);
+      font-size:12px;
+    }
+    .empty{
+      margin-top:18px;
+      padding:26px 18px;
+      border:1px dashed rgba(255,255,255,.16);
+      border-radius:var(--radius);
+      color:var(--muted);
+      background:rgba(0,0,0,.18);
+    }
+    .kbd{
+      font-family:var(--mono);
+      font-size:11px;
+      padding:2px 6px;
+      border-radius:8px;
+      border:1px solid rgba(255,255,255,.14);
+      background:rgba(255,255,255,.06);
+      color:rgba(255,255,255,.82);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+      <div class="title">
+        <h1>CheatsList</h1>
+        <div class="sub">
+          Sök på <span class="kbd">ID</span> eller <span class="kbd">titel</span>. Listan filtreras direkt medan du skriver.
+        </div>
+      </div>
+
+      <div class="toolbar">
+        <div class="search">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M21 21l-4.35-4.35m1.85-5.15a7 7 0 11-14 0 7 7 0 0114 0z"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          <input id="q" type="text" placeholder="Sök: CUSA12345 eller 'Spider-Man'…" autocomplete="off" />
+          <button id="clear" class="clear" title="Rensa">✕</button>
+        </div>
+
+        <div class="pill" title="Visar antal matchningar / totalt">
+          Visar <b id="count">0</b> av <b id="total">0</b>
+        </div>
+      </div>
+    </header>
+
+    <div id="grid" class="grid"></div>
+    <div id="empty" class="empty" style="display:none;">
+      Inga träffar. Prova att söka på ett annat ID eller en annan del av titeln.
+    </div>
+  </div>
+
+  <script>
+    // Ändra om filen ligger någon annanstans:
+    const DATA_URL = "cheatslist.json";
+
+    const elGrid  = document.getElementById("grid");
+    const elEmpty = document.getElementById("empty");
+    const elQ     = document.getElementById("q");
+    const elClear = document.getElementById("clear");
+    const elCount = document.getElementById("count");
+    const elTotal = document.getElementById("total");
+
+    let all = [];
+
+    function norm(s){
+      return (s ?? "").toString().trim().toLowerCase();
+    }
+
+    function ledClass(hasFile, cheatsCount){
+      if (hasFile) return "good";
+      if (cheatsCount > 0) return "warn";
+      return "";
+    }
+
+    function badgeHtml(label, fmt){
+      const hasFile = !!fmt?.hasFile;
+      const cnt = Number(fmt?.cheatsCount ?? 0);
+      const led = ledClass(hasFile, cnt);
+      return `
+        <div class="badge" title="${label}: ${hasFile ? "har fil" : "ingen fil"} • ${cnt} cheat(s)">
+          <span class="led ${led}"></span>
+          <span class="b">${label}</span>
+          <span>${cnt}</span>
+        </div>
+      `;
+    }
+
+    function safeHtml(text){
+      // Minimal escape (räcker för att inte råka injicera HTML från datan)
+      return (text ?? "").toString()
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function cardHtml(item){
+      const id = item.id ?? "";
+      const title = item.title ?? "";
+      const version = item.version ?? "";
+      const total = Number(item.cheatsTotal ?? 0);
+
+      const f = item.formats ?? {};
+      const bJson = badgeHtml("json", f.json);
+      const bShn  = badgeHtml("shn",  f.shn);
+      const bMc4  = badgeHtml("mc4",  f.mc4);
+
+      // Bygg en liten “featured”-lista: visa cheats från format som faktiskt har cheats
+      // (för att inte spamma: max 10 rader totalt)
+      const picks = [];
+      for (const key of ["json","shn","mc4"]){
+        const c = f?.[key]?.cheats ?? [];
+        if (Array.isArray(c) && c.length){
+          for (const name of c) picks.push({ key, name });
+        }
+      }
+      const maxLines = 10;
+      const shown = picks.slice(0, maxLines);
+      const extra = Math.max(0, picks.length - shown.length);
+
+      const listHtml = shown.length ? `
+        <details>
+          <summary>
+            <span>Cheats (förhandsvisning)</span>
+            <span class="hint">${shown.length}${extra ? ` +${extra}` : ""}</span>
+          </summary>
+          <ol class="cheatlist">
+            ${shown.map(x => `<li><span class="hint">[${x.key}]</span> ${safeHtml(x.name)}</li>`).join("")}
+          </ol>
+        </details>
+      ` : `
+        <div class="hint">Inga cheat-namn listade för denna post.</div>
+      `;
+
+      return `
+        <article class="card">
+          <div class="top">
+            <div>
+              <div class="id">
+                <span>${safeHtml(id)}</span>
+                <span class="tag">v${safeHtml(version)}</span>
+                <span class="tag">${total} cheats</span>
+              </div>
+              <div class="name">${safeHtml(title)}</div>
+              <div class="meta">
+                <span class="mono">ID: ${safeHtml(id)}</span>
+                <span class="dot">•</span>
+                <span class="mono">Version: ${safeHtml(version)}</span>
+              </div>
+            </div>
+            <div class="badges">
+              ${bJson}
+              ${bShn}
+              ${bMc4}
+            </div>
+          </div>
+          <div class="divider"></div>
+          <div class="bottom">
+            ${listHtml}
+          </div>
+        </article>
+      `;
+    }
+
+    function render(items){
+      elGrid.innerHTML = items.map(cardHtml).join("");
+      elCount.textContent = String(items.length);
+      elTotal.textContent = String(all.length);
+      elEmpty.style.display = items.length ? "none" : "block";
+    }
+
+    function applyFilter(){
+      const q = norm(elQ.value);
+      if (!q){
+        render(all);
+        return;
+      }
+
+      // Filen har idLower/titleLower, men vi fall-backar på id/title ifall de saknas
+      const filtered = all.filter(x => {
+        const id = x.idLower ? norm(x.idLower) : norm(x.id);
+        const title = x.titleLower ? norm(x.titleLower) : norm(x.title);
+        return id.includes(q) || title.includes(q);
+      });
+
+      render(filtered);
+    }
+
+    async function boot(){
+      try{
+        const res = await fetch(DATA_URL, { cache: "no-store" });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const data = await res.json();
+
+        // Förväntar oss en array av entries
+        all = Array.isArray(data) ? data : (Array.isArray(data?.items) ? data.items : []);
+        // Sortera snyggt: titel, sedan ID, sedan version
+        all.sort((a,b) => {
+          const t = (a.titleLower ?? a.title ?? "").localeCompare((b.titleLower ?? b.title ?? ""), "sv", { sensitivity:"base" });
+          if (t) return t;
+          const i = (a.id ?? "").localeCompare((b.id ?? ""), "sv", { sensitivity:"base" });
+          if (i) return i;
+          return (a.version ?? "").localeCompare((b.version ?? ""), "sv", { sensitivity:"base" });
+        });
+
+        render(all);
+
+        // Keyboard: '/' fokuserar sök
+        window.addEventListener("keydown", (e) => {
+          if (e.key === "/" && document.activeElement !== elQ){
+            e.preventDefault();
+            elQ.focus();
+          }
+          if (e.key === "Escape"){
+            elQ.value = "";
+            applyFilter();
+            elQ.blur();
+          }
+        });
+
+      }catch(err){
+        elGrid.innerHTML = `
+          <div class="empty">
+            <b>Kunde inte ladda data.</b><br/>
+            Kontrollera att <span class="kbd">${DATA_URL}</span> ligger i samma mapp och att du öppnar sidan via en liten webserver
+            (inte <span class="kbd">file://</span> i vissa browsers).<br/><br/>
+            Fel: <span class="kbd">${String(err).replaceAll("<","&lt;")}</span>
+          </div>
+        `;
+      }
+    }
+
+    elQ.addEventListener("input", applyFilter);
+    elClear.addEventListener("click", () => {
+      elQ.value = "";
+      applyFilter();
+      elQ.focus();
+    });
+
+    boot();
+  </script>
+</body>
+</html>
