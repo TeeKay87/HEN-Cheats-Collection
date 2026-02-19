@@ -12,13 +12,16 @@
     <header>
       <div class="title">
         <h1>
-		  <a class="title-link"
-			 href="https://github.com/TeeKay87/HEN-Cheats-Collection"
-			 target="_blank"
-			 rel="noopener noreferrer">
-			HEN Cheats Collection by TeeKay87
-		  </a>
-		</h1>
+          <a
+            class="title-link"
+            href="https://github.com/TeeKay87/HEN-Cheats-Collection"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            HEN Cheats Collection by TeeKay87
+          </a>
+        </h1>
+
         <div class="sub">
           Search by <span class="kbd">ID</span> or <span class="kbd">title</span>. Results update instantly while typing.
         </div>
@@ -27,10 +30,15 @@
       <div class="toolbar">
         <div class="search">
           <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-            <path d="M21 21l-4.35-4.35m1.85-5.15a7 7 0 11-14 0 7 7 0 0114 0z"
-                  stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path
+              d="M21 21l-4.35-4.35m1.85-5.15a7 7 0 11-14 0 7 7 0 0114 0z"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
           </svg>
-          <input id="q" type="text" placeholder="Search: CUSA12345 or 'Spider-Man'…" autocomplete="off" />
+
+          <input id="q" type="text" placeholder="Search: ID, title, or creator…" autocomplete="off" />
           <button id="clear" class="clear" title="Clear">✕</button>
         </div>
 
@@ -46,6 +54,7 @@
       No results found. Try searching for a different ID or part of a title.
     </div>
   </div>
+
   <!-- Details modal -->
   <div id="modal" class="modal" aria-hidden="true">
     <div class="modal__backdrop" data-close></div>
@@ -63,13 +72,19 @@
 
       <div class="modal__content">
         <div id="m_badges" class="modal__badges"></div>
+        <div id="m_creators" class="modal__creators" style="display:none;"></div>
 
         <div class="modal__tools">
           <div class="modal__search">
             <svg class="modal__searchicon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-              <path d="M21 21l-4.35-4.35m1.85-5.15a7 7 0 11-14 0 7 7 0 0114 0z"
-                    stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path
+                d="M21 21l-4.35-4.35m1.85-5.15a7 7 0 11-14 0 7 7 0 0114 0z"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
             </svg>
+
             <input id="m_q" type="text" placeholder="Filter cheats in this game…" autocomplete="off" />
             <button id="m_clear" class="modal__clear" title="Clear">Clear</button>
           </div>
@@ -79,6 +94,7 @@
       </div>
     </div>
   </div>
+
   <script src="./app.js"></script>
 </body>
 </html>
