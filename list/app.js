@@ -9,6 +9,10 @@ const elClear = document.getElementById("clear");
 const elCount = document.getElementById("count");
 const elTotal = document.getElementById("total");
 
+// All / Favorites toggle
+const elSegAll = document.getElementById("segAll");
+const elSegFav = document.getElementById("segFav");
+
 // Modal
 const elModal     = document.getElementById("modal");
 const elMClose    = document.getElementById("m_close");
@@ -26,6 +30,12 @@ const elMClear    = document.getElementById("m_clear");
 let all = [];
 let current = null;
 let byKey = new Map(); // "ID|VERSION" -> item
+
+let favoritesOnly = false;
+
+// Persist favorites locally (per browser)
+const FAVORITES_KEY = "hen_cheats_favorites_v1";
+let favorites = new Set();
 
 /* ---------- Small helpers ---------- */
 
@@ -124,7 +134,80 @@ function getUniqueCreators(item) {
   return [...uniq.values()].sort((a, b) => a.localeCompare(b, "en", { sensitivity: "base" }));
 }
 
+/* ---------- Favorites helpers ---------- */
+
+function loadFavorites() {
+  try {
+    const raw = localStorage.getItem(FAVORITES_KEY);
+    if (!raw) return new Set();
+    const arr = JSON.parse(raw);
+    if (!Array.isArray(arr)) return new Set();
+    return new Set(arr.filter(x => typeof x === "string" && x.trim()));
+  } catch {
+    return new Set();
+  }
+}
+
+function saveFavorites() {
+  try {
+    localStorage.setItem(FAVORITES_KEY, JSON.stringify([...favorites]));
+  } catch {
+    // Ignore if storage is blocked/disabled
+  }
+}
+
+function isFavorite(itemOrKey) {
+  const key = (typeof itemOrKey === "string") ? itemOrKey : makeKey(itemOrKey);
+  return favorites.has(key);
+}
+
+function setFavorite(itemOrKey, on) {
+  const key = (typeof itemOrKey === "string") ? itemOrKey : makeKey(itemOrKey);
+
+  if (on) favorites.add(key);
+  else favorites.delete(key);
+
+  saveFavorites();
+  return favorites.has(key);
+}
+
+function toggleFavorite(itemOrKey) {
+  const key = (typeof itemOrKey === "string") ? itemOrKey : makeKey(itemOrKey);
+  return setFavorite(key, !favorites.has(key));
+}
+
+function setFavoritesOnly(on) {
+  favoritesOnly = !!on;
+
+  elSegAll.classList.toggle("is-on", !favoritesOnly);
+  elSegAll.setAttribute("aria-pressed", favoritesOnly ? "false" : "true");
+
+  elSegFav.classList.toggle("is-on", favoritesOnly);
+  elSegFav.setAttribute("aria-pressed", favoritesOnly ? "true" : "false");
+
+  applyFilter();
+}
+
 /* ---------- Rendering: list ---------- */
+
+function starSvg(filled) {
+  // Using currentColor so CSS can control the color.
+  // Filled version looks "solid", outline is default.
+  if (filled) {
+    return `
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+      </svg>
+    `;
+  }
+
+  return `
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"
+        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+    </svg>
+  `;
+}
 
 function cardHtml(item) {
   const id = item.id ?? "";
@@ -133,13 +216,20 @@ function cardHtml(item) {
   const total = Number(item.cheatsTotal ?? 0);
   const f = item.formats ?? {};
 
+  const key = makeKey(item);
+  const favOn = isFavorite(key);
+
   const badges = [];
   if (hasCheats(f.json)) badges.push(badgeHtml("json", f.json));
   if (hasCheats(f.shn))  badges.push(badgeHtml("shn",  f.shn));
   if (hasCheats(f.mc4))  badges.push(badgeHtml("mc4",  f.mc4));
 
   return `
-    <article class="card" data-idx="${item.__idx}">
+    <article class="card ${favOn ? "is-fav" : ""}" data-idx="${item.__idx}">
+      <button class="fav-btn" type="button" data-fav="${safeHtml(key)}" aria-pressed="${favOn ? "true" : "false"}" title="Favorite">
+        ${starSvg(favOn)}
+      </button>
+
       <div class="top">
         <div>
           <div class="id">
@@ -165,12 +255,18 @@ function render(items) {
 
 function applyFilter() {
   const q = norm(elQ.value);
+
+  let base = all;
+  if (favoritesOnly) {
+    base = base.filter(x => favorites.has(makeKey(x)));
+  }
+
   if (!q) {
-    render(all);
+    render(base);
     return;
   }
 
-  const filtered = all.filter(x => {
+  const filtered = base.filter(x => {
     const id = x.idLower ? norm(x.idLower) : norm(x.id);
     const title = x.titleLower ? norm(x.titleLower) : norm(x.title);
     const creators = getCreatorsHaystack(x);
@@ -303,7 +399,6 @@ function openModal(item, { setHash = true } = {}) {
     if (location.hash !== h) history.pushState(null, "", h);
   }
 
-  // Let the modal paint before focusing (prevents some mobile oddities).
   setTimeout(() => elMQ.focus(), 0);
 }
 
@@ -333,6 +428,8 @@ function openFromHash() {
 
 async function boot() {
   try {
+    favorites = loadFavorites();
+
     const res = await fetch(DATA_URL, { cache: "no-store" });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
 
@@ -346,13 +443,14 @@ async function boot() {
       if (i) return i;
       return (a.version ?? "").localeCompare((b.version ?? ""), "en", { sensitivity: "base" });
     });
-    
+
     // Assign stable indices AFTER sorting
     all.forEach((item, i) => { item.__idx = i; });
 
     byKey = new Map();
     for (const item of all) byKey.set(makeKey(item), item);
 
+    setFavoritesOnly(false);
     render(all);
     openFromHash();
   } catch (err) {
@@ -376,8 +474,31 @@ elClear.addEventListener("click", () => {
   elQ.focus();
 });
 
+// Segmented toggle
+elSegAll.addEventListener("click", () => setFavoritesOnly(false));
+elSegFav.addEventListener("click", () => setFavoritesOnly(true));
+
 // Card click (event delegation)
 elGrid.addEventListener("click", (e) => {
+  const favBtn = e.target.closest(".fav-btn");
+  if (favBtn) {
+    e.preventDefault();
+    e.stopPropagation();
+
+    const key = favBtn.getAttribute("data-fav") || "";
+    const on = toggleFavorite(key);
+
+    favBtn.setAttribute("aria-pressed", on ? "true" : "false");
+    favBtn.innerHTML = starSvg(on);
+
+    const card = favBtn.closest(".card");
+    if (card) card.classList.toggle("is-fav", on);
+
+    // If we are in favorites-only mode, this might remove the card from view immediately.
+    applyFilter();
+    return;
+  }
+
   const card = e.target.closest(".card");
   if (!card) return;
 

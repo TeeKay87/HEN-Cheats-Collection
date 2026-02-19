@@ -40,6 +40,12 @@
 
           <input id="q" type="text" placeholder="Search: ID, title, or creator…" autocomplete="off" />
           <button id="clear" class="clear" title="Clear">✕</button>
+
+          <!-- All / Favorites toggle -->
+          <div class="seg" role="group" aria-label="Filter">
+            <button id="segAll" class="seg__btn is-on" type="button" aria-pressed="true">All</button>
+            <button id="segFav" class="seg__btn" type="button" aria-pressed="false">Favorites</button>
+          </div>
         </div>
 
         <div class="pill" title="Showing matches / total">

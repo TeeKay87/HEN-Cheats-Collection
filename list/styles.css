@@ -53,16 +53,28 @@ header{
   flex-wrap:wrap;
 }
 
-.search{flex:1 1 320px;position:relative}
+.search{
+  flex:1 1 320px;
+  position:relative;
 
-.search input{
-  width:100%;
-  padding:12px 42px;
+  /* pillen */
   border-radius:999px;
   border:1px solid var(--border);
   background:rgba(0,0,0,.28);
+
+  /* viktigt så absolut-positionerade barn klipps snyggt */
+  overflow:hidden;
+}
+
+.search input{
+  width:100%;
+  border:0;
+  background:transparent;
   color:var(--text);
   outline:none;
+
+  /* vänster för ikon, höger för toggle + X */
+  padding:12px 170px 12px 42px;
 }
 
 .search input::placeholder{color:var(--muted2)}
@@ -75,17 +87,19 @@ header{
   width:18px;
   height:18px;
   opacity:.65;
+  z-index:2;
 }
 
 .search .clear{
   position:absolute;
-  right:10px;
+  right:12px;
   top:50%;
   transform:translateY(-50%);
   border:0;
   background:transparent;
   color:var(--muted);
   cursor:pointer;
+  z-index:3;
 }
 
 .pill{
@@ -490,4 +504,94 @@ body.modal-open{
   border-radius:999px;
   background: linear-gradient(135deg, rgba(120,130,255,.85), rgba(40,210,160,.75));
   opacity:.95;
+}
+
+/* --- All / Favorites segmented toggle (beside search) --- */
+.search .seg{
+  position:absolute;
+  right:44px; /* plats för X */
+  top:50%;
+  transform:translateY(-50%);
+  display:flex;
+  gap:0;
+  border-radius:999px;
+  border:1px solid rgba(255,255,255,.14);
+  background: rgba(0,0,0,.20);
+  overflow:hidden;
+  z-index:2;
+}
+
+.seg__btn{
+  border:0;
+  background: transparent;
+  color: rgba(255,255,255,.72);
+  font-size:12px;
+  padding:4px 10px;
+  cursor:pointer;
+  border-radius:999px;
+  user-select:none;
+  transition: background .15s ease, color .15s ease;
+}
+
+.seg__btn:hover{
+  background: rgba(255,255,255,.06);
+  color: rgba(255,255,255,.9);
+}
+
+.seg__btn.is-on{
+  background: rgba(255,255,255,.10);
+  color: rgba(255,255,255,.95);
+}
+
+/* --- Favorites star on cards --- */
+.card{
+  overflow:hidden;
+}
+
+.card.is-fav{
+  border-color: rgba(255, 208, 90, .70);
+  box-shadow: 0 14px 45px rgba(255, 208, 90, .10), var(--shadow);
+}
+
+.fav-btn{
+  position:absolute;
+  top:10px;
+  right:10px;
+  width:34px;
+  height:34px;
+  border-radius:999px;
+  border:0px solid rgba(255,255,255,.14);
+  background: rgba(0,0,0,0);
+  display:grid;
+  place-items:center;
+  cursor:pointer;
+  z-index: 3;
+  transition: transform .15s ease, background .15s ease, border-color .15s ease;
+}
+
+.fav-btn:hover{
+  /*transform: translateY(-1px);*/
+  background: rgba(255,255,255,.06);
+  border-color: rgba(255,255,255,.18);
+}
+
+/* Outline star (default) */
+.fav-btn svg{
+  width:18px;
+  height:18px;
+}
+
+/* Filled gold when active */
+.fav-btn[aria-pressed="true"]{
+  border-color: rgba(255, 208, 90, .55);
+  background: rgba(255, 208, 90, .12);
+}
+
+/* Use currentColor for SVG and switch colors via aria */
+.fav-btn{
+  color: rgba(255,255,255,.55);
+}
+
+.fav-btn[aria-pressed="true"]{
+  color: rgba(255, 208, 90, .95);
 }
