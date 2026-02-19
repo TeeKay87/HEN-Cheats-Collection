@@ -380,3 +380,41 @@ header{
   font-size: 13px;
   padding: 6px 2px;
 }
+
+/* --- Mobile modal scroll fix (iOS/Android) --- */
+
+/* Use dynamic viewport height when available */
+.modal__panel{
+  /* override previous sizing */
+  max-height: calc(100dvh - 28px);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Make header fixed and content the only scroll area */
+.modal__header{
+  flex: 0 0 auto;
+}
+
+.modal__content{
+  flex: 1 1 auto;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
+
+  /* override earlier max-height that can break on mobile */
+  max-height: none;
+  padding-bottom: 24px; /* extra breathing room so last line is reachable */
+}
+
+/* If browser doesn't support dvh, fall back to vh */
+@supports not (height: 100dvh){
+  .modal__panel{
+    max-height: calc(100vh - 28px);
+  }
+}
+
+body.modal-open{
+  overflow: hidden;
+  touch-action: none;
+}

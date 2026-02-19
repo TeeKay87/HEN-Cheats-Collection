@@ -240,7 +240,7 @@ function openModal(item, { setHash = true } = {}){
 
   elModal.classList.add("is-open");
   elModal.setAttribute("aria-hidden", "false");
-  document.body.style.overflow = "hidden";
+  document.body.classList.add("modal-open");
 
   if (setHash){
     const h = hashFor(item);
@@ -253,7 +253,7 @@ function openModal(item, { setHash = true } = {}){
 function closeModal({ clearHash = true } = {}){
   elModal.classList.remove("is-open");
   elModal.setAttribute("aria-hidden", "true");
-  document.body.style.overflow = "";
+  document.body.classList.remove("modal-open");
   current = null;
 
   if (clearHash && location.hash){
