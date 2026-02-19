@@ -7,6 +7,9 @@ FTP into your PlayStation 5 and delete, rename or backup the `cheats` folder fro
 [**CLICK HERE**](https://raw.githack.com/TeeKay87/HEN-Cheats-Collection/master/list/index.html) to open the [**CHEATSLIST PAGE**](https://raw.githack.com/TeeKay87/HEN-Cheats-Collection/master/list/index.html) and search for either an `ID` or `game title` to find what version of the game has a compatible cheat file and see a list of all available cheats.
 
 ## Version History
+### 2026-02-19
+`[ADDED]`	PPSA09664	03.000.000	Dragon's Dogma 2
+
 ### 2026-02-17
 Added lots of new cheats.
 Added new cheat sources.

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-02-19T11:56:06.7004586Z",
+  "generatedUtc": "2026-02-19T21:00:09.4751351Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -101791,6 +101791,47 @@
           "hasFile": false,
           "cheatsCount": 0,
           "cheats": []
+        }
+      }
+    },
+    {
+      "id": "PPSA09664",
+      "version": "03.000.000",
+      "title": "Dragon\u0027s Dogma 2",
+      "idLower": "ppsa09664",
+      "titleLower": "dragon\u0027s dogma 2",
+      "cheatsTotal": 9,
+      "creators": [
+        "Celogamez"
+      ],
+      "creatorsLower": [
+        "celogamez"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 9,
+          "cheats": [
+            "Infinite DCP Points",
+            "Infinite Health",
+            "Infinite Health Pawns",
+            "Infinite Health/Pawns (Mastercode/Must Be On)",
+            "Infinite Items",
+            "Infinite Stamina",
+            "Max Xp/Levels",
+            "Max/Infinite Gold On Pick",
+            "No Weight"
+          ]
         }
       }
     },
