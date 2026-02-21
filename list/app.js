@@ -1,5 +1,8 @@
 const DATA_URL = "./cheatslist.json";
 
+const COVERS_URL = "./artmap.json";
+let covers = {};
+
 /* ---------- DOM ---------- */
 
 const elGrid  = document.getElementById("grid");
@@ -218,6 +221,9 @@ function cardHtml(item) {
 
   const key = makeKey(item);
   const favOn = isFavorite(key);
+  
+  const coverUrl = covers[item.id] || "";
+  const bgStyle = coverUrl ? `style="--card-bg:url('${coverUrl}')" ` : "";
 
   const badges = [];
   if (hasCheats(f.json)) badges.push(badgeHtml("json", f.json));
@@ -225,7 +231,7 @@ function cardHtml(item) {
   if (hasCheats(f.mc4))  badges.push(badgeHtml("mc4",  f.mc4));
 
   return `
-    <article class="card ${favOn ? "is-fav" : ""}" data-idx="${item.__idx}">
+    <article class="card ${favOn ? "is-fav" : ""}" ${bgStyle} data-idx="${item.__idx}">
       <button class="fav-btn" type="button" data-fav="${safeHtml(key)}" aria-pressed="${favOn ? "true" : "false"}" title="Favorite">
         ${starSvg(favOn)}
       </button>
@@ -233,7 +239,7 @@ function cardHtml(item) {
       <div class="top">
         <div>
           <div class="id">
-            <span>${safeHtml(id)}</span>
+            <span class="tag">${safeHtml(id)}</span>
             <span class="tag">v${safeHtml(version)}</span>
             <span class="tag">${total} cheats</span>
           </div>
@@ -430,10 +436,21 @@ async function boot() {
   try {
     favorites = loadFavorites();
 
+    // Load cheats data
     const res = await fetch(DATA_URL, { cache: "no-store" });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
-
     const data = await res.json();
+
+    // Load cover images (optional)
+    try {
+      const coverRes = await fetch(COVERS_URL, { cache: "no-store" });
+      if (coverRes.ok) {
+        covers = await coverRes.json();
+      }
+    } catch {
+      covers = {};
+    }
+
     all = Array.isArray(data) ? data : (Array.isArray(data?.entries) ? data.entries : []);
 
     all.sort((a, b) => {
