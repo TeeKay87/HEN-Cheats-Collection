@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-02-19T21:00:09.4751351Z",
+  "generatedUtc": "2026-02-21T10:41:20.2773421Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -102283,6 +102283,78 @@
           "hasFile": false,
           "cheatsCount": 0,
           "cheats": []
+        }
+      }
+    },
+    {
+      "id": "PPSA15210",
+      "version": "01.000.000",
+      "title": "DRAGON BALL: Sparking! ZERO",
+      "idLower": "ppsa15210",
+      "titleLower": "dragon ball: sparking! zero",
+      "cheatsTotal": 4,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "1 Hit Kill",
+            "Infi Health",
+            "Infi Zeni",
+            "Untouchable"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA15211",
+      "version": "01.000.000",
+      "title": "DRAGON BALL: Sparking! ZERO",
+      "idLower": "ppsa15211",
+      "titleLower": "dragon ball: sparking! zero",
+      "cheatsTotal": 4,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "1 Hit Kill",
+            "Infi Health",
+            "Infi Zeni",
+            "Untouchable"
+          ]
         }
       }
     },
