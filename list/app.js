@@ -1,6 +1,6 @@
 const DATA_URL = "./cheatslist.json";
 
-const COVERS_URL = "./artmap.json";
+const COVERS_URL = "./artmap_titles.json";
 let covers = {};
 
 /* ---------- DOM ---------- */
@@ -222,7 +222,8 @@ function cardHtml(item) {
   const key = makeKey(item);
   const favOn = isFavorite(key);
   
-  const coverUrl = covers[item.id] || "";
+  const coverKey = item.titleLower ? norm(item.titleLower) : norm(item.title);
+  const coverUrl = covers[coverKey] || "";
   const bgStyle = coverUrl ? `style="--card-bg:url('${coverUrl}')" ` : "";
 
   const badges = [];
@@ -445,7 +446,12 @@ async function boot() {
     try {
       const coverRes = await fetch(COVERS_URL, { cache: "no-store" });
       if (coverRes.ok) {
-        covers = await coverRes.json();
+        const coverData = await coverRes.json();
+        // artmap_titles.json: { generatedUtc, titles: { "lowercase title": "url" } }
+        // Keep backward-compat if file is already just a flat map.
+        covers = (coverData && typeof coverData === "object" && coverData.titles && typeof coverData.titles === "object")
+          ? coverData.titles
+          : (coverData && typeof coverData === "object" ? coverData : {});
       }
     } catch {
       covers = {};
