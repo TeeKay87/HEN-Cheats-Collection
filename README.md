@@ -9,6 +9,9 @@ Go [**HERE TO OPEN THE CHEATS PAGE**](https://raw.githack.com/TeeKay87/HEN-Cheat
 Play your way.
 
 ## Version History
+### 2026-02-23
+`[ADDED]`	CUSA54714	01.13	Yakuza Kiwami 3 & Dark Ties
+
 ### 2026-02-21
 `[ADDED]`	PPSA15210	01.000.000	DRAGON BALL: Sparking! ZERO
 `[ADDED]`	PPSA15211	01.000.000	DRAGON BALL: Sparking! ZERO

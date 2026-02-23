@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-02-21T10:41:20.2773421Z",
+  "generatedUtc": "2026-02-23T21:20:26.4349108Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -98431,6 +98431,44 @@
           "cheats": [
             "Infinite-Ki",
             "Invincible"
+          ]
+        }
+      }
+    },
+    {
+      "id": "CUSA54714",
+      "version": "01.13",
+      "title": "Yakuza Kiwami 3 \u0026 Dark Ties",
+      "idLower": "cusa54714",
+      "titleLower": "yakuza kiwami 3 \u0026 dark ties",
+      "cheatsTotal": 6,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 6,
+          "cheats": [
+            "Inf Health",
+            "Inf Power",
+            "Inf Stamina",
+            "Max Items (get)",
+            "Max Money \u0026 SP",
+            "Untouchable"
           ]
         }
       }
