@@ -137,11 +137,11 @@ header{
   
   background:
     linear-gradient(
-      to bottom,
-      rgba(0,0,0,0) 0%,
-      rgba(0,0,0,0) 15%,
-      rgba(0,0,0,0) 85%,
-      rgba(0,0,0,0) 100%
+      to left,
+      rgba(25,30,45,0) 0px,
+      rgba(25,30,45,0) 90px,
+      rgba(25,30,45,1) 120px,
+      rgba(25,30,45,1) 100%
     ),
     var(--card-bg, none),
     rgba(255,255,255,.06);
@@ -151,7 +151,7 @@ header{
   background-size: auto 100%;
 
   transform: translateY(0) scale(1);
-  transition: transform .18s ease, border-color .18s ease, background .18s ease, box-shadow .18s ease;
+  transition: transform .18s ease, border-color .18s ease, background .09s ease, box-shadow .18s ease;
 }
 
 .card .top{padding:16px}
@@ -164,11 +164,11 @@ header{
   
   background:
     linear-gradient(
-      to bottom,
-      rgba(0,0,0,0) 0%,
-      rgba(0,0,0,0) 15%,
-      rgba(0,0,0,0) 85%,
-      rgba(0,0,0,0) 100%
+      to left,
+      rgba(25,30,45,0) 0px,
+      rgba(25,30,45,0) 110px,
+      rgba(25,30,45,1) 140px,
+      rgba(25,30,45,1) 100%
     ),
     var(--card-bg, none),
     rgba(255,255,255,.06);
@@ -176,7 +176,7 @@ header{
   background-repeat: no-repeat;
   background-position: right center;
   background-size: auto 120%;
-  transition: transform .18s ease, border-color .18s ease, background .18s ease, box-shadow .18s ease;
+  transition: transform .18s ease, border-color .18s ease, background .09s ease, box-shadow .18s ease;
 }
 
 .card:active{
@@ -217,6 +217,12 @@ header{
   margin-top:8px;
   font-size:16px;
   font-weight:600;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  
+  width: 300px;
+  overflow:hidden; 
+  white-space:nowrap; 
+  text-overflow: ellipsis;
 }
 
 .badges{display:flex;gap:8px;margin-top:10px}
@@ -581,7 +587,8 @@ body.modal-open{
 }
 
 .card.is-fav{
-  border-color: rgba(255, 208, 90, .70);
+  border-color: rgba(255, 208, 90, 1);
+  color: rgba(255, 208, 90, 1);
   box-shadow: 0 0px 10px rgba(255, 208, 90, .40), var(--shadow);
 }
 
@@ -592,8 +599,8 @@ body.modal-open{
   width:34px;
   height:34px;
   border-radius:999px;
-  border:1px solid rgba(255,255,255,.14);
-  background: rgba(0,0,0,0);
+  border:1px solid rgba(0, 0, 0, 1);
+  background: rgba(0,0,0,.6);
   display:grid;
   place-items:center;
   cursor:pointer;
@@ -603,8 +610,8 @@ body.modal-open{
 
 .fav-btn:hover{
   /*transform: translateY(-1px);*/
-  background: rgba(255,255,255,.06);
-  border-color: rgba(255,255,255,.18);
+  background: rgba(255, 208, 90, .55);
+  border-color: rgba(0, 0, 0, 1);
 }
 
 /* Outline star (default) */
@@ -615,15 +622,17 @@ body.modal-open{
 
 /* Filled gold when active */
 .fav-btn[aria-pressed="true"]{
-  border-color: rgba(255, 208, 90, .55);
-  background: rgba(255, 208, 90, .12);
+  border-color: rgba(0, 0, 0, 1);
+  background: rgba(0,0,0,.6);
 }
 
 /* Use currentColor for SVG and switch colors via aria */
 .fav-btn{
-  color: rgba(255,255,255,.55);
+  color: rgba(255, 208, 90, 1);
 }
 
-.fav-btn[aria-pressed="true"]{
+/*.fav-btn[aria-pressed="true"]{
   color: rgba(255, 208, 90, .95);
-}
+  border-color: rgba(255, 255, 255, 1);
+  background: rgba(0,0,0,.6);
+}*/
