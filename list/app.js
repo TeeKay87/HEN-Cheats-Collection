@@ -263,6 +263,9 @@ function render(items) {
 function applyFilter() {
   const q = norm(elQ.value);
 
+  // Gör INGENTING vid 1–2 tecken (ingen base.filter, ingen render)
+  if (q.length > 0 && q.length < 3) return;
+
   let base = all;
   if (favoritesOnly) {
     base = base.filter(x => favorites.has(makeKey(x)));
@@ -273,13 +276,7 @@ function applyFilter() {
     return;
   }
 
-  const filtered = base.filter(x => {
-    const id = x.idLower ? norm(x.idLower) : norm(x.id);
-    const title = x.titleLower ? norm(x.titleLower) : norm(x.title);
-    const creators = getCreatorsHaystack(x);
-
-    return id.includes(q) || title.includes(q) || creators.includes(q);
-  });
+  const filtered = base.filter(x => (x.__hay || "").includes(q));
 
   render(filtered);
 }
@@ -467,8 +464,16 @@ async function boot() {
       return (a.version ?? "").localeCompare((b.version ?? ""), "en", { sensitivity: "base" });
     });
 
-    // Assign stable indices AFTER sorting
-    all.forEach((item, i) => { item.__idx = i; });
+    // Assign stable indices AFTER sorting + precompute search haystack
+    all.forEach((item, i) => {item.__idx = i;
+    
+      // Bygg en enda söksträng (allt normaliserat)
+      const id = item.idLower ? norm(item.idLower) : norm(item.id);
+      const title = item.titleLower ? norm(item.titleLower) : norm(item.title);
+      const creators = getCreatorsHaystack(item);
+    
+      item.__hay = `${id} ${title} ${creators}`.trim();
+    });
 
     byKey = new Map();
     for (const item of all) byKey.set(makeKey(item), item);
@@ -489,7 +494,12 @@ async function boot() {
 
 /* ---------- Events ---------- */
 
-elQ.addEventListener("input", applyFilter);
+let filterTimer = null;
+
+elQ.addEventListener("input", () => {
+  clearTimeout(filterTimer);
+  filterTimer = setTimeout(applyFilter, 120); // 80–200ms är vanligt
+});
 
 elClear.addEventListener("click", () => {
   elQ.value = "";

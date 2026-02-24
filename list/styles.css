@@ -139,8 +139,8 @@ header{
     linear-gradient(
       to left,
       rgba(25,30,45,0) 0px,
-      rgba(25,30,45,0) 90px,
-      rgba(25,30,45,1) 120px,
+      rgba(25,30,45,0) 102px,
+      rgba(25,30,45,1) 122px,
       rgba(25,30,45,1) 100%
     ),
     var(--card-bg, none),
@@ -166,8 +166,8 @@ header{
     linear-gradient(
       to left,
       rgba(25,30,45,0) 0px,
-      rgba(25,30,45,0) 110px,
-      rgba(25,30,45,1) 140px,
+      rgba(25,30,45,0) 126px,
+      rgba(25,30,45,1) 146px,
       rgba(25,30,45,1) 100%
     ),
     var(--card-bg, none),
@@ -219,10 +219,11 @@ header{
   font-weight:600;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   
-  width: 300px;
-  overflow:hidden; 
-  white-space:nowrap; 
-  text-overflow: ellipsis;
+  /*display:block;*/
+  width: 90%;
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
 }
 
 .badges{display:flex;gap:8px;margin-top:10px}
