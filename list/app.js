@@ -1,7 +1,53 @@
 const DATA_URL = "./cheatslist.json";
-
 const COVERS_URL = "./artmap_titles.json";
+
+const DEFAULT_COVER_URL = "https://i.pinimg.com/736x/28/68/9a/28689a40d979ebb1d751814d4ce6a0e1.jpg";
+const COVERS_SUFFIX = "?w=256&thumb=false";
+
+const MINIMUM_CHARS_FOR_SEARCH = 2;
+
 let covers = {};
+
+/* ---------- Lazy-load card backgrounds ---------- */
+
+let cardBgObserver = null;
+
+function ensureCardBgObserver() {
+  if (cardBgObserver) return cardBgObserver;
+
+  cardBgObserver = new IntersectionObserver((entries) => {
+    for (const e of entries) {
+      if (!e.isIntersecting) continue;
+
+      const el = e.target;
+
+      const raw = el.dataset.bg || "";
+      const suffix = el.dataset.bgSuffix || "";
+      const url = raw ? `${raw}${suffix}` : "";
+
+      if (url) {
+        el.style.setProperty("--card-bg", `url('${url}')`);
+      }
+
+      // Ladda bara en gång per kort
+      cardBgObserver.unobserve(el);
+      el.removeAttribute("data-bg");
+      el.removeAttribute("data-bg-suffix");
+    }
+  }, {
+    root: null,
+    // Ladda lite innan kortet syns så scroll känns instant
+    rootMargin: "250px 0px",
+    threshold: 0.01
+  });
+
+  return cardBgObserver;
+}
+
+function observeCardBackgrounds() {
+  const io = ensureCardBgObserver();
+  document.querySelectorAll(".card[data-bg]").forEach(el => io.observe(el));
+}
 
 /* ---------- DOM ---------- */
 
@@ -223,8 +269,8 @@ function cardHtml(item) {
   const favOn = isFavorite(key);
   
   const coverKey = item.titleLower ? norm(item.titleLower) : norm(item.title);
-  const coverUrl = covers[coverKey] || "";
-  const bgStyle = coverUrl ? `style="--card-bg:url('${coverUrl}')" ` : "";
+  const coverUrl = getValidCoverUrl(covers[coverKey]);
+  const bgAttrs = `data-bg="${safeHtml(coverUrl)}" data-bg-suffix="${safeHtml(COVERS_SUFFIX)}"`;
 
   const badges = [];
   if (hasCheats(f.json)) badges.push(badgeHtml("json", f.json));
@@ -232,7 +278,7 @@ function cardHtml(item) {
   if (hasCheats(f.mc4))  badges.push(badgeHtml("mc4",  f.mc4));
 
   return `
-    <article class="card ${favOn ? "is-fav" : ""}" ${bgStyle} data-idx="${item.__idx}">
+    <article class="card ${favOn ? "is-fav" : ""}" ${bgAttrs} data-idx="${item.__idx}">
       <button class="fav-btn" type="button" data-fav="${safeHtml(key)}" aria-pressed="${favOn ? "true" : "false"}" title="Favorite">
         ${starSvg(favOn)}
       </button>
@@ -258,13 +304,15 @@ function render(items) {
   elCount.textContent = String(items.length);
   elTotal.textContent = String(all.length);
   elEmpty.style.display = items.length ? "none" : "block";
+  
+  observeCardBackgrounds();
 }
 
 function applyFilter() {
   const q = norm(elQ.value);
 
   // Gör INGENTING vid 1–2 tecken (ingen base.filter, ingen render)
-  if (q.length > 0 && q.length < 3) return;
+  if (q.length > 0 && q.length < MINIMUM_CHARS_FOR_SEARCH) return;
 
   let base = all;
   if (favoritesOnly) {
@@ -279,6 +327,19 @@ function applyFilter() {
   const filtered = base.filter(x => (x.__hay || "").includes(q));
 
   render(filtered);
+}
+
+function getValidCoverUrl(url) {
+  if (!url || typeof url !== "string") return DEFAULT_COVER_URL;
+
+  const u = url.trim();
+
+  // basic sanity check
+  if (!u.startsWith("http") && !u.startsWith("./") && !u.startsWith("/")) {
+    return DEFAULT_COVER_URL;
+  }
+
+  return u;
 }
 
 /* ---------- Rendering: modal ---------- */
