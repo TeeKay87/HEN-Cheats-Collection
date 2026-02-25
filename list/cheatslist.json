@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-02-23T21:20:26.4349108Z",
+  "generatedUtc": "2026-02-25T06:00:54.258757Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -98620,6 +98620,43 @@
           "hasFile": false,
           "cheatsCount": 0,
           "cheats": []
+        }
+      }
+    },
+    {
+      "id": "PPSA01284",
+      "version": "03.000.004",
+      "title": "Returnal",
+      "idLower": "ppsa01284",
+      "titleLower": "returnal",
+      "cheatsTotal": 5,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "God Mode",
+            "Infinite Dash",
+            "Infinite Ether",
+            "Infinite Obolites Keys",
+            "No Reload"
+          ]
         }
       }
     },
