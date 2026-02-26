@@ -20,9 +20,9 @@ body{
   font-family:var(--sans);
   color:var(--text);
   background:
-    radial-gradient(1000px 500px at 20% -10%, rgba(120,130,255,.18), transparent 60%),
+    /*radial-gradient(1000px 500px at 20% -10%, rgba(120,130,255,.18), transparent 60%),
     radial-gradient(900px 450px at 80% 0%, rgba(40,210,160,.12), transparent 55%),
-    radial-gradient(800px 400px at 50% 110%, rgba(255,90,140,.10), transparent 55%),
+    radial-gradient(800px 400px at 50% 110%, rgba(255,90,140,.10), transparent 55%),*/
     var(--bg);
   min-height:100vh;
 }
@@ -40,10 +40,39 @@ header{
   justify-content:space-between;
   flex-wrap:wrap;
   margin-bottom:18px;
+  
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: var(--bg);
+  padding-top: 10px;
+  padding-bottom: 18px;
 }
 
-.title h1{margin:0;font-size:28px;text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;}
-.title .sub{color:var(--muted);font-size:14px;}
+.title h1{
+  margin:0;
+  font-size:28px;
+  
+  font-size: clamp(19px, 4vw, 28px);
+  
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.title .sub{
+  color:var(--muted);
+  font-size:14px;
+  
+  font-size: clamp(10px, 2.5vw, 14px);
+}
+
+.title .box{
+  font-family:var(--mono);
+  font-size: clamp(8px, 2.5vw, 11px);
+  padding:2px 6px;
+  border-radius:6px;
+  border:1px solid rgba(255,255,255,.14);
+  background:rgba(255,255,255,.06);
+}
 
 .toolbar{
   flex:1 1 420px;
@@ -121,7 +150,7 @@ header{
   .grid{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
-@media (max-width: 720px){
+@media (max-width: 600px){
   .grid{ grid-template-columns: 1fr; }
 }
 
@@ -258,7 +287,7 @@ header{
 
 .kbd{
   font-family:var(--mono);
-  font-size:11px;
+  font-size: 11px;
   padding:2px 6px;
   border-radius:6px;
   border:1px solid rgba(255,255,255,.14);
@@ -270,7 +299,7 @@ header{
   position:fixed;
   inset:0;
   display:none;
-  z-index:999;
+  z-index:2000;
 }
 
 .modal.is-open{ display:block; }
