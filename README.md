@@ -9,6 +9,9 @@ Go [**HERE TO OPEN THE CHEATS PAGE**](https://raw.githack.com/TeeKay87/HEN-Cheat
 Play your way.
 
 ## Version History
+### 2026-02-26
+`[ADDED]`	PPSA04609	01.017.000	Elden Ring
+
 ### 2026-02-25
 `[ADDED]`	PPSA01284	03.000.004	Returnal
 

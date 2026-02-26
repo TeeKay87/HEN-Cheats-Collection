@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-02-25T06:00:54.258757Z",
+  "generatedUtc": "2026-02-26T08:48:45.8670149Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -100512,12 +100512,12 @@
       }
     },
     {
-      "id": "PPSA04610",
+      "id": "PPSA04609",
       "version": "01.017.000",
       "title": "Elden Ring",
-      "idLower": "ppsa04610",
+      "idLower": "ppsa04609",
       "titleLower": "elden ring",
-      "cheatsTotal": 8,
+      "cheatsTotal": 9,
       "creators": [
         "Yharnam"
       ],
@@ -100537,8 +100537,50 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 8,
+          "cheatsCount": 9,
           "cheats": [
+            "1 Hit Kill",
+            "Inf FP",
+            "Inf Health",
+            "Inf Stamina",
+            "Max Items (Get, Use)",
+            "Max Runes",
+            "No Enemy Attacks",
+            "Stealth Mode",
+            "Untouchable"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA04610",
+      "version": "01.017.000",
+      "title": "Elden Ring",
+      "idLower": "ppsa04610",
+      "titleLower": "elden ring",
+      "cheatsTotal": 9,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 9,
+          "cheats": [
+            "1 Hit Kill",
             "Inf FP",
             "Inf Health",
             "Inf Stamina",
