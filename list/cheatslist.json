@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-02-28T00:22:30.7400168Z",
+  "generatedUtc": "2026-02-28T07:42:43.1267319Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -45804,9 +45804,9 @@
     {
       "id": "CUSA11603",
       "version": "01.00",
-      "title": "Shikhondo - \u98DF\u9B42\u5F92",
+      "title": "Shikhondo - Soul Eater",
       "idLower": "cusa11603",
-      "titleLower": "shikhondo - \u98DF\u9B42\u5F92",
+      "titleLower": "shikhondo - soul eater",
       "cheatsTotal": 4,
       "creators": [
         "Ali-mk"
@@ -54297,9 +54297,9 @@
     {
       "id": "CUSA14330",
       "version": "01.00",
-      "title": "The Pathless PS4 \u0026 PS5",
+      "title": "The Pathless",
       "idLower": "cusa14330",
-      "titleLower": "the pathless ps4 \u0026 ps5",
+      "titleLower": "the pathless",
       "cheatsTotal": 1,
       "creators": [
         "Wander"
@@ -54473,9 +54473,9 @@
     {
       "id": "CUSA14451",
       "version": "01.00",
-      "title": "S\u00F6ldner-X 2: Final Prototype Definitive Edition",
+      "title": "Soldner-X 2: Final Prototype Definitive Edition",
       "idLower": "cusa14451",
-      "titleLower": "s\u00F6ldner-x 2: final prototype definitive edition",
+      "titleLower": "soldner-x 2: final prototype definitive edition",
       "cheatsTotal": 3,
       "creators": [
         "Ali-mk"
@@ -54508,9 +54508,9 @@
     {
       "id": "CUSA14451",
       "version": "01.01",
-      "title": "S\u00F6ldner-X 2: Final Prototype Definitive Edition",
+      "title": "Soldner-X 2: Final Prototype Definitive Edition",
       "idLower": "cusa14451",
-      "titleLower": "s\u00F6ldner-x 2: final prototype definitive edition",
+      "titleLower": "soldner-x 2: final prototype definitive edition",
       "cheatsTotal": 3,
       "creators": [
         "Saso"
@@ -90573,9 +90573,9 @@
     {
       "id": "CUSA35744",
       "version": "01.02",
-      "title": "Infinity Strash: DRAGON QUEST The Adventure of Dai PS4 \u0026 PS5",
+      "title": "Infinity Strash: DRAGON QUEST The Adventure of Dai",
       "idLower": "cusa35744",
-      "titleLower": "infinity strash: dragon quest the adventure of dai ps4 \u0026 ps5",
+      "titleLower": "infinity strash: dragon quest the adventure of dai",
       "cheatsTotal": 6,
       "creators": [
         "Q8Despair"
@@ -95767,9 +95767,9 @@
     {
       "id": "CUSA44836",
       "version": "01.03",
-      "title": "Legacy of Kain Soul Reaver 1\u00262 Remastered",
+      "title": "Legacy of Kain Soul Reaver 1 \u0026 2 Remastered",
       "idLower": "cusa44836",
-      "titleLower": "legacy of kain soul reaver 1\u00262 remastered",
+      "titleLower": "legacy of kain soul reaver 1 \u0026 2 remastered",
       "cheatsTotal": 8,
       "creators": [
         "Sondio"
@@ -102595,6 +102595,46 @@
             "Max Money",
             "Max Player Stats",
             "Run Speed x3"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA18259",
+      "version": "01.000.000",
+      "title": "Dead Rising Deluxe Remaster",
+      "idLower": "ppsa18259",
+      "titleLower": "dead rising deluxe remaster",
+      "cheatsTotal": 8,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 8,
+          "cheats": [
+            "Inf Ammo",
+            "Inf Weapon Durability",
+            "Infi Film",
+            "Infi Health (Player)",
+            "Infi Health (Survivors)",
+            "Max Exp",
+            "Maximum Number of Kills",
+            "Time Stop"
           ]
         }
       }

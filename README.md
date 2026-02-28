@@ -17,6 +17,7 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 |----|----|----|----|----|
+| 2026-02-28 | ADDED | PPSA18259 | 01.000.000 | Dead Rising Deluxe Remaster |
 | 2026-02-26 | ADDED | PPSA04609 | 01.017.000 | Elden Ring |
 | 2026-02-25 | ADDED | PPSA01284 | 03.000.004 | Returnal |
 | 2026-02-23 | ADDED | CUSA54714 | 01.13 | Yakuza Kiwami 3 & Dark Ties |
