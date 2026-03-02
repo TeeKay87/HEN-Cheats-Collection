@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-02-28T07:42:43.1267319Z",
+  "generatedUtc": "2026-03-02T00:57:47.1673868Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -44601,11 +44601,13 @@
       "title": "Death Stranding",
       "idLower": "cusa11260",
       "titleLower": "death stranding",
-      "cheatsTotal": 46,
+      "cheatsTotal": 75,
       "creators": [
+        "wander",
         "wander FW9.00"
       ],
       "creatorsLower": [
+        "wander",
         "wander fw9.00"
       ],
       "formats": {
@@ -44639,9 +44641,39 @@
           ]
         },
         "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 29,
+          "cheats": [
+            "0.1 Weight Carrying",
+            "Alot of Chiral Crystals (on collect)",
+            "Ceramic 900000 (on spend first time)",
+            "Chemicals 900000 (on spend first time)",
+            "Easy structure upgrades (add at least one material to anything and it will upgrade all the way including road pavers)",
+            "Fast Running",
+            "Inf chiral bandwidth (build as many structures as you want)",
+            "Infinite Ammo/No reload",
+            "Infinite Boot Durability",
+            "Infinite Breath Holding",
+            "Infinite Health",
+            "Infinite Jump",
+            "Infinite Running",
+            "Infinite Speed/Power Skeleton use",
+            "Infinite Spray/Ladder/Anchor/PCC",
+            "Infinite Structures Durability",
+            "Infinite Truck Durability (on land)",
+            "Infinite Truck Durability (on water)",
+            "Infinite Water walk",
+            "Instant Structure Builds (Talixme,Vicodin10,Rizla)",
+            "Metal 900000 (on spend first time)",
+            "No BB Stress Meter Drain (Talixme,Vicodin10,Rizla)",
+            "No Cargo Damage 1",
+            "No cargo damage 2 (in case 1 didnt work)",
+            "No clip",
+            "No Consciousness Drain (Talixme,Vicodin10,Rizla)",
+            "No Road Deterioration (Talixme,Vicodin10,Rizla)",
+            "Resins 900000 (on spend first time)",
+            "Special Alloy Wont decrease"
+          ]
         },
         "mc4": {
           "hasFile": true,
