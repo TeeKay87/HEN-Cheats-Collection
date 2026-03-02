@@ -1,4 +1,5 @@
 :root{
+  --footer-h: 54px;
   --bg:#0b1020;
   --border:rgba(255,255,255,.10);
   --text:rgba(255,255,255,.92);
@@ -30,7 +31,7 @@ body{
 .wrap{
   max-width:1200px;
   margin:0 auto;
-  padding:28px 18px 60px;
+  padding:28px 18px calc(60px + var(--footer-h) + env(safe-area-inset-bottom));
 }
 
 header{
@@ -137,6 +138,11 @@ header{
   border:1px solid var(--border);
   background:rgba(0,0,0,.20);
   font-size:12px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
 }
 
 .grid{
@@ -152,6 +158,8 @@ header{
 
 @media (max-width: 600px){
   .grid{ grid-template-columns: 1fr; }
+  .pill{ display:none; }
+  .sub{ display:none; }
 }
 
 /* Cards */
@@ -666,3 +674,77 @@ body.modal-open{
   border-color: rgba(255, 255, 255, 1);
   background: rgba(0,0,0,.6);
 }*/
+
+
+/* Sticky footer (always visible) */
+.site-footer{
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000; /* same as header */
+  border-top: 1px solid var(--border);
+  background: rgba(11,16,32,.92);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.site-footer__inner{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 14px;
+  min-height: var(--footer-h);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px 14px;
+  flex-wrap: wrap;
+  line-height: 1.2;
+}
+
+.sponsor-icon {
+  width: 16px;
+  height: 16px;
+  color: #ff4d6d;
+  flex-shrink: 0;
+  transform:translateY(0%);
+}
+
+.site-footer__link{
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 650;
+  font-size: clamp(11px, 3.2vw, 13px);
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,.14);
+  background: rgba(0,0,0,.22);
+  white-space: nowrap;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}
+
+.site-footer__link:hover{
+  background: rgba(255,255,255,.06);
+}
+
+.site-footer__meta{
+  color: var(--muted);
+  font-size: clamp(8px, 3vw, 12px);
+  white-space: nowrap;
+}
+
+@media (max-width: 650px){
+  .site-footer__inner{
+    justify-content: center;
+  }
+  .site-footer__meta{
+	display: none;
+    white-space: normal;
+    text-align: center;
+  }
+}
