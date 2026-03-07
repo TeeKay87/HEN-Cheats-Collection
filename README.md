@@ -17,6 +17,8 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title | Change |
 |----|----|----|----|----|----|
+| 2026-03-07 | ADDED | PPSA04813 | 01.000.000 | Outcast: A New Beginning |  |
+| 2026-03-07 | ADDED | PPSA04814 | 01.000.000 | Outcast: A New Beginning |  |
 | 2026-03-02 | ADDED | CUSA11260 | 01.13 | Death Stranding |  |
 | 2026-02-28 | ADDED | PPSA18259 | 01.000.000 | Dead Rising Deluxe Remaster |  |
 | 2026-02-26 | ADDED | PPSA04609 | 01.017.000 | Elden Ring |  |
