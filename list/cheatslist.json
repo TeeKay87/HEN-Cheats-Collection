@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-03-07T02:10:53.3186636Z",
+  "generatedUtc": "2026-03-11T18:17:43.6212504Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -102135,6 +102135,45 @@
       }
     },
     {
+      "id": "PPSA10067",
+      "version": "01.004.001",
+      "title": "Prince of Persia: The Lost Crown",
+      "idLower": "ppsa10067",
+      "titleLower": "prince of persia: the lost crown",
+      "cheatsTotal": 7,
+      "creators": [
+        "Celogamez"
+      ],
+      "creatorsLower": [
+        "celogamez"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 7,
+          "cheats": [
+            "Easy Kill",
+            "Infinite Arrows/Potions (On Use)",
+            "Infinite Health",
+            "Infinite Jumps",
+            "Max Athra surge charge (1 Hit)",
+            "Max/Infinite Time Crystals/Xerxes/Lingots (x2/Disable After Max)",
+            "No Athra surge Cooldown"
+          ]
+        }
+      }
+    },
+    {
       "id": "PPSA10261",
       "version": "01.000.000",
       "title": "Lies of P",
@@ -102219,6 +102258,45 @@
             "Infi Health \\ Stamina \\ Fable \\ Legion (MC)",
             "Infi Items \u0026 Storage",
             "Infi Weapon Durability"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA10528",
+      "version": "01.004.001",
+      "title": "Prince of Persia: The Lost Crown",
+      "idLower": "ppsa10528",
+      "titleLower": "prince of persia: the lost crown",
+      "cheatsTotal": 7,
+      "creators": [
+        "Celogamez"
+      ],
+      "creatorsLower": [
+        "celogamez"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 7,
+          "cheats": [
+            "Easy Kill",
+            "Infinite Arrows/Potions (On Use)",
+            "Infinite Health",
+            "Infinite Jumps",
+            "Max Athra surge charge (1 Hit)",
+            "Max/Infinite Time Crystals/Xerxes/Lingots (x2/Disable After Max)",
+            "No Athra surge Cooldown"
           ]
         }
       }
