@@ -17,6 +17,32 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 | :----: | :---- | :---- | :---- | :---- |
+| 2026-03-12 | ADDED | CUSA02420 | 01.02 | Darksiders II: Deathinitive Edition |
+| 2026-03-12 | ADDED | CUSA11275 | 02.60 | Horizon Chase Turbo |
+| 2026-03-12 | ADDED | CUSA09263 | 01.01 | Devil May Cry: HD Collection |
+| 2026-03-12 | ADDED | CUSA07411 | 01.35 | God of War (2018) |
+| 2026-03-12 | ADDED | CUSA07410 | 01.35 | God of War (2018) |
+| 2026-03-12 | ADDED | CUSA07408 | 01.35 | God of War (2018) |
+| 2026-03-12 | ADDED | CUSA05350 | 01.50 | Dragon Ball: Xenoverse 2 |
+| 2026-03-12 | ADDED | CUSA13275 | 01.27 | Doom Eternal |
+| 2026-03-12 | ADDED | CUSA04885 | 01.01 | Resident Evil 4 |
+| 2026-03-12 | ADDED | CUSA03980 | 01.02 | BioShock: The Collection |
+| 2026-03-12 | ADDED | CUSA01623 | 01.02 | God of War III Remastered |
+| 2026-03-12 | ADDED | CUSA01067 | 01.00 | Resident Evil HD Remaster |
+| 2026-03-12 | ADDED | CUSA00556 | 01.11 | The Last of Us: Remastered |
+| 2026-03-12 | ADDED | CUSA00552 | 01.11 | The Last of Us: Remastered |
+| 2026-03-12 | ADDED | CUSA00462 | 01.08 | Far Cry 4 |
+| 2026-03-12 | ADDED | CUSA03986 | 01.02 | BioShock: The Collection |
+| 2026-03-12 | ADDED | CUSA13801 | 01.06 | Sekiro: Shadows Die Twice |
+| 2026-03-12 | UPDATE | CUSA01715 | 01.02 | God of War III Remastered |
+| 2026-03-12 | UPDATE | CUSA04762 | 01.25 | Call of Duty: Infinite Warfare |
+| 2026-03-12 | UPDATE | CUSA05369 | 01.25 | Call of Duty: Infinite Warfare |
+| 2026-03-12 | UPDATE | CUSA07410 | 01.36 | God of War (2018) |
+| 2026-03-12 | UPDATE | CUSA16261 | 01.08 | Blasphemous |
+| 2026-03-12 | UPDATE | CUSA16275 | 01.08 | Blasphemous |
+| 2026-03-12 | UPDATE | CUSA18008 | 01.13 | Resident Evil Village |
+| 2026-03-12 | UPDATE | CUSA18017 | 01.13 | Resident Evil Village |
+| 2026-03-12 | UPDATE | CUSA24853 | 02.08 | Kena: Bridge of Spirits |
 | 2026-03-12 | ADDED | CUSA15240 | 01.09 | Call of Duty: Modern Warfare |
 | 2026-03-12 | ADDED | CUSA15280 | 01.22 | Call of Duty: Modern Warfare |
 | 2026-03-12 | ADDED | CUSA50617 | 01.20 | ELDEN RING NIGHTREIGN |

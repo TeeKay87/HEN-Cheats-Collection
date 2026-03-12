@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-03-12T01:04:48.9486674Z",
+  "generatedUtc": "2026-03-12T13:13:52.0347097Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -4116,6 +4116,55 @@
       }
     },
     {
+      "id": "CUSA00462",
+      "version": "01.08",
+      "title": "Far Cry 4",
+      "idLower": "cusa00462",
+      "titleLower": "far cry 4",
+      "cheatsTotal": 17,
+      "creators": [
+        "Celogamez"
+      ],
+      "creatorsLower": [
+        "celogamez"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 17,
+          "cheats": [
+            "God Mode",
+            "High Jump",
+            "Infinite Ammo",
+            "Infinite Endurance (To Run)",
+            "Infinite Health",
+            "Infinite Health Syringes (x2 To Work)",
+            "Infinite Oxygen (Underwater)",
+            "Infinite Oxygen Mask",
+            "Infinite Skill Points on Spend",
+            "Infinite Throwables",
+            "Lot Of KP On Gain",
+            "Max XP On Gain",
+            "Max/Infinite Money On Buy",
+            "Mega Jump",
+            "No Reload",
+            "Super Jump",
+            "Super Mega Jump"
+          ]
+        }
+      }
+    },
+    {
       "id": "CUSA00472",
       "version": "01.00",
       "title": "Transformers: Rise of the Dark Spark",
@@ -4538,12 +4587,14 @@
       "title": "The Last of Us: Remastered",
       "idLower": "cusa00552",
       "titleLower": "the last of us: remastered",
-      "cheatsTotal": 11,
+      "cheatsTotal": 15,
       "creators": [
+        "Celogamez",
         "Celogamez_9.00",
         "hejran7_illusion"
       ],
       "creatorsLower": [
+        "celogamez",
         "celogamez_9.00",
         "hejran7_illusion"
       ],
@@ -4572,9 +4623,14 @@
           ]
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Enable Dev Menu",
+            "Flashlight Does Not Turn Off",
+            "Parts, Skills, Items On Use (x999)",
+            "Tools Level 5 On Gain"
+          ]
         }
       }
     },
@@ -4694,11 +4750,13 @@
       "title": "The Last of Us: Remastered",
       "idLower": "cusa00556",
       "titleLower": "the last of us: remastered",
-      "cheatsTotal": 4,
+      "cheatsTotal": 8,
       "creators": [
+        "Celogamez",
         "Celogamez_9.00"
       ],
       "creatorsLower": [
+        "celogamez",
         "celogamez_9.00"
       ],
       "formats": {
@@ -4718,9 +4776,14 @@
           "cheats": []
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Enable Dev Menu",
+            "Flashlight Does Not Turn Off",
+            "Parts, Skills, Items On Use (x999)",
+            "Tools Level 5 On Gain"
+          ]
         }
       }
     },
@@ -7198,14 +7261,16 @@
       "title": "Resident Evil HD Remaster",
       "idLower": "cusa01067",
       "titleLower": "resident evil hd remaster",
-      "cheatsTotal": 12,
+      "cheatsTotal": 28,
       "creators": [
+        "Celogamez/d01v",
         "Celogamez_d01v_9.00",
         "Karo",
         "Karo_9.00",
         "Karo_Celogamez_d01v"
       ],
       "creatorsLower": [
+        "celogamez/d01v",
         "celogamez_d01v_9.00",
         "karo",
         "karo_9.00",
@@ -7236,9 +7301,26 @@
           "cheats": []
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 16,
+          "cheats": [
+            "All Weapons/Items In The Chest (Tranfer The Knife)",
+            "Assalt Shotgun (Activate/Enter/Deactivate)",
+            "Barry\u0027s 44 Magnum (Activate/Enter/Deactivate)",
+            "Flamethrower (Activate/Enter/Deactivate)",
+            "Granade Launcher (Activate/Enter/Deactivate)",
+            "Handgun (Activate/Enter/Deactivate)",
+            "Infinite Ink Ribbons",
+            "Infinite Rocket Launcher (Activate/Enter/Deactivate)",
+            "Magnum Revolver (Activate/Enter/Deactivate)",
+            "Max/Infinite Ammo/Clip/Items (99)",
+            "Max/Infinite Dagger (Need 2 To Work/99)",
+            "Max/Infinite Health",
+            "Rocket Launcher (Activate/Enter/Deactivate)",
+            "Samurai Edge (Activate/Enter/Deactivate)",
+            "Save Aways 0",
+            "Shotgun (Activate/Enter/Deactivate)"
+          ]
         }
       }
     },
@@ -9638,7 +9720,7 @@
       "title": "God of War III Remastered",
       "idLower": "cusa01623",
       "titleLower": "god of war iii remastered",
-      "cheatsTotal": 5,
+      "cheatsTotal": 10,
       "creators": [
         "Celogamez"
       ],
@@ -9663,9 +9745,15 @@
           "cheats": []
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "Infinite Item Meter",
+            "Infinite Magic",
+            "Infinite Rage Of Sparta",
+            "Max/Infinite Health",
+            "Max/Infinite Red Orbs"
+          ]
         }
       }
     },
@@ -9953,7 +10041,7 @@
       "title": "God of War III Remastered",
       "idLower": "cusa01715",
       "titleLower": "god of war iii remastered",
-      "cheatsTotal": 10,
+      "cheatsTotal": 11,
       "creators": [
         "Celogamez"
       ],
@@ -9979,12 +10067,13 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 5,
+          "cheatsCount": 6,
           "cheats": [
             "Infinite Health",
             "Infinite Item Meter",
             "Infinite Magic",
             "Infinite Rage Of Sparta",
+            "Max/Infinite Health",
             "Max/Infinite Red Orbs"
           ]
         }
@@ -12565,7 +12654,7 @@
       "title": "Darksiders II: Deathinitive Edition",
       "idLower": "cusa02420",
       "titleLower": "darksiders ii: deathinitive edition",
-      "cheatsTotal": 10,
+      "cheatsTotal": 20,
       "creators": [
         "Celogamez"
       ],
@@ -12590,9 +12679,20 @@
           ]
         },
         "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 10,
+          "cheats": [
+            "Infinite Bullets",
+            "Infinite Health",
+            "Infinite Health/Wrath Bottles Potion",
+            "Infinite Horse Stamina",
+            "Infinite Reaper Power",
+            "Infinite Wrath",
+            "Lot Of Boatman Coins (Disable After Use)",
+            "Lot Of Money On Gain (Disable After Use)",
+            "Max XP",
+            "Max/Infinite Skill Points"
+          ]
         },
         "mc4": {
           "hasFile": false,
@@ -19259,7 +19359,7 @@
       "title": "BioShock: The Collection",
       "idLower": "cusa03980",
       "titleLower": "bioshock: the collection",
-      "cheatsTotal": 5,
+      "cheatsTotal": 14,
       "creators": [
         "Celogamez"
       ],
@@ -19284,9 +19384,60 @@
           "cheats": []
         },
         "mc4": {
+          "hasFile": true,
+          "cheatsCount": 9,
+          "cheats": [
+            "1 Hit Kill",
+            "Infinite Ammo",
+            "Infinite Health",
+            "Infinite Health/1 Hit Kill (MASTERCODE/MUST BE ON)",
+            "Infinite Salt",
+            "Infinite Shield",
+            "Max/Infinite Lockpicks On Use",
+            "Max/Infinite Money On Buy (Don\u0027t Take More Money)",
+            "No Reload"
+          ]
+        }
+      }
+    },
+    {
+      "id": "CUSA03986",
+      "version": "01.02",
+      "title": "BioShock: The Collection",
+      "idLower": "cusa03986",
+      "titleLower": "bioshock: the collection",
+      "cheatsTotal": 9,
+      "creators": [
+        "Celogamez"
+      ],
+      "creatorsLower": [
+        "celogamez"
+      ],
+      "formats": {
+        "json": {
           "hasFile": false,
           "cheatsCount": 0,
           "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 9,
+          "cheats": [
+            "1 Hit Kill",
+            "Infinite Ammo",
+            "Infinite Health",
+            "Infinite Health/1 Hit Kill (MASTERCODE/MUST BE ON)",
+            "Infinite Salt",
+            "Infinite Shield",
+            "Max/Infinite Lockpicks On Use",
+            "Max/Infinite Money On Buy (Don\u0027t Take More Money)",
+            "No Reload"
+          ]
         }
       }
     },
@@ -21666,7 +21817,7 @@
       "title": "Call of Duty: Infinite Warfare",
       "idLower": "cusa04762",
       "titleLower": "call of duty: infinite warfare",
-      "cheatsTotal": 14,
+      "cheatsTotal": 15,
       "creators": [
         "Celogamez"
       ],
@@ -21694,11 +21845,12 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 7,
+          "cheatsCount": 8,
           "cheats": [
             "1 Hit Kill (Enable MC)",
             "Infinite Ammo",
             "Infinite Health (Enable MC)",
+            "Infinite Health Zombies Mode",
             "Infinite Health/1 Hit Kill (Master Code/Must Be On)",
             "Infinite Jetpack",
             "Infinite Throwables",
@@ -22452,11 +22604,13 @@
       "title": "Resident Evil 4",
       "idLower": "cusa04885",
       "titleLower": "resident evil 4",
-      "cheatsTotal": 8,
+      "cheatsTotal": 39,
       "creators": [
+        "Celogamez",
         "Celogamez_9.00"
       ],
       "creatorsLower": [
+        "celogamez",
         "celogamez_9.00"
       ],
       "formats": {
@@ -22480,9 +22634,41 @@
           "cheats": []
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 31,
+          "cheats": [
+            "1 Hit Kill",
+            "Attache Case XL (Activate B4 Starting The Game)",
+            "Blacktail",
+            "Bowgun",
+            "Broken Butterfly",
+            "God Mode (Can Be Grabbed)",
+            "Handcannon",
+            "Hangun",
+            "Infinite Chicago Typewriter (Put Handgun In The Center)",
+            "Infinite Clip Ammo",
+            "Infinite First Aid Spray/Herbs/Chiken Eggs",
+            "Infinite Grenades On Use",
+            "Infinite R. Launcher (Put Handgun In The Center)",
+            "Killer",
+            "Krauser\u0027s Bow",
+            "Matilda",
+            "Max Score Mercenaries",
+            "Max/Infinite Ptas On Pick",
+            "Mine Thrower",
+            "No Reload",
+            "P.R.L 412 (Put Handgun In The Center)",
+            "Punisher",
+            "Red9",
+            "Rifle (Put Handgun In The Center)",
+            "Rifle Semi Auto",
+            "Riot Gun",
+            "Save Always 0",
+            "Shotgun",
+            "Stop Time Mercenaries",
+            "Striker",
+            "TMP"
+          ]
         }
       }
     },
@@ -24060,12 +24246,52 @@
       }
     },
     {
+      "id": "CUSA05350",
+      "version": "01.50",
+      "title": "Dragon Ball: Xenoverse 2",
+      "idLower": "cusa05350",
+      "titleLower": "dragon ball: xenoverse 2",
+      "cheatsTotal": 8,
+      "creators": [
+        "Celogamez"
+      ],
+      "creatorsLower": [
+        "celogamez"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 8,
+          "cheats": [
+            "1 Hit Kill",
+            "Infinite Health",
+            "Infinite Health/1 Hit Kill (Master Code)",
+            "Infinite Ki",
+            "Infinite Vigor",
+            "Max Attribute Points (Activate/Spend 1/Exit/Enter)",
+            "Max/Infinite TPs On Use",
+            "Max/Infinite Zeni On Use"
+          ]
+        }
+      }
+    },
+    {
       "id": "CUSA05369",
       "version": "01.25",
       "title": "Call of Duty: Infinite Warfare",
       "idLower": "cusa05369",
       "titleLower": "call of duty: infinite warfare",
-      "cheatsTotal": 14,
+      "cheatsTotal": 15,
       "creators": [
         "Celogamez"
       ],
@@ -24093,11 +24319,12 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 7,
+          "cheatsCount": 8,
           "cheats": [
             "1 Hit Kill (Enable MC)",
             "Infinite Ammo",
             "Infinite Health (Enable MC)",
+            "Infinite Health Zombies Mode",
             "Infinite Health/1 Hit Kill (Master Code/Must Be On)",
             "Infinite Jetpack",
             "Infinite Throwables",
@@ -31440,7 +31667,7 @@
       "title": "God of War (2018)",
       "idLower": "cusa07408",
       "titleLower": "god of war (2018)",
-      "cheatsTotal": 5,
+      "cheatsTotal": 13,
       "creators": [
         "Celogamez"
       ],
@@ -31465,9 +31692,18 @@
           "cheats": []
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 8,
+          "cheats": [
+            "1 Hit Kill",
+            "1 Hit Stun",
+            "Infinite Arrows",
+            "Infinite Health",
+            "Infinite Health/1 Hit Kill/Rage/Arrows/Stun (MASTERCODE/MUST BE ON)",
+            "Infinite Rage",
+            "Max XP/Hacksilver/Resources",
+            "No Cooldown"
+          ]
         }
       }
     },
@@ -31576,7 +31812,7 @@
       "title": "God of War (2018)",
       "idLower": "cusa07410",
       "titleLower": "god of war (2018)",
-      "cheatsTotal": 5,
+      "cheatsTotal": 13,
       "creators": [
         "Celogamez"
       ],
@@ -31601,9 +31837,18 @@
           "cheats": []
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 8,
+          "cheats": [
+            "1 Hit Kill",
+            "1 Hit Stun",
+            "Infinite Arrows",
+            "Infinite Health",
+            "Infinite Health/1 Hit Kill/Rage/Arrows/Stun (MASTERCODE/MUST BE ON)",
+            "Infinite Rage",
+            "Max XP/Hacksilver/Resources",
+            "No Cooldown"
+          ]
         }
       }
     },
@@ -31613,7 +31858,7 @@
       "title": "God of War (2018)",
       "idLower": "cusa07410",
       "titleLower": "god of war (2018)",
-      "cheatsTotal": 12,
+      "cheatsTotal": 14,
       "creators": [
         "Celogamez"
       ],
@@ -31640,11 +31885,13 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 6,
+          "cheatsCount": 8,
           "cheats": [
+            "1 Hit Kill",
+            "1 Hit Stun",
             "Infinite Arrows",
             "Infinite Health",
-            "Infinite Health/Rage/Arrows (Master Code/Must Be On)",
+            "Infinite Health/1 Hit Kill/Rage/Arrows/Stun (MASTERCODE/MUST BE ON)",
             "Infinite Rage",
             "Max XP/Hacksilver/Resources",
             "No Cooldown"
@@ -31693,6 +31940,46 @@
             "Infinite Rage",
             "Refill Health",
             "Refill Rage"
+          ]
+        }
+      }
+    },
+    {
+      "id": "CUSA07411",
+      "version": "01.35",
+      "title": "God of War (2018)",
+      "idLower": "cusa07411",
+      "titleLower": "god of war (2018)",
+      "cheatsTotal": 8,
+      "creators": [
+        "Celogamez"
+      ],
+      "creatorsLower": [
+        "celogamez"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 8,
+          "cheats": [
+            "1 Hit Kill",
+            "1 Hit Stun",
+            "Infinite Arrows",
+            "Infinite Health",
+            "Infinite Health/1 Hit Kill/Rage/Arrows/Stun (MASTERCODE/MUST BE ON)",
+            "Infinite Rage",
+            "Max XP/Hacksilver/Resources",
+            "No Cooldown"
           ]
         }
       }
@@ -38443,6 +38730,56 @@
       }
     },
     {
+      "id": "CUSA09263",
+      "version": "01.01",
+      "title": "Devil May Cry: HD Collection",
+      "idLower": "cusa09263",
+      "titleLower": "devil may cry: hd collection",
+      "cheatsTotal": 18,
+      "creators": [
+        "Celogamez"
+      ],
+      "creatorsLower": [
+        "celogamez"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 18,
+          "cheats": [
+            "1 Hit Kill",
+            "High Jump(DMC3)",
+            "Infinite Devil Trigger (DMC1)",
+            "Infinite Devil Trigger (DMC3)",
+            "Infinite Health",
+            "Infinite Health/1 Hit Kill (Master Code DMC3)",
+            "Infinite Health/1 Hit Kill (MASTERCODE/MUST BE ON) (DMC2)",
+            "Infinite Items (DMC3)",
+            "Max XP/Levels On Kill (DMC3)",
+            "Max/Infinite Devil Trigger (DMC2)",
+            "Max/Infinite Health (DMC1)",
+            "Max/Infinite Items On Use (DMC1)",
+            "Max/Infinite Items On Use (DMC2)",
+            "Max/Infinite Red Orbs (DMC1)",
+            "Max/Infinite Red Orbs (DMC2)",
+            "Max/Infinite Red Orbs (DMC3)",
+            "Mega Jump (DMC3)",
+            "Super Jump (DMC3)"
+          ]
+        }
+      }
+    },
+    {
       "id": "CUSA09264",
       "version": "01.31",
       "title": "Just Cause 4",
@@ -44857,6 +45194,40 @@
           "cheats": [
             "Infinite Nitro Turbo",
             "Max/Infinite Fuel"
+          ]
+        }
+      }
+    },
+    {
+      "id": "CUSA11275",
+      "version": "02.60",
+      "title": "Horizon Chase Turbo",
+      "idLower": "cusa11275",
+      "titleLower": "horizon chase turbo",
+      "cheatsTotal": 2,
+      "creators": [
+        "Celogamez"
+      ],
+      "creatorsLower": [
+        "celogamez"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Infinite Fuel",
+            "Infinite Nitro Turbo"
           ]
         }
       }
@@ -51610,6 +51981,50 @@
       }
     },
     {
+      "id": "CUSA13275",
+      "version": "01.27",
+      "title": "Doom Eternal",
+      "idLower": "cusa13275",
+      "titleLower": "doom eternal",
+      "cheatsTotal": 12,
+      "creators": [
+        "Celogamez"
+      ],
+      "creatorsLower": [
+        "celogamez"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 12,
+          "cheats": [
+            "Infinite Ammo/Fuel",
+            "Infinite Blood Punch",
+            "Infinite Crucible Sword",
+            "Infinite Dash",
+            "Infinite Flame Belch",
+            "Infinite Grenades",
+            "Infinite Health/Shield",
+            "Infinite Jumps",
+            "Infinite Radiation/Dive Suit",
+            "Infinite Sentinel Hammer",
+            "Max/Inf Weapons/Praetorian Points/Mastery Tokens/Sentinel Batteries",
+            "Max/Infinite Lives"
+          ]
+        }
+      }
+    },
+    {
       "id": "CUSA13285",
       "version": "01.00",
       "title": "Hollow Knight",
@@ -52620,7 +53035,7 @@
       "title": "Sekiro: Shadows Die Twice",
       "idLower": "cusa13801",
       "titleLower": "sekiro: shadows die twice",
-      "cheatsTotal": 78,
+      "cheatsTotal": 84,
       "creators": [
         "Celogamez",
         "hejran7 and Pharaoh2k",
@@ -52723,9 +53138,16 @@
           ]
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 6,
+          "cheats": [
+            "1 Hit Kill",
+            "Infinite Items (2 To Work)",
+            "Max/Infinite Health",
+            "Max/Infinite Health/1 Hit Kill (Master Code)",
+            "Max/Infinite Money On Start",
+            "Max/Infinite Skill Points (Kill N Turn Off)"
+          ]
         }
       }
     },
@@ -59616,7 +60038,7 @@
       "title": "Blasphemous",
       "idLower": "cusa16261",
       "titleLower": "blasphemous",
-      "cheatsTotal": 8,
+      "cheatsTotal": 12,
       "creators": [
         "Ali-mk"
       ],
@@ -59641,12 +60063,16 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 4,
+          "cheatsCount": 8,
           "cheats": [
+            "Infinite Fervor",
+            "Infinite Health",
             "Infinite-Health",
             "Infinite-Items-HP",
             "Infinite-MAGIC",
-            "Invincible-(mc)"
+            "Invincibility",
+            "Invincible-(mc)",
+            "Max/Infinite Blood Penitence"
           ]
         }
       }
@@ -59767,7 +60193,7 @@
       "title": "Blasphemous",
       "idLower": "cusa16275",
       "titleLower": "blasphemous",
-      "cheatsTotal": 8,
+      "cheatsTotal": 9,
       "creators": [
         "Celogamez"
       ],
@@ -59792,12 +60218,13 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 4,
+          "cheatsCount": 5,
           "cheats": [
             "Infinite Fervor",
             "Infinite Health",
             "Invincibility",
-            "Max Health/Fervor/Blood Penitence On Use"
+            "Max Health/Fervor/Blood Penitence On Use",
+            "Max/Infinite Blood Penitence"
           ]
         }
       }
@@ -63787,7 +64214,7 @@
       "title": "Resident Evil Village",
       "idLower": "cusa18008",
       "titleLower": "resident evil village",
-      "cheatsTotal": 11,
+      "cheatsTotal": 24,
       "creators": [
         "Celogamez"
       ],
@@ -63807,19 +64234,32 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 11,
+          "cheatsCount": 24,
           "cheats": [
+            "(Chris) Onslaught Gauge No Cooldown",
+            "(Dimitrescu) Blood Sacrifice (L1\u002BR2) No Cooldown",
+            "(Dimitrescu) Entomphobia (R2) No Cooldown",
+            "(Dimitrescu) Ornate Vanity Attack (Square) No Cooldown",
+            "(Dimitrescu) Thrill Gauge No Cooldown",
             "(Ethan) 1 Hit Kill",
             "(Ethan) Max/Infinite Health",
+            "(Karl) Sawblade No Cooldown",
+            "(Karl) Scrap No Cooldown",
+            "(Karl) Soldat Jet No Cooldown",
             "(Rose) 1 Hit Kill (Enable MC)",
             "(Rose) Infinite Health (Enable MC)",
             "(Rose) Infinite Health/1 Hit Kill (Master Code/Must Be On)",
+            "1 Hit Kill",
+            "Infinite Health",
+            "Infinite Health/1 Hit Kill (Mastercode/Must Be On)",
             "Lot Of CP Points",
+            "Max Points For Mercenaries (Enable/Kill/Disable To Earn More)",
             "Max/Infinite Ammo/White Sage (Rose)",
             "Max/Infinite Lei",
             "Max/Infinite Stun Enemies (Rose)",
             "Max/Infinite Throwables/Items On Craft",
-            "No Reload"
+            "No Reload",
+            "Tank Cannon/Target Locator No Cooldown"
           ]
         }
       }
@@ -64146,7 +64586,7 @@
       "title": "Resident Evil Village",
       "idLower": "cusa18017",
       "titleLower": "resident evil village",
-      "cheatsTotal": 11,
+      "cheatsTotal": 24,
       "creators": [
         "Celogamez"
       ],
@@ -64166,19 +64606,32 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 11,
+          "cheatsCount": 24,
           "cheats": [
+            "(Chris) Onslaught Gauge No Cooldown",
+            "(Dimitrescu) Blood Sacrifice (L1\u002BR2) No Cooldown",
+            "(Dimitrescu) Entomphobia (R2) No Cooldown",
+            "(Dimitrescu) Ornate Vanity Attack (Square) No Cooldown",
+            "(Dimitrescu) Thrill Gauge No Cooldown",
             "(Ethan) 1 Hit Kill",
             "(Ethan) Max/Infinite Health",
+            "(Karl) Sawblade No Cooldown",
+            "(Karl) Scrap No Cooldown",
+            "(Karl) Soldat Jet No Cooldown",
             "(Rose) 1 Hit Kill (Enable MC)",
             "(Rose) Infinite Health (Enable MC)",
             "(Rose) Infinite Health/1 Hit Kill (Master Code/Must Be On)",
+            "1 Hit Kill",
+            "Infinite Health",
+            "Infinite Health/1 Hit Kill (Mastercode/Must Be On)",
             "Lot Of CP Points",
+            "Max Points For Mercenaries (Enable/Kill/Disable To Earn More)",
             "Max/Infinite Ammo/White Sage (Rose)",
             "Max/Infinite Lei",
             "Max/Infinite Stun Enemies (Rose)",
             "Max/Infinite Throwables/Items On Craft",
-            "No Reload"
+            "No Reload",
+            "Tank Cannon/Target Locator No Cooldown"
           ]
         }
       }
@@ -71309,7 +71762,7 @@
       "title": "Kena: Bridge of Spirits",
       "idLower": "cusa24853",
       "titleLower": "kena: bridge of spirits",
-      "cheatsTotal": 20,
+      "cheatsTotal": 25,
       "creators": [
         "Celogamez"
       ],
@@ -71340,16 +71793,21 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 10,
+          "cheatsCount": 15,
           "cheats": [
+            "1 Hit Kill",
             "1 Hit Kill (Enable MC)",
+            "Infinite Health",
             "Infinite Health (Enable MC)",
             "Infinite Health/1 Hit Kill (Master Code/Must Be On)",
+            "Infinite Health/1 Hit Kill/Rots On Use (Master Code/Must Be On)",
+            "Infinite Rots On Use (Disable 1 Hit Kill)",
             "Infinite Shield",
             "Invencibility",
             "Max Infinite Rots/Level On Gain",
             "Max/Infinite Cristals On Gain/Buy",
             "Max/Infinite Rots On Use (Disable Master Code)",
+            "Max/Infinite Skill Points On Gain (Disable After Gain)",
             "Max/Infinite Skill Points On Gain/Use",
             "No Wasting Time To Use Rots"
           ]
