@@ -17,6 +17,19 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title | Change |
 | :----: | :---- | :---- | :---- | :---- | :---- |
+| 2026-03-12 | ADDED | CUSA15240 | 01.09 | Call of Duty: Modern Warfare |  |
+| 2026-03-12 | ADDED | CUSA15280 | 01.22 | Call of Duty: Modern Warfare |  |
+| 2026-03-12 | ADDED | CUSA50617 | 01.20 | ELDEN RING NIGHTREIGN |  |
+| 2026-03-12 | ADDED | PPSA09663 | 01.000.000 | Dragon's Dogma 2 |  |
+| 2026-03-12 | UPDATE | CUSA03388 | 01.15 | Dark Souls III | 9024 bytes => 14080 bytes |
+| 2026-03-12 | UPDATE | CUSA04437 | 01.01 | Resident Evil 5 | 7424 bytes => 14380 bytes |
+| 2026-03-12 | UPDATE | CUSA07820 | 01.09 | The Last of Us: Part II | 4524 bytes => 4800 bytes |
+| 2026-03-12 | UPDATE | CUSA10249 | 01.09 | The Last of Us: Part II | 4524 bytes => 4800 bytes |
+| 2026-03-12 | UPDATE | CUSA36582 | 01.40 | Prince of Persia: The Lost Crown | 1068 bytes => 4096 bytes |
+| 2026-03-12 | UPDATE | CUSA39420 | 01.04 | Hollow Knight: Silksong | 4780 bytes => 10240 bytes |
+| 2026-03-12 | UPDATE | PPSA03396 | 01.003.000 | The Last of Us: Part I | 2840 bytes => 5912 bytes |
+| 2026-03-12 | UPDATE | PPSA10662 | 01.001.030 | The Last of Us: Part II Remastered | 4012 bytes => 7896 bytes |
+| 2026-03-12 | UPDATE | PPSA15508 | 01.001.030 | The Last of Us: Part II Remastered | 2944 bytes => 6848 bytes |
 | 2026-03-11 | ADDED | PPSA10067 | 01.004.001 | Prince of Persia: The Lost Crown |  |
 | 2026-03-11 | ADDED | PPSA10528 | 01.004.001 | Prince of Persia: The Lost Crown |  |
 | 2026-03-07 | ADDED | PPSA04813 | 01.000.000 | Outcast: A New Beginning |  |

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-03-11T18:17:43.6212504Z",
+  "generatedUtc": "2026-03-12T01:04:48.9486674Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -16276,7 +16276,7 @@
       "title": "Dark Souls III",
       "idLower": "cusa03388",
       "titleLower": "dark souls iii",
-      "cheatsTotal": 36,
+      "cheatsTotal": 44,
       "creators": [
         "hejran7"
       ],
@@ -16316,7 +16316,7 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 17,
+          "cheatsCount": 25,
           "cheats": [
             "1 Hit Kill",
             "All Resistances Effects",
@@ -16329,8 +16329,16 @@
             "Inf Magic",
             "Inf Souls on Spend",
             "Inf Weapon Durability",
+            "Infinite Armor Durability",
+            "Infinite Focus Points",
+            "Infinite Health",
+            "Infinite Health/1 Hit Kill (MASTERCODE/MUST BE ON)",
+            "Infinite Items (On Use)",
+            "Infinite Stamina",
+            "Infinite Weapons Durability",
             "Max Items In Storage Box",
             "Max Items On Use",
+            "Max/Infinite Souls",
             "Never Lose Souls",
             "Player inf Stamina",
             "Reduce Fall Damage",
@@ -20825,7 +20833,7 @@
       "title": "Resident Evil 5",
       "idLower": "cusa04437",
       "titleLower": "resident evil 5",
-      "cheatsTotal": 41,
+      "cheatsTotal": 50,
       "creators": [
         "hejran7"
       ],
@@ -20875,7 +20883,7 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 13,
+          "cheatsCount": 22,
           "cheats": [
             "(HP On L3\u002BT-Pad) (HP Off R3\u002BT-Pad)",
             "Freeze Bonus Combo Time - Mercenaries",
@@ -20884,11 +20892,20 @@
             "Freeze Countdown Timer - Mercenaries",
             "Freeze Countup Timer - STORY-LIN-DS",
             "Inf Health Always On",
+            "Infinite Ammo",
+            "Infinite Grenades",
+            "Infinite Health",
+            "Infinite Proximity Bomb",
             "Max Inf Ammo on Reload",
             "Max Inf Grenade on Use",
+            "Max Items On Move",
             "Max Money on Spend",
+            "Max/Infinite Exchange Points",
+            "Max/Infinite Money On Buy",
+            "Max/InfiniteInfinite Score Stars (DE/LIN)",
             "Mx Resources On sell",
             "No Reload",
+            "Rapid Fire",
             "Run without Pressing X or L3"
           ]
         }
@@ -57000,7 +57017,7 @@
       "title": "Call of Duty: Modern Warfare",
       "idLower": "cusa15280",
       "titleLower": "call of duty: modern warfare",
-      "cheatsTotal": 12,
+      "cheatsTotal": 13,
       "creators": [
         "Celogamez"
       ],
@@ -57027,10 +57044,11 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 6,
+          "cheatsCount": 7,
           "cheats": [
             "Infinite Ammo",
             "Infinite Grenades",
+            "Infinite Grenades (Local Co-op)",
             "Infinite Health (Campaign)",
             "Infinite Health (Multiplayer/Local Co-op)",
             "No Recoil",
@@ -91418,7 +91436,7 @@
       "title": "Prince of Persia: The Lost Crown",
       "idLower": "cusa36582",
       "titleLower": "prince of persia: the lost crown",
-      "cheatsTotal": 9,
+      "cheatsTotal": 14,
       "creators": [
         "Ali-mk",
         "Wander FW9.00"
@@ -91448,10 +91466,15 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 2,
+          "cheatsCount": 7,
           "cheats": [
             "Inf-Arrow \u002B Inf-Elixir-healing \u002B Inf-Crystals-of-time",
-            "Infinite-Health"
+            "Infinite Arrows/Potions (On Use",
+            "Infinite Health",
+            "Infinite-Health",
+            "Max Athra surge charge (1 Hit)",
+            "Max Currencies (On Get)",
+            "No Athra surge Cooldown"
           ]
         }
       }
@@ -92885,7 +92908,7 @@
       "title": "Hollow Knight: Silksong",
       "idLower": "cusa39420",
       "titleLower": "hollow knight: silksong",
-      "cheatsTotal": 21,
+      "cheatsTotal": 30,
       "creators": [
         "Ali-mk",
         "Bandicootmonito"
@@ -92918,9 +92941,14 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 11,
+          "cheatsCount": 20,
           "cheats": [
+            "1 Hit Kill",
+            "God Mode",
             "inf-shell-shards",
+            "Infinite Item Break",
+            "Infinite Jumps",
+            "Infinite Tools Usage",
             "Infinite-Health",
             "Infinite-items",
             "Infinite-Jumps",
@@ -92928,6 +92956,10 @@
             "Invincible",
             "Invincible \u002B Rapid-Needle",
             "Jump without Drifters Cloak",
+            "Max Rosaries",
+            "Max Shell Shards (On Pickup)",
+            "Max Shell Shards (On Use)",
+            "Max Silk",
             "MAX-Red-Rosaries-Buy-1-",
             "one-Hit-Kill",
             "Shell Shards without limit above 500"
@@ -98227,6 +98259,47 @@
       }
     },
     {
+      "id": "CUSA50617",
+      "version": "01.20",
+      "title": "ELDEN RING NIGHTREIGN",
+      "idLower": "cusa50617",
+      "titleLower": "elden ring nightreign",
+      "cheatsTotal": 9,
+      "creators": [
+        "Celogamez"
+      ],
+      "creatorsLower": [
+        "celogamez"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 9,
+          "cheats": [
+            "1 Hit Kill",
+            "Infinite FP",
+            "Infinite Health",
+            "Infinite Items On Use",
+            "Infinite Murks",
+            "Infinite Stamina",
+            "Infinite Ultimate Art",
+            "Max/Infinite Runes",
+            "No Skill Cooldown"
+          ]
+        }
+      }
+    },
+    {
       "id": "CUSA50688",
       "version": "01.02",
       "title": "Nine Sols",
@@ -99966,7 +100039,7 @@
       "title": "The Last of Us: Part I",
       "idLower": "ppsa03396",
       "titleLower": "the last of us: part i",
-      "cheatsTotal": 5,
+      "cheatsTotal": 9,
       "creators": [
         "Yharnam"
       ],
@@ -99986,13 +100059,17 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 5,
+          "cheatsCount": 9,
           "cheats": [
+            "1 Hit Kill",
             "Infi Ammo \u0026 Items",
             "Infinite Ammo (No Reload)",
+            "Infinite Ammo/Items/Craft",
             "Infinite Consumables",
             "Infinite Health",
-            "Infinite Weapon Durability"
+            "Infinite Oxygen",
+            "Infinite Weapon Durability",
+            "No Reload"
           ]
         }
       }
@@ -101982,12 +102059,14 @@
       "title": "Dragon\u0027s Dogma 2",
       "idLower": "ppsa09663",
       "titleLower": "dragon\u0027s dogma 2",
-      "cheatsTotal": 10,
+      "cheatsTotal": 17,
       "creators": [
+        "Celogamez",
         "Super Death",
         "Talixme"
       ],
       "creatorsLower": [
+        "celogamez",
         "super death",
         "talixme"
       ],
@@ -102015,9 +102094,17 @@
           ]
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 7,
+          "cheats": [
+            "Infinite DCP Points (Activate In Vocations)",
+            "Infinite Health",
+            "Infinite Items",
+            "Infinite Stamina",
+            "Max Xp/Levels",
+            "Max/Infinite Money On Pick",
+            "No Weight"
+          ]
         }
       }
     },
@@ -102307,7 +102394,7 @@
       "title": "The Last of Us: Part II Remastered",
       "idLower": "ppsa10662",
       "titleLower": "the last of us: part ii remastered",
-      "cheatsTotal": 6,
+      "cheatsTotal": 14,
       "creators": [
         "Yharnam"
       ],
@@ -102327,14 +102414,22 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 6,
+          "cheatsCount": 14,
           "cheats": [
+            "1 Hit Kill",
+            "God Mode",
             "Inf Ammo",
             "Inf Ammo \u0026 Items",
             "Inf Health",
             "Inf Items",
             "Inf Weapon Durability",
-            "Invincible Mode"
+            "Infinite Ammo/Items/Craft",
+            "Infinite Breath (UnderWater)",
+            "Infinite Focus Time",
+            "Infinite Health",
+            "Infinite Silencer Ammo",
+            "Invincible Mode",
+            "No Reload"
           ]
         }
       }
@@ -102713,12 +102808,12 @@
       "title": "The Last of Us: Part II Remastered",
       "idLower": "ppsa15508",
       "titleLower": "the last of us: part ii remastered",
-      "cheatsTotal": 4,
+      "cheatsTotal": 11,
       "creators": [
-        "Yharnam"
+        "Celogamez"
       ],
       "creatorsLower": [
-        "yharnam"
+        "celogamez"
       ],
       "formats": {
         "json": {
@@ -102733,12 +102828,19 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 4,
+          "cheatsCount": 11,
           "cheats": [
+            "1 Hit Kill",
+            "God Mode",
             "Inf Ammo \u0026 Items",
-            "Inf Health",
-            "Inf Weapon Durability",
-            "Invincible Mode"
+            "Infinite Ammo/Items/Craft",
+            "Infinite Breath (UnderWater)",
+            "Infinite Focus Time",
+            "Infinite Health",
+            "Infinite Silencer Ammo",
+            "Infinite Weapons Durability",
+            "Invincible Mode",
+            "No Reload"
           ]
         }
       }
