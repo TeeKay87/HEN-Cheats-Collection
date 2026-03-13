@@ -1,153 +1,161 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>HEN Cheats Collection by TeeKay87</title>
-  <link rel="stylesheet" href="./styles.css" />
-</head>
-
-<body>
-  <div class="wrap">
-    <header>
-      <div class="title">
-        <h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HEN Cheats Collection</title>
+    <meta
+      name="description"
+      content="Browse the HEN Cheats Collection with dynamic search, favorites, and deep-linkable game details."
+    />
+    <link rel="preconnect" href="https://image.api.playstation.com" crossorigin />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="site-header" id="siteHeader">
+        <div class="header-inner">
           <a
-            class="title-link"
+            class="brand-link"
             href="https://github.com/TeeKay87/HEN-Cheats-Collection"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Open HEN Cheats Collection on GitHub"
           >
-            HEN Cheats Collection by TeeKay87
+            <h1>HEN Cheats Collection</h1>
           </a>
-        </h1>
+          <p class="brand-subtitle">Created by TeeKay87</p>
 
-        <div class="sub">
-          The <span class="box">#1</span> spot for finding the best cheats. <span class="box">Play your way</span>.
-        </div>
-      </div>
-
-      <div class="toolbar">
-        <div class="search">
-          <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-            <path
-              d="M21 21l-4.35-4.35m1.85-5.15a7 7 0 11-14 0 7 7 0 0114 0z"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-            />
-          </svg>
-
-          <input id="q" type="text" placeholder="Search: ID, title, or creator…" autocomplete="off" />
-          <button id="clear" class="clear" title="Clear">✕</button>
-
-          <!-- All / Favorites toggle -->
-          <div class="seg" role="group" aria-label="Filter">
-            <button id="segAll" class="seg__btn is-on" type="button" aria-pressed="true">All</button>
-            <button id="segFav" class="seg__btn" type="button" aria-pressed="false">Favorites</button>
+          <div class="search-stack">
+            <label class="sr-only" for="searchInput">Search by ID, title, or cheat creator</label>
+            <div class="search-wrap">
+              <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M10.5 4a6.5 6.5 0 1 0 0 13a6.5 6.5 0 0 0 0-13Zm0-2a8.5 8.5 0 1 1 0 17a8.5 8.5 0 0 1 0-17Zm9.207 18.793-4.386-4.386 1.414-1.414 4.386 4.386-1.414 1.414Z"
+                />
+              </svg>
+              <input
+                id="searchInput"
+                type="search"
+                autocomplete="off"
+                spellcheck="false"
+                placeholder="Search by ID, title, or cheat creator"
+              />
+              <div class="favorites-toggle" role="group" aria-label="Entry filter">
+                <button type="button" class="toggle-btn is-active" data-filter="all">All</button>
+                <button type="button" class="toggle-btn" data-filter="favorites">Favorites</button>
+              </div>
+            </div>
+            <p class="results-line" id="resultsLine">Loading collection…</p>
           </div>
         </div>
+      </header>
 
-        <div class="pill" title="Showing matches / total">
-          Showing <b id="count">0</b> of <b id="total">0</b>
+      <main class="page-main" id="pageMain">
+        <section class="cards-grid" id="cardsGrid" aria-live="polite"></section>
+        <div class="empty-state hidden" id="emptyState">
+          <h2>No matches found</h2>
+          <p>Try a different title, game ID, or cheat creator.</p>
         </div>
-      </div>
-    </header>
+        <div class="status-message" id="statusMessage">Loading data files…</div>
+      </main>
 
-    <div id="grid" class="grid"></div>
-
-    <div id="empty" class="empty" style="display:none;">
-      No results found. Try searching for a different ID, part of a title or creator.
-    </div>
-  </div>
-
-  <!-- Details modal -->
-  <div id="modal" class="modal" aria-hidden="true">
-    <div class="modal__backdrop" data-close></div>
-
-    <div class="modal__panel" role="dialog" aria-modal="true" aria-label="Game details">
-      <div class="modal__header">
-        <div class="modal__titlewrap">
-          <div id="m_id" class="modal__id"></div>
-          <div id="m_title" class="modal__title"></div>
-          <div id="m_meta" class="modal__meta"></div>
-        </div>
-
-        <button id="m_close" class="modal__close" title="Close (Esc)" aria-label="Close">✕</button>
-      </div>
-
-      <div class="modal__content">
-        <div id="m_badges" class="modal__badges"></div>
-        <div id="m_creators" class="modal__creators" style="display:none;"></div>
-
-        <div class="modal__tools">
-          <div class="modal__search">
-            <svg class="modal__searchicon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <footer class="site-footer" id="siteFooter">
+        <div class="footer-inner">
+          <a
+            class="support-link"
+            href="https://github.com/sponsors/TeeKay87"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span>Support me on GitHub</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
               <path
-                d="M21 21l-4.35-4.35m1.85-5.15a7 7 0 11-14 0 7 7 0 0114 0z"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
+                d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5C2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3C19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
               />
             </svg>
+          </a>
+          <p class="footer-generated" id="footerGenerated"></p>
+          <p class="footer-created" id="footerCreated"></p>
+        </div>
+      </footer>
+    </div>
 
-            <input id="m_q" type="text" placeholder="Filter cheats in this game…" autocomplete="off" />
-            <button id="m_clear" class="modal__clear" title="Clear">Clear</button>
+    <div class="modal-root hidden" id="modalRoot" aria-hidden="true">
+      <div class="modal-backdrop" id="modalBackdrop"></div>
+      <section
+        class="game-modal"
+        id="gameModal"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modalTitle"
+      >
+        <button type="button" class="modal-close" id="modalClose" aria-label="Close game details">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M18.3 5.71 12 12l6.3 6.29-1.42 1.42L10.59 13.4l-6.3 6.3-1.41-1.42L9.17 12l-6.3-6.29L4.29 4.3l6.3 6.3 6.29-6.3z"
+            />
+          </svg>
+        </button>
+        <div class="modal-hero" id="modalHero">
+          <div class="modal-hero-overlay"></div>
+          <div class="modal-hero-content">
+            <p class="modal-kicker" id="modalIdVersion"></p>
+            <h2 id="modalTitle"></h2>
+            <div class="modal-meta-row">
+              <span class="modal-pill" id="modalCheatsTotal"></span>
+              <span class="modal-pill" id="modalCreators"></span>
+            </div>
           </div>
         </div>
+        <div class="modal-body">
+		  <!--
+          <div class="detail-grid">
+            <div class="detail-item">
+              <span class="detail-label">Game ID</span>
+              <span class="detail-value" id="modalGameId"></span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Version</span>
+              <span class="detail-value" id="modalVersion"></span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Available formats</span>
+              <span class="detail-value" id="modalFormats"></span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Favorite</span>
+              <button type="button" class="modal-favorite-btn" id="modalFavoriteBtn"></button>
+            </div>
+          </div>
+		  -->
 
-        <div id="m_lists" class="modal__lists"></div>
-      </div>
+          <div class="cheat-groups" id="modalCheatGroups"></div>
+        </div>
+      </section>
     </div>
-  </div>
 
+    <template id="cardTemplate">
+      <article class="game-card">
+        <button type="button" class="favorite-btn" aria-label="Toggle favorite"></button>
+        <button type="button" class="card-hitbox" aria-label="Open details"></button>
+        <div class="card-media">
+          <img class="card-cover" alt="" loading="lazy" decoding="async" />
+          <div class="card-overlay"></div>
+        </div>
+        <div class="card-content">
+          <h2 class="card-title"></h2>
+          <div class="card-meta">
+            <span class="card-id"></span>
+            <span class="card-version"></span>
+          </div>
+          <div class="card-bottom">
+            <span class="card-cheats"></span>
+          </div>
+        </div>
+      </article>
+    </template>
 
-  <footer class="site-footer" role="contentinfo">
-    <div class="site-footer__inner">
-      <a class="site-footer__link" href="https://github.com/sponsors/TeeKay87" target="_blank" rel="noopener">
-        Sponsor me on GitHub
-		<svg class="sponsor-icon" viewBox="0 0 16 16" aria-hidden="true">
-          <path fill="currentColor" d="m8 14.25.345.666a.75.75 0 0 1-.69 0l-.008-.004-.018-.01a7.152 7.152 0 0 1-.31-.17 22.055 22.055 0 0 1-3.434-2.414C2.045 10.731 0 8.35 0 5.5 0 2.836 2.086 1 4.25 1 5.797 1 7.153 1.802 8 3.02 8.847 1.802 10.203 1 11.75 1 13.914 1 16 2.836 16 5.5c0 2.85-2.045 5.231-3.885 6.818a22.066 22.066 0 0 1-3.744 2.584l-.018.01-.006.003h-.002ZM4.25 2.5c-1.336 0-2.75 1.164-2.75 3 0 2.15 1.58 4.144 3.365 5.682A20.58 20.58 0 0 0 8 13.393a20.58 20.58 0 0 0 3.135-2.211C12.92 9.644 14.5 7.65 14.5 5.5c0-1.836-1.414-3-2.75-3-1.373 0-2.609.986-3.029 2.456a.749.749 0 0 1-1.442 0C6.859 3.486 5.623 2.5 4.25 2.5Z"/>
-        </svg>
-      </a>
-
-      <div class="site-footer__meta">
-        <span id="genText">Generated with HEN-CM.</span>
-      </div>
-
-      <div class="site-footer__meta">
-        Created by TeeKay87 © <span id="year"></span>
-      </div>
-    </div>
-  </footer>
-
-  <script>
-    (function () {
-      // Year
-      var y = document.getElementById('year');
-      if (y) y.textContent = String(new Date().getFullYear());
-
-      // generatedUtc from cheatslist.json
-      var el = document.getElementById('genText');
-      if (!el) return;
-
-      fetch('./cheatslist.json', { cache: 'no-store' })
-        .then(function (r) { return r.ok ? r.json() : null; })
-        .then(function (data) {
-          if (!data || !data.generatedUtc) return;
-          var d = new Date(data.generatedUtc);
-          // Format as "YYYY-MM-DD HH:mm UTC" to keep it compact and unambiguous
-          var pad = function (n) { return String(n).padStart(2, '0'); };
-          var stamp =
-            d.getUTCFullYear() + '-' + pad(d.getUTCMonth() + 1) + '-' + pad(d.getUTCDate()) +
-            ' ' + pad(d.getUTCHours()) + ':' + pad(d.getUTCMinutes()) + ' UTC';
-
-          el.textContent = 'Generated with HEN-CM | ' + stamp + '.';
-        })
-        .catch(function () { /* ignore */ });
-    })();
-  </script>
-
-  <script src="./app.js"></script>
-</body>
+    <script src="app.js" defer></script>
+  </body>
 </html>

@@ -1,642 +1,522 @@
-const DATA_URL = "./cheatslist.json";
-const COVERS_URL = "./artmap_titles.json";
+const state = {
+  entries: [],
+  covers: new Map(),
+  favorites: new Set(),
+  activeFilter: 'all',
+  searchTerm: '',
+  searchActive: false,
+  filteredEntries: [],
+  activeEntryKey: null,
+  totalGames: 0,
+  generatedUtc: null,
+};
 
-const DEFAULT_COVER_URL = "https://i.pinimg.com/736x/28/68/9a/28689a40d979ebb1d751814d4ce6a0e1.jpg";
-const COVERS_SUFFIX = "?w=256&thumb=false";
+const elements = {
+  siteHeader: document.getElementById('siteHeader'),
+  siteFooter: document.getElementById('siteFooter'),
+  searchInput: document.getElementById('searchInput'),
+  cardsGrid: document.getElementById('cardsGrid'),
+  statusMessage: document.getElementById('statusMessage'),
+  emptyState: document.getElementById('emptyState'),
+  resultsLine: document.getElementById('resultsLine'),
+  footerGenerated: document.getElementById('footerGenerated'),
+  footerCreated: document.getElementById('footerCreated'),
+  modalRoot: document.getElementById('modalRoot'),
+  modalBackdrop: document.getElementById('modalBackdrop'),
+  modalClose: document.getElementById('modalClose'),
+  modalHero: document.getElementById('modalHero'),
+  modalTitle: document.getElementById('modalTitle'),
+  modalIdVersion: document.getElementById('modalIdVersion'),
+  modalCheatsTotal: document.getElementById('modalCheatsTotal'),
+  modalCreators: document.getElementById('modalCreators'),
+  modalGameId: document.getElementById('modalGameId'),
+  modalVersion: document.getElementById('modalVersion'),
+  modalFormats: document.getElementById('modalFormats'),
+  modalFavoriteBtn: document.getElementById('modalFavoriteBtn'),
+  modalCheatGroups: document.getElementById('modalCheatGroups'),
+  toggleButtons: [...document.querySelectorAll('.toggle-btn')],
+  cardTemplate: document.getElementById('cardTemplate'),
+};
 
-const MINIMUM_CHARS_FOR_SEARCH = 2;
+const STORAGE_KEY = 'hen-cheats-favorites';
+const SEARCH_PARAM = 'q';
+const FILTER_PARAM = 'view';
+const HASH_SEPARATOR = '-';
 
-let covers = {};
-
-/* ---------- Lazy-load card backgrounds ---------- */
-
-let cardBgObserver = null;
-
-function ensureCardBgObserver() {
-  if (cardBgObserver) return cardBgObserver;
-
-  cardBgObserver = new IntersectionObserver((entries) => {
-    for (const e of entries) {
-      if (!e.isIntersecting) continue;
-
-      const el = e.target;
-
-      const raw = el.dataset.bg || "";
-      const suffix = el.dataset.bgSuffix || "";
-      const url = raw ? `${raw}${suffix}` : "";
-
-      if (url) {
-        el.style.setProperty("--card-bg", `url('${url}')`);
-      }
-
-      // Ladda bara en gång per kort
-      cardBgObserver.unobserve(el);
-      el.removeAttribute("data-bg");
-      el.removeAttribute("data-bg-suffix");
-    }
-  }, {
-    root: null,
-    // Ladda lite innan kortet syns så scroll känns instant
-    rootMargin: "250px 0px",
-    threshold: 0.01
-  });
-
-  return cardBgObserver;
+function entryKey(entry) {
+  return `${entry.id}${HASH_SEPARATOR}${entry.version}`;
 }
 
-function observeCardBackgrounds() {
-  const io = ensureCardBgObserver();
-  document.querySelectorAll(".card[data-bg]").forEach(el => io.observe(el));
+function escapeHtml(value) {
+  return String(value)
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+    .replaceAll("'", '&#39;');
 }
 
-/* ---------- DOM ---------- */
-
-const elGrid  = document.getElementById("grid");
-const elEmpty = document.getElementById("empty");
-const elQ     = document.getElementById("q");
-const elClear = document.getElementById("clear");
-const elCount = document.getElementById("count");
-const elTotal = document.getElementById("total");
-
-// All / Favorites toggle
-const elSegAll = document.getElementById("segAll");
-const elSegFav = document.getElementById("segFav");
-
-// Modal
-const elModal     = document.getElementById("modal");
-const elMClose    = document.getElementById("m_close");
-const elMID       = document.getElementById("m_id");
-const elMTitle    = document.getElementById("m_title");
-const elMMeta     = document.getElementById("m_meta");
-const elMBadges   = document.getElementById("m_badges");
-const elMCreators = document.getElementById("m_creators");
-const elMLists    = document.getElementById("m_lists");
-const elMQ        = document.getElementById("m_q");
-const elMClear    = document.getElementById("m_clear");
-
-/* ---------- State ---------- */
-
-let all = [];
-let current = null;
-let byKey = new Map(); // "ID|VERSION" -> item
-
-let favoritesOnly = false;
-
-// Persist favorites locally (per browser)
-const FAVORITES_KEY = "hen_cheats_favorites_v1";
-let favorites = new Set();
-
-/* ---------- Small helpers ---------- */
-
-function norm(s) {
-  return (s ?? "").toString().trim().toLowerCase();
+function normalize(value) {
+  return String(value || '')
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .trim();
 }
 
-function safeHtml(text) {
-  return (text ?? "").toString()
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;")
-    .replaceAll("'", "&#039;");
+function getCoverUrl(entry) {
+  const titleCover = state.covers.get(normalize(entry.title));
+  if (titleCover && titleCover !== 'no-image') return titleCover;
+
+  const idCover = state.covers.get(normalize(`${entry.title} ${entry.id}`));
+  if (idCover && idCover !== 'no-image') return idCover;
+
+  return null;
 }
-
-function makeKey(item) {
-  const id = (item?.id ?? "").trim();
-  const v  = (item?.version ?? "").trim();
-  return `${id}|${v}`;
-}
-
-function hashFor(item) {
-  // Keep it readable: #CUSA12345-01.00
-  const id = (item?.id ?? "").trim();
-  const v  = (item?.version ?? "").trim();
-  return `#${encodeURIComponent(id)}-${encodeURIComponent(v)}`;
-}
-
-function parseHash() {
-  // Expected: #ID-VERSION
-  const h = (location.hash || "").replace(/^#/, "");
-  if (!h) return null;
-
-  // Split on the last '-' just to be safe.
-  const idx = h.lastIndexOf("-");
-  if (idx <= 0 || idx >= h.length - 1) return null;
-
-  const id = decodeURIComponent(h.slice(0, idx)).trim();
-  const v  = decodeURIComponent(h.slice(idx + 1)).trim();
-  if (!id || !v) return null;
-
-  return `${id}|${v}`;
-}
-
-function ledClass(hasFile, cheatsCount) {
-  if (hasFile) return "good";
-  if (cheatsCount > 0) return "warn";
-  return "";
-}
-
-function hasCheats(fmt) {
-  const cnt = Number(fmt?.cheatsCount ?? 0);
-  if (cnt > 0) return true;
-  return Array.isArray(fmt?.cheats) && fmt.cheats.length > 0;
-}
-
-function badgeHtml(label, fmt) {
-  const hasFile = !!fmt?.hasFile;
-  const cnt = Number(fmt?.cheatsCount ?? 0);
-  const led = ledClass(hasFile, cnt);
-
-  return `
-    <div class="badge" title="${label}: ${hasFile ? "file available" : "no file"} • ${cnt} cheat(s)">
-      <span class="led ${led}"></span>
-      <span class="b">${label}</span>
-      <span>${cnt}</span>
-    </div>
-  `;
-}
-
-function getCreatorsHaystack(item) {
-  // creatorsLower can be an array or a string depending on your generator
-  if (Array.isArray(item?.creatorsLower)) return norm(item.creatorsLower.join(" "));
-  if (typeof item?.creatorsLower === "string") return norm(item.creatorsLower);
-
-  if (Array.isArray(item?.creators)) {
-    return norm(item.creators.map(c => (c ?? "").toString()).join(" "));
-  }
-
-  return "";
-}
-
-function getUniqueCreators(item) {
-  const creators = Array.isArray(item?.creators) ? item.creators : [];
-  const uniq = new Map(); // lower -> original
-
-  for (const c of creators) {
-    const v = (c ?? "").toString().trim();
-    if (!v) continue;
-
-    const k = v.toLowerCase();
-    if (!uniq.has(k)) uniq.set(k, v);
-  }
-
-  return [...uniq.values()].sort((a, b) => a.localeCompare(b, "en", { sensitivity: "base" }));
-}
-
-/* ---------- Favorites helpers ---------- */
 
 function loadFavorites() {
   try {
-    const raw = localStorage.getItem(FAVORITES_KEY);
+    const raw = localStorage.getItem(STORAGE_KEY);
     if (!raw) return new Set();
-    const arr = JSON.parse(raw);
-    if (!Array.isArray(arr)) return new Set();
-    return new Set(arr.filter(x => typeof x === "string" && x.trim()));
+    const parsed = JSON.parse(raw);
+    return Array.isArray(parsed) ? new Set(parsed) : new Set();
   } catch {
     return new Set();
   }
 }
 
 function saveFavorites() {
-  try {
-    localStorage.setItem(FAVORITES_KEY, JSON.stringify([...favorites]));
-  } catch {
-    // Ignore if storage is blocked/disabled
-  }
+  localStorage.setItem(STORAGE_KEY, JSON.stringify([...state.favorites]));
 }
 
-function isFavorite(itemOrKey) {
-  const key = (typeof itemOrKey === "string") ? itemOrKey : makeKey(itemOrKey);
-  return favorites.has(key);
-}
-
-function setFavorite(itemOrKey, on) {
-  const key = (typeof itemOrKey === "string") ? itemOrKey : makeKey(itemOrKey);
-
-  if (on) favorites.add(key);
-  else favorites.delete(key);
-
+function setFavorite(key, isFavorite) {
+  if (isFavorite) state.favorites.add(key);
+  else state.favorites.delete(key);
   saveFavorites();
-  return favorites.has(key);
 }
 
-function toggleFavorite(itemOrKey) {
-  const key = (typeof itemOrKey === "string") ? itemOrKey : makeKey(itemOrKey);
-  return setFavorite(key, !favorites.has(key));
+function parseGeneratedDate(utcString) {
+  if (!utcString) return null;
+  const date = new Date(utcString);
+  if (Number.isNaN(date.getTime())) return null;
+  const yyyy = date.getUTCFullYear();
+  const mm = String(date.getUTCMonth() + 1).padStart(2, '0');
+  const dd = String(date.getUTCDate()).padStart(2, '0');
+  const hh = String(date.getUTCHours()).padStart(2, '0');
+  const mi = String(date.getUTCMinutes()).padStart(2, '0');
+  return `${yyyy}-${mm}-${dd} ${hh}:${mi} UTC`;
 }
 
-function setFavoritesOnly(on) {
-  favoritesOnly = !!on;
-
-  elSegAll.classList.toggle("is-on", !favoritesOnly);
-  elSegAll.setAttribute("aria-pressed", favoritesOnly ? "false" : "true");
-
-  elSegFav.classList.toggle("is-on", favoritesOnly);
-  elSegFav.setAttribute("aria-pressed", favoritesOnly ? "true" : "false");
-
-  applyFilter();
+function formatCreators(creators = []) {
+  return creators.length ? creators.join(', ') : 'Unknown';
 }
 
-/* ---------- Rendering: list ---------- */
-
-function starSvg(filled) {
-  // Using currentColor so CSS can control the color.
-  // Filled version looks "solid", outline is default.
-  if (filled) {
-    return `
-      <svg viewBox="0 0 24 24" aria-hidden="true">
-        <path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
-      </svg>
-    `;
-  }
-
-  return `
-    <svg viewBox="0 0 24 24" aria-hidden="true">
-      <path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"
-        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
-    </svg>
-  `;
+function countUniqueGames(entries) {
+  return new Set(entries.map((entry) => normalize(entry.title))).size;
 }
 
-function cardHtml(item) {
-  const id = item.id ?? "";
-  const version = item.version ?? "";
-  const title = item.title ?? "";
-  const total = Number(item.cheatsTotal ?? 0);
-  const f = item.formats ?? {};
-
-  const key = makeKey(item);
-  const favOn = isFavorite(key);
-  
-  const coverKey = item.titleLower ? norm(item.titleLower) : norm(item.title);
-  const coverUrl = getValidCoverUrl(covers[coverKey]);
-  const bgAttrs = `data-bg="${safeHtml(coverUrl)}" data-bg-suffix="${safeHtml(COVERS_SUFFIX)}"`;
-
-  const badges = [];
-  if (hasCheats(f.json)) badges.push(badgeHtml("json", f.json));
-  if (hasCheats(f.shn))  badges.push(badgeHtml("shn",  f.shn));
-  if (hasCheats(f.mc4))  badges.push(badgeHtml("mc4",  f.mc4));
-
-  return `
-    <article class="card ${favOn ? "is-fav" : ""}" ${bgAttrs} data-idx="${item.__idx}">
-      <button class="fav-btn" type="button" data-fav="${safeHtml(key)}" aria-pressed="${favOn ? "true" : "false"}" title="Favorite">
-        ${starSvg(favOn)}
-      </button>
-
-      <div class="top">
-        <div>
-          <div class="id">
-            <span class="tag">${safeHtml(id)}</span>
-            <span class="tag">v${safeHtml(version)}</span>
-            <span class="tag">${total} cheats</span>
-          </div>
-          <div class="name">${safeHtml(title)}</div>
-        </div>
-
-        ${badges.length ? `<div class="badges">${badges.join("")}</div>` : ""}
-      </div>
-    </article>
-  `;
+function syncFooter() {
+  const year = new Date().getFullYear();
+  elements.footerCreated.textContent = `Created by TeeKay87 © ${year}`;
+  elements.footerGenerated.textContent = state.generatedUtc
+    ? `Generated with HEN-CM | ${state.generatedUtc}`
+    : '';
 }
 
-function render(items) {
-  elGrid.innerHTML = items.map(cardHtml).join("");
-  elCount.textContent = String(items.length);
-  elTotal.textContent = String(all.length);
-  elEmpty.style.display = items.length ? "none" : "block";
-  
-  observeCardBackgrounds();
+function syncLayoutOffsets() {
+  const headerHeight = elements.siteHeader.getBoundingClientRect().height;
+  const footerHeight = elements.siteFooter.getBoundingClientRect().height;
+  document.documentElement.style.setProperty('--header-height', `${Math.ceil(headerHeight)}px`);
+  document.documentElement.style.setProperty('--footer-height', `${Math.ceil(footerHeight)}px`);
 }
 
-function applyFilter() {
-  const q = norm(elQ.value);
-
-  // Gör INGENTING vid 1–2 tecken (ingen base.filter, ingen render)
-  if (q.length > 0 && q.length < MINIMUM_CHARS_FOR_SEARCH) return;
-
-  let base = all;
-  if (favoritesOnly) {
-    base = base.filter(x => favorites.has(makeKey(x)));
-  }
-
-  if (!q) {
-    render(base);
-    return;
-  }
-
-  const filtered = base.filter(x => (x.__hay || "").includes(q));
-
-  render(filtered);
+function syncHeaderState() {
+  elements.siteHeader.classList.toggle('is-condensed', window.scrollY > 24);
 }
 
-function getValidCoverUrl(url) {
-  if (!url || typeof url !== "string") return DEFAULT_COVER_URL;
-
-  const u = url.trim();
-
-  // basic sanity check
-  if (!u.startsWith("http") && !u.startsWith("./") && !u.startsWith("/")) {
-    return DEFAULT_COVER_URL;
-  }
-
-  return u;
+function getSearchParams() {
+  const params = new URLSearchParams(window.location.search);
+  return {
+    q: params.get(SEARCH_PARAM) || '',
+    view: params.get(FILTER_PARAM) === 'favorites' ? 'favorites' : 'all',
+  };
 }
 
-/* ---------- Rendering: modal ---------- */
-
-function renderModalLists(filterText) {
-  if (!current) {
-    elMLists.innerHTML = "";
-    return;
-  }
-
-  const q = norm(filterText);
-
-  const formats = [
-    ["json", current.formats?.json],
-    ["shn",  current.formats?.shn],
-    ["mc4",  current.formats?.mc4],
-  ].map(([key, obj]) => ({
-    key,
-    cheats: Array.isArray(obj?.cheats) ? obj.cheats : []
-  }));
-
-  // Apply cheat-name filter inside the modal, then keep only non-empty formats.
-  let filtered = formats.map(f => ({
-    ...f,
-    cheats: q ? f.cheats.filter(c => norm(c).includes(q)) : f.cheats
-  })).filter(f => f.cheats.length > 0);
-
-  if (!q && filtered.length === 0) {
-    elMLists.innerHTML = `
-      <div class="section">
-        <div class="section__head">
-          <div class="section__title">No cheats available</div>
-          <div class="section__count">0</div>
-        </div>
-        <div class="section__body">
-          <div class="muted-note">This entry has no cheats to display.</div>
-        </div>
-      </div>
-    `;
-    return;
-  }
-
-  const sectionHtml = (label, items) => `
-    <div class="section">
-      <div class="section__head">
-        <div class="section__title">${safeHtml(`${label.toUpperCase()} cheats`)}</div>
-        <div class="section__count">${items.length}</div>
-      </div>
-      <div class="section__body">
-        <ol class="cheats">
-          ${items.map(x => `<li>${safeHtml(x)}</li>`).join("")}
-        </ol>
-      </div>
-    </div>
-  `;
-
-  const totalMatches = filtered.reduce((sum, f) => sum + f.cheats.length, 0);
-  if (q && totalMatches === 0) {
-    elMLists.innerHTML = `
-      <div class="section">
-        <div class="section__head">
-          <div class="section__title">No matches</div>
-          <div class="section__count">0</div>
-        </div>
-        <div class="section__body">
-          <div class="muted-note">Try a different keyword.</div>
-        </div>
-      </div>
-    `;
-    return;
-  }
-
-  elMLists.innerHTML = filtered.map(f => sectionHtml(f.key, f.cheats)).join("");
+function getHashEntryKey() {
+  const raw = decodeURIComponent(window.location.hash.replace(/^#/, '')).trim();
+  return raw || null;
 }
 
-function openModal(item, { setHash = true } = {}) {
-  current = item;
+function updateUrl({ preserveHash = true } = {}) {
+  const params = new URLSearchParams(window.location.search);
+  const activeSearch = state.searchTerm.trim();
 
-  elMID.textContent = `${item.id ?? ""}  •  v${item.version ?? ""}`;
-  elMTitle.textContent = item.title ?? "";
+  if (activeSearch) params.set(SEARCH_PARAM, activeSearch);
+  else params.delete(SEARCH_PARAM);
 
-  const total = Number(item.cheatsTotal ?? 0);
-  elMMeta.innerHTML = `
-    <span><span class="kbd">Total</span> ${total} cheats</span>
-    <span class="dot">•</span>
-    <span><span class="kbd">ID</span> ${safeHtml(item.id ?? "")}</span>
-    <span class="dot">•</span>
-    <span><span class="kbd">Version</span> ${safeHtml(item.version ?? "")}</span>
-  `;
+  if (state.activeFilter === 'favorites') params.set(FILTER_PARAM, 'favorites');
+  else params.delete(FILTER_PARAM);
 
-  // Badges: show only formats that actually have cheats.
-  const f = item.formats ?? {};
-  const badges = [];
-  if (hasCheats(f.json)) badges.push(badgeHtml("json", f.json));
-  if (hasCheats(f.shn))  badges.push(badgeHtml("shn",  f.shn));
-  if (hasCheats(f.mc4))  badges.push(badgeHtml("mc4",  f.mc4));
-
-  elMBadges.innerHTML = badges.join("");
-  elMBadges.style.display = badges.length ? "" : "none";
-
-  // Creators: unique, stable order.
-  const creators = getUniqueCreators(item);
-  if (creators.length) {
-    elMCreators.style.display = "";
-    elMCreators.innerHTML =
-      `<span class="label">Creators:</span>` +
-      creators.map(x => `<span class="creator-chip">${safeHtml(x)}</span>`).join("");
-  } else {
-    elMCreators.style.display = "none";
-    elMCreators.innerHTML = "";
-  }
-
-  elMQ.value = "";
-  renderModalLists("");
-
-  elModal.classList.add("is-open");
-  elModal.setAttribute("aria-hidden", "false");
-  document.body.classList.add("modal-open");
-
-  if (setHash) {
-    const h = hashFor(item);
-    if (location.hash !== h) history.pushState(null, "", h);
-  }
-
-  setTimeout(() => elMQ.focus(), 0);
+  const nextQuery = params.toString();
+  const nextHash = preserveHash && state.activeEntryKey ? `#${encodeURIComponent(state.activeEntryKey)}` : '';
+  const nextUrl = `${window.location.pathname}${nextQuery ? `?${nextQuery}` : ''}${nextHash}`;
+  history.replaceState(null, '', nextUrl);
 }
 
-function closeModal({ clearHash = true } = {}) {
-  elModal.classList.remove("is-open");
-  elModal.setAttribute("aria-hidden", "true");
-  document.body.classList.remove("modal-open");
-  current = null;
-
-  if (clearHash && location.hash) {
-    history.pushState(null, "", location.pathname + location.search);
-  }
+function updateHashForModal() {
+  updateUrl({ preserveHash: true });
 }
 
-function openFromHash() {
-  const key = parseHash();
-  if (!key) return false;
-
-  const item = byKey.get(key);
-  if (!item) return false;
-
-  openModal(item, { setHash: false });
-  return true;
+function clearHash() {
+  state.activeEntryKey = null;
+  updateUrl({ preserveHash: false });
 }
 
-/* ---------- Boot ---------- */
+function applyControlsFromUrl() {
+  const params = getSearchParams();
+  state.searchTerm = params.q;
+  state.activeFilter = params.view;
+  elements.searchInput.value = params.q;
+  elements.toggleButtons.forEach((button) => {
+    const isActive = button.dataset.filter === state.activeFilter;
+    button.classList.toggle('is-active', isActive);
+    button.setAttribute('aria-pressed', String(isActive));
+  });
+}
 
-async function boot() {
-  try {
-    favorites = loadFavorites();
+function getEffectiveSearchTerm(value) {
+  const normalizedValue = normalize(value);
+  return normalizedValue.length >= 2 ? normalizedValue : '';
+}
 
-    // Load cheats data
-    const res = await fetch(DATA_URL, { cache: "no-store" });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const data = await res.json();
+function filterEntries() {
+  const effectiveSearch = getEffectiveSearchTerm(state.searchTerm);
+  const useSearch = effectiveSearch.length >= 2;
 
-    // Load cover images (optional)
-    try {
-      const coverRes = await fetch(COVERS_URL, { cache: "no-store" });
-      if (coverRes.ok) {
-        const coverData = await coverRes.json();
-        // artmap_titles.json: { generatedUtc, titles: { "lowercase title": "url" } }
-        // Keep backward-compat if file is already just a flat map.
-        covers = (coverData && typeof coverData === "object" && coverData.titles && typeof coverData.titles === "object")
-          ? coverData.titles
-          : (coverData && typeof coverData === "object" ? coverData : {});
-      }
-    } catch {
-      covers = {};
+  state.filteredEntries = state.entries.filter((entry) => {
+    if (state.activeFilter === 'favorites' && !state.favorites.has(entryKey(entry))) {
+      return false;
     }
 
-    all = Array.isArray(data) ? data : (Array.isArray(data?.entries) ? data.entries : []);
+    if (!useSearch) return true;
 
-    all.sort((a, b) => {
-      const t = (a.titleLower ?? a.title ?? "").localeCompare((b.titleLower ?? b.title ?? ""), "en", { sensitivity: "base" });
-      if (t) return t;
-      const i = (a.id ?? "").localeCompare((b.id ?? ""), "en", { sensitivity: "base" });
-      if (i) return i;
-      return (a.version ?? "").localeCompare((b.version ?? ""), "en", { sensitivity: "base" });
+    return (
+      entry.searchBlob.includes(effectiveSearch) ||
+      entry.idLower.includes(effectiveSearch) ||
+      entry.titleLower.includes(effectiveSearch)
+    );
+  });
+
+  const shownEntries = state.filteredEntries.length;
+  const shownGames = countUniqueGames(state.filteredEntries);
+  const totalEntries = state.entries.length;
+  const totalGames = state.totalGames;
+
+  elements.resultsLine.textContent = `Showing ${shownEntries} of ${totalEntries} entries · ${shownGames} of ${totalGames} games`;
+}
+
+function createPlaceholderSvg(title) {
+  const initials = title
+    .split(/\s+/)
+    .slice(0, 2)
+    .map((part) => part.charAt(0).toUpperCase())
+    .join('')
+    .slice(0, 2) || 'HC';
+  const svg = `
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 640" role="img" aria-label="No cover available">
+      <defs>
+        <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#6ca8ff" stop-opacity="0.85"/>
+          <stop offset="100%" stop-color="#8f7cff" stop-opacity="0.9"/>
+        </linearGradient>
+      </defs>
+      <rect width="480" height="640" rx="32" fill="url(#g)" />
+      <circle cx="240" cy="200" r="88" fill="rgba(255,255,255,0.12)" />
+      <text x="50%" y="220" text-anchor="middle" font-size="84" font-weight="700" fill="#eef4ff" font-family="Arial, sans-serif">${escapeHtml(initials)}</text>
+      <text x="50%" y="360" text-anchor="middle" font-size="24" fill="#eef4ff" opacity="0.92" font-family="Arial, sans-serif">No Cover Available</text>
+      <text x="50%" y="400" text-anchor="middle" font-size="20" fill="#eef4ff" opacity="0.74" font-family="Arial, sans-serif">HEN Cheats Collection</text>
+    </svg>`;
+  return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
+}
+
+function renderCards() {
+  elements.cardsGrid.innerHTML = '';
+
+  if (!state.entries.length) {
+    elements.statusMessage.textContent = 'Loading data files…';
+    elements.statusMessage.hidden = false;
+    elements.emptyState.classList.add('hidden');
+    return;
+  }
+
+  if (!state.filteredEntries.length) {
+    elements.statusMessage.hidden = true;
+    elements.emptyState.classList.remove('hidden');
+    return;
+  }
+
+  elements.statusMessage.hidden = true;
+  elements.emptyState.classList.add('hidden');
+
+  const fragment = document.createDocumentFragment();
+
+  state.filteredEntries.forEach((entry) => {
+    const clone = elements.cardTemplate.content.cloneNode(true);
+    const card = clone.querySelector('.game-card');
+    const favoriteButton = clone.querySelector('.favorite-btn');
+    const hitbox = clone.querySelector('.card-hitbox');
+    const title = clone.querySelector('.card-title');
+    const id = clone.querySelector('.card-id');
+    const version = clone.querySelector('.card-version');
+    const cheats = clone.querySelector('.card-cheats');
+    const cover = clone.querySelector('.card-cover');
+    const key = entryKey(entry);
+    const isFavorite = state.favorites.has(key);
+    const coverUrl = getCoverUrl(entry);
+
+    title.textContent = entry.title;
+    id.textContent = entry.id;
+    version.textContent = `v${entry.version}`;
+    cheats.textContent = `${entry.cheatsTotal} cheat${entry.cheatsTotal === 1 ? '' : 's'}`;
+
+    cover.src = coverUrl || createPlaceholderSvg(entry.title);
+    cover.alt = `${entry.title} cover art`;
+    if (!coverUrl) cover.dataset.noImage = 'true';
+
+    favoriteButton.classList.toggle('is-favorite', isFavorite);
+    favoriteButton.setAttribute('aria-pressed', String(isFavorite));
+    favoriteButton.setAttribute('aria-label', isFavorite ? `Remove ${entry.title} from favorites` : `Add ${entry.title} to favorites`);
+
+    favoriteButton.addEventListener('click', (event) => {
+      event.stopPropagation();
+      setFavorite(key, !state.favorites.has(key));
+      filterEntries();
+      renderCards();
+      if (state.activeEntryKey === key) renderModal(entry);
     });
 
-    // Assign stable indices AFTER sorting + precompute search haystack
-    all.forEach((item, i) => {item.__idx = i;
-    
-      // Bygg en enda söksträng (allt normaliserat)
-      const id = item.idLower ? norm(item.idLower) : norm(item.id);
-      const title = item.titleLower ? norm(item.titleLower) : norm(item.title);
-      const creators = getCreatorsHaystack(item);
-    
-      item.__hay = `${id} ${title} ${creators}`.trim();
-    });
+    hitbox.setAttribute('aria-label', `Open details for ${entry.title} ${entry.id} version ${entry.version}`);
+    hitbox.addEventListener('click', () => openModal(key));
 
-    byKey = new Map();
-    for (const item of all) byKey.set(makeKey(item), item);
+    card.dataset.entryKey = key;
+    fragment.append(card);
+  });
 
-    setFavoritesOnly(false);
-    render(all);
-    openFromHash();
-  } catch (err) {
-    elGrid.innerHTML = `
-      <div class="empty">
-        <b>Failed to load data.</b><br/>
-        Make sure <span class="kbd">${safeHtml(DATA_URL)}</span> is in the same folder as index.html.<br/><br/>
-        Error: <span class="kbd">${safeHtml(String(err))}</span>
+  elements.cardsGrid.append(fragment);
+}
+
+function formatAvailableFormats(entry) {
+  return Object.entries(entry.formats || {})
+    .filter(([, data]) => data?.hasFile && data.cheatsCount > 0)
+    .map(([name, data]) => `${name.toUpperCase()} (${data.cheatsCount})`)
+    .join(', ');
+}
+
+function renderModal(entry) {
+  state.activeEntryKey = entryKey(entry);
+  const coverUrl = getCoverUrl(entry);
+  const favorite = state.favorites.has(state.activeEntryKey);
+  const creatorsText = formatCreators(entry.creators);
+  const availableFormats = Object.entries(entry.formats || {}).filter(([, data]) => data?.hasFile && data.cheatsCount > 0);
+
+  elements.modalTitle.textContent = entry.title;
+  elements.modalIdVersion.textContent = `${entry.id} · Version ${entry.version}`;
+  elements.modalCheatsTotal.textContent = `${entry.cheatsTotal} total cheats`;
+  elements.modalCreators.textContent = `By ${creatorsText}`;
+  /*elements.modalGameId.textContent = entry.id;
+  elements.modalVersion.textContent = entry.version;
+  elements.modalFormats.textContent = formatAvailableFormats(entry) || 'No downloadable formats listed';
+  elements.modalFavoriteBtn.classList.toggle('is-favorite', favorite);
+  elements.modalFavoriteBtn.textContent = favorite ? 'Favorited' : 'Add to favorites';
+  elements.modalFavoriteBtn.setAttribute('aria-pressed', String(favorite));
+  elements.modalFavoriteBtn.onclick = () => {
+    const nextValue = !state.favorites.has(state.activeEntryKey);
+    setFavorite(state.activeEntryKey, nextValue);
+    filterEntries();
+    renderCards();
+    renderModal(entry);
+  };*/
+
+  elements.modalHero.style.backgroundImage = coverUrl
+    ? `linear-gradient(180deg, rgba(5,11,20,0.12), rgba(5,11,20,0.88)), url("${coverUrl.replaceAll('"', '\\"')}")`
+    : 'linear-gradient(135deg, rgba(108, 168, 255, 0.24), rgba(143, 124, 255, 0.28))';
+
+  elements.modalCheatGroups.innerHTML = '';
+
+  availableFormats.forEach(([format, data]) => {
+    const section = document.createElement('section');
+    section.className = 'cheat-group';
+
+    const items = data.cheats
+      .map((cheat) => `<li>${escapeHtml(cheat)}</li>`)
+      .join('');
+
+    section.innerHTML = `
+      <div class="cheat-group-header">
+        <h3>${escapeHtml(format)}</h3>
+        <span class="cheat-count">${data.cheatsCount} cheat${data.cheatsCount === 1 ? '' : 's'}</span>
       </div>
+      <ul class="cheat-list">${items}</ul>
     `;
+    elements.modalCheatGroups.append(section);
+  });
+
+  elements.modalRoot.classList.remove('hidden');
+  elements.modalRoot.setAttribute('aria-hidden', 'false');
+  document.body.classList.add('modal-open');
+  updateHashForModal();
+}
+
+function closeModal() {
+  elements.modalRoot.classList.add('hidden');
+  elements.modalRoot.setAttribute('aria-hidden', 'true');
+  document.body.classList.remove('modal-open');
+  clearHash();
+}
+
+function openModal(key) {
+  const entry = state.entries.find((item) => entryKey(item) === key);
+  if (!entry) return;
+  renderModal(entry);
+}
+
+function maybeRestoreModalFromHash() {
+  const hashKey = getHashEntryKey();
+  if (!hashKey) {
+    if (!elements.modalRoot.classList.contains('hidden')) closeModal();
+    return;
+  }
+
+  const match = state.entries.find((entry) => entryKey(entry) === hashKey);
+  if (match) renderModal(match);
+}
+
+function initEvents() {
+  elements.searchInput.addEventListener('input', (event) => {
+  
+    const previousEffectiveSearch = getEffectiveSearchTerm(state.searchTerm);
+    const nextSearchTerm = event.target.value;
+    const nextEffectiveSearch = getEffectiveSearchTerm(nextSearchTerm);
+  
+    state.searchTerm = nextSearchTerm;
+    updateUrl();
+  
+    // nothing changed → skip heavy render
+    if (previousEffectiveSearch === nextEffectiveSearch) return;
+  
+    // going from active search → inactive search (2 → 1 chars)
+    if (previousEffectiveSearch && !nextEffectiveSearch) {
+      filterEntries();
+      renderCards();
+      return;
+    }
+  
+    // active search update
+    if (nextEffectiveSearch) {
+      filterEntries();
+      renderCards();
+    }
+  
+  });
+
+  elements.toggleButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+      state.activeFilter = button.dataset.filter;
+      elements.toggleButtons.forEach((item) => {
+        const isActive = item === button;
+        item.classList.toggle('is-active', isActive);
+        item.setAttribute('aria-pressed', String(isActive));
+      });
+      updateUrl();
+      filterEntries();
+      renderCards();
+    });
+  });
+
+  elements.modalClose.addEventListener('click', closeModal);
+  elements.modalBackdrop.addEventListener('click', closeModal);
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && !elements.modalRoot.classList.contains('hidden')) closeModal();
+  });
+
+  window.addEventListener('scroll', syncHeaderState, { passive: true });
+  window.addEventListener('resize', syncLayoutOffsets);
+  window.addEventListener('hashchange', () => {
+    const hashKey = getHashEntryKey();
+    if (!hashKey) {
+      if (!elements.modalRoot.classList.contains('hidden')) {
+        elements.modalRoot.classList.add('hidden');
+        elements.modalRoot.setAttribute('aria-hidden', 'true');
+        document.body.classList.remove('modal-open');
+        state.activeEntryKey = null;
+      }
+      return;
+    }
+    maybeRestoreModalFromHash();
+  });
+
+  const resizeObserver = new ResizeObserver(syncLayoutOffsets);
+  resizeObserver.observe(elements.siteHeader);
+  resizeObserver.observe(elements.siteFooter);
+}
+
+async function loadData() {
+  elements.statusMessage.hidden = false;
+  elements.statusMessage.textContent = 'Loading data files…';
+
+  const [cheatsResponse, coversResponse] = await Promise.all([
+    fetch('./cheatslist.json', { cache: 'no-store' }),
+    fetch('./covers.json', { cache: 'no-store' }),
+  ]);
+
+  if (!cheatsResponse.ok || !coversResponse.ok) {
+    throw new Error('Could not load cheatslist.json or covers.json');
+  }
+
+  const [cheatsData, coversData] = await Promise.all([cheatsResponse.json(), coversResponse.json()]);
+
+  state.generatedUtc = parseGeneratedDate(cheatsData.generatedUtc || cheatsData.generatedUTC || coversData.generatedUtc);
+  state.entries = [...(cheatsData.entries || [])]
+    .map((entry) => ({
+      ...entry,
+      searchBlob: [entry.id, entry.title, ...(entry.creators || [])].map(normalize).join(' | '),
+    }))
+    .sort((a, b) => {
+      const titleSort = a.title.localeCompare(b.title, undefined, { sensitivity: 'base' });
+      if (titleSort !== 0) return titleSort;
+      const idSort = a.id.localeCompare(b.id, undefined, { sensitivity: 'base' });
+      if (idSort !== 0) return idSort;
+      return a.version.localeCompare(b.version, undefined, { numeric: true, sensitivity: 'base' });
+    });
+
+  state.totalGames = countUniqueGames(state.entries);
+  state.covers = new Map(
+    Object.entries(coversData.titles || {}).map(([title, url]) => [normalize(title), url])
+  );
+
+  syncFooter();
+}
+
+async function init() {
+  state.favorites = loadFavorites();
+  applyControlsFromUrl();
+  syncFooter();
+  syncHeaderState();
+  syncLayoutOffsets();
+  initEvents();
+
+  try {
+    await loadData();
+    filterEntries();
+    renderCards();
+    maybeRestoreModalFromHash();
+  } catch (error) {
+    console.error(error);
+    elements.statusMessage.hidden = false;
+    elements.statusMessage.textContent = 'Failed to load cheatslist.json or covers.json. Run the site from a web server and make sure both files are in the same folder.';
+  } finally {
+    syncLayoutOffsets();
   }
 }
 
-/* ---------- Events ---------- */
-
-let filterTimer = null;
-
-elQ.addEventListener("input", () => {
-  clearTimeout(filterTimer);
-  filterTimer = setTimeout(applyFilter, 120); // 80–200ms är vanligt
-});
-
-elClear.addEventListener("click", () => {
-  elQ.value = "";
-  applyFilter();
-  elQ.focus();
-});
-
-// Segmented toggle
-elSegAll.addEventListener("click", () => setFavoritesOnly(false));
-elSegFav.addEventListener("click", () => setFavoritesOnly(true));
-
-// Card click (event delegation)
-elGrid.addEventListener("click", (e) => {
-  const favBtn = e.target.closest(".fav-btn");
-  if (favBtn) {
-    e.preventDefault();
-    e.stopPropagation();
-
-    const key = favBtn.getAttribute("data-fav") || "";
-    const on = toggleFavorite(key);
-
-    favBtn.setAttribute("aria-pressed", on ? "true" : "false");
-    favBtn.innerHTML = starSvg(on);
-
-    const card = favBtn.closest(".card");
-    if (card) card.classList.toggle("is-fav", on);
-
-    // If we are in favorites-only mode, this might remove the card from view immediately.
-    applyFilter();
-    return;
-  }
-
-  const card = e.target.closest(".card");
-  if (!card) return;
-
-  const idx = Number(card.getAttribute("data-idx"));
-  const item = all[idx];
-  if (item) openModal(item, { setHash: true });
-});
-
-// Modal close handlers
-elModal.addEventListener("click", (e) => {
-  if (e.target && e.target.hasAttribute("data-close")) closeModal({ clearHash: true });
-});
-
-elMClose.addEventListener("click", () => closeModal({ clearHash: true }));
-
-window.addEventListener("keydown", (e) => {
-  if (e.key === "Escape" && elModal.classList.contains("is-open")) closeModal({ clearHash: true });
-});
-
-// Modal filter
-elMQ.addEventListener("input", () => renderModalLists(elMQ.value));
-
-elMClear.addEventListener("click", () => {
-  elMQ.value = "";
-  renderModalLists("");
-  elMQ.focus();
-});
-
-// React to manual hash changes / browser back-forward
-window.addEventListener("hashchange", () => {
-  const key = parseHash();
-
-  if (!key) {
-    if (elModal.classList.contains("is-open")) closeModal({ clearHash: false });
-    return;
-  }
-
-  const item = byKey.get(key);
-  if (!item) return;
-
-  const curKey = current ? makeKey(current) : "";
-  if (!elModal.classList.contains("is-open") || curKey !== key) {
-    openModal(item, { setHash: false });
-  }
-});
-
-boot();
+init();
