@@ -516,7 +516,8 @@ img {
 .modal-hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(2, 6, 15, 0.2), rgba(2, 6, 15, 0.76));
+  background: linear-gradient(180deg, rgba(7, 17, 31, 0) 0%, rgba(7, 17, 31, 0) 30%, rgba(7, 17, 31, 1) 100%);
+  /*background: linear-gradient(180deg, rgba(2, 6, 15, 0.2), rgba(2, 6, 15, 0.76));*/
 }
 
 .modal-hero-content {
@@ -564,7 +565,7 @@ img {
 }
 
 .modal-body {
-  padding: 24px 26px 28px;
+  padding: 0px 20px 20px;
 }
 
 .detail-grid {
