@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-03-12T13:13:52.0347097Z",
+  "generatedUtc": "2026-03-13T15:22:48.6835289Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -103299,6 +103299,78 @@
             "Infinite Weapons Durability",
             "Invincible Mode",
             "No Reload"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA15656",
+      "version": "01.000.000",
+      "title": "Disney Epic Mickey: Rebrushed",
+      "idLower": "ppsa15656",
+      "titleLower": "disney epic mickey: rebrushed",
+      "cheatsTotal": 4,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Inf Health",
+            "Inf Paints",
+            "Max Items",
+            "Untouchable"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA15657",
+      "version": "01.000.000",
+      "title": "Disney Epic Mickey: Rebrushed",
+      "idLower": "ppsa15657",
+      "titleLower": "disney epic mickey: rebrushed",
+      "cheatsTotal": 4,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Inf Health",
+            "Inf Paints",
+            "Max Items",
+            "Untouchable"
           ]
         }
       }

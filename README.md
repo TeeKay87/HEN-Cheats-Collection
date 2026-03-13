@@ -17,6 +17,8 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 | :----: | :---- | :---- | :---- | :---- |
+| 2026-03-13 | ADDED | PPSA15656 | 01.000.000 | Disney Epic Mickey: Rebrushed |
+| 2026-03-13 | ADDED | PPSA15657 | 01.000.000 | Disney Epic Mickey: Rebrushed |
 | 2026-03-12 | ADDED | CUSA02420 | 01.02 | Darksiders II: Deathinitive Edition |
 | 2026-03-12 | ADDED | CUSA11275 | 02.60 | Horizon Chase Turbo |
 | 2026-03-12 | ADDED | CUSA09263 | 01.01 | Devil May Cry: HD Collection |
