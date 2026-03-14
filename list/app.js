@@ -42,6 +42,10 @@ const STORAGE_KEY = 'hen-cheats-favorites';
 const SEARCH_PARAM = 'q';
 const FILTER_PARAM = 'view';
 const HASH_SEPARATOR = '-';
+const COVERART_SIZE = "1024";
+const COVERART_SUFFIX = "?w=" + COVERART_SIZE + "&thumb=false";
+const COVERART_FALLBACK = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Playstation_logo_colour2.svg/960px-Playstation_logo_colour2.svg.png"; //"https://i.pinimg.com/736x/28/68/9a/28689a40d979ebb1d751814d4ce6a0e1.jpg";
+const MINIMUM_CHARS_FOR_SEARCH = 2;
 
 function entryKey(entry) {
   return `${entry.id}${HASH_SEPARATOR}${entry.version}`;
@@ -215,12 +219,12 @@ function applyControlsFromUrl() {
 
 function getEffectiveSearchTerm(value) {
   const normalizedValue = normalize(value);
-  return normalizedValue.length >= 2 ? normalizedValue : '';
+  return normalizedValue.length >= MINIMUM_CHARS_FOR_SEARCH ? normalizedValue : '';
 }
 
 function filterEntries() {
   const effectiveSearch = getEffectiveSearchTerm(state.searchTerm);
-  const useSearch = effectiveSearch.length >= 2;
+  const useSearch = effectiveSearch.length >= MINIMUM_CHARS_FOR_SEARCH;
 
   state.filteredEntries = state.entries.filter((entry) => {
     if (state.activeFilter === 'favorites' && !state.favorites.has(entryKey(entry))) {
@@ -308,9 +312,19 @@ function renderCards() {
     version.textContent = `v${entry.version}`;
     cheats.textContent = `${entry.cheatsTotal} cheat${entry.cheatsTotal === 1 ? '' : 's'}`;
 
-    cover.src = coverUrl || createPlaceholderSvg(entry.title);
     cover.alt = `${entry.title} cover art`;
-    if (!coverUrl) cover.dataset.noImage = 'true';
+    if (coverUrl) {
+      cover.src = coverUrl + COVERART_SUFFIX;
+    } else {
+      cover.src = COVERART_FALLBACK + COVERART_SUFFIX;
+      cover.dataset.noImage = 'true';
+    }
+
+    // fallback om bilden inte kan laddas
+    cover.onerror = () => {
+      cover.onerror = null;
+      cover.src = COVERART_FALLBACK + COVERART_SUFFIX;
+    };
 
     favoriteButton.classList.toggle('is-favorite', isFavorite);
     favoriteButton.setAttribute('aria-pressed', String(isFavorite));
@@ -354,7 +368,7 @@ function renderModal(entry, { fromNavigation = false } = {}) {
   elements.modalCreators.textContent = `By ${creatorsText}`;
 
   elements.modalHero.style.backgroundImage = coverUrl
-    ? `linear-gradient(180deg, rgba(5,11,20,0.12), rgba(5,11,20,0.88)), url("${coverUrl.replaceAll('"', '\\"')}")`
+    ? `linear-gradient(180deg, rgba(5,11,20,0.12), rgba(5,11,20,0.88)), url("${coverUrl.replaceAll('"', '\\"') + COVERART_SUFFIX}")`
     : 'linear-gradient(135deg, rgba(108, 168, 255, 0.24), rgba(143, 124, 255, 0.28))';
 
   elements.modalCheatGroups.innerHTML = '';
