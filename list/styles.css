@@ -361,6 +361,7 @@ img {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
 }
 
 .card-meta,
@@ -536,6 +537,7 @@ img {
   font-size: 0.92rem;
   letter-spacing: 0.04em;
   text-transform: uppercase;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
 }
 
 .modal-hero-content h2 {
@@ -543,6 +545,7 @@ img {
   font-size: clamp(1.7rem, 2.6vw, 2.6rem);
   line-height: 1.04;
   letter-spacing: -0.04em;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
 }
 
 .modal-meta-row {
@@ -697,7 +700,7 @@ img {
   .site-header {
     padding: 10px 10px 8px;
   }
-
+  
   .site-footer {
     padding: 8px 10px 10px;
   }
@@ -768,16 +771,42 @@ img {
     justify-content: center;
   }
 
-  .modal-hero {
-    min-height: 210px;
-  }
-
+  .modal-hero,
   .modal-hero-content {
     min-height: 210px;
   }
 
   .cheat-list {
     grid-template-columns: 1fr;
+  }
+
+  .game-card {
+	aspect-ratio: 30 / 13;
+    min-height: auto;
+  }
+
+  .card-content {
+    min-height: 100%;
+    padding: 10px 12px;
+  }
+
+  .card-title {
+    font-size: 0.95rem;
+  }
+
+  .card-meta {
+    margin-top: 6px;
+    font-size: 0.8rem;
+  }
+
+  .card-bottom {
+    margin-top: 8px;
+  }
+
+  .card-cheats {
+    min-height: 26px;
+    font-size: 0.78rem;
+    padding: 0 8px;
   }
 }
 

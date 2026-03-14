@@ -147,7 +147,7 @@ function getHashEntryKey() {
   return raw || null;
 }
 
-function updateUrl({ preserveHash = true } = {}) {
+function buildUrl({ preserveHash = true } = {}) {
   const params = new URLSearchParams(window.location.search);
   const activeSearch = state.searchTerm.trim();
 
@@ -158,18 +158,47 @@ function updateUrl({ preserveHash = true } = {}) {
   else params.delete(FILTER_PARAM);
 
   const nextQuery = params.toString();
-  const nextHash = preserveHash && state.activeEntryKey ? `#${encodeURIComponent(state.activeEntryKey)}` : '';
-  const nextUrl = `${window.location.pathname}${nextQuery ? `?${nextQuery}` : ''}${nextHash}`;
-  history.replaceState(null, '', nextUrl);
+  const nextHash =
+    preserveHash && state.activeEntryKey
+      ? `#${encodeURIComponent(state.activeEntryKey)}`
+      : '';
+
+  return `${window.location.pathname}${nextQuery ? `?${nextQuery}` : ''}${nextHash}`;
 }
 
-function updateHashForModal() {
-  updateUrl({ preserveHash: true });
+function updateUrl({ preserveHash = true, mode = 'replace', stateObj = null } = {}) {
+  const nextUrl = buildUrl({ preserveHash });
+
+  if (mode === 'push') {
+    history.pushState(stateObj, '', nextUrl);
+  } else {
+    history.replaceState(stateObj, '', nextUrl);
+  }
+}
+
+function updateHashForModal({ fromNavigation = false } = {}) {
+  if (fromNavigation) {
+    updateUrl({
+      preserveHash: true,
+      mode: 'push',
+      stateObj: { modal: true, entryKey: state.activeEntryKey },
+    });
+  } else {
+    updateUrl({
+      preserveHash: true,
+      mode: 'replace',
+      stateObj: { modal: false, entryKey: state.activeEntryKey },
+    });
+  }
 }
 
 function clearHash() {
   state.activeEntryKey = null;
-  updateUrl({ preserveHash: false });
+  updateUrl({
+    preserveHash: false,
+    mode: 'replace',
+    stateObj: { modal: false, entryKey: null },
+  });
 }
 
 function applyControlsFromUrl() {
@@ -312,7 +341,7 @@ function formatAvailableFormats(entry) {
     .join(', ');
 }
 
-function renderModal(entry) {
+function renderModal(entry, { fromNavigation = false } = {}) {
   state.activeEntryKey = entryKey(entry);
   const coverUrl = getCoverUrl(entry);
   const favorite = state.favorites.has(state.activeEntryKey);
@@ -320,22 +349,9 @@ function renderModal(entry) {
   const availableFormats = Object.entries(entry.formats || {}).filter(([, data]) => data?.hasFile && data.cheatsCount > 0);
 
   elements.modalTitle.textContent = entry.title;
-  elements.modalIdVersion.textContent = `${entry.id} · Version ${entry.version}`;
+  elements.modalIdVersion.textContent = `${entry.id} · ${entry.version}`;
   elements.modalCheatsTotal.textContent = `${entry.cheatsTotal} total cheats`;
   elements.modalCreators.textContent = `By ${creatorsText}`;
-  /*elements.modalGameId.textContent = entry.id;
-  elements.modalVersion.textContent = entry.version;
-  elements.modalFormats.textContent = formatAvailableFormats(entry) || 'No downloadable formats listed';
-  elements.modalFavoriteBtn.classList.toggle('is-favorite', favorite);
-  elements.modalFavoriteBtn.textContent = favorite ? 'Favorited' : 'Add to favorites';
-  elements.modalFavoriteBtn.setAttribute('aria-pressed', String(favorite));
-  elements.modalFavoriteBtn.onclick = () => {
-    const nextValue = !state.favorites.has(state.activeEntryKey);
-    setFavorite(state.activeEntryKey, nextValue);
-    filterEntries();
-    renderCards();
-    renderModal(entry);
-  };*/
 
   elements.modalHero.style.backgroundImage = coverUrl
     ? `linear-gradient(180deg, rgba(5,11,20,0.12), rgba(5,11,20,0.88)), url("${coverUrl.replaceAll('"', '\\"')}")`
@@ -364,31 +380,51 @@ function renderModal(entry) {
   elements.modalRoot.classList.remove('hidden');
   elements.modalRoot.setAttribute('aria-hidden', 'false');
   document.body.classList.add('modal-open');
-  updateHashForModal();
+
+  updateHashForModal({ fromNavigation });
 }
 
-function closeModal() {
+function hideModal() {
   elements.modalRoot.classList.add('hidden');
   elements.modalRoot.setAttribute('aria-hidden', 'true');
   document.body.classList.remove('modal-open');
+}
+
+function closeModal() {
+  const hasHash = Boolean(getHashEntryKey());
+  const openedFromPushState = Boolean(history.state && history.state.modal);
+
+  if (hasHash && openedFromPushState) {
+    history.back();
+    return;
+  }
+
+  hideModal();
   clearHash();
 }
 
 function openModal(key) {
   const entry = state.entries.find((item) => entryKey(item) === key);
   if (!entry) return;
-  renderModal(entry);
+  renderModal(entry, { fromNavigation: true });
 }
 
 function maybeRestoreModalFromHash() {
   const hashKey = getHashEntryKey();
+
   if (!hashKey) {
-    if (!elements.modalRoot.classList.contains('hidden')) closeModal();
+    hideModal();
+    state.activeEntryKey = null;
     return;
   }
 
   const match = state.entries.find((entry) => entryKey(entry) === hashKey);
-  if (match) renderModal(match);
+  if (match) {
+    renderModal(match, { fromNavigation: false });
+  } else {
+    hideModal();
+    state.activeEntryKey = null;
+  }
 }
 
 function initEvents() {
@@ -441,17 +477,15 @@ function initEvents() {
 
   window.addEventListener('scroll', syncHeaderState, { passive: true });
   window.addEventListener('resize', syncLayoutOffsets);
-  window.addEventListener('hashchange', () => {
+  window.addEventListener('popstate', () => {
     const hashKey = getHashEntryKey();
+  
     if (!hashKey) {
-      if (!elements.modalRoot.classList.contains('hidden')) {
-        elements.modalRoot.classList.add('hidden');
-        elements.modalRoot.setAttribute('aria-hidden', 'true');
-        document.body.classList.remove('modal-open');
-        state.activeEntryKey = null;
-      }
+      hideModal();
+      state.activeEntryKey = null;
       return;
     }
+  
     maybeRestoreModalFromHash();
   });
 
