@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-03-13T15:22:48.6835289Z",
+  "generatedUtc": "2026-03-18T06:48:27.0431401Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -100861,6 +100861,48 @@
           "hasFile": false,
           "cheatsCount": 0,
           "cheats": []
+        }
+      }
+    },
+    {
+      "id": "PPSA03977",
+      "version": "04.040.100",
+      "title": "The Witcher 3: Wild Hunt: Complete Edition",
+      "idLower": "ppsa03977",
+      "titleLower": "the witcher 3: wild hunt: complete edition",
+      "cheatsTotal": 10,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 10,
+          "cheats": [
+            "Easy Kill",
+            "Infinite Adrenaline",
+            "Infinite Health",
+            "Infinite Horse Run",
+            "Infinite Oxygen",
+            "Infinite Stamina",
+            "Master Code - MC (Must Enable First)",
+            "Max Money (Sell)",
+            "Minimum Horse Panic",
+            "No Toxic"
+          ]
         }
       }
     },
