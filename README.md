@@ -17,6 +17,7 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 | :----: | :---- | :---- | :---- | :---- |
+| 2026-03-23 | ADDED | PPSA08260 | 01.003.001 | Star Wars Outlaws |
 | 2026-03-18 | ADDED | PPSA03977 | 04.040.100 | The Witcher 3: Wild Hunt: Complete Edition |
 | 2026-03-13 | ADDED | PPSA15656 | 01.000.000 | Disney Epic Mickey: Rebrushed |
 | 2026-03-13 | ADDED | PPSA15657 | 01.000.000 | Disney Epic Mickey: Rebrushed |

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-03-18T06:48:27.0431401Z",
+  "generatedUtc": "2026-03-23T06:58:48.993939Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -102204,6 +102204,41 @@
             "Infi Ammo",
             "Infi Healing Potion",
             "Infi Health"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA08260",
+      "version": "01.003.001",
+      "title": "Star Wars Outlaws",
+      "idLower": "ppsa08260",
+      "titleLower": "star wars outlaws",
+      "cheatsTotal": 3,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "1 Hit Kill",
+            "Infi Health \u0026 Speeder",
+            "No Reduction (Ammo, Items, Adrenaline)"
           ]
         }
       }
