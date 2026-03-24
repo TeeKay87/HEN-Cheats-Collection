@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-03-24T08:23:12.408418Z",
+  "generatedUtc": "2026-03-24T19:50:30.5588648Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -101999,7 +101999,7 @@
       "title": "Resident Evil 4",
       "idLower": "ppsa07411",
       "titleLower": "resident evil 4",
-      "cheatsTotal": 39,
+      "cheatsTotal": 38,
       "creators": [
         "Celogamez",
         "Super Death"
@@ -102016,7 +102016,7 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 18,
+          "cheatsCount": 17,
           "cheats": [
             "50,000 Shooting Range Points",
             "All Skull Emblems Hit in Shooting Range",
@@ -102029,7 +102029,6 @@
             "Island Terminal Power Skip",
             "One Hit Kill",
             "x99 Gold Tokens/ Silver Tokens",
-            "x99 Treasures",
             "{DLC - Mercenaries Mode} Infinite Timer",
             "{DLC - Seperate Ways} Anxiety Mode",
             "{DLC - Seperate Ways} God Mode",
@@ -102120,7 +102119,7 @@
       "title": "Resident Evil 4",
       "idLower": "ppsa07412",
       "titleLower": "resident evil 4",
-      "cheatsTotal": 26,
+      "cheatsTotal": 24,
       "creators": [
         "Super Death"
       ],
@@ -102135,11 +102134,10 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 13,
+          "cheatsCount": 12,
           "cheats": [
             "50,000 Shooting Range Points",
             "All Skull Emblems Hit in Shooting Range",
-            "God Mode",
             "God Mode \u002B OHK",
             "Infinite Knife Durability",
             "Infinite Money",
@@ -102154,11 +102152,10 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 13,
+          "cheatsCount": 12,
           "cheats": [
             "50,000 Shooting Range Points",
             "All Skull Emblems Hit in Shooting Range",
-            "God Mode",
             "God Mode \u002B OHK",
             "Infinite Knife Durability",
             "Infinite Money",
@@ -103183,18 +103180,25 @@
       "title": "The Last of Us: Part II Remastered",
       "idLower": "ppsa10662",
       "titleLower": "the last of us: part ii remastered",
-      "cheatsTotal": 14,
+      "cheatsTotal": 18,
       "creators": [
+        "pedrazadixon",
         "Yharnam"
       ],
       "creatorsLower": [
+        "pedrazadixon",
         "yharnam"
       ],
       "formats": {
         "json": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Inf Ammo and Items",
+            "Inf Health",
+            "Inf Weapon Durability",
+            "Invincible Mode"
+          ]
         },
         "shn": {
           "hasFile": false,

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Resident Evil 4" Moder="Super Death" Cusa="PPSA07411" Version="01.100.000" Process="eboot.bin">
   <Genres Name="Adventure" />
-  <Genres Name="Seperate Ways" />
   <Items />
   <Cheat Text="God Mode + OHK" Description="Do not use with other health/kill codes">
     <Cheatline>
@@ -306,7 +305,7 @@
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="{DLC - Mercenaries Mode} Infinite Timer" Description="Pauses the count down">
+  <Cheat Text="{DLC - Mercenaries Mode} Infinite Timer">
     <Cheatline>
       <PS5Offset>6DAE667-executable[0]-5</PS5Offset>
       <Offset>38C9999</Offset>
@@ -336,98 +335,6 @@
       <Section>0</Section>
       <ValueOn>C5-F8-57-C0-C4-C1-7A-11-47-18-E9-64-21-25-F9</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="x99 Treasures" Description="Sell any treasure">
-    <Cheatline>
-      <PS5Offset>7E8-executable[0]-5</PS5Offset>
-      <Offset>A677818</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-FE</ValueOn>
-      <ValueOff>00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <PS5Offset>7392B2F-executable[0]-5</PS5Offset>
-      <Offset>32E54D1</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-42-23-39-07-90-90</ValueOn>
-      <ValueOff>89-48-34-49-8B-46-18</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <PS5Offset>7E4-executable[0]-5</PS5Offset>
-      <Offset>A67781C</Offset>
-      <Section>0</Section>
-      <ValueOn>B9-63-00-00-00-89-48-34-49-8B-46-18-E9-AB-DC-C6-F8</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="{DLC - Seperate Ways} God Mode + OHK" Description="Seperate Ways Mode ONLY">
-    <Cheatline>
-      <PS5Offset>7FC-libc.prx[0]-5</PS5Offset>
-      <Offset>C7804</Offset>
-      <Section>7</Section>
-      <ValueOn>EB-FE</ValueOn>
-      <ValueOff>00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <PS5Offset>7E2C01A3-libc.prx[0]-5</PS5Offset>
-      <Offset>FFFFFFFF81E07E5D</Offset>
-      <Section>7</Section>
-      <ValueOn>E9-A2-F9-2B-7E-90-90</ValueOn>
-      <ValueOff>89-48-14-80-78-1B-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <PS5Offset>7F8-libc.prx[0]-5</PS5Offset>
-      <Offset>C7808</Offset>
-      <Section>7</Section>
-      <ValueOn>81-78-10-14-05-00-00-0F-84-4F-06-D4-81-81-78-10-6C-07-00-00-0F-84-42-06-D4-81-B9-01-00-00-00-89-48-14-80-78-1B-00-E9-31-06-D4-81</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="{DLC - Seperate Ways} God Mode" Description="Seperate Ways Mode ONLY - Do not use with other health/kill codes">
-    <Cheatline>
-      <PS5Offset>7F8-libc.prx[0]-5</PS5Offset>
-      <Offset>C7808</Offset>
-      <Section>7</Section>
-      <ValueOn>EB-FE</ValueOn>
-      <ValueOff>00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <PS5Offset>7E2C01A3-libc.prx[0]-5</PS5Offset>
-      <Offset>FFFFFFFF81E07E5D</Offset>
-      <Section>7</Section>
-      <ValueOn>E9-A6-F9-2B-7E-90-90</ValueOn>
-      <ValueOff>89-48-14-80-78-1B-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <PS5Offset>7F4-libc.prx[0]-5</PS5Offset>
-      <Offset>C780C</Offset>
-      <Section>7</Section>
-      <ValueOn>81-78-10-14-05-00-00-0F-84-4B-06-D4-81-81-78-10-6C-07-00-00-0F-84-3E-06-D4-81-89-48-14-80-78-1B-00-E9-32-06-D4-81</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="{DLC - Seperate Ways} One Hit Kill" Description="Seperate Ways Mode ONLY - Do not use with other health/kill codes">
-    <Cheatline>
-      <PS5Offset>7F4-libc.prx[0]-5</PS5Offset>
-      <Offset>C780C</Offset>
-      <Section>7</Section>
-      <ValueOn>EB-FE</ValueOn>
-      <ValueOff>00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <PS5Offset>7E2C01A3-libc.prx[0]-5</PS5Offset>
-      <Offset>FFFFFFFF81E07E5D</Offset>
-      <Section>7</Section>
-      <ValueOn>E9-AA-F9-2B-7E-90-90</ValueOn>
-      <ValueOff>89-48-14-80-78-1B-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <PS5Offset>7F0-libc.prx[0]-5</PS5Offset>
-      <Offset>C7810</Offset>
-      <Section>7</Section>
-      <ValueOn>81-78-10-14-05-00-00-74-1A-81-78-10-6C-07-00-00-74-11-B9-01-00-00-00-89-48-14-80-78-1B-00-E9-31-06-D4-81-89-48-14-80-78-1B-00-E9-25-06-D4-81</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

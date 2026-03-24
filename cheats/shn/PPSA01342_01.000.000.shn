@@ -24,13 +24,6 @@
       <ValueOn>81-7B-08-4E-01-10-10-0F-84-5C-F6-04-FE-81-7B-08-0D-00-10-10-0F-84-4F-F6-04-FE-81-7B-08-BC-00-10-10-0F-84-42-F6-04-FE-81-7B-08-CD-00-10-10-0F-84-35-F6-04-FE-81-7B-08-82-00-10-10-0F-84-28-F6-04-FE-81-7B-08-7E-01-10-10-0F-84-1B-F6-04-FE-44-89-B3-28-07-00-00-E9-0F-F6-04-FE</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
-    <Cheatline>
-      <PS5Offset>800-executable[0]-5</PS5Offset>
-      <Offset>23F3800</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
-    </Cheatline>
   </Cheat>
   <Cheat Text="God Mode + OHK" Description="Enable once in the map &amp; disable before fast traveling. Otherwise you will kill EVERYTHING">
     <Cheatline>
@@ -53,13 +46,6 @@
       <Section>0</Section>
       <ValueOn>81-7B-08-4E-01-10-10-0F-84-58-F6-04-FE-81-7B-08-0D-00-10-10-0F-84-4B-F6-04-FE-81-7B-08-BC-00-10-10-0F-84-3E-F6-04-FE-81-7B-08-CD-00-10-10-0F-84-31-F6-04-FE-81-7B-08-82-00-10-10-0F-84-24-F6-04-FE-81-7B-08-7E-01-10-10-0F-84-17-F6-04-FE-45-31-F6-44-89-B3-28-07-00-00-E9-08-F6-04-FE</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <PS5Offset>7FC-executable[0]-5</PS5Offset>
-      <Offset>23F3804</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="One Hit Kill" Description="Enable once in the map &amp; disable before fast traveling. Otherwise you will kill EVERYTHING">
@@ -84,13 +70,6 @@
       <ValueOn>81-7B-08-4E-01-10-10-74-3C-81-7B-08-0D-00-10-10-74-33-81-7B-08-BC-00-10-10-74-2A-81-7B-08-CD-00-10-10-74-21-81-7B-08-82-00-10-10-74-18-81-7B-08-7E-01-10-10-74-0F-45-31-F6-44-89-B3-28-07-00-00-E9-1C-F6-04-FE-44-89-B3-28-07-00-00-E9-10-F6-04-FE</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
-    <Cheatline>
-      <PS5Offset>7F8-executable[0]-5</PS5Offset>
-      <Offset>23F3808</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
-    </Cheatline>
   </Cheat>
   <Cheat Text="One Hit Kill {Player Dies In 1 Hit}" Description="Enable once in the map &amp; disable before fast traveling. Otherwise you will kill EVERYTHING">
     <Cheatline>
@@ -113,13 +92,6 @@
       <Section>0</Section>
       <ValueOn>81-7B-08-4E-01-10-10-75-3C-81-7B-08-0D-00-10-10-75-33-81-7B-08-BC-00-10-10-75-2A-81-7B-08-CD-00-10-10-75-21-81-7B-08-82-00-10-10-75-18-81-7B-08-7E-01-10-10-75-0F-45-31-F6-44-89-B3-28-07-00-00-E9-18-F6-04-FE-44-89-B3-28-07-00-00-E9-0C-F6-04-FE</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <PS5Offset>7F4-executable[0]-5</PS5Offset>
-      <Offset>23F380C</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Magic">
@@ -144,13 +116,6 @@
       <ValueOn>41-BE-F4-01-00-00-44-89-B3-30-07-00-00-E9-CD-F6-04-FE</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
-    <Cheatline>
-      <PS5Offset>7C5-executable[0]-5</PS5Offset>
-      <Offset>23F383B</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
-    </Cheatline>
   </Cheat>
   <Cheat Text="1 Billion Souls">
     <Cheatline>
@@ -174,13 +139,6 @@
       <ValueOn>B8-00-CA-9A-3B-89-87-80-00-00-00-E9-CE-F0-1D-FE</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
-    <Cheatline>
-      <PS5Offset>7F0-executable[0]-5</PS5Offset>
-      <Offset>23F3810</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
-    </Cheatline>
   </Cheat>
   <Cheat Text="x99 Items" Description="use/pick up">
     <Cheatline>
@@ -203,13 +161,6 @@
       <Section>0</Section>
       <ValueOn>B8-63-00-00-00-89-02-48-8B-0B-E9-C3-C3-1B-FE</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <PS5Offset>7DA-executable[0]-5</PS5Offset>
-      <Offset>23F3826</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Weapon/Armor Durability">

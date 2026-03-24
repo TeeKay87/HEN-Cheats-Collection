@@ -24,13 +24,6 @@
       <ValueOn>83-7B-04-00-0F-84-7A-3F-9F-FF-81-7B-38-00-00-00-3F-0F-84-6D-3F-9F-FF-31-C0-89-43-40-48-89-DF-E9-60-3F-9F-FF</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
-    <Cheatline>
-      <PS5Offset>7FC-executable[0]-5</PS5Offset>
-      <Offset>2A4F804</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
-    </Cheatline>
   </Cheat>
   <Cheat Text="God Mode ">
     <Cheatline>
@@ -63,13 +56,6 @@
       <ValueOn>83-7B-04-00-0F-84-76-3F-9F-FF-89-43-40-48-89-DF-E9-6B-3F-9F-FF</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
-    <Cheatline>
-      <PS5Offset>7F8-executable[0]-5</PS5Offset>
-      <Offset>2A4F808</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
-    </Cheatline>
   </Cheat>
   <Cheat Text="One Hit Kill">
     <Cheatline>
@@ -93,13 +79,6 @@
       <ValueOn>83-7B-04-00-74-0D-31-C0-89-43-40-48-89-DF-E9-69-3F-9F-FF-89-43-40-48-89-DF-E9-5E-3F-9F-FF</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
-    <Cheatline>
-      <PS5Offset>7F4-executable[0]-5</PS5Offset>
-      <Offset>2A4F80C</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
-    </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Ammo">
     <Cheatline>
@@ -122,13 +101,6 @@
       <Section>0</Section>
       <ValueOn>66-BA-32-00-66-41-89-95-F0-0B-00-00-E9-8C-DA-F1-FE</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <PS5Offset>7F0-executable[0]-5</PS5Offset>
-      <Offset>2A4F810</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Inf Molotov, Consumables, Health Packs, Throwables">

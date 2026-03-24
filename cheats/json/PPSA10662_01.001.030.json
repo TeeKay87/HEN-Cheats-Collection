@@ -1,0 +1,75 @@
+{
+  "name": "The Last of Us: Part II Remastered",
+  "id": "PPSA10662",
+  "version": "01.001.030",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6AABC6",
+          "on": "9090909090",
+          "off": "E8C5A40000"
+        }
+      ]
+    },
+    {
+      "name": "Invincible Mode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "25470A2",
+          "on": "4C8D8424E004000031FF31F641817D50506C61797405E904DA54FEE9FAD954FE",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "A94AB0",
+          "on": "E9ED25AB0190909090909090",
+          "off": "4C8D8424E004000031FF31F6"
+        }
+      ]
+    },
+    {
+      "name": "Inf Ammo and Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2547070",
+          "on": "0FB7C1664181FA60D17502FFC8E910AF93FE",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "E81F8D",
+          "on": "E9DE506C01",
+          "off": "0FB7C1FFC8"
+        },
+        {
+          "offset": "BC4605",
+          "on": "909090",
+          "off": "4429F8"
+        },
+        {
+          "offset": "285B6D",
+          "on": "9090909090909090",
+          "off": "6641FF8DD80A0000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Weapon Durability",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "D62EB6",
+          "on": "9090",
+          "off": "29D0"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "pedrazadixon"
+  ]
+}

@@ -51,13 +51,6 @@
       <ValueOn>8B-50-20-BA-00-E1-F5-05-89-51-48-E9-6B-CA-C5-F6</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
-    <Cheatline>
-      <PS5Offset>800-executable[0]-5</PS5Offset>
-      <Offset>118EF800</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
-    </Cheatline>
   </Cheat>
   <Cheat Text="No Skill Countdown">
     <Cheatline>
@@ -90,13 +83,6 @@
       <ValueOn>BA-E7-03-00-00-89-51-4C-49-8B-7C-24-20-E9-5F-CA-C5-F6</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
-    <Cheatline>
-      <PS5Offset>7B9-executable[0]-5</PS5Offset>
-      <Offset>118EF847</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
-    </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Items" Description="x99 Items">
     <Cheatline>
@@ -120,13 +106,6 @@
       <ValueOn>BA-63-00-00-00-89-51-1C-49-8B-7F-20-E9-2A-AF-C4-F6</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
-    <Cheatline>
-      <PS5Offset>7EA-executable[0]-5</PS5Offset>
-      <Offset>118EF816</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
-    </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Money">
     <Cheatline>
@@ -149,13 +128,6 @@
       <Section>0</Section>
       <ValueOn>48-C7-C2-00-E1-F5-05-48-89-51-20-49-8B-7F-20-E9-F6-AD-C4-F6</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <PS5Offset>7D3-executable[0]-5</PS5Offset>
-      <Offset>118EF82D</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

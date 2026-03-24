@@ -24,13 +24,6 @@
       <ValueOn>83-78-28-0E-0F-84-15-26-01-FB-C5-F0-57-C9-C5-FA-11-48-14-E9-07-26-01-FB</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
-    <Cheatline>
-      <PS5Offset>7E2-executable[0]-5</PS5Offset>
-      <Offset>9B4B81E</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
-    </Cheatline>
   </Cheat>
   <Cheat Text="Infinite HP" Description="Story Mode Only">
     <Cheatline>
@@ -54,13 +47,6 @@
       <ValueOn>83-78-28-0E-0F-84-11-26-01-FB-C5-FA-11-48-14-E9-07-26-01-FB</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
-    <Cheatline>
-      <PS5Offset>7DE-executable[0]-5</PS5Offset>
-      <Offset>9B4B822</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
-    </Cheatline>
   </Cheat>
   <Cheat Text="One Hit Kill" Description="Story Mode Only">
     <Cheatline>
@@ -83,13 +69,6 @@
       <Section>0</Section>
       <ValueOn>83-78-28-0E-74-0E-C5-F0-57-C9-C5-FA-11-48-14-E9-03-26-01-FB-C5-FA-11-48-14-E9-F9-25-01-FB</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <PS5Offset>7DA-executable[0]-5</PS5Offset>
-      <Offset>9B4B826</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Ammo" Description="Works in all modes">
@@ -130,13 +109,6 @@
       <ValueOn>BA-63-00-00-00-89-50-4C-49-8B-57-50-E9-CD-81-91-F9</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
-    <Cheatline>
-      <PS5Offset>7D6-executable[0]-5</PS5Offset>
-      <Offset>9B4B82A</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
-    </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Money" Description="Works in all modes">
     <Cheatline>
@@ -159,13 +131,6 @@
       <Section>0</Section>
       <ValueOn>B9-7F-96-98-00-41-89-4D-48-49-8B-44-24-50-E9-E7-DA-91-F9</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <PS5Offset>7D2-executable[0]-5</PS5Offset>
-      <Offset>9B4B82E</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="MERCENARIES MODE CHEATS" Description="Do not enable this. It does nothing">
@@ -199,13 +164,6 @@
       <ValueOn>83-78-28-0E-0F-84-01-26-01-FB-83-78-28-0F-0F-84-F7-25-01-FB-C5-F0-57-C9-C5-FA-11-48-14-E9-E9-25-01-FB</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
-    <Cheatline>
-      <PS5Offset>7CE-executable[0]-5</PS5Offset>
-      <Offset>9B4B832</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
-    </Cheatline>
   </Cheat>
   <Cheat Text="{Mercenaries} Infinite HP All Characters">
     <Cheatline>
@@ -229,13 +187,6 @@
       <ValueOn>83-78-28-0E-0F-84-FD-25-01-FB-83-78-28-0F-0F-84-F3-25-01-FB-C5-FA-11-48-14-E9-E9-25-01-FB</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
-    <Cheatline>
-      <PS5Offset>7CA-executable[0]-5</PS5Offset>
-      <Offset>9B4B836</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
-    </Cheatline>
   </Cheat>
   <Cheat Text="{Mercenaries} One Hit Kill All Characters">
     <Cheatline>
@@ -258,13 +209,6 @@
       <Section>0</Section>
       <ValueOn>83-78-28-0E-74-14-83-78-28-0F-74-0E-C5-F0-57-C9-C5-FA-11-48-14-E9-E9-25-01-FB-C5-FA-11-48-14-E9-DF-25-01-FB</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <PS5Offset>7C6-executable[0]-5</PS5Offset>
-      <Offset>9B4B83A</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="SHADOWS OF ROSE DLC CHEATS" Description="Do not enable this. It does nothing">
@@ -298,13 +242,6 @@
       <ValueOn>83-78-28-13-0F-84-F5-25-01-FB-C5-F0-57-C9-C5-FA-11-48-14-E9-E7-25-01-FB</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
-    <Cheatline>
-      <PS5Offset>7C2-executable[0]-5</PS5Offset>
-      <Offset>9B4B83E</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
-    </Cheatline>
   </Cheat>
   <Cheat Text="{Shadows of Rose} Infinite HP">
     <Cheatline>
@@ -328,13 +265,6 @@
       <ValueOn>83-78-28-13-0F-84-F1-25-01-FB-C5-FA-11-48-14-E9-E7-25-01-FB</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
-    <Cheatline>
-      <PS5Offset>7BE-executable[0]-5</PS5Offset>
-      <Offset>9B4B842</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
-    </Cheatline>
   </Cheat>
   <Cheat Text="{Shadows of Rose} One Hit Kill">
     <Cheatline>
@@ -357,13 +287,6 @@
       <Section>0</Section>
       <ValueOn>83-78-28-13-74-0E-C5-F0-57-C9-C5-FA-11-48-14-E9-E3-25-01-FB-C5-FA-11-48-14-E9-D9-25-01-FB</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <PS5Offset>7BA-executable[0]-5</PS5Offset>
-      <Offset>9B4B846</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

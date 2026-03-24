@@ -24,13 +24,6 @@
       <ValueOn>83-BB-44-01-00-00-18-0F-84-B8-29-F9-FB-C5-F0-57-C9-C5-FA-11-8B-A4-1D-00-00-E9-A7-29-F9-FB</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
-    <Cheatline>
-      <PS5Offset>800-executable[0]-5</PS5Offset>
-      <Offset>5AEB800</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
-    </Cheatline>
   </Cheat>
   <Cheat Text="Infinite HP">
     <Cheatline>
@@ -53,13 +46,6 @@
       <Section>0</Section>
       <ValueOn>83-BB-44-01-00-00-18-0F-84-B4-29-F9-FB-C5-FA-11-8B-A4-1D-00-00-E9-A7-29-F9-FB</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <PS5Offset>7FC-executable[0]-5</PS5Offset>
-      <Offset>5AEB804</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="One Hit Kill ">
@@ -84,13 +70,6 @@
       <ValueOn>83-BB-44-01-00-00-18-74-11-C5-F0-57-C9-C5-FA-11-8B-A4-1D-00-00-E9-A3-29-F9-FB-C5-FA-11-8B-A4-1D-00-00-E9-96-29-F9-FB</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
-    <Cheatline>
-      <PS5Offset>7F8-executable[0]-5</PS5Offset>
-      <Offset>5AEB808</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
-    </Cheatline>
   </Cheat>
   <Cheat Text="One Hit Kill (Opponent)" Description="You will die in 1 hit">
     <Cheatline>
@@ -114,13 +93,6 @@
       <ValueOn>83-BB-44-01-00-00-18-75-11-C5-F0-57-C9-C5-FA-11-8B-A4-1D-00-00-E9-9F-29-F9-FB-C5-FA-11-8B-A4-1D-00-00-E9-92-29-F9-FB</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
-    <Cheatline>
-      <PS5Offset>7F4-executable[0]-5</PS5Offset>
-      <Offset>5AEB80C</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
-    </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Skill points " Description="Maxed when gaining or using 1 skill point">
     <Cheatline>
@@ -143,13 +115,6 @@
       <Section>0</Section>
       <ValueOn>B9-06-00-00-00-89-8B-D8-1D-00-00-E9-6B-FC-F8-FB-B9-06-00-00-00-89-8B-D8-1D-00-00-E9-33-D3-F8-FB</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <PS5Offset>7F0-executable[0]-5</PS5Offset>
-      <Offset>5AEB810</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
     <Cheatline>
       <PS5Offset>7CA-executable[0]-5</PS5Offset>
@@ -187,13 +152,6 @@
       <Section>0</Section>
       <ValueOn>BE-FF-E3-0B-54-89-77-54-0F-88-55-FF-4C-FC-E9-44-FF-4C-FC</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <PS5Offset>7EC-executable[0]-5</PS5Offset>
-      <Offset>5AEB814</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>
