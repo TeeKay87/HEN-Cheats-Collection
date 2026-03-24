@@ -17,6 +17,24 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 | :----: | :---- | :---- | :---- | :---- |
+| 2026-03-24 | ADDED | PPSA01342 | 01.000.000 | Demon's Souls |
+| 2026-03-24 | ADDED | PPSA01473 | 01.000.000 | Ratchet & Clank: Rift Apart |
+| 2026-03-24 | ADDED | PPSA01473 | 01.004.001 | Ratchet & Clank: Rift Apart |
+| 2026-03-24 | ADDED | PPSA01556 | 01.001.000 | Resident Evil Village |
+| 2026-03-24 | ADDED | PPSA03396 | 01.000.000 | The Last of Us: Part I |
+| 2026-03-24 | ADDED | PPSA08666 | 01.040.000 | Final Fantasy VII Rebirth |
+| 2026-03-24 | ADDED | PPSA08710 | 01.000.000 | SILENT HILL 2 |  |
+| 2026-03-24 | ADDED | PPSA15210 | 01.000.000 | DRAGON BALL: Sparking! ZERO |
+| 2026-03-24 | ADDED | PPSA21564 | 01.007.000 | Astro Bot |
+| 2026-03-24 | ADDED | PPSA23226 | 01.000.010 | Black Myth: Wukong |
+| 2026-03-24 | ADDED | PPSA07412 | 01.000.000 | Resident Evil 4 |
+| 2026-03-24 | UPDATE | PPSA02745 | 01.000.004 | Tales of Arise |
+| 2026-03-24 | UPDATE | PPSA03952 | 01.000.004 | Resident Evil 3 |
+| 2026-03-24 | UPDATE | PPSA03977 | 04.000.000 | The Witcher 3: Wild Hunt: Complete Edition |
+| 2026-03-24 | UPDATE | PPSA04288 | 01.000.003 | Resident Evil 2 |
+| 2026-03-24 | UPDATE | PPSA07411 | 01.100.000 | Resident Evil 4 |
+| 2026-03-24 | UPDATE | PPSA07412 | 01.000.000 | Resident Evil 4 |
+| 2026-03-24 | UPDATE | PPSA09663 | 01.000.000 | Dragon's Dogma 2 |
 | 2026-03-23 | ADDED | PPSA08260 | 01.003.001 | Star Wars Outlaws |
 | 2026-03-18 | ADDED | PPSA03977 | 04.040.100 | The Witcher 3: Wild Hunt: Complete Edition |
 | 2026-03-13 | ADDED | PPSA15656 | 01.000.000 | Disney Epic Mickey: Rebrushed |

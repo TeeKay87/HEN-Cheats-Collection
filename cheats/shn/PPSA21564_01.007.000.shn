@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Astro Bot" Moder="Super Death" Cusa="PPSA21564" Version="01.007.000" Process="eboot.bin">
+  <Genres Name="Action" />
+  <Items />
+  <Cheat Text="Infinite Money">
+    <Cheatline>
+      <PS5Offset>7FC-executable[0]-5</PS5Offset>
+      <Offset>74EF804</Offset>
+      <Section>0</Section>
+      <ValueOn>EB-FA</ValueOn>
+      <ValueOff>00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <PS5Offset>1B78686-executable[0]-5</PS5Offset>
+      <Offset>597797A</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-85-7E-B7-01-90</ValueOn>
+      <ValueOff>44-01-F8-89-43-04</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <PS5Offset>7F8-executable[0]-5</PS5Offset>
+      <Offset>74EF808</Offset>
+      <Section>0</Section>
+      <ValueOn>41-BF-10-27-00-00-44-89-F8-89-43-04-E9-67-81-48-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <PS5Offset>800-executable[0]-5</PS5Offset>
+      <Offset>74EF800</Offset>
+      <Section>0</Section>
+      <ValueOn>EB-06-90</ValueOn>
+      <ValueOff>EB-FE-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+</Trainer>

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-03-23T06:58:48.993939Z",
+  "generatedUtc": "2026-03-24T08:23:12.408418Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -99434,6 +99434,46 @@
     },
     {
       "id": "PPSA01342",
+      "version": "01.000.000",
+      "title": "Demon\u0027s Souls",
+      "idLower": "ppsa01342",
+      "titleLower": "demon\u0027s souls",
+      "cheatsTotal": 8,
+      "creators": [
+        "Super Death"
+      ],
+      "creatorsLower": [
+        "super death"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": true,
+          "cheatsCount": 8,
+          "cheats": [
+            "1 Billion Souls",
+            "God Mode",
+            "God Mode \u002B OHK",
+            "Infinite Magic",
+            "Infinite Weapon/Armor Durability",
+            "One Hit Kill",
+            "One Hit Kill {Player Dies In 1 Hit}",
+            "x99 Items"
+          ]
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
+      "id": "PPSA01342",
       "version": "01.004.000",
       "title": "Demon\u0027s Souls",
       "idLower": "ppsa01342",
@@ -99563,6 +99603,128 @@
             "Infi Skill Points",
             "Max Items \u0026 Gold"
           ]
+        }
+      }
+    },
+    {
+      "id": "PPSA01473",
+      "version": "01.000.000",
+      "title": "Ratchet \u0026 Clank: Rift Apart",
+      "idLower": "ppsa01473",
+      "titleLower": "ratchet \u0026 clank: rift apart",
+      "cheatsTotal": 6,
+      "creators": [
+        "Super Death"
+      ],
+      "creatorsLower": [
+        "super death"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": true,
+          "cheatsCount": 6,
+          "cheats": [
+            "Infinite Ammo",
+            "Infinite Health",
+            "Infinite Health \u002B OHK",
+            "Infinite Raritanium",
+            "Infinite Screws",
+            "One Hit Kill"
+          ]
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
+      "id": "PPSA01473",
+      "version": "01.004.001",
+      "title": "Ratchet \u0026 Clank: Rift Apart",
+      "idLower": "ppsa01473",
+      "titleLower": "ratchet \u0026 clank: rift apart",
+      "cheatsTotal": 6,
+      "creators": [
+        "Super Death"
+      ],
+      "creatorsLower": [
+        "super death"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": true,
+          "cheatsCount": 6,
+          "cheats": [
+            "Infinite Ammo",
+            "Infinite Health",
+            "Infinite Health \u002B OHK",
+            "Infinite Raritanium",
+            "Infinite Screws",
+            "One Hit Kill"
+          ]
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
+      "id": "PPSA01556",
+      "version": "01.001.000",
+      "title": "Resident Evil Village",
+      "idLower": "ppsa01556",
+      "titleLower": "resident evil village",
+      "cheatsTotal": 14,
+      "creators": [
+        "Super Death"
+      ],
+      "creatorsLower": [
+        "super death"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": true,
+          "cheatsCount": 14,
+          "cheats": [
+            "Infinite Ammo",
+            "Infinite HP",
+            "Infinite HP \u002B OHK",
+            "Infinite Money",
+            "MERCENARIES MODE CHEATS",
+            "One Hit Kill",
+            "SHADOWS OF ROSE DLC CHEATS",
+            "x99 Crafting Materials",
+            "{Mercenaries} Infinite HP \u002B OHK All Characters",
+            "{Mercenaries} Infinite HP All Characters",
+            "{Mercenaries} One Hit Kill All Characters",
+            "{Shadows of Rose} Infinite HP",
+            "{Shadows of Rose} Infinite HP \u002B OHK",
+            "{Shadows of Rose} One Hit Kill"
+          ]
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },
@@ -100202,7 +100364,7 @@
       "title": "Tales of Arise",
       "idLower": "ppsa02745",
       "titleLower": "tales of arise",
-      "cheatsTotal": 5,
+      "cheatsTotal": 8,
       "creators": [
         "Super Death"
       ],
@@ -100217,13 +100379,16 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 5,
+          "cheatsCount": 8,
           "cheats": [
             "Infinite CP",
             "Infinite Experience",
             "Infinite Gald",
+            "Infinite Health",
+            "Infinite Health \u002B OHK",
             "Infinite Items",
-            "Infinite SP"
+            "Infinite SP",
+            "One Hit Kill"
           ]
         },
         "mc4": {
@@ -100461,11 +100626,13 @@
       "title": "The Last of Us: Part I",
       "idLower": "ppsa03396",
       "titleLower": "the last of us: part i",
-      "cheatsTotal": 4,
+      "cheatsTotal": 11,
       "creators": [
+        "Super Death",
         "Yanam Guy"
       ],
       "creatorsLower": [
+        "super death",
         "yanam guy"
       ],
       "formats": {
@@ -100475,9 +100642,17 @@
           "cheats": []
         },
         "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 7,
+          "cheats": [
+            "God Mode",
+            "Inf Molotov, Consumables, Health Packs, Throwables",
+            "Infinite Air",
+            "Infinite Ammo",
+            "Infinite Health",
+            "Infinite Health \u002B OHK",
+            "One Hit Kill"
+          ]
         },
         "mc4": {
           "hasFile": true,
@@ -100721,7 +100896,7 @@
       "title": "Resident Evil 3",
       "idLower": "ppsa03952",
       "titleLower": "resident evil 3",
-      "cheatsTotal": 28,
+      "cheatsTotal": 29,
       "creators": [
         "Celogamez",
         "Super Death"
@@ -100738,11 +100913,12 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 3,
+          "cheatsCount": 4,
           "cheats": [
             "Infinite Health",
             "Infinite Shop Points",
-            "Infinite Weapon Ammo"
+            "Infinite Weapon Ammo",
+            "One Hit Kill"
           ]
         },
         "mc4": {
@@ -100833,7 +101009,7 @@
       "title": "The Witcher 3: Wild Hunt: Complete Edition",
       "idLower": "ppsa03977",
       "titleLower": "the witcher 3: wild hunt: complete edition",
-      "cheatsTotal": 5,
+      "cheatsTotal": 4,
       "creators": [
         "Super Death"
       ],
@@ -100848,13 +101024,12 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 5,
+          "cheatsCount": 4,
           "cheats": [
             "God Mode \u002B OHK \u002B Stamina",
-            "God Mode \u002B Stamina",
             "Infinite Money",
-            "One Hit Kill",
-            "x99 Items"
+            "x99 Items",
+            "X99 Skill Points"
           ]
         },
         "mc4": {
@@ -101040,7 +101215,7 @@
       "title": "Resident Evil 2",
       "idLower": "ppsa04288",
       "titleLower": "resident evil 2",
-      "cheatsTotal": 51,
+      "cheatsTotal": 53,
       "creators": [
         "Celogamez",
         "Super Death"
@@ -101057,10 +101232,12 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 2,
+          "cheatsCount": 4,
           "cheats": [
             "Infinite Health",
-            "Infinite Weapon ammo (no reload)"
+            "Infinite Weapon ammo (no reload)",
+            "No Recoil/Perfect Aim",
+            "One Hit Kill"
           ]
         },
         "mc4": {
@@ -101822,7 +101999,7 @@
       "title": "Resident Evil 4",
       "idLower": "ppsa07411",
       "titleLower": "resident evil 4",
-      "cheatsTotal": 43,
+      "cheatsTotal": 39,
       "creators": [
         "Celogamez",
         "Super Death"
@@ -101839,11 +102016,10 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 22,
+          "cheatsCount": 18,
           "cheats": [
             "50,000 Shooting Range Points",
             "All Skull Emblems Hit in Shooting Range",
-            "God Mode",
             "God Mode \u002B OHK",
             "Infinite Knife Durability",
             "Infinite Money",
@@ -101859,9 +102035,6 @@
             "{DLC - Seperate Ways} God Mode",
             "{DLC - Seperate Ways} God Mode \u002B OHK",
             "{DLC - Seperate Ways} One Hit Kill",
-            "{DLC - The Mercenaries} All characters God Mode",
-            "{DLC - The Mercenaries} All characters God Mode \u002B OHK",
-            "{DLC - The Mercenaries} All characters One Hit Kill",
             "{DLC - The Mercenaries} End Mercenaries Mode"
           ]
         },
@@ -101947,7 +102120,7 @@
       "title": "Resident Evil 4",
       "idLower": "ppsa07412",
       "titleLower": "resident evil 4",
-      "cheatsTotal": 13,
+      "cheatsTotal": 26,
       "creators": [
         "Super Death"
       ],
@@ -101980,9 +102153,23 @@
           ]
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 13,
+          "cheats": [
+            "50,000 Shooting Range Points",
+            "All Skull Emblems Hit in Shooting Range",
+            "God Mode",
+            "God Mode \u002B OHK",
+            "Infinite Knife Durability",
+            "Infinite Money",
+            "Infinite Shop Points",
+            "Infinite Spinels",
+            "Infinite Weapon Ammo",
+            "Island Terminal Power Skip",
+            "One Hit Kill",
+            "x99 Gems",
+            "x99 Gold Tokens/ Silver Tokens"
+          ]
         }
       }
     },
@@ -102424,6 +102611,64 @@
       }
     },
     {
+      "id": "PPSA08666",
+      "version": "01.040.000",
+      "title": "Final Fantasy VII Rebirth",
+      "idLower": "ppsa08666",
+      "titleLower": "final fantasy vii rebirth",
+      "cheatsTotal": 26,
+      "creators": [
+        "Super Death"
+      ],
+      "creatorsLower": [
+        "super death"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": true,
+          "cheatsCount": 26,
+          "cheats": [
+            "Barret Instant Overcharge",
+            "Costa Del Sol: Pirate Rampage",
+            "Crunch Off Winner",
+            "Fort Condor Mini Game - Max ATB",
+            "God Mode",
+            "Gold Saucer Points (Read Description)",
+            "Infinite MP",
+            "Instant Full Limit",
+            "Instant Stagger",
+            "Instant Summon",
+            "Item Transumter Max Level",
+            "Max All Character Levels",
+            "Max All Equipped Materias Levels",
+            "Max ATB Gauge",
+            "Max Currencies (Read Description)",
+            "Max Party Level",
+            "Nanaki Instant Vengance Mode",
+            "One Hit Kill",
+            "[3D BRAWLER] Instant Full Limit",
+            "[3D BRAWLER] Max ATB Gauge",
+            "[Desert Rush] 1 Million Points",
+            "[GALACTIC SAVIORS] 1 Million Points",
+            "[GALACTIC SAVIORS] Infinite Proton Bomb",
+            "[GALACTIC SAVIORS] Infinite Ship Health",
+            "[Glide De Chocobo] 1 Million Points",
+            "{MINI GAMES HELPER}"
+          ]
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
       "id": "PPSA08709",
       "version": "01.000.000",
       "title": "SILENT HILL 2",
@@ -102466,11 +102711,13 @@
       "title": "SILENT HILL 2",
       "idLower": "ppsa08710",
       "titleLower": "silent hill 2",
-      "cheatsTotal": 5,
+      "cheatsTotal": 8,
       "creators": [
+        "Super Death",
         "Yharnam"
       ],
       "creatorsLower": [
+        "super death",
         "yharnam"
       ],
       "formats": {
@@ -102480,9 +102727,13 @@
           "cheats": []
         },
         "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Infinite Health",
+            "Infinite Items and Ammo",
+            "One Hit Kill"
+          ]
         },
         "mc4": {
           "hasFile": true,
@@ -102594,7 +102845,7 @@
       "title": "Dragon\u0027s Dogma 2",
       "idLower": "ppsa09663",
       "titleLower": "dragon\u0027s dogma 2",
-      "cheatsTotal": 17,
+      "cheatsTotal": 20,
       "creators": [
         "Celogamez",
         "Super Death",
@@ -102617,15 +102868,18 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 7,
+          "cheatsCount": 10,
           "cheats": [
             "50,000,000 XP",
+            "Chaos Mode (Unmoored World)",
             "God Mode",
             "God Mode \u002B OHK",
+            "God Mode \u002B OHK (Unmoored World)",
             "Infinite Items",
             "Infinite Money",
             "Infinite Stamina",
-            "One Hit Kill"
+            "One Hit Kill (Player Character)",
+            "One Hit Kill (Player Character) (Unmoored World)"
           ]
         },
         "mc4": {
@@ -103227,11 +103481,13 @@
       "title": "DRAGON BALL: Sparking! ZERO",
       "idLower": "ppsa15210",
       "titleLower": "dragon ball: sparking! zero",
-      "cheatsTotal": 4,
+      "cheatsTotal": 10,
       "creators": [
+        "Super Death",
         "Yharnam"
       ],
       "creatorsLower": [
+        "super death",
         "yharnam"
       ],
       "formats": {
@@ -103241,9 +103497,16 @@
           "cheats": []
         },
         "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 6,
+          "cheats": [
+            "Infinite HP",
+            "Infinite HP \u002B OHK",
+            "Infinite Skill points",
+            "Infinite Zeni",
+            "One Hit Kill",
+            "One Hit Kill (Opponent)"
+          ]
         },
         "mc4": {
           "hasFile": true,
@@ -103581,13 +103844,15 @@
       "title": "Astro Bot",
       "idLower": "ppsa21564",
       "titleLower": "astro bot",
-      "cheatsTotal": 4,
+      "cheatsTotal": 5,
       "creators": [
         "Celogamez",
+        "Super Death",
         "Talixme"
       ],
       "creatorsLower": [
         "celogamez",
+        "super death",
         "talixme"
       ],
       "formats": {
@@ -103600,9 +103865,11 @@
           ]
         },
         "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 1,
+          "cheats": [
+            "Infinite Money"
+          ]
         },
         "mc4": {
           "hasFile": true,
@@ -103620,12 +103887,14 @@
       "title": "Black Myth: Wukong",
       "idLower": "ppsa23226",
       "titleLower": "black myth: wukong",
-      "cheatsTotal": 13,
+      "cheatsTotal": 21,
       "creators": [
+        "Super Death",
         "Talixme",
         "Yharnam"
       ],
       "creatorsLower": [
+        "super death",
         "talixme",
         "yharnam"
       ],
@@ -103641,9 +103910,18 @@
           ]
         },
         "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 8,
+          "cheats": [
+            "God Mode",
+            "Infinite Items",
+            "Infinite Magic",
+            "Infinite Money",
+            "Infinite Sparks",
+            "Infinite Stamina",
+            "Infinite XP",
+            "No Skill Countdown"
+          ]
         },
         "mc4": {
           "hasFile": true,

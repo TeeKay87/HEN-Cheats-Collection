@@ -20,4 +20,29 @@
       <ValueOff>E8-65-CB-2E-00</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="One Hit Kill" Description="Make sure to turn on Infinite Health if you use this cheat">
+    <Cheatline>
+      <PS5Offset>800-executable[0]-5</PS5Offset>
+      <Offset>5A7F800</Offset>
+      <Section>0</Section>
+      <ValueOn>89-46-58-31-C0-89-46-58-C3-CC-E9-9D-68-8C-FB</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <PS5Offset>4739F59-executable[0]-5</PS5Offset>
+      <Offset>13460A7</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-54-97-73-04</ValueOn>
+      <ValueOff>89-46-58-C3-CC</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="No Recoil/Perfect Aim">
+    <Cheatline>
+      <PS5Offset>45E842C-executable[0]-5</PS5Offset>
+      <Offset>1497BD4</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90</ValueOn>
+      <ValueOff>E9-09-01-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
 </Trainer>

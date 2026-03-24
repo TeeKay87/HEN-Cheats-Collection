@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="SILENT HILL 2" Moder="Super Death" Cusa="PPSA08710" Version="01.000.000" Process="eboot.bin">
+  <Genres Name="Action" />
+  <Items />
+  <Cheat Text="Infinite Health ">
+    <Cheatline>
+      <PS5Offset>362405E-executable[0]-5</PS5Offset>
+      <Offset>213BFA2</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-83-F8-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="One Hit Kill">
+    <Cheatline>
+      <PS5Offset>800-executable[0]-5</PS5Offset>
+      <Offset>575F800</Offset>
+      <Section>0</Section>
+      <ValueOn>EB-FE</ValueOn>
+      <ValueOff>00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <PS5Offset>4DD2DC2-executable[0]-5</PS5Offset>
+      <Offset>98D23E</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-BD-25-DD-04-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-8B-CC-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <PS5Offset>7FC-executable[0]-5</PS5Offset>
+      <Offset>575F804</Offset>
+      <Section>0</Section>
+      <ValueOn>C5-F0-57-C9-C5-FA-11-8B-CC-00-00-00-E9-31-DA-22-FB</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <PS5Offset>800-executable[0]-5</PS5Offset>
+      <Offset>575F800</Offset>
+      <Section>0</Section>
+      <ValueOn>EB-02-90</ValueOn>
+      <ValueOff>EB-FE-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Items and Ammo" Description="x99 consumables on use">
+    <Cheatline>
+      <PS5Offset>7E9-executable[0]-5</PS5Offset>
+      <Offset>575F817</Offset>
+      <Section>0</Section>
+      <ValueOn>EB-FE</ValueOn>
+      <ValueOff>00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <PS5Offset>35EC746-executable[0]-5</PS5Offset>
+      <Offset>21738BA</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-58-BF-5E-03-90</ValueOn>
+      <ValueOff>89-74-08-08-74-06</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <PS5Offset>7E5-executable[0]-5</PS5Offset>
+      <Offset>575F81B</Offset>
+      <Section>0</Section>
+      <ValueOn>BE-63-00-00-00-89-74-08-08-0F-84-9C-40-A1-FC-E9-91-40-A1-FC</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <PS5Offset>7E9-executable[0]-5</PS5Offset>
+      <Offset>575F817</Offset>
+      <Section>0</Section>
+      <ValueOn>EB-02-90</ValueOn>
+      <ValueOff>EB-FE-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+</Trainer>
