@@ -17,6 +17,7 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 | :----: | :---- | :---- | :---- | :---- |
+| 2026-03-24 | UPDATE | PPSA03977 | 04.040.100 | The Witcher 3: Wild Hunt: Complete Edition |
 | 2026-03-24 | ADDED | PPSA01342 | 01.000.000 | Demon's Souls |
 | 2026-03-24 | ADDED | PPSA01473 | 01.000.000 | Ratchet & Clank: Rift Apart |
 | 2026-03-24 | ADDED | PPSA01473 | 01.004.001 | Ratchet & Clank: Rift Apart |
