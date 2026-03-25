@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-03-24T21:36:07.8254652Z",
+  "generatedUtc": "2026-03-25T09:05:16.7104992Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -101047,10 +101047,12 @@
       "titleLower": "the witcher 3: wild hunt: complete edition",
       "cheatsTotal": 16,
       "creators": [
-        "Celogamez"
+        "Celogamez",
+		"Yharnam"
       ],
       "creatorsLower": [
-        "celogamez"
+        "celogamez",
+		"yharnam"
       ],
       "formats": {
         "json": {
@@ -103765,6 +103767,41 @@
             "Max Money",
             "Max Player Stats",
             "Run Speed x3"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA17599",
+      "version": "01.400.000",
+      "title": "Clair Obscur: Expedition 33",
+      "idLower": "ppsa17599",
+      "titleLower": "clair obscur: expedition 33",
+      "cheatsTotal": 3,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Exp Max (Applied After the 2nd Battle)",
+            "Master Code (Must be Activated First)",
+            "Max Money"
           ]
         }
       }
