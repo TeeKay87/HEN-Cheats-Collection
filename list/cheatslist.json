@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-03-25T09:05:16.7104992Z",
+  "generatedUtc": "2026-03-25T16:27:03.5432271Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -101047,12 +101047,10 @@
       "titleLower": "the witcher 3: wild hunt: complete edition",
       "cheatsTotal": 16,
       "creators": [
-        "Celogamez",
-		"Yharnam"
+        "Celogamez"
       ],
       "creatorsLower": [
-        "celogamez",
-		"yharnam"
+        "celogamez"
       ],
       "formats": {
         "json": {
@@ -103777,7 +103775,7 @@
       "title": "Clair Obscur: Expedition 33",
       "idLower": "ppsa17599",
       "titleLower": "clair obscur: expedition 33",
-      "cheatsTotal": 3,
+      "cheatsTotal": 4,
       "creators": [
         "Yharnam"
       ],
@@ -103797,8 +103795,9 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 3,
+          "cheatsCount": 4,
           "cheats": [
+            "All Stat 99 (Upgrade Only 1 Stat)",
             "Exp Max (Applied After the 2nd Battle)",
             "Master Code (Must be Activated First)",
             "Max Money"
