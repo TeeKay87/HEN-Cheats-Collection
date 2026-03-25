@@ -6,7 +6,7 @@
 **`IMPORTANT!` Restart and re-jb the PlayStation. Enjoy your brand new cheats**.
 
 ## Find compatible cheats
-Follow this link to [**OPEN THE HEN CHEATS COLLECTIONS PAGE**](https://raw.githack.com/TeeKay87/HEN-Cheats-Collection/master/list/index.html).
+Follow this link to [**OPEN THE HEN CHEATS COLLECTIONS PAGE**](https://hencheats.vercel.app/).
 This is an interactive index of all the cheats in my collection.
 Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filter the list to only show those games.
 
