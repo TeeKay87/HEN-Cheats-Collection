@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-03-25T16:27:03.5432271Z",
+  "generatedUtc": "2026-03-26T12:17:26.3256892Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -103775,7 +103775,7 @@
       "title": "Clair Obscur: Expedition 33",
       "idLower": "ppsa17599",
       "titleLower": "clair obscur: expedition 33",
-      "cheatsTotal": 4,
+      "cheatsTotal": 6,
       "creators": [
         "Yharnam"
       ],
@@ -103795,10 +103795,12 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 4,
+          "cheatsCount": 6,
           "cheats": [
+            "1 Hit Kill",
             "All Stat 99 (Upgrade Only 1 Stat)",
             "Exp Max (Applied After the 2nd Battle)",
+            "Infi Health",
             "Master Code (Must be Activated First)",
             "Max Money"
           ]
