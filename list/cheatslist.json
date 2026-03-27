@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-03-26T12:17:26.3256892Z",
+  "generatedUtc": "2026-03-27T08:45:37.6180336Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -102404,7 +102404,7 @@
       "title": "Star Wars Outlaws",
       "idLower": "ppsa08260",
       "titleLower": "star wars outlaws",
-      "cheatsTotal": 3,
+      "cheatsTotal": 4,
       "creators": [
         "Yharnam"
       ],
@@ -102424,11 +102424,12 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 3,
+          "cheatsCount": 4,
           "cheats": [
             "1 Hit Kill",
-            "Infi Health \u0026 Speeder",
-            "No Reduction (Ammo, Items, Adrenaline)"
+            "Infi Health \u0026 Speeder \u0026 Spaceship",
+            "No Reduction (Ammo, Items, Adrenaline)",
+            "No Weapon Overheating (No Reload)"
           ]
         }
       }
@@ -103775,7 +103776,7 @@
       "title": "Clair Obscur: Expedition 33",
       "idLower": "ppsa17599",
       "titleLower": "clair obscur: expedition 33",
-      "cheatsTotal": 6,
+      "cheatsTotal": 7,
       "creators": [
         "Yharnam"
       ],
@@ -103795,12 +103796,13 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 6,
+          "cheatsCount": 7,
           "cheats": [
             "1 Hit Kill",
             "All Stat 99 (Upgrade Only 1 Stat)",
             "Exp Max (Applied After the 2nd Battle)",
             "Infi Health",
+            "Infi Stat Resets",
             "Master Code (Must be Activated First)",
             "Max Money"
           ]
