@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-03-27T08:45:37.6180336Z",
+  "generatedUtc": "2026-03-28T14:09:58.1485354Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -103766,6 +103766,40 @@
             "Max Money",
             "Max Player Stats",
             "Run Speed x3"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA16388",
+      "version": "01.017.000",
+      "title": "Hitman: World of Assassination",
+      "idLower": "ppsa16388",
+      "titleLower": "hitman: world of assassination",
+      "cheatsTotal": 2,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Infi Ammo",
+            "Infi Health"
           ]
         }
       }

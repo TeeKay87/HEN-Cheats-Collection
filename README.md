@@ -17,6 +17,7 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 | :----: | :---- | :---- | :---- | :---- |
+| 2026-03-28 | ADDED | PPSA16388 | 01.017.000 | Hitman: World of Assassination |
 | 2026-03-27 | UPDATE | PPSA08260 | 01.003.001 | Star Wars Outlaws |
 | 2026-03-27 | UPDATE | PPSA17599 | 01.400.000 | Clair Obscur: Expedition 33 |
 | 2026-03-25 | ADDED | PPSA17599 | 01.400.000 | Clair Obscur: Expedition 33 |
