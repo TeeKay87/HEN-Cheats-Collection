@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-03-28T14:09:58.1485354Z",
+  "generatedUtc": "2026-03-30T11:42:12.8020518Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -103918,6 +103918,45 @@
             "Max Medal",
             "Max Money",
             "Walking Speed x 2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA21159",
+      "version": "01.001.000",
+      "title": "Silent Hill f",
+      "idLower": "ppsa21159",
+      "titleLower": "silent hill f",
+      "cheatsTotal": 7,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 7,
+          "cheats": [
+            "Infi Health",
+            "Infi Items (99 When Used)",
+            "Infi Mental Strength",
+            "Infi Stamina (Attack and Dodge)",
+            "Infi Weapon Durability",
+            "Instant Concentration",
+            "Max Merit (Money)"
           ]
         }
       }
