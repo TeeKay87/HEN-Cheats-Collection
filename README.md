@@ -16,6 +16,8 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 
 ## Version History
 | Date | Status | ID | Version | Title |
+| 2026-04-03 | ADDED | PPSA01576 | 01.011.000 | Avatar: Frontiers of Pandora |
+| 2026-04-03 | UPDATE | PPSA21159 | 01.001.000 | SILENT HILL f |
 | :----: | :---- | :---- | :---- | :---- |
 | 2026-03-30 | ADDED | PPSA21159 | 01.001.000 | Silent Hill f |
 | 2026-03-28 | ADDED | PPSA16388 | 01.017.000 | Hitman: World of Assassination |

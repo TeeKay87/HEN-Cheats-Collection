@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-03-31T16:34:16.5860007Z",
+  "generatedUtc": "2026-04-03T20:38:07.0587596Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -99782,6 +99782,43 @@
       }
     },
     {
+      "id": "PPSA01576",
+      "version": "01.011.000",
+      "title": "Avatar: Frontiers of Pandora",
+      "idLower": "ppsa01576",
+      "titleLower": "avatar: frontiers of pandora",
+      "cheatsTotal": 5,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "1 Hit Kill",
+            "Infi Ammo",
+            "Infi Health",
+            "Infi Money, Skill Points, Ammo Ingredients (When Using)",
+            "Infi Stamina (Player \u0026 Ikran)"
+          ]
+        }
+      }
+    },
+    {
       "id": "PPSA01593",
       "version": "01.000.010",
       "title": "Hogwarts Legacy",
@@ -103928,12 +103965,12 @@
       "title": "SILENT HILL f",
       "idLower": "ppsa21159",
       "titleLower": "silent hill f",
-      "cheatsTotal": 9,
+      "cheatsTotal": 10,
       "creators": [
-        "Yharnam"
+        "Celogamez"
       ],
       "creatorsLower": [
-        "yharnam"
+        "celogamez"
       ],
       "formats": {
         "json": {
@@ -103948,17 +103985,18 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 9,
+          "cheatsCount": 10,
           "cheats": [
             "1 Hit Kill",
-            "Infi Health",
+            "God Mode",
             "Infi Items (99 When Used)",
-            "Infi Mental Strength",
-            "Infi Stamina (Attack and Dodge)",
-            "Infi Weapon Durability",
+            "Infinite Consumables",
+            "Infinite Sanity",
+            "Infinite Stamina",
+            "Infinite Weapons Durability",
             "Instant Awakening Gauge",
-            "Instant Concentration",
-            "Max Merit (Money)"
+            "Max Focus",
+            "Max/Infinite Faith"
           ]
         }
       }
