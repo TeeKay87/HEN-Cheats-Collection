@@ -17,7 +17,7 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
-| 2026-05-30 | ADDED | PPSA08236 | 01.006.004 | [Immortals of Aveum](https://hencheats.vercel.app/#PPSA08237-01.006.004) |
+| 2026-05-30 | ADDED | PPSA08236 | 01.006.004 | [Immortals of Aveum](https://hencheats.vercel.app/#PPSA08236-01.006.004) |
 | 2026-05-27 | ADDED | PPSA25286 | 01.000.151 | Crimson Desert |
 | 2026-05-26 | ADDED | CUSA00265 | 02.35 | Minecraft: PlayStation 4 Edition |
 | 2026-05-26 | ADDED | CUSA00283 | 01.95 | Minecraft: PlayStation 4 Edition |
