@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-05-26T23:43:50.0114181Z",
+  "generatedUtc": "2026-05-30T18:07:22.0296433Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -102978,6 +102978,44 @@
           "cheats": [
             "Infi Ammo",
             "Infi Health"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA08236",
+      "version": "01.006.004",
+      "title": "Immortals of Aveum",
+      "idLower": "ppsa08236",
+      "titleLower": "immortals of aveum",
+      "cheatsTotal": 6,
+      "creators": [
+        "Aigars Uze"
+      ],
+      "creatorsLower": [
+        "aigars uze"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 6,
+          "cheats": [
+            "God mode 1",
+            "God mode 2",
+            "God mode 3",
+            "Infinite Ammo Spells no Reload",
+            "Infinite Gold use only when buying something",
+            "Infinite Health Crystals and Ascension Points"
           ]
         }
       }
