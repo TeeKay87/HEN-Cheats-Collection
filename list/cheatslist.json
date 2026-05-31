@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-05-30T18:07:22.0296433Z",
+  "generatedUtc": "2026-05-31T18:07:18.1208411Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -105478,6 +105478,40 @@
             "Inf Ammo",
             "Inf Health",
             "Max Exp"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA28336",
+      "version": "01.009.000",
+      "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+      "idLower": "ppsa28336",
+      "titleLower": "s.t.a.l.k.e.r. 2: heart of chornobyl",
+      "cheatsTotal": 2,
+      "creators": [
+        "Aigars Uze"
+      ],
+      "creatorsLower": [
+        "aigars uze"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Infinite Ammo (No Reload)",
+            "Infinite Items (Medkits, Ammo, Cossacks Vodka, Water, Bandages)"
           ]
         }
       }
