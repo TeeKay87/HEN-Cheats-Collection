@@ -46,7 +46,7 @@ const HASH_SEPARATOR = '-';
 const COVERART_SIZE = '384';
 const COVERART_SUFFIX = '?w=' + COVERART_SIZE + '&thumb=false';
 const COVERART_SUFFIX_HERO = '?w=1024&thumb=false';
-const COVERART_FALLBACK = 'https://img.icons8.com/3d-fluency/1200/playstation.jpg';
+const COVERART_FALLBACK = 'https://upload.wikimedia.org/wikipedia/commons/9/99/Playstation_logo_colour2.svg';
 const MINIMUM_CHARS_FOR_SEARCH = 2;
 
 const RENDER_BATCH_SIZE = 60;
