@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-05-31T18:07:18.1208411Z",
+  "generatedUtc": "2026-06-01T01:28:35.5097051Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -105443,6 +105443,47 @@
             "Infi Health",
             "Infi Money \u0026 Points (Get)",
             "Infi Stamina"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA28180",
+      "version": "01.036.178",
+      "title": "DAYS GONE",
+      "idLower": "ppsa28180",
+      "titleLower": "days gone",
+      "cheatsTotal": 9,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 9,
+          "cheats": [
+            "1 Hit Kill",
+            "Infi Ammo",
+            "Infi Bike Durability",
+            "Infi Fuel",
+            "Infi Health",
+            "Infi Nitrous",
+            "Infi Stamina",
+            "Infi Throwables",
+            "Skill Point 9999"
           ]
         }
       }
