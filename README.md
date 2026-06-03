@@ -17,6 +17,8 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-06-03 | UPDATE | PPSA02530 | 01.200.000 | [Pragmata](https://hencheats.vercel.app/#PPSA02530-01.200.000) |
+| 2026-06-03 | UPDATE | PPSA28336 | 01.009.000 | [S.T.A.L.K.E.R. 2: Heart of Chornobyl](https://hencheats.vercel.app/#PPSA28336-01.009.000) |
 | 2026-06-01 | ADDED | PPSA28180 | 01.036.178 | [Days Gone: Remastered](https://hencheats.vercel.app/#PPSA28180-01.036.178) |
 | **---** | | | | |
 | 2026-05-31 | ADDED | PPSA28336 | 01.009.000 | [S.T.A.L.K.E.R. 2: Heart of Chornobyl](https://hencheats.vercel.app/#PPSA28336-01.009.000) |

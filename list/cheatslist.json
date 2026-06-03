@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-06-01T01:28:35.5097051Z",
+  "generatedUtc": "2026-06-03T00:40:07.207478Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -100752,12 +100752,12 @@
       "title": "Pragmata",
       "idLower": "ppsa02530",
       "titleLower": "pragmata",
-      "cheatsTotal": 2,
+      "cheatsTotal": 8,
       "creators": [
-        "Aigars Uze"
+        "Yharnam"
       ],
       "creatorsLower": [
-        "aigars uze"
+        "yharnam"
       ],
       "formats": {
         "json": {
@@ -100772,10 +100772,16 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 2,
+          "cheatsCount": 8,
           "cheats": [
-            "Infinite Health",
-            "Unlimited Hover"
+            "1 Hit Kill",
+            "All Max Items (On Get)",
+            "Infi Ammo",
+            "Infi Cleanse",
+            "Infi Health",
+            "Infi Hover",
+            "No Reload",
+            "Untouchable"
           ]
         }
       }
@@ -105452,7 +105458,7 @@
       "version": "01.036.178",
       "title": "Days Gone: Remastered",
       "idLower": "ppsa28180",
-      "titleLower": "days gone",
+      "titleLower": "days gone: remastered",
       "cheatsTotal": 9,
       "creators": [
         "Yharnam"
@@ -105529,7 +105535,7 @@
       "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
       "idLower": "ppsa28336",
       "titleLower": "s.t.a.l.k.e.r. 2: heart of chornobyl",
-      "cheatsTotal": 2,
+      "cheatsTotal": 4,
       "creators": [
         "Aigars Uze"
       ],
@@ -105549,10 +105555,12 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 2,
+          "cheatsCount": 4,
           "cheats": [
             "Infinite Ammo (No Reload)",
-            "Infinite Items (Medkits, Ammo, Cossacks Vodka, Water, Bandages)"
+            "Infinite Health",
+            "Infinite Items (Medkits, Ammo, Cossacks Vodka, Water, Bandages)",
+            "Infinite Stamina"
           ]
         }
       }
