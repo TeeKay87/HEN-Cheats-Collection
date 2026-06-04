@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-06-03T00:40:07.207478Z",
+  "generatedUtc": "2026-06-04T12:23:42.1868914Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -102846,12 +102846,12 @@
       "title": "SAROS",
       "idLower": "ppsa07631",
       "titleLower": "saros",
-      "cheatsTotal": 4,
+      "cheatsTotal": 7,
       "creators": [
-        "Aigars Uze"
+        "Yharnam"
       ],
       "creatorsLower": [
-        "aigars uze"
+        "yharnam"
       ],
       "formats": {
         "json": {
@@ -102866,12 +102866,15 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 4,
+          "cheatsCount": 7,
           "cheats": [
-            "Add Lucenite 999999 on pick up",
-            "Infinite Ammo",
-            "Infinite Health",
-            "Infinite Shield"
+            "1 Hit Kill",
+            "God Mode",
+            "Infi Ammo",
+            "Infi Health",
+            "Infi Shield",
+            "Max Keys (On Get)",
+            "Max Lucenite \u0026 Halcyon (On Get)"
           ]
         }
       }
