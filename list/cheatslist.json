@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-06-04T12:23:42.1868914Z",
+  "generatedUtc": "2026-06-05T23:24:25.7972339Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -104767,6 +104767,41 @@
       }
     },
     {
+      "id": "PPSA17322",
+      "version": "01.006.000",
+      "title": "Tormented Souls 2",
+      "idLower": "ppsa17322",
+      "titleLower": "tormented souls 2",
+      "cheatsTotal": 3,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "God Mode",
+            "Infi Ammo",
+            "Infi Items"
+          ]
+        }
+      }
+    },
+    {
       "id": "PPSA17599",
       "version": "01.400.000",
       "title": "Clair Obscur: Expedition 33",
@@ -105563,6 +105598,42 @@
             "Infinite Ammo (No Reload)",
             "Infinite Health",
             "Infinite Items (Medkits, Ammo, Cossacks Vodka, Water, Bandages)",
+            "Infinite Stamina"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA30528",
+      "version": "01.002.000",
+      "title": "Red Dead Redemption",
+      "idLower": "ppsa30528",
+      "titleLower": "red dead redemption",
+      "cheatsTotal": 4,
+      "creators": [
+        "Aigars Uze"
+      ],
+      "creatorsLower": [
+        "aigars uze"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Infinite Ammo (No Reload)",
+            "Infinite Dead Eye",
+            "Infinite Health",
             "Infinite Stamina"
           ]
         }
