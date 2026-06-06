@@ -17,6 +17,7 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-06-07 | UPDATE | PPSA25286 | 01.000.151 | [Crimson Desert](https://hencheats.vercel.app/#PPSA25286-01.000.151) |
 | 2026-06-04 | UPDATE | PPSA02530 | 01.200.000 | [Pragmata](https://hencheats.vercel.app/#PPSA02530-01.200.000) |
 | 2026-06-04 | UPDATE | PPSA07631 | 01.000.000 | [SAROS](https://hencheats.vercel.app/#PPSA07631-01.000.000) |
 | 2026-06-03 | UPDATE | PPSA02530 | 01.200.000 | [Pragmata](https://hencheats.vercel.app/#PPSA02530-01.200.000) |
