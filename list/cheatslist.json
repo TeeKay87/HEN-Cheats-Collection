@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-06-06T22:52:31.332746Z",
+  "generatedUtc": "2026-06-09T09:09:04.7567596Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -102846,12 +102846,12 @@
       "title": "SAROS",
       "idLower": "ppsa07631",
       "titleLower": "saros",
-      "cheatsTotal": 7,
+      "cheatsTotal": 14,
       "creators": [
-        "Yharnam"
+        "Celogamez"
       ],
       "creatorsLower": [
-        "yharnam"
+        "celogamez"
       ],
       "formats": {
         "json": {
@@ -102866,15 +102866,22 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 7,
+          "cheatsCount": 14,
           "cheats": [
             "1 Hit Kill",
             "God Mode",
             "Infi Ammo",
             "Infi Health",
             "Infi Shield",
+            "Infinite Health",
+            "Infinite Jumps",
+            "Infinite Overdrive",
+            "Infinite Power",
             "Max Keys (On Get)",
-            "Max Lucenite \u0026 Halcyon (On Get)"
+            "Max Lucenite \u0026 Halcyon (On Get)",
+            "Max Lucenite/Keys/Halcyon",
+            "No Dash Cooldown",
+            "No Reload"
           ]
         }
       }
