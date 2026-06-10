@@ -17,6 +17,9 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-06-10 | ADDED | PPSA03016 | 01.004.003 | [Marvel’s Spider-Man 2](https://hencheats.vercel.app/#PPSA03016-01.004.003) |
+| 2026-06-10 | ADDED | PPSA13195 | 01.014.001 | [Stellar Blade](https://hencheats.vercel.app/#PPSA13195-01.014.001) |
+| 2026-06-10 | ADDED | PPSA15186 | 01.000.003 | [Vampire: The Masquerade® - Bloodlines™ 2](https://hencheats.vercel.app/#PPSA15186-01.000.003) |
 | 2026-06-07 | UPDATE | PPSA25286 | 01.000.151 | [Crimson Desert](https://hencheats.vercel.app/#PPSA25286-01.000.151) |
 | 2026-06-04 | UPDATE | PPSA02530 | 01.200.000 | [Pragmata](https://hencheats.vercel.app/#PPSA02530-01.200.000) |
 | 2026-06-04 | UPDATE | PPSA07631 | 01.000.000 | [SAROS](https://hencheats.vercel.app/#PPSA07631-01.000.000) |

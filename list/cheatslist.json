@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-06-09T09:09:04.7567596Z",
+  "generatedUtc": "2026-06-10T21:19:01.9464736Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -100975,6 +100975,43 @@
       }
     },
     {
+      "id": "PPSA03016",
+      "version": "01.004.003",
+      "title": "Marvel\u2019s Spider-Man 2",
+      "idLower": "ppsa03016",
+      "titleLower": "marvel\u2019s spider-man 2",
+      "cheatsTotal": 5,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "Infi Health",
+            "Infi WebShooter",
+            "Max Skill Points (On Use)",
+            "Unlimited Skill Usage",
+            "Untouchable"
+          ]
+        }
+      }
+    },
+    {
       "id": "PPSA03098",
       "version": "01.000.000",
       "title": "Dead Island 2",
@@ -104197,6 +104234,46 @@
       }
     },
     {
+      "id": "PPSA13195",
+      "version": "01.014.001",
+      "title": "Stellar Blade",
+      "idLower": "ppsa13195",
+      "titleLower": "stellar blade",
+      "cheatsTotal": 8,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 8,
+          "cheats": [
+            "1 Hit Kill",
+            "Infi Beta Energy",
+            "Infi Combat Consumables",
+            "Infi Health",
+            "Infi Shield",
+            "Max Money",
+            "Max Skill Points (on use)",
+            "Untouchable"
+          ]
+        }
+      }
+    },
+    {
       "id": "PPSA13526",
       "version": "01.000.001",
       "title": "Gylt",
@@ -104412,6 +104489,40 @@
           "hasFile": false,
           "cheatsCount": 0,
           "cheats": []
+        }
+      }
+    },
+    {
+      "id": "PPSA15186",
+      "version": "01.000.003",
+      "title": "Vampire: The Masquerade\u00AE - Bloodlines\u2122 2",
+      "idLower": "ppsa15186",
+      "titleLower": "vampire: the masquerade\u00AE - bloodlines\u2122 2",
+      "cheatsTotal": 2,
+      "creators": [
+        "Aigars Uze"
+      ],
+      "creatorsLower": [
+        "aigars uze"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Infinite Health",
+            "Sets ability points and poitions to 999 on use"
+          ]
         }
       }
     },
