@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-06-11T16:15:48.2602374Z",
+  "generatedUtc": "2026-06-11T17:12:22.506805Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -105298,6 +105298,50 @@
             "Max Items",
             "Max Money",
             "Max Skill points"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA23806",
+      "version": "01.002.000",
+      "title": "Darksiders II: Deathinitive Edition",
+      "idLower": "ppsa23806",
+      "titleLower": "darksiders ii: deathinitive edition",
+      "cheatsTotal": 12,
+      "creators": [
+        "Celogamez"
+      ],
+      "creatorsLower": [
+        "celogamez"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 12,
+          "cheats": [
+            "Easy Kill",
+            "Infinite Boatman Coins On Buy",
+            "Infinite Bullets",
+            "Infinite Health",
+            "Infinite Health/Wrath Potions",
+            "Infinite Horse Stamina",
+            "Infinite Reaper Power",
+            "Infinite Skill Points",
+            "Infinite Wrath",
+            "Max Boatman Coins On Get",
+            "Max XP/Levels",
+            "Max/Infinite Gilt On Buy"
           ]
         }
       }

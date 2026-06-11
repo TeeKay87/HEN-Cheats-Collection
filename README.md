@@ -17,6 +17,7 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-06-11 | ADDED | PPSA23806 | 01.002.000 | [Darksiders II: Deathinitive Edition](https://hencheats.vercel.app/#PPSA23806-01.002.000) |
 | 2026-06-11 | UPDATE | CUSA06339 | 01.01 | [Twin Robots](https://hencheats.vercel.app/#CUSA06339-01.01) |
 | 2026-06-11 | UPDATE | CUSA08495 | 01.03 | [Dark Souls: Remastered](https://hencheats.vercel.app/#CUSA08495-01.03) |
 | 2026-06-11 | UPDATE | CUSA08343 | 01.03 | [Senran Kagura: Peach Beach Splash](https://hencheats.vercel.app/#CUSA08343-01.03) |
