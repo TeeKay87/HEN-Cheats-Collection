@@ -33,13 +33,6 @@
       <ValueOn>B8-00-00-00-00-89-83-9C-00-00-00-E9-AE-2A-F1-FD</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
-    <Cheatline>
-      <PS5Offset>800-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
-      <Offset>3147800</Offset>
-      <Section>15</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
-    </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Magic">
     <Cheatline>
@@ -62,13 +55,6 @@
       <Section>15</Section>
       <ValueOn>B8-E7-03-00-00-41-89-47-6C-48-83-C4-08-E9-38-3E-53-FD</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <PS5Offset>7D5-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
-      <Offset>314782B</Offset>
-      <Section>15</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Combo">
@@ -93,13 +79,6 @@
       <ValueOn>BE-88-13-00-00-41-89-B7-B0-00-00-00-E9-DB-FA-33-FD</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
-    <Cheatline>
-      <PS5Offset>7A7-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
-      <Offset>3147859</Offset>
-      <Section>15</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
-    </Cheatline>
   </Cheat>
   <Cheat Text="Freeze Enemy Timers" Description="Enemies cannot execute their special moves/ cannot take their turn">
     <Cheatline>
@@ -122,13 +101,6 @@
       <Section>15</Section>
       <ValueOn>41-BF-63-00-00-00-45-89-7C-24-2C-E9-FD-85-54-FD</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <PS5Offset>7BD-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
-      <Offset>3147843</Offset>
-      <Section>15</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Boost Lvl 3" Description="Max boost Lvl">
@@ -153,13 +125,6 @@
       <ValueOn>41-BE-03-00-00-00-44-89-70-48-48-8D-7D-D8-E9-D7-DC-CD-FD</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
-    <Cheatline>
-      <PS5Offset>790-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
-      <Offset>3147870</Offset>
-      <Section>15</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
-    </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Money" Description="Buy/Sell something">
     <Cheatline>
@@ -183,13 +148,6 @@
       <ValueOn>B8-FF-E0-F5-05-43-89-44-FE-10-E9-E4-33-02-FF</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
-    <Cheatline>
-      <PS5Offset>7EA-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
-      <Offset>3147816</Offset>
-      <Section>15</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
-    </Cheatline>
   </Cheat>
   <Cheat Text="x99 Items" Description="Buy/Sell something (must have a minimum of 2 when buying or selling)">
     <Cheatline>
@@ -212,13 +170,6 @@
       <Section>15</Section>
       <ValueOn>B8-63-00-00-00-43-89-44-FE-10-E9-D1-05-1B-FF</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <PS5Offset>777-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
-      <Offset>3147889</Offset>
-      <Section>15</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

@@ -62,6 +62,17 @@
           "off": "4189859C010000"
         }
       ]
+    },
+    {
+      "name": "Freeze Timer",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "42F934",
+          "on": "9090",
+          "off": "FFC0"
+        }
+      ]
     }
   ],
   "credits": [

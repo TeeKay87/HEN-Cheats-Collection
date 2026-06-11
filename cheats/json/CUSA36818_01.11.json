@@ -196,39 +196,6 @@
       ]
     },
     {
-      "name": "---x2 Speed",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "03A0004D",
-          "on": "00000040",
-          "off": "0000803F"
-        }
-      ]
-    },
-    {
-      "name": "---x3 Speed",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "03A0004D",
-          "on": "00004040",
-          "off": "0000803F"
-        }
-      ]
-    },
-    {
-      "name": "---x4 Speed",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "03A0004D",
-          "on": "00008040",
-          "off": "0000803F"
-        }
-      ]
-    },
-    {
       "name": "Max Accolades (On Buy)",
       "type": "checkbox",
       "memory": [

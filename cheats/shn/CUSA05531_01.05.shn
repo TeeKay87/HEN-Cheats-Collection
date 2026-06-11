@@ -24,13 +24,6 @@
       <ValueOn>83-78-40-00-0F-84-2A-F7-DB-FD-B9-00-00-00-00-89-48-48-48-8B-45-D0-E9-19-F7-DB-FD</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
-    <Cheatline>
-      <PS5Offset>742-executable[0]-5</PS5Offset>
-      <Offset>23AB8BE</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
-    </Cheatline>
   </Cheat>
   <Cheat Text="God Mode" Description="Do not use with One Hit Kill">
     <Cheatline>
@@ -53,13 +46,6 @@
       <Section>0</Section>
       <ValueOn>83-78-40-00-0F-84-26-F7-DB-FD-89-48-48-48-8B-45-D0-E9-1A-F7-DB-FD</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <PS5Offset>73E-executable[0]-5</PS5Offset>
-      <Offset>23AB8C2</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="One Hit Kill" Description="Do not use with God Mode">
@@ -84,13 +70,6 @@
       <ValueOn>83-78-40-00-74-11-B9-00-00-00-00-89-48-48-48-8B-45-D0-E9-15-F7-DB-FD-89-48-48-E9-0D-F7-DB-FD</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
-    <Cheatline>
-      <PS5Offset>73A-executable[0]-5</PS5Offset>
-      <Offset>23AB8C6</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
-    </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Magic">
     <Cheatline>
@@ -113,13 +92,6 @@
       <Section>0</Section>
       <ValueOn>66-41-BD-0F-27-66-44-89-6F-4C-E9-18-FD-DB-FD</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <PS5Offset>7A4-executable[0]-5</PS5Offset>
-      <Offset>23AB85C</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max Level" Description="Kill an enemy">
@@ -144,13 +116,6 @@
       <ValueOn>41-BF-00-2D-31-01-45-89-BD-8C-01-00-00-E9-2A-11-DD-FD</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
-    <Cheatline>
-      <PS5Offset>800-executable[0]-5</PS5Offset>
-      <Offset>23AB800</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
-    </Cheatline>
   </Cheat>
   <Cheat Text="Max Gil ">
     <Cheatline>
@@ -173,13 +138,6 @@
       <Section>0</Section>
       <ValueOn>B9-FF-E0-F5-05-89-4A-08-48-83-C4-08-E9-05-7E-E9-FD</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <PS5Offset>7BB-executable[0]-5</PS5Offset>
-      <Offset>23AB845</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="x99 Items" Description="Buy something/ Obtain a Drop">
@@ -204,13 +162,6 @@
       <ValueOn>66-41-BB-63-00-66-47-89-1C-4A-E9-7B-01-DC-FD</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
-    <Cheatline>
-      <PS5Offset>7E8-executable[0]-5</PS5Offset>
-      <Offset>23AB818</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
-    </Cheatline>
   </Cheat>
   <Cheat Text="Infinite License Points" Description="Gain a point">
     <Cheatline>
@@ -233,13 +184,6 @@
       <Section>0</Section>
       <ValueOn>B8-9F-86-01-00-41-89-85-90-01-00-00-E9-D8-10-DD-FD</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <PS5Offset>761-executable[0]-5</PS5Offset>
-      <Offset>23AB89F</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max Clan Rank Points">
@@ -264,13 +208,6 @@
       <ValueOn>41-BD-FF-E0-F5-05-44-89-28-E9-DC-20-E9-FD-E9-71-1F-E9-FD</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
-    <Cheatline>
-      <PS5Offset>78F-executable[0]-5</PS5Offset>
-      <Offset>23AB871</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
-    </Cheatline>
   </Cheat>
   <Cheat Text="Max Number of Steps">
     <Cheatline>
@@ -293,13 +230,6 @@
       <Section>0</Section>
       <ValueOn>B8-3F-42-0F-00-89-41-0C-5D-C3-E9-08-7D-E9-FD</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <PS5Offset>776-executable[0]-5</PS5Offset>
-      <Offset>23AB88A</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-02-90</ValueOn>
-      <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

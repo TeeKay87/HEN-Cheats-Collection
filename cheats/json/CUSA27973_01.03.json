@@ -113,28 +113,6 @@
       ]
     },
     {
-      "name": "Speed x2 (Must enable walk speed MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "90FA68",
-          "on": "00000040",
-          "off": "0000803F"
-        }
-      ]
-    },
-    {
-      "name": "Speed x3 (Must enable walk speed MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "90FA68",
-          "on": "00004040",
-          "off": "0000803F"
-        }
-      ]
-    },
-    {
       "name": "Infinite Cast Bullets",
       "type": "checkbox",
       "memory": [

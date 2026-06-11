@@ -17,6 +17,77 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-06-11 | UPDATE | CUSA06339 | 01.01 | [Twin Robots](https://hencheats.vercel.app/#CUSA06339-01.01) |
+| 2026-06-11 | UPDATE | CUSA08495 | 01.03 | [Dark Souls: Remastered](https://hencheats.vercel.app/#CUSA08495-01.03) |
+| 2026-06-11 | UPDATE | CUSA08343 | 01.03 | [Senran Kagura: Peach Beach Splash](https://hencheats.vercel.app/#CUSA08343-01.03) |
+| 2026-06-11 | UPDATE | CUSA08306 | 01.00 | [One Piece: Unlimited World Red: Deluxe Edition](https://hencheats.vercel.app/#CUSA08306-01.00) |
+| 2026-06-11 | UPDATE | CUSA07615 | 01.09 | [Yakuza Kiwami](https://hencheats.vercel.app/#CUSA07615-01.09) |
+| 2026-06-11 | UPDATE | CUSA07439 | 01.03 | [Dark Souls III: The Fire Fades Edition](https://hencheats.vercel.app/#CUSA07439-01.03) |
+| 2026-06-11 | UPDATE | CUSA06014 | 01.12 | [Tekken 7](https://hencheats.vercel.app/#CUSA06014-01.12) |
+| 2026-06-11 | UPDATE | CUSA08495 | 05.05 | [Dark Souls: Remastered](https://hencheats.vercel.app/#CUSA08495-05.05) |
+| 2026-06-11 | UPDATE | CUSA06014 | 01.00 | [Tekken 7](https://hencheats.vercel.app/#CUSA06014-01.00) |
+| 2026-06-11 | UPDATE | CUSA05574 | 01.50 | [The Witcher 3: Wild Hunt](https://hencheats.vercel.app/#CUSA05574-01.50) |
+| 2026-06-11 | UPDATE | CUSA05573 | 01.50 | [The Witcher 3: Wild Hunt](https://hencheats.vercel.app/#CUSA05573-01.50) |
+| 2026-06-11 | UPDATE | CUSA05486 | 01.09 | [The Elder Scrolls V: Skyrim Special Edition](https://hencheats.vercel.app/#CUSA05486-01.09) |
+| 2026-06-11 | UPDATE | CUSA05486 | 01.00 | [The Elder Scrolls V: Skyrim Special Edition](https://hencheats.vercel.app/#CUSA05486-01.00) |
+| 2026-06-11 | UPDATE | CUSA05350 | 01.50 | [Dragon Ball: Xenoverse 2](https://hencheats.vercel.app/#CUSA05350-01.50) |
+| 2026-06-11 | UPDATE | CUSA05133 | 01.05 | [Yakuza 0](https://hencheats.vercel.app/#CUSA05133-01.05) |
+| 2026-06-11 | UPDATE | CUSA05716 | 01.06 | [Rise of the Tomb Raider: 20 Year Celebration](https://hencheats.vercel.app/#CUSA05716-01.06) |
+| 2026-06-11 | UPDATE | CUSA05032 | 01.07 | [Vikings: Wolves of Midgard](https://hencheats.vercel.app/#CUSA05032-01.07) |
+| 2026-06-11 | UPDATE | CUSA08519 | 01.29 | [Red Dead Redemption II](https://hencheats.vercel.app/#CUSA08519-01.29) |
+| 2026-06-11 | UPDATE | CUSA09171 | 01.04 | [Resident Evil 2](https://hencheats.vercel.app/#CUSA09171-01.04) |
+| 2026-06-11 | UPDATE | CUSA42503 | 01.22 | [Atomfall](https://hencheats.vercel.app/#CUSA42503-01.22) |
+| 2026-06-11 | UPDATE | CUSA37321 | 01.24 | [Atomic Heart](https://hencheats.vercel.app/#CUSA37321-01.24) |
+| 2026-06-11 | UPDATE | CUSA33173 | 01.02 | [River City Girls 2](https://hencheats.vercel.app/#CUSA33173-01.02) |
+| 2026-06-11 | UPDATE | CUSA28409 | 01.04 | [Vagante](https://hencheats.vercel.app/#CUSA28409-01.04) |
+| 2026-06-11 | UPDATE | CUSA27373 | 01.12 | [The Callisto Protocol](https://hencheats.vercel.app/#CUSA27373-01.12) |
+| 2026-06-11 | UPDATE | CUSA26546 | 01.03 | [Green Hell](https://hencheats.vercel.app/#CUSA26546-01.03) |
+| 2026-06-11 | UPDATE | CUSA08779 | 01.02 | [Dishonored: Death of the Outsider](https://hencheats.vercel.app/#CUSA08779-01.02) |
+| 2026-06-11 | UPDATE | CUSA16473 | 01.43 | [Astroneer](https://hencheats.vercel.app/#CUSA16473-01.43) |
+| 2026-06-11 | UPDATE | CUSA15495 | 01.07 | [Surviving the Aftermath](https://hencheats.vercel.app/#CUSA15495-01.07) |
+| 2026-06-11 | UPDATE | CUSA15280 | 01.22 | [Call of Duty: Modern Warfare](https://hencheats.vercel.app/#CUSA15280-01.22) |
+| 2026-06-11 | UPDATE | CUSA14204 | 17.00 | [UFC 4](https://hencheats.vercel.app/#CUSA14204-17.00) |
+| 2026-06-11 | UPDATE | CUSA14123 | 01.05 | [Resident Evil 3](https://hencheats.vercel.app/#CUSA14123-01.05) |
+| 2026-06-11 | UPDATE | CUSA12555 | 01.62 | [Dying Light 2: Stay Human](https://hencheats.vercel.app/#CUSA12555-01.62) |
+| 2026-06-11 | UPDATE | CUSA09243 | 01.00 | [Ni no Kuni II: Revenant Kingdom](https://hencheats.vercel.app/#CUSA09243-01.00) |
+| 2026-06-11 | UPDATE | CUSA15690 | 01.02 | [Frostpunk](https://hencheats.vercel.app/#CUSA15690-01.02) |
+| 2026-06-11 | UPDATE | CUSA43665 | 01.01 | [Turok 3: Shadow of Oblivion Remastered](https://hencheats.vercel.app/#CUSA43665-01.01) |
+| 2026-06-11 | UPDATE | CUSA04885 | 01.01 | [Resident Evil 4](https://hencheats.vercel.app/#CUSA04885-01.01) |
+| 2026-06-11 | UPDATE | CUSA03603 | 01.05 | [Dishonored 2](https://hencheats.vercel.app/#CUSA03603-01.05) |
+| 2026-06-11 | UPDATE | CUSA12047 | 01.06 | [Sekiro: Shadows Die Twice](https://hencheats.vercel.app/#CUSA12047-01.06) |
+| 2026-06-11 | UPDATE | CUSA05531 | 01.05 | [Final Fantasy XII: The Zodiac Age](https://hencheats.vercel.app/#CUSA05531-01.05) |
+| 2026-06-11 | UPDATE | CUSA01515 | 01.04 | [Abyss Odyssey: Extended Dream Edition](https://hencheats.vercel.app/#CUSA01515-01.04) |
+| 2026-06-11 | UPDATE | CUSA41300 | 01.02 | [Metal Gear Solid: Master Collection Vol. 1](https://hencheats.vercel.app/#CUSA41300-01.02) |
+| 2026-06-11 | UPDATE | CUSA36986 | 01.11 | [Wo Long: Fallen Dynasty](https://hencheats.vercel.app/#CUSA36986-01.11) |
+| 2026-06-11 | UPDATE | CUSA36846 | 01.11 | [Wo Long: Fallen Dynasty](https://hencheats.vercel.app/#CUSA36846-01.11) |
+| 2026-06-11 | UPDATE | CUSA13285 | 01.00 | [Hollow Knight](https://hencheats.vercel.app/#CUSA13285-01.00) |
+| 2026-06-11 | UPDATE | CUSA36818 | 01.11 | [Wo Long: Fallen Dynasty](https://hencheats.vercel.app/#CUSA36818-01.11) |
+| 2026-06-11 | UPDATE | CUSA28863 | 01.13 | [Elden Ring](https://hencheats.vercel.app/#CUSA28863-01.13) |
+| 2026-06-11 | UPDATE | CUSA27973 | 01.03 | [Hades](https://hencheats.vercel.app/#CUSA27973-01.03) |
+| 2026-06-11 | UPDATE | CUSA18723 | 01.13 | [Elden Ring](https://hencheats.vercel.app/#CUSA18723-01.13) |
+| 2026-06-11 | UPDATE | CUSA14835 | 01.91 | [Dragon Ball Z: Kakarot](https://hencheats.vercel.app/#CUSA14835-01.91) |
+| 2026-06-11 | UPDATE | CUSA12403 | 01.01 | [Fall of Light: Darkest Edition](https://hencheats.vercel.app/#CUSA12403-01.01) |
+| 2026-06-11 | UPDATE | CUSA08624 | 02.16 | [The Long Dark](https://hencheats.vercel.app/#CUSA08624-02.16) |
+| 2026-06-11 | UPDATE | CUSA31340 | 01.06 | [Prodeus](https://hencheats.vercel.app/#CUSA31340-01.06) |
+| 2026-06-11 | UPDATE | CUSA03651 | 01.01 | [One Piece: Burning Blood](https://hencheats.vercel.app/#CUSA03651-01.01) |
+| 2026-06-11 | UPDATE | CUSA29850 | 01.04 | [DEADCRAFT](https://hencheats.vercel.app/#CUSA29850-01.04) |
+| 2026-06-11 | UPDATE | CUSA00303 | 01.01 | [Bound by Flame](https://hencheats.vercel.app/#CUSA00303-01.01) |
+| 2026-06-11 | UPDATE | CUSA03388 | 01.15 | [Dark Souls III](https://hencheats.vercel.app/#CUSA03388-01.15) |
+| 2026-06-11 | UPDATE | CUSA03388 | 01.00 | [Dark Souls III](https://hencheats.vercel.app/#CUSA03388-01.00) |
+| 2026-06-11 | UPDATE | CUSA03173 | 01.09 | [Bloodborne: Game of the Year Edition](https://hencheats.vercel.app/#CUSA03173-01.09) |
+| 2026-06-11 | UPDATE | CUSA02491 | 01.10 | [Mass Effect: Andromeda](https://hencheats.vercel.app/#CUSA02491-01.10) |
+| 2026-06-11 | UPDATE | CUSA02231 | 01.01 | [Dishonored: Definitive Edition](https://hencheats.vercel.app/#CUSA02231-01.01) |
+| 2026-06-11 | UPDATE | CUSA02152 | 01.03 | [Middle-Earth: Shadow of Mordor: Game of the Year Edition](https://hencheats.vercel.app/#CUSA02152-01.03) |
+| 2026-06-11 | UPDATE | CUSA31580 | 01.11 | [Sea of Stars](https://hencheats.vercel.app/#CUSA31580-01.11) |
+| 2026-06-11 | UPDATE | CUSA01778 | 01.02 | [Dead or Alive 5: Last Round](https://hencheats.vercel.app/#CUSA01778-01.02) |
+| 2026-06-11 | UPDATE | CUSA01200 | 01.02 | [Street Fighter V](https://hencheats.vercel.app/#CUSA01200-01.02) |
+| 2026-06-11 | UPDATE | CUSA01082 | 01.06 | [The Evil Within](https://hencheats.vercel.app/#CUSA01082-01.06) |
+| 2026-06-11 | UPDATE | CUSA01067 | 01.00 | [Resident Evil HD Remaster](https://hencheats.vercel.app/#CUSA01067-01.00) |
+| 2026-06-11 | UPDATE | CUSA01004 | 01.01 | [Sleeping Dogs: Definitive Edition](https://hencheats.vercel.app/#CUSA01004-01.01) |
+| 2026-06-11 | UPDATE | CUSA00633 | 01.09 | [Battlefield Hardline](https://hencheats.vercel.app/#CUSA00633-01.09) |
+| 2026-06-11 | UPDATE | CUSA00303 | 01.02 | [Bound by Flame](https://hencheats.vercel.app/#CUSA00303-01.02) |
+| 2026-06-11 | UPDATE | CUSA01742 | 01.00 | [One Piece: Pirate Warriors 3](https://hencheats.vercel.app/#CUSA01742-01.00) |
+| 2026-06-11 | UPDATE | CUSA47364 | 01.01 | [The Karate Kid: Street Rumble](https://hencheats.vercel.app/#CUSA47364-01.01) |
 | 2026-06-10 | ADDED | PPSA03016 | 01.004.003 | [Marvel’s Spider-Man 2](https://hencheats.vercel.app/#PPSA03016-01.004.003) |
 | 2026-06-10 | ADDED | PPSA13195 | 01.014.001 | [Stellar Blade](https://hencheats.vercel.app/#PPSA13195-01.014.001) |
 | 2026-06-10 | ADDED | PPSA15186 | 01.000.003 | [Vampire: The Masquerade® - Bloodlines™ 2](https://hencheats.vercel.app/#PPSA15186-01.000.003) |

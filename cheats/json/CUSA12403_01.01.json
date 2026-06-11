@@ -110,6 +110,17 @@
           "off": "C5F22A4014"
         }
       ]
+    },
+    {
+      "name": "Invulnerable",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "184DAA",
+          "on": "B0019090",
+          "off": "418A473C"
+        }
+      ]
     }
   ],
   "credits": [

@@ -496,11 +496,6 @@
           "off": "0000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "81E6D728",
-          "on": "E92162DD03909090",
-          "off": "C5FA118388000000"
-        },
-        {
           "offset": "81CA30F5",
           "on": "909090909090",
           "off": "C4C17A11465C"
@@ -1164,39 +1159,6 @@
         {
           "offset": "81D907E9",
           "on": "B819000000",
-          "off": "418B442440"
-        }
-      ]
-    },
-    {
-      "name": "49-Rest/Sleep Start at 48 HRs (use with caution cz hunger will kill you) (read guide on how to use)  N",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "81D907E9",
-          "on": "B831000000",
-          "off": "418B442440"
-        }
-      ]
-    },
-    {
-      "name": "50-Rest/Sleep Start at 7 Days (use with caution cz hunger will kill you) (read guide on how to use)  N",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "81D907E9",
-          "on": "B8A8000000",
-          "off": "418B442440"
-        }
-      ]
-    },
-    {
-      "name": "51-Rest/Sleep Start at 100 Days (use with caution cz hunger will kill you/Max sleep time is 7 days) (read guide on how to use)  N",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "81D907E9",
-          "on": "B860090000",
           "off": "418B442440"
         }
       ]
