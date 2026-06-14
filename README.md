@@ -17,6 +17,11 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-06-14 | ADDED | PPSA17905 | 01.030.000 | [Horizon Forbidden West](https://hencheats.vercel.app/#PPSA17905-01.030.000) |
+| 2026-06-14 | UPDATE | CUSA01244 | 01.01 | [Final Fantasy X | X-2: HD Remaster](https://hencheats.vercel.app/#CUSA01244-01.01) |
+| 2026-06-14 | UPDATE | CUSA09407 | 01.00 | [Devil May Cry: HD Collection](https://hencheats.vercel.app/#CUSA09407-01.00) |
+| 2026-06-14 | UPDATE | CUSA02882 | 01.00 | [Resident Evil: Origins Collection](https://hencheats.vercel.app/#CUSA02882-01.00) |
+| 2026-06-14 | ADDED | XXXX00000 | 00.00 | **Added new cheat-files for 765 PS4 games** |
 | 2026-06-11 | ADDED | PPSA23806 | 01.002.000 | [Darksiders II: Deathinitive Edition](https://hencheats.vercel.app/#PPSA23806-01.002.000) |
 | 2026-06-11 | UPDATE | CUSA06339 | 01.01 | [Twin Robots](https://hencheats.vercel.app/#CUSA06339-01.01) |
 | 2026-06-11 | UPDATE | CUSA08495 | 01.03 | [Dark Souls: Remastered](https://hencheats.vercel.app/#CUSA08495-01.03) |

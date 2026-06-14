@@ -176,22 +176,6 @@
       ]
     },
     {
-      "name": "Encounter Battle",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "9DD2A8",
-          "on": "41C7869C0100000000E143C4C17A58869C01000090E9A28C88FF",
-          "off": "0000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "265F5B",
-          "on": "E94873770090909090",
-          "off": "C4C17A58869C010000"
-        }
-      ]
-    },
-    {
       "name": "200 Lightning Dodge (dodge 1)",
       "type": "checkbox",
       "memory": [

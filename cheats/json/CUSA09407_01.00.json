@@ -189,6 +189,28 @@
           "off": "85C0895108"
         }
       ]
+    },
+    {
+      "name": "Infinite Health (DMC3)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5BA89",
+          "on": "C5FA105208",
+          "off": "C5FA115208"
+        }
+      ]
+    },
+    {
+      "name": "1 Hit Kill (DMC3)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5BA87",
+          "on": "750A",
+          "off": "750D"
+        }
+      ]
     }
   ],
   "credits": [
