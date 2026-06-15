@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-06-14T06:34:43.1786119Z",
+  "generatedUtc": "2026-06-15T21:08:48.938625Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -106138,6 +106138,45 @@
             "Infi Rage \u0026 Mana \u0026 Momentum",
             "Infi Skill Points",
             "Max Items \u0026 Gold"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA01467",
+      "version": "01.008.001",
+      "title": "Marvel\u0027s Spider-Man Remastered",
+      "idLower": "ppsa01467",
+      "titleLower": "marvel\u0027s spider-man remastered",
+      "cheatsTotal": 7,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 7,
+          "cheats": [
+            "1 Hit Kill",
+            "Infi Focus Bar",
+            "Infi Health",
+            "Infi Skill Points (On Use)",
+            "Infi Web",
+            "Max Resources (On Use)",
+            "Untouchable"
           ]
         }
       }
