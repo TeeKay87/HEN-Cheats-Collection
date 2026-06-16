@@ -17,6 +17,8 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-06-16 | ADDED | PPSA07230 | 01.012.000 | [Assassin's Creed Mirage](https://hencheats.vercel.app/#PPSA07230-01.012.000) |
+| 2026-06-16 | ADDED | PPSA20396 | 01.019.076 | [Assassin’s Creed Shadows](https://hencheats.vercel.app/#PPSA20396-01.019.076) |
 | 2026-06-15 | ADDED | PPSA01467 | 01.008.001 | [Marvel's Spider-Man Remastered](https://hencheats.vercel.app/#PPSA01467-01.008.001) |
 | 2026-06-14 | ADDED | PPSA17905 | 01.030.000 | [Horizon Forbidden West](https://hencheats.vercel.app/#PPSA17905-01.030.000) |
 | 2026-06-14 | UPDATE | CUSA01244 | 01.01 | [Final Fantasy X - X-2: HD Remaster](https://hencheats.vercel.app/#CUSA01244-01.01) |

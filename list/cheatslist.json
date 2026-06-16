@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-06-15T21:08:48.938625Z",
+  "generatedUtc": "2026-06-16T21:21:09.2155615Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -108739,6 +108739,42 @@
       }
     },
     {
+      "id": "PPSA07230",
+      "version": "01.012.000",
+      "title": "Assassin\u0027s Creed Mirage",
+      "idLower": "ppsa07230",
+      "titleLower": "assassin\u0027s creed mirage",
+      "cheatsTotal": 4,
+      "creators": [
+        "Aigars Uze"
+      ],
+      "creatorsLower": [
+        "aigars uze"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Infinite Health",
+            "Infinite Oxygen",
+            "Infinite Stamina",
+            "Untouchable"
+          ]
+        }
+      }
+    },
+    {
       "id": "PPSA07274",
       "version": "01.000.000",
       "title": "Valkyrie Elysium",
@@ -111184,6 +111220,41 @@
             "Max Exp",
             "Maximum Number of Kills",
             "Time Stop"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA20396",
+      "version": "01.019.076",
+      "title": "Assassin\u2019s Creed Shadows",
+      "idLower": "ppsa20396",
+      "titleLower": "assassin\u2019s creed shadows",
+      "cheatsTotal": 3,
+      "creators": [
+        "Aigars Uze"
+      ],
+      "creatorsLower": [
+        "aigars uze"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Enemy One Hit Kill",
+            "Infinite Consumables (Money/Rations/Kunai)",
+            "Infinite Health"
           ]
         }
       }
