@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-06-16T21:21:09.2155615Z",
+  "generatedUtc": "2026-06-18T11:50:08.252809Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -111722,6 +111722,44 @@
             "Infi Energy (Money)",
             "Infi Health",
             "Infi Items (No Reduction)",
+            "Untouchable"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA25258",
+      "version": "01.004.000",
+      "title": "NINJA GAIDEN\u00A04",
+      "idLower": "ppsa25258",
+      "titleLower": "ninja gaiden\u00A04",
+      "cheatsTotal": 6,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 6,
+          "cheats": [
+            "1 Hit Kill",
+            "Infi Health",
+            "Infi Stamina",
+            "Max Items (On Use)",
+            "Max Money (On Get)",
             "Untouchable"
           ]
         }

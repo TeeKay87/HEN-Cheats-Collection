@@ -17,6 +17,7 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-06-18 | ADDED | PPSA25258 | 01.004.000 | [NINJA GAIDEN 4](https://hencheats.vercel.app/#PPSA25258-01.004.000) |
 | 2026-06-16 | ADDED | PPSA07230 | 01.012.000 | [Assassin's Creed Mirage](https://hencheats.vercel.app/#PPSA07230-01.012.000) |
 | 2026-06-16 | ADDED | PPSA20396 | 01.019.076 | [Assassin’s Creed Shadows](https://hencheats.vercel.app/#PPSA20396-01.019.076) |
 | 2026-06-15 | ADDED | PPSA01467 | 01.008.001 | [Marvel's Spider-Man Remastered](https://hencheats.vercel.app/#PPSA01467-01.008.001) |
