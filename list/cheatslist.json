@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-06-18T11:50:08.252809Z",
+  "generatedUtc": "2026-06-19T12:43:45.4906047Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -106693,6 +106693,51 @@
           "hasFile": false,
           "cheatsCount": 0,
           "cheats": []
+        }
+      }
+    },
+    {
+      "id": "PPSA02015",
+      "version": "01.013.000",
+      "title": "DEATH STRANDING 2: ON THE BEACH",
+      "idLower": "ppsa02015",
+      "titleLower": "death stranding 2: on the beach",
+      "cheatsTotal": 13,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 13,
+          "cheats": [
+            "1 Hit Kill",
+            "Infi Ammo",
+            "Infi Blood Pack",
+            "Infi Boots Durability",
+            "Infi Cases Durability",
+            "Infi Contents Durability",
+            "Infi Health",
+            "Infi Stamina",
+            "Infi Vehicle Battery",
+            "Infi Water Bottle",
+            "Max Money \u0026 No Weight Limit",
+            "Untouchable",
+            "Zero Weight"
+          ]
         }
       }
     },

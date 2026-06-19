@@ -17,6 +17,7 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-06-19 | ADDED | PPSA02015 | 01.013.000 | [DEATH STRANDING 2: ON THE BEACH](https://hencheats.vercel.app/#PPSA02015-01.013.000) |
 | 2026-06-18 | ADDED | PPSA25258 | 01.004.000 | [NINJA GAIDEN 4](https://hencheats.vercel.app/#PPSA25258-01.004.000) |
 | 2026-06-16 | ADDED | PPSA07230 | 01.012.000 | [Assassin's Creed Mirage](https://hencheats.vercel.app/#PPSA07230-01.012.000) |
 | 2026-06-16 | ADDED | PPSA20396 | 01.019.076 | [Assassin’s Creed Shadows](https://hencheats.vercel.app/#PPSA20396-01.019.076) |
