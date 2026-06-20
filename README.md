@@ -17,6 +17,8 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-06-20 | ADDED | PPSA01471 | 01.008.001 | [Marvel's Spider-Man Remastered](https://hencheats.vercel.app/#PPSA01471-01.008.001) |
+| 2026-06-20 | UPDATE | PPSA01467 | 01.008.001 | [Marvel's Spider-Man Remastered](https://hencheats.vercel.app/#PPSA01467-01.008.001) |
 | 2026-06-20 | UPDATE | PPSA03016 | 01.004.003 | [Marvel’s Spider-Man 2](https://hencheats.vercel.app/#PPSA03016-01.004.003) |
 | 2026-06-19 | ADDED | PPSA02015 | 01.013.000 | [DEATH STRANDING 2: ON THE BEACH](https://hencheats.vercel.app/#PPSA02015-01.013.000) |
 | 2026-06-18 | ADDED | PPSA25258 | 01.004.000 | [NINJA GAIDEN 4](https://hencheats.vercel.app/#PPSA25258-01.004.000) |

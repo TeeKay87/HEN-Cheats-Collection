@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-06-20T09:29:19.6252615Z",
+  "generatedUtc": "2026-06-20T20:30:14.8999796Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -106147,6 +106147,45 @@
       "version": "01.008.001",
       "title": "Marvel\u0027s Spider-Man Remastered",
       "idLower": "ppsa01467",
+      "titleLower": "marvel\u0027s spider-man remastered",
+      "cheatsTotal": 7,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 7,
+          "cheats": [
+            "1 Hit Kill",
+            "Infi Focus Bar",
+            "Infi Health",
+            "Infi Skill Points (On Use)",
+            "Infi Web",
+            "Max Resources (On Use)",
+            "Untouchable"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA01471",
+      "version": "01.008.001",
+      "title": "Marvel\u0027s Spider-Man Remastered",
+      "idLower": "ppsa01471",
       "titleLower": "marvel\u0027s spider-man remastered",
       "cheatsTotal": 7,
       "creators": [
