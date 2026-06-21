@@ -17,6 +17,7 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-06-21 | UPDATE | PPSA28336 | 01.009.000 | [S.T.A.L.K.E.R. 2: Heart of Chornobyl](https://hencheats.vercel.app/#PPSA28336-01.009.000) |
 | 2026-06-20 | ADDED | PPSA01471 | 01.008.001 | [Marvel's Spider-Man Remastered](https://hencheats.vercel.app/#PPSA01471-01.008.001) |
 | 2026-06-20 | UPDATE | PPSA01467 | 01.008.001 | [Marvel's Spider-Man Remastered](https://hencheats.vercel.app/#PPSA01467-01.008.001) |
 | 2026-06-20 | UPDATE | PPSA03016 | 01.004.003 | [Marvel’s Spider-Man 2](https://hencheats.vercel.app/#PPSA03016-01.004.003) |

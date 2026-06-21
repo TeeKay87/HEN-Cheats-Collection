@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-06-20T20:30:14.8999796Z",
+  "generatedUtc": "2026-06-21T20:44:24.6739405Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -112120,12 +112120,12 @@
       "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
       "idLower": "ppsa28336",
       "titleLower": "s.t.a.l.k.e.r. 2: heart of chornobyl",
-      "cheatsTotal": 4,
+      "cheatsTotal": 12,
       "creators": [
-        "Aigars Uze"
+        "Yharnam"
       ],
       "creatorsLower": [
-        "aigars uze"
+        "yharnam"
       ],
       "formats": {
         "json": {
@@ -112140,12 +112140,20 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 4,
+          "cheatsCount": 12,
           "cheats": [
-            "Infinite Ammo (No Reload)",
-            "Infinite Health",
-            "Infinite Items (Medkits, Ammo, Cossacks Vodka, Water, Bandages)",
-            "Infinite Stamina"
+            "1 Hit Kill",
+            "Infi Ammo",
+            "Infi Health",
+            "Infi Items",
+            "Infi Stamina",
+            "Infi Weapon Durability",
+            "Invincible",
+            "Max Money (Buy or Sell)",
+            "No Bleeding",
+            "No Hunger",
+            "No Radioactivity",
+            "Zero Weight"
           ]
         }
       }
