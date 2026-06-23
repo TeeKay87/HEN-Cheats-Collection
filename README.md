@@ -17,6 +17,9 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-06-23 | ADDED | CUSA50981 | 01.03 | [Beyond the Ice Palace 2](https://hencheats.vercel.app/#CUSA50981-01.03) |
+| 2026-06-23 | ADDED | CUSA52187 | 01.50 | [Gal Guardians: Servants of the Dark](https://hencheats.vercel.app/#CUSA52187-01.50) |
+| 2026-06-23 | UPDATE | CUSA02010 | 01.47 | [Dying Light](https://hencheats.vercel.app/#CUSA02010-01.47) |
 | 2026-06-21 | UPDATE | PPSA28336 | 01.009.000 | [S.T.A.L.K.E.R. 2: Heart of Chornobyl](https://hencheats.vercel.app/#PPSA28336-01.009.000) |
 | 2026-06-20 | ADDED | PPSA01471 | 01.008.001 | [Marvel's Spider-Man Remastered](https://hencheats.vercel.app/#PPSA01471-01.008.001) |
 | 2026-06-20 | UPDATE | PPSA01467 | 01.008.001 | [Marvel's Spider-Man Remastered](https://hencheats.vercel.app/#PPSA01467-01.008.001) |

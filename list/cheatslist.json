@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-06-21T20:44:24.6739405Z",
+  "generatedUtc": "2026-06-23T21:47:36.2246706Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -11970,11 +11970,13 @@
       "title": "Dying Light",
       "idLower": "cusa02010",
       "titleLower": "dying light",
-      "cheatsTotal": 40,
+      "cheatsTotal": 45,
       "creators": [
+        "Ali-mk",
         "Celogamez"
       ],
       "creatorsLower": [
+        "ali-mk",
         "celogamez"
       ],
       "formats": {
@@ -11985,15 +11987,16 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 20,
+          "cheatsCount": 25,
           "cheats": [
             "1 Hit Kill",
             "God Mode (you Can Grabbed)",
+            "Inf-Stamina-Weapon",
+            "Inf-Weapon-no-broken",
             "Infinite Ammo/Arrows",
             "Infinite Breathe (For Run)",
             "Infinite Camouflage Duration",
             "Infinite Eletric Cage/UV SafeZone/Car Alarm (Buggy/The Following)",
-            "Infinite Endurance (For Fight)",
             "Infinite Flamethrower(Buggy/The Following)",
             "Infinite Fuel (Buggy/The Following)",
             "Infinite Grappling Hook",
@@ -12002,10 +12005,14 @@
             "Infinite Nitro (Buggy/The Following)",
             "Infinite UV Flashlight",
             "Infinite Weapons Durability",
+            "Infinite-Arrow",
+            "Infinite-Health",
+            "Invincible",
             "Max XP/Levels/Rank/All Skill Points On Gain",
             "Max/Infinite Money",
             "No Damage To Vehicle Parts (Buggy/The Following)",
             "No Reload",
+            "one-Hit-Kill",
             "Stop Time Missions"
           ]
         },
@@ -105319,6 +105326,40 @@
       }
     },
     {
+      "id": "CUSA50981",
+      "version": "01.03",
+      "title": "Beyond the Ice Palace 2",
+      "idLower": "cusa50981",
+      "titleLower": "beyond the ice palace 2",
+      "cheatsTotal": 2,
+      "creators": [
+        "Ali-mk"
+      ],
+      "creatorsLower": [
+        "ali-mk"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Inf-Super\u002BStamina",
+            "Invincible"
+          ]
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
       "id": "CUSA51046",
       "version": "01.10",
       "title": "Neva",
@@ -105411,6 +105452,43 @@
             "one-Hit-Kill",
             "Untouchables"
           ]
+        }
+      }
+    },
+    {
+      "id": "CUSA52187",
+      "version": "01.50",
+      "title": "Gal Guardians: Servants of the Dark",
+      "idLower": "cusa52187",
+      "titleLower": "gal guardians: servants of the dark",
+      "cheatsTotal": 5,
+      "creators": [
+        "Ali-mk"
+      ],
+      "creatorsLower": [
+        "ali-mk"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "Infinite-Health-[100]",
+            "Infinite-Weapon",
+            "Invincible",
+            "MAX-Coins-999999",
+            "one-Hit-Kill"
+          ]
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },
