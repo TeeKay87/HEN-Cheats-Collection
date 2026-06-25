@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-06-23T21:47:36.2246706Z",
+  "generatedUtc": "2026-06-25T07:49:11.7840528Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -11970,7 +11970,7 @@
       "title": "Dying Light",
       "idLower": "cusa02010",
       "titleLower": "dying light",
-      "cheatsTotal": 45,
+      "cheatsTotal": 26,
       "creators": [
         "Ali-mk",
         "Celogamez"
@@ -11987,33 +11987,14 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 25,
+          "cheatsCount": 6,
           "cheats": [
-            "1 Hit Kill",
-            "God Mode (you Can Grabbed)",
             "Inf-Stamina-Weapon",
             "Inf-Weapon-no-broken",
-            "Infinite Ammo/Arrows",
-            "Infinite Breathe (For Run)",
-            "Infinite Camouflage Duration",
-            "Infinite Eletric Cage/UV SafeZone/Car Alarm (Buggy/The Following)",
-            "Infinite Flamethrower(Buggy/The Following)",
-            "Infinite Fuel (Buggy/The Following)",
-            "Infinite Grappling Hook",
-            "Infinite Health",
-            "Infinite Items/Throwables/Craft",
-            "Infinite Nitro (Buggy/The Following)",
-            "Infinite UV Flashlight",
-            "Infinite Weapons Durability",
             "Infinite-Arrow",
             "Infinite-Health",
             "Invincible",
-            "Max XP/Levels/Rank/All Skill Points On Gain",
-            "Max/Infinite Money",
-            "No Damage To Vehicle Parts (Buggy/The Following)",
-            "No Reload",
-            "one-Hit-Kill",
-            "Stop Time Missions"
+            "one-Hit-Kill"
           ]
         },
         "mc4": {
@@ -111394,7 +111375,7 @@
       "title": "Assassin\u2019s Creed Shadows",
       "idLower": "ppsa20396",
       "titleLower": "assassin\u2019s creed shadows",
-      "cheatsTotal": 3,
+      "cheatsTotal": 8,
       "creators": [
         "Aigars Uze"
       ],
@@ -111414,11 +111395,54 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 3,
+          "cheatsCount": 8,
           "cheats": [
+            "1 Hit Kill",
             "Enemy One Hit Kill",
+            "Infi Adrenaline",
+            "Infi Health",
+            "Infi Mastery Points",
             "Infinite Consumables (Money/Rations/Kunai)",
-            "Infinite Health"
+            "Infinite Health",
+            "Untouchable"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA20397",
+      "version": "01.019.076",
+      "title": "Assassin\u2019s Creed Shadows",
+      "idLower": "ppsa20397",
+      "titleLower": "assassin\u2019s creed shadows",
+      "cheatsTotal": 6,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 6,
+          "cheats": [
+            "1 Hit Kill",
+            "Infi Adrenaline",
+            "Infi Consumables (No Decrease)",
+            "Infi Health",
+            "Infi Mastery Points",
+            "Untouchable"
           ]
         }
       }
