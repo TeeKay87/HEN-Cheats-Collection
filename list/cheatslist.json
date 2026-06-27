@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-06-25T07:49:11.7840528Z",
+  "generatedUtc": "2026-06-27T01:22:35.0168077Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -79650,6 +79650,48 @@
     },
     {
       "id": "CUSA26613",
+      "version": "01.04",
+      "title": "Grand Theft Auto III - The Definitive Edition",
+      "idLower": "cusa26613",
+      "titleLower": "grand theft auto iii - the definitive edition",
+      "cheatsTotal": 10,
+      "creators": [
+        "AngelDavil88_9.00/2pt/Zubastic"
+      ],
+      "creatorsLower": [
+        "angeldavil88_9.00/2pt/zubastic"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 10,
+          "cheats": [
+            "Disable all incoming damage",
+            "Disable insta vehicle blowup",
+            "Disable vehicle incoming damage",
+            "Free PainSpray",
+            "Freeze Money (for Pay N Spray/Ammu-Nation)",
+            "Get $99.999.999 (Upon Mission Completion)",
+            "Infinite Health (WIP/Experimental)",
+            "Infinte Ammo",
+            "Infinte Armour",
+            "No Reload"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
+      "id": "CUSA26613",
       "version": "01.06",
       "title": "Grand Theft Auto III - The Definitive Edition",
       "idLower": "cusa26613",
@@ -111375,12 +111417,12 @@
       "title": "Assassin\u2019s Creed Shadows",
       "idLower": "ppsa20396",
       "titleLower": "assassin\u2019s creed shadows",
-      "cheatsTotal": 8,
+      "cheatsTotal": 6,
       "creators": [
-        "Aigars Uze"
+        "Yharnam"
       ],
       "creatorsLower": [
-        "aigars uze"
+        "yharnam"
       ],
       "formats": {
         "json": {
@@ -111395,15 +111437,13 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 8,
+          "cheatsCount": 6,
           "cheats": [
             "1 Hit Kill",
-            "Enemy One Hit Kill",
             "Infi Adrenaline",
+            "Infi Consumables (No Decrease)",
             "Infi Health",
             "Infi Mastery Points",
-            "Infinite Consumables (Money/Rations/Kunai)",
-            "Infinite Health",
             "Untouchable"
           ]
         }

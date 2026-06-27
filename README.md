@@ -17,6 +17,7 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-06-27 | ADDED | CUSA26613 | 01.04 | [Grand Theft Auto III - The Definitive Edition](https://hencheats.vercel.app/#CUSA26613-01.04) |
 | 2026-06-25 | ADDED | PPSA20397 | 01.019.076 | [Assassin’s Creed Shadows](https://hencheats.vercel.app/#PPSA20397-01.019.076) |
 | 2026-06-23 | ADDED | CUSA50981 | 01.03 | [Beyond the Ice Palace 2](https://hencheats.vercel.app/#CUSA50981-01.03) |
 | 2026-06-23 | ADDED | CUSA52187 | 01.50 | [Gal Guardians: Servants of the Dark](https://hencheats.vercel.app/#CUSA52187-01.50) |
