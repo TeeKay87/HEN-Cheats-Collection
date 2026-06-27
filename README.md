@@ -7,6 +7,8 @@
 2. Delete, rename or backup the `cheats` folder from `/data/etaHEN/` *(PS5)* or `/user/data/GoldHEN/` *(PS4)*
 3. Place the `cheats` folder from my collection in its place
 
+**`NOTE`** Cheats folder path may be different if you are using something other than etaHEN.
+
 **`IMPORTANT!` Restart and re-jb the PlayStation. Enjoy your brand new cheats**.
 
 ## Find compatible cheats
