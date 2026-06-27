@@ -1,3 +1,7 @@
+## How to download
+1. Click the big, green **Code**-button.
+2. Click `Download ZIP`
+
 ## How to use
 1. FTP into your PlayStation
 2. Delete, rename or backup the `cheats` folder from `/data/etaHEN/` *(PS5)* or `/user/data/GoldHEN/` *(PS4)*
