@@ -73,6 +73,14 @@ function normalize(value) {
     .trim();
 }
 
+function normalizeSearch(value) {
+  return normalize(value)
+    .replace(/['’‘`´]/g, '')
+    .replace(/[^\p{L}\p{N}]+/gu, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
 function getCoverUrl(entry) {
   const titleCover = state.covers.get(normalize(entry.title));
   if (titleCover && titleCover !== 'no-image') return titleCover;
@@ -223,7 +231,7 @@ function applyControlsFromUrl() {
 }
 
 function getEffectiveSearchTerm(value) {
-  const normalizedValue = normalize(value);
+  const normalizedValue = normalizeSearch(value);
   return normalizedValue.length >= MINIMUM_CHARS_FOR_SEARCH ? normalizedValue : '';
 }
 
@@ -623,9 +631,9 @@ async function loadData() {
   state.entries = [...(cheatsData.entries || [])]
     .map((entry) => ({
       ...entry,
-      idLower: normalize(entry.id),
-      titleLower: normalize(entry.title),
-      searchBlob: [entry.id, entry.title, ...(entry.creators || [])].map(normalize).join(' | '),
+      idLower: normalizeSearch(entry.id),
+      titleLower: normalizeSearch(entry.title),
+      searchBlob: [entry.id, entry.title, ...(entry.creators || [])].map(normalizeSearch).join(' | '),
     }))
     .sort((a, b) => {
       const titleSort = a.title.localeCompare(b.title, undefined, { sensitivity: 'base' });
