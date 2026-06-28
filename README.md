@@ -23,6 +23,8 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-06-28 | ADDED | PPSA13427 | 01.008.001 | [Horizon Zero Dawn Remastered](https://hencheats.vercel.app/#PPSA13427-01.008.001) |
+| 2026-06-28 | ADDED | PPSA13428 | 01.008.001 | [Horizon Zero Dawn Remastered](https://hencheats.vercel.app/#PPSA13428-01.008.001) |
 | 2026-06-27 | UPDATE | PPSA20396 | 01.019.076 | [Assassin's Creed Shadows](https://hencheats.vercel.app/#PPSA20396-01.019.076) |
 | 2026-06-27 | UPDATE | PPSA20397 | 01.019.076 | [Assassin's Creed Shadows](https://hencheats.vercel.app/#PPSA20397-01.019.076) |
 | 2026-06-27 | ADDED | CUSA26613 | 01.04 | [Grand Theft Auto III - The Definitive Edition](https://hencheats.vercel.app/#CUSA26613-01.04) |

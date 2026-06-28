@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-06-27T10:27:14.6297314Z",
+  "generatedUtc": "2026-06-28T10:55:16.9867578Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -110639,6 +110639,84 @@
             "Infi Shield",
             "Max Money",
             "Max Skill Points (on use)",
+            "Untouchable"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA13427",
+      "version": "01.008.001",
+      "title": "Horizon Zero Dawn Remastered",
+      "idLower": "ppsa13427",
+      "titleLower": "horizon zero dawn remastered",
+      "cheatsTotal": 7,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 7,
+          "cheats": [
+            "1 Hit Kill",
+            "Infi Aim Focus",
+            "Infi Air",
+            "Infi Health",
+            "Infi Items (No Decrease)",
+            "Infi Skill Points",
+            "Untouchable"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA13428",
+      "version": "01.008.001",
+      "title": "Horizon Zero Dawn Remastered",
+      "idLower": "ppsa13428",
+      "titleLower": "horizon zero dawn remastered",
+      "cheatsTotal": 7,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 7,
+          "cheats": [
+            "1 Hit Kill",
+            "Infi Aim Focus",
+            "Infi Air",
+            "Infi Health",
+            "Infi Items (No Decrease)",
+            "Infi Skill Points",
             "Untouchable"
           ]
         }
