@@ -1,6 +1,6 @@
 ## How to download
 1. Click the big, green **Code**-button.
-2. Click `Download ZIP`
+2. Click `Download ZIP` (or click [here](https://github.com/TeeKay87/HEN-Cheats-Collection/archive/refs/heads/master.zip))
 
 ## How to use
 1. FTP into your PlayStation
@@ -23,6 +23,8 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-07-01 | ADDED | PPSA02572 | 01.200.007 | [Alan Wake 2](https://hencheats.vercel.app/#PPSA02572-01.200.007) |
+| **---** | | | | |
 | 2026-06-28 | ADDED | PPSA13427 | 01.008.001 | [Horizon Zero Dawn Remastered](https://hencheats.vercel.app/#PPSA13427-01.008.001) |
 | 2026-06-28 | ADDED | PPSA13428 | 01.008.001 | [Horizon Zero Dawn Remastered](https://hencheats.vercel.app/#PPSA13428-01.008.001) |
 | 2026-06-27 | UPDATE | PPSA20396 | 01.019.076 | [Assassin's Creed Shadows](https://hencheats.vercel.app/#PPSA20396-01.019.076) |

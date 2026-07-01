@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-06-28T10:55:16.9867578Z",
+  "generatedUtc": "2026-07-01T08:28:14.6350216Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -107115,6 +107115,42 @@
             "Infi Hover",
             "No Reload",
             "Untouchable"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA02572",
+      "version": "01.200.007",
+      "title": "Alan Wake 2",
+      "idLower": "ppsa02572",
+      "titleLower": "alan wake 2",
+      "cheatsTotal": 4,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Infi Ammo",
+            "Infi Flashlight Focus",
+            "Infi Health",
+            "Infi Items"
           ]
         }
       }
