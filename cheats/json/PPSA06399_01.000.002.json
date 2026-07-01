@@ -1,0 +1,54 @@
+{
+  "name": "Pac-Man World Re-Pac",
+  "id": "PPSA06399",
+  "version": "01.000.002",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Balls",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCF000",
+          "on": "B93F420F00894C102C41FF442424E9A41DD400",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "80A10DAE",
+          "on": "E94DE22BFF90909090",
+          "off": "894C102C41FF442424"
+        }
+      ]
+    },
+    {
+      "name": "Inf Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "800C2B40",
+          "on": "90909090",
+          "off": "4189472C"
+        }
+      ]
+    },
+    {
+      "name": "Inf Lives",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCF033",
+          "on": "B8630000008981B0000000E9B346F300",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "80C036F0",
+          "on": "E93EB90CFF90",
+          "off": "8981B0000000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

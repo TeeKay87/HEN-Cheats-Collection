@@ -1,0 +1,59 @@
+{
+  "name": "Ratchet \u0026 Clank: Rift Apart",
+  "id": "PPSA01474",
+  "version": "01.005.003",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "252F000",
+          "on": "C783980400000000C842E91B2302FE",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "551322",
+          "on": "E9D9DCFD01909090",
+          "off": "C5FA118398040000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Coins",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "252F02F",
+          "on": "4489E141BDFFC99A3B45896F38E9DC2BE9FE",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "13C1C16",
+          "on": "E914D416019090",
+          "off": "4489E145896F38"
+        }
+      ]
+    },
+    {
+      "name": "Inf HP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "252F061",
+          "on": "813B7872D403740DC5FA119388000000E9E63CE5FEC5FA118388000000E9D93CE5FE",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1382D54",
+          "on": "E908C31A01909090",
+          "off": "C5FA119388000000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

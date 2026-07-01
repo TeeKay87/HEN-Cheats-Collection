@@ -1,0 +1,75 @@
+{
+  "name": "Digimon Story Time Stranger",
+  "id": "PPSA24701",
+  "version": "01.000.011",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf HP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0",
+          "on": "410F4DC5837B0C010F84AD5AB000894318E9A55AB000",
+          "off": "00000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "B05AB4",
+          "on": "E947A54FFF9090",
+          "off": "410F4DC5894318"
+        }
+      ]
+    },
+    {
+      "name": "Inf Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "36",
+          "on": "B86300000089410C0F8551BDA300E949BDA300",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "A3BD8D",
+          "on": "E9A4425CFF",
+          "off": "89410C7503"
+        }
+      ]
+    },
+    {
+      "name": "Inf Money",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "69",
+          "on": "C4E278F2C1B87F969800894758E93A04A400",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "A404AD",
+          "on": "E9B7FB5BFF909090",
+          "off": "C4E278F2C1894758"
+        }
+      ]
+    },
+    {
+      "name": "Inf MP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "9B",
+          "on": "4889DF448B7B7844897B78E95F3DEA00",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "EA3E03",
+          "on": "E993C215FF9090",
+          "off": "4889DF44897B78"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

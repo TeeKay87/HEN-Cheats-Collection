@@ -1,0 +1,69 @@
+{
+  "name": "Juicy Realm",
+  "id": "PPSA19268",
+  "version": "01.000.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB000",
+          "on": "66837B2801740AC5FA11432CE900A12701C5FA104330C5FA11432CE9F1A02701",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "80F4510C",
+          "on": "E9EF5ED8FE",
+          "off": "C5FA11432C"
+        }
+      ]
+    },
+    {
+      "name": "Inf Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB040",
+          "on": "C5FA10831C010000C5FA11831C010000E922A02B01",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "7FCCB075",
+          "on": "C5FA10831C010000C5FA11831C010000E9470FAB00",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "80F8506F",
+          "on": "E9CC5FD4FE909090",
+          "off": "C5FA11831C010000"
+        },
+        {
+          "offset": "8077BFC9",
+          "on": "E9A7F054FF909090",
+          "off": "C5FA11831C010000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Coins",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB0AA",
+          "on": "BE3F420F004189B77C020000E9E8ADE700",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "80B45E9C",
+          "on": "E9095218FF9090",
+          "off": "4189B77C020000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "name": "Forspoken",
+  "id": "PPSA03984",
+  "version": "01.020.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf HP Onehitkill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "617B000",
+          "on": "410F4ECC833A000F84FC8F58FBC7424000000000E9F08F58FB",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1704002",
+          "on": "E9F96FA7049090",
+          "off": "410F4ECC894A40"
+        }
+      ]
+    },
+    {
+      "name": "Inf HP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "617B039",
+          "on": "410F4ECC833A000F84C38F58FB894A40E9BB8F58FB",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1704002",
+          "on": "E93270A7049090",
+          "off": "410F4ECC894A40"
+        }
+      ]
+    },
+    {
+      "name": "Inf Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "617B06E",
+          "on": "43C744F30463000000E9311658FE",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "46FC6A8",
+          "on": "E9C1E9A701",
+          "off": "47897CF304"
+        }
+      ]
+    },
+    {
+      "name": "Inf Skill Points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "617B09C",
+          "on": "BB9F860100895F3C85D2E982395CFE",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "473EA28",
+          "on": "E96FC6A301",
+          "off": "895F3C85D2"
+        }
+      ]
+    },
+    {
+      "name": "No Cooldown",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "170C513",
+          "on": "909090909090",
+          "off": "41C644243601"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

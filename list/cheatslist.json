@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-01T08:28:14.6350216Z",
+  "generatedUtc": "2026-07-01T09:33:33.9183515Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -105299,6 +105299,82 @@
       }
     },
     {
+      "id": "CUSA50617",
+      "version": "01.21",
+      "title": "Elden Ring Nightreign",
+      "idLower": "cusa50617",
+      "titleLower": "elden ring nightreign",
+      "cheatsTotal": 42,
+      "creators": [
+        "Zade_Playzz BDG, Pharoah2k"
+      ],
+      "creatorsLower": [
+        "zade_playzz bdg, pharoah2k"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 14,
+          "cheats": [
+            "Disable Idle Timer",
+            "Enemies Dont Attack",
+            "God Mode",
+            "Inf\u002BMax FP",
+            "Inf\u002BMax Level (15)",
+            "Inf\u002BMax Stamina",
+            "Infinite Ultimate Art",
+            "Max\u002BInf Consumables",
+            "Max\u002BInf Merks",
+            "Max\u002BInf Runes",
+            "Multi Jump And Levitate",
+            "One Hit Kill",
+            "Player No Dead 1.21",
+            "Stop Night Growth"
+          ]
+        },
+        "shn": {
+          "hasFile": true,
+          "cheatsCount": 14,
+          "cheats": [
+            "Disable Idle Timer",
+            "Enemies Dont Attack",
+            "God Mode",
+            "Inf\u002BMax FP",
+            "Inf\u002BMax Level (15)",
+            "Inf\u002BMax Stamina",
+            "Infinite Ultimate Art",
+            "Max\u002BInf Consumables",
+            "Max\u002BInf Merks",
+            "Max\u002BInf Runes",
+            "Multi Jump And Levitate",
+            "One Hit Kill",
+            "Player No Dead 1.21",
+            "Stop Night Growth"
+          ]
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 14,
+          "cheats": [
+            "Disable Idle Timer",
+            "Enemies Dont Attack",
+            "God Mode",
+            "Inf\u002BMax FP",
+            "Inf\u002BMax Level (15)",
+            "Inf\u002BMax Stamina",
+            "Infinite Ultimate Art",
+            "Max\u002BInf Consumables",
+            "Max\u002BInf Merks",
+            "Max\u002BInf Runes",
+            "Multi Jump And Levitate",
+            "One Hit Kill",
+            "Player No Dead 1.21",
+            "Stop Night Growth"
+          ]
+        }
+      }
+    },
+    {
       "id": "CUSA50688",
       "version": "01.02",
       "title": "Nine Sols",
@@ -106398,6 +106474,45 @@
       }
     },
     {
+      "id": "PPSA01474",
+      "version": "01.005.003",
+      "title": "Ratchet \u0026 Clank: Rift Apart",
+      "idLower": "ppsa01474",
+      "titleLower": "ratchet \u0026 clank: rift apart",
+      "cheatsTotal": 6,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Inf Ammo",
+            "Inf Coins",
+            "Inf HP"
+          ]
+        },
+        "shn": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Inf Ammo",
+            "Inf Coins",
+            "Inf HP"
+          ]
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
       "id": "PPSA01494",
       "version": "01.003.001",
       "title": "Borderlands 4",
@@ -106431,6 +106546,49 @@
             "Infi Glide and Boost",
             "Infi Grenades",
             "Max Money and Iridium"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA01507",
+      "version": "04.004.000",
+      "title": "Immortals Fenyx Rising",
+      "idLower": "ppsa01507",
+      "titleLower": "immortals fenyx rising",
+      "cheatsTotal": 9,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Inf HP",
+            "Inf Items",
+            "Inf Stamina"
+          ]
+        },
+        "shn": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Inf HP",
+            "Inf Items",
+            "Inf Stamina"
+          ]
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Inf HP",
+            "Inf Items",
+            "Inf Stamina"
           ]
         }
       }
@@ -106686,6 +106844,49 @@
       }
     },
     {
+      "id": "PPSA01685",
+      "version": "01.031.000",
+      "title": "Sniper Elite 5",
+      "idLower": "ppsa01685",
+      "titleLower": "sniper elite 5",
+      "cheatsTotal": 10,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "Easy Exp",
+            "Inf Heart Rate",
+            "Inf Heart Rate Sight",
+            "Inf HP",
+            "No Reload"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "Easy Exp",
+            "Inf Heart Rate",
+            "Inf Heart Rate Sight",
+            "Inf HP",
+            "No Reload"
+          ]
+        }
+      }
+    },
+    {
       "id": "PPSA01716",
       "version": "01.000.027",
       "title": "Need for Speed Unbound",
@@ -106797,6 +106998,43 @@
       }
     },
     {
+      "id": "PPSA01886",
+      "version": "01.000.003",
+      "title": "Evergate",
+      "idLower": "ppsa01886",
+      "titleLower": "evergate",
+      "cheatsTotal": 4,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Inf Jumps",
+            "Inf Time"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Inf Jumps",
+            "Inf Time"
+          ]
+        }
+      }
+    },
+    {
       "id": "PPSA01925",
       "version": "01.000.003",
       "title": "Alan Wake Remastered",
@@ -106833,6 +107071,47 @@
           "hasFile": false,
           "cheatsCount": 0,
           "cheats": []
+        }
+      }
+    },
+    {
+      "id": "PPSA01981",
+      "version": "01.011.000",
+      "title": "Doom Eternal",
+      "idLower": "ppsa01981",
+      "titleLower": "doom eternal",
+      "cheatsTotal": 8,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Inf Ammo",
+            "Inf Hp And Armor",
+            "Inf Jumps",
+            "Inf Upgrade Points"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Inf Ammo",
+            "Inf Hp And Armor",
+            "Inf Jumps",
+            "Inf Upgrade Points"
+          ]
         }
       }
     },
@@ -106960,6 +107239,82 @@
             "Max Gold (On Spend)",
             "Max Money (On Pick)",
             "Max XP/Levels/Perks (Enable After Level 3)"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA02387",
+      "version": "01.000.000",
+      "title": "A Plague Tale: Innocence",
+      "idLower": "ppsa02387",
+      "titleLower": "a plague tale: innocence",
+      "cheatsTotal": 4,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Cant Hear You",
+            "Inf Items"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Cant Hear You",
+            "Inf Items"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA02395",
+      "version": "01.001.000",
+      "title": "Metro Exodus",
+      "idLower": "ppsa02395",
+      "titleLower": "metro exodus",
+      "cheatsTotal": 6,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Inf Ammo And Items",
+            "Inf Filter Time",
+            "Inf HP"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Inf Ammo And Items",
+            "Inf Filter Time",
+            "Inf HP"
           ]
         }
       }
@@ -107310,6 +107665,47 @@
       }
     },
     {
+      "id": "PPSA02801",
+      "version": "01.000.003",
+      "title": "New Joe \u0026 Mac: Caveman Ninja",
+      "idLower": "ppsa02801",
+      "titleLower": "new joe \u0026 mac: caveman ninja",
+      "cheatsTotal": 8,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Easy Score",
+            "Inf Hp",
+            "Inf Lives",
+            "Inf Time Energy"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Easy Score",
+            "Inf Hp",
+            "Inf Lives",
+            "Inf Time Energy"
+          ]
+        }
+      }
+    },
+    {
       "id": "PPSA02868",
       "version": "01.000.008",
       "title": "Mortal Shell: Enhanced Edition",
@@ -107542,6 +107938,43 @@
             "Max Cash and Items",
             "Max Exp",
             "No Damage (Fall, Fire, Poison, Frozen)"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA03157",
+      "version": "01.004.000",
+      "title": "Exodemon",
+      "idLower": "ppsa03157",
+      "titleLower": "exodemon",
+      "cheatsTotal": 4,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Inf Ammo",
+            "Inf Hp"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Inf Ammo",
+            "Inf Hp"
           ]
         }
       }
@@ -107850,6 +108283,67 @@
       }
     },
     {
+      "id": "PPSA03831",
+      "version": "01.041.000",
+      "title": "Sonic Frontiers",
+      "idLower": "ppsa03831",
+      "titleLower": "sonic frontiers",
+      "cheatsTotal": 28,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 14,
+          "cheats": [
+            "Easy points on Minigames",
+            "Inf Blue Coins",
+            "Inf Exp",
+            "Inf Fishing Coins",
+            "Inf Fishing Golden Tickets",
+            "Inf Gears and Keys (Activate after 1-2 Level)",
+            "Inf Jumps",
+            "Inf Memories Coins",
+            "Inf O2",
+            "Inf Rings",
+            "Inf Seeds",
+            "Inf Small Items",
+            "Inf Turbo",
+            "Stop Timers"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 14,
+          "cheats": [
+            "Easy points on Minigames",
+            "Inf Blue Coins",
+            "Inf Exp",
+            "Inf Fishing Coins",
+            "Inf Fishing Golden Tickets",
+            "Inf Gears and Keys (Activate after 1-2 Level)",
+            "Inf Jumps",
+            "Inf Memories Coins",
+            "Inf O2",
+            "Inf Rings",
+            "Inf Seeds",
+            "Inf Small Items",
+            "Inf Turbo",
+            "Stop Timers"
+          ]
+        }
+      }
+    },
+    {
       "id": "PPSA03845",
       "version": "01.000.004",
       "title": "Dead Space",
@@ -108122,6 +108616,49 @@
       }
     },
     {
+      "id": "PPSA03984",
+      "version": "01.020.000",
+      "title": "Forspoken",
+      "idLower": "ppsa03984",
+      "titleLower": "forspoken",
+      "cheatsTotal": 10,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "Inf HP",
+            "Inf HP Onehitkill",
+            "Inf Items",
+            "Inf Skill Points",
+            "No Cooldown"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "Inf HP",
+            "Inf HP Onehitkill",
+            "Inf Items",
+            "Inf Skill Points",
+            "No Cooldown"
+          ]
+        }
+      }
+    },
+    {
       "id": "PPSA04028",
       "version": "02.120.000",
       "title": "Cyberpunk 2077",
@@ -108202,6 +108739,41 @@
             "Max/Infinite Money",
             "No Reload",
             "Zero Weight"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA04181",
+      "version": "01.000.002",
+      "title": "Hoa",
+      "idLower": "ppsa04181",
+      "titleLower": "hoa",
+      "cheatsTotal": 2,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 1,
+          "cheats": [
+            "Inf Jumps"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 1,
+          "cheats": [
+            "Inf Jumps"
           ]
         }
       }
@@ -108498,6 +109070,43 @@
       }
     },
     {
+      "id": "PPSA04930",
+      "version": "01.048.000",
+      "title": "SnowRunner",
+      "idLower": "ppsa04930",
+      "titleLower": "snowrunner",
+      "cheatsTotal": 4,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Inf Fuel",
+            "No Damage"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Inf Fuel",
+            "No Damage"
+          ]
+        }
+      }
+    },
+    {
       "id": "PPSA05059",
       "version": "01.000.000",
       "title": "RoboCop: Rogue City",
@@ -108685,18 +109294,22 @@
       "title": "A Plague Tale: Requiem",
       "idLower": "ppsa05366",
       "titleLower": "a plague tale: requiem",
-      "cheatsTotal": 1,
+      "cheatsTotal": 3,
       "creators": [
+        "Talixme",
         "Weysincha"
       ],
       "creatorsLower": [
+        "talixme",
         "weysincha"
       ],
       "formats": {
         "json": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 1,
+          "cheats": [
+            "Inf Items"
+          ]
         },
         "shn": {
           "hasFile": true,
@@ -108706,9 +109319,11 @@
           ]
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 1,
+          "cheats": [
+            "Inf Items"
+          ]
         }
       }
     },
@@ -108856,6 +109471,43 @@
       }
     },
     {
+      "id": "PPSA05721",
+      "version": "01.000.005",
+      "title": "Wytchwood",
+      "idLower": "ppsa05721",
+      "titleLower": "wytchwood",
+      "cheatsTotal": 4,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Inf Hp",
+            "Inf Items"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Inf Hp",
+            "Inf Items"
+          ]
+        }
+      }
+    },
+    {
       "id": "PPSA06389",
       "version": "01.000.000",
       "title": "System Shock",
@@ -108885,6 +109537,41 @@
           "cheats": [
             "Inf Health \u0026 Spark Beam"
           ]
+        }
+      }
+    },
+    {
+      "id": "PPSA06399",
+      "version": "01.000.002",
+      "title": "Pac-Man World Re-Pac",
+      "idLower": "ppsa06399",
+      "titleLower": "pac-man world re-pac",
+      "cheatsTotal": 3,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Inf Balls",
+            "Inf Hp",
+            "Inf Lives"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },
@@ -108920,6 +109607,51 @@
             "Infi Ammo",
             "Infi Items \u0026 Money (get)",
             "Infi Stamina"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA06774",
+      "version": "01.009.000",
+      "title": "Armored Core VI: Fires of Rubicon",
+      "idLower": "ppsa06774",
+      "titleLower": "armored core vi: fires of rubicon",
+      "cheatsTotal": 12,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 6,
+          "cheats": [
+            "Inf Ammo",
+            "Inf Hp",
+            "Inf Hp And Onehitkill",
+            "Inf Medkits",
+            "Inf Money",
+            "Inf Stamina"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 6,
+          "cheats": [
+            "Inf Ammo",
+            "Inf Hp",
+            "Inf Hp And Onehitkill",
+            "Inf Medkits",
+            "Inf Money",
+            "Inf Stamina"
           ]
         }
       }
@@ -109769,6 +110501,45 @@
       }
     },
     {
+      "id": "PPSA08427",
+      "version": "02.006.000",
+      "title": "Killing Floor 3",
+      "idLower": "ppsa08427",
+      "titleLower": "killing floor 3",
+      "cheatsTotal": 6,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Inf Armor",
+            "Inf Hp  Items",
+            "Inf Money"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Inf Armor",
+            "Inf Hp Items",
+            "Inf Money"
+          ]
+        }
+      }
+    },
+    {
       "id": "PPSA08666",
       "version": "01.040.000",
       "title": "Final Fantasy VII Rebirth",
@@ -110240,6 +111011,47 @@
       }
     },
     {
+      "id": "PPSA10050",
+      "version": "01.000.000",
+      "title": "Saga Of Sins",
+      "idLower": "ppsa10050",
+      "titleLower": "saga of sins",
+      "cheatsTotal": 8,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Inf Coins",
+            "Inf Hp",
+            "Inf Hp One Hit Kill",
+            "Inf Super"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Inf Coins",
+            "Inf Hp",
+            "Inf Hp One Hit Kill",
+            "Inf Super"
+          ]
+        }
+      }
+    },
+    {
       "id": "PPSA10053",
       "version": "01.005.000",
       "title": "Banishers: Ghosts of New Eden",
@@ -110526,6 +111338,47 @@
           "cheats": [
             "Inf Ammo \u0026 Items",
             "Inf Health"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA10664",
+      "version": "01.003.004",
+      "title": "Final Fantasy XVI",
+      "idLower": "ppsa10664",
+      "titleLower": "final fantasy xvi",
+      "cheatsTotal": 8,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Inf HP",
+            "Inf HP \u0026 One Hit kill",
+            "Inf Items",
+            "Inf Money"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Inf HP",
+            "Inf HP \u0026 One Hit kill",
+            "Inf Items",
+            "Inf Money"
           ]
         }
       }
@@ -111405,6 +112258,45 @@
       }
     },
     {
+      "id": "PPSA17525",
+      "version": "01.008.001",
+      "title": "Gears of War: Reloaded",
+      "idLower": "ppsa17525",
+      "titleLower": "gears of war: reloaded",
+      "cheatsTotal": 6,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Inf Ammo",
+            "Inf Hp",
+            "Inf Hp And Onehitkill"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Inf Ammo",
+            "Inf Hp",
+            "Inf Hp And Onehitkill"
+          ]
+        }
+      }
+    },
+    {
       "id": "PPSA17599",
       "version": "01.400.000",
       "title": "Clair Obscur: Expedition 33",
@@ -111521,6 +112413,45 @@
             "Max Exp",
             "Maximum Number of Kills",
             "Time Stop"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA19268",
+      "version": "01.000.000",
+      "title": "Juicy Realm",
+      "idLower": "ppsa19268",
+      "titleLower": "juicy realm",
+      "cheatsTotal": 6,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Inf Ammo",
+            "Inf Coins",
+            "Inf Hp"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Inf Ammo",
+            "Inf Coins",
+            "Inf Hp"
           ]
         }
       }
@@ -111646,6 +112577,43 @@
             "Max/Infinite Lacrimas",
             "Max/Infinite Skill Points",
             "No Weight"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA20548",
+      "version": "01.003.001",
+      "title": "Eriksholm: The Stolen Dream",
+      "idLower": "ppsa20548",
+      "titleLower": "eriksholm: the stolen dream",
+      "cheatsTotal": 4,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Cant Hear You",
+            "Cant See You"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Cant Hear You",
+            "Cant See You"
           ]
         }
       }
@@ -112038,6 +113006,43 @@
       }
     },
     {
+      "id": "PPSA23885",
+      "version": "01.000.000",
+      "title": "Little Big Adventure \u2013 Twinsen\u2019s Quest",
+      "idLower": "ppsa23885",
+      "titleLower": "little big adventure \u2013 twinsen\u2019s quest",
+      "cheatsTotal": 4,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Inf Coins",
+            "Inf Lives"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Inf Coins",
+            "Inf Lives"
+          ]
+        }
+      }
+    },
+    {
       "id": "PPSA24096",
       "version": "01.006.000",
       "title": "Cronos: The New Dawn",
@@ -112071,6 +113076,47 @@
             "Infi Health",
             "Infi Items (No Reduction)",
             "Untouchable"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA24701",
+      "version": "01.000.011",
+      "title": "Digimon Story Time Stranger",
+      "idLower": "ppsa24701",
+      "titleLower": "digimon story time stranger",
+      "cheatsTotal": 8,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Inf HP",
+            "Inf Items",
+            "Inf Money",
+            "Inf MP"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Inf HP",
+            "Inf Items",
+            "Inf Money",
+            "Inf MP"
           ]
         }
       }
@@ -112193,6 +113239,45 @@
       }
     },
     {
+      "id": "PPSA26097",
+      "version": "02.000.000",
+      "title": "Yooka-Replaylee",
+      "idLower": "ppsa26097",
+      "titleLower": "yooka-replaylee",
+      "cheatsTotal": 6,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Inf Coins",
+            "Inf Hp",
+            "Inf Sonar"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Inf Coins",
+            "Inf Hp",
+            "Inf Sonar"
+          ]
+        }
+      }
+    },
+    {
       "id": "PPSA26344",
       "version": "01.008.000",
       "title": "Ghost of Yotei",
@@ -112223,6 +113308,49 @@
             "1 Hit Kill",
             "Infi Health",
             "Max Money (Buy or Sell)"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA26358",
+      "version": "01.000.000",
+      "title": "Lost Soul Aside\u2122",
+      "idLower": "ppsa26358",
+      "titleLower": "lost soul aside\u2122",
+      "cheatsTotal": 9,
+      "creators": [
+        "Sunrita"
+      ],
+      "creatorsLower": [
+        "sunrita"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Infinite Health",
+            "Item 99",
+            "Max Divine Gold"
+          ]
+        },
+        "shn": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Infinite Health",
+            "Item 99",
+            "Max Divine Gold"
+          ]
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Infinite Health",
+            "Item 99",
+            "Max Divine Gold"
           ]
         }
       }
@@ -112296,6 +113424,47 @@
             "Infi Health",
             "Infi Money \u0026 Points (Get)",
             "Infi Stamina"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA27676",
+      "version": "01.007.000",
+      "title": "Painkiller",
+      "idLower": "ppsa27676",
+      "titleLower": "painkiller",
+      "cheatsTotal": 8,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Inf Ammo",
+            "Inf Coins",
+            "Inf Hp",
+            "Inf Lives"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Inf Ammo",
+            "Inf Coins",
+            "Inf Hp",
+            "Inf Lives"
           ]
         }
       }

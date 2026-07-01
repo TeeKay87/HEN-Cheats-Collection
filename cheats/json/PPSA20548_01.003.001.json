@@ -1,0 +1,33 @@
+{
+  "name": "Eriksholm: The Stolen Dream",
+  "id": "PPSA20548",
+  "version": "01.003.001",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Cant Hear You",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3BC47CE",
+          "on": "90909090909090",
+          "off": "C4C17A11442418"
+        }
+      ]
+    },
+    {
+      "name": "Cant See You",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3BD4214",
+          "on": "9090909090",
+          "off": "C5FA114878"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

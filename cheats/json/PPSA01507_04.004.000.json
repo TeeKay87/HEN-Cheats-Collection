@@ -1,0 +1,59 @@
+{
+  "name": "Immortals Fenyx Rising",
+  "id": "PPSA01507",
+  "version": "04.004.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf HP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5A03000",
+          "on": "898F38010000E9307AB4FD",
+          "off": "0000000000000000000000"
+        },
+        {
+          "offset": "354AA35",
+          "on": "E9C6854B0290",
+          "off": "899738010000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5A0302B",
+          "on": "0F47D1BA3F420F008910E9F69B03FE",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "3A3CC2B",
+          "on": "E9FB63FC01",
+          "off": "0F47D18910"
+        }
+      ]
+    },
+    {
+      "name": "Inf Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5A0305A",
+          "on": "C4C17A1085D0010000C4C17A1185D0010000E953D0B4FD",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "35500BB",
+          "on": "E99A2F4B0290909090",
+          "off": "C4C17A1185D0010000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

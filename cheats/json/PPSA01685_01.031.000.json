@@ -1,0 +1,76 @@
+{
+  "name": "Sniper Elite 5",
+  "id": "PPSA01685",
+  "version": "01.031.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Easy Exp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "E53000",
+          "on": "498B46084901442408E98ABA23FF",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "8EA8F",
+          "on": "E96C45DC0090909090",
+          "off": "498B46084989442408"
+        }
+      ]
+    },
+    {
+      "name": "Inf Heart Rate Sight",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1689CD",
+          "on": "909090909090",
+          "off": "C4C17A114710"
+        }
+      ]
+    },
+    {
+      "name": "Inf Heart Rate",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "169648",
+          "on": "909090909090",
+          "off": "C4C17A114F10"
+        }
+      ]
+    },
+    {
+      "name": "Inf HP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "E5302E",
+          "on": "837B08000F84C14A6EFFC5FA114B60E9B74A6EFF",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "537AF4",
+          "on": "E935B59100",
+          "off": "C5FA114B60"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "362215",
+          "on": "909090",
+          "off": "897940"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

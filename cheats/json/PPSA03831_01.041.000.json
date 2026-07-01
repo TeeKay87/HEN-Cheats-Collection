@@ -1,0 +1,245 @@
+{
+  "name": "Sonic Frontiers",
+  "id": "PPSA03831",
+  "version": "01.041.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Rings",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1D4F000",
+          "on": "4889DF8B4824894828E9133051FF",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "1D4F02E",
+          "on": "01CA8B5028895028E997476CFF",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "13B4A56",
+          "on": "909090",
+          "off": "897A28"
+        },
+        {
+          "offset": "126201B",
+          "on": "E9E0CFAE0090",
+          "off": "4889DF894828"
+        },
+        {
+          "offset": "14137CD",
+          "on": "E95CB89300",
+          "off": "01CA895028"
+        }
+      ]
+    },
+    {
+      "name": "Inf Turbo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "13ABA85",
+          "on": "C4C17A114940",
+          "off": "C4C17A114140"
+        }
+      ]
+    },
+    {
+      "name": "Inf O2",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1D4F05B",
+          "on": "41C7451C00000000C4C17A10451CC4C17A11451CE9D50168FF",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "13CF243",
+          "on": "E913FE970090",
+          "off": "C4C17A11451C"
+        }
+      ]
+    },
+    {
+      "name": "Stop Timers",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "42B1C3",
+          "on": "9090909090",
+          "off": "C5FA114730"
+        },
+        {
+          "offset": "37A2AF",
+          "on": "9090909090909090",
+          "off": "C5FA118BA8000000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Exp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1D4F094",
+          "on": "4C89F7B83F420F004189455CE9005B60FE",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "354B9E",
+          "on": "E9F1A49F019090",
+          "off": "4C89F74189455C"
+        }
+      ]
+    },
+    {
+      "name": "Inf Memories Coins",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1D4F0C5",
+          "on": "41BE0F2700004689B4B800140000E9050D3EFF",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "112FDD5",
+          "on": "E9EBF2C100909090",
+          "off": "4689B4B800140000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Small Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1D4F0F8",
+          "on": "4101723041015234E95C9D27FF",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "FC8E59",
+          "on": "E99A62D800909090",
+          "off": "4129723041295234"
+        }
+      ]
+    },
+    {
+      "name": "Inf Blue Coins",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1D4F125",
+          "on": "66BAFF0066895038488B7B20E9242951FF",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "1261A52",
+          "on": "E9CED6AE00909090",
+          "off": "66895038488B7B20"
+        }
+      ]
+    },
+    {
+      "name": "Inf Seeds",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1D4F156",
+          "on": "41BDE70300004489A86C190000E91C4824FF",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "F9397D",
+          "on": "E9D4B7DB009090",
+          "off": "4489A86C190000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Fishing Coins",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1D4F188",
+          "on": "BB0F27000041895E2841F6463004E969A47CFF",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "15195FB",
+          "on": "E9885B830090909090",
+          "off": "41895E2841F6463004"
+        }
+      ]
+    },
+    {
+      "name": "Inf Fishing Golden Tickets",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1D4F1BB",
+          "on": "BBE703000041895E28488D9D60FFFFFFE931737CFF",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "15164F6",
+          "on": "E9C08C8300909090909090",
+          "off": "41895E28488D9D60FFFFFF"
+        }
+      ]
+    },
+    {
+      "name": "Inf Gears and Keys (Activate after 1-2 Level)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1D4F1F0",
+          "on": "41B6634688B43800100000E9DD083EFF",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "112FAD5",
+          "on": "E916F7C100909090",
+          "off": "4688B43800100000"
+        }
+      ]
+    },
+    {
+      "name": "Easy points on Minigames",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1D4F220",
+          "on": "B83F420F0041018424F0000000E9896B2FFF",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1045DB3",
+          "on": "E96894D000909090",
+          "off": "41018424F0000000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Jumps",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1D4F252",
+          "on": "418A877C0100004188877C010000E9ACF96CFF",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "141EC0A",
+          "on": "E9430693009090",
+          "off": "4188877C010000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Wytchwood",
+  "id": "PPSA05721",
+  "version": "01.000.005",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB000",
+          "on": "B803000000418947204883C408E9283E2B00",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "7FF7EE32",
+          "on": "E9C9C1D4FF909090",
+          "off": "418947204883C408"
+        }
+      ]
+    },
+    {
+      "name": "Inf Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB032",
+          "on": "415653BE6300000089771CE908342C00",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "7FF8E444",
+          "on": "E9E9CBD3FF90",
+          "off": "41565389771C"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

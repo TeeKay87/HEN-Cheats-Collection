@@ -1,0 +1,33 @@
+{
+  "name": "Evergate",
+  "id": "PPSA01886",
+  "version": "01.000.003",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Jumps",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FF36569",
+          "on": "90909090",
+          "off": "41FF4E1C"
+        }
+      ]
+    },
+    {
+      "name": "Inf Time",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FDCC902",
+          "on": "9090909090909090",
+          "off": "C5FA1183BC000000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

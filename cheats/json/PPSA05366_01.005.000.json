@@ -1,0 +1,37 @@
+{
+  "name": "A Plague Tale: Requiem",
+  "id": "PPSA05366",
+  "version": "01.005.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "204F000",
+          "on": "41BE6300000044897048498B0424E9C57DB0FE",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "204F033",
+          "on": "B863000000894248488B03E9DD79B0FE",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "B56DD0",
+          "on": "E92B824F01909090",
+          "off": "44297048498B0424"
+        },
+        {
+          "offset": "B56A1A",
+          "on": "E914864F0190",
+          "off": "014248488B03"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Yooka-Replaylee",
+  "id": "PPSA26097",
+  "version": "02.000.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD17000",
+          "on": "8B433489433039C8E902B97800",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "804A290A",
+          "on": "E9F14687FF",
+          "off": "89433039C8"
+        }
+      ]
+    },
+    {
+      "name": "Inf Sonar",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80319397",
+          "on": "909090909090",
+          "off": "C4C17A114750"
+        }
+      ]
+    },
+    {
+      "name": "Inf Coins",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD1702D",
+          "on": "BB3F420F0041895E3431FFE9B4E88F00",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "7FD1705D",
+          "on": "C740343F420F00B001E93FEA8F00",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "806158EB",
+          "on": "E93D1770FF90",
+          "off": "41015E3431FF"
+        },
+        {
+          "offset": "80615AA5",
+          "on": "E9B31570FF",
+          "off": "894834B001"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Killing Floor 3",
+  "id": "PPSA08427",
+  "version": "02.006.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Hp  Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6F1302C",
+          "on": "C5FA104708C5FA114708C5FA11470CE95979ADFC",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "39EA994",
+          "on": "E993865203",
+          "off": "C5FA114708"
+        }
+      ]
+    },
+    {
+      "name": "Inf Armor",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6F13060",
+          "on": "C5FA10470CC5FA11470CE91A79ADFC",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "39EA984",
+          "on": "E9D7865203",
+          "off": "C5FA11470C"
+        }
+      ]
+    },
+    {
+      "name": "Inf Money",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6F1308F",
+          "on": "C787A80700007F96184BC5FA108FA8070000C5FA118FA8070000E97FA3DFFD",
+          "off": "00000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4D0D425",
+          "on": "E9655C2002909090",
+          "off": "C5FA118FA8070000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

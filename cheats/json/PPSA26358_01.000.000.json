@@ -1,0 +1,59 @@
+{
+  "name": "Lost Soul Aside\u2122",
+  "id": "PPSA26358",
+  "version": "01.000.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Max Divine Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "61B3BC0",
+          "on": "C78098040000FFE0F505E90BE5DFFA",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "FB20D3",
+          "on": "E9E81A20059090",
+          "off": "4489B898040000"
+        }
+      ]
+    },
+    {
+      "name": "Item 99",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "61B3AB0",
+          "on": "41C74104630000008B08E9C03332FB",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "14D6E79",
+          "on": "E932CCCD0490",
+          "off": "412949048B08"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "61B34E0",
+          "on": "817F780000803F750CC7470C00007A44E97412C0FAC5FA11470CE96A12C0FA",
+          "off": "00000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "DB4764",
+          "on": "E977ED3F05",
+          "off": "C5FA11470C"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Sunrita"
+  ]
+}

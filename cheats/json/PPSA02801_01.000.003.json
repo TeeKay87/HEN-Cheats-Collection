@@ -1,0 +1,70 @@
+{
+  "name": "New Joe \u0026 Mac: Caveman Ninja",
+  "id": "PPSA02801",
+  "version": "01.000.003",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Easy Score",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB000",
+          "on": "41F7FD418146100F270000E991B83A01",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "8107689A",
+          "on": "E96147C5FE9090",
+          "off": "41F7FD45897E10"
+        }
+      ]
+    },
+    {
+      "name": "Inf Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB030",
+          "on": "C5FA104014C5FA114010E9FE690001",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "80CD1A38",
+          "on": "E9F395FFFE",
+          "off": "C5FA114010"
+        }
+      ]
+    },
+    {
+      "name": "Inf Lives",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80CD40F7",
+          "on": "9090",
+          "off": "FFCA"
+        }
+      ]
+    },
+    {
+      "name": "Inf Time Energy",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB05F",
+          "on": "C5FA104814C5FA114810E9BE820001",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "80CD3327",
+          "on": "E9337DFFFE",
+          "off": "C5FA114810"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

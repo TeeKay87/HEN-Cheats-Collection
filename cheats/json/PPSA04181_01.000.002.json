@@ -1,0 +1,22 @@
+{
+  "name": "Hoa",
+  "id": "PPSA04181",
+  "version": "01.000.002",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Jumps",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80509753",
+          "on": "90909090909090",
+          "off": "C680CC00000000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

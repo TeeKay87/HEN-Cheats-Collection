@@ -1,0 +1,48 @@
+{
+  "name": "A Plague Tale: Innocence",
+  "id": "PPSA02387",
+  "version": "01.000.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Cant Hear You",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8F14",
+          "on": "909090909090909090",
+          "off": "C4C17A118690010000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB000",
+          "on": "C7403863000000498B0424E9F8395D80",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "7FCCB030",
+          "on": "41C70763000000418B07894238E98B375D80",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "29EA00",
+          "on": "E9FBC5A27F909090",
+          "off": "44297038498B0424"
+        },
+        {
+          "offset": "29E7C7",
+          "on": "E964C8A27F90",
+          "off": "418B07014238"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

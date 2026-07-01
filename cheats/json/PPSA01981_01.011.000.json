@@ -1,0 +1,65 @@
+{
+  "name": "Doom Eternal",
+  "id": "PPSA01981",
+  "version": "01.011.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2A0B000",
+          "on": "4C89F7418B463841894638E9AFA7A4FE",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "14557B8",
+          "on": "E943585B019090",
+          "off": "4C89F741894638"
+        }
+      ]
+    },
+    {
+      "name": "Inf Hp And Armor",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "711708",
+          "on": "909090909090",
+          "off": "C4E379170001"
+        }
+      ]
+    },
+    {
+      "name": "Inf Jumps",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1FF236",
+          "on": "909090909090",
+          "off": "898380410000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Upgrade Points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2A0B030",
+          "on": "42C784BFC4CA040063000000E9FA037DFE",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "11DB433",
+          "on": "E9F8FB8201909090",
+          "off": "420194BFC4CA0400"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

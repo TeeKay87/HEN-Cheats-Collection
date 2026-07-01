@@ -1,0 +1,102 @@
+{
+  "name": "Armored Core VI: Fires of Rubicon",
+  "id": "PPSA06774",
+  "version": "01.009.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "FCF84A",
+          "on": "9090",
+          "off": "29C3"
+        }
+      ]
+    },
+    {
+      "name": "Inf Hp And Onehitkill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB022",
+          "on": "837B50000F8494EE2281C7836802000000000000E985EE2281",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "EF9EBA",
+          "on": "E96311DD7E90",
+          "off": "898B68020000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB05B",
+          "on": "837B50000F845BEE2281898B68020000E950EE2281",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "EF9EBA",
+          "on": "E99C11DD7E90",
+          "off": "898B68020000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Medkits",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB090",
+          "on": "B8630000008901498B4D00E9E049E280",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "AEFA7A",
+          "on": "E911B61D7F90",
+          "off": "8901498B4D00"
+        }
+      ]
+    },
+    {
+      "name": "Inf Money",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB0C0",
+          "on": "C4E270F2CBB9FFE0F505894A74E99C595181",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "11E0A66",
+          "on": "E955A6AE7E909090",
+          "off": "C4E270F2CB894A74"
+        }
+      ]
+    },
+    {
+      "name": "Inf Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB0F2",
+          "on": "C5FA104324C5FA114324E98B682881",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "F51987",
+          "on": "E96697D77E",
+          "off": "C5FA114324"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

@@ -24,6 +24,35 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
 | 2026-07-01 | ADDED | PPSA02572 | 01.200.007 | [Alan Wake 2](https://hencheats.vercel.app/#PPSA02572-01.200.007) |
+| 2026-07-01 | ADDED | CUSA50617 | 01.21 | [Elden Ring Nightreign](https://hencheats.vercel.app/#CUSA50617-01.21) |
+| 2026-07-01 | ADDED | PPSA26097 | 02.000.000 | [Yooka-Replaylee](https://hencheats.vercel.app/#PPSA26097-02.000.000) |
+| 2026-07-01 | ADDED | PPSA24701 | 01.000.011 | [Digimon Story Time Stranger](https://hencheats.vercel.app/#PPSA24701-01.000.011) |
+| 2026-07-01 | ADDED | PPSA23885 | 01.000.000 | [Little Big Adventure – Twinsen’s Quest](https://hencheats.vercel.app/#PPSA23885-01.000.000) |
+| 2026-07-01 | ADDED | PPSA20548 | 01.003.001 | [Eriksholm: The Stolen Dream](https://hencheats.vercel.app/#PPSA20548-01.003.001) |
+| 2026-07-01 | ADDED | PPSA19268 | 01.000.000 | [Juicy Realm](https://hencheats.vercel.app/#PPSA19268-01.000.000) |
+| 2026-07-01 | ADDED | PPSA17525 | 01.008.001 | [Gears of War: Reloaded](https://hencheats.vercel.app/#PPSA17525-01.008.001) |
+| 2026-07-01 | ADDED | PPSA10664 | 01.003.004 | [Final Fantasy XVI](https://hencheats.vercel.app/#PPSA10664-01.003.004) |
+| 2026-07-01 | ADDED | PPSA10050 | 01.000.000 | [Saga Of Sins](https://hencheats.vercel.app/#PPSA10050-01.000.000) |
+| 2026-07-01 | ADDED | PPSA08427 | 02.006.000 | [Killing Floor 3](https://hencheats.vercel.app/#PPSA08427-02.006.000) |
+| 2026-07-01 | ADDED | PPSA06774 | 01.009.000 | [Armored Core VI: Fires of Rubicon](https://hencheats.vercel.app/#PPSA06774-01.009.000) |
+| 2026-07-01 | ADDED | PPSA06399 | 01.000.002 | [Pac-Man World Re-Pac](https://hencheats.vercel.app/#PPSA06399-01.000.002) |
+| 2026-07-01 | ADDED | PPSA05721 | 01.000.005 | [Wytchwood](https://hencheats.vercel.app/#PPSA05721-01.000.005) |
+| 2026-07-01 | ADDED | PPSA26358 | 01.000.000 | [Lost Soul Aside™](https://hencheats.vercel.app/#PPSA26358-01.000.000) |
+| 2026-07-01 | ADDED | PPSA05366 | 01.005.000 | [A Plague Tale: Requiem](https://hencheats.vercel.app/#PPSA05366-01.005.000) |
+| 2026-07-01 | ADDED | PPSA04181 | 01.000.002 | [Hoa](https://hencheats.vercel.app/#PPSA04181-01.000.002) |
+| 2026-07-01 | ADDED | PPSA03984 | 01.020.000 | [Forspoken](https://hencheats.vercel.app/#PPSA03984-01.020.000) |
+| 2026-07-01 | ADDED | PPSA03831 | 01.041.000 | [Sonic Frontiers](https://hencheats.vercel.app/#PPSA03831-01.041.000) |
+| 2026-07-01 | ADDED | PPSA03157 | 01.004.000 | [Exodemon](https://hencheats.vercel.app/#PPSA03157-01.004.000) |
+| 2026-07-01 | ADDED | PPSA02801 | 01.000.003 | [New Joe & Mac: Caveman Ninja](https://hencheats.vercel.app/#PPSA02801-01.000.003) |
+| 2026-07-01 | ADDED | PPSA02395 | 01.001.000 | [Metro Exodus](https://hencheats.vercel.app/#PPSA02395-01.001.000) |
+| 2026-07-01 | ADDED | PPSA02387 | 01.000.000 | [A Plague Tale: Innocence](https://hencheats.vercel.app/#PPSA02387-01.000.000) |
+| 2026-07-01 | ADDED | PPSA01981 | 01.011.000 | [Doom Eternal](https://hencheats.vercel.app/#PPSA01981-01.011.000) |
+| 2026-07-01 | ADDED | PPSA01886 | 01.000.003 | [Evergate](https://hencheats.vercel.app/#PPSA01886-01.000.003) |
+| 2026-07-01 | ADDED | PPSA01685 | 01.031.000 | [Sniper Elite 5](https://hencheats.vercel.app/#PPSA01685-01.031.000) |
+| 2026-07-01 | ADDED | PPSA01507 | 04.004.000 | [Immortals Fenyx Rising](https://hencheats.vercel.app/#PPSA01507-04.004.000) |
+| 2026-07-01 | ADDED | PPSA01474 | 01.005.003 | [Ratchet & Clank: Rift Apart](https://hencheats.vercel.app/#PPSA01474-01.005.003) |
+| 2026-07-01 | ADDED | PPSA04930 | 01.048.000 | [SnowRunner](https://hencheats.vercel.app/#PPSA04930-01.048.000) |
+| 2026-07-01 | ADDED | PPSA27676 | 01.007.000 | [Painkiller](https://hencheats.vercel.app/#PPSA27676-01.007.000) |
 | **---** | | | | |
 | 2026-06-28 | ADDED | PPSA13427 | 01.008.001 | [Horizon Zero Dawn Remastered](https://hencheats.vercel.app/#PPSA13427-01.008.001) |
 | 2026-06-28 | ADDED | PPSA13428 | 01.008.001 | [Horizon Zero Dawn Remastered](https://hencheats.vercel.app/#PPSA13428-01.008.001) |

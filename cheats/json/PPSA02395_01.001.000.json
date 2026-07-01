@@ -1,0 +1,54 @@
+{
+  "name": "Metro Exodus",
+  "id": "PPSA02395",
+  "version": "01.001.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Ammo And Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "140B000",
+          "on": "66C74772E7030FB74772C3E935EC0FFF",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "509C40",
+          "on": "E9BB13F000",
+          "off": "0FB74772C3"
+        }
+      ]
+    },
+    {
+      "name": "Inf Filter Time",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "140B030",
+          "on": "C5FA1083880B0000C5FA1183880B0000E9F7E678FF",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "B99734",
+          "on": "E9F7188700909090",
+          "off": "C5FA1183880B0000"
+        }
+      ]
+    },
+    {
+      "name": "Inf HP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4445C9",
+          "on": "9090909090",
+          "off": "E8F20F4100"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

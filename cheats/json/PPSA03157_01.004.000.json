@@ -1,0 +1,33 @@
+{
+  "name": "Exodemon",
+  "id": "PPSA03157",
+  "version": "01.004.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FFF2476",
+          "on": "90909090",
+          "off": "44297818"
+        }
+      ]
+    },
+    {
+      "name": "Inf Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80BA89C6",
+          "on": "90909090",
+          "off": "44297330"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

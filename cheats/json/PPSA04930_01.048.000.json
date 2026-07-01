@@ -1,0 +1,33 @@
+{
+  "name": "SnowRunner",
+  "id": "PPSA04930",
+  "version": "01.048.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Fuel",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "10E55A2",
+          "on": "C5FA118FF0060000",
+          "off": "C5FA1187F0060000"
+        }
+      ]
+    },
+    {
+      "name": "No Damage",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "F61093",
+          "on": "9090909090",
+          "off": "4389442708"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}
