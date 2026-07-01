@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-01T09:33:33.9183515Z",
+  "generatedUtc": "2026-07-01T16:39:50.1277418Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -107740,6 +107740,39 @@
       }
     },
     {
+      "id": "PPSA02985",
+      "version": "02.001.000",
+      "title": "Fishing: North Atlantic",
+      "idLower": "ppsa02985",
+      "titleLower": "fishing: north atlantic",
+      "cheatsTotal": 1,
+      "creators": [
+        "Q8Despair"
+      ],
+      "creatorsLower": [
+        "q8despair"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 1,
+          "cheats": [
+            "Fish sells for more cash!"
+          ]
+        }
+      }
+    },
+    {
       "id": "PPSA03016",
       "version": "01.004.003",
       "title": "Marvel\u2019s Spider-Man 2",
@@ -108621,7 +108654,7 @@
       "title": "Forspoken",
       "idLower": "ppsa03984",
       "titleLower": "forspoken",
-      "cheatsTotal": 10,
+      "cheatsTotal": 15,
       "creators": [
         "Talixme"
       ],
@@ -108647,12 +108680,17 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 5,
+          "cheatsCount": 10,
           "cheats": [
+            "9999 Magic Points",
             "Inf HP",
             "Inf HP Onehitkill",
             "Inf Items",
             "Inf Skill Points",
+            "Infinite Health",
+            "Infinite Stamina",
+            "Max Level",
+            "Max Resources/Potions",
             "No Cooldown"
           ]
         }
@@ -113086,7 +113124,7 @@
       "title": "Digimon Story Time Stranger",
       "idLower": "ppsa24701",
       "titleLower": "digimon story time stranger",
-      "cheatsTotal": 8,
+      "cheatsTotal": 13,
       "creators": [
         "Talixme"
       ],
@@ -113111,12 +113149,17 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 4,
+          "cheatsCount": 9,
           "cheats": [
             "Inf HP",
             "Inf Items",
             "Inf Money",
-            "Inf MP"
+            "Inf MP",
+            "Infinite Anomaly point use",
+            "Infinite Item use",
+            "Insant 200% scan",
+            "Max Digimon Level",
+            "Max Yen (on gain)"
           ]
         }
       }
@@ -113398,12 +113441,12 @@
       "title": "Indiana Jones and The Great Circle",
       "idLower": "ppsa26786",
       "titleLower": "indiana jones and the great circle",
-      "cheatsTotal": 4,
+      "cheatsTotal": 13,
       "creators": [
-        "Yharnam"
+        "wander"
       ],
       "creatorsLower": [
-        "yharnam"
+        "wander"
       ],
       "formats": {
         "json": {
@@ -113418,12 +113461,21 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 4,
+          "cheatsCount": 13,
           "cheats": [
             "1 Hit Kill",
+            "999 Medicine when buying books",
+            "999999 Adventure points and Money",
             "Infi Health",
             "Infi Money \u0026 Points (Get)",
-            "Infi Stamina"
+            "Infi Stamina",
+            "Infinite Ammo",
+            "Infinite Bandages",
+            "infinite Food",
+            "Infinite Health",
+            "Infinite Punch/Whip Stamina",
+            "Infinite Running Stamina",
+            "Infinite Weapon Durability"
           ]
         }
       }

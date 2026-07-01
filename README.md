@@ -23,6 +23,10 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-07-01 | ADDED | PPSA02985 | 02.001.000 | [Fishing: North Atlantic](https://hencheats.vercel.app/#PPSA02985-02.001.000) |
+| 2026-07-01 | UPDATE | PPSA03984 | 01.020.000 | [Forspoken](https://hencheats.vercel.app/#PPSA03984-01.020.000) |
+| 2026-07-01 | UPDATE | PPSA24701 | 01.000.011 | [Digimon Story Time Stranger](https://hencheats.vercel.app/#PPSA24701-01.000.011) |
+| 2026-07-01 | UPDATE | PPSA26786 | 01.009.000 | [Indiana Jones and The Great Circle](https://hencheats.vercel.app/#PPSA26786-01.009.000) |
 | 2026-07-01 | ADDED | PPSA02572 | 01.200.007 | [Alan Wake 2](https://hencheats.vercel.app/#PPSA02572-01.200.007) |
 | 2026-07-01 | ADDED | CUSA50617 | 01.21 | [Elden Ring Nightreign](https://hencheats.vercel.app/#CUSA50617-01.21) |
 | 2026-07-01 | ADDED | PPSA26097 | 02.000.000 | [Yooka-Replaylee](https://hencheats.vercel.app/#PPSA26097-02.000.000) |
