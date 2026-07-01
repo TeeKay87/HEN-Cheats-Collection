@@ -23,6 +23,14 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-07-02 | ADDED | PPSA01490 | 01.070.000 | [Assassin's Creed Valhalla](https://hencheats.vercel.app/#PPSA01490-01.070.000) |
+| 2026-07-02 | ADDED | PPSA01870 | 01.000.013 | [Far Cry 6](https://hencheats.vercel.app/#PPSA01870-01.000.013) |
+| 2026-07-02 | ADDED | PPSA04404 | 01.000.004 | [RESIDENT EVIL 7 biohazard](https://hencheats.vercel.app/#PPSA04404-01.000.004) |
+| 2026-07-02 | ADDED | PPSA07809 | 01.004.000 | [Crisis Core: Final Fantasy VII: Reunion](https://hencheats.vercel.app/#PPSA07809-01.004.000) |
+| 2026-07-02 | ADDED | PPSA07810 | 01.004.000 | [Crisis Core: Final Fantasy VII: Reunion](https://hencheats.vercel.app/#PPSA07810-01.004.000) |
+| 2026-07-02 | ADDED | PPSA07862 | 01.030.020 | [Monster Hunter Wilds](https://hencheats.vercel.app/#PPSA07862-01.030.020) |
+| 2026-07-02 | UPDATE | PPSA02572 | 01.200.007 | [Alan Wake 2](https://hencheats.vercel.app/#PPSA02572-01.200.007) |
+| 2026-07-02 | UPDATE | PPSA30528 | 01.002.000 | [Red Dead Redemption](https://hencheats.vercel.app/#PPSA30528-01.002.000) |
 | 2026-07-01 | ADDED | PPSA02985 | 02.001.000 | [Fishing: North Atlantic](https://hencheats.vercel.app/#PPSA02985-02.001.000) |
 | 2026-07-01 | UPDATE | PPSA03984 | 01.020.000 | [Forspoken](https://hencheats.vercel.app/#PPSA03984-01.020.000) |
 | 2026-07-01 | UPDATE | PPSA24701 | 01.000.011 | [Digimon Story Time Stranger](https://hencheats.vercel.app/#PPSA24701-01.000.011) |

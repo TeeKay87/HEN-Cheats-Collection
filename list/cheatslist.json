@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-01T16:39:50.1277418Z",
+  "generatedUtc": "2026-07-01T22:50:03.6792362Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -106513,6 +106513,42 @@
       }
     },
     {
+      "id": "PPSA01490",
+      "version": "01.070.000",
+      "title": "Assassin\u0027s Creed Valhalla",
+      "idLower": "ppsa01490",
+      "titleLower": "assassin\u0027s creed valhalla",
+      "cheatsTotal": 4,
+      "creators": [
+        "Aigars Uze"
+      ],
+      "creatorsLower": [
+        "aigars uze"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Enemy One Hit Kill",
+            "Infinite Health",
+            "Infinite Stamina",
+            "Max Infinite Money And Max Infinite Arrows on Spend"
+          ]
+        }
+      }
+    },
+    {
       "id": "PPSA01494",
       "version": "01.003.001",
       "title": "Borderlands 4",
@@ -106994,6 +107030,41 @@
           "hasFile": false,
           "cheatsCount": 0,
           "cheats": []
+        }
+      }
+    },
+    {
+      "id": "PPSA01870",
+      "version": "01.000.013",
+      "title": "Far Cry 6",
+      "idLower": "ppsa01870",
+      "titleLower": "far cry 6",
+      "cheatsTotal": 3,
+      "creators": [
+        "Aigars Uze"
+      ],
+      "creatorsLower": [
+        "aigars uze"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Add Resolver Materials On Spend And Healing Syringe No Cooldown",
+            "Infinite Ammo",
+            "Infinite Health"
+          ]
         }
       }
     },
@@ -107480,12 +107551,12 @@
       "title": "Alan Wake 2",
       "idLower": "ppsa02572",
       "titleLower": "alan wake 2",
-      "cheatsTotal": 4,
+      "cheatsTotal": 8,
       "creators": [
-        "Yharnam"
+        "Aigars Uze"
       ],
       "creatorsLower": [
-        "yharnam"
+        "aigars uze"
       ],
       "formats": {
         "json": {
@@ -107500,12 +107571,16 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 4,
+          "cheatsCount": 8,
           "cheats": [
-            "Infi Ammo",
+            "Battery Pack Increase On Spend",
             "Infi Flashlight Focus",
             "Infi Health",
-            "Infi Items"
+            "Infi Items",
+            "Infinite Ammo (No Reload)",
+            "Infinite Battery Boost",
+            "Infinite Health",
+            "Painkillers Increase On Spend"
           ]
         }
       }
@@ -108948,6 +109023,42 @@
       }
     },
     {
+      "id": "PPSA04404",
+      "version": "01.000.004",
+      "title": "RESIDENT EVIL 7 biohazard",
+      "idLower": "ppsa04404",
+      "titleLower": "resident evil 7 biohazard",
+      "cheatsTotal": 4,
+      "creators": [
+        "Aigars Uze"
+      ],
+      "creatorsLower": [
+        "aigars uze"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Infinite Ammo (No Reload)",
+            "Infinite Health (Don\u0027t use with One-Hit Kill)",
+            "Infinite Health Player And One-Hit Kill Enemy (Enable only after loading game / Don\u0027t use with Infinite Health)",
+            "Medkits Increase On Spend"
+          ]
+        }
+      }
+    },
+    {
       "id": "PPSA04609",
       "version": "01.017.000",
       "title": "Elden Ring",
@@ -110131,6 +110242,119 @@
             "Infi Ammo \u0026 Items",
             "Infi Health",
             "Infi Weapon Durability"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA07809",
+      "version": "01.004.000",
+      "title": "Crisis Core: Final Fantasy VII: Reunion",
+      "idLower": "ppsa07809",
+      "titleLower": "crisis core: final fantasy vii: reunion",
+      "cheatsTotal": 7,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 7,
+          "cheats": [
+            "1 Hit Kill",
+            "Infi AP",
+            "Infi Consumables (On Use)",
+            "Infi Health",
+            "Infi MP",
+            "Max Money",
+            "Untouchable"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA07810",
+      "version": "01.004.000",
+      "title": "Crisis Core: Final Fantasy VII: Reunion",
+      "idLower": "ppsa07810",
+      "titleLower": "crisis core: final fantasy vii: reunion",
+      "cheatsTotal": 7,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 7,
+          "cheats": [
+            "1 Hit Kill",
+            "Infi AP",
+            "Infi Consumables (On Use)",
+            "Infi Health",
+            "Infi MP",
+            "Max Money",
+            "Untouchable"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA07862",
+      "version": "01.030.020",
+      "title": "Monster Hunter Wilds",
+      "idLower": "ppsa07862",
+      "titleLower": "monster hunter wilds",
+      "cheatsTotal": 3,
+      "creators": [
+        "Aigars Uze"
+      ],
+      "creatorsLower": [
+        "aigars uze"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Infinite Health",
+            "Infinite Stamina",
+            "Money Dont Decrease On Buy (Turn Off to Gain Money)"
           ]
         }
       }
@@ -113647,7 +113871,7 @@
       "title": "Red Dead Redemption",
       "idLower": "ppsa30528",
       "titleLower": "red dead redemption",
-      "cheatsTotal": 4,
+      "cheatsTotal": 5,
       "creators": [
         "Aigars Uze"
       ],
@@ -113667,8 +113891,9 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 4,
+          "cheatsCount": 5,
           "cheats": [
+            "God Mode",
             "Infinite Ammo (No Reload)",
             "Infinite Dead Eye",
             "Infinite Health",
