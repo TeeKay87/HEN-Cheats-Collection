@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-01T22:50:03.6792362Z",
+  "generatedUtc": "2026-07-02T13:54:52.3180436Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -106876,6 +106876,42 @@
           "hasFile": false,
           "cheatsCount": 0,
           "cheats": []
+        }
+      }
+    },
+    {
+      "id": "PPSA01670",
+      "version": "01.405.000",
+      "title": "Deathloop",
+      "idLower": "ppsa01670",
+      "titleLower": "deathloop",
+      "cheatsTotal": 4,
+      "creators": [
+        "Aigars Uze"
+      ],
+      "creatorsLower": [
+        "aigars uze"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Add On Spend Reprise (Extra Lives)",
+            "God Mode",
+            "Infinite Ammo",
+            "Infinite Grenades"
+          ]
         }
       }
     },

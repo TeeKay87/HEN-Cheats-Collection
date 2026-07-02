@@ -23,6 +23,7 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-07-02 | ADDED | PPSA01670 | 01.405.000 | [Deathloop](https://hencheats.vercel.app/#PPSA01670-01.405.000) |
 | 2026-07-02 | ADDED | PPSA01490 | 01.070.000 | [Assassin's Creed Valhalla](https://hencheats.vercel.app/#PPSA01490-01.070.000) |
 | 2026-07-02 | ADDED | PPSA01870 | 01.000.013 | [Far Cry 6](https://hencheats.vercel.app/#PPSA01870-01.000.013) |
 | 2026-07-02 | ADDED | PPSA04404 | 01.000.004 | [RESIDENT EVIL 7 biohazard](https://hencheats.vercel.app/#PPSA04404-01.000.004) |
