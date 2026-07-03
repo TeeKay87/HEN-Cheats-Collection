@@ -23,6 +23,8 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-07-03 | ADDED | PPSA01473 | 01.005.003 | [Ratchet & Clank: Rift Apart](https://hencheats.vercel.app/#PPSA01473-01.005.003) |
+| 2026-07-03 | ADDED | PPSA01474 | 01.005.003 | [Ratchet & Clank: Rift Apart](https://hencheats.vercel.app/#PPSA01474-01.005.003) |
 | 2026-07-02 | ADDED | PPSA01670 | 01.405.000 | [Deathloop](https://hencheats.vercel.app/#PPSA01670-01.405.000) |
 | 2026-07-02 | ADDED | PPSA01490 | 01.070.000 | [Assassin's Creed Valhalla](https://hencheats.vercel.app/#PPSA01490-01.070.000) |
 | 2026-07-02 | ADDED | PPSA01870 | 01.000.013 | [Far Cry 6](https://hencheats.vercel.app/#PPSA01870-01.000.013) |

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-02T13:54:52.3180436Z",
+  "generatedUtc": "2026-07-03T14:19:40.4318844Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -106474,17 +106474,56 @@
       }
     },
     {
+      "id": "PPSA01473",
+      "version": "01.005.003",
+      "title": "Ratchet \u0026 Clank: Rift Apart",
+      "idLower": "ppsa01473",
+      "titleLower": "ratchet \u0026 clank: rift apart",
+      "cheatsTotal": 5,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "1 Hit Kill",
+            "Infi Ammo",
+            "Infi Health",
+            "Max Money",
+            "Untouchable"
+          ]
+        }
+      }
+    },
+    {
       "id": "PPSA01474",
       "version": "01.005.003",
       "title": "Ratchet \u0026 Clank: Rift Apart",
       "idLower": "ppsa01474",
       "titleLower": "ratchet \u0026 clank: rift apart",
-      "cheatsTotal": 6,
+      "cheatsTotal": 11,
       "creators": [
-        "Talixme"
+        "Talixme",
+        "Yharnam"
       ],
       "creatorsLower": [
-        "talixme"
+        "talixme",
+        "yharnam"
       ],
       "formats": {
         "json": {
@@ -106506,9 +106545,15 @@
           ]
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "1 Hit Kill",
+            "Infi Ammo",
+            "Infi Health",
+            "Max Money",
+            "Untouchable"
+          ]
         }
       }
     },
