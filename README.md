@@ -23,6 +23,10 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-07-04 | ADDED | PPSA01442 | 01.002.000 | [Devil May Cry 5: Special Edition](https://hencheats.vercel.app/#PPSA01442-01.002.000) |
+| 2026-07-04 | ADDED | PPSA01442 | 01.003.000 | [Devil May Cry 5: Special Edition](https://hencheats.vercel.app/#PPSA01442-01.003.000) |
+| 2026-07-04 | ADDED | PPSA01443 | 01.002.000 | [Devil May Cry 5: Special Edition](https://hencheats.vercel.app/#PPSA01443-01.002.000) |
+| 2026-07-04 | ADDED | PPSA01443 | 01.003.000 | [Devil May Cry 5: Special Edition](https://hencheats.vercel.app/#PPSA01443-01.003.000) |
 | 2026-07-04 | ADDED | PPSA02262 | 01.054.000 | [Dying Light 2: Stay Human](https://hencheats.vercel.app/#PPSA02262-01.054.000) |
 | 2026-07-03 | ADDED | PPSA01473 | 01.005.003 | [Ratchet & Clank: Rift Apart](https://hencheats.vercel.app/#PPSA01473-01.005.003) |
 | 2026-07-03 | ADDED | PPSA01474 | 01.005.003 | [Ratchet & Clank: Rift Apart](https://hencheats.vercel.app/#PPSA01474-01.005.003) |
