@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-03T14:19:40.4318844Z",
+  "generatedUtc": "2026-07-04T00:17:18.2427875Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -107347,6 +107347,44 @@
             "Infinite Resolve",
             "Infinite Resources",
             "Infinite Technique Points On Use"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA02262",
+      "version": "01.054.000",
+      "title": "Dying Light 2: Stay Human",
+      "idLower": "ppsa02262",
+      "titleLower": "dying light 2: stay human",
+      "cheatsTotal": 6,
+      "creators": [
+        "Aigars Uze"
+      ],
+      "creatorsLower": [
+        "aigars uze"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 6,
+          "cheats": [
+            "God Mode",
+            "Infinite Items (Gain on Use)",
+            "Infinite Money (Gain on Spend)",
+            "Infinite Night Time",
+            "Infinite Stamina",
+            "Infinite Weapons Durability"
           ]
         }
       }
