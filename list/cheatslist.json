@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-04T22:11:46.5497226Z",
+  "generatedUtc": "2026-07-05T20:51:37.2486888Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -113680,6 +113680,53 @@
             "Insant 200% scan",
             "Max Digimon Level",
             "Max Yen (on gain)"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA24884",
+      "version": "01.000.002",
+      "title": "Starfield",
+      "idLower": "ppsa24884",
+      "titleLower": "starfield",
+      "cheatsTotal": 14,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 7,
+          "cheats": [
+            "99 Items At use And Pick",
+            "Inf Ammo",
+            "Inf Items",
+            "Inh Hp And O2",
+            "Laser and Ship Ammo",
+            "No Reload",
+            "No weight"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 7,
+          "cheats": [
+            "99 Items At use And Pick",
+            "Inf Ammo",
+            "Inf Items",
+            "Inh Hp And O2",
+            "Laser and Ship Ammo",
+            "No Reload",
+            "No weight"
           ]
         }
       }

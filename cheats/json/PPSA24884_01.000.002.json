@@ -1,0 +1,123 @@
+{
+  "name": "Starfield",
+  "id": "PPSA24884",
+  "version": "01.000.002",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inh Hp And O2",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3DA3000",
+          "on": "817C87F80000A0400F847E02E7FDC5FA110487E97402E7FD",
+          "off": "000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1C13287",
+          "on": "E974FD1802",
+          "off": "C5FA110487"
+        }
+      ]
+    },
+    {
+      "name": "Inf Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3DA3038",
+          "on": "BE630000004289743908E9846ACDFC",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "A79AC6",
+          "on": "E96D953203",
+          "off": "4289743908"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3DA3067",
+          "on": "41BE14000000448970184889DFE99C27CDFC",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "A7580E",
+          "on": "E954D832039090",
+          "off": "448970184889DF"
+        }
+      ]
+    },
+    {
+      "name": "Laser and Ship Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3DA3099",
+          "on": "41C746200000803FC4C17A104620C4C17A114620E9DB125CFD",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1364387",
+          "on": "E90DEDA30290",
+          "off": "C4C17A114620"
+        }
+      ]
+    },
+    {
+      "name": "99 Items At use And Pick",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3DA30D2",
+          "on": "BE630000004289743908E9EA69CDFC",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "A79AC6",
+          "on": "E907963203",
+          "off": "4289743908"
+        }
+      ]
+    },
+    {
+      "name": "Inf Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3DA3101",
+          "on": "428B7439084289743908E9BB69CDFC",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "A79AC6",
+          "on": "E936963203",
+          "off": "4289743908"
+        }
+      ]
+    },
+    {
+      "name": "No weight",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3DA3130",
+          "on": "C7433C00000000C5FA10433CC5FA11433CE9495B6DFC",
+          "off": "00000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "478C8A",
+          "on": "E9A1A49203",
+          "off": "C5FA11433C"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}
