@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-05T20:51:37.2486888Z",
+  "generatedUtc": "2026-07-06T06:00:52.9334617Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -109350,6 +109350,84 @@
             "Infinite Health (Don\u0027t use with One-Hit Kill)",
             "Infinite Health Player And One-Hit Kill Enemy (Enable only after loading game / Don\u0027t use with Infinite Health)",
             "Medkits Increase On Spend"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA04539",
+      "version": "01.009.000",
+      "title": "Rise of the Ronin",
+      "idLower": "ppsa04539",
+      "titleLower": "rise of the ronin",
+      "cheatsTotal": 7,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 7,
+          "cheats": [
+            "1 Hit Kill",
+            "Infi Consumables",
+            "Infi Health",
+            "Infi Skill Points",
+            "Max Money",
+            "Max Silver",
+            "Stamina"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA04540",
+      "version": "01.009.000",
+      "title": "Rise of the Ronin",
+      "idLower": "ppsa04540",
+      "titleLower": "rise of the ronin",
+      "cheatsTotal": 7,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 7,
+          "cheats": [
+            "1 Hit Kill",
+            "Infi Consumables",
+            "Infi Health",
+            "Infi Skill Points",
+            "Max Money",
+            "Max Silver",
+            "Stamina"
           ]
         }
       }

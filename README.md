@@ -23,6 +23,8 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-07-06 | ADDED | PPSA04539 | 01.009.000 | [Rise of the Ronin](https://hencheats.vercel.app/#PPSA04539-01.009.000) |
+| 2026-07-06 | ADDED | PPSA04540 | 01.009.000 | [Rise of the Ronin](https://hencheats.vercel.app/#PPSA04540-01.009.000) |
 | 2026-07-05 | ADDED | PPSA24884 | 01.000.002 | [Starfield](https://hencheats.vercel.app/#PPSA24884-01.000.002) |
 | 2026-07-04 | UPDATE | PPSA02015 | 01.013.000 | [Death Stranding 2: On the Beach](https://hencheats.vercel.app/#PPSA02015-01.013.000) |
 | 2026-07-04 | ADDED | PPSA01442 | 01.002.000 | [Devil May Cry 5: Special Edition](https://hencheats.vercel.app/#PPSA01442-01.002.000) |
