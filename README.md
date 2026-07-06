@@ -23,6 +23,11 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-07-06 | UPDATE | PPSA03845 | 01.000.004 | [Dead Space](https://hencheats.vercel.app/#PPSA03845-01.000.004) |
+| 2026-07-06 | UPDATE | PPSA01556 | 01.210.000 | [Resident Evil Village](https://hencheats.vercel.app/#PPSA01556-01.210.000) |
+| 2026-07-06 | UPDATE | PPSA03099 | 01.000.001 | [Dead Island 2](https://hencheats.vercel.app/#PPSA03099-01.000.001) |
+| 2026-07-06 | UPDATE | PPSA08710 | 01.005.000 | [Silent Hill 2](https://hencheats.vercel.app/#PPSA08710-01.005.000) |
+| 2026-07-06 | UPDATE | PPSA26786 | 01.009.000 | [Indiana Jones and The Great Circle](https://hencheats.vercel.app/#PPSA26786-01.009.000) |
 | 2026-07-06 | ADDED | PPSA04539 | 01.009.000 | [Rise of the Ronin](https://hencheats.vercel.app/#PPSA04539-01.009.000) |
 | 2026-07-06 | ADDED | PPSA04540 | 01.009.000 | [Rise of the Ronin](https://hencheats.vercel.app/#PPSA04540-01.009.000) |
 | 2026-07-05 | ADDED | PPSA24884 | 01.000.002 | [Starfield](https://hencheats.vercel.app/#PPSA24884-01.000.002) |

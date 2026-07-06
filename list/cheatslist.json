@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-06T06:00:52.9334617Z",
+  "generatedUtc": "2026-07-06T06:13:39.2352172Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -106902,7 +106902,7 @@
       "title": "Resident Evil Village",
       "idLower": "ppsa01556",
       "titleLower": "resident evil village",
-      "cheatsTotal": 21,
+      "cheatsTotal": 20,
       "creators": [
         "Yharnam"
       ],
@@ -106922,7 +106922,7 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 21,
+          "cheatsCount": 20,
           "cheats": [
             "1 Hit Kill",
             "Alcina\u0027s Daughter Instant Reload (Mercenaries)",
@@ -106939,7 +106939,6 @@
             "Instantly Ready (Ethan\u0027s Tank Cannon \u0026 Chris\u0027s Target Locator)",
             "Karl\u0027s Sawblade Instant Reload (Mercenaries)",
             "Karl\u0027s Scrap Instant Reload (Mercenaries)",
-            "Karl\u0027s Soldier Jet Instant Reload (Mercenaries)",
             "Max Gun Rate of Fire",
             "Max Money",
             "Max Score (Mercenaries)",
@@ -108339,7 +108338,7 @@
             "Infi Health",
             "Infi Stamina",
             "Infi Weapon Durability",
-            "Max Cash and Items",
+            "Max Cash \u0026 Items",
             "Max Exp",
             "No Damage (Fall, Fire, Poison, Frozen)"
           ]
@@ -111389,9 +111388,9 @@
           "cheatsCount": 5,
           "cheats": [
             "1 Hit Kill",
-            "Infi Ammo \u0026 Items",
             "Infi Ammo (No Reload)",
             "Infi HP",
+            "Infi Items",
             "Untouchable"
           ]
         }
@@ -114088,10 +114087,10 @@
       "titleLower": "indiana jones and the great circle",
       "cheatsTotal": 13,
       "creators": [
-        "wander"
+        "Yharnam"
       ],
       "creatorsLower": [
-        "wander"
+        "yharnam"
       ],
       "formats": {
         "json": {
