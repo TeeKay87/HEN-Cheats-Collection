@@ -23,6 +23,12 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-07-06 | ADDED | PPSA21564 | 01.018.000 | [Astro Bot](https://hencheats.vercel.app/#PPSA21564-01.018.000) |
+| 2026-07-06 | ADDED | PPSA23226 | 01.000.021 | [Black Myth: Wukong](https://hencheats.vercel.app/#PPSA23226-01.000.021) |
+| 2026-07-06 | ADDED | PPSA06215 | 01.007.000 | [Outward: Definitive Edition](https://hencheats.vercel.app/#PPSA06215-01.007.000) |
+| 2026-07-06 | ADDED | PPSA08804 | 01.012.000 | [Sonic Racing: CrossWorlds](https://hencheats.vercel.app/#PPSA08804-01.012.000) |
+| 2026-07-06 | ADDED | PPSA26873 | 01.000.002 | [Monster Hunter Stories 3: Twisted Reflection](https://hencheats.vercel.app/#PPSA26873-01.000.002) |
+| 2026-07-06 | UPDATE | PPSA02262 | 01.054.000 | [Dying Light 2: Stay Human](https://hencheats.vercel.app/#PPSA02262-01.054.000) |
 | 2026-07-06 | UPDATE | PPSA03845 | 01.000.004 | [Dead Space](https://hencheats.vercel.app/#PPSA03845-01.000.004) |
 | 2026-07-06 | UPDATE | PPSA01556 | 01.210.000 | [Resident Evil Village](https://hencheats.vercel.app/#PPSA01556-01.210.000) |
 | 2026-07-06 | UPDATE | PPSA03099 | 01.000.001 | [Dead Island 2](https://hencheats.vercel.app/#PPSA03099-01.000.001) |

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-06T06:13:39.2352172Z",
+  "generatedUtc": "2026-07-06T21:02:14.5624481Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -107532,7 +107532,7 @@
       "title": "Dying Light 2: Stay Human",
       "idLower": "ppsa02262",
       "titleLower": "dying light 2: stay human",
-      "cheatsTotal": 7,
+      "cheatsTotal": 11,
       "creators": [
         "Aigars Uze"
       ],
@@ -107552,15 +107552,19 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 7,
+          "cheatsCount": 11,
           "cheats": [
             "Fast XP Combat And Parkour Points",
             "God Mode",
+            "Infinite Health",
             "Infinite Items (Gain on Use)",
             "Infinite Money (Gain on Spend)",
             "Infinite Night Time",
             "Infinite Stamina",
-            "Infinite Weapons Durability"
+            "Infinite Weapon Durability",
+            "Infinite Weapons Durability",
+            "Max Level Parkour/Combats/Legend level",
+            "Max Money"
           ]
         }
       }
@@ -110030,6 +110034,50 @@
       }
     },
     {
+      "id": "PPSA06215",
+      "version": "01.007.000",
+      "title": "Outward: Definitive Edition",
+      "idLower": "ppsa06215",
+      "titleLower": "outward: definitive edition",
+      "cheatsTotal": 12,
+      "creators": [
+        "wander"
+      ],
+      "creatorsLower": [
+        "wander"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 12,
+          "cheats": [
+            "0 Weight for items",
+            "0 Weight For Silver",
+            "Infinite Health",
+            "Infinite Stamina Attack",
+            "Infinite Stamina Run",
+            "Infinite Weapon/Food/Armor",
+            "Max Health do not decrease",
+            "Max Silver When Buying",
+            "Max Stamina do not decrease",
+            "no drink",
+            "no food",
+            "No sleep"
+          ]
+        }
+      }
+    },
+    {
       "id": "PPSA06389",
       "version": "01.000.000",
       "title": "System Shock",
@@ -111436,6 +111484,39 @@
             "Inf Wizardry Spell Points",
             "Instant Infinite Divine Beast Gauge (Hit Enemy)",
             "Max Moral"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA08804",
+      "version": "01.012.000",
+      "title": "Sonic Racing: CrossWorlds",
+      "idLower": "ppsa08804",
+      "titleLower": "sonic racing: crossworlds",
+      "cheatsTotal": 1,
+      "creators": [
+        "Q8Despair"
+      ],
+      "creatorsLower": [
+        "q8despair"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 1,
+          "cheats": [
+            "Max tickets on buy"
           ]
         }
       }
@@ -113420,6 +113501,43 @@
       }
     },
     {
+      "id": "PPSA21564",
+      "version": "01.018.000",
+      "title": "Astro Bot",
+      "idLower": "ppsa21564",
+      "titleLower": "astro bot",
+      "cheatsTotal": 4,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Inf Coins",
+            "Inf Jumps"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Inf Coins",
+            "Inf Jumps"
+          ]
+        }
+      }
+    },
+    {
       "id": "PPSA21704",
       "version": "01.041.000",
       "title": "Kingdom Come: Deliverance II",
@@ -113593,6 +113711,41 @@
             "Max Money",
             "Max Skill points"
           ]
+        }
+      }
+    },
+    {
+      "id": "PPSA23226",
+      "version": "01.000.021",
+      "title": "Black Myth: Wukong",
+      "idLower": "ppsa23226",
+      "titleLower": "black myth: wukong",
+      "cheatsTotal": 3,
+      "creators": [
+        "Ps4\u0026Ps5 DarkConsole"
+      ],
+      "creatorsLower": [
+        "ps4\u0026ps5 darkconsole"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Infinite Healing Potion",
+            "Infinite MP",
+            "Infinite Stamina"
+          ]
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },
@@ -114120,6 +114273,48 @@
             "Infinite Punch/Whip Stamina",
             "Infinite Running Stamina",
             "Infinite Weapon Durability"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA26873",
+      "version": "01.000.002",
+      "title": "Monster Hunter Stories 3: Twisted Reflection",
+      "idLower": "ppsa26873",
+      "titleLower": "monster hunter stories 3: twisted reflection",
+      "cheatsTotal": 10,
+      "creators": [
+        "Wander"
+      ],
+      "creatorsLower": [
+        "wander"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 10,
+          "cheats": [
+            "99 Battle items",
+            "999 ITEMS",
+            "alot of Bronze,Silver,Gold Points",
+            "Instant Ride Bar",
+            "Max level Riders",
+            "Max lvl Monstie 1",
+            "Max lvl Monstie 2",
+            "Max lvl Monstie 3",
+            "Max lvl Monstie 4",
+            "Max lvl Monstie 5"
           ]
         }
       }
