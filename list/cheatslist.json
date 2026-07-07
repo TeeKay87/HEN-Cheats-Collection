@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-06T21:02:14.5624481Z",
+  "generatedUtc": "2026-07-07T23:28:55.7315477Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -113586,18 +113586,22 @@
       "title": "Forza Horizon 5",
       "idLower": "ppsa22327",
       "titleLower": "forza horizon 5",
-      "cheatsTotal": 2,
+      "cheatsTotal": 3,
       "creators": [
-        "Yharnam"
+        "Yharnam",
+        "YSL"
       ],
       "creatorsLower": [
-        "yharnam"
+        "yharnam",
+        "ysl"
       ],
       "formats": {
         "json": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 1,
+          "cheats": [
+            "999 Spins (Never Decrease)"
+          ]
         },
         "shn": {
           "hasFile": false,

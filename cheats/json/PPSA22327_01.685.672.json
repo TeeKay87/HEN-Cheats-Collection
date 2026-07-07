@@ -1,0 +1,27 @@
+{
+  "name": "Forza Horizon 5",
+  "id": "PPSA22327",
+  "version": "01.685.672",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "999 Spins (Never Decrease)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5DB3070",
+          "on": "BAE7030000895008E95421CCFB",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "1A751CC",
+          "on": "E99FDE3304",
+          "off": "FFCA895008"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "YSL"
+  ]
+}
