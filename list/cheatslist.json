@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-07T23:28:55.7315477Z",
+  "generatedUtc": "2026-07-08T16:48:04.4462292Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -114673,6 +114673,47 @@
             "Max CP (Buy)",
             "Save count always 1",
             "Untouchable"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA32785",
+      "version": "01.040.020",
+      "title": "Nioh 3",
+      "idLower": "ppsa32785",
+      "titleLower": "nioh 3",
+      "cheatsTotal": 9,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 9,
+          "cheats": [
+            "1 Hit Kill",
+            "Infi Arts Gauge",
+            "Infi Guardian Spirit",
+            "Infi Health",
+            "Infi Items",
+            "Infi Spirit Force",
+            "Infi Stamina",
+            "Max Amrita (On Get)",
+            "Max Money (On Get)"
           ]
         }
       }

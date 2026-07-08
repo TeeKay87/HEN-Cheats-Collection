@@ -23,6 +23,7 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-07-08 | ADDED | PPSA32785 | 01.040.020 | [Nioh 3](https://hencheats.vercel.app/#PPSA32785-01.040.020) |
 | 2026-07-08 | ADDED | PPSA22327 | 01.685.672 | [Forza Horizon 5](https://hencheats.vercel.app/#PPSA22327-01.685.672) |
 | 2026-07-06 | ADDED | PPSA21564 | 01.018.000 | [Astro Bot](https://hencheats.vercel.app/#PPSA21564-01.018.000) |
 | 2026-07-06 | ADDED | PPSA23226 | 01.000.021 | [Black Myth: Wukong](https://hencheats.vercel.app/#PPSA23226-01.000.021) |
