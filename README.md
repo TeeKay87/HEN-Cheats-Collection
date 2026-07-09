@@ -21,7 +21,9 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ![HEN Cheats Page](HENCheatsPage.png)
 
 ## Version History
-<summary><b>July 2026</b></summary>
+
+### July
+
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
 | 2026-07-09 | ADDED | PPSA21567 | 01.018.000 | [Astro Bot](https://hencheats.vercel.app/#PPSA21567-01.018.000) |
