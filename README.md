@@ -21,6 +21,7 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ![HEN Cheats Page](HENCheatsPage.png)
 
 ## Version History
+<summary><b>July 2026</b></summary>
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
 | 2026-07-09 | ADDED | PPSA21567 | 01.018.000 | [Astro Bot](https://hencheats.vercel.app/#PPSA21567-01.018.000) |
@@ -93,7 +94,7 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 | 2026-07-01 | ADDED | PPSA27676 | 01.007.000 | [Painkiller](https://hencheats.vercel.app/#PPSA27676-01.007.000) |
 
 <details>
-<summary>### June 2026</b></summary>
+<summary><b>June 2026</b></summary>
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
@@ -205,7 +206,7 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 </details>
 
 <details>
-<summary>### May 2026</b></summary>
+<summary><b>May 2026</b></summary>
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
@@ -248,7 +249,7 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 </details>
 
 <details>
-<summary>### April 2026</b></summary>
+<summary><b>April 2026</b></summary>
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
@@ -281,7 +282,7 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 </details>
 
 <details>
-<summary>### March 2026</b></summary>
+<summary><b>March 2026</b></summary>
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
