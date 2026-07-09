@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-09T08:55:26.0247973Z",
+  "generatedUtc": "2026-07-09T19:59:47.7760238Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -106808,6 +106808,42 @@
       }
     },
     {
+      "id": "PPSA01500",
+      "version": "01.190.000",
+      "title": "Watch Dogs: Legion",
+      "idLower": "ppsa01500",
+      "titleLower": "watch dogs: legion",
+      "cheatsTotal": 4,
+      "creators": [
+        "Aigars Uze"
+      ],
+      "creatorsLower": [
+        "aigars uze"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Infinite Ammo",
+            "Infinite Health",
+            "Set ETO Money to 999999 (On Change)",
+            "Set Tech Points to 999 (On Change)"
+          ]
+        }
+      }
+    },
+    {
       "id": "PPSA01507",
       "version": "04.004.000",
       "title": "Immortals Fenyx Rising",
@@ -114324,7 +114360,7 @@
       "title": "Monster Hunter Stories 3: Twisted Reflection",
       "idLower": "ppsa26873",
       "titleLower": "monster hunter stories 3: twisted reflection",
-      "cheatsTotal": 10,
+      "cheatsTotal": 17,
       "creators": [
         "Wander"
       ],
@@ -114344,18 +114380,25 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 10,
+          "cheatsCount": 17,
           "cheats": [
+            "1 Hit Kill",
             "99 Battle items",
             "999 ITEMS",
             "alot of Bronze,Silver,Gold Points",
+            "Infi Health",
+            "Infi Items",
+            "Infi Stamina",
             "Instant Ride Bar",
+            "Instantly Mount Monsters (During Combat)",
+            "Max Level",
             "Max level Riders",
             "Max lvl Monstie 1",
             "Max lvl Monstie 2",
             "Max lvl Monstie 3",
             "Max lvl Monstie 4",
-            "Max lvl Monstie 5"
+            "Max lvl Monstie 5",
+            "Max Points (Gold, Silver, Bronze)"
           ]
         }
       }

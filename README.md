@@ -26,6 +26,8 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-07-09 | ADDED | PPSA01500 | 01.190.000 | [Watch Dogs: Legion](https://hencheats.vercel.app/#PPSA01500-01.190.000) |
+| 2026-07-09 | UPDATE | PPSA26873 | 01.000.002 | [Monster Hunter Stories 3: Twisted Reflection](https://hencheats.vercel.app/#PPSA26873-01.000.002) |
 | 2026-07-09 | ADDED | PPSA21567 | 01.018.000 | [Astro Bot](https://hencheats.vercel.app/#PPSA21567-01.018.000) |
 | 2026-07-08 | ADDED | PPSA32785 | 01.040.020 | [Nioh 3](https://hencheats.vercel.app/#PPSA32785-01.040.020) |
 | 2026-07-08 | ADDED | PPSA22327 | 01.685.672 | [Forza Horizon 5](https://hencheats.vercel.app/#PPSA22327-01.685.672) |
