@@ -1,0 +1,38 @@
+{
+  "name": "Astro Bot",
+  "id": "PPSA21567",
+  "version": "01.018.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Coins",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "74BF000",
+          "on": "41BF0F2700004489F8894304E969104AFE",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "5960074",
+          "on": "E987EFB50190",
+          "off": "4401F8894304"
+        }
+      ]
+    },
+    {
+      "name": "Inf Jumps",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "61347EA",
+          "on": "90909090909090",
+          "off": "C6835801000001"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

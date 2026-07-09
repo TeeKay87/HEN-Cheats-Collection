@@ -23,6 +23,7 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-07-09 | ADDED | PPSA21567 | 01.018.000 | [Astro Bot](https://hencheats.vercel.app/#PPSA21567-01.018.000) |
 | 2026-07-08 | ADDED | PPSA32785 | 01.040.020 | [Nioh 3](https://hencheats.vercel.app/#PPSA32785-01.040.020) |
 | 2026-07-08 | ADDED | PPSA22327 | 01.685.672 | [Forza Horizon 5](https://hencheats.vercel.app/#PPSA22327-01.685.672) |
 | 2026-07-06 | ADDED | PPSA21564 | 01.018.000 | [Astro Bot](https://hencheats.vercel.app/#PPSA21564-01.018.000) |
@@ -90,7 +91,12 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 | 2026-07-01 | ADDED | PPSA01474 | 01.005.003 | [Ratchet & Clank: Rift Apart](https://hencheats.vercel.app/#PPSA01474-01.005.003) |
 | 2026-07-01 | ADDED | PPSA04930 | 01.048.000 | [SnowRunner](https://hencheats.vercel.app/#PPSA04930-01.048.000) |
 | 2026-07-01 | ADDED | PPSA27676 | 01.007.000 | [Painkiller](https://hencheats.vercel.app/#PPSA27676-01.007.000) |
-| **---** | | | | |
+
+<details>
+<summary>### June 2026</b></summary>
+
+| Date | Status | ID | Version | Title |
+|-|-|-|-|-|
 | 2026-06-28 | ADDED | PPSA13427 | 01.008.001 | [Horizon Zero Dawn Remastered](https://hencheats.vercel.app/#PPSA13427-01.008.001) |
 | 2026-06-28 | ADDED | PPSA13428 | 01.008.001 | [Horizon Zero Dawn Remastered](https://hencheats.vercel.app/#PPSA13428-01.008.001) |
 | 2026-06-27 | UPDATE | PPSA20396 | 01.019.076 | [Assassin's Creed Shadows](https://hencheats.vercel.app/#PPSA20396-01.019.076) |
@@ -195,7 +201,14 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 | 2026-06-03 | UPDATE | PPSA02530 | 01.200.000 | [Pragmata](https://hencheats.vercel.app/#PPSA02530-01.200.000) |
 | 2026-06-03 | UPDATE | PPSA28336 | 01.009.000 | [S.T.A.L.K.E.R. 2: Heart of Chornobyl](https://hencheats.vercel.app/#PPSA28336-01.009.000) |
 | 2026-06-01 | ADDED | PPSA28180 | 01.036.178 | [Days Gone: Remastered](https://hencheats.vercel.app/#PPSA28180-01.036.178) |
-| **---** | | | | |
+
+</details>
+
+<details>
+<summary>### May 2026</b></summary>
+
+| Date | Status | ID | Version | Title |
+|-|-|-|-|-|
 | 2026-05-31 | ADDED | PPSA28336 | 01.009.000 | [S.T.A.L.K.E.R. 2: Heart of Chornobyl](https://hencheats.vercel.app/#PPSA28336-01.009.000) |
 | 2026-05-30 | ADDED | PPSA08236 | 01.006.004 | [Immortals of Aveum](https://hencheats.vercel.app/#PPSA08236-01.006.004) |
 | 2026-05-27 | ADDED | PPSA25286 | 01.000.151 | [Crimson Desert](https://hencheats.vercel.app/#PPSA25286-01.000.151) |
@@ -231,7 +244,14 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 | 2026-05-08 | ADDED | PPSA26679 | 01.003.000 | [NINJA GAIDEN 2 Black](https://hencheats.vercel.app/#PPSA26679-01.003.000) |
 | 2026-05-07 | ADDED | PPSA08709 | 01.006.000 | [Silent Hill 2](https://hencheats.vercel.app/#PPSA08709-01.006.000) |
 | 2026-05-03 | ADDED | PPSA23226 | 01.000.016 | [Black Myth: Wukong](https://hencheats.vercel.app/#PPSA23226-01.000.016) |
-| **---** | | | | |
+
+</details>
+
+<details>
+<summary>### April 2026</b></summary>
+
+| Date | Status | ID | Version | Title |
+|-|-|-|-|-|
 | 2026-04-30 | ADDED | PPSA03098 | 01.000.001 | [Dead Island 2](https://hencheats.vercel.app/#PPSA03098-01.000.001) |
 | 2026-04-30 | ADDED | PPSA03098 | 01.000.010 | [Dead Island 2](https://hencheats.vercel.app/#PPSA03098-01.000.010) |
 | 2026-04-30 | UPDATE | PPSA03099 | 01.000.001 | [Dead Island 2](https://hencheats.vercel.app/#PPSA03099-01.000.001) |
@@ -257,7 +277,14 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 | 2026-04-07 | ADDED | PPSA20560 | 01.009.000 | [DOOM: The Dark Ages](https://hencheats.vercel.app/#PPSA20560-01.009.000) |
 | 2026-04-03 | ADDED | PPSA01576 | 01.011.000 | [Avatar: Frontiers of Pandora](https://hencheats.vercel.app/#PPSA01576-01.011.000) |
 | 2026-04-03 | UPDATE | PPSA21159 | 01.001.000 | [SILENT HILL f](https://hencheats.vercel.app/#PPSA21159-01.001.000) |
-| **---** | | | | |
+
+</details>
+
+<details>
+<summary>### March 2026</b></summary>
+
+| Date | Status | ID | Version | Title |
+|-|-|-|-|-|
 | 2026-03-30 | ADDED | PPSA21159 | 01.001.000 | [Silent Hill f](https://hencheats.vercel.app/#PPSA21159-01.001.000) |
 | 2026-03-28 | ADDED | PPSA16388 | 01.017.000 | [Hitman: World of Assassination](https://hencheats.vercel.app/#PPSA16388-01.017.000) |
 | 2026-03-27 | UPDATE | PPSA08260 | 01.003.001 | [Star Wars Outlaws](https://hencheats.vercel.app/#PPSA08260-01.003.001) |
@@ -330,7 +357,14 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 | 2026-03-07 | ADDED | PPSA04813 | 01.000.000 | [Outcast: A New Beginning](https://hencheats.vercel.app/#PPSA04813-01.000.000) |
 | 2026-03-07 | ADDED | PPSA04814 | 01.000.000 | [Outcast: A New Beginning](https://hencheats.vercel.app/#PPSA04814-01.000.000) |
 | 2026-03-02 | ADDED | CUSA11260 | 01.13 | [Death Stranding](https://hencheats.vercel.app/#CUSA11260-01.13) |
-| **---------------** | | | | |
+
+</details>
+
+<details>
+<summary>### February 2026</b></summary>
+
+| Date | Status | ID | Version | Title |
+|-|-|-|-|-|
 | 2026-02-28 | ADDED | PPSA18259 | 01.000.000 | [Dead Rising Deluxe Remaster](https://hencheats.vercel.app/#PPSA18259-01.000.000) |
 | 2026-02-26 | ADDED | PPSA04609 | 01.017.000 | [Elden Ring](https://hencheats.vercel.app/#PPSA04609-01.017.000) |
 | 2026-02-25 | ADDED | PPSA01284 | 03.000.004 | [Returnal](https://hencheats.vercel.app/#PPSA01284-03.000.004) |
@@ -340,6 +374,8 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 | 2026-02-19 | ADDED | PPSA09664 | 03.000.000 | [Dragon's Dogma 2](https://hencheats.vercel.app/#PPSA09664-03.000.000) |
 | 2026-02-11 | ADDED | PPSA01390 | 01.000.000 | [Dragon Age™: The Veilguard Deluxe Edition](https://hencheats.vercel.app/#PPSA01390-01.000.000) |
 | 2026-02-05 | ADDED | PPSA02525 | 01.009.000 | [Tormented Souls](https://hencheats.vercel.app/#PPSA02525-01.009.000) |
+
+</details>
 
 ## Notes
 ### 2026-02-17

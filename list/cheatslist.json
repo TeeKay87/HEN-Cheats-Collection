@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-08T16:48:04.4462292Z",
+  "generatedUtc": "2026-07-09T08:55:26.0247973Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -113505,6 +113505,43 @@
       "version": "01.018.000",
       "title": "Astro Bot",
       "idLower": "ppsa21564",
+      "titleLower": "astro bot",
+      "cheatsTotal": 4,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Inf Coins",
+            "Inf Jumps"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Inf Coins",
+            "Inf Jumps"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA21567",
+      "version": "01.018.000",
+      "title": "Astro Bot",
+      "idLower": "ppsa21567",
       "titleLower": "astro bot",
       "cheatsTotal": 4,
       "creators": [
