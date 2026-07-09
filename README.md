@@ -361,7 +361,7 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 </details>
 
 <details>
-<summary>### February 2026</b></summary>
+<summary><b>February 2026</b></summary>
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
