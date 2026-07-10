@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-10T15:29:19.519348Z",
+  "generatedUtc": "2026-07-10T18:28:27.9109106Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -107569,7 +107569,7 @@
       "title": "Dying Light 2: Stay Human",
       "idLower": "ppsa02262",
       "titleLower": "dying light 2: stay human",
-      "cheatsTotal": 11,
+      "cheatsTotal": 14,
       "creators": [
         "Aigars Uze"
       ],
@@ -107589,10 +107589,13 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 11,
+          "cheatsCount": 14,
           "cheats": [
             "Fast XP Combat And Parkour Points",
+            "Freeze Challenge Timer",
             "God Mode",
+            "God Mode Fixed",
+            "Infinite Ammo No Reload In Challenge",
             "Infinite Health",
             "Infinite Items (Gain on Use)",
             "Infinite Money (Gain on Spend)",
