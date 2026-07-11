@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-11T09:22:04.186105Z",
+  "generatedUtc": "2026-07-11T09:52:15.5955326Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -117943,6 +117943,49 @@
             "Infi Stamina",
             "Max Amrita (On Get)",
             "Max Money (On Get)"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA34823",
+      "version": "01.000.001",
+      "title": "New Super Lucky\u0027s Tale",
+      "idLower": "ppsa34823",
+      "titleLower": "new super lucky\u0027s tale",
+      "cheatsTotal": 10,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "--Inf_Coins",
+            "--Inf_Lives",
+            "Inf Hp",
+            "Inf Jumps",
+            "Master Code"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "--Inf_Coins",
+            "--Inf_Lives",
+            "Inf Hp",
+            "Inf Jumps",
+            "Master Code"
           ]
         }
       }

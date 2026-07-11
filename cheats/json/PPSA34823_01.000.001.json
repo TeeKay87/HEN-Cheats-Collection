@@ -1,0 +1,86 @@
+{
+  "name": "New Super Lucky\u0027s Tale",
+  "id": "PPSA34823",
+  "version": "01.000.001",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "--Inf_Coins",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FDABF00",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "--Inf_Lives",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FDABF01",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Inf Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80541958",
+          "on": "90909090",
+          "off": "45017528"
+        }
+      ]
+    },
+    {
+      "name": "Inf Jumps",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD1F068",
+          "on": "41BD010000004489AB30010000E9F5778300",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "80556868",
+          "on": "E9FB877CFF9090",
+          "off": "4489AB30010000"
+        }
+      ]
+    },
+    {
+      "name": "Master Code",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FDABF00",
+          "on": "00",
+          "off": "00"
+        },
+        {
+          "offset": "7FDABF01",
+          "on": "00",
+          "off": "00"
+        },
+        {
+          "offset": "7FD1F000",
+          "on": "4183FE0174084183FE047419EB2E803DEBCE080001752541C7442410F0237449E9C2853A01803DD5CE080001750E41C744241000001041E9AB853A01C4C17A11442410E99F853A01",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "810C75E0",
+          "on": "E91B7AC5FE9090",
+          "off": "C4C17A11442410"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}
