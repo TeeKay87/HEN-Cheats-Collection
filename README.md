@@ -390,7 +390,10 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ### 2026-07-11
 Fixed a couple of things.
 - All involved cheat creators are now credited when cheat files are merged. Previously a bug caused only the creator of the first file to be credited.
+- Merged cheats are now sorted by source-file. Cheats from file 1 are forted first, then cheats from file 2 and so on. 
 - Fixed a bug that aggressively marked some cheats as duplicates and skipped writing them to file. Fixing this has resulted in alot more cheats to be available.
+
+These fixes made changes to 3998 files.
 
 ### 2026-02-17
 Added lots of new cheats.
