@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-11T00:00:09.6432435Z",
+  "generatedUtc": "2026-07-11T07:11:29.8326243Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -113801,11 +113801,13 @@
       "title": "Black Myth: Wukong",
       "idLower": "ppsa23226",
       "titleLower": "black myth: wukong",
-      "cheatsTotal": 3,
+      "cheatsTotal": 15,
       "creators": [
+        "Celogamez",
         "Ps4\u0026Ps5 DarkConsole"
       ],
       "creatorsLower": [
+        "celogamez",
         "ps4\u0026ps5 darkconsole"
       ],
       "formats": {
@@ -113824,9 +113826,22 @@
           ]
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 12,
+          "cheats": [
+            "God Mode",
+            "Infinite Focus",
+            "Infinite Healing Gourd",
+            "Infinite Health",
+            "Infinite MP",
+            "Infinite Stamina",
+            "Instant Spell Cooldown",
+            "Instant Transformation Cooldown",
+            "Max Items",
+            "Max Will",
+            "Max XP/Levels",
+            "Max/Infinite Sparks On Use"
+          ]
         }
       }
     },
