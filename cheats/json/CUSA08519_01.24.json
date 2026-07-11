@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite items and consumables",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "C6F3B3",
-          "on": "49894618",
-          "off": "4D897E18"
-        }
-      ]
-    },
-    {
       "name": "Infinite Ammo",
       "type": "checkbox",
       "memory": [
@@ -23,6 +12,17 @@
           "offset": "C70146",
           "on": "48894318",
           "off": "48894B18"
+        }
+      ]
+    },
+    {
+      "name": "Infinite items and consumables",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "C6F3B3",
+          "on": "49894618",
+          "off": "4D897E18"
         }
       ]
     }

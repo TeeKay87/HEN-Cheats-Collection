@@ -5,6 +5,49 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Ammo (99)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4CD45A0",
+          "on": "48C1E004B863000000E91168ADFB",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "7AADB7",
+          "on": "E9E4975204909090",
+          "off": "48C1E0048B440104"
+        }
+      ]
+    },
+    {
+      "name": "Craft Materials (99)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7AAF7B",
+          "on": "66B86300",
+          "off": "8B440104"
+        }
+      ]
+    },
+    {
+      "name": "Experience 99k (on get)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4CD45CC",
+          "on": "9041C787F4000000804FC347C4C17A5887F4000000E94978A2FB",
+          "off": "0000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "6FBE26",
+          "on": "E9A1875D0490909090",
+          "off": "C4C17A5887F4000000"
+        }
+      ]
+    },
+    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -37,33 +80,6 @@
       ]
     },
     {
-      "name": "Ammo (99)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "4CD45A0",
-          "on": "48C1E004B863000000E91168ADFB",
-          "off": "0000000000000000000000000000"
-        },
-        {
-          "offset": "7AADB7",
-          "on": "E9E4975204909090",
-          "off": "48C1E0048B440104"
-        }
-      ]
-    },
-    {
-      "name": "Craft Materials (99)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7AAF7B",
-          "on": "66B86300",
-          "off": "8B440104"
-        }
-      ]
-    },
-    {
       "name": "Item Gadget (99)",
       "type": "checkbox",
       "memory": [
@@ -76,22 +92,6 @@
           "offset": "7AA08F",
           "on": "E920A55204909090",
           "off": "894C18EC4883C408"
-        }
-      ]
-    },
-    {
-      "name": "Experience 99k (on get)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "4CD45CC",
-          "on": "9041C787F4000000804FC347C4C17A5887F4000000E94978A2FB",
-          "off": "0000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "6FBE26",
-          "on": "E9A1875D0490909090",
-          "off": "C4C17A5887F4000000"
         }
       ]
     },

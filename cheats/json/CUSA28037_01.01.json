@@ -5,6 +5,33 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "1 Hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "BA7830",
+          "on": "C5F857C090",
+          "off": "C5FA5C45E4"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Flashlight",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5A94E90",
+          "on": "41C784244C0300000000803FC4C17A1084244C030000C4C17A1184244C030000E9255611FB",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "BAA4D0",
+          "on": "E9BBA9EE049090909090",
+          "off": "C4C17A1184244C030000"
+        }
+      ]
+    },
+    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -65,33 +92,6 @@
           "offset": "B75571",
           "on": "E9EAF8F10490",
           "off": "89B770040000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Flashlight",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5A94E90",
-          "on": "41C784244C0300000000803FC4C17A1084244C030000C4C17A1184244C030000E9255611FB",
-          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "BAA4D0",
-          "on": "E9BBA9EE049090909090",
-          "off": "C4C17A1184244C030000"
-        }
-      ]
-    },
-    {
-      "name": "1 Hit Kill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "BA7830",
-          "on": "C5F857C090",
-          "off": "C5FA5C45E4"
         }
       ]
     }

@@ -5,18 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "All items Shards / Ammo (on gain/craft must have 2) Activate both item cheat",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5FCA0",
-          "on": "4180BDB801000013750A41C7457400009443EB06C4C17A114574E926AE2081",
-          "off": "00000000000000000000000000000000000000000000000000000000000000"
+          "offset": "7FE9FF50",
+          "on": "0F4CF041C746509C860100E9C7750282",
+          "off": "00000000000000000000000000000000"
         },
         {
-          "offset": "E6AADF",
-          "on": "E9BC51DF7E90",
-          "off": "C4C17A114574"
+          "offset": "1EC7520",
+          "on": "E92B8AFD7D9090",
+          "off": "0F4CF041897650"
         }
       ]
     },
@@ -37,29 +37,18 @@
       ]
     },
     {
-      "name": "All items Shards / Ammo (on gain/craft must have 2) Activate both item cheat",
+      "name": "Infinite Aim Focus",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FE9FF50",
-          "on": "0F4CF041C746509C860100E9C7750282",
-          "off": "00000000000000000000000000000000"
+          "offset": "7FE9F5D0",
+          "on": "41C7455C0000A041E97D5CA381",
+          "off": "00000000000000000000000000"
         },
         {
-          "offset": "1EC7520",
-          "on": "E92B8AFD7D9090",
-          "off": "0F4CF041897650"
-        }
-      ]
-    },
-    {
-      "name": "Skill Points Increase (on spend have 2)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1F440F8",
-          "on": "41014E5C",
-          "off": "41894E5C"
+          "offset": "18D5254",
+          "on": "E977A35C7E90",
+          "off": "C4C17A11455C"
         }
       ]
     },
@@ -80,18 +69,29 @@
       ]
     },
     {
-      "name": "Infinite Aim Focus",
+      "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FE9F5D0",
-          "on": "41C7455C0000A041E97D5CA381",
-          "off": "00000000000000000000000000"
+          "offset": "7FC5FCA0",
+          "on": "4180BDB801000013750A41C7457400009443EB06C4C17A114574E926AE2081",
+          "off": "00000000000000000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "18D5254",
-          "on": "E977A35C7E90",
-          "off": "C4C17A11455C"
+          "offset": "E6AADF",
+          "on": "E9BC51DF7E90",
+          "off": "C4C17A114574"
+        }
+      ]
+    },
+    {
+      "name": "Skill Points Increase (on spend have 2)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F440F8",
+          "on": "41014E5C",
+          "off": "41894E5C"
         }
       ]
     }

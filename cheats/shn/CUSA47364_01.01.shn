@@ -21,6 +21,12 @@
       <ValueOn>83-78-78-01-75-0A-C5-FA-10-40-0C-E9-A1-F7-0F-FC-C5-FA-11-40-48-E9-97-F7-0F-FC</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
+    <Cheatline>
+      <Offset>846B6FC8</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-4F-08-F0-03</ValueOn>
+      <ValueOff>E9-33-08-F0-03</ValueOff>
+    </Cheatline>
   </Cheat>
   <Cheat Text="Infinite-lives">
     <Cheatline>

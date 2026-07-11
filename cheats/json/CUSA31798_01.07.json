@@ -21,17 +21,6 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "804004C5",
-          "on": "9090909090",
-          "off": "C5FA5C45C8"
-        }
-      ]
-    },
-    {
       "name": "Infinite Arrows",
       "type": "checkbox",
       "memory": [
@@ -59,18 +48,29 @@
       ]
     },
     {
-      "name": "One-hit Kill",
+      "name": "Infinite Gold (on get)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "18A3BBC",
-          "on": "669C4983FC057409C5EA2AC8C5FA114B18C5EA2AC031FF669DE91EB2BD7E9090",
-          "off": "669C4983FC057409C5EA2AC8C5FA114B18C5EA2AC031FF669DE91EB2BD7E9090"
+          "offset": "18A3C3C",
+          "on": "BB3F420F00BAFFFFFF7FE9480EB57E90",
+          "off": "BB3F420F00BAFFFFFF7FE9480EB57E90"
         },
         {
-          "offset": "8047EDF2",
-          "on": "E9C54D428190",
-          "off": "C5EA2AC031FF"
+          "offset": "803F4A8E",
+          "on": "E9A9F14A81",
+          "off": "BAFFFFFF7F"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "804004C5",
+          "on": "9090909090",
+          "off": "C5FA5C45C8"
         }
       ]
     },
@@ -91,18 +91,18 @@
       ]
     },
     {
-      "name": "Infinite Gold (on get)",
+      "name": "One-hit Kill",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "18A3C3C",
-          "on": "BB3F420F00BAFFFFFF7FE9480EB57E90",
-          "off": "BB3F420F00BAFFFFFF7FE9480EB57E90"
+          "offset": "18A3BBC",
+          "on": "669C4983FC057409C5EA2AC8C5FA114B18C5EA2AC031FF669DE91EB2BD7E9090",
+          "off": "669C4983FC057409C5EA2AC8C5FA114B18C5EA2AC031FF669DE91EB2BD7E9090"
         },
         {
-          "offset": "803F4A8E",
-          "on": "E9A9F14A81",
-          "off": "BAFFFFFF7F"
+          "offset": "8047EDF2",
+          "on": "E9C54D428190",
+          "off": "C5EA2AC031FF"
         }
       ]
     }

@@ -16,20 +16,6 @@
       <ValueOff>C5-FA-10-47-68</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Stars">
-    <Cheatline>
-      <Offset>153BDD5</Offset>
-      <Section>0</Section>
-      <ValueOn>48-8B-7C-24-F8-C7-47-64-E7-03-00-00-8B-47-64-E9-F4-C2-E5-7E</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>803980D5</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-FB-3C-1A-81-90-90-90</ValueOn>
-      <ValueOff>48-8B-7C-24-F8-8B-47-64</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Max Ammo">
     <Cheatline>
       <Offset>153BDE9</Offset>
@@ -42,6 +28,20 @@
       <Section>0</Section>
       <ValueOn>E9-86-C4-1E-81-90-90</ValueOn>
       <ValueOff>8B-74-24-F4-89-77-68</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max Stars">
+    <Cheatline>
+      <Offset>153BDD5</Offset>
+      <Section>0</Section>
+      <ValueOn>48-8B-7C-24-F8-C7-47-64-E7-03-00-00-8B-47-64-E9-F4-C2-E5-7E</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>803980D5</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-FB-3C-1A-81-90-90-90</ValueOn>
+      <ValueOff>48-8B-7C-24-F8-8B-47-64</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

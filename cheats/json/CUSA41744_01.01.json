@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Inf Ammo Shotgun",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "808AEA3C",
+          "on": "909090909090",
+          "off": "FF8864010000"
+        }
+      ]
+    },
+    {
       "name": "Inf Life",
       "type": "checkbox",
       "memory": [
@@ -32,17 +43,6 @@
       ]
     },
     {
-      "name": "No Pistol Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "80622F74",
-          "on": "9090",
-          "off": "8908"
-        }
-      ]
-    },
-    {
       "name": "Inf Pistol Ammo",
       "type": "checkbox",
       "memory": [
@@ -54,13 +54,13 @@
       ]
     },
     {
-      "name": "Inf Ammo Shotgun",
+      "name": "No Pistol Reload",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "808AEA3C",
-          "on": "909090909090",
-          "off": "FF8864010000"
+          "offset": "80622F74",
+          "on": "9090",
+          "off": "8908"
         }
       ]
     }

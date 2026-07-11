@@ -32,17 +32,6 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "CCC0DA",
-          "on": "909090909090",
-          "off": "898BB4010000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Items",
       "type": "checkbox",
       "memory": [
@@ -72,6 +61,17 @@
           "offset": "C8CE85",
           "on": "90909090",
           "off": "89740208"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "CCC0DA",
+          "on": "909090909090",
+          "off": "898BB4010000"
         }
       ]
     },
@@ -120,17 +120,6 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8CC0DA",
-          "on": "909090909090",
-          "off": "898BB4010000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Items",
       "type": "checkbox",
       "memory": [
@@ -160,6 +149,17 @@
           "offset": "88CE85",
           "on": "90909090",
           "off": "89740208"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8CC0DA",
+          "on": "909090909090",
+          "off": "898BB4010000"
         }
       ]
     },

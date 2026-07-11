@@ -3,20 +3,6 @@
   <Genres Name="Action" />
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Infinite Health (battle network 4 Red Sun)">
-    <Cheatline>
-      <Offset>6E97720</Offset>
-      <Section>0</Section>
-      <ValueOn>83-C0-24-66-8B-0C-02-E9-DA-C4-54-F9</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>3E3BFF</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-1C-3B-AB-06-90-90</ValueOn>
-      <ValueOff>83-C0-24-66-89-0C-02</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite Health (battle network 4 Blue moon)">
     <Cheatline>
       <Offset>6E97920</Offset>
@@ -31,18 +17,18 @@
       <ValueOff>83-C0-24-66-89-0C-02</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health (Battle Network 5 Team Protoman)">
+  <Cheat Text="Infinite Health (battle network 4 Red Sun)">
     <Cheatline>
-      <Offset>6E97820</Offset>
+      <Offset>6E97720</Offset>
       <Section>0</Section>
-      <ValueOn>83-C1-24-80-7C-0A-40-00-75-06-66-8B-04-0A-EB-04-66-89-04-0A-E9-39-92-97-FA</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+      <ValueOn>83-C0-24-66-8B-0C-02-E9-DA-C4-54-F9</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>1810A6B</Offset>
+      <Offset>3E3BFF</Offset>
       <Section>0</Section>
-      <ValueOn>E9-B0-6D-68-05-90-90</ValueOn>
-      <ValueOff>83-C1-24-66-89-04-0A</ValueOff>
+      <ValueOn>E9-1C-3B-AB-06-90-90</ValueOn>
+      <ValueOff>83-C0-24-66-89-0C-02</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Health (battle network 5 Team Colonel)">
@@ -56,6 +42,20 @@
       <Offset>244A1CB</Offset>
       <Section>0</Section>
       <ValueOn>E9-00-D7-A4-04-90-90</ValueOn>
+      <ValueOff>83-C1-24-66-89-04-0A</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Health (Battle Network 5 Team Protoman)">
+    <Cheatline>
+      <Offset>6E97820</Offset>
+      <Section>0</Section>
+      <ValueOn>83-C1-24-80-7C-0A-40-00-75-06-66-8B-04-0A-EB-04-66-89-04-0A-E9-39-92-97-FA</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>1810A6B</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-B0-6D-68-05-90-90</ValueOn>
       <ValueOff>83-C1-24-66-89-04-0A</ValueOff>
     </Cheatline>
   </Cheat>

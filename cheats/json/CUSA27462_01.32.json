@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite First Aid kit",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "F38BC2",
-          "on": "909090909090",
-          "off": "FF8B400C0000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Ammo/No reolad",
       "type": "checkbox",
       "memory": [
@@ -32,18 +21,13 @@
       ]
     },
     {
-      "name": "Max Currency (on spend)",
+      "name": "Infinite Consumables 1 (Turrets and special ammo uses)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "5F0FB20",
-          "on": "41C74424089F860100E924B8F4FA",
-          "off": "0000000000000000000000000000"
-        },
-        {
-          "offset": "E5B34D",
-          "on": "E9CE470B05",
-          "off": "4189442408"
+          "offset": "F38B9D",
+          "on": "90909090909090",
+          "off": "83BB400C000000"
         }
       ]
     },
@@ -59,13 +43,29 @@
       ]
     },
     {
-      "name": "Infinite Consumables 1 (Turrets and special ammo uses)",
+      "name": "Infinite First Aid kit",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "F38B9D",
-          "on": "90909090909090",
-          "off": "83BB400C000000"
+          "offset": "F38BC2",
+          "on": "909090909090",
+          "off": "FF8B400C0000"
+        }
+      ]
+    },
+    {
+      "name": "Max Currency (on spend)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5F0FB20",
+          "on": "41C74424089F860100E924B8F4FA",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "E5B34D",
+          "on": "E9CE470B05",
+          "off": "4189442408"
         }
       ]
     }

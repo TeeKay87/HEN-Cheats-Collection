@@ -5,6 +5,28 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "9999999 Experience",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "10831BD8E0",
+          "on": "7F9698000F",
+          "off": "7F9698000F"
+        }
+      ]
+    },
+    {
+      "name": "9999999 Money",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "10831BDAA0",
+          "on": "7F9698000F",
+          "off": "7F9698000F"
+        }
+      ]
+    },
+    {
       "name": "Godmode",
       "type": "checkbox",
       "memory": [
@@ -63,7 +85,7 @@
       "type": "button",
       "memory": [
         {
-          "offset": "10831BD8E0",
+          "offset": "1082DBD8E0",
           "on": "7F9698000F",
           "off": "7F9698000F"
         }
@@ -74,7 +96,7 @@
       "type": "button",
       "memory": [
         {
-          "offset": "10831BDAA0",
+          "offset": "1082DBDAA0",
           "on": "7F9698000F",
           "off": "7F9698000F"
         }
@@ -131,28 +153,6 @@
           "offset": "1146747428",
           "on": "0000FA43",
           "off": "0000FA43"
-        }
-      ]
-    },
-    {
-      "name": "9999999 Experience",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "1082DBD8E0",
-          "on": "7F9698000F",
-          "off": "7F9698000F"
-        }
-      ]
-    },
-    {
-      "name": "9999999 Money",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "1082DBDAA0",
-          "on": "7F9698000F",
-          "off": "7F9698000F"
         }
       ]
     }

@@ -3,42 +3,12 @@
   <Genres Name="Action" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Max/Infinite Health/1 Shot Kills (Master Code)">
-    <Cheatline>
-      <Offset>126FDB0</Offset>
-      <Section>0</Section>
-      <ValueOn>80-BB-84-00-00-00-01-75-12-C5-FA-11-4B-60-C5-FA-11-4B-60-E9-74-E9-09-FF-0F-57-C9-C5-FA-11-4B-60-E9-67-E9-09-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>30E737</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-74-16-F6-00</ValueOn>
-      <ValueOff>C5-FA-11-4B-60</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Max/Infinite Health (Need MC)">
-    <Cheatline>
-      <Offset>126FDB9</Offset>
-      <Section>0</Section>
-      <ValueOn>C5-FA-10-4B-64</ValueOn>
-      <ValueOff>C5-FA-11-4B-60</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="1 Shot Kills (Need MC)">
     <Cheatline>
       <Offset>126FDB7</Offset>
       <Section>0</Section>
       <ValueOn>75-0F</ValueOn>
       <ValueOff>75-12</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Stamina (For Running)">
-    <Cheatline>
-      <Offset>E0082E</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90</ValueOn>
-      <ValueOff>C4-C1-7A-11-4F-10</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Focus">
@@ -55,32 +25,12 @@
       <ValueOff>C4-C1-7A-11-47-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Ammo/Items">
+  <Cheat Text="Infinite Stamina (For Running)">
     <Cheatline>
-      <Offset>126FC90</Offset>
+      <Offset>E0082E</Offset>
       <Section>0</Section>
-      <ValueOn>85-F6-C7-43-2C-FA-00-00-00-E9-FA-43-9C-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>C34093</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-F8-BB-63-00</ValueOn>
-      <ValueOff>85-F6-89-43-2C</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="No Reload">
-    <Cheatline>
-      <Offset>126FCD0</Offset>
-      <Section>0</Section>
-      <ValueOn>0F-46-FE-8B-79-40-E9-B0-DB-99-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>C0D885</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-46-24-66-00-90</ValueOn>
-      <ValueOff>0F-46-FE-89-79-40</ValueOff>
+      <ValueOn>90-90-90-90-90-90</ValueOn>
+      <ValueOff>C4-C1-7A-11-4F-10</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max XP/Levels/Skill Points On Gain (Disable/Restart The Game)">
@@ -95,6 +45,56 @@
       <Section>0</Section>
       <ValueOn>E9-CB-FD-B8-00-90-90-90</ValueOn>
       <ValueOff>49-8B-46-08-49-89-47-08</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max/Infinite Ammo/Items">
+    <Cheatline>
+      <Offset>126FC90</Offset>
+      <Section>0</Section>
+      <ValueOn>85-F6-C7-43-2C-FA-00-00-00-E9-FA-43-9C-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>C34093</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-F8-BB-63-00</ValueOn>
+      <ValueOff>85-F6-89-43-2C</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max/Infinite Health (Need MC)">
+    <Cheatline>
+      <Offset>126FDB9</Offset>
+      <Section>0</Section>
+      <ValueOn>C5-FA-10-4B-64</ValueOn>
+      <ValueOff>C5-FA-11-4B-60</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max/Infinite Health/1 Shot Kills (Master Code)">
+    <Cheatline>
+      <Offset>126FDB0</Offset>
+      <Section>0</Section>
+      <ValueOn>80-BB-84-00-00-00-01-75-12-C5-FA-11-4B-60-C5-FA-11-4B-60-E9-74-E9-09-FF-0F-57-C9-C5-FA-11-4B-60-E9-67-E9-09-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>30E737</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-74-16-F6-00</ValueOn>
+      <ValueOff>C5-FA-11-4B-60</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="No Reload">
+    <Cheatline>
+      <Offset>126FCD0</Offset>
+      <Section>0</Section>
+      <ValueOn>0F-46-FE-8B-79-40-E9-B0-DB-99-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>C0D885</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-46-24-66-00-90</ValueOn>
+      <ValueOff>0F-46-FE-89-79-40</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

@@ -21,17 +21,6 @@
       ]
     },
     {
-      "name": "Opponent Health (25%) (MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "31EB809",
-          "on": "750D",
-          "off": "752B"
-        }
-      ]
-    },
-    {
       "name": "Infinite Super Meter Bars (Master Code)",
       "type": "checkbox",
       "memory": [
@@ -44,6 +33,17 @@
           "offset": "87675E",
           "on": "E9E2509702909090",
           "off": "C5FA11838C020000"
+        }
+      ]
+    },
+    {
+      "name": "Opponent Health (25%) (MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "31EB809",
+          "on": "750D",
+          "off": "752B"
         }
       ]
     },

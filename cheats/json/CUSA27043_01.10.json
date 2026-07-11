@@ -5,6 +5,49 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "1 Hit Kill (Enable MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8CA5508",
+          "on": "7510",
+          "off": "750B"
+        }
+      ]
+    },
+    {
+      "name": "Max Ammo/No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8CA55A3",
+          "on": "C78704010000630000008B8704010000E9787888F9",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "252CE2A",
+          "on": "E97487770690",
+          "off": "038704010000"
+        }
+      ]
+    },
+    {
+      "name": "Max Fury",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8CA55BE",
+          "on": "4983F800750FC780800000000000803FE9FB5EBAF9C5FA118080000000E9EE5EBAF9",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "284B4C6",
+          "on": "E9F3A04506909090",
+          "off": "C5FA118080000000"
+        }
+      ]
+    },
+    {
       "name": "Max Health (MC)",
       "type": "checkbox",
       "memory": [
@@ -17,33 +60,6 @@
           "offset": "1FE0DC0",
           "on": "E93B47CC0690909090",
           "off": "C4C17A118578010000"
-        }
-      ]
-    },
-    {
-      "name": "1 Hit Kill (Enable MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8CA5508",
-          "on": "7510",
-          "off": "750B"
-        }
-      ]
-    },
-    {
-      "name": "Max XP",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8CA5533",
-          "on": "C681B00000000141BD048E0400E99CF7BDF9",
-          "off": "000000000000000000000000000000000000"
-        },
-        {
-          "offset": "2884CDA",
-          "on": "E9540842069090",
-          "off": "C681B000000001"
         }
       ]
     },
@@ -96,34 +112,18 @@
       ]
     },
     {
-      "name": "Max Ammo/No Reload",
+      "name": "Max XP",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "8CA55A3",
-          "on": "C78704010000630000008B8704010000E9787888F9",
-          "off": "000000000000000000000000000000000000000000"
+          "offset": "8CA5533",
+          "on": "C681B00000000141BD048E0400E99CF7BDF9",
+          "off": "000000000000000000000000000000000000"
         },
         {
-          "offset": "252CE2A",
-          "on": "E97487770690",
-          "off": "038704010000"
-        }
-      ]
-    },
-    {
-      "name": "Max Fury",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8CA55BE",
-          "on": "4983F800750FC780800000000000803FE9FB5EBAF9C5FA118080000000E9EE5EBAF9",
-          "off": "00000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "284B4C6",
-          "on": "E9F3A04506909090",
-          "off": "C5FA118080000000"
+          "offset": "2884CDA",
+          "on": "E9540842069090",
+          "off": "C681B000000001"
         }
       ]
     }

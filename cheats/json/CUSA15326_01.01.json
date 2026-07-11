@@ -5,29 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Money ON Buy",
+      "name": "1 Hit KILL",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "19E3800",
-          "on": "41C7848750840000FFE0F5050F8ED03410FF4589AC8750840000E98A3410FF",
-          "off": "00000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "AE6C9F",
-          "on": "E95CCBEF009090909090",
-          "off": "4589AC87508400007E39"
-        }
-      ]
-    },
-    {
-      "name": "Max Exp After Get",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "AE7978",
-          "on": "45897E22",
-          "off": "45897E20"
+          "offset": "654F7",
+          "on": "0FB74010",
+          "off": "0FB74006"
         }
       ]
     },
@@ -65,13 +49,29 @@
       ]
     },
     {
-      "name": "1 Hit KILL",
+      "name": "Max Exp After Get",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "654F7",
-          "on": "0FB74010",
-          "off": "0FB74006"
+          "offset": "AE7978",
+          "on": "45897E22",
+          "off": "45897E20"
+        }
+      ]
+    },
+    {
+      "name": "Max Money ON Buy",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "19E3800",
+          "on": "41C7848750840000FFE0F5050F8ED03410FF4589AC8750840000E98A3410FF",
+          "off": "00000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "AE6C9F",
+          "on": "E95CCBEF009090909090",
+          "off": "4589AC87508400007E39"
         }
       ]
     }

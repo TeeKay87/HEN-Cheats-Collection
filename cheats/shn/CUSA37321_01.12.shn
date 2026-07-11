@@ -2,6 +2,14 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Atomic Heart" Moder="Celogamez" Cusa="CUSA37321" Version="01.12" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
+  <Cheat Text="Infinite Ammo">
+    <Cheatline>
+      <Offset>15227D1</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90</ValueOn>
+      <ValueOff>E8-4A-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Infinite Health+Energy+Dash">
     <Cheatline>
       <Offset>71ABDB0</Offset>
@@ -14,14 +22,6 @@
       <Section>0</Section>
       <ValueOn>E9-E7-DD-0D-07</ValueOn>
       <ValueOff>E8-17-F9-FF-FF</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Ammo">
-    <Cheatline>
-      <Offset>15227D1</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90</ValueOn>
-      <ValueOff>E8-4A-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Neuropolymer/Resources (On Pick Up)">

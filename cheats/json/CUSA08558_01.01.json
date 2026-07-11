@@ -32,28 +32,6 @@
       ]
     },
     {
-      "name": "Set Money to 8.999.999",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "20047962C",
-          "on": "3F548900",
-          "off": "3F548900"
-        }
-      ]
-    },
-    {
-      "name": "Set Skillpoints to 999",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "21A1EE8A8",
-          "on": "E7030000",
-          "off": "E7030000"
-        }
-      ]
-    },
-    {
       "name": "Max Level",
       "type": "button",
       "memory": [
@@ -72,6 +50,28 @@
           "offset": "21A1E9D44",
           "on": "7F969800",
           "off": "7F969800"
+        }
+      ]
+    },
+    {
+      "name": "Set Money to 8.999.999",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "20047962C",
+          "on": "3F548900",
+          "off": "3F548900"
+        }
+      ]
+    },
+    {
+      "name": "Set Skillpoints to 999",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "21A1EE8A8",
+          "on": "E7030000",
+          "off": "E7030000"
         }
       ]
     },
@@ -103,28 +103,6 @@
       ]
     },
     {
-      "name": "Set Money to 8.999.999",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "20007962C",
-          "on": "3F548900",
-          "off": "3F548900"
-        }
-      ]
-    },
-    {
-      "name": "Set Skillpoints to 999",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "219DEE8A8",
-          "on": "E7030000",
-          "off": "E7030000"
-        }
-      ]
-    },
-    {
       "name": "Max Level",
       "type": "button",
       "memory": [
@@ -143,6 +121,28 @@
           "offset": "219DE9D44",
           "on": "7F969800",
           "off": "7F969800"
+        }
+      ]
+    },
+    {
+      "name": "Set Money to 8.999.999",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "20007962C",
+          "on": "3F548900",
+          "off": "3F548900"
+        }
+      ]
+    },
+    {
+      "name": "Set Skillpoints to 999",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "219DEE8A8",
+          "on": "E7030000",
+          "off": "E7030000"
         }
       ]
     }

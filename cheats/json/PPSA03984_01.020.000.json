@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf HP Onehitkill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "617B000",
-          "on": "410F4ECC833A000F84FC8F58FBC7424000000000E9F08F58FB",
-          "off": "00000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "1704002",
-          "on": "E9F96FA7049090",
-          "off": "410F4ECC894A40"
-        }
-      ]
-    },
-    {
       "name": "Inf HP",
       "type": "checkbox",
       "memory": [
@@ -32,6 +16,22 @@
         {
           "offset": "1704002",
           "on": "E93270A7049090",
+          "off": "410F4ECC894A40"
+        }
+      ]
+    },
+    {
+      "name": "Inf HP Onehitkill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "617B000",
+          "on": "410F4ECC833A000F84FC8F58FBC7424000000000E9F08F58FB",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1704002",
+          "on": "E9F96FA7049090",
           "off": "410F4ECC894A40"
         }
       ]

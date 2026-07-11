@@ -21,6 +21,22 @@
       ]
     },
     {
+      "name": "Inf Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1101854",
+          "on": "C6401063498B07E97BAC0000",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "110C4D4",
+          "on": "E97B53FFFF9090",
+          "off": "44896010498B07"
+        }
+      ]
+    },
+    {
       "name": "Inf Health",
       "type": "checkbox",
       "memory": [
@@ -49,22 +65,6 @@
           "offset": "10A5CE3",
           "on": "E9B9B305009090",
           "off": "48894A10488B08"
-        }
-      ]
-    },
-    {
-      "name": "Inf Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1101854",
-          "on": "C6401063498B07E97BAC0000",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "110C4D4",
-          "on": "E97B53FFFF9090",
-          "off": "44896010498B07"
         }
       ]
     },

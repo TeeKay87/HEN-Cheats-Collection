@@ -5,18 +5,14 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Items Backpack",
+      "name": "Day never increased",
+      "hint": "Use after Day 1.",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "B87C01",
-          "on": "51428B4C3B2042894C3B2059E993C7A6FF",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "5F43A0",
-          "on": "E95C385900",
-          "off": "4289443B20"
+          "offset": "6A4546",
+          "on": "9090",
+          "off": "FFC2"
         }
       ]
     },
@@ -37,30 +33,29 @@
       ]
     },
     {
-      "name": "Day never increased",
-      "hint": "Use after Day 1.",
+      "name": "Infinite Items Backpack",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "6A4546",
-          "on": "9090",
-          "off": "FFC2"
-        }
-      ]
-    },
-    {
-      "name": "Inf Items Backpack",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "787C01",
+          "offset": "B87C01",
           "on": "51428B4C3B2042894C3B2059E993C7A6FF",
           "off": "0000000000000000000000000000000000"
         },
         {
-          "offset": "1F43A0",
+          "offset": "5F43A0",
           "on": "E95C385900",
           "off": "4289443B20"
+        }
+      ]
+    },
+    {
+      "name": "Day never increased (Use after Day1)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2A4546",
+          "on": "9090",
+          "off": "FFC2"
         }
       ]
     },
@@ -81,13 +76,18 @@
       ]
     },
     {
-      "name": "Day never increased (Use after Day1)",
+      "name": "Inf Items Backpack",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "2A4546",
-          "on": "9090",
-          "off": "FFC2"
+          "offset": "787C01",
+          "on": "51428B4C3B2042894C3B2059E993C7A6FF",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "1F43A0",
+          "on": "E95C385900",
+          "off": "4289443B20"
         }
       ]
     }

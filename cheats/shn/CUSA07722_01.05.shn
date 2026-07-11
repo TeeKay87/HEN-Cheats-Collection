@@ -2,18 +2,12 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Strafe" Moder="Reddevil82 - FW 9.00" Cusa="CUSA07722" Version="01.05" Process="eboot.bin">
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Infinite Health" Description="Infinite Health">
+  <Cheat Text="Freeze Timer [ MC ]" Description="Freeze Timer [ MC ]">
     <Cheatline>
-      <Offset>11D3DB0</Offset>
+      <Offset>1214021</Offset>
       <Section>0</Section>
-      <ValueOn>C7-81-84-00-00-00-00-00-C8-42-F3-0F-10-81-84-00-00-00-E9-F9-6B-8A-7F-52-65-64-64-65-76-69-6C-38-32-20-2D-20-46-57-20-39-2E-30-30</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>80A7A9B8</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-F3-93-75-80-90-90-90</ValueOn>
-      <ValueOff>F3-0F-10-81-84-00-00-00</ValueOff>
+      <ValueOn>01</ValueOn>
+      <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Armor" Description="Infinite Armor">
@@ -28,6 +22,34 @@
       <Section>0</Section>
       <ValueOn>E9-56-93-75-80-90-90-90</ValueOn>
       <ValueOff>F3-0F-10-80-B0-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Health" Description="Infinite Health">
+    <Cheatline>
+      <Offset>11D3DB0</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-81-84-00-00-00-00-00-C8-42-F3-0F-10-81-84-00-00-00-E9-F9-6B-8A-7F-52-65-64-64-65-76-69-6C-38-32-20-2D-20-46-57-20-39-2E-30-30</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>80A7A9B8</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-F3-93-75-80-90-90-90</ValueOn>
+      <ValueOff>F3-0F-10-81-84-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Mastercode Timer ( must be activated for [ MC ] Cheats )" Description="Mastercode Timer ( must be activated for [ MC ] Cheats )">
+    <Cheatline>
+      <Offset>11D3E21</Offset>
+      <Section>0</Section>
+      <ValueOn>80-3D-F8-01-04-00-01-75-10-41-C7-87-04-01-00-00-00-00-80-3F-E9-B5-AE-80-7F-80-3D-E0-01-04-00-01-75-06-90-E9-A6-AE-80-7F-F3-45-0F-11-BF-04-01-00-00-E9-98-AE-80-7F</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>809DECE6</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-36-51-7F-80-90-90-90-90</ValueOn>
+      <ValueOff>F3-45-0F-11-BF-04-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max Ammo Clip" Description="Max Ammo Clip">
@@ -66,31 +88,9 @@
       <ValueOff>F3-44-0F-11-B8-84-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Mastercode Timer ( must be activated for [ MC ] Cheats )" Description="Mastercode Timer ( must be activated for [ MC ] Cheats )">
-    <Cheatline>
-      <Offset>11D3E21</Offset>
-      <Section>0</Section>
-      <ValueOn>80-3D-F8-01-04-00-01-75-10-41-C7-87-04-01-00-00-00-00-80-3F-E9-B5-AE-80-7F-80-3D-E0-01-04-00-01-75-06-90-E9-A6-AE-80-7F-F3-45-0F-11-BF-04-01-00-00-E9-98-AE-80-7F</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>809DECE6</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-36-51-7F-80-90-90-90-90</ValueOn>
-      <ValueOff>F3-45-0F-11-BF-04-01-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Reset Timer to 1 [ MC ]" Description="Reset Timer to 1 [ MC ]">
     <Cheatline>
       <Offset>1214020</Offset>
-      <Section>0</Section>
-      <ValueOn>01</ValueOn>
-      <ValueOff>00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Freeze Timer [ MC ]" Description="Freeze Timer [ MC ]">
-    <Cheatline>
-      <Offset>1214021</Offset>
       <Section>0</Section>
       <ValueOn>01</ValueOn>
       <ValueOff>00</ValueOff>

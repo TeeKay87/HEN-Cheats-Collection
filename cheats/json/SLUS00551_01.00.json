@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite-All-Weapon",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "12A812",
+          "on": "00",
+          "off": "42"
+        }
+      ]
+    },
+    {
       "name": "Infinite-Health",
       "type": "checkbox",
       "memory": [
@@ -17,17 +28,6 @@
           "offset": "1F4EAD",
           "on": "A0",
           "off": "51"
-        }
-      ]
-    },
-    {
-      "name": "Infinite-All-Weapon",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "12A812",
-          "on": "00",
-          "off": "42"
         }
       ]
     },

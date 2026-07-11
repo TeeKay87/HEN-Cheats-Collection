@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Battlefield 4" Moder="Fullcodes" Cusa="CUSA00049" Version="01.24" Process="eboot.bin">
   <Items />
-  <Cheat Text="No Reload">
+  <Cheat Text="">
     <Cheatline>
-      <Offset>00CF5AC4</Offset>
+      <Offset>02E3C400</Offset>
       <Section>0</Section>
-      <ValueOn>90-90</ValueOn>
-      <ValueOff>FF-C8</ValueOff>
+      <ValueOn>80-7B-60-29-75-0C-C7-43-1C-00-00-C8-42-C5-FA-10-43-1C-C5-FA-11-43-1C-E9-17-1A-5F-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Ammo and Grenade Usage">
@@ -25,14 +25,6 @@
       <ValueOff>C5-FA-11-43-1C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="">
-    <Cheatline>
-      <Offset>02E3C400</Offset>
-      <Section>0</Section>
-      <ValueOn>80-7B-60-29-75-0C-C7-43-1C-00-00-C8-42-C5-FA-10-43-1C-C5-FA-11-43-1C-E9-17-1A-5F-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite Player Health">
     <Cheatline>
       <Offset>0142DE2E</Offset>
@@ -45,6 +37,14 @@
       <Section>0</Section>
       <ValueOn>80-7B-60-29-75-0C-C7-43-1C-00-00-C8-42-C5-FA-10-43-1C-C5-FA-11-43-1C-E9-17-1A-5F-FE</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="No Reload">
+    <Cheatline>
+      <Offset>00CF5AC4</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90</ValueOn>
+      <ValueOff>FF-C8</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

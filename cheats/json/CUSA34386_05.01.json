@@ -5,13 +5,95 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "TRAINER INFO (read only)",
+      "name": "--100x damage (one hit kill)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1b87900",
-          "on": "00",
-          "off": "00"
+          "offset": "01B866BA",
+          "on": "0000C842",
+          "off": "0000C842"
+        }
+      ]
+    },
+    {
+      "name": "--10x damage",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01B866BA",
+          "on": "00002041",
+          "off": "00002041"
+        }
+      ]
+    },
+    {
+      "name": "--20x damage",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01B866BA",
+          "on": "0000A041",
+          "off": "0000A041"
+        }
+      ]
+    },
+    {
+      "name": "--30x damage",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01B866BA",
+          "on": "0000F041",
+          "off": "0000F041"
+        }
+      ]
+    },
+    {
+      "name": "--40x damage",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01B866BA",
+          "on": "00002042",
+          "off": "00002042"
+        }
+      ]
+    },
+    {
+      "name": "--50x damage",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01B866BA",
+          "on": "00004842",
+          "off": "00004842"
+        }
+      ]
+    },
+    {
+      "name": "--5x damage",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01B866BA",
+          "on": "0000A040",
+          "off": "0000A040"
+        }
+      ]
+    },
+    {
+      "name": "Damage Multiplier(Master Code) [DO NOT USE IN VALHALLA]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1b866A0",
+          "on": "4883F8007508C5F2590D0C0000004489FAC5FA5CC1E97F78F6FE0000803F",
+          "off": "000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "AEDF32",
+          "on": "E9698709019090",
+          "off": "4489FAC5FA5CC1"
         }
       ]
     },
@@ -52,49 +134,6 @@
       ]
     },
     {
-      "name": "No Damage Taken",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1b86600",
-          "on": "B001C3",
-          "off": "000000"
-        },
-        {
-          "offset": "C4F0A6",
-          "on": "E95575F300",
-          "off": "C390909090"
-        }
-      ]
-    },
-    {
-      "name": "No XP,HS, Resources subtracted when used",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1b87100",
-          "on": "83FA007F0231D2F0015708E99EFF51FF",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "10A709F",
-          "on": "E95C00AE0090",
-          "off": "F0015708EB09"
-        }
-      ]
-    },
-    {
-      "name": "No Crafting And Upgrade Limits",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "103E4F6",
-          "on": "9090",
-          "off": "7C9D"
-        }
-      ]
-    },
-    {
       "name": "Infinite Arrows \u0026 Throwables [DO NOT USE IN VALHALLA]",
       "type": "checkbox",
       "memory": [
@@ -121,6 +160,22 @@
       ]
     },
     {
+      "name": "Infinite Max Shield Charge",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1b86750",
+          "on": "4883FF1175198178280000C8427510C7402800000000C5F857C0E9ABFC16FFC5FA104028E9A1FC16FF",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "CF6415",
+          "on": "E93603E900",
+          "off": "C5FA104028"
+        }
+      ]
+    },
+    {
       "name": "Infinite Rage (incl. Kratos and Atreus)",
       "type": "checkbox",
       "memory": [
@@ -137,61 +192,45 @@
       ]
     },
     {
-      "name": "Damage Multiplier(Master Code) [DO NOT USE IN VALHALLA]",
+      "name": "Infinite Weapon Charge (L1\u002BTriangle)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1b866A0",
-          "on": "4883F8007508C5F2590D0C0000004489FAC5FA5CC1E97F78F6FE0000803F",
-          "off": "000000000000000000000000000000000000000000000000000000000000"
+          "offset": "1b87200",
+          "on": "669C6641817F1A10C1750841C747280000CA42669DC4C17A105728E903850EFF",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "AEDF32",
-          "on": "E9698709019090",
-          "off": "4489FAC5FA5CC1"
+          "offset": "C6F71D",
+          "on": "E9DE7AF10090",
+          "off": "C4C17A105728"
         }
       ]
     },
     {
-      "name": "--5x damage",
+      "name": "No Crafting And Upgrade Limits",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "01B866BA",
-          "on": "0000A040",
-          "off": "0000A040"
+          "offset": "103E4F6",
+          "on": "9090",
+          "off": "7C9D"
         }
       ]
     },
     {
-      "name": "One Hit Stun [DO NOT USE IN VALHALLA]",
+      "name": "No Damage Taken",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1b86700",
-          "on": "4883FE00740841C746280000C842C4C17A104628E93AF1FEFE",
-          "off": "00000000000000000000000000000000000000000000000000"
+          "offset": "1b86600",
+          "on": "B001C3",
+          "off": "000000"
         },
         {
-          "offset": "B7584D",
-          "on": "E9AE0E010190",
-          "off": "C4C17A104628"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Max Shield Charge",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1b86750",
-          "on": "4883FF1175198178280000C8427510C7402800000000C5F857C0E9ABFC16FFC5FA104028E9A1FC16FF",
-          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "CF6415",
-          "on": "E93603E900",
-          "off": "C5FA104028"
+          "offset": "C4F0A6",
+          "on": "E95575F300",
+          "off": "C390909090"
         }
       ]
     },
@@ -212,18 +251,45 @@
       ]
     },
     {
-      "name": "Infinite Weapon Charge (L1\u002BTriangle)",
+      "name": "No XP,HS, Resources subtracted when used",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1b87200",
-          "on": "669C6641817F1A10C1750841C747280000CA42669DC4C17A105728E903850EFF",
-          "off": "0000000000000000000000000000000000000000000000000000000000000000"
+          "offset": "1b87100",
+          "on": "83FA007F0231D2F0015708E99EFF51FF",
+          "off": "00000000000000000000000000000000"
         },
         {
-          "offset": "C6F71D",
-          "on": "E9DE7AF10090",
-          "off": "C4C17A105728"
+          "offset": "10A709F",
+          "on": "E95C00AE0090",
+          "off": "F0015708EB09"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Stun [DO NOT USE IN VALHALLA]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1b86700",
+          "on": "4883FE00740841C746280000C842C4C17A104628E93AF1FEFE",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "B7584D",
+          "on": "E9AE0E010190",
+          "off": "C4C17A104628"
+        }
+      ]
+    },
+    {
+      "name": "TRAINER INFO (read only)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1b87900",
+          "on": "00",
+          "off": "00"
         }
       ]
     }

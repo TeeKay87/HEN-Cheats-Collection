@@ -5,38 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max/Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5CE30",
-          "on": "4981F874544A037505B83408000041898548010000E9D3064781",
-          "off": "0000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "10CD516",
-          "on": "E915F9B87E9090",
-          "off": "41898548010000"
-        }
-      ]
-    },
-    {
-      "name": "Max/Infinite Magic",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5DE00",
-          "on": "41C78658010000C2010000E9FDFA4681",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "10CD906",
-          "on": "E9F504B97E9090",
-          "off": "41898658010000"
-        }
-      ]
-    },
-    {
       "name": "Max/Infinite Endurance",
       "type": "checkbox",
       "memory": [
@@ -53,6 +21,22 @@
       ]
     },
     {
+      "name": "Max/Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5CE30",
+          "on": "4981F874544A037505B83408000041898548010000E9D3064781",
+          "off": "0000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "10CD516",
+          "on": "E915F9B87E9090",
+          "off": "41898548010000"
+        }
+      ]
+    },
+    {
       "name": "Max/Infinite Items/Potions/Arrows",
       "type": "checkbox",
       "memory": [
@@ -65,6 +49,22 @@
           "offset": "DE76DB",
           "on": "E9107AE77E909090",
           "off": "43897CA70C448931"
+        }
+      ]
+    },
+    {
+      "name": "Max/Infinite Magic",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5DE00",
+          "on": "41C78658010000C2010000E9FDFA4681",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "10CD906",
+          "on": "E9F504B97E9090",
+          "off": "41898658010000"
         }
       ]
     },

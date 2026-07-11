@@ -42,6 +42,14 @@
       <ValueOff>48-C7-03-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="Player 1: 1-Hit K.O.">
+    <Cheatline>
+      <Offset>52A381D</Offset>
+      <Section>0</Section>
+      <ValueOn>01</ValueOn>
+      <ValueOff>00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Player 1: Infinite Health">
     <Cheatline>
       <Offset>52A381C</Offset>
@@ -50,11 +58,19 @@
       <ValueOff>0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Player 1: 1-Hit K.O.">
+  <Cheat Text="Player 2: 1-Hit K.O.">
     <Cheatline>
       <Offset>52A381D</Offset>
       <Section>0</Section>
-      <ValueOn>01</ValueOn>
+      <ValueOn>02</ValueOn>
+      <ValueOff>00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Player 2: Infinite Health">
+    <Cheatline>
+      <Offset>52A381C</Offset>
+      <Section>0</Section>
+      <ValueOn>02</ValueOn>
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>

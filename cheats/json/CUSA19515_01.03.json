@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health(Your health will decrease, but refill)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2103850",
-          "on": "C783880300000000C842E9B56A6EFF",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "17EA30C",
-          "on": "E93F959100909090",
-          "off": "C5FA118388030000"
-        }
-      ]
-    },
-    {
       "name": "Faster XP",
       "type": "checkbox",
       "memory": [
@@ -28,6 +12,17 @@
           "offset": "7993BC",
           "on": "0106",
           "off": "8906"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7B1774",
+          "on": "909090",
+          "off": "2B45C8"
         }
       ]
     },
@@ -48,13 +43,34 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
+      "name": "Infinite Health(Your health will decrease, but refill)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7B1774",
-          "on": "909090",
-          "off": "2B45C8"
+          "offset": "2103850",
+          "on": "C783880300000000C842E9B56A6EFF",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "17EA30C",
+          "on": "E93F959100909090",
+          "off": "C5FA118388030000"
+        }
+      ]
+    },
+    {
+      "name": "Max Resources(Fuel,Credits,Platinum,Probes, etc)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2165FC0",
+          "on": "41C70620BCBE4CE9B4DB64FE",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "7B3B7B",
+          "on": "E940249B01",
+          "off": "C4C17A1106"
         }
       ]
     },
@@ -77,22 +93,6 @@
           "offset": "8335AC",
           "on": "0106",
           "off": "8906"
-        }
-      ]
-    },
-    {
-      "name": "Max Resources(Fuel,Credits,Platinum,Probes, etc)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2165FC0",
-          "on": "41C70620BCBE4CE9B4DB64FE",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "7B3B7B",
-          "on": "E940249B01",
-          "off": "C4C17A1106"
         }
       ]
     }

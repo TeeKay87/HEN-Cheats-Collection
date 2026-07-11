@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "6A1BDB0",
-          "on": "664181FEF09E7510C5FA1087C4000000C5FA1187C0000000C5FA1087C0000000E9B7BDD1F9526564646576696C3832202D20465720392E3030",
-          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "737B84",
-          "on": "E927422E06909090",
-          "off": "C5FA1087C0000000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Guard Gauge",
       "type": "checkbox",
       "memory": [
@@ -37,18 +21,18 @@
       ]
     },
     {
-      "name": "Max Medi Packs ( on use )",
+      "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "6A1BDFE",
-          "on": "B8630000004189872C130000E90E9CADFA",
-          "off": "0000000000000000000000000000000000"
+          "offset": "6A1BDB0",
+          "on": "664181FEF09E7510C5FA1087C4000000C5FA1187C0000000C5FA1087C0000000E9B7BDD1F9526564646576696C3832202D20465720392E3030",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "14F5A16",
-          "on": "E9E36352059090",
-          "off": "4189872C130000"
+          "offset": "737B84",
+          "on": "E927422E06909090",
+          "off": "C5FA1087C0000000"
         }
       ]
     },
@@ -99,10 +83,26 @@
           "off": "8B8487980F0000"
         }
       ]
+    },
+    {
+      "name": "Max Medi Packs ( on use )",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6A1BDFE",
+          "on": "B8630000004189872C130000E90E9CADFA",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "14F5A16",
+          "on": "E9E36352059090",
+          "off": "4189872C130000"
+        }
+      ]
     }
   ],
   "credits": [
-    "Reddevil82 ",
-    " FW 9.00"
+    "Reddevil82",
+    "FW 9.00"
   ]
 }

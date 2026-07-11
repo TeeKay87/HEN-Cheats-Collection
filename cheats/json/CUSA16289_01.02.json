@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf HP",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5147800",
-          "on": "51B900A00C46660F6EC159C4C17A1186FC000000E9FD8252FC",
-          "off": "00000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "166FB0D",
-          "on": "E9EE7CAD0390909090",
-          "off": "C4C17A1186FC000000"
-        }
-      ]
-    },
-    {
       "name": "1HK",
       "type": "checkbox",
       "memory": [
@@ -37,18 +21,18 @@
       ]
     },
     {
-      "name": "Inf Mony (on get)",
+      "name": "Inf Bushido Points (on spend)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "514781B",
-          "on": "BA7F9698008991BC030000E9B17257FC",
-          "off": "00000000000000000000000000000000"
+          "offset": "514783F",
+          "on": "C783C40300007F969800E9C39C43FC",
+          "off": "000000000000000000000000000000"
         },
         {
-          "offset": "16BEAD6",
-          "on": "E9408DA80390",
-          "off": "8991BC030000"
+          "offset": "158150B",
+          "on": "E92F63BC0390",
+          "off": "2983C4030000"
         }
       ]
     },
@@ -69,18 +53,34 @@
       ]
     },
     {
-      "name": "Inf Bushido Points (on spend)",
+      "name": "Inf HP",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "514783F",
-          "on": "C783C40300007F969800E9C39C43FC",
-          "off": "000000000000000000000000000000"
+          "offset": "5147800",
+          "on": "51B900A00C46660F6EC159C4C17A1186FC000000E9FD8252FC",
+          "off": "00000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "158150B",
-          "on": "E92F63BC0390",
-          "off": "2983C4030000"
+          "offset": "166FB0D",
+          "on": "E9EE7CAD0390909090",
+          "off": "C4C17A1186FC000000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Mony (on get)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "514781B",
+          "on": "BA7F9698008991BC030000E9B17257FC",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "16BEAD6",
+          "on": "E9408DA80390",
+          "off": "8991BC030000"
         }
       ]
     },

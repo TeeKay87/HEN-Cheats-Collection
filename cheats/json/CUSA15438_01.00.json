@@ -21,22 +21,6 @@
       ]
     },
     {
-      "name": "Melee Durability/Throwables x99",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5FED0",
-          "on": "C7878800000063000000E99998B402",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "827A9772",
-          "on": "E959674BFD90",
-          "off": "89B788000000"
-        }
-      ]
-    },
-    {
       "name": "Instant Super Ready(turn off at the end of mission)",
       "type": "checkbox",
       "memory": [
@@ -49,6 +33,22 @@
           "offset": "821EC946",
           "on": "E9853505FE",
           "off": "C5FA114718"
+        }
+      ]
+    },
+    {
+      "name": "Melee Durability/Throwables x99",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5FED0",
+          "on": "C7878800000063000000E99998B402",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "827A9772",
+          "on": "E959674BFD90",
+          "off": "89B788000000"
         }
       ]
     }

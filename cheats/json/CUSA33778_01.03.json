@@ -5,13 +5,142 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "TRAINER INFO (read only)",
+      "name": "---God Mode Toggle (Requires MC)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "431B000",
-          "on": "00",
+          "offset": "431B02F",
+          "on": "01",
           "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "---XP Multiplier x10 (requires MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "431B23F",
+          "on": "00002041",
+          "off": "0000803F"
+        }
+      ]
+    },
+    {
+      "name": "---XP Multiplier x25 (requires MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "431B23F",
+          "on": "0000C841",
+          "off": "0000803F"
+        }
+      ]
+    },
+    {
+      "name": "---XP Multiplier x5 (requires MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "431B23F",
+          "on": "0000A040",
+          "off": "0000803F"
+        }
+      ]
+    },
+    {
+      "name": "99 Skill Points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "431B250",
+          "on": "41817F4C4C010000751A813BF00EF00475124963474C4801C3C70363000000E972621AFD4963474C4801C3E966621AFD",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "14C14DF",
+          "on": "E96C9DE5029090",
+          "off": "4963474C4801C3"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Companion Combat Meter",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "431B190",
+          "on": "483D54020000751481BBACFDFFFF904392047508C7030000C842EB00498B07488B80D8000000E93E631AFD",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "14C14EF",
+          "on": "E99C9CE5029090909090",
+          "off": "498B07488B80D8000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "431B060",
+          "on": "483B1D0950AE00750AC5FA108388010000EB00C5FA11838C010000E93E173EFC",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "6FC7B6",
+          "on": "E9A5E8C103909090",
+          "off": "C5FA11838C010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Max Blaster Bullets",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "431B160",
+          "on": "41817F4C60030000751381BBA0FCFFFF2037BE047507D943D8D91BEB004889D64C89FFE981631AFD",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "14C1503",
+          "on": "E9589CE50290",
+          "off": "4889D64C89FF"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Max Force",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "431B0C0",
+          "on": "C5FA108344010000C5FA11834C010000E9F344D2FC",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "103F5C0",
+          "on": "E9FBBA2D03909090",
+          "off": "C5FA11834C010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Max Saber Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "431B0F0",
+          "on": "C4C17A109EFC250000C4C17A119E00260000E94444D3FC",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "104F542",
+          "on": "E9A9BB2C0390909090",
+          "off": "C4C17A119E00260000"
         }
       ]
     },
@@ -62,29 +191,13 @@
       ]
     },
     {
-      "name": "---God Mode Toggle (Requires MC)",
+      "name": "One Hit Drain Enemy Stamina",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "431B02F",
-          "on": "01",
-          "off": "00"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "431B060",
-          "on": "483B1D0950AE00750AC5FA108388010000EB00C5FA11838C010000E93E173EFC",
-          "off": "0000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "6FC7B6",
-          "on": "E9A5E8C103909090",
-          "off": "C5FA11838C010000"
+          "offset": "752DBA",
+          "on": "C57A114F0C",
+          "off": "C5FA114F0C"
         }
       ]
     },
@@ -105,45 +218,13 @@
       ]
     },
     {
-      "name": "One Hit Drain Enemy Stamina",
+      "name": "TRAINER INFO (read only)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "752DBA",
-          "on": "C57A114F0C",
-          "off": "C5FA114F0C"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Max Force",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "431B0C0",
-          "on": "C5FA108344010000C5FA11834C010000E9F344D2FC",
-          "off": "000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "103F5C0",
-          "on": "E9FBBA2D03909090",
-          "off": "C5FA11834C010000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Max Saber Stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "431B0F0",
-          "on": "C4C17A109EFC250000C4C17A119E00260000E94444D3FC",
-          "off": "0000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "104F542",
-          "on": "E9A9BB2C0390909090",
-          "off": "C4C17A119E00260000"
+          "offset": "431B000",
+          "on": "00",
+          "off": "00"
         }
       ]
     },
@@ -160,65 +241,6 @@
           "offset": "2C5E007",
           "on": "E914D16B01",
           "off": "C5FA1045D8"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Max Blaster Bullets",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "431B160",
-          "on": "41817F4C60030000751381BBA0FCFFFF2037BE047507D943D8D91BEB004889D64C89FFE981631AFD",
-          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "14C1503",
-          "on": "E9589CE50290",
-          "off": "4889D64C89FF"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Companion Combat Meter",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "431B190",
-          "on": "483D54020000751481BBACFDFFFF904392047508C7030000C842EB00498B07488B80D8000000E93E631AFD",
-          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "14C14EF",
-          "on": "E99C9CE5029090909090",
-          "off": "498B07488B80D8000000"
-        }
-      ]
-    },
-    {
-      "name": "---XP Multiplier x5 (requires MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "431B23F",
-          "on": "0000A040",
-          "off": "0000803F"
-        }
-      ]
-    },
-    {
-      "name": "99 Skill Points",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "431B250",
-          "on": "41817F4C4C010000751A813BF00EF00475124963474C4801C3C70363000000E972621AFD4963474C4801C3E966621AFD",
-          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "14C14DF",
-          "on": "E96C9DE5029090",
-          "off": "4963474C4801C3"
         }
       ]
     }

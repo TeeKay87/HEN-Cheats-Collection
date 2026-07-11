@@ -16,22 +16,6 @@
       ]
     },
     {
-      "name": "Inf HP",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1583B00",
-          "on": "458B66684589666CE906DD147F",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "806D180B",
-          "on": "E9F022EB80909090",
-          "off": "440F49E34589666C"
-        }
-      ]
-    },
-    {
       "name": "Inf Extra Special (On Use)",
       "type": "checkbox",
       "memory": [
@@ -44,6 +28,22 @@
           "offset": "8073460C",
           "on": "E9E0220000",
           "off": "C5FA114074"
+        }
+      ]
+    },
+    {
+      "name": "Inf HP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1583B00",
+          "on": "458B66684589666CE906DD147F",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "806D180B",
+          "on": "E9F022EB80909090",
+          "off": "440F49E34589666C"
         }
       ]
     },

@@ -2,6 +2,44 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dying Light 2: Stay Human" Moder="LMN" Cusa="CUSA12584" Version="01.33" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
+  <Cheat Text="agent level 1000 / get 1000 token (complete a single bounty)">
+    <Cheatline>
+      <Offset>654F83C</Offset>
+      <Section>0</Section>
+      <ValueOn>48-C7-C1-40-42-0F-00-48-89-4C-10-38-E9-43-4D-09-FD</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>35E458B</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-AC-B2-F6-02</ValueOn>
+      <ValueOff>48-89-4C-10-38</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="bounty tokens never decrease (bounty vendor)">
+    <Cheatline>
+      <Offset>3309869</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90</ValueOn>
+      <ValueOff>E8-E2-B2-D3-FF</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="freeze Stamina/Breath">
+    <Cheatline>
+      <Offset>3392405</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>C4-C1-7A-11-44-24-10</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Freeze timer">
+    <Cheatline>
+      <Offset>2963161</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-83-48-03-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="GOD Mod">
     <Cheatline>
       <Offset>335F9D6</Offset>
@@ -28,20 +66,12 @@
       <ValueOff>E8-14-5F-0E-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="freeze Stamina/Breath">
+  <Cheat Text="inf immunity">
     <Cheatline>
-      <Offset>3392405</Offset>
+      <Offset>3367EFD</Offset>
       <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>C4-C1-7A-11-44-24-10</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Items/Craftables/consumables/thrwoables never decrease (Need 2 or more)">
-    <Cheatline>
-      <Offset>33092E8</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90</ValueOn>
-      <ValueOff>E8-63-B8-D3-FF</ValueOff>
+      <ValueOn>90-90-90-90-90-90</ValueOn>
+      <ValueOff>C4-C1-7A-11-47-2C</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="inf lock picks">
@@ -50,6 +80,22 @@
       <Section>0</Section>
       <ValueOn>90-90-90-90-90</ValueOn>
       <ValueOff>E8-5B-B5-D3-FF</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="inf UV Flashlight">
+    <Cheatline>
+      <Offset>2916DED</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90</ValueOn>
+      <ValueOff>E8-0E-4E-FC-FF</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Items/Craftables/consumables/thrwoables never decrease (Need 2 or more)">
+    <Cheatline>
+      <Offset>33092E8</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90</ValueOn>
+      <ValueOff>E8-63-B8-D3-FF</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max durability">
@@ -80,38 +126,6 @@
       <ValueOff>89-47-34-E8-1E-FF-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="inf immunity">
-    <Cheatline>
-      <Offset>3367EFD</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90</ValueOn>
-      <ValueOff>C4-C1-7A-11-47-2C</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Freeze timer">
-    <Cheatline>
-      <Offset>2963161</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>C5-FA-11-83-48-03-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="inf UV Flashlight">
-    <Cheatline>
-      <Offset>2916DED</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90</ValueOn>
-      <ValueOff>E8-0E-4E-FC-FF</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="No Reload for Crossbow/Boomsticks">
-    <Cheatline>
-      <Offset>352F914</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90</ValueOn>
-      <ValueOff>E8-37-52-B1-FF</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="MAX XP/legend/inhibitators on get">
     <Cheatline>
       <Offset>654F824</Offset>
@@ -126,26 +140,12 @@
       <ValueOff>49-89-46-18-0F-88-B7-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="bounty tokens never decrease (bounty vendor)">
+  <Cheat Text="No Reload for Crossbow/Boomsticks">
     <Cheatline>
-      <Offset>3309869</Offset>
+      <Offset>352F914</Offset>
       <Section>0</Section>
       <ValueOn>90-90-90-90-90</ValueOn>
-      <ValueOff>E8-E2-B2-D3-FF</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="agent level 1000 / get 1000 token (complete a single bounty)">
-    <Cheatline>
-      <Offset>654F83C</Offset>
-      <Section>0</Section>
-      <ValueOn>48-C7-C1-40-42-0F-00-48-89-4C-10-38-E9-43-4D-09-FD</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>35E458B</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-AC-B2-F6-02</ValueOn>
-      <ValueOff>48-89-4C-10-38</ValueOff>
+      <ValueOff>E8-37-52-B1-FF</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

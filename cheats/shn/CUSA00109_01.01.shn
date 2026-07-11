@@ -4,6 +4,14 @@
   <Genres Name="Adventure" />
   <Genres Name="Fighting" />
   <Items />
+  <Cheat Text="Bottomless Clip">
+    <Cheatline>
+      <Offset>632C52</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>41-FF-8D-D0-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Health / 1 Hit">
     <Cheatline>
       <Offset>126F800</Offset>
@@ -18,14 +26,6 @@
       <ValueOff>41-89-5D-1C-45-85-E4</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
-    <Cheatline>
-      <Offset>126F800</Offset>
-      <Section>0</Section>
-      <ValueOn>01</ValueOn>
-      <ValueOff>00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite Ammo/Resources">
     <Cheatline>
       <Offset>634C73</Offset>
@@ -34,12 +34,12 @@
       <ValueOff>66-0F-49-D8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Bottomless Clip">
+  <Cheat Text="Infinite Health">
     <Cheatline>
-      <Offset>632C52</Offset>
+      <Offset>126F800</Offset>
       <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>41-FF-8D-D0-00-00-00</ValueOff>
+      <ValueOn>01</ValueOn>
+      <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Skillpoints">
@@ -48,28 +48,6 @@
       <Section>0</Section>
       <ValueOn>90-90-90</ValueOn>
       <ValueOff>44-29-F8</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Max XP on Get">
-    <Cheatline>
-      <Offset>7697DF</Offset>
-      <Section>0</Section>
-      <ValueOn>B8-7F-96-98-00-90</ValueOn>
-      <ValueOff>8B-85-48-FF-FF-FF</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>7697E5</Offset>
-      <Section>0</Section>
-      <ValueOn>41-89-46-10</ValueOn>
-      <ValueOff>41-01-46-10</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Max Resources on Get">
-    <Cheatline>
-      <Offset>62EBA3</Offset>
-      <Section>0</Section>
-      <ValueOn>66-41-89-DC-90</ValueOn>
-      <ValueOff>66-44-0F-47-E3</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Instant QuickTime Events">
@@ -84,6 +62,28 @@
       <Section>0</Section>
       <ValueOn>B8-00-00-80-3F-90-41-89-04-C8-90-90-C4-C1-7A-10-04-C8</ValueOn>
       <ValueOff>C4-C1-7A-10-04-C8-C4-C1-7A-58-04-C0-C4-C1-7A-11-04-C8</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max Resources on Get">
+    <Cheatline>
+      <Offset>62EBA3</Offset>
+      <Section>0</Section>
+      <ValueOn>66-41-89-DC-90</ValueOn>
+      <ValueOff>66-44-0F-47-E3</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max XP on Get">
+    <Cheatline>
+      <Offset>7697DF</Offset>
+      <Section>0</Section>
+      <ValueOn>B8-7F-96-98-00-90</ValueOn>
+      <ValueOff>8B-85-48-FF-FF-FF</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>7697E5</Offset>
+      <Section>0</Section>
+      <ValueOn>41-89-46-10</ValueOn>
+      <ValueOff>41-01-46-10</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

@@ -16,20 +16,6 @@
       <ValueOff>89-88-DC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="special coin x99999 in battle">
-    <Cheatline>
-      <Offset>12BF9E0</Offset>
-      <Section>0</Section>
-      <ValueOn>C7-87-E8-02-00-00-3F-42-0F-00-E9-C8-88-D9-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>582B0</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-2B-77-26-01-90-90</ValueOn>
-      <ValueOff>F0-01-B7-E8-02-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Growth points won't Decrease x10">
     <Cheatline>
       <Offset>12BF800</Offset>
@@ -42,6 +28,20 @@
       <Section>0</Section>
       <ValueOn>E9-27-CF-DB-00-90-90</ValueOn>
       <ValueOff>41-29-85-B4-06-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="special coin x99999 in battle">
+    <Cheatline>
+      <Offset>12BF9E0</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-87-E8-02-00-00-3F-42-0F-00-E9-C8-88-D9-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>582B0</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-2B-77-26-01-90-90</ValueOn>
+      <ValueOff>F0-01-B7-E8-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Weapon points won't Decrease x10">

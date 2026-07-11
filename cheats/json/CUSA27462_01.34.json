@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max/Infinite Health/Team",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5F1F780",
-          "on": "4883FA00750FC5FA104710C5FA11470CE9049B4BFAC5FA11470CE9FA9A4BFA",
-          "off": "00000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "3D9294",
-          "on": "E9E764B405",
-          "off": "C5FA11470C"
-        }
-      ]
-    },
-    {
       "name": "Infinite Ammo",
       "type": "checkbox",
       "memory": [
@@ -32,13 +16,13 @@
       ]
     },
     {
-      "name": "No Reload",
+      "name": "Infinite Consumables",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "11F0C9D",
-          "on": "8B83DC070000",
-          "off": "8983DC070000"
+          "offset": "F37FBC",
+          "on": "90909090909090",
+          "off": "83BB400C000000"
         }
       ]
     },
@@ -50,17 +34,6 @@
           "offset": "F37F82",
           "on": "909090909090",
           "off": "FF8B400C0000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Consumables",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "F37FBC",
-          "on": "90909090909090",
-          "off": "83BB400C000000"
         }
       ]
     },
@@ -77,6 +50,33 @@
           "offset": "E5A4DD",
           "on": "E93E530C05",
           "off": "4189442408"
+        }
+      ]
+    },
+    {
+      "name": "Max/Infinite Health/Team",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5F1F780",
+          "on": "4883FA00750FC5FA104710C5FA11470CE9049B4BFAC5FA11470CE9FA9A4BFA",
+          "off": "00000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "3D9294",
+          "on": "E9E764B405",
+          "off": "C5FA11470C"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "11F0C9D",
+          "on": "8B83DC070000",
+          "off": "8983DC070000"
         }
       ]
     }

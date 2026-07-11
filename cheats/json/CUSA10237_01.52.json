@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Freeze Trial Timer",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "11BB878",
+          "on": "9090909090",
+          "off": "C5FA11511C"
+        }
+      ]
+    },
+    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -17,6 +28,59 @@
           "offset": "92797E",
           "on": "E9D4BE5F01",
           "off": "C5FA104064"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "F2F020",
+          "on": "83E800",
+          "off": "4429F0"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Underwater Breath",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F2388A",
+          "on": "41C746540000C842C4C17A104654E9972558FF",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "14A5E2E",
+          "on": "E957DAA70090",
+          "off": "C4C17A114654"
+        },
+        {
+          "offset": "1F2389D",
+          "on": "41C746540000C842C4C17A104654E9AF2558FF",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "14A5E59",
+          "on": "E93FDAA70090",
+          "off": "C4C17A114654"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Weapon Zoom",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F23879",
+          "on": "C7435800008040C5FA104358E937BD77FF",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "169F5BC",
+          "on": "E9B8428800",
+          "off": "C5FA114358"
         }
       ]
     },
@@ -37,17 +101,6 @@
       ]
     },
     {
-      "name": "Infinite Items",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "F2F020",
-          "on": "83E800",
-          "off": "4429F0"
-        }
-      ]
-    },
-    {
       "name": "Max Shards on Buy",
       "type": "checkbox",
       "memory": [
@@ -60,6 +113,33 @@
           "offset": "F2F023",
           "on": "E98848FF00909090",
           "off": "41894554498B7548"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F2381E",
+          "on": "488BB0D8000000837B5002750E4181F9100100007C05E91553B1FEC7436400000000E90953B1FE",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "A38B47",
+          "on": "E9D2AC4E019090",
+          "off": "488BB0D8000000"
+        }
+      ]
+    },
+    {
+      "name": "x2 Items on Use",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "F2F020",
+          "on": "4401F0",
+          "off": "4429F0"
         }
       ]
     },
@@ -92,75 +172,6 @@
           "offset": "15D4204",
           "on": "E93CF6940090",
           "off": "4501665431F6"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Weapon Zoom",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1F23879",
-          "on": "C7435800008040C5FA104358E937BD77FF",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "169F5BC",
-          "on": "E9B8428800",
-          "off": "C5FA114358"
-        }
-      ]
-    },
-    {
-      "name": "One Hit Kill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1F2381E",
-          "on": "488BB0D8000000837B5002750E4181F9100100007C05E91553B1FEC7436400000000E90953B1FE",
-          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "A38B47",
-          "on": "E9D2AC4E019090",
-          "off": "488BB0D8000000"
-        }
-      ]
-    },
-    {
-      "name": "Freeze Trial Timer",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "11BB878",
-          "on": "9090909090",
-          "off": "C5FA11511C"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Underwater Breath",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1F2388A",
-          "on": "41C746540000C842C4C17A104654E9972558FF",
-          "off": "00000000000000000000000000000000000000"
-        },
-        {
-          "offset": "14A5E2E",
-          "on": "E957DAA70090",
-          "off": "C4C17A114654"
-        },
-        {
-          "offset": "1F2389D",
-          "on": "41C746540000C842C4C17A104654E9AF2558FF",
-          "off": "00000000000000000000000000000000000000"
-        },
-        {
-          "offset": "14A5E59",
-          "on": "E93FDAA70090",
-          "off": "C4C17A114654"
         }
       ]
     }

@@ -19,20 +19,6 @@
       <ValueOff>45-85-F6-0F-49-D0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite MP" Description="Inf Mana">
-    <Cheatline>
-      <Offset>83E3862</Offset>
-      <Section>0</Section>
-      <ValueOn>66-9C-45-85-FF-0F-49-D0-BA-E7-03-00-00-89-93-EC-05-00-00-66-9D-E9-13-E5-2B-F8</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>6A1D89</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-D4-1A-D4-07-90</ValueOn>
-      <ValueOff>45-85-FF-0F-49-D0</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite Money">
     <Cheatline>
       <Offset>83E3800</Offset>
@@ -69,6 +55,20 @@
       <Section>0</Section>
       <ValueOn>E9-86-2A-42-07-90</ValueOn>
       <ValueOff>0F-8E-EE-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite MP" Description="Inf Mana">
+    <Cheatline>
+      <Offset>83E3862</Offset>
+      <Section>0</Section>
+      <ValueOn>66-9C-45-85-FF-0F-49-D0-BA-E7-03-00-00-89-93-EC-05-00-00-66-9D-E9-13-E5-2B-F8</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>6A1D89</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-D4-1A-D4-07-90</ValueOn>
+      <ValueOff>45-85-FF-0F-49-D0</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max LvL/EXP" Description="No Fun">

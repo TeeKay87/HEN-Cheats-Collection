@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Hp  Items",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "6F1302C",
-          "on": "C5FA104708C5FA114708C5FA11470CE95979ADFC",
-          "off": "0000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "39EA994",
-          "on": "E993865203",
-          "off": "C5FA114708"
-        }
-      ]
-    },
-    {
       "name": "Inf Armor",
       "type": "checkbox",
       "memory": [
@@ -33,6 +17,22 @@
           "offset": "39EA984",
           "on": "E9D7865203",
           "off": "C5FA11470C"
+        }
+      ]
+    },
+    {
+      "name": "Inf Hp  Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6F1302C",
+          "on": "C5FA104708C5FA114708C5FA11470CE95979ADFC",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "39EA994",
+          "on": "E993865203",
+          "off": "C5FA114708"
         }
       ]
     },

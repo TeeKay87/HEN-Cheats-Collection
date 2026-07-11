@@ -5,6 +5,54 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Items x10 On Get",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "63F3BFF",
+          "on": "4889E5C7070A000000E9894CBAFA",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "F98891",
+          "on": "E969B34505",
+          "off": "4889E50137"
+        }
+      ]
+    },
+    {
+      "name": "Items x99 On Use",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "63F3C13",
+          "on": "4889E5C70763000000E9854CBAFA",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "F988A1",
+          "on": "E96DB34505",
+          "off": "4889E52937"
+        }
+      ]
+    },
+    {
+      "name": "Max Fuel",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "63F3C79",
+          "on": "C783D800000000409C46E92A6F8FFA",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "CEABAA",
+          "on": "E9CA907005909090",
+          "off": "C5FA1183D8000000"
+        }
+      ]
+    },
+    {
       "name": "Max Health (MC)",
       "type": "checkbox",
       "memory": [
@@ -41,97 +89,6 @@
       ]
     },
     {
-      "name": "Two Hit Kill (Enable MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "63F3B79",
-          "on": "9090",
-          "off": "EB18"
-        }
-      ]
-    },
-    {
-      "name": "Max Stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "63F3BE7",
-          "on": "8B8368040000898364040000E998FE86FA",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "C63A8A",
-          "on": "E95801790590",
-          "off": "898364040000"
-        }
-      ]
-    },
-    {
-      "name": "Items x10 On Get",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "63F3BFF",
-          "on": "4889E5C7070A000000E9894CBAFA",
-          "off": "0000000000000000000000000000"
-        },
-        {
-          "offset": "F98891",
-          "on": "E969B34505",
-          "off": "4889E50137"
-        }
-      ]
-    },
-    {
-      "name": "Items x99 On Use",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "63F3C13",
-          "on": "4889E5C70763000000E9854CBAFA",
-          "off": "0000000000000000000000000000"
-        },
-        {
-          "offset": "F988A1",
-          "on": "E96DB34505",
-          "off": "4889E52937"
-        }
-      ]
-    },
-    {
-      "name": "No Thirst",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "63F3C27",
-          "on": "508B839004000089838C04000058E9512A87FA",
-          "off": "00000000000000000000000000000000000000"
-        },
-        {
-          "offset": "C66685",
-          "on": "E99DD5780590",
-          "off": "89838C040000"
-        }
-      ]
-    },
-    {
-      "name": "No Hungry",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "63F3C40",
-          "on": "508B837C04000089837804000058E9082887FA",
-          "off": "00000000000000000000000000000000000000"
-        },
-        {
-          "offset": "C66455",
-          "on": "E9E6D7780590",
-          "off": "898378040000"
-        }
-      ]
-    },
-    {
       "name": "Max Money",
       "type": "checkbox",
       "memory": [
@@ -164,18 +121,61 @@
       ]
     },
     {
-      "name": "Max Fuel",
+      "name": "Max Stamina",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "63F3C79",
-          "on": "C783D800000000409C46E92A6F8FFA",
-          "off": "000000000000000000000000000000"
+          "offset": "63F3BE7",
+          "on": "8B8368040000898364040000E998FE86FA",
+          "off": "0000000000000000000000000000000000"
         },
         {
-          "offset": "CEABAA",
-          "on": "E9CA907005909090",
-          "off": "C5FA1183D8000000"
+          "offset": "C63A8A",
+          "on": "E95801790590",
+          "off": "898364040000"
+        }
+      ]
+    },
+    {
+      "name": "No Hungry",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "63F3C40",
+          "on": "508B837C04000089837804000058E9082887FA",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "C66455",
+          "on": "E9E6D7780590",
+          "off": "898378040000"
+        }
+      ]
+    },
+    {
+      "name": "No Thirst",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "63F3C27",
+          "on": "508B839004000089838C04000058E9512A87FA",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "C66685",
+          "on": "E99DD5780590",
+          "off": "89838C040000"
+        }
+      ]
+    },
+    {
+      "name": "Two Hit Kill (Enable MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "63F3B79",
+          "on": "9090",
+          "off": "EB18"
         }
       ]
     }

@@ -5,6 +5,20 @@
   <Genres Name="Fighting" />
   <Genres Name="RPG" />
   <Items />
+  <Cheat Text="Infinite Health">
+    <Cheatline>
+      <Offset>3E47800</Offset>
+      <Section>0</Section>
+      <ValueOn>45-85-F6-41-BE-64-00-00-00-41-0F-49-D6-E9-CE-6E-15-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>1F9E6D9</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-22-91-EA-01-90-90</ValueOn>
+      <ValueOff>45-85-F6-41-0F-49-D6</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Infinite Money">
     <Cheatline>
       <Offset>27693CA</Offset>
@@ -27,20 +41,6 @@
       <Section>0</Section>
       <ValueOn>49-89-46-10</ValueOn>
       <ValueOff>45-89-66-10</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Health">
-    <Cheatline>
-      <Offset>3E47800</Offset>
-      <Section>0</Section>
-      <ValueOn>45-85-F6-41-BE-64-00-00-00-41-0F-49-D6-E9-CE-6E-15-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>1F9E6D9</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-22-91-EA-01-90-90</ValueOn>
-      <ValueOff>45-85-F6-41-0F-49-D6</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

@@ -5,6 +5,33 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4BF84EA",
+          "on": "9090909090909090",
+          "off": "C5FA118BA0000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Grenades (only use if not using Infinite Health)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "92F0800",
+          "on": "4881F9F0E178077508C5FA108BAC000000C5FA118BA0000000E99A4C8EFB",
+          "off": "000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4BD54B0",
+          "on": "E94BB37104909090",
+          "off": "C5FA118BA0000000"
+        }
+      ]
+    },
+    {
       "name": "Infinite Health \u002B Grenades",
       "type": "checkbox",
       "memory": [
@@ -17,28 +44,6 @@
           "offset": "4BD54B0",
           "on": "E94BB37104909090",
           "off": "C5FA118BA0000000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "4BF84EA",
-          "on": "9090909090909090",
-          "off": "C5FA118BA0000000"
-        }
-      ]
-    },
-    {
-      "name": "No Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "525750D",
-          "on": "90909090909090",
-          "off": "418987B0010000"
         }
       ]
     },
@@ -61,6 +66,17 @@
           "offset": "9A321A",
           "on": "90909090909090",
           "off": "41898E60010000"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "525750D",
+          "on": "90909090909090",
+          "off": "418987B0010000"
         }
       ]
     }

@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Arrows/Resources/Supplies/Flowers (99999)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5E830",
-          "on": "43C744A7089F860100E925CDA680",
-          "off": "0000000000000000000000000000"
-        },
-        {
-          "offset": "6CB55E",
-          "on": "E9CD32597F",
-          "off": "43895CA708"
-        }
-      ]
-    },
-    {
       "name": "Infinite Resolve",
       "type": "checkbox",
       "memory": [
@@ -49,6 +33,22 @@
           "offset": "6CD66A",
           "on": "E9711F597F",
           "off": "420174B048"
+        }
+      ]
+    },
+    {
+      "name": "Max Arrows/Resources/Supplies/Flowers (99999)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5E830",
+          "on": "43C744A7089F860100E925CDA680",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "6CB55E",
+          "on": "E9CD32597F",
+          "off": "43895CA708"
         }
       ]
     }

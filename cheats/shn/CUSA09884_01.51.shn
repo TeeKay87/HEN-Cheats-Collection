@@ -2,20 +2,6 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Soulcalibur VI" Moder="hejran7" Cusa="CUSA09884" Version="01.51" Process="eboot.bin">
   <Genres Name="Fighting" />
   <Items />
-  <Cheat Text="Soul Gauge, Charge MC (Must Be On)">
-    <Cheatline>
-      <Offset>5BCF819</Offset>
-      <Section>0</Section>
-      <ValueOn>48-3D-3A-97-85-06-EB-06-66-BB-58-02-EB-28-48-3D-CA-0A-8F-06-EB-06-66-BB-58-02-EB-1A-48-3D-26-97-85-06-EB-06-66-BB-F0-00-EB-0C-48-3D-B6-0A-8F-06-EB-04-66-BB-F0-00-66-41-89-9C-77-F6-1A-00-00-E9-9B-4A-1A-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>3D742EF</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-25-B5-E5-01-90-90-90-90</ValueOn>
-      <ValueOff>66-41-89-9C-77-F6-1A-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="INF HP 1HK MC (Must Be On)">
     <Cheatline>
       <Offset>5BCF85D</Offset>
@@ -42,38 +28,6 @@
       <Section>0</Section>
       <ValueOn>E9-7E-45-DC-01-90</ValueOn>
       <ValueOff>4C-89-FF-48-89-C6</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="P1 Inf HP">
-    <Cheatline>
-      <Offset>5BCF865</Offset>
-      <Section>0</Section>
-      <ValueOn>C7-83-88-3D-04-00-00-00-70-43</ValueOn>
-      <ValueOff>C5-FA-11-93-88-3D-04-00-90-90</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="P2 Inf HP">
-    <Cheatline>
-      <Offset>5BCF874</Offset>
-      <Section>0</Section>
-      <ValueOn>C7-83-88-3D-04-00-00-00-70-43</ValueOn>
-      <ValueOff>C5-FA-11-93-88-3D-04-00-90-90</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="P1 Invincible">
-    <Cheatline>
-      <Offset>5BCF8BC</Offset>
-      <Section>0</Section>
-      <ValueOn>0F-84-6A-BA-23-FE</ValueOn>
-      <ValueOff>90-90-90-90-90-90</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="P2 Invincible">
-    <Cheatline>
-      <Offset>5BCF8B0</Offset>
-      <Section>0</Section>
-      <ValueOn>0F-84-76-BA-23-FE</ValueOn>
-      <ValueOff>90-90-90-90-90-90</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max Inf Gold">
@@ -104,9 +58,57 @@
       <ValueOff>41-03-5E-38-41-89-5E-38</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="One Hit Kill">
+    <Cheatline>
+      <Offset>5BCF874</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-83-88-3D-04-00-00-00-80-BF</ValueOn>
+      <ValueOff>C5-FA-11-93-88-3D-04-00-90-90</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="P1 Inf HP">
+    <Cheatline>
+      <Offset>5BCF865</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-83-88-3D-04-00-00-00-70-43</ValueOn>
+      <ValueOff>C5-FA-11-93-88-3D-04-00-90-90</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="P1 Inf Soul Charge">
+    <Cheatline>
+      <Offset>5BCF81F</Offset>
+      <Section>0</Section>
+      <ValueOn>75-06</ValueOn>
+      <ValueOff>EB-06</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="P1 Inf Soul Gauge">
     <Cheatline>
       <Offset>5BCF83B</Offset>
+      <Section>0</Section>
+      <ValueOn>75-06</ValueOn>
+      <ValueOff>EB-06</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="P1 Invincible">
+    <Cheatline>
+      <Offset>5BCF8BC</Offset>
+      <Section>0</Section>
+      <ValueOn>0F-84-6A-BA-23-FE</ValueOn>
+      <ValueOff>90-90-90-90-90-90</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="P2 Inf HP">
+    <Cheatline>
+      <Offset>5BCF874</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-83-88-3D-04-00-00-00-70-43</ValueOn>
+      <ValueOff>C5-FA-11-93-88-3D-04-00-90-90</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="P2 Inf Soul Charge">
+    <Cheatline>
+      <Offset>5BCF82D</Offset>
       <Section>0</Section>
       <ValueOn>75-06</ValueOn>
       <ValueOff>EB-06</ValueOff>
@@ -120,20 +122,26 @@
       <ValueOff>EB-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="P1 Inf Soul Charge">
+  <Cheat Text="P2 Invincible">
     <Cheatline>
-      <Offset>5BCF81F</Offset>
+      <Offset>5BCF8B0</Offset>
       <Section>0</Section>
-      <ValueOn>75-06</ValueOn>
-      <ValueOff>EB-06</ValueOff>
+      <ValueOn>0F-84-76-BA-23-FE</ValueOn>
+      <ValueOff>90-90-90-90-90-90</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="P2 Inf Soul Charge">
+  <Cheat Text="Soul Gauge, Charge MC (Must Be On)">
     <Cheatline>
-      <Offset>5BCF82D</Offset>
+      <Offset>5BCF819</Offset>
       <Section>0</Section>
-      <ValueOn>75-06</ValueOn>
-      <ValueOff>EB-06</ValueOff>
+      <ValueOn>48-3D-3A-97-85-06-EB-06-66-BB-58-02-EB-28-48-3D-CA-0A-8F-06-EB-06-66-BB-58-02-EB-1A-48-3D-26-97-85-06-EB-06-66-BB-F0-00-EB-0C-48-3D-B6-0A-8F-06-EB-04-66-BB-F0-00-66-41-89-9C-77-F6-1A-00-00-E9-9B-4A-1A-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>3D742EF</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-25-B5-E5-01-90-90-90-90</ValueOn>
+      <ValueOff>66-41-89-9C-77-F6-1A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

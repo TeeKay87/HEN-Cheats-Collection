@@ -209,6 +209,20 @@
       <ValueOff>41-89-87-9C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="[07b][Status] Level = 666">
+    <Cheatline>
+      <Offset>039C0A60</Offset>
+      <Section>0</Section>
+      <ValueOn>41-89-87-9C-01-00-00-C7-43-68-9A-02-00-00-E9-BD-B2-F8-FD</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>0194BD29</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-32-4D-07-02-90-90</ValueOn>
+      <ValueOff>41-89-87-9C-01-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="[08][Status] Attribute Points = 99">
     <Cheatline>
       <Offset>039C0200</Offset>
@@ -391,11 +405,95 @@
       <ValueOff>C4-C1-7A-59-86-08-18-00-00</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="[20b][Speed] Player+Horse x2">
+    <Cheatline>
+      <Offset>039C0400</Offset>
+      <Section>0</Section>
+      <ValueOn>4C-89-F0-48-39-05-1E-FA-4E-7C-74-17-48-39-05-4D-FB-4E-7C-74-0E-C4-C1-7A-59-86-08-18-00-00-E9-24-00-6F-FD-41-C7-86-08-18-00-00-00-00-00-40-EB-E5</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>010B043E</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-BD-FF-90-02-90-90-90-90</ValueOn>
+      <ValueOff>C4-C1-7A-59-86-08-18-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[20c][Speed] Player+Horse x3">
+    <Cheatline>
+      <Offset>039C0400</Offset>
+      <Section>0</Section>
+      <ValueOn>4C-89-F0-48-39-05-1E-FA-4E-7C-74-17-48-39-05-4D-FB-4E-7C-74-0E-C4-C1-7A-59-86-08-18-00-00-E9-24-00-6F-FD-41-C7-86-08-18-00-00-00-00-40-40-EB-E5</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>010B043E</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-BD-FF-90-02-90-90-90-90</ValueOn>
+      <ValueOff>C4-C1-7A-59-86-08-18-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[20d][Speed] Player+Horse x4">
+    <Cheatline>
+      <Offset>039C0400</Offset>
+      <Section>0</Section>
+      <ValueOn>4C-89-F0-48-39-05-1E-FA-4E-7C-74-17-48-39-05-4D-FB-4E-7C-74-0E-C4-C1-7A-59-86-08-18-00-00-E9-24-00-6F-FD-41-C7-86-08-18-00-00-00-00-80-40-EB-E5</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>010B043E</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-BD-FF-90-02-90-90-90-90</ValueOn>
+      <ValueOff>C4-C1-7A-59-86-08-18-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[20e][Speed] Player+Horse x16">
+    <Cheatline>
+      <Offset>039C0400</Offset>
+      <Section>0</Section>
+      <ValueOn>4C-89-F0-48-39-05-1E-FA-4E-7C-74-17-48-39-05-4D-FB-4E-7C-74-0E-C4-C1-7A-59-86-08-18-00-00-E9-24-00-6F-FD-41-C7-86-08-18-00-00-00-00-80-41-EB-E5</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>010B043E</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-BD-FF-90-02-90-90-90-90</ValueOn>
+      <ValueOff>C4-C1-7A-59-86-08-18-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="[21a][Speed] Enemy x1">
     <Cheatline>
       <Offset>039C0440</Offset>
       <Section>0</Section>
       <ValueOn>C4-C1-7A-10-86-00-16-00-00-4C-89-F0-48-39-05-D5-F9-4E-7C-0F-84-E5-FF-6E-FD-48-39-05-00-FB-4E-7C-0F-84-D8-FF-6E-FD-41-C7-86-08-18-00-00-00-00-80-3F-C4-C1-7A-59-86-08-18-00-00-E9-C8-FF-6E-FD</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>010B0435</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-06-00-91-02-90-90-90-90</ValueOn>
+      <ValueOff>C4-C1-7A-10-86-00-16-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[21b][Speed] Enemy x0,5">
+    <Cheatline>
+      <Offset>039C0440</Offset>
+      <Section>0</Section>
+      <ValueOn>C4-C1-7A-10-86-00-16-00-00-4C-89-F0-48-39-05-D5-F9-4E-7C-0F-84-E5-FF-6E-FD-48-39-05-00-FB-4E-7C-0F-84-D8-FF-6E-FD-41-C7-86-08-18-00-00-00-00-00-3F-C4-C1-7A-59-86-08-18-00-00-E9-C8-FF-6E-FD</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>010B0435</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-06-00-91-02-90-90-90-90</ValueOn>
+      <ValueOff>C4-C1-7A-10-86-00-16-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[21c][Speed] Enemy x0,25">
+    <Cheatline>
+      <Offset>039C0440</Offset>
+      <Section>0</Section>
+      <ValueOn>C4-C1-7A-10-86-00-16-00-00-4C-89-F0-48-39-05-D5-F9-4E-7C-0F-84-E5-FF-6E-FD-48-39-05-00-FB-4E-7C-0F-84-D8-FF-6E-FD-41-C7-86-08-18-00-00-00-00-80-3E-C4-C1-7A-59-86-08-18-00-00-E9-C8-FF-6E-FD</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
@@ -483,11 +581,405 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="[27b][Status] Edit: Runes Held" Description="Use L1 and R1 to add/substract 1. Use L2 and R2 to add/substract 1000. Keep also X pressed to go faster.">
+    <Cheatline>
+      <Offset>039C00FD</Offset>
+      <Section>0</Section>
+      <ValueOn>6c</ValueOn>
+      <ValueOff>00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[27c][Status] Edit: Vigor">
+    <Cheatline>
+      <Offset>039C00FD</Offset>
+      <Section>0</Section>
+      <ValueOn>3c</ValueOn>
+      <ValueOff>00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[27d][Status] Edit: Mind">
+    <Cheatline>
+      <Offset>039C00FD</Offset>
+      <Section>0</Section>
+      <ValueOn>40</ValueOn>
+      <ValueOff>00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[27e][Status] Edit: Endurance">
+    <Cheatline>
+      <Offset>039C00FD</Offset>
+      <Section>0</Section>
+      <ValueOn>44</ValueOn>
+      <ValueOff>00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[27f][Status] Edit: Strength">
+    <Cheatline>
+      <Offset>039C00FD</Offset>
+      <Section>0</Section>
+      <ValueOn>48</ValueOn>
+      <ValueOff>00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[27g][Status] Edit: Dexterity">
+    <Cheatline>
+      <Offset>039C00FD</Offset>
+      <Section>0</Section>
+      <ValueOn>4c</ValueOn>
+      <ValueOff>00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[27h][Status] Edit: Intelligence">
+    <Cheatline>
+      <Offset>039C00FD</Offset>
+      <Section>0</Section>
+      <ValueOn>50</ValueOn>
+      <ValueOff>00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[27i][Status] Edit: Faith">
+    <Cheatline>
+      <Offset>039C00FD</Offset>
+      <Section>0</Section>
+      <ValueOn>54</ValueOn>
+      <ValueOff>00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[27j][Status] Edit: Arcane">
+    <Cheatline>
+      <Offset>039C00FD</Offset>
+      <Section>0</Section>
+      <ValueOn>58</ValueOn>
+      <ValueOff>00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="[28a][Beacon1] Maps: Limgrave, West" Description="1-Remove all beacons / 2-Place 1 beacon wherever / 3-The beacon will automatically be placed where the cheat says.">
     <Cheatline>
       <Offset>039C0CA0</Offset>
       <Section>0</Section>
       <ValueOn>4D-2B-6C-24-08-48-A1-B0-FF-2A-80-00-00-00-00-C7-00-01-00-00-00-C7-40-04-00-A0-6C-45-C7-40-08-00-50-D9-45-C7-40-0C-00-01-00-00-E9-5F-BF-C2-FD</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>015ECC29</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-72-40-3D-02</ValueOn>
+      <ValueOff>4D-2B-6C-24-08</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[28b][Beacon1] Maps: Limgrave, East">
+    <Cheatline>
+      <Offset>039C0CA0</Offset>
+      <Section>0</Section>
+      <ValueOn>4D-2B-6C-24-08-48-A1-B0-FF-2A-80-00-00-00-00-C7-00-01-00-00-00-C7-40-04-00-40-8D-45-C7-40-08-00-60-DB-45-C7-40-0C-00-01-00-00-E9-5F-BF-C2-FD-90-90</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>015ECC29</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-72-40-3D-02</ValueOn>
+      <ValueOff>4D-2B-6C-24-08</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[28c][Beacon1] Maps: Weeping Peninsula (Limgrave)">
+    <Cheatline>
+      <Offset>039C0CA0</Offset>
+      <Section>0</Section>
+      <ValueOn>4D-2B-6C-24-08-48-A1-B0-FF-2A-80-00-00-00-00-C7-00-01-00-00-00-C7-40-04-F4-A7-84-45-C7-40-08-75-AF-01-46-C7-40-0C-00-01-00-00-E9-5F-BF-C2-FD-90-90</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>015ECC29</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-72-40-3D-02</ValueOn>
+      <ValueOff>4D-2B-6C-24-08</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[28d][Beacon1] Maps: Caelid">
+    <Cheatline>
+      <Offset>039C0CA0</Offset>
+      <Section>0</Section>
+      <ValueOn>4D-2B-6C-24-08-48-A1-B0-FF-2A-80-00-00-00-00-C7-00-01-00-00-00-C7-40-04-D9-C1-A8-45-C7-40-08-CC-88-DC-45-C7-40-0C-00-01-00-00-E9-5F-BF-C2-FD-90-90</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>015ECC29</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-72-40-3D-02</ValueOn>
+      <ValueOff>4D-2B-6C-24-08</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[28e][Beacon1] Maps: Dragonbarrow">
+    <Cheatline>
+      <Offset>039C0CA0</Offset>
+      <Section>0</Section>
+      <ValueOn>4D-2B-6C-24-08-48-A1-B0-FF-2A-80-00-00-00-00-C7-00-01-00-00-00-C7-40-04-55-2C-AB-45-C7-40-08-05-1D-C2-45-C7-40-0C-00-01-00-00-E9-5F-BF-C2-FD-90-90</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>015ECC29</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-72-40-3D-02</ValueOn>
+      <ValueOff>4D-2B-6C-24-08</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[28f][Beacon1] Maps: Liurnia, East">
+    <Cheatline>
+      <Offset>039C0CA0</Offset>
+      <Section>0</Section>
+      <ValueOn>4D-2B-6C-24-08-48-A1-B0-FF-2A-80-00-00-00-00-C7-00-01-00-00-00-C7-40-04-51-3C-2A-45-C7-40-08-62-C7-BC-45-C7-40-0C-00-01-00-00-E9-5F-BF-C2-FD-90-90</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>015ECC29</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-72-40-3D-02</ValueOn>
+      <ValueOff>4D-2B-6C-24-08</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[28g][Beacon1] Maps: Liurnia, North">
+    <Cheatline>
+      <Offset>039C0CA0</Offset>
+      <Section>0</Section>
+      <ValueOn>4D-2B-6C-24-08-48-A1-B0-FF-2A-80-00-00-00-00-C7-00-01-00-00-00-C7-40-04-00-A0-16-45-C7-40-08-00-40-A7-45-C7-40-0C-00-01-00-00-E9-5F-BF-C2-FD-90-90</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>015ECC29</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-72-40-3D-02</ValueOn>
+      <ValueOff>4D-2B-6C-24-08</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[28h][Beacon1] Maps: Liurnia,West">
+    <Cheatline>
+      <Offset>039C0CA0</Offset>
+      <Section>0</Section>
+      <ValueOn>4D-2B-6C-24-08-48-A1-B0-FF-2A-80-00-00-00-00-C7-00-01-00-00-00-C7-40-04-00-A0-CD-44-C7-40-08-00-90-82-45-C7-40-0C-00-01-00-00-E9-5F-BF-C2-FD-90-90</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>015ECC29</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-72-40-3D-02</ValueOn>
+      <ValueOff>4D-2B-6C-24-08</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[28i][Beacon1] Maps: Altus Plateau">
+    <Cheatline>
+      <Offset>039C0CA0</Offset>
+      <Section>0</Section>
+      <ValueOn>4D-2B-6C-24-08-48-A1-B0-FF-2A-80-00-00-00-00-C7-00-01-00-00-00-C7-40-04-00-D0-40-45-C7-40-08-0D-82-4C-45-C7-40-0C-00-01-00-00-E9-5F-BF-C2-FD</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>015ECC29</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-72-40-3D-02</ValueOn>
+      <ValueOff>4D-2B-6C-24-08</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[28j][Beacon1] Maps: Leyndell, Royal Capital">
+    <Cheatline>
+      <Offset>039C0CA0</Offset>
+      <Section>0</Section>
+      <ValueOn>4D-2B-6C-24-08-48-A1-B0-FF-2A-80-00-00-00-00-C7-00-01-00-00-00-C7-40-04-00-30-66-45-C7-40-08-7B-87-5A-45-C7-40-0C-00-01-00-00-E9-5F-BF-C2-FD-90-90</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>015ECC29</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-72-40-3D-02</ValueOn>
+      <ValueOff>4D-2B-6C-24-08</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[28k][Beacon1] Maps: Mt. Gelmir">
+    <Cheatline>
+      <Offset>039C0CA0</Offset>
+      <Section>0</Section>
+      <ValueOn>4D-2B-6C-24-08-48-A1-B0-FF-2A-80-00-00-00-00-C7-00-01-00-00-00-C7-40-04-00-A0-03-45-C7-40-08-00-00-2E-45-C7-40-0C-00-01-00-00-E9-5F-BF-C2-FD</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>015ECC29</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-72-40-3D-02</ValueOn>
+      <ValueOff>4D-2B-6C-24-08</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[28l][Beacon1] Maps: Consecrated Snowfield">
+    <Cheatline>
+      <Offset>039C0CA0</Offset>
+      <Section>0</Section>
+      <ValueOn>4D-2B-6C-24-08-48-A1-B0-FF-2A-80-00-00-00-00-C7-00-01-00-00-00-C7-40-04-00-20-A7-45-C7-40-08-C7-54-06-45-C7-40-0C-00-01-00-00-E9-5F-BF-C2-FD</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>015ECC29</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-72-40-3D-02</ValueOn>
+      <ValueOff>4D-2B-6C-24-08</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[28m][Beacon1] Maps: Mountaintops of the Giants, East">
+    <Cheatline>
+      <Offset>039C0CA0</Offset>
+      <Section>0</Section>
+      <ValueOn>4D-2B-6C-24-08-48-A1-B0-FF-2A-80-00-00-00-00-C7-00-01-00-00-00-C7-40-04-00-60-C2-45-C7-40-08-35-A9-23-45-C7-40-0C-00-01-00-00-E9-5F-BF-C2-FD</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>015ECC29</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-72-40-3D-02</ValueOn>
+      <ValueOff>4D-2B-6C-24-08</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[28n][Beacon1] Maps: Mountaintops of the Giants, West">
+    <Cheatline>
+      <Offset>039C0CA0</Offset>
+      <Section>0</Section>
+      <ValueOn>4D-2B-6C-24-08-48-A1-B0-FF-2A-80-00-00-00-00-C7-00-01-00-00-00-C7-40-04-00-E0-AC-45-C7-40-08-00-A0-33-45-C7-40-0C-00-01-00-00-E9-5F-BF-C2-FD</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>015ECC29</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-72-40-3D-02</ValueOn>
+      <ValueOff>4D-2B-6C-24-08</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[28o][Beacon1] Entrance: Siofra River" Description="For the underground maps, you will have to descend first. These elevators are marked as Entrances.">
+    <Cheatline>
+      <Offset>039C0CA0</Offset>
+      <Section>0</Section>
+      <ValueOn>4D-2B-6C-24-08-48-A1-B0-FF-2A-80-00-00-00-00-C7-00-01-00-00-00-C7-40-04-00-00-8F-45-C7-40-08-00-9D-DB-45-C7-40-0C-00-01-00-00-E9-5F-BF-C2-FD</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>015ECC29</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-72-40-3D-02</ValueOn>
+      <ValueOff>4D-2B-6C-24-08</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[28p][Beacon1] Maps: Siofra River (Underground)">
+    <Cheatline>
+      <Offset>039C0CA0</Offset>
+      <Section>0</Section>
+      <ValueOn>4D-2B-6C-24-08-48-A1-B0-FF-2A-80-00-00-00-00-C7-00-01-00-00-00-C7-40-04-00-00-9D-45-C7-40-08-00-90-D9-45-C7-40-0C-01-01-00-00-E9-5F-BF-C2-FD</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>015ECC29</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-72-40-3D-02</ValueOn>
+      <ValueOff>4D-2B-6C-24-08</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[28q][Beacon1] Entrance: Deeproot Depths (Underground)" Description="From Siofra River, underground.">
+    <Cheatline>
+      <Offset>039C0CA0</Offset>
+      <Section>0</Section>
+      <ValueOn>4D-2B-6C-24-08-48-A1-B0-FF-2A-80-00-00-00-00-C7-00-01-00-00-00-C7-40-04-EA-54-9C-45-C7-40-08-A4-8D-C3-45-C7-40-0C-01-01-00-00-E9-5F-BF-C2-FD</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>015ECC29</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-72-40-3D-02</ValueOn>
+      <ValueOff>4D-2B-6C-24-08</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[28r][Beacon1] Maps: Deeproot Depths (Underground)">
+    <Cheatline>
+      <Offset>039C0CA0</Offset>
+      <Section>0</Section>
+      <ValueOn>4D-2B-6C-24-08-48-A1-B0-FF-2A-80-00-00-00-00-C7-00-01-00-00-00-C7-40-04-00-F0-86-45-C7-40-08-00-88-51-45-C7-40-0C-01-01-00-00-E9-5F-BF-C2-FD</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>015ECC29</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-72-40-3D-02</ValueOn>
+      <ValueOff>4D-2B-6C-24-08</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[28s][Beacon1] Entrance: Ainsel River Well">
+    <Cheatline>
+      <Offset>039C0CA0</Offset>
+      <Section>0</Section>
+      <ValueOn>4D-2B-6C-24-08-48-A1-B0-FF-2A-80-00-00-00-00-C7-00-01-00-00-00-C7-40-04-00-90-2D-45-C7-40-08-00-9A-91-45-C7-40-0C-00-01-00-00-E9-5F-BF-C2-FD</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>015ECC29</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-72-40-3D-02</ValueOn>
+      <ValueOff>4D-2B-6C-24-08</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[28t][Beacon1] Maps: Ainsel River (Underground)">
+    <Cheatline>
+      <Offset>039C0CA0</Offset>
+      <Section>0</Section>
+      <ValueOn>4D-2B-6C-24-08-48-A1-B0-FF-2A-80-00-00-00-00-C7-00-01-00-00-00-C7-40-04-00-20-14-45-C7-40-08-00-F0-8E-45-C7-40-0C-01-01-00-00-E9-5F-BF-C2-FD</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>015ECC29</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-72-40-3D-02</ValueOn>
+      <ValueOff>4D-2B-6C-24-08</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[28u][Beacon1] Entrance1: Lake Of Rot (Underground)" Description="From Ainsel River, underground.">
+    <Cheatline>
+      <Offset>039C0CA0</Offset>
+      <Section>0</Section>
+      <ValueOn>4D-2B-6C-24-08-48-A1-B0-FF-2A-80-00-00-00-00-C7-00-01-00-00-00-C7-40-04-F5-B5-05-45-C7-40-08-40-13-88-45-C7-40-0C-01-01-00-00-E9-5F-BF-C2-FD</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>015ECC29</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-72-40-3D-02</ValueOn>
+      <ValueOff>4D-2B-6C-24-08</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[28v][Beacon1] Entrance2: Lake Of Rot (Underground)">
+    <Cheatline>
+      <Offset>039C0CA0</Offset>
+      <Section>0</Section>
+      <ValueOn>4D-2B-6C-24-08-48-A1-B0-FF-2A-80-00-00-00-00-C7-00-01-00-00-00-C7-40-04-ED-C8-00-45-C7-40-08-94-0A-8F-45-C7-40-0C-01-01-00-00-E9-5F-BF-C2-FD</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>015ECC29</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-72-40-3D-02</ValueOn>
+      <ValueOff>4D-2B-6C-24-08</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[28w][Beacon1] Maps: Lake Of Rot (Underground)">
+    <Cheatline>
+      <Offset>039C0CA0</Offset>
+      <Section>0</Section>
+      <ValueOn>4D-2B-6C-24-08-48-A1-B0-FF-2A-80-00-00-00-00-C7-00-01-00-00-00-C7-40-04-00-E6-01-45-C7-40-08-00-10-91-45-C7-40-0C-01-01-00-00-E9-5F-BF-C2-FD</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>015ECC29</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-72-40-3D-02</ValueOn>
+      <ValueOff>4D-2B-6C-24-08</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[28x][Beacon1] Entrance: Crumbling Farum Azula" Description="1-Rest at the site of grace / 2-Talk to Melina / 3-Say you are ready.">
+    <Cheatline>
+      <Offset>039C0CA0</Offset>
+      <Section>0</Section>
+      <ValueOn>4D-2B-6C-24-08-48-A1-B0-FF-2A-80-00-00-00-00-C7-00-01-00-00-00-C7-40-04-D7-51-D3-45-C7-40-08-FE-50-39-45-C7-40-0C-00-01-00-00-E9-5F-BF-C2-FD</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>

@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5CF8B10",
-          "on": "80BB9001000002750C448B8BE4040000E9AE45A6FA44898BE8040000E9A245A6FA",
-          "off": "000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "75D0CC",
-          "on": "E93FBA59059090",
-          "off": "44898BE8040000"
-        }
-      ]
-    },
-    {
       "name": "Max Cash (on get 2 at least)",
       "type": "checkbox",
       "memory": [
@@ -49,6 +33,22 @@
           "offset": "775181",
           "on": "E9CA514E0590",
           "off": "39F041897630"
+        }
+      ]
+    },
+    {
+      "name": "Max Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5CF8B10",
+          "on": "80BB9001000002750C448B8BE4040000E9AE45A6FA44898BE8040000E9A245A6FA",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "75D0CC",
+          "on": "E93FBA59059090",
+          "off": "44898BE8040000"
         }
       ]
     },

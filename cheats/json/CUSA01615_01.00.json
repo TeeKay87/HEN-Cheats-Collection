@@ -5,6 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Exp ",
+      "hint": "Earn Exp to get 9.999.999.",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "FB4274",
+          "on": "B97F96980090",
+          "off": "440F4EF085C0"
+        }
+      ]
+    },
+    {
       "name": "Godmode",
       "type": "checkbox",
       "memory": [
@@ -12,22 +24,6 @@
           "offset": "ADE4EA",
           "on": "BE0F27000090",
           "off": "85FF410F49F0"
-        }
-      ]
-    },
-    {
-      "name": "Infinite MP",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "453F000",
-          "on": "C5FA5CC10F4DD0BAF3000000C3",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "ADE5B0",
-          "on": "E84B0AA6039090",
-          "off": "C5FA5CC10F4DD0"
         }
       ]
     },
@@ -66,12 +62,27 @@
       ]
     },
     {
-      "name": "Exp ",
-      "hint": "Earn Exp to get 9.999.999.",
+      "name": "Infinite MP",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "FB4274",
+          "offset": "453F000",
+          "on": "C5FA5CC10F4DD0BAF3000000C3",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "ADE5B0",
+          "on": "E84B0AA6039090",
+          "off": "C5FA5CC10F4DD0"
+        }
+      ]
+    },
+    {
+      "name": "Exp ",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "BB4274",
           "on": "B97F96980090",
           "off": "440F4EF085C0"
         }
@@ -85,22 +96,6 @@
           "offset": "6DE4EA",
           "on": "BE0F27000090",
           "off": "85FF410F49F0"
-        }
-      ]
-    },
-    {
-      "name": "Infinite MP",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "413F000",
-          "on": "C5FA5CC10F4DD0BAF3000000C3",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "6DE5B0",
-          "on": "E84B0AA6039090",
-          "off": "C5FA5CC10F4DD0"
         }
       ]
     },
@@ -137,13 +132,18 @@
       ]
     },
     {
-      "name": "Exp ",
+      "name": "Infinite MP",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "BB4274",
-          "on": "B97F96980090",
-          "off": "440F4EF085C0"
+          "offset": "413F000",
+          "on": "C5FA5CC10F4DD0BAF3000000C3",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "6DE5B0",
+          "on": "E84B0AA6039090",
+          "off": "C5FA5CC10F4DD0"
         }
       ]
     }

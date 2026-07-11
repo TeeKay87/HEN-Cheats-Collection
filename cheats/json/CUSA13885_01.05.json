@@ -16,17 +16,6 @@
       ]
     },
     {
-      "name": "Infinite Throwables, Medkits, Resources, Ethanol",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "11E0517",
-          "on": "909090",
-          "off": "894348"
-        }
-      ]
-    },
-    {
       "name": "Infinite Perk Points",
       "type": "checkbox",
       "memory": [
@@ -34,6 +23,17 @@
           "offset": "34E0EED",
           "on": "9090909090909090",
           "off": "4529AC24C0000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Throwables, Medkits, Resources, Ethanol",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "11E0517",
+          "on": "909090",
+          "off": "894348"
         }
       ]
     },

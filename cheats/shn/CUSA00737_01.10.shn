@@ -2,100 +2,6 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Terraria" Moder="Molly+hejran7" Cusa="CUSA00737" Version="01.10" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Invincible">
-    <Cheatline>
-      <Offset>80259A40</Offset>
-      <Section>0</Section>
-      <ValueOn>41-0F-B6-87-85-04-00-00</ValueOn>
-      <ValueOff>41-0F-B6-87-84-04-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite HP">
-    <Cheatline>
-      <Offset>802AA6D5</Offset>
-      <Section>0</Section>
-      <ValueOn>01-D1</ValueOn>
-      <ValueOff>2B-CA</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>8025B4F8</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>41-89-87-70-06-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>8025AE2A</Offset>
-      <Section>0</Section>
-      <ValueOn>83-C0-05</ValueOn>
-      <ValueOff>83-E8-05</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Mana">
-    <Cheatline>
-      <Offset>802BE65F</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>41-89-87-74-06-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Oxygen">
-    <Cheatline>
-      <Offset>80272000</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90</ValueOn>
-      <ValueOff>89-88-24-05-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="One Hit Kill">
-    <Cheatline>
-      <Offset>80691E14</Offset>
-      <Section>0</Section>
-      <ValueOn>29-C0</ValueOn>
-      <ValueOff>2B-C1</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>80691D91</Offset>
-      <Section>0</Section>
-      <ValueOn>29-C9</ValueOn>
-      <ValueOff>2B-CA</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Craft Anything">
-    <Cheatline>
-      <Offset>80304009</Offset>
-      <Section>0</Section>
-      <ValueOn>72-3B</ValueOn>
-      <ValueOff>74-3B</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="INV-Take one for Max">
-    <Cheatline>
-      <Offset>804D5B33</Offset>
-      <Section>0</Section>
-      <ValueOn>48-63-88-BC-00-00-00</ValueOn>
-      <ValueOff>48-63-88-B8-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>802DC6C4</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90</ValueOn>
-      <ValueOff>FF-C8</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>80302817</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90</ValueOn>
-      <ValueOff>2B-CB</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Big Weapon After Take and Place">
-    <Cheatline>
-      <Offset>80532CEB</Offset>
-      <Section>0</Section>
-      <ValueOn>66-C7-80-FE-00-00-00-40-40</ValueOn>
-      <ValueOff>F3-44-0F-11-B8-FC-00-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="50% Brightness">
     <Cheatline>
       <Offset>12DB834</Offset>
@@ -134,12 +40,20 @@
       <ValueOff>F3-44-0F-11-78-1C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Timer">
+  <Cheat Text="Big Weapon After Take and Place">
     <Cheatline>
-      <Offset>801DCCFB</Offset>
+      <Offset>80532CEB</Offset>
       <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90</ValueOn>
-      <ValueOff>F3-44-0F-11-78-24</ValueOff>
+      <ValueOn>66-C7-80-FE-00-00-00-40-40</ValueOn>
+      <ValueOff>F3-44-0F-11-B8-FC-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Craft Anything">
+    <Cheatline>
+      <Offset>80304009</Offset>
+      <Section>0</Section>
+      <ValueOn>72-3B</ValueOn>
+      <ValueOff>74-3B</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Fast Forward Time">
@@ -154,6 +68,92 @@
       <Section>0</Section>
       <ValueOn>E9-14-EB-0F-81-90-90-90</ValueOn>
       <ValueOff>F2-0F-2A-C8-F2-0F-58-C1</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Freeze Timer">
+    <Cheatline>
+      <Offset>801DCCFB</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90</ValueOn>
+      <ValueOff>F3-44-0F-11-78-24</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite HP">
+    <Cheatline>
+      <Offset>802AA6D5</Offset>
+      <Section>0</Section>
+      <ValueOn>01-D1</ValueOn>
+      <ValueOff>2B-CA</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>8025B4F8</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>41-89-87-70-06-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>8025AE2A</Offset>
+      <Section>0</Section>
+      <ValueOn>83-C0-05</ValueOn>
+      <ValueOff>83-E8-05</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Mana">
+    <Cheatline>
+      <Offset>802BE65F</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>41-89-87-74-06-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Oxygen">
+    <Cheatline>
+      <Offset>80272000</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90</ValueOn>
+      <ValueOff>89-88-24-05-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="INV-Take one for Max">
+    <Cheatline>
+      <Offset>804D5B33</Offset>
+      <Section>0</Section>
+      <ValueOn>48-63-88-BC-00-00-00</ValueOn>
+      <ValueOff>48-63-88-B8-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>802DC6C4</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90</ValueOn>
+      <ValueOff>FF-C8</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>80302817</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90</ValueOn>
+      <ValueOff>2B-CB</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Invincible">
+    <Cheatline>
+      <Offset>80259A40</Offset>
+      <Section>0</Section>
+      <ValueOn>41-0F-B6-87-85-04-00-00</ValueOn>
+      <ValueOff>41-0F-B6-87-84-04-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="One Hit Kill">
+    <Cheatline>
+      <Offset>80691E14</Offset>
+      <Section>0</Section>
+      <ValueOn>29-C0</ValueOn>
+      <ValueOff>2B-C1</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>80691D91</Offset>
+      <Section>0</Section>
+      <ValueOn>29-C9</ValueOn>
+      <ValueOff>2B-CA</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Switch to Day Time 7:00 AM">

@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Inf-Weapon-mega-Ball",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1FB89D",
+          "on": "99",
+          "off": "10"
+        }
+      ]
+    },
+    {
       "name": "Infinite-Health",
       "type": "checkbox",
       "memory": [
@@ -23,17 +34,6 @@
           "offset": "1EC612",
           "on": "09",
           "off": "42"
-        }
-      ]
-    },
-    {
-      "name": "Inf-Weapon-mega-Ball",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1FB89D",
-          "on": "99",
-          "off": "10"
         }
       ]
     }

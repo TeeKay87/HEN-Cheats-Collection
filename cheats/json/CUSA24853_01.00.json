@@ -48,17 +48,6 @@
       ]
     },
     {
-      "name": "Max Upgrade points (on gain)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1E8995C",
-          "on": "C5FA1108",
-          "off": "C5FA1100"
-        }
-      ]
-    },
-    {
       "name": "Max Crystals (on gain)",
       "type": "checkbox",
       "memory": [
@@ -71,6 +60,17 @@
           "offset": "1E3EC02",
           "on": "E9F9F7E17D9090",
           "off": "4489F045897500"
+        }
+      ]
+    },
+    {
+      "name": "Max Upgrade points (on gain)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E8995C",
+          "on": "C5FA1108",
+          "off": "C5FA1100"
         }
       ]
     }

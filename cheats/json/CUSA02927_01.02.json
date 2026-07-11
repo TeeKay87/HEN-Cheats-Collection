@@ -5,6 +5,33 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Hi Score",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1B4800",
+          "on": "BE40420F004189B7C8040000E9EDC6EAFF",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "60EF7",
+          "on": "E9043915009090",
+          "off": "4189B7C8040000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Bomb",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4A43C",
+          "on": "90909090909090",
+          "off": "41FF8E84000000"
+        }
+      ]
+    },
+    {
       "name": "Inf Fule",
       "type": "checkbox",
       "memory": [
@@ -21,17 +48,6 @@
       ]
     },
     {
-      "name": "Inf Bomb",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "4A43C",
-          "on": "90909090909090",
-          "off": "41FF8E84000000"
-        }
-      ]
-    },
-    {
       "name": "Inf Missile",
       "type": "checkbox",
       "memory": [
@@ -43,12 +59,12 @@
       ]
     },
     {
-      "name": "Hi Score",
+      "name": "Ultra Hi Score",
       "type": "checkbox",
       "memory": [
         {
           "offset": "1B4800",
-          "on": "BE40420F004189B7C8040000E9EDC6EAFF",
+          "on": "BE00CA9A3B4189B7C8040000E9EDC6EAFF",
           "off": "0000000000000000000000000000000000"
         },
         {

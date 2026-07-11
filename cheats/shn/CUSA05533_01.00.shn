@@ -18,20 +18,6 @@
       <ValueOff>49-8D-9F-7C-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Inf Power Bar on Hit 1P" Description="Max Inf Power Bar on Hit 1P">
-    <Cheatline>
-      <Offset>A2B800</Offset>
-      <Section>0</Section>
-      <ValueOn>41-83-7C-24-1C-00-75-07-41-81-C6-00-00-40-40-E9-22-F9-77-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>1AB12F</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-CC-06-88-00-90-90</ValueOn>
-      <ValueOff>41-C1-E6-10-4C-89-E7</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Inf SuperMode 1P (Press R3 to deplete)" Description="Inf SuperMode 1P (Press R3 to deplete)">
     <Cheatline>
       <Offset>A2B82F</Offset>
@@ -44,6 +30,20 @@
       <Section>0</Section>
       <ValueOn>E9-47-6B-88-00-90-90-90</ValueOn>
       <ValueOff>48-8D-04-40-48-C1-E8-10</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max Inf Power Bar on Hit 1P" Description="Max Inf Power Bar on Hit 1P">
+    <Cheatline>
+      <Offset>A2B800</Offset>
+      <Section>0</Section>
+      <ValueOn>41-83-7C-24-1C-00-75-07-41-81-C6-00-00-40-40-E9-22-F9-77-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>1AB12F</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-CC-06-88-00-90-90</ValueOn>
+      <ValueOff>41-C1-E6-10-4C-89-E7</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

@@ -9,6 +9,14 @@
       <ValueOff>49-89-8C-24-98-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="Infinite Hack Time">
+    <Cheatline>
+      <Offset>7FED74</Offset>
+      <Section>0</Section>
+      <ValueOn>93</ValueOn>
+      <ValueOff>8B</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Infinite Item and Ammo">
     <Cheatline>
       <Offset>1832A03</Offset>
@@ -23,14 +31,6 @@
       <Section>0</Section>
       <ValueOn>90-90-90-90-90</ValueOn>
       <ValueOff>41-89-54-08-08</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Hack Time">
-    <Cheatline>
-      <Offset>7FED74</Offset>
-      <Section>0</Section>
-      <ValueOn>93</ValueOn>
-      <ValueOff>8B</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

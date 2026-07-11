@@ -16,35 +16,13 @@
       ]
     },
     {
-      "name": "XP multiplier",
+      "name": "Infinite Consumables",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "18A2214",
-          "on": "4101BD08030000",
-          "off": "4189BD08030000"
-        }
-      ]
-    },
-    {
-      "name": "Skill Points Multiplier",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1A156A3",
-          "on": "018734030000",
-          "off": "898734030000"
-        }
-      ]
-    },
-    {
-      "name": "Perk Points Multiplier",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1A1567D",
-          "on": "018738030000",
-          "off": "898738030000"
+          "offset": "18E4FFB",
+          "on": "9090909090909090",
+          "off": "41898498C0130000"
         }
       ]
     },
@@ -60,13 +38,35 @@
       ]
     },
     {
-      "name": "Infinite Consumables",
+      "name": "Perk Points Multiplier",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "18E4FFB",
-          "on": "9090909090909090",
-          "off": "41898498C0130000"
+          "offset": "1A1567D",
+          "on": "018738030000",
+          "off": "898738030000"
+        }
+      ]
+    },
+    {
+      "name": "Skill Points Multiplier",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1A156A3",
+          "on": "018734030000",
+          "off": "898734030000"
+        }
+      ]
+    },
+    {
+      "name": "XP multiplier",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "18A2214",
+          "on": "4101BD08030000",
+          "off": "4189BD08030000"
         }
       ]
     }

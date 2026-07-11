@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Inf Botnet",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "E4E3CE",
+          "on": "C5FA114B74",
+          "off": "C5FA114374"
+        }
+      ]
+    },
+    {
       "name": "Inf Health",
       "type": "checkbox",
       "memory": [
@@ -21,17 +32,6 @@
       ]
     },
     {
-      "name": "Inf Botnet",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "E4E3CE",
-          "on": "C5FA114B74",
-          "off": "C5FA114374"
-        }
-      ]
-    },
-    {
       "name": "Inf Research Points",
       "type": "checkbox",
       "memory": [
@@ -39,17 +39,6 @@
           "offset": "186662A",
           "on": "44035228",
           "off": "442B5228"
-        }
-      ]
-    },
-    {
-      "name": "No Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1381275",
-          "on": "909090909090",
-          "off": "FF8BA0000000"
         }
       ]
     },
@@ -66,6 +55,17 @@
           "offset": "18694C8",
           "on": "E993687204909090",
           "off": "4F29A4EFA0060000"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1381275",
+          "on": "909090909090",
+          "off": "FF8BA0000000"
         }
       ]
     }

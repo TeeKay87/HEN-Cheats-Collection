@@ -3,6 +3,14 @@
   <Genres Name="Action" />
   <Genres Name="Shooter" />
   <Items />
+  <Cheat Text="Infinite Ammo">
+    <Cheatline>
+      <Offset>34F66B</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90</ValueOn>
+      <ValueOff>FF-48-14</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Infinite Health (when haunting the other will get inf hp)">
     <Cheatline>
       <Offset>473CA0</Offset>
@@ -15,14 +23,6 @@
       <Section>0</Section>
       <ValueOn>E9-BD-EE-13-00-90-90-90</ValueOn>
       <ValueOff>C5-FA-11-83-F4-05-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Ammo">
-    <Cheatline>
-      <Offset>34F66B</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90</ValueOn>
-      <ValueOff>FF-48-14</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max Golden Cube">

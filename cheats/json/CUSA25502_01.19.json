@@ -5,6 +5,38 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Boost",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7B8BDF3",
+          "on": "C5FA108304010000C5FA11832C010000E9B7F037F9",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "F0AEB7",
+          "on": "E9370FC806909090",
+          "off": "C5FA11832C010000"
+        }
+      ]
+    },
+    {
+      "name": "Max Blind Boxes ( on use )",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7B8BDB0",
+          "on": "4885C041C7461400CA9A3BE98AC333FA526564646576696C3832202D20465720392E3030",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "1EC8143",
+          "on": "E9683CCC059090",
+          "off": "4885C041894E14"
+        }
+      ]
+    },
+    {
       "name": "Max Coins ( on buy / sell )",
       "type": "checkbox",
       "memory": [
@@ -45,42 +77,10 @@
           "off": "C4E278F2C9"
         }
       ]
-    },
-    {
-      "name": "Max Blind Boxes ( on use )",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7B8BDB0",
-          "on": "4885C041C7461400CA9A3BE98AC333FA526564646576696C3832202D20465720392E3030",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "1EC8143",
-          "on": "E9683CCC059090",
-          "off": "4885C041894E14"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Boost",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7B8BDF3",
-          "on": "C5FA108304010000C5FA11832C010000E9B7F037F9",
-          "off": "000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "F0AEB7",
-          "on": "E9370FC806909090",
-          "off": "C5FA11832C010000"
-        }
-      ]
     }
   ],
   "credits": [
-    "Reddevil82 ",
-    " FW 9.00"
+    "Reddevil82",
+    "FW 9.00"
   ]
 }

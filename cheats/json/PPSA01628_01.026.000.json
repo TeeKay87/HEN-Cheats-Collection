@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "C95C2FB",
-          "on": "909090909090",
-          "off": "898190030000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Aetherium Crystals",
       "type": "checkbox",
       "memory": [
@@ -34,6 +23,17 @@
           "offset": "C66C386",
           "on": "90909090909090",
           "off": "898C93DC130000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "C95C2FB",
+          "on": "909090909090",
+          "off": "898190030000"
         }
       ]
     }

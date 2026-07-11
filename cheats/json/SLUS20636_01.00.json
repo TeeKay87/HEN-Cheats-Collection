@@ -5,27 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf-Health-Kits\u002BFlashlight",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "807FE839C0",
-          "on": "00000000",
-          "off": "00000000"
-        },
-        {
-          "offset": "80807AE348",
-          "on": "FF",
-          "off": "FF"
-        },
-        {
-          "offset": "80807AE349",
-          "on": "55",
-          "off": "55"
-        }
-      ]
-    },
-    {
       "name": "Inf-Ammo-No-Reload",
       "type": "checkbox",
       "memory": [
@@ -43,6 +22,27 @@
           "offset": "807FEA8A80",
           "on": "00000000",
           "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "Inf-Health-Kits\u002BFlashlight",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "807FE839C0",
+          "on": "00000000",
+          "off": "00000000"
+        },
+        {
+          "offset": "80807AE348",
+          "on": "FF",
+          "off": "FF"
+        },
+        {
+          "offset": "80807AE349",
+          "on": "55",
+          "off": "55"
         }
       ]
     }

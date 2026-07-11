@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Invincible-DO NOT-USE-BOMB",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "807FD421C4",
-          "on": "0000",
-          "off": "FFFF"
-        },
-        {
-          "offset": "807FD421C5",
-          "on": "00OO",
-          "off": "FFFF"
-        }
-      ]
-    },
-    {
       "name": "Infinite Lives P1",
       "type": "checkbox",
       "memory": [
@@ -44,6 +28,22 @@
           "offset": "807FD42A5D",
           "on": "00",
           "off": "FF"
+        }
+      ]
+    },
+    {
+      "name": "Invincible-DO NOT-USE-BOMB",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "807FD421C4",
+          "on": "0000",
+          "off": "FFFF"
+        },
+        {
+          "offset": "807FD421C5",
+          "on": "00OO",
+          "off": "FFFF"
         }
       ]
     }

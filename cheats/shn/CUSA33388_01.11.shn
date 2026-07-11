@@ -30,22 +30,6 @@
       <ValueOff>89-48-34</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
-    <Cheatline>
-      <Offset>403CDEF</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90</ValueOn>
-      <ValueOff>E8-4C-E8-FF-FF</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Perfect Aim">
-    <Cheatline>
-      <Offset>99F9FB</Offset>
-      <Section>0</Section>
-      <ValueOn>C5-FA-10-D2</ValueOn>
-      <ValueOff>C5-FA-5D-D2</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite Grenades">
     <Cheatline>
       <Offset>403BAFA</Offset>
@@ -60,6 +44,70 @@
       <Section>0</Section>
       <ValueOn>45-89-6F-30</ValueOn>
       <ValueOff>45-89-67-30</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Mayhen Mode (Mercenaries)">
+    <Cheatline>
+      <Offset>472C195</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90</ValueOn>
+      <ValueOff>C4-C1-7A-11-47-20</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Instant Max Mayhen Mode (Mercenaries)">
+    <Cheatline>
+      <Offset>BDC2F40</Offset>
+      <Section>0</Section>
+      <ValueOn>8B-50-34-89-50-14-C5-FA-2A-40-14-E9-13-ED-6B-F6</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>2481C5E</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-DD-12-94-09</ValueOn>
+      <ValueOff>C5-F2-2A-48-34</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max/Infinite CP">
+    <Cheatline>
+      <Offset>BDC3630</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-83-A8-00-00-00-3F-42-0F-00-E9-1D-97-34-F6</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>210CD55</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-D6-68-CB-09-90-90</ValueOn>
+      <ValueOff>44-89-BB-A8-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max/Infinite Pesetas On Pick Up">
+    <Cheatline>
+      <Offset>BDC3910</Offset>
+      <Section>0</Section>
+      <ValueOn>41-C7-44-24-10-FF-C9-9A-3B-E9-2E-53-EC-F7</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>3C88C47</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-C4-AC-13-08</ValueOn>
+      <ValueOff>41-89-44-24-10</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max/Infinite Spinels On Pick Up">
+    <Cheatline>
+      <Offset>BDC3A80</Offset>
+      <Section>0</Section>
+      <ValueOn>0F-4F-C1-C7-43-20-0F-27-00-00-E9-7A-A7-8B-F7</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>367E203</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-78-58-74-08-90</ValueOn>
+      <ValueOff>0F-4F-C1-89-43-20</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="No Damage For Boat">
@@ -84,46 +132,20 @@
       <ValueOff>74-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Spinels On Pick Up">
+  <Cheat Text="No Reload">
     <Cheatline>
-      <Offset>BDC3A80</Offset>
+      <Offset>403CDEF</Offset>
       <Section>0</Section>
-      <ValueOn>0F-4F-C1-C7-43-20-0F-27-00-00-E9-7A-A7-8B-F7</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>367E203</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-78-58-74-08-90</ValueOn>
-      <ValueOff>0F-4F-C1-89-43-20</ValueOff>
+      <ValueOn>90-90-90-90-90</ValueOn>
+      <ValueOff>E8-4C-E8-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Pesetas On Pick Up">
+  <Cheat Text="Perfect Aim">
     <Cheatline>
-      <Offset>BDC3910</Offset>
+      <Offset>99F9FB</Offset>
       <Section>0</Section>
-      <ValueOn>41-C7-44-24-10-FF-C9-9A-3B-E9-2E-53-EC-F7</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>3C88C47</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-C4-AC-13-08</ValueOn>
-      <ValueOff>41-89-44-24-10</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Max/Infinite CP">
-    <Cheatline>
-      <Offset>BDC3630</Offset>
-      <Section>0</Section>
-      <ValueOn>C7-83-A8-00-00-00-3F-42-0F-00-E9-1D-97-34-F6</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>210CD55</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-D6-68-CB-09-90-90</ValueOn>
-      <ValueOff>44-89-BB-A8-00-00-00</ValueOff>
+      <ValueOn>C5-FA-10-D2</ValueOn>
+      <ValueOff>C5-FA-5D-D2</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Save always 0">
@@ -154,28 +176,6 @@
       <Section>0</Section>
       <ValueOn>90-90-90-90-90-90</ValueOn>
       <ValueOff>C4-C1-7A-11-47-18</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Instant Max Mayhen Mode (Mercenaries)">
-    <Cheatline>
-      <Offset>BDC2F40</Offset>
-      <Section>0</Section>
-      <ValueOn>8B-50-34-89-50-14-C5-FA-2A-40-14-E9-13-ED-6B-F6</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>2481C5E</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-DD-12-94-09</ValueOn>
-      <ValueOff>C5-F2-2A-48-34</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Mayhen Mode (Mercenaries)">
-    <Cheatline>
-      <Offset>472C195</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90</ValueOn>
-      <ValueOff>C4-C1-7A-11-47-20</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

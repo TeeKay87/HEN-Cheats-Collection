@@ -2,6 +2,22 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dark Souls III" Moder="hejran7" Cusa="CUSA03388" Version="01.00" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
+  <Cheat Text="Dupe Anything In Storage Box">
+    <Cheatline>
+      <Offset>9C1FC3</Offset>
+      <Section>0</Section>
+      <ValueOn>41-89-C6</ValueOn>
+      <ValueOff>41-39-C6</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Enemy 0 Stamina">
+    <Cheatline>
+      <Offset>57FB853</Offset>
+      <Section>0</Section>
+      <ValueOn>BB-00-00-00-00</ValueOn>
+      <ValueOff>39-D8-0F-4E-D8</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="HP MC (Must Be On)">
     <Cheatline>
       <Offset>57FB800</Offset>
@@ -16,18 +32,12 @@
       <ValueOff>44-29-F8-78-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stamina MC (Must Be On)">
+  <Cheat Text="Inf Armour Durability">
     <Cheatline>
-      <Offset>57FB842</Offset>
+      <Offset>116DCE0</Offset>
       <Section>0</Section>
-      <ValueOn>41-80-7E-1C-FF-75-0A-39-D8-0F-4E-D8-E9-C2-21-8F-FB-39-D8-0F-4E-D8-E9-B8-21-8F-FB</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>10EDA10</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-2D-DE-70-04</ValueOn>
-      <ValueOff>39-D8-0F-4E-D8</ValueOff>
+      <ValueOn>90-90-90</ValueOn>
+      <ValueOff>89-77-14</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Inf HP">
@@ -44,12 +54,12 @@
       <ValueOff>39-C1-0F-4E-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill">
+  <Cheat Text="Inf HP Player + Enemy">
     <Cheatline>
-      <Offset>57FB836</Offset>
+      <Offset>10A4547</Offset>
       <Section>0</Section>
-      <ValueOn>90-90-90-90-90</ValueOn>
-      <ValueOff>E9-0C-8D-8A-FB</ValueOff>
+      <ValueOn>90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>41-89-86-D8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Inf Magic">
@@ -60,30 +70,6 @@
       <ValueOff>44-0F-4E-E8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Player inf Stamina">
-    <Cheatline>
-      <Offset>57FB84E</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-C4-21-8F-FB</ValueOn>
-      <ValueOff>E9-C2-21-8F-FB</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Enemy 0 Stamina">
-    <Cheatline>
-      <Offset>57FB853</Offset>
-      <Section>0</Section>
-      <ValueOn>BB-00-00-00-00</ValueOn>
-      <ValueOff>39-D8-0F-4E-D8</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Pause The Game">
-    <Cheatline>
-      <Offset>278FFF7</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>41-89-85-1C-01-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Inf Souls on Spend">
     <Cheatline>
       <Offset>1303F31</Offset>
@@ -92,18 +78,12 @@
       <ValueOff>0F-4E-CA</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Never Lose Souls">
+  <Cheat Text="Inf Weapon Durability">
     <Cheatline>
-      <Offset>EC6976</Offset>
+      <Offset>116EBD0</Offset>
       <Section>0</Section>
       <ValueOn>90-90-90</ValueOn>
-      <ValueOff>89-50-74</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>88B3B3</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>41-C7-45-74-00-00-00-00</ValueOff>
+      <ValueOff>89-77-14</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max Items On Use..Pick..Move">
@@ -120,28 +100,42 @@
       <ValueOff>89-4B-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Dupe Anything In Storage Box">
+  <Cheat Text="Never Lose Souls">
     <Cheatline>
-      <Offset>9C1FC3</Offset>
-      <Section>0</Section>
-      <ValueOn>41-89-C6</ValueOn>
-      <ValueOff>41-39-C6</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Inf Weapon Durability">
-    <Cheatline>
-      <Offset>116EBD0</Offset>
+      <Offset>EC6976</Offset>
       <Section>0</Section>
       <ValueOn>90-90-90</ValueOn>
-      <ValueOff>89-77-14</ValueOff>
+      <ValueOff>89-50-74</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>88B3B3</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>41-C7-45-74-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Armour Durability">
+  <Cheat Text="One Hit Kill">
     <Cheatline>
-      <Offset>116DCE0</Offset>
+      <Offset>57FB836</Offset>
       <Section>0</Section>
-      <ValueOn>90-90-90</ValueOn>
-      <ValueOff>89-77-14</ValueOff>
+      <ValueOn>90-90-90-90-90</ValueOn>
+      <ValueOff>E9-0C-8D-8A-FB</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Pause The Game">
+    <Cheatline>
+      <Offset>278FFF7</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>41-89-85-1C-01-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Player inf Stamina">
+    <Cheatline>
+      <Offset>57FB84E</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-C4-21-8F-FB</ValueOn>
+      <ValueOff>E9-C2-21-8F-FB</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Reduce Fall Damage">
@@ -190,12 +184,18 @@
       <ValueOff>89-42-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf HP Player + Enemy">
+  <Cheat Text="Stamina MC (Must Be On)">
     <Cheatline>
-      <Offset>10A4547</Offset>
+      <Offset>57FB842</Offset>
       <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>41-89-86-D8-00-00-00</ValueOff>
+      <ValueOn>41-80-7E-1C-FF-75-0A-39-D8-0F-4E-D8-E9-C2-21-8F-FB-39-D8-0F-4E-D8-E9-B8-21-8F-FB</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>10EDA10</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-2D-DE-70-04</ValueOn>
+      <ValueOff>39-D8-0F-4E-D8</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

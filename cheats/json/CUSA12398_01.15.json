@@ -5,6 +5,68 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "0 Days Survived",
+      "hint": "Set the days you have survived to 0.",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "80EBEA5E",
+          "on": "C741600000000090909090",
+          "off": "C741600000000090909090"
+        },
+        {
+          "offset": "80EBEA5E",
+          "on": "C4E3790AC809C5FA114160",
+          "off": "C4E3790AC809C5FA114160"
+        }
+      ]
+    },
+    {
+      "name": "100 Days Survived",
+      "hint": "Set the days you have survived to 100.",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "80EBEA5E",
+          "on": "C741600000C84290909090",
+          "off": "C741600000C84290909090"
+        },
+        {
+          "offset": "80EBEA5E",
+          "on": "C4E3790AC809C5FA114160",
+          "off": "C4E3790AC809C5FA114160"
+        }
+      ]
+    },
+    {
+      "name": "9999 Days Survived",
+      "hint": "Set the days you have survived to 9999.",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "80EBEA5E",
+          "on": "C74160003C1C4690909090",
+          "off": "C74160003C1C4690909090"
+        },
+        {
+          "offset": "80EBEA5E",
+          "on": "C4E3790AC809C5FA114160",
+          "off": "C4E3790AC809C5FA114160"
+        }
+      ]
+    },
+    {
+      "name": "Disable Grass",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "82177CC0",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
       "name": "Godmode",
       "hint": "This is not 100% done! Some special enemies can still damage you.",
       "type": "checkbox",
@@ -27,24 +89,52 @@
       ]
     },
     {
-      "name": "No Hunger",
+      "name": "Infinite Items",
+      "hint": "Items that would be used for crafting/building will stay in your inventory or holders.",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "80EC034B",
-          "on": "41C744246C0000803F9090",
-          "off": "C5F258C0C4C17A1144246C"
+          "offset": "81BCC551",
+          "on": "9090909090",
+          "off": "4189442414"
+        },
+        {
+          "offset": "80D4BAA2",
+          "on": "90909090",
+          "off": "41894F58"
         }
       ]
     },
     {
-      "name": "No Thirst",
+      "name": "Infinite Jump/Fly",
+      "hint": "This option is buggy. Sometimes you bounce, sometimes you fly up forever...",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "80EC1309",
-          "on": "41C7442470000000009090",
-          "off": "C5EA58D0C4C17A11542470"
+          "offset": "C4C2DA",
+          "on": "8B4E04894DE4",
+          "off": "8B4E04894DE4"
+        },
+        {
+          "offset": "17B7019",
+          "on": "C745E400004842E9BB5249FF000000000000000000",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "C4C2DA",
+          "on": "E93AADB60090",
+          "off": "8B4E04894DE4"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Logs On Shoulder",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "81BCC7DE",
+          "on": "909090",
+          "off": "894B40"
         }
       ]
     },
@@ -80,34 +170,6 @@
       ]
     },
     {
-      "name": "Infinite Items",
-      "hint": "Items that would be used for crafting/building will stay in your inventory or holders.",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "81BCC551",
-          "on": "9090909090",
-          "off": "4189442414"
-        },
-        {
-          "offset": "80D4BAA2",
-          "on": "90909090",
-          "off": "41894F58"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Logs On Shoulder",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "81BCC7DE",
-          "on": "909090",
-          "off": "894B40"
-        }
-      ]
-    },
-    {
       "name": "Instant Build",
       "type": "checkbox",
       "memory": [
@@ -120,6 +182,11 @@
           "offset": "17B7000",
           "on": "418B442414FFC841894514418B4514413B442414E90445767F",
           "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "80F1B514",
+          "on": "E9E7BA898090909090",
+          "off": "418B4514413B442414"
         }
       ]
     },
@@ -135,8 +202,40 @@
       ]
     },
     {
+      "name": "No Hunger",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80EC034B",
+          "on": "41C744246C0000803F9090",
+          "off": "C5F258C0C4C17A1144246C"
+        }
+      ]
+    },
+    {
+      "name": "No Thirst",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80EC1309",
+          "on": "41C7442470000000009090",
+          "off": "C5EA58D0C4C17A11542470"
+        }
+      ]
+    },
+    {
+      "name": "No Under Water Blur",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "819B7980",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
       "name": "Super Jump",
-      "hint": "This option is buggy. Sometimes you bounce, sometimes you fly up forever...",
       "type": "checkbox",
       "memory": [
         {
@@ -148,6 +247,11 @@
           "offset": "17B7019",
           "on": "4881FA0E0100007507C745E400004842E9B25249FF",
           "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "C4C2DA",
+          "on": "E93AADB60090",
+          "off": "8B4E04894DE4"
         }
       ]
     },
@@ -164,35 +268,49 @@
     },
     {
       "name": "0 Days Survived",
-      "hint": "Set the days you have survived to 0.",
       "type": "button",
       "memory": [
         {
-          "offset": "80EBEA5E",
+          "offset": "80abea5e",
           "on": "C741600000000090909090",
           "off": "C741600000000090909090"
+        },
+        {
+          "offset": "80abea5e",
+          "on": "C4E3790AC809C5FA114160",
+          "off": "C4E3790AC809C5FA114160"
         }
       ]
     },
     {
-      "name": "Disable Grass",
-      "type": "checkbox",
+      "name": "100 Days Survived",
+      "type": "button",
       "memory": [
         {
-          "offset": "82177CC0",
-          "on": "C3",
-          "off": "55"
+          "offset": "80abea5e",
+          "on": "C741600000C84290909090",
+          "off": "C741600000C84290909090"
+        },
+        {
+          "offset": "80abea5e",
+          "on": "C4E3790AC809C5FA114160",
+          "off": "C4E3790AC809C5FA114160"
         }
       ]
     },
     {
-      "name": "No Under Water Blur",
-      "type": "checkbox",
+      "name": "9999 Days Survived",
+      "type": "button",
       "memory": [
         {
-          "offset": "819B7980",
-          "on": "C3",
-          "off": "55"
+          "offset": "80abea5e",
+          "on": "C74160003C1C4690909090",
+          "off": "C74160003C1C4690909090"
+        },
+        {
+          "offset": "80abea5e",
+          "on": "C4E3790AC809C5FA114160",
+          "off": "C4E3790AC809C5FA114160"
         }
       ]
     },
@@ -218,24 +336,50 @@
       ]
     },
     {
-      "name": "No Hunger",
+      "name": "Infinite Items",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "80ac034b",
-          "on": "41C744246C0000803F9090",
-          "off": "C5F258C0C4C17A1144246C"
+          "offset": "817cc551",
+          "on": "9090909090",
+          "off": "4189442414"
+        },
+        {
+          "offset": "8094baa2",
+          "on": "90909090",
+          "off": "41894F58"
         }
       ]
     },
     {
-      "name": "No Thirst",
+      "name": "Infinite Jump/Fly",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "80ac1309",
-          "on": "41C7442470000000009090",
-          "off": "C5EA58D0C4C17A11542470"
+          "offset": "84c2da",
+          "on": "8B4E04894DE4",
+          "off": "8B4E04894DE4"
+        },
+        {
+          "offset": "13b7019",
+          "on": "C745E400004842E9BB5249FF000000000000000000",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "84c2da",
+          "on": "E93AADB60090",
+          "off": "8B4E04894DE4"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Logs On Shoulder",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "817cc7de",
+          "on": "909090",
+          "off": "894B40"
         }
       ]
     },
@@ -271,33 +415,6 @@
       ]
     },
     {
-      "name": "Infinite Items",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "817cc551",
-          "on": "9090909090",
-          "off": "4189442414"
-        },
-        {
-          "offset": "8094baa2",
-          "on": "90909090",
-          "off": "41894F58"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Logs On Shoulder",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "817cc7de",
-          "on": "909090",
-          "off": "894B40"
-        }
-      ]
-    },
-    {
       "name": "Instant Build",
       "type": "checkbox",
       "memory": [
@@ -310,6 +427,11 @@
           "offset": "13b7000",
           "on": "418B442414FFC841894514418B4514413B442414E90445767F",
           "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "80b1b514",
+          "on": "E9E7BA898090909090",
+          "off": "418B4514413B442414"
         }
       ]
     },
@@ -321,6 +443,28 @@
           "offset": "814faa99",
           "on": "4569FF3F420F0090",
           "off": "450FAFBE2C010000"
+        }
+      ]
+    },
+    {
+      "name": "No Hunger",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80ac034b",
+          "on": "41C744246C0000803F9090",
+          "off": "C5F258C0C4C17A1144246C"
+        }
+      ]
+    },
+    {
+      "name": "No Thirst",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80ac1309",
+          "on": "41C7442470000000009090",
+          "off": "C5EA58D0C4C17A11542470"
         }
       ]
     },
@@ -337,6 +481,11 @@
           "offset": "13b7019",
           "on": "4881FA0E0100007507C745E400004842E9B25249FF",
           "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "84c2da",
+          "on": "E93AADB60090",
+          "off": "8B4E04894DE4"
         }
       ]
     },
@@ -348,17 +497,6 @@
           "offset": "81373fde",
           "on": "C78348010000000048424883C4085B5DC3E84C2EB6FE0F0B",
           "off": "C5FA1183480100004883C4085B5DC3E84E2EB6FE0F0B9090"
-        }
-      ]
-    },
-    {
-      "name": "0 Days Survived",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "80abea5e",
-          "on": "C741600000000090909090",
-          "off": "C741600000000090909090"
         }
       ]
     }

@@ -16,17 +16,6 @@
       ]
     },
     {
-      "name": "Infinite-shurikens",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "81090733",
-          "on": "90909090",
-          "off": "41895E3C"
-        }
-      ]
-    },
-    {
       "name": "Infinite-money",
       "type": "checkbox",
       "memory": [
@@ -34,6 +23,17 @@
           "offset": "81C3F96B",
           "on": "90909090",
           "off": "89548820"
+        }
+      ]
+    },
+    {
+      "name": "Infinite-shurikens",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "81090733",
+          "on": "90909090",
+          "off": "41895E3C"
         }
       ]
     }

@@ -5,66 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Zeni on Buy/Sell",
+      "name": "Freeze Timer",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "4393800",
-          "on": "B9FFC99A3B894F2029C1E90D7B05FC",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "3EB317",
-          "on": "E9E484FA03",
-          "off": "894F2029C1"
-        }
-      ]
-    },
-    {
-      "name": "Max Points on Spend",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "439380F",
-          "on": "BEE803000089770C89F1E9971405FC",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "3E4CB0",
-          "on": "E95AEBFA03",
-          "off": "89770C89F1"
-        }
-      ]
-    },
-    {
-      "name": "Max LVL/EXP on Gain",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "439381E",
-          "on": "BEFFC99A3B89770889F1E9581405FC",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "3E4C80",
-          "on": "E999EBFA03",
-          "off": "89770889F1"
-        }
-      ]
-    },
-    {
-      "name": "Max Items on Buy When Refreshed",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "4393870",
-          "on": "B86300000089461885C9E9732905FC",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "3E61ED",
-          "on": "E97ED6FA03",
-          "off": "8B461885C9"
+          "offset": "21B1BE",
+          "on": "90909090",
+          "off": "C5FA1103"
         }
       ]
     },
@@ -121,6 +68,54 @@
       ]
     },
     {
+      "name": "Max Items on Buy When Refreshed",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4393870",
+          "on": "B86300000089461885C9E9732905FC",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "3E61ED",
+          "on": "E97ED6FA03",
+          "off": "8B461885C9"
+        }
+      ]
+    },
+    {
+      "name": "Max LVL/EXP on Gain",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "439381E",
+          "on": "BEFFC99A3B89770889F1E9581405FC",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "3E4C80",
+          "on": "E999EBFA03",
+          "off": "89770889F1"
+        }
+      ]
+    },
+    {
+      "name": "Max Points on Spend",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "439380F",
+          "on": "BEE803000089770C89F1E9971405FC",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "3E4CB0",
+          "on": "E95AEBFA03",
+          "off": "89770C89F1"
+        }
+      ]
+    },
+    {
       "name": "Max Stamina When Gained",
       "type": "checkbox",
       "memory": [
@@ -137,13 +132,18 @@
       ]
     },
     {
-      "name": "Freeze Timer",
+      "name": "Max Zeni on Buy/Sell",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "21B1BE",
-          "on": "90909090",
-          "off": "C5FA1103"
+          "offset": "4393800",
+          "on": "B9FFC99A3B894F2029C1E90D7B05FC",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "3EB317",
+          "on": "E9E484FA03",
+          "off": "894F2029C1"
         }
       ]
     }

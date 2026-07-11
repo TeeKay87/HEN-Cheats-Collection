@@ -5,18 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Money ( on gain )",
+      "name": "Max Career Points",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "197FDB0",
-          "on": "4D0167184489F649C74718FFC99A3BE9FD62027F526564646576696C3832202D20465720392E3030",
-          "off": "0000000000000000000000000000000000000000"
+          "offset": "197FDED",
+          "on": "498B85100100004C89EFC780480100003F420F00E907A3587F",
+          "off": "00000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "809A60BA",
-          "on": "E9F19CFD809090",
-          "off": "4D0167184489F6"
+          "offset": "80F0A103",
+          "on": "E9E55CA7809090909090",
+          "off": "498B85100100004C89EF"
         }
       ]
     },
@@ -37,18 +37,18 @@
       ]
     },
     {
-      "name": "Max Career Points",
+      "name": "Max Money ( on gain )",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "197FDED",
-          "on": "498B85100100004C89EFC780480100003F420F00E907A3587F",
-          "off": "00000000000000000000000000000000000000000000000000"
+          "offset": "197FDB0",
+          "on": "4D0167184489F649C74718FFC99A3BE9FD62027F526564646576696C3832202D20465720392E3030",
+          "off": "0000000000000000000000000000000000000000"
         },
         {
-          "offset": "80F0A103",
-          "on": "E9E55CA7809090909090",
-          "off": "498B85100100004C89EF"
+          "offset": "809A60BA",
+          "on": "E9F19CFD809090",
+          "off": "4D0167184489F6"
         }
       ]
     },
@@ -69,17 +69,6 @@
       ]
     },
     {
-      "name": "Inf Kudos on use",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "989D6E",
-          "on": "4501A540010000",
-          "off": "4529A540010000"
-        }
-      ]
-    },
-    {
       "name": "Increase Money on Use",
       "type": "checkbox",
       "memory": [
@@ -94,11 +83,22 @@
           "off": "4D0167184489F6"
         }
       ]
+    },
+    {
+      "name": "Inf Kudos on use",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "989D6E",
+          "on": "4501A540010000",
+          "off": "4529A540010000"
+        }
+      ]
     }
   ],
   "credits": [
-    "Reddevil82 ",
-    " FW 9.00",
+    "Reddevil82",
+    "FW 9.00",
     "aran"
   ]
 }

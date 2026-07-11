@@ -5,18 +5,29 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Invincible [On]",
+      "name": "Explosive Ammo {On}",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "02E55140",
-          "on": "41C78658010000FC094000C4C1782E8650020000E9F84AE2FD",
-          "off": "00000000000000000000000000000000000000000000000000"
+          "offset": "02E5529E",
+          "on": "498B8668100000C7802002000000080000E99605BCFD",
+          "off": "00000000000000000000000000000000000000000000"
         },
         {
-          "offset": "C79C48",
-          "on": "E9F3B41D0290909090",
-          "off": "C4C1782E8650020000"
+          "offset": "A15843",
+          "on": "E956FA43029090",
+          "off": "498B8668100000"
+        }
+      ]
+    },
+    {
+      "name": "Full Player Armor",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "14409C",
+          "on": "C5FA11B764140000",
+          "off": "C5FA108764140000"
         }
       ]
     },
@@ -37,13 +48,18 @@
       ]
     },
     {
-      "name": "Full Player Armor",
+      "name": "Full Player Oxygen",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "14409C",
-          "on": "C5FA11B764140000",
-          "off": "C5FA108764140000"
+          "offset": "02E5517D",
+          "on": "C4C17A104610C4C17A114604E9349892FD",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "77E9BC",
+          "on": "E9BC676D0290",
+          "off": "C4C17A104604"
         }
       ]
     },
@@ -64,34 +80,18 @@
       ]
     },
     {
-      "name": "Full Player Oxygen",
+      "name": "Have 2.1 B Money [Don\u0027t Freez It]",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "02E5517D",
-          "on": "C4C17A104610C4C17A114604E9349892FD",
-          "off": "0000000000000000000000000000000000"
+          "offset": "02E551EF",
+          "on": "81F970DB0100741281F920160000740A81F980CF03007402EB10488D470CC7470CFF4F446433470CEB00488D470C33470CE952D263FF",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "77E9BC",
-          "on": "E9BC676D0290",
-          "off": "C4C17A104604"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Player Stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "02E5518E",
-          "on": "C5FA108B840C0000C5FA118B800C0000E9CFDA96FD",
-          "off": "000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "7C2C6A",
-          "on": "E91F256902909090",
-          "off": "C5FA108B800C0000"
+          "offset": "02492470",
+          "on": "E97A2D9C009090",
+          "off": "488D470C33470C"
         }
       ]
     },
@@ -112,6 +112,54 @@
       ]
     },
     {
+      "name": "Infinite Player Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "02E5518E",
+          "on": "C5FA108B840C0000C5FA118B800C0000E9CFDA96FD",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "7C2C6A",
+          "on": "E91F256902909090",
+          "off": "C5FA108B800C0000"
+        }
+      ]
+    },
+    {
+      "name": "Invincible [Off]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "02E55140",
+          "on": "41C786580100000C004000C4C1782E8650020000E9F84AE2FD",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "C79C48",
+          "on": "E9F3B41D0290909090",
+          "off": "C4C1782E8650020000"
+        }
+      ]
+    },
+    {
+      "name": "Invincible [On]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "02E55140",
+          "on": "41C78658010000FC094000C4C1782E8650020000E9F84AE2FD",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "C79C48",
+          "on": "E9F3B41D0290909090",
+          "off": "C4C1782E8650020000"
+        }
+      ]
+    },
+    {
       "name": "No Reload",
       "type": "checkbox",
       "memory": [
@@ -123,50 +171,18 @@
       ]
     },
     {
-      "name": "Vehicle Engine Durable [On]",
+      "name": "Power Punch [Normal-Off]",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "02E55287",
-          "on": "C78358010000FC094000C5FA109398080000E985AF62FE",
+          "offset": "02E55270",
+          "on": "C787A40C00000000803FC5FA1087840C0000E95C6AD9FD",
           "off": "0000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "0148021B",
-          "on": "E967509D01909090",
-          "off": "C5FA109398080000"
-        }
-      ]
-    },
-    {
-      "name": "Run Speed Faster [1.5]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "02E55225",
-          "on": "C783B80500000000C03FC5FA108350020000E977B296FD",
-          "off": "0000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "7C04AB",
-          "on": "E9754D6902909090",
-          "off": "C5FA108350020000"
-        }
-      ]
-    },
-    {
-      "name": "Swim Speed Faster [2.5]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "02E552B4",
-          "on": "C780BC05000000002040C5FA108054020000E96D63C3FD",
-          "off": "0000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "A8B630",
-          "on": "E97F9C3C02909090",
-          "off": "C5FA108054020000"
+          "offset": "BEBCDB",
+          "on": "E990952602909090",
+          "off": "C5FA1087840C0000"
         }
       ]
     },
@@ -187,18 +203,13 @@
       ]
     },
     {
-      "name": "Super Power Punch [On]",
+      "name": "Remove Noise On Wanted",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "02E55270",
-          "on": "C787A40C00000050C347C5FA1087840C0000E95C6AD9FD",
-          "off": "0000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "BEBCDB",
-          "on": "E990952602909090",
-          "off": "C5FA1087840C0000"
+          "offset": "63C380",
+          "on": "C3",
+          "off": "55"
         }
       ]
     },
@@ -219,29 +230,34 @@
       ]
     },
     {
-      "name": "Remove Noise On Wanted",
+      "name": "Run Speed Faster [1.5]",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "63C380",
-          "on": "C3",
-          "off": "55"
+          "offset": "02E55225",
+          "on": "C783B80500000000C03FC5FA108350020000E977B296FD",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "7C04AB",
+          "on": "E9754D6902909090",
+          "off": "C5FA108350020000"
         }
       ]
     },
     {
-      "name": "Have 2.1 B Money [Don\u0027t Freez It]",
+      "name": "Shot Power [Normal-Off]",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "02E551EF",
-          "on": "81F970DB0100741281F920160000740A81F980CF03007402EB10488D470CC7470CFF4F446433470CEB00488D470C33470CE952D263FF",
-          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+          "offset": "02E55255",
+          "on": "41C78424940C00000000803FC4C17A108424840C0000E9E90497FD",
+          "off": "000000000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "02492470",
-          "on": "E97A2D9C009090",
-          "off": "488D470C33470C"
+          "offset": "7C574F",
+          "on": "E901FB68029090909090",
+          "off": "C4C17A108424840C0000"
         }
       ]
     },
@@ -258,6 +274,86 @@
           "offset": "A15843",
           "on": "E956FA43029090",
           "off": "498B8668100000"
+        }
+      ]
+    },
+    {
+      "name": "Super Jump-Expl. Ammo {On}",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "02E5529E",
+          "on": "498B8668100000C7802002000000480000E99605BCFD",
+          "off": "00000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "A15843",
+          "on": "E956FA43029090",
+          "off": "498B8668100000"
+        }
+      ]
+    },
+    {
+      "name": "Super Power Punch [On]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "02E55270",
+          "on": "C787A40C00000050C347C5FA1087840C0000E95C6AD9FD",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "BEBCDB",
+          "on": "E990952602909090",
+          "off": "C5FA1087840C0000"
+        }
+      ]
+    },
+    {
+      "name": "Swim Speed Faster [2.5]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "02E552B4",
+          "on": "C780BC05000000002040C5FA108054020000E96D63C3FD",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "A8B630",
+          "on": "E97F9C3C02909090",
+          "off": "C5FA108054020000"
+        }
+      ]
+    },
+    {
+      "name": "Vehicle Engine Durable [Off]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "02E55287",
+          "on": "C783580100000C004000C5FA109398080000E985AF62FE",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "0148021B",
+          "on": "E967509D01909090",
+          "off": "C5FA109398080000"
+        }
+      ]
+    },
+    {
+      "name": "Vehicle Engine Durable [On]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "02E55287",
+          "on": "C78358010000FC094000C5FA109398080000E985AF62FE",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "0148021B",
+          "on": "E967509D01909090",
+          "off": "C5FA109398080000"
         }
       ]
     }

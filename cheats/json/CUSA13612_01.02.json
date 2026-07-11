@@ -5,39 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "362C20",
-          "on": "9090909090",
-          "off": "C5FA5C45E4"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "21C430",
-          "on": "909090909090",
-          "off": "89B7C4000000"
-        }
-      ]
-    },
-    {
-      "name": "No Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "218E0C",
-          "on": "909090909090",
-          "off": "FF8BD8000000"
-        }
-      ]
-    },
-    {
       "name": "Earn Cash On Spend (Custom Weapons Menu)",
       "type": "checkbox",
       "memory": [
@@ -45,6 +12,17 @@
           "offset": "41E9A2",
           "on": "01C6",
           "off": "29C6"
+        }
+      ]
+    },
+    {
+      "name": "Freeze save counter (for normal/expert difficulty)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3D5257",
+          "on": "909090909090",
+          "off": "FF056F5E8A00"
         }
       ]
     },
@@ -60,13 +38,35 @@
       ]
     },
     {
-      "name": "Freeze save counter (for normal/expert difficulty)",
+      "name": "Infinite Ammo",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "3D5257",
+          "offset": "21C430",
           "on": "909090909090",
-          "off": "FF056F5E8A00"
+          "off": "89B7C4000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "362C20",
+          "on": "9090909090",
+          "off": "C5FA5C45E4"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "218E0C",
+          "on": "909090909090",
+          "off": "FF8BD8000000"
         }
       ]
     }

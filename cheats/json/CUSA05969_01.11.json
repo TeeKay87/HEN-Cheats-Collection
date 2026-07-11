@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "All Client Infinite Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "72B698",
-          "on": "90909090",
-          "off": "29548810"
-        }
-      ]
-    },
-    {
       "name": "All Client Godmode",
       "type": "checkbox",
       "memory": [
@@ -27,18 +16,13 @@
       ]
     },
     {
-      "name": "Infinite Specialist (Zombies)",
+      "name": "All Client Infinite Ammo",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "488093",
-          "on": "9090909090909090",
-          "off": "C5FA1187981F0000"
-        },
-        {
-          "offset": "C5CA258",
-          "on": "0000803F",
-          "off": "00000000"
+          "offset": "72B698",
+          "on": "90909090",
+          "off": "29548810"
         }
       ]
     },
@@ -59,6 +43,22 @@
       ]
     },
     {
+      "name": "Infinite AA Gun Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "C73800",
+          "on": "4589AF30020000452BAF2C020000E906EB9DFF",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "652312",
+          "on": "E9E91462009090",
+          "off": "4529AF2C020000"
+        }
+      ]
+    },
+    {
       "name": "Infinite Ammo",
       "type": "checkbox",
       "memory": [
@@ -66,28 +66,6 @@
           "offset": "933902",
           "on": "89C0909090",
           "off": "4189442410"
-        }
-      ]
-    },
-    {
-      "name": "No Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "9261D7",
-          "on": "4529E49090",
-          "off": "4429648810"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Throwables",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8FFFFC",
-          "on": "909090",
-          "off": "FF4810"
         }
       ]
     },
@@ -103,18 +81,40 @@
       ]
     },
     {
-      "name": "Infinite AA Gun Health",
+      "name": "Infinite Specialist (Zombies)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "C73800",
-          "on": "4589AF30020000452BAF2C020000E906EB9DFF",
-          "off": "00000000000000000000000000000000000000"
+          "offset": "488093",
+          "on": "9090909090909090",
+          "off": "C5FA1187981F0000"
         },
         {
-          "offset": "652312",
-          "on": "E9E91462009090",
-          "off": "4529AF2C020000"
+          "offset": "C5CA258",
+          "on": "0000803F",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Throwables",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8FFFFC",
+          "on": "909090",
+          "off": "FF4810"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "9261D7",
+          "on": "4529E49090",
+          "off": "4429648810"
         }
       ]
     }

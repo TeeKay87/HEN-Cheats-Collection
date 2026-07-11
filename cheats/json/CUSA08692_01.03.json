@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Souls",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "183782E",
-          "on": "85F60F49C14C898794000000E9FAEBEBFE",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "6F642E",
-          "on": "E9FB131401",
-          "off": "85F60F49C1"
-        }
-      ]
-    },
-    {
       "name": "1 Hit Kill \u002B Godmode",
       "type": "checkbox",
       "memory": [
@@ -33,6 +17,22 @@
           "offset": "277386",
           "on": "E975045C019090",
           "off": "4D8DB700040000"
+        }
+      ]
+    },
+    {
+      "name": "Max Souls",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "183782E",
+          "on": "85F60F49C14C898794000000E9FAEBEBFE",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "6F642E",
+          "on": "E9FB131401",
+          "off": "85F60F49C1"
         }
       ]
     }

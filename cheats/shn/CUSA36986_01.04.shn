@@ -3,6 +3,20 @@
   <Genres Name="Action" />
   <Genres Name="RPG" />
   <Items />
+  <Cheat Text="Infinite Buffs">
+    <Cheatline>
+      <Offset>32D7680</Offset>
+      <Section>0</Section>
+      <ValueOn>41-C7-87-88-00-00-00-00-00-FA-44-E9-E5-98-1A-FD</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>480F6C</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-0F-67-E5-02-90-90-90-90</ValueOn>
+      <ValueOff>C4-C1-7A-11-87-88-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Infinite Health">
     <Cheatline>
       <Offset>335FDB0</Offset>
@@ -17,20 +31,6 @@
       <ValueOff>C4-C1-7C-11-47-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Dragon Cure Potion">
-    <Cheatline>
-      <Offset>32D77A0</Offset>
-      <Section>0</Section>
-      <ValueOn>C6-80-AD-A6-00-00-63-E9-02-8B-DF-FD</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>10D02A8</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-F3-74-20-02-90</ValueOn>
-      <ValueOff>88-88-AD-A6-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite Throwables/Items">
     <Cheatline>
       <Offset>32D76A0</Offset>
@@ -43,20 +43,6 @@
       <Section>0</Section>
       <ValueOn>E9-A7-3A-58-02</ValueOn>
       <ValueOff>EB-05-29-77-08</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Instant Infinite Divine Beast Gauge (Hit Enemy)">
-    <Cheatline>
-      <Offset>32D7720</Offset>
-      <Section>0</Section>
-      <ValueOn>41-C7-44-24-50-00-00-7A-44-E9-B6-4B-23-FD</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>50C2DD</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-3E-B4-DC-02-90-90</ValueOn>
-      <ValueOff>C4-C1-78-11-44-24-50</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Tiger Beast Gauge">
@@ -101,6 +87,20 @@
       <ValueOff>89-B4-81-D4-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="Instant Infinite Divine Beast Gauge (Hit Enemy)">
+    <Cheatline>
+      <Offset>32D7720</Offset>
+      <Section>0</Section>
+      <ValueOn>41-C7-44-24-50-00-00-7A-44-E9-B6-4B-23-FD</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>50C2DD</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-3E-B4-DC-02-90-90</ValueOn>
+      <ValueOff>C4-C1-78-11-44-24-50</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Max Moral">
     <Cheatline>
       <Offset>32D7740</Offset>
@@ -113,20 +113,6 @@
       <Section>0</Section>
       <ValueOn>E9-8F-72-DF-02</ValueOn>
       <ValueOff>41-89-4C-24-10</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Buffs">
-    <Cheatline>
-      <Offset>32D7680</Offset>
-      <Section>0</Section>
-      <ValueOn>41-C7-87-88-00-00-00-00-00-FA-44-E9-E5-98-1A-FD</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>480F6C</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-0F-67-E5-02-90-90-90-90</ValueOn>
-      <ValueOff>C4-C1-7A-11-87-88-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max/Infinite Accolades On Buy">
@@ -155,6 +141,20 @@
       <Section>0</Section>
       <ValueOn>E9-B9-4C-20-02-90</ValueOn>
       <ValueOff>0F-42-CF-89-48-08</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max/Infinite Dragon Cure Potion">
+    <Cheatline>
+      <Offset>32D77A0</Offset>
+      <Section>0</Section>
+      <ValueOn>C6-80-AD-A6-00-00-63-E9-02-8B-DF-FD</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>10D02A8</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-F3-74-20-02-90</ValueOn>
+      <ValueOff>88-88-AD-A6-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max/Infinite Genuine Qi (Gain/Use)">

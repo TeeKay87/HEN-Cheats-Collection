@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Invulnerable",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "184DAA",
-          "on": "B0019090",
-          "off": "418A473C"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -28,54 +17,6 @@
           "offset": "80109A3E",
           "on": "E96DE34581909090",
           "off": "448B6818448B601C"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1567DD5",
-          "on": "C5FA104028C5FA11402CC5FA10402CE9145FA67E",
-          "off": "0000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "7FFCDCF8",
-          "on": "E9D8A05981",
-          "off": "C5FA10402C"
-        }
-      ]
-    },
-    {
-      "name": "One Hit Kill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1567E24",
-          "on": "0F8554A0B07E418B451C41BFE8030000E93AA0B07E",
-          "off": "000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "80071E6D",
-          "on": "E9B25F4F8190",
-          "off": "7515418B451C"
-        }
-      ]
-    },
-    {
-      "name": "Max Black Medallion Heal",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1567DE9",
-          "on": "0F8E78CFB97EC740600800000048634060E91FCDB97E",
-          "off": "00000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "80104B14",
-          "on": "E9D03246819090909090",
-          "off": "0F8E5302000048634060"
         }
       ]
     },
@@ -112,6 +53,65 @@
       ]
     },
     {
+      "name": "Infinite Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1567DD5",
+          "on": "C5FA104028C5FA11402CC5FA10402CE9145FA67E",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "7FFCDCF8",
+          "on": "E9D8A05981",
+          "off": "C5FA10402C"
+        }
+      ]
+    },
+    {
+      "name": "Invulnerable",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "184DAA",
+          "on": "B0019090",
+          "off": "418A473C"
+        }
+      ]
+    },
+    {
+      "name": "Max Black Medallion Heal",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1567DE9",
+          "on": "0F8E78CFB97EC740600800000048634060E91FCDB97E",
+          "off": "00000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "80104B14",
+          "on": "E9D03246819090909090",
+          "off": "0F8E5302000048634060"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1567E24",
+          "on": "0F8554A0B07E418B451C41BFE8030000E93AA0B07E",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "80071E6D",
+          "on": "E9B25F4F8190",
+          "off": "7515418B451C"
+        }
+      ]
+    },
+    {
       "name": "Invulnerable",
       "type": "checkbox",
       "memory": [
@@ -124,7 +124,7 @@
     }
   ],
   "credits": [
-    "Reddevil82 ",
-    " FW 9.00"
+    "Reddevil82",
+    "FW 9.00"
   ]
 }

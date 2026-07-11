@@ -21,6 +21,33 @@
       ]
     },
     {
+      "name": "Infinite BP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1120AE0",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Psychokenesis Attack ( Still Decrease But Always Avaliable )",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7F3DF60",
+          "on": "4883FA3B740EE83546B3FC488B4B10E9805464FCC783C800000000C07944C783CC00000000C07944E81346B3FC488B4B10E95E5464FC",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "45833EB",
+          "on": "E970AB9B0390909090",
+          "off": "E8B0F14E00488B4B10"
+        }
+      ]
+    },
+    {
       "name": "Infinte Health",
       "type": "checkbox",
       "memory": [
@@ -37,6 +64,33 @@
       ]
     },
     {
+      "name": "Infinte Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "111BB30",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "Max EXP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7F3DE10",
+          "on": "C5FC108080000000415541BD7F9698004489680C415DE9B533F9F8",
+          "off": "000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "ED11D8",
+          "on": "E933CC0607909090",
+          "off": "C5FC108080000000"
+        }
+      ]
+    },
+    {
       "name": "Max Health",
       "type": "checkbox",
       "memory": [
@@ -49,6 +103,38 @@
           "offset": "E4A9DD",
           "on": "E91E330F0790909090",
           "off": "488B87180100008B00"
+        }
+      ]
+    },
+    {
+      "name": "Max Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7F3DEB0",
+          "on": "0F845DDC1DF9B863000000E959DC1DF9",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "111BB14",
+          "on": "E99723E206",
+          "off": "74038B4108"
+        }
+      ]
+    },
+    {
+      "name": "Max Money",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7F3DDC0",
+          "on": "4889E5B8FFE0F505E9DAD21DF9",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "111B0A1",
+          "on": "E91A2DE20690",
+          "off": "4889E58B4750"
         }
       ]
     },
@@ -85,88 +171,29 @@
       ]
     },
     {
-      "name": "Infinite Psychokenesis Attack ( Still Decrease But Always Avaliable )",
+      "name": "1 Hit Kill ",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7F3DF60",
-          "on": "4883FA3B740EE83546B3FC488B4B10E9805464FCC783C800000000C07944C783CC00000000C07944E81346B3FC488B4B10E95E5464FC",
-          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+          "offset": "8013800",
+          "on": "4883FE0A750D837FE0007407C747E0010000008B3410893411E98870E3F8",
+          "off": "000000000000000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "45833EB",
-          "on": "E970AB9B0390909090",
-          "off": "E8B0F14E00488B4B10"
+          "offset": "E4A8A0",
+          "on": "E95B8F1C0790",
+          "off": "8B3410893411"
         }
       ]
     },
     {
-      "name": "Max Money",
+      "name": "999 BP after 1 use",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7F3DDC0",
-          "on": "4889E5B8FFE0F505E9DAD21DF9",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "111B0A1",
-          "on": "E91A2DE20690",
-          "off": "4889E58B4750"
-        }
-      ]
-    },
-    {
-      "name": "Infinite BP",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1120AE0",
-          "on": "C3",
-          "off": "55"
-        }
-      ]
-    },
-    {
-      "name": "Infinte Items",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "111BB30",
-          "on": "C3",
-          "off": "55"
-        }
-      ]
-    },
-    {
-      "name": "Max EXP",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7F3DE10",
-          "on": "C5FC108080000000415541BD7F9698004489680C415DE9B533F9F8",
-          "off": "000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "ED11D8",
-          "on": "E933CC0607909090",
-          "off": "C5FC108080000000"
-        }
-      ]
-    },
-    {
-      "name": "Max Items",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7F3DEB0",
-          "on": "0F845DDC1DF9B863000000E959DC1DF9",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "111BB14",
-          "on": "E99723E206",
-          "off": "74038B4108"
+          "offset": "1120B8E",
+          "on": "BBe70300009090",
+          "off": "41039ED0020000"
         }
       ]
     },
@@ -194,33 +221,6 @@
           "offset": "111C22D",
           "on": "9090",
           "off": "8939"
-        }
-      ]
-    },
-    {
-      "name": "999 BP after 1 use",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1120B8E",
-          "on": "BBe70300009090",
-          "off": "41039ED0020000"
-        }
-      ]
-    },
-    {
-      "name": "1 Hit Kill ",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8013800",
-          "on": "4883FE0A750D837FE0007407C747E0010000008B3410893411E98870E3F8",
-          "off": "000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "E4A8A0",
-          "on": "E95B8F1C0790",
-          "off": "8B3410893411"
         }
       ]
     }

@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max/Infinite Health\u002BShield\u002BAction Skill (Master Code)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "A3A3DB0",
-          "on": "837B1C007418C5FA108BAC000000C5FA118BA0000000E99D7BBAFA0F57C9C5FA118BA0000000E98D7BBAFA",
-          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "4F4B960",
-          "on": "E94B844505909090",
-          "off": "C5FA118BA0000000"
-        }
-      ]
-    },
-    {
       "name": "1 Hit Kill (Enable MC)",
       "type": "checkbox",
       "memory": [
@@ -39,49 +23,6 @@
           "offset": "55B85B6",
           "on": "909090",
           "off": "4C89FF"
-        }
-      ]
-    },
-    {
-      "name": "No Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "55B852D",
-          "on": "418B87B0010000",
-          "off": "418987B0010000"
-        }
-      ]
-    },
-    {
-      "name": "Max/Infinite Skill Points",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "A3A38D0",
-          "on": "41C6866001000064E9D3CC7BF6",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "B605A9",
-          "on": "E9223384099090",
-          "off": "41898E60010000"
-        }
-      ]
-    },
-    {
-      "name": "Max/Infinite Money On Pick Up",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "A3A3B70",
-          "on": "41BDFFE0F50544036C1818E9FE6310FB",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "54A9F79",
-          "on": "E9F29BEF04",
-          "off": "44036C1818"
         }
       ]
     },
@@ -109,6 +50,65 @@
           "offset": "139B2E0",
           "on": "89BBC4010000",
           "off": "8993C4010000"
+        }
+      ]
+    },
+    {
+      "name": "Max/Infinite Health\u002BShield\u002BAction Skill (Master Code)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "A3A3DB0",
+          "on": "837B1C007418C5FA108BAC000000C5FA118BA0000000E99D7BBAFA0F57C9C5FA118BA0000000E98D7BBAFA",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4F4B960",
+          "on": "E94B844505909090",
+          "off": "C5FA118BA0000000"
+        }
+      ]
+    },
+    {
+      "name": "Max/Infinite Money On Pick Up",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "A3A3B70",
+          "on": "41BDFFE0F50544036C1818E9FE6310FB",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "54A9F79",
+          "on": "E9F29BEF04",
+          "off": "44036C1818"
+        }
+      ]
+    },
+    {
+      "name": "Max/Infinite Skill Points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "A3A38D0",
+          "on": "41C6866001000064E9D3CC7BF6",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "B605A9",
+          "on": "E9223384099090",
+          "off": "41898E60010000"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "55B852D",
+          "on": "418B87B0010000",
+          "off": "418987B0010000"
         }
       ]
     }

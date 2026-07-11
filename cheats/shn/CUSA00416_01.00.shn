@@ -18,28 +18,6 @@
       <ValueOff>C5-FA-10-80-E0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money/Ammo/Consumables/Ship Ammo (On Use)">
-    <Cheatline>
-      <Offset>423B825</Offset>
-      <Section>0</Section>
-      <ValueOn>8B-47-10-80-7F-08-01-75-0A-B8-3F-42-0F-00-E9-DD-D3-97-FE-B8-0F-27-00-00-E9-D3-D3-97-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>2BB8C10</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-10-2C-68-01</ValueOn>
-      <ValueOff>8B-47-10-29-F0</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="No Reload">
-    <Cheatline>
-      <Offset>1F9548B</Offset>
-      <Section>0</Section>
-      <ValueOn>01-F1</ValueOn>
-      <ValueOff>29-F1</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite Ship Health">
     <Cheatline>
       <Offset>423B800</Offset>
@@ -54,14 +32,6 @@
       <ValueOff>C5-FA-10-87-58-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Swivel Ammo">
-    <Cheatline>
-      <Offset>2EF9BAA</Offset>
-      <Section>0</Section>
-      <ValueOn>44-89-48-40</ValueOn>
-      <ValueOff>44-89-70-40</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Max Cargo (On Spend)">
     <Cheatline>
       <Offset>423B844</Offset>
@@ -74,6 +44,36 @@
       <Section>0</Section>
       <ValueOn>E9-02-29-68-01</ValueOn>
       <ValueOff>8B-4F-10-29-F1</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max Money/Ammo/Consumables/Ship Ammo (On Use)">
+    <Cheatline>
+      <Offset>423B825</Offset>
+      <Section>0</Section>
+      <ValueOn>8B-47-10-80-7F-08-01-75-0A-B8-3F-42-0F-00-E9-DD-D3-97-FE-B8-0F-27-00-00-E9-D3-D3-97-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>2BB8C10</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-10-2C-68-01</ValueOn>
+      <ValueOff>8B-47-10-29-F0</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max Swivel Ammo">
+    <Cheatline>
+      <Offset>2EF9BAA</Offset>
+      <Section>0</Section>
+      <ValueOn>44-89-48-40</ValueOn>
+      <ValueOff>44-89-70-40</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="No Reload">
+    <Cheatline>
+      <Offset>1F9548B</Offset>
+      <Section>0</Section>
+      <ValueOn>01-F1</ValueOn>
+      <ValueOff>29-F1</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

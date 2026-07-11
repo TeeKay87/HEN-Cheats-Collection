@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "21 Skillpoints / Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3D77C10",
+          "on": "6641C78314010000FFFF",
+          "off": "4529E74189B314010000"
+        }
+      ]
+    },
+    {
       "name": "Godmode",
       "type": "checkbox",
       "memory": [
@@ -23,17 +34,6 @@
           "offset": "3A3E529",
           "on": "9090",
           "off": "29C8"
-        }
-      ]
-    },
-    {
-      "name": "21 Skillpoints / Kill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3D77C10",
-          "on": "6641C78314010000FFFF",
-          "off": "4529E74189B314010000"
         }
       ]
     },

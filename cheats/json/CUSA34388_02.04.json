@@ -5,6 +5,98 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "* 0.5x",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "172F510",
+          "on": "0000003F",
+          "off": "0000003F"
+        }
+      ]
+    },
+    {
+      "name": "* 3x",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "172F510",
+          "on": "00004040",
+          "off": "00004040"
+        }
+      ]
+    },
+    {
+      "name": "* 5x",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "172F510",
+          "on": "0000A040",
+          "off": "0000A040"
+        }
+      ]
+    },
+    {
+      "name": "10x",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "172F520",
+          "on": "0A000000",
+          "off": "0A000000"
+        }
+      ]
+    },
+    {
+      "name": "25x",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "172F520",
+          "on": "19000000",
+          "off": "19000000"
+        }
+      ]
+    },
+    {
+      "name": "5x",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "172F520",
+          "on": "05000000",
+          "off": "05000000"
+        }
+      ]
+    },
+    {
+      "name": "Damage Multiplier (default: 2x)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "172F050",
+          "on": "4180FBF0720BC5FA114C2460E906C9FAFE803D980400000074ECC5F2590D9E040000EBE2",
+          "off": "4180FBF0720BC5FA114C2460E906C9FAFE803D980400000074ECC5F2590D9E040000EBE2"
+        },
+        {
+          "offset": "172F510",
+          "on": "00000040",
+          "off": "0000803F"
+        },
+        {
+          "offset": "172F500",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "6DB961",
+          "on": "E9EA36050190",
+          "off": "C5FA114C2460"
+        }
+      ]
+    },
+    {
       "name": "Godmode",
       "type": "checkbox",
       "memory": [
@@ -17,6 +109,32 @@
           "offset": "6DCD9B",
           "on": "E96022050190",
           "off": "C5FA104C2460"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Projectiles",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "172F220",
+          "on": "BF32000000F30F2ACFC5FA11084889C7E9BBEEF0FE909090",
+          "off": "BF32000000F30F2ACFC5FA11084889C7E9BBEEF0FE909090"
+        },
+        {
+          "offset": "63E0C7",
+          "on": "E954110F01",
+          "off": "4889C7EB24"
+        },
+        {
+          "offset": "172F1D0",
+          "on": "669C4983FB027417664181F8F01E740FC5FA108D80DFFFFF669DE9624E12FFC5FA109D70DFFFFFEBE7909090",
+          "off": "669C4983FB027417664181F8F01E740FC5FA108D80DFFFFF669DE9624E12FFC5FA109D70DFFFFFEBE7909090"
+        },
+        {
+          "offset": "854049",
+          "on": "E982B1ED00909090",
+          "off": "C5FA108D80DFFFFF"
         }
       ]
     },
@@ -74,32 +192,6 @@
       ]
     },
     {
-      "name": "Infinite Projectiles",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "172F220",
-          "on": "BF32000000F30F2ACFC5FA11084889C7E9BBEEF0FE909090",
-          "off": "BF32000000F30F2ACFC5FA11084889C7E9BBEEF0FE909090"
-        },
-        {
-          "offset": "63E0C7",
-          "on": "E954110F01",
-          "off": "4889C7EB24"
-        },
-        {
-          "offset": "172F1D0",
-          "on": "669C4983FB027417664181F8F01E740FC5FA108D80DFFFFF669DE9624E12FFC5FA109D70DFFFFFEBE7909090",
-          "off": "669C4983FB027417664181F8F01E740FC5FA108D80DFFFFF669DE9624E12FFC5FA109D70DFFFFFEBE7909090"
-        },
-        {
-          "offset": "854049",
-          "on": "E982B1ED00909090",
-          "off": "C5FA108D80DFFFFF"
-        }
-      ]
-    },
-    {
       "name": "Resources up (on craft/sell)",
       "type": "checkbox",
       "memory": [
@@ -133,54 +225,6 @@
           "offset": "172F520",
           "on": "02000000",
           "off": "02000000"
-        }
-      ]
-    },
-    {
-      "name": "5x",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "172F520",
-          "on": "05000000",
-          "off": "05000000"
-        }
-      ]
-    },
-    {
-      "name": "Damage Multiplier (default: 2x)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "172F050",
-          "on": "4180FBF0720BC5FA114C2460E906C9FAFE803D980400000074ECC5F2590D9E040000EBE2",
-          "off": "4180FBF0720BC5FA114C2460E906C9FAFE803D980400000074ECC5F2590D9E040000EBE2"
-        },
-        {
-          "offset": "172F510",
-          "on": "00000040",
-          "off": "0000803F"
-        },
-        {
-          "offset": "172F500",
-          "on": "01",
-          "off": "00"
-        },
-        {
-          "offset": "6DB961",
-          "on": "E9EA36050190",
-          "off": "C5FA114C2460"
-        }
-      ]
-    },
-    {
-      "name": "* 0.5x",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "172F510",
-          "on": "0000003F",
-          "off": "0000003F"
         }
       ]
     }

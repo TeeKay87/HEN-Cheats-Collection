@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Ammo / Stamina / Energy / Consumable (MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1D77804",
+          "on": "7534",
+          "off": "7526"
+        }
+      ]
+    },
+    {
       "name": "Health / All (Master Code)",
       "type": "checkbox",
       "memory": [
@@ -17,17 +28,6 @@
           "offset": "123DBBA",
           "on": "E9419CB300",
           "off": "4D891A8B03"
-        }
-      ]
-    },
-    {
-      "name": "Ammo / Stamina / Energy / Consumable (MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1D77804",
-          "on": "7534",
-          "off": "7526"
         }
       ]
     }

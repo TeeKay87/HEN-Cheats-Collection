@@ -5,18 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf-Medikit",
+      "name": "Inf-AMMO-Hand-gun",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "808182C62E",
-          "on": "FF",
-          "off": "FF"
+          "offset": "8081A78EF8",
+          "on": "63",
+          "off": "63"
         },
         {
-          "offset": "808182C62F",
-          "on": "FF",
-          "off": "FF"
+          "offset": "8081A78EF9",
+          "on": "63",
+          "off": "63"
         }
       ]
     },
@@ -37,22 +37,6 @@
       ]
     },
     {
-      "name": "Inf-AMMO-Hand-gun",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8081A78EF8",
-          "on": "63",
-          "off": "63"
-        },
-        {
-          "offset": "8081A78EF9",
-          "on": "63",
-          "off": "63"
-        }
-      ]
-    },
-    {
       "name": "Inf-Grenades",
       "type": "checkbox",
       "memory": [
@@ -60,6 +44,22 @@
           "offset": "808182C628",
           "on": "05",
           "off": "05"
+        }
+      ]
+    },
+    {
+      "name": "Inf-Medikit",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "808182C62E",
+          "on": "FF",
+          "off": "FF"
+        },
+        {
+          "offset": "808182C62F",
+          "on": "FF",
+          "off": "FF"
         }
       ]
     }

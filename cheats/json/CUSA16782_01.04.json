@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "670B330",
-          "on": "807B0848750CC783C80400000000FA44EB08C5FA118BC8040000E993CEBAF9",
-          "off": "00000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "2B81DA",
-          "on": "E951314506909090",
-          "off": "C5FA118BC8040000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Arrow (on shoot)",
       "type": "checkbox",
       "memory": [
@@ -37,22 +21,6 @@
       ]
     },
     {
-      "name": "Infinite Potions (on use)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "670B370",
-          "on": "41C686D005000005E90C8E10FA",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "814182",
-          "on": "E9E971EF059090",
-          "off": "4589AED0050000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Frenzy (when activating)",
       "type": "checkbox",
       "memory": [
@@ -65,6 +33,38 @@
           "offset": "813DF5",
           "on": "E9E675EF05909090",
           "off": "C5FA118B04010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "670B330",
+          "on": "807B0848750CC783C80400000000FA44EB08C5FA118BC8040000E993CEBAF9",
+          "off": "00000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "2B81DA",
+          "on": "E951314506909090",
+          "off": "C5FA118BC8040000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Potions (on use)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "670B370",
+          "on": "41C686D005000005E90C8E10FA",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "814182",
+          "on": "E9E971EF059090",
+          "off": "4589AED0050000"
         }
       ]
     },

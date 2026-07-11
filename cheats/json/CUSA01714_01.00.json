@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "FC points use doubled",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "495A8",
-          "on": "480181F05A0000",
-          "off": "488981F05A0000"
-        }
-      ]
-    },
-    {
       "name": "AP points use doubled",
       "type": "checkbox",
       "memory": [
@@ -23,6 +12,17 @@
           "offset": "A4672",
           "on": "0137",
           "off": "8937"
+        }
+      ]
+    },
+    {
+      "name": "FC points use doubled",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "495A8",
+          "on": "480181F05A0000",
+          "off": "488981F05A0000"
         }
       ]
     },
@@ -49,17 +49,6 @@
       ]
     },
     {
-      "name": "lnfinite Stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "60F92",
-          "on": "C5FA115008",
-          "off": "C5FA114008"
-        }
-      ]
-    },
-    {
       "name": "lnfinite OP",
       "type": "checkbox",
       "memory": [
@@ -71,13 +60,13 @@
       ]
     },
     {
-      "name": "ltems use doubled",
+      "name": "lnfinite Stamina",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1CC53",
-          "on": "6645014104",
-          "off": "6645894104"
+          "offset": "60F92",
+          "on": "C5FA115008",
+          "off": "C5FA114008"
         }
       ]
     },
@@ -89,6 +78,17 @@
           "offset": "15603C",
           "on": "66017104",
           "off": "66897104"
+        }
+      ]
+    },
+    {
+      "name": "ltems use doubled",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1CC53",
+          "on": "6645014104",
+          "off": "6645894104"
         }
       ]
     }

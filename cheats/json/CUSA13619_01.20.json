@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Spend it to Get Max Baller Coin",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "4DB7800",
-          "on": "8B8316020000898314020000E930B582FB",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "5E2D3B",
-          "on": "E9C04A7D0490",
-          "off": "898314020000"
-        }
-      ]
-    },
-    {
       "name": "SPEND GOLD COIN TO MAX",
       "type": "checkbox",
       "memory": [
@@ -33,6 +17,22 @@
           "offset": "5E2DEE",
           "on": "E91E4A7D0490",
           "off": "898318020000"
+        }
+      ]
+    },
+    {
+      "name": "Spend it to Get Max Baller Coin",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4DB7800",
+          "on": "8B8316020000898314020000E930B582FB",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "5E2D3B",
+          "on": "E9C04A7D0490",
+          "off": "898314020000"
         }
       ]
     }

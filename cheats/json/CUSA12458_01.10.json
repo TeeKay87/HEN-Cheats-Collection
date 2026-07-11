@@ -37,22 +37,6 @@
       ]
     },
     {
-      "name": "One Hit Kill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "555FDF2",
-          "on": "0F57C0C4C17A118528080000E9922E5AFB",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "B02C8C",
-          "on": "E961D1A50490909090",
-          "off": "C4C17A118528080000"
-        }
-      ]
-    },
-    {
       "name": "Max Ammo ( No Reload )",
       "type": "checkbox",
       "memory": [
@@ -85,6 +69,22 @@
       ]
     },
     {
+      "name": "Max Credits ( on gain )",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "555FE38",
+          "on": "01B7E0100000C787E01000009F860100E90ABD6FFB",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "C5BB51",
+          "on": "E9E242900490",
+          "off": "01B7E0100000"
+        }
+      ]
+    },
+    {
       "name": "Max Grenades ( on use )",
       "type": "checkbox",
       "memory": [
@@ -101,24 +101,24 @@
       ]
     },
     {
-      "name": "Max Credits ( on gain )",
+      "name": "One Hit Kill",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "555FE38",
-          "on": "01B7E0100000C787E01000009F860100E90ABD6FFB",
-          "off": "000000000000000000000000000000000000000000"
+          "offset": "555FDF2",
+          "on": "0F57C0C4C17A118528080000E9922E5AFB",
+          "off": "0000000000000000000000000000000000"
         },
         {
-          "offset": "C5BB51",
-          "on": "E9E242900490",
-          "off": "01B7E0100000"
+          "offset": "B02C8C",
+          "on": "E961D1A50490909090",
+          "off": "C4C17A118528080000"
         }
       ]
     }
   ],
   "credits": [
-    "Reddevil82 ",
-    " FW 9.00"
+    "Reddevil82",
+    "FW 9.00"
   ]
 }

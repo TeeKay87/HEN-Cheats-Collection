@@ -2,14 +2,6 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Final Vendetta" Moder="Ali-mk" Cusa="CUSA32946" Version="01.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Invincible-(MC)">
-    <Cheatline>
-      <Offset>80518DF3</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90</ValueOn>
-      <ValueOff>FF-90-F8-02-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite-Health-(MC)">
     <Cheatline>
       <Offset>805C8897</Offset>
@@ -24,6 +16,14 @@
       <Section>0</Section>
       <ValueOn>90-90-90-90-90-90</ValueOn>
       <ValueOff>FF-8B-94-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Invincible-(MC)">
+    <Cheatline>
+      <Offset>80518DF3</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90</ValueOn>
+      <ValueOff>FF-90-F8-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

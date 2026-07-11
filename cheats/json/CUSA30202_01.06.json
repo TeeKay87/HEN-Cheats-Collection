@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Experience and Score (causes aging)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5FDB0",
-          "on": "C7470C804FC347E9DD515281",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "1184F94",
-          "on": "E917AEAD7E",
-          "off": "C5FA11470C"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -33,6 +17,22 @@
           "offset": "292B2E3",
           "on": "E9884B337D909090",
           "off": "C5FA118338010000"
+        }
+      ]
+    },
+    {
+      "name": "Max Experience and Score (causes aging)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5FDB0",
+          "on": "C7470C804FC347E9DD515281",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "1184F94",
+          "on": "E917AEAD7E",
+          "off": "C5FA11470C"
         }
       ]
     }

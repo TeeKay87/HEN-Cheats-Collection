@@ -16,50 +16,6 @@
       ]
     },
     {
-      "name": "Infinite Energy",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "60c7f9",
-          "on": "90909090909090909090",
-          "off": "C4C17A118424E8A10100"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Bombs / Rockets",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5e35a8",
-          "on": "BE0500000089B7DC0000009090",
-          "off": "89B7DC00000080BFC90A020000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Skillpoints / Shards",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5E22A4",
-          "on": "BBE7030000899FE00000009090",
-          "off": "899FE000000080BFC90A020000"
-        }
-      ]
-    },
-    {
-      "name": "Max Level True Hero (turn off Infamous)",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "12FADB8",
-          "on": "A0E68745",
-          "off": "A0E68745"
-        }
-      ]
-    },
-    {
       "name": "Inf finisher",
       "type": "button",
       "memory": [
@@ -76,13 +32,13 @@
       ]
     },
     {
-      "name": "Godmode",
+      "name": "Infinite Bombs / Rockets",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "215C17",
-          "on": "909090909090909090",
-          "off": "C4C17A119650EE0100"
+          "offset": "5e35a8",
+          "on": "BE0500000089B7DC0000009090",
+          "off": "89B7DC00000080BFC90A020000"
         }
       ]
     },
@@ -91,9 +47,53 @@
       "type": "checkbox",
       "memory": [
         {
-          "offset": "20C7F9",
+          "offset": "60c7f9",
           "on": "90909090909090909090",
           "off": "C4C17A118424E8A10100"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Skillpoints / Shards",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5E22A4",
+          "on": "BBE7030000899FE00000009090",
+          "off": "899FE000000080BFC90A020000"
+        }
+      ]
+    },
+    {
+      "name": "Max Level Infamous (turn off True Hero)",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "12FADB8",
+          "on": "00CAE6FD",
+          "off": "00CAE6FD"
+        }
+      ]
+    },
+    {
+      "name": "Max Level True Hero (turn off Infamous)",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "12FADB8",
+          "on": "A0E68745",
+          "off": "A0E68745"
+        }
+      ]
+    },
+    {
+      "name": "Godmode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "215C17",
+          "on": "909090909090909090",
+          "off": "C4C17A119650EE0100"
         }
       ]
     },
@@ -109,6 +109,17 @@
       ]
     },
     {
+      "name": "Infinite Energy",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "20C7F9",
+          "on": "90909090909090909090",
+          "off": "C4C17A118424E8A10100"
+        }
+      ]
+    },
+    {
       "name": "Infinite Skillpoints / Shards",
       "type": "checkbox",
       "memory": [
@@ -116,6 +127,17 @@
           "offset": "1E22A4",
           "on": "BBE7030000899FE00000009090",
           "off": "899FE000000080BFC90A020000"
+        }
+      ]
+    },
+    {
+      "name": "Max Level Infamous",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "EFADB8",
+          "on": "00CAE6FD",
+          "off": "00CAE6FD"
         }
       ]
     },

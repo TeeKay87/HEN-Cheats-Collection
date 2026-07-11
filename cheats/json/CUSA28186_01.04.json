@@ -21,17 +21,6 @@
       ]
     },
     {
-      "name": "Infinite Full HP - PICK ONLY ONE HP CODE",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2F1519",
-          "on": "C707C84B0000C3",
-          "off": "488907C3909090"
-        }
-      ]
-    },
-    {
       "name": "Infinite EX Gauge",
       "type": "checkbox",
       "memory": [
@@ -55,6 +44,28 @@
           "offset": "1F62B00",
           "on": "C780B400000000009643E9EDCF2BFE",
           "off": "000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Full HP - PICK ONLY ONE HP CODE",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2F1519",
+          "on": "C707C84B0000C3",
+          "off": "488907C3909090"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Low HP - PICK ONLY ONE HP CODE",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2F1519",
+          "on": "C70707070000C3",
+          "off": "488907C3909090"
         }
       ]
     },

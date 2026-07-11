@@ -7,6 +7,42 @@
   <Genres Name="Shooter" />
   <Genres Name="Strategy" />
   <Items />
+  <Cheat Text="Bottomless Clip">
+    <Cheatline>
+      <Offset>1C17845</Offset>
+      <Section>0</Section>
+      <ValueOn>66-C7-87-76-03-00-00-FF-00-0F-B7-87-76-03-00-00-E9-F3-73-B3-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>74EC46</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-FA-8B-4C-01-90-90</ValueOn>
+      <ValueOff>0F-B7-87-76-03-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Enemys dont Attack">
+    <Cheatline>
+      <Offset>59AFB5</Offset>
+      <Section>0</Section>
+      <ValueOn>EB-1A</ValueOn>
+      <ValueOff>74-1A</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Ammo">
+    <Cheatline>
+      <Offset>9C7AA5</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>43-01-84-AE-64-01-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>9C7AF8</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>47-29-A4-AE-64-01-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Infinite Health">
     <Cheatline>
       <Offset>1C1781C</Offset>
@@ -39,42 +75,6 @@
       <Section>0</Section>
       <ValueOn>0F-57-C0-90-90-90-90-90</ValueOn>
       <ValueOff>C5-F8-2E-05-31-53-26-01</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Bottomless Clip">
-    <Cheatline>
-      <Offset>1C17845</Offset>
-      <Section>0</Section>
-      <ValueOn>66-C7-87-76-03-00-00-FF-00-0F-B7-87-76-03-00-00-E9-F3-73-B3-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>74EC46</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-FA-8B-4C-01-90-90</ValueOn>
-      <ValueOff>0F-B7-87-76-03-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Ammo">
-    <Cheatline>
-      <Offset>9C7AA5</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>43-01-84-AE-64-01-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>9C7AF8</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>47-29-A4-AE-64-01-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Enemys dont Attack">
-    <Cheatline>
-      <Offset>59AFB5</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-1A</ValueOn>
-      <ValueOff>74-1A</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

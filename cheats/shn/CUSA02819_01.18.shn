@@ -5,68 +5,6 @@
   <Genres Name="Shooter" />
   <Genres Name="Strategy" />
   <Items />
-  <Cheat Text="Bottomless Clip">
-    <Cheatline>
-      <Offset>20ECAF</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90</ValueOn>
-      <ValueOff>29-C7</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>963FD</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90</ValueOn>
-      <ValueOff>FF-CE</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Grenades">
-    <Cheatline>
-      <Offset>7206D</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90</ValueOn>
-      <ValueOff>FF-C8</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Max Grenades on Use">
-    <Cheatline>
-      <Offset>72064</Offset>
-      <Section>0</Section>
-      <ValueOn>66-B8-FF-00</ValueOn>
-      <ValueOff>66-8B-47-50</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Mines">
-    <Cheatline>
-      <Offset>152813</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90</ValueOn>
-      <ValueOff>FF-C9</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Max Mines on Use">
-    <Cheatline>
-      <Offset>15280C</Offset>
-      <Section>0</Section>
-      <ValueOn>B8-FF-00-00-00</ValueOn>
-      <ValueOff>41-0F-B7-45-50</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite C4">
-    <Cheatline>
-      <Offset>15411F</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90</ValueOn>
-      <ValueOff>FF-C8</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Skillpoints">
-    <Cheatline>
-      <Offset>42E8CA</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90</ValueOn>
-      <ValueOff>29-D1</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="255 Skillpoints on Use">
     <Cheatline>
       <Offset>42E8C6</Offset>
@@ -81,6 +19,68 @@
       <Section>0</Section>
       <ValueOn>41-C7-06-00-C2-EB-0B</ValueOn>
       <ValueOff>41-33-40-20-41-89-06</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Bottomless Clip">
+    <Cheatline>
+      <Offset>20ECAF</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90</ValueOn>
+      <ValueOff>29-C7</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>963FD</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90</ValueOn>
+      <ValueOff>FF-CE</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite C4">
+    <Cheatline>
+      <Offset>15411F</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90</ValueOn>
+      <ValueOff>FF-C8</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Grenades">
+    <Cheatline>
+      <Offset>7206D</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90</ValueOn>
+      <ValueOff>FF-C8</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Mines">
+    <Cheatline>
+      <Offset>152813</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90</ValueOn>
+      <ValueOff>FF-C9</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Skillpoints">
+    <Cheatline>
+      <Offset>42E8CA</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90</ValueOn>
+      <ValueOff>29-D1</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max Grenades on Use">
+    <Cheatline>
+      <Offset>72064</Offset>
+      <Section>0</Section>
+      <ValueOn>66-B8-FF-00</ValueOn>
+      <ValueOff>66-8B-47-50</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max Mines on Use">
+    <Cheatline>
+      <Offset>15280C</Offset>
+      <Section>0</Section>
+      <ValueOn>B8-FF-00-00-00</ValueOn>
+      <ValueOff>41-0F-B7-45-50</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Unlock Tier-One-Mode">

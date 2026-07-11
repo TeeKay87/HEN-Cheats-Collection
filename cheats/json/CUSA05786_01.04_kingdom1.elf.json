@@ -5,13 +5,45 @@
   "process": "kingdom1.elf",
   "mods": [
     {
-      "name": "Kingdom Hearts 1 HD CUSA05786 ver 1.04 (undub)",
+      "name": "99 Discard Items",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "3C9A48",
-          "on": "C390",
-          "off": "0000"
+          "offset": "3C9AE0",
+          "on": "C68401990400006390E9E79CDEFF",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "1B37CE",
+          "on": "E90D6321009090",
+          "off": "FE8C0199040000"
+        }
+      ]
+    },
+    {
+      "name": "All Items / Keyblade / Accessories",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3C9A90",
+          "on": "C684189A0400000180BC189A04000000C6809E04000000C780EB04000000000000C7802A05000000000000C680810500000090E963BDDEFF",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1B5823",
+          "on": "E968422100909090",
+          "off": "80BC189A04000000"
+        }
+      ]
+    },
+    {
+      "name": "All Keyblades only",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1B198B",
+          "on": "752A",
+          "off": "742A"
         }
       ]
     },
@@ -48,45 +80,13 @@
       ]
     },
     {
-      "name": "All Keyblades only",
+      "name": "Kingdom Hearts 1 HD CUSA05786 ver 1.04 (undub)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1B198B",
-          "on": "752A",
-          "off": "742A"
-        }
-      ]
-    },
-    {
-      "name": "All Items / Keyblade / Accessories",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3C9A90",
-          "on": "C684189A0400000180BC189A04000000C6809E04000000C780EB04000000000000C7802A05000000000000C680810500000090E963BDDEFF",
-          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "1B5823",
-          "on": "E968422100909090",
-          "off": "80BC189A04000000"
-        }
-      ]
-    },
-    {
-      "name": "99 Discard Items",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3C9AE0",
-          "on": "C68401990400006390E9E79CDEFF",
-          "off": "0000000000000000000000000000"
-        },
-        {
-          "offset": "1B37CE",
-          "on": "E90D6321009090",
-          "off": "FE8C0199040000"
+          "offset": "3C9A48",
+          "on": "C390",
+          "off": "0000"
         }
       ]
     },

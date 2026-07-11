@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "1 Hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "13E3804",
+          "on": "7512",
+          "off": "7505"
+        }
+      ]
+    },
+    {
       "name": "Health / 1 Hit (Master Code)",
       "type": "checkbox",
       "memory": [
@@ -17,49 +28,6 @@
           "offset": "80983EF5",
           "on": "E906F9A580909090",
           "off": "C5FA118B80000000"
-        }
-      ]
-    },
-    {
-      "name": "1 Hit Kill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "13E3804",
-          "on": "7512",
-          "off": "7505"
-        }
-      ]
-    },
-    {
-      "name": "Stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "13E381E",
-          "on": "C5FA104B28C5FA114B3CE942FAA27F",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "80E1326A",
-          "on": "E9AF055D80",
-          "off": "C5FA114B3C"
-        }
-      ]
-    },
-    {
-      "name": "Shield",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "13E384D",
-          "on": "C5FA104B38C5FA114B7CE9E32C987F",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "80D6653A",
-          "on": "E90ED36780",
-          "off": "C5FA114B7C"
         }
       ]
     },
@@ -92,6 +60,38 @@
           "offset": "80B6F1BA",
           "on": "E97C4687809090",
           "off": "448978244529E7"
+        }
+      ]
+    },
+    {
+      "name": "Shield",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "13E384D",
+          "on": "C5FA104B38C5FA114B7CE9E32C987F",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "80D6653A",
+          "on": "E90ED36780",
+          "off": "C5FA114B7C"
+        }
+      ]
+    },
+    {
+      "name": "Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "13E381E",
+          "on": "C5FA104B28C5FA114B3CE942FAA27F",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "80E1326A",
+          "on": "E9AF055D80",
+          "off": "C5FA114B3C"
         }
       ]
     }

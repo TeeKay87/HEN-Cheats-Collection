@@ -16,33 +16,11 @@
       ]
     },
     {
-      "name": "Max-Orbs",
+      "name": "Inf-Health-On-God-Mode",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "807FF04DA8",
-          "on": "EA600000",
-          "off": "EA600000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Magic",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "807FF04D9C",
-          "on": "0000C862",
-          "off": "0000C862"
-        }
-      ]
-    },
-    {
-      "name": "Inf-Health-On-Normal",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "807FF38038",
+          "offset": "807FF38050",
           "on": "00000000",
           "off": "00000000"
         }
@@ -60,13 +38,35 @@
       ]
     },
     {
-      "name": "Inf-Health-On-God-Mode",
+      "name": "Inf-Health-On-Normal",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "807FF38050",
+          "offset": "807FF38038",
           "on": "00000000",
           "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Magic",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "807FF04D9C",
+          "on": "0000C862",
+          "off": "0000C862"
+        }
+      ]
+    },
+    {
+      "name": "Max-Orbs",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "807FF04DA8",
+          "on": "EA600000",
+          "off": "EA600000"
         }
       ]
     }

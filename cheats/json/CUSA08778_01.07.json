@@ -5,38 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo (Disable outside Mission)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5EAB0",
-          "on": "6641C787E0050000E703E985B96580",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "2BA43D",
-          "on": "E96E469A7F9090",
-          "off": "41FF8FE0050000"
-        }
-      ]
-    },
-    {
-      "name": "Money (on spend disable before mission starts)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5FC10",
-          "on": "41C786D80400007F969800E990C76080",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "26C3A9",
-          "on": "E962389F7F9090",
-          "off": "41898ED8040000"
-        }
-      ]
-    },
-    {
       "name": "Blue Gems (on spend disable before mission starts)",
       "type": "checkbox",
       "memory": [
@@ -49,6 +17,22 @@
           "offset": "26C3B5",
           "on": "E9D6389F7F90909090",
           "off": "498B8EE00400002901"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo (Disable outside Mission)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5EAB0",
+          "on": "6641C787E0050000E703E985B96580",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "2BA43D",
+          "on": "E96E469A7F9090",
+          "off": "41FF8FE0050000"
         }
       ]
     },
@@ -69,18 +53,18 @@
       ]
     },
     {
-      "name": "Yellow Gems (on spend disable before mission starts)",
+      "name": "Money (on spend disable before mission starts)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FE7BE20",
-          "on": "418B442458C741089F860100E99D053F80",
-          "off": "0000000000000000000000000000000000"
+          "offset": "7FC5FC10",
+          "on": "41C786D80400007F969800E990C76080",
+          "off": "00000000000000000000000000000000"
         },
         {
-          "offset": "26C3C6",
-          "on": "E955FAC07F909090",
-          "off": "418B442458294108"
+          "offset": "26C3A9",
+          "on": "E962389F7F9090",
+          "off": "41898ED8040000"
         }
       ]
     },
@@ -97,6 +81,22 @@
           "offset": "26C3BE",
           "on": "E97DFAC07F909090",
           "off": "418B442454294104"
+        }
+      ]
+    },
+    {
+      "name": "Yellow Gems (on spend disable before mission starts)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FE7BE20",
+          "on": "418B442458C741089F860100E99D053F80",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "26C3C6",
+          "on": "E955FAC07F909090",
+          "off": "418B442458294108"
         }
       ]
     }

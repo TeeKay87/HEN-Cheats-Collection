@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Master",
-      "type": "master",
-      "memory": [
-        {
-          "offset": "12D7800",
-          "on": "909090909090909090909090909090909090E982FB45FFC7400C00A00C46E976FB45FFC7400C00A00C46E96AFB45FF",
-          "off": ""
-        },
-        {
-          "offset": "73726D",
-          "on": "E98E05BA00",
-          "off": ""
-        }
-      ]
-    },
-    {
       "name": "God Mode",
       "type": "checkbox",
       "memory": [
@@ -55,6 +39,22 @@
           "offset": "58390F",
           "on": "E91B3FD500",
           "off": "4C8944F708"
+        }
+      ]
+    },
+    {
+      "name": "Master",
+      "type": "master",
+      "memory": [
+        {
+          "offset": "12D7800",
+          "on": "909090909090909090909090909090909090E982FB45FFC7400C00A00C46E976FB45FFC7400C00A00C46E96AFB45FF",
+          "off": ""
+        },
+        {
+          "offset": "73726D",
+          "on": "E98E05BA00",
+          "off": ""
         }
       ]
     }

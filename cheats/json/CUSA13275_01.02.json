@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Health zero = no die",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6D2FFA",
+          "on": "90909090",
+          "off": "488B45A8"
+        }
+      ]
+    },
+    {
       "name": "Inf. Health",
       "type": "checkbox",
       "memory": [
@@ -71,17 +82,6 @@
           "offset": "E8BEB1",
           "on": "C3909090",
           "off": "C6477B01"
-        }
-      ]
-    },
-    {
-      "name": "Health zero = no die",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "6D2FFA",
-          "on": "90909090",
-          "off": "488B45A8"
         }
       ]
     }

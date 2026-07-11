@@ -2,6 +2,14 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Sniper Elite: Resistance" Moder="Ali-mk" Cusa="CUSA44067" Version="01.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
+  <Cheat Text="Inf-Ammo-Never-Reload">
+    <Cheatline>
+      <Offset>E8F3CD</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90</ValueOn>
+      <ValueOff>41-89-77-40</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Infinite-Health-(MC)">
     <Cheatline>
       <Offset>19C7800</Offset>
@@ -14,14 +22,6 @@
       <Section>0</Section>
       <ValueOn>E9-AB-21-02-01</ValueOn>
       <ValueOff>C5-FA-11-4B-60</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Inf-Ammo-Never-Reload">
-    <Cheatline>
-      <Offset>E8F3CD</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90</ValueOn>
-      <ValueOff>41-89-77-40</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Invincible-(MC)">

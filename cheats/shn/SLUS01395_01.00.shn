@@ -10,14 +10,6 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite-All-Weapon">
-    <Cheatline>
-      <Offset>12AA44</Offset>
-      <Section>11</Section>
-      <ValueOn>99</ValueOn>
-      <ValueOff>23</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite Health">
     <Cheatline>
       <Offset>11C492</Offset>
@@ -32,6 +24,14 @@
       <Section>11</Section>
       <ValueOn>00</ValueOn>
       <ValueOff>42</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite-All-Weapon">
+    <Cheatline>
+      <Offset>12AA44</Offset>
+      <Section>11</Section>
+      <ValueOn>99</ValueOn>
+      <ValueOff>23</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Invincible">

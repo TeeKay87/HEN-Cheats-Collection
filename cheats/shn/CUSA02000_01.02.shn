@@ -2,6 +2,20 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Batman: Return to Arkham" Moder="Cosmaty" Cusa="CUSA02000" Version="01.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
+  <Cheat Text="Add 2000 XP">
+    <Cheatline>
+      <Offset>48B3847</Offset>
+      <Section>0</Section>
+      <ValueOn>41-51-49-B9-00-00-00-00-07-00-00-00-4D-39-CF-41-59-7E-0A-C5-FA-58-45-C8-E9-74-5A-D3-FD-41-51-49-B9-30-74-DF-EE-07-00-00-00-4C-39-CD-41-59-74-02-EB-E1-C7-45-C8-00-00-FA-44-EB-D8</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>25E92D3</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-6F-A5-2C-02</ValueOn>
+      <ValueOff>C5-FA-58-45-C8</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Code">
     <Cheatline>
       <Offset>48B3800</Offset>
@@ -16,14 +30,6 @@
       <ValueOff>41-89-07-41-89-06</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="God Mode">
-    <Cheatline>
-      <Offset>48B381E</Offset>
-      <Section>0</Section>
-      <ValueOn>41-81-BF-98-00-00-00-2B-02-00-00-74-0F</ValueOn>
-      <ValueOff>90-90-90-90-90-90-90-90-90-90-90-90-90</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Easy Kill">
     <Cheatline>
       <Offset>48B382B</Offset>
@@ -32,18 +38,12 @@
       <ValueOff>90-90-90-90-90-90-90-90-90-90-90-90-90</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Add 2000 XP">
+  <Cheat Text="God Mode">
     <Cheatline>
-      <Offset>48B3847</Offset>
+      <Offset>48B381E</Offset>
       <Section>0</Section>
-      <ValueOn>41-51-49-B9-00-00-00-00-07-00-00-00-4D-39-CF-41-59-7E-0A-C5-FA-58-45-C8-E9-74-5A-D3-FD-41-51-49-B9-30-74-DF-EE-07-00-00-00-4C-39-CD-41-59-74-02-EB-E1-C7-45-C8-00-00-FA-44-EB-D8</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>25E92D3</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-6F-A5-2C-02</ValueOn>
-      <ValueOff>C5-FA-58-45-C8</ValueOff>
+      <ValueOn>41-81-BF-98-00-00-00-2B-02-00-00-74-0F</ValueOn>
+      <ValueOff>90-90-90-90-90-90-90-90-90-90-90-90-90</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Inf Skill Points">

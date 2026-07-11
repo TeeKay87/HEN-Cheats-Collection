@@ -5,6 +5,81 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Always Wanted",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7DE7864",
+          "on": "C5FA100538030000C5FA114740E98ADAA4F89090",
+          "off": "C5FA100538030000C5FA114740E98ADAA4F89090"
+        },
+        {
+          "offset": "7DE7BA4",
+          "on": "0000F042",
+          "off": "0000F042"
+        },
+        {
+          "offset": "8352FB",
+          "on": "E964255B07",
+          "off": "C5FA114740"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo/Throwables",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "134A073",
+          "on": "909090",
+          "off": "4429F0"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Sprint/Swim",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "38AC763",
+          "on": "9090909090",
+          "off": "E888ADFEFF"
+        }
+      ]
+    },
+    {
+      "name": "Max Resource (on get)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1349FF6",
+          "on": "89C190",
+          "off": "0F43C8"
+        }
+      ]
+    },
+    {
+      "name": "Never Wanted",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7DE7864",
+          "on": "C5FA100538030000C5FA114740E98ADAA4F89090",
+          "off": "C5FA100538030000C5FA114740E98ADAA4F89090"
+        },
+        {
+          "offset": "7DE7BA4",
+          "on": "00000000",
+          "off": "00000000"
+        },
+        {
+          "offset": "8352FB",
+          "on": "E964255B07",
+          "off": "C5FA114740"
+        }
+      ]
+    },
+    {
       "name": "No Damage",
       "type": "checkbox",
       "memory": [
@@ -21,35 +96,40 @@
       ]
     },
     {
-      "name": "Infinite Sprint/Swim",
+      "name": "No Overheat",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "38AC763",
+          "offset": "7DE7724",
+          "on": "C5F857C0C5F057C9C5FA1145DCE9B82005FD9090",
+          "off": "C5F857C0C5F057C9C5FA1145DCE9B82005FD9090"
+        },
+        {
+          "offset": "4E397E9",
+          "on": "E936DFFA02",
+          "off": "C5FA1145DC"
+        }
+      ]
+    },
+    {
+      "name": "No Recoil",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4D61C9A",
           "on": "9090909090",
-          "off": "E888ADFEFF"
+          "off": "E841781100"
         }
       ]
     },
     {
-      "name": "Infinite Ammo/Throwables",
+      "name": "No Reload",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "134A073",
+          "offset": "4D652CC",
           "on": "909090",
-          "off": "4429F0"
-        }
-      ]
-    },
-    {
-      "name": "Max Resource (on get)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1349FF6",
-          "on": "89C190",
-          "off": "0F43C8"
+          "off": "4429FE"
         }
       ]
     },
@@ -82,44 +162,6 @@
           "offset": "388E3E3",
           "on": "E92C945504909090",
           "off": "C5FA108524FFFFFF"
-        }
-      ]
-    },
-    {
-      "name": "No Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "4D652CC",
-          "on": "909090",
-          "off": "4429FE"
-        }
-      ]
-    },
-    {
-      "name": "No Overheat",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7DE7724",
-          "on": "C5F857C0C5F057C9C5FA1145DCE9B82005FD9090",
-          "off": "C5F857C0C5F057C9C5FA1145DCE9B82005FD9090"
-        },
-        {
-          "offset": "4E397E9",
-          "on": "E936DFFA02",
-          "off": "C5FA1145DC"
-        }
-      ]
-    },
-    {
-      "name": "No Recoil",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "4D61C9A",
-          "on": "9090909090",
-          "off": "E841781100"
         }
       ]
     },
@@ -173,27 +215,6 @@
           "offset": "528B712",
           "on": "E9BDBFB5029090",
           "off": "48898D28FFFFFF"
-        }
-      ]
-    },
-    {
-      "name": "Always Wanted",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7DE7864",
-          "on": "C5FA100538030000C5FA114740E98ADAA4F89090",
-          "off": "C5FA100538030000C5FA114740E98ADAA4F89090"
-        },
-        {
-          "offset": "7DE7BA4",
-          "on": "0000F042",
-          "off": "0000F042"
-        },
-        {
-          "offset": "8352FB",
-          "on": "E964255B07",
-          "off": "C5FA114740"
         }
       ]
     }

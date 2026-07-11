@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Life",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "E6D3000",
-          "on": "48817B54000000400F843339A8F1C5FB1103E92A39A8F1",
-          "off": "0000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "1568E4",
-          "on": "E917C7570E90",
-          "off": "C5FB1103EB57"
-        }
-      ]
-    },
-    {
       "name": "Inf Exp",
       "type": "checkbox",
       "memory": [
@@ -33,6 +17,22 @@
           "offset": "C1CD511",
           "on": "E9215B50029090",
           "off": "488903498B4500"
+        }
+      ]
+    },
+    {
+      "name": "Inf Life",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "E6D3000",
+          "on": "48817B54000000400F843339A8F1C5FB1103E92A39A8F1",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1568E4",
+          "on": "E917C7570E90",
+          "off": "C5FB1103EB57"
         }
       ]
     }

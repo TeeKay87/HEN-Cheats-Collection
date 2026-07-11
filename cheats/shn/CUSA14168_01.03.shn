@@ -4,18 +4,44 @@
   <Genres Name="Fighting" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Player Pointer">
+  <Cheat Text="1 Hit Kill">
     <Cheatline>
-      <Offset>712E240</Offset>
+      <Offset>712E254</Offset>
       <Section>0</Section>
-      <ValueOn>48-A3-F0-3F-EF-0B-00-00-00-00-44-8B-78-58-E9-6E-BE-96-F9</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+      <ValueOn>01</ValueOn>
+      <ValueOff>00</ValueOff>
     </Cheatline>
+  </Cheat>
+  <Cheat Text="Always Open Code-Locks">
     <Cheatline>
-      <Offset>A9A072</Offset>
+      <Offset>15CA801</Offset>
       <Section>0</Section>
-      <ValueOn>E9-C9-41-69-06-90</ValueOn>
-      <ValueOff>44-8B-78-58-EB-49</ValueOff>
+      <ValueOn>90-90</ValueOn>
+      <ValueOff>75-2B</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Bottomless Clip">
+    <Cheatline>
+      <Offset>1E31F5E</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90</ValueOn>
+      <ValueOff>44-29-F2</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Easy Max Modded Weapons">
+    <Cheatline>
+      <Offset>1E9B493</Offset>
+      <Section>0</Section>
+      <ValueOn>66-C7-40-18-FF-00</ValueOn>
+      <ValueOff>44-09-E9-89-48-18</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Freeze SaveCounter">
+    <Cheatline>
+      <Offset>15D3882</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90</ValueOn>
+      <ValueOff>FF-C0</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Health / 1 Hit">
@@ -32,38 +58,6 @@
       <ValueOff>0F-4C-CA-29-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
-    <Cheatline>
-      <Offset>712E253</Offset>
-      <Section>0</Section>
-      <ValueOn>01</ValueOn>
-      <ValueOff>00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="1 Hit Kill">
-    <Cheatline>
-      <Offset>712E254</Offset>
-      <Section>0</Section>
-      <ValueOn>01</ValueOn>
-      <ValueOff>00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Bottomless Clip">
-    <Cheatline>
-      <Offset>1E31F5E</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90</ValueOn>
-      <ValueOff>44-29-F2</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Max Clip Ammo">
-    <Cheatline>
-      <Offset>1E31F66</Offset>
-      <Section>0</Section>
-      <ValueOn>89-C2-90</ValueOn>
-      <ValueOff>0F-4E-D0</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite Ammo">
     <Cheatline>
       <Offset>1E99A03</Offset>
@@ -78,12 +72,12 @@
       <ValueOff>44-01-F2</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Ammo on Reload">
+  <Cheat Text="Infinite Health">
     <Cheatline>
-      <Offset>1E99A10</Offset>
+      <Offset>712E253</Offset>
       <Section>0</Section>
-      <ValueOn>89-C2-90</ValueOn>
-      <ValueOff>0F-4E-D0</ValueOff>
+      <ValueOn>01</ValueOn>
+      <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Items">
@@ -98,14 +92,6 @@
       <Section>0</Section>
       <ValueOn>90-90-90</ValueOn>
       <ValueOff>29-48-20</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Short Animationtime for Aiming">
-    <Cheatline>
-      <Offset>DEA8BB</Offset>
-      <Section>0</Section>
-      <ValueOn>0F-57-C0-90</ValueOn>
-      <ValueOff>C5-FA-5C-C1</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Instant Gun-Focus">
@@ -128,12 +114,20 @@
       <ValueOff>C5-F3-58-C0-C5-FB-5A-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze SaveCounter">
+  <Cheat Text="Max Ammo on Reload">
     <Cheatline>
-      <Offset>15D3882</Offset>
+      <Offset>1E99A10</Offset>
       <Section>0</Section>
-      <ValueOn>90-90</ValueOn>
-      <ValueOff>FF-C0</ValueOff>
+      <ValueOn>89-C2-90</ValueOn>
+      <ValueOff>0F-4E-D0</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max Clip Ammo">
+    <Cheatline>
+      <Offset>1E31F66</Offset>
+      <Section>0</Section>
+      <ValueOn>89-C2-90</ValueOn>
+      <ValueOff>0F-4E-D0</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max Items on Combine">
@@ -160,6 +154,22 @@
       <ValueOff>45-0F-4C-F4</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="Max Points on Spend">
+    <Cheatline>
+      <Offset>1E5A44F</Offset>
+      <Section>0</Section>
+      <ValueOn>89-51-7C</ValueOn>
+      <ValueOff>89-41-7C</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Nemesis instant recover">
+    <Cheatline>
+      <Offset>236EA01</Offset>
+      <Section>0</Section>
+      <ValueOn>0F-57-C0-90</ValueOn>
+      <ValueOff>C5-F2-5C-C0</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Nemesis stays down">
     <Cheatline>
       <Offset>236EA01</Offset>
@@ -168,28 +178,26 @@
       <ValueOff>C5-F2-5C-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Always Open Code-Locks">
+  <Cheat Text="Player Pointer">
     <Cheatline>
-      <Offset>15CA801</Offset>
+      <Offset>712E240</Offset>
       <Section>0</Section>
-      <ValueOn>90-90</ValueOn>
-      <ValueOff>75-2B</ValueOff>
+      <ValueOn>48-A3-F0-3F-EF-0B-00-00-00-00-44-8B-78-58-E9-6E-BE-96-F9</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>A9A072</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-C9-41-69-06-90</ValueOn>
+      <ValueOff>44-8B-78-58-EB-49</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Easy Max Modded Weapons">
+  <Cheat Text="Short Animationtime for Aiming">
     <Cheatline>
-      <Offset>1E9B493</Offset>
+      <Offset>DEA8BB</Offset>
       <Section>0</Section>
-      <ValueOn>66-C7-40-18-FF-00</ValueOn>
-      <ValueOff>44-09-E9-89-48-18</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Max Points on Spend">
-    <Cheatline>
-      <Offset>1E5A44F</Offset>
-      <Section>0</Section>
-      <ValueOn>89-51-7C</ValueOn>
-      <ValueOff>89-41-7C</ValueOff>
+      <ValueOn>0F-57-C0-90</ValueOn>
+      <ValueOff>C5-FA-5C-C1</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

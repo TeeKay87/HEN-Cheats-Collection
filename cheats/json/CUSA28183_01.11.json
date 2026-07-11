@@ -5,54 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "9,999,999 SP, Yen, Shogi Points on gain",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1F8A0E0",
-          "on": "480F4FD842C704E97F969800E9468836FE",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "2F292F",
-          "on": "E9AC77C901909090",
-          "off": "480F4FD84A891CE9"
-        }
-      ]
-    },
-    {
-      "name": "Infinite EX Gauge",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1F8A1C0",
-          "on": "C5FA5FC1C7070000C040E982F736FE",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "2F9949",
-          "on": "E97208C901909090",
-          "off": "C5FA5FC1C5FA1107"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Weapon Durability",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1F8A230",
-          "on": "41C787D00000007F969800E92F191DFF",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "115BB68",
-          "on": "E9C3E6E2009090",
-          "off": "418987D0000000"
-        }
-      ]
-    },
-    {
       "name": "9,999,999 Items (MUST Buy 1 from store FIRST)(Turn off to use items)",
       "type": "checkbox",
       "memory": [
@@ -69,13 +21,18 @@
       ]
     },
     {
-      "name": "Items increase on use (Buy from store first)",
+      "name": "9,999,999 SP, Yen, Shogi Points on gain",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "2F337F",
-          "on": "44017A04",
-          "off": "44897A04"
+          "offset": "1F8A0E0",
+          "on": "480F4FD842C704E97F969800E9468836FE",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "2F292F",
+          "on": "E9AC77C901909090",
+          "off": "480F4FD84A891CE9"
         }
       ]
     },
@@ -96,6 +53,22 @@
       ]
     },
     {
+      "name": "Infinite EX Gauge",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F8A1C0",
+          "on": "C5FA5FC1C7070000C040E982F736FE",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "2F9949",
+          "on": "E97208C901909090",
+          "off": "C5FA5FC1C5FA1107"
+        }
+      ]
+    },
+    {
       "name": "Infinite Extract Duration",
       "type": "checkbox",
       "memory": [
@@ -108,6 +81,44 @@
           "offset": "223CB4",
           "on": "E91781D601909090",
           "off": "C5FA1180B4000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Weapon Durability",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F8A230",
+          "on": "41C787D00000007F969800E92F191DFF",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "115BB68",
+          "on": "E9C3E6E2009090",
+          "off": "418987D0000000"
+        }
+      ]
+    },
+    {
+      "name": "Items dont decrease (Buy from store first)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2F337F",
+          "on": "90909090",
+          "off": "44897A04"
+        }
+      ]
+    },
+    {
+      "name": "Items increase on use (Buy from store first)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2F337F",
+          "on": "44017A04",
+          "off": "44897A04"
         }
       ]
     }

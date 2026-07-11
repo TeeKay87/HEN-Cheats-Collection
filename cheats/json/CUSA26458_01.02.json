@@ -5,33 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Master Code [MC]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5F460",
-          "on": "6681BB58010000C2017510C5FA118BF0000000E9FA5A7A800F57C9C5FA118BF0000000E9EA5A7A80",
-          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "404F6A",
-          "on": "E9F1A4857F909090",
-          "off": "C5FA118BF0000000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health (Activate MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5F46B",
-          "on": "9090909090909090",
-          "off": "C5FA118BF0000000"
-        }
-      ]
-    },
-    {
       "name": "1Hit kill (Activate MC)",
       "type": "checkbox",
       "memory": [
@@ -54,6 +27,44 @@
       ]
     },
     {
+      "name": "Infinite Car Nitro",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "A7BA05",
+          "on": "9090909090909090",
+          "off": "C5FA1183AC010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health (Activate MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5F46B",
+          "on": "9090909090909090",
+          "off": "C5FA118BF0000000"
+        }
+      ]
+    },
+    {
+      "name": "Master Code [MC]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5F460",
+          "on": "6681BB58010000C2017510C5FA118BF0000000E9FA5A7A800F57C9C5FA118BF0000000E9EA5A7A80",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "404F6A",
+          "on": "E9F1A4857F909090",
+          "off": "C5FA118BF0000000"
+        }
+      ]
+    },
+    {
       "name": "Max Cash/Experience (on gain from killing)",
       "type": "checkbox",
       "memory": [
@@ -66,17 +77,6 @@
           "offset": "1212FA7",
           "on": "E9D4B3A47E909090",
           "off": "440F43E04489633C"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Car Nitro",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "A7BA05",
-          "on": "9090909090909090",
-          "off": "C5FA1183AC010000"
         }
       ]
     }

@@ -16,111 +16,18 @@
       ]
     },
     {
-      "name": "No BB Stress Meter Drain",
+      "name": "Fast Run",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1833D19",
-          "on": "C2",
-          "off": "CA"
-        }
-      ]
-    },
-    {
-      "name": "No Cargo Weight (Even with carriers)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1F425D5",
-          "on": "70",
-          "off": "40"
-        }
-      ]
-    },
-    {
-      "name": "No Cargo Deterioration or Damage (Everything in Cargo Management.)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "35D3080",
-          "on": "C743040000C8C2C5FA106B04E994D295FE",
-          "off": "0000000000000000000000000000000000"
+          "offset": "35D3040",
+          "on": "C7809C3C00000000F041C5FA10A89C3C0000E98EEF2EFE",
+          "off": "0000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "1F30320",
-          "on": "E95B2D6A01",
-          "off": "C5FA106B04"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Boot Durability",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "17C2E16",
-          "on": "909090909090909090",
-          "off": "C4C17A118D0C030000"
-        }
-      ]
-    },
-    {
-      "name": "No Road Deterioration",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "205A6B9",
-          "on": "909090909090",
-          "off": "C4C17A11471C"
-        }
-      ]
-    },
-    {
-      "name": "No Structure Deterioration",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1F69B4D",
-          "on": "C9",
-          "off": "C0"
-        }
-      ]
-    },
-    {
-      "name": "Set all Structure Builds to 10Mil",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "35D3060",
-          "on": "41C785D80000008096184BC4C17A1085D8000000E9DE6A99FE",
-          "off": "00000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "1F69B4E",
-          "on": "E90D95660190909090",
-          "off": "C4C17A1185D8000000"
-        }
-      ]
-    },
-    {
-      "name": "Instant Structure Builds",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1F69092",
-          "on": "C8",
-          "off": "C1"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1ABED51",
-          "on": "9090",
-          "off": "39D9"
+          "offset": "18C1FDD",
+          "on": "E95E10D101909090",
+          "off": "C5FA11A89C3C0000"
         }
       ]
     },
@@ -136,6 +43,17 @@
       ]
     },
     {
+      "name": "Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1ABED51",
+          "on": "9090",
+          "off": "39D9"
+        }
+      ]
+    },
+    {
       "name": "Infinite Battery Recharge",
       "type": "checkbox",
       "memory": [
@@ -143,6 +61,50 @@
           "offset": "188E5D5",
           "on": "84280000909090909090909090909090",
           "off": "80280000C5FA5CC3C5FA5FC1C5F82EC1"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Boot Durability",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "17C2E16",
+          "on": "909090909090909090",
+          "off": "C4C17A118D0C030000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Hold Breath",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "17BFFD7",
+          "on": "C9",
+          "off": "C1"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Monster Energy Drinks",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "18671CC",
+          "on": "58",
+          "off": "48"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Resistance to Rough Terrain",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "17C122D",
+          "on": "90909090909090909090",
+          "off": "C4C17A11842434010000"
         }
       ]
     },
@@ -169,35 +131,51 @@
       ]
     },
     {
-      "name": "Infinite Resistance to Rough Terrain",
+      "name": "Instant Structure Builds",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "17C122D",
-          "on": "90909090909090909090",
-          "off": "C4C17A11842434010000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Monster Energy Drinks",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "18671CC",
-          "on": "58",
-          "off": "48"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Hold Breath",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "17BFFD7",
-          "on": "C9",
+          "offset": "1F69092",
+          "on": "C8",
           "off": "C1"
+        }
+      ]
+    },
+    {
+      "name": "No BB Stress Meter Drain",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1833D19",
+          "on": "C2",
+          "off": "CA"
+        }
+      ]
+    },
+    {
+      "name": "No Cargo Deterioration or Damage (Everything in Cargo Management.)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "35D3080",
+          "on": "C743040000C8C2C5FA106B04E994D295FE",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "1F30320",
+          "on": "E95B2D6A01",
+          "off": "C5FA106B04"
+        }
+      ]
+    },
+    {
+      "name": "No Cargo Weight (Even with carriers)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F425D5",
+          "on": "70",
+          "off": "40"
         }
       ]
     },
@@ -213,18 +191,24 @@
       ]
     },
     {
-      "name": "Fast Run",
+      "name": "No Road Deterioration",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "35D3040",
-          "on": "C7809C3C00000000F041C5FA10A89C3C0000E98EEF2EFE",
-          "off": "0000000000000000000000000000000000000000000000"
-        },
+          "offset": "205A6B9",
+          "on": "909090909090",
+          "off": "C4C17A11471C"
+        }
+      ]
+    },
+    {
+      "name": "No Structure Deterioration",
+      "type": "checkbox",
+      "memory": [
         {
-          "offset": "18C1FDD",
-          "on": "E95E10D101909090",
-          "off": "C5FA11A89C3C0000"
+          "offset": "1F69B4D",
+          "on": "C9",
+          "off": "C0"
         }
       ]
     },
@@ -261,6 +245,22 @@
           "offset": "2CF8ECD",
           "on": "90909090",
           "off": "48894858"
+        }
+      ]
+    },
+    {
+      "name": "Set all Structure Builds to 10Mil",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "35D3060",
+          "on": "41C785D80000008096184BC4C17A1085D8000000E9DE6A99FE",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1F69B4E",
+          "on": "E90D95660190909090",
+          "off": "C4C17A1185D8000000"
         }
       ]
     }

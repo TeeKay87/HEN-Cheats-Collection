@@ -21,22 +21,6 @@
       ]
     },
     {
-      "name": "No Reload ( Ammo )",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "11ABDDB",
-          "on": "496386F0000000E97F080E7F",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "8028C65D",
-          "on": "E979F7F1809090",
-          "off": "496386F0000000"
-        }
-      ]
-    },
-    {
       "name": "Max Grenades",
       "type": "checkbox",
       "memory": [
@@ -51,10 +35,26 @@
           "off": "49638EF0000000"
         }
       ]
+    },
+    {
+      "name": "No Reload ( Ammo )",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "11ABDDB",
+          "on": "496386F0000000E97F080E7F",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "8028C65D",
+          "on": "E979F7F1809090",
+          "off": "496386F0000000"
+        }
+      ]
     }
   ],
   "credits": [
-    "Reddevil82 ",
-    " FW 9.00"
+    "Reddevil82",
+    "FW 9.00"
   ]
 }

@@ -21,13 +21,13 @@
       ]
     },
     {
-      "name": "No Stamina Consume",
+      "name": "Ammo Never Decrease\u002BNo Reload",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "DBE251",
-          "on": "9090909090909090",
-          "off": "C5FA1183FC000000"
+          "offset": "FE145C",
+          "on": "9090",
+          "off": "0000"
         }
       ]
     },
@@ -59,13 +59,13 @@
       ]
     },
     {
-      "name": "Ammo Never Decrease\u002BNo Reload",
+      "name": "No Stamina Consume",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "FE145C",
-          "on": "9090",
-          "off": "0000"
+          "offset": "DBE251",
+          "on": "9090909090909090",
+          "off": "C5FA1183FC000000"
         }
       ]
     }

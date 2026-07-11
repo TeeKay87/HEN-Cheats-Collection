@@ -5,6 +5,28 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Easy Win (MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1CECC18",
+          "on": "750F",
+          "off": "7505"
+        }
+      ]
+    },
+    {
+      "name": "Enemy Super 0 (MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1CECCD8",
+          "on": "750D",
+          "off": "7503"
+        }
+      ]
+    },
+    {
       "name": "Inf HP / Easy Win (Master Code)",
       "type": "checkbox",
       "memory": [
@@ -17,17 +39,6 @@
           "offset": "81A9A636",
           "on": "E9C5252580909090",
           "off": "488B4008895C8820"
-        }
-      ]
-    },
-    {
-      "name": "Easy Win (MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1CECC18",
-          "on": "750F",
-          "off": "7505"
         }
       ]
     },
@@ -52,17 +63,6 @@
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1CECCD8",
-          "on": "750D",
-          "off": "7503"
-        }
-      ]
-    },
-    {
-      "name": "Enemy Super 0 (MC)",
-      "type": "checkbox",
-      "memory": [
-        {
           "offset": "1CECCCD",
           "on": "7515",
           "off": "750A"
@@ -77,6 +77,22 @@
           "offset": "1CECD10",
           "on": "EBD2",
           "off": "EBC7"
+        }
+      ]
+    },
+    {
+      "name": "Ultra/ Super Instant Refill  (Master Code)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1CECCA0",
+          "on": "4981FA1E01000075306681FD305E753A41535248BAF0FFFFFF0F0000004C8D5C88204909D3664183FBF05A415B750A4489648820E944DADA7F44897C8820E93ADADA7F904531FFEBF0906681FDD05D75E841535248BAF0FFFFFF0F0000004C8D5C88204909D3664183FBF45A415B74BFEBC7",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "81A9A718",
+          "on": "E983252580",
+          "off": "44897C8820"
         }
       ]
     }

@@ -5,6 +5,50 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "1,000",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "172BA08",
+          "on": "E8030000",
+          "off": "E8030000"
+        }
+      ]
+    },
+    {
+      "name": "100",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "172BA08",
+          "on": "64000000",
+          "off": "64000000"
+        }
+      ]
+    },
+    {
+      "name": "2,000",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "172BA08",
+          "on": "D0070000",
+          "off": "D0070000"
+        }
+      ]
+    },
+    {
+      "name": "99,999",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "172BA08",
+          "on": "9F860100",
+          "off": "9F860100"
+        }
+      ]
+    },
+    {
       "name": "Cheat Activator",
       "type": "checkbox",
       "memory": [
@@ -32,39 +76,6 @@
       ]
     },
     {
-      "name": "Infinite Rage*",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "172BA29",
-          "on": "01",
-          "off": "00"
-        }
-      ]
-    },
-    {
-      "name": "One-hit Kill*",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "172BA2A",
-          "on": "01",
-          "off": "00"
-        }
-      ]
-    },
-    {
-      "name": "Instant R3*",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "172BA2B",
-          "on": "01",
-          "off": "00"
-        }
-      ]
-    },
-    {
       "name": "Infinite Arrows*",
       "type": "checkbox",
       "memory": [
@@ -76,13 +87,13 @@
       ]
     },
     {
-      "name": "No Cooldown",
+      "name": "Infinite Rage*",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "A47102",
-          "on": "C5FA104D809090",
-          "off": "C4C17A104C2438"
+          "offset": "172BA29",
+          "on": "01",
+          "off": "00"
         }
       ]
     },
@@ -108,13 +119,35 @@
       ]
     },
     {
-      "name": "100",
-      "type": "button",
+      "name": "Instant R3*",
+      "type": "checkbox",
       "memory": [
         {
-          "offset": "172BA08",
-          "on": "64000000",
-          "off": "64000000"
+          "offset": "172BA2B",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "No Cooldown",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "A47102",
+          "on": "C5FA104D809090",
+          "off": "C4C17A104C2438"
+        }
+      ]
+    },
+    {
+      "name": "One-hit Kill*",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "172BA2A",
+          "on": "01",
+          "off": "00"
         }
       ]
     }

@@ -2,20 +2,6 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Mega Man X8" Moder="Ali-mk" Cusa="SLUS20960" Version="01.00" Process="eboot.bin">
   <Genres Name="Platformer" />
   <Items />
-  <Cheat Text="Characters-1-Invincible">
-    <Cheatline>
-      <Offset>808024E373</Offset>
-      <Section>0</Section>
-      <ValueOn>FF</ValueOn>
-      <ValueOff>FF</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>808024E374</Offset>
-      <Section>0</Section>
-      <ValueOn>55</ValueOn>
-      <ValueOff>55</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Characters-1-Inf-Health">
     <Cheatline>
       <Offset>808024E35C</Offset>
@@ -25,6 +11,20 @@
     </Cheatline>
     <Cheatline>
       <Offset>808024E35D</Offset>
+      <Section>0</Section>
+      <ValueOn>55</ValueOn>
+      <ValueOff>55</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Characters-1-Invincible">
+    <Cheatline>
+      <Offset>808024E373</Offset>
+      <Section>0</Section>
+      <ValueOn>FF</ValueOn>
+      <ValueOff>FF</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>808024E374</Offset>
       <Section>0</Section>
       <ValueOn>55</ValueOn>
       <ValueOff>55</ValueOff>
@@ -58,17 +58,25 @@
       <ValueOff>55</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite-Bomb">
+  <Cheat Text="Crystal-Wall">
     <Cheatline>
-      <Offset>80804B114C</Offset>
+      <Offset>80804B1154</Offset>
       <Section>0</Section>
       <ValueOn>47-18-66-4</ValueOn>
       <ValueOff>47-18-66-4</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Shining-Ray">
+  <Cheat Text="Green-Spinner">
     <Cheatline>
-      <Offset>80804B1148</Offset>
+      <Offset>80804B1158</Offset>
+      <Section>0</Section>
+      <ValueOn>47-18-66-4</ValueOn>
+      <ValueOff>47-18-66-4</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite-Bomb">
+    <Cheatline>
+      <Offset>80804B114C</Offset>
       <Section>0</Section>
       <ValueOn>47-18-66-4</ValueOn>
       <ValueOff>47-18-66-4</ValueOff>
@@ -82,17 +90,9 @@
       <ValueOff>47-18-66-4</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Drift-Diamond">
+  <Cheat Text="Shining-Ray">
     <Cheatline>
-      <Offset>80804B1154</Offset>
-      <Section>0</Section>
-      <ValueOn>47-18-66-4</ValueOn>
-      <ValueOff>47-18-66-4</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Green-Spinner">
-    <Cheatline>
-      <Offset>80804B1158</Offset>
+      <Offset>80804B1148</Offset>
       <Section>0</Section>
       <ValueOn>47-18-66-4</ValueOn>
       <ValueOff>47-18-66-4</ValueOff>

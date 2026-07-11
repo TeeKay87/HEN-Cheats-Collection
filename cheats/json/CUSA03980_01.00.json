@@ -21,17 +21,6 @@
       ]
     },
     {
-      "name": "Infinite Salt",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "118F388",
-          "on": "9090",
-          "off": "29D8"
-        }
-      ]
-    },
-    {
       "name": "Infinite Ammo",
       "type": "checkbox",
       "memory": [
@@ -54,6 +43,17 @@
       ]
     },
     {
+      "name": "Infinite Salt",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "118F388",
+          "on": "9090",
+          "off": "29D8"
+        }
+      ]
+    },
+    {
       "name": "Godmode",
       "type": "checkbox",
       "memory": [
@@ -66,17 +66,6 @@
           "offset": "1961EC0",
           "on": "817B7D430398760F8505000000E95B9EEFFEC5FA1183C0350000E94E9EEFFE",
           "off": "00000000000000000000000000000000000000000000000000000000000000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Salt",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "D8F388",
-          "on": "9090",
-          "off": "29D8"
         }
       ]
     },
@@ -99,6 +88,17 @@
           "offset": "D8F1CF",
           "on": "49897C2464",
           "off": "4529742464"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Salt",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "D8F388",
+          "on": "9090",
+          "off": "29D8"
         }
       ]
     }

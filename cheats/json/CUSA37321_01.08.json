@@ -5,6 +5,22 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "9999 Neuropolymer (Only when upgrading)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "715FBD0",
+          "on": "0F85D0FC3FFAC743300F2700008B4B30E95DFC3FFA",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "155F83D",
+          "on": "E98E03C005",
+          "off": "756D8B4B30"
+        }
+      ]
+    },
+    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -35,25 +51,9 @@
           "off": "4584DB418902"
         }
       ]
-    },
-    {
-      "name": "9999 Neuropolymer (Only when upgrading)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "715FBD0",
-          "on": "0F85D0FC3FFAC743300F2700008B4B30E95DFC3FFA",
-          "off": "000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "155F83D",
-          "on": "E98E03C005",
-          "off": "756D8B4B30"
-        }
-      ]
     }
   ],
   "credits": [
-    "Wander FW9.00 "
+    "Wander FW9.00"
   ]
 }

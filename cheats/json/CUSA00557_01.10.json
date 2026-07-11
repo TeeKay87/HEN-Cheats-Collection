@@ -5,13 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Parts, Pills",
+      "name": "All Tools Pickup Level 5",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "89022",
-          "on": "664589BC5FF4000000",
-          "off": "664589B45FF40000"
+          "offset": "68462",
+          "on": "C784BB4864010005000000C39090",
+          "off": "9090909090909090909090909090"
+        },
+        {
+          "offset": "68742",
+          "on": "E81BFDFFFF9090",
+          "off": "FF84BB48640100"
         }
       ]
     },
@@ -27,18 +32,13 @@
       ]
     },
     {
-      "name": "All Tools Pickup Level 5",
+      "name": "Infinite Parts, Pills",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "68462",
-          "on": "C784BB4864010005000000C39090",
-          "off": "9090909090909090909090909090"
-        },
-        {
-          "offset": "68742",
-          "on": "E81BFDFFFF9090",
-          "off": "FF84BB48640100"
+          "offset": "89022",
+          "on": "664589BC5FF4000000",
+          "off": "664589B45FF40000"
         }
       ]
     }

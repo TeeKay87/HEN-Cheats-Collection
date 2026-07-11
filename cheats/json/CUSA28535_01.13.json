@@ -5,6 +5,22 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Rewinds",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7DE7DF0",
+          "on": "C7805803000000004040C5FA108058030000E95E8550FA",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "22F035D",
+          "on": "E98E7AAF05909090",
+          "off": "C5FA108058030000"
+        }
+      ]
+    },
+    {
       "name": "Max Credits",
       "type": "checkbox",
       "memory": [
@@ -53,22 +69,6 @@
       ]
     },
     {
-      "name": "Infinite Rewinds",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7DE7DF0",
-          "on": "C7805803000000004040C5FA108058030000E95E8550FA",
-          "off": "0000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "22F035D",
-          "on": "E98E7AAF05909090",
-          "off": "C5FA108058030000"
-        }
-      ]
-    },
-    {
       "name": "No Gear AI",
       "type": "checkbox",
       "memory": [
@@ -86,7 +86,7 @@
     }
   ],
   "credits": [
-    "Reddevil82 ",
-    " FW 9.00"
+    "Reddevil82",
+    "FW 9.00"
   ]
 }

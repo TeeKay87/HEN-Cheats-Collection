@@ -5,6 +5,22 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Alot of Items (on collect have 2 pieces of the item)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5DB50",
+          "on": "FFC041C6470863E9304B5780",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "1D2686",
+          "on": "E9C5B4A87F90",
+          "off": "FFC041894708"
+        }
+      ]
+    },
+    {
       "name": "Infinite Health (close combats only)",
       "type": "checkbox",
       "memory": [
@@ -33,22 +49,6 @@
           "offset": "1E73BA",
           "on": "E9C155A77F9090",
           "off": "41018688000000"
-        }
-      ]
-    },
-    {
-      "name": "Alot of Items (on collect have 2 pieces of the item)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5DB50",
-          "on": "FFC041C6470863E9304B5780",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "1D2686",
-          "on": "E9C5B4A87F90",
-          "off": "FFC041894708"
         }
       ]
     }

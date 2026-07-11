@@ -5,33 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max/Infinite Health/1 Hit Kill (Master Code)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1A9B740",
-          "on": "41837C245809751741898424840100004189842484010000E924D660FE31C04189842484010000E915D660FE",
-          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "A8D79",
-          "on": "E9C2299F01909090",
-          "off": "4189842484010000"
-        }
-      ]
-    },
-    {
-      "name": "Max/Infinite Health (Need MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1A9B748",
-          "on": "418B84248C010000",
-          "off": "4189842484010000"
-        }
-      ]
-    },
-    {
       "name": "1 Hit Kill (Need MC)",
       "type": "checkbox",
       "memory": [
@@ -43,6 +16,22 @@
       ]
     },
     {
+      "name": "Infinite Jumps",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1A9AC30",
+          "on": "E885D394FE90E9BCC2D8FE",
+          "off": "0000000000000000000000"
+        },
+        {
+          "offset": "826EEE",
+          "on": "E93D3D270190909090",
+          "off": "E8CD10BCFF41FF4648"
+        }
+      ]
+    },
+    {
       "name": "Infinite Throwables",
       "type": "checkbox",
       "memory": [
@@ -50,32 +39,6 @@
           "offset": "41292C",
           "on": "448B7B30",
           "off": "44897B30"
-        }
-      ]
-    },
-    {
-      "name": "Max/Infinite Money",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1A9B910",
-          "on": "4401E6C7404840420F00E9FDE18DFE",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "379B16",
-          "on": "E9F51D720190",
-          "off": "4401E6897048"
-        },
-        {
-          "offset": "1A9B3D0",
-          "on": "C7839801000040420F00E92A59A1FE",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "4B0D02",
-          "on": "E9C9A65E019090",
-          "off": "4489A398010000"
         }
       ]
     },
@@ -106,6 +69,59 @@
       ]
     },
     {
+      "name": "Max/Infinite Health (Need MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1A9B748",
+          "on": "418B84248C010000",
+          "off": "4189842484010000"
+        }
+      ]
+    },
+    {
+      "name": "Max/Infinite Health/1 Hit Kill (Master Code)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1A9B740",
+          "on": "41837C245809751741898424840100004189842484010000E924D660FE31C04189842484010000E915D660FE",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "A8D79",
+          "on": "E9C2299F01909090",
+          "off": "4189842484010000"
+        }
+      ]
+    },
+    {
+      "name": "Max/Infinite Money",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1A9B910",
+          "on": "4401E6C7404840420F00E9FDE18DFE",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "379B16",
+          "on": "E9F51D720190",
+          "off": "4401E6897048"
+        },
+        {
+          "offset": "1A9B3D0",
+          "on": "C7839801000040420F00E92A59A1FE",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "4B0D02",
+          "on": "E9C9A65E019090",
+          "off": "4489A398010000"
+        }
+      ]
+    },
+    {
       "name": "No Cooldown Ability",
       "type": "checkbox",
       "memory": [
@@ -118,22 +134,6 @@
           "offset": "119912",
           "on": "E9991E98019090",
           "off": "488983A0000000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Jumps",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1A9AC30",
-          "on": "E885D394FE90E9BCC2D8FE",
-          "off": "0000000000000000000000"
-        },
-        {
-          "offset": "826EEE",
-          "on": "E93D3D270190909090",
-          "off": "E8CD10BCFF41FF4648"
         }
       ]
     }

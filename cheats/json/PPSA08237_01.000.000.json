@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf HP Cristals",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5F63000",
-          "on": "B90300000089CB894820E91E0D36FC",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "22C3D28",
-          "on": "E9D3F2C903",
-          "off": "89CB894820"
-        }
-      ]
-    },
-    {
       "name": "Inf HP",
       "type": "checkbox",
       "memory": [
@@ -33,6 +17,22 @@
           "offset": "49CDC4",
           "on": "E96662AC05",
           "off": "C5FA114708"
+        }
+      ]
+    },
+    {
+      "name": "Inf HP Cristals",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5F63000",
+          "on": "B90300000089CB894820E91E0D36FC",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "22C3D28",
+          "on": "E9D3F2C903",
+          "off": "89CB894820"
         }
       ]
     },

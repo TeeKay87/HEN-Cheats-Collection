@@ -5,6 +5,104 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "0.5x damage",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "176B300",
+          "on": "0000003F",
+          "off": "0000003F"
+        }
+      ]
+    },
+    {
+      "name": "100x resources",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "176B310",
+          "on": "64000000",
+          "off": "64000000"
+        }
+      ]
+    },
+    {
+      "name": "10x damage",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "176B300",
+          "on": "00002041",
+          "off": "00002041"
+        }
+      ]
+    },
+    {
+      "name": "10x resources",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "176B310",
+          "on": "0A000000",
+          "off": "0A000000"
+        }
+      ]
+    },
+    {
+      "name": "25x damage",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "176B300",
+          "on": "0000C841",
+          "off": "0000C841"
+        }
+      ]
+    },
+    {
+      "name": "50x resources",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "176B310",
+          "on": "32000000",
+          "off": "32000000"
+        }
+      ]
+    },
+    {
+      "name": "5x damage",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "176B300",
+          "on": "0000A040",
+          "off": "0000A040"
+        }
+      ]
+    },
+    {
+      "name": "Damage Multiplier (default 2x)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "176B070",
+          "on": "4180FBF07308C5F2590D82020000C5FA114C2460E945DFF7FE909090",
+          "off": "4180FBF07308C5F2590D82020000C5FA114C2460E945DFF7FE909090"
+        },
+        {
+          "offset": "6E8FC8",
+          "on": "E9A320080190",
+          "off": "C5FA114C2460"
+        },
+        {
+          "offset": "176B300",
+          "on": "00000040",
+          "off": "00000040"
+        }
+      ]
+    },
+    {
       "name": "Godmode",
       "type": "checkbox",
       "memory": [
@@ -17,6 +115,22 @@
           "offset": "6EA75C",
           "on": "E99F08080190",
           "off": "C5FA104C2460"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Projectiles",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "176B200",
+          "on": "C5FA108D90DFFFFFC4C1782E8F880000007205E9F9E30FFFC4C17A109F88000000EBF090",
+          "off": "C5FA108D90DFFFFFC4C1782E8F880000007205E9F9E30FFFC4C17A109F88000000EBF090"
+        },
+        {
+          "offset": "869609",
+          "on": "E9F21BF000909090",
+          "off": "C5FA108D90DFFFFF"
         }
       ]
     },
@@ -74,22 +188,6 @@
       ]
     },
     {
-      "name": "Infinite Projectiles",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "176B200",
-          "on": "C5FA108D90DFFFFFC4C1782E8F880000007205E9F9E30FFFC4C17A109F88000000EBF090",
-          "off": "C5FA108D90DFFFFFC4C1782E8F880000007205E9F9E30FFFC4C17A109F88000000EBF090"
-        },
-        {
-          "offset": "869609",
-          "on": "E9F21BF000909090",
-          "off": "C5FA108D90DFFFFF"
-        }
-      ]
-    },
-    {
       "name": "Resources up (on craft/sell)",
       "type": "checkbox",
       "memory": [
@@ -102,38 +200,6 @@
           "offset": "C2A63B",
           "on": "E9700AB400",
           "off": "7407F00116"
-        }
-      ]
-    },
-    {
-      "name": "Damage Multiplier (default 2x)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "176B070",
-          "on": "4180FBF07308C5F2590D82020000C5FA114C2460E945DFF7FE909090",
-          "off": "4180FBF07308C5F2590D82020000C5FA114C2460E945DFF7FE909090"
-        },
-        {
-          "offset": "6E8FC8",
-          "on": "E9A320080190",
-          "off": "C5FA114C2460"
-        },
-        {
-          "offset": "176B300",
-          "on": "00000040",
-          "off": "00000040"
-        }
-      ]
-    },
-    {
-      "name": "0.5x damage",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "176B300",
-          "on": "0000003F",
-          "off": "0000003F"
         }
       ]
     },
@@ -155,17 +221,6 @@
           "offset": "176B310",
           "on": "02000000",
           "off": "02000000"
-        }
-      ]
-    },
-    {
-      "name": "10x resources",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "176B310",
-          "on": "0A000000",
-          "off": "0A000000"
         }
       ]
     }

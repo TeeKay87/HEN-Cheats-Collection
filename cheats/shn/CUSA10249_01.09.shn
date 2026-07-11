@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="The Last of Us: Part II" Moder="Celogamez" Cusa="CUSA10249" Version="01.09" Process="eboot.bin">
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="The Last of Us: Part II" Moder="Celogamez, hejran7" Cusa="CUSA10249" Version="01.09" Process="eboot.bin">
   <Genres Name="Action" />
   <Genres Name="Adventure" />
   <Items />
@@ -25,12 +25,18 @@
       <ValueOff>E8-CA-59-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Infinite Ammo">
     <Cheatline>
-      <Offset>1290A6A</Offset>
+      <Offset>2DF37A0</Offset>
       <Section>0</Section>
-      <ValueOn>90-90-90-90</ValueOn>
-      <ValueOff>41-FF-57-20</ValueOff>
+      <ValueOn>0F-4C-C2-85-C0-C7-01-E7-03-00-00-C7-01-E7-03-00-00-E9-60-AF-C5-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>1A4E70F</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-8C-50-3A-01-90-90</ValueOn>
+      <ValueOff>0F-4C-C2-85-C0-89-01</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Breath (UnderWater)">
@@ -47,26 +53,26 @@
       <ValueOff>C4-C1-7A-11-86-B0-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Health">
     <Cheatline>
-      <Offset>2DF37A0</Offset>
+      <Offset>1290A6A</Offset>
       <Section>0</Section>
-      <ValueOn>0F-4C-C2-85-C0-C7-01-E7-03-00-00-C7-01-E7-03-00-00-E9-60-AF-C5-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>1A4E70F</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-8C-50-3A-01-90-90</ValueOn>
-      <ValueOff>0F-4C-C2-85-C0-89-01</ValueOff>
+      <ValueOn>90-90-90-90</ValueOn>
+      <ValueOff>41-FF-57-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
+  <Cheat Text="Infinite Items/Craft On Use">
     <Cheatline>
-      <Offset>1A4DB7B</Offset>
+      <Offset>2DF3A30</Offset>
       <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>66-41-89-8F-D8-0A-00-00</ValueOff>
+      <ValueOn>84-C9-C7-43-E0-E7-03-00-00-E9-91-2F-39-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>11869CA</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-61-D0-C6-01</ValueOn>
+      <ValueOff>84-C9-89-43-E0</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Silence Ammo">
@@ -85,18 +91,12 @@
       <ValueOff>89-87-60-09-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items/Craft On Use">
+  <Cheat Text="No Reload">
     <Cheatline>
-      <Offset>2DF3A30</Offset>
+      <Offset>1A4DB7B</Offset>
       <Section>0</Section>
-      <ValueOn>84-C9-C7-43-E0-E7-03-00-00-E9-91-2F-39-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>11869CA</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-61-D0-C6-01</ValueOn>
-      <ValueOff>84-C9-89-43-E0</ValueOff>
+      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>66-41-89-8F-D8-0A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Dev Menu L3+Upper L or R Touch Pad">
@@ -113,20 +113,20 @@
       <ValueOff>80-B8-A1-3A-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Show All Dev Menu Details">
-    <Cheatline>
-      <Offset>69445B</Offset>
-      <Section>0</Section>
-      <ValueOn>41-BC-01-00-00-00-90</ValueOn>
-      <ValueOff>44-8B-A0-B4-3A-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Hide All Dev Menu Details" Description="While Holding the L3 and dev Menu is active">
     <Cheatline>
       <Offset>694433</Offset>
       <Section>0</Section>
       <ValueOn>80-B8-B8-3A-00-00-01</ValueOn>
       <ValueOff>80-B8-B8-3A-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Show All Dev Menu Details">
+    <Cheatline>
+      <Offset>69445B</Offset>
+      <Section>0</Section>
+      <ValueOn>41-BC-01-00-00-00-90</ValueOn>
+      <ValueOff>44-8B-A0-B4-3A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

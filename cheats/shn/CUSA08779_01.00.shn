@@ -15,12 +15,12 @@
       <ValueOff>C5-FA-11-43-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money">
+  <Cheat Text="Infinite Items/Ammo">
     <Cheatline>
-      <Offset>18675A2</Offset>
+      <Offset>891C3120</Offset>
       <Section>0</Section>
-      <ValueOn>45-89-BF-7C-01-00-00</ValueOn>
-      <ValueOff>45-01-B7-7C-01-00-00</ValueOff>
+      <ValueOn>90-90-90-90</ValueOn>
+      <ValueOff>89-5C-31-20</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Mana">
@@ -31,12 +31,12 @@
       <ValueOff>C5-FA-11-43-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items/Ammo">
+  <Cheat Text="Infinite Money">
     <Cheatline>
-      <Offset>891C3120</Offset>
+      <Offset>18675A2</Offset>
       <Section>0</Section>
-      <ValueOn>90-90-90-90</ValueOn>
-      <ValueOff>89-5C-31-20</ValueOff>
+      <ValueOn>45-89-BF-7C-01-00-00</ValueOn>
+      <ValueOff>45-01-B7-7C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

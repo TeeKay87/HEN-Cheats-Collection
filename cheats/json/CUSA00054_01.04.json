@@ -16,6 +16,22 @@
       ]
     },
     {
+      "name": "Bottomless Clip",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "44B83F",
+          "on": "909090909090",
+          "off": "898370030000"
+        },
+        {
+          "offset": "43C2CE",
+          "on": "90909090909090",
+          "off": "41898570030000"
+        }
+      ]
+    },
+    {
       "name": "Godmode",
       "type": "checkbox",
       "memory": [
@@ -39,22 +55,6 @@
           "offset": "56D8B8",
           "on": "9090",
           "off": "FFC8"
-        }
-      ]
-    },
-    {
-      "name": "Bottomless Clip",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "44B83F",
-          "on": "909090909090",
-          "off": "898370030000"
-        },
-        {
-          "offset": "43C2CE",
-          "on": "90909090909090",
-          "off": "41898570030000"
         }
       ]
     },

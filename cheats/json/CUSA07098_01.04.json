@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Easy Money at Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "453E4B",
+          "on": "01B481C8000000",
+          "off": "89B481C8000000"
+        }
+      ]
+    },
+    {
       "name": "Inf Life",
       "type": "checkbox",
       "memory": [
@@ -44,17 +55,6 @@
           "offset": "4B86FA",
           "on": "909090909090909090",
           "off": "C5FA118488BC000000"
-        }
-      ]
-    },
-    {
-      "name": "Easy Money at Kill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "453E4B",
-          "on": "01B481C8000000",
-          "off": "89B481C8000000"
         }
       ]
     }

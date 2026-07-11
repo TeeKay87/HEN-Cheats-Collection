@@ -5,33 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "6AABC6",
-          "on": "9090909090",
-          "off": "E8C5A40000"
-        }
-      ]
-    },
-    {
-      "name": "Invincible Mode",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "25470A2",
-          "on": "4C8D8424E004000031FF31F641817D50506C61797405E904DA54FEE9FAD954FE",
-          "off": "0000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "A94AB0",
-          "on": "E9ED25AB0190909090909090",
-          "off": "4C8D8424E004000031FF31F6"
-        }
-      ]
-    },
-    {
       "name": "Inf Ammo and Items",
       "type": "checkbox",
       "memory": [
@@ -58,6 +31,17 @@
       ]
     },
     {
+      "name": "Inf Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6AABC6",
+          "on": "9090909090",
+          "off": "E8C5A40000"
+        }
+      ]
+    },
+    {
       "name": "Inf Weapon Durability",
       "type": "checkbox",
       "memory": [
@@ -65,6 +49,22 @@
           "offset": "D62EB6",
           "on": "9090",
           "off": "29D0"
+        }
+      ]
+    },
+    {
+      "name": "Invincible Mode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "25470A2",
+          "on": "4C8D8424E004000031FF31F641817D50506C61797405E904DA54FEE9FAD954FE",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "A94AB0",
+          "on": "E9ED25AB0190909090909090",
+          "off": "4C8D8424E004000031FF31F6"
         }
       ]
     }

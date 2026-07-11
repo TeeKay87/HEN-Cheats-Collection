@@ -5,6 +5,49 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Bottomless Clip",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1C17845",
+          "on": "66C78776030000FF000FB78776030000E9F373B3FE",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "74EC46",
+          "on": "E9FA8B4C019090",
+          "off": "0FB78776030000"
+        }
+      ]
+    },
+    {
+      "name": "Enemys dont Attack",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "59AFB5",
+          "on": "EB1A",
+          "off": "741A"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "9C7AA5",
+          "on": "9090909090909090",
+          "off": "430184AE64010000"
+        },
+        {
+          "offset": "9C7AF8",
+          "on": "9090909090909090",
+          "off": "4729A4AE64010000"
+        }
+      ]
+    },
+    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -38,49 +81,6 @@
           "offset": "54C68F",
           "on": "0F57C09090909090",
           "off": "C5F82E0531532601"
-        }
-      ]
-    },
-    {
-      "name": "Bottomless Clip",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1C17845",
-          "on": "66C78776030000FF000FB78776030000E9F373B3FE",
-          "off": "000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "74EC46",
-          "on": "E9FA8B4C019090",
-          "off": "0FB78776030000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "9C7AA5",
-          "on": "9090909090909090",
-          "off": "430184AE64010000"
-        },
-        {
-          "offset": "9C7AF8",
-          "on": "9090909090909090",
-          "off": "4729A4AE64010000"
-        }
-      ]
-    },
-    {
-      "name": "Enemys dont Attack",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "59AFB5",
-          "on": "EB1A",
-          "off": "741A"
         }
       ]
     }

@@ -18,26 +18,18 @@
       <ValueOff>C5-FA-10-80-D0-0A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="no reload">
+  <Cheat Text="Infinite Ammo">
     <Cheatline>
-      <Offset>16D258B</Offset>
+      <Offset>16D2566</Offset>
       <Section>0</Section>
-      <ValueOn>41-83-AC-24-C0-18-00-00-00-E9-E5-92-E7-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+      <ValueOn>66-C7-47-72-E7-03-0F-B7-47-72-C3-E9-BF-6F-D4-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>54B876</Offset>
+      <Offset>419530</Offset>
       <Section>0</Section>
-      <ValueOn>E9-10-6D-18-01-90-90-90</ValueOn>
-      <ValueOff>41-89-84-24-C0-18-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Medkit On Use">
-    <Cheatline>
-      <Offset>5D249F</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90</ValueOn>
-      <ValueOff>FF-8B-44-09-00-00</ValueOff>
+      <ValueOn>E9-31-90-2B-01</ValueOn>
+      <ValueOff>0F-B7-47-72-C3</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="infinite Health ">
@@ -54,18 +46,26 @@
       <ValueOff>48-8B-88-38-FF-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Medkit On Use">
     <Cheatline>
-      <Offset>16D2566</Offset>
+      <Offset>5D249F</Offset>
       <Section>0</Section>
-      <ValueOn>66-C7-47-72-E7-03-0F-B7-47-72-C3-E9-BF-6F-D4-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+      <ValueOn>90-90-90-90-90-90</ValueOn>
+      <ValueOff>FF-8B-44-09-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="no reload">
+    <Cheatline>
+      <Offset>16D258B</Offset>
+      <Section>0</Section>
+      <ValueOn>41-83-AC-24-C0-18-00-00-00-E9-E5-92-E7-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>419530</Offset>
+      <Offset>54B876</Offset>
       <Section>0</Section>
-      <ValueOn>E9-31-90-2B-01</ValueOn>
-      <ValueOff>0F-B7-47-72-C3</ValueOff>
+      <ValueOn>E9-10-6D-18-01-90-90-90</ValueOn>
+      <ValueOff>41-89-84-24-C0-18-00-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

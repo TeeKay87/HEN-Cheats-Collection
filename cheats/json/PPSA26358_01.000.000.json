@@ -5,18 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Divine Gold",
+      "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "61B3BC0",
-          "on": "C78098040000FFE0F505E90BE5DFFA",
-          "off": "000000000000000000000000000000"
+          "offset": "61B34E0",
+          "on": "817F780000803F750CC7470C00007A44E97412C0FAC5FA11470CE96A12C0FA",
+          "off": "00000000000000000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "FB20D3",
-          "on": "E9E81A20059090",
-          "off": "4489B898040000"
+          "offset": "DB4764",
+          "on": "E977ED3F05",
+          "off": "C5FA11470C"
         }
       ]
     },
@@ -37,18 +37,18 @@
       ]
     },
     {
-      "name": "Infinite Health",
+      "name": "Max Divine Gold",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "61B34E0",
-          "on": "817F780000803F750CC7470C00007A44E97412C0FAC5FA11470CE96A12C0FA",
-          "off": "00000000000000000000000000000000000000000000000000000000000000"
+          "offset": "61B3BC0",
+          "on": "C78098040000FFE0F505E90BE5DFFA",
+          "off": "000000000000000000000000000000"
         },
         {
-          "offset": "DB4764",
-          "on": "E977ED3F05",
-          "off": "C5FA11470C"
+          "offset": "FB20D3",
+          "on": "E9E81A20059090",
+          "off": "4489B898040000"
         }
       ]
     }

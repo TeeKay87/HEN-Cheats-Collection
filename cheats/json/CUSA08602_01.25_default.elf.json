@@ -5,6 +5,17 @@
   "process": "default.elf",
   "mods": [
     {
+      "name": "Inf Ammo / No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "D34DE7",
+          "on": "9090909090",
+          "off": "4429648810"
+        }
+      ]
+    },
+    {
       "name": "Inf Health",
       "type": "checkbox",
       "memory": [
@@ -21,17 +32,6 @@
       ]
     },
     {
-      "name": "Inf Ammo / No Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "D34DE7",
-          "on": "9090909090",
-          "off": "4429648810"
-        }
-      ]
-    },
-    {
       "name": "Inf Throwables",
       "type": "checkbox",
       "memory": [
@@ -39,6 +39,33 @@
           "offset": "D0E04E",
           "on": "909090",
           "off": "FF4810"
+        }
+      ]
+    },
+    {
+      "name": "P-47  MG (No Overheating) ",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "106F83A",
+          "on": "498B064881F985040000750B483D0000003F7E034831C0488903E9CB39C0FF",
+          "off": "00000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "C7321E",
+          "on": "E917C63F0090",
+          "off": "498B06488903"
+        }
+      ]
+    },
+    {
+      "name": "P-47 (Inf HP)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3EA8E",
+          "on": "C5FA2CC1",
+          "off": "C5FA2CC0"
         }
       ]
     },
@@ -70,33 +97,6 @@
         {
           "offset": "C68EC1",
           "on": "E9D769400090",
-          "off": "498B06488903"
-        }
-      ]
-    },
-    {
-      "name": "P-47 (Inf HP)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "B3EA8E",
-          "on": "C5FA2CC1",
-          "off": "C5FA2CC0"
-        }
-      ]
-    },
-    {
-      "name": "P-47  MG (No Overheating) ",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "106F83A",
-          "on": "498B064881F985040000750B483D0000003F7E034831C0488903E9CB39C0FF",
-          "off": "00000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "C7321E",
-          "on": "E917C63F0090",
           "off": "498B06488903"
         }
       ]

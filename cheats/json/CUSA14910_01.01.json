@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Buy without lose Money/Money collect off",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "D19349",
+          "on": "909090909090",
+          "off": "89B728050000"
+        }
+      ]
+    },
+    {
       "name": "Fast replenish life",
       "type": "checkbox",
       "memory": [
@@ -27,17 +38,6 @@
       ]
     },
     {
-      "name": "Infinity Lightning Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "C396E4",
-          "on": "9090909090909090",
-          "off": "C5FA118784060000"
-        }
-      ]
-    },
-    {
       "name": "Infinity Bullet Ammo",
       "type": "checkbox",
       "memory": [
@@ -45,17 +45,6 @@
           "offset": "D54530",
           "on": "909090",
           "off": "48890A"
-        }
-      ]
-    },
-    {
-      "name": "One Hit Kill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "BE5967",
-          "on": "9090909090",
-          "off": "C5FA1055C4"
         }
       ]
     },
@@ -71,13 +60,24 @@
       ]
     },
     {
-      "name": "Buy without lose Money/Money collect off",
+      "name": "Infinity Lightning Ammo",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "D19349",
-          "on": "909090909090",
-          "off": "89B728050000"
+          "offset": "C396E4",
+          "on": "9090909090909090",
+          "off": "C5FA118784060000"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "BE5967",
+          "on": "9090909090",
+          "off": "C5FA1055C4"
         }
       ]
     }

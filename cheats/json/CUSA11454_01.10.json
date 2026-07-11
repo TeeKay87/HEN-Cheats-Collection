@@ -16,24 +16,13 @@
       ]
     },
     {
-      "name": "Source Points Increase on Use",
+      "name": "Infinite Ammo",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "605A46",
-          "on": "48014138",
-          "off": "48294138"
-        }
-      ]
-    },
-    {
-      "name": "Materials Increase on Use",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "638012",
-          "on": "015038",
-          "off": "894838"
+          "offset": "638C2E",
+          "on": "9090909090909090",
+          "off": "C5FA118790010000"
         }
       ]
     },
@@ -49,13 +38,24 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
+      "name": "Materials Increase on Use",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "638C2E",
-          "on": "9090909090909090",
-          "off": "C5FA118790010000"
+          "offset": "638012",
+          "on": "015038",
+          "off": "894838"
+        }
+      ]
+    },
+    {
+      "name": "Source Points Increase on Use",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "605A46",
+          "on": "48014138",
+          "off": "48294138"
         }
       ]
     }

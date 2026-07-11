@@ -5,6 +5,22 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "God Mode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "90FB00",
+          "on": "C705AE5D340000000000C5FA5905A65D3400C7059C5D34000000803FE91F8BBFFF",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "508638",
+          "on": "E9C3744000909090",
+          "off": "C5FA590578D27400"
+        }
+      ]
+    },
+    {
       "name": "Health and Artefacts (Master Code)",
       "type": "checkbox",
       "memory": [
@@ -21,28 +37,6 @@
       ]
     },
     {
-      "name": "Infinite Health (Must enable MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "90F808",
-          "on": "01",
-          "off": "00"
-        }
-      ]
-    },
-    {
-      "name": "One Hit Kill (Must enable MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "90F809",
-          "on": "01",
-          "off": "00"
-        }
-      ]
-    },
-    {
       "name": "Infinite Artefacts on Get (Must enable MC)",
       "type": "checkbox",
       "memory": [
@@ -54,18 +48,24 @@
       ]
     },
     {
-      "name": "God Mode",
+      "name": "Infinite Cast Bullets",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "90FB00",
-          "on": "C705AE5D340000000000C5FA5905A65D3400C7059C5D34000000803FE91F8BBFFF",
-          "off": "000000000000000000000000000000000000000000000000000000000000000000"
-        },
+          "offset": "337D91",
+          "on": "9090",
+          "off": "FFC8"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health (Must enable MC)",
+      "type": "checkbox",
+      "memory": [
         {
-          "offset": "508638",
-          "on": "E9C3744000909090",
-          "off": "C5FA590578D27400"
+          "offset": "90F808",
+          "on": "01",
+          "off": "00"
         }
       ]
     },
@@ -86,18 +86,24 @@
       ]
     },
     {
-      "name": "Walk Speed (Master Code)",
+      "name": "No Clip",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "90FA66",
-          "on": "50B80000803F418987AC03000058C4C172598FAC030000E90609C4FF",
-          "off": "00000000000000000000000000000000000000000000000000000000"
-        },
+          "offset": "556B69",
+          "on": "753F",
+          "off": "743F"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill (Must enable MC)",
+      "type": "checkbox",
+      "memory": [
         {
-          "offset": "55037F",
-          "on": "E9E2F63B0090909090",
-          "off": "C4C172598FAC030000"
+          "offset": "90F809",
+          "on": "01",
+          "off": "00"
         }
       ]
     },
@@ -113,24 +119,40 @@
       ]
     },
     {
-      "name": "Infinite Cast Bullets",
+      "name": "Speed x2 (Must enable walk speed MC)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "337D91",
-          "on": "9090",
-          "off": "FFC8"
+          "offset": "90FA68",
+          "on": "00000040",
+          "off": "0000803F"
         }
       ]
     },
     {
-      "name": "No Clip",
+      "name": "Speed x3 (Must enable walk speed MC)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "556B69",
-          "on": "753F",
-          "off": "743F"
+          "offset": "90FA68",
+          "on": "00004040",
+          "off": "0000803F"
+        }
+      ]
+    },
+    {
+      "name": "Walk Speed (Master Code)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "90FA66",
+          "on": "50B80000803F418987AC03000058C4C172598FAC030000E90609C4FF",
+          "off": "00000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "55037F",
+          "on": "E9E2F63B0090909090",
+          "off": "C4C172598FAC030000"
         }
       ]
     }

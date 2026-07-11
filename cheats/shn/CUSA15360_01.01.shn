@@ -2,18 +2,12 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="YAKUZA 3" Moder="IMnoob" Cusa="CUSA15360" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Max money on Buy">
+  <Cheat Text="1 HIT KILL">
     <Cheatline>
-      <Offset>1837800</Offset>
+      <Offset>2C9D57</Offset>
       <Section>0</Section>
-      <ValueOn>C7-84-87-28-7D-00-00-FF-E0-F5-05-E9-F0-1A-01-FF-89-84-87-28-7D-00-00</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>8492F9</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-02-E5-FE-00-90-90</ValueOn>
-      <ValueOff>8B-84-87-28-7D-00-00</ValueOff>
+      <ValueOn>0F-B7-40-17</ValueOn>
+      <ValueOff>0F-B7-40-04</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Experience ">
@@ -40,12 +34,18 @@
       <ValueOff>C5-FA-10-40-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 HIT KILL">
+  <Cheat Text="Max money on Buy">
     <Cheatline>
-      <Offset>2C9D57</Offset>
+      <Offset>1837800</Offset>
       <Section>0</Section>
-      <ValueOn>0F-B7-40-17</ValueOn>
-      <ValueOff>0F-B7-40-04</ValueOff>
+      <ValueOn>C7-84-87-28-7D-00-00-FF-E0-F5-05-E9-F0-1A-01-FF-89-84-87-28-7D-00-00</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>8492F9</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-02-E5-FE-00-90-90</ValueOn>
+      <ValueOff>8B-84-87-28-7D-00-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

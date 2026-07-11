@@ -2,18 +2,18 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Warriors Orochi 4" Moder="Q8Despair" Cusa="CUSA12641" Version="01.09" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Max Health">
+  <Cheat Text="Growth points x2">
     <Cheatline>
       <Offset>1303800</Offset>
       <Section>11</Section>
-      <ValueOn>83-3F-00-75-09-C7-47-10-00-80-54-44-EB-05-C5-FA-11-47-10-E9-CA-00-FD-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+      <ValueOn>6B-C9-02-89-88-D8-00-00-00-E9-21-09-EE-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>2D38DD</Offset>
+      <Offset>1E4129</Offset>
       <Section>11</Section>
-      <ValueOn>E9-1E-FF-02-01</ValueOn>
-      <ValueOff>C5-FA-11-47-10</ValueOff>
+      <ValueOn>E9-D2-F6-11-01-90</ValueOn>
+      <ValueOff>89-88-D8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Ko count easy max">
@@ -30,18 +30,18 @@
       <ValueOff>89-9F-9C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Growth points x2">
+  <Cheat Text="Max Health">
     <Cheatline>
       <Offset>1303800</Offset>
       <Section>11</Section>
-      <ValueOn>6B-C9-02-89-88-D8-00-00-00-E9-21-09-EE-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+      <ValueOn>83-3F-00-75-09-C7-47-10-00-80-54-44-EB-05-C5-FA-11-47-10-E9-CA-00-FD-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>1E4129</Offset>
+      <Offset>2D38DD</Offset>
       <Section>11</Section>
-      <ValueOn>E9-D2-F6-11-01-90</ValueOn>
-      <ValueOff>89-88-D8-00-00-00</ValueOff>
+      <ValueOn>E9-1E-FF-02-01</ValueOn>
+      <ValueOff>C5-FA-11-47-10</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="skill points x2">

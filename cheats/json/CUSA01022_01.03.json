@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Earn more Red Orbs",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "D0B84D",
+          "on": "014810",
+          "off": "894810"
+        }
+      ]
+    },
+    {
       "name": "Godmode",
       "type": "checkbox",
       "memory": [
@@ -25,7 +36,7 @@
       "type": "checkbox",
       "memory": [
         {
-          "offset": "D0B84D",
+          "offset": "90B84D",
           "on": "014810",
           "off": "894810"
         }
@@ -44,17 +55,6 @@
           "offset": "5E382",
           "on": "E983CCF102",
           "off": "C5F25D45CC"
-        }
-      ]
-    },
-    {
-      "name": "Earn more Red Orbs",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "90B84D",
-          "on": "014810",
-          "off": "894810"
         }
       ]
     }

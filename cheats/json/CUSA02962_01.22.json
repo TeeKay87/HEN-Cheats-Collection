@@ -21,6 +21,33 @@
       ]
     },
     {
+      "name": "All Items / Caps (do not decrease)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5BFB0",
+          "on": "89470CC6422063E9D8D44A80",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "10948E",
+          "on": "E91D2BB57F90",
+          "off": "89470C894A20"
+        }
+      ]
+    },
+    {
+      "name": "Caps / All Items Multiplier",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "109491",
+          "on": "014A20",
+          "off": "894A20"
+        }
+      ]
+    },
+    {
       "name": "Infinite Ammo",
       "type": "checkbox",
       "memory": [
@@ -44,33 +71,6 @@
           "offset": "A65BFF",
           "on": "E9BC611F7F",
           "off": "C5FA114104"
-        }
-      ]
-    },
-    {
-      "name": "Caps / All Items Multiplier",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "109491",
-          "on": "014A20",
-          "off": "894A20"
-        }
-      ]
-    },
-    {
-      "name": "All Items / Caps (do not decrease)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5BFB0",
-          "on": "89470CC6422063E9D8D44A80",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "10948E",
-          "on": "E91D2BB57F90",
-          "off": "89470C894A20"
         }
       ]
     }

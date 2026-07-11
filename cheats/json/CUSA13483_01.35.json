@@ -5,45 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Money ( on gain )",
+      "name": "Infinite Fuel",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "152FDB0",
-          "on": "C707FFC99A3BE9D182FB7E",
-          "off": "0000000000000000000000"
+          "offset": "152FDF0",
+          "on": "41C7060000803FE9EEE0467F",
+          "off": "000000000000000000000000"
         },
         {
-          "offset": "804E8087",
-          "on": "E9247D0481",
-          "off": "488907B001"
-        }
-      ]
-    },
-    {
-      "name": "Max Diamonds, Medails, Tickets ( on gain )",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "152FDC0",
-          "on": "C74708FFC99A3BC74710FFC99A3BC74718FFC99A3BE9BE82FB7E526564646576696C383220465720392E3030",
-          "off": "0000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "804E8090",
-          "on": "E92B7D0481909090",
-          "off": "4889571048897718"
-        }
-      ]
-    },
-    {
-      "name": "Max XP ( on first Level Up )",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "44D446",
-          "on": "41895614",
-          "off": "41895E14"
+          "offset": "8099DEE5",
+          "on": "E9061FB980",
+          "off": "C4C17A1106"
         }
       ]
     },
@@ -64,18 +37,45 @@
       ]
     },
     {
-      "name": "Infinite Fuel",
+      "name": "Max Diamonds, Medails, Tickets ( on gain )",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "152FDF0",
-          "on": "41C7060000803FE9EEE0467F",
-          "off": "000000000000000000000000"
+          "offset": "152FDC0",
+          "on": "C74708FFC99A3BC74710FFC99A3BC74718FFC99A3BE9BE82FB7E526564646576696C383220465720392E3030",
+          "off": "0000000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "8099DEE5",
-          "on": "E9061FB980",
-          "off": "C4C17A1106"
+          "offset": "804E8090",
+          "on": "E92B7D0481909090",
+          "off": "4889571048897718"
+        }
+      ]
+    },
+    {
+      "name": "Max Money ( on gain )",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "152FDB0",
+          "on": "C707FFC99A3BE9D182FB7E",
+          "off": "0000000000000000000000"
+        },
+        {
+          "offset": "804E8087",
+          "on": "E9247D0481",
+          "off": "488907B001"
+        }
+      ]
+    },
+    {
+      "name": "Max XP ( on first Level Up )",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "44D446",
+          "on": "41895614",
+          "off": "41895E14"
         }
       ]
     },
@@ -97,8 +97,8 @@
     }
   ],
   "credits": [
-    "Reddevil82 ",
-    " FW 9.00",
+    "Reddevil82",
+    "FW 9.00",
     "2B"
   ]
 }

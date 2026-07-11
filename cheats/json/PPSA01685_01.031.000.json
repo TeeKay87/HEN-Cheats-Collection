@@ -21,17 +21,6 @@
       ]
     },
     {
-      "name": "Inf Heart Rate Sight",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1689CD",
-          "on": "909090909090",
-          "off": "C4C17A114710"
-        }
-      ]
-    },
-    {
       "name": "Inf Heart Rate",
       "type": "checkbox",
       "memory": [
@@ -39,6 +28,17 @@
           "offset": "169648",
           "on": "909090909090",
           "off": "C4C17A114F10"
+        }
+      ]
+    },
+    {
+      "name": "Inf Heart Rate Sight",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1689CD",
+          "on": "909090909090",
+          "off": "C4C17A114710"
         }
       ]
     },

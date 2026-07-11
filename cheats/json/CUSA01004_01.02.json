@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Full ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "569E43",
+          "on": "0F4ED6",
+          "off": "0F4FD6"
+        }
+      ]
+    },
+    {
       "name": "Godmode",
       "type": "checkbox",
       "memory": [
@@ -17,22 +28,6 @@
           "offset": "12B3000",
           "on": "41837E44007506F3410F105654C4C17A115654E9A0542AFF",
           "off": "000000000000000000000000000000000000000000000000"
-        }
-      ]
-    },
-    {
-      "name": "One-hit kill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "558491",
-          "on": "E98AABD500909090",
-          "off": "C5FA2ACEC5F857C0"
-        },
-        {
-          "offset": "12B3020",
-          "on": "41837E44007409BE00000000F30F2AC6C5FA2ACEC5F857C0E95C542AFF909090",
-          "off": "0000000000000000000000000000000000000000000000000000000000000000"
         }
       ]
     },
@@ -74,13 +69,18 @@
       ]
     },
     {
-      "name": "Full ammo",
+      "name": "One-hit kill",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "569E43",
-          "on": "0F4ED6",
-          "off": "0F4FD6"
+          "offset": "558491",
+          "on": "E98AABD500909090",
+          "off": "C5FA2ACEC5F857C0"
+        },
+        {
+          "offset": "12B3020",
+          "on": "41837E44007409BE00000000F30F2AC6C5FA2ACEC5F857C0E95C542AFF909090",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000"
         }
       ]
     }

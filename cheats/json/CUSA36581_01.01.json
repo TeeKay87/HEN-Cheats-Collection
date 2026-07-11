@@ -5,6 +5,22 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Arrows/Potions(on Shoot/Consume)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "84716FD0",
+          "on": "488B44C130C640140AE902BCD2FC",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "81442BD7",
+          "on": "E9F4432D0390909090",
+          "off": "488B44C13044297014"
+        }
+      ]
+    },
+    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -65,22 +81,6 @@
           "offset": "80A09F78",
           "on": "E9A3D2D00390909090",
           "off": "C4C17A118668010000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Arrows/Potions(on Shoot/Consume)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "84716FD0",
-          "on": "488B44C130C640140AE902BCD2FC",
-          "off": "0000000000000000000000000000"
-        },
-        {
-          "offset": "81442BD7",
-          "on": "E9F4432D0390909090",
-          "off": "488B44C13044297014"
         }
       ]
     }

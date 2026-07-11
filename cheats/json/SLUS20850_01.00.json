@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Unlock-All-Cheats",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "807FFBB530",
-          "on": "FFFFFFFF",
-          "off": "FFFFFFFF"
-        }
-      ]
-    },
-    {
       "name": "Infinite-Ammo",
       "type": "checkbox",
       "memory": [
@@ -23,6 +12,17 @@
           "offset": "807FD93638",
           "on": "00000000",
           "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "Unlock-All-Cheats",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "807FFBB530",
+          "on": "FFFFFFFF",
+          "off": "FFFFFFFF"
         }
       ]
     }

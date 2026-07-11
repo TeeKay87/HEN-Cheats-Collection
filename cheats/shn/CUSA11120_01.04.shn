@@ -2,6 +2,14 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="20XX" Moder="Ali-mk" Cusa="CUSA11120" Version="01.04" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
+  <Cheat Text="Infinite-All-Weapon">
+    <Cheatline>
+      <Offset>37DD6C</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>49-89-86-30-01-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Infinite-Health-King-(MC)">
     <Cheatline>
       <Offset>B07800</Offset>
@@ -22,9 +30,33 @@
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Offset>77D7A6</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-73-A0-38-00</ValueOn>
+      <ValueOff>E9-55-A0-38-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
       <Offset>B0783C</Offset>
       <Section>0</Section>
       <ValueOn>48-83-7B-4C-01-75-09-48-8B-4B-0C-E9-61-5F-C7-FF-48-89-8B-08-01-00-00-E9-55-5F-C7-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>77D7A6</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-91-A0-38-00</ValueOn>
+      <ValueOff>E9-73-A0-38-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>B0781E</Offset>
+      <Section>0</Section>
+      <ValueOn>48-83-7B-28-00-75-09-48-8B-4B-0C-E9-7F-5F-C7-FF-48-89-8B-08-01-00-00-E9-73-5F-C7-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>B0783C</Offset>
+      <Section>0</Section>
+      <ValueOn>48-83-7B-10-00-75-09-48-8B-4B-0C-E9-61-5F-C7-FF-48-89-8B-08-01-00-00-E9-55-5F-C7-FF</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
@@ -34,10 +66,22 @@
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Offset>77D7A6</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-AF-A0-38-00</ValueOn>
+      <ValueOff>E9-91-A0-38-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
       <Offset>B07878</Offset>
       <Section>0</Section>
       <ValueOn>48-83-7B-2C-05-75-09-48-8B-4B-0C-E9-25-5F-C7-FF-48-89-8B-08-01-00-00-E9-19-5F-C7-FF</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>77D7A6</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-CD-A0-38-00</ValueOn>
+      <ValueOff>E9-AF-A0-38-00</ValueOff>
     </Cheatline>
     <Cheatline>
       <Offset>B07896</Offset>
@@ -46,10 +90,22 @@
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Offset>77D7A6</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-EB-A0-38-00</ValueOn>
+      <ValueOff>E9-CD-A0-38-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
       <Offset>B078B4</Offset>
       <Section>0</Section>
       <ValueOn>48-83-7B-10-00-75-91-48-8B-4B-0C-E9-E9-5E-C7-FF-48-89-8B-08-01-00-00-E9-DD-5E-C7-FF</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>77D7A6</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-09-A1-38-00</ValueOn>
+      <ValueOff>E9-EB-A0-38-00</ValueOff>
     </Cheatline>
     <Cheatline>
       <Offset>B078D2</Offset>
@@ -58,10 +114,22 @@
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Offset>77D7A6</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-27-A1-38-00</ValueOn>
+      <ValueOff>E9-09-A1-38-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
       <Offset>B078F0</Offset>
       <Section>0</Section>
       <ValueOn>48-83-7B-28-00-75-09-48-8B-4B-0C-E9-AD-5E-C7-FF-48-89-8B-08-01-00-00-E9-A1-5E-C7-FF</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>77D7A6</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-45-A1-38-00</ValueOn>
+      <ValueOff>E9-27-A1-38-00</ValueOff>
     </Cheatline>
     <Cheatline>
       <Offset>B0790E</Offset>
@@ -70,10 +138,22 @@
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Offset>77D7A6</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-63-A1-38-00</ValueOn>
+      <ValueOff>E9-45-A1-38-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
       <Offset>B0792C</Offset>
       <Section>0</Section>
       <ValueOn>48-83-7B-40-00-75-09-48-8B-4B-0C-E9-71-5E-C7-FF-48-89-8B-08-01-00-00-E9-65-5E-C7-FF</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>77D7A6</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-81-A1-38-00</ValueOn>
+      <ValueOff>E9-63-A1-38-00</ValueOff>
     </Cheatline>
     <Cheatline>
       <Offset>B0794A</Offset>
@@ -82,10 +162,22 @@
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Offset>77D7A6</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-9F-A1-38-00</ValueOn>
+      <ValueOff>E9-81-A1-38-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
       <Offset>B07968</Offset>
       <Section>0</Section>
       <ValueOn>48-83-7B-4C-00-75-09-48-8B-4B-0C-E9-35-5E-C7-FF-48-89-8B-08-01-00-00-E9-29-5E-C7-FF</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>77D7A6</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-BD-A1-38-00</ValueOn>
+      <ValueOff>E9-9F-A1-38-00</ValueOff>
     </Cheatline>
     <Cheatline>
       <Offset>B07986</Offset>
@@ -94,10 +186,22 @@
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Offset>77D7A6</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-DB-A1-38-00</ValueOn>
+      <ValueOff>E9-BD-A1-38-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
       <Offset>B079A4</Offset>
       <Section>0</Section>
       <ValueOn>48-83-7B-14-00-75-09-48-8B-4B-0C-E9-F9-5D-C7-FF-48-89-8B-08-01-00-00-E9-ED-5D-C7-FF</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>77D7A6</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-F9-A1-38-00</ValueOn>
+      <ValueOff>E9-DB-A1-38-00</ValueOff>
     </Cheatline>
     <Cheatline>
       <Offset>B079C2</Offset>
@@ -105,13 +209,11 @@
       <ValueOn>48-83-7B-50-01-75-09-48-8B-4B-0C-E9-DB-5D-C7-FF-48-89-8B-08-01-00-00-E9-CF-5D-C7-FF</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite-All-Weapon">
     <Cheatline>
-      <Offset>37DD6C</Offset>
+      <Offset>77D7A6</Offset>
       <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>49-89-86-30-01-00-00</ValueOff>
+      <ValueOn>E9-17-A2-38-00</ValueOn>
+      <ValueOff>E9-F9-A1-38-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite-lives">
@@ -122,20 +224,20 @@
       <ValueOff>89-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max + Infinite-Nuts">
-    <Cheatline>
-      <Offset>37DE3E</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90</ValueOn>
-      <ValueOff>8B-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite-Time">
     <Cheatline>
       <Offset>1A8ED</Offset>
       <Section>0</Section>
       <ValueOn>90-90-90-90</ValueOn>
       <ValueOff>C5-FB-11-03</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max + Infinite-Nuts">
+    <Cheatline>
+      <Offset>37DE3E</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90</ValueOn>
+      <ValueOff>8B-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max-money(MC)">

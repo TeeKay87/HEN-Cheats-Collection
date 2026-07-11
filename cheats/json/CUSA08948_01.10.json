@@ -5,13 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Money Increase On Purchase",
+      "name": "Infinity Gifts",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "70D478",
-          "on": "01F0",
-          "off": "29F0"
+          "offset": "6FC955",
+          "on": "9090909090909090",
+          "off": "6689840FC8520100"
         }
       ]
     },
@@ -23,17 +23,6 @@
           "offset": "6FC51F",
           "on": "4401F8",
           "off": "4429F8"
-        }
-      ]
-    },
-    {
-      "name": "Wings Increase in use",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "6EF34C",
-          "on": "01F0",
-          "off": "29F0"
         }
       ]
     },
@@ -54,17 +43,6 @@
       ]
     },
     {
-      "name": "Infinity Gifts",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "6FC955",
-          "on": "9090909090909090",
-          "off": "6689840FC8520100"
-        }
-      ]
-    },
-    {
       "name": "Max Kills",
       "type": "checkbox",
       "memory": [
@@ -77,6 +55,28 @@
           "offset": "6B9E91",
           "on": "E97A9913019090",
           "off": "899C0768290000"
+        }
+      ]
+    },
+    {
+      "name": "Money Increase On Purchase",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "70D478",
+          "on": "01F0",
+          "off": "29F0"
+        }
+      ]
+    },
+    {
+      "name": "Wings Increase in use",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6EF34C",
+          "on": "01F0",
+          "off": "29F0"
         }
       ]
     }

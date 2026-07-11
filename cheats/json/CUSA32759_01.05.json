@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infiniti Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8045E893",
-          "on": "C640180C",
-          "off": "83781800"
-        }
-      ]
-    },
-    {
       "name": "Infinite Arrows",
       "type": "checkbox",
       "memory": [
@@ -39,6 +28,17 @@
           "offset": "80702741",
           "on": "E99EEEFE809090",
           "off": "418B8ED8000000"
+        }
+      ]
+    },
+    {
+      "name": "Infiniti Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8045E893",
+          "on": "C640180C",
+          "off": "83781800"
         }
       ]
     },

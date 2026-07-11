@@ -5,6 +5,22 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Fervor",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "157FE00",
+          "on": "90E953FC827F",
+          "off": "000000000000"
+        },
+        {
+          "offset": "80DAFA54",
+          "on": "E9A7037D80",
+          "off": "E8C794E4FF"
+        }
+      ]
+    },
+    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -33,22 +49,6 @@
           "offset": "80D835B3",
           "on": "E988C97F8090",
           "off": "FF9080010000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Fervor",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "157FE00",
-          "on": "90E953FC827F",
-          "off": "000000000000"
-        },
-        {
-          "offset": "80DAFA54",
-          "on": "E9A7037D80",
-          "off": "E8C794E4FF"
         }
       ]
     },

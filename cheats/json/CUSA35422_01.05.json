@@ -143,6 +143,38 @@
       ]
     },
     {
+      "name": "[07b][Speed] Player x3",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "A63471",
+          "on": "90C5FA10056AD90802F30F58C0F30F58055ED90802E9AC90BAFF90",
+          "off": "000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "60C52F",
+          "on": "E93D6F4500909090",
+          "off": "C5FA1005AD484E02"
+        }
+      ]
+    },
+    {
+      "name": "[07c][Speed] Player x4",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "A63471",
+          "on": "90C5FA10056AD90802F30F58C0F30F58C0E9B090BAFF90",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "60C52F",
+          "on": "E93D6F4500909090",
+          "off": "C5FA1005AD484E02"
+        }
+      ]
+    },
+    {
       "name": "[08][Weapon] Rapidfire",
       "type": "checkbox",
       "memory": [
@@ -202,12 +234,76 @@
       ]
     },
     {
+      "name": "[11b][Jump] x2",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "A632D0",
+          "on": "904C392D28FDAE7F0F85D5C3D5FF41C785B80600000000003FE9C5C3D5FF",
+          "off": "000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "7BF6A8",
+          "on": "E9233C2A00909090909090",
+          "off": "41C785B80600000000803F"
+        }
+      ]
+    },
+    {
+      "name": "[11c][Jump] x4",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "A632D0",
+          "on": "904C392D28FDAE7F0F85D5C3D5FF41C785B80600000000803EE9C5C3D5FF",
+          "off": "000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "7BF6A8",
+          "on": "E9233C2A00909090909090",
+          "off": "41C785B80600000000803F"
+        }
+      ]
+    },
+    {
+      "name": "[11d][Jump] x8",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "A632D0",
+          "on": "904C392D28FDAE7F0F85D5C3D5FF41C785B80600000000003EE9C5C3D5FF",
+          "off": "000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "7BF6A8",
+          "on": "E9233C2A00909090909090",
+          "off": "41C785B80600000000803F"
+        }
+      ]
+    },
+    {
       "name": "[12a][RGB] Red = 1",
       "type": "checkbox",
       "memory": [
         {
           "offset": "A630F0",
           "on": "C746080000803FE9B5A2BAFF",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "60D3AC",
+          "on": "E93F5D4500",
+          "off": "C5FA115E08"
+        }
+      ]
+    },
+    {
+      "name": "[12b][RGB] Red = 8",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "A630F0",
+          "on": "C7460800000041E9B5A2BAFF",
           "off": "000000000000000000000000"
         },
         {
@@ -234,12 +330,44 @@
       ]
     },
     {
+      "name": "[13b][RGB] Green = 8",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "A630E0",
+          "on": "C7460C00000041E9C0A2BAFF",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "60D3A7",
+          "on": "E9345D4500",
+          "off": "C5FA115E0C"
+        }
+      ]
+    },
+    {
       "name": "[14a][RGB] Blue = 1",
       "type": "checkbox",
       "memory": [
         {
           "offset": "A630D0",
           "on": "C746100000803FE9CBA2BAFF",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "60D3A2",
+          "on": "E9295D4500",
+          "off": "C5FA115E10"
+        }
+      ]
+    },
+    {
+      "name": "[14b][RGB] Blue = 8",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "A630D0",
+          "on": "C7461000000041E9CBA2BAFF",
           "off": "000000000000000000000000"
         },
         {

@@ -5,38 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Skill Points (on spend/gain)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5B870",
-          "on": "BBE7030000899FFC000000E93A895C80",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "2241B4",
-          "on": "E9B776A37F90",
-          "off": "899FFC000000"
-        }
-      ]
-    },
-    {
-      "name": "Instant Super Skill Charge (on first kill)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5BE60",
-          "on": "C787000100000000A041E9D9965C80",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "225540",
-          "on": "E91B69A37F909090",
-          "off": "C5FA118700010000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Energy",
       "type": "checkbox",
       "memory": [
@@ -69,6 +37,38 @@
       ]
     },
     {
+      "name": "Infinite Skill Points (on spend/gain)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5B870",
+          "on": "BBE7030000899FFC000000E93A895C80",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "2241B4",
+          "on": "E9B776A37F90",
+          "off": "899FFC000000"
+        }
+      ]
+    },
+    {
+      "name": "Instant Super Skill Charge (on first kill)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5BE60",
+          "on": "C787000100000000A041E9D9965C80",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "225540",
+          "on": "E91B69A37F909090",
+          "off": "C5FA118700010000"
+        }
+      ]
+    },
+    {
       "name": "Godmode",
       "type": "checkbox",
       "memory": [
@@ -91,18 +91,13 @@
       ]
     },
     {
-      "name": "Infinite Special Skill",
+      "name": "Infinite Melee Finisher",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "625540",
-          "on": "9090909090909090",
-          "off": "C5FA118700010000"
-        },
-        {
-          "offset": "1512DF0",
-          "on": "0000A041",
-          "off": "0000A041"
+          "offset": "6254C8",
+          "on": "BE0200000089B7F80000009090",
+          "off": "89B7F800000080BF510D020000"
         }
       ]
     },
@@ -118,13 +113,18 @@
       ]
     },
     {
-      "name": "Infinite Melee Finisher",
+      "name": "Infinite Special Skill",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "6254C8",
-          "on": "BE0200000089B7F80000009090",
-          "off": "89B7F800000080BF510D020000"
+          "offset": "625540",
+          "on": "9090909090909090",
+          "off": "C5FA118700010000"
+        },
+        {
+          "offset": "1512DF0",
+          "on": "0000A041",
+          "off": "0000A041"
         }
       ]
     },
@@ -151,18 +151,13 @@
       ]
     },
     {
-      "name": "Infinite Special Skill",
+      "name": "Infinite Melee Finisher",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "225540",
-          "on": "9090909090909090",
-          "off": "C5FA118700010000"
-        },
-        {
-          "offset": "1112DF0",
-          "on": "0000A041",
-          "off": "0000A041"
+          "offset": "2254C8",
+          "on": "BE0200000089B7F80000009090",
+          "off": "89B7F800000080BF510D020000"
         }
       ]
     },
@@ -178,13 +173,18 @@
       ]
     },
     {
-      "name": "Infinite Melee Finisher",
+      "name": "Infinite Special Skill",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "2254C8",
-          "on": "BE0200000089B7F80000009090",
-          "off": "89B7F800000080BF510D020000"
+          "offset": "225540",
+          "on": "9090909090909090",
+          "off": "C5FA118700010000"
+        },
+        {
+          "offset": "1112DF0",
+          "on": "0000A041",
+          "off": "0000A041"
         }
       ]
     }

@@ -21,22 +21,6 @@
       ]
     },
     {
-      "name": "Inf Studs (On Gain)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7513817",
-          "on": "48C743187F9698004C89EFE96DD636FB",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "2880E8D",
-          "on": "E98529C9049090",
-          "off": "488943184C89EF"
-        }
-      ]
-    },
-    {
       "name": "Inf Kyber Bricks (Turn Off after Use, Value will go negative if don\u0027t unlock all upgrades)",
       "type": "checkbox",
       "memory": [
@@ -49,6 +33,22 @@
           "offset": "34B1412",
           "on": "E9E923060490",
           "off": "0383CC000000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Studs (On Gain)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7513817",
+          "on": "48C743187F9698004C89EFE96DD636FB",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "2880E8D",
+          "on": "E98529C9049090",
+          "off": "488943184C89EF"
         }
       ]
     }

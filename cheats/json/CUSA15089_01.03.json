@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "46CFDB0",
-          "on": "C7432C0000803FE99F137EFD526564646576696C3832202D20465720392E3030",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "1EB1156",
-          "on": "E955EC8102",
-          "off": "C5FA11432C"
-        }
-      ]
-    },
-    {
       "name": "Infinite Energy / Ammo",
       "type": "checkbox",
       "memory": [
@@ -33,6 +17,22 @@
           "offset": "2757B80",
           "on": "E94B82F701",
           "off": "C5F810462C"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "46CFDB0",
+          "on": "C7432C0000803FE99F137EFD526564646576696C3832202D20465720392E3030",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "1EB1156",
+          "on": "E955EC8102",
+          "off": "C5FA11432C"
         }
       ]
     },
@@ -54,7 +54,7 @@
     }
   ],
   "credits": [
-    "Reddevil82 ",
-    "  FW 9.00"
+    "Reddevil82",
+    "FW 9.00"
   ]
 }

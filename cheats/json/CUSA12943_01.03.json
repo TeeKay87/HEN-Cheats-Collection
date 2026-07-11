@@ -21,22 +21,6 @@
       ]
     },
     {
-      "name": "Max Stars",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "153BDD5",
-          "on": "488B7C24F8C74764E70300008B4764E9F4C2E57E",
-          "off": "0000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "803980D5",
-          "on": "E9FB3C1A81909090",
-          "off": "488B7C24F88B4764"
-        }
-      ]
-    },
-    {
       "name": "Max Ammo",
       "type": "checkbox",
       "memory": [
@@ -51,10 +35,26 @@
           "off": "8B7424F4897768"
         }
       ]
+    },
+    {
+      "name": "Max Stars",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "153BDD5",
+          "on": "488B7C24F8C74764E70300008B4764E9F4C2E57E",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "803980D5",
+          "on": "E9FB3C1A81909090",
+          "off": "488B7C24F88B4764"
+        }
+      ]
     }
   ],
   "credits": [
-    "Reddevil82 ",
-    " FW 9.00"
+    "Reddevil82",
+    "FW 9.00"
   ]
 }

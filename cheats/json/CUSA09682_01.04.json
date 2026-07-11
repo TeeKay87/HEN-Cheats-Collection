@@ -5,34 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "0 Weight",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "363F800",
-          "on": "41C787A40400000000C842C4C17A1097A4040000E9D06078FF",
-          "off": "00000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "2DC58E0",
-          "on": "E91B9F870090909090",
-          "off": "C4C17A1097A4040000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "363F819",
-          "on": "41C787A80400000000E642C4C17A1087A8040000E9116178FF",
-          "off": "00000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "2DC593A",
-          "on": "E9DA9E870090909090",
-          "off": "C4C17A1087A8040000"
+          "offset": "2E1C8D1",
+          "on": "C4C17A11460C",
+          "off": "C4C17A11461C"
         }
       ]
     },
@@ -53,6 +32,22 @@
       ]
     },
     {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "363F800",
+          "on": "41C787A40400000000C842C4C17A1097A4040000E9D06078FF",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "2DC58E0",
+          "on": "E91B9F870090909090",
+          "off": "C4C17A1097A4040000"
+        }
+      ]
+    },
+    {
       "name": "Infinite Nourishment",
       "type": "checkbox",
       "memory": [
@@ -69,13 +64,18 @@
       ]
     },
     {
-      "name": "0 Weight",
+      "name": "Infinite Stamina",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "2E1C8D1",
-          "on": "C4C17A11460C",
-          "off": "C4C17A11461C"
+          "offset": "363F819",
+          "on": "41C787A80400000000E642C4C17A1087A8040000E9116178FF",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "2DC593A",
+          "on": "E9DA9E870090909090",
+          "off": "C4C17A1087A8040000"
         }
       ]
     },

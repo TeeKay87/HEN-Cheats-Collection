@@ -16,14 +16,6 @@
       <ValueOff>C5-FA-10-44-24-F4</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Stamina">
-    <Cheatline>
-      <Offset>635AC0</Offset>
-      <Section>14</Section>
-      <ValueOn>C5-FA-10-40-44-90</ValueOn>
-      <ValueOff>C5-FA-10-44-24-F4</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Inf Items">
     <Cheatline>
       <Offset>84346200</Offset>
@@ -36,6 +28,14 @@
       <Section>0</Section>
       <ValueOn>E9-2D-CA-CD-03-90-90</ValueOn>
       <ValueOff>8B-4C-24-F4-89-48-18</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Inf Stamina">
+    <Cheatline>
+      <Offset>635AC0</Offset>
+      <Section>14</Section>
+      <ValueOn>C5-FA-10-40-44-90</ValueOn>
+      <ValueOff>C5-FA-10-44-24-F4</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Super Jump (Master Code)">

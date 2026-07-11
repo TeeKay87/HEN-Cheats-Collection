@@ -5,38 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite weapon Durability",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5FDE0",
-          "on": "41C7863C0100000000C842E95A236102",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "82272141",
-          "on": "E99ADC9EFD90909090",
-          "off": "C4C17A11863C010000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5DB50",
-          "on": "41C786A40000000000C842E916F65002",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "8216D16D",
-          "on": "E9DE09AFFD90909090",
-          "off": "C4C17A118EA4000000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Breath",
       "type": "checkbox",
       "memory": [
@@ -53,18 +21,18 @@
       ]
     },
     {
-      "name": "Infinite Thirst",
+      "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5FE20",
-          "on": "41C7475400002F44E914B95002",
+          "offset": "7FC5CE20",
+          "on": "41C7474C00002F44E9E8E85002",
           "off": "00000000000000000000000000"
         },
         {
-          "offset": "8216B73B",
-          "on": "E9E046AFFD90",
-          "off": "C4C17A114754"
+          "offset": "8216B70F",
+          "on": "E90C17AFFD90",
+          "off": "C4C17A11474C"
         }
       ]
     },
@@ -85,18 +53,50 @@
       ]
     },
     {
-      "name": "Infinite Health",
+      "name": "Infinite Stamina",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5CE20",
-          "on": "41C7474C00002F44E9E8E85002",
+          "offset": "7FC5DB50",
+          "on": "41C786A40000000000C842E916F65002",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "8216D16D",
+          "on": "E9DE09AFFD90909090",
+          "off": "C4C17A118EA4000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Thirst",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5FE20",
+          "on": "41C7475400002F44E914B95002",
           "off": "00000000000000000000000000"
         },
         {
-          "offset": "8216B70F",
-          "on": "E90C17AFFD90",
-          "off": "C4C17A11474C"
+          "offset": "8216B73B",
+          "on": "E9E046AFFD90",
+          "off": "C4C17A114754"
+        }
+      ]
+    },
+    {
+      "name": "Infinite weapon Durability",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5FDE0",
+          "on": "41C7863C0100000000C842E95A236102",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "82272141",
+          "on": "E99ADC9EFD90909090",
+          "off": "C4C17A11863C010000"
         }
       ]
     }

@@ -6,20 +6,20 @@
   <Genres Name="RPG" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Infinite Ammo">
-    <Cheatline>
-      <Offset>53C6D7</Offset>
-      <Section>61</Section>
-      <ValueOn>90-90-90</ValueOn>
-      <ValueOff>44-29-FB</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Bottomless Clip / Infinite Grenades">
     <Cheatline>
       <Offset>537B42</Offset>
       <Section>61</Section>
       <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
       <ValueOff>41-89-9C-24-F0-0E-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Ammo">
+    <Cheatline>
+      <Offset>53C6D7</Offset>
+      <Section>61</Section>
+      <ValueOn>90-90-90</ValueOn>
+      <ValueOff>44-29-FB</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

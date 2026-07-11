@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Upgrade Points",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5EDB0",
-          "on": "66418180080100000F27E9B8B6B480",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "7AA470",
-          "on": "E93B494B7F9090",
-          "off": "41018008010000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -33,6 +17,22 @@
           "offset": "BF2E99",
           "on": "E9CAFC5B01",
           "off": "C5EA2A0488"
+        }
+      ]
+    },
+    {
+      "name": "Max Upgrade Points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5EDB0",
+          "on": "66418180080100000F27E9B8B6B480",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "7AA470",
+          "on": "E93B494B7F9090",
+          "off": "41018008010000"
         }
       ]
     }

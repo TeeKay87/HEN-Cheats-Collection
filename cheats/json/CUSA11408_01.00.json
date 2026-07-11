@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Clip Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "4D3B20",
-          "on": "90909090909090",
-          "off": "6689B3D2050000"
-        }
-      ]
-    },
-    {
       "name": "Inf Air Filter",
       "type": "checkbox",
       "memory": [
@@ -23,6 +12,17 @@
           "offset": "58D676",
           "on": "9090909090909090",
           "off": "C5FA1183B00A0000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Clip Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4D3B20",
+          "on": "90909090909090",
+          "off": "6689B3D2050000"
         }
       ]
     },

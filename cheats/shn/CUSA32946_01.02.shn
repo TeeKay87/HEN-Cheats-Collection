@@ -16,6 +16,20 @@
       <ValueOff>41-89-9C-24-8C-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="Infinite Lives">
+    <Cheatline>
+      <Offset>7FC5FA60</Offset>
+      <Section>0</Section>
+      <ValueOn>90-E9-62-32-94-00</ValueOn>
+      <ValueOff>00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>805A2CC2</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-99-CD-6B-FF-90</ValueOn>
+      <ValueOff>FF-8B-94-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Infinite Super">
     <Cheatline>
       <Offset>7FC5F990</Offset>
@@ -34,20 +48,6 @@
       <Section>14</Section>
       <ValueOn>90-90</ValueOn>
       <ValueOff>29-C3</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Lives">
-    <Cheatline>
-      <Offset>7FC5FA60</Offset>
-      <Section>0</Section>
-      <ValueOn>90-E9-62-32-94-00</ValueOn>
-      <ValueOff>00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>805A2CC2</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-99-CD-6B-FF-90</ValueOn>
-      <ValueOff>FF-8B-94-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="[01] Immunity">

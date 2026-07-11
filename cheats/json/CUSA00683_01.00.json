@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Air Pressure In Gun",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "626D7A",
+          "on": "9090909090909090",
+          "off": "C5FA1183000C0000"
+        }
+      ]
+    },
+    {
       "name": "Infinite Ammo",
       "type": "checkbox",
       "memory": [
@@ -12,17 +23,6 @@
           "offset": "610E9D",
           "on": "9090909090909090",
           "off": "4189B42458040000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Reload Ammo / Bullet Currency",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5EC11A",
-          "on": "41898E00050000",
-          "off": "4189B600050000"
         }
       ]
     },
@@ -38,11 +38,22 @@
       ]
     },
     {
+      "name": "Infinite Reload Ammo / Bullet Currency",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5EC11A",
+          "on": "41898E00050000",
+          "off": "4189B600050000"
+        }
+      ]
+    },
+    {
       "name": "Infinite Air Pressure In Gun",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "626D7A",
+          "offset": "226D7A",
           "on": "9090909090909090",
           "off": "C5FA1183000C0000"
         }
@@ -60,17 +71,6 @@
       ]
     },
     {
-      "name": "Infinite Reload Ammo / Bullet Currency",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1EC11A",
-          "on": "41898E00050000",
-          "off": "4189B600050000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Gasmask Filter",
       "type": "checkbox",
       "memory": [
@@ -82,13 +82,13 @@
       ]
     },
     {
-      "name": "Infinite Air Pressure In Gun",
+      "name": "Infinite Reload Ammo / Bullet Currency",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "226D7A",
-          "on": "9090909090909090",
-          "off": "C5FA1183000C0000"
+          "offset": "1EC11A",
+          "on": "41898E00050000",
+          "off": "4189B600050000"
         }
       ]
     }

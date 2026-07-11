@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Lives",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "80102B7A",
-          "on": "909090",
-          "off": "FF4844"
-        }
-      ]
-    },
-    {
       "name": "Inf Coins",
       "type": "checkbox",
       "memory": [
@@ -28,6 +17,17 @@
           "offset": "80103E92",
           "on": "E96931C1FF90",
           "off": "015838498B3E"
+        }
+      ]
+    },
+    {
+      "name": "Inf Lives",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80102B7A",
+          "on": "909090",
+          "off": "FF4844"
         }
       ]
     }

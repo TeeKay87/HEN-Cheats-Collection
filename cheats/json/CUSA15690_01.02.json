@@ -32,6 +32,17 @@
       ]
     },
     {
+      "name": "food never decrease",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "F658E4",
+          "on": "9090909090",
+          "off": "E8F7060000"
+        }
+      ]
+    },
+    {
       "name": "inf overdrive",
       "type": "checkbox",
       "memory": [
@@ -39,6 +50,22 @@
           "offset": "E0C2B3",
           "on": "9090909090",
           "off": "E828DC9C00"
+        }
+      ]
+    },
+    {
+      "name": "inf stockpiles (disable to be able to remove one)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2713800",
+          "on": "C74058F401000048C1E320E9859D7DFE",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "EED58E",
+          "on": "E96D6282019090",
+          "off": "89485848C1E320"
         }
       ]
     },
@@ -70,39 +97,28 @@
       ]
     },
     {
-      "name": "food never decrease",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "F658E4",
-          "on": "9090909090",
-          "off": "E8F7060000"
-        }
-      ]
-    },
-    {
-      "name": "inf stockpiles (disable to be able to remove one)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2713800",
-          "on": "C74058F401000048C1E320E9859D7DFE",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "EED58E",
-          "on": "E96D6282019090",
-          "off": "89485848C1E320"
-        }
-      ]
-    },
-    {
       "name": "set all resources to 200 OR",
       "type": "checkbox",
       "memory": [
         {
           "offset": "2713812",
           "on": "41C7440E08C8000000E9A10995FE",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "10641BC",
+          "on": "E951F66A01",
+          "off": "45897C0E08"
+        }
+      ]
+    },
+    {
+      "name": "set all resources to 9999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2713812",
+          "on": "41C7440E080F270000E9A10995FE",
           "off": "0000000000000000000000000000"
         },
         {

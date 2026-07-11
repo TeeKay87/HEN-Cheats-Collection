@@ -5,28 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Arrows/Clubs/spears",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "14EF920",
-          "on": "9090",
-          "off": "8903"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Throwables",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "244438E",
-          "on": "9090909090909090",
-          "off": "41899C2488000000"
-        }
-      ]
-    },
-    {
       "name": "Earn Skills On Spend",
       "type": "checkbox",
       "memory": [
@@ -34,6 +12,17 @@
           "offset": "DC7580",
           "on": "034850",
           "off": "2B4850"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Arrows/Clubs/spears",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "14EF920",
+          "on": "9090",
+          "off": "8903"
         }
       ]
     },
@@ -49,82 +38,46 @@
       ]
     },
     {
-      "name": "Movement Faster MasterCode",
+      "name": "Infinite Throwables",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "355B832",
-          "on": "837840047402EB3081B8B80000000000803F7424C780B80000000000803FEB1881B8B80000000000C040740CC780B80000000000C040EB00C5FA1080B8000000E9032F03FE",
-          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "158E772",
-          "on": "E9BBD0FC01909090",
-          "off": "C5FA1080B8000000"
+          "offset": "244438E",
+          "on": "9090909090909090",
+          "off": "41899C2488000000"
         }
       ]
     },
     {
-      "name": "Run/Swim Faster MasterCode",
+      "name": "Easy Climb (Reduce Slipp.)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "355B877",
-          "on": "837840047402EB3081B8BC0000000000803F7424C780BC0000000000803FEB1881B8BC0000000000C040740CC780BC0000000000C040EB00C5FA1080BC000000E9B42E03FE",
-          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "158E768",
-          "on": "E90AD1FC01909090",
-          "off": "C5FA1080BC000000"
+          "offset": "355B946",
+          "on": "7414",
+          "off": "7402"
         }
       ]
     },
     {
-      "name": "Gravity MasterCode",
+      "name": "Floating/Fly [Multi Tap X (Jump)]",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "355B8BC",
-          "on": "837B200074047526EB24817B500000803F741BC743500000803FEB12817B509A99993E7409C743509A99993EEB0041FF513044896320E95DBD37FF",
-          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "28D764C",
-          "on": "E96B42C800909090",
-          "off": "41FF513044896320"
+          "offset": "28D2AFD",
+          "on": "895A08",
+          "off": "894208"
         }
       ]
     },
     {
-      "name": "Super Jump MasterCode",
+      "name": "Forward Day Time",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "355B8F7",
-          "on": "83BFB80A0000007402EB3081BF901000000000803F7424C787901000000000803FEB1881BF9010000000007042740CC7879010000000007042EB00C5FA598790100000E9F02E03FE",
-          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "158E827",
-          "on": "E9CBD0FC01909090",
-          "off": "C5FA598790100000"
-        }
-      ]
-    },
-    {
-      "name": "Reduce Slipp. MasterCode",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "355B93F",
-          "on": "83BBB0000000017402EB24817B2C66663442741BC7432C66663442EB12817B2CF02374497409C7432CF0237449EB00C5FA10632CE9C24506FE",
-          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "15BFF35",
-          "on": "E905BAF901",
-          "off": "C5FA10632C"
+          "offset": "355B97C",
+          "on": "7414",
+          "off": "7402"
         }
       ]
     },
@@ -145,13 +98,18 @@
       ]
     },
     {
-      "name": "Infinite Health Player",
+      "name": "Gravity MasterCode",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "142E438",
-          "on": "41895E34",
-          "off": "418B5E34"
+          "offset": "355B8BC",
+          "on": "837B200074047526EB24817B500000803F741BC743500000803FEB12817B509A99993E7409C743509A99993EEB0041FF513044896320E95DBD37FF",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "28D764C",
+          "on": "E96B42C800909090",
+          "off": "41FF513044896320"
         }
       ]
     },
@@ -172,6 +130,17 @@
       ]
     },
     {
+      "name": "Infinite Health Player",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "142E438",
+          "on": "41895E34",
+          "off": "418B5E34"
+        }
+      ]
+    },
+    {
       "name": "Infinite Skill Points",
       "type": "checkbox",
       "memory": [
@@ -188,28 +157,6 @@
       ]
     },
     {
-      "name": "Movement Faster",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "355B836",
-          "on": "741A",
-          "off": "7402"
-        }
-      ]
-    },
-    {
-      "name": "Run/Swim Faster (Press L3)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "355B87B",
-          "on": "741A",
-          "off": "7402"
-        }
-      ]
-    },
-    {
       "name": "Low Gravity",
       "type": "checkbox",
       "memory": [
@@ -221,24 +168,29 @@
       ]
     },
     {
-      "name": "Super Jump",
+      "name": "Movement Faster",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "355B8FE",
+          "offset": "355B836",
           "on": "741A",
           "off": "7402"
         }
       ]
     },
     {
-      "name": "Easy Climb (Reduce Slipp.)",
+      "name": "Movement Faster MasterCode",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "355B946",
-          "on": "7414",
-          "off": "7402"
+          "offset": "355B832",
+          "on": "837840047402EB3081B8B80000000000803F7424C780B80000000000803FEB1881B8B80000000000C040740CC780B80000000000C040EB00C5FA1080B8000000E9032F03FE",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "158E772",
+          "on": "E9BBD0FC01909090",
+          "off": "C5FA1080B8000000"
         }
       ]
     },
@@ -254,24 +206,45 @@
       ]
     },
     {
-      "name": "Forward Day Time",
+      "name": "Reduce Slipp. MasterCode",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "355B97C",
-          "on": "7414",
+          "offset": "355B93F",
+          "on": "83BBB0000000017402EB24817B2C66663442741BC7432C66663442EB12817B2CF02374497409C7432CF0237449EB00C5FA10632CE9C24506FE",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "15BFF35",
+          "on": "E905BAF901",
+          "off": "C5FA10632C"
+        }
+      ]
+    },
+    {
+      "name": "Run/Swim Faster (Press L3)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "355B87B",
+          "on": "741A",
           "off": "7402"
         }
       ]
     },
     {
-      "name": "Floating/Fly [Multi Tap X (Jump)]",
+      "name": "Run/Swim Faster MasterCode",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "28D2AFD",
-          "on": "895A08",
-          "off": "894208"
+          "offset": "355B877",
+          "on": "837840047402EB3081B8BC0000000000803F7424C780BC0000000000803FEB1881B8BC0000000000C040740CC780BC0000000000C040EB00C5FA1080BC000000E9B42E03FE",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "158E768",
+          "on": "E90AD1FC01909090",
+          "off": "C5FA1080BC000000"
         }
       ]
     },
@@ -283,6 +256,33 @@
           "offset": "142DFE8",
           "on": "909090909090",
           "off": "0F84A9000000"
+        }
+      ]
+    },
+    {
+      "name": "Super Jump",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "355B8FE",
+          "on": "741A",
+          "off": "7402"
+        }
+      ]
+    },
+    {
+      "name": "Super Jump MasterCode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "355B8F7",
+          "on": "83BFB80A0000007402EB3081BF901000000000803F7424C787901000000000803FEB1881BF9010000000007042740CC7879010000000007042EB00C5FA598790100000E9F02E03FE",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "158E827",
+          "on": "E9CBD0FC01909090",
+          "off": "C5FA598790100000"
         }
       ]
     }

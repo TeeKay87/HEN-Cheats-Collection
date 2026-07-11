@@ -127,6 +127,34 @@
       <ValueOff>C5-FA-10-05-AD-48-4E-02</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="[07b][Speed] Player x3">
+    <Cheatline>
+      <Offset>A63471</Offset>
+      <Section>0</Section>
+      <ValueOn>90-C5-FA-10-05-6A-D9-08-02-F3-0F-58-C0-F3-0F-58-05-5E-D9-08-02-E9-AC-90-BA-FF-90</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>60C52F</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-3D-6F-45-00-90-90-90</ValueOn>
+      <ValueOff>C5-FA-10-05-AD-48-4E-02</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[07c][Speed] Player x4">
+    <Cheatline>
+      <Offset>A63471</Offset>
+      <Section>0</Section>
+      <ValueOn>90-C5-FA-10-05-6A-D9-08-02-F3-0F-58-C0-F3-0F-58-C0-E9-B0-90-BA-FF-90</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>60C52F</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-3D-6F-45-00-90-90-90</ValueOn>
+      <ValueOff>C5-FA-10-05-AD-48-4E-02</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="[08][Weapon] Rapidfire">
     <Cheatline>
       <Offset>A63220</Offset>
@@ -177,11 +205,67 @@
       <ValueOff>41-C7-85-B8-06-00-00-00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="[11b][Jump] x2">
+    <Cheatline>
+      <Offset>A632D0</Offset>
+      <Section>0</Section>
+      <ValueOn>90-4C-39-2D-28-FD-AE-7F-0F-85-D5-C3-D5-FF-41-C7-85-B8-06-00-00-00-00-00-3F-E9-C5-C3-D5-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>7BF6A8</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-23-3C-2A-00-90-90-90-90-90-90</ValueOn>
+      <ValueOff>41-C7-85-B8-06-00-00-00-00-80-3F</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[11c][Jump] x4">
+    <Cheatline>
+      <Offset>A632D0</Offset>
+      <Section>0</Section>
+      <ValueOn>90-4C-39-2D-28-FD-AE-7F-0F-85-D5-C3-D5-FF-41-C7-85-B8-06-00-00-00-00-80-3E-E9-C5-C3-D5-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>7BF6A8</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-23-3C-2A-00-90-90-90-90-90-90</ValueOn>
+      <ValueOff>41-C7-85-B8-06-00-00-00-00-80-3F</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[11d][Jump] x8">
+    <Cheatline>
+      <Offset>A632D0</Offset>
+      <Section>0</Section>
+      <ValueOn>90-4C-39-2D-28-FD-AE-7F-0F-85-D5-C3-D5-FF-41-C7-85-B8-06-00-00-00-00-00-3E-E9-C5-C3-D5-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>7BF6A8</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-23-3C-2A-00-90-90-90-90-90-90</ValueOn>
+      <ValueOff>41-C7-85-B8-06-00-00-00-00-80-3F</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="[12a][RGB] Red = 1" Description="These last cheats are just some light effects on shadows. Turn them ON to 8 to have more light.">
     <Cheatline>
       <Offset>A630F0</Offset>
       <Section>0</Section>
       <ValueOn>C7-46-08-00-00-80-3F-E9-B5-A2-BA-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>60D3AC</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-3F-5D-45-00</ValueOn>
+      <ValueOff>C5-FA-11-5E-08</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[12b][RGB] Red = 8">
+    <Cheatline>
+      <Offset>A630F0</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-46-08-00-00-00-41-E9-B5-A2-BA-FF</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
@@ -205,11 +289,39 @@
       <ValueOff>C5-FA-11-5E-0C</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="[13b][RGB] Green = 8">
+    <Cheatline>
+      <Offset>A630E0</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-46-0C-00-00-00-41-E9-C0-A2-BA-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>60D3A7</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-34-5D-45-00</ValueOn>
+      <ValueOff>C5-FA-11-5E-0C</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="[14a][RGB] Blue = 1">
     <Cheatline>
       <Offset>A630D0</Offset>
       <Section>0</Section>
       <ValueOn>C7-46-10-00-00-80-3F-E9-CB-A2-BA-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>60D3A2</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-29-5D-45-00</ValueOn>
+      <ValueOff>C5-FA-11-5E-10</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[14b][RGB] Blue = 8">
+    <Cheatline>
+      <Offset>A630D0</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-46-10-00-00-00-41-E9-CB-A2-BA-FF</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>

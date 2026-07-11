@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8CB87D",
-          "on": "4889CA668910E98B0EAAFF",
-          "off": "0000000000000000000000"
-        },
-        {
-          "offset": "36C6CF",
-          "on": "E9A9F1550090",
-          "off": "6689106685D2"
-        }
-      ]
-    },
-    {
       "name": "1 Hit Kill (Small enemies only)",
       "type": "checkbox",
       "memory": [
@@ -37,34 +21,29 @@
       ]
     },
     {
-      "name": "Max Yen On Gain",
+      "name": "Infinite Double Jump (After It Is Unlocked)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "8CB860",
-          "on": "C74110FFE0F505E9FA11B1FF",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "3DCA30",
-          "on": "E92BEE4E00",
-          "off": "8971107E31"
+          "offset": "2D4704",
+          "on": "90909090909090",
+          "off": "41888D45110000"
         }
       ]
     },
     {
-      "name": "Max Karma On Gain",
+      "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "8CB900",
-          "on": "48C7C20F27000089500AE9E711AAFF",
-          "off": "000000000000000000000000000000"
+          "offset": "8CB87D",
+          "on": "4889CA668910E98B0EAAFF",
+          "off": "0000000000000000000000"
         },
         {
-          "offset": "36CAAD",
-          "on": "E94EEE5500909090",
-          "off": "6689500A66BA0F27"
+          "offset": "36C6CF",
+          "on": "E9A9F1550090",
+          "off": "6689106685D2"
         }
       ]
     },
@@ -85,13 +64,34 @@
       ]
     },
     {
-      "name": "Infinite Double Jump (After It Is Unlocked)",
+      "name": "Max Karma On Gain",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "2D4704",
-          "on": "90909090909090",
-          "off": "41888D45110000"
+          "offset": "8CB900",
+          "on": "48C7C20F27000089500AE9E711AAFF",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "36CAAD",
+          "on": "E94EEE5500909090",
+          "off": "6689500A66BA0F27"
+        }
+      ]
+    },
+    {
+      "name": "Max Yen On Gain",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8CB860",
+          "on": "C74110FFE0F505E9FA11B1FF",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "3DCA30",
+          "on": "E92BEE4E00",
+          "off": "8971107E31"
         }
       ]
     },

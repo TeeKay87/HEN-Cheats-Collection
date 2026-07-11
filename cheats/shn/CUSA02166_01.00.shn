@@ -4,6 +4,22 @@
   <Genres Name="Arcade" />
   <Genres Name="Fighting" />
   <Items />
+  <Cheat Text="Inf Health" Description="Inf Health">
+    <Cheatline>
+      <Offset>17ADE</Offset>
+      <Section>0</Section>
+      <ValueOn>45-89-F4-90</ValueOn>
+      <ValueOff>45-0F-48-E5</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Inf Katana Meter" Description="Inf Katana Meter">
+    <Cheatline>
+      <Offset>13A7F</Offset>
+      <Section>0</Section>
+      <ValueOn>89-C3-90</ValueOn>
+      <ValueOff>0F-4E-D8</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Max Combo" Description="Max Combo">
     <Cheatline>
       <Offset>1DF1F</Offset>
@@ -18,22 +34,6 @@
       <Section>0</Section>
       <ValueOn>01-83-30-08-00-00</ValueOn>
       <ValueOff>01-B3-30-08-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Inf Katana Meter" Description="Inf Katana Meter">
-    <Cheatline>
-      <Offset>13A7F</Offset>
-      <Section>0</Section>
-      <ValueOn>89-C3-90</ValueOn>
-      <ValueOff>0F-4E-D8</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Inf Health" Description="Inf Health">
-    <Cheatline>
-      <Offset>17ADE</Offset>
-      <Section>0</Section>
-      <ValueOn>45-89-F4-90</ValueOn>
-      <ValueOff>45-0F-48-E5</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

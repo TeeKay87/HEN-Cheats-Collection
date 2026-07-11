@@ -3,20 +3,6 @@
   <Genres Name="Action" />
   <Genres Name="Fighting" />
   <Items />
-  <Cheat Text="Max/Infinite Health/1 Hit Kill (Master Code)">
-    <Cheatline>
-      <Offset>1923DB0</Offset>
-      <Section>0</Section>
-      <ValueOn>41-80-7F-30-00-75-1A-C4-C1-7A-10-87-50-01-00-00-C4-C1-7A-11-87-F0-00-00-00-E9-F0-85-78-FE-0F-57-C0-C4-C1-7A-11-87-F0-00-00-00-E9-DF-85-78-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>AC3B5</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-F6-79-87-01-90-90-90-90</ValueOn>
-      <ValueOff>C4-C1-7A-11-87-F0-00-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="1 Hit Kill (Enable MC)">
     <Cheatline>
       <Offset>1923DB5</Offset>
@@ -25,18 +11,18 @@
       <ValueOff>75-1A</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina">
+  <Cheat Text="Infinite Attribute Points (Activate/Exit/Enter)">
     <Cheatline>
-      <Offset>1923A00</Offset>
+      <Offset>1923A50</Offset>
       <Section>0</Section>
-      <ValueOn>C4-C1-7A-10-86-60-01-00-00-C4-C1-7A-11-86-5C-01-00-00-E9-01-8D-78-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+      <ValueOn>41-C7-86-00-02-00-00-58-02-00-00-E9-3E-1E-C4-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>AC70F</Offset>
+      <Offset>565897</Offset>
       <Section>0</Section>
-      <ValueOn>E9-EC-72-87-01-90-90-90-90</ValueOn>
-      <ValueOff>C4-C1-7A-11-86-5C-01-00-00</ValueOff>
+      <ValueOn>E9-B4-E1-3B-01-90-90</ValueOn>
+      <ValueOff>45-89-BE-00-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Ki">
@@ -53,12 +39,18 @@
       <ValueOff>C4-C1-7A-11-97-FC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Zeni">
+  <Cheat Text="Infinite Stamina">
     <Cheatline>
-      <Offset>8A1A8B</Offset>
+      <Offset>1923A00</Offset>
       <Section>0</Section>
-      <ValueOn>BB-00-CA-9A-3B-90</ValueOn>
-      <ValueOff>81-FB-00-CA-9A-3B</ValueOff>
+      <ValueOn>C4-C1-7A-10-86-60-01-00-00-C4-C1-7A-11-86-5C-01-00-00-E9-01-8D-78-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>AC70F</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-EC-72-87-01-90-90-90-90</ValueOn>
+      <ValueOff>C4-C1-7A-11-86-5C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite TP On Activation">
@@ -75,18 +67,26 @@
       <ValueOff>8B-4F-70-39-4F-6C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Attribute Points (Activate/Exit/Enter)">
+  <Cheat Text="Infinite Zeni">
     <Cheatline>
-      <Offset>1923A50</Offset>
+      <Offset>8A1A8B</Offset>
       <Section>0</Section>
-      <ValueOn>41-C7-86-00-02-00-00-58-02-00-00-E9-3E-1E-C4-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+      <ValueOn>BB-00-CA-9A-3B-90</ValueOn>
+      <ValueOff>81-FB-00-CA-9A-3B</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max/Infinite Health/1 Hit Kill (Master Code)">
+    <Cheatline>
+      <Offset>1923DB0</Offset>
+      <Section>0</Section>
+      <ValueOn>41-80-7F-30-00-75-1A-C4-C1-7A-10-87-50-01-00-00-C4-C1-7A-11-87-F0-00-00-00-E9-F0-85-78-FE-0F-57-C0-C4-C1-7A-11-87-F0-00-00-00-E9-DF-85-78-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>565897</Offset>
+      <Offset>AC3B5</Offset>
       <Section>0</Section>
-      <ValueOn>E9-B4-E1-3B-01-90-90</ValueOn>
-      <ValueOff>45-89-BE-00-02-00-00</ValueOff>
+      <ValueOn>E9-F6-79-87-01-90-90-90-90</ValueOn>
+      <ValueOff>C4-C1-7A-11-87-F0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

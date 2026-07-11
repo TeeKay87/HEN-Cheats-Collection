@@ -5,6 +5,39 @@
   "process": "gz.elf",
   "mods": [
     {
+      "name": "Enemy Cannot Reach You",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "136EE20",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "Freeze Enemy",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "40CC00",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "God Mode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "C34950",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
       "name": "Infinite Ammo",
       "type": "checkbox",
       "memory": [
@@ -32,17 +65,6 @@
       ]
     },
     {
-      "name": "God Mode",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "C34950",
-          "on": "C3",
-          "off": "55"
-        }
-      ]
-    },
-    {
       "name": "Infinite Reload",
       "type": "checkbox",
       "memory": [
@@ -55,28 +77,6 @@
           "offset": "B03DCE",
           "on": "E93AFAAC01",
           "off": "0F42F98938"
-        }
-      ]
-    },
-    {
-      "name": "Enemy Cannot Reach You",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "136EE20",
-          "on": "C3",
-          "off": "55"
-        }
-      ]
-    },
-    {
-      "name": "Freeze Enemy",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "40CC00",
-          "on": "C3",
-          "off": "55"
         }
       ]
     }

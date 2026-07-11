@@ -4,18 +4,12 @@
   <Genres Name="Adventure" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Experience Multiplier">
     <Cheatline>
-      <Offset>127B640</Offset>
+      <Offset>6E40DA</Offset>
       <Section>0</Section>
-      <ValueOn>80-BB-84-00-00-00-01-75-09-C7-43-60-00-00-16-43-EB-05-C5-FA-11-4B-60-E9-3D-14-09-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>30CA94</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-A7-EB-F6-00</ValueOn>
-      <ValueOff>C5-FA-11-4B-60</ValueOff>
+      <ValueOn>49-01-45-08</ValueOn>
+      <ValueOff>49-89-45-08</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Ammo">
@@ -32,12 +26,18 @@
       <ValueOff>0F-46-FE-89-79-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Experience Multiplier">
+  <Cheat Text="Infinite Health">
     <Cheatline>
-      <Offset>6E40DA</Offset>
+      <Offset>127B640</Offset>
       <Section>0</Section>
-      <ValueOn>49-01-45-08</ValueOn>
-      <ValueOff>49-89-45-08</ValueOff>
+      <ValueOn>80-BB-84-00-00-00-01-75-09-C7-43-60-00-00-16-43-EB-05-C5-FA-11-4B-60-E9-3D-14-09-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>30CA94</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-A7-EB-F6-00</ValueOn>
+      <ValueOff>C5-FA-11-4B-60</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max items(turn on grabbing items and turn off to use items)">

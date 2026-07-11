@@ -5,6 +5,50 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Ceramics Never Decrease",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2C693E6",
+          "on": "909090",
+          "off": "4829F1"
+        }
+      ]
+    },
+    {
+      "name": "Chemicals Never Decrease",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2C69404",
+          "on": "909090",
+          "off": "4829F1"
+        }
+      ]
+    },
+    {
+      "name": "crystals Never Decrease",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2C6938D",
+          "on": "909090",
+          "off": "4829F1"
+        }
+      ]
+    },
+    {
+      "name": "Infinite (repair spray/ ladder/PCC/climbing anchor )",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1845743",
+          "on": "9090",
+          "off": "29F0"
+        }
+      ]
+    },
+    {
       "name": "Infinite Ammo",
       "type": "checkbox",
       "memory": [
@@ -16,17 +60,6 @@
       ]
     },
     {
-      "name": "Infinite Ammo (sticky gun)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1845743",
-          "on": "9090",
-          "off": "29F0"
-        }
-      ]
-    },
-    {
       "name": "Infinite health",
       "type": "checkbox",
       "memory": [
@@ -34,17 +67,6 @@
           "offset": "179786E",
           "on": "90909090",
           "off": "C5FA1100"
-        }
-      ]
-    },
-    {
-      "name": "run with  (max cargo)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1EF2D72",
-          "on": "9090909090",
-          "off": "C5FA11400C"
         }
       ]
     },
@@ -71,24 +93,13 @@
       ]
     },
     {
-      "name": "crystals Never Decrease",
+      "name": "run with  (max cargo)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "2C6938D",
-          "on": "909090",
-          "off": "4829F1"
-        }
-      ]
-    },
-    {
-      "name": "Ceramics Never Decrease",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2C693E6",
-          "on": "909090",
-          "off": "4829F1"
+          "offset": "1EF2D72",
+          "on": "9090909090",
+          "off": "C5FA11400C"
         }
       ]
     },
@@ -100,17 +111,6 @@
           "offset": "2C69427",
           "on": "90909090",
           "off": "48894858"
-        }
-      ]
-    },
-    {
-      "name": "Chemicals Never Decrease",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2C69404",
-          "on": "909090",
-          "off": "4829F1"
         }
       ]
     }

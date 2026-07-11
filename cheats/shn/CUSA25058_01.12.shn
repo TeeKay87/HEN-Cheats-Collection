@@ -16,6 +16,20 @@
       <ValueOff>49-8B-04-24-48-89-03</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="Inf Boost">
+    <Cheatline>
+      <Offset>7DB83C</Offset>
+      <Section>0</Section>
+      <ValueOn>49-81-FA-96-ED-E1-18-74-0C-48-8B-03-49-89-04-24-E9-CB-A5-8B-FF-48-8B-43-E0-EB-F1</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>95E15</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-22-5A-74-00-90-90</ValueOn>
+      <ValueOff>48-8B-03-49-89-04-24</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Inf HP + (MC)">
     <Cheatline>
       <Offset>7DB80B</Offset>
@@ -30,20 +44,6 @@
       <Section>0</Section>
       <ValueOn>EB-00</ValueOn>
       <ValueOff>EB-17</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Inf Boost">
-    <Cheatline>
-      <Offset>7DB83C</Offset>
-      <Section>0</Section>
-      <ValueOn>49-81-FA-96-ED-E1-18-74-0C-48-8B-03-49-89-04-24-E9-CB-A5-8B-FF-48-8B-43-E0-EB-F1</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>95E15</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-22-5A-74-00-90-90</ValueOn>
-      <ValueOff>48-8B-03-49-89-04-24</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

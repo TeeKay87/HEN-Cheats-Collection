@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Items (on use inside the battle)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "250F800",
-          "on": "66C74014E403498B87B0060000E943EB34FE",
-          "off": "000000000000000000000000000000000000"
-        },
-        {
-          "offset": "85E34B",
-          "on": "E9B014CB019090909090",
-          "off": "894814498B87B0060000"
-        }
-      ]
-    },
-    {
       "name": "Infinite SP(when using skill Attacks not Evolution cost)",
       "type": "checkbox",
       "memory": [
@@ -37,6 +21,33 @@
       ]
     },
     {
+      "name": "Items (on use inside the battle)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "250F800",
+          "on": "66C74014E403498B87B0060000E943EB34FE",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "85E34B",
+          "on": "E9B014CB019090909090",
+          "off": "894814498B87B0060000"
+        }
+      ]
+    },
+    {
+      "name": "Items Multiplier (on use outside the battle)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "99CB8C",
+          "on": "014814",
+          "off": "894814"
+        }
+      ]
+    },
+    {
       "name": "Max Exp (on first or 2nd fight)",
       "type": "checkbox",
       "memory": [
@@ -49,17 +60,6 @@
           "offset": "21B06A",
           "on": "E9A1459DFF909090",
           "off": "41894628418B7624"
-        }
-      ]
-    },
-    {
-      "name": "Items Multiplier (on use outside the battle)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "99CB8C",
-          "on": "014814",
-          "off": "894814"
         }
       ]
     }

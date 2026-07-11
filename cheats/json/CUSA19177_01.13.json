@@ -21,22 +21,6 @@
       ]
     },
     {
-      "name": "Perfect Vehicle Condition",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "19ABDD0",
-          "on": "C743400000803FE959DF4B7F",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "80E69D30",
-          "on": "E99B20B480",
-          "off": "C5FA114340"
-        }
-      ]
-    },
-    {
       "name": "Max Money",
       "type": "checkbox",
       "memory": [
@@ -67,10 +51,26 @@
           "off": "8B8790000000"
         }
       ]
+    },
+    {
+      "name": "Perfect Vehicle Condition",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "19ABDD0",
+          "on": "C743400000803FE959DF4B7F",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "80E69D30",
+          "on": "E99B20B480",
+          "off": "C5FA114340"
+        }
+      ]
     }
   ],
   "credits": [
-    "Reddevil82 ",
-    " FW 9.00"
+    "Reddevil82",
+    "FW 9.00"
   ]
 }

@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Munny",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "6CED3C",
-          "on": "909090909090",
-          "off": "81F93F420F00"
-        }
-      ]
-    },
-    {
       "name": "\u002B1 Discard item",
       "type": "checkbox",
       "memory": [
@@ -23,33 +12,6 @@
           "offset": "1EE32A3",
           "on": "8D5101",
           "off": "8D51FF"
-        }
-      ]
-    },
-    {
-      "name": "Max Exp",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "13B63D1",
-          "on": "909090909090",
-          "off": "81FB7F969800"
-        }
-      ]
-    },
-    {
-      "name": "99 items buy / pick (Do Not Use With Ultima Weapon)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8EF7800",
-          "on": "0FB6C2B263418816E982F246F8",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "1366A89",
-          "on": "E9720DB90790",
-          "off": "0FB6C2418816"
         }
       ]
     },
@@ -70,6 +32,22 @@
       ]
     },
     {
+      "name": "99 items buy / pick (Do Not Use With Ultima Weapon)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8EF7800",
+          "on": "0FB6C2B263418816E982F246F8",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "1366A89",
+          "on": "E9720DB90790",
+          "off": "0FB6C2418816"
+        }
+      ]
+    },
+    {
       "name": "99 Materials",
       "type": "checkbox",
       "memory": [
@@ -86,17 +64,6 @@
       ]
     },
     {
-      "name": "No Mana Recharge Time",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "6CDC0A",
-          "on": "9090",
-          "off": "791C"
-        }
-      ]
-    },
-    {
       "name": "Inf MP",
       "type": "checkbox",
       "memory": [
@@ -109,6 +76,66 @@
           "offset": "6CDBFF",
           "on": "E92B9C820890",
           "off": "8993EC050000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Focus",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6CDE9F",
+          "on": "8983FC050000",
+          "off": "8993FC050000"
+        }
+      ]
+    },
+    {
+      "name": "Max Exp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "13B63D1",
+          "on": "909090909090",
+          "off": "81FB7F969800"
+        }
+      ]
+    },
+    {
+      "name": "Munny",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6CED3C",
+          "on": "909090909090",
+          "off": "81F93F420F00"
+        }
+      ]
+    },
+    {
+      "name": "No Mana Recharge Time",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6CDC0A",
+          "on": "9090",
+          "off": "791C"
+        }
+      ]
+    },
+    {
+      "name": "Potion buy / pick = Ultima Weapon (Do Not Use With 99 item buy / pick)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8EF7846",
+          "on": "B2014188564CE93EF246F8",
+          "off": "0000000000000000000000"
+        },
+        {
+          "offset": "1366A89",
+          "on": "E9B80DB90790",
+          "off": "0FB6C2418816"
         }
       ]
     },
@@ -181,33 +208,6 @@
           "offset": "21F84C1",
           "on": "909090909090",
           "off": "81F9E8030000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Focus",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "6CDE9F",
-          "on": "8983FC050000",
-          "off": "8993FC050000"
-        }
-      ]
-    },
-    {
-      "name": "Potion buy / pick = Ultima Weapon (Do Not Use With 99 item buy / pick)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8EF7846",
-          "on": "B2014188564CE93EF246F8",
-          "off": "0000000000000000000000"
-        },
-        {
-          "offset": "1366A89",
-          "on": "E9B80DB90790",
-          "off": "0FB6C2418816"
         }
       ]
     },

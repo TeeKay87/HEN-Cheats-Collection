@@ -5,54 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Unlock All Cars",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "579FDA3",
-          "on": "41817EF2556E6C6F752541817EF6636B416C751B41817EFA6C43617275115648BE54727565000000004989365EEB054C29F085D2E99176C4FC",
-          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "23E7468",
-          "on": "E936893B03",
-          "off": "4C29F085D2"
-        }
-      ]
-    },
-    {
-      "name": "Max Money",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "579FDDE",
-          "on": "4C89E748C7C2FFE0F50548895138E9EBD464FC",
-          "off": "00000000000000000000000000000000000000"
-        },
-        {
-          "offset": "1DED2D5",
-          "on": "E9042B9B039090",
-          "off": "4C89E748895138"
-        }
-      ]
-    },
-    {
-      "name": "No Damage (not working on cops)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "579FDF3",
-          "on": "C4C17A1130C4C17A117010C4C17A106010E969D676FD",
-          "off": "00000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "2F0D46C",
-          "on": "E98229890290",
-          "off": "C4C17A106010"
-        }
-      ]
-    },
-    {
       "name": "Disable Garage Teleport when Busted (Single Cheat)",
       "type": "checkbox",
       "memory": [
@@ -117,6 +69,22 @@
       ]
     },
     {
+      "name": "Max Money",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "579FDDE",
+          "on": "4C89E748C7C2FFE0F50548895138E9EBD464FC",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1DED2D5",
+          "on": "E9042B9B039090",
+          "off": "4C89E748895138"
+        }
+      ]
+    },
+    {
       "name": "Much More Nitro",
       "type": "checkbox",
       "memory": [
@@ -133,6 +101,22 @@
       ]
     },
     {
+      "name": "No Damage (not working on cops)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "579FDF3",
+          "on": "C4C17A1130C4C17A117010C4C17A106010E969D676FD",
+          "off": "00000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "2F0D46C",
+          "on": "E98229890290",
+          "off": "C4C17A106010"
+        }
+      ]
+    },
+    {
       "name": "Refill Nitro upon 180 Degree turn",
       "type": "checkbox",
       "memory": [
@@ -145,6 +129,22 @@
           "offset": "2F05E0F",
           "on": "E9CFA08902909090",
           "off": "C5FA118B14040000"
+        }
+      ]
+    },
+    {
+      "name": "Unlock All Cars",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "579FDA3",
+          "on": "41817EF2556E6C6F752541817EF6636B416C751B41817EFA6C43617275115648BE54727565000000004989365EEB054C29F085D2E99176C4FC",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "23E7468",
+          "on": "E936893B03",
+          "off": "4C29F085D2"
         }
       ]
     }

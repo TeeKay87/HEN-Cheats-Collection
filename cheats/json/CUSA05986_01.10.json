@@ -21,6 +21,17 @@
       ]
     },
     {
+      "name": "Max Rep Points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "29C2B82",
+          "on": "C743087F969800909090",
+          "off": "44897B088B852CFDFFFF"
+        }
+      ]
+    },
+    {
       "name": "Max Token (on gain)",
       "type": "checkbox",
       "memory": [
@@ -33,17 +44,6 @@
           "offset": "2975B2B",
           "on": "E9A0225601",
           "off": "41894C2418"
-        }
-      ]
-    },
-    {
-      "name": "Max Rep Points",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "29C2B82",
-          "on": "C743087F969800909090",
-          "off": "44897B088B852CFDFFFF"
         }
       ]
     }

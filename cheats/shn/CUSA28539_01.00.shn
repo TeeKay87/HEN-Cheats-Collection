@@ -2,6 +2,14 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Within the Blade" Moder="Saso_9.00" Cusa="CUSA28539" Version="01.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
+  <Cheat Text="Health">
+    <Cheatline>
+      <Offset>FC3B814</Offset>
+      <Section>0</Section>
+      <ValueOn>74-29</ValueOn>
+      <ValueOff>74-20</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Master Code (Enable First)">
     <Cheatline>
       <Offset>FC3B800</Offset>
@@ -16,20 +24,20 @@
       <ValueOff>C5-FB-11-03-EB-1B</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Health">
-    <Cheatline>
-      <Offset>FC3B814</Offset>
-      <Section>0</Section>
-      <ValueOn>74-29</ValueOn>
-      <ValueOff>74-20</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Max Gold (On Spend)">
     <Cheatline>
       <Offset>FC3B822</Offset>
       <Section>0</Section>
       <ValueOn>74-22</ValueOn>
       <ValueOff>74-12</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Skill Points">
+    <Cheatline>
+      <Offset>FC3B82B</Offset>
+      <Section>0</Section>
+      <ValueOn>74-3D</ValueOn>
+      <ValueOff>74-09</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Throwables">
@@ -46,14 +54,6 @@
       <Section>0</Section>
       <ValueOn>74-5F</ValueOn>
       <ValueOff>74-19</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Skill Points">
-    <Cheatline>
-      <Offset>FC3B82B</Offset>
-      <Section>0</Section>
-      <ValueOn>74-3D</ValueOn>
-      <ValueOff>74-09</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

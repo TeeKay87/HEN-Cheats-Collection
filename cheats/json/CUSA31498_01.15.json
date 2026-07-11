@@ -5,13 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "TRAINER INFO (read only)",
+      "name": "Inf Items",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "CE92FFF",
-          "on": "00",
-          "off": "00"
+          "offset": "CE9306B",
+          "on": "83C00141894520E9B92939F9E91E2C39F9",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "6225C91",
+          "on": "E9D5D3C60690909090",
+          "off": "41894520E996FDFFFF"
         }
       ]
     },
@@ -48,22 +53,6 @@
       ]
     },
     {
-      "name": "Inf Items",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "CE9306B",
-          "on": "83C00141894520E9B92939F9E91E2C39F9",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "6225C91",
-          "on": "E9D5D3C60690909090",
-          "off": "41894520E996FDFFFF"
-        }
-      ]
-    },
-    {
       "name": "One Hit Kill",
       "type": "checkbox",
       "memory": [
@@ -76,6 +65,17 @@
           "offset": "43C06FB",
           "on": "E99C29AD0890",
           "off": "8998F8030000"
+        }
+      ]
+    },
+    {
+      "name": "TRAINER INFO (read only)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "CE92FFF",
+          "on": "00",
+          "off": "00"
         }
       ]
     }

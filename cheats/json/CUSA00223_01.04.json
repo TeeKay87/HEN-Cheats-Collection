@@ -16,6 +16,17 @@
       ]
     },
     {
+      "name": "Infinite Bombs / Rockets",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "598F18",
+          "on": "BE0500000089B7DC0000009090",
+          "off": "89B7DC00000080BFC90A020000"
+        }
+      ]
+    },
+    {
       "name": "Infinite Energy",
       "type": "checkbox",
       "memory": [
@@ -38,13 +49,13 @@
       ]
     },
     {
-      "name": "Infinite Bombs / Rockets",
-      "type": "checkbox",
+      "name": "Max Level Infamous",
+      "type": "button",
       "memory": [
         {
-          "offset": "598F18",
-          "on": "BE0500000089B7DC0000009090",
-          "off": "89B7DC00000080BFC90A020000"
+          "offset": "129BD08",
+          "on": "00CAE6FD",
+          "off": "00CAE6FD"
         }
       ]
     },
@@ -71,6 +82,17 @@
       ]
     },
     {
+      "name": "Infinite Bombs / Rockets",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "198F18",
+          "on": "BE0500000089B7DC0000009090",
+          "off": "89B7DC00000080BFC90A020000"
+        }
+      ]
+    },
+    {
       "name": "Infinite Energy",
       "type": "checkbox",
       "memory": [
@@ -93,13 +115,13 @@
       ]
     },
     {
-      "name": "Infinite Bombs / Rockets",
-      "type": "checkbox",
+      "name": "Max Level Infamous",
+      "type": "button",
       "memory": [
         {
-          "offset": "198F18",
-          "on": "BE0500000089B7DC0000009090",
-          "off": "89B7DC00000080BFC90A020000"
+          "offset": "E9BD08",
+          "on": "00CAE6FD",
+          "off": "00CAE6FD"
         }
       ]
     },

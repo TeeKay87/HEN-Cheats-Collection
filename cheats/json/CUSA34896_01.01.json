@@ -5,22 +5,22 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Life Ship",
+      "name": "Inf Life",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "9E9168",
+          "offset": "C61B99",
           "on": "90909090",
           "off": "C5FA1100"
         }
       ]
     },
     {
-      "name": "Inf Life",
+      "name": "Inf Life Ship",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "C61B99",
+          "offset": "9E9168",
           "on": "90909090",
           "off": "C5FA1100"
         }

@@ -16,6 +16,22 @@
       ]
     },
     {
+      "name": "SR1 - Infinite Jump",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B5F3C",
+          "on": "C780D402000000001643E9789FF27F",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "7FFDFEBD",
+          "on": "E97A600D8090",
+          "off": "8988D4020000"
+        }
+      ]
+    },
+    {
       "name": "SR1 - Max Health",
       "type": "checkbox",
       "memory": [
@@ -78,18 +94,34 @@
       ]
     },
     {
-      "name": "SR1 - Infinite Jump",
+      "name": "SR2 - Infinite Jump",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "B5F3C",
-          "on": "C780D402000000001643E9789FF27F",
+          "offset": "86751D5A",
+          "on": "C7800801000000001643E93D92E6FF",
           "off": "000000000000000000000000000000"
         },
         {
-          "offset": "7FFDFEBD",
-          "on": "E97A600D8090",
-          "off": "8988D4020000"
+          "offset": "865BAF9E",
+          "on": "E9B76D1900909090",
+          "off": "C5FA118008010000"
+        }
+      ]
+    },
+    {
+      "name": "SR2 - Infinite Soul Reaper Use",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "86751D46",
+          "on": "C5F857C0C5FA114028E97C11EAFF",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "865F2ECB",
+          "on": "E976EE1500",
+          "off": "C5FA114028"
         }
       ]
     },
@@ -162,38 +194,6 @@
           "offset": "8656C17D",
           "on": "E9AE5B1E0090",
           "off": "89888C020000"
-        }
-      ]
-    },
-    {
-      "name": "SR2 - Infinite Soul Reaper Use",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "86751D46",
-          "on": "C5F857C0C5FA114028E97C11EAFF",
-          "off": "0000000000000000000000000000"
-        },
-        {
-          "offset": "865F2ECB",
-          "on": "E976EE1500",
-          "off": "C5FA114028"
-        }
-      ]
-    },
-    {
-      "name": "SR2 - Infinite Jump",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "86751D5A",
-          "on": "C7800801000000001643E93D92E6FF",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "865BAF9E",
-          "on": "E9B76D1900909090",
-          "off": "C5FA118008010000"
         }
       ]
     }

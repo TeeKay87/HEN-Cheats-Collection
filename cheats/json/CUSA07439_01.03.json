@@ -5,18 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Master",
-      "type": "master",
+      "name": "Infinite Armour Durability",
+      "type": "checkbox",
       "memory": [
         {
-          "offset": "4747859",
-          "on": "534889C348891D9CC74BFB5B8B88F00000008988F00000008B88E40000008988E40000008B88D80000008988D8000000E94ED490FC",
-          "off": ""
+          "offset": "474784A",
+          "on": "BE00000000897714C390E93C30B6FC",
+          "off": "000000000000000000000000000000"
         },
         {
-          "offset": "1054CD6",
-          "on": "E97E2B6F0390",
-          "off": ""
+          "offset": "12AA890",
+          "on": "E9B5CF4903",
+          "off": "897714C390"
         }
       ]
     },
@@ -43,17 +43,6 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "4747865",
-          "on": "8B88F4000000",
-          "off": "8B88F0000000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Souls",
       "type": "checkbox",
       "memory": [
@@ -70,18 +59,13 @@
       ]
     },
     {
-      "name": "Max Items on Use",
+      "name": "Infinite Stamina",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "4747829",
-          "on": "41BD6300000044896B084585EDE9910B50FC",
-          "off": "000000000000000000000000000000000000"
-        },
-        {
-          "offset": "C483C5",
-          "on": "E95FF4AF039090",
-          "off": "44896B084585ED"
+          "offset": "4747865",
+          "on": "8B88F4000000",
+          "off": "8B88F0000000"
         }
       ]
     },
@@ -102,18 +86,34 @@
       ]
     },
     {
-      "name": "Infinite Armour Durability",
+      "name": "Master",
+      "type": "master",
+      "memory": [
+        {
+          "offset": "4747859",
+          "on": "534889C348891D9CC74BFB5B8B88F00000008988F00000008B88E40000008988E40000008B88D80000008988D8000000E94ED490FC",
+          "off": ""
+        },
+        {
+          "offset": "1054CD6",
+          "on": "E97E2B6F0390",
+          "off": ""
+        }
+      ]
+    },
+    {
+      "name": "Max Items on Use",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "474784A",
-          "on": "BE00000000897714C390E93C30B6FC",
-          "off": "000000000000000000000000000000"
+          "offset": "4747829",
+          "on": "41BD6300000044896B084585EDE9910B50FC",
+          "off": "000000000000000000000000000000000000"
         },
         {
-          "offset": "12AA890",
-          "on": "E9B5CF4903",
-          "off": "897714C390"
+          "offset": "C483C5",
+          "on": "E95FF4AF039090",
+          "off": "44896B084585ED"
         }
       ]
     },

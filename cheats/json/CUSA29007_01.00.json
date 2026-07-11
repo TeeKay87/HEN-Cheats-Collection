@@ -21,22 +21,6 @@
       ]
     },
     {
-      "name": "Max/Infinite Ammo/No Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5E2F0",
-          "on": "C681D800000063E9C8B35281",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "11896BE",
-          "on": "E92D4CAD7E90",
-          "off": "8991D8000000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Throwables (After Getting Throwables)",
       "type": "checkbox",
       "memory": [
@@ -60,6 +44,22 @@
           "offset": "12848D0",
           "on": "894709",
           "off": "8B4708"
+        }
+      ]
+    },
+    {
+      "name": "Max/Infinite Ammo/No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5E2F0",
+          "on": "C681D800000063E9C8B35281",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "11896BE",
+          "on": "E92D4CAD7E90",
+          "off": "8991D8000000"
         }
       ]
     },

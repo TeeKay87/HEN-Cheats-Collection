@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Items x99 (on use have 2)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5B0A0",
-          "on": "6685D2C6400A63E949EAD680",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "9C9AEE",
-          "on": "E9AD15297F9090",
-          "off": "6685D26689500A"
-        }
-      ]
-    },
-    {
       "name": "Infinite MP",
       "type": "checkbox",
       "memory": [
@@ -37,18 +21,18 @@
       ]
     },
     {
-      "name": "Max Money (on gain)",
+      "name": "Items x99 (on use have 2)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FE77C20",
-          "on": "81FE7F969800C7013F420F00E9A1E4FC80",
-          "off": "0000000000000000000000000000000000"
+          "offset": "7FC5B0A0",
+          "on": "6685D2C6400A63E949EAD680",
+          "off": "000000000000000000000000"
         },
         {
-          "offset": "E460CA",
-          "on": "E9511B037F909090",
-          "off": "81FE7F9698008931"
+          "offset": "9C9AEE",
+          "on": "E9AD15297F9090",
+          "off": "6685D26689500A"
         }
       ]
     },
@@ -65,6 +49,22 @@
           "offset": "B021D5",
           "on": "E9D68E157F9090",
           "off": "4489B08C000000"
+        }
+      ]
+    },
+    {
+      "name": "Max Money (on gain)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FE77C20",
+          "on": "81FE7F969800C7013F420F00E9A1E4FC80",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "E460CA",
+          "on": "E9511B037F909090",
+          "off": "81FE7F9698008931"
         }
       ]
     }

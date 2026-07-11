@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite  Flash Light",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8272EB",
+          "on": "9090909090",
+          "off": "C5FA114360"
+        }
+      ]
+    },
+    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -27,17 +38,6 @@
       ]
     },
     {
-      "name": "Infinite  Flash Light",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8272EB",
-          "on": "9090909090",
-          "off": "C5FA114360"
-        }
-      ]
-    },
-    {
       "name": "Max Cash",
       "type": "checkbox",
       "memory": [
@@ -49,17 +49,6 @@
       ]
     },
     {
-      "name": "Max Xp",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7C5E27",
-          "on": "90909090909090",
-          "off": "488B8780000000"
-        }
-      ]
-    },
-    {
       "name": "Max Items",
       "type": "checkbox",
       "memory": [
@@ -67,6 +56,17 @@
           "offset": "76C27A",
           "on": "90909090",
           "off": "418B4650"
+        }
+      ]
+    },
+    {
+      "name": "Max Xp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7C5E27",
+          "on": "90909090909090",
+          "off": "488B8780000000"
         }
       ]
     }

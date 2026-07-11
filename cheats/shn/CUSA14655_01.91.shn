@@ -68,20 +68,6 @@
       <ValueOff>8B-00-5B-41-5E</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="XP gain x 2">
-    <Cheatline>
-      <Offset>7E2383B</Offset>
-      <Section>0</Section>
-      <ValueOn>4D-01-FF-44-01-FA-B8-FF-C9-9A-3B-E9-95-61-13-F9</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>F599D8</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-5E-9E-EC-06-90-90-90</ValueOn>
-      <ValueOff>44-01-FA-B8-FF-C9-9A-3B</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="player lvl 250 (after 2 battles) = one hit kills = boring and permenent">
     <Cheatline>
       <Offset>7E23862</Offset>
@@ -94,6 +80,20 @@
       <Section>0</Section>
       <ValueOn>E9-67-9E-EC-06-90-90</ValueOn>
       <ValueOff>48-89-91-70-02-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="XP gain x 2">
+    <Cheatline>
+      <Offset>7E2383B</Offset>
+      <Section>0</Section>
+      <ValueOn>4D-01-FF-44-01-FA-B8-FF-C9-9A-3B-E9-95-61-13-F9</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>F599D8</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-5E-9E-EC-06-90-90-90</ValueOn>
+      <ValueOff>44-01-FA-B8-FF-C9-9A-3B</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

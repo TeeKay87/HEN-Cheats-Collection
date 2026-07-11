@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health | \u65E0\u9650\u751F\u547D",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "26F07E0",
-          "on": "C78054020000804FC347C5FA108054020000C5FA118050020000E9F66A24FE",
-          "off": "00000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "9372ED",
-          "on": "E9EE94DB01909090",
-          "off": "C5FA108050020000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Ammo | \u65E0\u9650\u5F39\u836F",
       "type": "checkbox",
       "memory": [
@@ -37,29 +21,18 @@
       ]
     },
     {
-      "name": "No Reload | \u65E0\u9700\u88C5\u5F39",
+      "name": "Infinite Health | \u65E0\u9650\u751F\u547D",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "149FD50",
-          "on": "C3",
-          "off": "55"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Stamina | \u65E0\u9650\u8010\u529B",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "26F08D0",
-          "on": "C5FA108B380D0000C5FA118B340D0000E91D23F9FD",
-          "off": "000000000000000000000000000000000000000000"
+          "offset": "26F07E0",
+          "on": "C78054020000804FC347C5FA108054020000C5FA118050020000E9F66A24FE",
+          "off": "00000000000000000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "682BFA",
-          "on": "E9D1DC0602909090",
-          "off": "C5FA108B340D0000"
+          "offset": "9372ED",
+          "on": "E9EE94DB01909090",
+          "off": "C5FA108050020000"
         }
       ]
     },
@@ -96,6 +69,22 @@
       ]
     },
     {
+      "name": "Infinite Stamina | \u65E0\u9650\u8010\u529B",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "26F08D0",
+          "on": "C5FA108B380D0000C5FA118B340D0000E91D23F9FD",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "682BFA",
+          "on": "E9D1DC0602909090",
+          "off": "C5FA108B340D0000"
+        }
+      ]
+    },
+    {
       "name": "Infinite Vehicle Durable | \u65E0\u9650\u8F7D\u5177\u8010\u4E45\u5EA6",
       "type": "checkbox",
       "memory": [
@@ -122,18 +111,18 @@
       ]
     },
     {
-      "name": "Super Jump | \u8D85\u7EA7\u8DF3",
+      "name": "Invincible Mode (Off) | \u65E0\u654C\u6A21\u5F0F (\u5173)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "26F0990",
-          "on": "498B8638100000C780B002000000400000E954EF1CFE",
-          "off": "00000000000000000000000000000000000000000000"
+          "offset": "26F0880",
+          "on": "41C786580100000C004000C4C1782E8650020000E9683944FE",
+          "off": "00000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "8BF8F3",
-          "on": "E99810E3019090",
-          "off": "498B8638100000"
+          "offset": "B341F8",
+          "on": "E983C6BB0190909090",
+          "off": "C4C1782E8650020000"
         }
       ]
     },
@@ -150,49 +139,6 @@
           "offset": "B341F8",
           "on": "E983C6BB0190909090",
           "off": "C4C1782E8650020000"
-        }
-      ]
-    },
-    {
-      "name": "Reset Wanted Star Level | \u91CD\u7F6E\u901A\u7F09\u661F\u7EA7",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "26F0950",
-          "on": "0F4487B800000083BFB8000000007505E969A29AFDC787B000000000000000C787B400000000000000C787B800000000000000E946A29AFD",
-          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "9ABC7",
-          "on": "E9845D65029090",
-          "off": "0F4487B8000000"
-        }
-      ]
-    },
-    {
-      "name": "Remove Noise On Wanted | \u6D88\u9664\u901A\u7F09\u566A\u97F3",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "4EDFC0",
-          "on": "C3",
-          "off": "55"
-        }
-      ]
-    },
-    {
-      "name": "Swim Speed Multiply 2 | \u6E38\u6CF3\u901F\u5EA6 2 \u500D",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "26F0930",
-          "on": "C780BC05000000000040C5FA108054020000E9C16924FE",
-          "off": "0000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "937300",
-          "on": "E92B96DB01909090",
-          "off": "C5FA108054020000"
         }
       ]
     },
@@ -214,6 +160,92 @@
           "offset": "3E5BF00",
           "on": "FFC99A3B",
           "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "No Reload | \u65E0\u9700\u88C5\u5F39",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "149FD50",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "Remove Noise On Wanted | \u6D88\u9664\u901A\u7F09\u566A\u97F3",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4EDFC0",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "Reset Wanted Star Level | \u91CD\u7F6E\u901A\u7F09\u661F\u7EA7",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "26F0950",
+          "on": "0F4487B800000083BFB8000000007505E969A29AFDC787B000000000000000C787B400000000000000C787B800000000000000E946A29AFD",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "9ABC7",
+          "on": "E9845D65029090",
+          "off": "0F4487B8000000"
+        }
+      ]
+    },
+    {
+      "name": "Super Jump | \u8D85\u7EA7\u8DF3",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "26F0990",
+          "on": "498B8638100000C780B002000000400000E954EF1CFE",
+          "off": "00000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "8BF8F3",
+          "on": "E99810E3019090",
+          "off": "498B8638100000"
+        }
+      ]
+    },
+    {
+      "name": "Swim Speed Multiply 2 | \u6E38\u6CF3\u901F\u5EA6 2 \u500D",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "26F0930",
+          "on": "C780BC05000000000040C5FA108054020000E9C16924FE",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "937300",
+          "on": "E92B96DB01909090",
+          "off": "C5FA108054020000"
+        }
+      ]
+    },
+    {
+      "name": "Swim Speed Multiply 3 | \u6E38\u6CF3\u901F\u5EA6 3 \u500D",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "26F0930",
+          "on": "C780BC05000000004040C5FA108054020000E9C16924FE",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "937300",
+          "on": "E92B96DB01909090",
+          "off": "C5FA108054020000"
         }
       ]
     }

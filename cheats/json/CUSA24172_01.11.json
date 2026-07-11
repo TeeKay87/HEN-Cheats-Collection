@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Freddy",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "D03196",
-          "on": "90909090909090",
-          "off": "4189B6B8000000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Flashlight",
       "type": "checkbox",
       "memory": [
@@ -23,6 +12,17 @@
           "offset": "D03120",
           "on": "909090909090",
           "off": "898BB0000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Freddy",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "D03196",
+          "on": "90909090909090",
+          "off": "4189B6B8000000"
         }
       ]
     }

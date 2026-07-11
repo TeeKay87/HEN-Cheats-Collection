@@ -5,49 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Master",
-      "type": "master",
-      "memory": [
-        {
-          "offset": "13F7800",
-          "on": "498B46204989462089C15348C7C3004000004C89335BE9F4C12BFF",
-          "off": ""
-        },
-        {
-          "offset": "6B3A09",
-          "on": "E9F23DD40090",
-          "off": ""
-        }
-      ]
-    },
-    {
-      "name": "Infinte Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "13F7800",
-          "on": "498B4618",
-          "off": "498B4620"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "13F781B",
-          "on": "C5FA104704C5FA1107C5FA584710E9FB42DBFE",
-          "off": "00000000000000000000000000000000000000"
-        },
-        {
-          "offset": "1ABB24",
-          "on": "E9F2BC2401",
-          "off": "C5FA584710"
-        }
-      ]
-    },
-    {
       "name": "2 Hit Kill",
       "type": "checkbox",
       "memory": [
@@ -103,6 +60,49 @@
           "offset": "194F0B",
           "on": "9090909090",
           "off": "C5FA114328"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "13F781B",
+          "on": "C5FA104704C5FA1107C5FA584710E9FB42DBFE",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1ABB24",
+          "on": "E9F2BC2401",
+          "off": "C5FA584710"
+        }
+      ]
+    },
+    {
+      "name": "Infinte Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "13F7800",
+          "on": "498B4618",
+          "off": "498B4620"
+        }
+      ]
+    },
+    {
+      "name": "Master",
+      "type": "master",
+      "memory": [
+        {
+          "offset": "13F7800",
+          "on": "498B46204989462089C15348C7C3004000004C89335BE9F4C12BFF",
+          "off": ""
+        },
+        {
+          "offset": "6B3A09",
+          "on": "E9F23DD40090",
+          "off": ""
         }
       ]
     }

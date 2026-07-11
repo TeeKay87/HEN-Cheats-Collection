@@ -16,20 +16,6 @@
       <ValueOff>49-63-86-F4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload ( Ammo )">
-    <Cheatline>
-      <Offset>11ABDDB</Offset>
-      <Section>0</Section>
-      <ValueOn>49-63-86-F0-00-00-00-E9-7F-08-0E-7F</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>8028C65D</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-79-F7-F1-80-90-90</ValueOn>
-      <ValueOff>49-63-86-F0-00-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Max Grenades">
     <Cheatline>
       <Offset>11ABDE7</Offset>
@@ -42,6 +28,20 @@
       <Section>0</Section>
       <ValueOn>E9-6F-D7-C8-80-90-90</ValueOn>
       <ValueOff>49-63-8E-F0-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="No Reload ( Ammo )">
+    <Cheatline>
+      <Offset>11ABDDB</Offset>
+      <Section>0</Section>
+      <ValueOn>49-63-86-F0-00-00-00-E9-7F-08-0E-7F</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>8028C65D</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-79-F7-F1-80-90-90</ValueOn>
+      <ValueOff>49-63-86-F0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

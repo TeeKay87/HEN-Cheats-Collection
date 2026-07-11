@@ -5,61 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health/1hit kill",
+      "name": "1Hit Kill (activate Master code)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FE9E8F0",
-          "on": "4180BDB801000013750A41C7457400009443EB090F57C0C4C17A114574E9E3C9FD80",
-          "off": "00000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "E7B2EF",
-          "on": "E9FC35027F90",
-          "off": "C4C17A114574"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Focus ",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "18F6DF4",
-          "on": "909090909090",
-          "off": "C4C17A11455C"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Breath",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5EAB0",
-          "on": "C7435000000E4390E9D0611782",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "1DD4C88",
-          "on": "E9239EE87D",
-          "off": "C5FA114350"
-        }
-      ]
-    },
-    {
-      "name": "All items/shards/Ammo(on use have 2)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FE9FE20",
-          "on": "29C86641C74050DC05E965690482",
-          "off": "0000000000000000000000000000"
-        },
-        {
-          "offset": "1EE678D",
-          "on": "E98E96FB7D90",
-          "off": "29C841894050"
+          "offset": "10DA18",
+          "on": "750B",
+          "off": "750E"
         }
       ]
     },
@@ -80,13 +32,18 @@
       ]
     },
     {
-      "name": "Skill Points increase(have 2 points deactivate after having 600)",
+      "name": "All items/shards/Ammo(on use have 2)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1F6A178",
-          "on": "41014E70",
-          "off": "41894E70"
+          "offset": "7FE9FE20",
+          "on": "29C86641C74050DC05E965690482",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "1EE678D",
+          "on": "E98E96FB7D90",
+          "off": "29C841894050"
         }
       ]
     },
@@ -107,18 +64,56 @@
       ]
     },
     {
-      "name": "Instant Valor Surge Fill ",
+      "name": "Infinite Breath",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FE9FF70",
-          "on": "41C7868000000000007A44E959F3C681",
-          "off": "00000000000000000000000000000000"
+          "offset": "7FC5EAB0",
+          "on": "C7435000000E4390E9D0611782",
+          "off": "00000000000000000000000000"
         },
         {
-          "offset": "1B0F2D0",
-          "on": "E99B0C397E90909090",
-          "off": "C4C17A118E80000000"
+          "offset": "1DD4C88",
+          "on": "E9239EE87D",
+          "off": "C5FA114350"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Focus ",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "18F6DF4",
+          "on": "909090909090",
+          "off": "C4C17A11455C"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health (activate Master code)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "10DA1A",
+          "on": "909090909090",
+          "off": "C4C17A114574"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health/1hit kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FE9E8F0",
+          "on": "4180BDB801000013750A41C7457400009443EB090F57C0C4C17A114574E9E3C9FD80",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "E7B2EF",
+          "on": "E9FC35027F90",
+          "off": "C4C17A114574"
         }
       ]
     },
@@ -139,6 +134,22 @@
       ]
     },
     {
+      "name": "Instant Valor Surge Fill ",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FE9FF70",
+          "on": "41C7868000000000007A44E959F3C681",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "1B0F2D0",
+          "on": "E99B0C397E90909090",
+          "off": "C4C17A118E80000000"
+        }
+      ]
+    },
+    {
       "name": "Master code",
       "type": "checkbox",
       "memory": [
@@ -155,24 +166,24 @@
       ]
     },
     {
-      "name": "Infinite Health (activate Master code)",
+      "name": "Skill points dont decrease(turn off other skill cheat)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "10DA1A",
-          "on": "909090909090",
-          "off": "C4C17A114574"
+          "offset": "1F6A178",
+          "on": "90909090",
+          "off": "41894E70"
         }
       ]
     },
     {
-      "name": "1Hit Kill (activate Master code)",
+      "name": "Skill Points increase(have 2 points deactivate after having 600)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "10DA18",
-          "on": "750B",
-          "off": "750E"
+          "offset": "1F6A178",
+          "on": "41014E70",
+          "off": "41894E70"
         }
       ]
     }

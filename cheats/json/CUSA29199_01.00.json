@@ -21,22 +21,6 @@
       ]
     },
     {
-      "name": "Nails x99 [On Reload]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1987FC0",
-          "on": "0F84E741FD7EC7404863000000E9DC41FD7E",
-          "off": "000000000000000000000000000000000000"
-        },
-        {
-          "offset": "8095C1A8",
-          "on": "E913BE028190",
-          "off": "740944897048"
-        }
-      ]
-    },
-    {
       "name": "Morphine / Save Record x5 [On Use]",
       "type": "checkbox",
       "memory": [
@@ -49,6 +33,22 @@
           "offset": "804BB622",
           "on": "E919C94C81",
           "off": "448970485B"
+        }
+      ]
+    },
+    {
+      "name": "Nails x99 [On Reload]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1987FC0",
+          "on": "0F84E741FD7EC7404863000000E9DC41FD7E",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "8095C1A8",
+          "on": "E913BE028190",
+          "off": "740944897048"
         }
       ]
     }

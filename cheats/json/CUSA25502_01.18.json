@@ -5,6 +5,38 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Boost",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7B8BE74",
+          "on": "C7832C01000000001041E93CF037F9",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "F0AEB7",
+          "on": "E9B80FC806909090",
+          "off": "C5FA11832C010000"
+        }
+      ]
+    },
+    {
+      "name": "Unlimited Blind Boxes ( on first buy )",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7B8BE60",
+          "on": "E8852248F8C7432400CA9A3B8B4324E9435637FA",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1F014AF",
+          "on": "E9ACA9C805909090",
+          "off": "E83CCC10FE8B4324"
+        }
+      ]
+    },
+    {
       "name": "Unlimited Coins ( on first buy )",
       "type": "checkbox",
       "memory": [
@@ -35,26 +67,10 @@
           "off": "E83CCC10FE8B4324"
         }
       ]
-    },
-    {
-      "name": "Infinite Boost",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7B8BE74",
-          "on": "C7832C01000000001041E93CF037F9",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "F0AEB7",
-          "on": "E9B80FC806909090",
-          "off": "C5FA11832C010000"
-        }
-      ]
     }
   ],
   "credits": [
-    "Reddevil82 ",
-    " FW 9.00"
+    "Reddevil82",
+    "FW 9.00"
   ]
 }

@@ -2,6 +2,20 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Truck Driver" Moder="Reddevil82 - FW 9.00" Cusa="CUSA12209" Version="01.20" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
+  <Cheat Text="Infinite Fuel">
+    <Cheatline>
+      <Offset>82B3383E</Offset>
+      <Section>0</Section>
+      <ValueOn>C4-C1-7A-10-47-24-C4-C1-7A-11-47-20-E9-71-B0-39-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>80ECE8BA</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-7F-4F-C6-01-90</ValueOn>
+      <ValueOff>C4-C1-7A-11-47-20</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Max Money">
     <Cheatline>
       <Offset>82B33800</Offset>
@@ -14,6 +28,20 @@
       <Section>0</Section>
       <ValueOn>E9-ED-DA-CC-01</ValueOn>
       <ValueOff>E8-0D-1E-9B-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max Passive Level">
+    <Cheatline>
+      <Offset>82B3385F</Offset>
+      <Section>0</Section>
+      <ValueOn>48-89-43-48-41-C7-47-1C-05-00-00-00-41-8B-47-1C-E9-7F-C7-2B-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>80DEFFEB</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-6F-38-D4-01-90-90-90</ValueOn>
+      <ValueOff>48-89-43-48-41-8B-47-1C</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max XP">
@@ -30,34 +58,6 @@
       <ValueOff>E8-53-27-9B-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Tiredness">
-    <Cheatline>
-      <Offset>82B33826</Offset>
-      <Section>0</Section>
-      <ValueOn>41-57-44-8B-78-3C-44-89-78-38-41-5F-C5-FA-10-40-38-E9-00-9A-2D-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>80E0D237</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-EA-65-D2-01</ValueOn>
-      <ValueOff>C5-FA-10-40-38</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Fuel">
-    <Cheatline>
-      <Offset>82B3383E</Offset>
-      <Section>0</Section>
-      <ValueOn>C4-C1-7A-10-47-24-C4-C1-7A-11-47-20-E9-71-B0-39-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>80ECE8BA</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-7F-4F-C6-01-90</ValueOn>
-      <ValueOff>C4-C1-7A-11-47-20</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="No Damage">
     <Cheatline>
       <Offset>82B33851</Offset>
@@ -72,18 +72,18 @@
       <ValueOff>C4-A1-7A-11-44-F0-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Passive Level">
+  <Cheat Text="No Tiredness">
     <Cheatline>
-      <Offset>82B3385F</Offset>
+      <Offset>82B33826</Offset>
       <Section>0</Section>
-      <ValueOn>48-89-43-48-41-C7-47-1C-05-00-00-00-41-8B-47-1C-E9-7F-C7-2B-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+      <ValueOn>41-57-44-8B-78-3C-44-89-78-38-41-5F-C5-FA-10-40-38-E9-00-9A-2D-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>80DEFFEB</Offset>
+      <Offset>80E0D237</Offset>
       <Section>0</Section>
-      <ValueOn>E9-6F-38-D4-01-90-90-90</ValueOn>
-      <ValueOff>48-89-43-48-41-8B-47-1C</ValueOff>
+      <ValueOn>E9-EA-65-D2-01</ValueOn>
+      <ValueOff>C5-FA-10-40-38</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Unlock all Passive Level">

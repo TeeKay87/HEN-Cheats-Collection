@@ -5,106 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Zeni on Gain/Spend",
+      "name": "Freeze Timer",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "27AB800",
-          "on": "B9FFFFFF7F894F28E9AF8BF9FD",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "7443A7",
-          "on": "E954740602",
-          "off": "894F287210"
-        },
-        {
-          "offset": "27AB80D",
-          "on": "3D00CA9A3BB9FFFFFF7F894F2CE9888BF9FD",
-          "off": "000000000000000000000000000000000000"
-        },
-        {
-          "offset": "74439F",
-          "on": "E969740602909090",
-          "off": "3D00CA9A3B894F2C"
-        }
-      ]
-    },
-    {
-      "name": "Max TP/ZP on Spend",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "27AB81F",
-          "on": "BAFFFFFF7F895730E9458CF9FD",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "744461",
-          "on": "E9B9730602",
-          "off": "895730720B"
-        },
-        {
-          "offset": "27AB82C",
-          "on": "81F900CA9A3BBAFFFFFF7F895734E9228CF9FD",
-          "off": "00000000000000000000000000000000000000"
-        },
-        {
-          "offset": "744458",
-          "on": "E9CF73060290909090",
-          "off": "81F900CA9A3B895734"
-        }
-      ]
-    },
-    {
-      "name": "Max Attribute Points",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "27AB83F",
-          "on": "B8FF0000008947148B17E9176DF9FD",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "742560",
-          "on": "E9DA920602",
-          "off": "8947148B17"
-        },
-        {
-          "offset": "27AB84E",
-          "on": "BE22000000B8FF000000894718E9006DF9FD",
-          "off": "000000000000000000000000000000000000"
-        },
-        {
-          "offset": "742558",
-          "on": "E9F1920602909090",
-          "off": "BE22000000894718"
-        }
-      ]
-    },
-    {
-      "name": "Max Item on Buy (Use TP Only to Buy)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "27AB800",
-          "on": "BA63000000895118E979A7F9FD",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "745F1E",
-          "on": "E9DD580602",
-          "off": "895118EB63"
-        },
-        {
-          "offset": "27AB80D",
-          "on": "41BD6300000044896C1008E95137D2FD",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "4CEF69",
-          "on": "E99FC82D02",
-          "off": "44896C1008"
+          "offset": "3870AE",
+          "on": "90909090",
+          "off": "C5FA1103"
         }
       ]
     },
@@ -177,13 +84,106 @@
       ]
     },
     {
-      "name": "Freeze Timer",
+      "name": "Max Attribute Points",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "3870AE",
-          "on": "90909090",
-          "off": "C5FA1103"
+          "offset": "27AB83F",
+          "on": "B8FF0000008947148B17E9176DF9FD",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "742560",
+          "on": "E9DA920602",
+          "off": "8947148B17"
+        },
+        {
+          "offset": "27AB84E",
+          "on": "BE22000000B8FF000000894718E9006DF9FD",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "742558",
+          "on": "E9F1920602909090",
+          "off": "BE22000000894718"
+        }
+      ]
+    },
+    {
+      "name": "Max Item on Buy (Use TP Only to Buy)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "27AB800",
+          "on": "BA63000000895118E979A7F9FD",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "745F1E",
+          "on": "E9DD580602",
+          "off": "895118EB63"
+        },
+        {
+          "offset": "27AB80D",
+          "on": "41BD6300000044896C1008E95137D2FD",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "4CEF69",
+          "on": "E99FC82D02",
+          "off": "44896C1008"
+        }
+      ]
+    },
+    {
+      "name": "Max TP/ZP on Spend",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "27AB81F",
+          "on": "BAFFFFFF7F895730E9458CF9FD",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "744461",
+          "on": "E9B9730602",
+          "off": "895730720B"
+        },
+        {
+          "offset": "27AB82C",
+          "on": "81F900CA9A3BBAFFFFFF7F895734E9228CF9FD",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "744458",
+          "on": "E9CF73060290909090",
+          "off": "81F900CA9A3B895734"
+        }
+      ]
+    },
+    {
+      "name": "Max Zeni on Gain/Spend",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "27AB800",
+          "on": "B9FFFFFF7F894F28E9AF8BF9FD",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "7443A7",
+          "on": "E954740602",
+          "off": "894F287210"
+        },
+        {
+          "offset": "27AB80D",
+          "on": "3D00CA9A3BB9FFFFFF7F894F2CE9888BF9FD",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "74439F",
+          "on": "E969740602909090",
+          "off": "3D00CA9A3B894F2C"
         }
       ]
     }

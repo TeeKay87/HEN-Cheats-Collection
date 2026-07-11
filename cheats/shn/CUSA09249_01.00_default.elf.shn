@@ -3,20 +3,6 @@
   <Genres Name="Action" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Infinite Health">
-    <Cheatline>
-      <Offset>A33AA0</Offset>
-      <Section>0</Section>
-      <ValueOn>66-41-81-FC-00-05-75-0C-44-8B-8E-84-01-00-00-E9-E1-73-A0-FF-44-89-8E-84-01-00-00-E9-D5-73-A0-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>43AE8E</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-0D-8C-5F-00-90-90</ValueOn>
-      <ValueOff>44-89-8E-84-01-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite Ammo">
     <Cheatline>
       <Offset>2E7BA0</Offset>
@@ -31,20 +17,34 @@
       <ValueOff>01-D6-89-71-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
-    <Cheatline>
-      <Offset>6C86C0</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90</ValueOn>
-      <ValueOff>E8-5B-56-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite Granades/Equipments">
     <Cheatline>
       <Offset>6BB21B</Offset>
       <Section>0</Section>
       <ValueOn>90-90-90-90-90</ValueOn>
       <ValueOff>E8-00-2B-01-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Health">
+    <Cheatline>
+      <Offset>A33AA0</Offset>
+      <Section>0</Section>
+      <ValueOn>66-41-81-FC-00-05-75-0C-44-8B-8E-84-01-00-00-E9-E1-73-A0-FF-44-89-8E-84-01-00-00-E9-D5-73-A0-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>43AE8E</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-0D-8C-5F-00-90-90</ValueOn>
+      <ValueOff>44-89-8E-84-01-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="No Reload">
+    <Cheatline>
+      <Offset>6C86C0</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90</ValueOn>
+      <ValueOff>E8-5B-56-00-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

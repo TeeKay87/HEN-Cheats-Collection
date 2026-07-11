@@ -16,22 +16,6 @@
       ]
     },
     {
-      "name": "Use Attribute/Learning Point for Max Skill and Ability",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1867800",
-          "on": "BB6400000043895CAE1CE99240D2FE",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "58B89C",
-          "on": "E95FBF2D01",
-          "off": "43895CAE1C"
-        }
-      ]
-    },
-    {
       "name": "Max Items and Money On Use/Sell/Buy",
       "type": "checkbox",
       "memory": [
@@ -44,6 +28,22 @@
           "offset": "4BC8CA",
           "on": "E931AF3A01",
           "off": "41894C2444"
+        }
+      ]
+    },
+    {
+      "name": "Use Attribute/Learning Point for Max Skill and Ability",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1867800",
+          "on": "BB6400000043895CAE1CE99240D2FE",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "58B89C",
+          "on": "E95FBF2D01",
+          "off": "43895CAE1C"
         }
       ]
     }

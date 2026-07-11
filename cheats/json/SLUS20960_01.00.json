@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Characters-1-Invincible",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "808024E373",
-          "on": "FF",
-          "off": "FF"
-        },
-        {
-          "offset": "808024E374",
-          "on": "55",
-          "off": "55"
-        }
-      ]
-    },
-    {
       "name": "Characters-1-Inf-Health",
       "type": "checkbox",
       "memory": [
@@ -31,6 +15,22 @@
         },
         {
           "offset": "808024E35D",
+          "on": "55",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "Characters-1-Invincible",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "808024E373",
+          "on": "FF",
+          "off": "FF"
+        },
+        {
+          "offset": "808024E374",
           "on": "55",
           "off": "55"
         }
@@ -69,22 +69,33 @@
       ]
     },
     {
-      "name": "Infinite-Bomb",
+      "name": "Crystal-Wall",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "80804B114C",
+          "offset": "80804B1154",
           "on": "4718664",
           "off": "4718664"
         }
       ]
     },
     {
-      "name": "Shining-Ray",
+      "name": "Green-Spinner",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "80804B1148",
+          "offset": "80804B1158",
+          "on": "4718664",
+          "off": "4718664"
+        }
+      ]
+    },
+    {
+      "name": "Infinite-Bomb",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80804B114C",
           "on": "4718664",
           "off": "4718664"
         }
@@ -102,22 +113,11 @@
       ]
     },
     {
-      "name": "Drift-Diamond",
+      "name": "Shining-Ray",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "80804B1154",
-          "on": "4718664",
-          "off": "4718664"
-        }
-      ]
-    },
-    {
-      "name": "Green-Spinner",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "80804B1158",
+          "offset": "80804B1148",
           "on": "4718664",
           "off": "4718664"
         }

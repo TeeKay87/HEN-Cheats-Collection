@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "13B7C01",
-          "on": "C5F25D48605348BB003DAE06020000004839C37505C5FA1048605BE9F0CF0DFF",
-          "off": "0000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "494C0C",
-          "on": "E9F02FF200",
-          "off": "C5F25D4860"
-        }
-      ]
-    },
-    {
       "name": "Infinite Ammo",
       "type": "checkbox",
       "memory": [
@@ -44,6 +28,22 @@
           "offset": "490754",
           "on": "9090",
           "off": "FFC8"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "13B7C01",
+          "on": "C5F25D48605348BB003DAE06020000004839C37505C5FA1048605BE9F0CF0DFF",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "494C0C",
+          "on": "E9F02FF200",
+          "off": "C5F25D4860"
         }
       ]
     },
@@ -108,6 +108,17 @@
       ]
     },
     {
+      "name": "Inf. Flares/Grenades/Molotovs/Mines",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "90754",
+          "on": "9090",
+          "off": "FFC8"
+        }
+      ]
+    },
+    {
       "name": "Infinite Ammo",
       "type": "checkbox",
       "memory": [
@@ -120,17 +131,6 @@
           "offset": "90110",
           "on": "9090",
           "off": "29C2"
-        }
-      ]
-    },
-    {
-      "name": "Inf. Flares/Grenades/Molotovs/Mines",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "90754",
-          "on": "9090",
-          "off": "FFC8"
         }
       ]
     },

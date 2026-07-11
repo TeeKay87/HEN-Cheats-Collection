@@ -2,12 +2,26 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Borderlands: The Handsome Collection" Moder="hejran7" Cusa="CUSA02980" Version="01.02" Process="MAGNOLIA.elf">
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Instant lvl 72 - Inf Ammo - Inf HP">
+  <Cheat Text="Increase Redeem Taken By 20%">
     <Cheatline>
-      <Offset>73DD6A</Offset>
+      <Offset>1EC3827</Offset>
       <Section>0</Section>
-      <ValueOn>C5-FA-11-9B-A0-00-00-00</ValueOn>
-      <ValueOff>C5-FA-11-93-A0-00-00-00</ValueOff>
+      <ValueOn>49-FF-47-28-8B-03-05-00-01-00-00-FF-C0-E9-FC-82-19-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>5BB2D</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-F5-7C-E6-01-90-90-90</ValueOn>
+      <ValueOff>49-FF-47-28-8B-03-FF-C0</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Inf Ammo - Grenades">
+    <Cheatline>
+      <Offset>73DD32</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90</ValueOn>
+      <ValueOff>C5-F2-5C-CA</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Inf Credits-Eridium-Seraph-Torgue">
@@ -32,26 +46,12 @@
       <ValueOff>2B-45-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Increase Redeem Taken By 20%">
+  <Cheat Text="Instant lvl 72 - Inf Ammo - Inf HP">
     <Cheatline>
-      <Offset>1EC3827</Offset>
+      <Offset>73DD6A</Offset>
       <Section>0</Section>
-      <ValueOn>49-FF-47-28-8B-03-05-00-01-00-00-FF-C0-E9-FC-82-19-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>5BB2D</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-F5-7C-E6-01-90-90-90</ValueOn>
-      <ValueOff>49-FF-47-28-8B-03-FF-C0</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Inf Ammo - Grenades">
-    <Cheatline>
-      <Offset>73DD32</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90</ValueOn>
-      <ValueOff>C5-F2-5C-CA</ValueOff>
+      <ValueOn>C5-FA-11-9B-A0-00-00-00</ValueOn>
+      <ValueOff>C5-FA-11-93-A0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="No Reload- Inf Ammo must be On">

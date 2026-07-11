@@ -16,14 +16,6 @@
       <ValueOff>C4-C1-7A-10-87-D8-0B-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload" Description="No Reload">
-    <Cheatline>
-      <Offset>BAFDA8</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>C5-FA-58-05-B4-33-A2-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Max Intuition" Description="Max Intuition">
     <Cheatline>
       <Offset>1CDFF00</Offset>
@@ -42,6 +34,14 @@
       <Section>0</Section>
       <ValueOn>E9-7B-FB-CD-00-90</ValueOn>
       <ValueOff>8B-51-2C-49-39-D4</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="No Reload" Description="No Reload">
+    <Cheatline>
+      <Offset>BAFDA8</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>C5-FA-58-05-B4-33-A2-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

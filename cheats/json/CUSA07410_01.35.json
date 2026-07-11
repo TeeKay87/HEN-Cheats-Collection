@@ -5,6 +5,22 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Arrows",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5BE10",
+          "on": "C5EA5FC3664181F9A0867411C5FA5DDCE9DACA8980664181FD588A7500F30F10DCE9C9CA8980",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4F88F7",
+          "on": "E91435767F909090",
+          "off": "C5EA5FC3C5FA5DDC"
+        }
+      ]
+    },
+    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -33,22 +49,6 @@
           "offset": "4F88FF",
           "on": "E99C35767F90",
           "off": "C4C17A115E20"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Arrows",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5BE10",
-          "on": "C5EA5FC3664181F9A0867411C5FA5DDCE9DACA8980664181FD588A7500F30F10DCE9C9CA8980",
-          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "4F88F7",
-          "on": "E91435767F909090",
-          "off": "C5EA5FC3C5FA5DDC"
         }
       ]
     },

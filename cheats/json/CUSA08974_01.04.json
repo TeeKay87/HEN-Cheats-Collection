@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "All Items To The Max",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "159F72D",
+          "on": "6641C7441C2CFFFF",
+          "off": "4C89304D896C1C2C"
+        }
+      ]
+    },
+    {
       "name": "Godmode",
       "type": "checkbox",
       "memory": [
@@ -31,7 +42,7 @@
       "type": "checkbox",
       "memory": [
         {
-          "offset": "159F72D",
+          "offset": "119F72D",
           "on": "6641C7441C2CFFFF",
           "off": "4C89304D896C1C2C"
         }
@@ -56,17 +67,6 @@
           "offset": "10648DA",
           "on": "909090909090909090",
           "off": "C4CA7A1185E0170000"
-        }
-      ]
-    },
-    {
-      "name": "All Items To The Max",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "119F72D",
-          "on": "6641C7441C2CFFFF",
-          "off": "4C89304D896C1C2C"
         }
       ]
     }

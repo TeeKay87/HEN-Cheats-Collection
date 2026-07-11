@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "TRAINER INFO (read only)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1786840",
-          "on": "00",
-          "off": "00"
-        }
-      ]
-    },
-    {
       "name": "God Mode (Untouchable\u002BNo Effects) [DO NOT USE IN VALHALLA]",
       "type": "checkbox",
       "memory": [
@@ -52,6 +41,17 @@
       ]
     },
     {
+      "name": "No Crafting And Upgrade Limits",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "C3EB86",
+          "on": "9090",
+          "off": "7C9D"
+        }
+      ]
+    },
+    {
       "name": "No Damage Taken",
       "type": "checkbox",
       "memory": [
@@ -84,13 +84,13 @@
       ]
     },
     {
-      "name": "No Crafting And Upgrade Limits",
+      "name": "TRAINER INFO (read only)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "C3EB86",
-          "on": "9090",
-          "off": "7C9D"
+          "offset": "1786840",
+          "on": "00",
+          "off": "00"
         }
       ]
     }

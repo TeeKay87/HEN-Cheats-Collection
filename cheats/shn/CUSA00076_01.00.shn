@@ -19,14 +19,6 @@
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
-    <Cheatline>
-      <Offset>70C038</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90</ValueOn>
-      <ValueOff>29-82-10-03-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite Ammo">
     <Cheatline>
       <Offset>752544</Offset>
@@ -47,6 +39,14 @@
       <Section>0</Section>
       <ValueOn>E9-EE-3B-ED-00-90-90</ValueOn>
       <ValueOff>41-89-87-14-03-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="No Reload">
+    <Cheatline>
+      <Offset>70C038</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90</ValueOn>
+      <ValueOff>29-82-10-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

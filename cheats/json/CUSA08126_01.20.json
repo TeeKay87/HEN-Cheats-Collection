@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max/Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5E340",
-          "on": "41C7859C03000064000000E917DED601",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "819CC160",
-          "on": "E9DB2129FE9090",
-          "off": "4529BD9C030000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Chant",
       "type": "checkbox",
       "memory": [
@@ -33,6 +17,38 @@
           "offset": "81E7EF96",
           "on": "E935FCDDFD90909090",
           "off": "C4C17A11869C000000"
+        }
+      ]
+    },
+    {
+      "name": "Max/Infinite Flamethrower",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "18A3B30",
+          "on": "C744102C0000C842E9FEBAAA7F",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "8134F635",
+          "on": "E9F644558090",
+          "off": "C5FA1144102C"
+        }
+      ]
+    },
+    {
+      "name": "Max/Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5E340",
+          "on": "41C7859C03000064000000E917DED601",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "819CC160",
+          "on": "E9DB2129FE9090",
+          "off": "4529BD9C030000"
         }
       ]
     },
@@ -70,22 +86,6 @@
           "offset": "820AE6E4",
           "on": "E9F715BBFD90",
           "off": "B30141894774"
-        }
-      ]
-    },
-    {
-      "name": "Max/Infinite Flamethrower",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "18A3B30",
-          "on": "C744102C0000C842E9FEBAAA7F",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "8134F635",
-          "on": "E9F644558090",
-          "off": "C5FA1144102C"
         }
       ]
     }

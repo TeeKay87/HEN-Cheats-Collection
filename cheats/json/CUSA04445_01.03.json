@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite-Bomb",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8022AF40",
+          "on": "9090",
+          "off": "8930"
+        }
+      ]
+    },
+    {
       "name": "Infinite-Health",
       "type": "checkbox",
       "memory": [
@@ -23,17 +34,6 @@
           "offset": "8022AA64",
           "on": "90909090",
           "off": "48630C24"
-        }
-      ]
-    },
-    {
-      "name": "Infinite-Bomb",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8022AF40",
-          "on": "9090",
-          "off": "8930"
         }
       ]
     }

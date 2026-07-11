@@ -38,17 +38,6 @@
       ]
     },
     {
-      "name": "Max Lv when get xp",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "A4CAF0",
-          "on": "89DA90909090",
-          "off": "8B9150020000"
-        }
-      ]
-    },
-    {
       "name": "items Incressed ",
       "type": "checkbox",
       "memory": [
@@ -56,6 +45,17 @@
           "offset": "D7CAE2",
           "on": "4401EA",
           "off": "4429EA"
+        }
+      ]
+    },
+    {
+      "name": "Max Lv when get xp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "A4CAF0",
+          "on": "89DA90909090",
+          "off": "8B9150020000"
         }
       ]
     },

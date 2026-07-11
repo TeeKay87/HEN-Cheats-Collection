@@ -5,6 +5,102 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Max Perk Points (Buy On Treasure Hunter)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5F550",
+          "on": "8083CC00000063E9F93CA700",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "806D324F",
+          "on": "E9FCC258FF90",
+          "off": "FF8BCC000000"
+        }
+      ]
+    },
+    {
+      "name": "Max Upgrades Points (Buy On Magic Light Or Magnum) ",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5FAA0",
+          "on": "C6435001C6400463E94AAB7F00",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "8045A5F1",
+          "on": "E9AA5480FF90",
+          "off": "8B4B50294804"
+        }
+      ]
+    },
+    {
+      "name": "Max/Infinite Chain Reactor Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5FDF0",
+          "on": "C680940000000FE9249BCF00",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "8095991A",
+          "on": "E9D16430FF90",
+          "off": "FF8894000000"
+        }
+      ]
+    },
+    {
+      "name": "Max/Infinite Crossbow Arrows",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5E820",
+          "on": "0F48F1C640700AE904A09D00",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "8063882A",
+          "on": "E9F15F62FF90",
+          "off": "0F48F1897070"
+        }
+      ]
+    },
+    {
+      "name": "Max/Infinite Dynamites/Granades",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5F2B0",
+          "on": "0F48F1C640641DE987959D00",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "8063883D",
+          "on": "E96E6A62FF90",
+          "off": "0F48F1897064"
+        }
+      ]
+    },
+    {
+      "name": "Max/Infinite FlameThrower Fuel",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5EAB0",
+          "on": "C7407C0080E843E9A69D9D00",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "8063885D",
+          "on": "E94E6262FF",
+          "off": "C5FA11407C"
+        }
+      ]
+    },
+    {
       "name": "Max/Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -17,6 +113,22 @@
           "offset": "8063A3DA",
           "on": "E9F15162FF",
           "off": "C5FA114008"
+        }
+      ]
+    },
+    {
+      "name": "Max/Infinite Laser Gun Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5F000",
+          "on": "C6808800000055E972989D00",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "80638878",
+          "on": "E9836762FF90",
+          "off": "89B088000000"
         }
       ]
     },
@@ -53,18 +165,18 @@
       ]
     },
     {
-      "name": "Max/Infinite Crossbow Arrows",
+      "name": "Max/Infinite Rocket Launcher Ammo",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5E820",
-          "on": "0F48F1C640700AE904A09D00",
+          "offset": "7FC5E840",
+          "on": "4585F6C640580FE948A09D00",
           "off": "000000000000000000000000"
         },
         {
-          "offset": "8063882A",
-          "on": "E9F15F62FF90",
-          "off": "0F48F1897070"
+          "offset": "8063888E",
+          "on": "E9AD5F62FF90",
+          "off": "4585F6897058"
         }
       ]
     },
@@ -85,118 +197,6 @@
       ]
     },
     {
-      "name": "Max/Infinite Dynamites/Granades",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5F2B0",
-          "on": "0F48F1C640641DE987959D00",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "8063883D",
-          "on": "E96E6A62FF90",
-          "off": "0F48F1897064"
-        }
-      ]
-    },
-    {
-      "name": "Max/Infinite Submachine/Mini Gun Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5F300",
-          "on": "0F48F1C7404C72010000E90E959D00",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "80638817",
-          "on": "E9E46A62FF90",
-          "off": "0F48F189704C"
-        }
-      ]
-    },
-    {
-      "name": "Max/Infinite FlameThrower Fuel",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5EAB0",
-          "on": "C7407C0080E843E9A69D9D00",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "8063885D",
-          "on": "E94E6262FF",
-          "off": "C5FA11407C"
-        }
-      ]
-    },
-    {
-      "name": "Max/Infinite Rocket Launcher Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5E840",
-          "on": "4585F6C640580FE948A09D00",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "8063888E",
-          "on": "E9AD5F62FF90",
-          "off": "4585F6897058"
-        }
-      ]
-    },
-    {
-      "name": "Max/Infinite Laser Gun Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5F000",
-          "on": "C6808800000055E972989D00",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "80638878",
-          "on": "E9836762FF90",
-          "off": "89B088000000"
-        }
-      ]
-    },
-    {
-      "name": "Max/Infinite Chain Reactor Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5FDF0",
-          "on": "C680940000000FE9249BCF00",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "8095991A",
-          "on": "E9D16430FF90",
-          "off": "FF8894000000"
-        }
-      ]
-    },
-    {
-      "name": "Max Perk Points (Buy On Treasure Hunter)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5F550",
-          "on": "8083CC00000063E9F93CA700",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "806D324F",
-          "on": "E9FCC258FF90",
-          "off": "FF8BCC000000"
-        }
-      ]
-    },
-    {
       "name": "Max/Infinite Stats Points (Buy On Strength)",
       "type": "checkbox",
       "memory": [
@@ -213,18 +213,18 @@
       ]
     },
     {
-      "name": "Max Upgrades Points (Buy On Magic Light Or Magnum) ",
+      "name": "Max/Infinite Submachine/Mini Gun Ammo",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5FAA0",
-          "on": "C6435001C6400463E94AAB7F00",
-          "off": "00000000000000000000000000"
+          "offset": "7FC5F300",
+          "on": "0F48F1C7404C72010000E90E959D00",
+          "off": "000000000000000000000000000000"
         },
         {
-          "offset": "8045A5F1",
-          "on": "E9AA5480FF90",
-          "off": "8B4B50294804"
+          "offset": "80638817",
+          "on": "E9E46A62FF90",
+          "off": "0F48F189704C"
         }
       ]
     }

@@ -5,6 +5,22 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "All items x5 (on use/sell)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5BC00",
+          "on": "41C6451A05E964BE8D80",
+          "off": "00000000000000000000"
+        },
+        {
+          "offset": "537A69",
+          "on": "E99241727F",
+          "off": "6641895D1A"
+        }
+      ]
+    },
+    {
       "name": "Infinite Stamina",
       "type": "checkbox",
       "memory": [
@@ -37,22 +53,6 @@
       ]
     },
     {
-      "name": "Max Experience",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5AC90",
-          "on": "41818424C80200007F969800E9316A7380",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "3916CA",
-          "on": "E9C1958C7F909090",
-          "off": "4101B424C8020000"
-        }
-      ]
-    },
-    {
       "name": "Max Discipline (on gain)",
       "type": "checkbox",
       "memory": [
@@ -69,18 +69,18 @@
       ]
     },
     {
-      "name": "All items x5 (on use/sell)",
+      "name": "Max Experience",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5BC00",
-          "on": "41C6451A05E964BE8D80",
-          "off": "00000000000000000000"
+          "offset": "7FC5AC90",
+          "on": "41818424C80200007F969800E9316A7380",
+          "off": "0000000000000000000000000000000000"
         },
         {
-          "offset": "537A69",
-          "on": "E99241727F",
-          "off": "6641895D1A"
+          "offset": "3916CA",
+          "on": "E9C1958C7F909090",
+          "off": "4101B424C8020000"
         }
       ]
     },

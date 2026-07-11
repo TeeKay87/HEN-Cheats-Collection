@@ -21,6 +21,22 @@
       ]
     },
     {
+      "name": "(Items/Weapons/Armor/Quartz/Event/Ingredient)x5 Upon Change",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "C2F800",
+          "on": "6641B805006644894002E939A768FF",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "2B9F43",
+          "on": "E9B8589700",
+          "off": "6644894002"
+        }
+      ]
+    },
+    {
       "name": "Bonding point never decrease(Disable after use)",
       "type": "checkbox",
       "memory": [

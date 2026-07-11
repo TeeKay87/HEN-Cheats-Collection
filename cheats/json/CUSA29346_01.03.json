@@ -16,6 +16,22 @@
       ]
     },
     {
+      "name": "Health Node Fragment",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4D0F87A",
+          "on": "C787580200000400000048638758020000E9D7AD80FB",
+          "off": "00000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "51A660",
+          "on": "E915527F049090",
+          "off": "48638758020000"
+        }
+      ]
+    },
+    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -64,13 +80,18 @@
       ]
     },
     {
-      "name": "One Hit Kill",
+      "name": "Max Apocalypse Flask",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "35C0F2",
-          "on": "C7878400000000000000",
-          "off": "898784000000C3909090"
+          "offset": "4D0F892",
+          "on": "C787000100000000C642C5FA108700010000E98FAD80FB",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "51A630",
+          "on": "E95D527F04909090",
+          "off": "C5FA108700010000"
         }
       ]
     },
@@ -91,66 +112,13 @@
       ]
     },
     {
-      "name": "Health Node Fragment",
+      "name": "One Hit Kill",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "4D0F87A",
-          "on": "C787580200000400000048638758020000E9D7AD80FB",
-          "off": "00000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "51A660",
-          "on": "E915527F049090",
-          "off": "48638758020000"
-        }
-      ]
-    },
-    {
-      "name": "Max Apocalypse Flask",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "4D0F892",
-          "on": "C787000100000000C642C5FA108700010000E98FAD80FB",
-          "off": "0000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "51A630",
-          "on": "E95D527F04909090",
-          "off": "C5FA108700010000"
-        }
-      ]
-    },
-    {
-      "name": "Super Jump [ Land ]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "4D0F8AB",
-          "on": "415741BF000020C166410F6EC7415FF30F10C0E98CC780FB",
-          "off": "000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "51C047",
-          "on": "E95F387F04909090",
-          "off": "C5FA1087B8020000"
-        }
-      ]
-    },
-    {
-      "name": "Super Jump [ Water ]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "4D0F8C5",
-          "on": "415741BF000020C166410F6EC7415FF30F10C0E9D2C780FB",
-          "off": "000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "51C0A7",
-          "on": "E919387F04909090",
-          "off": "C5FA1087C8020000"
+          "offset": "35C0F2",
+          "on": "C7878400000000000000",
+          "off": "898784000000C3909090"
         }
       ]
     },
@@ -187,6 +155,38 @@
       ]
     },
     {
+      "name": "Super Jump [ Land ]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4D0F8AB",
+          "on": "415741BF000020C166410F6EC7415FF30F10C0E98CC780FB",
+          "off": "000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "51C047",
+          "on": "E95F387F04909090",
+          "off": "C5FA1087B8020000"
+        }
+      ]
+    },
+    {
+      "name": "Super Jump [ Water ]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4D0F8C5",
+          "on": "415741BF000020C166410F6EC7415FF30F10C0E9D2C780FB",
+          "off": "000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "51C0A7",
+          "on": "E919387F04909090",
+          "off": "C5FA1087C8020000"
+        }
+      ]
+    },
+    {
       "name": "Zero Death Stats",
       "type": "checkbox",
       "memory": [
@@ -199,7 +199,7 @@
     }
   ],
   "credits": [
-    "Reddevil82 ",
-    " FW 9.00"
+    "Reddevil82",
+    "FW 9.00"
   ]
 }

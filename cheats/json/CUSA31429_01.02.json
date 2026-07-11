@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health (battle network 4 Red Sun)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "6E97720",
-          "on": "83C024668B0C02E9DAC454F9",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "3E3BFF",
-          "on": "E91C3BAB069090",
-          "off": "83C02466890C02"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health (battle network 4 Blue moon)",
       "type": "checkbox",
       "memory": [
@@ -37,18 +21,18 @@
       ]
     },
     {
-      "name": "Infinite Health (Battle Network 5 Team Protoman)",
+      "name": "Infinite Health (battle network 4 Red Sun)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "6E97820",
-          "on": "83C124807C0A40007506668B040AEB046689040AE9399297FA",
-          "off": "00000000000000000000000000000000000000000000000000"
+          "offset": "6E97720",
+          "on": "83C024668B0C02E9DAC454F9",
+          "off": "000000000000000000000000"
         },
         {
-          "offset": "1810A6B",
-          "on": "E9B06D68059090",
-          "off": "83C1246689040A"
+          "offset": "3E3BFF",
+          "on": "E91C3BAB069090",
+          "off": "83C02466890C02"
         }
       ]
     },
@@ -64,6 +48,22 @@
         {
           "offset": "244A1CB",
           "on": "E900D7A4049090",
+          "off": "83C1246689040A"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health (Battle Network 5 Team Protoman)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6E97820",
+          "on": "83C124807C0A40007506668B040AEB046689040AE9399297FA",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1810A6B",
+          "on": "E9B06D68059090",
           "off": "83C1246689040A"
         }
       ]

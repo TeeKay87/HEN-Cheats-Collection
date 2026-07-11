@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Raiden=1-Infinite-lives",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "FE688",
-          "on": "00",
-          "off": "FF"
-        },
-        {
-          "offset": "FE689",
-          "on": "00",
-          "off": "FF"
-        }
-      ]
-    },
-    {
       "name": "Raiden=1-Infinite-Bomb",
       "type": "checkbox",
       "memory": [
@@ -37,16 +21,16 @@
       ]
     },
     {
-      "name": "Raiden=2-Infinite-lives",
+      "name": "Raiden=1-Infinite-lives",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "FE814",
+          "offset": "FE688",
           "on": "00",
           "off": "FF"
         },
         {
-          "offset": "FE815",
+          "offset": "FE689",
           "on": "00",
           "off": "FF"
         }
@@ -63,6 +47,22 @@
         },
         {
           "offset": "14625D",
+          "on": "00",
+          "off": "FF"
+        }
+      ]
+    },
+    {
+      "name": "Raiden=2-Infinite-lives",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "FE814",
+          "on": "00",
+          "off": "FF"
+        },
+        {
+          "offset": "FE815",
           "on": "00",
           "off": "FF"
         }

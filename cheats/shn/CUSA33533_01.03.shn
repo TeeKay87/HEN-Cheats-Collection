@@ -2,6 +2,32 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Ghost Song" Moder="Celogamez" Cusa="CUSA33533" Version="01.03" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
+  <Cheat Text="Infinite Energy">
+    <Cheatline>
+      <Offset>194BE70</Offset>
+      <Section>0</Section>
+      <ValueOn>C5-FA-10-80-88-00-00-00-E9-83-A4-D5-7E</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>806A62F8</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-73-5B-2A-81-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-80-88-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>154BF50</Offset>
+      <Section>0</Section>
+      <ValueOn>C5-FA-10-80-88-00-00-00-E9-6D-32-95-7F</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>80E9F1C2</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-89-CD-6A-80-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-80-88-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Infinite Health">
     <Cheatline>
       <Offset>194BDE0</Offset>
@@ -52,32 +78,6 @@
       <Section>0</Section>
       <ValueOn>E9-55-46-32-81-90-90-90</ValueOn>
       <ValueOff>C5-FA-11-80-E8-02-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Energy">
-    <Cheatline>
-      <Offset>194BE70</Offset>
-      <Section>0</Section>
-      <ValueOn>C5-FA-10-80-88-00-00-00-E9-83-A4-D5-7E</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>806A62F8</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-73-5B-2A-81-90-90-90</ValueOn>
-      <ValueOff>C5-FA-11-80-88-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>154BF50</Offset>
-      <Section>0</Section>
-      <ValueOn>C5-FA-10-80-88-00-00-00-E9-6D-32-95-7F</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>80E9F1C2</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-89-CD-6A-80-90-90-90</ValueOn>
-      <ValueOff>C5-FA-11-80-88-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max/Infinite Nanogel">

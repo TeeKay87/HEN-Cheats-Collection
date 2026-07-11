@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "1 Hit Kill (MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6BAB810",
+          "on": "7516",
+          "off": "750C"
+        }
+      ]
+    },
+    {
       "name": "Inf Health / Shield / 1 Hit Kill (Master Code)",
       "type": "checkbox",
       "memory": [
@@ -28,17 +39,6 @@
           "offset": "6BAB800",
           "on": "817F88480004007409",
           "off": "909090909090909090"
-        }
-      ]
-    },
-    {
-      "name": "1 Hit Kill (MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "6BAB810",
-          "on": "7516",
-          "off": "750C"
         }
       ]
     },

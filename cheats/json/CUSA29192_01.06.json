@@ -5,33 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Life",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "80589D5C",
-          "on": "9090909090",
-          "off": "E8CF9DA400"
-        }
-      ]
-    },
-    {
-      "name": "Inf Stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5F000",
-          "on": "41C7463C0000C842C4C17A104E3CC4C17A114E3CC5F82EDAE99F630C01",
-          "off": "0000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "80D253B2",
-          "on": "E9499CF3FE9090909090",
-          "off": "C4C17A114E3CC5F82EDA"
-        }
-      ]
-    },
-    {
       "name": "Inf Ammo",
       "type": "checkbox",
       "memory": [
@@ -39,17 +12,6 @@
           "offset": "80D23095",
           "on": "909090",
           "off": "41FFD4"
-        }
-      ]
-    },
-    {
-      "name": "No Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "80C68B43",
-          "on": "9090909090",
-          "off": "418944245C"
         }
       ]
     },
@@ -96,6 +58,17 @@
       ]
     },
     {
+      "name": "Inf Life",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80589D5C",
+          "on": "9090909090",
+          "off": "E8CF9DA400"
+        }
+      ]
+    },
+    {
       "name": "Inf Skill Points",
       "type": "checkbox",
       "memory": [
@@ -108,6 +81,33 @@
           "offset": "8095642A",
           "on": "E9428C30FF",
           "off": "4189442428"
+        }
+      ]
+    },
+    {
+      "name": "Inf Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5F000",
+          "on": "41C7463C0000C842C4C17A104E3CC4C17A114E3CC5F82EDAE99F630C01",
+          "off": "0000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "80D253B2",
+          "on": "E9499CF3FE9090909090",
+          "off": "C4C17A114E3CC5F82EDA"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80C68B43",
+          "on": "9090909090",
+          "off": "418944245C"
         }
       ]
     }

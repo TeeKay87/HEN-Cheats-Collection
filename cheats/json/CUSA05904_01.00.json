@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Get Perk Points For Spending Them",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "31CAB9C",
+          "on": "4401BBD8000000",
+          "off": "4429BBD8000000"
+        }
+      ]
+    },
+    {
       "name": "Godmode",
       "type": "checkbox",
       "memory": [
@@ -32,6 +43,17 @@
       ]
     },
     {
+      "name": "Max Money / Items On Pickup",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "1115B20",
+          "on": "B8FFC99A3B9090",
+          "off": "B8FFC99A3B9090"
+        }
+      ]
+    },
+    {
       "name": "No Recoil",
       "type": "checkbox",
       "memory": [
@@ -44,28 +66,6 @@
           "offset": "35FDFB0",
           "on": "909090909090909090",
           "off": "C4C17A11871C010000"
-        }
-      ]
-    },
-    {
-      "name": "Get Perk Points For Spending Them",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "31CAB9C",
-          "on": "4401BBD8000000",
-          "off": "4429BBD8000000"
-        }
-      ]
-    },
-    {
-      "name": "Max Money / Items On Pickup",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "1115B20",
-          "on": "B8FFC99A3B9090",
-          "off": "B8FFC99A3B9090"
         }
       ]
     }

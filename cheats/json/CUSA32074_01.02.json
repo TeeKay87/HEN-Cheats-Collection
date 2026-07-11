@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Invincible",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "10132CA",
-          "on": "9090909090",
-          "off": "E8A165FFFF"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -27,18 +16,13 @@
       ]
     },
     {
-      "name": "Max Lives ( on gain / lose )",
+      "name": "Invincible",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "197FDB0",
-          "on": "C781B0000000E7030000E9BA86927F526564646576696C3832202D20465720392E3030",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "812A8473",
-          "on": "E938796D8090",
-          "off": "8981B0000000"
+          "offset": "10132CA",
+          "on": "9090909090",
+          "off": "E8A165FFFF"
         }
       ]
     },
@@ -57,10 +41,26 @@
           "off": "48C1E6048954302C"
         }
       ]
+    },
+    {
+      "name": "Max Lives ( on gain / lose )",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "197FDB0",
+          "on": "C781B0000000E7030000E9BA86927F526564646576696C3832202D20465720392E3030",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "812A8473",
+          "on": "E938796D8090",
+          "off": "8981B0000000"
+        }
+      ]
     }
   ],
   "credits": [
-    "Reddevil82 ",
-    " FW 9.00"
+    "Reddevil82",
+    "FW 9.00"
   ]
 }

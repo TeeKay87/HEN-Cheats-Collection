@@ -5,6 +5,104 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "0.5x damage",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "176B300",
+          "on": "0000003F",
+          "off": "0000003F"
+        }
+      ]
+    },
+    {
+      "name": "10x resources",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "176B310",
+          "on": "0A000000",
+          "off": "0A000000"
+        }
+      ]
+    },
+    {
+      "name": "25x resources",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "176B310",
+          "on": "19000000",
+          "off": "19000000"
+        }
+      ]
+    },
+    {
+      "name": "3x damage",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "176B300",
+          "on": "00004040",
+          "off": "00004040"
+        }
+      ]
+    },
+    {
+      "name": "3x resources",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "176B310",
+          "on": "03000000",
+          "off": "03000000"
+        }
+      ]
+    },
+    {
+      "name": "5x damage",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "176B300",
+          "on": "0000A040",
+          "off": "0000A040"
+        }
+      ]
+    },
+    {
+      "name": "5x resources",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "176B310",
+          "on": "05000000",
+          "off": "05000000"
+        }
+      ]
+    },
+    {
+      "name": "Damage Multiplier (default: 2x)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "176B070",
+          "on": "4180FBF0720BC5FA114C2460E98DDEF7FEC5F2590D77020000EBEB90",
+          "off": "4180FBF0720BC5FA114C2460E98DDEF7FEC5F2590D77020000EBEB90"
+        },
+        {
+          "offset": "6E8F08",
+          "on": "E96321080190",
+          "off": "C5FA114C2460"
+        },
+        {
+          "offset": "176B300",
+          "on": "00000040",
+          "off": "0000803F"
+        }
+      ]
+    },
+    {
       "name": "Godmode",
       "type": "checkbox",
       "memory": [
@@ -17,6 +115,32 @@
           "offset": "6EA69C",
           "on": "E95F09080190",
           "off": "C5FA104C2460"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Projectiles",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "176B200",
+          "on": "669C4983FB027417664181F8F021740FC5FA108D90DFFFFF669DE912E30FFFC5FA109D80DFFFFFEBE7909090",
+          "off": "669C4983FB027417664181F8F021740FC5FA108D90DFFFFF669DE912E30FFFC5FA109D80DFFFFFEBE7909090"
+        },
+        {
+          "offset": "869529",
+          "on": "E9D21CF000909090",
+          "off": "C5FA108D90DFFFFF"
+        },
+        {
+          "offset": "176B250",
+          "on": "BF32000000F30F2ACFC5FA11084889C7E91B02EEFE909090",
+          "off": "BF32000000F30F2ACFC5FA11084889C7E91B02EEFE909090"
+        },
+        {
+          "offset": "64B457",
+          "on": "E9F4FD1101",
+          "off": "4889C7EB24"
         }
       ]
     },
@@ -74,32 +198,6 @@
       ]
     },
     {
-      "name": "Infinite Projectiles",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "176B200",
-          "on": "669C4983FB027417664181F8F021740FC5FA108D90DFFFFF669DE912E30FFFC5FA109D80DFFFFFEBE7909090",
-          "off": "669C4983FB027417664181F8F021740FC5FA108D90DFFFFF669DE912E30FFFC5FA109D80DFFFFFEBE7909090"
-        },
-        {
-          "offset": "869529",
-          "on": "E9D21CF000909090",
-          "off": "C5FA108D90DFFFFF"
-        },
-        {
-          "offset": "176B250",
-          "on": "BF32000000F30F2ACFC5FA11084889C7E91B02EEFE909090",
-          "off": "BF32000000F30F2ACFC5FA11084889C7E91B02EEFE909090"
-        },
-        {
-          "offset": "64B457",
-          "on": "E9F4FD1101",
-          "off": "4889C7EB24"
-        }
-      ]
-    },
-    {
       "name": "Resources up (on craft/sell)",
       "type": "checkbox",
       "memory": [
@@ -116,34 +214,18 @@
       ]
     },
     {
-      "name": "Damage Multiplier (default: 2x)",
+      "name": "Wishing Well Fix",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "176B070",
-          "on": "4180FBF0720BC5FA114C2460E98DDEF7FEC5F2590D77020000EBEB90",
-          "off": "4180FBF0720BC5FA114C2460E98DDEF7FEC5F2590D77020000EBEB90"
+          "offset": "176B1C0",
+          "on": "669C4983FC1974134983FC1A740D898D40FFFFFF669DE9A7174BFFB964000000EBEC9090",
+          "off": "669C4983FC1974134983FC1A740D898D40FFFFFF669DE9A7174BFFB964000000EBEC9090"
         },
         {
-          "offset": "6E8F08",
-          "on": "E96321080190",
-          "off": "C5FA114C2460"
-        },
-        {
-          "offset": "176B300",
-          "on": "00000040",
-          "off": "0000803F"
-        }
-      ]
-    },
-    {
-      "name": "0.5x damage",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "176B300",
-          "on": "0000003F",
-          "off": "0000003F"
+          "offset": "C2A586",
+          "on": "E9350CB40090",
+          "off": "898D40FFFFFF"
         }
       ]
     },
@@ -165,33 +247,6 @@
           "offset": "176B310",
           "on": "02000000",
           "off": "01000000"
-        }
-      ]
-    },
-    {
-      "name": "3x resources",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "176B310",
-          "on": "03000000",
-          "off": "03000000"
-        }
-      ]
-    },
-    {
-      "name": "Wishing Well Fix",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "176B1C0",
-          "on": "669C4983FC1974134983FC1A740D898D40FFFFFF669DE9A7174BFFB964000000EBEC9090",
-          "off": "669C4983FC1974134983FC1A740D898D40FFFFFF669DE9A7174BFFB964000000EBEC9090"
-        },
-        {
-          "offset": "C2A586",
-          "on": "E9350CB40090",
-          "off": "898D40FFFFFF"
         }
       ]
     }

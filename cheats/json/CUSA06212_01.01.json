@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "F8384F",
-          "on": "508B835013000089834813000058C5FA108348130000E9A4F73CFF",
-          "off": "000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "353006",
-          "on": "E94408C300909090",
-          "off": "C5FA108348130000"
-        }
-      ]
-    },
-    {
       "name": "Bottomless Clip",
       "type": "checkbox",
       "memory": [
@@ -48,17 +32,6 @@
       ]
     },
     {
-      "name": "Infinite Items",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "21BB1A",
-          "on": "9090",
-          "off": "FFC8"
-        }
-      ]
-    },
-    {
       "name": "Infinite BP",
       "type": "checkbox",
       "memory": [
@@ -71,6 +44,33 @@
           "offset": "4E80E8",
           "on": "E92EB7A90090",
           "off": "898B18010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "F8384F",
+          "on": "508B835013000089834813000058C5FA108348130000E9A4F73CFF",
+          "off": "000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "353006",
+          "on": "E94408C300909090",
+          "off": "C5FA108348130000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "21BB1A",
+          "on": "9090",
+          "off": "FFC8"
         }
       ]
     },

@@ -5,18 +5,24 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Camera Shutter Cooldown",
+      "name": "\u002B1 Film",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "12B7800",
-          "on": "41C785A40000000000803FE9EB5A21FF",
-          "off": "00000000000000000000000000000000"
-        },
+          "offset": "3DF54B",
+          "on": "8D7701",
+          "off": "8D77FF"
+        }
+      ]
+    },
+    {
+      "name": "\u002B1 Item",
+      "type": "checkbox",
+      "memory": [
         {
-          "offset": "4CD2F0",
-          "on": "E90BA5DE00909090909090",
-          "off": "41C785A400000000000000"
+          "offset": "3DE4DD",
+          "on": "8D5101",
+          "off": "8D51FF"
         }
       ]
     },
@@ -32,6 +38,22 @@
         {
           "offset": "4CD8DF",
           "on": "E95F9FDE00909090909090",
+          "off": "41C785A400000000000000"
+        }
+      ]
+    },
+    {
+      "name": "Camera Shutter Cooldown",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "12B7800",
+          "on": "41C785A40000000000803FE9EB5A21FF",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "4CD2F0",
+          "on": "E90BA5DE00909090909090",
           "off": "41C785A400000000000000"
         }
       ]
@@ -64,18 +86,24 @@
       ]
     },
     {
-      "name": "Reset Time",
+      "name": "Max Film per use",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "12B7811",
-          "on": "C7474C00000000E9EC242CFF",
-          "off": "000000000000000000000000"
-        },
+          "offset": "3DF55C",
+          "on": "7D02",
+          "off": "7E02"
+        }
+      ]
+    },
+    {
+      "name": "Max item per use",
+      "type": "checkbox",
+      "memory": [
         {
-          "offset": "579D04",
-          "on": "E908DBD300",
-          "off": "C5FA114F4C"
+          "offset": "3DE4F0",
+          "on": "7E02",
+          "off": "7D02"
         }
       ]
     },
@@ -91,18 +119,18 @@
       ]
     },
     {
-      "name": "Score \u002B Points x2 (dont touch soul)",
+      "name": "Reset Time",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "12B781E",
-          "on": "8B0F6BC902890F41894E50E9086412FF",
-          "off": "00000000000000000000000000000000"
+          "offset": "12B7811",
+          "on": "C7474C00000000E9EC242CFF",
+          "off": "000000000000000000000000"
         },
         {
-          "offset": "3DDC30",
-          "on": "E9E99BED0090",
-          "off": "8B0F01F1890F"
+          "offset": "579D04",
+          "on": "E908DBD300",
+          "off": "C5FA114F4C"
         }
       ]
     },
@@ -123,46 +151,18 @@
       ]
     },
     {
-      "name": "\u002B1 Item",
+      "name": "Score \u002B Points x2 (dont touch soul)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "3DE4DD",
-          "on": "8D5101",
-          "off": "8D51FF"
-        }
-      ]
-    },
-    {
-      "name": "\u002B1 Film",
-      "type": "checkbox",
-      "memory": [
+          "offset": "12B781E",
+          "on": "8B0F6BC902890F41894E50E9086412FF",
+          "off": "00000000000000000000000000000000"
+        },
         {
-          "offset": "3DF54B",
-          "on": "8D7701",
-          "off": "8D77FF"
-        }
-      ]
-    },
-    {
-      "name": "Max item per use",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3DE4F0",
-          "on": "7E02",
-          "off": "7D02"
-        }
-      ]
-    },
-    {
-      "name": "Max Film per use",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3DF55C",
-          "on": "7D02",
-          "off": "7E02"
+          "offset": "3DDC30",
+          "on": "E9E99BED0090",
+          "off": "8B0F01F1890F"
         }
       ]
     }

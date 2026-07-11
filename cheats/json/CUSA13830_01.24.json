@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5EAC0",
-          "on": "C783400100000000C842E98000BE80",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "83EB47",
-          "on": "E974FF417F909090",
-          "off": "C5FA118B40010000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Ammo",
       "type": "checkbox",
       "memory": [
@@ -48,34 +32,18 @@
       ]
     },
     {
-      "name": "Scrap/Item (on get have 2)",
+      "name": "Infinite Stamina",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5F160",
-          "on": "01D8C7472C3F420F00E940FCCE80",
-          "off": "0000000000000000000000000000"
+          "offset": "7FC5EAC0",
+          "on": "C783400100000000C842E98000BE80",
+          "off": "000000000000000000000000000000"
         },
         {
-          "offset": "94EDA9",
-          "on": "E9B203317F",
-          "off": "01D889472C"
-        }
-      ]
-    },
-    {
-      "name": "Items on use (turn off before trading)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5F1B0",
-          "on": "2B45D86641C706E703E9B4A13C83",
-          "off": "0000000000000000000000000000"
-        },
-        {
-          "offset": "302936C",
-          "on": "E93F5EC37C90",
-          "off": "2B45D8418906"
+          "offset": "83EB47",
+          "on": "E974FF417F909090",
+          "off": "C5FA118B40010000"
         }
       ]
     },
@@ -96,6 +64,22 @@
       ]
     },
     {
+      "name": "Items on use (turn off before trading)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5F1B0",
+          "on": "2B45D86641C706E703E9B4A13C83",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "302936C",
+          "on": "E93F5EC37C90",
+          "off": "2B45D8418906"
+        }
+      ]
+    },
+    {
       "name": "Max Experience (kill 2 enemies)",
       "type": "checkbox",
       "memory": [
@@ -112,18 +96,18 @@
       ]
     },
     {
-      "name": "Infinite Health",
+      "name": "Scrap/Item (on get have 2)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5F5E0",
-          "on": "83BB7402000000750DC5FA108B70080000E967B5BF80C5FA118B70080000E95AB5BF80",
-          "off": "0000000000000000000000000000000000000000000000000000000000000000000000"
+          "offset": "7FC5F160",
+          "on": "01D8C7472C3F420F00E940FCCE80",
+          "off": "0000000000000000000000000000"
         },
         {
-          "offset": "85AB55",
-          "on": "E9864A407F909090",
-          "off": "C5FA118B70080000"
+          "offset": "94EDA9",
+          "on": "E9B203317F",
+          "off": "01D889472C"
         }
       ]
     },
@@ -144,18 +128,34 @@
       ]
     },
     {
-      "name": "Max/Infinite Items",
+      "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5FEA0",
-          "on": "89702CC6402C63E93944CE80",
-          "off": "000000000000000000000000"
+          "offset": "7FC5F5E0",
+          "on": "83BB7402000000750DC5FA108B70080000E967B5BF80C5FA118B70080000E95AB5BF80",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "9442E0",
-          "on": "E9BBBB317F",
-          "off": "740389702C"
+          "offset": "85AB55",
+          "on": "E9864A407F909090",
+          "off": "C5FA118B70080000"
+        }
+      ]
+    },
+    {
+      "name": "MAX XP (On Kill)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5F8F0",
+          "on": "89BB24010000E9A3DBD580",
+          "off": "0000000000000000000000"
+        },
+        {
+          "offset": "9BD497",
+          "on": "E954242A7F9090",
+          "off": "4401B324010000"
         }
       ]
     },
@@ -176,18 +176,29 @@
       ]
     },
     {
-      "name": "MAX XP (On Kill)",
+      "name": "Max/Infinite Items",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5F8F0",
-          "on": "89BB24010000E9A3DBD580",
-          "off": "0000000000000000000000"
+          "offset": "7FC5FEA0",
+          "on": "89702CC6402C63E93944CE80",
+          "off": "000000000000000000000000"
         },
         {
-          "offset": "9BD497",
-          "on": "E954242A7F9090",
-          "off": "4401B324010000"
+          "offset": "9442E0",
+          "on": "E9BBBB317F",
+          "off": "740389702C"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "9639F6",
+          "on": "442B7654",
+          "off": "44297654"
         }
       ]
     }

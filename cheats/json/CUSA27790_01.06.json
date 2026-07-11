@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Freeze Race Timer",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "172022A",
+          "on": "9090909090",
+          "off": "C5FA584048"
+        }
+      ]
+    },
+    {
       "name": "Max Money",
       "type": "checkbox",
       "memory": [
@@ -17,54 +28,6 @@
           "offset": "51596A",
           "on": "E94164B3019090",
           "off": "418B8680B00000"
-        }
-      ]
-    },
-    {
-      "name": "Max R\u0026D Skills Points",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "204BDC7",
-          "on": "66C78090B000000F27448BA090B00000E9FDCE4FFE",
-          "off": "000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "548CD2",
-          "on": "E9F030B0019090",
-          "off": "448BA090B00000"
-        }
-      ]
-    },
-    {
-      "name": "Max XP Level",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "204BDDC",
-          "on": "C6808CB00000638B908CB00000E9FCD64FFE",
-          "off": "000000000000000000000000000000000000"
-        },
-        {
-          "offset": "5494E4",
-          "on": "E9F328B00190",
-          "off": "8B908CB00000"
-        }
-      ]
-    },
-    {
-      "name": "Max Reputation Level",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "204BDEE",
-          "on": "C704810000C842C5FA100481E980A929FE",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "2E677A",
-          "on": "E96F56D601",
-          "off": "C5FA100481"
         }
       ]
     },
@@ -85,13 +48,50 @@
       ]
     },
     {
-      "name": "Freeze Race Timer",
+      "name": "Max R\u0026D Skills Points",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "172022A",
-          "on": "9090909090",
-          "off": "C5FA584048"
+          "offset": "204BDC7",
+          "on": "66C78090B000000F27448BA090B00000E9FDCE4FFE",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "548CD2",
+          "on": "E9F030B0019090",
+          "off": "448BA090B00000"
+        }
+      ]
+    },
+    {
+      "name": "Max Reputation Level",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "204BDEE",
+          "on": "C704810000C842C5FA100481E980A929FE",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "2E677A",
+          "on": "E96F56D601",
+          "off": "C5FA100481"
+        }
+      ]
+    },
+    {
+      "name": "Max XP Level",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "204BDDC",
+          "on": "C6808CB00000638B908CB00000E9FCD64FFE",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "5494E4",
+          "on": "E9F328B00190",
+          "off": "8B908CB00000"
         }
       ]
     },
@@ -113,7 +113,7 @@
     }
   ],
   "credits": [
-    "Reddevil82 ",
-    " FW 9.00"
+    "Reddevil82",
+    "FW 9.00"
   ]
 }

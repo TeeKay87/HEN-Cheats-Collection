@@ -51,6 +51,38 @@
           "off": "C5FA11475C"
         }
       ]
+    },
+    {
+      "name": "X4 Speed",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8023D410",
+          "on": "C7475C00004041E94F7FD400",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "80F85366",
+          "on": "E9A5802BFF",
+          "off": "C5FA11475C"
+        }
+      ]
+    },
+    {
+      "name": "X6 Speed",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8023D410",
+          "on": "C7475C00009041E94F7FD400",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "80F85366",
+          "on": "E9A5802BFF",
+          "off": "C5FA11475C"
+        }
+      ]
     }
   ],
   "credits": [

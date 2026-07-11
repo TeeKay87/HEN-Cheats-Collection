@@ -5,6 +5,22 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "999,999,999 Score on Gain",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8F8BF0",
+          "on": "42C704A0FFC99A3B5BE98CEEADFF",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "3D7A85",
+          "on": "E966115200",
+          "off": "460134A05B"
+        }
+      ]
+    },
+    {
       "name": "Infinite Ammo (Inventory)",
       "type": "checkbox",
       "memory": [
@@ -37,28 +53,28 @@
       ]
     },
     {
-      "name": "999,999,999 Score on Gain",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8F8BF0",
-          "on": "42C704A0FFC99A3B5BE98CEEADFF",
-          "off": "0000000000000000000000000000"
-        },
-        {
-          "offset": "3D7A85",
-          "on": "E966115200",
-          "off": "460134A05B"
-        }
-      ]
-    },
-    {
       "name": "Rapid Fire",
       "type": "checkbox",
       "memory": [
         {
           "offset": "901E40",
           "on": "C4C17A1197DC010000E987B6BDFF",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "4DD4CC",
+          "on": "E96F49420090909090",
+          "off": "C4C17A1187DC010000"
+        }
+      ]
+    },
+    {
+      "name": "Single Fire",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "901E40",
+          "on": "C4C17A118FDC010000E987B6BDFF",
           "off": "0000000000000000000000000000"
         },
         {

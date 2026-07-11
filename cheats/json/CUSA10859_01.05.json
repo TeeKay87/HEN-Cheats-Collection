@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "D2F1B4",
+          "on": "9090909090",
+          "off": "4489448820"
+        }
+      ]
+    },
+    {
       "name": "Max Infinite Money (On Gain)",
       "type": "checkbox",
       "memory": [
@@ -27,17 +38,6 @@
           "offset": "E3A33",
           "on": "90909090909090",
           "off": "4429B848010000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Items",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "D2F1B4",
-          "on": "9090909090",
-          "off": "4489448820"
         }
       ]
     }

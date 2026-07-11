@@ -3,32 +3,12 @@
   <Genres Name="Action" />
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="0 Weight">
     <Cheatline>
-      <Offset>363F800</Offset>
+      <Offset>2E1C8D1</Offset>
       <Section>0</Section>
-      <ValueOn>41-C7-87-A4-04-00-00-00-00-C8-42-C4-C1-7A-10-97-A4-04-00-00-E9-D0-60-78-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>2DC58E0</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-1B-9F-87-00-90-90-90-90</ValueOn>
-      <ValueOff>C4-C1-7A-10-97-A4-04-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Stamina">
-    <Cheatline>
-      <Offset>363F819</Offset>
-      <Section>0</Section>
-      <ValueOn>41-C7-87-A8-04-00-00-00-00-E6-42-C4-C1-7A-10-87-A8-04-00-00-E9-11-61-78-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>2DC593A</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-DA-9E-87-00-90-90-90-90</ValueOn>
-      <ValueOff>C4-C1-7A-10-87-A8-04-00-00</ValueOff>
+      <ValueOn>C4-C1-7A-11-46-0C</ValueOn>
+      <ValueOff>C4-C1-7A-11-46-1C</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Energy">
@@ -45,6 +25,20 @@
       <ValueOff>C5-FA-10-83-AC-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="Infinite Health">
+    <Cheatline>
+      <Offset>363F800</Offset>
+      <Section>0</Section>
+      <ValueOn>41-C7-87-A4-04-00-00-00-00-C8-42-C4-C1-7A-10-97-A4-04-00-00-E9-D0-60-78-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>2DC58E0</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-1B-9F-87-00-90-90-90-90</ValueOn>
+      <ValueOff>C4-C1-7A-10-97-A4-04-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Infinite Nourishment">
     <Cheatline>
       <Offset>363F849</Offset>
@@ -59,12 +53,18 @@
       <ValueOff>C5-FA-10-83-B0-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="0 Weight">
+  <Cheat Text="Infinite Stamina">
     <Cheatline>
-      <Offset>2E1C8D1</Offset>
+      <Offset>363F819</Offset>
       <Section>0</Section>
-      <ValueOn>C4-C1-7A-11-46-0C</ValueOn>
-      <ValueOff>C4-C1-7A-11-46-1C</ValueOff>
+      <ValueOn>41-C7-87-A8-04-00-00-00-00-E6-42-C4-C1-7A-10-87-A8-04-00-00-E9-11-61-78-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>2DC593A</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-DA-9E-87-00-90-90-90-90</ValueOn>
+      <ValueOff>C4-C1-7A-10-87-A8-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max Money On Buy/Sell">

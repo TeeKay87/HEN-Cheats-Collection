@@ -14,6 +14,17 @@
           "off": "4489B82C434400"
         }
       ]
+    },
+    {
+      "name": "max skill points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3F3EF7",
+          "on": "89802C434400",
+          "off": "89802C434400"
+        }
+      ]
     }
   ],
   "credits": [

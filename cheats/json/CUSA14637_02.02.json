@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Swords/Upgrade parts (on gain find 2 at least)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5FB70",
-          "on": "0F4FF0C6473063E9EDA30E82",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "1D49F63",
-          "on": "E9085CF17D90",
-          "off": "0F4FF0897730"
-        }
-      ]
-    },
-    {
       "name": "Max Crystal Fragment (on spend)",
       "type": "checkbox",
       "memory": [
@@ -33,6 +17,22 @@
           "offset": "1D16FC5",
           "on": "E9268CF47D90",
           "off": "89B728020000"
+        }
+      ]
+    },
+    {
+      "name": "Max Swords/Upgrade parts (on gain find 2 at least)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5FB70",
+          "on": "0F4FF0C6473063E9EDA30E82",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "1D49F63",
+          "on": "E9085CF17D90",
+          "off": "0F4FF0897730"
         }
       ]
     },

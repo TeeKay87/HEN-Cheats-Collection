@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "10C208C",
+          "on": "C4C17A118720050000",
+          "off": "C4C17A118720050000"
+        }
+      ]
+    },
+    {
       "name": "Max Coins (Have 1 Coin Before Activating)",
       "type": "checkbox",
       "memory": [
@@ -17,17 +28,6 @@
           "offset": "BF8583",
           "on": "E9385B067F9090",
           "off": "418B5638015338"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "10C208C",
-          "on": "C4C17A118720050000",
-          "off": "C4C17A118720050000"
         }
       ]
     }

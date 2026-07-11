@@ -17,6 +17,22 @@
           "offset": "A66B000",
           "on": "837F1C000F85950B0BFBC5FA118FA0000000E9880B0BFB",
           "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "571BB97",
+          "on": "E964F4F404909090",
+          "off": "C5FA118FA0000000"
+        }
+      ]
+    },
+    {
+      "name": "Huge XP Multiplier",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "174FB7E",
+          "on": "01F890",
+          "off": "4401F0"
         }
       ]
     },
@@ -48,17 +64,6 @@
       ]
     },
     {
-      "name": "Infinite Skillpoints",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "E8F4A5",
-          "on": "B8FF0000009090",
-          "off": "418B8658010000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Myth Rank Points",
       "type": "checkbox",
       "memory": [
@@ -75,13 +80,25 @@
       ]
     },
     {
-      "name": "Huge XP Multiplier",
+      "name": "Infinite Skillpoints",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "174FB7E",
-          "on": "01F890",
-          "off": "4401F0"
+          "offset": "E8F4A5",
+          "on": "B8FF0000009090",
+          "off": "418B8658010000"
+        }
+      ]
+    },
+    {
+      "name": "No Cap On Inventory Upgrades",
+      "hint": "The upgrades that go past the games cap will reset upon restarting the game or loading the save.",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "170CF12",
+          "on": "C7020000000031C05DC3",
+          "off": "8B025DC3909090909090"
         }
       ]
     },
@@ -98,6 +115,11 @@
           "offset": "A66B028",
           "on": "C74628E70300004C8B36E93A4282F6",
           "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "E8F26B",
+          "on": "E9B8BD7D0990",
+          "off": "FF46284C8B36"
         }
       ]
     },
@@ -115,18 +137,11 @@
           "offset": "A66B017",
           "on": "C744C820FFC99A3B488D34C8E94FD10EF7",
           "off": "0000000000000000000000000000000000"
-        }
-      ]
-    },
-    {
-      "name": "No Cap On Inventory Upgrades",
-      "hint": "The upgrades that go past the games cap will reset upon restarting the game or loading the save.",
-      "type": "checkbox",
-      "memory": [
+        },
         {
-          "offset": "170CF12",
-          "on": "C7020000000031C05DC3",
-          "off": "8B025DC3909090909090"
+          "offset": "175816F",
+          "on": "E9A32EF108909090",
+          "off": "FF44C820488D34C8"
         }
       ]
     }

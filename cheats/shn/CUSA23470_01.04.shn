@@ -30,34 +30,6 @@
       <ValueOff>41-FF-86-38-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Boxes">
-    <Cheatline>
-      <Offset>700F832</Offset>
-      <Section>0</Section>
-      <ValueOn>8B-B7-30-04-00-00-89-B7-38-04-00-00-E9-89-96-05-FA</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>1068EC6</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-67-69-FA-05-90</ValueOn>
-      <ValueOff>01-B7-38-04-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Max Wumpa by hejran7">
-    <Cheatline>
-      <Offset>700F845</Offset>
-      <Section>0</Section>
-      <ValueOn>45-8B-8D-04-04-00-00-45-89-8D-00-04-00-00-E9-F1-C6-14-FA</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>115BF42</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-FE-38-EB-05-90-90</ValueOn>
-      <ValueOff>45-01-8D-00-04-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Inf Lives in Retro + Invincible in Modern mode by hejran7">
     <Cheatline>
       <Offset>700F85A</Offset>
@@ -84,6 +56,34 @@
       <Section>0</Section>
       <ValueOn>E9-E4-F6-EA-05</ValueOn>
       <ValueOff>C4-C1-7A-2A-C4</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max Boxes">
+    <Cheatline>
+      <Offset>700F832</Offset>
+      <Section>0</Section>
+      <ValueOn>8B-B7-30-04-00-00-89-B7-38-04-00-00-E9-89-96-05-FA</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>1068EC6</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-67-69-FA-05-90</ValueOn>
+      <ValueOff>01-B7-38-04-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max Wumpa by hejran7">
+    <Cheatline>
+      <Offset>700F845</Offset>
+      <Section>0</Section>
+      <ValueOn>45-8B-8D-04-04-00-00-45-89-8D-00-04-00-00-E9-F1-C6-14-FA</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>115BF42</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-FE-38-EB-05-90-90</ValueOn>
+      <ValueOff>45-01-8D-00-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

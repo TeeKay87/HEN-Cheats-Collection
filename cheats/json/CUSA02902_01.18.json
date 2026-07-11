@@ -5,29 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Master",
-      "type": "master",
-      "memory": [
-        {
-          "offset": "539F810",
-          "on": "B000884778C390E909D11DFB",
-          "off": ""
-        },
-        {
-          "offset": "57C920",
-          "on": "E9EB2EE204",
-          "off": ""
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health Player",
+      "name": "Extra Resources Suply [Suply Raid Mission]",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "34CCBF0",
-          "on": "C3",
-          "off": "55"
+          "offset": "539F836",
+          "on": "41C7868C00000080969800C4C17A2A868C000000E919D004FB",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "3EC85F",
+          "on": "E9D22FFB0490909090",
+          "off": "C4C17A2A868C000000"
         }
       ]
     },
@@ -43,40 +32,13 @@
       ]
     },
     {
-      "name": "No Blood On Screen",
+      "name": "Infinite Health Player",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "34CC356",
-          "on": "9090909090",
-          "off": "E8D50068FD"
-        }
-      ]
-    },
-    {
-      "name": "Inftinite Throwable",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "539F800",
-          "on": "66C747500A000FB74750C3E9B528CDFA",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "720C0",
-          "on": "E93BD73205",
-          "off": "0FB74750C3"
-        }
-      ]
-    },
-    {
-      "name": "Stealth Mode [Player Only]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "539F810",
-          "on": "B001",
-          "off": "B000"
+          "offset": "34CCBF0",
+          "on": "C3",
+          "off": "55"
         }
       ]
     },
@@ -97,18 +59,56 @@
       ]
     },
     {
-      "name": "Extra Resources Suply [Suply Raid Mission]",
+      "name": "Inftinite Throwable",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "539F836",
-          "on": "41C7868C00000080969800C4C17A2A868C000000E919D004FB",
-          "off": "00000000000000000000000000000000000000000000000000"
+          "offset": "539F800",
+          "on": "66C747500A000FB74750C3E9B528CDFA",
+          "off": "00000000000000000000000000000000"
         },
         {
-          "offset": "3EC85F",
-          "on": "E9D22FFB0490909090",
-          "off": "C4C17A2A868C000000"
+          "offset": "720C0",
+          "on": "E93BD73205",
+          "off": "0FB74750C3"
+        }
+      ]
+    },
+    {
+      "name": "Master",
+      "type": "master",
+      "memory": [
+        {
+          "offset": "539F810",
+          "on": "B000884778C390E909D11DFB",
+          "off": ""
+        },
+        {
+          "offset": "57C920",
+          "on": "E9EB2EE204",
+          "off": ""
+        }
+      ]
+    },
+    {
+      "name": "No Blood On Screen",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "34CC356",
+          "on": "9090909090",
+          "off": "E8D50068FD"
+        }
+      ]
+    },
+    {
+      "name": "Stealth Mode [Player Only]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "539F810",
+          "on": "B001",
+          "off": "B000"
         }
       ]
     },

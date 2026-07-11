@@ -5,6 +5,38 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "25x Money Multiplier (on get)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5FC70E0",
+          "on": "85F6740C4D85C975076BF619418975004189F44989FFE96B53E9FC90",
+          "off": "85F6740C4D85C975076BF619418975004189F44989FFE96B53E9FC90"
+        },
+        {
+          "offset": "2E5C460",
+          "on": "E97BAC160390",
+          "off": "4189F44989FF"
+        }
+      ]
+    },
+    {
+      "name": "25x Skill Points Multiplier",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5FC7140",
+          "on": "6BF6194D8B7C2418E960B80DFD909090",
+          "off": "6BF6194D8B7C2418E960B80DFD909090"
+        },
+        {
+          "offset": "30A29A8",
+          "on": "E99347F202",
+          "off": "4D8B7C2418"
+        }
+      ]
+    },
+    {
       "name": "Godmode",
       "type": "checkbox",
       "memory": [
@@ -21,22 +53,6 @@
       ]
     },
     {
-      "name": "One-hit Kill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5FC7090",
-          "on": "41837E3400740EC745D400401C46C5FA1045D4EB05C5FA114DD4E9B5B137FC90",
-          "off": "41837E3400740EC745D400401C46C5FA1045D4EB05C5FA114DD4E9B5B137FC90"
-        },
-        {
-          "offset": "234225F",
-          "on": "E92C4EC803",
-          "off": "C5FA114DD4"
-        }
-      ]
-    },
-    {
       "name": "Infinite Stamina",
       "type": "checkbox",
       "memory": [
@@ -44,17 +60,6 @@
           "offset": "2ED37B9",
           "on": "C5FA1045B0",
           "off": "C5FA1045C0"
-        }
-      ]
-    },
-    {
-      "name": "Max Weapon Durability",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2B61762",
-          "on": "C5FA5FC1",
-          "off": "C5FA5DC1"
         }
       ]
     },
@@ -86,34 +91,29 @@
       ]
     },
     {
-      "name": "25x Money Multiplier (on get)",
+      "name": "Max Weapon Durability",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "5FC70E0",
-          "on": "85F6740C4D85C975076BF619418975004189F44989FFE96B53E9FC90",
-          "off": "85F6740C4D85C975076BF619418975004189F44989FFE96B53E9FC90"
-        },
-        {
-          "offset": "2E5C460",
-          "on": "E97BAC160390",
-          "off": "4189F44989FF"
+          "offset": "2B61762",
+          "on": "C5FA5FC1",
+          "off": "C5FA5DC1"
         }
       ]
     },
     {
-      "name": "25x Skill Points Multiplier",
+      "name": "One-hit Kill",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "5FC7140",
-          "on": "6BF6194D8B7C2418E960B80DFD909090",
-          "off": "6BF6194D8B7C2418E960B80DFD909090"
+          "offset": "5FC7090",
+          "on": "41837E3400740EC745D400401C46C5FA1045D4EB05C5FA114DD4E9B5B137FC90",
+          "off": "41837E3400740EC745D400401C46C5FA1045D4EB05C5FA114DD4E9B5B137FC90"
         },
         {
-          "offset": "30A29A8",
-          "on": "E99347F202",
-          "off": "4D8B7C2418"
+          "offset": "234225F",
+          "on": "E92C4EC803",
+          "off": "C5FA114DD4"
         }
       ]
     }

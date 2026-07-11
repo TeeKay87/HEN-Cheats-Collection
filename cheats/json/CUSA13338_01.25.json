@@ -5,38 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health/Shield",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3357E80",
-          "on": "90E9680A38FD",
-          "off": "000000000000"
-        },
-        {
-          "offset": "6D88E8",
-          "on": "E993F5C70290",
-          "off": "C4E379170001"
-        }
-      ]
-    },
-    {
-      "name": "Max/Infinite Lives On Gain",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3357CE0",
-          "on": "84D2C6473863E900800CFE",
-          "off": "0000000000000000000000"
-        },
-        {
-          "offset": "141FCE6",
-          "on": "E9F57FF301",
-          "off": "84D2897738"
-        }
-      ]
-    },
-    {
       "name": "Infinite Ammo/No Reload/Fuel",
       "type": "checkbox",
       "memory": [
@@ -49,80 +17,6 @@
           "offset": "14206E8",
           "on": "E90377F3019090",
           "off": "4C89F741894638"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Dash",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3357DB0",
-          "on": "C5FA104308E9FB4DC6FD",
-          "off": "00000000000000000000"
-        },
-        {
-          "offset": "FBCBB0",
-          "on": "E9FBB13902",
-          "off": "C5FA114308"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Radiation/Dive Suit",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3357D60",
-          "on": "41C746080000803FE94E53C6FD",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "FBD0B5",
-          "on": "E9A6AC390290",
-          "off": "C4C17A114608"
-        },
-        {
-          "offset": "33577D0",
-          "on": "41C74424080000803FC4C17A10442408E9ED42C6FD",
-          "off": "000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "FBBACB",
-          "on": "E900BD39029090",
-          "off": "C4C17A11442408"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Grenades",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3357ED0",
-          "on": "90E9FF5EE5FD",
-          "off": "000000000000"
-        },
-        {
-          "offset": "11ADDCD",
-          "on": "E9FEA01A02909090",
-          "off": "41FF8CC4306F0000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Flame Belch",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3357EF0",
-          "on": "90E9905EE5FD",
-          "off": "000000000000"
-        },
-        {
-          "offset": "11ADD7E",
-          "on": "E96DA11A02909090",
-          "off": "41FF8C24806F0000"
         }
       ]
     },
@@ -159,18 +53,66 @@
       ]
     },
     {
-      "name": "Infinite Sentinel Hammer",
+      "name": "Infinite Dash",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "3357F10",
-          "on": "C787740400000000F042C5FA108774040000E96DD40AFE",
-          "off": "0000000000000000000000000000000000000000000000"
+          "offset": "3357DB0",
+          "on": "C5FA104308E9FB4DC6FD",
+          "off": "00000000000000000000"
         },
         {
-          "offset": "140538C",
-          "on": "E97F2BF501909090",
-          "off": "C5FA108774040000"
+          "offset": "FBCBB0",
+          "on": "E9FBB13902",
+          "off": "C5FA114308"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Flame Belch",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3357EF0",
+          "on": "90E9905EE5FD",
+          "off": "000000000000"
+        },
+        {
+          "offset": "11ADD7E",
+          "on": "E96DA11A02909090",
+          "off": "41FF8C24806F0000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Grenades",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3357ED0",
+          "on": "90E9FF5EE5FD",
+          "off": "000000000000"
+        },
+        {
+          "offset": "11ADDCD",
+          "on": "E9FEA01A02909090",
+          "off": "41FF8CC4306F0000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health/Shield",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3357E80",
+          "on": "90E9680A38FD",
+          "off": "000000000000"
+        },
+        {
+          "offset": "6D88E8",
+          "on": "E993F5C70290",
+          "off": "C4E379170001"
         }
       ]
     },
@@ -191,6 +133,48 @@
       ]
     },
     {
+      "name": "Infinite Radiation/Dive Suit",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3357D60",
+          "on": "41C746080000803FE94E53C6FD",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "FBD0B5",
+          "on": "E9A6AC390290",
+          "off": "C4C17A114608"
+        },
+        {
+          "offset": "33577D0",
+          "on": "41C74424080000803FC4C17A10442408E9ED42C6FD",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "FBBACB",
+          "on": "E900BD39029090",
+          "off": "C4C17A11442408"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Sentinel Hammer",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3357F10",
+          "on": "C787740400000000F042C5FA108774040000E96DD40AFE",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "140538C",
+          "on": "E97F2BF501909090",
+          "off": "C5FA108774040000"
+        }
+      ]
+    },
+    {
       "name": "Max/Inf Weapons/Praetorian Points/Mastery Tokens/Sentinel Batteries",
       "type": "checkbox",
       "memory": [
@@ -203,6 +187,22 @@
           "offset": "11969B3",
           "on": "E9F8141C02909090",
           "off": "420194BF94CA0400"
+        }
+      ]
+    },
+    {
+      "name": "Max/Infinite Lives On Gain",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3357CE0",
+          "on": "84D2C6473863E900800CFE",
+          "off": "0000000000000000000000"
+        },
+        {
+          "offset": "141FCE6",
+          "on": "E9F57FF301",
+          "off": "84D2897738"
         }
       ]
     }

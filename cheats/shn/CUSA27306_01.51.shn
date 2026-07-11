@@ -2,6 +2,34 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Demon Slayer: Kimetsu no Yaiba: The Hinokami Chronicles" Moder="2B" Cusa="CUSA27306" Version="01.51" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
+  <Cheat Text="Freeze time in battle" Description="What/how/when is this Cheat: Change me!">
+    <Cheatline>
+      <Offset>858B88B</Offset>
+      <Section>0</Section>
+      <ValueOn>41-54-49-C7-C4-63-00-00-00-F3-49-0F-2A-C4-C5-FA-11-47-38-41-5C-E9-7D-82-C4-F9</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>21D3B1D</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-69-7D-3B-06</ValueOn>
+      <ValueOff>C5-FA-11-47-38</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Inf Boost" Description="What/how/when is this Cheat: Change me!">
+    <Cheatline>
+      <Offset>858B862</Offset>
+      <Section>0</Section>
+      <ValueOn>C5-FA-10-93-6C-02-00-00-C5-FA-11-93-68-02-00-00-E9-8A-4D-EE-F9</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>24705F9</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-64-B2-11-06-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-93-68-02-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="invinsible made by (ponymuch)" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Offset>858B800</Offset>
@@ -14,6 +42,20 @@
       <Section>0</Section>
       <ValueOn>E9-AD-7A-3D-05-90</ValueOn>
       <ValueOff>FF-90-B0-0B-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Kimetsu Points" Description="What/how/when is this Cheat: Change me!">
+    <Cheatline>
+      <Offset>858B879</Offset>
+      <Section>0</Section>
+      <ValueOn>41-0F-4F-CE-B9-3F-42-0F-00-89-08-E9-C7-E9-94-FA</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>2EDA24A</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-2A-16-6B-05-90</ValueOn>
+      <ValueOff>41-0F-4F-CE-89-08</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="One Hit Kill" Description="What/how/when is this Cheat: Change me!">
@@ -42,48 +84,6 @@
       <Section>0</Section>
       <ValueOn>E9-F2-33-15-06-90-90-90-90</ValueOn>
       <ValueOff>C4-C1-7A-11-85-C8-00-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Inf Boost" Description="What/how/when is this Cheat: Change me!">
-    <Cheatline>
-      <Offset>858B862</Offset>
-      <Section>0</Section>
-      <ValueOn>C5-FA-10-93-6C-02-00-00-C5-FA-11-93-68-02-00-00-E9-8A-4D-EE-F9</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>24705F9</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-64-B2-11-06-90-90-90</ValueOn>
-      <ValueOff>C5-FA-11-93-68-02-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Kimetsu Points" Description="What/how/when is this Cheat: Change me!">
-    <Cheatline>
-      <Offset>858B879</Offset>
-      <Section>0</Section>
-      <ValueOn>41-0F-4F-CE-B9-3F-42-0F-00-89-08-E9-C7-E9-94-FA</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>2EDA24A</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-2A-16-6B-05-90</ValueOn>
-      <ValueOff>41-0F-4F-CE-89-08</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Freeze time in battle" Description="What/how/when is this Cheat: Change me!">
-    <Cheatline>
-      <Offset>858B88B</Offset>
-      <Section>0</Section>
-      <ValueOn>41-54-49-C7-C4-63-00-00-00-F3-49-0F-2A-C4-C5-FA-11-47-38-41-5C-E9-7D-82-C4-F9</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>21D3B1D</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-69-7D-3B-06</ValueOn>
-      <ValueOff>C5-FA-11-47-38</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

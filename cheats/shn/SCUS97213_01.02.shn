@@ -1,6 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dark Cloud 2" Moder="W" Cusa="SCUS97213" Version="01.02" Process="eboot.bin">
   <Items />
+  <Cheat Text="Glida Tons of idea Photos">
+    <Cheatline>
+      <Offset>807FCFF000</Offset>
+      <Section>0</Section>
+      <ValueOn>E2-01-03-3C</ValueOn>
+      <ValueOff>E2-01-03-3C</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>807FCFF004</Offset>
+      <Section>0</Section>
+      <ValueOn>E8-69-63-34</ValueOn>
+      <ValueOff>E8-69-63-34</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>807FCFF008</Offset>
+      <Section>0</Section>
+      <ValueOn>FF-00-01-24</ValueOn>
+      <ValueOff>FF-00-01-24</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>807FCFF00C</Offset>
+      <Section>0</Section>
+      <ValueOn>04-00-06-24</ValueOn>
+      <ValueOff>04-00-06-24</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>807FCFF010</Offset>
+      <Section>0</Section>
+      <ValueOn>00-00-66-AC</ValueOn>
+      <ValueOff>00-00-66-AC</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Infinite and Max HP Maximillian">
     <Cheatline>
       <Offset>8081A229FC</Offset>
@@ -49,38 +81,6 @@
       <Section>0</Section>
       <ValueOn>7F-96-98-00</ValueOn>
       <ValueOff>7F-96-98-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Glida Tons of idea Photos">
-    <Cheatline>
-      <Offset>807FCFF000</Offset>
-      <Section>0</Section>
-      <ValueOn>E2-01-03-3C</ValueOn>
-      <ValueOff>E2-01-03-3C</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>807FCFF004</Offset>
-      <Section>0</Section>
-      <ValueOn>E8-69-63-34</ValueOn>
-      <ValueOff>E8-69-63-34</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>807FCFF008</Offset>
-      <Section>0</Section>
-      <ValueOn>FF-00-01-24</ValueOn>
-      <ValueOff>FF-00-01-24</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>807FCFF00C</Offset>
-      <Section>0</Section>
-      <ValueOn>04-00-06-24</ValueOn>
-      <ValueOff>04-00-06-24</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>807FCFF010</Offset>
-      <Section>0</Section>
-      <ValueOn>00-00-66-AC</ValueOn>
-      <ValueOff>00-00-66-AC</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Unlock all time portals">

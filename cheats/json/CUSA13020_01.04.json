@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Ammo/Grenades/Bombs",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3BFD2C",
+          "on": "90909090909090",
+          "off": "4489B380000000"
+        }
+      ]
+    },
+    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -23,17 +34,6 @@
           "offset": "419786",
           "on": "9090909090909090",
           "off": "C5FA1183BC000000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Ammo/Grenades/Bombs",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3BFD2C",
-          "on": "90909090909090",
-          "off": "4489B380000000"
         }
       ]
     },

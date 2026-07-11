@@ -16,33 +16,6 @@
       ]
     },
     {
-      "name": "Infinite Health/1 Hit Kill (Master Code/Must Be On)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "449FA00",
-          "on": "4983F8017510C5FA118384180000E991EEE2FB0F57C0C5FA118384180000E981EEE2FB",
-          "off": "0000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "2CE89C",
-          "on": "E95F111D04909090",
-          "off": "C5FA118384180000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "449FA06",
-          "on": "C5FA108384180000",
-          "off": "C5FA118384180000"
-        }
-      ]
-    },
-    {
       "name": "1 Hit Kill",
       "type": "checkbox",
       "memory": [
@@ -66,22 +39,6 @@
           "offset": "9783B4",
           "on": "E96775B20390909090",
           "off": "C4C17A118718010000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Special Attack",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "449F9A0",
-          "on": "C4C17A108D88180000E93F97E0FB",
-          "off": "0000000000000000000000000000"
-        },
-        {
-          "offset": "2A90E4",
-          "on": "E9B7681F0490909090",
-          "off": "C4C17A118D88180000"
         }
       ]
     },
@@ -112,18 +69,61 @@
       ]
     },
     {
-      "name": "Max/Infinite Consumables",
+      "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "449F880",
-          "on": "498D752041C6457863E92EEC14FC",
+          "offset": "449FA06",
+          "on": "C5FA108384180000",
+          "off": "C5FA118384180000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health/1 Hit Kill (Master Code/Must Be On)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "449FA00",
+          "on": "4983F8017510C5FA118384180000E991EEE2FB0F57C0C5FA118384180000E981EEE2FB",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "2CE89C",
+          "on": "E95F111D04909090",
+          "off": "C5FA118384180000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Special Attack",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "449F9A0",
+          "on": "C4C17A108D88180000E93F97E0FB",
           "off": "0000000000000000000000000000"
         },
         {
-          "offset": "5EE4B4",
-          "on": "E9C713EB03909090",
-          "off": "498D752041895D78"
+          "offset": "2A90E4",
+          "on": "E9B7681F0490909090",
+          "off": "C4C17A118D88180000"
+        }
+      ]
+    },
+    {
+      "name": "Max XP On Gain",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "449FDF0",
+          "on": "8983B81D0000E9E244DFFB",
+          "off": "0000000000000000000000"
+        },
+        {
+          "offset": "2942D7",
+          "on": "E914BB200490",
+          "off": "01B3B81D0000"
         }
       ]
     },
@@ -144,22 +144,6 @@
       ]
     },
     {
-      "name": "Max/Infinite Upgrade Points",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "449E0A0",
-          "on": "41C685E00C000063E9DDD428FC",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "72B583",
-          "on": "E9182BD7039090",
-          "off": "418985E00C0000"
-        }
-      ]
-    },
-    {
       "name": "Max/Infinite Bio Points",
       "type": "checkbox",
       "memory": [
@@ -172,6 +156,22 @@
           "offset": "72AF37",
           "on": "E9A44AD7039090",
           "off": "418985C40C0000"
+        }
+      ]
+    },
+    {
+      "name": "Max/Infinite Consumables",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "449F880",
+          "on": "498D752041C6457863E92EEC14FC",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "5EE4B4",
+          "on": "E9C713EB03909090",
+          "off": "498D752041895D78"
         }
       ]
     },
@@ -192,18 +192,18 @@
       ]
     },
     {
-      "name": "Max XP On Gain",
+      "name": "Max/Infinite Upgrade Points",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "449FDF0",
-          "on": "8983B81D0000E9E244DFFB",
-          "off": "0000000000000000000000"
+          "offset": "449E0A0",
+          "on": "41C685E00C000063E9DDD428FC",
+          "off": "00000000000000000000000000"
         },
         {
-          "offset": "2942D7",
-          "on": "E914BB200490",
-          "off": "01B3B81D0000"
+          "offset": "72B583",
+          "on": "E9182BD7039090",
+          "off": "418985E00C0000"
         }
       ]
     }

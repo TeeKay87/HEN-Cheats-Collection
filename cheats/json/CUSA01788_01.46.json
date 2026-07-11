@@ -21,22 +21,6 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "523B812",
-          "on": "B8FF000000894150E997BE46FD",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "26A76B1",
-          "on": "E95C41B902",
-          "off": "74038B4150"
-        }
-      ]
-    },
-    {
       "name": "Infinite Grenades",
       "type": "checkbox",
       "memory": [
@@ -49,6 +33,22 @@
           "offset": "18BAECD",
           "on": "E94D0998039090",
           "off": "41033C114C39C6"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "523B812",
+          "on": "B8FF000000894150E997BE46FD",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "26A76B1",
+          "on": "E95C41B902",
+          "off": "74038B4150"
         }
       ]
     }

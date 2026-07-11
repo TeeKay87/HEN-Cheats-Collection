@@ -5,6 +5,33 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "1 Hit Kill (Enable MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2AE3DB5",
+          "on": "7517",
+          "off": "751A"
+        }
+      ]
+    },
+    {
+      "name": "Max/Infinite Attribute Points (Activate/Exit/Enter)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2AE30F0",
+          "on": "41C78700020000E7030000E95B87A6FD",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "54B854",
+          "on": "E9977859029090",
+          "off": "4589B700020000"
+        }
+      ]
+    },
+    {
       "name": "Max/Infinite Health/1 Hit Kill (Master Code)",
       "type": "checkbox",
       "memory": [
@@ -17,33 +44,6 @@
           "offset": "B3BBF",
           "on": "E9EC01A30290909090",
           "off": "C4C17A1187EC000000"
-        }
-      ]
-    },
-    {
-      "name": "1 Hit Kill (Enable MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2AE3DB5",
-          "on": "7517",
-          "off": "751A"
-        }
-      ]
-    },
-    {
-      "name": "Max/Infinite Stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2AE3850",
-          "on": "C4C17A10865C010000C4C17A118658010000E9D2065DFD",
-          "off": "0000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "B3F30",
-          "on": "E91BF9A20290909090",
-          "off": "C4C17A118658010000"
         }
       ]
     },
@@ -64,13 +64,18 @@
       ]
     },
     {
-      "name": "Max/Infinite Zeni",
+      "name": "Max/Infinite Stamina",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "872FFF",
-          "on": "B800CA9A3B",
-          "off": "3D00CA9A3B"
+          "offset": "2AE3850",
+          "on": "C4C17A10865C010000C4C17A118658010000E9D2065DFD",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "B3F30",
+          "on": "E91BF9A20290909090",
+          "off": "C4C17A118658010000"
         }
       ]
     },
@@ -91,18 +96,13 @@
       ]
     },
     {
-      "name": "Max/Infinite Attribute Points (Activate/Exit/Enter)",
+      "name": "Max/Infinite Zeni",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "2AE30F0",
-          "on": "41C78700020000E7030000E95B87A6FD",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "54B854",
-          "on": "E9977859029090",
-          "off": "4589B700020000"
+          "offset": "872FFF",
+          "on": "B800CA9A3B",
+          "off": "3D00CA9A3B"
         }
       ]
     }

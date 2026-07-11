@@ -3,6 +3,22 @@
   <Genres Name="Action" />
   <Genres Name="Adventure" />
   <Items />
+  <Cheat Text="Freeze Items Usage Timer">
+    <Cheatline>
+      <Offset>8F1466</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>C5-FA-5C-05-12-3A-56-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Arrows">
+    <Cheatline>
+      <Offset>5614DA</Offset>
+      <Section>0</Section>
+      <ValueOn>C5-FA-5C-C8</ValueOn>
+      <ValueOff>C5-FA-5C-C1</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Infinite Health">
     <Cheatline>
       <Offset>E07852</Offset>
@@ -31,26 +47,18 @@
       <ValueOff>C5-F2-58-43-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Arrows">
+  <Cheat Text="Instant Kill Enemies">
     <Cheatline>
-      <Offset>5614DA</Offset>
+      <Offset>E0782E</Offset>
       <Section>0</Section>
-      <ValueOn>C5-FA-5C-C8</ValueOn>
-      <ValueOff>C5-FA-5C-C1</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Max XP/Hacksilver/Resources">
-    <Cheatline>
-      <Offset>E0781B</Offset>
-      <Section>0</Section>
-      <ValueOn>41-C7-44-36-30-FF-C9-9A-3B-41-8B-44-36-30-E9-C8-CC-A9-FF</ValueOn>
+      <ValueOn>41-C7-46-20-00-00-00-00-C4-C1-7A-10-46-20-E9-0F-9C-75-FF</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>8A44F0</Offset>
+      <Offset>56144A</Offset>
       <Section>0</Section>
-      <ValueOn>E9-26-33-56-00-90</ValueOn>
-      <ValueOff>41-83-7C-36-30-00</ValueOff>
+      <ValueOn>E9-DF-63-8A-00-90</ValueOn>
+      <ValueOff>C4-C1-7A-10-46-20</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max Stats/Rank on Item Change">
@@ -67,26 +75,18 @@
       <ValueOff>C4-C1-7A-11-84-82-C0-4C-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Items Usage Timer">
+  <Cheat Text="Max XP/Hacksilver/Resources">
     <Cheatline>
-      <Offset>8F1466</Offset>
+      <Offset>E0781B</Offset>
       <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>C5-FA-5C-05-12-3A-56-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Instant Kill Enemies">
-    <Cheatline>
-      <Offset>E0782E</Offset>
-      <Section>0</Section>
-      <ValueOn>41-C7-46-20-00-00-00-00-C4-C1-7A-10-46-20-E9-0F-9C-75-FF</ValueOn>
+      <ValueOn>41-C7-44-36-30-FF-C9-9A-3B-41-8B-44-36-30-E9-C8-CC-A9-FF</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>56144A</Offset>
+      <Offset>8A44F0</Offset>
       <Section>0</Section>
-      <ValueOn>E9-DF-63-8A-00-90</ValueOn>
-      <ValueOff>C4-C1-7A-10-46-20</ValueOff>
+      <ValueOn>E9-26-33-56-00-90</ValueOn>
+      <ValueOff>41-83-7C-36-30-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

@@ -2,12 +2,296 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Horizon Zero Dawn: Complete Edition" Moder="Pharaoh2k, FBML" Cusa="CUSA10212" Version="01.52" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="TRAINER INFO (read only)" Description="Important! Please be sure to read the cheats comments where available! Fully tested, but let me know if there is any issue. This version is multiCUSA (multiregion CUSA10211, CUSA10212, CUSA10213, CUSA10218, CUSA10234) compatible. It may also work on the PS5. Enjoy! :)">
+  <Cheat Text="--Aloy Walking Speed x1" Description="Choose only one option">
     <Cheatline>
-      <Offset>1F22FFF</Offset>
+      <Offset>54EFF30</Offset>
       <Section>0</Section>
-      <ValueOn>00</ValueOn>
-      <ValueOff>00</ValueOff>
+      <ValueOn>00-00-80-3F</ValueOn>
+      <ValueOff>00-00-80-3F</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="--Aloy Walking Speed x2" Description="Choose only one option">
+    <Cheatline>
+      <Offset>54EFF30</Offset>
+      <Section>0</Section>
+      <ValueOn>00-00-00-40</ValueOn>
+      <ValueOff>00-00-80-3F</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="--Aloy Walking Speed x3" Description="Choose only one option">
+    <Cheatline>
+      <Offset>54EFF30</Offset>
+      <Section>0</Section>
+      <ValueOn>00-00-40-40</ValueOn>
+      <ValueOff>00-00-80-3F</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="--Camera Zoom x0.6" Description="Choose only one option">
+    <Cheatline>
+      <Offset>54EFF34</Offset>
+      <Section>0</Section>
+      <ValueOn>9A-99-19-3F</ValueOn>
+      <ValueOff>00-00-80-3F</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="--Camera Zoom x1" Description="Choose only one option">
+    <Cheatline>
+      <Offset>54EFF34</Offset>
+      <Section>0</Section>
+      <ValueOn>00-00-80-3F</ValueOn>
+      <ValueOff>00-00-80-3F</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="--Camera Zoom x1.4" Description="Choose only one option">
+    <Cheatline>
+      <Offset>54EFF34</Offset>
+      <Section>0</Section>
+      <ValueOn>33-33-B3-3F</ValueOn>
+      <ValueOff>00-00-80-3F</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="--Game Speed x1" Description="Choose only one option">
+    <Cheatline>
+      <Offset>1B77304</Offset>
+      <Section>0</Section>
+      <ValueOn>00-00-80-3F</ValueOn>
+      <ValueOff>00-00-80-3F</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="--Hour: 0" Description="Choose only one option">
+    <Cheatline>
+      <Offset>54EFF28</Offset>
+      <Section>0</Section>
+      <ValueOn>00-00-00-00</ValueOn>
+      <ValueOff>00-00-40-41</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="--Hour: 12" Description="Choose only one option">
+    <Cheatline>
+      <Offset>54EFF28</Offset>
+      <Section>0</Section>
+      <ValueOn>00-00-40-41</ValueOn>
+      <ValueOff>00-00-40-41</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="--Hour: 18" Description="Choose only one option">
+    <Cheatline>
+      <Offset>54EFF28</Offset>
+      <Section>0</Section>
+      <ValueOn>00-00-90-41</ValueOn>
+      <ValueOff>00-00-40-41</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="--Hour: 6" Description="Choose only one option">
+    <Cheatline>
+      <Offset>54EFF28</Offset>
+      <Section>0</Section>
+      <ValueOn>00-00-C0-40</ValueOn>
+      <ValueOff>00-00-40-41</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="--Infinite_Health">
+    <Cheatline>
+      <Offset>54EFF24</Offset>
+      <Section>0</Section>
+      <ValueOn>01-00-00-00</ValueOn>
+      <ValueOff>00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="--One_Hit_Kill">
+    <Cheatline>
+      <Offset>54EFF20</Offset>
+      <Section>0</Section>
+      <ValueOn>01-00-00-00</ValueOn>
+      <ValueOff>00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="--Toggle_Stealth_Mode" Description="Be sure to enable it before getting detected. Works all the time, except when mounted (the overriden machine is detectable).">
+    <Cheatline>
+      <Offset>54EFF08</Offset>
+      <Section>0</Section>
+      <ValueOn>00-00-00-00</ValueOn>
+      <ValueOff>01-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="--XP Multiplier x10" Description="Choose only one option">
+    <Cheatline>
+      <Offset>54EFF2C</Offset>
+      <Section>0</Section>
+      <ValueOn>0A-00-00-00</ValueOn>
+      <ValueOff>01-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="--XP Multiplier x100" Description="Choose only one option">
+    <Cheatline>
+      <Offset>54EFF2C</Offset>
+      <Section>0</Section>
+      <ValueOn>04-00-00-00</ValueOn>
+      <ValueOff>01-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="--XP Multiplier x5" Description="Choose only one option">
+    <Cheatline>
+      <Offset>54EFF2C</Offset>
+      <Section>0</Section>
+      <ValueOn>05-00-00-00</ValueOn>
+      <ValueOff>01-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="God Mode" Description="Untouchable and No effects">
+    <Cheatline>
+      <Offset>1F23000</Offset>
+      <Section>0</Section>
+      <ValueOn>C5-FA-10-40-64-48-89-05-F4-CE-5C-03-E9-C4-4D-2E-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>1F23031</Offset>
+      <Section>0</Section>
+      <ValueOn>31-C9-4C-89-EE-50-48-8B-05-C2-CE-5C-03-48-39-47-F8-58-0F-84-04-B3-A1-FE-E9-FA-B2-A1-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>1207DD0</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-2B-B2-D1-00</ValueOn>
+      <ValueOff>C5-FA-10-40-64</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>93E343</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-E9-4C-5E-01</ValueOn>
+      <ValueOff>31-C9-4C-89-EE</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Ammo">
+    <Cheatline>
+      <Offset>10DC869</Offset>
+      <Section>0</Section>
+      <ValueOn>45-31-FF</ValueOn>
+      <ValueOff>45-85-FF</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Concentration">
+    <Cheatline>
+      <Offset>169F5B3</Offset>
+      <Section>0</Section>
+      <ValueOn>C5-FA-10-43-58</ValueOn>
+      <ValueOff>C5-FA-58-43-58</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Hunting Ground Trials Timer">
+    <Cheatline>
+      <Offset>11BB85B</Offset>
+      <Section>0</Section>
+      <ValueOn>38-D2</ValueOn>
+      <ValueOff>84-D2</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Inventory">
+    <Cheatline>
+      <Offset>E25340</Offset>
+      <Section>0</Section>
+      <ValueOn>C3</ValueOn>
+      <ValueOff>55</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>146AE8D</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90</ValueOn>
+      <ValueOff>FF-50-68</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>F34AB5</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90</ValueOn>
+      <ValueOff>FF-50-68</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>149289F</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90</ValueOn>
+      <ValueOff>FF-50-68</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Jump and Glide">
+    <Cheatline>
+      <Offset>1F2315F</Offset>
+      <Section>0</Section>
+      <ValueOn>66-41-C7-86-00-01-00-00-01-01-66-41-8B-8E-00-01-00-00-E9-E5-49-27-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>1197B53</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-07-B6-D8-00-90-90-90</ValueOn>
+      <ValueOff>66-41-8B-8E-00-01-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Metal Shards (On Repair)">
+    <Cheatline>
+      <Offset>14766B6</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90</ValueOn>
+      <ValueOff>FF-50-68</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Metal Shards and Bluegleams (On Buy)">
+    <Cheatline>
+      <Offset>1492C85</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90</ValueOn>
+      <ValueOff>41-FF-D7</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Modifications (On Use)">
+    <Cheatline>
+      <Offset>16898D4</Offset>
+      <Section>0</Section>
+      <ValueOn>48-39-C0</ValueOn>
+      <ValueOff>48-85-C0</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Potions (On Use)">
+    <Cheatline>
+      <Offset>1F23233</Offset>
+      <Section>0</Section>
+      <ValueOn>48-0F-44-F1-31-C9-E9-06-23-04-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>F65539</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-F5-DC-FB-00-90</ValueOn>
+      <ValueOff>48-0F-44-F1-31-C9</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Rope Durability">
+    <Cheatline>
+      <Offset>149FBCC</Offset>
+      <Section>0</Section>
+      <ValueOn>F3-0F-10-C0</ValueOn>
+      <ValueOff>C5-FA-5C-C1</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>149BB28</Offset>
+      <Section>0</Section>
+      <ValueOn>F3-0F-10-C1</ValueOn>
+      <ValueOff>C5-F2-5C-C0</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Weaver Armour">
+    <Cheatline>
+      <Offset>1F2325E</Offset>
+      <Section>0</Section>
+      <ValueOn>41-C7-47-58-00-00-FA-43-C4-C1-7A-10-47-58-E9-68-4B-74-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>1667DD3</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-86-B4-8B-00-90</ValueOn>
+      <ValueOff>C4-C1-7A-11-47-58</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Master Code (Must be enabled first &amp; all the time)" Description="Cheats with -- prefix depend on the Master Code">
@@ -144,64 +428,6 @@
       <ValueOff>C5-FA-5C-D2-C5-FA-11-55-B4</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="God Mode" Description="Untouchable and No effects">
-    <Cheatline>
-      <Offset>1F23000</Offset>
-      <Section>0</Section>
-      <ValueOn>C5-FA-10-40-64-48-89-05-F4-CE-5C-03-E9-C4-4D-2E-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>1F23031</Offset>
-      <Section>0</Section>
-      <ValueOn>31-C9-4C-89-EE-50-48-8B-05-C2-CE-5C-03-48-39-47-F8-58-0F-84-04-B3-A1-FE-E9-FA-B2-A1-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>1207DD0</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-2B-B2-D1-00</ValueOn>
-      <ValueOff>C5-FA-10-40-64</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>93E343</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-E9-4C-5E-01</ValueOn>
-      <ValueOff>31-C9-4C-89-EE</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="--Infinite_Health">
-    <Cheatline>
-      <Offset>54EFF24</Offset>
-      <Section>0</Section>
-      <ValueOn>01-00-00-00</ValueOn>
-      <ValueOff>00-00-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="--One_Hit_Kill">
-    <Cheatline>
-      <Offset>54EFF20</Offset>
-      <Section>0</Section>
-      <ValueOn>01-00-00-00</ValueOn>
-      <ValueOff>00-00-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="--Toggle_Stealth_Mode" Description="Be sure to enable it before getting detected. Works all the time, except when mounted (the overriden machine is detectable).">
-    <Cheatline>
-      <Offset>54EFF08</Offset>
-      <Section>0</Section>
-      <ValueOn>00-00-00-00</ValueOn>
-      <ValueOff>01-00-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Ammo">
-    <Cheatline>
-      <Offset>10DC869</Offset>
-      <Section>0</Section>
-      <ValueOn>45-31-FF</ValueOn>
-      <ValueOff>45-85-FF</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Max Arrows Per Shot (5)">
     <Cheatline>
       <Offset>10DC760</Offset>
@@ -210,58 +436,34 @@
       <ValueOff>41-0F-4F-DE</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Hour: 0" Description="Choose only one option">
+  <Cheat Text="Max Infinite Oxygen">
     <Cheatline>
-      <Offset>54EFF28</Offset>
+      <Offset>14A5E55</Offset>
       <Section>0</Section>
-      <ValueOn>00-00-00-00</ValueOn>
-      <ValueOff>00-00-40-41</ValueOff>
+      <ValueOn>F3-0F-10-C1</ValueOn>
+      <ValueOff>C5-FA-5D-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Jump and Glide">
+  <Cheat Text="Max Infinite Skill Points (3)">
     <Cheatline>
-      <Offset>1F2315F</Offset>
+      <Offset>15D7319</Offset>
       <Section>0</Section>
-      <ValueOn>66-41-C7-86-00-01-00-00-01-01-66-41-8B-8E-00-01-00-00-E9-E5-49-27-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>1197B53</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-07-B6-D8-00-90-90-90</ValueOn>
-      <ValueOff>66-41-8B-8E-00-01-00-00</ValueOff>
+      <ValueOn>31-D2-4C-89-E7-48-89-DE-66-41-C7-44-24-64-03-00</ValueOn>
+      <ValueOff>8B-43-30-31-D2-4C-89-E7-48-89-DE-41-29-44-24-64</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--XP Multiplier x5" Description="Choose only one option">
+  <Cheat Text="Max Shards - On Buy">
     <Cheatline>
-      <Offset>54EFF2C</Offset>
+      <Offset>1F23291</Offset>
       <Section>0</Section>
-      <ValueOn>05-00-00-00</ValueOn>
-      <ValueOff>01-00-00-00</ValueOff>
+      <ValueOn>B8-7F-96-98-00-41-89-45-54-49-8B-75-48-E9-88-BD-00-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
-  </Cheat>
-  <Cheat Text="--Aloy Walking Speed x1" Description="Choose only one option">
     <Cheatline>
-      <Offset>54EFF30</Offset>
+      <Offset>F2F023</Offset>
       <Section>0</Section>
-      <ValueOn>00-00-80-3F</ValueOn>
-      <ValueOff>00-00-80-3F</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="--Game Speed x1" Description="Choose only one option">
-    <Cheatline>
-      <Offset>1B77304</Offset>
-      <Section>0</Section>
-      <ValueOn>00-00-80-3F</ValueOn>
-      <ValueOff>00-00-80-3F</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="--Camera Zoom x0.6" Description="Choose only one option">
-    <Cheatline>
-      <Offset>54EFF34</Offset>
-      <Section>0</Section>
-      <ValueOn>9A-99-19-3F</ValueOn>
-      <ValueOff>00-00-80-3F</ValueOff>
+      <ValueOn>E9-69-42-FF-00-90-90-90</ValueOn>
+      <ValueOff>41-89-45-54-49-8B-75-48</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="No Crafting Limits">
@@ -292,150 +494,20 @@
       <ValueOff>44-8B-70-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Concentration">
-    <Cheatline>
-      <Offset>169F5B3</Offset>
-      <Section>0</Section>
-      <ValueOn>C5-FA-10-43-58</ValueOn>
-      <ValueOff>C5-FA-58-43-58</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Inventory">
-    <Cheatline>
-      <Offset>E25340</Offset>
-      <Section>0</Section>
-      <ValueOn>C3</ValueOn>
-      <ValueOff>55</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>146AE8D</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90</ValueOn>
-      <ValueOff>FF-50-68</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>F34AB5</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90</ValueOn>
-      <ValueOff>FF-50-68</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>149289F</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90</ValueOn>
-      <ValueOff>FF-50-68</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Potions (On Use)">
-    <Cheatline>
-      <Offset>1F23233</Offset>
-      <Section>0</Section>
-      <ValueOn>48-0F-44-F1-31-C9-E9-06-23-04-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>F65539</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-F5-DC-FB-00-90</ValueOn>
-      <ValueOff>48-0F-44-F1-31-C9</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Rope Durability">
-    <Cheatline>
-      <Offset>149FBCC</Offset>
-      <Section>0</Section>
-      <ValueOn>F3-0F-10-C0</ValueOn>
-      <ValueOff>C5-FA-5C-C1</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>149BB28</Offset>
-      <Section>0</Section>
-      <ValueOn>F3-0F-10-C1</ValueOn>
-      <ValueOff>C5-F2-5C-C0</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Weaver Armour">
-    <Cheatline>
-      <Offset>1F2325E</Offset>
-      <Section>0</Section>
-      <ValueOn>41-C7-47-58-00-00-FA-43-C4-C1-7A-10-47-58-E9-68-4B-74-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>1667DD3</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-86-B4-8B-00-90</ValueOn>
-      <ValueOff>C4-C1-7A-11-47-58</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Max Infinite Oxygen">
-    <Cheatline>
-      <Offset>14A5E55</Offset>
-      <Section>0</Section>
-      <ValueOn>F3-0F-10-C1</ValueOn>
-      <ValueOff>C5-FA-5D-C1</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Max Infinite Skill Points (3)">
-    <Cheatline>
-      <Offset>15D7319</Offset>
-      <Section>0</Section>
-      <ValueOn>31-D2-4C-89-E7-48-89-DE-66-41-C7-44-24-64-03-00</ValueOn>
-      <ValueOff>8B-43-30-31-D2-4C-89-E7-48-89-DE-41-29-44-24-64</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Metal Shards (On Repair)">
-    <Cheatline>
-      <Offset>14766B6</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90</ValueOn>
-      <ValueOff>FF-50-68</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Metal Shards and Bluegleams (On Buy)">
-    <Cheatline>
-      <Offset>1492C85</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90</ValueOn>
-      <ValueOff>41-FF-D7</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Max Shards - On Buy">
-    <Cheatline>
-      <Offset>1F23291</Offset>
-      <Section>0</Section>
-      <ValueOn>B8-7F-96-98-00-41-89-45-54-49-8B-75-48-E9-88-BD-00-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>F2F023</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-69-42-FF-00-90-90-90</ValueOn>
-      <ValueOff>41-89-45-54-49-8B-75-48</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Modifications (On Use)">
-    <Cheatline>
-      <Offset>16898D4</Offset>
-      <Section>0</Section>
-      <ValueOn>48-39-C0</ValueOn>
-      <ValueOff>48-85-C0</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Hunting Ground Trials Timer">
-    <Cheatline>
-      <Offset>11BB85B</Offset>
-      <Section>0</Section>
-      <ValueOn>38-D2</ValueOn>
-      <ValueOff>84-D2</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Spear and Lance - No Cooldown">
     <Cheatline>
       <Offset>A8637D</Offset>
       <Section>0</Section>
       <ValueOn>C5-FA-11-08</ValueOn>
       <ValueOff>C5-FA-11-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="TRAINER INFO (read only)" Description="Important! Please be sure to read the cheats comments where available! Fully tested, but let me know if there is any issue. This version is multiCUSA (multiregion CUSA10211, CUSA10212, CUSA10213, CUSA10218, CUSA10234) compatible. It may also work on the PS5. Enjoy! :)">
+    <Cheatline>
+      <Offset>1F22FFF</Offset>
+      <Section>0</Section>
+      <ValueOn>00</ValueOn>
+      <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

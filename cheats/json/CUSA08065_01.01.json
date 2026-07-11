@@ -5,6 +5,28 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Get Coins For Spending",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "A9B50D",
+          "on": "4901C7",
+          "off": "4929C7"
+        }
+      ]
+    },
+    {
+      "name": "Get Dollar For Spending",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8884C4",
+          "on": "4801C8",
+          "off": "4829C8"
+        }
+      ]
+    },
+    {
       "name": "Godmode",
       "type": "checkbox",
       "memory": [
@@ -43,28 +65,6 @@
           "offset": "9F0884",
           "on": "90909090909090909090909090909090",
           "off": "C5FB5880C0000000C5FB1180C0000000"
-        }
-      ]
-    },
-    {
-      "name": "Get Dollar For Spending",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8884C4",
-          "on": "4801C8",
-          "off": "4829C8"
-        }
-      ]
-    },
-    {
-      "name": "Get Coins For Spending",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "A9B50D",
-          "on": "4901C7",
-          "off": "4929C7"
         }
       ]
     }

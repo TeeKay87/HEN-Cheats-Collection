@@ -21,17 +21,6 @@
       ]
     },
     {
-      "name": "X2 Sprint Speed",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5D1308B",
-          "on": "41C743200080D444",
-          "off": "41C7432000805444"
-        }
-      ]
-    },
-    {
       "name": "Tar (65535)",
       "type": "checkbox",
       "memory": [
@@ -44,6 +33,28 @@
           "offset": "C3647B",
           "on": "E980CC0D059090",
           "off": "4189034983C304"
+        }
+      ]
+    },
+    {
+      "name": "X2 Sprint Speed",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5D1308B",
+          "on": "41C743200080D444",
+          "off": "41C7432000805444"
+        }
+      ]
+    },
+    {
+      "name": "X3 Sprint Speed",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5D1308B",
+          "on": "41C7432000601F45",
+          "off": "41C7432000805444"
         }
       ]
     }

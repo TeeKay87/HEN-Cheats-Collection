@@ -16,14 +16,6 @@
       <ValueOff>C5-FA-10-4B-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina">
-    <Cheatline>
-      <Offset>804004C5</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90</ValueOn>
-      <ValueOff>C5-FA-5C-45-C8</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite Arrows">
     <Cheatline>
       <Offset>8052B9C2</Offset>
@@ -46,18 +38,26 @@
       <ValueOff>C4-C1-7A-11-8E-70-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One-hit Kill">
+  <Cheat Text="Infinite Gold (on get)">
     <Cheatline>
-      <Offset>18A3BBC</Offset>
+      <Offset>18A3C3C</Offset>
       <Section>0</Section>
-      <ValueOn>66-9C-49-83-FC-05-74-09-C5-EA-2A-C8-C5-FA-11-4B-18-C5-EA-2A-C0-31-FF-66-9D-E9-1E-B2-BD-7E-90-90</ValueOn>
-      <ValueOff>66-9C-49-83-FC-05-74-09-C5-EA-2A-C8-C5-FA-11-4B-18-C5-EA-2A-C0-31-FF-66-9D-E9-1E-B2-BD-7E-90-90</ValueOff>
+      <ValueOn>BB-3F-42-0F-00-BA-FF-FF-FF-7F-E9-48-0E-B5-7E-90</ValueOn>
+      <ValueOff>BB-3F-42-0F-00-BA-FF-FF-FF-7F-E9-48-0E-B5-7E-90</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>8047EDF2</Offset>
+      <Offset>803F4A8E</Offset>
       <Section>0</Section>
-      <ValueOn>E9-C5-4D-42-81-90</ValueOn>
-      <ValueOff>C5-EA-2A-C0-31-FF</ValueOff>
+      <ValueOn>E9-A9-F1-4A-81</ValueOn>
+      <ValueOff>BA-FF-FF-FF-7F</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Stamina">
+    <Cheatline>
+      <Offset>804004C5</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90</ValueOn>
+      <ValueOff>C5-FA-5C-45-C8</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max ammo/potions (on use)">
@@ -74,18 +74,18 @@
       <ValueOff>44-29-B3-D4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Gold (on get)">
+  <Cheat Text="One-hit Kill">
     <Cheatline>
-      <Offset>18A3C3C</Offset>
+      <Offset>18A3BBC</Offset>
       <Section>0</Section>
-      <ValueOn>BB-3F-42-0F-00-BA-FF-FF-FF-7F-E9-48-0E-B5-7E-90</ValueOn>
-      <ValueOff>BB-3F-42-0F-00-BA-FF-FF-FF-7F-E9-48-0E-B5-7E-90</ValueOff>
+      <ValueOn>66-9C-49-83-FC-05-74-09-C5-EA-2A-C8-C5-FA-11-4B-18-C5-EA-2A-C0-31-FF-66-9D-E9-1E-B2-BD-7E-90-90</ValueOn>
+      <ValueOff>66-9C-49-83-FC-05-74-09-C5-EA-2A-C8-C5-FA-11-4B-18-C5-EA-2A-C0-31-FF-66-9D-E9-1E-B2-BD-7E-90-90</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>803F4A8E</Offset>
+      <Offset>8047EDF2</Offset>
       <Section>0</Section>
-      <ValueOn>E9-A9-F1-4A-81</ValueOn>
-      <ValueOff>BA-FF-FF-FF-7F</ValueOff>
+      <ValueOn>E9-C5-4D-42-81-90</ValueOn>
+      <ValueOff>C5-EA-2A-C0-31-FF</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

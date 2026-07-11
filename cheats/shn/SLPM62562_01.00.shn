@@ -2,20 +2,6 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Psyvariar 2: Ultimate Final" Moder="Ali-mk" Cusa="SLPM62562" Version="01.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite-lives">
-    <Cheatline>
-      <Offset>807FE981B8</Offset>
-      <Section>0</Section>
-      <ValueOn>00</ValueOn>
-      <ValueOff>FF</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>807FE981B9</Offset>
-      <Section>0</Section>
-      <ValueOn>00</ValueOn>
-      <ValueOff>FF</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite-Bomb">
     <Cheatline>
       <Offset>807FE961EC</Offset>
@@ -25,6 +11,20 @@
     </Cheatline>
     <Cheatline>
       <Offset>807FE961ED</Offset>
+      <Section>0</Section>
+      <ValueOn>00</ValueOn>
+      <ValueOff>FF</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite-lives">
+    <Cheatline>
+      <Offset>807FE981B8</Offset>
+      <Section>0</Section>
+      <ValueOn>00</ValueOn>
+      <ValueOff>FF</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>807FE981B9</Offset>
       <Section>0</Section>
       <ValueOn>00</ValueOn>
       <ValueOff>FF</ValueOff>

@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Money Gain on spend",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "EB997",
-          "on": "0187380A0000",
-          "off": "8987380A0000"
-        }
-      ]
-    },
-    {
       "name": "AP Gain on spend",
       "type": "checkbox",
       "memory": [
@@ -23,6 +12,17 @@
           "offset": "F41DC",
           "on": "0187400A0000",
           "off": "8987400A0000"
+        }
+      ]
+    },
+    {
+      "name": "Money Gain on spend",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "EB997",
+          "on": "0187380A0000",
+          "off": "8987380A0000"
         }
       ]
     },

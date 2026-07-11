@@ -5,50 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "God Mode",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2641262",
-          "on": "9090909090",
-          "off": "E859E2C6FF"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "267866D",
-          "on": "9090909090",
-          "off": "C5FA114310"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Immunity",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2648851",
-          "on": "909090909090",
-          "off": "C4C17A11472C"
-        }
-      ]
-    },
-    {
-      "name": "Items Multiplier (Turn Off After Use)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "235BC5D",
-          "on": "44013B",
-          "off": "44893B"
-        }
-      ]
-    },
-    {
       "name": " Infinite Items Usage",
       "type": "checkbox",
       "memory": [
@@ -56,6 +12,28 @@
           "offset": "25F3F89",
           "on": "9090909090",
           "off": "E8C27BD6FF"
+        }
+      ]
+    },
+    {
+      "name": "Experience Parkour/Combat Inhabitor Multiplier",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "27FBA9A",
+          "on": "4901442418",
+          "off": "4989442418"
+        }
+      ]
+    },
+    {
+      "name": "God Mode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2641262",
+          "on": "9090909090",
+          "off": "E859E2C6FF"
         }
       ]
     },
@@ -71,13 +49,13 @@
       ]
     },
     {
-      "name": "Money Multiplier",
+      "name": "Infinite Immunity",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "25F21DB",
-          "on": "015734",
-          "off": "895734"
+          "offset": "2648851",
+          "on": "909090909090",
+          "off": "C4C17A11472C"
         }
       ]
     },
@@ -93,13 +71,35 @@
       ]
     },
     {
-      "name": "Experience Parkour/Combat Inhabitor Multiplier",
+      "name": "Infinite Stamina",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "27FBA9A",
-          "on": "4901442418",
-          "off": "4989442418"
+          "offset": "267866D",
+          "on": "9090909090",
+          "off": "C5FA114310"
+        }
+      ]
+    },
+    {
+      "name": "Items Multiplier (Turn Off After Use)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "235BC5D",
+          "on": "44013B",
+          "off": "44893B"
+        }
+      ]
+    },
+    {
+      "name": "Money Multiplier",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "25F21DB",
+          "on": "015734",
+          "off": "895734"
         }
       ]
     },

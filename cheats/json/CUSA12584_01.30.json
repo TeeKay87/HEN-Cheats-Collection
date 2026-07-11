@@ -16,6 +16,28 @@
       ]
     },
     {
+      "name": "Infinite Immunity/Chemical Area",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2EF8D7D",
+          "on": "909090909090",
+          "off": "C4C17A11472C"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Items/Arrows/Craft On Use (Need 2 To work)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2E9BA78",
+          "on": "9090909090",
+          "off": "E8C35AD4FF"
+        }
+      ]
+    },
+    {
       "name": "Infinite Stamina/Breath",
       "type": "checkbox",
       "memory": [
@@ -32,17 +54,6 @@
       ]
     },
     {
-      "name": "Infinite Items/Arrows/Craft On Use (Need 2 To work)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2E9BA78",
-          "on": "9090909090",
-          "off": "E8C35AD4FF"
-        }
-      ]
-    },
-    {
       "name": "Infinite Throwables",
       "type": "checkbox",
       "memory": [
@@ -54,24 +65,13 @@
       ]
     },
     {
-      "name": "Infinite Weapons Durability",
+      "name": "Infinite Time challenge (Disable B4 Finishing)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "2BA2083",
-          "on": "9090909090909090",
-          "off": "C5FA1183A8000000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Immunity/Chemical Area",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2EF8D7D",
-          "on": "909090909090",
-          "off": "C4C17A11472C"
+          "offset": "3503E88",
+          "on": "9090909090",
+          "off": "C5FA114370"
         }
       ]
     },
@@ -88,6 +88,28 @@
           "offset": "24BD2C4",
           "on": "E9C7EAB8039090909090",
           "off": "C4C17A11842480010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Weapons Durability",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2BA2083",
+          "on": "9090909090909090",
+          "off": "C5FA1183A8000000"
+        }
+      ]
+    },
+    {
+      "name": "Max XP (Use After Escaping Waltz)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "30F30DD",
+          "on": "41897E18",
+          "off": "49894618"
         }
       ]
     },
@@ -114,28 +136,6 @@
           "offset": "2E997F8",
           "on": "E943211E03",
           "off": "29D8894734"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Time challenge (Disable B4 Finishing)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3503E88",
-          "on": "9090909090",
-          "off": "C5FA114370"
-        }
-      ]
-    },
-    {
-      "name": "Max XP (Use After Escaping Waltz)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "30F30DD",
-          "on": "41897E18",
-          "off": "49894618"
         }
       ]
     }

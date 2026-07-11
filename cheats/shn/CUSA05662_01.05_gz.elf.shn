@@ -2,12 +2,28 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Metal Gear Solid V: The Definitive Experience" Moder="cjwine" Cusa="CUSA05662" Version="01.05" Process="gz.elf">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="INF AMMO">
+  <Cheat Text="enemy you can not reach">
     <Cheatline>
-      <Offset>D22DA2</Offset>
+      <Offset>136EE20</Offset>
       <Section>0</Section>
-      <ValueOn>8B-87-90-03-00-00</ValueOn>
-      <ValueOff>03-87-8C-03-00-00</ValueOff>
+      <ValueOn>C3</ValueOn>
+      <ValueOff>55</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="frezz enemy">
+    <Cheatline>
+      <Offset>40CC00</Offset>
+      <Section>0</Section>
+      <ValueOn>C3</ValueOn>
+      <ValueOff>55</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="GOD MODE">
+    <Cheatline>
+      <Offset>C34950</Offset>
+      <Section>0</Section>
+      <ValueOn>C3</ValueOn>
+      <ValueOff>55</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="grand inf">
@@ -24,12 +40,12 @@
       <ValueOff>E8-FB-11-00-00-8B-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="GOD MODE">
+  <Cheat Text="INF AMMO">
     <Cheatline>
-      <Offset>C34950</Offset>
+      <Offset>D22DA2</Offset>
       <Section>0</Section>
-      <ValueOn>C3</ValueOn>
-      <ValueOff>55</ValueOff>
+      <ValueOn>8B-87-90-03-00-00</ValueOn>
+      <ValueOff>03-87-8C-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="reload inf">
@@ -44,22 +60,6 @@
       <Section>0</Section>
       <ValueOn>E9-3A-FA-AC-01</ValueOn>
       <ValueOff>0F-42-F9-89-38</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="enemy you can not reach">
-    <Cheatline>
-      <Offset>136EE20</Offset>
-      <Section>0</Section>
-      <ValueOn>C3</ValueOn>
-      <ValueOff>55</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="frezz enemy">
-    <Cheatline>
-      <Offset>40CC00</Offset>
-      <Section>0</Section>
-      <ValueOn>C3</ValueOn>
-      <ValueOff>55</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

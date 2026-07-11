@@ -16,6 +16,17 @@
       ]
     },
     {
+      "name": "Infinite Hack Time",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FED74",
+          "on": "93",
+          "off": "8B"
+        }
+      ]
+    },
+    {
       "name": "Infinite Item and Ammo",
       "type": "checkbox",
       "memory": [
@@ -34,17 +45,6 @@
           "offset": "8B400E",
           "on": "9090909090",
           "off": "4189540808"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Hack Time",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FED74",
-          "on": "93",
-          "off": "8B"
         }
       ]
     },

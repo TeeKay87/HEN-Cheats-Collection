@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "A33AA0",
-          "on": "664181FC0005750C448B8E84010000E9E173A0FF44898E84010000E9D573A0FF",
-          "off": "0000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "43AE8E",
-          "on": "E90D8C5F009090",
-          "off": "44898E84010000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Ammo",
       "type": "checkbox",
       "memory": [
@@ -37,17 +21,6 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "6C86C0",
-          "on": "9090909090",
-          "off": "E85B560000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Granades/Equipments",
       "type": "checkbox",
       "memory": [
@@ -55,6 +28,33 @@
           "offset": "6BB21B",
           "on": "9090909090",
           "off": "E8002B0100"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "A33AA0",
+          "on": "664181FC0005750C448B8E84010000E9E173A0FF44898E84010000E9D573A0FF",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "43AE8E",
+          "on": "E90D8C5F009090",
+          "off": "44898E84010000"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6C86C0",
+          "on": "9090909090",
+          "off": "E85B560000"
         }
       ]
     }

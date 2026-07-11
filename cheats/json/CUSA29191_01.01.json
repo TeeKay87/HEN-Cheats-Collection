@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Infinite Stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5D620",
-          "on": "41C7463C00004843E97B06F300",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "80B8DCA2",
-          "on": "E979F90CFF90",
-          "off": "C4C17A114E3C"
-        }
-      ]
-    },
-    {
       "name": "Infinite Ammo",
       "type": "checkbox",
       "memory": [
@@ -33,38 +17,6 @@
           "offset": "80C2CBB2",
           "on": "E9190A03FF",
           "off": "412B54245C"
-        }
-      ]
-    },
-    {
-      "name": "No Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5D070",
-          "on": "418B44245CE95C050000",
-          "off": "00000000000000000000"
-        },
-        {
-          "offset": "7FC5D5D0",
-          "on": "E99BFAFFFF90",
-          "off": "41C644245C63"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Items (Use after creating the first antiviral)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5DAF0",
-          "on": "4584F6418B4720E90E4F0901",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "80CF2A03",
-          "on": "E9E8B0F6FE9090",
-          "off": "4584F641894720"
         }
       ]
     },
@@ -85,29 +37,34 @@
       ]
     },
     {
-      "name": "Infinite Melee Durability",
+      "name": "Infinite Items (Use after creating the first antiviral)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5E810",
-          "on": "C4C17A104758E9A418AF00",
-          "off": "0000000000000000000000"
+          "offset": "7FC5DAF0",
+          "on": "4584F6418B4720E90E4F0901",
+          "off": "000000000000000000000000"
         },
         {
-          "offset": "807500B9",
-          "on": "E952E750FF90",
-          "off": "C4C17A114758"
+          "offset": "80CF2A03",
+          "on": "E9E8B0F6FE9090",
+          "off": "4584F641894720"
         }
       ]
     },
     {
-      "name": "Max Knowledge On Gain",
+      "name": "Infinite Knowledge On Buy (Mikhail)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "F48E92",
-          "on": "41897F28",
-          "off": "41894728"
+          "offset": "7FC5DB20",
+          "on": "0F840048F000418B4628E9EB47F000",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "80B62314",
+          "on": "E907B80FFF90",
+          "off": "741641894628"
         }
       ]
     },
@@ -124,6 +81,65 @@
           "offset": "806CC516",
           "on": "E9751859FF9090",
           "off": "28741241894728"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Melee Durability",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5E810",
+          "on": "C4C17A104758E9A418AF00",
+          "off": "0000000000000000000000"
+        },
+        {
+          "offset": "807500B9",
+          "on": "E952E750FF90",
+          "off": "C4C17A114758"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Supply On Use",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5D0F0",
+          "on": "0F84306C5A01418B4618E91B6C5A01",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "81203D14",
+          "on": "E9D793A5FE90",
+          "off": "741641894618"
+        }
+      ]
+    },
+    {
+      "name": "Max Infinite Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5D620",
+          "on": "41C7463C00004843E97B06F300",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "80B8DCA2",
+          "on": "E979F90CFF90",
+          "off": "C4C17A114E3C"
+        }
+      ]
+    },
+    {
+      "name": "Max Knowledge On Gain",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "F48E92",
+          "on": "41897F28",
+          "off": "41894728"
         }
       ]
     },
@@ -150,34 +166,18 @@
       ]
     },
     {
-      "name": "Infinite Supply On Use",
+      "name": "No Reload",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5D0F0",
-          "on": "0F84306C5A01418B4618E91B6C5A01",
-          "off": "000000000000000000000000000000"
+          "offset": "7FC5D070",
+          "on": "418B44245CE95C050000",
+          "off": "00000000000000000000"
         },
         {
-          "offset": "81203D14",
-          "on": "E9D793A5FE90",
-          "off": "741641894618"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Knowledge On Buy (Mikhail)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5DB20",
-          "on": "0F840048F000418B4628E9EB47F000",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "80B62314",
-          "on": "E907B80FFF90",
-          "off": "741641894628"
+          "offset": "7FC5D5D0",
+          "on": "E99BFAFFFF90",
+          "off": "41C644245C63"
         }
       ]
     }

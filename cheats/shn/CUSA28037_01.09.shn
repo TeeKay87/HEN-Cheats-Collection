@@ -2,6 +2,36 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Chernobylite" Moder="Reddevil82 - FW 9.00" Cusa="CUSA28037" Version="01.09" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
+  <Cheat Text="Duplicate Items">
+    <Cheatline>
+      <Offset>5B2FE3D</Offset>
+      <Section>0</Section>
+      <ValueOn>C4-A1-7A-11-44-2B-F0-C4-A1-7A-10-44-2B-F4-E9-66-FB-12-FB</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>C5F9A7</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-91-04-ED-04-90-90</ValueOn>
+      <ValueOff>C4-A1-7A-10-44-2B-F4</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Freeze Timer">
+    <Cheatline>
+      <Offset>BB8128</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90</ValueOn>
+      <ValueOff>89-32</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Flashlight">
+    <Cheatline>
+      <Offset>BBCF79</Offset>
+      <Section>0</Section>
+      <ValueOn>C5-FA-11-8B-4C-03-00-00</ValueOn>
+      <ValueOff>C5-FA-11-83-4C-03-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Infinite Health">
     <Cheatline>
       <Offset>5B2FDD2</Offset>
@@ -28,6 +58,14 @@
       <Section>0</Section>
       <ValueOn>E9-C7-41-F7-04-90-90-90</ValueOn>
       <ValueOff>C5-FA-10-86-4C-1B-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Items ( don?t decrease )">
+    <Cheatline>
+      <Offset>C5B40C</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>C4-A1-7A-11-44-28-F4</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Psyche">
@@ -58,12 +96,32 @@
       <ValueOff>C5-FA-10-8E-C8-1B-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Flashlight">
+  <Cheat Text="Max Buildings Requirements Money ( on use )">
     <Cheatline>
-      <Offset>BBCF79</Offset>
+      <Offset>5B2FE24</Offset>
       <Section>0</Section>
-      <ValueOn>C5-FA-11-8B-4C-03-00-00</ValueOn>
-      <ValueOff>C5-FA-11-83-4C-03-00-00</ValueOff>
+      <ValueOn>C7-44-18-F8-80-4F-C3-47-C5-FA-10-44-18-F8-C5-FA-11-44-18-F8-E9-5C-B8-12-FB</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>C5B693</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-8C-47-ED-04-90</ValueOn>
+      <ValueOff>C5-FA-11-44-18-F8</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="No Reload ( Weapon )">
+    <Cheatline>
+      <Offset>5B2FDB0</Offset>
+      <Section>0</Section>
+      <ValueOn>BE-09-00-00-00-89-B7-70-04-00-00-E9-17-44-07-FB-52-65-64-64-65-76-69-6C-38-32-20-46-57-20-39-2E-30-30</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>BA41D1</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-DA-BB-F8-04-90</ValueOn>
+      <ValueOff>89-B7-70-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="One Hit Kill">
@@ -92,64 +150,6 @@
       <Section>0</Section>
       <ValueOn>E9-4B-68-F8-04-90-90-90-90</ValueOn>
       <ValueOff>C4-C1-7A-11-8D-D4-01-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="No Reload ( Weapon )">
-    <Cheatline>
-      <Offset>5B2FDB0</Offset>
-      <Section>0</Section>
-      <ValueOn>BE-09-00-00-00-89-B7-70-04-00-00-E9-17-44-07-FB-52-65-64-64-65-76-69-6C-38-32-20-46-57-20-39-2E-30-30</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>BA41D1</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-DA-BB-F8-04-90</ValueOn>
-      <ValueOff>89-B7-70-04-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Max Buildings Requirements Money ( on use )">
-    <Cheatline>
-      <Offset>5B2FE24</Offset>
-      <Section>0</Section>
-      <ValueOn>C7-44-18-F8-80-4F-C3-47-C5-FA-10-44-18-F8-C5-FA-11-44-18-F8-E9-5C-B8-12-FB</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>C5B693</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-8C-47-ED-04-90</ValueOn>
-      <ValueOff>C5-FA-11-44-18-F8</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Items ( don?t decrease )">
-    <Cheatline>
-      <Offset>C5B40C</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>C4-A1-7A-11-44-28-F4</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Duplicate Items">
-    <Cheatline>
-      <Offset>5B2FE3D</Offset>
-      <Section>0</Section>
-      <ValueOn>C4-A1-7A-11-44-2B-F0-C4-A1-7A-10-44-2B-F4-E9-66-FB-12-FB</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>C5F9A7</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-91-04-ED-04-90-90</ValueOn>
-      <ValueOff>C4-A1-7A-10-44-2B-F4</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Freeze Timer">
-    <Cheatline>
-      <Offset>BB8128</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90</ValueOn>
-      <ValueOff>89-32</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

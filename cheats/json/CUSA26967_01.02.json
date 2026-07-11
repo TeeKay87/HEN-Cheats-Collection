@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "81753C80",
-          "on": "C783C40100000000A042E98D234EFF",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "80C36014",
-          "on": "E967DCB100909090",
-          "off": "C5FA1183C4010000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health/items (turn on and turn off coins cheat)",
       "type": "checkbox",
       "memory": [
@@ -33,6 +17,22 @@
           "offset": "805193E0",
           "on": "E9DBA82301909090",
           "off": "488D0C498974C830"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "81753C80",
+          "on": "C783C40100000000A042E98D234EFF",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "80C36014",
+          "on": "E967DCB100909090",
+          "off": "C5FA1183C4010000"
         }
       ]
     },

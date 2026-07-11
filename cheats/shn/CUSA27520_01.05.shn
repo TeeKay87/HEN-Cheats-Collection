@@ -2,6 +2,22 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dolmen" Moder="Saso_900" Cusa="CUSA27520" Version="01.05" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
+  <Cheat Text="1 Hit Kill (MC)">
+    <Cheatline>
+      <Offset>802A7863</Offset>
+      <Section>0</Section>
+      <ValueOn>75-1C</ValueOn>
+      <ValueOff>75-04</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Freez Enemy (Enable Stamina Cheat)">
+    <Cheatline>
+      <Offset>802A78A3</Offset>
+      <Section>0</Section>
+      <ValueOn>75-00</ValueOn>
+      <ValueOff>75-C4</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="HP / All  (Master Code)">
     <Cheatline>
       <Offset>802A7800</Offset>
@@ -16,22 +32,6 @@
       <ValueOff>8B-16-89-17-5D</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill (MC)">
-    <Cheatline>
-      <Offset>802A7863</Offset>
-      <Section>0</Section>
-      <ValueOn>75-1C</ValueOn>
-      <ValueOff>75-04</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Stamina / Energy (MC)">
-    <Cheatline>
-      <Offset>802A7837</Offset>
-      <Section>0</Section>
-      <ValueOn>75-39</ValueOn>
-      <ValueOff>75-30</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Max Nanites ( Enable Stamina Cheat)">
     <Cheatline>
       <Offset>802A788F</Offset>
@@ -40,12 +40,12 @@
       <ValueOff>75-D8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freez Enemy (Enable Stamina Cheat)">
+  <Cheat Text="Stamina / Energy (MC)">
     <Cheatline>
-      <Offset>802A78A3</Offset>
+      <Offset>802A7837</Offset>
       <Section>0</Section>
-      <ValueOn>75-00</ValueOn>
-      <ValueOff>75-C4</ValueOff>
+      <ValueOn>75-39</ValueOn>
+      <ValueOff>75-30</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

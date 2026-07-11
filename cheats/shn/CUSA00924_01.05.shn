@@ -185,6 +185,20 @@
       <ValueOff>C5-FA-58-5B-50</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="[11b] Player's Speed x4 (Careful When jumping Down Fast)">
+    <Cheatline>
+      <Offset>1540260</Offset>
+      <Section>0</Section>
+      <ValueOn>81-BB-3C-1F-00-00-E8-03-00-00-74-16-81-BB-3C-1F-00-00-BC-02-00-00-74-0A-C5-FA-58-5B-50-E9-22-97-67-FF-83-7B-08-01-74-F0-66-83-BB-70-05-00-00-04-73-E6-F3-0F-58-C0-F3-0F-58-C0-F3-0F-58-C9-F3-0F-58-C9-EB-D4</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>BB999F</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-bC-68-98-00</ValueOn>
+      <ValueOff>C5-FA-58-5B-50</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="[12] Some Keys/Items (-Fuel, Artificial Eye, Left Liver, Sewer, Barry Episode 4)">
     <Cheatline>
       <Offset>1540700</Offset>
@@ -554,6 +568,132 @@
       <Offset>1540D40</Offset>
       <Section>0</Section>
       <ValueOn>C7-03-01-00-00-00-8B-0B-44-89-F7-E9-EB-49-36-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>8A5736</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-05-B6-C9-00</ValueOn>
+      <ValueOff>8B-0B-44-89-F7</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[35b] Raid Mode: Weapons Tags [Long Range]">
+    <Cheatline>
+      <Offset>1540D40</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-03-02-00-00-00-8B-0B-44-89-F7-E9-EB-49-36-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>8A5736</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-05-B6-C9-00</ValueOn>
+      <ValueOff>8B-0B-44-89-F7</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[35c] Raid Mode: Weapons Tags [Speed Shot]">
+    <Cheatline>
+      <Offset>1540D40</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-03-03-00-00-00-8B-0B-44-89-F7-E9-EB-49-36-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>8A5736</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-05-B6-C9-00</ValueOn>
+      <ValueOff>8B-0B-44-89-F7</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[35d] Raid Mode: Weapons Tags [Steady Shot]">
+    <Cheatline>
+      <Offset>1540D40</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-03-04-00-00-00-8B-0B-44-89-F7-E9-EB-49-36-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>8A5736</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-05-B6-C9-00</ValueOn>
+      <ValueOff>8B-0B-44-89-F7</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[35e] Raid Mode: Weapons Tags [Speed Load]">
+    <Cheatline>
+      <Offset>1540D40</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-03-05-00-00-00-8B-0B-44-89-F7-E9-EB-49-36-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>8A5736</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-05-B6-C9-00</ValueOn>
+      <ValueOff>8B-0B-44-89-F7</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[35f] Raid Mode: Weapons Tags [Sonic Assist]">
+    <Cheatline>
+      <Offset>1540D40</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-03-06-00-00-00-8B-0B-44-89-F7-E9-EB-49-36-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>8A5736</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-05-B6-C9-00</ValueOn>
+      <ValueOff>8B-0B-44-89-F7</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[35g] Raid Mode: Weapons Tags [Sonic Assist+]">
+    <Cheatline>
+      <Offset>1540D40</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-03-07-00-00-00-8B-0B-44-89-F7-E9-EB-49-36-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>8A5736</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-05-B6-C9-00</ValueOn>
+      <ValueOff>8B-0B-44-89-F7</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[35h] Raid Mode: Weapons Tags [Short Range+]">
+    <Cheatline>
+      <Offset>1540D40</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-03-08-00-00-00-8B-0B-44-89-F7-E9-EB-49-36-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>8A5736</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-05-B6-C9-00</ValueOn>
+      <ValueOff>8B-0B-44-89-F7</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[35i] Raid Mode: Weapons Tags [Long Range+]">
+    <Cheatline>
+      <Offset>1540D40</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-03-09-00-00-00-8B-0B-44-89-F7-E9-EB-49-36-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>8A5736</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-05-B6-C9-00</ValueOn>
+      <ValueOff>8B-0B-44-89-F7</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="[35j] Raid Mode: Weapons Tags [Unique Weapon Name]">
+    <Cheatline>
+      <Offset>1540D40</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-03-0a-00-00-00-8B-0B-44-89-F7-E9-EB-49-36-FF</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>

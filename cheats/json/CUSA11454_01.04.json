@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5D2560",
-          "on": "C3909090909090",
-          "off": "488B87B0000000"
-        }
-      ]
-    },
-    {
       "name": "99 Material On Gain",
       "type": "checkbox",
       "memory": [
@@ -28,38 +17,6 @@
           "offset": "9C7154",
           "on": "E94268140190909090",
           "off": "0F840C0200008B4838"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health Player",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1B0D958",
-          "on": "C4C172594738C780940000000000803FE93B70EDFE",
-          "off": "000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "9E49A2",
-          "on": "E9B18F120190",
-          "off": "C4C172594738"
-        }
-      ]
-    },
-    {
-      "name": "Infinite TeleKinesis Power",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1B0D96D",
-          "on": "C740380000803FC5FA594838E9395FEEFE",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "9F38B2",
-          "on": "E9B6A01101",
-          "off": "C5FA594838"
         }
       ]
     },
@@ -92,6 +49,49 @@
           "offset": "2D447E",
           "on": "E92B95830190",
           "off": "01D141897640"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5D2560",
+          "on": "C3909090909090",
+          "off": "488B87B0000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health Player",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1B0D958",
+          "on": "C4C172594738C780940000000000803FE93B70EDFE",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "9E49A2",
+          "on": "E9B18F120190",
+          "off": "C4C172594738"
+        }
+      ]
+    },
+    {
+      "name": "Infinite TeleKinesis Power",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1B0D96D",
+          "on": "C740380000803FC5FA594838E9395FEEFE",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "9F38B2",
+          "on": "E9B6A01101",
+          "off": "C5FA594838"
         }
       ]
     }

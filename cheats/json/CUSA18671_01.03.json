@@ -5,18 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "Infinite Ammo",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5FF20",
-          "on": "837B4402750DC5FA108324020000E9D6451B82C5FA118324020000E9C9451B82",
-          "off": "0000000000000000000000000000000000000000000000000000000000000000"
+          "offset": "7FC5FFB0",
+          "on": "C5F97EC18B08E9BDE50482",
+          "off": "0000000000000000000000"
         },
         {
-          "offset": "1E14501",
-          "on": "E91ABAE47D909090",
-          "off": "C5FA118324020000"
+          "offset": "1CAE572",
+          "on": "E9391AFB7D90",
+          "off": "C5F97EC18908"
         }
       ]
     },
@@ -37,18 +37,18 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
+      "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5FFB0",
-          "on": "C5F97EC18B08E9BDE50482",
-          "off": "0000000000000000000000"
+          "offset": "7FC5FF20",
+          "on": "837B4402750DC5FA108324020000E9D6451B82C5FA118324020000E9C9451B82",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "1CAE572",
-          "on": "E9391AFB7D90",
-          "off": "C5F97EC18908"
+          "offset": "1E14501",
+          "on": "E91ABAE47D909090",
+          "off": "C5FA118324020000"
         }
       ]
     },

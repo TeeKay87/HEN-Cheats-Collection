@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Live",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "F3A54",
-          "on": "9090",
-          "off": "29F0"
-        }
-      ]
-    },
-    {
       "name": "9.999 Lums ( per Level )",
       "type": "checkbox",
       "memory": [
@@ -53,6 +42,17 @@
       ]
     },
     {
+      "name": "Infinite Live",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "F3A54",
+          "on": "9090",
+          "off": "29F0"
+        }
+      ]
+    },
+    {
       "name": "Infinite Lucky Tickets",
       "type": "checkbox",
       "memory": [
@@ -70,7 +70,7 @@
     }
   ],
   "credits": [
-    "Reddevil82 ",
-    " FW 9.00"
+    "Reddevil82",
+    "FW 9.00"
   ]
 }

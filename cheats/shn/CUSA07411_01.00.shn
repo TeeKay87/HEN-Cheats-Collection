@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="God of War (2018)" Moder="Talixme" Cusa="CUSA07411" Version="01.00" Process="eboot.bin">
   <Items />
+  <Cheat Text="9999999 Experience">
+    <Cheatline>
+      <Offset>1082DBD8E0</Offset>
+      <Section>0</Section>
+      <ValueOn>7F-96-98-00-0F</ValueOn>
+      <ValueOff>7F-96-98-00-0F</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="9999999 Money">
+    <Cheatline>
+      <Offset>1082DBDAA0</Offset>
+      <Section>0</Section>
+      <ValueOn>7F-96-98-00-0F</ValueOn>
+      <ValueOff>7F-96-98-00-0F</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Godmode">
     <Cheatline>
       <Offset>C59400</Offset>
@@ -43,22 +59,6 @@
       <Section>0</Section>
       <ValueOn>00-00-FA-43</ValueOn>
       <ValueOff>00-00-FA-43</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="9999999 Experience">
-    <Cheatline>
-      <Offset>1082DBD8E0</Offset>
-      <Section>0</Section>
-      <ValueOn>7F-96-98-00-0F</ValueOn>
-      <ValueOff>7F-96-98-00-0F</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="9999999 Money">
-    <Cheatline>
-      <Offset>1082DBDAA0</Offset>
-      <Section>0</Section>
-      <ValueOn>7F-96-98-00-0F</ValueOn>
-      <ValueOff>7F-96-98-00-0F</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

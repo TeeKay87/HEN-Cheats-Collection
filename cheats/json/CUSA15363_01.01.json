@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Yen (on spend)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5EAF0",
-          "on": "41C7848608C80000FFE0F505E997D7AA80",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "70C290",
-          "on": "E95B28557F909090",
-          "off": "4589BC8608C80000"
-        }
-      ]
-    },
-    {
       "name": "Abilities Points Multiplier(on use)",
       "type": "checkbox",
       "memory": [
@@ -44,6 +28,22 @@
           "offset": "7A4487",
           "on": "E9C4A44B7F",
           "off": "C5FA11401C"
+        }
+      ]
+    },
+    {
+      "name": "Max Yen (on spend)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5EAF0",
+          "on": "41C7848608C80000FFE0F505E997D7AA80",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "70C290",
+          "on": "E95B28557F909090",
+          "off": "4589BC8608C80000"
         }
       ]
     }

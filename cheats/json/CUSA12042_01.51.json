@@ -5,13 +5,34 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite HP",
+      "name": "Hunter High Damage",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "3A64242",
-          "on": "909090909090",
-          "off": "898F30010000"
+          "offset": "87FB833",
+          "on": "41C74424407F969800E9860E06FC",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "485C6C2",
+          "on": "E96CF1F903",
+          "off": "4189442440"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ability Points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "87FB85C",
+          "on": "66C741100F278B41102B4114E935A0DEFC",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "55E589C",
+          "on": "E9BB5F210390",
+          "off": "8B41102B4114"
         }
       ]
     },
@@ -32,6 +53,17 @@
       ]
     },
     {
+      "name": "Infinite HP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3A64242",
+          "on": "909090909090",
+          "off": "898F30010000"
+        }
+      ]
+    },
+    {
       "name": "Infinite Resources",
       "type": "checkbox",
       "memory": [
@@ -48,22 +80,6 @@
       ]
     },
     {
-      "name": "Hunter High Damage",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "87FB833",
-          "on": "41C74424407F969800E9860E06FC",
-          "off": "0000000000000000000000000000"
-        },
-        {
-          "offset": "485C6C2",
-          "on": "E96CF1F903",
-          "off": "4189442440"
-        }
-      ]
-    },
-    {
       "name": "Ship Infinite Stamina Adrenaline",
       "type": "checkbox",
       "memory": [
@@ -76,22 +92,6 @@
           "offset": "5DAED87",
           "on": "E9C3CAA40290909090",
           "off": "C4C17A1146188B4350"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Ability Points",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "87FB85C",
-          "on": "66C741100F278B41102B4114E935A0DEFC",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "55E589C",
-          "on": "E9BB5F210390",
-          "off": "8B41102B4114"
         }
       ]
     }

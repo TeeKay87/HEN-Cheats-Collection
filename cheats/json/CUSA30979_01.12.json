@@ -37,6 +37,22 @@
       ]
     },
     {
+      "name": "Inf Money",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5F0CF",
+          "on": "C74010804FC347C5FA104010C5FA114010E974B51301",
+          "off": "00000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "80D9A654",
+          "on": "E9764AECFE",
+          "off": "C5FA114010"
+        }
+      ]
+    },
+    {
       "name": "Inf Stamina",
       "type": "checkbox",
       "memory": [
@@ -65,22 +81,6 @@
           "offset": "80F8BD97",
           "on": "E90433CDFE",
           "off": "C5FA11432C"
-        }
-      ]
-    },
-    {
-      "name": "Inf Money",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5F0CF",
-          "on": "C74010804FC347C5FA104010C5FA114010E974B51301",
-          "off": "00000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "80D9A654",
-          "on": "E9764AECFE",
-          "off": "C5FA114010"
         }
       ]
     }

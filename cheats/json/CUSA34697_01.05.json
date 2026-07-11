@@ -5,40 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Life",
+      "name": "Inf Exp",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1F9ECCD",
-          "on": "9090909090",
-          "off": "E8CE540400"
-        }
-      ]
-    },
-    {
-      "name": "Inf Money",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5F000",
-          "on": "B83F420F008947480F84A2567682E97A567682",
-          "off": "00000000000000000000000000000000000000"
+          "offset": "7FC5F05F",
+          "on": "49C7C4FFE0F50545896730E967113782",
+          "off": "00000000000000000000000000000000"
         },
         {
-          "offset": "23C4688",
-          "on": "E973A9897D",
-          "off": "8947487423"
-        }
-      ]
-    },
-    {
-      "name": "Inf Life Car",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "20B0769",
-          "on": "9090909090",
-          "off": "E8323AF3FF"
+          "offset": "1FD01C9",
+          "on": "E991EEC87D90",
+          "off": "45896730EB07"
         }
       ]
     },
@@ -59,18 +37,40 @@
       ]
     },
     {
-      "name": "Inf Exp",
+      "name": "Inf Life",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5F05F",
-          "on": "49C7C4FFE0F50545896730E967113782",
-          "off": "00000000000000000000000000000000"
+          "offset": "1F9ECCD",
+          "on": "9090909090",
+          "off": "E8CE540400"
+        }
+      ]
+    },
+    {
+      "name": "Inf Life Car",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "20B0769",
+          "on": "9090909090",
+          "off": "E8323AF3FF"
+        }
+      ]
+    },
+    {
+      "name": "Inf Money",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5F000",
+          "on": "B83F420F008947480F84A2567682E97A567682",
+          "off": "00000000000000000000000000000000000000"
         },
         {
-          "offset": "1FD01C9",
-          "on": "E991EEC87D90",
-          "off": "45896730EB07"
+          "offset": "23C4688",
+          "on": "E973A9897D",
+          "off": "8947487423"
         }
       ]
     }

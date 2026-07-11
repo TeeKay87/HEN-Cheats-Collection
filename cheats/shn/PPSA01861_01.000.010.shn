@@ -2,6 +2,20 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Maneater" Moder="Saso" Cusa="PPSA01861" Version="01.000.010" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
+  <Cheat Text="2X Experience Points">
+    <Cheatline>
+      <Offset>51038C2</Offset>
+      <Section>0</Section>
+      <ValueOn>6B-C0-02-89-83-90-03-00-00-E9-F6-05-DF-FB</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>EF3EC0</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-FD-F9-20-04-90</ValueOn>
+      <ValueOff>89-83-90-03-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Infinite Health">
     <Cheatline>
       <Offset>510381A</Offset>
@@ -44,20 +58,6 @@
       <ValueOff>89-83-84-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Protein">
-    <Cheatline>
-      <Offset>510388C</Offset>
-      <Section>0</Section>
-      <ValueOn>B8-3F-42-0F-00-89-83-80-03-00-00-E9-14-06-DF-FB</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>EF3EAA</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-DD-F9-20-04-90</ValueOn>
-      <ValueOff>89-83-80-03-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Max Mineral">
     <Cheatline>
       <Offset>510389E</Offset>
@@ -86,18 +86,18 @@
       <ValueOff>89-83-8C-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="2X Experience Points">
+  <Cheat Text="Max Protein">
     <Cheatline>
-      <Offset>51038C2</Offset>
+      <Offset>510388C</Offset>
       <Section>0</Section>
-      <ValueOn>6B-C0-02-89-83-90-03-00-00-E9-F6-05-DF-FB</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+      <ValueOn>B8-3F-42-0F-00-89-83-80-03-00-00-E9-14-06-DF-FB</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>EF3EC0</Offset>
+      <Offset>EF3EAA</Offset>
       <Section>0</Section>
-      <ValueOn>E9-FD-F9-20-04-90</ValueOn>
-      <ValueOff>89-83-90-03-00-00</ValueOff>
+      <ValueOn>E9-DD-F9-20-04-90</ValueOn>
+      <ValueOff>89-83-80-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

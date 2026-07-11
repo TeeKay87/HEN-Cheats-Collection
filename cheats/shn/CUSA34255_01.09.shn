@@ -5,6 +5,48 @@
   <Genres Name="Adventure" />
   <Genres Name="Family" />
   <Items />
+  <Cheat Text="Fast Smash Tour" Description="Fast Smash Tour">
+    <Cheatline>
+      <Offset>7DB7E23</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-83-2C-01-00-00-E7-03-00-00-8B-8B-2C-01-00-00-E9-05-69-47-FA</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>222E737</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-E7-96-B8-05-90</ValueOn>
+      <ValueOff>8B-8B-2C-01-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Grana Infinita - Ativar uma unica vez para pegar o valor e depois desative!">
+    <Cheatline>
+      <Offset>7DB7C10</Offset>
+      <Section>0</Section>
+      <ValueOn>8B-46-04-C7-47-04-3F-42-0F-00-E9-2C-55-0A-FA</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>1E5D145</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-C6-AA-F5-05-90</ValueOn>
+      <ValueOff>8B-46-04-89-47-04</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Ignore Mission Timer" Description="Ignore Mission Timer">
+    <Cheatline>
+      <Offset>7DB7E13</Offset>
+      <Section>0</Section>
+      <ValueOn>41-C7-85-64-06-00-00-00-00-00-00-E9-26-8D-D2-F9</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>1AE0B40</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-CE-72-2D-06-90-90-90-90</ValueOn>
+      <ValueOff>C4-C1-7A-11-8D-64-06-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Infinite Boost" Description="Infinite Boost">
     <Cheatline>
       <Offset>7DB7DB0</Offset>
@@ -33,48 +75,6 @@
       <ValueOff>03-4E-04-03-56-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max XP" Description="Max XP">
-    <Cheatline>
-      <Offset>7DB7DF0</Offset>
-      <Section>0</Section>
-      <ValueOn>8B-52-08-03-06-C7-06-9F-86-01-00-E9-41-CD-0A-FA</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>1E64B3C</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-AF-32-F5-05</ValueOn>
-      <ValueOff>8B-52-08-03-06</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Ignore Mission Timer" Description="Ignore Mission Timer">
-    <Cheatline>
-      <Offset>7DB7E13</Offset>
-      <Section>0</Section>
-      <ValueOn>41-C7-85-64-06-00-00-00-00-00-00-E9-26-8D-D2-F9</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>1AE0B40</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-CE-72-2D-06-90-90-90-90</ValueOn>
-      <ValueOff>C4-C1-7A-11-8D-64-06-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Fast Smash Tour" Description="Fast Smash Tour">
-    <Cheatline>
-      <Offset>7DB7E23</Offset>
-      <Section>0</Section>
-      <ValueOn>C7-83-2C-01-00-00-E7-03-00-00-8B-8B-2C-01-00-00-E9-05-69-47-FA</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>222E737</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-E7-96-B8-05-90</ValueOn>
-      <ValueOff>8B-8B-2C-01-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Max Score" Description="Max Score">
     <Cheatline>
       <Offset>7DB7E38</Offset>
@@ -89,32 +89,18 @@
       <ValueOff>44-01-BB-A4-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Turbo Infinito">
+  <Cheat Text="Max XP" Description="Max XP">
     <Cheatline>
-      <Offset>7DB7DD0</Offset>
+      <Offset>7DB7DF0</Offset>
       <Section>0</Section>
-      <ValueOn>41-C7-84-24-DC-06-00-00-00-00-80-3F-E9-92-CB-10-FA</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+      <ValueOn>8B-52-08-03-06-C7-06-9F-86-01-00-E9-41-CD-0A-FA</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>1EC4969</Offset>
+      <Offset>1E64B3C</Offset>
       <Section>0</Section>
-      <ValueOn>E9-62-34-EF-05-90-90-90-90-90</ValueOn>
-      <ValueOff>C4-C1-7A-11-84-24-DC-06-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Grana Infinita - Ativar uma unica vez para pegar o valor e depois desative!">
-    <Cheatline>
-      <Offset>7DB7C10</Offset>
-      <Section>0</Section>
-      <ValueOn>8B-46-04-C7-47-04-3F-42-0F-00-E9-2C-55-0A-FA</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>1E5D145</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-C6-AA-F5-05-90</ValueOn>
-      <ValueOff>8B-46-04-89-47-04</ValueOff>
+      <ValueOn>E9-AF-32-F5-05</ValueOn>
+      <ValueOff>8B-52-08-03-06</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Nivel Maximo">
@@ -129,6 +115,20 @@
       <Section>0</Section>
       <ValueOn>E9-AB-AD-F5-05</ValueOn>
       <ValueOff>48-39-F7-89-07</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Turbo Infinito">
+    <Cheatline>
+      <Offset>7DB7DD0</Offset>
+      <Section>0</Section>
+      <ValueOn>41-C7-84-24-DC-06-00-00-00-00-80-3F-E9-92-CB-10-FA</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>1EC4969</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-62-34-EF-05-90-90-90-90-90</ValueOn>
+      <ValueOff>C4-C1-7A-11-84-24-DC-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

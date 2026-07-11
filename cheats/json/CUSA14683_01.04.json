@@ -16,34 +16,13 @@
       ]
     },
     {
-      "name": "Skill points ivreases (on Spend)",
+      "name": "High Damage/Invincible to most enemies",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "69F7C70",
-          "on": "41FF8750010000E9814F70FA",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "10FCBF6",
-          "on": "E975B08F059090",
-          "off": "41FF8F50010000"
-        }
-      ]
-    },
-    {
-      "name": "Max ucred (on gain)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "69F7CC0",
-          "on": "C787F8000000FFE0F505E97BF674FA",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "1147344",
-          "on": "E977098B0590",
-          "off": "01B7F8000000"
+          "offset": "75A7C4",
+          "on": "9090909090",
+          "off": "C5FA114708"
         }
       ]
     },
@@ -64,13 +43,34 @@
       ]
     },
     {
-      "name": "High Damage/Invincible to most enemies",
+      "name": "Max ucred (on gain)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "75A7C4",
-          "on": "9090909090",
-          "off": "C5FA114708"
+          "offset": "69F7CC0",
+          "on": "C787F8000000FFE0F505E97BF674FA",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "1147344",
+          "on": "E977098B0590",
+          "off": "01B7F8000000"
+        }
+      ]
+    },
+    {
+      "name": "Skill points ivreases (on Spend)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "69F7C70",
+          "on": "41FF8750010000E9814F70FA",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "10FCBF6",
+          "on": "E975B08F059090",
+          "off": "41FF8F50010000"
         }
       ]
     }

@@ -5,13 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Units For BUY ",
+      "name": "Infinite HP",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "63C69C",
-          "on": "90909090909090",
-          "off": "4589BE94050000"
+          "offset": "F6E12D",
+          "on": "909090909090",
+          "off": "8993D0010000"
         }
       ]
     },
@@ -49,13 +49,13 @@
       ]
     },
     {
-      "name": "Infinite HP",
+      "name": "Infinite Units For BUY ",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "F6E12D",
-          "on": "909090909090",
-          "off": "8993D0010000"
+          "offset": "63C69C",
+          "on": "90909090909090",
+          "off": "4589BE94050000"
         }
       ]
     }

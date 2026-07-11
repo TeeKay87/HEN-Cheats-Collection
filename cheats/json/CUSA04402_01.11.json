@@ -81,32 +81,6 @@
       ]
     },
     {
-      "name": "Infinite Skillpoints",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1712CAB",
-          "on": "909090",
-          "off": "3B4320"
-        },
-        {
-          "offset": "1712C9F",
-          "on": "909090",
-          "off": "4439E1"
-        },
-        {
-          "offset": "2E47800",
-          "on": "8B4B2441BCE70300004489E0E98EB48CFE",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "1712C99",
-          "on": "E9624B730190",
-          "off": "8B4B244489E0"
-        }
-      ]
-    },
-    {
       "name": "Infinite Silver Money",
       "type": "checkbox",
       "memory": [
@@ -129,6 +103,32 @@
           "offset": "1711157",
           "on": "E9B56673019090",
           "off": "418B4F244489F0"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Skillpoints",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1712CAB",
+          "on": "909090",
+          "off": "3B4320"
+        },
+        {
+          "offset": "1712C9F",
+          "on": "909090",
+          "off": "4439E1"
+        },
+        {
+          "offset": "2E47800",
+          "on": "8B4B2441BCE70300004489E0E98EB48CFE",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "1712C99",
+          "on": "E9624B730190",
+          "off": "8B4B244489E0"
         }
       ]
     }

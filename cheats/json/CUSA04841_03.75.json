@@ -5,6 +5,22 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "999 (on consume for food deactivate to discard items)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5EBC0",
+          "on": "4883467830C74318E7030000E9F7DD7680",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "3CC9BF",
+          "on": "E9FC21897F90909090",
+          "off": "488346783044296318"
+        }
+      ]
+    },
+    {
       "name": "999 Minerals (on gain)",
       "type": "checkbox",
       "memory": [
@@ -37,22 +53,6 @@
       ]
     },
     {
-      "name": "999 (on consume for food deactivate to discard items)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5EBC0",
-          "on": "4883467830C74318E7030000E9F7DD7680",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "3CC9BF",
-          "on": "E9FC21897F90909090",
-          "off": "488346783044296318"
-        }
-      ]
-    },
-    {
       "name": "999 Salvaged Data (on spend)",
       "type": "checkbox",
       "memory": [
@@ -65,54 +65,6 @@
           "offset": "3CCB51",
           "on": "E92A20897F90909090",
           "off": "488346783041295E18"
-        }
-      ]
-    },
-    {
-      "name": "Infinite jetpack",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5DE80",
-          "on": "41C785542200000000A040E962DE4E81",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "114BCE9",
-          "on": "E99221B17E90909090",
-          "off": "C4C17A118554220000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Sprint",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5DF20",
-          "on": "41C785E04200000000A040E98FE64E81",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "114C5B6",
-          "on": "E96519B17E90909090",
-          "off": "C4C17A1185E0420000"
-        }
-      ]
-    },
-    {
-      "name": "999999999 Units (on gain)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FEA3DE0",
-          "on": "C787CC010000FFC99A3BE9A8FC4F80",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "3A3A91",
-          "on": "E94A03B07F90",
-          "off": "898FCC010000"
         }
       ]
     },
@@ -133,13 +85,61 @@
       ]
     },
     {
-      "name": "Infinte Ammo",
+      "name": "999999999 Quicksilver (on spend)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1226F9F",
+          "offset": "7FC5FE70",
+          "on": "C787D4010000FFC99A3BE984C87780",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "3DC6FD",
+          "on": "E96E37887F90",
+          "off": "8987D4010000"
+        }
+      ]
+    },
+    {
+      "name": "999999999 Units (on gain)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FEA3DE0",
+          "on": "C787CC010000FFC99A3BE9A8FC4F80",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "3A3A91",
+          "on": "E94A03B07F90",
+          "off": "898FCC010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite ExoMech Jetpack",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "149D866",
           "on": "9090909090909090",
-          "off": "4729ACB4D0140000"
+          "off": "C5FA118614010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite jetpack",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5DE80",
+          "on": "41C785542200000000A040E962DE4E81",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "114BCE9",
+          "on": "E99221B17E90909090",
+          "off": "C4C17A118554220000"
         }
       ]
     },
@@ -160,29 +160,29 @@
       ]
     },
     {
-      "name": "Infinite ExoMech Jetpack",
+      "name": "Infinite Sprint",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "149D866",
-          "on": "9090909090909090",
-          "off": "C5FA118614010000"
+          "offset": "7FC5DF20",
+          "on": "41C785E04200000000A040E98FE64E81",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "114C5B6",
+          "on": "E96519B17E90909090",
+          "off": "C4C17A1185E0420000"
         }
       ]
     },
     {
-      "name": "999999999 Quicksilver (on spend)",
+      "name": "Infinte Ammo",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5FE70",
-          "on": "C787D4010000FFC99A3BE984C87780",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "3DC6FD",
-          "on": "E96E37887F90",
-          "off": "8987D4010000"
+          "offset": "1226F9F",
+          "on": "9090909090909090",
+          "off": "4729ACB4D0140000"
         }
       ]
     }

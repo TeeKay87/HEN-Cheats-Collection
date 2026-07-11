@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "\u002B1 item",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "58E7D5",
+          "on": "660355D4",
+          "off": "662B55D4"
+        }
+      ]
+    },
+    {
       "name": "Max Exp",
       "type": "checkbox",
       "memory": [
@@ -33,17 +44,6 @@
           "offset": "573AE0",
           "on": "E97BC08F00",
           "off": "017704B001"
-        }
-      ]
-    },
-    {
-      "name": "\u002B1 item",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "58E7D5",
-          "on": "660355D4",
-          "off": "662B55D4"
         }
       ]
     },

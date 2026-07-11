@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Coins Multiplier (on buy)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "BE17F",
+          "on": "0115A7D10501",
+          "off": "8915A7D10501"
+        }
+      ]
+    },
+    {
       "name": "Infinite Health/Stamina",
       "type": "checkbox",
       "memory": [
@@ -17,17 +28,6 @@
           "offset": "15E83D",
           "on": "E99E95AB00",
           "off": "C5FA114308"
-        }
-      ]
-    },
-    {
-      "name": "Coins Multiplier (on buy)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "BE17F",
-          "on": "0115A7D10501",
-          "off": "8915A7D10501"
         }
       ]
     },

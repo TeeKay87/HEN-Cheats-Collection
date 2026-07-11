@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Free Fack",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "C33EF3",
+          "on": "909090",
+          "off": "448933"
+        }
+      ]
+    },
+    {
       "name": "GodMode",
       "type": "checkbox",
       "memory": [
@@ -28,17 +39,6 @@
           "offset": "467B60",
           "on": "90909090909090",
           "off": "418986C8000000"
-        }
-      ]
-    },
-    {
-      "name": "Free Fack",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "C33EF3",
-          "on": "909090",
-          "off": "448933"
         }
       ]
     }

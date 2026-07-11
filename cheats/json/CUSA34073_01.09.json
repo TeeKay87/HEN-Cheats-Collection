@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5C67C10",
-          "on": "4180BF0C01000001751041C787D80000000080BB45E985AAE6FAC4C17A1187D8000000E977AAE6FA",
-          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "AD26A6",
-          "on": "E96555190590909090",
-          "off": "C4C17A1187D8000000"
-        }
-      ]
-    },
-    {
       "name": "Infinite AP use",
       "type": "checkbox",
       "memory": [
@@ -33,6 +17,22 @@
           "offset": "AD30F1",
           "on": "E99A481905909090",
           "off": "C5FA118720010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5C67C10",
+          "on": "4180BF0C01000001751041C787D80000000080BB45E985AAE6FAC4C17A1187D8000000E977AAE6FA",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "AD26A6",
+          "on": "E96555190590909090",
+          "off": "C4C17A1187D8000000"
         }
       ]
     },
@@ -69,22 +69,6 @@
       ]
     },
     {
-      "name": "Max Stardust ",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5C67920",
-          "on": "C787BC000000FFE0F505E971F1FFFA",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "C66A9A",
-          "on": "E9810E000590",
-          "off": "899FBC000000"
-        }
-      ]
-    },
-    {
       "name": "Max Ability points",
       "type": "checkbox",
       "memory": [
@@ -113,6 +97,22 @@
           "offset": "C669F4",
           "on": "E90711000590",
           "off": "898FB4000000"
+        }
+      ]
+    },
+    {
+      "name": "Max Stardust ",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5C67920",
+          "on": "C787BC000000FFE0F505E971F1FFFA",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "C66A9A",
+          "on": "E9810E000590",
+          "off": "899FBC000000"
         }
       ]
     }

@@ -5,13 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Unlimited Fuel",
+      "name": "",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "FDA6B2",
-          "on": "9090909090909090",
-          "off": "C5FA118760060000"
+          "offset": "173986E",
+          "on": "4889D8",
+          "off": "894308"
         }
       ]
     },
@@ -27,13 +27,13 @@
       ]
     },
     {
-      "name": "",
+      "name": "Unlimited Fuel",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "173986E",
-          "on": "4889D8",
-          "off": "894308"
+          "offset": "FDA6B2",
+          "on": "9090909090909090",
+          "off": "C5FA118760060000"
         }
       ]
     }

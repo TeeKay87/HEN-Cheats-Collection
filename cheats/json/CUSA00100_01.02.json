@@ -5,13 +5,24 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "No Reload",
+      "name": "Black Sight Aways Available",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "0070C038",
-          "on": "909090909090",
-          "off": "298210030000"
+          "offset": "005A4D94",
+          "on": "5F",
+          "off": "5D"
+        }
+      ]
+    },
+    {
+      "name": "Enemy 1 Hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "00D5E770",
+          "on": "11",
+          "off": "10"
         }
       ]
     },
@@ -43,17 +54,6 @@
       ]
     },
     {
-      "name": "Black Sight Aways Available",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "005A4D94",
-          "on": "5F",
-          "off": "5D"
-        }
-      ]
-    },
-    {
       "name": "Infinite Player Health",
       "type": "checkbox",
       "memory": [
@@ -70,13 +70,13 @@
       ]
     },
     {
-      "name": "Enemy 1 Hit Kill",
+      "name": "No Reload",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "00D5E770",
-          "on": "11",
-          "off": "10"
+          "offset": "0070C038",
+          "on": "909090909090",
+          "off": "298210030000"
         }
       ]
     }

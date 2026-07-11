@@ -2,18 +2,18 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="South Park: The Fractured But Whole" Moder="Molly" Cusa="CUSA04311" Version="01.00" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Quick Special">
+  <Cheat Text="Max Items">
     <Cheatline>
-      <Offset>326F800</Offset>
+      <Offset>326F828</Offset>
       <Section>0</Section>
-      <ValueOn>51-B9-00-00-C8-42-66-0F-6E-C9-59-C5-FA-11-4F-08-E9-34-C8-18-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+      <ValueOn>C7-40-0C-63-00-00-00-8B-40-0C-8B-4D-AC-E9-1F-70-A0-FD</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>13FC044</Offset>
+      <Offset>C76853</Offset>
       <Section>0</Section>
-      <ValueOn>E9-B7-37-E7-01</ValueOn>
-      <ValueOff>C5-FA-11-4F-08</ValueOff>
+      <ValueOn>E9-D0-8F-5F-02-90</ValueOn>
+      <ValueOff>8B-40-0C-8B-4D-AC</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max Money">
@@ -30,18 +30,18 @@
       <ValueOff>48-8B-4D-A0-8B-42-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items">
+  <Cheat Text="Quick Special">
     <Cheatline>
-      <Offset>326F828</Offset>
+      <Offset>326F800</Offset>
       <Section>0</Section>
-      <ValueOn>C7-40-0C-63-00-00-00-8B-40-0C-8B-4D-AC-E9-1F-70-A0-FD</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+      <ValueOn>51-B9-00-00-C8-42-66-0F-6E-C9-59-C5-FA-11-4F-08-E9-34-C8-18-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>C76853</Offset>
+      <Offset>13FC044</Offset>
       <Section>0</Section>
-      <ValueOn>E9-D0-8F-5F-02-90</ValueOn>
-      <ValueOff>8B-40-0C-8B-4D-AC</ValueOff>
+      <ValueOn>E9-B7-37-E7-01</ValueOn>
+      <ValueOff>C5-FA-11-4F-08</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Quicky Level Up Crafting ">

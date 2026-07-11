@@ -19,12 +19,12 @@
       <ValueOff>41-89-87-F4-08-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Stamina" Description="Inf Stamina">
+  <Cheat Text="Inf Ammo Bazooka" Description="Inf Ammo Bazooka">
     <Cheatline>
-      <Offset>39CF7E</Offset>
+      <Offset>81C351</Offset>
       <Section>16</Section>
-      <ValueOn>F3-45-0F-10-BF-28-01-00-00</ValueOn>
-      <ValueOff>F3-45-0F-11-BF-28-01-00-00</ValueOff>
+      <ValueOn>41-8B-86-2C-09-00-00</ValueOn>
+      <ValueOff>41-89-86-2C-09-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Inf Ammo Gun" Description="Inf Ammo Gun">
@@ -43,12 +43,12 @@
       <ValueOff>41-89-86-44-09-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Ammo Bazooka" Description="Inf Ammo Bazooka">
+  <Cheat Text="Inf Stamina" Description="Inf Stamina">
     <Cheatline>
-      <Offset>81C351</Offset>
+      <Offset>39CF7E</Offset>
       <Section>16</Section>
-      <ValueOn>41-8B-86-2C-09-00-00</ValueOn>
-      <ValueOff>41-89-86-2C-09-00-00</ValueOff>
+      <ValueOn>F3-45-0F-10-BF-28-01-00-00</ValueOn>
+      <ValueOff>F3-45-0F-11-BF-28-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

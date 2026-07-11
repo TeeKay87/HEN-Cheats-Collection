@@ -16,17 +16,6 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8091E672",
-          "on": "9090909090",
-          "off": "C5FA114008"
-        }
-      ]
-    },
-    {
       "name": "Infinite OP",
       "type": "checkbox",
       "memory": [
@@ -34,6 +23,17 @@
           "offset": "8091E302",
           "on": "9090909090",
           "off": "C5FA114004"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8091E672",
+          "on": "9090909090",
+          "off": "C5FA114008"
         }
       ]
     },
@@ -60,17 +60,6 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8051E672",
-          "on": "9090909090",
-          "off": "C5FA114008"
-        }
-      ]
-    },
-    {
       "name": "Infinite OP",
       "type": "checkbox",
       "memory": [
@@ -78,6 +67,17 @@
           "offset": "8051E302",
           "on": "9090909090",
           "off": "C5FA114004"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8051E672",
+          "on": "9090909090",
+          "off": "C5FA114008"
         }
       ]
     },

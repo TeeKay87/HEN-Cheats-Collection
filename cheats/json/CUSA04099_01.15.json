@@ -16,13 +16,13 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
+      "name": "Infinite Ammo/Throwables/Medkits",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "DA5960",
-          "on": "909090909090",
-          "off": "C4C17A115710"
+          "offset": "C71C31",
+          "on": "90909090",
+          "off": "44894020"
         }
       ]
     },
@@ -38,13 +38,13 @@
       ]
     },
     {
-      "name": "Infinite Ammo/Throwables/Medkits",
+      "name": "Infinite Stamina",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "C71C31",
-          "on": "90909090",
-          "off": "44894020"
+          "offset": "DA5960",
+          "on": "909090909090",
+          "off": "C4C17A115710"
         }
       ]
     },
@@ -71,13 +71,13 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
+      "name": "Infinite Ammo/Throwables/Medkits",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "9A5960",
-          "on": "909090909090",
-          "off": "C4C17A115710"
+          "offset": "871C31",
+          "on": "90909090",
+          "off": "44894020"
         }
       ]
     },
@@ -93,13 +93,13 @@
       ]
     },
     {
-      "name": "Infinite Ammo/Throwables/Medkits",
+      "name": "Infinite Stamina",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "871C31",
-          "on": "90909090",
-          "off": "44894020"
+          "offset": "9A5960",
+          "on": "909090909090",
+          "off": "C4C17A115710"
         }
       ]
     },

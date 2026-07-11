@@ -32,17 +32,6 @@
       ]
     },
     {
-      "name": "Max Money on Pick",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2549CE0",
-          "on": "4189442410",
-          "off": "41894C2410"
-        }
-      ]
-    },
-    {
       "name": "Infinite Money/Items",
       "type": "checkbox",
       "memory": [
@@ -50,6 +39,17 @@
           "offset": "2549FF8",
           "on": "9090909090",
           "off": "4189442410"
+        }
+      ]
+    },
+    {
+      "name": "Max Money on Pick",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2549CE0",
+          "on": "4189442410",
+          "off": "41894C2410"
         }
       ]
     },

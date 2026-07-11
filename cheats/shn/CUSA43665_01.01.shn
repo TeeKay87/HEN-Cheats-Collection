@@ -2,6 +2,30 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Turok 3: Shadow of Oblivion Remastered" Moder="Ali-mk" Cusa="CUSA43665" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
+  <Cheat Text="Inf-All-Weapon">
+    <Cheatline>
+      <Offset>3EA208</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90</ValueOn>
+      <ValueOff>E8-F3-D6-F5-FF</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite-Health">
+    <Cheatline>
+      <Offset>336FB9</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-83-68-06-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite-Time">
+    <Cheatline>
+      <Offset>333955</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>C4-C1-7A-11-87-B4-01-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Invincible">
     <Cheatline>
       <PS5Offset>800-executable[0]-5</PS5Offset>
@@ -16,30 +40,6 @@
       <Section>0</Section>
       <ValueOn>E9-36-E6-4C-00-90</ValueOn>
       <ValueOff>FF-90-50-01-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite-Health">
-    <Cheatline>
-      <Offset>336FB9</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>C5-FA-11-83-68-06-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Inf-All-Weapon">
-    <Cheatline>
-      <Offset>3EA208</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90</ValueOn>
-      <ValueOff>E8-F3-D6-F5-FF</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="one-Hit-Kill">
-    <Cheatline>
-      <Offset>287EE8</Offset>
-      <Section>0</Section>
-      <ValueOn>C5-FA-11-83-68-06-00-00</ValueOn>
-      <ValueOff>C5-FA-11-9B-68-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="MAX-lives-999">
@@ -58,12 +58,12 @@
       <ValueOff>41-89-86-40-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite-Time">
+  <Cheat Text="one-Hit-Kill">
     <Cheatline>
-      <Offset>333955</Offset>
+      <Offset>287EE8</Offset>
       <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>C4-C1-7A-11-87-B4-01-00-00</ValueOff>
+      <ValueOn>C5-FA-11-83-68-06-00-00</ValueOn>
+      <ValueOff>C5-FA-11-9B-68-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

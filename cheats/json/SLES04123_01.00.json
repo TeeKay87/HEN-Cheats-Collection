@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Grenades",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "12CA52",
+          "on": "00",
+          "off": "42"
+        }
+      ]
+    },
+    {
       "name": "Infinite-Health",
       "type": "checkbox",
       "memory": [
@@ -26,6 +37,17 @@
       ]
     },
     {
+      "name": "Infinite-lives",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1335EE",
+          "on": "00",
+          "off": "FF"
+        }
+      ]
+    },
+    {
       "name": "Infinite-Weapon",
       "type": "checkbox",
       "memory": [
@@ -38,28 +60,6 @@
           "offset": "129FA5",
           "on": "00",
           "off": "FF"
-        }
-      ]
-    },
-    {
-      "name": "Infinite-lives",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1335EE",
-          "on": "00",
-          "off": "FF"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Grenades",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "12CA52",
-          "on": "00",
-          "off": "42"
         }
       ]
     }

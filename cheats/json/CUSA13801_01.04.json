@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "199F964",
+          "on": "898830010000",
+          "off": "8B8830010000"
+        }
+      ]
+    },
+    {
       "name": "Max money",
       "type": "checkbox",
       "memory": [
@@ -28,17 +39,6 @@
           "offset": "19A0481",
           "on": "41898D62010000",
           "off": "418B8D60010000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "199F964",
-          "on": "898830010000",
-          "off": "8B8830010000"
         }
       ]
     },

@@ -5,45 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health Master code",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "855F7210",
-          "on": "80782C00751EC740140000AF43E995CFDCFC80785801740CC740140000AF43E983CFDCFCC5FA114014E979CFDCFC",
-          "off": "00000000741E00000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "823C41B2",
-          "on": "E959302303",
-          "off": "C5FA114014"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health (M)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "855F7214",
-          "on": "750C",
-          "off": "751E"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Mass on spend",
+      "name": "Infinite Ardor",
       "type": "checkbox",
       "memory": [
         {
           "offset": "855F7A90",
-          "on": "C74018FFE0F5058A45ABE9C7BE01FC57616E646572204657392E3030",
-          "off": "000000000000000000000000000000"
+          "on": "66C780C8000000C800E9F3B5D3FB",
+          "off": "0000000000000000000000000000"
         },
         {
-          "offset": "81613960",
-          "on": "E92B41FE0390",
-          "off": "8948188A45AB"
+          "offset": "8133308B",
+          "on": "E9004A2C0490",
+          "off": "8988C8000000"
         }
       ]
     },
@@ -64,34 +37,29 @@
       ]
     },
     {
-      "name": "Infinite Items ",
+      "name": "Infinite Health (M)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "855F7790",
-          "on": "488B45D8C6402014E930A002FC",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "816217C6",
-          "on": "E9C55FFD039090",
-          "off": "488B45D8894820"
+          "offset": "855F7214",
+          "on": "750C",
+          "off": "751E"
         }
       ]
     },
     {
-      "name": "Infinite Ardor",
+      "name": "Infinite Health Master code",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "855F7A90",
-          "on": "66C780C8000000C800E9F3B5D3FB",
-          "off": "0000000000000000000000000000"
+          "offset": "855F7210",
+          "on": "80782C00751EC740140000AF43E995CFDCFC80785801740CC740140000AF43E983CFDCFCC5FA114014E979CFDCFC",
+          "off": "00000000741E00000000000000000000000000000000000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "8133308B",
-          "on": "E9004A2C0490",
-          "off": "8988C8000000"
+          "offset": "823C41B2",
+          "on": "E959302303",
+          "off": "C5FA114014"
         }
       ]
     },
@@ -108,6 +76,38 @@
           "offset": "81612D91",
           "on": "E96A4BFE0390",
           "off": "8948188B4594"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Items ",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "855F7790",
+          "on": "488B45D8C6402014E930A002FC",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "816217C6",
+          "on": "E9C55FFD039090",
+          "off": "488B45D8894820"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Mass on spend",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "855F7A90",
+          "on": "C74018FFE0F5058A45ABE9C7BE01FC57616E646572204657392E3030",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "81613960",
+          "on": "E92B41FE0390",
+          "off": "8948188A45AB"
         }
       ]
     }

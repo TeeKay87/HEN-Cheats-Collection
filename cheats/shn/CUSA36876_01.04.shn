@@ -2,20 +2,6 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Fatal Frame: Mask of the Lunar Eclipse" Moder="d01v" Cusa="CUSA36876" Version="01.04" Process="eboot.bin">
   <Genres Name="Horror" />
   <Items />
-  <Cheat Text="Infinite Health">
-    <Cheatline>
-      <Offset>191F2A1</Offset>
-      <Section>0</Section>
-      <ValueOn>C4-C1-7A-10-84-24-CC-07-00-00-C4-C1-7A-11-84-24-C8-07-00-00-C4-C1-7A-10-84-24-C8-07-00-00-E9-9C-03-F7-FE-90</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>88F656</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-46-FC-08-01-90-90-90-90-90</ValueOn>
-      <ValueOff>C4-C1-7A-10-84-24-C8-07-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Enemy Health is 1">
     <Cheatline>
       <Offset>191F2E1</Offset>
@@ -44,6 +30,20 @@
       <ValueOff>C5-FA-10-80-C8-07-00-00</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="Infinite Health">
+    <Cheatline>
+      <Offset>191F2A1</Offset>
+      <Section>0</Section>
+      <ValueOn>C4-C1-7A-10-84-24-CC-07-00-00-C4-C1-7A-11-84-24-C8-07-00-00-C4-C1-7A-10-84-24-C8-07-00-00-E9-9C-03-F7-FE-90</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>88F656</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-46-FC-08-01-90-90-90-90-90</ValueOn>
+      <ValueOff>C4-C1-7A-10-84-24-C8-07-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Infinite Items">
     <Cheatline>
       <Offset>8A600B</Offset>
@@ -64,6 +64,20 @@
       <Section>0</Section>
       <ValueOn>E9-BC-B5-08-01-90-90</ValueOn>
       <ValueOff>83-BF-AC-0A-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Instant Lunar Power (flashlight)">
+    <Cheatline>
+      <Offset>191F401</Offset>
+      <Section>0</Section>
+      <ValueOn>41-C7-84-24-C0-17-00-00-00-00-80-3F-C4-C1-7A-10-84-24-C0-17-00-00-C4-C1-7A-11-84-24-C0-17-00-00-E9-27-AE-F6-FE-90</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>88A243</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-B9-51-09-01-90-90-90-90-90</ValueOn>
+      <ValueOff>C4-C1-7A-11-84-24-C0-17-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Instant Shutter Lock">
@@ -108,26 +122,12 @@
       <ValueOff>8B-88-24-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stop Time">
+  <Cheat Text="Mission Score (New Game+)">
     <Cheatline>
-      <Offset>8389FA</Offset>
+      <Offset>867DB4</Offset>
       <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>48-89-05-BF-87-D0-01</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Instant Lunar Power (flashlight)">
-    <Cheatline>
-      <Offset>191F401</Offset>
-      <Section>0</Section>
-      <ValueOn>41-C7-84-24-C0-17-00-00-00-00-80-3F-C4-C1-7A-10-84-24-C0-17-00-00-C4-C1-7A-11-84-24-C0-17-00-00-E9-27-AE-F6-FE-90</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>88A243</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-B9-51-09-01-90-90-90-90-90</ValueOn>
-      <ValueOff>C4-C1-7A-11-84-24-C0-17-00-00</ValueOff>
+      <ValueOn>0F-47-C6</ValueOn>
+      <ValueOff>0F-42-C6</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Stop Mission Time (New Game+)">
@@ -138,12 +138,12 @@
       <ValueOff>89-4B-50</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Mission Score (New Game+)">
+  <Cheat Text="Stop Time">
     <Cheatline>
-      <Offset>867DB4</Offset>
+      <Offset>8389FA</Offset>
       <Section>0</Section>
-      <ValueOn>0F-47-C6</ValueOn>
-      <ValueOff>0F-42-C6</ValueOff>
+      <ValueOn>90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>48-89-05-BF-87-D0-01</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

@@ -5,35 +5,13 @@
   "process": "default.elf",
   "mods": [
     {
-      "name": "Infinite Ammo",
+      "name": "Death-Barrier Godmode",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "BE9675",
-          "on": "909090",
-          "off": "4429F1"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Reload Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "C16C7A",
-          "on": "9090",
-          "off": "8908"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Grenades",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "BE4D7B",
-          "on": "909090",
-          "off": "894850"
+          "offset": "CEB1E0",
+          "on": "C3",
+          "off": "55"
         }
       ]
     },
@@ -49,13 +27,35 @@
       ]
     },
     {
-      "name": "Death-Barrier Godmode",
+      "name": "Infinite Ammo",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "CEB1E0",
-          "on": "C3",
-          "off": "55"
+          "offset": "BE9675",
+          "on": "909090",
+          "off": "4429F1"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Grenades",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "BE4D7B",
+          "on": "909090",
+          "off": "894850"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Reload Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "C16C7A",
+          "on": "9090",
+          "off": "8908"
         }
       ]
     },
@@ -71,17 +71,6 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7E967F",
-          "on": "90909090",
-          "off": "894C9050"
-        }
-      ]
-    },
-    {
       "name": "Infinite Ammo",
       "type": "checkbox",
       "memory": [
@@ -93,13 +82,13 @@
       ]
     },
     {
-      "name": "No Recoil",
+      "name": "Infinite Grenades",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "800D00",
-          "on": "C3",
-          "off": "55"
+          "offset": "7E4D79",
+          "on": "9090",
+          "off": "FFC9"
         }
       ]
     },
@@ -115,13 +104,24 @@
       ]
     },
     {
-      "name": "Infinite Grenades",
+      "name": "No Recoil",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7E4D79",
-          "on": "9090",
-          "off": "FFC9"
+          "offset": "800D00",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E967F",
+          "on": "90909090",
+          "off": "894C9050"
         }
       ]
     }

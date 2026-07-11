@@ -16,17 +16,6 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "19D29A2",
-          "on": "909090",
-          "off": "44893A"
-        }
-      ]
-    },
-    {
       "name": "Infinite Energy",
       "type": "checkbox",
       "memory": [
@@ -45,6 +34,17 @@
           "offset": "194CBDE",
           "on": "90909090909090",
           "off": "418986AC140000"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "19D29A2",
+          "on": "909090",
+          "off": "44893A"
         }
       ]
     }

@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "666FE30",
-          "on": "66C787680100006400E9A27C32FC",
-          "off": "0000000000000000000000000000"
-        },
-        {
-          "offset": "2997ADA",
-          "on": "E95183CD0390",
-          "off": "899768010000"
-        }
-      ]
-    },
-    {
       "name": "1Hit kill",
       "type": "checkbox",
       "memory": [
@@ -33,38 +17,6 @@
           "offset": "2952726",
           "on": "E9B5D6D10390",
           "off": "89B768010000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Stamina (Basim)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "666FDA2",
-          "on": "C7430C0000C842E910707BFC57616E646572204657392E3030",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "2E26DB9",
-          "on": "E9E48F8403",
-          "off": "C5FA11530C"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Oxygen",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "666FEE0",
-          "on": "C780B406000000004842E9EB294DFB",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "1B428D2",
-          "on": "E909D6B204909090",
-          "off": "C5FA1180B4060000"
         }
       ]
     },
@@ -85,18 +37,66 @@
       ]
     },
     {
-      "name": "Mount Infinite Stamina",
+      "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "666FF20",
-          "on": "41C7450C0000C842E9327C7BFC",
-          "off": "00000000000000000000000000"
+          "offset": "666FE30",
+          "on": "66C787680100006400E9A27C32FC",
+          "off": "0000000000000000000000000000"
         },
         {
-          "offset": "2E27B59",
-          "on": "E9C283840390",
-          "off": "C4C17A11450C"
+          "offset": "2997ADA",
+          "on": "E95183CD0390",
+          "off": "899768010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Oxygen",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "666FEE0",
+          "on": "C780B406000000004842E9EB294DFB",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "1B428D2",
+          "on": "E909D6B204909090",
+          "off": "C5FA1180B4060000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Stamina (Basim)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "666FDA2",
+          "on": "C7430C0000C842E910707BFC57616E646572204657392E3030",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "2E26DB9",
+          "on": "E9E48F8403",
+          "off": "C5FA11530C"
+        }
+      ]
+    },
+    {
+      "name": "Max Dirhams/Tokens/Tools/Resources(on use/spend)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "666FE70",
+          "on": "41C704240F2700000F8726CA8EFCE97CC98EFC",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "2F5C7F5",
+          "on": "E9763671039090909090",
+          "off": "418904240F87A5000000"
         }
       ]
     },
@@ -117,18 +117,18 @@
       ]
     },
     {
-      "name": "Max Dirhams/Tokens/Tools/Resources(on use/spend)",
+      "name": "Mount Infinite Stamina",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "666FE70",
-          "on": "41C704240F2700000F8726CA8EFCE97CC98EFC",
-          "off": "00000000000000000000000000000000000000"
+          "offset": "666FF20",
+          "on": "41C7450C0000C842E9327C7BFC",
+          "off": "00000000000000000000000000"
         },
         {
-          "offset": "2F5C7F5",
-          "on": "E9763671039090909090",
-          "off": "418904240F87A5000000"
+          "offset": "2E27B59",
+          "on": "E9C283840390",
+          "off": "C4C17A11450C"
         }
       ]
     }

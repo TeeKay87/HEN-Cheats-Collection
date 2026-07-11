@@ -5,13 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Life",
+      "name": "Bullets",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "3FD609",
-          "on": "90909090909090",
-          "off": "66298184060000"
+          "offset": "11AECA",
+          "on": "90909090",
+          "off": "66FF4F24"
         }
       ]
     },
@@ -23,6 +23,17 @@
           "offset": "11AEEB",
           "on": "90909090",
           "off": "66FF4F24"
+        }
+      ]
+    },
+    {
+      "name": "Life",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3FD609",
+          "on": "90909090909090",
+          "off": "66298184060000"
         }
       ]
     },
@@ -45,17 +56,6 @@
           "offset": "11AEC4",
           "on": "90909090",
           "off": "66894728"
-        }
-      ]
-    },
-    {
-      "name": "Bullets",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "11AECA",
-          "on": "90909090",
-          "off": "66FF4F24"
         }
       ]
     }

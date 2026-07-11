@@ -5,22 +5,6 @@
   "process": "big3-ps4_Shipping.elf",
   "mods": [
     {
-      "name": "L3 \u002B Upper L or Upper R Touch Pad",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1357800",
-          "on": "5148B98883400008000000488B094883E102750DC680FC4B00000059E9C682A5FFC680FC4B00000159E9B982A5FF",
-          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "DAFAE0",
-          "on": "E91B7D5A009090",
-          "off": "80B8FC4B000000"
-        }
-      ]
-    },
-    {
       "name": "Enable FPS View - Hold L3",
       "type": "checkbox",
       "memory": [
@@ -44,6 +28,22 @@
           "offset": "87174A",
           "on": "E9DF60AE009090907427",
           "off": "8A89B93900000A087527"
+        }
+      ]
+    },
+    {
+      "name": "L3 \u002B Upper L or Upper R Touch Pad",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1357800",
+          "on": "5148B98883400008000000488B094883E102750DC680FC4B00000059E9C682A5FFC680FC4B00000159E9B982A5FF",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "DAFAE0",
+          "on": "E91B7D5A009090",
+          "off": "80B8FC4B000000"
         }
       ]
     }

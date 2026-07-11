@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "1-Hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1949AB4",
+          "on": "29C090",
+          "off": "4429E0"
+        }
+      ]
+    },
+    {
       "name": "All Client Godmode",
       "type": "checkbox",
       "memory": [
@@ -38,17 +49,6 @@
       ]
     },
     {
-      "name": "1-Hit Kill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1949AB4",
-          "on": "29C090",
-          "off": "4429E0"
-        }
-      ]
-    },
-    {
       "name": "Load Zombies Step 1",
       "hint": "Go to the main menu and navigate to \u0022Multiplayer\u0022\nthen hit Step 1.",
       "type": "button",
@@ -74,6 +74,46 @@
           "offset": "28705EC",
           "on": "0A",
           "off": "0A"
+        }
+      ]
+    },
+    {
+      "name": "Load Zombies Step 3",
+      "hint": "Close the error popup then hit Step 3.",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "B994B58",
+          "on": "00",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Load Zombies Step 5",
+      "hint": "Wait for the black screen to end then hit Step 5.",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "2870620",
+          "on": "6C6F6262794C61756E636847616D6500",
+          "off": "6C6F6262794C61756E636847616D6500"
+        },
+        {
+          "offset": "28705EC",
+          "on": "0F",
+          "off": "0F"
+        }
+      ]
+    },
+    {
+      "name": "1-Hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1549ab4",
+          "on": "29C090",
+          "off": "4429E0"
         }
       ]
     },
@@ -111,17 +151,6 @@
       ]
     },
     {
-      "name": "1-Hit Kill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1549ab4",
-          "on": "29C090",
-          "off": "4429E0"
-        }
-      ]
-    },
-    {
       "name": "Load Zombies Step 1",
       "type": "button",
       "memory": [
@@ -145,6 +174,33 @@
           "offset": "24705ec",
           "on": "0A",
           "off": "0A"
+        }
+      ]
+    },
+    {
+      "name": "Load Zombies Step 3",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "b594b58",
+          "on": "00",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Load Zombies Step 5",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "2470620",
+          "on": "6C6F6262794C61756E636847616D6500",
+          "off": "6C6F6262794C61756E636847616D6500"
+        },
+        {
+          "offset": "24705ec",
+          "on": "0F",
+          "off": "0F"
         }
       ]
     }

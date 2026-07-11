@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "ED183",
-          "on": "4501A8E40A0000",
-          "off": "4529A8E40A0000"
-        }
-      ]
-    },
-    {
       "name": "Inf Blood",
       "type": "checkbox",
       "memory": [
@@ -28,33 +17,6 @@
           "offset": "D2C04",
           "on": "E9F78BB10390909090",
           "off": "C4C17A1087E80A0000"
-        }
-      ]
-    },
-    {
-      "name": "Inf Wrath of Aarbron",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "E5E9D",
-          "on": "9090909090909090",
-          "off": "41FF8C24EC0A0000"
-        }
-      ]
-    },
-    {
-      "name": "Inf Mana (Enable only in Wisdom of Shadows)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3BEB800",
-          "on": "B880841E00898750010000E9B63E75FC",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "33F6C0",
-          "on": "E93BC18A0390",
-          "off": "8B8750010000"
         }
       ]
     },
@@ -75,6 +37,33 @@
       ]
     },
     {
+      "name": "Inf Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "ED183",
+          "on": "4501A8E40A0000",
+          "off": "4529A8E40A0000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Mana (Enable only in Wisdom of Shadows)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3BEB800",
+          "on": "B880841E00898750010000E9B63E75FC",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "33F6C0",
+          "on": "E93BC18A0390",
+          "off": "8B8750010000"
+        }
+      ]
+    },
+    {
       "name": "Inf Shadow Stones",
       "type": "checkbox",
       "memory": [
@@ -87,6 +76,17 @@
           "offset": "F4CEB",
           "on": "E9296BAF039090",
           "off": "448BB0C8000000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Wrath of Aarbron",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "E5E9D",
+          "on": "9090909090909090",
+          "off": "41FF8C24EC0A0000"
         }
       ]
     }

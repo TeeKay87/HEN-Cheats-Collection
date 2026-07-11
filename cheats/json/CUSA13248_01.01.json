@@ -5,35 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Stamina",
+      "name": "Infinite Bleeding Protection",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "6A43C4",
-          "on": "9090909090909090",
-          "off": "C5FA1183A0000000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Energy",
-      "type": "checkbox",
-      "memory": [
+          "offset": "7FC5E910",
+          "on": "66C78330010000CF02E93C3F9A80",
+          "off": "0000000000000000000000000000"
+        },
         {
-          "offset": "6A46AC",
-          "on": "9090909090909090",
-          "off": "C5FA11879C000000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "370BB57",
-          "on": "9090909090",
-          "off": "C5FA114354"
+          "offset": "602853",
+          "on": "E9B8C0657F9090",
+          "off": "48898330010000"
         }
       ]
     },
@@ -70,6 +53,17 @@
       ]
     },
     {
+      "name": "Infinite Energy",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6A46AC",
+          "on": "9090909090909090",
+          "off": "C5FA11879C000000"
+        }
+      ]
+    },
+    {
       "name": "Infinite Food Poisoning/ Venom Protection",
       "type": "checkbox",
       "memory": [
@@ -86,18 +80,24 @@
       ]
     },
     {
-      "name": "Infinite Bleeding Protection",
+      "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5E910",
-          "on": "66C78330010000CF02E93C3F9A80",
-          "off": "0000000000000000000000000000"
-        },
+          "offset": "370BB57",
+          "on": "9090909090",
+          "off": "C5FA114354"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Stamina",
+      "type": "checkbox",
+      "memory": [
         {
-          "offset": "602853",
-          "on": "E9B8C0657F9090",
-          "off": "48898330010000"
+          "offset": "6A43C4",
+          "on": "9090909090909090",
+          "off": "C5FA1183A0000000"
         }
       ]
     },

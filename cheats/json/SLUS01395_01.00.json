@@ -16,17 +16,6 @@
       ]
     },
     {
-      "name": "Infinite-All-Weapon",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "12AA44",
-          "on": "99",
-          "off": "23"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -45,6 +34,17 @@
           "offset": "1098DE",
           "on": "00",
           "off": "42"
+        }
+      ]
+    },
+    {
+      "name": "Infinite-All-Weapon",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "12AA44",
+          "on": "99",
+          "off": "23"
         }
       ]
     },

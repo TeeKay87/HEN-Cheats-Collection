@@ -21,18 +21,18 @@
       ]
     },
     {
-      "name": "Infinite Money",
+      "name": "Infinite Max Pet Exp ",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "89F823",
-          "on": "B97F9698008988E8120000E9EC97A0FF",
-          "off": "00000000000000000000000000000000"
+          "offset": "89F833",
+          "on": "41BD7F96980044012DB52F7800E9A6D597FF",
+          "off": "000000000000000000000000000000000000"
         },
         {
-          "offset": "2A9019",
-          "on": "E905685F0090",
-          "off": "8988E8120000"
+          "offset": "21CDE4",
+          "on": "E94A2A68009090",
+          "off": "44012DB52F7800"
         }
       ]
     },
@@ -58,18 +58,18 @@
       ]
     },
     {
-      "name": "Infinite Max Pet Exp ",
+      "name": "Infinite Money",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "89F833",
-          "on": "41BD7F96980044012DB52F7800E9A6D597FF",
-          "off": "000000000000000000000000000000000000"
+          "offset": "89F823",
+          "on": "B97F9698008988E8120000E9EC97A0FF",
+          "off": "00000000000000000000000000000000"
         },
         {
-          "offset": "21CDE4",
-          "on": "E94A2A68009090",
-          "off": "44012DB52F7800"
+          "offset": "2A9019",
+          "on": "E905685F0090",
+          "off": "8988E8120000"
         }
       ]
     }

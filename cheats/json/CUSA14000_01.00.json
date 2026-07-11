@@ -21,22 +21,6 @@
       ]
     },
     {
-      "name": "Max Lives",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "153FE00",
-          "on": "41C686AC00000064E9FD61037F",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "80576003",
-          "on": "E9F89DFC809090",
-          "off": "418986AC000000"
-        }
-      ]
-    },
-    {
       "name": "Max Items",
       "type": "checkbox",
       "memory": [
@@ -49,6 +33,22 @@
           "offset": "809EFB2D",
           "on": "E97E02B5809090",
           "off": "48634C24108908"
+        }
+      ]
+    },
+    {
+      "name": "Max Lives",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "153FE00",
+          "on": "41C686AC00000064E9FD61037F",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "80576003",
+          "on": "E9F89DFC809090",
+          "off": "418986AC000000"
         }
       ]
     },
@@ -86,7 +86,7 @@
     }
   ],
   "credits": [
-    "Reddevil82 ",
-    " FW 9.00"
+    "Reddevil82",
+    "FW 9.00"
   ]
 }

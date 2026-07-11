@@ -5,24 +5,35 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Refill \u002B Infinite RP on Use| Selected Characters",
+      "name": "Infinite Consumables Items in Battle",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "4C7C39",
+          "offset": "5F09E6",
           "on": "9090",
-          "off": "39C1"
+          "off": "8937"
         }
       ]
     },
     {
-      "name": "Refill \u002B Infinite HP When Hit| Selected Characters",
+      "name": "Infinite Items",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "5F2E9D",
-          "on": "9090",
-          "off": "39C3"
+          "offset": "2F820F",
+          "on": "90909090909090",
+          "off": "889408701C0000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Materials",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2F861F",
+          "on": "90909090909090",
+          "off": "88940858200000"
         }
       ]
     },
@@ -38,13 +49,24 @@
       ]
     },
     {
-      "name": "Max Money On Sell",
+      "name": "Infinite Sub Weapons| Grenades",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "2F819F",
+          "offset": "5F09A7",
           "on": "909090909090",
-          "off": "81FE3F420F00"
+          "off": "89878C010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Sub Weapons| Long Arms",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5F0947",
+          "on": "909090909090",
+          "off": "898764010000"
         }
       ]
     },
@@ -60,17 +82,6 @@
         {
           "offset": "2F820F",
           "on": "E92CBD5B009090",
-          "off": "889408701C0000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Items",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2F820F",
-          "on": "90909090909090",
           "off": "889408701C0000"
         }
       ]
@@ -92,46 +103,35 @@
       ]
     },
     {
-      "name": "Infinite Materials",
+      "name": "Max Money On Sell",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "2F861F",
-          "on": "90909090909090",
-          "off": "88940858200000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Sub Weapons| Long Arms",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5F0947",
+          "offset": "2F819F",
           "on": "909090909090",
-          "off": "898764010000"
+          "off": "81FE3F420F00"
         }
       ]
     },
     {
-      "name": "Infinite Sub Weapons| Grenades",
+      "name": "Refill \u002B Infinite HP When Hit| Selected Characters",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "5F09A7",
-          "on": "909090909090",
-          "off": "89878C010000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Consumables Items in Battle",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5F09E6",
+          "offset": "5F2E9D",
           "on": "9090",
-          "off": "8937"
+          "off": "39C3"
+        }
+      ]
+    },
+    {
+      "name": "Refill \u002B Infinite RP on Use| Selected Characters",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4C7C39",
+          "on": "9090",
+          "off": "39C1"
         }
       ]
     }

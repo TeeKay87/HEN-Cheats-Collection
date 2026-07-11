@@ -2,14 +2,6 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Bloodstained: Curse of the Moon" Moder="Ali-mk" Cusa="CUSA12562" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Invincible+power=no-Weapon">
-    <Cheatline>
-      <Offset>2F6822</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90</ValueOn>
-      <ValueOff>FF-90-F0-00-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite-Health">
     <Cheatline>
       <Offset>2F5DAD</Offset>
@@ -24,6 +16,14 @@
       <Section>0</Section>
       <ValueOn>90-90-90-90</ValueOn>
       <ValueOff>41-88-5E-2C</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Invincible+power=no-Weapon">
+    <Cheatline>
+      <Offset>2F6822</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90</ValueOn>
+      <ValueOff>FF-90-F0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

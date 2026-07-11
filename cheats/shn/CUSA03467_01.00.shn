@@ -2,34 +2,6 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Earth Defense Force 4.1: The Shadow of New Despair" Moder="Molly" Cusa="CUSA03467" Version="01.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Godmode">
-    <Cheatline>
-      <Offset>A47835</Offset>
-      <Section>0</Section>
-      <ValueOn>53-C5-FA-10-80-88-01-00-00-C5-FA-11-80-8C-01-00-00-5B-E9-41-75-8B-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>2FED85</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-AB-8A-74-00-90-90-90</ValueOn>
-      <ValueOff>C5-FA-10-80-8C-01-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Max Wingdiver-Engery">
-    <Cheatline>
-      <Offset>A47885</Offset>
-      <Section>0</Section>
-      <ValueOn>53-C5-FA-10-97-94-01-00-00-C5-FA-11-97-98-01-00-00-5B-E9-4E-90-76-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>1B08E2</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-9E-6F-89-00-90-90-90</ValueOn>
-      <ValueOff>C5-FA-11-97-98-01-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="2x armor pick up">
     <Cheatline>
       <Offset>A478A2</Offset>
@@ -42,6 +14,20 @@
       <Section>0</Section>
       <ValueOn>E9-ED-66-95-00-90-90-90</ValueOn>
       <ValueOff>41-FF-84-86-E8-0A-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Godmode">
+    <Cheatline>
+      <Offset>A47835</Offset>
+      <Section>0</Section>
+      <ValueOn>53-C5-FA-10-80-88-01-00-00-C5-FA-11-80-8C-01-00-00-5B-E9-41-75-8B-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>2FED85</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-AB-8A-74-00-90-90-90</ValueOn>
+      <ValueOff>C5-FA-10-80-8C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="INF Ammo + Rapidfire">
@@ -68,6 +54,20 @@
       <Section>0</Section>
       <ValueOn>E9-64-C7-81-00-90-90-90-90-90-90</ValueOn>
       <ValueOff>41-C7-87-B0-08-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max Wingdiver-Engery">
+    <Cheatline>
+      <Offset>A47885</Offset>
+      <Section>0</Section>
+      <ValueOn>53-C5-FA-10-97-94-01-00-00-C5-FA-11-97-98-01-00-00-5B-E9-4E-90-76-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>1B08E2</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-9E-6F-89-00-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-97-98-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Unlock Every Weapon">

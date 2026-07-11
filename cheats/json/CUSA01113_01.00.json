@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Always Have Super Attack",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6E2030",
+          "on": "9090909090909090",
+          "off": "418B8424280A0000"
+        }
+      ]
+    },
+    {
       "name": "Godmode",
       "type": "checkbox",
       "memory": [
@@ -27,11 +38,22 @@
       ]
     },
     {
+      "name": "Infinite Gravity",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "48169A",
+          "on": "9090909090909090",
+          "off": "C5FA1183780A0000"
+        }
+      ]
+    },
+    {
       "name": "Always Have Super Attack",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "6E2030",
+          "offset": "2E2030",
           "on": "9090909090909090",
           "off": "418B8424280A0000"
         }
@@ -60,13 +82,13 @@
       ]
     },
     {
-      "name": "Always Have Super Attack",
+      "name": "Infinite Gravity",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "2E2030",
+          "offset": "8169A",
           "on": "9090909090909090",
-          "off": "418B8424280A0000"
+          "off": "C5FA1183780A0000"
         }
       ]
     }

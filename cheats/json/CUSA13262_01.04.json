@@ -5,18 +5,24 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "Default Extra Jump (Use With Super Extra Jump)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FEA38C0",
-          "on": "8B7734897730E94AE79300",
-          "off": "0000000000000000000000"
-        },
+          "offset": "113990",
+          "on": "C7474400000C42",
+          "off": "C7474400404244"
+        }
+      ]
+    },
+    {
+      "name": "Default Jump (Use With Super Jump)",
+      "type": "checkbox",
+      "memory": [
         {
-          "offset": "807E200E",
-          "on": "E9AD186CFF9090",
-          "off": "8B7424F4897730"
+          "offset": "113970",
+          "on": "C7473C00000040",
+          "off": "C7473C00C00A44"
         }
       ]
     },
@@ -37,6 +43,22 @@
       ]
     },
     {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FEA38C0",
+          "on": "8B7734897730E94AE79300",
+          "off": "0000000000000000000000"
+        },
+        {
+          "offset": "807E200E",
+          "on": "E9AD186CFF9090",
+          "off": "8B7424F4897730"
+        }
+      ]
+    },
+    {
       "name": "Max Gold / Consumables (On Get / Spend)",
       "type": "checkbox",
       "memory": [
@@ -49,22 +71,6 @@
           "offset": "807E2112",
           "on": "E9E9176CFF909090",
           "off": "488B55E089448A20"
-        }
-      ]
-    },
-    {
-      "name": "Super Jump",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FEA3970",
-          "on": "C7473C00C00A44C5FA10473CE9EEFC9500",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "8080366A",
-          "on": "E901036AFF",
-          "off": "C5FA10473C"
         }
       ]
     },
@@ -85,24 +91,18 @@
       ]
     },
     {
-      "name": "Default Jump (Use With Super Jump)",
+      "name": "Super Jump",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "113970",
-          "on": "C7473C00000040",
-          "off": "C7473C00C00A44"
-        }
-      ]
-    },
-    {
-      "name": "Default Extra Jump (Use With Super Extra Jump)",
-      "type": "checkbox",
-      "memory": [
+          "offset": "7FEA3970",
+          "on": "C7473C00C00A44C5FA10473CE9EEFC9500",
+          "off": "0000000000000000000000000000000000"
+        },
         {
-          "offset": "113990",
-          "on": "C7474400000C42",
-          "off": "C7474400404244"
+          "offset": "8080366A",
+          "on": "E901036AFF",
+          "off": "C5FA10473C"
         }
       ]
     }

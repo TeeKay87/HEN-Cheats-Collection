@@ -5,6 +5,38 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Inf Scrap on Gain/Use",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E9F850",
+          "on": "C783F4000000286B6E4EC5FA1083F4000000E95ADB66FE",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "50D3B9",
+          "on": "E992249901909090",
+          "off": "C5FA1183F4000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Energy",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E9F87E",
+          "on": "C787B00000000000803FC5FA1087B0000000E9F3D666FE",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "50CF80",
+          "on": "E9F9289901909090",
+          "off": "C5FA1087B0000000"
+        }
+      ]
+    },
+    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -33,54 +65,6 @@
           "offset": "50C330",
           "on": "E9B4359901909090",
           "off": "C5FA1087B4000000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Energy",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1E9F87E",
-          "on": "C787B00000000000803FC5FA1087B0000000E9F3D666FE",
-          "off": "0000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "50CF80",
-          "on": "E9F9289901909090",
-          "off": "C5FA1087B0000000"
-        }
-      ]
-    },
-    {
-      "name": "Inf Scrap on Gain/Use",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1E9F850",
-          "on": "C783F4000000286B6E4EC5FA1083F4000000E95ADB66FE",
-          "off": "0000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "50D3B9",
-          "on": "E992249901909090",
-          "off": "C5FA1183F4000000"
-        }
-      ]
-    },
-    {
-      "name": "Max Vital Injections",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1E9F82C",
-          "on": "B86300000089474CC390E98ABCE5FE",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "CFB4C0",
-          "on": "E967431A01",
-          "off": "8B474CC390"
         }
       ]
     },
@@ -129,6 +113,22 @@
           "offset": "514A35",
           "on": "E994AE98019090909090",
           "off": "C4C17A11849C5C010000"
+        }
+      ]
+    },
+    {
+      "name": "Max Vital Injections",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E9F82C",
+          "on": "B86300000089474CC390E98ABCE5FE",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "CFB4C0",
+          "on": "E967431A01",
+          "off": "8B474CC390"
         }
       ]
     }

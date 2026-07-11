@@ -2,30 +2,18 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="SHINOBI: Art of Vengeance" Moder="Ali-mk" Cusa="CUSA45905" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Invincible">
+  <Cheat Text="Inf-shurikens">
     <Cheatline>
-      <Offset>81684A38</Offset>
+      <Offset>8172B2DC</Offset>
       <Section>0</Section>
-      <ValueOn>75-51</ValueOn>
-      <ValueOff>74-51</ValueOff>
+      <ValueOn>90-90-90-90</ValueOn>
+      <ValueOff>41-29-5E-20</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>8173F07E</Offset>
+      <Offset>817255FC</Offset>
       <Section>0</Section>
-      <ValueOn>0F-85-EC-00-00-00</ValueOn>
-      <ValueOff>0F-84-EC-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>81699E15</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90</ValueOn>
-      <ValueOff>FF-90-D8-01-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>81736064</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90</ValueOn>
-      <ValueOff>FF-91-A8-01-00-00</ValueOff>
+      <ValueOn>90-90-90-90</ValueOn>
+      <ValueOff>41-29-5E-20</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite-Health-(mc)">
@@ -56,26 +44,30 @@
       <ValueOff>41-FF-96-D8-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf-shurikens">
+  <Cheat Text="Invincible">
     <Cheatline>
-      <Offset>8172B2DC</Offset>
+      <Offset>81684A38</Offset>
       <Section>0</Section>
-      <ValueOn>90-90-90-90</ValueOn>
-      <ValueOff>41-29-5E-20</ValueOff>
+      <ValueOn>75-51</ValueOn>
+      <ValueOff>74-51</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>817255FC</Offset>
+      <Offset>8173F07E</Offset>
       <Section>0</Section>
-      <ValueOn>90-90-90-90</ValueOn>
-      <ValueOff>41-29-5E-20</ValueOff>
+      <ValueOn>0F-85-EC-00-00-00</ValueOn>
+      <ValueOff>0F-84-EC-00-00-00</ValueOff>
     </Cheatline>
-  </Cheat>
-  <Cheat Text="Rapid + inf shurikens">
     <Cheatline>
-      <Offset>8172B2CA</Offset>
+      <Offset>81699E15</Offset>
       <Section>0</Section>
-      <ValueOn>90-90-90-90-90</ValueOn>
-      <ValueOff>BF-0B-00-00-00</ValueOff>
+      <ValueOn>90-90-90-90-90-90</ValueOn>
+      <ValueOff>FF-90-D8-01-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>81736064</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90</ValueOn>
+      <ValueOff>FF-91-A8-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="MAX-Coins">
@@ -98,6 +90,14 @@
       <Section>0</Section>
       <ValueOn>90-90-90-90-90</ValueOn>
       <ValueOff>C5-FA-10-57-28</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Rapid + inf shurikens">
+    <Cheatline>
+      <Offset>8172B2CA</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90</ValueOn>
+      <ValueOff>BF-0B-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

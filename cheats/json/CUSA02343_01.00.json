@@ -25,6 +25,17 @@
           "off": "41C687E847000000EB04AC0E000041C6874448000001EB05849D0E0000"
         }
       ]
+    },
+    {
+      "name": "Enable Debug Menu",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "2CF8B0",
+          "on": "41C687E847000000EB04AC0E000041C6874448000001EB05849D0E0000",
+          "off": "4180BFE8470000000F85AC0E0000418A8F4448000084C90F849D0E0000"
+        }
+      ]
     }
   ],
   "credits": [

@@ -5,6 +5,22 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Alot of money (on sell can effect items on gain)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5AC00",
+          "on": "410F43C541C7474C3F420F00E94A875181",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "1173353",
+          "on": "E9A878AE7E909090",
+          "off": "410F43C54189474C"
+        }
+      ]
+    },
+    {
       "name": "Ammo/items (on use/spend)",
       "type": "checkbox",
       "memory": [
@@ -32,18 +48,24 @@
       ]
     },
     {
-      "name": "Alot of money (on sell can effect items on gain)",
+      "name": "Infinite potions bar",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5AC00",
-          "on": "410F43C541C7474C3F420F00E94A875181",
-          "off": "0000000000000000000000000000000000"
-        },
+          "offset": "16C1788",
+          "on": "90909090",
+          "off": "C5FA1103"
+        }
+      ]
+    },
+    {
+      "name": "Infinite potions duration time (activate with potion bar)",
+      "type": "checkbox",
+      "memory": [
         {
-          "offset": "1173353",
-          "on": "E9A878AE7E909090",
-          "off": "410F43C54189474C"
+          "offset": "1173E57",
+          "on": "9090909090",
+          "off": "C5FA114764"
         }
       ]
     },
@@ -75,28 +97,6 @@
       ]
     },
     {
-      "name": "Infinite potions bar",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "16C1788",
-          "on": "90909090",
-          "off": "C5FA1103"
-        }
-      ]
-    },
-    {
-      "name": "Infinite potions duration time (activate with potion bar)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1173E57",
-          "on": "9090909090",
-          "off": "C5FA114764"
-        }
-      ]
-    },
-    {
       "name": "No cool down Hires and specials (turn on and off to take effect)",
       "type": "checkbox",
       "memory": [
@@ -109,54 +109,6 @@
           "offset": "24406C4",
           "on": "E9575DA37D909090",
           "off": "C5FA1183E0010000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5FCFDB0",
-          "on": "90E984F78DFC",
-          "off": "000000000000"
-        },
-        {
-          "offset": "28AF535",
-          "on": "E976087203",
-          "off": "E866BBFFFF"
-        }
-      ]
-    },
-    {
-      "name": "Invincibility",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5FCFDE0",
-          "on": "90EBED",
-          "off": "000000"
-        },
-        {
-          "offset": "28BE434",
-          "on": "E9A7197103",
-          "off": "E877FFFEFF"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Endurance",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5FCFE00",
-          "on": "90E983748DFC",
-          "off": "000000000000"
-        },
-        {
-          "offset": "28A7284",
-          "on": "E9778B7203",
-          "off": "E8E7020000"
         }
       ]
     },
@@ -177,18 +129,34 @@
       ]
     },
     {
-      "name": "Max/Infinite Ammo/Money/Throwables",
+      "name": "Infinite Endurance",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "5FCFDC0",
-          "on": "410F43C541C7474C3F420F00E98A351AFB",
-          "off": "0000000000000000000000000000000000"
+          "offset": "5FCFE00",
+          "on": "90E983748DFC",
+          "off": "000000000000"
         },
         {
-          "offset": "1173353",
-          "on": "E968CAE504909090",
-          "off": "410F43C54189474C"
+          "offset": "28A7284",
+          "on": "E9778B7203",
+          "off": "E8E7020000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5FCFDB0",
+          "on": "90E984F78DFC",
+          "off": "000000000000"
+        },
+        {
+          "offset": "28AF535",
+          "on": "E976087203",
+          "off": "E866BBFFFF"
         }
       ]
     },
@@ -205,6 +173,38 @@
           "offset": "343336C",
           "on": "E9CFCAB902",
           "off": "E83F000000"
+        }
+      ]
+    },
+    {
+      "name": "Invincibility",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5FCFDE0",
+          "on": "90EBED",
+          "off": "000000"
+        },
+        {
+          "offset": "28BE434",
+          "on": "E9A7197103",
+          "off": "E877FFFEFF"
+        }
+      ]
+    },
+    {
+      "name": "Max/Infinite Ammo/Money/Throwables",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5FCFDC0",
+          "on": "410F43C541C7474C3F420F00E98A351AFB",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "1173353",
+          "on": "E968CAE504909090",
+          "off": "410F43C54189474C"
         }
       ]
     }

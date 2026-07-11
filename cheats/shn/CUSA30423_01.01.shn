@@ -7,6 +7,20 @@
   <Genres Name="Simulation" />
   <Genres Name="Strategy" />
   <Items />
+  <Cheat Text="99 Flower (on planting)">
+    <Cheatline>
+      <Offset>7FC5D790</Offset>
+      <Section>0</Section>
+      <ValueOn>0F-84-F3-9E-9F-00-41-C6-46-24-63-E9-1F-9D-9F-00</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>806574B5</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-D6-62-60-FF-90-90-90-90-90</ValueOn>
+      <ValueOff>0F-84-D4-01-00-00-45-29-66-24</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Infinite Health (turn off when breaking Obstacles)">
     <Cheatline>
       <Offset>7FC5E160</Offset>
@@ -47,20 +61,6 @@
       <Section>0</Section>
       <ValueOn>E9-2A-6A-60-FF-90-90-90-90-90</ValueOn>
       <ValueOff>0F-84-A6-00-00-00-44-01-73-24</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="99 Flower (on planting)">
-    <Cheatline>
-      <Offset>7FC5D790</Offset>
-      <Section>0</Section>
-      <ValueOn>0F-84-F3-9E-9F-00-41-C6-46-24-63-E9-1F-9D-9F-00</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>806574B5</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-D6-62-60-FF-90-90-90-90-90</ValueOn>
-      <ValueOff>0F-84-D4-01-00-00-45-29-66-24</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

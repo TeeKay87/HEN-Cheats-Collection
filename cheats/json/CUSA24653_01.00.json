@@ -5,6 +5,60 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Ammo / No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "EEC4C0",
+          "on": "BB2A00000090E925543CFF",
+          "off": "0000000000000000000000"
+        },
+        {
+          "offset": "2B18EB",
+          "on": "E9D0ABC300",
+          "off": "0F4FD8FFCB"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Batteries",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "15D53C",
+          "on": "9090",
+          "off": "FFC8"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Flare",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "EF21A0",
+          "on": "BF0A000000897C930CE9EC1937FF",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "263B93",
+          "on": "E908E6C8009090",
+          "off": "0F4EF9897C930C"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Flashlight Energy",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "15AE14",
+          "on": "C4417A11B740010000",
+          "off": "C4417A11B7400100"
+        }
+      ]
+    },
+    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -37,22 +91,6 @@
       ]
     },
     {
-      "name": "Infinite Ammo / No Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "EEC4C0",
-          "on": "BB2A00000090E925543CFF",
-          "off": "0000000000000000000000"
-        },
-        {
-          "offset": "2B18EB",
-          "on": "E9D0ABC300",
-          "off": "0F4FD8FFCB"
-        }
-      ]
-    },
-    {
       "name": "Shutgun No Reload",
       "type": "checkbox",
       "memory": [
@@ -60,44 +98,6 @@
           "offset": "2B189E",
           "on": "9090",
           "off": "FFC9"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Flashlight Energy",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "15AE14",
-          "on": "C4417A11B740010000",
-          "off": "C4417A11B7400100"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Batteries",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "15D53C",
-          "on": "9090",
-          "off": "FFC8"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Flare",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "EF21A0",
-          "on": "BF0A000000897C930CE9EC1937FF",
-          "off": "0000000000000000000000000000"
-        },
-        {
-          "offset": "263B93",
-          "on": "E908E6C8009090",
-          "off": "0F4EF9897C930C"
         }
       ]
     }

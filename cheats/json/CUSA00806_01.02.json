@@ -5,27 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Life",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "589198",
-          "on": "9090909090",
-          "off": "E81310D6FF"
-        },
-        {
-          "offset": "120B000",
-          "on": "0F2EDF0F8447350EFFC5FA114728E93D350EFF",
-          "off": "00000000000000000000000000000000000000"
-        },
-        {
-          "offset": "2EE54B",
-          "on": "E9B0CAF100",
-          "off": "C5FA114728"
-        }
-      ]
-    },
-    {
       "name": "Inf Ammo",
       "type": "checkbox",
       "memory": [
@@ -54,6 +33,27 @@
           "offset": "83759B",
           "on": "E9BE3A9D00909090",
           "off": "4401780C498B4E08"
+        }
+      ]
+    },
+    {
+      "name": "Inf Life",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "589198",
+          "on": "9090909090",
+          "off": "E81310D6FF"
+        },
+        {
+          "offset": "120B000",
+          "on": "0F2EDF0F8447350EFFC5FA114728E93D350EFF",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "2EE54B",
+          "on": "E9B0CAF100",
+          "off": "C5FA114728"
         }
       ]
     }

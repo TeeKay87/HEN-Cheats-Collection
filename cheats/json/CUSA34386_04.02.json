@@ -5,6 +5,95 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "10x damage",
+      "hint": "Enable Damage Multiplier (Master Code) first and use this code",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01777913",
+          "on": "00002041",
+          "off": "00002041"
+        }
+      ]
+    },
+    {
+      "name": "20x damage",
+      "hint": "Enable Damage Multiplier (Master Code) first and use this code",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01777913",
+          "on": "0000A041",
+          "off": "0000A041"
+        }
+      ]
+    },
+    {
+      "name": "30x damage",
+      "hint": "Enable Damage Multiplier (Master Code) first and use this code",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01777913",
+          "on": "0000F041",
+          "off": "0000F041"
+        }
+      ]
+    },
+    {
+      "name": "40x damage",
+      "hint": "Enable Damage Multiplier (Master Code) first and use this code",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01777913",
+          "on": "00002042",
+          "off": "00002042"
+        }
+      ]
+    },
+    {
+      "name": "50x damage",
+      "hint": "Enable Damage Multiplier (Master Code) first and use this code",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01777913",
+          "on": "00004842",
+          "off": "00004842"
+        }
+      ]
+    },
+    {
+      "name": "5x damage",
+      "hint": "Enable Damage Multiplier (Master Code) first and use this code",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01777913",
+          "on": "0000A040",
+          "off": "0000A040"
+        }
+      ]
+    },
+    {
+      "name": "Damage Multiplier(Master Code)",
+      "hint": "Enable this first and then only one of the damage levels",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "17778F9",
+          "on": "4883F8007508C5F2590D0C0000004489FAC5FA5CC1E9A654F7FE0000803F",
+          "off": "000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "6ECDB2",
+          "on": "E942AB08019090",
+          "off": "4489FAC5FA5CC1"
+        }
+      ]
+    },
+    {
       "name": "God Mode (Untouchable\u002BNo Effects)",
       "hint": "May cause progression issues with some bosses. Disable and restart from checkpoint if and when it does",
       "type": "checkbox",
@@ -38,49 +127,6 @@
           "offset": "ABEAF4",
           "on": "E9978FCB0090909090",
           "off": "C5F811842490010000"
-        }
-      ]
-    },
-    {
-      "name": "No Damage Taken",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1777800",
-          "on": "B001C3",
-          "off": "000000"
-        },
-        {
-          "offset": "84D826",
-          "on": "E9D59FF200",
-          "off": "C390909090"
-        }
-      ]
-    },
-    {
-      "name": "No XP,HS, Resources subtracted",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1777820",
-          "on": "83FA007F0231D2F001168B0EE971C34BFF",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "C33B9D",
-          "on": "E97E3CB400",
-          "off": "F001168B0E"
-        }
-      ]
-    },
-    {
-      "name": "No Crafting And Upgrade Limits",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "C364F6",
-          "on": "9090",
-          "off": "7C9D"
         }
       ]
     },
@@ -127,48 +173,45 @@
       ]
     },
     {
-      "name": "Damage Multiplier(Master Code)",
-      "hint": "Enable this first and then only one of the damage levels",
+      "name": "Infinite Weapon Charge (L1\u002BTriangle)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "17778F9",
-          "on": "4883F8007508C5F2590D0C0000004489FAC5FA5CC1E9A654F7FE0000803F",
-          "off": "000000000000000000000000000000000000000000000000000000000000"
+          "offset": "1777AEB",
+          "on": "6641817F1A04C1750841C747280000CA42C4C17A105728E92C620FFF",
+          "off": "00000000000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "6ECDB2",
-          "on": "E942AB08019090",
-          "off": "4489FAC5FA5CC1"
+          "offset": "86DD2D",
+          "on": "E9B99DF00090",
+          "off": "C4C17A105728"
         }
       ]
     },
     {
-      "name": "5x damage",
-      "hint": "Enable Damage Multiplier (Master Code) first and use this code",
+      "name": "No Crafting And Upgrade Limits",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "01777913",
-          "on": "0000A040",
-          "off": "0000A040"
+          "offset": "C364F6",
+          "on": "9090",
+          "off": "7C9D"
         }
       ]
     },
     {
-      "name": "One Hit Stun",
-      "hint": "This cheat may cause progression issues with some enemies.If and when it does, be sure to disable it and reload the checkpoint.",
+      "name": "No Damage Taken",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1777950",
-          "on": "4883FE00740841C746280000C842C4C17A104628E91ACDFFFE",
-          "off": "00000000000000000000000000000000000000000000000000"
+          "offset": "1777800",
+          "on": "B001C3",
+          "off": "000000"
         },
         {
-          "offset": "77467D",
-          "on": "E9CE32000190",
-          "off": "C4C17A104628"
+          "offset": "84D826",
+          "on": "E9D59FF200",
+          "off": "C390909090"
         }
       ]
     },
@@ -189,18 +232,35 @@
       ]
     },
     {
-      "name": "Infinite Weapon Charge (L1\u002BTriangle)",
+      "name": "No XP,HS, Resources subtracted",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1777AEB",
-          "on": "6641817F1A04C1750841C747280000CA42C4C17A105728E92C620FFF",
-          "off": "00000000000000000000000000000000000000000000000000000000"
+          "offset": "1777820",
+          "on": "83FA007F0231D2F001168B0EE971C34BFF",
+          "off": "0000000000000000000000000000000000"
         },
         {
-          "offset": "86DD2D",
-          "on": "E9B99DF00090",
-          "off": "C4C17A105728"
+          "offset": "C33B9D",
+          "on": "E97E3CB400",
+          "off": "F001168B0E"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Stun",
+      "hint": "This cheat may cause progression issues with some enemies.If and when it does, be sure to disable it and reload the checkpoint.",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1777950",
+          "on": "4883FE00740841C746280000C842C4C17A104628E91ACDFFFE",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "77467D",
+          "on": "E9CE32000190",
+          "off": "C4C17A104628"
         }
       ]
     }

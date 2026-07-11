@@ -59,6 +59,22 @@
       ]
     },
     {
+      "name": "Infinite AA Gun Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "C73800",
+          "on": "4589AF30020000452BAF2C020000E906EB9DFF",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "652312",
+          "on": "E9E91462009090",
+          "off": "4529AF2C020000"
+        }
+      ]
+    },
+    {
       "name": "Infinite Ammo",
       "type": "checkbox",
       "memory": [
@@ -66,28 +82,6 @@
           "offset": "933902",
           "on": "89C0909090",
           "off": "4189442410"
-        }
-      ]
-    },
-    {
-      "name": "No Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "9261D7",
-          "on": "4529E49090",
-          "off": "4429648810"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Throwables",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8FFFFC",
-          "on": "909090",
-          "off": "FF4810"
         }
       ]
     },
@@ -103,18 +97,24 @@
       ]
     },
     {
-      "name": "Infinite AA Gun Health",
+      "name": "Infinite Throwables",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "C73800",
-          "on": "4589AF30020000452BAF2C020000E906EB9DFF",
-          "off": "00000000000000000000000000000000000000"
-        },
+          "offset": "8FFFFC",
+          "on": "909090",
+          "off": "FF4810"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
         {
-          "offset": "652312",
-          "on": "E9E91462009090",
-          "off": "4529AF2C020000"
+          "offset": "9261D7",
+          "on": "4529E49090",
+          "off": "4429648810"
         }
       ]
     }

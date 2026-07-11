@@ -5,103 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Unlimited Money",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2F1FE50",
-          "on": "49C7C400CA9A3B4D89A6B8000000E9B2E79AFE",
-          "off": "00000000000000000000000000000000000000"
-        },
-        {
-          "offset": "18CE60E",
-          "on": "E93D1865019090",
-          "off": "4D89A6B8000000"
-        }
-      ]
-    },
-    {
-      "name": "Unlimited Fuel Generator",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1082B82",
-          "on": "C5F25FC8",
-          "off": "C5F25DC8"
-        }
-      ]
-    },
-    {
-      "name": "Max Full Fuel / Food Supply",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2F1FEB0",
-          "on": "C740080000C842C57A2C6808E9221816FE",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "10816DE",
-          "on": "E9CDE7E901",
-          "off": "C57A2C6808"
-        }
-      ]
-    },
-    {
-      "name": "No Vehicle Damage",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2F1FE90",
-          "on": "C4A17A11440B3CC4A17A104C0B3CE9DEA0CDFE",
-          "off": "00000000000000000000000000000000000000"
-        },
-        {
-          "offset": "1BF9F7A",
-          "on": "E9115F32019090",
-          "off": "C4A17A104C0B3C"
-        }
-      ]
-    },
-    {
-      "name": "Immediate Order Completion",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "166D230",
-          "on": "C5FA5CC0",
-          "off": "C5F25CC0"
-        }
-      ]
-    },
-    {
-      "name": "No Stress Level Employees",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "18B1743",
-          "on": "9090",
-          "off": "FFC0"
-        }
-      ]
-    },
-    {
-      "name": "Mastercode Dinosaurus: Infinite Water / Food ( must be activated )",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2F1F800",
-          "on": "4983FE00750BC4817A1104B0E9285F61FE4983FE01750BC4817A1104B0E9175F61FEC4817A1104B0E90C5F61FE43C704B00000803FC3",
-          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "1535733",
-          "on": "E9C8A09E0190",
-          "off": "C4817A1104B0"
-        }
-      ]
-    },
-    {
       "name": "Dinosaurus: Food [ MC ]",
       "type": "checkbox",
       "memory": [
@@ -124,17 +27,6 @@
       ]
     },
     {
-      "name": "Dinosaurus: Max Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "151F7EC",
-          "on": "C5EA5FD1",
-          "off": "C5EA5DD1"
-        }
-      ]
-    },
-    {
       "name": "Dinosaurus: Max Comfort",
       "type": "checkbox",
       "memory": [
@@ -151,6 +43,17 @@
       ]
     },
     {
+      "name": "Dinosaurus: Max Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "151F7EC",
+          "on": "C5EA5FD1",
+          "off": "C5EA5DD1"
+        }
+      ]
+    },
+    {
       "name": "Dinosaurus: Unlimited Anesthetic Time",
       "type": "checkbox",
       "memory": [
@@ -158,6 +61,76 @@
           "offset": "152EE23",
           "on": "9090909090909090",
           "off": "C5FA5C8520FFFFFF"
+        }
+      ]
+    },
+    {
+      "name": "Immediate Order Completion",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "166D230",
+          "on": "C5FA5CC0",
+          "off": "C5F25CC0"
+        }
+      ]
+    },
+    {
+      "name": "Mastercode Dinosaurus: Infinite Water / Food ( must be activated )",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2F1F800",
+          "on": "4983FE00750BC4817A1104B0E9285F61FE4983FE01750BC4817A1104B0E9175F61FEC4817A1104B0E90C5F61FE43C704B00000803FC3",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1535733",
+          "on": "E9C8A09E0190",
+          "off": "C4817A1104B0"
+        }
+      ]
+    },
+    {
+      "name": "Max Full Fuel / Food Supply",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2F1FEB0",
+          "on": "C740080000C842C57A2C6808E9221816FE",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "10816DE",
+          "on": "E9CDE7E901",
+          "off": "C57A2C6808"
+        }
+      ]
+    },
+    {
+      "name": "No Stress Level Employees",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "18B1743",
+          "on": "9090",
+          "off": "FFC0"
+        }
+      ]
+    },
+    {
+      "name": "No Vehicle Damage",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2F1FE90",
+          "on": "C4A17A11440B3CC4A17A104C0B3CE9DEA0CDFE",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1BF9F7A",
+          "on": "E9115F32019090",
+          "off": "C4A17A104C0B3C"
         }
       ]
     },
@@ -192,10 +165,37 @@
           "off": "C5FA1041FC"
         }
       ]
+    },
+    {
+      "name": "Unlimited Fuel Generator",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1082B82",
+          "on": "C5F25FC8",
+          "off": "C5F25DC8"
+        }
+      ]
+    },
+    {
+      "name": "Unlimited Money",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2F1FE50",
+          "on": "49C7C400CA9A3B4D89A6B8000000E9B2E79AFE",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "18CE60E",
+          "on": "E93D1865019090",
+          "off": "4D89A6B8000000"
+        }
+      ]
     }
   ],
   "credits": [
-    "Reddevil82 ",
-    " FW 9.00"
+    "Reddevil82",
+    "FW 9.00"
   ]
 }

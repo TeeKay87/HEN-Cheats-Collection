@@ -5,6 +5,22 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Cursed Technique use ",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "57D7AD0",
+          "on": "41C7864C01000000007A44E958A291FB",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "10F1D2F",
+          "on": "E99C5D6E0490909090",
+          "off": "C4C17A11864C010000"
+        }
+      ]
+    },
+    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -17,38 +33,6 @@
           "offset": "10EC67B",
           "on": "E970B56E0490",
           "off": "C4C17A114528"
-        }
-      ]
-    },
-    {
-      "name": "Max Juju Points (on buyig)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "57D7910",
-          "on": "C78768030000FFE0F505E9F6B494FB",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "1122E0F",
-          "on": "E9FC4A6B0490",
-          "off": "898768030000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Timer",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "57D7CB0",
-          "on": "C7472C0000FA43E9C26477FB",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "F4E179",
-          "on": "E9329B8804",
-          "off": "C5FA11472C"
         }
       ]
     },
@@ -69,6 +53,22 @@
       ]
     },
     {
+      "name": "Infinite Timer",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "57D7CB0",
+          "on": "C7472C0000FA43E9C26477FB",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "F4E179",
+          "on": "E9329B8804",
+          "off": "C5FA11472C"
+        }
+      ]
+    },
+    {
       "name": "Max Cursed spirit technique Bar ",
       "type": "checkbox",
       "memory": [
@@ -85,18 +85,18 @@
       ]
     },
     {
-      "name": "Infinite Cursed Technique use ",
+      "name": "Max Juju Points (on buyig)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "57D7AD0",
-          "on": "41C7864C01000000007A44E958A291FB",
-          "off": "00000000000000000000000000000000"
+          "offset": "57D7910",
+          "on": "C78768030000FFE0F505E9F6B494FB",
+          "off": "000000000000000000000000000000"
         },
         {
-          "offset": "10F1D2F",
-          "on": "E99C5D6E0490909090",
-          "off": "C4C17A11864C010000"
+          "offset": "1122E0F",
+          "on": "E9FC4A6B0490",
+          "off": "898768030000"
         }
       ]
     }

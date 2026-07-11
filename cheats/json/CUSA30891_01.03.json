@@ -21,6 +21,22 @@
       ]
     },
     {
+      "name": "Infinite lives (on gain)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5B40E00",
+          "on": "C747480F270000807F3200E9788FE9FA",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "9D9D81",
+          "on": "E97A7016059090",
+          "off": "894748807F3200"
+        }
+      ]
+    },
+    {
       "name": "infinite special attack bar",
       "type": "checkbox",
       "memory": [
@@ -49,22 +65,6 @@
           "offset": "B25696",
           "on": "E985E3010590",
           "off": "480F44C80111"
-        }
-      ]
-    },
-    {
-      "name": "Infinite lives (on gain)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5B40E00",
-          "on": "C747480F270000807F3200E9788FE9FA",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "9D9D81",
-          "on": "E97A7016059090",
-          "off": "894748807F3200"
         }
       ]
     }

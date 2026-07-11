@@ -5,18 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Power (arrows use/spells etc..)",
+      "name": "99 Flower (on planting)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5DB80",
-          "on": "C747300000A040E9826FF20157616E646572204657392E3030",
-          "off": "000000000000000000000000"
+          "offset": "7FC5D790",
+          "on": "0F84F39E9F0041C6462463E91F9D9F00",
+          "off": "00000000000000000000000000000000"
         },
         {
-          "offset": "81B84B09",
-          "on": "E972900DFE",
-          "off": "C5FA114730"
+          "offset": "806574B5",
+          "on": "E9D66260FF9090909090",
+          "off": "0F84D401000045296624"
         }
       ]
     },
@@ -37,6 +37,22 @@
       ]
     },
     {
+      "name": "Infinite Power (arrows use/spells etc..)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5DB80",
+          "on": "C747300000A040E9826FF20157616E646572204657392E3030",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "81B84B09",
+          "on": "E972900DFE",
+          "off": "C5FA114730"
+        }
+      ]
+    },
+    {
       "name": "Max souls (on kill)",
       "type": "checkbox",
       "memory": [
@@ -49,22 +65,6 @@
           "offset": "80657771",
           "on": "E92A6A60FF9090909090",
           "off": "0F84A600000044017324"
-        }
-      ]
-    },
-    {
-      "name": "99 Flower (on planting)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5D790",
-          "on": "0F84F39E9F0041C6462463E91F9D9F00",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "806574B5",
-          "on": "E9D66260FF9090909090",
-          "off": "0F84D401000045296624"
         }
       ]
     }

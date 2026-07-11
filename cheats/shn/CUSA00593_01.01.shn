@@ -7,20 +7,6 @@
   <Genres Name="Shooter" />
   <Genres Name="Strategy" />
   <Items />
-  <Cheat Text="Infinite Ammo">
-    <Cheatline>
-      <Offset>E33800</Offset>
-      <Section>0</Section>
-      <ValueOn>41-8B-9E-00-05-00-00-39-DE-72-07-41-89-B6-00-05-00-00-E9-AA-98-3B-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>1ED0BA</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-41-67-C4-00-90-90</ValueOn>
-      <ValueOff>41-89-B6-00-05-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Bottomless Clip">
     <Cheatline>
       <Offset>E33817</Offset>
@@ -33,6 +19,20 @@
       <Section>0</Section>
       <ValueOn>E9-D5-19-C2-00-90-90-90</ValueOn>
       <ValueOff>41-89-B4-24-58-04-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Ammo">
+    <Cheatline>
+      <Offset>E33800</Offset>
+      <Section>0</Section>
+      <ValueOn>41-8B-9E-00-05-00-00-39-DE-72-07-41-89-B6-00-05-00-00-E9-AA-98-3B-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>1ED0BA</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-41-67-C4-00-90-90</ValueOn>
+      <ValueOff>41-89-B6-00-05-00-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

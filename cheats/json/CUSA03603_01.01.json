@@ -21,18 +21,13 @@
       ]
     },
     {
-      "name": "Infinite Money",
+      "name": "Infinite Items/Ammo",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "294C1C8",
-          "on": "BB3F420F00899F6C010000E9634698FE",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "12D0835",
-          "on": "E98EB9670190",
-          "off": "019F6C010000"
+          "offset": "12D078C",
+          "on": "90909090",
+          "off": "895C3120"
         }
       ]
     },
@@ -48,13 +43,18 @@
       ]
     },
     {
-      "name": "Infinite Items/Ammo",
+      "name": "Infinite Money",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "12D078C",
-          "on": "90909090",
-          "off": "895C3120"
+          "offset": "294C1C8",
+          "on": "BB3F420F00899F6C010000E9634698FE",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "12D0835",
+          "on": "E98EB9670190",
+          "off": "019F6C010000"
         }
       ]
     }

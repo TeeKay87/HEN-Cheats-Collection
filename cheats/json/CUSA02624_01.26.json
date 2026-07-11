@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "All Client Godmode",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "D9BF80",
-          "on": "C3",
-          "off": "55"
-        }
-      ]
-    },
-    {
       "name": "All Client Demi Godmode",
       "type": "checkbox",
       "memory": [
@@ -23,6 +12,17 @@
           "offset": "D9D06F",
           "on": "9090909090909090",
           "off": "43898435C8020000"
+        }
+      ]
+    },
+    {
+      "name": "All Client Godmode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "D9BF80",
+          "on": "C3",
+          "off": "55"
         }
       ]
     },
@@ -75,17 +75,6 @@
       ]
     },
     {
-      "name": "Super Jump",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1693570",
-          "on": "00C07944",
-          "off": "00001C42"
-        }
-      ]
-    },
-    {
       "name": "Player 1 Give Points (Zombies)",
       "type": "button",
       "memory": [
@@ -130,13 +119,13 @@
       ]
     },
     {
-      "name": "All Client Infinite Ammo",
+      "name": "Super Jump",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "11719DA",
-          "on": "909090",
-          "off": "448928"
+          "offset": "1693570",
+          "on": "00C07944",
+          "off": "00001C42"
         }
       ]
     },
@@ -148,6 +137,17 @@
           "offset": "99D06F",
           "on": "9090909090909090",
           "off": "43898435C8020000"
+        }
+      ]
+    },
+    {
+      "name": "All Client Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "11719DA",
+          "on": "909090",
+          "off": "448928"
         }
       ]
     },

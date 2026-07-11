@@ -2,6 +2,14 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="#Killallzombies" Moder="Saso_9.00" Cusa="CUSA00856" Version="01.04" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
+  <Cheat Text="Inf Ammo / Max Money (MC)">
+    <Cheatline>
+      <Offset>DD782C</Offset>
+      <Section>0</Section>
+      <ValueOn>75-20</ValueOn>
+      <ValueOff>75-15</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Inf HP / Ammo / Max Money (Master Code)">
     <Cheatline>
       <Offset>DD7800</Offset>
@@ -14,14 +22,6 @@
       <Section>0</Section>
       <ValueOn>E9-45-27-78-00-90</ValueOn>
       <ValueOff>48-89-03-8B-41-08</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Inf Ammo / Max Money (MC)">
-    <Cheatline>
-      <Offset>DD782C</Offset>
-      <Section>0</Section>
-      <ValueOn>75-20</ValueOn>
-      <ValueOff>75-15</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

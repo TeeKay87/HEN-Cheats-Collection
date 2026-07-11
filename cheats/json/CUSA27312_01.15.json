@@ -5,6 +5,22 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "9999 items on sell in shop (turn off Multiplier)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "18D6C50",
+          "on": "C7444B200F270000E92860C17E57616E646572204657392E3030",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "804ECC80",
+          "on": "E9CB9F3E81",
+          "off": "6629544B20"
+        }
+      ]
+    },
+    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -34,22 +50,6 @@
           "offset": "29C2B5",
           "on": "6601745120",
           "off": "6689745120"
-        }
-      ]
-    },
-    {
-      "name": "9999 items on sell in shop (turn off Multiplier)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "18D6C50",
-          "on": "C7444B200F270000E92860C17E57616E646572204657392E3030",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "804ECC80",
-          "on": "E9CB9F3E81",
-          "off": "6629544B20"
         }
       ]
     }

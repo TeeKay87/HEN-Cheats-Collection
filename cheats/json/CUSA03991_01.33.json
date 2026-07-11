@@ -5,13 +5,24 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite HP",
+      "name": "ADD Cash",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "C55D9F",
-          "on": "4801B33412000090",
-          "off": "C5FA118334120000"
+          "offset": "D71BFE",
+          "on": "01573C",
+          "off": "89573C"
+        }
+      ]
+    },
+    {
+      "name": "ADD Item",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "75F888",
+          "on": "450137",
+          "off": "458937"
         }
       ]
     },
@@ -38,17 +49,6 @@
       ]
     },
     {
-      "name": "ADD Cash",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "D71BFE",
-          "on": "01573C",
-          "off": "89573C"
-        }
-      ]
-    },
-    {
       "name": "Infinite Durability/No Buggy Damage",
       "type": "checkbox",
       "memory": [
@@ -56,6 +56,39 @@
           "offset": "75FCAB",
           "on": "C5FA114304",
           "off": "C5FA114B04"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Fuel",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "114E671",
+          "on": "9090909090909090",
+          "off": "C5FA118340030000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite HP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "C55D9F",
+          "on": "4801B33412000090",
+          "off": "C5FA118334120000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Item",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "75F888",
+          "on": "909090",
+          "off": "458937"
         }
       ]
     },
@@ -71,17 +104,6 @@
       ]
     },
     {
-      "name": "STOP Timer : Main Game",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "D46D29",
-          "on": "9090909090909090",
-          "off": "C5FA1183F0000000"
-        }
-      ]
-    },
-    {
       "name": "STOP Timer : Bozak DLC",
       "type": "checkbox",
       "memory": [
@@ -93,13 +115,13 @@
       ]
     },
     {
-      "name": "Infinite Fuel",
+      "name": "STOP Timer : Main Game",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "114E671",
+          "offset": "D46D29",
           "on": "9090909090909090",
-          "off": "C5FA118340030000"
+          "off": "C5FA1183F0000000"
         }
       ]
     }

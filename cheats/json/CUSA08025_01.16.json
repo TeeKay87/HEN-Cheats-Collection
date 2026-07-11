@@ -16,17 +16,6 @@
       ]
     },
     {
-      "name": "max mony",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5183A82",
-          "on": "90909090",
-          "off": "4883C240"
-        }
-      ]
-    },
-    {
       "name": "Infinite ammo",
       "type": "checkbox",
       "memory": [
@@ -38,13 +27,13 @@
       ]
     },
     {
-      "name": "no reload [use ammo]",
+      "name": "Infinite Grenades",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "52957CD",
-          "on": "90909090909090",
-          "off": "418987B0010000"
+          "offset": "12267C1",
+          "on": "909090",
+          "off": "4C89E7"
         }
       ]
     },
@@ -60,13 +49,24 @@
       ]
     },
     {
-      "name": "Infinite Grenades",
+      "name": "max mony",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "12267C1",
-          "on": "909090",
-          "off": "4C89E7"
+          "offset": "5183A82",
+          "on": "90909090",
+          "off": "4883C240"
+        }
+      ]
+    },
+    {
+      "name": "no reload [use ammo]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "52957CD",
+          "on": "90909090909090",
+          "off": "418987B0010000"
         }
       ]
     }

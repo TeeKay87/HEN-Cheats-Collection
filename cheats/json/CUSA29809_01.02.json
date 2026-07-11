@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "999.999.999 RP Contract Rewards",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "81AECEB0",
+          "on": "48C7C0FFC99A3BC3",
+          "off": "554889E54883EC40"
+        }
+      ]
+    },
+    {
       "name": "Infinite Mower Fuel",
       "type": "checkbox",
       "memory": [
@@ -61,17 +72,11 @@
           "offset": "1E43000",
           "on": "5348BB000080FF64CDCD41488958185BE9CB8FCA7F",
           "off": "000000000000000000000000000000000000000000"
-        }
-      ]
-    },
-    {
-      "name": "999.999.999 RP Contract Rewards",
-      "type": "checkbox",
-      "memory": [
+        },
         {
-          "offset": "81AECEB0",
-          "on": "48C7C0FFC99A3BC3",
-          "off": "554889E54883EC40"
+          "offset": "81AEBFDB",
+          "on": "E920703580",
+          "off": "C5FB114018"
         }
       ]
     }

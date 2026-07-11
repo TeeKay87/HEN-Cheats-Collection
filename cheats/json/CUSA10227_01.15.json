@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "1 Hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "9ED848",
+          "on": "C5F857C0",
+          "off": "C5F82EC8"
+        }
+      ]
+    },
+    {
       "name": "Infinite Health (Player / Pet)",
       "type": "checkbox",
       "memory": [
@@ -17,17 +28,6 @@
           "offset": "9ECA01",
           "on": "E99A30E205",
           "off": "C5FA104DF4"
-        }
-      ]
-    },
-    {
-      "name": "1 Hit Kill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "9ED848",
-          "on": "C5F857C0",
-          "off": "C5F82EC8"
         }
       ]
     },

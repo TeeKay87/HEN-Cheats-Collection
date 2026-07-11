@@ -16,20 +16,6 @@
       <ValueOff>66-41-89-9E-D8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max exp">
-    <Cheatline>
-      <Offset>6013811</Offset>
-      <Section>0</Section>
-      <ValueOn>C7-80-F4-00-00-00-FF-E0-F5-05-E9-3D-89-CA-FA</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>CBC157</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-B5-76-35-05-90</ValueOn>
-      <ValueOff>29-88-F4-00-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="ego combat support">
     <Cheatline>
       <Offset>6013822</Offset>
@@ -56,6 +42,20 @@
       <Section>0</Section>
       <ValueOn>E9-FF-DD-34-05</ValueOn>
       <ValueOff>C5-FA-11-57-5C</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max exp">
+    <Cheatline>
+      <Offset>6013811</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-80-F4-00-00-00-FF-E0-F5-05-E9-3D-89-CA-FA</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>CBC157</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-B5-76-35-05-90</ValueOn>
+      <ValueOff>29-88-F4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

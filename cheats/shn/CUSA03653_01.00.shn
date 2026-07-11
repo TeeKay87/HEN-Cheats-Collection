@@ -30,6 +30,20 @@
       <ValueOff>C5-FA-11-97-1C-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="Max All Weapon Star Level">
+    <Cheatline>
+      <Offset>E6B891</Offset>
+      <Section>0</Section>
+      <ValueOn>49-C7-C7-0A-0A-0A-0A-49-8B-84-84-F8-AE-00-00-49-8B-84-84-FC-AE-00-00-E9-EB-C3-1F-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>67C90</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-FC-3B-E0-00-90-90-90</ValueOn>
+      <ValueOff>49-8B-84-84-F8-AE-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Max Ammo + Rapid Fire">
     <Cheatline>
       <Offset>E6B82E</Offset>
@@ -56,20 +70,6 @@
       <Section>0</Section>
       <ValueOn>E9-A9-14-90-00-90-90-90</ValueOn>
       <ValueOff>44-8B-B4-B7-0C-32-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Max All Weapon Star Level">
-    <Cheatline>
-      <Offset>E6B891</Offset>
-      <Section>0</Section>
-      <ValueOn>49-C7-C7-0A-0A-0A-0A-49-8B-84-84-F8-AE-00-00-49-8B-84-84-FC-AE-00-00-E9-EB-C3-1F-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>67C90</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-FC-3B-E0-00-90-90-90</ValueOn>
-      <ValueOff>49-8B-84-84-F8-AE-00-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

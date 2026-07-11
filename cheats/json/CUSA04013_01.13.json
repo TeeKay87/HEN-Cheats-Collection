@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "53C6D7",
-          "on": "909090",
-          "off": "4429FB"
-        }
-      ]
-    },
-    {
       "name": "Bottomless Clip / Infinite Grenades",
       "type": "checkbox",
       "memory": [
@@ -23,6 +12,17 @@
           "offset": "537B42",
           "on": "9090909090909090",
           "off": "41899C24F00E0000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "53C6D7",
+          "on": "909090",
+          "off": "4429FB"
         }
       ]
     }

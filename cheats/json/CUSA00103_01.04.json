@@ -5,13 +5,61 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Inf HP",
+      "name": "Inf Car Health",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "5CC7E9",
-          "on": "C5FA115F1C",
-          "off": "C5FA11571C"
+          "offset": "013538B1",
+          "on": "81FB5098FFEE0F841A273FFFC4C17A1106E910273FFF",
+          "off": "00000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "745FD2",
+          "on": "E9DAD8C000",
+          "off": "C4C17A1106"
+        }
+      ]
+    },
+    {
+      "name": "Inf Enemy HP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3E4CC5",
+          "on": "909090909090909090",
+          "off": "C4C17A119584010000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Griffa Tokens x1",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "013538C7",
+          "on": "C6872801000001E9737E2FFF",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "64B740",
+          "on": "E98281D00090",
+          "off": "898728010000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Griffa Tokens x5",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "013538D3",
+          "on": "C6872801000005E9677E2FFF",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "64B740",
+          "on": "E98E81D00090",
+          "off": "898728010000"
         }
       ]
     },
@@ -27,22 +75,6 @@
         {
           "offset": "6E625D",
           "on": "E9C0D6C600",
-          "off": "4189440D00"
-        }
-      ]
-    },
-    {
-      "name": "Max Inf Fury",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "01353832",
-          "on": "4883F970750E41C7440D0000803B44E91C2A39FF4189440D00E9122A39FF",
-          "off": "000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "6E625D",
-          "on": "E9D0D5C600",
           "off": "4189440D00"
         }
       ]
@@ -84,22 +116,6 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "44B83A",
-          "on": "9090",
-          "off": "FFC8"
-        },
-        {
-          "offset": "56D928",
-          "on": "9090",
-          "off": "FFC8"
-        }
-      ]
-    },
-    {
       "name": "Max Inf Canteen",
       "type": "checkbox",
       "memory": [
@@ -122,6 +138,33 @@
       ]
     },
     {
+      "name": "Max Inf Fury",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01353832",
+          "on": "4883F970750E41C7440D0000803B44E91C2A39FF4189440D00E9122A39FF",
+          "off": "000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "6E625D",
+          "on": "E9D0D5C600",
+          "off": "4189440D00"
+        }
+      ]
+    },
+    {
+      "name": "Max Inf HP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5CC7E9",
+          "on": "C5FA115F1C",
+          "off": "C5FA11571C"
+        }
+      ]
+    },
+    {
       "name": "Max Inf Scraps",
       "type": "checkbox",
       "memory": [
@@ -133,61 +176,29 @@
       ]
     },
     {
-      "name": "Inf Car Health",
+      "name": "No Reload",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "013538B1",
-          "on": "81FB5098FFEE0F841A273FFFC4C17A1106E910273FFF",
-          "off": "00000000000000000000000000000000000000000000"
+          "offset": "44B83A",
+          "on": "9090",
+          "off": "FFC8"
         },
         {
-          "offset": "745FD2",
-          "on": "E9DAD8C000",
-          "off": "C4C17A1106"
+          "offset": "56D928",
+          "on": "9090",
+          "off": "FFC8"
         }
       ]
     },
     {
-      "name": "Inf Griffa Tokens x1",
+      "name": "Inf Enemy HP fake",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "013538C7",
-          "on": "C6872801000001E9737E2FFF",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "64B740",
-          "on": "E98281D00090",
-          "off": "898728010000"
-        }
-      ]
-    },
-    {
-      "name": "Inf Griffa Tokens x5",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "013538D3",
-          "on": "C6872801000005E9677E2FFF",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "64B740",
-          "on": "E98E81D00090",
-          "off": "898728010000"
-        }
-      ]
-    },
-    {
-      "name": "Inf Enemy HP",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3E4CC5",
-          "on": "909090909090909090",
-          "off": "C4C17A119584010000"
+          "offset": "3E4F4A",
+          "on": "9090909090909090",
+          "off": "C5FA1180E8010000"
         }
       ]
     },
@@ -204,17 +215,6 @@
           "offset": "3F3960",
           "on": "E90FFFF5009090",
           "off": ""
-        }
-      ]
-    },
-    {
-      "name": "Inf Enemy HP fake",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3E4F4A",
-          "on": "9090909090909090",
-          "off": "C5FA1180E8010000"
         }
       ]
     }

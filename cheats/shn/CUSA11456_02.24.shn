@@ -2,28 +2,6 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Ghost of Tsushima" Moder="Celogamez" Cusa="CUSA11456" Version="02.24" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health/1 Hit Kill (MASTERCODE/MUST BE ON)">
-    <Cheatline>
-      <Offset>148BDB0</Offset>
-      <Section>0</Section>
-      <ValueOn>83-BF-00-03-00-00-0C-EB-17-C7-87-34-19-00-00-00-C0-79-44-C5-F8-2E-87-34-19-00-00-E9-AB-A0-19-FF-83-BF-00-03-00-00-11-EB-EA-C5-FA-11-8F-34-19-00-00-E9-95-A0-19-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>625E73</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-38-5F-E6-00-90-90-90</ValueOn>
-      <ValueOff>C5-F8-2E-87-34-19-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Health">
-    <Cheatline>
-      <Offset>148BDB7</Offset>
-      <Section>0</Section>
-      <ValueOn>75-17</ValueOn>
-      <ValueOff>EB-17</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="1 Hit Kill">
     <Cheatline>
       <Offset>148BDD7</Offset>
@@ -44,6 +22,28 @@
       <Section>0</Section>
       <ValueOn>E9-F7-23-DF-00-90</ValueOn>
       <ValueOff>48-0F-44-C8-89-39</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Health">
+    <Cheatline>
+      <Offset>148BDB7</Offset>
+      <Section>0</Section>
+      <ValueOn>75-17</ValueOn>
+      <ValueOff>EB-17</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Health/1 Hit Kill (MASTERCODE/MUST BE ON)">
+    <Cheatline>
+      <Offset>148BDB0</Offset>
+      <Section>0</Section>
+      <ValueOn>83-BF-00-03-00-00-0C-EB-17-C7-87-34-19-00-00-00-C0-79-44-C5-F8-2E-87-34-19-00-00-E9-AB-A0-19-FF-83-BF-00-03-00-00-11-EB-EA-C5-FA-11-8F-34-19-00-00-E9-95-A0-19-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>625E73</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-38-5F-E6-00-90-90-90</ValueOn>
+      <ValueOff>C5-F8-2E-87-34-19-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Resolve">

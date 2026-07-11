@@ -5,6 +5,38 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "1HitKill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5B271",
+          "on": "C5E857D2C5FA115040E92848AA01",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "816FFAA2",
+          "on": "E9CAB755FE",
+          "off": "C5FA115040"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo / No reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5B3E0",
+          "on": "41C687D404000063E9A371C601",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "818C2589",
+          "on": "E9528E39FE9090",
+          "off": "4189B7D4040000"
+        }
+      ]
+    },
+    {
       "name": "Infinite HP",
       "type": "checkbox",
       "memory": [
@@ -33,38 +65,6 @@
           "offset": "8112539C",
           "on": "E9EF5FB3FE909090",
           "off": "410F4EDF41895E54"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Ammo / No reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5B3E0",
-          "on": "41C687D404000063E9A371C601",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "818C2589",
-          "on": "E9528E39FE9090",
-          "off": "4189B7D4040000"
-        }
-      ]
-    },
-    {
-      "name": "1HitKill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5B271",
-          "on": "C5E857D2C5FA115040E92848AA01",
-          "off": "0000000000000000000000000000"
-        },
-        {
-          "offset": "816FFAA2",
-          "on": "E9CAB755FE",
-          "off": "C5FA115040"
         }
       ]
     }

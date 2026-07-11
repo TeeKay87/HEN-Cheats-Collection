@@ -5,6 +5,22 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Always Max Battery",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "211FC49",
+          "on": "518B88FC0A00008988F80A000059E95A6AC4FE",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "D666B0",
+          "on": " E994953B0190",
+          "off": "8988F80A0000"
+        }
+      ]
+    },
+    {
       "name": "Godmode",
       "type": "checkbox",
       "memory": [
@@ -41,13 +57,13 @@
       "type": "checkbox",
       "memory": [
         {
-          "offset": "211FC49",
+          "offset": "1D1FC49",
           "on": "518B88FC0A00008988F80A000059E95A6AC4FE",
           "off": "00000000000000000000000000000000000000"
         },
         {
-          "offset": "D666B0",
-          "on": " E994953B0190",
+          "offset": "9666B0",
+          "on": "E994953B0190",
           "off": "8988F80A0000"
         }
       ]
@@ -81,22 +97,6 @@
           "offset": "9654E1",
           "on": "E950A73B0190909090",
           "off": "C4C17A118F2C320000"
-        }
-      ]
-    },
-    {
-      "name": "Always Max Battery",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1D1FC49",
-          "on": "518B88FC0A00008988F80A000059E95A6AC4FE",
-          "off": "00000000000000000000000000000000000000"
-        },
-        {
-          "offset": "9666B0",
-          "on": "E994953B0190",
-          "off": "8988F80A0000"
         }
       ]
     }

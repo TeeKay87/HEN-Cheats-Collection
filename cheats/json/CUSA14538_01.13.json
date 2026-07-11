@@ -27,17 +27,6 @@
       ]
     },
     {
-      "name": "Protein (On Consume)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "CF3C6A",
-          "on": "018380030000",
-          "off": "898380030000"
-        }
-      ]
-    },
-    {
       "name": "Mutagen (On Consume)",
       "type": "checkbox",
       "memory": [
@@ -45,6 +34,17 @@
           "offset": "CF3EE1",
           "on": "01838C030000",
           "off": "89838C030000"
+        }
+      ]
+    },
+    {
+      "name": "Protein (On Consume)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "CF3C6A",
+          "on": "018380030000",
+          "off": "898380030000"
         }
       ]
     },

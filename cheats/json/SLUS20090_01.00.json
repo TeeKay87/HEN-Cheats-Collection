@@ -16,13 +16,13 @@
       ]
     },
     {
-      "name": "Invincible-Ninja Gaiden-1",
+      "name": "Inf-Health-Shinobi-III",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "80800A0634",
-          "on": "FFFF",
-          "off": "FFFF"
+          "offset": "808016D4A8",
+          "on": "63",
+          "off": "63"
         }
       ]
     },
@@ -38,33 +38,44 @@
       ]
     },
     {
-      "name": "shurikens-Ninja Gaiden-1",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "80800A0604",
-          "on": "63",
-          "off": "63"
-        }
-      ]
-    },
-    {
-      "name": "Inf-Health-Shinobi-III",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "808016D4A8",
-          "on": "63",
-          "off": "63"
-        }
-      ]
-    },
-    {
       "name": "Inf-lives-Shinobi-III",
       "type": "checkbox",
       "memory": [
         {
           "offset": "808016D4A1",
+          "on": "63",
+          "off": "63"
+        }
+      ]
+    },
+    {
+      "name": "Inf-MAGIC-Shinobi-III",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "808016D4A2",
+          "on": "63",
+          "off": "63"
+        }
+      ]
+    },
+    {
+      "name": "Invincible-Ninja Gaiden-1",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80800A0634",
+          "on": "FFFF",
+          "off": "FFFF"
+        }
+      ]
+    },
+    {
+      "name": "shurikens-Ninja Gaiden-1",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80800A0604",
           "on": "63",
           "off": "63"
         }

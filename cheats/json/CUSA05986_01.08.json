@@ -21,22 +21,6 @@
       ]
     },
     {
-      "name": "Infinite Tokens",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3EAB810",
-          "on": "B9FFC99A3B41894C2418E9213CABFE",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "295F43B",
-          "on": "E9D0C35401",
-          "off": "41894C2418"
-        }
-      ]
-    },
-    {
       "name": "Infinite Nitrous",
       "type": "checkbox",
       "memory": [
@@ -49,6 +33,22 @@
           "offset": "240582B",
           "on": "E9EF5FAA0190909090",
           "off": "C4C17A118514020000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Tokens",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3EAB810",
+          "on": "B9FFC99A3B41894C2418E9213CABFE",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "295F43B",
+          "on": "E9D0C35401",
+          "off": "41894C2418"
         }
       ]
     },
@@ -69,22 +69,6 @@
       ]
     },
     {
-      "name": "Infinite Tokens",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3EAB000",
-          "on": "B941894C2418C3",
-          "off": "00000000000000"
-        },
-        {
-          "offset": "295F43B",
-          "on": "E8C0BB5401",
-          "off": "41894C2418"
-        }
-      ]
-    },
-    {
       "name": "Infinite Nitro",
       "type": "checkbox",
       "memory": [
@@ -97,6 +81,22 @@
           "offset": "2405FF9",
           "on": "909090909090909090",
           "off": "C4C17A118514020000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Tokens",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3EAB000",
+          "on": "B941894C2418C3",
+          "off": "00000000000000"
+        },
+        {
+          "offset": "295F43B",
+          "on": "E8C0BB5401",
+          "off": "41894C2418"
         }
       ]
     }

@@ -5,6 +5,22 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Bullets",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5BE30",
+          "on": "418B8424CC030000E99017B180",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "76D5C5",
+          "on": "E966E84E7F909090",
+          "off": "41FF8C24CC030000"
+        }
+      ]
+    },
+    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -28,22 +44,6 @@
           "offset": "71D0A9",
           "on": "9090",
           "off": "FF08"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Wrath",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5BDE0",
-          "on": "C7400400007A44E98026B280",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "77E467",
-          "on": "E974D94D7F",
-          "off": "C5FA104004"
         }
       ]
     },
@@ -80,18 +80,45 @@
       ]
     },
     {
-      "name": "Infinite Bullets",
+      "name": "Infinite Wrath",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5BE30",
-          "on": "418B8424CC030000E99017B180",
-          "off": "00000000000000000000000000"
+          "offset": "7FC5BDE0",
+          "on": "C7400400007A44E98026B280",
+          "off": "000000000000000000000000"
         },
         {
-          "offset": "76D5C5",
-          "on": "E966E84E7F909090",
-          "off": "41FF8C24CC030000"
+          "offset": "77E467",
+          "on": "E974D94D7F",
+          "off": "C5FA104004"
+        }
+      ]
+    },
+    {
+      "name": "Lot Of Boatman Coins (Disable After Use)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5BDA0",
+          "on": "488B88F80D0000894130E9D0689480",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "5A2675",
+          "on": "E926976B7F9090909090",
+          "off": "488B88F80D0000015930"
+        }
+      ]
+    },
+    {
+      "name": "Lot Of Money On Gain (Disable After Use)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "551CB0",
+          "on": "897B3090",
+          "off": "44016330"
         }
       ]
     },
@@ -124,33 +151,6 @@
           "offset": "556F59",
           "on": "E93250707F90",
           "off": "740444897344"
-        }
-      ]
-    },
-    {
-      "name": "Lot Of Money On Gain (Disable After Use)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "551CB0",
-          "on": "897B3090",
-          "off": "44016330"
-        }
-      ]
-    },
-    {
-      "name": "Lot Of Boatman Coins (Disable After Use)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5BDA0",
-          "on": "488B88F80D0000894130E9D0689480",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "5A2675",
-          "on": "E926976B7F9090909090",
-          "off": "488B88F80D0000015930"
         }
       ]
     }

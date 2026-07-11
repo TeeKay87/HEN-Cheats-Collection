@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7D463A0",
-          "on": "8B9734010000899730010000E9597A91FB",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "365DE04",
-          "on": "E997856E0490",
-          "off": "899730010000"
-        }
-      ]
-    },
-    {
       "name": "1 Hit Kill",
       "type": "checkbox",
       "memory": [
@@ -33,33 +17,6 @@
           "offset": "3638D7A",
           "on": "E931D7700490",
           "off": "89B730010000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Oxygen",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "64D759A",
-          "on": "C5FA1088EC050000",
-          "off": "C5FA1088F0050000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Adrenaline",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "36487BA",
-          "on": "8BBFAC020000",
-          "off": "8BBFA8020000"
-        },
-        {
-          "offset": "36487C2",
-          "on": "9090",
-          "off": "29F3"
         }
       ]
     },
@@ -80,45 +37,45 @@
       ]
     },
     {
-      "name": "Max Ability Points (9999)",
+      "name": "Infinite Adrenaline",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7D46470",
-          "on": "66C741100F278B41102B4114E92FB6B4FD",
+          "offset": "36487BA",
+          "on": "8BBFAC020000",
+          "off": "8BBFA8020000"
+        },
+        {
+          "offset": "36487C2",
+          "on": "9090",
+          "off": "29F3"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7D463A0",
+          "on": "8B9734010000899730010000E9597A91FB",
           "off": "0000000000000000000000000000000000"
         },
         {
-          "offset": "5891AAA",
-          "on": "E9C1494B0290",
-          "off": "8B41102B4114"
+          "offset": "365DE04",
+          "on": "E997856E0490",
+          "off": "899730010000"
         }
       ]
     },
     {
-      "name": "Infinite Ship Health / 1 Hit (Master Code)",
+      "name": "Infinite Oxygen",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7D46510",
-          "on": "85DB669C8378780074038B58048918669D0F89841F8FFDE93B1F8FFDBB00000000EBEA",
-          "off": "0000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "5638461",
-          "on": "E9AAE0700290",
-          "off": "85DB89187944"
-        }
-      ]
-    },
-    {
-      "name": "Ship 1 Hit kill (MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7D46518",
-          "on": "7412",
-          "off": "7403"
+          "offset": "64D759A",
+          "on": "C5FA1088EC050000",
+          "off": "C5FA1088F0050000"
         }
       ]
     },
@@ -139,6 +96,38 @@
       ]
     },
     {
+      "name": "Infinite Ship Health / 1 Hit (Master Code)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7D46510",
+          "on": "85DB669C8378780074038B58048918669D0F89841F8FFDE93B1F8FFDBB00000000EBEA",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "5638461",
+          "on": "E9AAE0700290",
+          "off": "85DB89187944"
+        }
+      ]
+    },
+    {
+      "name": "Max Ability Points (9999)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7D46470",
+          "on": "66C741100F278B41102B4114E92FB6B4FD",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "5891AAA",
+          "on": "E9C1494B0290",
+          "off": "8B41102B4114"
+        }
+      ]
+    },
+    {
       "name": "Max Resorce (On Get)",
       "type": "checkbox",
       "memory": [
@@ -151,6 +140,17 @@
           "offset": "3D8A40A",
           "on": "E9F1BFFB03",
           "off": "39CA0F47D1"
+        }
+      ]
+    },
+    {
+      "name": "Ship 1 Hit kill (MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7D46518",
+          "on": "7412",
+          "off": "7403"
         }
       ]
     }

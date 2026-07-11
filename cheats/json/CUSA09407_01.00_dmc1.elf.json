@@ -5,22 +5,6 @@
   "process": "dmc1.elf",
   "mods": [
     {
-      "name": "Infinite Health (DMC1)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5A560",
-          "on": "668B8FA2170000E9B2584080",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "5FE17",
-          "on": "E944A7BF7F9090",
-          "off": "66898FA2170000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Devil Trigger (DMC1)",
       "type": "checkbox",
       "memory": [
@@ -33,6 +17,22 @@
           "offset": "3228AE",
           "on": "E93D95937F9090",
           "off": "448B83CC1B0000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health (DMC1)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5A560",
+          "on": "668B8FA2170000E9B2584080",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "5FE17",
+          "on": "E944A7BF7F9090",
+          "off": "66898FA2170000"
         }
       ]
     },

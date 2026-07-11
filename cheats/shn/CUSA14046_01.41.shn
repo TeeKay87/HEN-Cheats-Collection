@@ -2,6 +2,14 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="World War Z" Moder="Saso_9.00" Cusa="CUSA14046" Version="01.41" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
+  <Cheat Text="1 Hit Kill (MC)">
+    <Cheatline>
+      <Offset>1F93841</Offset>
+      <Section>22</Section>
+      <ValueOn>75-15</ValueOn>
+      <ValueOff>75-04</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Health / Stamin / 1 Hit Kill (Master Code)">
     <Cheatline>
       <Offset>1F93800</Offset>
@@ -14,22 +22,6 @@
       <Section>22</Section>
       <ValueOn>E9-78-50-70-01-90-90</ValueOn>
       <ValueOff>48-89-03-41-8A-4F-06</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Stamina (MC)">
-    <Cheatline>
-      <Offset>1F93804</Offset>
-      <Section>22</Section>
-      <ValueOn>75-65</ValueOn>
-      <ValueOff>75-45</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="1 Hit Kill (MC)">
-    <Cheatline>
-      <Offset>1F93841</Offset>
-      <Section>22</Section>
-      <ValueOn>75-15</ValueOn>
-      <ValueOff>75-04</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Inf Ammo / No Reload (Primary/ Secondary)">
@@ -58,6 +50,14 @@
       <Section>0</Section>
       <ValueOn>E9-27-F4-E1-01-90</ValueOn>
       <ValueOff>49-89-06-8A-4B-06</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Stamina (MC)">
+    <Cheatline>
+      <Offset>1F93804</Offset>
+      <Section>22</Section>
+      <ValueOn>75-65</ValueOn>
+      <ValueOff>75-45</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

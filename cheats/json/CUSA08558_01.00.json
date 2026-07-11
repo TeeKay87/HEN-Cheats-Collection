@@ -16,13 +16,13 @@
       ]
     },
     {
-      "name": "Unlimited Skill Points",
+      "name": "Max XP",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1B5B4BE",
-          "on": "909090909090488B",
-          "off": "FF88601B0000488B"
+          "offset": "117EE05",
+          "on": "41031F41807F0500",
+          "off": "418B1F41807F0500"
         }
       ]
     },
@@ -38,13 +38,13 @@
       ]
     },
     {
-      "name": "Max XP",
+      "name": "Unlimited Skill Points",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "117EE05",
-          "on": "41031F41807F0500",
-          "off": "418B1F41807F0500"
+          "offset": "1B5B4BE",
+          "on": "909090909090488B",
+          "off": "FF88601B0000488B"
         }
       ]
     },
@@ -97,22 +97,6 @@
       ]
     },
     {
-      "name": "Max EXP/PP on Gain",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2AFB831",
-          "on": "41C6866003000001BBFFC99A3B895A04E9DF3528FE",
-          "off": "000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "D7EE1A",
-          "on": "E912CAD701909090909090",
-          "off": "41C6866003000001015A04"
-        }
-      ]
-    },
-    {
       "name": "Infinite Vehicle Health",
       "type": "checkbox",
       "memory": [
@@ -135,6 +119,22 @@
           "offset": "12C3FA9",
           "on": "E9A87883019090",
           "off": "448B40148B4018"
+        }
+      ]
+    },
+    {
+      "name": "Max EXP/PP on Gain",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2AFB831",
+          "on": "41C6866003000001BBFFC99A3B895A04E9DF3528FE",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "D7EE1A",
+          "on": "E912CAD701909090909090",
+          "off": "41C6866003000001015A04"
         }
       ]
     }

@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8D9CA2",
-          "on": "C4C17A11463C",
-          "off": "C4C17A114E3C"
-        }
-      ]
-    },
-    {
       "name": "Infinite Ammo",
       "type": "checkbox",
       "memory": [
@@ -23,28 +12,6 @@
           "offset": "2BB49AA",
           "on": "9090909090",
           "off": "42894CE830"
-        }
-      ]
-    },
-    {
-      "name": "No Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "978BB9",
-          "on": "9090909090",
-          "off": "418944245C"
-        }
-      ]
-    },
-    {
-      "name": "Knowledge Points Multiplier (On Gain)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "F48E92",
-          "on": "41014728",
-          "off": "41894728"
         }
       ]
     },
@@ -60,13 +27,35 @@
       ]
     },
     {
-      "name": "Supply Points Multiplier",
+      "name": "Infinite Melee Weapon Durability",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "F4FD16",
-          "on": "41014618",
-          "off": "41894618"
+          "offset": "49C0B9",
+          "on": "909090909090",
+          "off": "C4C17A114758"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8D9CA2",
+          "on": "C4C17A11463C",
+          "off": "C4C17A114E3C"
+        }
+      ]
+    },
+    {
+      "name": "Knowledge Points Multiplier (On Gain)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "F48E92",
+          "on": "41014728",
+          "off": "41894728"
         }
       ]
     },
@@ -82,13 +71,24 @@
       ]
     },
     {
-      "name": "Infinite Melee Weapon Durability",
+      "name": "No Reload",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "49C0B9",
-          "on": "909090909090",
-          "off": "C4C17A114758"
+          "offset": "978BB9",
+          "on": "9090909090",
+          "off": "418944245C"
+        }
+      ]
+    },
+    {
+      "name": "Supply Points Multiplier",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "F4FD16",
+          "on": "41014618",
+          "off": "41894618"
         }
       ]
     }

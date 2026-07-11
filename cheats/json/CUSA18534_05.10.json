@@ -5,6 +5,22 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Abilites Bar (Enable only after unlock Ablities)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6625910",
+          "on": "418B9F4401000041899F40010000E966B10BFC",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "26E0A82",
+          "on": "E9894EF4039090",
+          "off": "41899F40010000"
+        }
+      ]
+    },
+    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -17,33 +33,6 @@
           "offset": "26EB56E",
           "on": "E98DA1F303",
           "off": "39C80F4EC8"
-        }
-      ]
-    },
-    {
-      "name": "Stamina Instant Refill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2BE12FB",
-          "on": "C4C16A5F4710",
-          "off": "C4C16A5F470C"
-        }
-      ]
-    },
-    {
-      "name": "Max Skill Points (On Spend)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "6625800",
-          "on": "31D266C74008E703E9CEE3A3FD",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "4063BD6",
-          "on": "E9251C5C02",
-          "off": "31D22B480C"
         }
       ]
     },
@@ -64,18 +53,40 @@
       ]
     },
     {
-      "name": "Infinite Abilites Bar (Enable only after unlock Ablities)",
+      "name": "Max Skill Points (On Spend)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "6625910",
-          "on": "418B9F4401000041899F40010000E966B10BFC",
-          "off": "00000000000000000000000000000000000000"
+          "offset": "6625800",
+          "on": "31D266C74008E703E9CEE3A3FD",
+          "off": "00000000000000000000000000"
         },
         {
-          "offset": "26E0A82",
-          "on": "E9894EF4039090",
-          "off": "41899F40010000"
+          "offset": "4063BD6",
+          "on": "E9251C5C02",
+          "off": "31D22B480C"
+        }
+      ]
+    },
+    {
+      "name": "Stamina Instant Refill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2BE12FB",
+          "on": "C4C16A5F4710",
+          "off": "C4C16A5F470C"
+        }
+      ]
+    },
+    {
+      "name": "Adrenaline Bar doesnt decrease",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "26E0A7D",
+          "on": "9090909090",
+          "off": "E884000000"
         }
       ]
     },
@@ -91,17 +102,6 @@
       ]
     },
     {
-      "name": "stamina doesnt decrease",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2BE04E5",
-          "on": "C4C17A104710",
-          "off": "C4C17A10470C"
-        }
-      ]
-    },
-    {
       "name": "Resources doesnt decrease",
       "type": "checkbox",
       "memory": [
@@ -113,13 +113,13 @@
       ]
     },
     {
-      "name": "Adrenaline Bar doesnt decrease",
+      "name": "stamina doesnt decrease",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "26E0A7D",
-          "on": "9090909090",
-          "off": "E884000000"
+          "offset": "2BE04E5",
+          "on": "C4C17A104710",
+          "off": "C4C17A10470C"
         }
       ]
     }

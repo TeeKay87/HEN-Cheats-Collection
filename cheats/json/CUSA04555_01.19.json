@@ -21,22 +21,6 @@
       ]
     },
     {
-      "name": "Max Satisfaction Rate All Girl on Gift Accept",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "897800",
-          "on": "41C7442428E8030000418B442428E97CEEAFFF",
-          "off": "00000000000000000000000000000000000000"
-        },
-        {
-          "offset": "39668A",
-          "on": "E971115000",
-          "off": "418B442428"
-        }
-      ]
-    },
-    {
       "name": "Max Owner Level 110 on a Mission Complete",
       "type": "checkbox",
       "memory": [
@@ -49,6 +33,22 @@
           "offset": "3DF86B",
           "on": "E9907F4B00909090",
           "off": "418B4D1C4883F86D"
+        }
+      ]
+    },
+    {
+      "name": "Max Satisfaction Rate All Girl on Gift Accept",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "897800",
+          "on": "41C7442428E8030000418B442428E97CEEAFFF",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "39668A",
+          "on": "E971115000",
+          "off": "418B442428"
         }
       ]
     }

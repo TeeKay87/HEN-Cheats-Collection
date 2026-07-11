@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1A8F86",
-          "on": "909090909090",
-          "off": "C4C17A11463C"
-        }
-      ]
-    },
-    {
       "name": "Inf Ammo",
       "type": "checkbox",
       "memory": [
@@ -23,6 +12,17 @@
           "offset": "677A9D",
           "on": "909090909090",
           "off": "89879C010000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1A8F86",
+          "on": "909090909090",
+          "off": "C4C17A11463C"
         }
       ]
     },

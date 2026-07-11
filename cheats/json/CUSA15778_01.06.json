@@ -85,6 +85,17 @@
           "off": "895354"
         }
       ]
+    },
+    {
+      "name": "Infinite item on use/sell (Heal/Ammo/Materials)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "131F333",
+          "on": "4401F0",
+          "off": "4429F0"
+        }
+      ]
     }
   ],
   "credits": [

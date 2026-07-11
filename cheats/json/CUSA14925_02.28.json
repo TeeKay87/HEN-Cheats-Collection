@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Freeze Timer",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "102AE47",
+          "on": "909090909090909090",
+          "off": "C4C17A11851C030000"
+        }
+      ]
+    },
+    {
       "name": "Max Money",
       "type": "checkbox",
       "memory": [
@@ -19,21 +30,10 @@
           "off": "488B8030010000"
         }
       ]
-    },
-    {
-      "name": "Freeze Timer",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "102AE47",
-          "on": "909090909090909090",
-          "off": "C4C17A11851C030000"
-        }
-      ]
     }
   ],
   "credits": [
-    "Reddevil82 ",
-    " FW 9.00"
+    "Reddevil82",
+    "FW 9.00"
   ]
 }

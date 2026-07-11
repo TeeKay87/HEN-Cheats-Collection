@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Lives",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "807FF2B62C",
+          "on": "63",
+          "off": "63"
+        }
+      ]
+    },
+    {
       "name": "Infinite Special ",
       "type": "checkbox",
       "memory": [
@@ -23,17 +34,6 @@
           "offset": "807FF2B6B8",
           "on": "00000064",
           "off": "00000064"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Lives",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "807FF2B62C",
-          "on": "63",
-          "off": "63"
         }
       ]
     }

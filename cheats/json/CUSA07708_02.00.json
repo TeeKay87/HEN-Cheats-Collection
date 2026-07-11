@@ -5,24 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "Duplicate Items After Use",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "2A03F6C",
-          "on": "9090909090",
-          "off": "C5FA114864"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2BB4E6F",
-          "on": "9090909090",
-          "off": "C5FA11436C"
+          "offset": "20FFE49",
+          "on": "015E0C",
+          "off": "895E0C"
         }
       ]
     },
@@ -38,6 +27,17 @@
       ]
     },
     {
+      "name": "Godmode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2A03F6C",
+          "on": "9090909090",
+          "off": "C5FA114864"
+        }
+      ]
+    },
+    {
       "name": "Infinite Items",
       "type": "checkbox",
       "memory": [
@@ -49,24 +49,24 @@
       ]
     },
     {
-      "name": "Godmode",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2603F6C",
-          "on": "9090909090",
-          "off": "C5FA114864"
-        }
-      ]
-    },
-    {
       "name": "Infinite Stamina",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "27B4E6F",
+          "offset": "2BB4E6F",
           "on": "9090909090",
           "off": "C5FA11436C"
+        }
+      ]
+    },
+    {
+      "name": "Duplicate Items After Use",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1CFFE49",
+          "on": "015E0C",
+          "off": "895E0C"
         }
       ]
     },
@@ -82,6 +82,17 @@
       ]
     },
     {
+      "name": "Godmode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2603F6C",
+          "on": "9090909090",
+          "off": "C5FA114864"
+        }
+      ]
+    },
+    {
       "name": "Infinite Items",
       "type": "checkbox",
       "memory": [
@@ -89,6 +100,17 @@
           "offset": "1CFFE49",
           "on": "909090",
           "off": "895E0C"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "27B4E6F",
+          "on": "9090909090",
+          "off": "C5FA11436C"
         }
       ]
     }

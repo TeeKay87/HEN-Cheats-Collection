@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "No Cooldown Eagle-Vision",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2A66CFA",
-          "on": "C4C17A118794000000",
-          "off": "C4C17A118F94000000"
-        },
-        {
-          "offset": "2A66EB1",
-          "on": "909090909090909090",
-          "off": "C4C17A118794000000"
-        }
-      ]
-    },
-    {
       "name": "Bottomless Clip",
       "type": "checkbox",
       "memory": [
@@ -88,6 +72,22 @@
           "offset": "2C6B99D",
           "on": "E94E054E0290",
           "off": "C1E1028B0408"
+        }
+      ]
+    },
+    {
+      "name": "No Cooldown Eagle-Vision",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2A66CFA",
+          "on": "C4C17A118794000000",
+          "off": "C4C17A118F94000000"
+        },
+        {
+          "offset": "2A66EB1",
+          "on": "909090909090909090",
+          "off": "C4C17A118794000000"
         }
       ]
     }

@@ -5,82 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Run-Shoot Speed Master Code",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7E2B81F",
-          "on": "41837E540174587F56EB6641837E5402741741837E5404741041837E5408741B41837E54107426EB4881781C0000C03F743FC7401C0000C03FEB3681781C00004040742DC7401C00004040EB2481781C0000E040741BC7401C0000E040EB1281781C0000803F7409C7401C0000803FEB00C5FA10401CE94EBD4FF9",
-          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "13275E3",
-          "on": "E93742B006",
-          "off": "C5FA10401C"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health Player",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1D5E4F0",
-          "on": "C3",
-          "off": "55"
-        }
-      ]
-    },
-    {
-      "name": "Zombie Can\u0027t Grab",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3151E90",
-          "on": "C3",
-          "off": "55"
-        }
-      ]
-    },
-    {
-      "name": "Easy Kill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7E2B800",
-          "on": "0F4CF1BA00000000E9426932FB",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "315214A",
-          "on": "E9B196CD04",
-          "off": "0F4CF129F2"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Clip Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2FBB459",
-          "on": "83EA00",
-          "off": "4429F2"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Item On Use",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2FBB2AB",
-          "on": "9090909090",
-          "off": "E8205433FF"
-        }
-      ]
-    },
-    {
       "name": "20 Inventory Slot",
       "type": "checkbox",
       "memory": [
@@ -97,40 +21,123 @@
       ]
     },
     {
-      "name": "Inc Run Speed-Shoot Speed",
+      "name": "Anti-tank Rocket (Infinite)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7E2B826",
-          "on": "7F02",
-          "off": "7F56"
+          "offset": "7E2B8BF",
+          "on": "0F84C5040000",
+          "off": "0F84AEECC7F8"
         }
       ]
     },
     {
-      "name": "Freez Countdown Timer",
+      "name": "ATM-4 (Infinite)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "10A7D18",
-          "on": "E95DFAFFFF90",
-          "off": "0F855CFAFFFF"
+          "offset": "7E2B8BF",
+          "on": "0F84B2040000",
+          "off": "0F84AEECC7F8"
         }
       ]
     },
     {
-      "name": "Reset Timer [Don\u0027t Freez It]",
+      "name": "Bolt Cutter",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7E2B89A",
-          "on": "0F843B59A8F94831D248895118E9B957A8F9",
-          "off": "000000000000000000000000000000000000"
-        },
+          "offset": "7E2B8BF",
+          "on": "0F8453040000",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Boxed Electronic Part 1",
+      "type": "checkbox",
+      "memory": [
         {
-          "offset": "18B105B",
-          "on": "E93AA857069090909090",
-          "off": "0F8480010000488B5118"
+          "offset": "7E2B8BF",
+          "on": "0F843F020000",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Boxed Electronic Part 2",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "0F8452020000",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Chemical Flamethrower",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "0F84A9050000",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Club Key",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "0F8478020000",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Combat knife (Infinite)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "0F848C040000",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Courtyard Key",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "0F84F3010000",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Diamond Key",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "0F846E010000",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Dispersal Cartridge (Solution)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "0F84C4020000",
+          "off": "0F84AEECC7F8"
         }
       ]
     },
@@ -151,6 +158,286 @@
       ]
     },
     {
+      "name": "Easy Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B800",
+          "on": "0F4CF1BA00000000E9426932FB",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "315214A",
+          "on": "E9B196CD04",
+          "off": "0F4CF129F2"
+        }
+      ]
+    },
+    {
+      "name": "EMF Visualizer",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "0F8483050000",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Freez Countdown Timer",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "10A7D18",
+          "on": "E95DFAFFFF90",
+          "off": "0F855CFAFFFF"
+        }
+      ]
+    },
+    {
+      "name": "Fuse (Break Room Hallway)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "0F8440040000",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Fuse (Main Hall)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "0F842D040000",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Grenade Launcher - GM 79",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "0F8496050000",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Handgun - Broom Hc",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "0F844A050000",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Handgun - JMB Hp3",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "0F8411050000",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Handgun - M19",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "0F84FE040000",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Handgun - Matilda",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "0F84EB040000",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Handgun - MUP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "0F8437050000",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Handgun - Quickdraw Army Rev",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "0F8424050000",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Handgun - Samurai Edge (Infinite)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "0F849F040000",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Handgun - SLS 60",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "0F845D050000",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Heart Key",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "0F848B020000",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "ID Wristband (Senior Staff)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "0F84A8030000",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Inc Run Speed-Shoot Speed",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B826",
+          "on": "7F02",
+          "off": "7F56"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Clip Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2FBB459",
+          "on": "83EA00",
+          "off": "4429F2"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health Player",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1D5E4F0",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Item On Use",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2FBB2AB",
+          "on": "9090909090",
+          "off": "E8205433FF"
+        }
+      ]
+    },
+    {
+      "name": "Ink Ribbon",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "744290909090",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "King Plug",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "0F8435010000",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Lion Medallion",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "740990909090",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "MAG - Lightning Hawk",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "0F8479040000",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Maiden Medallion",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "741C90909090",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
       "name": "Main-Swap HandGun Ammo On Storage To:",
       "type": "checkbox",
       "memory": [
@@ -163,6 +450,203 @@
           "offset": "AAA51F",
           "on": "E99713380790",
           "off": "83781000744E"
+        }
+      ]
+    },
+    {
+      "name": "Mechanic Jack Handle",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "747B90909090",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Minigun (Infinite)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "0F84D8040000",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Orphanage Key",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "0F8465020000",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Queen Plug",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "0F842C020000",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Reset Timer [Don\u0027t Freez It]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B89A",
+          "on": "0F843B59A8F94831D248895118E9B957A8F9",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "18B105B",
+          "on": "E93AA857069090909090",
+          "off": "0F8480010000488B5118"
+        }
+      ]
+    },
+    {
+      "name": "Rook Plug",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "0F8422010000",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Round Handle",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "0F84D6000000",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Run-Shoot Speed Master Code",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B81F",
+          "on": "41837E540174587F56EB6641837E5402741741837E5404741041837E5408741B41837E54107426EB4881781C0000C03F743FC7401C0000C03FEB3681781C00004040742DC7401C00004040EB2481781C0000E040741BC7401C0000E040EB1281781C0000803F7409C7401C0000803FEB00C5FA10401CE94EBD4FF9",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "13275E3",
+          "on": "E93742B006",
+          "off": "C5FA10401C"
+        }
+      ]
+    },
+    {
+      "name": "S.T.A.R.S. Badge",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "0F84E9000000",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Sewers Key",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "0F846F030000",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Shotgun - W-870",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "0F8470050000",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Signal Modulator",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "0F8436030000",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Spade Key",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "0F849D000000",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Spare Key (key pad)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "0F845B010000",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Square Crank",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "0F848A000000",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Storage Room Key",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "746890909090",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Stun Gun - Spark Shot",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "0F84BC050000",
+          "off": "0F84AEECC7F8"
         }
       ]
     },
@@ -185,6 +669,83 @@
           "offset": "7E2B8BB",
           "on": "8378101A",
           "off": "8378100F"
+        }
+      ]
+    },
+    {
+      "name": "T-Bar Valve Handle",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "0F849E020000",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Trophy 1",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "0F8449030000",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Trophy 2",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "0F845C030000",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Unicorn Medallion",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "742F90909090",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Weapons Locker Key Card",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "0F84C3000000",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Wooden Board",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2B8BF",
+          "on": "745590909090",
+          "off": "0F84AEECC7F8"
+        }
+      ]
+    },
+    {
+      "name": "Zombie Can\u0027t Grab",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3151E90",
+          "on": "C3",
+          "off": "55"
         }
       ]
     }

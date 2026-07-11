@@ -5,13 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health \u002B 1 Hit Kill",
+      "name": "1000 Kills Trophy After Kill",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "36C0FC",
-          "on": "c5fa119f48130000",
-          "off": "c5fa118748130000"
+          "offset": "5C277D",
+          "on": "4401b0cc1d0000",
+          "off": "4489b8cc1d0000"
         }
       ]
     },
@@ -38,13 +38,18 @@
       ]
     },
     {
-      "name": "1000 Kills Trophy After Kill",
+      "name": "Infinite Health \u002B 1 Hit Kill",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "5C277D",
-          "on": "4401b0cc1d0000",
-          "off": "4489b8cc1d0000"
+          "offset": "36C0FC",
+          "on": "c5fa119f48130000",
+          "off": "c5fa118748130000"
+        },
+        {
+          "offset": "36C0FC",
+          "on": "c5fa11a748130000",
+          "off": "c5fa118748130000"
         }
       ]
     },

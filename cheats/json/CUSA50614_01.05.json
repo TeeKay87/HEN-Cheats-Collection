@@ -5,49 +5,133 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "TRAINER INFO (read only)",
+      "name": "--Enemy Speed x0.2",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "3AAEFFF",
-          "on": "00",
-          "off": "00"
+          "offset": "4D3FF2C",
+          "on": "CDCC4C3E",
+          "off": "0000803F"
         }
       ]
     },
     {
-      "name": "Master Code (Must be enabled first \u002B all the time)",
+      "name": "--Enemy Speed x0.5",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "3AAF2BE",
-          "on": "48891D5B0C2901488B43084D01F5E9CF94B3FE",
-          "off": "00000000000000000000000000000000000000"
-        },
-        {
-          "offset": "4D3FF28",
-          "on": "0000803F",
+          "offset": "4D3FF2C",
+          "on": "0000003F",
           "off": "0000803F"
-        },
+        }
+      ]
+    },
+    {
+      "name": "--Enemy Speed x2",
+      "type": "checkbox",
+      "memory": [
         {
           "offset": "4D3FF2C",
-          "on": "0000803F",
+          "on": "00000040",
           "off": "0000803F"
+        }
+      ]
+    },
+    {
+      "name": "--No Skill Cooldown",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "48262D3",
+          "on": "0100000000000000",
+          "off": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "--Player Speed x2",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4D3FF28",
+          "on": "00000040",
+          "off": "0000803F"
+        }
+      ]
+    },
+    {
+      "name": "--Player Speed x3",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4D3FF28",
+          "on": "00004040",
+          "off": "0000803F"
+        }
+      ]
+    },
+    {
+      "name": "--Player Speed x4",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4D3FF28",
+          "on": "00008040",
+          "off": "0000803F"
+        }
+      ]
+    },
+    {
+      "name": "--Player Speed x5",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4D3FF28",
+          "on": "0000A040",
+          "off": "0000803F"
+        }
+      ]
+    },
+    {
+      "name": "--Vanish All Enemies",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4887954",
+          "on": "0100000000000000",
+          "off": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "Disable Idle Timer",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3AAF374",
+          "on": "0F57C0C5FA1183C8010000E982AFFBFD",
+          "off": "00000000000000000000000000000000"
         },
         {
-          "offset": "3AAF2F1",
-          "on": "4C3B25280C29017508D905280C2901EB06D905240C290141D99C2458180000C4C17A59842458180000E91D62FDFD",
-          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+          "offset": "1A6A2FE",
+          "on": "E971500402909090",
+          "off": "C5FA1183C8010000"
+        }
+      ]
+    },
+    {
+      "name": "Enemies Dont Attack",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "18EF3B9",
+          "on": "909090909090909090909090",
+          "off": "0FB68388050000C0E8042401"
         },
         {
-          "offset": "25E8799",
-          "on": "E9206B4C019090",
-          "off": "488B43084D01F5"
-        },
-        {
-          "offset": "1A85532",
-          "on": "E9BA9D02029090909090",
-          "off": "C4C17A59842458180000"
+          "offset": "1A4A643",
+          "on": "4885DB9090909090909090909090",
+          "off": "488B83A8000000F6808805000010"
         }
       ]
     },
@@ -88,13 +172,29 @@
       ]
     },
     {
-      "name": "One Hit Kill",
+      "name": "Inf\u002BMax Consumables",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1B1DC0B",
-          "on": "0F94C0",
-          "off": "0F95C0"
+          "offset": "187AB11",
+          "on": "894108",
+          "off": "895908"
+        }
+      ]
+    },
+    {
+      "name": "Inf\u002BMax FP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3AAF1C5",
+          "on": "8B8E54010000898E50010000E970B148FE",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "1F3A340",
+          "on": "E9804EB70190",
+          "off": "8B8E50010000"
         }
       ]
     },
@@ -121,6 +221,81 @@
           "offset": "1B11DC3",
           "on": "E904D3F90190",
           "off": "898350010000"
+        }
+      ]
+    },
+    {
+      "name": "Inf\u002BMax Level (15)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3AAF28F",
+          "on": "BF100000004189F689F8E976704AFE",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "1F5630F",
+          "on": "E97B8FB501",
+          "off": "4189F689F8"
+        }
+      ]
+    },
+    {
+      "name": "Inf\u002BMax Murks",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3AAF25A",
+          "on": "C780D0000000FFC99A3B8B90D0000000E9B7904DFE",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1F88320",
+          "on": "E9356FB20190",
+          "off": "8B90D0000000"
+        }
+      ]
+    },
+    {
+      "name": "Inf\u002BMax Runes",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3AAF227",
+          "on": "41C744246CFFC99A3B418B44246CE94CEE4DFE",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1F8E081",
+          "on": "E9A111B201",
+          "off": "418B44246C"
+        }
+      ]
+    },
+    {
+      "name": "Inf\u002BMax Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3AAF1F6",
+          "on": "8B8E70010000898E6C010000E9A3B148FE",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "1F3A3A4",
+          "on": "E94D4EB70190",
+          "off": "8B8E6C010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ultimate Art",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1DAB1E6",
+          "on": "C5FA114F14",
+          "off": "C5FA114714"
         }
       ]
     },
@@ -161,148 +336,38 @@
       ]
     },
     {
-      "name": "Enemies Dont Attack",
+      "name": "Master Code (Must be enabled first \u002B all the time)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "18EF3B9",
-          "on": "909090909090909090909090",
-          "off": "0FB68388050000C0E8042401"
-        },
-        {
-          "offset": "1A4A643",
-          "on": "4885DB9090909090909090909090",
-          "off": "488B83A8000000F6808805000010"
-        }
-      ]
-    },
-    {
-      "name": "Inf\u002BMax FP",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3AAF1C5",
-          "on": "8B8E54010000898E50010000E970B148FE",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "1F3A340",
-          "on": "E9804EB70190",
-          "off": "8B8E50010000"
-        }
-      ]
-    },
-    {
-      "name": "Inf\u002BMax Stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3AAF1F6",
-          "on": "8B8E70010000898E6C010000E9A3B148FE",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "1F3A3A4",
-          "on": "E94D4EB70190",
-          "off": "8B8E6C010000"
-        }
-      ]
-    },
-    {
-      "name": "--Vanish All Enemies",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "4887954",
-          "on": "0100000000000000",
-          "off": "0000000000000000"
-        }
-      ]
-    },
-    {
-      "name": "Inf\u002BMax Consumables",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "187AB11",
-          "on": "894108",
-          "off": "895908"
-        }
-      ]
-    },
-    {
-      "name": "Inf\u002BMax Runes",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3AAF227",
-          "on": "41C744246CFFC99A3B418B44246CE94CEE4DFE",
+          "offset": "3AAF2BE",
+          "on": "48891D5B0C2901488B43084D01F5E9CF94B3FE",
           "off": "00000000000000000000000000000000000000"
         },
         {
-          "offset": "1F8E081",
-          "on": "E9A111B201",
-          "off": "418B44246C"
-        }
-      ]
-    },
-    {
-      "name": "Runes Retained On Death",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1E92AA0",
-          "on": "9090909090909090",
-          "off": "41C7466C00000000"
-        }
-      ]
-    },
-    {
-      "name": "Inf\u002BMax Murks",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3AAF25A",
-          "on": "C780D0000000FFC99A3B8B90D0000000E9B7904DFE",
-          "off": "000000000000000000000000000000000000000000"
+          "offset": "4D3FF28",
+          "on": "0000803F",
+          "off": "0000803F"
         },
         {
-          "offset": "1F88320",
-          "on": "E9356FB20190",
-          "off": "8B90D0000000"
-        }
-      ]
-    },
-    {
-      "name": "Player No Dead 1.05",
-      "type": "checkbox",
-      "memory": [
+          "offset": "4D3FF2C",
+          "on": "0000803F",
+          "off": "0000803F"
+        },
         {
-          "offset": "1B10B1B",
-          "on": "90909090909090",
-          "off": "803D96A7970200"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Ultimate Art",
-      "type": "checkbox",
-      "memory": [
+          "offset": "3AAF2F1",
+          "on": "4C3B25280C29017508D905280C2901EB06D905240C290141D99C2458180000C4C17A59842458180000E91D62FDFD",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
         {
-          "offset": "1DAB1E6",
-          "on": "C5FA114F14",
-          "off": "C5FA114714"
-        }
-      ]
-    },
-    {
-      "name": "--No Skill Cooldown",
-      "type": "checkbox",
-      "memory": [
+          "offset": "25E8799",
+          "on": "E9206B4C019090",
+          "off": "488B43084D01F5"
+        },
         {
-          "offset": "48262D3",
-          "on": "0100000000000000",
-          "off": "0000000000000000"
+          "offset": "1A85532",
+          "on": "E9BA9D02029090909090",
+          "off": "C4C17A59842458180000"
         }
       ]
     },
@@ -318,40 +383,35 @@
       ]
     },
     {
-      "name": "Inf\u002BMax Level (15)",
+      "name": "One Hit Kill",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "3AAF28F",
-          "on": "BF100000004189F689F8E976704AFE",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "1F5630F",
-          "on": "E97B8FB501",
-          "off": "4189F689F8"
+          "offset": "1B1DC0B",
+          "on": "0F94C0",
+          "off": "0F95C0"
         }
       ]
     },
     {
-      "name": "--Enemy Speed x0.2",
+      "name": "Player No Dead 1.05",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "4D3FF2C",
-          "on": "CDCC4C3E",
-          "off": "0000803F"
+          "offset": "1B10B1B",
+          "on": "90909090909090",
+          "off": "803D96A7970200"
         }
       ]
     },
     {
-      "name": "--Player Speed x2",
+      "name": "Runes Retained On Death",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "4D3FF28",
-          "on": "00000040",
-          "off": "0000803F"
+          "offset": "1E92AA0",
+          "on": "9090909090909090",
+          "off": "41C7466C00000000"
         }
       ]
     },
@@ -372,18 +432,13 @@
       ]
     },
     {
-      "name": "Disable Idle Timer",
+      "name": "TRAINER INFO (read only)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "3AAF374",
-          "on": "0F57C0C5FA1183C8010000E982AFFBFD",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "1A6A2FE",
-          "on": "E971500402909090",
-          "off": "C5FA1183C8010000"
+          "offset": "3AAEFFF",
+          "on": "00",
+          "off": "00"
         }
       ]
     }

@@ -21,38 +21,6 @@
       ]
     },
     {
-      "name": "Max Experience",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7D46C00",
-          "on": "F7D841C706FFE0F505E9213462FC",
-          "off": "0000000000000000000000000000"
-        },
-        {
-          "offset": "436A02A",
-          "on": "E9D1CB9D03",
-          "off": "F7D8418906"
-        }
-      ]
-    },
-    {
-      "name": "Max Items (on use)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7D46C70",
-          "on": "0F49D085D2C60663E9CE0B6AF9",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "13E7844",
-          "on": "E927F495069090",
-          "off": "0F49D085D28916"
-        }
-      ]
-    },
-    {
       "name": "Max coins",
       "type": "checkbox",
       "memory": [
@@ -69,6 +37,22 @@
       ]
     },
     {
+      "name": "Max Experience",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7D46C00",
+          "on": "F7D841C706FFE0F505E9213462FC",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "436A02A",
+          "on": "E9D1CB9D03",
+          "off": "F7D8418906"
+        }
+      ]
+    },
+    {
       "name": "Max Gift points (on spend)",
       "type": "checkbox",
       "memory": [
@@ -81,6 +65,22 @@
           "offset": "13FC4D1",
           "on": "E9CAA5940690909090",
           "off": "4B8D74261001DA8916"
+        }
+      ]
+    },
+    {
+      "name": "Max Items (on use)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7D46C70",
+          "on": "0F49D085D2C60663E9CE0B6AF9",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "13E7844",
+          "on": "E927F495069090",
+          "off": "0F49D085D28916"
         }
       ]
     }

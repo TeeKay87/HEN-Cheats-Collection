@@ -5,45 +5,40 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Speed Master Code",
+      "name": "20 Inventory Slot",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "6DFFF5D",
-          "on": "0F85BAC33EFA498B465841C746700000803FE99BC33EFA",
-          "off": "0000000000000000000000000000000000000000000000"
+          "offset": "6DFFE35",
+          "on": "41BC140000004489A090000000E96DB380F9",
+          "off": "000000000000000000000000000000000000"
         },
         {
-          "offset": "11EC309",
-          "on": "E94F3CC10590",
-          "off": "7518498B4658"
+          "offset": "60B1AD",
+          "on": "E9834C7F069090",
+          "off": "448BA090000000"
         }
       ]
     },
     {
-      "name": "Max Health Player",
+      "name": "44 AE Lightning Hawk",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "68FDB0D",
-          "on": "0F84FF30B9FB8B5854895858E9F830B9FB",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "2490C11",
-          "on": "E9F7CE4604",
-          "off": "74058B5858"
+          "offset": "712E13D",
+          "on": "740990909090",
+          "off": "0F84E1D04EF9"
         }
       ]
     },
     {
-      "name": "Inf. Health Player\u002B No Bleeding",
+      "name": "Bolt_Cutters",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "3140F0",
-          "on": "C3",
-          "off": "55"
+          "offset": "712E13D",
+          "on": "0F84A9000000",
+          "off": "0F84E1D04EF9"
         }
       ]
     },
@@ -64,29 +59,46 @@
       ]
     },
     {
-      "name": "Infinite Clip Ammo",
+      "name": "Fire Resistance",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1E3203A",
-          "on": "909090",
-          "off": "895120"
+          "offset": "325260",
+          "on": "C3",
+          "off": "55"
         }
       ]
     },
     {
-      "name": "20 Inventory Slot",
+      "name": "Grenade Launcher",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "6DFFE35",
-          "on": "41BC140000004489A090000000E96DB380F9",
-          "off": "000000000000000000000000000000000000"
-        },
+          "offset": "712E13D",
+          "on": "746890909090",
+          "off": "0F84E1D04EF9"
+        }
+      ]
+    },
+    {
+      "name": "HOT DOGGER",
+      "type": "checkbox",
+      "memory": [
         {
-          "offset": "60B1AD",
-          "on": "E9834C7F069090",
-          "off": "448BA090000000"
+          "offset": "712E13D",
+          "on": "747B90909090",
+          "off": "0F84E1D04EF9"
+        }
+      ]
+    },
+    {
+      "name": "Inc. Speed [x1.5]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6DFFF67",
+          "on": "41C746700000C03F",
+          "off": "41C746700000803F"
         }
       ]
     },
@@ -102,39 +114,116 @@
       ]
     },
     {
-      "name": "Fire Resistance",
+      "name": "Inc. Speed [x2.7]",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "325260",
+          "offset": "6DFFF67",
+          "on": "41C74670CDCC2C40",
+          "off": "41C746700000803F"
+        }
+      ]
+    },
+    {
+      "name": "Inf. Health Player\u002B No Bleeding",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3140F0",
           "on": "C3",
           "off": "55"
         }
       ]
     },
     {
-      "name": "Swap HandGun Ammo To:",
+      "name": "Infinite Clip Ammo",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "712E139",
-          "on": "837B101F0F84E1D04EF9E928D04EF9C7431000000000C743141F000000E915D04EF9C7431000000000C7431407000000E902D04EF9C7431000000000C743140B000000E9EFCF4EF9C7431000000000C7431416000000E9DCCF4EF9C7431000000000C7431420000000E9C9CF4EF9C7431000000000C743142A000000E9B6CF4EF9C7431000000000C7431430000000E9A3CF4EF9C7431000000000C7431431000000E990CF4EF9C7431097000000E984CF4EF9C7431098000000E978CF4EF9",
-          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "61B16A",
-          "on": "E9CA2FB10690",
-          "off": "0F84B4000000"
+          "offset": "1E3203A",
+          "on": "909090",
+          "off": "895120"
         }
       ]
     },
     {
-      "name": "44 AE Lightning Hawk",
+      "name": "Infinite CQBR Assault Rifle",
       "type": "checkbox",
       "memory": [
         {
           "offset": "712E13D",
-          "on": "740990909090",
+          "on": "744290909090",
+          "off": "0F84E1D04EF9"
+        }
+      ]
+    },
+    {
+      "name": "Infinite MUP Handgun",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "712E13D",
+          "on": "741C90909090",
+          "off": "0F84E1D04EF9"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Rocket Launcher",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "712E13D",
+          "on": "0F848A000000",
+          "off": "0F84E1D04EF9"
+        }
+      ]
+    },
+    {
+      "name": "Lock_Pick",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "712E13D",
+          "on": "0F849D000000",
+          "off": "0F84E1D04EF9"
+        }
+      ]
+    },
+    {
+      "name": "Max Health Player",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "68FDB0D",
+          "on": "0F84FF30B9FB8B5854895858E9F830B9FB",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "2490C11",
+          "on": "E9F7CE4604",
+          "off": "74058B5858"
+        }
+      ]
+    },
+    {
+      "name": "Prevent Zombie To Grab Player",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "314310",
+          "on": "C3909090",
+          "off": "488B4750"
+        }
+      ]
+    },
+    {
+      "name": "RAI-DEN",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "712E13D",
+          "on": "745590909090",
           "off": "0F84E1D04EF9"
         }
       ]
@@ -156,29 +245,100 @@
       ]
     },
     {
-      "name": "Prevent Zombie To Grab Player",
+      "name": "Shotgun",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "314310",
-          "on": "C3909090",
-          "off": "488B4750"
+          "offset": "712E13D",
+          "on": "742F90909090",
+          "off": "0F84E1D04EF9"
         }
       ]
     },
     {
-      "name": "Player Pointer",
+      "name": "Speed Master Code",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "712E240",
-          "on": "48A3F03FEF0B00000000448B7858E96EBE96F9",
-          "off": "00000000000000000000000000000000000000"
+          "offset": "6DFFF5D",
+          "on": "0F85BAC33EFA498B465841C746700000803FE99BC33EFA",
+          "off": "0000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "A9A072",
-          "on": "E9C941690690",
-          "off": "448B7858EB49"
+          "offset": "11EC309",
+          "on": "E94F3CC10590",
+          "off": "7518498B4658"
+        }
+      ]
+    },
+    {
+      "name": "Swap HandGun Ammo To:",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "712E139",
+          "on": "837B101F0F84E1D04EF9E928D04EF9C7431000000000C743141F000000E915D04EF9C7431000000000C7431407000000E902D04EF9C7431000000000C743140B000000E9EFCF4EF9C7431000000000C7431416000000E9DCCF4EF9C7431000000000C7431420000000E9C9CF4EF9C7431000000000C743142A000000E9B6CF4EF9C7431000000000C7431430000000E9A3CF4EF9C7431000000000C7431431000000E990CF4EF9C7431097000000E984CF4EF9C7431098000000E978CF4EF9",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "61B16A",
+          "on": "E9CA2FB10690",
+          "off": "0F84B4000000"
+        }
+      ]
+    },
+    {
+      "name": "1 Hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "712E254",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Always Open Code-Locks",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "15CA801",
+          "on": "9090",
+          "off": "752B"
+        }
+      ]
+    },
+    {
+      "name": "Bottomless Clip",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E31F5E",
+          "on": "909090",
+          "off": "4429F2"
+        }
+      ]
+    },
+    {
+      "name": "Dupe Items into Storage",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "60D11B",
+          "on": "909090",
+          "off": "294820"
+        }
+      ]
+    },
+    {
+      "name": "Freeze SaveCounter",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "15D3882",
+          "on": "9090",
+          "off": "FFC0"
         }
       ]
     },
@@ -199,50 +359,6 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "712E253",
-          "on": "01",
-          "off": "00"
-        }
-      ]
-    },
-    {
-      "name": "1 Hit Kill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "712E254",
-          "on": "01",
-          "off": "00"
-        }
-      ]
-    },
-    {
-      "name": "Bottomless Clip",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1E31F5E",
-          "on": "909090",
-          "off": "4429F2"
-        }
-      ]
-    },
-    {
-      "name": "Max Clip Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1E31F66",
-          "on": "89C290",
-          "off": "0F4ED0"
-        }
-      ]
-    },
-    {
       "name": "Infinite Ammo",
       "type": "checkbox",
       "memory": [
@@ -259,24 +375,13 @@
       ]
     },
     {
-      "name": "Max Ammo on Reload",
+      "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1E99A10",
-          "on": "89C290",
-          "off": "0F4ED0"
-        }
-      ]
-    },
-    {
-      "name": "Short Animationtime for Aiming",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "DEA8BB",
-          "on": "0F57C090",
-          "off": "C5FA5CC1"
+          "offset": "712E253",
+          "on": "01",
+          "off": "00"
         }
       ]
     },
@@ -302,13 +407,24 @@
       ]
     },
     {
-      "name": "Freeze SaveCounter",
+      "name": "Max Ammo on Reload",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "15D3882",
-          "on": "9090",
-          "off": "FFC0"
+          "offset": "1E99A10",
+          "on": "89C290",
+          "off": "0F4ED0"
+        }
+      ]
+    },
+    {
+      "name": "Max Clip Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E31F66",
+          "on": "89C290",
+          "off": "0F4ED0"
         }
       ]
     },
@@ -320,17 +436,6 @@
           "offset": "1E98F51",
           "on": "89C290",
           "off": "0F4ED0"
-        }
-      ]
-    },
-    {
-      "name": "Dupe Items into Storage",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "60D11B",
-          "on": "909090",
-          "off": "294820"
         }
       ]
     },
@@ -357,6 +462,17 @@
       ]
     },
     {
+      "name": "Nemesis instant recover",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "236EA01",
+          "on": "0F57C090",
+          "off": "C5F25CC0"
+        }
+      ]
+    },
+    {
       "name": "Nemesis stays down",
       "type": "checkbox",
       "memory": [
@@ -368,13 +484,29 @@
       ]
     },
     {
-      "name": "Always Open Code-Locks",
+      "name": "Player Pointer",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "15CA801",
-          "on": "9090",
-          "off": "752B"
+          "offset": "712E240",
+          "on": "48A3F03FEF0B00000000448B7858E96EBE96F9",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "A9A072",
+          "on": "E9C941690690",
+          "off": "448B7858EB49"
+        }
+      ]
+    },
+    {
+      "name": "Short Animationtime for Aiming",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "DEA8BB",
+          "on": "0F57C090",
+          "off": "C5FA5CC1"
         }
       ]
     }

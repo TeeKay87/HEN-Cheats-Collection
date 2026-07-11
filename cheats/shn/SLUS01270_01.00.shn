@@ -2,20 +2,20 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Medal of Honor: Underground" Moder="Ali-mk" Cusa="SLUS01270" Version="01.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite-Health+1-hit">
-    <Cheatline>
-      <Offset>1393DE</Offset>
-      <Section>11</Section>
-      <ValueOn>14</ValueOn>
-      <ValueOff>45</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite-All-Weapon">
     <Cheatline>
       <Offset>1786A2</Offset>
       <Section>11</Section>
       <ValueOn>99</ValueOn>
       <ValueOff>42</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite-Health+1-hit">
+    <Cheatline>
+      <Offset>1393DE</Offset>
+      <Section>11</Section>
+      <ValueOn>14</ValueOn>
+      <ValueOff>45</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite-molotov">

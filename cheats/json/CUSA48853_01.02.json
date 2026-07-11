@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "TRAINER INFO (read only)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3AAEFFF",
-          "on": "00",
-          "off": "00"
-        }
-      ]
-    },
-    {
       "name": "God Mode",
       "type": "checkbox",
       "memory": [
@@ -48,6 +37,17 @@
           "offset": "1A9B132",
           "on": "E9363F01029090",
           "off": "488BB898000000"
+        }
+      ]
+    },
+    {
+      "name": "TRAINER INFO (read only)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3AAEFFF",
+          "on": "00",
+          "off": "00"
         }
       ]
     }

@@ -5,13 +5,40 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "Godmode by JustGotenks",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "544B69F",
-          "on": "C5F82ED0",
-          "off": "C5F82EC1"
+          "offset": "544B6A3",
+          "on": "E9F039D5059090",
+          "off": "C5FA114814720A"
+        },
+        {
+          "offset": "B19F098",
+          "on": "83783C027505F30F104814C5FA114814E9FDC52AFA909090",
+          "off": "000000000000000000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Pipe Bombs by LMN",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3110583",
+          "on": "9090909090",
+          "off": "E838BABF02"
+        }
+      ]
+    },
+    {
+      "name": "Inf white flower and First Aid Med usage by LMN",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "62C04DA",
+          "on": "909090909090",
+          "off": "FF9070060000"
         }
       ]
     },
@@ -42,6 +69,33 @@
       ]
     },
     {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "544B69F",
+          "on": "C5F82ED0",
+          "off": "C5F82EC1"
+        }
+      ]
+    },
+    {
+      "name": "infinite items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5ECE0",
+          "on": "41295C244C41C744244C63000000E98BD94B83",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "311C679",
+          "on": "E96226B47C",
+          "off": "41295C244C"
+        }
+      ]
+    },
+    {
       "name": "Infinite money",
       "type": "checkbox",
       "memory": [
@@ -68,18 +122,40 @@
       ]
     },
     {
-      "name": "infinite items",
+      "name": "Info crafting materials by LMN",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5ECE0",
-          "on": "41295C244C41C744244C63000000E98BD94B83",
-          "off": "00000000000000000000000000000000000000"
+          "offset": "54AB9F1",
+          "on": "9090909090",
+          "off": "E84A13C7FD"
+        }
+      ]
+    },
+    {
+      "name": "No Reload by JustGotenks",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4A98FA6",
+          "on": "B900000000",
+          "off": "B901000000"
+        }
+      ]
+    },
+    {
+      "name": "One-hit Kill by JustGotenks",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "544B695",
+          "on": "E94E3AD505",
+          "off": "C5F25C4DD4"
         },
         {
-          "offset": "311C679",
-          "on": "E96226B47C",
-          "off": "41295C244C"
+          "offset": "B19F0E8",
+          "on": "83783C027409C5F057C9E9A3C52AFAC5F25C4DD4E999C52AFA909090",
+          "off": "00000000000000000000000000000000000000000000000000000000"
         }
       ]
     },
@@ -112,82 +188,6 @@
           "offset": "311D264",
           "on": "E93700B47C90",
           "off": "4429E189484C"
-        }
-      ]
-    },
-    {
-      "name": "Info crafting materials by LMN",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "54AB9F1",
-          "on": "9090909090",
-          "off": "E84A13C7FD"
-        }
-      ]
-    },
-    {
-      "name": "Inf white flower and First Aid Med usage by LMN",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "62C04DA",
-          "on": "909090909090",
-          "off": "FF9070060000"
-        }
-      ]
-    },
-    {
-      "name": "Inf Pipe Bombs by LMN",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3110583",
-          "on": "9090909090",
-          "off": "E838BABF02"
-        }
-      ]
-    },
-    {
-      "name": "Godmode by JustGotenks",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "544B6A3",
-          "on": "E9F039D5059090",
-          "off": "C5FA114814720A"
-        },
-        {
-          "offset": "B19F098",
-          "on": "83783C027505F30F104814C5FA114814E9FDC52AFA909090",
-          "off": "000000000000000000000000000000000000000000000000"
-        }
-      ]
-    },
-    {
-      "name": "One-hit Kill by JustGotenks",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "544B695",
-          "on": "E94E3AD505",
-          "off": "C5F25C4DD4"
-        },
-        {
-          "offset": "B19F0E8",
-          "on": "83783C027409C5F057C9E9A3C52AFAC5F25C4DD4E999C52AFA909090",
-          "off": "00000000000000000000000000000000000000000000000000000000"
-        }
-      ]
-    },
-    {
-      "name": "No Reload by JustGotenks",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "4A98FA6",
-          "on": "B900000000",
-          "off": "B901000000"
         }
       ]
     },
@@ -257,6 +257,22 @@
           "offset": "B19F22A",
           "on": "C4C17A108E38020000F30F58C9C4C17A118E38020000C4C17A108E34020000F30F58C9C4C17A118E34020000C4C17A108E30020000F30F58C9C4C17A118E30020000E99BABD6FA",
           "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "5F09E03",
+          "on": "E92254290590909090",
+          "off": "C4C17A108E30020000"
+        }
+      ]
+    },
+    {
+      "name": "[04b][1] Ethan\u0027s \u002B Chris\u0027s Speed x4",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B19F22A",
+          "on": "C4C17A108E38020000F30F58C9F30F58C9C4C17A118E38020000C4C17A108E34020000F30F58C9F30F58C9C4C17A118E34020000C4C17A108E30020000F30F58C9F30F58C9C4C17A118E30020000E98FABD6FA",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
         },
         {
           "offset": "5F09E03",
@@ -485,6 +501,22 @@
           "offset": "B19F280",
           "on": "C4C17A108E38020000F30F58C9C4C17A118E38020000C4C17A108E34020000F30F58C9C4C17A118E34020000C4C17A108E30020000F30F58C9C4C17A118E30020000E955B423F9",
           "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "43DA713",
+          "on": "E9684BDC0690909090",
+          "off": "C4C17A108E30020000"
+        }
+      ]
+    },
+    {
+      "name": "[17b][2] Rose\u0027s Speed x4",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B19F280",
+          "on": "C4C17A108E38020000F30F58C9F30F58C9C4C17A118E38020000C4C17A108E34020000F30F58C9F30F58C9C4C17A118E34020000C4C17A108E30020000F30F58C9F30F58C9C4C17A118E30020000E949B423F9",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
         },
         {
           "offset": "43DA713",

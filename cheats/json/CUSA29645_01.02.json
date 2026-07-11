@@ -5,18 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Health",
+      "name": "Enemies Instant Death",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "553B800",
-          "on": "8B88D80200008988DC020000E9D74D1BFB",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "6F05DE",
-          "on": "E91DB2E4049090909090",
-          "off": "8B4C24F48988DC020000"
+          "offset": "442AA0",
+          "on": "C5F857C09090",
+          "off": "C5FA104424F4"
         }
       ]
     },
@@ -37,38 +32,11 @@
       ]
     },
     {
-      "name": "Inf Shield",
+      "name": "Inf Dash",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "553B84A",
-          "on": "BE03000000897424F4488B4424F8E9114423FB",
-          "off": "00000000000000000000000000000000000000"
-        },
-        {
-          "offset": "76FC65",
-          "on": "E9E0BBDC0490909090",
-          "off": "897424F4488B4424F8"
-        }
-      ]
-    },
-    {
-      "name": "Max Super",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7705CA",
-          "on": "8B80E8020000",
-          "off": "8B80EC020000"
-        }
-      ]
-    },
-    {
-      "name": "Enemies Instant Death",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "442AA0",
+          "offset": "75CB00",
           "on": "C5F857C09090",
           "off": "C5FA104424F4"
         }
@@ -86,13 +54,34 @@
       ]
     },
     {
-      "name": "Inf Dash",
+      "name": "Inf Health",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "75CB00",
-          "on": "C5F857C09090",
-          "off": "C5FA104424F4"
+          "offset": "553B800",
+          "on": "8B88D80200008988DC020000E9D74D1BFB",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "6F05DE",
+          "on": "E91DB2E4049090909090",
+          "off": "8B4C24F48988DC020000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Shield",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "553B84A",
+          "on": "BE03000000897424F4488B4424F8E9114423FB",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "76FC65",
+          "on": "E9E0BBDC0490909090",
+          "off": "897424F4488B4424F8"
         }
       ]
     },
@@ -113,18 +102,13 @@
       ]
     },
     {
-      "name": "Max/Infinite Health",
+      "name": "Max Super",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5FDB0",
-          "on": "C680DC02000005E92C48D400",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "809A45E2",
-          "on": "E9C9B72BFF90",
-          "off": "8988DC020000"
+          "offset": "7705CA",
+          "on": "8B80E8020000",
+          "off": "8B80EC020000"
         }
       ]
     },
@@ -155,6 +139,22 @@
       ]
     },
     {
+      "name": "Infinite Dash",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5F850",
+          "on": "90E98C06DB00",
+          "off": "000000000000"
+        },
+        {
+          "offset": "80A0FEDD",
+          "on": "E96EF924FF",
+          "off": "E8CE701F00"
+        }
+      ]
+    },
+    {
       "name": "Infinite Granades",
       "type": "checkbox",
       "memory": [
@@ -167,22 +167,6 @@
           "offset": "80A0E44A",
           "on": "E9811725FF90",
           "off": "8888B8010000"
-        }
-      ]
-    },
-    {
-      "name": "Max/Infinite Armor",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5FC70",
-          "on": "C6800403000003E9FC3FDC00",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "80A23C72",
-          "on": "E9F9BF23FF90",
-          "off": "898804030000"
         }
       ]
     },
@@ -203,18 +187,18 @@
       ]
     },
     {
-      "name": "Infinite Dash",
+      "name": "Max/Infinite Armor",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5F850",
-          "on": "90E98C06DB00",
-          "off": "000000000000"
+          "offset": "7FC5FC70",
+          "on": "C6800403000003E9FC3FDC00",
+          "off": "000000000000000000000000"
         },
         {
-          "offset": "80A0FEDD",
-          "on": "E96EF924FF",
-          "off": "E8CE701F00"
+          "offset": "80A23C72",
+          "on": "E9F9BF23FF90",
+          "off": "898804030000"
         }
       ]
     },
@@ -231,6 +215,22 @@
           "offset": "80A23C22",
           "on": "E9E9BE23FF90",
           "off": "898808030000"
+        }
+      ]
+    },
+    {
+      "name": "Max/Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5FDB0",
+          "on": "C680DC02000005E92C48D400",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "809A45E2",
+          "on": "E9C9B72BFF90",
+          "off": "8988DC020000"
         }
       ]
     }

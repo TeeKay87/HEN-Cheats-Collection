@@ -5,43 +5,6 @@
   "process": "kh02.elf",
   "mods": [
     {
-      "name": "No MP reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "19A655",
-          "on": "909090909090",
-          "off": "89831C070000"
-        }
-      ]
-    },
-    {
-      "name": "Max XP",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "33AE1C",
-          "on": "81C280969800",
-          "off": "81F980969800"
-        },
-        {
-          "offset": "33AE22",
-          "on": "909090",
-          "off": "0F4CD1"
-        },
-        {
-          "offset": "33AE28",
-          "on": "9090",
-          "off": "85C9"
-        },
-        {
-          "offset": "33AE2A",
-          "on": "4189D590",
-          "off": "440F49EA"
-        }
-      ]
-    },
-    {
       "name": "Infinite Focus",
       "type": "checkbox",
       "memory": [
@@ -74,6 +37,43 @@
           "offset": "505C63",
           "on": "F30F584B70",
           "off": "C5EA5C4B70"
+        }
+      ]
+    },
+    {
+      "name": "Max XP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "33AE1C",
+          "on": "81C280969800",
+          "off": "81F980969800"
+        },
+        {
+          "offset": "33AE22",
+          "on": "909090",
+          "off": "0F4CD1"
+        },
+        {
+          "offset": "33AE28",
+          "on": "9090",
+          "off": "85C9"
+        },
+        {
+          "offset": "33AE2A",
+          "on": "4189D590",
+          "off": "440F49EA"
+        }
+      ]
+    },
+    {
+      "name": "No MP reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "19A655",
+          "on": "909090909090",
+          "off": "89831C070000"
         }
       ]
     }

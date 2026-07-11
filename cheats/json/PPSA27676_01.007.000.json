@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Hp",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "19CD638",
-          "on": "9090909090",
-          "off": "E863FCFCFF"
-        }
-      ]
-    },
-    {
       "name": "Inf Ammo",
       "type": "checkbox",
       "memory": [
@@ -32,17 +21,6 @@
       ]
     },
     {
-      "name": "Inf Lives",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1BDFD41",
-          "on": "9090",
-          "off": "FFC8"
-        }
-      ]
-    },
-    {
       "name": "Inf Coins",
       "type": "checkbox",
       "memory": [
@@ -55,6 +33,28 @@
           "offset": "1CCD589",
           "on": "E9A35A100590",
           "off": "8987D0010000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "19CD638",
+          "on": "9090909090",
+          "off": "E863FCFCFF"
+        }
+      ]
+    },
+    {
+      "name": "Inf Lives",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1BDFD41",
+          "on": "9090",
+          "off": "FFC8"
         }
       ]
     }

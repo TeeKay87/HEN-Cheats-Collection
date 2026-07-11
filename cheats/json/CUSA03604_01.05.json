@@ -5,18 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Mana",
+      "name": "Infinite Breeath",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5B330",
-          "on": "C6472000E97A17C581",
+          "offset": "7FC5B7A0",
+          "on": "C6404000E9FED6F281",
           "off": "000000000000000000"
         },
         {
-          "offset": "18ACAAE",
-          "on": "E97DE83A7E",
-          "off": "C5FA114720"
+          "offset": "1B88EA2",
+          "on": "E9F9280D7E",
+          "off": "C5FA114040"
         }
       ]
     },
@@ -37,18 +37,18 @@
       ]
     },
     {
-      "name": "Infinite Breeath",
+      "name": "Infinite Mana",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5B7A0",
-          "on": "C6404000E9FED6F281",
+          "offset": "7FC5B330",
+          "on": "C6472000E97A17C581",
           "off": "000000000000000000"
         },
         {
-          "offset": "1B88EA2",
-          "on": "E9F9280D7E",
-          "off": "C5FA114040"
+          "offset": "18ACAAE",
+          "on": "E97DE83A7E",
+          "off": "C5FA114720"
         }
       ]
     },

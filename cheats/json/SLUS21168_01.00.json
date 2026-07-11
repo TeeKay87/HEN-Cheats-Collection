@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "RETURN-Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "80806EFAE8",
-          "on": "FF",
-          "off": "FF"
-        },
-        {
-          "offset": "80806F2184",
-          "on": "000003E7",
-          "off": "000003E7"
-        }
-      ]
-    },
-    {
       "name": "MAX-EXP",
       "type": "checkbox",
       "memory": [
@@ -38,6 +22,22 @@
           "offset": "80806EFADE",
           "on": "FF",
           "off": "FF"
+        }
+      ]
+    },
+    {
+      "name": "RETURN-Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80806EFAE8",
+          "on": "FF",
+          "off": "FF"
+        },
+        {
+          "offset": "80806F2184",
+          "on": "000003E7",
+          "off": "000003E7"
         }
       ]
     }

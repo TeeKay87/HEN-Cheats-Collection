@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite REP points (Spend REP points to take effect)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "52D5F5",
-          "on": "41899C24B0000000",
-          "off": "41019C24B0000000"
-        },
-        {
-          "offset": "52D5EC",
-          "on": "BB7F96980090909090",
-          "off": "4839010F8499000000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Hype Points (Earn Hype points to take effect)",
       "type": "checkbox",
       "memory": [
@@ -37,13 +21,18 @@
       ]
     },
     {
-      "name": "Skillpoints increase by using",
+      "name": "Infinite REP points (Spend REP points to take effect)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "596770",
-          "on": "01B7580C0000",
-          "off": "89B7580C0000"
+          "offset": "52D5F5",
+          "on": "41899C24B0000000",
+          "off": "41019C24B0000000"
+        },
+        {
+          "offset": "52D5EC",
+          "on": "BB7F96980090909090",
+          "off": "4839010F8499000000"
         }
       ]
     },
@@ -70,18 +59,13 @@
       ]
     },
     {
-      "name": "Infinite REP points (Spend REP points to take effect)",
+      "name": "Skillpoints increase by using",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "12D5F5",
-          "on": "41899C24B0000000",
-          "off": "41019C24B0000000"
-        },
-        {
-          "offset": "12D5EC",
-          "on": "BB7F96980090909090",
-          "off": "4839010F8499000000"
+          "offset": "596770",
+          "on": "01B7580C0000",
+          "off": "89B7580C0000"
         }
       ]
     },
@@ -102,13 +86,18 @@
       ]
     },
     {
-      "name": "Skillpoints increase by using",
+      "name": "Infinite REP points (Spend REP points to take effect)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "196770",
-          "on": "01B7580C0000",
-          "off": "89B7580C0000"
+          "offset": "12D5F5",
+          "on": "41899C24B0000000",
+          "off": "41019C24B0000000"
+        },
+        {
+          "offset": "12D5EC",
+          "on": "BB7F96980090909090",
+          "off": "4839010F8499000000"
         }
       ]
     },
@@ -131,6 +120,17 @@
           "offset": "24D4BC628",
           "on": "C8",
           "off": "C8"
+        }
+      ]
+    },
+    {
+      "name": "Skillpoints increase by using",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "196770",
+          "on": "01B7580C0000",
+          "off": "89B7580C0000"
         }
       ]
     }

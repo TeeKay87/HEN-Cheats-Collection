@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max/Infinite Health/1 Hit Kill (Master Code)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2AD3570",
-          "on": "41807F3000751AC4C17A1087EC000000C4C17A1187E8000000E93A965DFD0F57C0C4C17A1187E8000000E929965DFD",
-          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "ACBBF",
-          "on": "E9AC69A20290909090",
-          "off": "C4C17A1187E8000000"
-        }
-      ]
-    },
-    {
       "name": "1 Hit Kill (Need MC)",
       "type": "checkbox",
       "memory": [
@@ -28,22 +12,6 @@
           "offset": "2AD3575",
           "on": "7517",
           "off": "751A"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2AD3900",
-          "on": "C4C17A108654010000C4C17A118654010000E9E6955DFD",
-          "off": "0000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "ACEF4",
-          "on": "E9076AA20290909090",
-          "off": "C4C17A118654010000"
         }
       ]
     },
@@ -64,13 +32,18 @@
       ]
     },
     {
-      "name": "Max Zeni",
+      "name": "Infinite Stamina",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "86579F",
-          "on": "B800CA9A3B",
-          "off": "3D00CA9A3B"
+          "offset": "2AD3900",
+          "on": "C4C17A108654010000C4C17A118654010000E9E6955DFD",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "ACEF4",
+          "on": "E9076AA20290909090",
+          "off": "C4C17A118654010000"
         }
       ]
     },
@@ -91,6 +64,17 @@
       ]
     },
     {
+      "name": "Max Zeni",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "86579F",
+          "on": "B800CA9A3B",
+          "off": "3D00CA9A3B"
+        }
+      ]
+    },
+    {
       "name": "Max/Infinite Attribute Points",
       "type": "checkbox",
       "memory": [
@@ -103,6 +87,22 @@
           "offset": "541A54",
           "on": "E9D71F59029090",
           "off": "4589B700020000"
+        }
+      ]
+    },
+    {
+      "name": "Max/Infinite Health/1 Hit Kill (Master Code)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2AD3570",
+          "on": "41807F3000751AC4C17A1087EC000000C4C17A1187E8000000E93A965DFD0F57C0C4C17A1187E8000000E929965DFD",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "ACBBF",
+          "on": "E9AC69A20290909090",
+          "off": "C4C17A1187E8000000"
         }
       ]
     }

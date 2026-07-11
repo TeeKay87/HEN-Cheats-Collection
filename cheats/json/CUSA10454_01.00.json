@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Double Money",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "52E0B3",
+          "on": "41018C2438F20A00",
+          "off": "41898C2438F20A00"
+        }
+      ]
+    },
+    {
       "name": "High Score",
       "type": "checkbox",
       "memory": [
@@ -16,12 +27,12 @@
       ]
     },
     {
-      "name": "Double Money",
+      "name": "Infinite Money",
       "type": "checkbox",
       "memory": [
         {
           "offset": "52E0B3",
-          "on": "41018C2438F20A00",
+          "on": "9090909090909090",
           "off": "41898C2438F20A00"
         }
       ]

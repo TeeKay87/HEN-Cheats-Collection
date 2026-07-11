@@ -2,6 +2,22 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Itorah" Moder="Ali-mk" Cusa="CUSA34062" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
+  <Cheat Text="Inf-Gems + blue-Crystal-items">
+    <Cheatline>
+      <Offset>8077BB9B</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90</ValueOn>
+      <ValueOff>41-89-47-18</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Inf-Healing-Power">
+    <Cheatline>
+      <Offset>8175D63F</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90</ValueOn>
+      <ValueOff>41-FF-4E-28</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Infinite-Health-(mc)">
     <Cheatline>
       <Offset>8213F800</Offset>
@@ -24,14 +40,6 @@
       <ValueOff>C5-FA-11-43-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="one-Hit-Kill-us-inf-hp">
-    <Cheatline>
-      <Offset>805CF2E5</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90</ValueOn>
-      <ValueOff>C4-C1-7A-10-4F-24</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Invincible-1-HIT">
     <Cheatline>
       <Offset>805CF32A</Offset>
@@ -40,20 +48,12 @@
       <ValueOff>C4-C1-7A-10-46-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf-Healing-Power">
+  <Cheat Text="one-Hit-Kill-us-inf-hp">
     <Cheatline>
-      <Offset>8175D63F</Offset>
+      <Offset>805CF2E5</Offset>
       <Section>0</Section>
-      <ValueOn>90-90-90-90</ValueOn>
-      <ValueOff>41-FF-4E-28</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Inf-Gems + blue-Crystal-items">
-    <Cheatline>
-      <Offset>8077BB9B</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90</ValueOn>
-      <ValueOff>41-89-47-18</ValueOff>
+      <ValueOn>90-90-90-90-90-90</ValueOn>
+      <ValueOff>C4-C1-7A-10-4F-24</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

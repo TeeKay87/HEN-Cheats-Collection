@@ -27,13 +27,13 @@
       ]
     },
     {
-      "name": "No Reload",
+      "name": "Infinite Oxigen (Not A Hero)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1A1199F",
-          "on": "418B4500",
-          "off": "41894500"
+          "offset": "51CC92A",
+          "on": "909090",
+          "off": "894720"
         }
       ]
     },
@@ -45,17 +45,6 @@
           "offset": "3E0734A",
           "on": "90909090909090",
           "off": "4589A688000000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Oxigen (Not A Hero)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "51CC92A",
-          "on": "909090",
-          "off": "894720"
         }
       ]
     },
@@ -72,6 +61,17 @@
           "offset": "254B242",
           "on": "E9B98B3408",
           "off": "45896C246C"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1A1199F",
+          "on": "418B4500",
+          "off": "41894500"
         }
       ]
     },

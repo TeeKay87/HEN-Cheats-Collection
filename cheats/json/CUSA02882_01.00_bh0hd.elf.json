@@ -43,6 +43,39 @@
       ]
     },
     {
+      "name": "1 Hit Kills",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "AFF801",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Bottomless Clip",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1112A7",
+          "on": "9090",
+          "off": "29C1"
+        }
+      ]
+    },
+    {
+      "name": "Freeze SaveCounter",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "28A350",
+          "on": "9090",
+          "off": "FF00"
+        }
+      ]
+    },
+    {
       "name": "Health / 1 Hit Mastercode",
       "type": "checkbox",
       "memory": [
@@ -59,6 +92,17 @@
       ]
     },
     {
+      "name": "Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1115CF",
+          "on": "9090",
+          "off": "29FE"
+        }
+      ]
+    },
+    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -70,13 +114,13 @@
       ]
     },
     {
-      "name": "1 Hit Kills",
+      "name": "Infinite Items",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "AFF801",
-          "on": "01",
-          "off": "00"
+          "offset": "110BD5",
+          "on": "909090909090909090",
+          "off": "4BC744E60400000000"
         }
       ]
     },
@@ -93,50 +137,6 @@
           "offset": "110B25",
           "on": "EB2A",
           "off": "742A"
-        }
-      ]
-    },
-    {
-      "name": "Bottomless Clip",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1112A7",
-          "on": "9090",
-          "off": "29C1"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1115CF",
-          "on": "9090",
-          "off": "29FE"
-        }
-      ]
-    },
-    {
-      "name": "Freeze SaveCounter",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "28A350",
-          "on": "9090",
-          "off": "FF00"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Items",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "110BD5",
-          "on": "909090909090909090",
-          "off": "4BC744E60400000000"
         }
       ]
     }

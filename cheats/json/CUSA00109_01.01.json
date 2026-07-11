@@ -47,17 +47,6 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "632C52",
-          "on": "90909090909090",
-          "off": "41FF8DD0000000"
-        }
-      ]
-    },
-    {
       "name": "Inf Skill Points",
       "type": "checkbox",
       "memory": [
@@ -65,6 +54,17 @@
           "offset": "76C3A9",
           "on": "4429C0",
           "off": "4429F8"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "632C52",
+          "on": "90909090909090",
+          "off": "41FF8DD0000000"
         }
       ]
     }

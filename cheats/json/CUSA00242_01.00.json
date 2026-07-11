@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Freeze Item Count",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "9227E1",
+          "on": "90909090",
+          "off": "4489780C"
+        }
+      ]
+    },
+    {
       "name": "Infinite Mana",
       "type": "checkbox",
       "memory": [
@@ -27,17 +38,6 @@
       ]
     },
     {
-      "name": "Freeze Item Count",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "9227E1",
-          "on": "90909090",
-          "off": "4489780C"
-        }
-      ]
-    },
-    {
       "name": "Max Money",
       "hint": "Collect money once to max it out.",
       "type": "button",
@@ -46,6 +46,17 @@
           "offset": "8873C9",
           "on": "4A89A4E3208D0000",
           "off": "4A89A4E3208D0000"
+        }
+      ]
+    },
+    {
+      "name": "Freeze Item Count",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5227e1",
+          "on": "90909090",
+          "off": "4489780C"
         }
       ]
     },
@@ -68,17 +79,6 @@
           "offset": "79c486",
           "on": "B90F27000090909090",
           "off": "81F9FFFFFF000F43C8"
-        }
-      ]
-    },
-    {
-      "name": "Freeze Item Count",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5227e1",
-          "on": "90909090",
-          "off": "4489780C"
         }
       ]
     },

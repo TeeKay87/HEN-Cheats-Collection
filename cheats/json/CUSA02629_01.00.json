@@ -5,50 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Money",
+      "name": "Max Heal HP In Hospital",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "587800",
-          "on": "48B8FF7FC6A47E8D0300488987180A0000E9ABAEBBFF",
-          "off": "00000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "1426BA",
-          "on": "E9415144009090",
-          "off": "488987180A0000"
-        }
-      ]
-    },
-    {
-      "name": "Max Mana \u0022Use Skill Shop\u0022",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "587816",
-          "on": "B87F9698008981F82D0000E912CAE3FF",
+          "offset": "587846",
+          "on": "48C7C07F96980048894738E9E289DFFF",
           "off": "00000000000000000000000000000000"
         },
         {
-          "offset": "3C4232",
-          "on": "E9DF351C0090",
-          "off": "8981F82D0000"
-        }
-      ]
-    },
-    {
-      "name": "Quick Level Up",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "587826",
-          "on": "4881C3FFE0F50549895E08E98D0EAAFF",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "286BB",
-          "on": "E966F15500909090",
-          "off": "480F4FD849895E08"
+          "offset": "380230",
+          "on": "E911762000909090",
+          "off": "480F42C648894738"
         }
       ]
     },
@@ -69,18 +37,50 @@
       ]
     },
     {
-      "name": "Max Heal HP In Hospital",
+      "name": "Max Item Points \u0022Item World\u0022",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "587846",
-          "on": "48C7C07F96980048894738E9E289DFFF",
+          "offset": "5878A3",
+          "on": "48C7C3FFC99A3B488998300A0000E91FFFD4FF",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "2D77CE",
+          "on": "E9D0002B009090",
+          "off": "488998300A0000"
+        }
+      ]
+    },
+    {
+      "name": "Max Mana \u0022Use Skill Shop\u0022",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "587816",
+          "on": "B87F9698008981F82D0000E912CAE3FF",
           "off": "00000000000000000000000000000000"
         },
         {
-          "offset": "380230",
-          "on": "E911762000909090",
-          "off": "480F42C648894738"
+          "offset": "3C4232",
+          "on": "E9DF351C0090",
+          "off": "8981F82D0000"
+        }
+      ]
+    },
+    {
+      "name": "Max Money",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "587800",
+          "on": "48B8FF7FC6A47E8D0300488987180A0000E9ABAEBBFF",
+          "off": "00000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1426BA",
+          "on": "E9415144009090",
+          "off": "488987180A0000"
         }
       ]
     },
@@ -101,6 +101,22 @@
       ]
     },
     {
+      "name": "Quick Level Up",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "587826",
+          "on": "4881C3FFE0F50549895E08E98D0EAAFF",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "286BB",
+          "on": "E966F15500909090",
+          "off": "480F4FD849895E08"
+        }
+      ]
+    },
+    {
       "name": "Quick Level Up Skill Power ",
       "type": "checkbox",
       "memory": [
@@ -113,22 +129,6 @@
           "offset": "3C425F",
           "on": "E903361C00909090",
           "off": "480F4DC24188470A"
-        }
-      ]
-    },
-    {
-      "name": "Quickly Gain Customer Rank",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "587872",
-          "on": "4981C4FFC99A3B4D01A7200A0000E99D6CE1FF",
-          "off": "00000000000000000000000000000000000000"
-        },
-        {
-          "offset": "39E51B",
-          "on": "E952931E009090",
-          "off": "4D01A7200A0000"
         }
       ]
     },
@@ -165,18 +165,18 @@
       ]
     },
     {
-      "name": "Max Item Points \u0022Item World\u0022",
+      "name": "Quickly Gain Customer Rank",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "5878A3",
-          "on": "48C7C3FFC99A3B488998300A0000E91FFFD4FF",
+          "offset": "587872",
+          "on": "4981C4FFC99A3B4D01A7200A0000E99D6CE1FF",
           "off": "00000000000000000000000000000000000000"
         },
         {
-          "offset": "2D77CE",
-          "on": "E9D0002B009090",
-          "off": "488998300A0000"
+          "offset": "39E51B",
+          "on": "E952931E009090",
+          "off": "4D01A7200A0000"
         }
       ]
     },

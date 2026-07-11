@@ -2,6 +2,14 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="IMMORTAL: UNCHAINED" Moder="Saso_9.00" Cusa="CUSA10161" Version="01.17" Process="eboot.bin">
   <Genres Name="FPS" />
   <Items />
+  <Cheat Text="Ammo / Stamina / Energy / Consumable (MC)">
+    <Cheatline>
+      <Offset>1D77804</Offset>
+      <Section>0</Section>
+      <ValueOn>75-34</ValueOn>
+      <ValueOff>75-26</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Health / All (Master Code)">
     <Cheatline>
       <Offset>1D77800</Offset>
@@ -14,14 +22,6 @@
       <Section>0</Section>
       <ValueOn>E9-41-9C-B3-00</ValueOn>
       <ValueOff>4D-89-1A-8B-03</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Ammo / Stamina / Energy / Consumable (MC)">
-    <Cheatline>
-      <Offset>1D77804</Offset>
-      <Section>0</Section>
-      <ValueOn>75-34</ValueOn>
-      <ValueOff>75-26</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

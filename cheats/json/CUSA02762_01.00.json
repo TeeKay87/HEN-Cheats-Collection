@@ -5,6 +5,22 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "10000 XP On Get",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1457883",
+          "on": "81875001000000000100E9CF1C1AFF",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "5F955B",
+          "on": "E923E3E50090",
+          "off": "89B750010000"
+        }
+      ]
+    },
+    {
       "name": "Max Inf HP",
       "type": "checkbox",
       "memory": [
@@ -60,22 +76,6 @@
           "offset": "3D95A0",
           "on": "E9A3E2070190",
           "off": "898FCC000000"
-        }
-      ]
-    },
-    {
-      "name": "10000 XP On Get",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1457883",
-          "on": "81875001000000000100E9CF1C1AFF",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "5F955B",
-          "on": "E923E3E50090",
-          "off": "89B750010000"
         }
       ]
     },

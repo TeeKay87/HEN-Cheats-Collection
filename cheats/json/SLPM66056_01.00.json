@@ -5,18 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Invincible P1",
+      "name": "Infinite bomb P1",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "807FDF4E40",
-          "on": "0000",
-          "off": "FFFF"
-        },
-        {
-          "offset": "807FDF4E41",
-          "on": "0000",
-          "off": "FFFF"
+          "offset": "807FDF47A2",
+          "on": "00",
+          "off": "63"
         }
       ]
     },
@@ -32,13 +27,18 @@
       ]
     },
     {
-      "name": "Infinite bomb P1",
+      "name": "Invincible P1",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "807FDF47A2",
-          "on": "00",
-          "off": "63"
+          "offset": "807FDF4E40",
+          "on": "0000",
+          "off": "FFFF"
+        },
+        {
+          "offset": "807FDF4E41",
+          "on": "0000",
+          "off": "FFFF"
         }
       ]
     }

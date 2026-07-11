@@ -5,33 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "23BF817",
-          "on": "C783E80000000000C842E9D3D260FE",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "9CCAF1",
-          "on": "E9212D9F01909090",
-          "off": "C5FA1183E8000000"
-        }
-      ]
-    },
-    {
-      "name": "Stealth Mode ( Dont touch Enemy )",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "C65695",
-          "on": "0F57C99090",
-          "off": "C5FA114F64"
-        }
-      ]
-    },
-    {
       "name": "Infinite Focus",
       "type": "checkbox",
       "memory": [
@@ -48,18 +21,18 @@
       ]
     },
     {
-      "name": "Max Money ( on gain )",
+      "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "23BF800",
-          "on": "39D8BB00E1F505E9092F91FE",
-          "off": "000000000000000000000000"
+          "offset": "23BF817",
+          "on": "C783E80000000000C842E9D3D260FE",
+          "off": "000000000000000000000000000000"
         },
         {
-          "offset": "CD2710",
-          "on": "E9EBD06E01",
-          "off": "39D80F4ED8"
+          "offset": "9CCAF1",
+          "on": "E9212D9F01909090",
+          "off": "C5FA1183E8000000"
         }
       ]
     },
@@ -80,6 +53,22 @@
       ]
     },
     {
+      "name": "Max Money ( on gain )",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "23BF800",
+          "on": "39D8BB00E1F505E9092F91FE",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "CD2710",
+          "on": "E9EBD06E01",
+          "off": "39D80F4ED8"
+        }
+      ]
+    },
+    {
       "name": "One Hit Kill",
       "type": "checkbox",
       "memory": [
@@ -89,11 +78,22 @@
           "off": "C4C17A114D68"
         }
       ]
+    },
+    {
+      "name": "Stealth Mode ( Dont touch Enemy )",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "C65695",
+          "on": "0F57C99090",
+          "off": "C5FA114F64"
+        }
+      ]
     }
   ],
   "credits": [
-    "Wander ",
-    " Reddevil82 ",
-    " FW 9.00"
+    "Wander",
+    "Reddevil82",
+    "FW 9.00"
   ]
 }

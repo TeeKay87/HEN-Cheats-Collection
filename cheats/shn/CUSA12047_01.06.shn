@@ -2,68 +2,24 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Sekiro: Shadows Die Twice" Moder="hejran7 and Pharaoh2k" Cusa="CUSA12047" Version="01.06" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Speed MC (Must Be On)">
+  <Cheat Text="100% Drop Rate">
     <Cheatline>
-      <Offset>03AAF067</Offset>
+      <Offset>03AAF170</Offset>
       <Section>0</Section>
-      <ValueOn>48-81-FA-07-5D-36-04-75-0F-C7-87-70-09-00-00-00-00-80-3F-E9-F5-5B-C6-FD-C7-87-70-09-00-00-00-00-80-3F-E9-E6-5B-C6-FD</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+      <ValueOn>50-B8-00-00-7A-44-66-0F-6E-C0-58-E9-F2-87-8D-FD</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>01714C6A</Offset>
+      <Offset>0138796A</Offset>
       <Section>0</Section>
-      <ValueOn>E9-F8-A3-39-02-90-90-90-90-90</ValueOn>
-      <ValueOff>C7-87-70-09-00-00-00-00-80-3F</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Super HP Bar On Reload" Description="(permanent hp bar works on save file as well)">
-    <Cheatline>
-      <Offset>03AAF15E</Offset>
-      <Section>0</Section>
-      <ValueOn>B9-40-4B-4C-00-41-89-4F-18-41-89-4F-20-E9-2C-17-A3-FD</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+      <ValueOn>E9-01-78-72-02-90-90-90</ValueOn>
+      <ValueOff>C5-FA-10-82-04-02-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>014E0896</Offset>
+      <Offset>013872A9</Offset>
       <Section>0</Section>
-      <ValueOn>E9-C3-E8-5C-02-90</ValueOn>
-      <ValueOff>8B-88-34-01-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Health">
-    <Cheatline>
-      <Offset>03AAF0B4</Offset>
-      <Section>0</Section>
-      <ValueOn>8B-88-34-01-00-00-89-88-30-01-00-00-E9-F5-14-05-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>01B005B4</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-FB-EA-FA-01-90</ValueOn>
-      <ValueOff>8B-88-30-01-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="One Hit Kill">
-    <Cheatline>
-      <Offset>01762316</Offset>
-      <Section>0</Section>
-      <ValueOn>B0-01-90-90-90-90</ValueOn>
-      <ValueOff>8A-05-BD-39-80-02</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Untouchable" Description="cant be hit">
-    <Cheatline>
-      <Offset>03AAF136</Offset>
-      <Section>0</Section>
-      <ValueOn>4C-89-FE-4C-89-EA-66-81-FC-C0-84-0F-84-9A-D8-CA-FD-E9-90-D8-CA-FD</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>0175C9D6</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-5B-27-35-02-90</ValueOn>
-      <ValueOff>4C-89-FE-4C-89-EA</ValueOff>
+      <ValueOn>E9-A6-06-00-00-90-90-90</ValueOn>
+      <ValueOff>F6-41-21-70-C5-F0-57-C9</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Auto Block Target">
@@ -92,34 +48,28 @@
       <ValueOff>48-8B-36-48-8B-7E-70</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Parry Always On Time" Description="Parry when holdeing L1">
+  <Cheat Text="Auto Pick Enemy Drops">
     <Cheatline>
-      <Offset>014C710F</Offset>
+      <Offset>01378334</Offset>
       <Section>0</Section>
-      <ValueOn>80-3D-D7-EB-A9-02-01</ValueOn>
-      <ValueOff>80-3D-D7-EB-A9-02-00</ValueOff>
+      <ValueOn>B0-00</ValueOn>
+      <ValueOff>B0-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Player Infinite Posture">
+  <Cheat Text="Enemy Don't Attack">
     <Cheatline>
-      <Offset>01769A25</Offset>
+      <Offset>E84E9E</Offset>
       <Section>0</Section>
-      <ValueOn>80-3D-C3-C2-7F-02-01</ValueOn>
-      <ValueOff>80-3D-C3-C2-7F-02-00</ValueOff>
+      <ValueOn>80-3D-41-0E-0E-03-01</ValueOn>
+      <ValueOff>80-3D-41-0E-0E-03-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quick Deathblow">
+  <Cheat Text="Enemy Don't Move">
     <Cheatline>
-      <Offset>03AAF08E</Offset>
+      <Offset>011FEC4B</Offset>
       <Section>0</Section>
-      <ValueOn>41-83-7D-18-00-75-0C-45-89-A5-48-01-00-00-E9-3F-07-D8-FD-45-89-BD-48-01-00-00-E9-33-07-D8-FD</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>0182F7D9</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-B0-F8-27-02-90-90</ValueOn>
-      <ValueOff>45-89-A5-48-01-00-00</ValueOff>
+      <ValueOn>80-3D-96-70-D6-02-00</ValueOn>
+      <ValueOff>80-3D-96-70-D6-02-01</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Enemy Infinite posture" Description="for practice">
@@ -130,64 +80,20 @@
       <ValueOff>80-3D-39-65-73-02-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="100% Drop Rate">
+  <Cheat Text="Enemy Location">
     <Cheatline>
-      <Offset>03AAF170</Offset>
+      <Offset>F579BC</Offset>
       <Section>0</Section>
-      <ValueOn>50-B8-00-00-7A-44-66-0F-6E-C0-58-E9-F2-87-8D-FD</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>0138796A</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-01-78-72-02-90-90-90</ValueOn>
-      <ValueOff>C5-FA-10-82-04-02-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>013872A9</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-A6-06-00-00-90-90-90</ValueOn>
-      <ValueOff>F6-41-21-70-C5-F0-57-C9</ValueOff>
+      <ValueOn>45-89-87-68-01-00-00</ValueOn>
+      <ValueOff>41-89-87-68-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money">
+  <Cheat Text="Enemy Speed 0.00">
     <Cheatline>
-      <Offset>014C448A</Offset>
+      <Offset>03AAF07F</Offset>
       <Section>0</Section>
-      <ValueOn>89-C8-90</ValueOn>
-      <ValueOff>0F-4C-C8</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Max Items On Use" Description="max items on use or when items get transfer to Storage, must have 1 at least">
-    <Cheatline>
-      <Offset>011AE809</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90</ValueOn>
-      <ValueOff>75-13</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Quick Items">
-    <Cheatline>
-      <Offset>014904AF</Offset>
-      <Section>0</Section>
-      <ValueOn>80-3D-25-58-AD-02-01</ValueOn>
-      <ValueOff>80-3D-25-58-AD-02-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Merchant Items" Description="turn off after use or when traveling, does not apply to (Prosthetic) upgrade materials">
-    <Cheatline>
-      <Offset>0107FFD8</Offset>
-      <Section>0</Section>
-      <ValueOn>31-D2-90-90-90</ValueOn>
-      <ValueOff>BA-01-00-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Auto Pick Enemy Drops">
-    <Cheatline>
-      <Offset>01378334</Offset>
-      <Section>0</Section>
-      <ValueOn>B0-00</ValueOn>
-      <ValueOff>B0-01</ValueOff>
+      <ValueOn>C7-87-70-09-00-00-00-00-00-00</ValueOn>
+      <ValueOff>C7-87-70-09-00-00-00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Exp Quick lvl Up">
@@ -204,7 +110,7 @@
       <ValueOff>41-8B-8D-60-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="High Jump" Description="turn off when traveling">
+  <Cheat Text="High Jump">
     <Cheatline>
       <Offset>03AAF0C5</Offset>
       <Section>0</Section>
@@ -218,42 +124,72 @@
       <ValueOff>C4-C1-79-10-86-C0-08-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Undetected">
+  <Cheat Text="Infinite Health">
     <Cheatline>
-      <Offset>0182DFE1</Offset>
+      <Offset>03AAF0B4</Offset>
       <Section>0</Section>
-      <ValueOn>B0-01-90-90-90-90</ValueOn>
-      <ValueOff>8A-05-FA-7C-73-02</ValueOff>
+      <ValueOn>8B-88-34-01-00-00-89-88-30-01-00-00-E9-F5-14-05-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>01E9D819</Offset>
+      <Offset>01B005B4</Offset>
       <Section>0</Section>
-      <ValueOn>80-3D-C2-84-0C-02-01</ValueOn>
-      <ValueOff>80-3D-C2-84-0C-02-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Enemy Location">
-    <Cheatline>
-      <Offset>F579BC</Offset>
-      <Section>0</Section>
-      <ValueOn>45-89-87-68-01-00-00</ValueOn>
-      <ValueOff>41-89-87-68-01-00-00</ValueOff>
+      <ValueOn>E9-FB-EA-FA-01-90</ValueOn>
+      <ValueOff>8B-88-30-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Enemy Don't Move">
+  <Cheat Text="Infinite Merchant Items" Description="turn off after use or when traveling, does not apply to (Prosthetic) upgrade materials">
     <Cheatline>
-      <Offset>011FEC4B</Offset>
+      <Offset>0107FFD8</Offset>
       <Section>0</Section>
-      <ValueOn>80-3D-96-70-D6-02-00</ValueOn>
-      <ValueOff>80-3D-96-70-D6-02-01</ValueOff>
+      <ValueOn>31-D2-90-90-90</ValueOn>
+      <ValueOff>BA-01-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Enemy Don't Attack">
+  <Cheat Text="Infinite Quick Items">
     <Cheatline>
-      <Offset>E84E9E</Offset>
+      <Offset>014904AF</Offset>
       <Section>0</Section>
-      <ValueOn>80-3D-41-0E-0E-03-01</ValueOn>
-      <ValueOff>80-3D-41-0E-0E-03-00</ValueOff>
+      <ValueOn>80-3D-25-58-AD-02-01</ValueOn>
+      <ValueOff>80-3D-25-58-AD-02-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Resurrection" Description="you need one resurrection charge at least">
+    <Cheatline>
+      <Offset>014BD532</Offset>
+      <Section>0</Section>
+      <ValueOn>80-3D-A4-87-AA-02-01</ValueOn>
+      <ValueOff>80-3D-A4-87-AA-02-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max Items On Use" Description="max items on use or when items get transfer to Storage, must have 1 at least">
+    <Cheatline>
+      <Offset>011AE809</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90</ValueOn>
+      <ValueOff>75-13</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max Money">
+    <Cheatline>
+      <Offset>014C448A</Offset>
+      <Section>0</Section>
+      <ValueOn>89-C8-90</ValueOn>
+      <ValueOff>0F-4C-C8</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Mikiri Counter Always On Time Test">
+    <Cheatline>
+      <Offset>03AD3842</Offset>
+      <Section>0</Section>
+      <ValueOn>49-81-FA-B8-FF-01-00-74-02-B0-01-88-85-20-FC-FF-FF-E9-FF-0F-92-FD</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>013F4851</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-EC-EF-6D-02-90</ValueOn>
+      <ValueOff>88-85-20-FC-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="No Fall Damage">
@@ -262,6 +198,20 @@
       <Section>0</Section>
       <ValueOn>89-C8-90</ValueOn>
       <ValueOff>44-29-E0</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="No Money\Exp loss Upon Death">
+    <Cheatline>
+      <Offset>01FC8949</Offset>
+      <Section>0</Section>
+      <ValueOn>44-89-F2</ValueOn>
+      <ValueOff>0F-4F-D0</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>01FC8A3F</Offset>
+      <Section>0</Section>
+      <ValueOn>44-89-CF</ValueOn>
+      <ValueOff>0F-4F-F9</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="No Status Effects" Description="Poison\Terror\Burn\Enfeeblement\Shock\Stepping into the fire">
@@ -302,18 +252,36 @@
       <ValueOff>44-0F-4E-F0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Money\Exp loss Upon Death">
+  <Cheat Text="One Hit Kill">
     <Cheatline>
-      <Offset>01FC8949</Offset>
+      <Offset>01762316</Offset>
       <Section>0</Section>
-      <ValueOn>44-89-F2</ValueOn>
-      <ValueOff>0F-4F-D0</ValueOff>
+      <ValueOn>B0-01-90-90-90-90</ValueOn>
+      <ValueOff>8A-05-BD-39-80-02</ValueOff>
     </Cheatline>
+  </Cheat>
+  <Cheat Text="Parry Always On Time" Description="Parry when holdeing L1">
     <Cheatline>
-      <Offset>01FC8A3F</Offset>
+      <Offset>014C710F</Offset>
       <Section>0</Section>
-      <ValueOn>44-89-CF</ValueOn>
-      <ValueOff>0F-4F-F9</ValueOff>
+      <ValueOn>80-3D-D7-EB-A9-02-01</ValueOn>
+      <ValueOff>80-3D-D7-EB-A9-02-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Player Infinite Posture">
+    <Cheatline>
+      <Offset>01769A25</Offset>
+      <Section>0</Section>
+      <ValueOn>80-3D-C3-C2-7F-02-01</ValueOn>
+      <ValueOff>80-3D-C3-C2-7F-02-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Player Speed 1.50">
+    <Cheatline>
+      <Offset>03AAF070</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-87-70-09-00-00-00-00-C0-3F</ValueOn>
+      <ValueOff>C7-87-70-09-00-00-00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Practice Mode (No One Dies)">
@@ -322,6 +290,20 @@
       <Section>0</Section>
       <ValueOn>90-90-90-90-90-90-90</ValueOn>
       <ValueOff>41-89-86-30-01-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Quick Deathblow">
+    <Cheatline>
+      <Offset>03AAF08E</Offset>
+      <Section>0</Section>
+      <ValueOn>41-83-7D-18-00-75-0C-45-89-A5-48-01-00-00-E9-3F-07-D8-FD-45-89-BD-48-01-00-00-E9-33-07-D8-FD</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>0182F7D9</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-B0-F8-27-02-90-90</ValueOn>
+      <ValueOff>45-89-A5-48-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Resurrection Charge No Cooldown">
@@ -338,28 +320,74 @@
       <ValueOff>C5-FA-10-88-50-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Resurrection" Description="you need one resurrection charge at least">
+  <Cheat Text="Speed MC (Must Be On)">
     <Cheatline>
-      <Offset>014BD532</Offset>
+      <Offset>03AAF067</Offset>
       <Section>0</Section>
-      <ValueOn>80-3D-A4-87-AA-02-01</ValueOn>
-      <ValueOff>80-3D-A4-87-AA-02-00</ValueOff>
+      <ValueOn>48-81-FA-07-5D-36-04-75-0F-C7-87-70-09-00-00-00-00-80-3F-E9-F5-5B-C6-FD-C7-87-70-09-00-00-00-00-80-3F-E9-E6-5B-C6-FD</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
-  </Cheat>
-  <Cheat Text="Player Speed 1.50">
     <Cheatline>
-      <Offset>03AAF070</Offset>
+      <Offset>01714C6A</Offset>
       <Section>0</Section>
-      <ValueOn>C7-87-70-09-00-00-00-00-C0-3F</ValueOn>
+      <ValueOn>E9-F8-A3-39-02-90-90-90-90-90</ValueOn>
       <ValueOff>C7-87-70-09-00-00-00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Enemy Speed 0.00">
+  <Cheat Text="Super HP Bar On Reload" Description="(permanent hp bar works on save file as well)">
     <Cheatline>
-      <Offset>03AAF07F</Offset>
+      <Offset>03AAF15E</Offset>
       <Section>0</Section>
-      <ValueOn>C7-87-70-09-00-00-00-00-00-00</ValueOn>
-      <ValueOff>C7-87-70-09-00-00-00-00-80-3F</ValueOff>
+      <ValueOn>B9-40-4B-4C-00-41-89-4F-18-41-89-4F-20-E9-2C-17-A3-FD</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>014E0896</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-C3-E8-5C-02-90</ValueOn>
+      <ValueOff>8B-88-34-01-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Super Jump" Description="turn off when traveling">
+    <Cheatline>
+      <Offset>03AAF0C5</Offset>
+      <Section>0</Section>
+      <ValueOn>C4-C1-79-10-86-C0-08-00-00-C5-F9-11-05-2A-4F-15-FC-C7-05-24-4F-15-FC-00-00-48-42-C5-F9-10-05-18-4F-15-FC-E9-C1-93-74-FD</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>011F84A5</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-1B-6C-8B-02-90-90-90-90</ValueOn>
+      <ValueOff>C4-C1-79-10-86-C0-08-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Undetected">
+    <Cheatline>
+      <Offset>0182DFE1</Offset>
+      <Section>0</Section>
+      <ValueOn>B0-01-90-90-90-90</ValueOn>
+      <ValueOff>8A-05-FA-7C-73-02</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>01E9D819</Offset>
+      <Section>0</Section>
+      <ValueOn>80-3D-C2-84-0C-02-01</ValueOn>
+      <ValueOff>80-3D-C2-84-0C-02-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Untouchable" Description="cant be hit">
+    <Cheatline>
+      <Offset>03AAF136</Offset>
+      <Section>0</Section>
+      <ValueOn>4C-89-FE-4C-89-EA-66-81-FC-C0-84-0F-84-9A-D8-CA-FD-E9-90-D8-CA-FD</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>0175C9D6</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-5B-27-35-02-90</ValueOn>
+      <ValueOff>4C-89-FE-4C-89-EA</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Untouchable v2" Description="cant be hit">
@@ -374,20 +402,6 @@
       <Section>0</Section>
       <ValueOn>E9-0F-F0-6D-02-90</ValueOn>
       <ValueOff>0F-8F-FA-08-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Mikiri Counter Always On Time Test">
-    <Cheatline>
-      <Offset>03AD3842</Offset>
-      <Section>0</Section>
-      <ValueOn>49-81-FA-B8-FF-01-00-74-02-B0-01-88-85-20-FC-FF-FF-E9-FF-0F-92-FD</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>013F4851</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-EC-EF-6D-02-90</ValueOn>
-      <ValueOff>88-85-20-FC-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

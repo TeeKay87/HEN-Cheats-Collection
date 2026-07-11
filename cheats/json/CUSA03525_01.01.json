@@ -5,6 +5,33 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Freeze Timer",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "ED733",
+          "on": "668988A0FC1200",
+          "off": "668988A0FC1200"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Burst Gauge ",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B6FDE2",
+          "on": "C7407000007A44E9D6D1C77F",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "807ECFBF",
+          "on": "E91E2E3880",
+          "off": "C5FA114070"
+        }
+      ]
+    },
+    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -49,38 +76,6 @@
           "offset": "8052C742",
           "on": "E9B9366480",
           "off": "C5FA114008"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Burst Gauge ",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "B6FDE2",
-          "on": "C7407000007A44E9D6D1C77F",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "807ECFBF",
-          "on": "E91E2E3880",
-          "off": "C5FA114070"
-        }
-      ]
-    },
-    {
-      "name": "Max Money",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "B6FDB0",
-          "on": "C787905B0000FFC99A3B488B87905B0000E9E1849A7F526564646576696C383220465720392E3030",
-          "off": "00000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "8051823A",
-          "on": "E9717B65809090",
-          "off": "488B87905B0000"
         }
       ]
     },
@@ -133,19 +128,24 @@
       ]
     },
     {
-      "name": "Freeze Timer",
+      "name": "Max Money",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "ED733",
-          "on": "668988A0FC1200",
-          "off": "668988A0FC1200"
+          "offset": "B6FDB0",
+          "on": "C787905B0000FFC99A3B488B87905B0000E9E1849A7F526564646576696C383220465720392E3030",
+          "off": "00000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "8051823A",
+          "on": "E9717B65809090",
+          "off": "488B87905B0000"
         }
       ]
     }
   ],
   "credits": [
-    "Reddevil82 ",
+    "Reddevil82",
     "Wander 9.00",
     "W 9.00"
   ]

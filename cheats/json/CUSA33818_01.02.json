@@ -21,17 +21,6 @@
       ]
     },
     {
-      "name": "Inf MP",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "81B20E59",
-          "on": "9090909090",
-          "off": "428954302C"
-        }
-      ]
-    },
-    {
       "name": "Inf Items",
       "type": "checkbox",
       "memory": [
@@ -60,6 +49,17 @@
           "offset": "8075147E",
           "on": "E9DFDB50FF",
           "off": "7405897030"
+        }
+      ]
+    },
+    {
+      "name": "Inf MP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "81B20E59",
+          "on": "9090909090",
+          "off": "428954302C"
         }
       ]
     }

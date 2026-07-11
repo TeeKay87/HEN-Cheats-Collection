@@ -2,20 +2,20 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Lost Soul Aside™" Moder="Sunrita" Cusa="PPSA26358" Version="01.000.000" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Max Divine Gold" Description="pick up 2 times">
+  <Cheat Text="Infinite Health">
     <Cheatline>
-      <PS5Offset>440-executable[0]-5</PS5Offset>
-      <Offset>61B3BC0</Offset>
+      <PS5Offset>B20-executable[0]-5</PS5Offset>
+      <Offset>61B34E0</Offset>
       <Section>0</Section>
-      <ValueOn>C7-80-98-04-00-00-FF-E0-F5-05-E9-0B-E5-DF-FA</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+      <ValueOn>81-7F-78-00-00-80-3F-75-0C-C7-47-0C-00-00-7A-44-E9-74-12-C0-FA-C5-FA-11-47-0C-E9-6A-12-C0-FA</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <PS5Offset>5201F2D-executable[0]-5</PS5Offset>
-      <Offset>FB20D3</Offset>
+      <PS5Offset>53FF89C-executable[0]-5</PS5Offset>
+      <Offset>DB4764</Offset>
       <Section>0</Section>
-      <ValueOn>E9-E8-1A-20-05-90-90</ValueOn>
-      <ValueOff>44-89-B8-98-04-00-00</ValueOff>
+      <ValueOn>E9-77-ED-3F-05</ValueOn>
+      <ValueOff>C5-FA-11-47-0C</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Item 99" Description="On consume">
@@ -34,20 +34,20 @@
       <ValueOff>41-29-49-04-8B-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Max Divine Gold" Description="pick up 2 times">
     <Cheatline>
-      <PS5Offset>B20-executable[0]-5</PS5Offset>
-      <Offset>61B34E0</Offset>
+      <PS5Offset>440-executable[0]-5</PS5Offset>
+      <Offset>61B3BC0</Offset>
       <Section>0</Section>
-      <ValueOn>81-7F-78-00-00-80-3F-75-0C-C7-47-0C-00-00-7A-44-E9-74-12-C0-FA-C5-FA-11-47-0C-E9-6A-12-C0-FA</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+      <ValueOn>C7-80-98-04-00-00-FF-E0-F5-05-E9-0B-E5-DF-FA</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <PS5Offset>53FF89C-executable[0]-5</PS5Offset>
-      <Offset>DB4764</Offset>
+      <PS5Offset>5201F2D-executable[0]-5</PS5Offset>
+      <Offset>FB20D3</Offset>
       <Section>0</Section>
-      <ValueOn>E9-77-ED-3F-05</ValueOn>
-      <ValueOff>C5-FA-11-47-0C</ValueOff>
+      <ValueOn>E9-E8-1A-20-05-90-90</ValueOn>
+      <ValueOff>44-89-B8-98-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

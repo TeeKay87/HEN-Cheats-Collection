@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Guard \u002B (MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "697B821",
+          "on": "9090",
+          "off": "EB40"
+        }
+      ]
+    },
+    {
       "name": "Infinite Health (Master Code)",
       "type": "checkbox",
       "memory": [
@@ -21,28 +32,6 @@
       ]
     },
     {
-      "name": "Infinite Super \u002B  (MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "697B816",
-          "on": "9090",
-          "off": "EB4B"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Guard \u002B (MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "697B821",
-          "on": "9090",
-          "off": "EB40"
-        }
-      ]
-    },
-    {
       "name": "Infinite Stamina \u002B (MC)",
       "type": "checkbox",
       "memory": [
@@ -50,6 +39,17 @@
           "offset": "697B82C",
           "on": "9090",
           "off": "EB35"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Super \u002B  (MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "697B816",
+          "on": "9090",
+          "off": "EB4B"
         }
       ]
     },

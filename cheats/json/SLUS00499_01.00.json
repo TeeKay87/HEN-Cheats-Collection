@@ -5,13 +5,24 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Lives-All Levels",
+      "name": "Inf-Bombs-Need-1",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1D67B8",
-          "on": "63",
-          "off": "05"
+          "offset": "1F42AE",
+          "on": "00",
+          "off": "42"
+        }
+      ]
+    },
+    {
+      "name": "Inf-Bombs-Need-1-3D",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "12BE4A",
+          "on": "00",
+          "off": "62"
         }
       ]
     },
@@ -27,13 +38,13 @@
       ]
     },
     {
-      "name": "Inf-Bombs-Need-1",
+      "name": "Infinite Lives-All Levels",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1F42AE",
-          "on": "00",
-          "off": "42"
+          "offset": "1D67B8",
+          "on": "63",
+          "off": "05"
         }
       ]
     },
@@ -45,17 +56,6 @@
           "offset": "120139",
           "on": "FF",
           "off": "10"
-        }
-      ]
-    },
-    {
-      "name": "Inf-Bombs-Need-1-3D",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "12BE4A",
-          "on": "00",
-          "off": "62"
         }
       ]
     }

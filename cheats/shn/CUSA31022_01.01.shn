@@ -3,20 +3,6 @@
   <Genres Name="Action" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Max/Infinite Health">
-    <Cheatline>
-      <Offset>7FC5FDF0</Offset>
-      <Section>0</Section>
-      <ValueOn>80-78-58-01-75-0F-C7-80-EC-01-00-00-00-00-D2-42-E9-19-D0-CC-00-C5-FA-11-80-EC-01-00-00-E9-0C-D0-CC-00</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>8092CE16</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-D5-2F-33-FF-90-90-90</ValueOn>
-      <ValueOff>C5-FA-11-80-EC-01-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite Ammo/Throwables">
     <Cheatline>
       <Offset>7FC5F8B0</Offset>
@@ -43,6 +29,20 @@
       <Section>0</Section>
       <ValueOn>E9-15-5B-1E-FF-90-90-90</ValueOn>
       <ValueOff>C5-FA-11-80-58-01-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max/Infinite Health">
+    <Cheatline>
+      <Offset>7FC5FDF0</Offset>
+      <Section>0</Section>
+      <ValueOn>80-78-58-01-75-0F-C7-80-EC-01-00-00-00-00-D2-42-E9-19-D0-CC-00-C5-FA-11-80-EC-01-00-00-E9-0C-D0-CC-00</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>8092CE16</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-D5-2F-33-FF-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-80-EC-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max/Infinite Money">

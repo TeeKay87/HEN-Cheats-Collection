@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Fast Level up (Demons)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "538B4E",
+          "on": "01483C",
+          "off": "89483C"
+        }
+      ]
+    },
+    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -53,13 +64,18 @@
       ]
     },
     {
-      "name": "Fast Level up (Demons)",
+      "name": "Max items (On use)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "538B4E",
-          "on": "01483C",
-          "off": "89483C"
+          "offset": "199BD10",
+          "on": "42C644282063E93661297F",
+          "off": "0000000000000000000000"
+        },
+        {
+          "offset": "80C31E4C",
+          "on": "E9BF9ED680",
+          "off": "42885C2820"
         }
       ]
     },
@@ -76,22 +92,6 @@
           "offset": "807EF475",
           "on": "E936C91A81",
           "off": "488948305B"
-        }
-      ]
-    },
-    {
-      "name": "Max items (On use)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "199BD10",
-          "on": "42C644282063E93661297F",
-          "off": "0000000000000000000000"
-        },
-        {
-          "offset": "80C31E4C",
-          "on": "E9BF9ED680",
-          "off": "42885C2820"
         }
       ]
     }

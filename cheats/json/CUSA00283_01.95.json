@@ -5,13 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "[ Walk in air ]",
+      "name": "[ Fast Attack and Place ]",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "277C21",
-          "on": "20D4",
-          "off": "20D8"
+          "offset": "F06A08",
+          "on": "000080BE",
+          "off": "0000803E"
         }
       ]
     },
@@ -27,134 +27,13 @@
       ]
     },
     {
-      "name": "[ High Jump ]",
+      "name": "[ Freeze Potions ]",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "E97004",
-          "on": "52B81E3F",
-          "off": "0000003F"
-        }
-      ]
-    },
-    {
-      "name": "[ Jump Forward x2 ]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "E9700C",
-          "on": "52B81B3F",
-          "off": "CDCC4C3E"
-        }
-      ]
-    },
-    {
-      "name": "[ Head Rotation 360 ]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "E8845C",
-          "on": "0000B4C30000B443",
-          "off": "0000B4C20000B442"
-        }
-      ]
-    },
-    {
-      "name": "[ Fast Attack and Place ]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "F06A08",
-          "on": "000080BE",
-          "off": "0000803E"
-        }
-      ]
-    },
-    {
-      "name": "[ Max Xp ]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "54EBE3",
-          "on": "8983580C0000",
-          "off": "898358090000"
-        }
-      ]
-    },
-    {
-      "name": "[ Unlimited Crafting ]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "AC8540",
-          "on": "31CF",
-          "off": "31C0"
-        }
-      ]
-    },
-    {
-      "name": "[ Reach Blocks 25 ]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "F06AD8",
-          "on": "0000C8410000C841",
-          "off": "0000A0400000A040"
-        }
-      ]
-    },
-    {
-      "name": "[ Reach Attack 25]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "EFD838",
-          "on": "00000000000039400000000000F03F0000000000003940",
-          "off": "0000000000001840000000000000F03F0000000000000840"
-        }
-      ]
-    },
-    {
-      "name": "[ Infinite Items ]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "37E78C",
-          "on": "9090909090",
-          "off": "41894C2410"
-        }
-      ]
-    },
-    {
-      "name": "[ Infinite Items (use) ]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3557DE",
+          "offset": "491C32",
           "on": "909090",
-          "off": "894F10"
-        }
-      ]
-    },
-    {
-      "name": "[ Infinite Health ]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "6FCF0",
-          "on": "9090909090",
-          "off": "C5FA114718"
-        }
-      ]
-    },
-    {
-      "name": "[ Infinite Food ]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2F4A17",
-          "on": "90909090",
-          "off": "41894500"
+          "off": "418937"
         }
       ]
     },
@@ -170,13 +49,112 @@
       ]
     },
     {
-      "name": "[ Freeze Potions ]",
+      "name": "[ Head Rotation 360 ]",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "491C32",
+          "offset": "E8845C",
+          "on": "0000B4C30000B443",
+          "off": "0000B4C20000B442"
+        }
+      ]
+    },
+    {
+      "name": "[ High Jump ]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "E97004",
+          "on": "52B81E3F",
+          "off": "0000003F"
+        }
+      ]
+    },
+    {
+      "name": "[ Infinite Food ]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2F4A17",
+          "on": "90909090",
+          "off": "41894500"
+        }
+      ]
+    },
+    {
+      "name": "[ Infinite Health ]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6FCF0",
+          "on": "9090909090",
+          "off": "C5FA114718"
+        }
+      ]
+    },
+    {
+      "name": "[ Infinite Items (use) ]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3557DE",
           "on": "909090",
-          "off": "418937"
+          "off": "894F10"
+        }
+      ]
+    },
+    {
+      "name": "[ Infinite Items ]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "37E78C",
+          "on": "9090909090",
+          "off": "41894C2410"
+        }
+      ]
+    },
+    {
+      "name": "[ Jump Forward x2 ]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "E9700C",
+          "on": "52B81B3F",
+          "off": "CDCC4C3E"
+        }
+      ]
+    },
+    {
+      "name": "[ Max Xp ]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "54EBE3",
+          "on": "8983580C0000",
+          "off": "898358090000"
+        }
+      ]
+    },
+    {
+      "name": "[ Reach Attack 25]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "EFD838",
+          "on": "00000000000039400000000000F03F0000000000003940",
+          "off": "0000000000001840000000000000F03F0000000000000840"
+        }
+      ]
+    },
+    {
+      "name": "[ Reach Blocks 25 ]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "F06AD8",
+          "on": "0000C8410000C841",
+          "off": "0000A0400000A040"
         }
       ]
     },
@@ -193,6 +171,28 @@
           "offset": "868229",
           "on": "909090",
           "off": "0F4DF1"
+        }
+      ]
+    },
+    {
+      "name": "[ Unlimited Crafting ]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "AC8540",
+          "on": "31CF",
+          "off": "31C0"
+        }
+      ]
+    },
+    {
+      "name": "[ Walk in air ]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "277C21",
+          "on": "20D4",
+          "off": "20D8"
         }
       ]
     }

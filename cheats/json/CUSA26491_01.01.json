@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health Seryngs",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5D310",
-          "on": "42034C3828E9CAF02E01",
-          "off": "00000000000000000000"
-        },
-        {
-          "offset": "80F4C3DF",
-          "on": "E92C0FD1FE",
-          "off": "42FF4C3828"
-        }
-      ]
-    },
-    {
       "name": "Infinite Ammo/No Reload",
       "type": "checkbox",
       "memory": [
@@ -33,6 +17,22 @@
           "offset": "8127CF13",
           "on": "E918FC9DFE",
           "off": "42FF4C2848"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health Seryngs",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5D310",
+          "on": "42034C3828E9CAF02E01",
+          "off": "00000000000000000000"
+        },
+        {
+          "offset": "80F4C3DF",
+          "on": "E92C0FD1FE",
+          "off": "42FF4C3828"
         }
       ]
     },
@@ -69,22 +69,6 @@
       ]
     },
     {
-      "name": "Infinite Health / 1Hit (master Code)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1985B40",
-          "on": "488D0CC94883F9007512BA640000008954C828E9E4B51D7F31D2EBF32954C828E9D7B51D7F",
-          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "80B61134",
-          "on": "E9074AE280909090",
-          "off": "488D0CC92954C828"
-        }
-      ]
-    },
-    {
       "name": "1 Hit Kill",
       "type": "checkbox",
       "memory": [
@@ -103,6 +87,22 @@
           "offset": "FC8F13",
           "on": "9090909090",
           "off": "42FF4C2848"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health / 1Hit (master Code)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1985B40",
+          "on": "488D0CC94883F9007512BA640000008954C828E9E4B51D7F31D2EBF32954C828E9D7B51D7F",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "80B61134",
+          "on": "E9074AE280909090",
+          "off": "488D0CC92954C828"
         }
       ]
     },

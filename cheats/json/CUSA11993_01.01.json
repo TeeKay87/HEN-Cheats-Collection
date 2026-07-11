@@ -5,18 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite HP",
+      "name": "99 x Combo",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "3A9FB05",
-          "on": "837B3809750A9090909090E9946FCEFDC5FA115370E98A6FCEFD",
-          "off": "0000000000000000000000000000000000000000000000000000"
+          "offset": "3A9FB4C",
+          "on": "83F822B96300000041894E58E9EBF4A1FC",
+          "off": "0000000000000000000000000000000000"
         },
         {
-          "offset": "1786AA4",
-          "on": "E95C903102",
-          "off": "C5FA115370"
+          "offset": "4BF041",
+          "on": "E9060B5E039090",
+          "off": "83F82241894E58"
         }
       ]
     },
@@ -42,18 +42,18 @@
       ]
     },
     {
-      "name": "Infinite Skill Points",
+      "name": "Infinite HP",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "3A9FAF0",
-          "on": "669CB82800000041898750B80000669DE940F86BFC",
-          "off": "000000000000000000000000000000000000000000"
+          "offset": "3A9FB05",
+          "on": "837B3809750A9090909090E9946FCEFDC5FA115370E98A6FCEFD",
+          "off": "0000000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "15F33E",
-          "on": "E9AD0794039090",
-          "off": "41298750B80000"
+          "offset": "1786AA4",
+          "on": "E95C903102",
+          "off": "C5FA115370"
         }
       ]
     },
@@ -74,6 +74,22 @@
       ]
     },
     {
+      "name": "Infinite Skill Points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3A9FAF0",
+          "on": "669CB82800000041898750B80000669DE940F86BFC",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "15F33E",
+          "on": "E9AD0794039090",
+          "off": "41298750B80000"
+        }
+      ]
+    },
+    {
       "name": "MAX LVL/EXP",
       "type": "checkbox",
       "memory": [
@@ -86,22 +102,6 @@
           "offset": "15E7D1",
           "on": "E95A139403909090",
           "off": "458BB42448B80000"
-        }
-      ]
-    },
-    {
-      "name": "99 x Combo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3A9FB4C",
-          "on": "83F822B96300000041894E58E9EBF4A1FC",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "4BF041",
-          "on": "E9060B5E039090",
-          "off": "83F82241894E58"
         }
       ]
     }

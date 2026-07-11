@@ -5,18 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Grenades (on use)",
+      "name": "2 Millons supplies (exit to main menu and return)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5BDB0",
-          "on": "FFC8C647500AE958EC5C80",
-          "off": "0000000000000000000000"
+          "offset": "7FE62620",
+          "on": "4133402041C70680841E00E9F096B180",
+          "off": "00000000000000000000000000000000"
         },
         {
-          "offset": "22AA0D",
-          "on": "E99E13A37F90",
-          "off": "FFC866894750"
+          "offset": "97BD19",
+          "on": "E902694E7F9090",
+          "off": "41334020418906"
         }
       ]
     },
@@ -37,34 +37,18 @@
       ]
     },
     {
-      "name": "Infinite Proximity Mine (on use)",
+      "name": "Infinite Grenades (on use)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FE625C0",
-          "on": "41C646500AE95FB43080",
-          "off": "00000000000000000000"
+          "offset": "7FC5BDB0",
+          "on": "FFC8C647500AE958EC5C80",
+          "off": "0000000000000000000000"
         },
         {
-          "offset": "16DA24",
-          "on": "E9974BCF7F",
-          "off": "6641894650"
-        }
-      ]
-    },
-    {
-      "name": "2 Millons supplies (exit to main menu and return)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FE62620",
-          "on": "4133402041C70680841E00E9F096B180",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "97BD19",
-          "on": "E902694E7F9090",
-          "off": "41334020418906"
+          "offset": "22AA0D",
+          "on": "E99E13A37F90",
+          "off": "FFC866894750"
         }
       ]
     },
@@ -81,6 +65,22 @@
           "offset": "16AD5C",
           "on": "E95F79CF7F",
           "off": "6641894D50"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Proximity Mine (on use)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FE625C0",
+          "on": "41C646500AE95FB43080",
+          "off": "00000000000000000000"
+        },
+        {
+          "offset": "16DA24",
+          "on": "E9974BCF7F",
+          "off": "6641894650"
         }
       ]
     }

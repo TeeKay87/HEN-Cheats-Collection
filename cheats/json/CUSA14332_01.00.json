@@ -5,34 +5,35 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "No Damage",
-      "type": "checkbox",
+      "name": "100x Scoria",
+      "type": "button",
       "memory": [
         {
-          "offset": "59B3000",
-          "on": "669C50488B87980E00008138A8F7F605750983B88401000001741258669D48A1A8F06B0600000000E93E46EEFA58669DE9EC47EEFA909090",
-          "off": "669C50488B87980E00008138A8F7F605750983B88401000001741258669D48A1A8F06B0600000000E93E46EEFA58669DE9EC47EEFA909090"
-        },
-        {
-          "offset": "897664",
-          "on": "E997B911059090",
-          "off": "488B053D7AA205"
+          "offset": "59B3500",
+          "on": "64000000",
+          "off": "64000000"
         }
       ]
     },
     {
-      "name": "No Damage for companion",
-      "type": "checkbox",
+      "name": "10x Scoria",
+      "type": "button",
       "memory": [
         {
-          "offset": "59B3070",
-          "on": "669C50488B87980E00008138A8F7F605750983B88401000001750E58669D4989F64889FBE9D845EEFA58669DE98047EEFA909090",
-          "off": "669C50488B87980E00008138A8F7F605750983B88401000001750E58669D4989F64889FBE9D845EEFA58669DE98047EEFA909090"
-        },
+          "offset": "59B3500",
+          "on": "0A000000",
+          "off": "0A000000"
+        }
+      ]
+    },
+    {
+      "name": "25x Scoria",
+      "type": "button",
+      "memory": [
         {
-          "offset": "89766B",
-          "on": "E900BA110590",
-          "off": "4989F64889FB"
+          "offset": "59B3500",
+          "on": "19000000",
+          "off": "19000000"
         }
       ]
     },
@@ -49,22 +50,6 @@
           "offset": "6E9E0C",
           "on": "E9CF922C0590",
           "off": "C4E3594AD320"
-        }
-      ]
-    },
-    {
-      "name": "One-hit Kill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "59B3130",
-          "on": "669C50488B87980E00008138A8F7F605750F58669D488B00488945D0E92745EEFAC780F000000000000000EBE5909090",
-          "off": "669C50488B87980E00008138A8F7F605750F58669D488B00488945D0E92745EEFAC780F000000000000000EBE5909090"
-        },
-        {
-          "offset": "897671",
-          "on": "E9BABA11059090",
-          "off": "488B00488945D0"
         }
       ]
     },
@@ -101,6 +86,54 @@
       ]
     },
     {
+      "name": "No Damage",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "59B3000",
+          "on": "669C50488B87980E00008138A8F7F605750983B88401000001741258669D48A1A8F06B0600000000E93E46EEFA58669DE9EC47EEFA909090",
+          "off": "669C50488B87980E00008138A8F7F605750983B88401000001741258669D48A1A8F06B0600000000E93E46EEFA58669DE9EC47EEFA909090"
+        },
+        {
+          "offset": "897664",
+          "on": "E997B911059090",
+          "off": "488B053D7AA205"
+        }
+      ]
+    },
+    {
+      "name": "No Damage for companion",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "59B3070",
+          "on": "669C50488B87980E00008138A8F7F605750983B88401000001750E58669D4989F64889FBE9D845EEFA58669DE98047EEFA909090",
+          "off": "669C50488B87980E00008138A8F7F605750983B88401000001750E58669D4989F64889FBE9D845EEFA58669DE98047EEFA909090"
+        },
+        {
+          "offset": "89766B",
+          "on": "E900BA110590",
+          "off": "4989F64889FB"
+        }
+      ]
+    },
+    {
+      "name": "One-hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "59B3130",
+          "on": "669C50488B87980E00008138A8F7F605750F58669D488B00488945D0E92745EEFAC780F000000000000000EBE5909090",
+          "off": "669C50488B87980E00008138A8F7F605750F58669D488B00488945D0E92745EEFAC780F000000000000000EBE5909090"
+        },
+        {
+          "offset": "897671",
+          "on": "E9BABA11059090",
+          "off": "488B00488945D0"
+        }
+      ]
+    },
+    {
       "name": "Scoria Multiplier (default 5x)",
       "type": "checkbox",
       "memory": [
@@ -122,13 +155,13 @@
       ]
     },
     {
-      "name": "10x Scoria",
-      "type": "button",
+      "name": "100x Scoria",
+      "type": "checkbox",
       "memory": [
         {
           "offset": "59B3500",
-          "on": "0A000000",
-          "off": "0A000000"
+          "on": "64000000",
+          "off": "64000000"
         }
       ]
     },
@@ -140,6 +173,17 @@
           "offset": "59B3500",
           "on": "0A000000",
           "off": "0A000000"
+        }
+      ]
+    },
+    {
+      "name": "25x Scoria",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "59B3500",
+          "on": "19000000",
+          "off": "19000000"
         }
       ]
     }

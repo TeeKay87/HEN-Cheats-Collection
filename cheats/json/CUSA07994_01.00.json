@@ -14,6 +14,17 @@
           "off": "8932"
         }
       ]
+    },
+    {
+      "name": "x2 Transfer Budget",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5553387",
+          "on": "0132",
+          "off": "8932"
+        }
+      ]
     }
   ],
   "credits": [

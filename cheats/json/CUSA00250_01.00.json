@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health ",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "9CCAF1",
-          "on": "9090909090909090",
-          "off": "C5FA1183E8000000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Focus",
       "type": "checkbox",
       "memory": [
@@ -32,18 +21,13 @@
       ]
     },
     {
-      "name": "Max coins (on steal turn off when buying)",
+      "name": "Infinite Health ",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC4B920",
-          "on": "0F4ED8C7067F969800E9E96D0881",
-          "off": "0000000000000000000000000000"
-        },
-        {
-          "offset": "CD2712",
-          "on": "E90992F77E",
-          "off": "0F4ED8891E"
+          "offset": "9CCAF1",
+          "on": "9090909090909090",
+          "off": "C5FA1183E8000000"
         }
       ]
     },
@@ -60,6 +44,22 @@
           "offset": "CD2367",
           "on": "E9E495F77E90",
           "off": "4529E7448939"
+        }
+      ]
+    },
+    {
+      "name": "Max coins (on steal turn off when buying)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC4B920",
+          "on": "0F4ED8C7067F969800E9E96D0881",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "CD2712",
+          "on": "E90992F77E",
+          "off": "0F4ED8891E"
         }
       ]
     }

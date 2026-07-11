@@ -21,22 +21,6 @@
       ]
     },
     {
-      "name": "Inf Super (On Gain)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "4BC3836",
-          "on": "8378680075038B501089500CE9CD9C56FB",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "12D50F",
-          "on": "E92263A904",
-          "off": "89500C85F6"
-        }
-      ]
-    },
-    {
       "name": "Inf Stone Meter (On Gain)",
       "type": "checkbox",
       "memory": [
@@ -49,6 +33,22 @@
           "offset": "FFDDA",
           "on": "E96A3AAC04",
           "off": "0F42CA8908"
+        }
+      ]
+    },
+    {
+      "name": "Inf Super (On Gain)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4BC3836",
+          "on": "8378680075038B501089500CE9CD9C56FB",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "12D50F",
+          "on": "E92263A904",
+          "off": "89500C85F6"
         }
       ]
     },
@@ -69,6 +69,17 @@
       ]
     },
     {
+      "name": "Inf Stone Meter (Hit enemy once with it)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "FFDD4",
+          "on": "909090909090",
+          "off": "81FA10270000"
+        }
+      ]
+    },
+    {
       "name": "Inf Super",
       "type": "checkbox",
       "memory": [
@@ -81,17 +92,6 @@
           "offset": "12D50F",
           "on": "E9EC62A904",
           "off": "89500C85F6"
-        }
-      ]
-    },
-    {
-      "name": "Inf Stone Meter (Hit enemy once with it)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "FFDD4",
-          "on": "909090909090",
-          "off": "81FA10270000"
         }
       ]
     },

@@ -2,6 +2,20 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Monster Energy Supercross 5: The Official Videogame" Moder="Reddevil82 - FW 9.00" Cusa="CUSA28535" Version="01.13" Process="eboot.bin">
   <Genres Name="Sports" />
   <Items />
+  <Cheat Text="Infinite Rewinds">
+    <Cheatline>
+      <Offset>7DE7DF0</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-80-58-03-00-00-00-00-40-40-C5-FA-10-80-58-03-00-00-E9-5E-85-50-FA</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>22F035D</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-8E-7A-AF-05-90-90-90</ValueOn>
+      <ValueOff>C5-FA-10-80-58-03-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Max Credits">
     <Cheatline>
       <Offset>7DE7DB0</Offset>
@@ -42,20 +56,6 @@
       <Section>0</Section>
       <ValueOn>E9-ED-4A-D4-05-90</ValueOn>
       <ValueOff>8B-B7-C8-00-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Rewinds">
-    <Cheatline>
-      <Offset>7DE7DF0</Offset>
-      <Section>0</Section>
-      <ValueOn>C7-80-58-03-00-00-00-00-40-40-C5-FA-10-80-58-03-00-00-E9-5E-85-50-FA</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>22F035D</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-8E-7A-AF-05-90-90-90</ValueOn>
-      <ValueOff>C5-FA-10-80-58-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="No Gear AI">

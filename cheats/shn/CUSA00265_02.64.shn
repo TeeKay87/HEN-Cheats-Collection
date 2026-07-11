@@ -2,18 +2,36 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Minecraft: PlayStation 4 Edition" Moder="hejran7" Cusa="CUSA00265" Version="02.64" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Change Crosshair Color (B)">
     <Cheatline>
-      <Offset>AB9614F</Offset>
+      <Offset>B351D28</Offset>
       <Section>0</Section>
-      <ValueOn>C7-80-A4-00-00-00-00-00-7A-44-C5-FA-10-80-A4-00-00-00-E9-DA-9E-A0-F6</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+      <ValueOn>00-00-80-3F</ValueOn>
+      <ValueOff>00-00-00-00</ValueOff>
     </Cheatline>
+  </Cheat>
+  <Cheat Text="Change Crosshair Color (G)">
     <Cheatline>
-      <Offset>15A0038</Offset>
+      <Offset>B351D24</Offset>
       <Section>0</Section>
-      <ValueOn>E9-12-61-5F-09-90-90-90</ValueOn>
-      <ValueOff>C5-FA-10-80-A4-00-00-00</ValueOff>
+      <ValueOn>00-00-80-3F</ValueOn>
+      <ValueOff>00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Change Crosshair Color (R)">
+    <Cheatline>
+      <Offset>B351D20</Offset>
+      <Section>0</Section>
+      <ValueOn>00-00-80-3F</ValueOn>
+      <ValueOff>00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Fast Exp Points">
+    <Cheatline>
+      <Offset>4072103</Offset>
+      <Section>0</Section>
+      <ValueOn>B8-00-00-00-00-90</ValueOn>
+      <ValueOff>8B-83-F0-1B-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Full Hunger Meter">
@@ -30,20 +48,18 @@
       <ValueOff>C4-C1-7A-10-82-A4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Fast Exp Points">
+  <Cheat Text="Infinite Health">
     <Cheatline>
-      <Offset>4072103</Offset>
+      <Offset>AB9614F</Offset>
       <Section>0</Section>
-      <ValueOn>B8-00-00-00-00-90</ValueOn>
-      <ValueOff>8B-83-F0-1B-00-00</ValueOff>
+      <ValueOn>C7-80-A4-00-00-00-00-00-7A-44-C5-FA-10-80-A4-00-00-00-E9-DA-9E-A0-F6</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Oxygen">
     <Cheatline>
-      <Offset>82B8E55</Offset>
+      <Offset>15A0038</Offset>
       <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90</ValueOn>
-      <ValueOff>66-44-89-74-08-12</ValueOff>
+      <ValueOn>E9-12-61-5F-09-90-90-90</ValueOn>
+      <ValueOff>C5-FA-10-80-A4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Jump">
@@ -54,18 +70,12 @@
       <ValueOff>73-5B</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Item When Used">
+  <Cheat Text="Infinite Oxygen">
     <Cheatline>
-      <Offset>AB96196</Offset>
+      <Offset>82B8E55</Offset>
       <Section>0</Section>
-      <ValueOn>C6-43-2A-40-80-7B-2A-00-C5-F8-57-C0-E9-1F-AA-DF-F9</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>4990BBE</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-D3-55-20-06-90-90-90</ValueOn>
-      <ValueOff>80-7B-2A-00-C5-F8-57-C0</ValueOff>
+      <ValueOn>90-90-90-90-90-90</ValueOn>
+      <ValueOff>66-44-89-74-08-12</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max All Inventory Items">
@@ -82,28 +92,18 @@
       <ValueOff>42-80-7C-36-2A-00-74-8B</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Change Crosshair Color (R)">
+  <Cheat Text="Max Item When Used">
     <Cheatline>
-      <Offset>B351D20</Offset>
+      <Offset>AB96196</Offset>
       <Section>0</Section>
-      <ValueOn>00-00-80-3F</ValueOn>
-      <ValueOff>00-00-00-00</ValueOff>
+      <ValueOn>C6-43-2A-40-80-7B-2A-00-C5-F8-57-C0-E9-1F-AA-DF-F9</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
-  </Cheat>
-  <Cheat Text="Change Crosshair Color (G)">
     <Cheatline>
-      <Offset>B351D24</Offset>
+      <Offset>4990BBE</Offset>
       <Section>0</Section>
-      <ValueOn>00-00-80-3F</ValueOn>
-      <ValueOff>00-00-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Change Crosshair Color (B)">
-    <Cheatline>
-      <Offset>B351D28</Offset>
-      <Section>0</Section>
-      <ValueOn>00-00-80-3F</ValueOn>
-      <ValueOff>00-00-00-00</ValueOff>
+      <ValueOn>E9-D3-55-20-06-90-90-90</ValueOn>
+      <ValueOff>80-7B-2A-00-C5-F8-57-C0</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

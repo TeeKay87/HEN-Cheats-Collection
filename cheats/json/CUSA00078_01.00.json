@@ -5,6 +5,39 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Add Item",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "57315B",
+          "on": "450137",
+          "off": "458937"
+        }
+      ]
+    },
+    {
+      "name": "Freeze Part / Item Count",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "57315B",
+          "on": "909090",
+          "off": "458937"
+        }
+      ]
+    },
+    {
+      "name": "Inf Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "A300E2",
+          "on": "4183EF0090",
+          "off": "44897C0804"
+        }
+      ]
+    },
+    {
       "name": "Inf Health",
       "type": "checkbox",
       "memory": [
@@ -27,39 +60,6 @@
       ]
     },
     {
-      "name": "Inf Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "A300E2",
-          "on": "4183EF0090",
-          "off": "44897C0804"
-        }
-      ]
-    },
-    {
-      "name": "No Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "573151",
-          "on": "9090909090",
-          "off": "E87AB8CF00"
-        }
-      ]
-    },
-    {
-      "name": "Freeze Part / Item Count",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "57315B",
-          "on": "909090",
-          "off": "458937"
-        }
-      ]
-    },
-    {
       "name": "Max Money on Spend",
       "type": "checkbox",
       "memory": [
@@ -72,6 +72,17 @@
           "offset": "A2F8B9",
           "on": "E992C5217F9090",
           "off": "4429F84189463C"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "573151",
+          "on": "9090909090",
+          "off": "E87AB8CF00"
         }
       ]
     }

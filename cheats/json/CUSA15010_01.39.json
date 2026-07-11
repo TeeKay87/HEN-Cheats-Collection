@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "All Client 1-Hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1500907",
+          "on": "29C090",
+          "off": "4429F8"
+        }
+      ]
+    },
+    {
       "name": "All Client Godmode",
       "type": "checkbox",
       "memory": [
@@ -53,13 +64,13 @@
       ]
     },
     {
-      "name": "All Client 1-Hit Kill",
+      "name": "Infinite Ammo",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1500907",
-          "on": "29C090",
-          "off": "4429F8"
+          "offset": "F0AEEE",
+          "on": "9090909090909090",
+          "off": "4189848EDC130000"
         }
       ]
     },
@@ -82,17 +93,6 @@
           "offset": "12EBE77",
           "on": "909090",
           "off": "8B45F0"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "F0AEEE",
-          "on": "9090909090909090",
-          "off": "4189848EDC130000"
         }
       ]
     }

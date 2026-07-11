@@ -5,6 +5,22 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": " Max Tool Items (on get and use)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5006F60",
+          "on": "C7471CE70300008B4720E94ADA50FB",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "5149B3",
+          "on": "E9A825AF0490",
+          "off": "89471C8B4720"
+        }
+      ]
+    },
+    {
       "name": "Infinite health ",
       "type": "checkbox",
       "memory": [
@@ -37,22 +53,6 @@
       ]
     },
     {
-      "name": "Max Materials on gain and spend",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5006E40",
-          "on": "66C7471CE7038B4F20E93AE850FB",
-          "off": "0000000000000000000000000000"
-        },
-        {
-          "offset": "515682",
-          "on": "E9B917AF0490",
-          "off": "894F1C8B4F20"
-        }
-      ]
-    },
-    {
       "name": "Max Chi on gain",
       "type": "checkbox",
       "memory": [
@@ -69,6 +69,22 @@
       ]
     },
     {
+      "name": "Max Materials on gain and spend",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5006E40",
+          "on": "66C7471CE7038B4F20E93AE850FB",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "515682",
+          "on": "E9B917AF0490",
+          "off": "894F1C8B4F20"
+        }
+      ]
+    },
+    {
       "name": "Max Vital items (on use)",
       "type": "checkbox",
       "memory": [
@@ -80,22 +96,6 @@
         {
           "offset": "5153E3",
           "on": "E9281BAF0490",
-          "off": "89471C8B4720"
-        }
-      ]
-    },
-    {
-      "name": " Max Tool Items (on get and use)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5006F60",
-          "on": "C7471CE70300008B4720E94ADA50FB",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "5149B3",
-          "on": "E9A825AF0490",
           "off": "89471C8B4720"
         }
       ]

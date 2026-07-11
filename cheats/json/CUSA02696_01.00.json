@@ -5,18 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Items Backpack",
+      "name": "Day never increased (Use after Day1)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "787800",
-          "on": "51428B4C3B2042894C3B2059E9C4858DFF",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "5FDD0",
-          "on": "E92B7A7200",
-          "off": "4289443B20"
+          "offset": "110096",
+          "on": "9090",
+          "off": "FFC2"
         }
       ]
     },
@@ -37,13 +32,18 @@
       ]
     },
     {
-      "name": "Day never increased (Use after Day1)",
+      "name": "Inf Items Backpack",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "110096",
-          "on": "9090",
-          "off": "FFC2"
+          "offset": "787800",
+          "on": "51428B4C3B2042894C3B2059E9C4858DFF",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "5FDD0",
+          "on": "E92B7A7200",
+          "off": "4289443B20"
         }
       ]
     }

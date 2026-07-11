@@ -2,42 +2,6 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Devil May Cry 5" Moder="Ali-mk" Cusa="CUSA08161" Version="01.10" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Max-Red-Orbs">
-    <Cheatline>
-      <Offset>8E47800</Offset>
-      <Section>0</Section>
-      <ValueOn>B8-FF-E0-F5-05-41-89-44-24-60-E9-1A-83-2E-F8</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>112FB24</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-D7-7C-D1-07</ValueOn>
-      <ValueOff>41-89-44-24-60</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Max-Gold-Orbs">
-    <Cheatline>
-      <Offset>8E47811</Offset>
-      <Section>0</Section>
-      <ValueOn>B8-3F-42-0F-00-41-89-87-98-00-00-00-E9-C0-DE-30-F8</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>11556DB</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-31-21-CF-07-90-90</ValueOn>
-      <ValueOff>41-89-87-98-00-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite-All-Items">
-    <Cheatline>
-      <Offset>3B684CA</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>44-89-B3-CC-17-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Inf-evil-Trigger-Virgil-(V)">
     <Cheatline>
       <Offset>268A66C</Offset>
@@ -68,6 +32,14 @@
       <ValueOff>89-58-58</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="Infinite-All-Items">
+    <Cheatline>
+      <Offset>3B684CA</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>44-89-B3-CC-17-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Infinite-Health-(mc)">
     <Cheatline>
       <Offset>8E47800</Offset>
@@ -87,6 +59,34 @@
       <Offset>D2FB24</Offset>
       <Section>0</Section>
       <ValueOn>90-90-90-90-90</ValueOn>
+      <ValueOff>41-89-44-24-60</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max-Gold-Orbs">
+    <Cheatline>
+      <Offset>8E47811</Offset>
+      <Section>0</Section>
+      <ValueOn>B8-3F-42-0F-00-41-89-87-98-00-00-00-E9-C0-DE-30-F8</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>11556DB</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-31-21-CF-07-90-90</ValueOn>
+      <ValueOff>41-89-87-98-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max-Red-Orbs">
+    <Cheatline>
+      <Offset>8E47800</Offset>
+      <Section>0</Section>
+      <ValueOn>B8-FF-E0-F5-05-41-89-44-24-60-E9-1A-83-2E-F8</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>112FB24</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-D7-7C-D1-07</ValueOn>
       <ValueOff>41-89-44-24-60</ValueOff>
     </Cheatline>
   </Cheat>

@@ -21,24 +21,13 @@
       ]
     },
     {
-      "name": "Max and infinite arrow",
+      "name": "infinite  wrath",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "E25E88",
-          "on": "898388000000",
-          "off": "89B388000000"
-        }
-      ]
-    },
-    {
-      "name": "infinite Gem and Mirian",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "17D30BB",
-          "on": "8B4320",
-          "off": "894320"
+          "offset": "112DB9D",
+          "on": "90909090",
+          "off": "C5E857D2"
         }
       ]
     },
@@ -54,6 +43,17 @@
       ]
     },
     {
+      "name": "infinite Gem and Mirian",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "17D30BB",
+          "on": "8B4320",
+          "off": "894320"
+        }
+      ]
+    },
+    {
       "name": "infinite might",
       "type": "checkbox",
       "memory": [
@@ -65,13 +65,13 @@
       ]
     },
     {
-      "name": "infinite  wrath",
+      "name": "Max and infinite arrow",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "112DB9D",
-          "on": "90909090",
-          "off": "C5E857D2"
+          "offset": "E25E88",
+          "on": "898388000000",
+          "off": "89B388000000"
         }
       ]
     }

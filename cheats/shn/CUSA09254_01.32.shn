@@ -2,6 +2,20 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Just Cause 4" Moder="Celogamez" Cusa="CUSA09254" Version="01.32" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
+  <Cheat Text="Infinite Ammo">
+    <Cheatline>
+      <Offset>310F960</Offset>
+      <Section>0</Section>
+      <ValueOn>41-C6-84-87-48-02-00-00-E7-E9-6D-98-84-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>19591D3</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-88-67-7B-01-90-90-90</ValueOn>
+      <ValueOff>45-89-AC-87-48-02-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Infinite Health">
     <Cheatline>
       <Offset>310FDB0</Offset>
@@ -16,18 +30,26 @@
       <ValueOff>66-89-B7-24-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Wingsuit Boost">
     <Cheatline>
-      <Offset>310F960</Offset>
+      <Offset>20367B4</Offset>
       <Section>0</Section>
-      <ValueOn>41-C6-84-87-48-02-00-00-E7-E9-6D-98-84-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+      <ValueOn>90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>C4-C1-7A-11-54-87-08</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>19591D3</Offset>
+      <Offset>20367CF</Offset>
       <Section>0</Section>
-      <ValueOn>E9-88-67-7B-01-90-90-90</ValueOn>
-      <ValueOff>45-89-AC-87-48-02-00-00</ValueOff>
+      <ValueOn>90-90-90-90-90-90</ValueOn>
+      <ValueOff>0F-83-E5-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Wingsuit Missiles">
+    <Cheatline>
+      <Offset>2036E78</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>41-C7-47-30-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="No Reload">
@@ -68,28 +90,6 @@
       <Section>0</Section>
       <ValueOn>E9-6C-75-3E-01-90-90-90-90</ValueOn>
       <ValueOff>C4-C1-7A-11-87-B8-00-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Wingsuit Boost">
-    <Cheatline>
-      <Offset>20367B4</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>C4-C1-7A-11-54-87-08</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>20367CF</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90</ValueOn>
-      <ValueOff>0F-83-E5-00-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Wingsuit Missiles">
-    <Cheatline>
-      <Offset>2036E78</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>41-C7-47-30-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

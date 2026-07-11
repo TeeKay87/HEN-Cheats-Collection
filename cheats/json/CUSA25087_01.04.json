@@ -37,22 +37,6 @@
       ]
     },
     {
-      "name": "Max Grenades ( on use )",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "18D3DE8",
-          "on": "488B4728FF4C8820C744882063000000E9B2A5C17E",
-          "off": "000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "804EE3A7",
-          "on": "E93C5A3E81909090",
-          "off": "488B4728FF4C8820"
-        }
-      ]
-    },
-    {
       "name": "Max First Aid Kits ( on use )",
       "type": "checkbox",
       "memory": [
@@ -65,6 +49,22 @@
           "offset": "80608A06",
           "on": "E925B42C819090",
           "off": "41898E2C010000"
+        }
+      ]
+    },
+    {
+      "name": "Max Grenades ( on use )",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "18D3DE8",
+          "on": "488B4728FF4C8820C744882063000000E9B2A5C17E",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "804EE3A7",
+          "on": "E93C5A3E81909090",
+          "off": "488B4728FF4C8820"
         }
       ]
     },
@@ -86,7 +86,7 @@
     }
   ],
   "credits": [
-    "Reddevil82 ",
-    " FW 9.00"
+    "Reddevil82",
+    "FW 9.00"
   ]
 }

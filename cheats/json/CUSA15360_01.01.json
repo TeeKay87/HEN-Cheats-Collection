@@ -5,18 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max money on Buy",
+      "name": "1 HIT KILL",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1837800",
-          "on": "C78487287D0000FFE0F505E9F01A01FF898487287D0000",
-          "off": "0000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "8492F9",
-          "on": "E902E5FE009090",
-          "off": "8B8487287D0000"
+          "offset": "2C9D57",
+          "on": "0FB74017",
+          "off": "0FB74004"
         }
       ]
     },
@@ -54,13 +49,18 @@
       ]
     },
     {
-      "name": "1 HIT KILL",
+      "name": "Max money on Buy",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "2C9D57",
-          "on": "0FB74017",
-          "off": "0FB74004"
+          "offset": "1837800",
+          "on": "C78487287D0000FFE0F505E9F01A01FF898487287D0000",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "8492F9",
+          "on": "E902E5FE009090",
+          "off": "8B8487287D0000"
         }
       ]
     }

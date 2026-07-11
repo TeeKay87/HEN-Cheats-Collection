@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Inf. Item Usage",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1019FE1",
+          "on": "8B4318",
+          "off": "894318"
+        }
+      ]
+    },
+    {
       "name": "Max Inf. Gold Coins",
       "type": "checkbox",
       "memory": [
@@ -17,17 +28,6 @@
           "offset": "1AFC12F",
           "on": "E9CCF6490490",
           "off": "898FC0000000"
-        }
-      ]
-    },
-    {
-      "name": "Inf. Item Usage",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1019FE1",
-          "on": "8B4318",
-          "off": "894318"
         }
       ]
     },

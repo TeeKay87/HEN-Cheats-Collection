@@ -5,6 +5,22 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Hearts",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1583E00",
+          "on": "4585E441BE0300000044897020E93230FF7E",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "80576E3D",
+          "on": "E9BECF00819090",
+          "off": "4585E444897020"
+        }
+      ]
+    },
+    {
       "name": "Mastercode Coins/Lives ( must be activated )",
       "type": "checkbox",
       "memory": [
@@ -41,26 +57,10 @@
           "off": "C5FA11448820"
         }
       ]
-    },
-    {
-      "name": "Infinite Hearts",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1583E00",
-          "on": "4585E441BE0300000044897020E93230FF7E",
-          "off": "000000000000000000000000000000000000"
-        },
-        {
-          "offset": "80576E3D",
-          "on": "E9BECF00819090",
-          "off": "4585E444897020"
-        }
-      ]
     }
   ],
   "credits": [
-    "Reddevil82 ",
-    " FW 9.00"
+    "Reddevil82",
+    "FW 9.00"
   ]
 }

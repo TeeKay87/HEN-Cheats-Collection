@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf HP",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5B8AD04",
-          "on": "740F",
-          "off": "7414"
-        }
-      ]
-    },
-    {
       "name": "Easy Kill",
       "type": "checkbox",
       "memory": [
@@ -23,6 +12,17 @@
           "offset": "5B8AD0D",
           "on": "C5FA118BA00B0000",
           "off": "C5FA1183A00B0000"
+        }
+      ]
+    },
+    {
+      "name": "Inf HP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5B8AD04",
+          "on": "740F",
+          "off": "7414"
         }
       ]
     },

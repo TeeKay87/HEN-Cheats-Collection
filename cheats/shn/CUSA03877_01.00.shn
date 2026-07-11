@@ -9,20 +9,20 @@
       <ValueOff>C5-FA-11-87-DC-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Skillbar">
-    <Cheatline>
-      <Offset>2B01D4</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>C5-FA-11-87-E0-03-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite Items">
     <Cheatline>
       <Offset>1E883B</Offset>
       <Section>0</Section>
       <ValueOn>B8-E7-03-00-00</ValueOn>
       <ValueOff>85-C9-0F-49-C1</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Skillbar">
+    <Cheatline>
+      <Offset>2B01D4</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-87-E0-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Skillpoints/Quarz">

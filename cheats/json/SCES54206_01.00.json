@@ -5,13 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Red-Orb",
+      "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "807FF35250",
-          "on": "66666666",
-          "off": "66666666"
+          "offset": "808065C5BA",
+          "on": "43480000",
+          "off": "43480000"
         }
       ]
     },
@@ -27,13 +27,13 @@
       ]
     },
     {
-      "name": "Infinite Health",
+      "name": "Max Red-Orb",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "808065C5BA",
-          "on": "43480000",
-          "off": "43480000"
+          "offset": "807FF35250",
+          "on": "66666666",
+          "off": "66666666"
         }
       ]
     }

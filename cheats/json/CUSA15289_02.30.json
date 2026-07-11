@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Shield [ MC ]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "36DB81D",
+          "on": "E81B0000009090",
+          "off": "83B89000000000"
+        }
+      ]
+    },
+    {
       "name": "Mastercode Shield (  must be activated )",
       "type": "checkbox",
       "memory": [
@@ -17,22 +28,6 @@
           "offset": "836AC7",
           "on": "E94B4DEA029090",
           "off": "83B89000000000"
-        }
-      ]
-    },
-    {
-      "name": "Max HP",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "36DBDB0",
-          "on": "4150448B808C000000448980880000008B80880000004158E98DB343FD526564646576696C3832202D20465720392E3030",
-          "off": "0000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "B17154",
-          "on": "E9574CBC0290",
-          "off": "8B8088000000"
         }
       ]
     },
@@ -53,28 +48,6 @@
       ]
     },
     {
-      "name": "Infinite Shield [ MC ]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "36DB81D",
-          "on": "E81B0000009090",
-          "off": "83B89000000000"
-        }
-      ]
-    },
-    {
-      "name": "Zero Shield Enemies [ MC ]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "36DB82A",
-          "on": "E8190000009090",
-          "off": "83B89000000000"
-        }
-      ]
-    },
-    {
       "name": "Max Gold",
       "type": "checkbox",
       "memory": [
@@ -87,6 +60,22 @@
           "offset": "B1736B",
           "on": "E9714ABC02909090",
           "off": "E8D0E04FFF8B4048"
+        }
+      ]
+    },
+    {
+      "name": "Max HP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "36DBDB0",
+          "on": "4150448B808C000000448980880000008B80880000004158E98DB343FD526564646576696C3832202D20465720392E3030",
+          "off": "0000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "B17154",
+          "on": "E9574CBC0290",
+          "off": "8B8088000000"
         }
       ]
     },
@@ -105,10 +94,21 @@
           "off": "898888000000"
         }
       ]
+    },
+    {
+      "name": "Zero Shield Enemies [ MC ]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "36DB82A",
+          "on": "E8190000009090",
+          "off": "83B89000000000"
+        }
+      ]
     }
   ],
   "credits": [
-    "Reddevil82 ",
-    " FW 9.00"
+    "Reddevil82",
+    "FW 9.00"
   ]
 }

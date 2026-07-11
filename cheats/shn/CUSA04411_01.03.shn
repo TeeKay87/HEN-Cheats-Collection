@@ -10,20 +10,6 @@
       <ValueOff>F3-45-0F-11-BF-74-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinity Resources">
-    <Cheatline>
-      <Offset>125B800</Offset>
-      <Section>0</Section>
-      <ValueOn>48-C7-C1-7F-96-98-00-89-08-E9-BC-F2-FC-7E</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>8022AAC4</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-37-0D-03-81-90</ValueOn>
-      <ValueOff>48-63-0C-24-89-08</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite Laser">
     <Cheatline>
       <Offset>80247F8D</Offset>
@@ -44,6 +30,14 @@
       <ValueOff>48-63-34-24</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="Infinite Mega Bome">
+    <Cheatline>
+      <Offset>8022AF3C</Offset>
+      <Section>0</Section>
+      <ValueOn>66-BE-03-00</ValueOn>
+      <ValueOff>48-63-34-24</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Infinite Shield">
     <Cheatline>
       <Offset>8023F5BD</Offset>
@@ -58,12 +52,18 @@
       <ValueOff>48-63-34-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Mega Bome">
+  <Cheat Text="Infinity Resources">
     <Cheatline>
-      <Offset>8022AF3C</Offset>
+      <Offset>125B800</Offset>
       <Section>0</Section>
-      <ValueOn>66-BE-03-00</ValueOn>
-      <ValueOff>48-63-34-24</ValueOff>
+      <ValueOn>48-C7-C1-7F-96-98-00-89-08-E9-BC-F2-FC-7E</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>8022AAC4</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-37-0D-03-81-90</ValueOn>
+      <ValueOff>48-63-0C-24-89-08</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Press R3 to Refill Energy Shield Timer">

@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Cloack Fast Recharge",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0113EF10",
+          "on": "C5F258C1",
+          "off": "C5F258C0"
+        }
+      ]
+    },
+    {
       "name": "Easy Kills",
       "type": "checkbox",
       "memory": [
@@ -49,49 +60,6 @@
       ]
     },
     {
-      "name": "Infinite Share Lives",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "036946D0",
-          "on": "C68010080000038B8010080000E939D9A8FD",
-          "off": "000000000000000000000000000000000000"
-        },
-        {
-          "offset": "01122015",
-          "on": "E9B626570290",
-          "off": "8B8010080000"
-        }
-      ]
-    },
-    {
-      "name": "Max Skill Points",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "03694550",
-          "on": "488B0F89F0C74118E7030000E98BBE1EFD",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "8803E7",
-          "on": "E96441E102",
-          "off": "488B0F89F0"
-        }
-      ]
-    },
-    {
-      "name": "Undetected By Enemy",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "81335E",
-          "on": "C5FA5DC190909090",
-          "off": "C5FA5D0556DB1D02"
-        }
-      ]
-    },
-    {
       "name": "Infinite Cloack",
       "type": "checkbox",
       "memory": [
@@ -108,13 +76,18 @@
       ]
     },
     {
-      "name": "Cloack Fast Recharge",
+      "name": "Infinite Share Lives",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "0113EF10",
-          "on": "C5F258C1",
-          "off": "C5F258C0"
+          "offset": "036946D0",
+          "on": "C68010080000038B8010080000E939D9A8FD",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "01122015",
+          "on": "E9B626570290",
+          "off": "8B8010080000"
         }
       ]
     },
@@ -151,6 +124,22 @@
       ]
     },
     {
+      "name": "Max Skill Points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "03694550",
+          "on": "488B0F89F0C74118E7030000E98BBE1EFD",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "8803E7",
+          "on": "E96441E102",
+          "off": "488B0F89F0"
+        }
+      ]
+    },
+    {
       "name": "Multiple Jump",
       "type": "checkbox",
       "memory": [
@@ -158,6 +147,22 @@
           "offset": "523C83",
           "on": "E99102000090",
           "off": "0F8490020000"
+        }
+      ]
+    },
+    {
+      "name": "No Gravity ( OFF )",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "03694660",
+          "on": "C5FA10ABFC120000C783FC120000000080C1E912BDE8FC",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "520381",
+          "on": "E9DA421703909090",
+          "off": "C5FA10ABFC120000"
         }
       ]
     },
@@ -178,18 +183,13 @@
       ]
     },
     {
-      "name": "No Gravity ( OFF )",
+      "name": "Undetected By Enemy",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "03694660",
-          "on": "C5FA10ABFC120000C783FC120000000080C1E912BDE8FC",
-          "off": "0000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "520381",
-          "on": "E9DA421703909090",
-          "off": "C5FA10ABFC120000"
+          "offset": "81335E",
+          "on": "C5FA5DC190909090",
+          "off": "C5FA5D0556DB1D02"
         }
       ]
     }

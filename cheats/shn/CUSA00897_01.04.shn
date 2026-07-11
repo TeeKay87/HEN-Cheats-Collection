@@ -4,6 +4,14 @@
   <Genres Name="Adventure" />
   <Genres Name="Fighting" />
   <Items />
+  <Cheat Text="Easy Challenges">
+    <Cheatline>
+      <Offset>225EEA</Offset>
+      <Section>0</Section>
+      <ValueOn>BA-F0-A2-9A-3B-90-90</ValueOn>
+      <ValueOff>03-94-C7-4C-09-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Infinite Health">
     <Cheatline>
       <Offset>261AF9</Offset>
@@ -12,20 +20,12 @@
       <ValueOff>C5-EA-5C-D3</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Neon">
+  <Cheat Text="Infinite Hostage Health (Challenge)">
     <Cheatline>
-      <Offset>257D94</Offset>
+      <Offset>5B153A</Offset>
       <Section>0</Section>
-      <ValueOn>C5-FA-5F-C1</ValueOn>
-      <ValueOff>C5-FA-5D-C1</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Singularity">
-    <Cheatline>
-      <Offset>225536</Offset>
-      <Section>0</Section>
-      <ValueOn>C5-F8-28-C1-90-90-90-90-90-90</ValueOn>
-      <ValueOff>C5-F8-2E-C1-0F-84-24-01-00-00</ValueOff>
+      <ValueOn>C4-C1-7A-11-8C-24-14-0C-00-00</ValueOn>
+      <ValueOff>C4-C1-7A-11-84-24-14-0C-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Melee Finisher">
@@ -42,6 +42,22 @@
       <Section>0</Section>
       <ValueOn>BE-04-00-00-00-90-90-90</ValueOn>
       <ValueOff>39-B7-F4-00-00-00-74-43</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Neon">
+    <Cheatline>
+      <Offset>257D94</Offset>
+      <Section>0</Section>
+      <ValueOn>C5-FA-5F-C1</ValueOn>
+      <ValueOff>C5-FA-5D-C1</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Singularity">
+    <Cheatline>
+      <Offset>225536</Offset>
+      <Section>0</Section>
+      <ValueOn>C5-F8-28-C1-90-90-90-90-90-90</ValueOn>
+      <ValueOff>C5-F8-2E-C1-0F-84-24-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Skillpoints">
@@ -64,22 +80,6 @@
       <Section>0</Section>
       <ValueOn>E9-F8-9E-B9-00-90-90</ValueOn>
       <ValueOff>8B-84-87-0C-01-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Easy Challenges">
-    <Cheatline>
-      <Offset>225EEA</Offset>
-      <Section>0</Section>
-      <ValueOn>BA-F0-A2-9A-3B-90-90</ValueOn>
-      <ValueOff>03-94-C7-4C-09-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Hostage Health (Challenge)">
-    <Cheatline>
-      <Offset>5B153A</Offset>
-      <Section>0</Section>
-      <ValueOn>C4-C1-7A-11-8C-24-14-0C-00-00</ValueOn>
-      <ValueOff>C4-C1-7A-11-84-24-14-0C-00-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

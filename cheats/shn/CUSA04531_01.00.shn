@@ -2,6 +2,14 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Heart &amp; Slash" Moder="cjwine" Cusa="CUSA04531" Version="01.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
+  <Cheat Text="bullet inf">
+    <Cheatline>
+      <Offset>4B0036</Offset>
+      <Section>15</Section>
+      <ValueOn>90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>41-89-87-FC-03-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="god mode">
     <Cheatline>
       <Offset>508A7F</Offset>
@@ -22,14 +30,6 @@
       <Section>0</Section>
       <ValueOn>E9-32-5C-B2-80-90-90-90-90</ValueOn>
       <ValueOff>48-63-44-24-08-41-89-46-14</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="bullet inf">
-    <Cheatline>
-      <Offset>4B0036</Offset>
-      <Section>15</Section>
-      <ValueOn>90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>41-89-87-FC-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

@@ -5,6 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Freeze Part / Item Count",
+      "hint": "This option can be used to duplicate items by enabling it and, dropping items, disabling it and picking the items back up.",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "9FCB3B",
+          "on": "909090",
+          "off": "458937"
+        }
+      ]
+    },
+    {
       "name": "Godmode",
       "type": "checkbox",
       "memory": [
@@ -27,28 +39,6 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "9FCB31",
-          "on": "9090909090",
-          "off": "E87AD2EB00"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Weapon Durability",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "9FCF76",
-          "on": "9090909090",
-          "off": "C5FA114304"
-        }
-      ]
-    },
-    {
       "name": "Infinite Grappling Hook Stamina",
       "type": "checkbox",
       "memory": [
@@ -60,14 +50,13 @@
       ]
     },
     {
-      "name": "Freeze Part / Item Count",
-      "hint": "This option can be used to duplicate items by enabling it and, dropping items, disabling it and picking the items back up.",
+      "name": "Infinite Weapon Durability",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "9FCB3B",
-          "on": "909090",
-          "off": "458937"
+          "offset": "9FCF76",
+          "on": "9090909090",
+          "off": "C5FA114304"
         }
       ]
     },
@@ -96,13 +85,24 @@
       ]
     },
     {
-      "name": "Infinite Health",
+      "name": "No Reload",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "A659DE",
-          "on": "C5FA1193F4110000",
-          "off": "C5FA1183F4110000"
+          "offset": "9FCB31",
+          "on": "9090909090",
+          "off": "E87AD2EB00"
+        }
+      ]
+    },
+    {
+      "name": "Buy To Earn Money",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B86DC9",
+          "on": "4401F8",
+          "off": "4429F8"
         }
       ]
     },
@@ -129,24 +129,13 @@
       ]
     },
     {
-      "name": "Buy To Earn Money",
+      "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "B86DC9",
-          "on": "4401F8",
-          "off": "4429F8"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Weapon Durability",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5FCF76",
-          "on": "9090909090",
-          "off": "E87AD2EB00"
+          "offset": "A659DE",
+          "on": "C5FA1193F4110000",
+          "off": "C5FA1183F4110000"
         }
       ]
     },
@@ -162,13 +151,13 @@
       ]
     },
     {
-      "name": "Weather Change",
+      "name": "Infinite Weapon Durability",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "10EC12D",
-          "on": "C5FA1108",
-          "off": "C5FA1100"
+          "offset": "5FCF76",
+          "on": "9090909090",
+          "off": "E87AD2EB00"
         }
       ]
     },
@@ -180,6 +169,28 @@
           "offset": "7FD769A3",
           "on": "909090",
           "off": "668932"
+        }
+      ]
+    },
+    {
+      "name": "Wall Hack",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "10EC12D",
+          "on": "C5F82912",
+          "off": "C5F82902"
+        }
+      ]
+    },
+    {
+      "name": "Weather Change",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "10EC12D",
+          "on": "C5FA1108",
+          "off": "C5FA1100"
         }
       ]
     }

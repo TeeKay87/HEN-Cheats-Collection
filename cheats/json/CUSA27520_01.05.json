@@ -5,6 +5,28 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "1 Hit Kill (MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "802A7863",
+          "on": "751C",
+          "off": "7504"
+        }
+      ]
+    },
+    {
+      "name": "Freez Enemy (Enable Stamina Cheat)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "802A78A3",
+          "on": "7500",
+          "off": "75C4"
+        }
+      ]
+    },
+    {
       "name": "HP / All  (Master Code)",
       "type": "checkbox",
       "memory": [
@@ -21,28 +43,6 @@
       ]
     },
     {
-      "name": "1 Hit Kill (MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "802A7863",
-          "on": "751C",
-          "off": "7504"
-        }
-      ]
-    },
-    {
-      "name": "Stamina / Energy (MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "802A7837",
-          "on": "7539",
-          "off": "7530"
-        }
-      ]
-    },
-    {
       "name": "Max Nanites ( Enable Stamina Cheat)",
       "type": "checkbox",
       "memory": [
@@ -54,13 +54,13 @@
       ]
     },
     {
-      "name": "Freez Enemy (Enable Stamina Cheat)",
+      "name": "Stamina / Energy (MC)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "802A78A3",
-          "on": "7500",
-          "off": "75C4"
+          "offset": "802A7837",
+          "on": "7539",
+          "off": "7530"
         }
       ]
     }

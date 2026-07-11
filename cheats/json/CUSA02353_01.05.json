@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Black Pearl (On Spend)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "65C5B3",
+          "on": "909090",
+          "off": "412BCF"
+        }
+      ]
+    },
+    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -58,23 +69,18 @@
       ]
     },
     {
-      "name": "Max Salt (On Spend)",
+      "name": "Infinite Upgrade Materials (On Spend)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "2D4FC00",
-          "on": "4963873C010000B80F270000E984058CFD",
-          "off": "0000000000000000000000000000000000"
+          "offset": "2D4F800",
+          "on": "48634828B90A000000E9650991FD",
+          "off": "0000000000000000000000000000"
         },
         {
-          "offset": "61018B",
-          "on": "E970FA73029090909090",
-          "off": "4963873C010000412BC4"
-        },
-        {
-          "offset": "57A450",
-          "on": "9090",
-          "off": "2BC1"
+          "offset": "66016D",
+          "on": "E98EF66E0290",
+          "off": "48634828FFC9"
         }
       ]
     },
@@ -95,29 +101,23 @@
       ]
     },
     {
-      "name": "Infinite Black Pearl (On Spend)",
+      "name": "Max Salt (On Spend)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "65C5B3",
-          "on": "909090",
-          "off": "412BCF"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Upgrade Materials (On Spend)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2D4F800",
-          "on": "48634828B90A000000E9650991FD",
-          "off": "0000000000000000000000000000"
+          "offset": "2D4FC00",
+          "on": "4963873C010000B80F270000E984058CFD",
+          "off": "0000000000000000000000000000000000"
         },
         {
-          "offset": "66016D",
-          "on": "E98EF66E0290",
-          "off": "48634828FFC9"
+          "offset": "61018B",
+          "on": "E970FA73029090909090",
+          "off": "4963873C010000412BC4"
+        },
+        {
+          "offset": "57A450",
+          "on": "9090",
+          "off": "2BC1"
         }
       ]
     }

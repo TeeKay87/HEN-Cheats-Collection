@@ -5,6 +5,39 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "All Guns (Dungeon)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "17189F",
+          "on": "B00890",
+          "off": "4028F8"
+        }
+      ]
+    },
+    {
+      "name": "Homing Missle (Sub Weapon Press L1)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "173022",
+          "on": "41B50290",
+          "off": "45026F0C"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Grenade",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "17176F",
+          "on": "9090",
+          "off": "8808"
+        }
+      ]
+    },
+    {
       "name": "Infinite HP",
       "type": "checkbox",
       "memory": [
@@ -32,24 +65,24 @@
       ]
     },
     {
-      "name": "Infinite Grenade",
+      "name": "Shield Mine (Sub Weapon Press L1)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "17176F",
-          "on": "9090",
-          "off": "8808"
+          "offset": "173022",
+          "on": "41B50490",
+          "off": "45026F0C"
         }
       ]
     },
     {
-      "name": "All Guns (Dungeon)",
+      "name": "Spark Tackle (Sub Weapon Press L1)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "17189F",
-          "on": "B00890",
-          "off": "4028F8"
+          "offset": "173022",
+          "on": "41B50390",
+          "off": "45026F0C"
         }
       ]
     },

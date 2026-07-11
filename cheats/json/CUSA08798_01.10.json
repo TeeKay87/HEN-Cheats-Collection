@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "494F822",
-          "on": "C7831408000000007A44EBEF",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "494F815",
-          "on": "EB0B909090909090",
-          "off": "C5FA118B14080000"
-        }
-      ]
-    },
-    {
       "name": "Easy Kill",
       "type": "checkbox",
       "memory": [
@@ -37,6 +21,55 @@
       ]
     },
     {
+      "name": "Infinite Consumables (Turn off Max cheat before use)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "390AB0",
+          "on": "909090",
+          "off": "89702C"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "494F822",
+          "on": "C7831408000000007A44EBEF",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "494F815",
+          "on": "EB0B909090909090",
+          "off": "C5FA118B14080000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ingredients (Turn off Max cheat before use)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "38CD6E",
+          "on": "909090",
+          "off": "89702C"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Souls and Crystals (Turn off Max cheat before use)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "38CBBB",
+          "on": "9090",
+          "off": "8908"
+        }
+      ]
+    },
+    {
       "name": "Instant Fill Wrath and Havoc",
       "type": "checkbox",
       "memory": [
@@ -49,22 +82,6 @@
           "offset": "27E5E7",
           "on": "E94E126D04909090",
           "off": "C5FA108B30010000"
-        }
-      ]
-    },
-    {
-      "name": "Max Souls on Spend",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "494F851",
-          "on": "B97F9698008908E960D3A3FB",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "38CBB8",
-          "on": "E9942C5C04",
-          "off": "4531ED8908"
         }
       ]
     },
@@ -101,50 +118,17 @@
       ]
     },
     {
-      "name": "Infinite Souls and Crystals (Turn off Max cheat before use)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "38CBBB",
-          "on": "9090",
-          "off": "8908"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Consumables (Turn off Max cheat before use)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "390AB0",
-          "on": "909090",
-          "off": "89702C"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Ingredients (Turn off Max cheat before use)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "38CD6E",
-          "on": "909090",
-          "off": "89702C"
-        }
-      ]
-    },
-    {
       "name": "Max Souls on Spend",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "494F800",
-          "on": "B97F9698008908E9B1D3A3FB",
+          "offset": "494F851",
+          "on": "B97F9698008908E960D3A3FB",
           "off": "000000000000000000000000"
         },
         {
           "offset": "38CBB8",
-          "on": "E9432C5C04",
+          "on": "E9942C5C04",
           "off": "4531ED8908"
         }
       ]
@@ -178,6 +162,22 @@
           "offset": "38CD6C",
           "on": "E98F2A5C04",
           "off": "7E2089702C"
+        }
+      ]
+    },
+    {
+      "name": "Max Souls on Spend",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "494F800",
+          "on": "B97F9698008908E9B1D3A3FB",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "38CBB8",
+          "on": "E9432C5C04",
+          "off": "4531ED8908"
         }
       ]
     }

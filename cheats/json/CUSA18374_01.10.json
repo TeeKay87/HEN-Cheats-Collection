@@ -21,6 +21,22 @@
       ]
     },
     {
+      "name": "Inf Health / 1 Hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "21D0BA0",
+          "on": "4180BEB0FA0000007413498BB690FA00004989B688FA0000E934ADCEFEBE000000004989B688FA0000E923ADCEFE",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "EBB8EA",
+          "on": "E9B15231019090",
+          "off": "4989B688FA0000"
+        }
+      ]
+    },
+    {
       "name": "Inf Skill Points",
       "type": "checkbox",
       "memory": [

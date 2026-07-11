@@ -5,23 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Team Health",
+      "name": "Deactivate Pack Overheating",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "2D2E9E",
-          "on": "90909090",
-          "off": "C5FA5CC1"
-        },
-        {
-          "offset": "9F3F50",
-          "on": "41C7842468B800000000C842E94BEF8DFF",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "2D2EA2",
-          "on": "E9A91072009090909090",
-          "off": "C4C17A11842468B80000"
+          "offset": "2CC4FE",
+          "on": "C5F057C9",
+          "off": "C5E857D2"
         }
       ]
     },
@@ -42,13 +32,23 @@
       ]
     },
     {
-      "name": "Deactivate Pack Overheating",
+      "name": "Max Team Health",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "2CC4FE",
-          "on": "C5F057C9",
-          "off": "C5E857D2"
+          "offset": "2D2E9E",
+          "on": "90909090",
+          "off": "C5FA5CC1"
+        },
+        {
+          "offset": "9F3F50",
+          "on": "41C7842468B800000000C842E94BEF8DFF",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "2D2EA2",
+          "on": "E9A91072009090909090",
+          "off": "C4C17A11842468B80000"
         }
       ]
     }

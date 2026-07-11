@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health / Easy Win (Master Code)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "59BBBB0",
-          "on": "4181FF0000010075174183BC241001000000750C8B83CC0000008983D80000008983C8000000E9052F6EFA3D00003D007EEEB800003D00EBE1",
-          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "9EADA",
-          "on": "E9D1D0910590",
-          "off": "8983C8000000"
-        }
-      ]
-    },
-    {
       "name": "Easy Win (MC)",
       "type": "checkbox",
       "memory": [
@@ -48,13 +32,18 @@
       ]
     },
     {
-      "name": "Opp CA Meter 0 (MC)",
+      "name": "Infinite Health / Easy Win (Master Code)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "59BCCD9",
-          "on": "7515",
-          "off": "750A"
+          "offset": "59BBBB0",
+          "on": "4181FF0000010075174183BC241001000000750C8B83CC0000008983D80000008983C8000000E9052F6EFA3D00003D007EEEB800003D00EBE1",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "9EADA",
+          "on": "E9D1D0910590",
+          "off": "8983C8000000"
         }
       ]
     },
@@ -71,6 +60,17 @@
           "offset": "9F76E",
           "on": "E9FDDF9105",
           "off": "39C80F4EC8"
+        }
+      ]
+    },
+    {
+      "name": "Opp CA Meter 0 (MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "59BCCD9",
+          "on": "7515",
+          "off": "750A"
         }
       ]
     },

@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Get Reagents For Spending Them",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "70D6A5",
-          "on": "410186A8000000",
-          "off": "412986A8000000"
-        }
-      ]
-    },
-    {
       "name": "Get Clues For Spending Them",
       "type": "checkbox",
       "memory": [
@@ -31,7 +20,7 @@
       "type": "checkbox",
       "memory": [
         {
-          "offset": "30D6A5",
+          "offset": "70D6A5",
           "on": "410186A8000000",
           "off": "412986A8000000"
         }
@@ -45,6 +34,17 @@
           "offset": "30F238",
           "on": "41FF85AC000000",
           "off": "41FF8DAC000000"
+        }
+      ]
+    },
+    {
+      "name": "Get Reagents For Spending Them",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "30D6A5",
+          "on": "410186A8000000",
+          "off": "412986A8000000"
         }
       ]
     }

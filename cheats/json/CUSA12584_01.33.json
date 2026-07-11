@@ -5,6 +5,55 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "agent level 1000 / get 1000 token (complete a single bounty)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "654F83C",
+          "on": "48C7C140420F0048894C1038E9434D09FD",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "35E458B",
+          "on": "E9ACB2F602",
+          "off": "48894C1038"
+        }
+      ]
+    },
+    {
+      "name": "bounty tokens never decrease (bounty vendor)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3309869",
+          "on": "9090909090",
+          "off": "E8E2B2D3FF"
+        }
+      ]
+    },
+    {
+      "name": "freeze Stamina/Breath",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3392405",
+          "on": "90909090909090",
+          "off": "C4C17A11442410"
+        }
+      ]
+    },
+    {
+      "name": "Freeze timer",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2963161",
+          "on": "9090909090909090",
+          "off": "C5FA118348030000"
+        }
+      ]
+    },
+    {
       "name": "GOD Mod",
       "type": "checkbox",
       "memory": [
@@ -31,24 +80,13 @@
       ]
     },
     {
-      "name": "freeze Stamina/Breath",
+      "name": "inf immunity",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "3392405",
-          "on": "90909090909090",
-          "off": "C4C17A11442410"
-        }
-      ]
-    },
-    {
-      "name": "Items/Craftables/consumables/thrwoables never decrease (Need 2 or more)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "33092E8",
-          "on": "9090909090",
-          "off": "E863B8D3FF"
+          "offset": "3367EFD",
+          "on": "909090909090",
+          "off": "C4C17A11472C"
         }
       ]
     },
@@ -60,6 +98,28 @@
           "offset": "33095F0",
           "on": "9090909090",
           "off": "E85BB5D3FF"
+        }
+      ]
+    },
+    {
+      "name": "inf UV Flashlight",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2916DED",
+          "on": "9090909090",
+          "off": "E80E4EFCFF"
+        }
+      ]
+    },
+    {
+      "name": "Items/Craftables/consumables/thrwoables never decrease (Need 2 or more)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "33092E8",
+          "on": "9090909090",
+          "off": "E863B8D3FF"
         }
       ]
     },
@@ -96,50 +156,6 @@
       ]
     },
     {
-      "name": "inf immunity",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3367EFD",
-          "on": "909090909090",
-          "off": "C4C17A11472C"
-        }
-      ]
-    },
-    {
-      "name": "Freeze timer",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2963161",
-          "on": "9090909090909090",
-          "off": "C5FA118348030000"
-        }
-      ]
-    },
-    {
-      "name": "inf UV Flashlight",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2916DED",
-          "on": "9090909090",
-          "off": "E80E4EFCFF"
-        }
-      ]
-    },
-    {
-      "name": "No Reload for Crossbow/Boomsticks",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "352F914",
-          "on": "9090909090",
-          "off": "E83752B1FF"
-        }
-      ]
-    },
-    {
       "name": "MAX XP/legend/inhibitators on get",
       "type": "checkbox",
       "memory": [
@@ -156,29 +172,13 @@
       ]
     },
     {
-      "name": "bounty tokens never decrease (bounty vendor)",
+      "name": "No Reload for Crossbow/Boomsticks",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "3309869",
+          "offset": "352F914",
           "on": "9090909090",
-          "off": "E8E2B2D3FF"
-        }
-      ]
-    },
-    {
-      "name": "agent level 1000 / get 1000 token (complete a single bounty)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "654F83C",
-          "on": "48C7C140420F0048894C1038E9434D09FD",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "35E458B",
-          "on": "E9ACB2F602",
-          "off": "48894C1038"
+          "off": "E83752B1FF"
         }
       ]
     }

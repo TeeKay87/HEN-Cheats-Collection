@@ -37,6 +37,22 @@
       ]
     },
     {
+      "name": "Infinite Items (on use)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "18B7F30",
+          "on": "41C6462014488B5DC8E9595CFA7E",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "8085DB8F",
+          "on": "E99CA30581909090",
+          "off": "45297E20488B5DC8"
+        }
+      ]
+    },
+    {
       "name": "Infinite Magic",
       "type": "checkbox",
       "memory": [
@@ -65,22 +81,6 @@
           "offset": "8085E35B",
           "on": "E9D0950581",
           "off": "7505895918"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Items (on use)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "18B7F30",
-          "on": "41C6462014488B5DC8E9595CFA7E",
-          "off": "0000000000000000000000000000"
-        },
-        {
-          "offset": "8085DB8F",
-          "on": "E99CA30581909090",
-          "off": "45297E20488B5DC8"
         }
       ]
     }

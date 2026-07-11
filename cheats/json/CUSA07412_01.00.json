@@ -32,18 +32,18 @@
       ]
     },
     {
-      "name": "Max and Infinite XP,HS,Resources When Get or Spend",
+      "name": "Max and Infinite Rage when Get or Hit",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "C38690",
-          "on": "4183FDFF740D4181FEFFFFFF7F7507C743303F420F00488B4B288B4330E9A7EDCCFF",
-          "off": "00000000000000000000000000000000000000000000000000000000000000000000"
+          "offset": "C59279",
+          "on": "4881FEC000000074204881FEA000000074174983F90175064983F800740BC4C17A5D5530E99655B6FF5348C7C30000FA43C4E1F96EC35B0F5BC0F30F10D0EBE4",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "90744C",
-          "on": "E93F1233009090",
-          "off": "488B4B288B4330"
+          "offset": "7BE832",
+          "on": "E942AA490090",
+          "off": "C4C17A5D5530"
         }
       ]
     },
@@ -64,18 +64,34 @@
       ]
     },
     {
-      "name": "Max and Infinite Rage when Get or Hit",
+      "name": "Max and Infinite XP,HS,Resources When Get or Spend",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "C59279",
-          "on": "4881FEC000000074204881FEA000000074174983F90175064983F800740BC4C17A5D5530E99655B6FF5348C7C30000FA43C4E1F96EC35B0F5BC0F30F10D0EBE4",
-          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+          "offset": "C38690",
+          "on": "4183FDFF740D4181FEFFFFFF7F7507C743303F420F00488B4B288B4330E9A7EDCCFF",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "7BE832",
-          "on": "E942AA490090",
-          "off": "C4C17A5D5530"
+          "offset": "90744C",
+          "on": "E93F1233009090",
+          "off": "488B4B288B4330"
+        }
+      ]
+    },
+    {
+      "name": "Max and Infinite XP,HS,Resources When Get or Spend Includes Max Labours Resources When Get",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "C38690",
+          "on": "4183FDFF740D4181FEFFFFFF7F741044897330488B4B288B4330E9A4EDCCFFC743303F420F00EBEB",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "90744C",
+          "on": "E93F1233009090",
+          "off": "488B4B288B4330"
         }
       ]
     }

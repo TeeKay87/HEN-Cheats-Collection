@@ -7,6 +7,14 @@
   <Genres Name="Shooter" />
   <Genres Name="Strategy" />
   <Items />
+  <Cheat Text="Debug Menu (Disable)">
+    <Cheatline>
+      <Offset>4108</Offset>
+      <Section>0</Section>
+      <ValueOn>C6-81-81-2E-00-00-00</ValueOn>
+      <ValueOff>80-B9-81-2E-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Debug Menu (Enable)">
     <Cheatline>
       <Offset>4108</Offset>
@@ -21,12 +29,18 @@
       <ValueOff>0F-84-8E-12-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Debug Menu (Disable)">
+  <Cheat Text="Debug Menu (Enable, No Overlay)">
     <Cheatline>
       <Offset>4108</Offset>
       <Section>0</Section>
-      <ValueOn>C6-81-81-2E-00-00-00</ValueOn>
+      <ValueOn>C6-81-81-2E-00-00-01</ValueOn>
       <ValueOff>80-B9-81-2E-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>410F</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-8F-12-00-00-90</ValueOn>
+      <ValueOff>0F-84-8E-12-00-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

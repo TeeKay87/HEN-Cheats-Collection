@@ -16,62 +16,6 @@
       ]
     },
     {
-      "name": "Love",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "219D6D416",
-          "on": "FF40",
-          "off": "0000"
-        },
-        {
-          "offset": "219D6D426",
-          "on": "FF40",
-          "off": "0000"
-        },
-        {
-          "offset": "219D6D436",
-          "on": "FF40",
-          "off": "0000"
-        },
-        {
-          "offset": "219D6D446",
-          "on": "FF40",
-          "off": "0000"
-        },
-        {
-          "offset": "219D6D456",
-          "on": "FF40",
-          "off": "0000"
-        },
-        {
-          "offset": "219D6D466",
-          "on": "FF40",
-          "off": "0000"
-        },
-        {
-          "offset": "219D6D476",
-          "on": "FF40",
-          "off": "0000"
-        },
-        {
-          "offset": "219D6D486",
-          "on": "FF40",
-          "off": "0000"
-        },
-        {
-          "offset": "219D6D496",
-          "on": "FF40",
-          "off": "0000"
-        },
-        {
-          "offset": "219D6D4A6",
-          "on": "FF40",
-          "off": "0000"
-        }
-      ]
-    },
-    {
       "name": "Dreams",
       "type": "checkbox",
       "memory": [
@@ -128,56 +72,56 @@
       ]
     },
     {
-      "name": "Myself",
+      "name": "Love",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "219D6C016",
+          "offset": "219D6D416",
           "on": "FF40",
           "off": "0000"
         },
         {
-          "offset": "219D6C026",
+          "offset": "219D6D426",
           "on": "FF40",
           "off": "0000"
         },
         {
-          "offset": "219D6C036",
+          "offset": "219D6D436",
           "on": "FF40",
           "off": "0000"
         },
         {
-          "offset": "219D6C046",
+          "offset": "219D6D446",
           "on": "FF40",
           "off": "0000"
         },
         {
-          "offset": "219D6C056",
+          "offset": "219D6D456",
           "on": "FF40",
           "off": "0000"
         },
         {
-          "offset": "219D6C066",
+          "offset": "219D6D466",
           "on": "FF40",
           "off": "0000"
         },
         {
-          "offset": "219D6C076",
+          "offset": "219D6D476",
           "on": "FF40",
           "off": "0000"
         },
         {
-          "offset": "219D6C086",
+          "offset": "219D6D486",
           "on": "FF40",
           "off": "0000"
         },
         {
-          "offset": "219D6C096",
+          "offset": "219D6D496",
           "on": "FF40",
           "off": "0000"
         },
         {
-          "offset": "219D6C0A6",
+          "offset": "219D6D4A6",
           "on": "FF40",
           "off": "0000"
         }
@@ -234,6 +178,62 @@
         },
         {
           "offset": "219D6B6A6",
+          "on": "FF40",
+          "off": "0000"
+        }
+      ]
+    },
+    {
+      "name": "Myself",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "219D6C016",
+          "on": "FF40",
+          "off": "0000"
+        },
+        {
+          "offset": "219D6C026",
+          "on": "FF40",
+          "off": "0000"
+        },
+        {
+          "offset": "219D6C036",
+          "on": "FF40",
+          "off": "0000"
+        },
+        {
+          "offset": "219D6C046",
+          "on": "FF40",
+          "off": "0000"
+        },
+        {
+          "offset": "219D6C056",
+          "on": "FF40",
+          "off": "0000"
+        },
+        {
+          "offset": "219D6C066",
+          "on": "FF40",
+          "off": "0000"
+        },
+        {
+          "offset": "219D6C076",
+          "on": "FF40",
+          "off": "0000"
+        },
+        {
+          "offset": "219D6C086",
+          "on": "FF40",
+          "off": "0000"
+        },
+        {
+          "offset": "219D6C096",
+          "on": "FF40",
+          "off": "0000"
+        },
+        {
+          "offset": "219D6C0A6",
           "on": "FF40",
           "off": "0000"
         }

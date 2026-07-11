@@ -5,18 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Level Unlocker",
+      "name": "Freeze Timer",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "139F800",
-          "on": "C6472C1C488B472883F801E9EFD9BAFF",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "F4D1F8",
-          "on": "E9032645009090",
-          "off": "488B472883F801"
+          "offset": "42F934",
+          "on": "9090",
+          "off": "FFC0"
         }
       ]
     },
@@ -37,13 +32,18 @@
       ]
     },
     {
-      "name": "Freeze Timer",
+      "name": "Level Unlocker",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "42F934",
-          "on": "9090",
-          "off": "FFC0"
+          "offset": "139F800",
+          "on": "C6472C1C488B472883F801E9EFD9BAFF",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "F4D1F8",
+          "on": "E9032645009090",
+          "off": "488B472883F801"
         }
       ]
     },
@@ -76,7 +76,7 @@
     }
   ],
   "credits": [
-    "Reddevil82 ",
-    " FW 9.00"
+    "Reddevil82",
+    "FW 9.00"
   ]
 }

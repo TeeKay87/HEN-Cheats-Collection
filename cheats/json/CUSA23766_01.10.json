@@ -5,6 +5,38 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Inf Ammo use it with No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "A697869",
+          "on": "90E943CD09FB",
+          "off": "000000000000"
+        },
+        {
+          "offset": "57345AA",
+          "on": "E9BA32F604909090",
+          "off": "C5FA118FA0000000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Hero Points use it once After max XP cheat",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "A697881",
+          "on": "90E9FD6937F7",
+          "off": "000000000000"
+        },
+        {
+          "offset": "1A0E27D",
+          "on": "E9FF95C8089090",
+          "off": "4589A690060000"
+        }
+      ]
+    },
+    {
       "name": "Inf HP",
       "type": "checkbox",
       "memory": [
@@ -17,38 +49,6 @@
           "offset": "5732F77",
           "on": "E98448F604909090",
           "off": "C5FA118FA0000000"
-        }
-      ]
-    },
-    {
-      "name": "Inf XP",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "A69782F",
-          "on": "B87F969800418985C4010000E98B3F0CF7",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "175B7C4",
-          "on": "E966C0F3089090",
-          "off": "418985C4010000"
-        }
-      ]
-    },
-    {
-      "name": "Inf Skill Point use it once After max XP cheat",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "A697842",
-          "on": "90E9808B7FF6",
-          "off": "000000000000"
-        },
-        {
-          "offset": "E903C1",
-          "on": "E97C7480099090",
-          "off": "41898658010000"
         }
       ]
     },
@@ -85,38 +85,6 @@
       ]
     },
     {
-      "name": "Inf Ammo use it with No Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "A697869",
-          "on": "90E943CD09FB",
-          "off": "000000000000"
-        },
-        {
-          "offset": "57345AA",
-          "on": "E9BA32F604909090",
-          "off": "C5FA118FA0000000"
-        }
-      ]
-    },
-    {
-      "name": "No Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "A697871",
-          "on": "90E94DC87CFB",
-          "off": "000000000000"
-        },
-        {
-          "offset": "5E640BD",
-          "on": "E9AF3783049090",
-          "off": "418987B0010000"
-        }
-      ]
-    },
-    {
       "name": "Inf Myth Points use it once After max XP cheat",
       "type": "checkbox",
       "memory": [
@@ -133,18 +101,50 @@
       ]
     },
     {
-      "name": "Inf Hero Points use it once After max XP cheat",
+      "name": "Inf Skill Point use it once After max XP cheat",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "A697881",
-          "on": "90E9FD6937F7",
+          "offset": "A697842",
+          "on": "90E9808B7FF6",
           "off": "000000000000"
         },
         {
-          "offset": "1A0E27D",
-          "on": "E9FF95C8089090",
-          "off": "4589A690060000"
+          "offset": "E903C1",
+          "on": "E97C7480099090",
+          "off": "41898658010000"
+        }
+      ]
+    },
+    {
+      "name": "Inf XP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "A69782F",
+          "on": "B87F969800418985C4010000E98B3F0CF7",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "175B7C4",
+          "on": "E966C0F3089090",
+          "off": "418985C4010000"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "A697871",
+          "on": "90E94DC87CFB",
+          "off": "000000000000"
+        },
+        {
+          "offset": "5E640BD",
+          "on": "E9AF3783049090",
+          "off": "418987B0010000"
         }
       ]
     }

@@ -5,28 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Unlock All-Weapon",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "185409",
-          "on": "FF",
-          "off": "00"
-        }
-      ]
-    },
-    {
-      "name": "Infinite-All-Weapon",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "12AACD",
-          "on": "99",
-          "off": "18"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -50,6 +28,28 @@
           "offset": "10BAE2",
           "on": "00",
           "off": "42"
+        }
+      ]
+    },
+    {
+      "name": "Infinite-All-Weapon",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "12AACD",
+          "on": "99",
+          "off": "18"
+        }
+      ]
+    },
+    {
+      "name": "Unlock All-Weapon",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "185409",
+          "on": "FF",
+          "off": "00"
         }
       ]
     }

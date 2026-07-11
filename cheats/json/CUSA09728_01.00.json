@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "34F66B",
+          "on": "909090",
+          "off": "FF4814"
+        }
+      ]
+    },
+    {
       "name": "Infinite Health (when haunting the other will get inf hp)",
       "type": "checkbox",
       "memory": [
@@ -17,17 +28,6 @@
           "offset": "334DDE",
           "on": "E9BDEE1300909090",
           "off": "C5FA1183F4050000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "34F66B",
-          "on": "909090",
-          "off": "FF4814"
         }
       ]
     },

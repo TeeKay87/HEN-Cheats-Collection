@@ -5,38 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "194BDB0",
-          "on": "C780D800000000002041C5FA1080D8000000E9FB4FB97E526564646576696C3832202D20465720392E3030",
-          "off": "0000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "804E0DBA",
-          "on": "E9F1AF4681909090",
-          "off": "C5FA1080D8000000"
-        }
-      ]
-    },
-    {
-      "name": "One Hit Kill ( Dont use on Boss and Item )",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "194BDDB",
-          "on": "0F57C0C5FA114050E9D3FEBD7E",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "8052BCB6",
-          "on": "E920014281",
-          "off": "C5FA114050"
-        }
-      ]
-    },
-    {
       "name": "Infinite Energy",
       "type": "checkbox",
       "memory": [
@@ -49,6 +17,22 @@
           "offset": "805CD25A",
           "on": "E989EB378190",
           "off": "8B80F0020000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "194BDB0",
+          "on": "C780D800000000002041C5FA1080D8000000E9FB4FB97E526564646576696C3832202D20465720392E3030",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "804E0DBA",
+          "on": "E9F1AF4681909090",
+          "off": "C5FA1080D8000000"
         }
       ]
     },
@@ -83,10 +67,26 @@
           "off": "8B4C24F4894828"
         }
       ]
+    },
+    {
+      "name": "One Hit Kill ( Dont use on Boss and Item )",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "194BDDB",
+          "on": "0F57C0C5FA114050E9D3FEBD7E",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "8052BCB6",
+          "on": "E920014281",
+          "off": "C5FA114050"
+        }
+      ]
     }
   ],
   "credits": [
-    "Reddevil82 ",
-    " FW 9.00"
+    "Reddevil82",
+    "FW 9.00"
   ]
 }

@@ -5,6 +5,22 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Consumables(must have 2)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "664B814",
+          "on": "C74710630000008B4F50E91C0795FA",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "F9BF39",
+          "on": "E9D6F86A0590",
+          "off": "8947108B4F50"
+        }
+      ]
+    },
+    {
       "name": "Infinite health",
       "type": "checkbox",
       "memory": [
@@ -33,22 +49,6 @@
           "offset": "DE9138",
           "on": "E9C326860590909090",
           "off": "8950080F8ED6000000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Consumables(must have 2)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "664B814",
-          "on": "C74710630000008B4F50E91C0795FA",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "F9BF39",
-          "on": "E9D6F86A0590",
-          "off": "8947108B4F50"
         }
       ]
     }

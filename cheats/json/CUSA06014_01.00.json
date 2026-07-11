@@ -38,6 +38,28 @@
       ]
     },
     {
+      "name": "Player Left  1 hit kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5694784",
+          "on": "000001",
+          "off": "0000AA"
+        }
+      ]
+    },
+    {
+      "name": "Player Rigth 1 hit kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5697574",
+          "on": "000001",
+          "off": "0000AA"
+        }
+      ]
+    },
+    {
       "name": "Godmode Player Left",
       "type": "checkbox",
       "memory": [
@@ -67,6 +89,28 @@
           "offset": "223FB1",
           "on": "4801",
           "off": "4889"
+        }
+      ]
+    },
+    {
+      "name": "Player Left  1 hit kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5294784",
+          "on": "000001",
+          "off": "0000AA"
+        }
+      ]
+    },
+    {
+      "name": "Player Rigth 1 hit kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5297574",
+          "on": "000001",
+          "off": "0000AA"
         }
       ]
     }

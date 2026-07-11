@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Lives / Coins (Master Code)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "17CEF00",
-          "on": "488B7C24F84181FAFDFF0000751F41574C8B7F204181BF950400004C697665415F750ABE63000000E9B5D7C17E8B7424F4E9ACD7C17E41574C8B3F4181BF75010000436F696E415F75E3EBD7",
-          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "803EC6D9",
-          "on": "E922283E8190909090",
-          "off": "488B7C24F88B7424F4"
-        }
-      ]
-    },
-    {
       "name": "Coins x99 (MC) Turn Off To Collect More",
       "type": "checkbox",
       "memory": [
@@ -48,17 +32,6 @@
       ]
     },
     {
-      "name": "Resume Time (Use With Freeze Time)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "17CF02B",
-          "on": "6641C747450101",
-          "off": "6641C747450001"
-        }
-      ]
-    },
-    {
       "name": "Freeze Time (SpeedRun Mode)",
       "type": "checkbox",
       "memory": [
@@ -66,6 +39,33 @@
           "offset": "180756",
           "on": "9090909090",
           "off": "C5FA114714"
+        }
+      ]
+    },
+    {
+      "name": "Lives / Coins (Master Code)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "17CEF00",
+          "on": "488B7C24F84181FAFDFF0000751F41574C8B7F204181BF950400004C697665415F750ABE63000000E9B5D7C17E8B7424F4E9ACD7C17E41574C8B3F4181BF75010000436F696E415F75E3EBD7",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "803EC6D9",
+          "on": "E922283E8190909090",
+          "off": "488B7C24F88B7424F4"
+        }
+      ]
+    },
+    {
+      "name": "Resume Time (Use With Freeze Time)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "17CF02B",
+          "on": "6641C747450101",
+          "off": "6641C747450001"
         }
       ]
     }

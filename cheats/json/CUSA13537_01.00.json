@@ -5,13 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Units Point Multiplier (upgrade/add soldier)",
+      "name": "Infinite Health/Sphere",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "19BA8A0",
-          "on": "017718",
-          "off": "897718"
+          "offset": "7FC5D362",
+          "on": "4983FA0075174983FD007511C74018003C1C46C5FA104018E9B319F201C5FA104018E9A919F201",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "81B7ED2D",
+          "on": "E930E60DFE",
+          "off": "C5FA104018"
         }
       ]
     },
@@ -32,18 +37,13 @@
       ]
     },
     {
-      "name": "Infinite Health/Sphere",
+      "name": "Units Point Multiplier (upgrade/add soldier)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5D362",
-          "on": "4983FA0075174983FD007511C74018003C1C46C5FA104018E9B319F201C5FA104018E9A919F201",
-          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "81B7ED2D",
-          "on": "E930E60DFE",
-          "off": "C5FA104018"
+          "offset": "19BA8A0",
+          "on": "017718",
+          "off": "897718"
         }
       ]
     }

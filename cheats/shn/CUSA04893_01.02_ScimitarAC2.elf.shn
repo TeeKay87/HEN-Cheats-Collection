@@ -12,20 +12,20 @@
       <ValueOff>41-0F-4E-C7</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money/Items on Get">
-    <Cheatline>
-      <Offset>DC8BC7</Offset>
-      <Section>0</Section>
-      <ValueOn>89-C3-90</ValueOn>
-      <ValueOff>0F-47-D8</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite Money/Items">
     <Cheatline>
       <Offset>DC8BF3</Offset>
       <Section>0</Section>
       <ValueOn>90-90</ValueOn>
       <ValueOff>29-F0</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max Money/Items on Get">
+    <Cheatline>
+      <Offset>DC8BC7</Offset>
+      <Section>0</Section>
+      <ValueOn>89-C3-90</ValueOn>
+      <ValueOff>0F-47-D8</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

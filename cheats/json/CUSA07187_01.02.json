@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "TRAINER INFO (read only)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "60D2FFF",
-          "on": "00",
-          "off": "00"
-        }
-      ]
-    },
-    {
       "name": "1 Hit Kill",
       "type": "checkbox",
       "memory": [
@@ -66,6 +55,17 @@
           "offset": "10E2F29",
           "on": "41BD0600000090",
           "off": "448BABD4030000"
+        }
+      ]
+    },
+    {
+      "name": "Easy BP (~L50)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "E717CF",
+          "on": "4189643040",
+          "off": "4189543040"
         }
       ]
     },
@@ -263,6 +263,17 @@
       ]
     },
     {
+      "name": "Null PlayTime",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "E6A045",
+          "on": "4831C0",
+          "off": "4801C8"
+        }
+      ]
+    },
+    {
       "name": "Stats - Luck 9999",
       "type": "checkbox",
       "memory": [
@@ -388,13 +399,24 @@
       ]
     },
     {
-      "name": "INF HP",
+      "name": "TRAINER INFO (read only)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "DFB8D1",
-          "on": "9090909090",
-          "off": "4489740830"
+          "offset": "60D2FFF",
+          "on": "00",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Add GIL When Buying",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "E560D8",
+          "on": "4401B4C33C560300",
+          "off": "4489B4C33C560300"
         }
       ]
     },
@@ -410,6 +432,28 @@
       ]
     },
     {
+      "name": "ADD Mp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "DFBBD8",
+          "on": "4401740838",
+          "off": "4489740838"
+        }
+      ]
+    },
+    {
+      "name": "Freez GIL",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "E560D8",
+          "on": "9090909090909090",
+          "off": "4489B4C33C560300"
+        }
+      ]
+    },
+    {
       "name": "Freez Mp",
       "type": "checkbox",
       "memory": [
@@ -421,17 +465,6 @@
       ]
     },
     {
-      "name": "MAX ATB",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "DFB656",
-          "on": "C57A114C0844",
-          "off": "C5FA11440844"
-        }
-      ]
-    },
-    {
       "name": "Freez Special LIMIT",
       "type": "checkbox",
       "memory": [
@@ -439,6 +472,28 @@
           "offset": "DFBF76",
           "on": "909090909090",
           "off": "C5FA11440824"
+        }
+      ]
+    },
+    {
+      "name": "INF HP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "DFB8D1",
+          "on": "9090909090",
+          "off": "4489740830"
+        }
+      ]
+    },
+    {
+      "name": "MAX ATB",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "DFB656",
+          "on": "C57A114C0844",
+          "off": "C5FA11440844"
         }
       ]
     }

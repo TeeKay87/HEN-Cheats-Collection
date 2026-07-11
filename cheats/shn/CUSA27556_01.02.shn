@@ -5,24 +5,12 @@
   <Genres Name="Arcade" />
   <Genres Name="Family" />
   <Items />
-  <Cheat Text="Vida Infinita">
+  <Cheat Text="Ki Infinito">
     <Cheatline>
-      <Offset>596596</Offset>
+      <Offset>36B5B6</Offset>
       <Section>14</Section>
       <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>C5-FA-11-80-C0-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>18DBE10</Offset>
-      <Section>0</Section>
-      <ValueOn>C7-80-A4-00-00-00-09-00-00-00-E9-59-E7-F6-7E</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>8084A572</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-99-18-09-81-90</ValueOn>
-      <ValueOff>89-88-A4-00-00-00</ValueOff>
+      <ValueOff>C5-FA-11-80-C4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Pontos MAX">
@@ -51,14 +39,6 @@
       <ValueOff>89-88-A8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Ki Infinito">
-    <Cheatline>
-      <Offset>36B5B6</Offset>
-      <Section>14</Section>
-      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>C5-FA-11-80-C4-00-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Tempo Infinito">
     <Cheatline>
       <Offset>18DBE40</Offset>
@@ -71,6 +51,26 @@
       <Section>0</Section>
       <ValueOn>E9-5D-B9-32-81-90-90</ValueOn>
       <ValueOff>8B-4C-24-F4-89-48-18</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Vida Infinita">
+    <Cheatline>
+      <Offset>596596</Offset>
+      <Section>14</Section>
+      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-80-C0-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>18DBE10</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-80-A4-00-00-00-09-00-00-00-E9-59-E7-F6-7E</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>8084A572</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-99-18-09-81-90</ValueOn>
+      <ValueOff>89-88-A4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

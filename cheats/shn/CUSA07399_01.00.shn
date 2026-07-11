@@ -17,14 +17,6 @@
       <ValueOff>63-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Set Lives to 999">
-    <Cheatline>
-      <Offset>24F5EA114</Offset>
-      <Section>0</Section>
-      <ValueOn>E7-03-00-00</ValueOn>
-      <ValueOff>E7-03-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Set Boxes to 999">
     <Cheatline>
       <Offset>2583CC0E0</Offset>
@@ -33,17 +25,17 @@
       <ValueOff>E7-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Set Diamonds to 99">
+  <Cheat Text="Set Crystals to 99">
     <Cheatline>
-      <Offset>24F5EA11C</Offset>
+      <Offset>24F5EA12C</Offset>
       <Section>0</Section>
       <ValueOn>63-00-00-00</ValueOn>
       <ValueOff>63-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Set Platin to 99">
+  <Cheat Text="Set Diamonds to 99">
     <Cheatline>
-      <Offset>24F5EA128</Offset>
+      <Offset>24F5EA11C</Offset>
       <Section>0</Section>
       <ValueOn>63-00-00-00</ValueOn>
       <ValueOff>63-00-00-00</ValueOff>
@@ -57,14 +49,6 @@
       <ValueOff>63-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Set Saphir to 99">
-    <Cheatline>
-      <Offset>24F5EA120</Offset>
-      <Section>0</Section>
-      <ValueOn>63-00-00-00</ValueOn>
-      <ValueOff>63-00-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Set Keys to 99">
     <Cheatline>
       <Offset>24F5EA118</Offset>
@@ -73,9 +57,25 @@
       <ValueOff>63-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Set Crystals to 99">
+  <Cheat Text="Set Lives to 999">
     <Cheatline>
-      <Offset>24F5EA12C</Offset>
+      <Offset>24F5EA114</Offset>
+      <Section>0</Section>
+      <ValueOn>E7-03-00-00</ValueOn>
+      <ValueOff>E7-03-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Set Platin to 99">
+    <Cheatline>
+      <Offset>24F5EA128</Offset>
+      <Section>0</Section>
+      <ValueOn>63-00-00-00</ValueOn>
+      <ValueOff>63-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Set Saphir to 99">
+    <Cheatline>
+      <Offset>24F5EA120</Offset>
       <Section>0</Section>
       <ValueOn>63-00-00-00</ValueOn>
       <ValueOff>63-00-00-00</ValueOff>

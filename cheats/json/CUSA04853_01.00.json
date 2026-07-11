@@ -21,6 +21,22 @@
       ]
     },
     {
+      "name": "Fang WP Turn 500 Upon Usage",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "23CB800",
+          "on": "B8F401000089C1894B38E9741ECDFD",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "9D67E",
+          "on": "E97DE13202",
+          "off": "89C1894B38"
+        }
+      ]
+    },
+    {
       "name": "Inf Current Sp",
       "type": "checkbox",
       "memory": [
@@ -28,6 +44,70 @@
           "offset": "13E5B",
           "on": "909090",
           "off": "897710"
+        }
+      ]
+    },
+    {
+      "name": "Party Exp Multiplier x 128",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "23CB800",
+          "on": "0F835290C4FD49C1E607E9828FC4FD",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "1478B",
+          "on": "E970703B0290",
+          "off": "0F83CD000000"
+        }
+      ]
+    },
+    {
+      "name": "Party Exp Multiplier x 16",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "23CB800",
+          "on": "0F835290C4FD49C1E604E9828FC4FD",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "1478B",
+          "on": "E970703B0290",
+          "off": "0F83CD000000"
+        }
+      ]
+    },
+    {
+      "name": "Party Exp Multiplier x 32",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "23CB800",
+          "on": "0F835290C4FD49C1E605E9828FC4FD",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "1478B",
+          "on": "E970703B0290",
+          "off": "0F83CD000000"
+        }
+      ]
+    },
+    {
+      "name": "Party Exp Multiplier x 64",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "23CB800",
+          "on": "0F835290C4FD49C1E606E9828FC4FD",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "1478B",
+          "on": "E970703B0290",
+          "off": "0F83CD000000"
         }
       ]
     },
@@ -44,22 +124,6 @@
           "offset": "1478B",
           "on": "E970703B0290",
           "off": "0F83CD000000"
-        }
-      ]
-    },
-    {
-      "name": "Fang WP Turn 500 Upon Usage",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "23CB800",
-          "on": "B8F401000089C1894B38E9741ECDFD",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "9D67E",
-          "on": "E97DE13202",
-          "off": "89C1894B38"
         }
       ]
     }

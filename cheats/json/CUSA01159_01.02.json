@@ -21,22 +21,6 @@
       ]
     },
     {
-      "name": "special coin x99999",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "12BF9E0",
-          "on": "C787E80200003F420F00E9C888D9FE",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "582B0",
-          "on": "E92B7726019090",
-          "off": "F001B7E8020000"
-        }
-      ]
-    },
-    {
       "name": "Growth points won\u0027t Decrease x10",
       "type": "checkbox",
       "memory": [
@@ -49,6 +33,22 @@
           "offset": "5028D4",
           "on": "E927CFDB009090",
           "off": "412985B4060000"
+        }
+      ]
+    },
+    {
+      "name": "special coin x99999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "12BF9E0",
+          "on": "C787E80200003F420F00E9C888D9FE",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "582B0",
+          "on": "E92B7726019090",
+          "off": "F001B7E8020000"
         }
       ]
     },

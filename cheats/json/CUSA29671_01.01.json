@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Money",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "183BE80",
-          "on": "5048B8000080FF64CDCD4148894110C5FB10411058E9FA87E37E",
-          "off": "0000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "8067468F",
-          "on": "E9EC771C81",
-          "off": "C5FB104110"
-        }
-      ]
-    },
-    {
       "name": "Infinite Buy Task",
       "type": "checkbox",
       "memory": [
@@ -33,6 +17,38 @@
           "offset": "8066EB0E",
           "on": "E987D31C81",
           "off": "743EFF482C"
+        }
+      ]
+    },
+    {
+      "name": "Max Level ( after 1st successful task )",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "183BEC7",
+          "on": "B80A00000041894618E92312C57E",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "8048D0F2",
+          "on": "E9D0ED3A8190",
+          "off": "FFC041894618"
+        }
+      ]
+    },
+    {
+      "name": "Max Money",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "183BE80",
+          "on": "5048B8000080FF64CDCD4148894110C5FB10411058E9FA87E37E",
+          "off": "0000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "8067468F",
+          "on": "E9EC771C81",
+          "off": "C5FB104110"
         }
       ]
     },
@@ -62,26 +78,10 @@
           "off": "450174241C"
         }
       ]
-    },
-    {
-      "name": "Max Level ( after 1st successful task )",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "183BEC7",
-          "on": "B80A00000041894618E92312C57E",
-          "off": "0000000000000000000000000000"
-        },
-        {
-          "offset": "8048D0F2",
-          "on": "E9D0ED3A8190",
-          "off": "FFC041894618"
-        }
-      ]
     }
   ],
   "credits": [
-    "Reddevil82 ",
-    " FW 9.00"
+    "Reddevil82",
+    "FW 9.00"
   ]
 }

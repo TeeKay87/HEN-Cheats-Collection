@@ -5,6 +5,22 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CF9B0",
+          "on": "41C644244432E9AE3FC6F7",
+          "off": "0000000000000000000000"
+        },
+        {
+          "offset": "3033964",
+          "on": "E947C03908",
+          "off": "4189442444"
+        }
+      ]
+    },
+    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -21,18 +37,18 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
+      "name": "Infinite Health (Mercenaries)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "B3CF9B0",
-          "on": "41C644244432E9AE3FC6F7",
-          "off": "0000000000000000000000"
+          "offset": "B3CFDC0",
+          "on": "90E94C9578F6",
+          "off": "000000000000"
         },
         {
-          "offset": "3033964",
-          "on": "E947C03908",
-          "off": "4189442444"
+          "offset": "1B5930D",
+          "on": "E9AE6A8709",
+          "off": "E84E312F02"
         }
       ]
     },
@@ -85,22 +101,6 @@
       ]
     },
     {
-      "name": "Max Spinel (on Spend have 2)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "B3CFCE0",
-          "on": "C743209F860100807DCF00E9E39C68F9",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "4A599CC",
-          "on": "E90F6397069090",
-          "off": "894320807DCF00"
-        }
-      ]
-    },
-    {
       "name": "Infinite Shoot range coins (on spend)",
       "type": "checkbox",
       "memory": [
@@ -117,18 +117,18 @@
       ]
     },
     {
-      "name": "Max Score at Shoot range ",
+      "name": "Infinite timer (Mercenaries)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "B3CF8C0",
-          "on": "C781DC0000003F420F00E929401BF9",
-          "off": "000000000000000000000000000000"
+          "offset": "B3CFFB0",
+          "on": "41C747180000F042E94B970CF7",
+          "off": "00000000000000000000000000"
         },
         {
-          "offset": "45838F2",
-          "on": "E9C9BFE40690",
-          "off": "0181DC000000"
+          "offset": "2499702",
+          "on": "E9A968F30890",
+          "off": "C4C17A114718"
         }
       ]
     },
@@ -149,34 +149,34 @@
       ]
     },
     {
-      "name": "Infinite Health (Mercenaries)",
+      "name": "Max Score at Shoot range ",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "B3CFDC0",
-          "on": "90E94C9578F6",
-          "off": "000000000000"
+          "offset": "B3CF8C0",
+          "on": "C781DC0000003F420F00E929401BF9",
+          "off": "000000000000000000000000000000"
         },
         {
-          "offset": "1B5930D",
-          "on": "E9AE6A8709",
-          "off": "E84E312F02"
+          "offset": "45838F2",
+          "on": "E9C9BFE40690",
+          "off": "0181DC000000"
         }
       ]
     },
     {
-      "name": "Infinite timer (Mercenaries)",
+      "name": "Max Spinel (on Spend have 2)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "B3CFFB0",
-          "on": "41C747180000F042E94B970CF7",
-          "off": "00000000000000000000000000"
+          "offset": "B3CFCE0",
+          "on": "C743209F860100807DCF00E9E39C68F9",
+          "off": "00000000000000000000000000000000"
         },
         {
-          "offset": "2499702",
-          "on": "E9A968F30890",
-          "off": "C4C17A114718"
+          "offset": "4A599CC",
+          "on": "E90F6397069090",
+          "off": "894320807DCF00"
         }
       ]
     },
@@ -199,6 +199,22 @@
           "offset": "B3CFDD0",
           "on": "817B6800A861107515C7436880AD7710C7431805000000C7431C00000000E8AD0DADF6E9D800F6F9",
           "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "532FECB",
+          "on": "E900FF0906",
+          "off": "E8D00CB7FC"
+        }
+      ]
+    },
+    {
+      "name": "[01b] Start Fresh New Game With Killer 7 (Instead SG-09) Before Loading",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CFDD0",
+          "on": "817B6800A861107507C7436840E36D10E8BB0DADF6E9E600F6F9",
+          "off": "0000000000000000000000000000000000000000000000000000"
         },
         {
           "offset": "532FECB",
@@ -292,6 +308,22 @@
       ]
     },
     {
+      "name": "[05b] Player\u0060s Speed x3",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CFC50",
+          "on": "4D85ED741B4831C0B00441837C050002750E04103C7475F2B800004040894320C5FA594320E927276EFB",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "6AB239C",
+          "on": "E9AFD89104",
+          "off": "C5FA594320"
+        }
+      ]
+    },
+    {
       "name": "[06] Ganados Almost Don\u0060t Move (Only When Attacking) Cheat [43] Must Be OFF",
       "type": "checkbox",
       "memory": [
@@ -304,6 +336,22 @@
           "offset": "417E2E0",
           "on": "C3",
           "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "[07] Luis Has A Rocket Launcher (ON Before Loading)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CFA80",
+          "on": "41817F2880B46110740D458967304883C408E9AAAE31F741C7472880AD7710EBE9",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "26EA939",
+          "on": "E94251CE08909090",
+          "off": "458967304883C408"
         }
       ]
     },
@@ -661,6 +709,54 @@
       ]
     },
     {
+      "name": "[30b][Saving] Difficulty: Standard",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CFE60",
+          "on": "BA14000000895028E8E3A535F7E9D3CB35F7",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "272CA40",
+          "on": "E91B34CA08",
+          "off": "E80BDAFFFF"
+        }
+      ]
+    },
+    {
+      "name": "[30c][Saving] Difficulty: Hardcore",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CFE60",
+          "on": "BA1E000000895028E8E3A535F7E9D3CB35F7",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "272CA40",
+          "on": "E91B34CA08",
+          "off": "E80BDAFFFF"
+        }
+      ]
+    },
+    {
+      "name": "[30d][Saving] Difficulty: Professional",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CFE60",
+          "on": "BA28000000895028E8E3A535F7E9D3CB35F7",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "272CA40",
+          "on": "E91B34CA08",
+          "off": "E80BDAFFFF"
+        }
+      ]
+    },
+    {
       "name": "[31][End Of Chapter] Accuracy 100 Per Cent",
       "type": "checkbox",
       "memory": [
@@ -859,6 +955,38 @@
       ]
     },
     {
+      "name": "[43b] Most NME\u0060s Speed x0.5",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CFC80",
+          "on": "4D85ED740741837D1402740AC5FA11431CE906276EFB4831C0B00441837C050002750804103C7475F2EBE1C5FA11431CB80000003F894320C5FA594320E9DF266EFB",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "6AB2397",
+          "on": "E9E4D89104",
+          "off": "C5FA11431C"
+        }
+      ]
+    },
+    {
+      "name": "[43c] Most NME\u0060s Speed x1",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CFC80",
+          "on": "4D85ED740741837D1402740AC5FA11431CE906276EFB4831C0B00441837C050002750804103C7475F2EBE1C5FA11431CB80000803F894320C5FA594320E9DF266EFB",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "6AB2397",
+          "on": "E9E4D89104",
+          "off": "C5FA11431C"
+        }
+      ]
+    },
+    {
       "name": "[44a] Player\u0060s Size x0.5",
       "type": "checkbox",
       "memory": [
@@ -875,12 +1003,76 @@
       ]
     },
     {
+      "name": "[44b] Player\u0060s Size x1",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CFD00",
+          "on": "837B0803740AC5FA106B50E973ACFDFAC743500000803FC743540000803FC743580000803FEBDF",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "63AA97E",
+          "on": "E97D530205",
+          "off": "C5FA106B50"
+        }
+      ]
+    },
+    {
+      "name": "[44c] Player\u0060s Size x2",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CFD00",
+          "on": "837B0803740AC5FA106B50E973ACFDFAC7435000000040C7435400000040C7435800000040EBDF",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "63AA97E",
+          "on": "E97D530205",
+          "off": "C5FA106B50"
+        }
+      ]
+    },
+    {
       "name": "[45a] NME\u0060s Size x0.5",
       "type": "checkbox",
       "memory": [
         {
           "offset": "B3CFD30",
           "on": "C5FA10734C837B08030F860BACFDFAC743500000003FC743540000003FC743580000003FE9F1ABFDFA",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "63AA945",
+          "on": "E9E6530205",
+          "off": "C5FA10734C"
+        }
+      ]
+    },
+    {
+      "name": "[45b] NME\u0060s Size x1",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CFD30",
+          "on": "C5FA10734C837B08030F860BACFDFAC743500000803FC743540000803FC743580000803FE9F1ABFDFA",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "63AA945",
+          "on": "E9E6530205",
+          "off": "C5FA10734C"
+        }
+      ]
+    },
+    {
+      "name": "[45c] NME\u0060s Size x2",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B3CFD30",
+          "on": "C5FA10734C837B08030F860BACFDFAC7435000000040C7435400000040C7435800000040E9F1ABFDFA",
           "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000"
         },
         {

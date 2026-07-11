@@ -21,17 +21,6 @@
       ]
     },
     {
-      "name": "Infinite Oxygen",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1F976EC",
-          "on": "9090909090909090",
-          "off": "C5FA1180E0000000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Money/Ammo/Consumables/Ship Ammo",
       "type": "checkbox",
       "memory": [
@@ -48,13 +37,13 @@
       ]
     },
     {
-      "name": "No Reload",
+      "name": "Infinite Oxygen",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1B45AEB",
-          "on": "9090",
-          "off": "29F1"
+          "offset": "1F976EC",
+          "on": "9090909090909090",
+          "off": "C5FA1180E0000000"
         }
       ]
     },
@@ -103,6 +92,17 @@
           "offset": "2AA9D86",
           "on": "E945BF3701909090",
           "off": "498B471044897040"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1B45AEB",
+          "on": "9090",
+          "off": "29F1"
         }
       ]
     }

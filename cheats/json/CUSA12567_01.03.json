@@ -5,38 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Health (Dont Use With 1 Hit)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2CEF100",
-          "on": "80BBC0000000007415C5FA10838C010000C5FA118314010000E92A414EFDC5FA118314010000E91D414EFD",
-          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "1D3240",
-          "on": "E9BBBEB102909090",
-          "off": "C5FA118314010000"
-        }
-      ]
-    },
-    {
-      "name": "Inf Stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2CEF200",
-          "on": "C5FA108390010000C5FA11831C010000E982474EFD",
-          "off": "000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "1D398F",
-          "on": "E96CB8B102909090",
-          "off": "C5FA11831C010000"
-        }
-      ]
-    },
-    {
       "name": "Inf Energy",
       "type": "checkbox",
       "memory": [
@@ -53,6 +21,38 @@
       ]
     },
     {
+      "name": "Inf Health (Dont Use With 1 Hit)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2CEF100",
+          "on": "80BBC0000000007415C5FA10838C010000C5FA118314010000E92A414EFDC5FA118314010000E91D414EFD",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1D3240",
+          "on": "E9BBBEB102909090",
+          "off": "C5FA118314010000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Health / 1 Hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2CEF100",
+          "on": "80BBC0000000007415C5FA10838C010000C5FA118314010000E92A414EFDC7831401000000000000E91B414EFD",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1D3240",
+          "on": "E9BBBEB102909090",
+          "off": "C5FA118314010000"
+        }
+      ]
+    },
+    {
       "name": "Inf Res / Ammo",
       "type": "checkbox",
       "memory": [
@@ -65,6 +65,22 @@
           "offset": "44D6C2",
           "on": "E9391D8A0290",
           "off": "894750894F54"
+        }
+      ]
+    },
+    {
+      "name": "Inf Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2CEF200",
+          "on": "C5FA108390010000C5FA11831C010000E982474EFD",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1D398F",
+          "on": "E96CB8B102909090",
+          "off": "C5FA11831C010000"
         }
       ]
     }

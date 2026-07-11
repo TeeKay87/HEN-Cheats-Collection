@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Ammo No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "831389",
+          "on": "909090",
+          "off": "4429F2"
+        }
+      ]
+    },
+    {
       "name": "Backport 5.05 ver 01.05",
       "type": "checkbox",
       "memory": [
@@ -37,17 +48,6 @@
       ]
     },
     {
-      "name": "Zombies x Buddies",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FA2C8",
-          "on": "7533",
-          "off": "7433"
-        }
-      ]
-    },
-    {
       "name": "Weapon list on Vault",
       "type": "checkbox",
       "memory": [
@@ -64,13 +64,13 @@
       ]
     },
     {
-      "name": "Ammo No Reload",
+      "name": "Zombies x Buddies",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "831389",
-          "on": "909090",
-          "off": "4429F2"
+          "offset": "7FA2C8",
+          "on": "7533",
+          "off": "7433"
         }
       ]
     }

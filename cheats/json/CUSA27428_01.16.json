@@ -5,6 +5,22 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1999200",
+          "on": "C5FB108088000000C5FB118080000000E9C65ECB7E",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "8064F0D3",
+          "on": "E928A13481909090",
+          "off": "C5FB108088000000"
+        }
+      ]
+    },
+    {
       "name": "Max Coins/Crystal/Bones (on gain and use)",
       "type": "checkbox",
       "memory": [
@@ -33,22 +49,6 @@
           "offset": "808BC30B",
           "on": "E9E01A3AFF90",
           "off": "C4C17A114750"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1999200",
-          "on": "C5FB108088000000C5FB118080000000E9C65ECB7E",
-          "off": "000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "8064F0D3",
-          "on": "E928A13481909090",
-          "off": "C5FB108088000000"
         }
       ]
     }

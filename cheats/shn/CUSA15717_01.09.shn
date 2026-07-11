@@ -24,18 +24,20 @@
       <ValueOff>44-29-F0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One-hit Kill">
+  <Cheat Text="Never Wanted">
     <Cheatline>
-      <Offset>7CD7030</Offset>
+      <Offset>7CD70D4</Offset>
       <Section>0</Section>
-      <ValueOn>66-9C-81-FD-60-A4-CC-EE-74-0A-C5-FA-10-85-60-FF-FF-FF-EB-0C-C5-F8-57-C0-C5-FA-11-85-60-FF-FF-FF-66-9D-E9-D5-59-B4-FB-90</ValueOn>
-      <ValueOff>66-9C-81-FD-60-A4-CC-EE-74-0A-C5-FA-10-85-60-FF-FF-FF-EB-0C-C5-F8-57-C0-C5-FA-11-85-60-FF-FF-FF-66-9D-E9-D5-59-B4-FB-90</ValueOff>
+      <ValueOn>00-00-00-00</ValueOn>
+      <ValueOff>00-00-00-00</ValueOff>
     </Cheatline>
+  </Cheat>
+  <Cheat Text="No Recoil">
     <Cheatline>
-      <Offset>381CA24</Offset>
+      <Offset>4C830EA</Offset>
       <Section>0</Section>
-      <ValueOn>E9-07-A6-4B-04-90-90-90</ValueOn>
-      <ValueOff>C5-FA-10-85-60-FF-FF-FF</ValueOff>
+      <ValueOn>90-90-90-90-90</ValueOn>
+      <ValueOff>E8-A1-56-11-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="No Reload">
@@ -60,12 +62,18 @@
       <ValueOff>C5-FA-11-45-DC</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Recoil">
+  <Cheat Text="One-hit Kill">
     <Cheatline>
-      <Offset>4C830EA</Offset>
+      <Offset>7CD7030</Offset>
       <Section>0</Section>
-      <ValueOn>90-90-90-90-90</ValueOn>
-      <ValueOff>E8-A1-56-11-00</ValueOff>
+      <ValueOn>66-9C-81-FD-60-A4-CC-EE-74-0A-C5-FA-10-85-60-FF-FF-FF-EB-0C-C5-F8-57-C0-C5-FA-11-85-60-FF-FF-FF-66-9D-E9-D5-59-B4-FB-90</ValueOn>
+      <ValueOff>66-9C-81-FD-60-A4-CC-EE-74-0A-C5-FA-10-85-60-FF-FF-FF-EB-0C-C5-F8-57-C0-C5-FA-11-85-60-FF-FF-FF-66-9D-E9-D5-59-B4-FB-90</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>381CA24</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-07-A6-4B-04-90-90-90</ValueOn>
+      <ValueOff>C5-FA-10-85-60-FF-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Super Accuracy">
@@ -115,14 +123,6 @@
       <ValueOn>E9-B0-3D-4A-07</ValueOn>
       <ValueOff>C5-FA-11-47-40</ValueOff>
     </Cheatline>
-    <Cheatline>
-      <Offset>7CD70D4</Offset>
-      <Section>0</Section>
-      <ValueOn>00-00-00-00</ValueOn>
-      <ValueOff>00-00-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Never Wanted">
     <Cheatline>
       <Offset>7CD70D4</Offset>
       <Section>0</Section>

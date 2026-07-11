@@ -21,22 +21,6 @@
       ]
     },
     {
-      "name": "Inf Ultimate",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FEA2D40",
-          "on": "C744871000409C45C5FA10448710E97B62AC01",
-          "off": "00000000000000000000000000000000000000"
-        },
-        {
-          "offset": "81968FC8",
-          "on": "E9739D53FE90",
-          "off": "C5FA10448710"
-        }
-      ]
-    },
-    {
       "name": "Inf Parry /  Dojo / Personal (Skill)",
       "type": "checkbox",
       "memory": [
@@ -49,6 +33,22 @@
           "offset": "81A60967",
           "on": "E9242444FE90",
           "off": "C4C17A114518"
+        }
+      ]
+    },
+    {
+      "name": "Inf Ultimate",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FEA2D40",
+          "on": "C744871000409C45C5FA10448710E97B62AC01",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "81968FC8",
+          "on": "E9739D53FE90",
+          "off": "C5FA10448710"
         }
       ]
     },

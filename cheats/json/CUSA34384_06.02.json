@@ -5,13 +5,35 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "TRAINER INFO (read only)",
+      "name": "--Enemy_Infinite_HP",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1786FFF",
-          "on": "00",
-          "off": "00"
+          "offset": "17870A0",
+          "on": "01000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "--One_Hit_Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "17870A4",
+          "on": "01000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "--Player_Infinite_HP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "178709C",
+          "on": "01000000",
+          "off": "00000000"
         }
       ]
     },
@@ -42,35 +64,13 @@
       ]
     },
     {
-      "name": "--Enemy_Infinite_HP",
+      "name": "TRAINER INFO (read only)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "17870A0",
-          "on": "01000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "--One_Hit_Kill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "17870A4",
-          "on": "01000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "--Player_Infinite_HP",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "178709C",
-          "on": "01000000",
-          "off": "00000000"
+          "offset": "1786FFF",
+          "on": "00",
+          "off": "00"
         }
       ]
     }

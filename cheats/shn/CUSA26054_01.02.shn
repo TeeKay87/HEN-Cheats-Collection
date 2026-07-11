@@ -16,6 +16,20 @@
       <ValueOff>85-F6-89-72-28</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="Infinite JP">
+    <Cheatline>
+      <Offset>823E79D0</Offset>
+      <Section>0</Section>
+      <ValueOn>8B-4D-C0-C6-46-3C-14-E9-62-87-D6-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>81150137</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-94-78-29-01-90-90</ValueOn>
+      <ValueOff>8B-4D-C0-66-29-4E-3C</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Infinite LP">
     <Cheatline>
       <Offset>823E7890</Offset>
@@ -42,20 +56,6 @@
       <Section>0</Section>
       <ValueOn>E9-FB-77-29-01-90-90</ValueOn>
       <ValueOff>8B-7D-BC-66-29-7E-38</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite JP">
-    <Cheatline>
-      <Offset>823E79D0</Offset>
-      <Section>0</Section>
-      <ValueOn>8B-4D-C0-C6-46-3C-14-E9-62-87-D6-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>81150137</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-94-78-29-01-90-90</ValueOn>
-      <ValueOff>8B-4D-C0-66-29-4E-3C</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max Credits (on buy)">

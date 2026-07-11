@@ -2,14 +2,6 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Call of Duty: Black Ops III" Moder="gokusuper" Cusa="CUSA03005" Version="01.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="no reload">
-    <Cheatline>
-      <Offset>110F01D</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90</ValueOn>
-      <ValueOff>44-89-21</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="inf contol core">
     <Cheatline>
       <Offset>5352CA</Offset>
@@ -24,6 +16,14 @@
       <Section>0</Section>
       <ValueOn>90-90</ValueOn>
       <ValueOff>76-07</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="no reload">
+    <Cheatline>
+      <Offset>110F01D</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90</ValueOn>
+      <ValueOff>44-89-21</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

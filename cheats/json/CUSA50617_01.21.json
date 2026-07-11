@@ -5,6 +5,38 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Disable Idle Timer",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3B77950",
+          "on": "0F57C0C5FA1183C8010000E948EDF0FD",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "1A866A3",
+          "on": "E9A8120F02909090",
+          "off": "C5FA1183C8010000"
+        }
+      ]
+    },
+    {
+      "name": "Enemies Dont Attack",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1906C29",
+          "on": "909090909090909090909090",
+          "off": "0FB68388050000C0E8042401"
+        },
+        {
+          "offset": "1A66303",
+          "on": "4885DB9090909090909090909090",
+          "off": "488B83A8000000F6808805000010"
+        }
+      ]
+    },
+    {
       "name": "God Mode",
       "type": "checkbox",
       "memory": [
@@ -21,34 +53,56 @@
       ]
     },
     {
-      "name": "One Hit Kill",
+      "name": "Inf\u002BMax FP",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "3B77840",
-          "on": "807F70FF750B8B8754010000E94542FCFD4489C0E93D42FCFD90",
-          "off": "0000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "1B3BA90",
-          "on": "E9ABBD030290",
-          "off": "8B8754010000"
+          "offset": "1B3D369",
+          "on": "8B8B64010000",
+          "off": "8B8B60010000"
         }
       ]
     },
     {
-      "name": "Max\u002BInf Runes",
+      "name": "Inf\u002BMax Level (15)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "3B777D0",
-          "on": "C7436CFFC99A3B8B4B6C488DBDC0FEFFFFE9C2379CFE",
-          "off": "00000000000000000000000000000000000000000000"
+          "offset": "3B77920",
+          "on": "BF100000004189F689F8E965F343FE90",
+          "off": "000000000000000000000000000000"
         },
         {
-          "offset": "253AF9E",
-          "on": "E92DC863019090909090",
-          "off": "8B4B6C488DBDC0FEFFFF"
+          "offset": "1FB6C8f",
+          "on": "E98C0CBC01",
+          "off": "4189F689F8"
+        }
+      ]
+    },
+    {
+      "name": "Inf\u002BMax Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3B77900",
+          "on": "8B8E70010000898E6C010000E959FA41FE90",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "1F97364",
+          "on": "E99705BE0190",
+          "off": "8B8E6C010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ultimate Art",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1DF94E0",
+          "on": "C5FA114F14",
+          "off": "C5FA114714"
         }
       ]
     },
@@ -85,67 +139,18 @@
       ]
     },
     {
-      "name": "Enemies Dont Attack",
+      "name": "Max\u002BInf Runes",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1906C29",
-          "on": "909090909090909090909090",
-          "off": "0FB68388050000C0E8042401"
+          "offset": "3B777D0",
+          "on": "C7436CFFC99A3B8B4B6C488DBDC0FEFFFFE9C2379CFE",
+          "off": "00000000000000000000000000000000000000000000"
         },
         {
-          "offset": "1A66303",
-          "on": "4885DB9090909090909090909090",
-          "off": "488B83A8000000F6808805000010"
-        }
-      ]
-    },
-    {
-      "name": "Player No Dead 1.21",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1B3BD0B",
-          "on": "90909090909090",
-          "off": "803D96AB970200"
-        }
-      ]
-    },
-    {
-      "name": "Inf\u002BMax FP",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1B3D369",
-          "on": "8B8B64010000",
-          "off": "8B8B60010000"
-        }
-      ]
-    },
-    {
-      "name": "Inf\u002BMax Stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3B77900",
-          "on": "8B8E70010000898E6C010000E959FA41FE90",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "1F97364",
-          "on": "E99705BE0190",
-          "off": "8B8E6C010000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Ultimate Art",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1DF94E0",
-          "on": "C5FA114F14",
-          "off": "C5FA114714"
+          "offset": "253AF9E",
+          "on": "E92DC863019090909090",
+          "off": "8B4B6C488DBDC0FEFFFF"
         }
       ]
     },
@@ -161,18 +166,29 @@
       ]
     },
     {
-      "name": "Inf\u002BMax Level (15)",
+      "name": "One Hit Kill",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "3B77920",
-          "on": "BF100000004189F689F8E965F343FE90",
-          "off": "000000000000000000000000000000"
+          "offset": "3B77840",
+          "on": "807F70FF750B8B8754010000E94542FCFD4489C0E93D42FCFD90",
+          "off": "0000000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "1FB6C8f",
-          "on": "E98C0CBC01",
-          "off": "4189F689F8"
+          "offset": "1B3BA90",
+          "on": "E9ABBD030290",
+          "off": "8B8754010000"
+        }
+      ]
+    },
+    {
+      "name": "Player No Dead 1.21",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1B3BD0B",
+          "on": "90909090909090",
+          "off": "803D96AB970200"
         }
       ]
     },
@@ -189,22 +205,6 @@
           "offset": "1E30F33",
           "on": "E9F869D4019090",
           "off": "0FB6B344010000"
-        }
-      ]
-    },
-    {
-      "name": "Disable Idle Timer",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3B77950",
-          "on": "0F57C0C5FA1183C8010000E948EDF0FD",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "1A866A3",
-          "on": "E9A8120F02909090",
-          "off": "C5FA1183C8010000"
         }
       ]
     }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="The Last of Us: Part II" Moder="hejran7" Cusa="CUSA10249" Version="01.07" Process="eboot.bin">
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="The Last of Us: Part II" Moder="hejran7, illusion" Cusa="CUSA10249" Version="01.07" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Genres Name="Action" />
   <Items />
@@ -17,14 +17,6 @@
       <ValueOff>80-B8-A1-3A-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Show All Dev Menu Details">
-    <Cheatline>
-      <Offset>252BAB</Offset>
-      <Section>0</Section>
-      <ValueOn>41-BC-01-00-00-00-90</ValueOn>
-      <ValueOff>44-8B-A0-B4-3A-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Hide All Dev Menu Details">
     <Cheatline>
       <Offset>252B8A</Offset>
@@ -39,6 +31,14 @@
       <Section>0</Section>
       <ValueOn>90-90-90-90-90-90-90</ValueOn>
       <ValueOff>41-FF-8E-14-08-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Show All Dev Menu Details">
+    <Cheatline>
+      <Offset>252BAB</Offset>
+      <Section>0</Section>
+      <ValueOn>41-BC-01-00-00-00-90</ValueOn>
+      <ValueOff>44-8B-A0-B4-3A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Enable Dev Menu">
