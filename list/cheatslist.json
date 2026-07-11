@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-10T18:28:27.9109106Z",
+  "generatedUtc": "2026-07-11T00:00:09.6432435Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -114204,7 +114204,7 @@
       "title": "Ghost of Yotei",
       "idLower": "ppsa26344",
       "titleLower": "ghost of yotei",
-      "cheatsTotal": 3,
+      "cheatsTotal": 4,
       "creators": [
         "Yharnam"
       ],
@@ -114224,10 +114224,11 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 3,
+          "cheatsCount": 4,
           "cheats": [
             "1 Hit Kill",
             "Infi Health",
+            "Infi Resources, Items, Money - Super Death",
             "Max Money (Buy or Sell)"
           ]
         }
