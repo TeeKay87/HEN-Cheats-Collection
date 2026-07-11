@@ -1,0 +1,161 @@
+{
+  "name": "The Outer Worlds 2",
+  "id": "PPSA24588",
+  "version": "01.100.001",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Advantages Poitns",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6F4B135",
+          "on": "C7833403000063000000E9D0EC93FE",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "5889E0E",
+          "on": "E922136C0190",
+          "off": "898334030000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "17118AC",
+          "on": "90909090",
+          "off": "45296508"
+        }
+      ]
+    },
+    {
+      "name": "Inf Energy",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6F4B035",
+          "on": "C5FA1097BC010000C5FA1197B8010000E9AE9BB1F9",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "A64BF0",
+          "on": "E940644E06909090",
+          "off": "C5FA1197B8010000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6F4B000",
+          "on": "C5FA10A74C040000C5FA11A748040000E905061DFA",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "111B612",
+          "on": "E9E9F9E205909090",
+          "off": "C5FA11A748040000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6F4B099",
+          "on": "C783F00A00000000C642C5FA1083F00A0000C5FA1183F00A0000E997F6CAFA",
+          "off": "00000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1BFA747",
+          "on": "E94D093505909090",
+          "off": "C5FA1183F00A0000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Money",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6F4B0D8",
+          "on": "41C7442408FFE0F505E9967AA8FE",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "59D2B77",
+          "on": "E95C855701",
+          "off": "4101442408"
+        }
+      ]
+    },
+    {
+      "name": "Inf Talents Points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6F4B106",
+          "on": "C7871009000063000000E9ACCDB3FE",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "5A87EBB",
+          "on": "E946324C0190",
+          "off": "299710090000"
+        }
+      ]
+    },
+    {
+      "name": "Max Exp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6F4B164",
+          "on": "B8FFE0F5054189870C090000E902B1F5FA",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "1EA6270",
+          "on": "E9EF4E0A059090",
+          "off": "4189870C090000"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "17164C5",
+          "on": "909090909090",
+          "off": "898338010000"
+        }
+      ]
+    },
+    {
+      "name": "No Toxicity",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6F4B06A",
+          "on": "C7874802000000000000E9A56487F9",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "7C1516",
+          "on": "E94F9B7806909090",
+          "off": "C5FA118F48020000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

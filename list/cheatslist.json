@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-11T09:52:15.5955326Z",
+  "generatedUtc": "2026-07-11T11:32:42.3852693Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -117087,6 +117087,59 @@
             "Infi Health",
             "Infi Items (No Reduction)",
             "Untouchable"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA24588",
+      "version": "01.100.001",
+      "title": "The Outer Worlds 2",
+      "idLower": "ppsa24588",
+      "titleLower": "the outer worlds 2",
+      "cheatsTotal": 20,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 10,
+          "cheats": [
+            "Inf Advantages Poitns",
+            "Inf Ammo",
+            "Inf Energy",
+            "Inf Hp",
+            "Inf Items",
+            "Inf Money",
+            "Inf Talents Points",
+            "Max Exp",
+            "No Reload",
+            "No Toxicity"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 10,
+          "cheats": [
+            "Inf Advantages Poitns",
+            "Inf Ammo",
+            "Inf Energy",
+            "Inf Hp",
+            "Inf Items",
+            "Inf Money",
+            "Inf Talents Points",
+            "Max Exp",
+            "No Reload",
+            "No Toxicity"
           ]
         }
       }

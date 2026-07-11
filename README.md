@@ -26,6 +26,7 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-07-11 | ADDED | PPSA24588 | 01.100.001 | [The Outer Worlds 2](https://hencheats.vercel.app/#PPSA24588-01.100.001) |
 | 2026-07-11 | ADDED | PPSA34823 | 01.000.001 | [New Super Lucky's Tale](https://hencheats.vercel.app/#PPSA34823-01.000.001) |
 | 2026-07-11 | ADDED | PPSA23226 | 01.000.021 | [Black Myth: Wukong](https://hencheats.vercel.app/#PPSA23226-01.000.021) |
 | 2026-07-11 | UPDATE | PPSA26344 | 01.008.000 | [Ghost of Yotei](https://hencheats.vercel.app/#PPSA26344-01.008.000) |
