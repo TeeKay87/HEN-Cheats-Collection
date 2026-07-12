@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-11T11:32:42.3852693Z",
+  "generatedUtc": "2026-07-12T08:13:40.9432291Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -116577,6 +116577,49 @@
             "Max Medal",
             "Max Money",
             "Walking Speed x 2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA20800",
+      "version": "01.013.000",
+      "title": "Metaphor: ReFantazio",
+      "idLower": "ppsa20800",
+      "titleLower": "metaphor: refantazio",
+      "cheatsTotal": 11,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 11,
+          "cheats": [
+            "1 Hit Kill",
+            "Battle Turn Lock",
+            "Freeze Enemy",
+            "Infi HP",
+            "Infi MP",
+            "Max Exp",
+            "Max Exp (Rank Archetype)",
+            "Max Mag",
+            "Max Money",
+            "Max Stats (Party)",
+            "Run Speed x 2"
           ]
         }
       }
