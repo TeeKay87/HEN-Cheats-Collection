@@ -1,0 +1,27 @@
+{
+  "name": "Park Beyond",
+  "id": "PPSA05344",
+  "version": "04.001.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Money",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCC7000",
+          "on": "F048014708C74708FFFFFFFFE961D95A83",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "327496D",
+          "on": "E98E26A57C",
+          "off": "F048014708"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

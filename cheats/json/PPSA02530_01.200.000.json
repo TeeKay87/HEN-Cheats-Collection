@@ -1,0 +1,81 @@
+{
+  "name": "Pragmata",
+  "id": "PPSA02530",
+  "version": "01.200.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6526C9",
+          "on": "90909090",
+          "off": "44897818"
+        }
+      ]
+    },
+    {
+      "name": "Inf Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8FC7000",
+          "on": "B9FFE0F505894814488B4D88E9CD16B8F7",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "B486D7",
+          "on": "E924E947089090",
+          "off": "894814488B4D88"
+        }
+      ]
+    },
+    {
+      "name": "Inf Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8FC7031",
+          "on": "C5FA104E10C5FA114E10E9E2EA0CFD",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "6095B1D",
+          "on": "E90F15F302",
+          "off": "C5FA114E10"
+        }
+      ]
+    },
+    {
+      "name": "Inf Super",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8FC7060",
+          "on": "C746100000C842C5FA105610C5FA115610E9BCA9B7F7",
+          "off": "00000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "B41A2D",
+          "on": "E92E564808",
+          "off": "C5FA115610"
+        }
+      ]
+    },
+    {
+      "name": "No Hit",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "649A16",
+          "on": "9090909090",
+          "off": "E8D530E9FF"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

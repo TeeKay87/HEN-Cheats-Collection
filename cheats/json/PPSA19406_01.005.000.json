@@ -1,0 +1,55 @@
+{
+  "name": "Earth Defense Force: World Brothers 2",
+  "id": "PPSA19406",
+  "version": "01.005.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Ability 1",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "EB4B3E",
+          "on": "90909090909090",
+          "off": "4189963C120000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Ability 2",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "ED725C",
+          "on": "90909090909090",
+          "off": "41899558120000"
+        }
+      ]
+    },
+    {
+      "name": "Inf HP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "EC059B",
+          "on": "9090909090",
+          "off": "E8E0D20400"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "109EC74",
+          "on": "909090",
+          "off": "891488"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

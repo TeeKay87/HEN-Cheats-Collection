@@ -1,0 +1,43 @@
+{
+  "name": "Withering Rooms",
+  "id": "PPSA21297",
+  "version": "01.000.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Hp and No curse",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB000",
+          "on": "41817F60203107020F8428DAD10041817F60E0D260020F841ADAD1004129DD45896F20E90EDAD100",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "809E8A2F",
+          "on": "E9CC252EFF9090",
+          "off": "4129DD45896F20"
+        }
+      ]
+    },
+    {
+      "name": "Inf Money",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB048",
+          "on": "FFC8B8E7030000894318E9ABB85100",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "801E68FD",
+          "on": "E94647AEFF",
+          "off": "FFC8894318"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

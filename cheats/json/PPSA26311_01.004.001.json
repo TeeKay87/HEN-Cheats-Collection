@@ -1,0 +1,107 @@
+{
+  "name": "Blades of Fire",
+  "id": "PPSA26311",
+  "version": "01.004.001",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "--Inf_Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2047F00",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "--Inf_Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2047F01",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "--One_Hit_Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2047F02",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Inf Materials and Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "180F091",
+          "on": "C74310003C1C46C5FA104310C5FA114310E95E7E82FF",
+          "off": "00000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1036F00",
+          "on": "E98C817D00",
+          "off": "C5FA114310"
+        }
+      ]
+    },
+    {
+      "name": "Inf Weapons Durability",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "180F0C7",
+          "on": "C5FA108BA8000000C5FA118BA8000000E94C70B2FE",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "336120",
+          "on": "E9A28F4D01909090",
+          "off": "C5FA118BA8000000"
+        }
+      ]
+    },
+    {
+      "name": "Master Code",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2047F00",
+          "on": "00",
+          "off": "00"
+        },
+        {
+          "offset": "2047F01",
+          "on": "00",
+          "off": "00"
+        },
+        {
+          "offset": "2047F02",
+          "on": "00",
+          "off": "00"
+        },
+        {
+          "offset": "180F000",
+          "on": "817B309052820C7417817B809052820C742681BBD0FEFFFF9052820C7432EB32803DD98E830001753EC5FA104364C5FA11434CE91EEE6BFF803DC28E8300017526C5FA10434CC5FA11434CE906EE6BFFEB15803DA98E830001750CC7434C00000000E9EFED6BFFC5FA11434CE9E5ED6BFF",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "ECDE51",
+          "on": "E9AA119400",
+          "off": "C5FA11434C"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

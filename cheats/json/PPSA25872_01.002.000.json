@@ -1,0 +1,76 @@
+{
+  "name": "Terminator 2D: No Fate",
+  "id": "PPSA25872",
+  "version": "01.002.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "10x Score",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD17032",
+          "on": "C7803801000064000000E945C24200",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "80143280",
+          "on": "E9AD3DBDFF90",
+          "off": "FF8038010000"
+        }
+      ]
+    },
+    {
+      "name": "Easy Score",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD17000",
+          "on": "41BE0F2700004401B020010000E9F1D64200",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "801446FC",
+          "on": "E9FF28BDFF9090",
+          "off": "4401B020010000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Grenades",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FFEB0B0",
+          "on": "9090",
+          "off": "FFC8"
+        }
+      ]
+    },
+    {
+      "name": "Inf Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FFEA13E",
+          "on": "909090909090",
+          "off": "FF8B94000000"
+        }
+      ]
+    },
+    {
+      "name": "Stop Timer",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "800E9D26",
+          "on": "9090909090",
+          "off": "C5FB114120"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

@@ -2,7 +2,7 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Divinity: Original Sin II: Definitive Edition" Moder="EvilGoku" Cusa="CUSA11898" Version="01.09" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="99 Attribute Points (after using 1 point)">
+  <Cheat Text="99 Attribute Points (after using 1 point)" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Offset>24A7894</Offset>
       <Section>0</Section>
@@ -16,7 +16,7 @@
       <ValueOff>89-88-00-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="99 civil Ability Points (after using 1 point)">
+  <Cheat Text="99 civil Ability Points (after using 1 point)" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Offset>24A78C9</Offset>
       <Section>0</Section>
@@ -30,7 +30,7 @@
       <ValueOff>89-88-08-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="99 Combat Ability Points (after using 1 point)">
+  <Cheat Text="99 Combat Ability Points (after using 1 point)" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Offset>24A78B8</Offset>
       <Section>0</Section>
@@ -44,7 +44,7 @@
       <ValueOff>89-88-04-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="99 Talents Ability Points (after using 1 point)">
+  <Cheat Text="99 Talents Ability Points (after using 1 point)" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Offset>24A78DA</Offset>
       <Section>0</Section>
@@ -80,7 +80,7 @@
       <ValueOff>E8-29-91-08-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf HP SP AP 1 hit kill">
+  <Cheat Text="Inf HP SP AP 1 hit kill" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Offset>24A7800</Offset>
       <Section>0</Section>
@@ -94,7 +94,7 @@
       <ValueOff>8B-80-F8-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Exp (Max 35 Level ) Get by kill 1 enemy">
+  <Cheat Text="Max Exp (Max 35 Level ) Get by kill 1 enemy" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Offset>24A786F</Offset>
       <Section>0</Section>

@@ -1,0 +1,59 @@
+{
+  "name": "Flashback 2 Limited Edition",
+  "id": "PPSA08546",
+  "version": "01.000.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf HP \u002B No reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCC7000",
+          "on": "41817C2460A02BDF040F848509050341817C2440010100000F847609050345896C2428E96C090503",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "82D1798F",
+          "on": "E96CF6FAFC",
+          "off": "45896C2428"
+        }
+      ]
+    },
+    {
+      "name": "Inf Items Pick up",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCC7048",
+          "on": "4401E8B863000000894110E9B8539701",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "8163C40A",
+          "on": "E939AC68FE90",
+          "off": "4401E8894110"
+        }
+      ]
+    },
+    {
+      "name": "Inf Items use (x2)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCC7078",
+          "on": "41BF6300000083401001448978104489E0E9446D9701",
+          "off": "00000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "8163DDCB",
+          "on": "E9A89268FE9090",
+          "off": "448978104489E0"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

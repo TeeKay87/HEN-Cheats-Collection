@@ -1,0 +1,107 @@
+{
+  "name": "Double Dragon Revive",
+  "id": "PPSA23000",
+  "version": "01.000.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "--Inf_Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "85E7F00",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "--One_Hit_Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "85E7F01",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Inf Super",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5DDF19E",
+          "on": "C787C00000000000FA44C5FA1087C0000000C5FA1187C0000000E9F26349FE",
+          "off": "00000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "42755A7",
+          "on": "E9F29BB601909090",
+          "off": "C5FA1187C0000000"
+        }
+      ]
+    },
+    {
+      "name": "Master Code",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "85E7F00",
+          "on": "00",
+          "off": "00"
+        },
+        {
+          "offset": "85E7F01",
+          "on": "00",
+          "off": "00"
+        },
+        {
+          "offset": "5DDF13C",
+          "on": "80FA027418803DB98D8002017527C787A800000000000000E9A932BBFD803DA08D800201750FC787A800000000409C45E99132BBFDC5FA1187A8000000E98432BBFD",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "39923FA",
+          "on": "E93DCD4402909090",
+          "off": "C5FA1187A8000000"
+        }
+      ]
+    },
+    {
+      "name": "Max Combo Hit",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5DDF1DD",
+          "on": "C787C000000064000000E9604949FE",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "4273B46",
+          "on": "E992B6B60190",
+          "off": "89B7C0000000"
+        }
+      ]
+    },
+    {
+      "name": "Max Score",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5DDF20C",
+          "on": "C78790020000F0237449E901B2F9FC",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "2D7A414",
+          "on": "E9F34D0603909090",
+          "off": "C5FA118790020000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

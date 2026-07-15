@@ -1,0 +1,54 @@
+{
+  "name": "Banishers: Ghosts of New Eden",
+  "id": "PPSA10053",
+  "version": "01.005.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCC7000",
+          "on": "4585E40F8EC7F0C98241BCE70300004489620CE9A2F0C982",
+          "off": "000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "29660B1",
+          "on": "E94A0F367D90909090",
+          "off": "4585E47E1A4489620C"
+        }
+      ]
+    },
+    {
+      "name": "Inf Medkit",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCC7038",
+          "on": "418B857802000041898578020000E9A103AA82",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "27673E5",
+          "on": "E94EFC557D9090",
+          "off": "41898578020000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Super",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "26846BB",
+          "on": "9090909090",
+          "off": "E8E0D930FF"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

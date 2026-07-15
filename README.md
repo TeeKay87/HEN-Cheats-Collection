@@ -22,10 +22,47 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 
 ## Version History
 
-### July
+### July 2026
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-07-15 | ADDED | PPSA02530 | 01.200.000 | [Pragmata](https://hencheats.vercel.app/#PPSA02530-01.200.000) |
+| 2026-07-15 | ADDED | PPSA30797 | 01.000.005 | [Kaku: Ancient Seal](https://hencheats.vercel.app/#PPSA30797-01.000.005) |
+| 2026-07-15 | ADDED | PPSA30490 | 01.000.000 | [Asterix & Obelix - Mission Babylon](https://hencheats.vercel.app/#PPSA30490-01.000.000) |
+| 2026-07-15 | ADDED | PPSA28311 | 01.002.000 | [Absolum](https://hencheats.vercel.app/#PPSA28311-01.002.000) |
+| 2026-07-15 | ADDED | PPSA26311 | 01.004.001 | [Blades of Fire](https://hencheats.vercel.app/#PPSA26311-01.004.001) |
+| 2026-07-15 | ADDED | PPSA25872 | 01.002.000 | [Terminator 2D: No Fate](https://hencheats.vercel.app/#PPSA25872-01.002.000) |
+| 2026-07-15 | ADDED | PPSA25009 | 01.008.000 | [Blue Prince](https://hencheats.vercel.app/#PPSA25009-01.008.000) |
+| 2026-07-15 | ADDED | PPSA24152 | 01.000.000 | [Potionomics: Masterwork Edition](https://hencheats.vercel.app/#PPSA24152-01.000.000) |
+| 2026-07-15 | ADDED | PPSA23000 | 01.000.000 | [Double Dragon Revive](https://hencheats.vercel.app/#PPSA23000-01.000.000) |
+| 2026-07-15 | ADDED | PPSA21297 | 01.000.000 | [Withering Rooms](https://hencheats.vercel.app/#PPSA21297-01.000.000) |
+| 2026-07-15 | ADDED | PPSA20298 | 01.040.000 | [Shadow Labyrinth](https://hencheats.vercel.app/#PPSA20298-01.040.000) |
+| 2026-07-15 | ADDED | PPSA19406 | 01.005.000 | [Earth Defense Force: World Brothers 2](https://hencheats.vercel.app/#PPSA19406-01.005.000) |
+| 2026-07-15 | ADDED | PPSA17219 | 01.000.001 | [Disney Illusion Island](https://hencheats.vercel.app/#PPSA17219-01.000.001) |
+| 2026-07-15 | ADDED | PPSA16716 | 01.000.000 | [The Smurfs 2: The Prisoner of the Green Stone](https://hencheats.vercel.app/#PPSA16716-01.000.000) |
+| 2026-07-15 | ADDED | PPSA16019 | 01.000.000 | [Double Dragon Gaiden: Rise of the Dragons](https://hencheats.vercel.app/#PPSA16019-01.000.000) |
+| 2026-07-15 | ADDED | PPSA15645 | 01.003.000 | [Castlevania Dominus Collection](https://hencheats.vercel.app/#PPSA15645-01.003.000) |
+| 2026-07-15 | ADDED | PPSA14196 | 01.000.000 | [Sker Ritual](https://hencheats.vercel.app/#PPSA14196-01.000.000) |
+| 2026-07-15 | ADDED | PPSA10053 | 01.005.000 | [Banishers: Ghosts of New Eden](https://hencheats.vercel.app/#PPSA10053-01.005.000) |
+| 2026-07-15 | ADDED | PPSA09453 | 01.000.002 | [Infinity Strash: DRAGON QUEST The Adventure of Dai](https://hencheats.vercel.app/#PPSA09453-01.000.002) |
+| 2026-07-15 | ADDED | PPSA09347 | 08.000.000 | [The Last Faith](https://hencheats.vercel.app/#PPSA09347-08.000.000) |
+| 2026-07-15 | ADDED | PPSA09090 | 01.000.000 | [Lunar Lander: Beyond](https://hencheats.vercel.app/#PPSA09090-01.000.000) |
+| 2026-07-15 | ADDED | PPSA08546 | 01.000.000 | [Flashback 2 Limited Edition](https://hencheats.vercel.app/#PPSA08546-01.000.000) |
+| 2026-07-15 | ADDED | PPSA05344 | 04.001.000 | [Park Beyond](https://hencheats.vercel.app/#PPSA05344-04.001.000) |
+| 2026-07-15 | ADDED | PPSA04243 | 01.000.000 | [Breathedge](https://hencheats.vercel.app/#PPSA04243-01.000.000) |
+| 2026-07-15 | ADDED | CUSA04704 | 01.01 | [Resident Evil 4](https://hencheats.vercel.app/#CUSA04704-01.01) |
+| 2026-07-15 | ADDED | CUSA32065 | 01.01 | [Super Cyborg](https://hencheats.vercel.app/#CUSA32065-01.01) |
+| 2026-07-15 | UPDATE | CUSA10455 | 01.07 | [Borderlands: Game of the Year Edition](https://hencheats.vercel.app/#CUSA10455-01.07) |
+| 2026-07-15 | UPDATE | CUSA48853 | 01.02 | [Elden Ring Nightreign](https://hencheats.vercel.app/#CUSA48853-01.02) |
+| 2026-07-15 | UPDATE | CUSA50614 | 01.02 | [Elden Ring Nightreign](https://hencheats.vercel.app/#CUSA50614-01.02) |
+| 2026-07-15 | UPDATE | CUSA50615 | 01.02 | [Elden Ring Nightreign](https://hencheats.vercel.app/#CUSA50615-01.02) |
+| 2026-07-15 | UPDATE | CUSA50617 | 01.02 | [Elden Ring Nightreign](https://hencheats.vercel.app/#CUSA50617-01.02) |
+| 2026-07-15 | UPDATE | CUSA05786 | 01.04 | [Kingdom Hearts: HD 1.5 + 2.5 ReMIX](https://hencheats.vercel.app/#CUSA05786-01.04) |
+| 2026-07-15 | UPDATE | CUSA11454 | 01.12 | [Control](https://hencheats.vercel.app/#CUSA11454-01.12) |
+| 2026-07-15 | UPDATE | CUSA11898 | 01.09 | [Divinity: Original Sin II: Definitive Edition](https://hencheats.vercel.app/#CUSA11898-01.09) |
+| 2026-07-15 | UPDATE | CUSA34370 | 01.08 | [Aliens: Dark Descent](https://hencheats.vercel.app/#CUSA34370-01.08) |
+| 2026-07-15 | UPDATE | PPSA10261 | 01.000.000 | [Lies of P](https://hencheats.vercel.app/#PPSA10261-01.000.000) |
+| 2026-07-15 | UPDATE | PPSA03016 | 01.004.003 | [Marvel’s Spider-Man 2](https://hencheats.vercel.app/#PPSA03016-01.004.003) |
 | 2026-07-12 | ADDED | PPSA20800 | 01.013.000 | [Metaphor: ReFantazio](https://hencheats.vercel.app/#PPSA20800-01.013.000) |
 | 2026-07-11 | ADDED | PPSA24588 | 01.100.001 | [The Outer Worlds 2](https://hencheats.vercel.app/#PPSA24588-01.100.001) |
 | 2026-07-11 | ADDED | PPSA34823 | 01.000.001 | [New Super Lucky's Tale](https://hencheats.vercel.app/#PPSA34823-01.000.001) |

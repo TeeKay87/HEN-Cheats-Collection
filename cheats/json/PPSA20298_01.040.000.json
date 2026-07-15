@@ -1,0 +1,75 @@
+{
+  "name": "Shadow Labyrinth",
+  "id": "PPSA20298",
+  "version": "01.040.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Coins",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD1709A",
+          "on": "41015E1481C33F420F00E952524B00",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "801CC2F3",
+          "on": "E9A2ADB4FF909090",
+          "off": "41015E1441035E10"
+        }
+      ]
+    },
+    {
+      "name": "Inf Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD17000",
+          "on": "C5FA108BC0050000C5FA118BC0050000E970685100",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "8022D87D",
+          "on": "E97E97AEFF909090",
+          "off": "C5FA118BC0050000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Hp PacMan",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD17035",
+          "on": "813FA044361E0F84DDDE5800C5FA114750E9D3DE5800",
+          "off": "00000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "802A4F19",
+          "on": "E91721A7FF",
+          "off": "C5FA114750"
+        }
+      ]
+    },
+    {
+      "name": "Inf Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD1706B",
+          "on": "C5FA104768C5FA114764E90CC35800",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "802A3381",
+          "on": "E9E53CA7FF",
+          "off": "C5FA114764"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

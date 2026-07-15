@@ -1,0 +1,43 @@
+{
+  "name": "Asterix \u0026 Obelix - Mission Babylon",
+  "id": "PPSA30490",
+  "version": "01.000.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Helmets",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD1703F",
+          "on": "8B4B28B90F270000014848E9C384A200",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "8073F50C",
+          "on": "E92E7B5DFF90",
+          "off": "8B4B28014848"
+        }
+      ]
+    },
+    {
+      "name": "Inf Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD17000",
+          "on": "4983FB30740AC5FA114720E9E4649E00C5FA104728C5FA114720E9D5649E00",
+          "off": "00000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "806FD4EF",
+          "on": "E90C9B61FF",
+          "off": "C5FA114720"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

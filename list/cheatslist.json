@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-12T11:22:50.8420161Z",
+  "generatedUtc": "2026-07-15T01:16:28.1104434Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -23943,6 +23943,45 @@
       }
     },
     {
+      "id": "CUSA04704",
+      "version": "01.01",
+      "title": "Resident Evil 4",
+      "idLower": "cusa04704",
+      "titleLower": "resident evil 4",
+      "cheatsTotal": 7,
+      "creators": [
+        "EXED3STROY"
+      ],
+      "creatorsLower": [
+        "exed3stroy"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": true,
+          "cheatsCount": 7,
+          "cheats": [
+            "gain(onBuying)",
+            "infAmmo(noReload)",
+            "infHealth(Ashley)",
+            "infHealth(Leon/Ada)",
+            "infMoney(onSell)",
+            "infTime(Everywhere)",
+            "oneHitKill"
+          ]
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
       "id": "CUSA04713",
       "version": "01.00",
       "title": "Super Robot Taisen OG: The Moon Dwellers",
@@ -46980,17 +47019,19 @@
       "title": "Borderlands: Game of the Year Edition",
       "idLower": "cusa10455",
       "titleLower": "borderlands: game of the year edition",
-      "cheatsTotal": 19,
+      "cheatsTotal": 29,
       "creators": [
-        "Sondio"
+        "Sondio",
+        "Talixme"
       ],
       "creatorsLower": [
-        "sondio"
+        "sondio",
+        "talixme"
       ],
       "formats": {
         "json": {
           "hasFile": true,
-          "cheatsCount": 19,
+          "cheatsCount": 29,
           "cheats": [
             "Hyper Run (Enable MC)",
             "Ignored by the Enemy (Enable MC)",
@@ -47010,7 +47051,17 @@
             "Max XP/Level (Enable MC)",
             "No Reload (Enable MC)",
             "Space in the Backpack x99 (Enable MC)",
-            "Unlock Weapons Slots (Enable MC)"
+            "Unlock Weapons Slots (Enable MC)",
+            "--Infinite_Life",
+            "--Inf_Ammo",
+            "--Inf_Life_and_Ammo",
+            "--Max exp",
+            "Easy Money",
+            "Inf Exp",
+            "Inf Exp Points",
+            "Inf Money Shopping",
+            "Master Code",
+            "No Reload"
           ]
         },
         "shn": {
@@ -50199,18 +50250,20 @@
       "title": "Control",
       "idLower": "cusa11454",
       "titleLower": "control",
-      "cheatsTotal": 38,
+      "cheatsTotal": 46,
       "creators": [
         "FW 9.00",
         "LMN",
         "Reddevil82",
-        "Reddevil82 - FW 9.00"
+        "Reddevil82 - FW 9.00",
+        "Unknown Moder: Change me after \u0027Send\u0027, Reddevil82 - FW 9.00"
       ],
       "creatorsLower": [
         "fw 9.00",
         "lmn",
         "reddevil82",
-        "reddevil82 - fw 9.00"
+        "reddevil82 - fw 9.00",
+        "unknown moder: change me after \u0027send\u0027, reddevil82 - fw 9.00"
       ],
       "formats": {
         "json": {
@@ -50238,8 +50291,16 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 10,
+          "cheatsCount": 18,
           "cheats": [
+            "999 abilities points on use",
+            "999999 materials on use",
+            "999999 source credit on use",
+            "freez source credit",
+            "freeze abilities points",
+            "inf ammo",
+            "inf energy",
+            "shared health!!!",
             "Hover Mode activated",
             "Infinite Ammo",
             "Infinite Energy",
@@ -90970,6 +91031,40 @@
       }
     },
     {
+      "id": "CUSA32065",
+      "version": "01.01",
+      "title": "Super Cyborg",
+      "idLower": "cusa32065",
+      "titleLower": "super cyborg",
+      "cheatsTotal": 2,
+      "creators": [
+        "Ali-mk"
+      ],
+      "creatorsLower": [
+        "ali-mk"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Infinite-lives",
+            "Invincible"
+          ]
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
       "id": "CUSA32074",
       "version": "01.02",
       "title": "Pac-Man World Re-Pac",
@@ -95328,12 +95423,12 @@
       "title": "Aliens: Dark Descent",
       "idLower": "cusa34370",
       "titleLower": "aliens: dark descent",
-      "cheatsTotal": 10,
+      "cheatsTotal": 15,
       "creators": [
-        "Wander FW9.00, d01v"
+        "Wander FW9.00, d01v, Evil Goku"
       ],
       "creatorsLower": [
-        "wander fw9.00, d01v"
+        "wander fw9.00, d01v, evil goku"
       ],
       "formats": {
         "json": {
@@ -95343,7 +95438,7 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 10,
+          "cheatsCount": 15,
           "cheats": [
             "Infinite Ammo (squad and turret)",
             "Infinite item use (on the mission)",
@@ -95354,7 +95449,12 @@
             "Max Bravery and Accuracy (Otago)",
             "Max Stock Tools from Otago",
             "Med Bay Patient Recovery 0 Days",
-            "Stock Tools x99 (Mission)"
+            "Stock Tools x99 (Mission)",
+            "Inf Ammo",
+            "Inf HP Shield _One Hit Kill",
+            "Inf Items use on Mission",
+            "Inf Medic Use",
+            "Max Materials _ Xenosample on spend"
           ]
         },
         "mc4": {
@@ -106914,7 +107014,7 @@
       "title": "Elden Ring Nightreign",
       "idLower": "cusa48853",
       "titleLower": "elden ring nightreign",
-      "cheatsTotal": 4,
+      "cheatsTotal": 56,
       "creators": [
         "Pharaoh2k"
       ],
@@ -106924,18 +107024,70 @@
       "formats": {
         "json": {
           "hasFile": true,
-          "cheatsCount": 2,
+          "cheatsCount": 28,
           "cheats": [
             "God Mode",
-            "TRAINER INFO (read only)"
+            "TRAINER INFO (read only)",
+            "-- Player Speed x1",
+            "-- Player Speed x2",
+            "-- Player Speed x3",
+            "-- Player Speed x4",
+            "--Enemy Speed x0.2",
+            "--Enemy Speed x0.5",
+            "--Enemy Speed x2",
+            "--No Skill Cooldown",
+            "--Vanish All Enemies",
+            "Disable Idle Timer",
+            "Enemies Dont Attack",
+            "Inf\u002BMax Consumables",
+            "Inf\u002BMax FP",
+            "Inf\u002BMax Health",
+            "Inf\u002BMax Level (15)",
+            "Inf\u002BMax Murks",
+            "Inf\u002BMax Runes",
+            "Inf\u002BMax Stamina",
+            "Infinite Ultimate Art",
+            "Kill Everybody Around (L3 \u002B L2)",
+            "Master Code (Must be enabled first \u002B all the time)",
+            "Multi Jump And Levitate",
+            "One Hit Kill",
+            "Player No Dead 1.01-1.02",
+            "Runes Retained On Death",
+            "Stop Night Growth"
           ]
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 2,
+          "cheatsCount": 28,
           "cheats": [
             "For the complete trainer, visit our discord server (Team Reaper). Invite: https://discord.gg/yrxdxSPZmH",
-            "God Mode"
+            "God Mode",
+            "-- Player Speed x1",
+            "-- Player Speed x2",
+            "-- Player Speed x3",
+            "-- Player Speed x4",
+            "--Enemy Speed x0.2",
+            "--Enemy Speed x0.5",
+            "--Enemy Speed x2",
+            "--No Skill Cooldown",
+            "--Vanish All Enemies",
+            "Disable Idle Timer",
+            "Enemies Dont Attack",
+            "Inf\u002BMax Consumables",
+            "Inf\u002BMax FP",
+            "Inf\u002BMax Health",
+            "Inf\u002BMax Level (15)",
+            "Inf\u002BMax Murks",
+            "Inf\u002BMax Runes",
+            "Inf\u002BMax Stamina",
+            "Infinite Ultimate Art",
+            "Kill Everybody Around (L3 \u002B L2)",
+            "Master Code (Must be enabled first \u002B all the time)",
+            "Multi Jump And Levitate",
+            "One Hit Kill",
+            "Player No Dead 1.01-1.02",
+            "Runes Retained On Death",
+            "Stop Night Growth"
           ]
         },
         "mc4": {
@@ -107502,7 +107654,7 @@
       "title": "Elden Ring Nightreign",
       "idLower": "cusa50614",
       "titleLower": "elden ring nightreign",
-      "cheatsTotal": 4,
+      "cheatsTotal": 56,
       "creators": [
         "Pharaoh2k"
       ],
@@ -107512,18 +107664,70 @@
       "formats": {
         "json": {
           "hasFile": true,
-          "cheatsCount": 2,
+          "cheatsCount": 28,
           "cheats": [
             "God Mode",
-            "TRAINER INFO (read only)"
+            "TRAINER INFO (read only)",
+            "-- Player Speed x1",
+            "-- Player Speed x2",
+            "-- Player Speed x3",
+            "-- Player Speed x4",
+            "--Enemy Speed x0.2",
+            "--Enemy Speed x0.5",
+            "--Enemy Speed x2",
+            "--No Skill Cooldown",
+            "--Vanish All Enemies",
+            "Disable Idle Timer",
+            "Enemies Dont Attack",
+            "Inf\u002BMax Consumables",
+            "Inf\u002BMax FP",
+            "Inf\u002BMax Health",
+            "Inf\u002BMax Level (15)",
+            "Inf\u002BMax Murks",
+            "Inf\u002BMax Runes",
+            "Inf\u002BMax Stamina",
+            "Infinite Ultimate Art",
+            "Kill Everybody Around (L3 \u002B L2)",
+            "Master Code (Must be enabled first \u002B all the time)",
+            "Multi Jump And Levitate",
+            "One Hit Kill",
+            "Player No Dead 1.01-1.02",
+            "Runes Retained On Death",
+            "Stop Night Growth"
           ]
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 2,
+          "cheatsCount": 28,
           "cheats": [
             "For the complete trainer, visit our discord server (Team Reaper). Invite: https://discord.gg/yrxdxSPZmH",
-            "God Mode"
+            "God Mode",
+            "-- Player Speed x1",
+            "-- Player Speed x2",
+            "-- Player Speed x3",
+            "-- Player Speed x4",
+            "--Enemy Speed x0.2",
+            "--Enemy Speed x0.5",
+            "--Enemy Speed x2",
+            "--No Skill Cooldown",
+            "--Vanish All Enemies",
+            "Disable Idle Timer",
+            "Enemies Dont Attack",
+            "Inf\u002BMax Consumables",
+            "Inf\u002BMax FP",
+            "Inf\u002BMax Health",
+            "Inf\u002BMax Level (15)",
+            "Inf\u002BMax Murks",
+            "Inf\u002BMax Runes",
+            "Inf\u002BMax Stamina",
+            "Infinite Ultimate Art",
+            "Kill Everybody Around (L3 \u002B L2)",
+            "Master Code (Must be enabled first \u002B all the time)",
+            "Multi Jump And Levitate",
+            "One Hit Kill",
+            "Player No Dead 1.01-1.02",
+            "Runes Retained On Death",
+            "Stop Night Growth"
           ]
         },
         "mc4": {
@@ -107796,7 +108000,7 @@
       "title": "Elden Ring Nightreign",
       "idLower": "cusa50615",
       "titleLower": "elden ring nightreign",
-      "cheatsTotal": 4,
+      "cheatsTotal": 56,
       "creators": [
         "Pharaoh2k"
       ],
@@ -107806,18 +108010,70 @@
       "formats": {
         "json": {
           "hasFile": true,
-          "cheatsCount": 2,
+          "cheatsCount": 28,
           "cheats": [
             "God Mode",
-            "TRAINER INFO (read only)"
+            "TRAINER INFO (read only)",
+            "-- Player Speed x1",
+            "-- Player Speed x2",
+            "-- Player Speed x3",
+            "-- Player Speed x4",
+            "--Enemy Speed x0.2",
+            "--Enemy Speed x0.5",
+            "--Enemy Speed x2",
+            "--No Skill Cooldown",
+            "--Vanish All Enemies",
+            "Disable Idle Timer",
+            "Enemies Dont Attack",
+            "Inf\u002BMax Consumables",
+            "Inf\u002BMax FP",
+            "Inf\u002BMax Health",
+            "Inf\u002BMax Level (15)",
+            "Inf\u002BMax Murks",
+            "Inf\u002BMax Runes",
+            "Inf\u002BMax Stamina",
+            "Infinite Ultimate Art",
+            "Kill Everybody Around (L3 \u002B L2)",
+            "Master Code (Must be enabled first \u002B all the time)",
+            "Multi Jump And Levitate",
+            "One Hit Kill",
+            "Player No Dead 1.01-1.02",
+            "Runes Retained On Death",
+            "Stop Night Growth"
           ]
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 2,
+          "cheatsCount": 28,
           "cheats": [
             "For the complete trainer, visit our discord server (Team Reaper). Invite: https://discord.gg/yrxdxSPZmH",
-            "God Mode"
+            "God Mode",
+            "-- Player Speed x1",
+            "-- Player Speed x2",
+            "-- Player Speed x3",
+            "-- Player Speed x4",
+            "--Enemy Speed x0.2",
+            "--Enemy Speed x0.5",
+            "--Enemy Speed x2",
+            "--No Skill Cooldown",
+            "--Vanish All Enemies",
+            "Disable Idle Timer",
+            "Enemies Dont Attack",
+            "Inf\u002BMax Consumables",
+            "Inf\u002BMax FP",
+            "Inf\u002BMax Health",
+            "Inf\u002BMax Level (15)",
+            "Inf\u002BMax Murks",
+            "Inf\u002BMax Runes",
+            "Inf\u002BMax Stamina",
+            "Infinite Ultimate Art",
+            "Kill Everybody Around (L3 \u002B L2)",
+            "Master Code (Must be enabled first \u002B all the time)",
+            "Multi Jump And Levitate",
+            "One Hit Kill",
+            "Player No Dead 1.01-1.02",
+            "Runes Retained On Death",
+            "Stop Night Growth"
           ]
         },
         "mc4": {
@@ -108090,7 +108346,7 @@
       "title": "Elden Ring Nightreign",
       "idLower": "cusa50617",
       "titleLower": "elden ring nightreign",
-      "cheatsTotal": 4,
+      "cheatsTotal": 56,
       "creators": [
         "Pharaoh2k"
       ],
@@ -108100,18 +108356,70 @@
       "formats": {
         "json": {
           "hasFile": true,
-          "cheatsCount": 2,
+          "cheatsCount": 28,
           "cheats": [
             "God Mode",
-            "TRAINER INFO (read only)"
+            "TRAINER INFO (read only)",
+            "-- Player Speed x1",
+            "-- Player Speed x2",
+            "-- Player Speed x3",
+            "-- Player Speed x4",
+            "--Enemy Speed x0.2",
+            "--Enemy Speed x0.5",
+            "--Enemy Speed x2",
+            "--No Skill Cooldown",
+            "--Vanish All Enemies",
+            "Disable Idle Timer",
+            "Enemies Dont Attack",
+            "Inf\u002BMax Consumables",
+            "Inf\u002BMax FP",
+            "Inf\u002BMax Health",
+            "Inf\u002BMax Level (15)",
+            "Inf\u002BMax Murks",
+            "Inf\u002BMax Runes",
+            "Inf\u002BMax Stamina",
+            "Infinite Ultimate Art",
+            "Kill Everybody Around (L3 \u002B L2)",
+            "Master Code (Must be enabled first \u002B all the time)",
+            "Multi Jump And Levitate",
+            "One Hit Kill",
+            "Player No Dead 1.01-1.02",
+            "Runes Retained On Death",
+            "Stop Night Growth"
           ]
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 2,
+          "cheatsCount": 28,
           "cheats": [
             "For the complete trainer, visit our discord server (Team Reaper). Invite: https://discord.gg/yrxdxSPZmH",
-            "God Mode"
+            "God Mode",
+            "-- Player Speed x1",
+            "-- Player Speed x2",
+            "-- Player Speed x3",
+            "-- Player Speed x4",
+            "--Enemy Speed x0.2",
+            "--Enemy Speed x0.5",
+            "--Enemy Speed x2",
+            "--No Skill Cooldown",
+            "--Vanish All Enemies",
+            "Disable Idle Timer",
+            "Enemies Dont Attack",
+            "Inf\u002BMax Consumables",
+            "Inf\u002BMax FP",
+            "Inf\u002BMax Health",
+            "Inf\u002BMax Level (15)",
+            "Inf\u002BMax Murks",
+            "Inf\u002BMax Runes",
+            "Inf\u002BMax Stamina",
+            "Infinite Ultimate Art",
+            "Kill Everybody Around (L3 \u002B L2)",
+            "Master Code (Must be enabled first \u002B all the time)",
+            "Multi Jump And Levitate",
+            "One Hit Kill",
+            "Player No Dead 1.01-1.02",
+            "Runes Retained On Death",
+            "Stop Night Growth"
           ]
         },
         "mc4": {
@@ -110957,18 +111265,26 @@
       "title": "Pragmata",
       "idLower": "ppsa02530",
       "titleLower": "pragmata",
-      "cheatsTotal": 8,
+      "cheatsTotal": 13,
       "creators": [
+        "Talixme",
         "Yharnam"
       ],
       "creatorsLower": [
+        "talixme",
         "yharnam"
       ],
       "formats": {
         "json": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "Inf Ammo",
+            "Inf Items",
+            "Inf Stamina",
+            "Inf Super",
+            "No Hit"
+          ]
         },
         "shn": {
           "hasFile": false,
@@ -111305,12 +111621,12 @@
       "title": "Marvel\u2019s Spider-Man 2",
       "idLower": "ppsa03016",
       "titleLower": "marvel\u2019s spider-man 2",
-      "cheatsTotal": 7,
+      "cheatsTotal": 12,
       "creators": [
-        "Yharnam"
+        "Sunrita, Yharnam"
       ],
       "creatorsLower": [
-        "yharnam"
+        "sunrita, yharnam"
       ],
       "formats": {
         "json": {
@@ -111325,8 +111641,13 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 7,
+          "cheatsCount": 12,
           "cheats": [
+            "999 skill points/upgrade points",
+            "Infinite Focus Bar",
+            "Infinite Health",
+            "Infinite WebShooter",
+            "Max level",
             "1 Hit Kill",
             "Infi Focus Bar",
             "Infi Health",
@@ -112349,6 +112670,44 @@
       }
     },
     {
+      "id": "PPSA04243",
+      "version": "01.000.000",
+      "title": "Breathedge",
+      "idLower": "ppsa04243",
+      "titleLower": "breathedge",
+      "cheatsTotal": 6,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 6,
+          "cheats": [
+            "--Inf_Air",
+            "--Inf_Hp",
+            "--No_Hunger",
+            "--No_Radiation",
+            "--No_Thirst",
+            "Master Code"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
       "id": "PPSA04264",
       "version": "01.005.000",
       "title": "Grand Theft Auto V",
@@ -112969,6 +113328,39 @@
             "Max Score",
             "Untouchable"
           ]
+        }
+      }
+    },
+    {
+      "id": "PPSA05344",
+      "version": "04.001.000",
+      "title": "Park Beyond",
+      "idLower": "ppsa05344",
+      "titleLower": "park beyond",
+      "cheatsTotal": 1,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 1,
+          "cheats": [
+            "Inf Money"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },
@@ -114388,6 +114780,41 @@
       }
     },
     {
+      "id": "PPSA08546",
+      "version": "01.000.000",
+      "title": "Flashback 2 Limited Edition",
+      "idLower": "ppsa08546",
+      "titleLower": "flashback 2 limited edition",
+      "cheatsTotal": 3,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Inf HP \u002B No reload",
+            "Inf Items Pick up",
+            "Inf Items use (x2)"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
       "id": "PPSA08666",
       "version": "01.040.000",
       "title": "Final Fantasy VII Rebirth",
@@ -114687,6 +115114,41 @@
       }
     },
     {
+      "id": "PPSA09090",
+      "version": "01.000.000",
+      "title": "Lunar Lander: Beyond",
+      "idLower": "ppsa09090",
+      "titleLower": "lunar lander: beyond",
+      "cheatsTotal": 3,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Inf Credits",
+            "Inf Energy",
+            "Inf Hp"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
       "id": "PPSA09259",
       "version": "01.006.000",
       "title": "Hell is Us",
@@ -114718,6 +115180,80 @@
             "Infi Stamina",
             "Invincible"
           ]
+        }
+      }
+    },
+    {
+      "id": "PPSA09347",
+      "version": "08.000.000",
+      "title": "The Last Faith",
+      "idLower": "ppsa09347",
+      "titleLower": "the last faith",
+      "cheatsTotal": 6,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 6,
+          "cheats": [
+            "--Inf_Hp",
+            "--Inf_Mind",
+            "--Inf_Power",
+            "--One_hit_kill",
+            "Inf Items and Money",
+            "Master Code"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
+      "id": "PPSA09453",
+      "version": "01.000.002",
+      "title": "Infinity Strash: DRAGON QUEST The Adventure of Dai",
+      "idLower": "ppsa09453",
+      "titleLower": "infinity strash: dragon quest the adventure of dai",
+      "cheatsTotal": 4,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Inf Consumables",
+            "Inf HP",
+            "Inf HP \u002B 1 Hit Kill",
+            "Inf money And Cristals"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },
@@ -114939,18 +115475,24 @@
       "title": "Banishers: Ghosts of New Eden",
       "idLower": "ppsa10053",
       "titleLower": "banishers: ghosts of new eden",
-      "cheatsTotal": 5,
+      "cheatsTotal": 8,
       "creators": [
+        "Talixme",
         "Yharnam"
       ],
       "creatorsLower": [
+        "talixme",
         "yharnam"
       ],
       "formats": {
         "json": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Inf Items",
+            "Inf Medkit",
+            "Inf Super"
+          ]
         },
         "shn": {
           "hasFile": false,
@@ -115569,6 +116111,45 @@
       }
     },
     {
+      "id": "PPSA14196",
+      "version": "01.000.000",
+      "title": "Sker Ritual",
+      "idLower": "ppsa14196",
+      "titleLower": "sker ritual",
+      "cheatsTotal": 7,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 7,
+          "cheats": [
+            "--Inf_Hp",
+            "--One_Hit_Kill",
+            "Inf Ammo",
+            "Inf Money",
+            "Inf Wishes",
+            "Master Code",
+            "No Reload"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
       "id": "PPSA14251",
       "version": "01.006.000",
       "title": "Mafia: The Old Country",
@@ -115955,6 +116536,50 @@
       }
     },
     {
+      "id": "PPSA15645",
+      "version": "01.003.000",
+      "title": "Castlevania Dominus Collection",
+      "idLower": "ppsa15645",
+      "titleLower": "castlevania dominus collection",
+      "cheatsTotal": 12,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 12,
+          "cheats": [
+            "Inf Exp  Order of Ecclesia",
+            "Inf Exp Dawn Of Sorrow",
+            "Inf Exp Portrait Of  Ruin",
+            "Inf Gold  Order of Ecclesia",
+            "Inf Hp Dawn Of Sorrow",
+            "Inf Hp Order of Ecclesia",
+            "Inf Hp Portrait Of  Ruin",
+            "Inf Money Dawn Of Sorrow",
+            "Inf Money Portrait Of  Ruin",
+            "Inf Mp  Order of Ecclesia",
+            "Inf Mp Dawn Of Sorrow",
+            "Inf Mp Portrait Of  Ruin"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
       "id": "PPSA15656",
       "version": "01.000.000",
       "title": "Disney Epic Mickey: Rebrushed",
@@ -116071,6 +116696,41 @@
       }
     },
     {
+      "id": "PPSA16019",
+      "version": "01.000.000",
+      "title": "Double Dragon Gaiden: Rise of the Dragons",
+      "idLower": "ppsa16019",
+      "titleLower": "double dragon gaiden: rise of the dragons",
+      "cheatsTotal": 3,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Inf Hp",
+            "Inf Money",
+            "Inf Super"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
       "id": "PPSA16388",
       "version": "01.017.000",
       "title": "Hitman: World of Assassination",
@@ -116101,6 +116761,75 @@
             "Infi Ammo",
             "Infi Health"
           ]
+        }
+      }
+    },
+    {
+      "id": "PPSA16716",
+      "version": "01.000.000",
+      "title": "The Smurfs 2: The Prisoner of the Green Stone",
+      "idLower": "ppsa16716",
+      "titleLower": "the smurfs 2: the prisoner of the green stone",
+      "cheatsTotal": 3,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Inf Hp",
+            "Inf Jumps",
+            "Inf Stones"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
+      "id": "PPSA17219",
+      "version": "01.000.001",
+      "title": "Disney Illusion Island",
+      "idLower": "ppsa17219",
+      "titleLower": "disney illusion island",
+      "cheatsTotal": 2,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Inf Coins",
+            "Inf Hp"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },
@@ -116335,6 +117064,78 @@
             "Inf Coins",
             "Inf Hp"
           ]
+        }
+      }
+    },
+    {
+      "id": "PPSA19406",
+      "version": "01.005.000",
+      "title": "Earth Defense Force: World Brothers 2",
+      "idLower": "ppsa19406",
+      "titleLower": "earth defense force: world brothers 2",
+      "cheatsTotal": 4,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Inf Ability 1",
+            "Inf Ability 2",
+            "Inf HP",
+            "No Reload"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
+      "id": "PPSA20298",
+      "version": "01.040.000",
+      "title": "Shadow Labyrinth",
+      "idLower": "ppsa20298",
+      "titleLower": "shadow labyrinth",
+      "cheatsTotal": 4,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Inf Coins",
+            "Inf Hp",
+            "Inf Hp PacMan",
+            "Inf Stamina"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },
@@ -116668,6 +117469,40 @@
       }
     },
     {
+      "id": "PPSA21297",
+      "version": "01.000.000",
+      "title": "Withering Rooms",
+      "idLower": "ppsa21297",
+      "titleLower": "withering rooms",
+      "cheatsTotal": 2,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Inf Hp and No curse",
+            "Inf Money"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
       "id": "PPSA21564",
       "version": "01.007.000",
       "title": "Astro Bot",
@@ -116862,6 +117697,44 @@
             "Infi Mastery Points (Use)",
             "Infi Money (Enter Shop and Exit)"
           ]
+        }
+      }
+    },
+    {
+      "id": "PPSA23000",
+      "version": "01.000.000",
+      "title": "Double Dragon Revive",
+      "idLower": "ppsa23000",
+      "titleLower": "double dragon revive",
+      "cheatsTotal": 6,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 6,
+          "cheats": [
+            "--Inf_Hp",
+            "--One_Hit_Kill",
+            "Inf Super",
+            "Master Code",
+            "Max Combo Hit",
+            "Max Score"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },
@@ -117135,6 +118008,40 @@
       }
     },
     {
+      "id": "PPSA24152",
+      "version": "01.000.000",
+      "title": "Potionomics: Masterwork Edition",
+      "idLower": "ppsa24152",
+      "titleLower": "potionomics: masterwork edition",
+      "cheatsTotal": 2,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Easy Money",
+            "Inf Inventory"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
       "id": "PPSA24588",
       "version": "01.100.001",
       "title": "The Outer Worlds 2",
@@ -117283,6 +118190,40 @@
       }
     },
     {
+      "id": "PPSA25009",
+      "version": "01.008.000",
+      "title": "Blue Prince",
+      "idLower": "ppsa25009",
+      "titleLower": "blue prince",
+      "cheatsTotal": 2,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Inf Items",
+            "Inf Steps"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
       "id": "PPSA25258",
       "version": "01.004.000",
       "title": "Ninja Gaiden\u00A04",
@@ -117400,6 +118341,43 @@
       }
     },
     {
+      "id": "PPSA25872",
+      "version": "01.002.000",
+      "title": "Terminator 2D: No Fate",
+      "idLower": "ppsa25872",
+      "titleLower": "terminator 2d: no fate",
+      "cheatsTotal": 5,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "10x Score",
+            "Easy Score",
+            "Inf Grenades",
+            "Inf Hp",
+            "Stop Timer"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
       "id": "PPSA26097",
       "version": "02.000.000",
       "title": "Yooka-Replaylee",
@@ -117435,6 +118413,44 @@
             "Inf Hp",
             "Inf Sonar"
           ]
+        }
+      }
+    },
+    {
+      "id": "PPSA26311",
+      "version": "01.004.001",
+      "title": "Blades of Fire",
+      "idLower": "ppsa26311",
+      "titleLower": "blades of fire",
+      "cheatsTotal": 6,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 6,
+          "cheats": [
+            "--Inf_Hp",
+            "--Inf_Stamina",
+            "--One_Hit_Kill",
+            "Inf Materials and Items",
+            "Inf Weapons Durability",
+            "Master Code"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },
@@ -117731,6 +118747,40 @@
       }
     },
     {
+      "id": "PPSA28311",
+      "version": "01.002.000",
+      "title": "Absolum",
+      "idLower": "ppsa28311",
+      "titleLower": "absolum",
+      "cheatsTotal": 2,
+      "creators": [
+        "Anonymous"
+      ],
+      "creatorsLower": [
+        "anonymous"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Inf Combo",
+            "Inf Hp And Money"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
       "id": "PPSA28329",
       "version": "01.005.000",
       "title": "RoboCop: Rogue City - Unfinished Business",
@@ -117810,6 +118860,40 @@
       }
     },
     {
+      "id": "PPSA30490",
+      "version": "01.000.000",
+      "title": "Asterix \u0026 Obelix - Mission Babylon",
+      "idLower": "ppsa30490",
+      "titleLower": "asterix \u0026 obelix - mission babylon",
+      "cheatsTotal": 2,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Inf Helmets",
+            "Inf Hp"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
       "id": "PPSA30528",
       "version": "01.002.000",
       "title": "Red Dead Redemption",
@@ -117843,6 +118927,41 @@
             "Infinite Health",
             "Infinite Stamina"
           ]
+        }
+      }
+    },
+    {
+      "id": "PPSA30797",
+      "version": "01.000.005",
+      "title": "Kaku: Ancient Seal",
+      "idLower": "ppsa30797",
+      "titleLower": "kaku: ancient seal",
+      "cheatsTotal": 3,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Inf Hp",
+            "Inf Items",
+            "Inf Stamina"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },

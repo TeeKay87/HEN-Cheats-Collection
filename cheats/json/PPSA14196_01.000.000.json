@@ -1,0 +1,123 @@
+{
+  "name": "Sker Ritual",
+  "id": "PPSA14196",
+  "version": "01.000.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "--Inf_Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD1BF00",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "--One_Hit_Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD1BF01",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Inf Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB054",
+          "on": "B90F270000898B0C020000E9B8C6D303",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "83A07716",
+          "on": "E939392CFC90",
+          "off": "898B0C020000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Money",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB084",
+          "on": "89C1B83F420F0041894740E9A2186400",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "8030C930",
+          "on": "E94FE79BFF90",
+          "off": "89C141894740"
+        }
+      ]
+    },
+    {
+      "name": "Inf Wishes",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB0B4",
+          "on": "BA630000008997F0000000E9F4C55800",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "802576B2",
+          "on": "E9FD39A7FF90",
+          "off": "8997F0000000"
+        }
+      ]
+    },
+    {
+      "name": "Master Code",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD1BF00",
+          "on": "00",
+          "off": "00"
+        },
+        {
+          "offset": "7FD1BF01",
+          "on": "00",
+          "off": "00"
+        },
+        {
+          "offset": "7FCCB000",
+          "on": "66837B2C027415803DF30E050001751AC7432800000000E9A5AB4402803DDD0E0500017505E997AB4402C5FA114328E98DAB4402",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "82115BBC",
+          "on": "E93F54BBFD",
+          "off": "C5FA114328"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80564A67",
+          "on": "909090909090",
+          "off": "898B00020000"
+        },
+        {
+          "offset": "83A0CA67",
+          "on": "909090909090",
+          "off": "898B00020000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

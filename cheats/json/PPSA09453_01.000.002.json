@@ -1,0 +1,70 @@
+{
+  "name": "Infinity Strash: DRAGON QUEST The Adventure of Dai",
+  "id": "PPSA09453",
+  "version": "01.000.002",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Consumables",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1428ED4",
+          "on": "9090",
+          "off": "89F0"
+        }
+      ]
+    },
+    {
+      "name": "Inf HP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCC7051",
+          "on": "813F00D34F08750FC787B4000000E7030000E94EAD49818997B4000000E943AD4981C787B400000000000000E934AD4981",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1161DB0",
+          "on": "E99C52B67E90",
+          "off": "8997B4000000"
+        }
+      ]
+    },
+    {
+      "name": "Inf HP \u002B 1 Hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCC7000",
+          "on": "813F00D34F08751AC787B4000000E7030000E99FAD49818997B4000000E994AD4981C787B400000000000000E985AD4981",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1161DB0",
+          "on": "E94B52B67E90",
+          "off": "8997B4000000"
+        }
+      ]
+    },
+    {
+      "name": "Inf money And Cristals",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCC70A2",
+          "on": "39D10F4CD1BA3F420F00895008E9ADC15A81",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1273259",
+          "on": "E9443EA57E909090",
+          "off": "39D10F4CD1895008"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

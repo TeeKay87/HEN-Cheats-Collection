@@ -1,0 +1,79 @@
+{
+  "name": "Lunar Lander: Beyond",
+  "id": "PPSA09090",
+  "version": "01.000.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Credits",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB0C0",
+          "on": "41BFFFE0F50544897B3C4183FE130F87501FFB00E93D1F1F03",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "82EBD00C",
+          "on": "E9AFE0E0FC909090909090909090",
+          "off": "44017B3C4183FE130F870A00DCFD"
+        }
+      ]
+    },
+    {
+      "name": "Inf Energy",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB062",
+          "on": "C5FA104320C5FA11431CE957F02501",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "7FCCB091",
+          "on": "C5FA104320C5FA11431CE928F04903",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "80F2A0C3",
+          "on": "E99A0FDAFE",
+          "off": "C5FA11431C"
+        },
+        {
+          "offset": "8316A0C3",
+          "on": "E9C90FB6FC",
+          "off": "C5FA11431C"
+        }
+      ]
+    },
+    {
+      "name": "Inf Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB000",
+          "on": "C4C17A10461CC4C17A114624E98C042601",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "7FCCB031",
+          "on": "C4C17A10461CC4C17A114624E95B044A03",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "80F2B497",
+          "on": "E964FBD9FE90",
+          "off": "C4C17A114624"
+        },
+        {
+          "offset": "8316B497",
+          "on": "E995FBB5FC90",
+          "off": "C4C17A114624"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

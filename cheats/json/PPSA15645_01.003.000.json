@@ -1,0 +1,188 @@
+{
+  "name": "Castlevania Dominus Collection",
+  "id": "PPSA15645",
+  "version": "01.003.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Exp  Order of Ecclesia",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB030",
+          "on": "B9FFE0F50541898FBC070000E967771000",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "7FDD27A1",
+          "on": "E98A88EFFF9090",
+          "off": "41898FBC070000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Exp Dawn Of Sorrow",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB0F6",
+          "on": "B9FFE0F505898B04930700E9E9D24B00",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "801883E9",
+          "on": "E9082DB4FF90",
+          "off": "898B04930700"
+        }
+      ]
+    },
+    {
+      "name": "Inf Exp Portrait Of  Ruin",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB094",
+          "on": "B9FFE0F505898AD8660200E99D5B1900",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "7FE60C3B",
+          "on": "E954A4E6FF90",
+          "off": "898AD8660200"
+        }
+      ]
+    },
+    {
+      "name": "Inf Gold  Order of Ecclesia",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB000",
+          "on": "BBFFE0F5050198C0070000E9653F1000",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "7FDCEF6F",
+          "on": "E98CC0EFFF90",
+          "off": "0198C0070000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Hp Dawn Of Sorrow",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8017BE4B",
+          "on": "9090909090909090",
+          "off": "664429B0CC920700"
+        },
+        {
+          "offset": "7FE87E4B",
+          "on": "9090909090909090",
+          "off": "664429B0CC920700"
+        }
+      ]
+    },
+    {
+      "name": "Inf Hp Order of Ecclesia",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FEF1C8C",
+          "on": "9090909090909090",
+          "off": "664429A064070000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Hp Portrait Of  Ruin",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FE12C40",
+          "on": "9090909090909090",
+          "off": "664429B884660200"
+        }
+      ]
+    },
+    {
+      "name": "Inf Money Dawn Of Sorrow",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB0C4",
+          "on": "41BEFFE0F5054401B008930700E932854A00",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "80173601",
+          "on": "E9BE7AB5FF9090",
+          "off": "4401B008930700"
+        }
+      ]
+    },
+    {
+      "name": "Inf Money Portrait Of  Ruin",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB061",
+          "on": "49C7C4FFE0F5054401A0DC660200E93FD01700",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "7FE480AC",
+          "on": "E9B02FE8FF9090",
+          "off": "4401A0DC660200"
+        }
+      ]
+    },
+    {
+      "name": "Inf Mp  Order of Ecclesia",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FECF7C4",
+          "on": "909090",
+          "off": "662918"
+        }
+      ]
+    },
+    {
+      "name": "Inf Mp Dawn Of Sorrow",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8016EC1A",
+          "on": "9090909090909090",
+          "off": "664429B8D0920700"
+        },
+        {
+          "offset": "80127B36",
+          "on": "90909090909090",
+          "off": "662998D0920700"
+        },
+        {
+          "offset": "8015550C",
+          "on": "9090",
+          "off": "FFC9"
+        }
+      ]
+    },
+    {
+      "name": "Inf Mp Portrait Of  Ruin",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FE3652A",
+          "on": "90909090909090",
+          "off": "66299888660200"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

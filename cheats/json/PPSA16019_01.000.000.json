@@ -1,0 +1,59 @@
+{
+  "name": "Double Dragon Gaiden: Rise of the Dragons",
+  "id": "PPSA16019",
+  "version": "01.000.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCC7000",
+          "on": "837B68FF750B898398010000E9BD27A2018B8398010000898398010000E9AC27A201",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "816E97C8",
+          "on": "E933D85DFE90",
+          "off": "898398010000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Money",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCC7042",
+          "on": "BEFFE0F50589B7F0000000E9DE7C9F01",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "816BED2A",
+          "on": "E9138360FE90",
+          "off": "89B7F0000000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Super",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCC7072",
+          "on": "B964000000898BA8010000E95960A101",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "816DD0D5",
+          "on": "E9989F5EFE90",
+          "off": "898BA8010000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

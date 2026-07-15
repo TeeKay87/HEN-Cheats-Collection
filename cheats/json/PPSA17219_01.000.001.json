@@ -1,0 +1,38 @@
+{
+  "name": "Disney Illusion Island",
+  "id": "PPSA17219",
+  "version": "01.000.001",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Coins",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD17000",
+          "on": "41C746203F420F0041FF4638E9D38ADF01",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "81B0FADC",
+          "on": "E91F7520FE909090",
+          "off": "41FF462041FF4638"
+        }
+      ]
+    },
+    {
+      "name": "Inf Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "823414CE",
+          "on": "9090",
+          "off": "FFC8"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "name": "Kaku: Ancient Seal",
+  "id": "PPSA30797",
+  "version": "01.000.005",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5827000",
+          "on": "C5FA1088CC040000C5FA1188C8040000E91FBE66FB",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "E92E2C",
+          "on": "E9CF419904909090",
+          "off": "C5FA1188C8040000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5827035",
+          "on": "BBE703000042895C0204E90B5876FB",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "5827064",
+          "on": "41BFE703000044897C0104E9AB5076FB",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "F8C84A",
+          "on": "E9E6A78904",
+          "off": "42295C0204"
+        },
+        {
+          "offset": "F8C11A",
+          "on": "E945AF8904",
+          "off": "44017C0104"
+        }
+      ]
+    },
+    {
+      "name": "Inf Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5827094",
+          "on": "C5FA1080E0080000C5FA1180DC080000E959E666FB",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "E956FA",
+          "on": "E995199904909090",
+          "off": "C5FA1180DC080000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}
