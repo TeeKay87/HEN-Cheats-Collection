@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-15T01:16:28.1104434Z",
+  "generatedUtc": "2026-07-15T12:09:26.7657573Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -16989,7 +16989,7 @@
       "title": "Guns, Gore \u0026 Cannoli",
       "idLower": "cusa03051",
       "titleLower": "guns, gore \u0026 cannoli",
-      "cheatsTotal": 4,
+      "cheatsTotal": 8,
       "creators": [
         "Ali-mk"
       ],
@@ -17013,9 +17013,14 @@
           ]
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Inf-Health-One-Hit-Kill-(MC)",
+            "Infinite-All-Weapon",
+            "Infinite-Health-(MC)",
+            "one-Hit-Kill"
+          ]
         }
       }
     },
@@ -69074,14 +69079,14 @@
       "title": "Valfaris",
       "idLower": "cusa17672",
       "titleLower": "valfaris",
-      "cheatsTotal": 14,
+      "cheatsTotal": 20,
       "creators": [
         "Ali-mk, fbin",
-        "fbin"
+        "fbin, Ali-mk"
       ],
       "creatorsLower": [
         "ali-mk, fbin",
-        "fbin"
+        "fbin, ali-mk"
       ],
       "formats": {
         "json": {
@@ -69107,12 +69112,18 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 4,
+          "cheatsCount": 10,
           "cheats": [
             "Arma Infinita",
             "Idolo Infinito",
             "Metal de Sangue e Sangue de Valfaris Infinito",
-            "Vida Infinita"
+            "Vida Infinita",
+            "Inf-Stamina-Weapon",
+            "Infinite-Health",
+            "Infinite-Materials",
+            "Invincible-(MC)",
+            "MAX-All-items-(9999)",
+            "one-Hit-Kill"
           ]
         }
       }
@@ -88117,7 +88128,7 @@
       "title": "Tormented Souls",
       "idLower": "cusa29199",
       "titleLower": "tormented souls",
-      "cheatsTotal": 5,
+      "cheatsTotal": 10,
       "creators": [
         "Ali-mk"
       ],
@@ -88142,9 +88153,15 @@
           ]
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "Infinite-Ammo",
+            "Infinite-Health",
+            "Infinite-items",
+            "Invincible",
+            "one-Hit-Kill"
+          ]
         }
       }
     },
@@ -89871,7 +89888,7 @@
       "title": "Teenage Mutant Ninja Turtles: Shredder\u0027s Revenge",
       "idLower": "cusa30991",
       "titleLower": "teenage mutant ninja turtles: shredder\u0027s revenge",
-      "cheatsTotal": 3,
+      "cheatsTotal": 4,
       "creators": [
         "Ali-mk"
       ],
@@ -89894,9 +89911,10 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 1,
+          "cheatsCount": 2,
           "cheats": [
-            "Infinite-lives"
+            "Infinite-lives",
+            "Inf-super-kick"
           ]
         }
       }
@@ -106115,7 +106133,7 @@
       "title": "SHINOBI: Art of Vengeance",
       "idLower": "cusa45905",
       "titleLower": "shinobi: art of vengeance",
-      "cheatsTotal": 21,
+      "cheatsTotal": 23,
       "creators": [
         "Ali-mk"
       ],
@@ -106151,7 +106169,7 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 7,
+          "cheatsCount": 9,
           "cheats": [
             "Inf-shurikens",
             "Infinite-Health-(mc)",
@@ -106159,7 +106177,9 @@
             "Invincible",
             "MAX-Coins",
             "one-Hit-Kill",
-            "Rapid \u002B inf shurikens"
+            "Rapid \u002B inf shurikens",
+            "Inf-Ninjutsu",
+            "Inf-Ninpo-Cells-Attacks"
           ]
         }
       }
@@ -106213,7 +106233,7 @@
       "title": "Shadow of The Ninja",
       "idLower": "cusa46721",
       "titleLower": "shadow of the ninja",
-      "cheatsTotal": 10,
+      "cheatsTotal": 14,
       "creators": [
         "Ali-mk"
       ],
@@ -106241,11 +106261,15 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 3,
+          "cheatsCount": 7,
           "cheats": [
             "Infinite-All-Weapon",
             "Infinite-Health",
-            "MAX-GOLD"
+            "MAX-GOLD",
+            "Infinite-Time",
+            "Invincible",
+            "MAX \u002B Inf Health",
+            "one-Hit-Kill-YOU"
           ]
         }
       }
@@ -107538,7 +107562,7 @@
       "title": "RetroRealms",
       "idLower": "cusa50463",
       "titleLower": "retrorealms",
-      "cheatsTotal": 4,
+      "cheatsTotal": 9,
       "creators": [
         "Ali-mk"
       ],
@@ -107561,10 +107585,15 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 2,
+          "cheatsCount": 7,
           "cheats": [
             "Infinite-Health",
-            "MAX-GOLD"
+            "MAX-GOLD",
+            "Inf-All-Weapon",
+            "Inf-Stamina-MAGIC",
+            "Infinite-Fire",
+            "Infinite-GOLD",
+            "one-Hit-Kill"
           ]
         }
       }
@@ -108841,7 +108870,7 @@
       "title": "Beyond the Ice Palace 2",
       "idLower": "cusa50981",
       "titleLower": "beyond the ice palace 2",
-      "cheatsTotal": 2,
+      "cheatsTotal": 4,
       "creators": [
         "Ali-mk"
       ],
@@ -108863,9 +108892,12 @@
           ]
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Inf-Super\u002BStamina",
+            "Invincible"
+          ]
         }
       }
     },
@@ -108973,7 +109005,7 @@
       "title": "Gal Guardians: Servants of the Dark",
       "idLower": "cusa52187",
       "titleLower": "gal guardians: servants of the dark",
-      "cheatsTotal": 5,
+      "cheatsTotal": 10,
       "creators": [
         "Ali-mk"
       ],
@@ -108998,9 +109030,15 @@
           ]
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "Infinite-Health-[100]",
+            "Infinite-Weapon",
+            "Invincible",
+            "MAX-Coins-999999",
+            "one-Hit-Kill"
+          ]
         }
       }
     },
@@ -109047,7 +109085,7 @@
       "title": "Ninja Gaiden: Ragebound",
       "idLower": "cusa53132",
       "titleLower": "ninja gaiden: ragebound",
-      "cheatsTotal": 6,
+      "cheatsTotal": 8,
       "creators": [
         "Ali-mk"
       ],
@@ -109072,10 +109110,12 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 2,
+          "cheatsCount": 4,
           "cheats": [
             "Infinite-Ki",
-            "Invincible"
+            "Invincible",
+            "MAX-Points-1-buy",
+            "one-Hit-Kill"
           ]
         }
       }

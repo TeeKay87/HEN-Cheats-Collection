@@ -26,6 +26,16 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-07-15 | ADDED | CUSA03051 | 01.01 | [Guns, Gore & Cannoli](https://hencheats.vercel.app/#CUSA03051-01.01) |
+| 2026-07-15 | ADDED | CUSA29199 | 01.03 | [Tormented Souls](https://hencheats.vercel.app/#CUSA29199-01.03) |
+| 2026-07-15 | ADDED | CUSA50981 | 01.03 | [Beyond the Ice Palace 2](https://hencheats.vercel.app/#CUSA50981-01.03) |
+| 2026-07-15 | ADDED | CUSA52187 | 01.50 | [Gal Guardians: Servants of the Dark](https://hencheats.vercel.app/#CUSA52187-01.50) |
+| 2026-07-15 | UPDATE | CUSA17672 | 01.01 | [Valfaris](https://hencheats.vercel.app/#CUSA17672-01.01) |
+| 2026-07-15 | UPDATE | CUSA30991 | 01.10 | [Teenage Mutant Ninja Turtles: Shredder's Revenge](https://hencheats.vercel.app/#CUSA30991-01.10) |
+| 2026-07-15 | UPDATE | CUSA45905 | 01.01 | [SHINOBI: Art of Vengeance](https://hencheats.vercel.app/#CUSA45905-01.01) |
+| 2026-07-15 | UPDATE | CUSA46721 | 01.01 | [Shadow of The Ninja](https://hencheats.vercel.app/#CUSA46721-01.01) |
+| 2026-07-15 | UPDATE | CUSA50463 | 01.03 | [RetroRealms](https://hencheats.vercel.app/#CUSA50463-01.03) |
+| 2026-07-15 | UPDATE | CUSA53132 | 01.02 | [Ninja Gaiden: Ragebound](https://hencheats.vercel.app/#CUSA53132-01.02) |
 | 2026-07-15 | ADDED | PPSA02530 | 01.200.000 | [Pragmata](https://hencheats.vercel.app/#PPSA02530-01.200.000) |
 | 2026-07-15 | ADDED | PPSA30797 | 01.000.005 | [Kaku: Ancient Seal](https://hencheats.vercel.app/#PPSA30797-01.000.005) |
 | 2026-07-15 | ADDED | PPSA30490 | 01.000.000 | [Asterix & Obelix - Mission Babylon](https://hencheats.vercel.app/#PPSA30490-01.000.000) |
