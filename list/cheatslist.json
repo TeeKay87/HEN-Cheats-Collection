@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-16T13:42:11.6013633Z",
+  "generatedUtc": "2026-07-16T19:41:28.2184253Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -113885,6 +113885,42 @@
             "Infinite Oxygen",
             "Infinite Stamina",
             "Untouchable"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA07257",
+      "version": "05.000.000",
+      "title": "Gotham Knights",
+      "idLower": "ppsa07257",
+      "titleLower": "gotham knights",
+      "cheatsTotal": 4,
+      "creators": [
+        "Aigars Uze"
+      ],
+      "creatorsLower": [
+        "aigars uze"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Gain 50000 XP On Hit",
+            "Infinite Ability Points (Add On Spend)",
+            "Infinite Health",
+            "Infinite Medkits (Add On Spend)"
           ]
         }
       }

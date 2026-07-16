@@ -26,6 +26,7 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-07-16 | ADDED | PPSA07257 | 05.000.000 | [Gotham Knights](https://hencheats.vercel.app/#PPSA07257-05.000.000) |
 | 2026-07-16 | ADDED | PPSA13579 | 01.007.000 | [Blasphemous 2](https://hencheats.vercel.app/#PPSA13579-01.007.000) |
 | 2026-07-15 | ADDED | CUSA03051 | 01.01 | [Guns, Gore & Cannoli](https://hencheats.vercel.app/#CUSA03051-01.01) |
 | 2026-07-15 | ADDED | CUSA29199 | 01.03 | [Tormented Souls](https://hencheats.vercel.app/#CUSA29199-01.03) |
