@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-16T19:41:28.2184253Z",
+  "generatedUtc": "2026-07-16T21:54:01.7045308Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -2398,17 +2398,19 @@
       "title": "Thief",
       "idLower": "cusa00250",
       "titleLower": "thief",
-      "cheatsTotal": 22,
+      "cheatsTotal": 27,
       "creators": [
         "FW 9.00",
         "Reddevil82",
         "TLH",
+        "TLH, Wander / Reddevil82 - FW 9.00",
         "Wander"
       ],
       "creatorsLower": [
         "fw 9.00",
         "reddevil82",
         "tlh",
+        "tlh, wander / reddevil82 - fw 9.00",
         "wander"
       ],
       "formats": {
@@ -2426,7 +2428,7 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 8,
+          "cheatsCount": 13,
           "cheats": [
             "Infinite Chainmultiplier Time",
             "Infinite Eye",
@@ -2435,7 +2437,12 @@
             "Infinite Time",
             "Max ChainCounter",
             "Max Gold",
-            "Stealth"
+            "Stealth",
+            "Infinite Focus",
+            "Infinite Items ( on gain )",
+            "Max Money ( on gain )",
+            "One Hit Kill",
+            "Stealth Mode ( Dont touch Enemy )"
           ]
         },
         "mc4": {
@@ -3406,17 +3413,19 @@
       "title": "Lords of the Fallen",
       "idLower": "cusa00369",
       "titleLower": "lords of the fallen",
-      "cheatsTotal": 42,
+      "cheatsTotal": 49,
       "creators": [
         "Rizla",
         "Wander FW9.00",
         "Wander, Credits to d01v, Reddevil82, Celogamez",
+        "Wander, Credits to d01v, Reddevil82, Celogamez, Rizla",
         "Wander, d01v, Reddevil82 \u0026 Celogamez"
       ],
       "creatorsLower": [
         "rizla",
         "wander fw9.00",
         "wander, credits to d01v, reddevil82, celogamez",
+        "wander, credits to d01v, reddevil82, celogamez, rizla",
         "wander, d01v, reddevil82 \u0026 celogamez"
       ],
       "formats": {
@@ -3436,11 +3445,18 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 17,
+          "cheatsCount": 24,
           "cheats": [
+            "Alot of Experience (on spend)",
+            "Infinite Attribute Points (on spend)",
+            "Infinite Health\u002B1 Hit Kill",
+            "Infinite Magic",
+            "Infinite Potions/Runes (on use)",
+            "Infinite Spell points (on spend)",
+            "Infinite Stamina",
+            "Max/Infinite Health",
             "Infinite Energy",
             "Infinite Health",
-            "Infinite Magic",
             "Kill Enemies Quicker",
             "Max Agility When Changed",
             "Max AP on Spend",
@@ -3619,11 +3635,13 @@
       "cheatsTotal": 24,
       "creators": [
         "Wander FW9.00",
-        "Wander, Credits to d01v, Reddevil82, Celogamez"
+        "Wander, Credits to d01v, Reddevil82, Celogamez",
+        "Wander, Credits to d01v, Reddevil82, Celogamez, Wander FW9.00"
       ],
       "creatorsLower": [
         "wander fw9.00",
-        "wander, credits to d01v, reddevil82, celogamez"
+        "wander, credits to d01v, reddevil82, celogamez",
+        "wander, credits to d01v, reddevil82, celogamez, wander fw9.00"
       ],
       "formats": {
         "json": {
@@ -6275,7 +6293,7 @@
       "title": "Terraria",
       "idLower": "cusa00740",
       "titleLower": "terraria",
-      "cheatsTotal": 5,
+      "cheatsTotal": 10,
       "creators": [
         "aran"
       ],
@@ -6295,9 +6313,15 @@
           ]
         },
         "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "inf health",
+            "Inf item on crafting",
+            "Inf Item Use",
+            "Infinite Mana",
+            "Max item on split"
+          ]
         },
         "mc4": {
           "hasFile": false,
@@ -10930,7 +10954,7 @@
       "title": "Devil May Cry 4: Special Edition",
       "idLower": "cusa01671",
       "titleLower": "devil may cry 4: special edition",
-      "cheatsTotal": 52,
+      "cheatsTotal": 80,
       "creators": [
         "hejran7"
       ],
@@ -10939,13 +10963,41 @@
       ],
       "formats": {
         "json": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 27,
+          "cheats": [
+            "100% Mission Bonus Red Orbs",
+            "Dante Inf Disaster Gauge",
+            "Dante Inf Round Trip",
+            "Dante Inf Royal Guard",
+            "Easy SSS Style",
+            "Fast SSS Style",
+            "Freeze Mission Time",
+            "Inf Gold Orbs Hell and Hell",
+            "Inf Gold Orbs in Inventory",
+            "Inf Health",
+            "Inf HP \u002B Easy Kill",
+            "Inf Hp Alt",
+            "Inf HP Hell and Hell",
+            "Inf HP Player \u002B Enemy for Practice",
+            "Int Air Hike",
+            "Invincible cant be hit",
+            "Lady Instant Charge Shot",
+            "Max Inf Devil Trigger",
+            "Max Inf Proud Souls",
+            "Max Inf Red Orbs",
+            "Nero Inf Max Act",
+            "Nero Instant Charge Shot",
+            "Trish Inf Round Trip",
+            "Vergil Inf Concentration Gauge",
+            "Vergil Inf Round Trip",
+            "Vergil Inf Trick Up",
+            "Vergil Instant Charge Round Trip"
+          ]
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 26,
+          "cheatsCount": 27,
           "cheats": [
             "100% Mission Bonus Red Orbs",
             "Dante Inf Disaster Gauge",
@@ -10972,7 +11024,8 @@
             "Vergil Inf Concentration Gauge",
             "Vergil Inf Round Trip",
             "Vergil Inf Trick Up",
-            "Vergil Instant Charge Round Trip"
+            "Vergil Instant Charge Round Trip",
+            "Inf Hp Alt"
           ]
         },
         "mc4": {
@@ -11015,17 +11068,21 @@
       "title": "Devil May Cry 4: Special Edition",
       "idLower": "cusa01708",
       "titleLower": "devil may cry 4: special edition",
-      "cheatsTotal": 66,
+      "cheatsTotal": 93,
       "creators": [
+        "hejran7",
+        "hejran7, Weysincha",
         "Weysincha"
       ],
       "creatorsLower": [
+        "hejran7",
+        "hejran7, weysincha",
         "weysincha"
       ],
       "formats": {
         "json": {
           "hasFile": true,
-          "cheatsCount": 22,
+          "cheatsCount": 38,
           "cheats": [
             "Godmode",
             "Infinite Blue Orbs/Rose",
@@ -11033,50 +11090,77 @@
             "Infinite Nero Blade Trigger",
             "Infinite Red Orbs",
             "Infinite Vergil Devil Trigger",
-            "Dante Inf Disaster Gauge",
-            "Dante Inf Royal Guard",
-            "Freeze Mission Time",
-            "Inf Devil Trigger",
-            "Inf Devilstar L",
-            "Inf Gold Orbs Hell and Hell",
-            "Inf Gold Orbs in Missions",
-            "Inf Health Enemy and Player for Practice",
-            "Inf Proud Souls",
-            "Inf Red Orbs",
-            "Lady Instant Charge Shot",
-            "Max Mission Red Orbs Pick One at Least",
-            "Nero Inf Max Act",
-            "Nero Instant Charge Shot",
-            "Trish Inf Round Trip",
-            "Vergil Inf Concentration Gauge"
-          ]
-        },
-        "shn": {
-          "hasFile": true,
-          "cheatsCount": 22,
-          "cheats": [
+            "100% Mission Bonus Red Orbs",
             "Dante Inf Disaster Gauge",
             "Dante Inf Round Trip",
             "Dante Inf Royal Guard",
             "Easy SSS Style",
+            "Fast SSS Style",
             "Freeze Mission Time",
-            "Inf Devil Trigger",
-            "Inf Devilstar L in Inventory",
             "Inf Gold Orbs Hell and Hell",
             "Inf Gold Orbs in Inventory",
-            "Inf Health Enemy and Player for Practice",
-            "Inf HP",
-            "Inf Proud Souls",
-            "Inf Red Orbs",
+            "Inf Health",
+            "Inf HP \u002B Easy Kill",
+            "Inf Hp Alt",
+            "Inf HP Hell and Hell",
+            "Inf HP Player \u002B Enemy for Practice",
+            "Int Air Hike",
+            "Invincible cant be hit",
             "Lady Instant Charge Shot",
-            "Max Mission Red Orbs Pick One at Least",
-            "Mission Red Orbsx99",
+            "Max Inf Devil Trigger",
+            "Max Inf Proud Souls",
+            "Max Inf Red Orbs",
             "Nero Inf Max Act",
             "Nero Instant Charge Shot",
             "Trish Inf Round Trip",
             "Vergil Inf Concentration Gauge",
             "Vergil Inf Round Trip",
-            "Vergil Instant Charge Round Trip"
+            "Vergil Inf Trick Up",
+            "Vergil Instant Charge Round Trip",
+            "Inf Devil Trigger",
+            "Inf Devilstar L",
+            "Inf Proud Souls",
+            "Inf Red Orbs",
+            "Max Mission Red Orbs Pick One at Least"
+          ]
+        },
+        "shn": {
+          "hasFile": true,
+          "cheatsCount": 33,
+          "cheats": [
+            "100% Mission Bonus Red Orbs",
+            "Dante Inf Disaster Gauge",
+            "Dante Inf Round Trip",
+            "Dante Inf Royal Guard",
+            "Easy SSS Style",
+            "Fast SSS Style",
+            "Freeze Mission Time",
+            "Inf Gold Orbs Hell and Hell",
+            "Inf Gold Orbs in Inventory",
+            "Inf Health",
+            "Inf HP \u002B Easy Kill",
+            "Inf Hp Alt",
+            "Inf HP Hell and Hell",
+            "Inf HP Player \u002B Enemy for Practice",
+            "Int Air Hike",
+            "Invincible cant be hit",
+            "Lady Instant Charge Shot",
+            "Max Inf Devil Trigger",
+            "Max Inf Proud Souls",
+            "Max Inf Red Orbs",
+            "Nero Inf Max Act",
+            "Nero Instant Charge Shot",
+            "Trish Inf Round Trip",
+            "Vergil Inf Concentration Gauge",
+            "Vergil Inf Round Trip",
+            "Vergil Inf Trick Up",
+            "Vergil Instant Charge Round Trip",
+            "Inf Devil Trigger",
+            "Inf Devilstar L in Inventory",
+            "Inf Proud Souls",
+            "Inf Red Orbs",
+            "Max Mission Red Orbs Pick One at Least",
+            "Mission Red Orbsx99"
           ]
         },
         "mc4": {
@@ -11830,7 +11914,7 @@
       "title": "Ultra Street Fighter IV",
       "idLower": "cusa01839",
       "titleLower": "ultra street fighter iv",
-      "cheatsTotal": 4,
+      "cheatsTotal": 8,
       "creators": [
         "Aran"
       ],
@@ -11849,9 +11933,14 @@
           ]
         },
         "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "INF SUPER BOTH PLAYER",
+            "Inf Super Player 1",
+            "Inf Ultra Combo Player 1",
+            "Inf Ultra Combo PLAYER 2"
+          ]
         },
         "mc4": {
           "hasFile": false,
@@ -13633,16 +13722,16 @@
       "title": "Assassin\u0027s Creed Syndicate",
       "idLower": "cusa02376",
       "titleLower": "assassin\u0027s creed syndicate",
-      "cheatsTotal": 24,
+      "cheatsTotal": 30,
       "creators": [
         "Saso",
         "Saso, TLH",
-        "TLH"
+        "TLH, Saso"
       ],
       "creatorsLower": [
         "saso",
         "saso, tlh",
-        "tlh"
+        "tlh, saso"
       ],
       "formats": {
         "json": {
@@ -13676,7 +13765,7 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 7,
+          "cheatsCount": 13,
           "cheats": [
             "Bottomless Clip",
             "Fast XP",
@@ -13684,7 +13773,13 @@
             "Infinite Health",
             "Infinite Money, Items",
             "Max Money/Items on Pick",
-            "Very Fast XP"
+            "Very Fast XP",
+            "Inf Ammo / No Reload",
+            "Inf Bombs",
+            "Inf Health",
+            "Inf Resources",
+            "Max Money",
+            "Max Skill Point (On Spend)"
           ]
         }
       }
@@ -17332,7 +17427,7 @@
       "title": "Resident Evil: Origins Collection",
       "idLower": "cusa03178",
       "titleLower": "resident evil: origins collection",
-      "cheatsTotal": 15,
+      "cheatsTotal": 24,
       "creators": [
         "Saso",
         "Wander FW9.00"
@@ -17370,9 +17465,19 @@
           ]
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 9,
+          "cheats": [
+            "Easy Kill (MC)",
+            "Inf Ammo / No Reload",
+            "Inf HP / Easy Kill (Master Code)",
+            "No Ink Needed",
+            "1 Hit Kill",
+            "All Items In Chest",
+            "Inf Health",
+            "Inf Tape",
+            "No Keys Needed"
+          ]
         }
       }
     },
@@ -21215,7 +21320,7 @@
       "title": "BioShock: The Collection",
       "idLower": "cusa03979",
       "titleLower": "bioshock: the collection",
-      "cheatsTotal": 8,
+      "cheatsTotal": 20,
       "creators": [
         "JustGotenks"
       ],
@@ -21238,9 +21343,22 @@
           ]
         },
         "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 12,
+          "cheats": [
+            "Fill on pickup",
+            "Godmode",
+            "Godmode for all",
+            "Infinite Ammo",
+            "Infinite Eve",
+            "Max Adam (on spend/get)",
+            "Max Cash (on spend/get)",
+            "One-hit Kill",
+            "Full items",
+            "Max Adam",
+            "Max Cash",
+            "No Reload"
+          ]
         },
         "mc4": {
           "hasFile": false,
@@ -23792,7 +23910,7 @@
       "title": "Batman: Return to Arkham",
       "idLower": "cusa04607",
       "titleLower": "batman: return to arkham",
-      "cheatsTotal": 4,
+      "cheatsTotal": 8,
       "creators": [
         "Saso_9.00"
       ],
@@ -23816,9 +23934,14 @@
           ]
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "1 Hit Kill (MC)",
+            "Freez (Bomb Timer)",
+            "Inf Health / Armor / 1 Hit Kill (Master Code)",
+            "Upgrade Points (On Use)"
+          ]
         }
       }
     },
@@ -33048,13 +33171,13 @@
       "title": "Resident Evil: Code: Veronica X",
       "idLower": "cusa07104",
       "titleLower": "resident evil: code: veronica x",
-      "cheatsTotal": 22,
+      "cheatsTotal": 37,
       "creators": [
-        "Ali-mk",
+        "Ali-mk, Saso_9.00",
         "Saso_9.00"
       ],
       "creatorsLower": [
-        "ali-mk",
+        "ali-mk, saso_9.00",
         "saso_9.00"
       ],
       "formats": {
@@ -33086,7 +33209,7 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 7,
+          "cheatsCount": 22,
           "cheats": [
             "Grenade-Launcher",
             "Infinite-Health",
@@ -33094,7 +33217,22 @@
             "Infinite-Magnum",
             "Infinite-Shotgun",
             "Lnk-Ribbon",
-            "rocket-Launeher"
+            "rocket-Launeher",
+            "( Magnum Cheat Will Remove Slot1 Item)",
+            "All Items In Chest \u002B (Inf Ammo)",
+            "Always 1st Save (MC)",
+            "Chris (Sart With Magnum)\u002B Inf Ammo",
+            "Clear (Sart With Magnum)\u002B Inf Ammo",
+            "Have A Low Game Timer (MC)",
+            "Have No More Than 10% Health (MC)",
+            "Have No More Than 28% Health (MC)",
+            "Have No More Than 50% Health (MC)",
+            "Have No More Than 75% Health (MC)",
+            "Inf Health/ Timer/Save / No Retries (Master Code)",
+            "No Retries (MC)",
+            "Steve (Sart With Magnum)\u002B Inf Ammo",
+            "Unlock All Extras",
+            "Wesker (Sart With Magnum)\u002B Inf Ammo"
           ]
         }
       }
@@ -39775,7 +39913,7 @@
       "title": "Call of Duty: WWII",
       "idLower": "cusa08602",
       "titleLower": "call of duty: wwii",
-      "cheatsTotal": 14,
+      "cheatsTotal": 21,
       "creators": [
         "Saso"
       ],
@@ -39810,6 +39948,49 @@
           ]
         },
         "mc4": {
+          "hasFile": true,
+          "cheatsCount": 7,
+          "cheats": [
+            "Inf Ammo / No Reload",
+            "Inf Health",
+            "Inf Throwables",
+            "P-47  MG (No Overheating)",
+            "P-47 (Inf HP)",
+            "Sherman Tank (Inf HP)",
+            "Tank MG (No Overheating)"
+          ]
+        }
+      }
+    },
+    {
+      "id": "CUSA08603",
+      "version": "01.25",
+      "title": "Call of Duty: WWII",
+      "idLower": "cusa08603",
+      "titleLower": "call of duty: wwii",
+      "cheatsTotal": 3,
+      "creators": [
+        "TheTruePriizma"
+      ],
+      "creatorsLower": [
+        "thetruepriizma"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Inf Ammo",
+            "Inf Health",
+            "Inf Specialist"
+          ]
+        },
+        "mc4": {
           "hasFile": false,
           "cheatsCount": 0,
           "cheats": []
@@ -39822,7 +40003,7 @@
       "title": "The Long Dark",
       "idLower": "cusa08624",
       "titleLower": "the long dark",
-      "cheatsTotal": 104,
+      "cheatsTotal": 156,
       "creators": [
         "LMN"
       ],
@@ -39947,9 +40128,62 @@
           ]
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 52,
+          "cheats": [
+            "0-GO to  t.ly/Q9ogg  for the full tutorial on how to use",
+            "1-ENABLE ALL A/C OPIONS (recommended) OR",
+            "10-INF torch fire N C",
+            "11-Fire Temp always Max W B",
+            "12-FIRE pit immune to wind N C",
+            "13-water never decreases N C",
+            "14-Charcoal never decreases N C",
+            "15-Firewood never decreases N C",
+            "16-Spray paint never decreases N C",
+            "17-Medications never decreases N C",
+            "18-Oil/Antiseptic never decreases  N C",
+            "19-Lantern Oil never decreases N A OR",
+            "2-ENABLE ALL B/C OPIONS (too easy=Boring)",
+            "20-Lantern Oil always full on ignition W B",
+            "21-INF Climbing N C",
+            "22-NO Reload N B",
+            "23-INF Aim Time N C",
+            "24-Ammo never decreases N C",
+            "25-Arrows never decrease N C",
+            "26-Rocks never decreases N C",
+            "27-cat tail never decreases N A",
+            "28-ALL FOODs/DRINKs never decreases N B",
+            "29-99 items on get W B",
+            "3-INF Health W B",
+            "30-NO More Thirst N B",
+            "31-NO More Hunger N B",
+            "32-Never get tired or sleepy N B",
+            "33-NO More Frostbites W B",
+            "34-NO More wet clothes R B",
+            "35-NO More frozen clothes R B",
+            "36-NO More Hypothermia RISK N B",
+            "37-NO More Cold/Hypothermia Risk W B",
+            "38-Duplicate any Item !!! (read guide on how to use) N",
+            "39-Droped items do not decreases (require 2 or more) N A",
+            "4-INF Weight W C",
+            "40-Make the selected item in inventory X16 (require 1 item or more)W",
+            "41-INF well fed effect (from eating anything) N C",
+            "42-INF Warm effect (from HOT FOODs/DRINKs) N",
+            "43-INF Improved rest effect (from HERBAL TEA) N",
+            "44-INF Restore condition effect (from BIRCH BARK TEA) N",
+            "45-INF Fatigue reduced effect  ( from CUPS OF CUFFEE )  N C",
+            "46-FOODs/Drinks stay hot (after cooking or heating) N C OR",
+            "47-FOODs/Drinks always hot (no need for heating cans or drinks) W B",
+            "48-Rest/Sleep Start at 24 HRs (use with caution cz hunger will kill you) (read guide on how to use) N",
+            "49-Rest/Sleep Start at 48 HRs (use with caution cz hunger will kill you) (read guide on how to use)  N",
+            "5-INF Stamina N C",
+            "50-Rest/Sleep Start at 7 Days (use with caution cz hunger will kill you) (read guide on how to use)  N",
+            "51-Rest/Sleep Start at 100 Days (use with caution cz hunger will kill you/Max sleep time is 7 days) (read guide on how to use)  N",
+            "6-Durablity never decreases N A OR",
+            "7-Durablity is always MAX  W R B",
+            "8-INF Crafting  N C",
+            "9-INF Fire time N C"
+          ]
         }
       }
     },
@@ -48313,7 +48547,7 @@
       "title": "My Time at Portia",
       "idLower": "cusa10908",
       "titleLower": "my time at portia",
-      "cheatsTotal": 6,
+      "cheatsTotal": 12,
       "creators": [
         "Wander FW9.00"
       ],
@@ -48339,9 +48573,16 @@
           ]
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 6,
+          "cheats": [
+            "Infinite Health 999(turn off SP)",
+            "Infinite SP(turn off Health)",
+            "Max coins (on sell)",
+            "Max Experience",
+            "Max items (on gain)",
+            "Max Skill points (on spend)"
+          ]
         }
       }
     },
@@ -48794,7 +49035,7 @@
       "title": "Onimusha: Warlords",
       "idLower": "cusa11147",
       "titleLower": "onimusha: warlords",
-      "cheatsTotal": 3,
+      "cheatsTotal": 6,
       "creators": [
         "Skal"
       ],
@@ -48812,9 +49053,13 @@
           ]
         },
         "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Electric Sword Gauge Never Decreases",
+            "God Mode",
+            "Infinite Souls on gain"
+          ]
         },
         "mc4": {
           "hasFile": false,
@@ -50414,14 +50659,16 @@
       "title": "Ghost of Tsushima",
       "idLower": "cusa11456",
       "titleLower": "ghost of tsushima",
-      "cheatsTotal": 12,
+      "cheatsTotal": 15,
       "creators": [
         "Celogamez",
-        "Saso, JustGotenks"
+        "Saso, JustGotenks",
+        "Saso, JustGotenks, Celogamez"
       ],
       "creatorsLower": [
         "celogamez",
-        "saso, justgotenks"
+        "saso, justgotenks",
+        "saso, justgotenks, celogamez"
       ],
       "formats": {
         "json": {
@@ -50436,9 +50683,12 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 4,
+          "cheatsCount": 7,
           "cheats": [
+            "Infinite Health",
             "Infinite Resolve",
+            "Infinite Tech Points (Enable After Earn 1 point)",
+            "Max Resource (On Get)",
             "Infinite Technique Points (Enable When you get 1)",
             "Max/Infinite Health",
             "Max/Infinite Resources On Pick Up"
@@ -50653,13 +50903,13 @@
       "title": "SteamWorld Dig 2",
       "idLower": "cusa11597",
       "titleLower": "steamworld dig 2",
-      "cheatsTotal": 11,
+      "cheatsTotal": 16,
       "creators": [
-        "fbin/Celogamez, fbin",
+        "fbin/Celogamez, Saso, fbin",
         "Saso"
       ],
       "creatorsLower": [
-        "fbin/celogamez, fbin",
+        "fbin/celogamez, saso, fbin",
         "saso"
       ],
       "formats": {
@@ -50681,14 +50931,19 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 6,
+          "cheatsCount": 11,
           "cheats": [
             "Bala Infinita",
             "Dinheiro Infinito",
             "Engrenagem Infinita",
             "luz Infinita",
             "Nivel Maximo",
-            "Vida Infinita"
+            "Vida Infinita",
+            "Inf HP",
+            "Inf Jump",
+            "Inf Pressure Bomb",
+            "Max Gold / Gears (On Spend)",
+            "Max Level"
           ]
         }
       }
@@ -52644,7 +52899,7 @@
       "title": "Shenmue III",
       "idLower": "cusa12289",
       "titleLower": "shenmue iii",
-      "cheatsTotal": 5,
+      "cheatsTotal": 10,
       "creators": [
         "Reddevil82"
       ],
@@ -52664,9 +52919,15 @@
           ]
         },
         "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "Infinite Health",
+            "Infinite Tokens",
+            "Max Money",
+            "Only collected Infinite Items",
+            "Unlock all Items \u002B Infinite Items"
+          ]
         },
         "mc4": {
           "hasFile": false,
@@ -54708,14 +54969,14 @@
       "title": "Dying Light 2: Stay Human",
       "idLower": "cusa12584",
       "titleLower": "dying light 2: stay human",
-      "cheatsTotal": 38,
+      "cheatsTotal": 51,
       "creators": [
-        "Celogamez",
-        "LMN"
+        "LMN",
+        "LMN, Celogamez"
       ],
       "creatorsLower": [
-        "celogamez",
-        "lmn"
+        "lmn",
+        "lmn, celogamez"
       ],
       "formats": {
         "json": {
@@ -54758,8 +55019,22 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 12,
+          "cheatsCount": 25,
           "cheats": [
+            "agent level 1000 / get 1000 token (complete a single bounty)",
+            "bounty tokens never decrease (bounty vendor)",
+            "freeze Stamina/Breath",
+            "Freeze timer",
+            "GOD Mod",
+            "inf immunity",
+            "inf lock picks",
+            "inf UV Flashlight",
+            "Items/Craftables/consumables/thrwoables never decrease (Need 2 or more)",
+            "Max durability",
+            "max money",
+            "MAX XP/legend/inhibitators on get",
+            "No Reload for Crossbow/Boomsticks",
+            "MAX XP and inhibitators on get",
             "Freeze Time For Parkour And Fighting Challenge",
             "Freeze Time Missions (Disable B4 Finishing)",
             "Infinite Immunity/Chemical Area",
@@ -54767,7 +55042,6 @@
             "Infinite Stamina/Breath",
             "Infinite Throwables",
             "Infinite UV Flashlight",
-            "Infinite Weapon Durability",
             "Max XP (Use After Escaping Waltz)",
             "Max/Infinite Health",
             "Max/Infinite Money",
@@ -55464,7 +55738,7 @@
       "title": "Warriors Orochi 4",
       "idLower": "cusa12641",
       "titleLower": "warriors orochi 4",
-      "cheatsTotal": 5,
+      "cheatsTotal": 10,
       "creators": [
         "Q8Despair"
       ],
@@ -55489,9 +55763,15 @@
           ]
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "Growth points x2",
+            "Ko count easy max",
+            "Max Health",
+            "skill points x2",
+            "weapon Gems x2"
+          ]
         }
       }
     },
@@ -56949,7 +57229,7 @@
       "title": "DOOM Eternal",
       "idLower": "cusa13275",
       "titleLower": "doom eternal",
-      "cheatsTotal": 61,
+      "cheatsTotal": 65,
       "creators": [
         "Celogamez",
         "Dioniso"
@@ -56995,7 +57275,7 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 33,
+          "cheatsCount": 37,
           "cheats": [
             "[01a][Game] Speed x2",
             "[01b][Game] Speed x1",
@@ -57029,7 +57309,11 @@
             "[23b][NME] Speed x0.5",
             "[23c][NME] Speed x1",
             "[23d][NME] Speed x2",
-            "[24][NME] Enemy Doesn\u0060t Attack"
+            "[24][NME] Enemy Doesn\u0060t Attack",
+            "Campaign: Most NMEs Don\u0027t Move",
+            "or DLCs: Most NMEs Don\u0027t Move (Green Dog Yes)",
+            "Player: Double Speed",
+            "Some NMEs Don\u0027t Shoot"
           ]
         },
         "mc4": {
@@ -60064,7 +60348,7 @@
       "title": "Ashen",
       "idLower": "cusa14332",
       "titleLower": "ashen",
-      "cheatsTotal": 10,
+      "cheatsTotal": 20,
       "creators": [
         "JustGotenks"
       ],
@@ -60089,9 +60373,20 @@
           ]
         },
         "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 10,
+          "cheats": [
+            "100x Scoria",
+            "10x Scoria",
+            "25x Scoria",
+            "Infinite Stamina (also companion)",
+            "Keep items (on use | craft)",
+            "Keep spear count",
+            "No Damage",
+            "No Damage for companion",
+            "One-hit Kill",
+            "Scoria Multiplier (default 5x)"
+          ]
         },
         "mc4": {
           "hasFile": false,
@@ -61002,14 +61297,14 @@
       "title": "Dragon Ball Z: Kakarot",
       "idLower": "cusa14835",
       "titleLower": "dragon ball z: kakarot",
-      "cheatsTotal": 31,
+      "cheatsTotal": 43,
       "creators": [
         "LMN",
-        "Wander FW9.00"
+        "Wander FW9.00, LMN"
       ],
       "creatorsLower": [
         "lmn",
-        "wander fw9.00"
+        "wander fw9.00, lmn"
       ],
       "formats": {
         "json": {
@@ -61050,7 +61345,7 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 7,
+          "cheatsCount": 19,
           "cheats": [
             "Infinite Health",
             "Infinite Ki",
@@ -61058,7 +61353,19 @@
             "Max Items/Meals/Medals (on get)",
             "Max Level after Gaining experience",
             "Max Orbs (on get)",
-            "Max Zeni (on Buy)"
+            "Max Zeni (on Buy)",
+            "Caution : i would advise not using XP gain cheat unless you need to (creat a backup save) cz if you level up too high the game becames boring",
+            "inf HP",
+            "inf ki",
+            "inf medals/items",
+            "Max money",
+            "max ORBs",
+            "player lvl 250 (after 2 battles) = one hit kills = boring and permenent",
+            "XP gain x 2",
+            "XP gain x 256",
+            "XP gain x 32",
+            "XP gain x 4",
+            "XP gain x 8"
           ]
         }
       }
@@ -61293,14 +61600,16 @@
       "title": "Bus Simulator 21",
       "idLower": "cusa14925",
       "titleLower": "bus simulator 21",
-      "cheatsTotal": 1,
+      "cheatsTotal": 2,
       "creators": [
         "FW 9.00",
-        "Reddevil82"
+        "Reddevil82",
+        "Reddevil82 - FW 9.00"
       ],
       "creatorsLower": [
         "fw 9.00",
-        "reddevil82"
+        "reddevil82",
+        "reddevil82 - fw 9.00"
       ],
       "formats": {
         "json": {
@@ -61311,9 +61620,11 @@
           ]
         },
         "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 1,
+          "cheats": [
+            "Max Money"
+          ]
         },
         "mc4": {
           "hasFile": false,
@@ -64164,7 +64475,7 @@
       "title": "Far Cry 6",
       "idLower": "cusa15717",
       "titleLower": "far cry 6",
-      "cheatsTotal": 39,
+      "cheatsTotal": 43,
       "creators": [
         "Celogamez",
         "JustGotenks"
@@ -64200,18 +64511,22 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 10,
+          "cheatsCount": 14,
           "cheats": [
-            "Godmode/Sprint/Underwater",
+            "Always Wanted",
             "Infinite Ammo/Throwables",
+            "Infinite Sprint",
             "Never Wanted",
+            "No Damage",
             "No Recoil",
             "No Reload",
             "No Supressor Overheat",
             "One-hit Kill",
             "Super Accuracy",
-            "Teleport to space",
-            "Wanted Activator"
+            "Super Jump",
+            "Teleport to sky",
+            "Godmode/Sprint/Underwater",
+            "Teleport to space"
           ]
         },
         "mc4": {
@@ -69572,7 +69887,7 @@
       "title": "Marvel\u0027s Spider-Man: Miles Morales",
       "idLower": "cusa17776",
       "titleLower": "marvel\u0027s spider-man: miles morales",
-      "cheatsTotal": 6,
+      "cheatsTotal": 12,
       "creators": [
         "Wander FW9.00"
       ],
@@ -69598,9 +69913,16 @@
           ]
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 6,
+          "cheats": [
+            "Infinite Gadget use",
+            "Infinite Health",
+            "Infinite Venom (after 1st charge activate only after defeating Rhino)",
+            "Max Experience (activate once)",
+            "Max infinite Resources (on spend on gadget and suits activate after the toturial)",
+            "Max skill points (on spend have 2)"
+          ]
         }
       }
     },
@@ -74062,7 +74384,7 @@
       "title": "Neon Abyss",
       "idLower": "cusa18917",
       "titleLower": "neon abyss",
-      "cheatsTotal": 1,
+      "cheatsTotal": 2,
       "creators": [
         "Wander FW9.00"
       ],
@@ -74078,9 +74400,11 @@
           ]
         },
         "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 1,
+          "cheats": [
+            "Ultimate All(testing)"
+          ]
         },
         "mc4": {
           "hasFile": false,
@@ -75514,7 +75838,7 @@
       "title": "Mortal Shell",
       "idLower": "cusa20133",
       "titleLower": "mortal shell",
-      "cheatsTotal": 5,
+      "cheatsTotal": 10,
       "creators": [
         "Saso_9.00"
       ],
@@ -75539,9 +75863,15 @@
           ]
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "1 Hit Kill",
+            "Consumable",
+            "Inf  Health",
+            "Inf Stamina",
+            "Master Code"
+          ]
         }
       }
     },
@@ -76224,6 +76554,45 @@
             "Max XP ( on gain )",
             "Zero Fat"
           ]
+        }
+      }
+    },
+    {
+      "id": "CUSA20605",
+      "version": "01.04",
+      "title": "Rebel Galaxy Outlaw",
+      "idLower": "cusa20605",
+      "titleLower": "rebel galaxy outlaw",
+      "cheatsTotal": 7,
+      "creators": [
+        "Master Studios"
+      ],
+      "creatorsLower": [
+        "master studios"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": true,
+          "cheatsCount": 7,
+          "cheats": [
+            "Geld x2 Beim Andocken",
+            "H\u00FClle Unzerst\u00F6rbar",
+            "Nachbrenner Maximum",
+            "Raketen Maximum",
+            "Schild Unzerst\u00F6rbar",
+            "Sprungantrieb Maximum",
+            "Waffenenergie Maximum"
+          ]
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },
@@ -77757,15 +78126,17 @@
       "title": "Two Point Campus",
       "idLower": "cusa24605",
       "titleLower": "two point campus",
-      "cheatsTotal": 14,
+      "cheatsTotal": 16,
       "creators": [
         "aran",
+        "aran, Reddevil82 - FW 9.00",
         "FW 9.00",
         "Reddevil82",
         "Reddevil82 - FW 9.00"
       ],
       "creatorsLower": [
         "aran",
+        "aran, reddevil82 - fw 9.00",
         "fw 9.00",
         "reddevil82",
         "reddevil82 - fw 9.00"
@@ -77785,8 +78156,10 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 4,
+          "cheatsCount": 6,
           "cheats": [
+            "Increase Money on Use",
+            "Inf Kudos on use",
             "Max Career Points",
             "Max Kudosh ( on gain )",
             "Max Money ( on gain )",
@@ -79210,7 +79583,7 @@
       "title": "The King of Fighters XV",
       "idLower": "cusa25272",
       "titleLower": "the king of fighters xv",
-      "cheatsTotal": 8,
+      "cheatsTotal": 16,
       "creators": [
         "d01v"
       ],
@@ -79233,9 +79606,18 @@
           ]
         },
         "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 8,
+          "cheats": [
+            "Easy Stun Enemy (1P/2P Left Side) Master Code 3",
+            "Easy Stun Enemy (1P/2P Right Side) Need MC 3",
+            "Max Guard Gauge (1P/2P Left Side) Master Code 2",
+            "Max Guard Gauge (1P/2P Right Side) Need MC 2",
+            "Max Power Gauge (1P/2P Left Side) Master Code 1",
+            "Max Power Gauge (1P/2P Right Side) Need MC 1",
+            "Refill HP (1P/2P Left Side) Press Evade button / L1 (Master Code)",
+            "Refill HP (1P/2P Right Side) Press Evade button / L1 (Need MC)"
+          ]
         },
         "mc4": {
           "hasFile": false,
@@ -79678,14 +80060,16 @@
       "title": "Hot Wheels Unleashed",
       "idLower": "cusa25502",
       "titleLower": "hot wheels unleashed",
-      "cheatsTotal": 4,
+      "cheatsTotal": 8,
       "creators": [
         "FW 9.00",
-        "Reddevil82"
+        "Reddevil82",
+        "Reddevil82 - FW 9.00"
       ],
       "creatorsLower": [
         "fw 9.00",
-        "reddevil82"
+        "reddevil82",
+        "reddevil82 - fw 9.00"
       ],
       "formats": {
         "json": {
@@ -79699,9 +80083,14 @@
           ]
         },
         "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Infinite Boost",
+            "Unlimited Blind Boxes ( on first buy )",
+            "Unlimited Coins ( on first buy )",
+            "Unlimited Gears ( on first buy )"
+          ]
         },
         "mc4": {
           "hasFile": false,
@@ -79827,7 +80216,7 @@
       "title": "Evil West",
       "idLower": "cusa25569",
       "titleLower": "evil west",
-      "cheatsTotal": 7,
+      "cheatsTotal": 11,
       "creators": [
         "Saso_9.00",
         "WanderFW9.00"
@@ -79856,9 +80245,14 @@
           "cheats": []
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "1 Hit Kill (MC)",
+            "Inf Health / Shield / 1 Hit Kill (Master Code)",
+            "Inf Shield (MC)",
+            "Max Gold (On Spend)"
+          ]
         }
       }
     },
@@ -80464,7 +80858,7 @@
       "title": "WWE 2K22",
       "idLower": "cusa25882",
       "titleLower": "wwe 2k22",
-      "cheatsTotal": 1,
+      "cheatsTotal": 2,
       "creators": [
         "aran"
       ],
@@ -80480,9 +80874,11 @@
           ]
         },
         "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 1,
+          "cheats": [
+            "INF HEALTH"
+          ]
         },
         "mc4": {
           "hasFile": false,
@@ -81166,7 +81562,7 @@
       "title": "NEO: The World Ends with You",
       "idLower": "cusa26377",
       "titleLower": "neo: the world ends with you",
-      "cheatsTotal": 1,
+      "cheatsTotal": 2,
       "creators": [
         "Reddevil82, Tester: Skal"
       ],
@@ -81182,9 +81578,11 @@
           ]
         },
         "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 1,
+          "cheats": [
+            "Max Health"
+          ]
         },
         "mc4": {
           "hasFile": false,
@@ -81794,7 +82192,7 @@
       "title": "Grand Theft Auto: San Andreas - The Definitive Edition",
       "idLower": "cusa26619",
       "titleLower": "grand theft auto: san andreas - the definitive edition",
-      "cheatsTotal": 18,
+      "cheatsTotal": 24,
       "creators": [
         "AngelDavil88_9.00",
         "Wander FW9.00"
@@ -81835,9 +82233,16 @@
           ]
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 6,
+          "cheats": [
+            "Fast Car driving skill level up",
+            "Fast Motorcycle driving skill level up",
+            "Infinite Car Health (when driving it)",
+            "Infinite Health",
+            "Infinite Service vehicules timer",
+            "Max Weapons/Muscles/Stamina skill level"
+          ]
         }
       }
     },
@@ -83118,7 +83523,7 @@
       "title": "Jurassic World Evolution 2",
       "idLower": "cusa27321",
       "titleLower": "jurassic world evolution 2",
-      "cheatsTotal": 2,
+      "cheatsTotal": 3,
       "creators": [
         "Q8Despair"
       ],
@@ -83141,9 +83546,11 @@
           ]
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 1,
+          "cheats": [
+            "Money x2"
+          ]
         }
       }
     },
@@ -83253,16 +83660,18 @@
       "title": "The Callisto Protocol",
       "idLower": "cusa27373",
       "titleLower": "the callisto protocol",
-      "cheatsTotal": 62,
+      "cheatsTotal": 67,
       "creators": [
         "Dioniso",
         "hejran7",
-        "JustGotenks"
+        "JustGotenks",
+        "JustGotenks, Dioniso"
       ],
       "creatorsLower": [
         "dioniso",
         "hejran7",
-        "justgotenks"
+        "justgotenks",
+        "justgotenks, dioniso"
       ],
       "formats": {
         "json": {
@@ -83315,8 +83724,13 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 26,
+          "cheatsCount": 31,
           "cheats": [
+            "Callisto Credits 10x (pickup/sell)",
+            "Godmode",
+            "Infinite GRP",
+            "No Reload",
+            "One-hit Kill",
             "[00] iNFO: Cheat [05] must be ON if Player\u0060s Speed Change is ON. Use cheat [12e] to avoid long cutscenes. If Player\u0060s Speed Doesn\u0027t Work at the beginning, Restart Checkpoint once for it to work.",
             "[01] Immunity Against Fists",
             "[02] Infinite Health (-Grabbing, Sentinel Shot)",
@@ -85437,7 +85851,7 @@
       "title": "DreamWorks Dragons: Legends of The Nine Realms",
       "idLower": "cusa28381",
       "titleLower": "dreamworks dragons: legends of the nine realms",
-      "cheatsTotal": 1,
+      "cheatsTotal": 2,
       "creators": [
         "fbin"
       ],
@@ -85453,9 +85867,11 @@
           ]
         },
         "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 1,
+          "cheats": [
+            "Cristais Infinitos"
+          ]
         },
         "mc4": {
           "hasFile": false,
@@ -88547,7 +88963,7 @@
       "title": "Stranger of Paradise: Final Fantasy Origin",
       "idLower": "cusa29578",
       "titleLower": "stranger of paradise: final fantasy origin",
-      "cheatsTotal": 5,
+      "cheatsTotal": 10,
       "creators": [
         "d01v"
       ],
@@ -88567,9 +88983,15 @@
           ]
         },
         "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "Disable Enemy Gauge",
+            "Infinite Health",
+            "Infinite Magic \u002B Max",
+            "Job points 99 use / level up",
+            "STRANGER OF PARADISE Backport 5.05"
+          ]
         },
         "mc4": {
           "hasFile": false,
@@ -88801,14 +89223,16 @@
       "title": "Airport Simulator: Day \u0026 Night",
       "idLower": "cusa29671",
       "titleLower": "airport simulator: day \u0026 night",
-      "cheatsTotal": 5,
+      "cheatsTotal": 10,
       "creators": [
         "FW 9.00",
-        "Reddevil82"
+        "Reddevil82",
+        "Reddevil82 - FW 9.00"
       ],
       "creatorsLower": [
         "fw 9.00",
-        "reddevil82"
+        "reddevil82",
+        "reddevil82 - fw 9.00"
       ],
       "formats": {
         "json": {
@@ -88823,9 +89247,15 @@
           ]
         },
         "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "Infinite Buy Task",
+            "Max Level ( after 1st successful task )",
+            "Max Money",
+            "Unlimited Player Upgrades ( after 1st successful task )",
+            "Unlimited XP Points ( after 1st successful task )"
+          ]
         },
         "mc4": {
           "hasFile": false,
@@ -88936,7 +89366,7 @@
       "title": "River City Girls Zero",
       "idLower": "cusa29772",
       "titleLower": "river city girls zero",
-      "cheatsTotal": 6,
+      "cheatsTotal": 12,
       "creators": [
         "Saso"
       ],
@@ -88962,9 +89392,16 @@
           ]
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 6,
+          "cheats": [
+            "1 Hit Kill (MC)",
+            "Inf HP / 1 Hit Kill (Master Code)",
+            "Kunio (MC)",
+            "Kyoko (MC)",
+            "Misako (MC)",
+            "Riki (MC)"
+          ]
         }
       }
     },
@@ -91177,13 +91614,15 @@
       "title": "Like a Dragon: Infinite Wealth",
       "idLower": "cusa32132",
       "titleLower": "like a dragon: infinite wealth",
-      "cheatsTotal": 48,
+      "cheatsTotal": 55,
       "creators": [
         "Pharaoh2k",
+        "Q8Despair",
         "Q8Despair, Pharaoh2k"
       ],
       "creatorsLower": [
         "pharaoh2k",
+        "q8despair",
         "q8despair, pharaoh2k"
       ],
       "formats": {
@@ -91217,7 +91656,7 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 26,
+          "cheatsCount": 29,
           "cheats": [
             "Current Exp x2",
             "Items x99",
@@ -91244,13 +91683,21 @@
             "Max Cash",
             "One Hit Kill",
             "Stealth Mode",
-            "TRAINER INFO (read only)"
+            "TRAINER INFO (read only)",
+            "Fast Leveling",
+            "Items 99",
+            "Max currency/personality stats"
           ]
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Current Exp x2",
+            "Items x99",
+            "Max Health",
+            "Money/Stats x2"
+          ]
         }
       }
     },
@@ -92298,7 +92745,7 @@
       "title": "Sword Art Online: Last Recollection",
       "idLower": "cusa32809",
       "titleLower": "sword art online: last recollection",
-      "cheatsTotal": 2,
+      "cheatsTotal": 4,
       "creators": [
         "Wander FW9.00"
       ],
@@ -92320,9 +92767,12 @@
           ]
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "90 Items (on sell)",
+            "Max Cash (on buy)"
+          ]
         }
       }
     },
@@ -92634,13 +93084,13 @@
       "title": "Assassin\u0027s Creed Mirage",
       "idLower": "cusa33151",
       "titleLower": "assassin\u0027s creed mirage",
-      "cheatsTotal": 21,
+      "cheatsTotal": 25,
       "creators": [
-        "Celogamez",
+        "Celogamez, Saso",
         "Saso"
       ],
       "creatorsLower": [
-        "celogamez",
+        "celogamez, saso",
         "saso"
       ],
       "formats": {
@@ -92670,7 +93120,7 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 9,
+          "cheatsCount": 13,
           "cheats": [
             "1 Hit Kill",
             "Infinite Breath",
@@ -92680,7 +93130,11 @@
             "Infinite Stamina",
             "Infinite Stamina For Mount",
             "Max Resources/Consumables/Upgrade Materials/Trade Goods (On Get)",
-            "Max Skill Points On Gain"
+            "Max Skill Points On Gain",
+            "(99)  Skill Points / Level (On Spend)",
+            "(9999) Resources (On Use)",
+            "Infinite Oxygen",
+            "Mount Stamina"
           ]
         }
       }
@@ -93106,7 +93560,7 @@
       "title": "Resident Evil 4",
       "idLower": "cusa33388",
       "titleLower": "resident evil 4",
-      "cheatsTotal": 180,
+      "cheatsTotal": 183,
       "creators": [
         "Dioniso",
         "Dioniso, Celogamez",
@@ -93228,7 +93682,7 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 86,
+          "cheatsCount": 89,
           "cheats": [
             "[01][Special] Get Any Key/Item In Slot 1: (Un)Select It",
             "[02][Special] Get Any Weapon: Store A New One",
@@ -93315,7 +93769,10 @@
             "No Damage For The Boat",
             "No Reload",
             "Perfect Aim",
-            "Save always 0"
+            "Save always 0",
+            "[00] iNFO: Cheat [06] (Ganados Don\u0060t Move) will not allow you to continue if it\u0060s ON in some situations where NMEs must come to you, like in the Crane (Chapter 14) or defending the house with Luis. Turn [13] and [15] on when getting an item/weapon and then better turn them OFF. You can leave them ON but it can be a mess if you don\u0060t pay attention.",
+            "[02] Immunity",
+            "[03] Infinite Health"
           ]
         }
       }
@@ -93910,7 +94367,7 @@
       "title": "Soulcalibur: Broken Destiny",
       "idLower": "cusa33758",
       "titleLower": "soulcalibur: broken destiny",
-      "cheatsTotal": 3,
+      "cheatsTotal": 6,
       "creators": [
         "Saso"
       ],
@@ -93933,9 +94390,13 @@
           ]
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "HP (Master Code)",
+            "HP Opponent 25% (MC)",
+            "Stop Timer"
+          ]
         }
       }
     },
@@ -94383,7 +94844,7 @@
       "title": "Resident Evil Director\u0027s Cut",
       "idLower": "cusa33877",
       "titleLower": "resident evil director\u0027s cut",
-      "cheatsTotal": 7,
+      "cheatsTotal": 14,
       "creators": [
         "Saso_9.00"
       ],
@@ -94410,9 +94871,17 @@
           ]
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 7,
+          "cheats": [
+            "1 Hit Kill (MC)",
+            "All Items in Chest",
+            "Game Time at End 00?00?00",
+            "Inf Health (MC)",
+            "Infinite Ammo All Weapons",
+            "Master Code",
+            "Start With Magnum (1st Slot)"
+          ]
         }
       }
     },
@@ -95900,14 +96369,14 @@
       "title": "God of War: Ragnarok",
       "idLower": "cusa34384",
       "titleLower": "god of war: ragnarok",
-      "cheatsTotal": 46,
+      "cheatsTotal": 65,
       "creators": [
-        "Celogamez-JustGotenks",
-        "Pharaoh2k"
+        "Pharaoh2k",
+        "Pharaoh2k, Celogamez-JustGotenks"
       ],
       "creatorsLower": [
-        "celogamez-justgotenks",
-        "pharaoh2k"
+        "pharaoh2k",
+        "pharaoh2k, celogamez-justgotenks"
       ],
       "formats": {
         "json": {
@@ -95962,8 +96431,27 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 8,
+          "cheatsCount": 27,
           "cheats": [
+            "--100x damage (one hit kill)",
+            "--10x damage",
+            "--20x damage",
+            "--30x damage",
+            "--40x damage",
+            "--50x damage",
+            "--5x damage",
+            "Damage Multiplier(Master Code)",
+            "God Mode (Untouchable\u002BNo Effects)",
+            "Infinite Arrows and Throwables",
+            "Infinite Max Shield Charge",
+            "Infinite Rage (incl. Kratos and Atreus)",
+            "Infinite Weapon Charge (L1\u002BTriangle)",
+            "No Crafting And Upgrade Limits",
+            "No Damage Taken",
+            "No Talisman and Relic Cooldown",
+            "No XP,HS, Resources subtracted when used",
+            "One Hit Stun",
+            "TRAINER INFO (read only)",
             "Crystalline Fragment (100/Use Only For It)",
             "Infinite Arrows",
             "Infinite Health",
@@ -95982,7 +96470,7 @@
       "title": "God of War: Ragnarok",
       "idLower": "cusa34384",
       "titleLower": "god of war: ragnarok",
-      "cheatsTotal": 24,
+      "cheatsTotal": 38,
       "creators": [
         "Pharaoh2k"
       ],
@@ -95992,12 +96480,26 @@
       "formats": {
         "json": {
           "hasFile": true,
-          "cheatsCount": 5,
+          "cheatsCount": 19,
           "cheats": [
+            "--100x damage (one hit kill)",
+            "--10x damage",
+            "--20x damage",
+            "--30x damage",
+            "--40x damage",
+            "--50x damage",
+            "--5x damage",
+            "Damage Multiplier(Master Code) [DO NOT USE IN VALHALLA]",
             "God Mode (Untouchable\u002BNo Effects) [DO NOT USE IN VALHALLA]",
+            "Infinite Arrows \u0026 Throwables [DO NOT USE IN VALHALLA]",
+            "Infinite Max Shield Charge",
+            "Infinite Rage (incl. Kratos and Atreus)",
+            "Infinite Weapon Charge (L1\u002BTriangle)",
             "No Crafting And Upgrade Limits",
             "No Damage Taken",
+            "No Talisman and Relic Cooldown",
             "No XP,HS, Resources subtracted when used",
+            "One Hit Stun [DO NOT USE IN VALHALLA]",
             "TRAINER INFO (read only)"
           ]
         },
@@ -96121,14 +96623,16 @@
       "title": "God of War: Ragnarok",
       "idLower": "cusa34384",
       "titleLower": "god of war: ragnarok",
-      "cheatsTotal": 35,
+      "cheatsTotal": 54,
       "creators": [
         "Celogamez-JustGotenks",
-        "Pharaoh2k"
+        "Pharaoh2k",
+        "Pharaoh2k, Celogamez-JustGotenks"
       ],
       "creatorsLower": [
         "celogamez-justgotenks",
-        "pharaoh2k"
+        "pharaoh2k",
+        "pharaoh2k, celogamez-justgotenks"
       ],
       "formats": {
         "json": {
@@ -96158,8 +96662,27 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 8,
+          "cheatsCount": 27,
           "cheats": [
+            "--100x damage (one hit kill)",
+            "--10x damage",
+            "--20x damage",
+            "--30x damage",
+            "--40x damage",
+            "--50x damage",
+            "--5x damage",
+            "Damage Multiplier(Master Code) [DO NOT USE IN VALHALLA]",
+            "God Mode (Untouchable\u002BNo Effects) [DO NOT USE IN VALHALLA]",
+            "Infinite Arrows and Throwables [DO NOT USE IN VALHALLA]",
+            "Infinite Max Shield Charge",
+            "Infinite Rage (incl. Kratos and Atreus)",
+            "Infinite Weapon Charge (L1\u002BTriangle)",
+            "No Crafting And Upgrade Limits",
+            "No Damage Taken",
+            "No Talisman and Relic Cooldown",
+            "No XP,HS, Resources subtracted when used",
+            "One Hit Stun [DO NOT USE IN VALHALLA]",
+            "TRAINER INFO (read only)",
             "Crystalline Fragment (100/Use Only For It)",
             "Infinite Arrows",
             "Infinite Health",
@@ -96515,14 +97038,14 @@
       "title": "God of War: Ragnarok",
       "idLower": "cusa34386",
       "titleLower": "god of war: ragnarok",
-      "cheatsTotal": 46,
+      "cheatsTotal": 65,
       "creators": [
-        "Celogamez-JustGotenks",
-        "Pharaoh2k"
+        "Pharaoh2k",
+        "Pharaoh2k, Celogamez-JustGotenks"
       ],
       "creatorsLower": [
-        "celogamez-justgotenks",
-        "pharaoh2k"
+        "pharaoh2k",
+        "pharaoh2k, celogamez-justgotenks"
       ],
       "formats": {
         "json": {
@@ -96577,8 +97100,27 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 8,
+          "cheatsCount": 27,
           "cheats": [
+            "--100x damage (one hit kill)",
+            "--10x damage",
+            "--20x damage",
+            "--30x damage",
+            "--40x damage",
+            "--50x damage",
+            "--5x damage",
+            "Damage Multiplier(Master Code)",
+            "God Mode (Untouchable\u002BNo Effects)",
+            "Infinite Arrows and Throwables",
+            "Infinite Max Shield Charge",
+            "Infinite Rage (incl. Kratos and Atreus)",
+            "Infinite Weapon Charge (L1\u002BTriangle)",
+            "No Crafting And Upgrade Limits",
+            "No Damage Taken",
+            "No Talisman and Relic Cooldown",
+            "No XP,HS, Resources subtracted when used",
+            "One Hit Stun",
+            "TRAINER INFO (read only)",
             "Crystalline Fragment (100/Use Only For It)",
             "Infinite Arrows",
             "Infinite Health",
@@ -96597,7 +97139,7 @@
       "title": "God of War: Ragnarok",
       "idLower": "cusa34386",
       "titleLower": "god of war: ragnarok",
-      "cheatsTotal": 19,
+      "cheatsTotal": 38,
       "creators": [
         "Pharaoh2k"
       ],
@@ -96606,9 +97148,29 @@
       ],
       "formats": {
         "json": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 19,
+          "cheats": [
+            "--100x damage (one hit kill)",
+            "--10x damage",
+            "--20x damage",
+            "--30x damage",
+            "--40x damage",
+            "--50x damage",
+            "--5x damage",
+            "Damage Multiplier(Master Code) [DO NOT USE IN VALHALLA]",
+            "God Mode (Untouchable\u002BNo Effects) [DO NOT USE IN VALHALLA]",
+            "Infinite Arrows \u0026 Throwables [DO NOT USE IN VALHALLA]",
+            "Infinite Max Shield Charge",
+            "Infinite Rage (incl. Kratos and Atreus)",
+            "Infinite Weapon Charge (L1\u002BTriangle)",
+            "No Crafting And Upgrade Limits",
+            "No Damage Taken",
+            "No Talisman and Relic Cooldown",
+            "No XP,HS, Resources subtracted when used",
+            "One Hit Stun [DO NOT USE IN VALHALLA]",
+            "TRAINER INFO (read only)"
+          ]
         },
         "shn": {
           "hasFile": true,
@@ -96730,14 +97292,16 @@
       "title": "God of War: Ragnarok",
       "idLower": "cusa34386",
       "titleLower": "god of war: ragnarok",
-      "cheatsTotal": 35,
+      "cheatsTotal": 54,
       "creators": [
         "Celogamez-JustGotenks",
-        "Pharaoh2k"
+        "Pharaoh2k",
+        "Pharaoh2k, Celogamez-JustGotenks"
       ],
       "creatorsLower": [
         "celogamez-justgotenks",
-        "pharaoh2k"
+        "pharaoh2k",
+        "pharaoh2k, celogamez-justgotenks"
       ],
       "formats": {
         "json": {
@@ -96767,8 +97331,27 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 8,
+          "cheatsCount": 27,
           "cheats": [
+            "--100x damage (one hit kill)",
+            "--10x damage",
+            "--20x damage",
+            "--30x damage",
+            "--40x damage",
+            "--50x damage",
+            "--5x damage",
+            "Damage Multiplier(Master Code) [DO NOT USE IN VALHALLA]",
+            "God Mode (Untouchable\u002BNo Effects) [DO NOT USE IN VALHALLA]",
+            "Infinite Arrows and Throwables [DO NOT USE IN VALHALLA]",
+            "Infinite Max Shield Charge",
+            "Infinite Rage (incl. Kratos and Atreus)",
+            "Infinite Weapon Charge (L1\u002BTriangle)",
+            "No Crafting And Upgrade Limits",
+            "No Damage Taken",
+            "No Talisman and Relic Cooldown",
+            "No XP,HS, Resources subtracted when used",
+            "One Hit Stun [DO NOT USE IN VALHALLA]",
+            "TRAINER INFO (read only)",
             "Crystalline Fragment (100/Use Only For It)",
             "Infinite Arrows",
             "Infinite Health",
@@ -96952,15 +97535,17 @@
       "title": "God of War: Ragnarok",
       "idLower": "cusa34388",
       "titleLower": "god of war: ragnarok",
-      "cheatsTotal": 28,
+      "cheatsTotal": 30,
       "creators": [
         "JustGotenks",
         "JustGotenks  Wander Fw9.00",
+        "JustGotenks  Wander Fw9.00, JustGotenks",
         "JustGotenks, edit by Chronoss"
       ],
       "creatorsLower": [
         "justgotenks",
         "justgotenks  wander fw9.00",
+        "justgotenks  wander fw9.00, justgotenks",
         "justgotenks, edit by chronoss"
       ],
       "formats": {
@@ -96998,7 +97583,7 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 8,
+          "cheatsCount": 10,
           "cheats": [
             "Cheat Activator (turn OFF on loading screens)",
             "Godmode",
@@ -97007,7 +97592,9 @@
             "Infinite XP/HS/Resources (99,999)",
             "Instant R3",
             "Instant Rage",
-            "One-hit Kill"
+            "One-hit Kill",
+            "Cheat Activator",
+            "No Cooldown"
           ]
         }
       }
@@ -97018,7 +97605,7 @@
       "title": "God of War: Ragnarok",
       "idLower": "cusa34388",
       "titleLower": "god of war: ragnarok",
-      "cheatsTotal": 14,
+      "cheatsTotal": 29,
       "creators": [
         "JustGotenks",
         "JustGotenks, edit by Chronoss"
@@ -97054,9 +97641,25 @@
           "cheats": []
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 15,
+          "cheats": [
+            "* 0.5x",
+            "* 3x",
+            "* 5x",
+            "10x",
+            "25x",
+            "5x",
+            "Damage Multiplier (default: 2x)",
+            "Godmode",
+            "Infinite Projectiles",
+            "Infinite Rage",
+            "Instant R3",
+            "No Cooldown",
+            "Resources up (on craft/sell)",
+            "Wishing Well Fix",
+            "XP/HS/Resource Multiplier (on get) (default: 2x)"
+          ]
         }
       }
     },
@@ -97066,7 +97669,7 @@
       "title": "God of War: Ragnarok",
       "idLower": "cusa34388",
       "titleLower": "god of war: ragnarok",
-      "cheatsTotal": 16,
+      "cheatsTotal": 32,
       "creators": [
         "JustGotenks",
         "JustGotenks, edit by Chronoss"
@@ -97104,9 +97707,26 @@
           "cheats": []
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 16,
+          "cheats": [
+            "0.5x damage",
+            "10x resources",
+            "25x resources",
+            "3x damage",
+            "3x resources",
+            "5x damage",
+            "5x resources",
+            "Damage Multiplier (default: 2x)",
+            "Godmode",
+            "Infinite Projectiles",
+            "Infinite Rage",
+            "Instant R3",
+            "No Cooldown",
+            "Resources up (on craft/sell)",
+            "Wishing Well Fix",
+            "XP/HS/Resource Multiplier (default: 2x)"
+          ]
         }
       }
     },
@@ -97267,13 +97887,13 @@
       "title": "God of War: Ragnarok",
       "idLower": "cusa34388",
       "titleLower": "god of war: ragnarok",
-      "cheatsTotal": 39,
+      "cheatsTotal": 55,
       "creators": [
-        "Celogamez",
+        "Celogamez, Pharaoh2k",
         "Pharaoh2k"
       ],
       "creatorsLower": [
-        "celogamez",
+        "celogamez, pharaoh2k",
         "pharaoh2k"
       ],
       "formats": {
@@ -97323,7 +97943,7 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 7,
+          "cheatsCount": 23,
           "cheats": [
             "(Atreus) Infinite Health/Arrows/Rage (Disable Health Kratos)",
             "(Kratos)Infinite Health/Rage (Disable Health Atreus)",
@@ -97331,6 +97951,22 @@
             "Instant Infinite Rage On First Hit Kratos/Atreus (Disable Health Both)",
             "Max/Infinite XP/HS/Resources On Pick Up/Buy/Sell",
             "No Cooldown",
+            "10x damage",
+            "20x damage",
+            "30x damage",
+            "40x damage",
+            "50x damage",
+            "5x damage",
+            "Damage Multiplier(Master Code)",
+            "God Mode (Untouchable\u002BNo Effects)",
+            "Infinite Arrows \u0026 Throwables",
+            "Infinite Rage",
+            "Infinite Weapon Charge (L1\u002BTriangle)",
+            "No Crafting And Upgrade Limits",
+            "No Damage Taken",
+            "No Talisman and Relic Cooldown",
+            "No XP,HS, Resources subtracted",
+            "One Hit Stun",
             "Infinite Throwables/Arrows"
           ]
         }
@@ -97342,14 +97978,14 @@
       "title": "God of War: Ragnarok",
       "idLower": "cusa34388",
       "titleLower": "god of war: ragnarok",
-      "cheatsTotal": 46,
+      "cheatsTotal": 65,
       "creators": [
-        "Celogamez-JustGotenks",
-        "Pharaoh2k"
+        "Pharaoh2k",
+        "Pharaoh2k, Celogamez-JustGotenks"
       ],
       "creatorsLower": [
-        "celogamez-justgotenks",
-        "pharaoh2k"
+        "pharaoh2k",
+        "pharaoh2k, celogamez-justgotenks"
       ],
       "formats": {
         "json": {
@@ -97404,8 +98040,27 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 8,
+          "cheatsCount": 27,
           "cheats": [
+            "--100x damage (one hit kill)",
+            "--10x damage",
+            "--20x damage",
+            "--30x damage",
+            "--40x damage",
+            "--50x damage",
+            "--5x damage",
+            "Damage Multiplier(Master Code)",
+            "God Mode (Untouchable\u002BNo Effects)",
+            "Infinite Arrows and Throwables",
+            "Infinite Max Shield Charge",
+            "Infinite Rage (incl. Kratos and Atreus)",
+            "Infinite Weapon Charge (L1\u002BTriangle)",
+            "No Crafting And Upgrade Limits",
+            "No Damage Taken",
+            "No Talisman and Relic Cooldown",
+            "No XP,HS, Resources subtracted when used",
+            "One Hit Stun",
+            "TRAINER INFO (read only)",
             "Crystalline Fragment (100/Use Only For It)",
             "Infinite Arrows",
             "Infinite Health",
@@ -97424,7 +98079,7 @@
       "title": "God of War: Ragnarok",
       "idLower": "cusa34388",
       "titleLower": "god of war: ragnarok",
-      "cheatsTotal": 19,
+      "cheatsTotal": 38,
       "creators": [
         "Pharaoh2k"
       ],
@@ -97433,9 +98088,29 @@
       ],
       "formats": {
         "json": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 19,
+          "cheats": [
+            "--100x damage (one hit kill)",
+            "--10x damage",
+            "--20x damage",
+            "--30x damage",
+            "--40x damage",
+            "--50x damage",
+            "--5x damage",
+            "Damage Multiplier(Master Code) [DO NOT USE IN VALHALLA]",
+            "God Mode (Untouchable\u002BNo Effects) [DO NOT USE IN VALHALLA]",
+            "Infinite Arrows \u0026 Throwables [DO NOT USE IN VALHALLA]",
+            "Infinite Max Shield Charge",
+            "Infinite Rage (incl. Kratos and Atreus)",
+            "Infinite Weapon Charge (L1\u002BTriangle)",
+            "No Crafting And Upgrade Limits",
+            "No Damage Taken",
+            "No Talisman and Relic Cooldown",
+            "No XP,HS, Resources subtracted when used",
+            "One Hit Stun [DO NOT USE IN VALHALLA]",
+            "TRAINER INFO (read only)"
+          ]
         },
         "shn": {
           "hasFile": true,
@@ -97557,14 +98232,16 @@
       "title": "God of War: Ragnarok",
       "idLower": "cusa34388",
       "titleLower": "god of war: ragnarok",
-      "cheatsTotal": 35,
+      "cheatsTotal": 54,
       "creators": [
         "Celogamez-JustGotenks",
-        "Pharaoh2k"
+        "Pharaoh2k",
+        "Pharaoh2k, Celogamez-JustGotenks"
       ],
       "creatorsLower": [
         "celogamez-justgotenks",
-        "pharaoh2k"
+        "pharaoh2k",
+        "pharaoh2k, celogamez-justgotenks"
       ],
       "formats": {
         "json": {
@@ -97594,8 +98271,27 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 8,
+          "cheatsCount": 27,
           "cheats": [
+            "--100x damage (one hit kill)",
+            "--10x damage",
+            "--20x damage",
+            "--30x damage",
+            "--40x damage",
+            "--50x damage",
+            "--5x damage",
+            "Damage Multiplier(Master Code) [DO NOT USE IN VALHALLA]",
+            "God Mode (Untouchable\u002BNo Effects) [DO NOT USE IN VALHALLA]",
+            "Infinite Arrows and Throwables [DO NOT USE IN VALHALLA]",
+            "Infinite Max Shield Charge",
+            "Infinite Rage (incl. Kratos and Atreus)",
+            "Infinite Weapon Charge (L1\u002BTriangle)",
+            "No Crafting And Upgrade Limits",
+            "No Damage Taken",
+            "No Talisman and Relic Cooldown",
+            "No XP,HS, Resources subtracted when used",
+            "One Hit Stun [DO NOT USE IN VALHALLA]",
+            "TRAINER INFO (read only)",
             "Crystalline Fragment (100/Use Only For It)",
             "Infinite Arrows",
             "Infinite Health",
@@ -97843,7 +98539,7 @@
       "title": "God of War: Ragnarok",
       "idLower": "cusa34390",
       "titleLower": "god of war: ragnarok",
-      "cheatsTotal": 14,
+      "cheatsTotal": 29,
       "creators": [
         "JustGotenks",
         "JustGotenks, edit by Chronoss"
@@ -97879,9 +98575,25 @@
           "cheats": []
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 15,
+          "cheats": [
+            "* 0.5x",
+            "* 3x",
+            "* 5x",
+            "10x",
+            "25x",
+            "5x",
+            "Damage Multiplier (default: 2x)",
+            "Godmode",
+            "Infinite Projectiles",
+            "Infinite Rage",
+            "Instant R3",
+            "No Cooldown",
+            "Resources up (on craft/sell)",
+            "XP/HS/Resource Multiplier (on get) (default: 2x)",
+            "Wishing Well Fix"
+          ]
         }
       }
     },
@@ -98176,14 +98888,14 @@
       "title": "God of War: Ragnarok",
       "idLower": "cusa34390",
       "titleLower": "god of war: ragnarok",
-      "cheatsTotal": 46,
+      "cheatsTotal": 65,
       "creators": [
-        "Celogamez-JustGotenks",
-        "Pharaoh2k"
+        "Pharaoh2k",
+        "Pharaoh2k, Celogamez-JustGotenks"
       ],
       "creatorsLower": [
-        "celogamez-justgotenks",
-        "pharaoh2k"
+        "pharaoh2k",
+        "pharaoh2k, celogamez-justgotenks"
       ],
       "formats": {
         "json": {
@@ -98238,8 +98950,27 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 8,
+          "cheatsCount": 27,
           "cheats": [
+            "--100x damage (one hit kill)",
+            "--10x damage",
+            "--20x damage",
+            "--30x damage",
+            "--40x damage",
+            "--50x damage",
+            "--5x damage",
+            "Damage Multiplier(Master Code)",
+            "God Mode (Untouchable\u002BNo Effects)",
+            "Infinite Arrows and Throwables",
+            "Infinite Max Shield Charge",
+            "Infinite Rage (incl. Kratos and Atreus)",
+            "Infinite Weapon Charge (L1\u002BTriangle)",
+            "No Crafting And Upgrade Limits",
+            "No Damage Taken",
+            "No Talisman and Relic Cooldown",
+            "No XP,HS, Resources subtracted when used",
+            "One Hit Stun",
+            "TRAINER INFO (read only)",
             "Crystalline Fragment (100/Use Only For It)",
             "Infinite Arrows",
             "Infinite Health",
@@ -98258,7 +98989,7 @@
       "title": "God of War: Ragnarok",
       "idLower": "cusa34390",
       "titleLower": "god of war: ragnarok",
-      "cheatsTotal": 19,
+      "cheatsTotal": 38,
       "creators": [
         "Pharaoh2k"
       ],
@@ -98267,9 +98998,29 @@
       ],
       "formats": {
         "json": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 19,
+          "cheats": [
+            "--100x damage (one hit kill)",
+            "--10x damage",
+            "--20x damage",
+            "--30x damage",
+            "--40x damage",
+            "--50x damage",
+            "--5x damage",
+            "Damage Multiplier(Master Code) [DO NOT USE IN VALHALLA]",
+            "God Mode (Untouchable\u002BNo Effects) [DO NOT USE IN VALHALLA]",
+            "Infinite Arrows \u0026 Throwables [DO NOT USE IN VALHALLA]",
+            "Infinite Max Shield Charge",
+            "Infinite Rage (incl. Kratos and Atreus)",
+            "Infinite Weapon Charge (L1\u002BTriangle)",
+            "No Crafting And Upgrade Limits",
+            "No Damage Taken",
+            "No Talisman and Relic Cooldown",
+            "No XP,HS, Resources subtracted when used",
+            "One Hit Stun [DO NOT USE IN VALHALLA]",
+            "TRAINER INFO (read only)"
+          ]
         },
         "shn": {
           "hasFile": true,
@@ -98391,14 +99142,16 @@
       "title": "God of War: Ragnarok",
       "idLower": "cusa34390",
       "titleLower": "god of war: ragnarok",
-      "cheatsTotal": 35,
+      "cheatsTotal": 54,
       "creators": [
         "Celogamez-JustGotenks",
-        "Pharaoh2k"
+        "Pharaoh2k",
+        "Pharaoh2k, Celogamez-JustGotenks"
       ],
       "creatorsLower": [
         "celogamez-justgotenks",
-        "pharaoh2k"
+        "pharaoh2k",
+        "pharaoh2k, celogamez-justgotenks"
       ],
       "formats": {
         "json": {
@@ -98428,8 +99181,27 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 8,
+          "cheatsCount": 27,
           "cheats": [
+            "--100x damage (one hit kill)",
+            "--10x damage",
+            "--20x damage",
+            "--30x damage",
+            "--40x damage",
+            "--50x damage",
+            "--5x damage",
+            "Damage Multiplier(Master Code) [DO NOT USE IN VALHALLA]",
+            "God Mode (Untouchable\u002BNo Effects) [DO NOT USE IN VALHALLA]",
+            "Infinite Arrows and Throwables [DO NOT USE IN VALHALLA]",
+            "Infinite Max Shield Charge",
+            "Infinite Rage (incl. Kratos and Atreus)",
+            "Infinite Weapon Charge (L1\u002BTriangle)",
+            "No Crafting And Upgrade Limits",
+            "No Damage Taken",
+            "No Talisman and Relic Cooldown",
+            "No XP,HS, Resources subtracted when used",
+            "One Hit Stun [DO NOT USE IN VALHALLA]",
+            "TRAINER INFO (read only)",
             "Crystalline Fragment (100/Use Only For It)",
             "Infinite Arrows",
             "Infinite Health",
@@ -98613,14 +99385,14 @@
       "title": "God of War: Ragnarok",
       "idLower": "cusa34392",
       "titleLower": "god of war: ragnarok",
-      "cheatsTotal": 46,
+      "cheatsTotal": 65,
       "creators": [
-        "Celogamez-JustGotenks",
-        "Pharaoh2k"
+        "Pharaoh2k",
+        "Pharaoh2k, Celogamez-JustGotenks"
       ],
       "creatorsLower": [
-        "celogamez-justgotenks",
-        "pharaoh2k"
+        "pharaoh2k",
+        "pharaoh2k, celogamez-justgotenks"
       ],
       "formats": {
         "json": {
@@ -98675,8 +99447,27 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 8,
+          "cheatsCount": 27,
           "cheats": [
+            "--100x damage (one hit kill)",
+            "--10x damage",
+            "--20x damage",
+            "--30x damage",
+            "--40x damage",
+            "--50x damage",
+            "--5x damage",
+            "Damage Multiplier(Master Code)",
+            "God Mode (Untouchable\u002BNo Effects)",
+            "Infinite Arrows and Throwables",
+            "Infinite Max Shield Charge",
+            "Infinite Rage (incl. Kratos and Atreus)",
+            "Infinite Weapon Charge (L1\u002BTriangle)",
+            "No Crafting And Upgrade Limits",
+            "No Damage Taken",
+            "No Talisman and Relic Cooldown",
+            "No XP,HS, Resources subtracted when used",
+            "One Hit Stun",
+            "TRAINER INFO (read only)",
             "Crystalline Fragment (100/Use Only For It)",
             "Infinite Arrows",
             "Infinite Health",
@@ -98695,7 +99486,7 @@
       "title": "God of War: Ragnarok",
       "idLower": "cusa34392",
       "titleLower": "god of war: ragnarok",
-      "cheatsTotal": 19,
+      "cheatsTotal": 38,
       "creators": [
         "Pharaoh2k"
       ],
@@ -98704,9 +99495,29 @@
       ],
       "formats": {
         "json": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 19,
+          "cheats": [
+            "--100x damage (one hit kill)",
+            "--10x damage",
+            "--20x damage",
+            "--30x damage",
+            "--40x damage",
+            "--50x damage",
+            "--5x damage",
+            "Damage Multiplier(Master Code) [DO NOT USE IN VALHALLA]",
+            "God Mode (Untouchable\u002BNo Effects) [DO NOT USE IN VALHALLA]",
+            "Infinite Arrows \u0026 Throwables [DO NOT USE IN VALHALLA]",
+            "Infinite Max Shield Charge",
+            "Infinite Rage (incl. Kratos and Atreus)",
+            "Infinite Weapon Charge (L1\u002BTriangle)",
+            "No Crafting And Upgrade Limits",
+            "No Damage Taken",
+            "No Talisman and Relic Cooldown",
+            "No XP,HS, Resources subtracted when used",
+            "One Hit Stun [DO NOT USE IN VALHALLA]",
+            "TRAINER INFO (read only)"
+          ]
         },
         "shn": {
           "hasFile": true,
@@ -98817,7 +99628,7 @@
       "title": "God of War: Ragnarok",
       "idLower": "cusa34392",
       "titleLower": "god of war: ragnarok",
-      "cheatsTotal": 19,
+      "cheatsTotal": 38,
       "creators": [
         "Pharaoh2k"
       ],
@@ -98851,9 +99662,29 @@
           ]
         },
         "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 19,
+          "cheats": [
+            "--100x damage (one hit kill)",
+            "--10x damage",
+            "--20x damage",
+            "--30x damage",
+            "--40x damage",
+            "--50x damage",
+            "--5x damage",
+            "Damage Multiplier(Master Code) [DO NOT USE IN VALHALLA]",
+            "God Mode (Untouchable\u002BNo Effects) [DO NOT USE IN VALHALLA]",
+            "Infinite Arrows and Throwables [DO NOT USE IN VALHALLA]",
+            "Infinite Max Shield Charge",
+            "Infinite Rage (incl. Kratos and Atreus)",
+            "Infinite Weapon Charge (L1\u002BTriangle)",
+            "No Crafting And Upgrade Limits",
+            "No Damage Taken",
+            "No Talisman and Relic Cooldown",
+            "No XP,HS, Resources subtracted when used",
+            "One Hit Stun [DO NOT USE IN VALHALLA]",
+            "TRAINER INFO (read only)"
+          ]
         },
         "mc4": {
           "hasFile": false,
@@ -98911,14 +99742,14 @@
       "title": "God of War: Ragnarok",
       "idLower": "cusa34394",
       "titleLower": "god of war: ragnarok",
-      "cheatsTotal": 46,
+      "cheatsTotal": 65,
       "creators": [
-        "Celogamez-JustGotenks",
-        "Pharaoh2k"
+        "Pharaoh2k",
+        "Pharaoh2k, Celogamez-JustGotenks"
       ],
       "creatorsLower": [
-        "celogamez-justgotenks",
-        "pharaoh2k"
+        "pharaoh2k",
+        "pharaoh2k, celogamez-justgotenks"
       ],
       "formats": {
         "json": {
@@ -98973,8 +99804,27 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 8,
+          "cheatsCount": 27,
           "cheats": [
+            "--100x damage (one hit kill)",
+            "--10x damage",
+            "--20x damage",
+            "--30x damage",
+            "--40x damage",
+            "--50x damage",
+            "--5x damage",
+            "Damage Multiplier(Master Code)",
+            "God Mode (Untouchable\u002BNo Effects)",
+            "Infinite Arrows and Throwables",
+            "Infinite Max Shield Charge",
+            "Infinite Rage (incl. Kratos and Atreus)",
+            "Infinite Weapon Charge (L1\u002BTriangle)",
+            "No Crafting And Upgrade Limits",
+            "No Damage Taken",
+            "No Talisman and Relic Cooldown",
+            "No XP,HS, Resources subtracted when used",
+            "One Hit Stun",
+            "TRAINER INFO (read only)",
             "Crystalline Fragment (100/Use Only For It)",
             "Infinite Arrows",
             "Infinite Health",
@@ -98993,7 +99843,7 @@
       "title": "God of War: Ragnarok",
       "idLower": "cusa34394",
       "titleLower": "god of war: ragnarok",
-      "cheatsTotal": 19,
+      "cheatsTotal": 38,
       "creators": [
         "Pharaoh2k"
       ],
@@ -99002,9 +99852,29 @@
       ],
       "formats": {
         "json": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 19,
+          "cheats": [
+            "--100x damage (one hit kill)",
+            "--10x damage",
+            "--20x damage",
+            "--30x damage",
+            "--40x damage",
+            "--50x damage",
+            "--5x damage",
+            "Damage Multiplier(Master Code) [DO NOT USE IN VALHALLA]",
+            "God Mode (Untouchable\u002BNo Effects) [DO NOT USE IN VALHALLA]",
+            "Infinite Arrows \u0026 Throwables [DO NOT USE IN VALHALLA]",
+            "Infinite Max Shield Charge",
+            "Infinite Rage (incl. Kratos and Atreus)",
+            "Infinite Weapon Charge (L1\u002BTriangle)",
+            "No Crafting And Upgrade Limits",
+            "No Damage Taken",
+            "No Talisman and Relic Cooldown",
+            "No XP,HS, Resources subtracted when used",
+            "One Hit Stun [DO NOT USE IN VALHALLA]",
+            "TRAINER INFO (read only)"
+          ]
         },
         "shn": {
           "hasFile": true,
@@ -99115,7 +99985,7 @@
       "title": "God of War: Ragnarok",
       "idLower": "cusa34394",
       "titleLower": "god of war: ragnarok",
-      "cheatsTotal": 19,
+      "cheatsTotal": 38,
       "creators": [
         "Pharaoh2k"
       ],
@@ -99149,9 +100019,29 @@
           ]
         },
         "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 19,
+          "cheats": [
+            "--100x damage (one hit kill)",
+            "--10x damage",
+            "--20x damage",
+            "--30x damage",
+            "--40x damage",
+            "--50x damage",
+            "--5x damage",
+            "Damage Multiplier(Master Code) [DO NOT USE IN VALHALLA]",
+            "God Mode (Untouchable\u002BNo Effects) [DO NOT USE IN VALHALLA]",
+            "Infinite Arrows and Throwables [DO NOT USE IN VALHALLA]",
+            "Infinite Max Shield Charge",
+            "Infinite Rage (incl. Kratos and Atreus)",
+            "Infinite Weapon Charge (L1\u002BTriangle)",
+            "No Crafting And Upgrade Limits",
+            "No Damage Taken",
+            "No Talisman and Relic Cooldown",
+            "No XP,HS, Resources subtracted when used",
+            "One Hit Stun [DO NOT USE IN VALHALLA]",
+            "TRAINER INFO (read only)"
+          ]
         },
         "mc4": {
           "hasFile": false,
@@ -99372,7 +100262,7 @@
       "title": "Sand Land",
       "idLower": "cusa34698",
       "titleLower": "sand land",
-      "cheatsTotal": 8,
+      "cheatsTotal": 12,
       "creators": [
         "Q8Despair"
       ],
@@ -99401,9 +100291,14 @@
           ]
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Items x99",
+            "Max Health",
+            "Money x2",
+            "XP x2"
+          ]
         }
       }
     },
@@ -99499,13 +100394,15 @@
       "title": "Granblue Fantasy: Relink",
       "idLower": "cusa34766",
       "titleLower": "granblue fantasy: relink",
-      "cheatsTotal": 41,
+      "cheatsTotal": 42,
       "creators": [
         "d01v",
+        "Wander FW9.00",
         "Wander FW9.00, d01v, Celogamez"
       ],
       "creatorsLower": [
         "d01v",
+        "wander fw9.00",
         "wander fw9.00, d01v, celogamez"
       ],
       "formats": {
@@ -99563,9 +100460,11 @@
           ]
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 1,
+          "cheats": [
+            "Max Rupies (on sell)"
+          ]
         }
       }
     },
@@ -99677,7 +100576,7 @@
       "title": "Beyond Good \u0026 Evil 20th Anniversary Edition",
       "idLower": "cusa34896",
       "titleLower": "beyond good \u0026 evil 20th anniversary edition",
-      "cheatsTotal": 5,
+      "cheatsTotal": 7,
       "creators": [
         "Q8Despair",
         "Talixme"
@@ -99705,9 +100604,12 @@
           ]
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Items increase on consume",
+            "Money doesn\u0027t decrease"
+          ]
         }
       }
     },
@@ -100946,7 +101848,7 @@
       "title": "Prince of Persia: The Lost Crown",
       "idLower": "cusa36582",
       "titleLower": "prince of persia: the lost crown",
-      "cheatsTotal": 10,
+      "cheatsTotal": 15,
       "creators": [
         "Wander FW9.00"
       ],
@@ -100977,9 +101879,15 @@
           ]
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "Infinite Arrows/Potions(on Shoot/Consume)",
+            "Infinite Health",
+            "Instant Athra surge charge",
+            "Max Currencies (on get)",
+            "No Athra surge Cooldown"
+          ]
         }
       }
     },
@@ -102736,12 +103644,14 @@
       "title": "Hollow Knight: Silksong",
       "idLower": "cusa39420",
       "titleLower": "hollow knight: silksong",
-      "cheatsTotal": 12,
+      "cheatsTotal": 15,
       "creators": [
-        "2pt - Contact on ps4 reaper discord if you have issues, Super Death"
+        "2pt - Contact on ps4 reaper discord if you have issues, Super Death",
+        "WANDER FW 900"
       ],
       "creatorsLower": [
-        "2pt - contact on ps4 reaper discord if you have issues, super death"
+        "2pt - contact on ps4 reaper discord if you have issues, super death",
+        "wander fw 900"
       ],
       "formats": {
         "json": {
@@ -102768,9 +103678,13 @@
           ]
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Infinite Health",
+            "Max Shards on get",
+            "Max Silk on hit"
+          ]
         }
       }
     },
@@ -102780,13 +103694,13 @@
       "title": "Hollow Knight: Silksong",
       "idLower": "cusa39420",
       "titleLower": "hollow knight: silksong",
-      "cheatsTotal": 31,
+      "cheatsTotal": 36,
       "creators": [
-        "Ali-mk, Celogamez",
+        "Ali-mk, Celogamez, Gery",
         "Bandicootmonito, 2pt - Contact on ps4 reaper discord if you have issues"
       ],
       "creatorsLower": [
-        "ali-mk, celogamez",
+        "ali-mk, celogamez, gery",
         "bandicootmonito, 2pt - contact on ps4 reaper discord if you have issues"
       ],
       "formats": {
@@ -102813,7 +103727,7 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 21,
+          "cheatsCount": 26,
           "cheats": [
             "inf-shell-shards",
             "Infinite-Health",
@@ -102835,7 +103749,12 @@
             "Max Rosaries",
             "Max Shell Shards (On Pickup)",
             "Max Shell Shards (On Use)",
-            "Max Silk"
+            "Max Silk",
+            "Infinite Health",
+            "Infinite Spear use",
+            "Max Rosaries on get",
+            "Max Shell Shards when Spending",
+            "Max Silk when hit"
           ]
         }
       }
@@ -102918,7 +103837,7 @@
       "title": "Forgive Me Father",
       "idLower": "cusa40247",
       "titleLower": "forgive me father",
-      "cheatsTotal": 8,
+      "cheatsTotal": 16,
       "creators": [
         "Saso_9.00"
       ],
@@ -102946,9 +103865,18 @@
           ]
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 8,
+          "cheats": [
+            "Fast Exp / Levels (Master Code)",
+            "Health / Armor / Ammo / Skill Points (Master Code)",
+            "Inf Ammo",
+            "Inf Health / Armor",
+            "Inf Skill Points (On Use)",
+            "x100",
+            "x200",
+            "x50"
+          ]
         }
       }
     },
@@ -104235,15 +105163,15 @@
       "title": "Contra: Operation Galuga",
       "idLower": "cusa42378",
       "titleLower": "contra: operation galuga",
-      "cheatsTotal": 10,
+      "cheatsTotal": 14,
       "creators": [
-        "Ali-mk",
         "Ali-mk, Bandicootmonito",
+        "Ali-mk, Saso",
         "Saso, Saso_PS5"
       ],
       "creatorsLower": [
-        "ali-mk",
         "ali-mk, bandicootmonito",
+        "ali-mk, saso",
         "saso, saso_ps5"
       ],
       "formats": {
@@ -104268,11 +105196,15 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 3,
+          "cheatsCount": 7,
           "cheats": [
             "Infinite-lives",
             "Invincible-not all-enemy",
-            "MAX-CREDITS"
+            "MAX-CREDITS",
+            "Inf Hover",
+            "Inf Jump",
+            "Max Credits",
+            "Untouchable"
           ]
         }
       }
@@ -104283,15 +105215,15 @@
       "title": "High on Life",
       "idLower": "cusa42391",
       "titleLower": "high on life",
-      "cheatsTotal": 14,
+      "cheatsTotal": 20,
       "creators": [
         "2B, Q8Despair",
-        "Celogamez",
+        "Celogamez, Q8Despair",
         "WDRfw9.00"
       ],
       "creatorsLower": [
         "2b, q8despair",
-        "celogamez",
+        "celogamez, q8despair",
         "wdrfw9.00"
       ],
       "formats": {
@@ -104307,24 +105239,30 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 4,
+          "cheatsCount": 7,
           "cheats": [
             "Inf Fuel",
             "Inf HP",
             "Inf Pesos (on gain)",
-            "no Reload"
+            "no Reload",
+            "Guns No Reload",
+            "Infinite Dashes",
+            "Infinite Health"
           ]
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 6,
+          "cheatsCount": 9,
           "cheats": [
             "Easy kill (Don\u0027t Use Against Bosses)",
             "Infinite Fuel",
             "Infinite Health/Easy Kill (MASTERCODE/MUST BE ON)",
             "Infinite Heath",
             "Max Pesos/Cristals",
-            "No Reload"
+            "No Reload",
+            "Guns No Reload",
+            "Infinite Dashes",
+            "Infinite Health"
           ]
         }
       }
@@ -105971,7 +106909,7 @@
       "title": "Crazy Chicken Traps and Treasure 2",
       "idLower": "cusa45404",
       "titleLower": "crazy chicken traps and treasure 2",
-      "cheatsTotal": 5,
+      "cheatsTotal": 10,
       "creators": [
         "Saso_9.00"
       ],
@@ -105996,9 +106934,15 @@
           ]
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "Freez Timer",
+            "Inf Health",
+            "Inf Jump",
+            "Inf Shield Timer",
+            "Max Gold"
+          ]
         }
       }
     },
@@ -106792,7 +107736,7 @@
       "title": "Wrath: Aeon of Ruin",
       "idLower": "cusa48215",
       "titleLower": "wrath: aeon of ruin",
-      "cheatsTotal": 4,
+      "cheatsTotal": 8,
       "creators": [
         "Saso_9.00"
       ],
@@ -106816,9 +107760,14 @@
           ]
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Inf Ammo",
+            "Inf Artifact / Soul",
+            "Inf Health",
+            "Inf Shield"
+          ]
         }
       }
     },
@@ -109208,14 +110157,14 @@
       "title": "Plants vs. ZombiesT: Replanted",
       "idLower": "cusa55613",
       "titleLower": "plants vs. zombiest: replanted",
-      "cheatsTotal": 10,
+      "cheatsTotal": 19,
       "creators": [
         "Bandicootmonito",
-        "SunRita"
+        "SunRita, Saso"
       ],
       "creatorsLower": [
         "bandicootmonito",
-        "sunrita"
+        "sunrita, saso"
       ],
       "formats": {
         "json": {
@@ -109237,12 +110186,21 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 4,
+          "cheatsCount": 13,
           "cheats": [
             "Max Dollars",
             "Max Sun on get",
             "Max Sun on Spend",
-            "No cooldown"
+            "No cooldown",
+            "Free Plants",
+            "Increase Sun On Spend",
+            "Inf  Bug Spray (Zen Garden)",
+            "Inf  Fertilizer (Zen Garden)",
+            "Invincible Plants",
+            "Max Money",
+            "No Plant Cooldown",
+            "One-hit Kill",
+            "One-hit Shield Break"
           ]
         }
       }
@@ -111388,6 +112346,42 @@
       }
     },
     {
+      "id": "PPSA02629",
+      "version": "02.000.000",
+      "title": "Trek to Yomi",
+      "idLower": "ppsa02629",
+      "titleLower": "trek to yomi",
+      "cheatsTotal": 4,
+      "creators": [
+        "Saso"
+      ],
+      "creatorsLower": [
+        "saso"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "1 Hit Kill (MC) /  Deactivate In Training",
+            "Health / Stamina / 1 HK (Master Code)",
+            "Ranged Weapon",
+            "Stamina (MC) / Deactivate In Training"
+          ]
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
       "id": "PPSA02632",
       "version": "01.000.000",
       "title": "Street Fighter 6",
@@ -111628,7 +112622,7 @@
       "title": "Fishing: North Atlantic",
       "idLower": "ppsa02985",
       "titleLower": "fishing: north atlantic",
-      "cheatsTotal": 1,
+      "cheatsTotal": 2,
       "creators": [
         "Q8Despair"
       ],
@@ -111642,9 +112636,11 @@
           "cheats": []
         },
         "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 1,
+          "cheats": [
+            "Fish sells for more cash!"
+          ]
         },
         "mc4": {
           "hasFile": true,
@@ -112337,6 +113333,40 @@
             "Infi HP",
             "No Reduction (Money,Node,Etc)"
           ]
+        }
+      }
+    },
+    {
+      "id": "PPSA03952",
+      "version": "01.000.000",
+      "title": "Resident Evil 3",
+      "idLower": "ppsa03952",
+      "titleLower": "resident evil 3",
+      "cheatsTotal": 2,
+      "creators": [
+        "Q8Despair"
+      ],
+      "creatorsLower": [
+        "q8despair"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Ammo",
+            "Max shop points"
+          ]
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },
@@ -114856,6 +115886,40 @@
       }
     },
     {
+      "id": "PPSA08448",
+      "version": "01.000.000",
+      "title": "Asterix \u0026 Obelix XXXL: The Ram From Hibernia",
+      "idLower": "ppsa08448",
+      "titleLower": "asterix \u0026 obelix xxxl: the ram from hibernia",
+      "cheatsTotal": 2,
+      "creators": [
+        "Saso"
+      ],
+      "creatorsLower": [
+        "saso"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Inf HP",
+            "Inf Ultimate (On Use)"
+          ]
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
       "id": "PPSA08546",
       "version": "01.000.000",
       "title": "Flashback 2 Limited Edition",
@@ -116195,6 +117259,44 @@
       }
     },
     {
+      "id": "PPSA14033",
+      "version": "01.000.000",
+      "title": "Everspace 2 Stellar Edition",
+      "idLower": "ppsa14033",
+      "titleLower": "everspace 2 stellar edition",
+      "cheatsTotal": 6,
+      "creators": [
+        "Master Studios"
+      ],
+      "creatorsLower": [
+        "master studios"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": true,
+          "cheatsCount": 6,
+          "cheats": [
+            "Geld x2 Bei Reparatur",
+            "God-Mode",
+            "Items 9999",
+            "Nachbrenner Unendlich",
+            "Raketen Unendlich",
+            "Waffenenergie Unendlich"
+          ]
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
       "id": "PPSA14196",
       "version": "01.000.000",
       "title": "Sker Ritual",
@@ -116239,12 +117341,12 @@
       "title": "Mafia: The Old Country",
       "idLower": "ppsa14251",
       "titleLower": "mafia: the old country",
-      "cheatsTotal": 6,
+      "cheatsTotal": 11,
       "creators": [
-        "Yharnam"
+        "Yharnam, Saso"
       ],
       "creatorsLower": [
-        "yharnam"
+        "yharnam, saso"
       ],
       "formats": {
         "json": {
@@ -116259,14 +117361,19 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 6,
+          "cheatsCount": 11,
           "cheats": [
             "Infi Ammo",
             "Infi Health",
             "Infi Horse Dash",
             "Infi Knife Durability",
             "Master Code (Must Be Activated First)",
-            "Max Money (Buy)"
+            "Max Money (Buy)",
+            "Damage X2 (MC)",
+            "Health / Stamina / Damage  (Master Code)",
+            "Inf Horse Sprint",
+            "Inf Stamina (MC)",
+            "Max Dinari (999999)"
           ]
         }
       }

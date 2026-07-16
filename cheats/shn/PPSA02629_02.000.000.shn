@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Trek to Yomi" Moder="Saso" Cusa="PPSA02629" Version="02.000.000" Process="eboot.bin">
+  <Genres Name="Action" />
+  <Items />
+  <Cheat Text="1 Hit Kill (MC) /  Deactivate In Training">
+    <Cheatline>
+      <Offset>56C3839</Offset>
+      <Section>0</Section>
+      <ValueOn>74-2F</ValueOn>
+      <ValueOff>74-05</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Health / Stamina / 1 HK (Master Code)">
+    <Cheatline>
+      <Offset>56C3800</Offset>
+      <Section>0</Section>
+      <ValueOn>4D-39-E3-74-02-EB-39-83-BD-24-01-00-00-10-75-30-41-54-41-53-49-BB-48-00-65-00-61-00-6C-00-4C-8B-A5-20-01-00-00-4D-39-1C-24-41-5B-41-5C-74-02-EB-0F-48-83-BF-F8-00-00-00-00-74-05-C5-FA-10-47-18-C5-FA-11-47-0C-E9-1F-C5-C7-FA-41-53-41-54-49-BC-53-00-74-00-61-00-6D-00-4C-8B-9D-20-01-00-00-4D-39-23-41-5C-41-5B-75-D8-EB-D1-0F-57-C0-EB-D1</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>33FD64</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-97-3A-38-05</ValueOn>
+      <ValueOff>C5-FA-11-47-0C</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Ranged Weapon">
+    <Cheatline>
+      <Offset>56C3871</Offset>
+      <Section>0</Section>
+      <ValueOn>48-81-FA-F7-17-00-00-75-0C-C7-47-08-00-00-40-40-C5-FA-10-47-08-C5-FA-11-47-08-E9-F9-C4-C7-FA</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>33FD84</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-E8-3A-38-05</ValueOn>
+      <ValueOff>C5-FA-11-47-08</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Stamina (MC) / Deactivate In Training">
+    <Cheatline>
+      <Offset>56C382F</Offset>
+      <Section>0</Section>
+      <ValueOn>EB-19</ValueOn>
+      <ValueOff>EB-0F</ValueOff>
+    </Cheatline>
+  </Cheat>
+</Trainer>

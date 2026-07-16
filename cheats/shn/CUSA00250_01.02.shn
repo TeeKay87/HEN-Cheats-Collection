@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Thief" Moder="TLH" Cusa="CUSA00250" Version="01.02" Process="eboot.bin">
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Thief" Moder="TLH, Wander / Reddevil82 - FW 9.00" Cusa="CUSA00250" Version="01.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Genres Name="Adventure" />
   <Items />
@@ -77,6 +77,78 @@
       <Section>0</Section>
       <ValueOn>0F-57-C9-90-90</ValueOn>
       <ValueOff>C5-FA-58-4F-64</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Focus">
+    <Cheatline>
+      <Offset>23BF826</Offset>
+      <Section>0</Section>
+      <ValueOn>41-C7-87-90-00-00-00-00-00-7A-44-E9-7A-D0-47-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>83C8A7</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-7A-2F-B8-01-90-90-90-90</ValueOn>
+      <ValueOff>C4-C1-7A-11-87-90-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Health">
+    <Cheatline>
+      <Offset>23BF817</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-83-E8-00-00-00-00-00-C8-42-E9-D3-D2-60-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>9CCAF1</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-21-2D-9F-01-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-83-E8-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Items ( on gain )">
+    <Cheatline>
+      <Offset>23BF80C</Offset>
+      <Section>0</Section>
+      <ValueOn>41-BF-63-00-00-00-E9-53-2B-91-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>CD2364</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-A3-D4-6E-01-90</ValueOn>
+      <ValueOff>41-89-D7-45-29-E7</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max Money ( on gain )">
+    <Cheatline>
+      <Offset>23BF800</Offset>
+      <Section>0</Section>
+      <ValueOn>39-D8-BB-00-E1-F5-05-E9-09-2F-91-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>CD2710</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-EB-D0-6E-01</ValueOn>
+      <ValueOff>39-D8-0F-4E-D8</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="One Hit Kill">
+    <Cheatline>
+      <Offset>8124F2</Offset>
+      <Section>0</Section>
+      <ValueOn>C4-C1-7A-11-45-68</ValueOn>
+      <ValueOff>C4-C1-7A-11-4D-68</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Stealth Mode ( Dont touch Enemy )">
+    <Cheatline>
+      <Offset>C65695</Offset>
+      <Section>0</Section>
+      <ValueOn>0F-57-C9-90-90</ValueOn>
+      <ValueOff>C5-FA-11-4F-64</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

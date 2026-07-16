@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Fishing: North Atlantic" Moder="Q8Despair" Cusa="PPSA02985" Version="02.001.000" Process="eboot.bin">
+  <Genres Name="Action" />
+  <Items />
+  <Cheat Text="Fish sells for more cash!" Description="Selling fish price will be increased, simply turn on the cheat, then sell either all or one at a time for extra cash, then turn off the cheat before buying.">
+    <Cheatline>
+      <Offset>505BD2E</Offset>
+      <Section>0</Section>
+      <ValueOn>48-6B-C9-02-48-01-0F-5D-C3-E9-93-90-B1-FB</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>B74DCA</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-5F-6F-4E-04</ValueOn>
+      <ValueOff>48-01-0F-5D-C3</ValueOff>
+    </Cheatline>
+  </Cheat>
+</Trainer>

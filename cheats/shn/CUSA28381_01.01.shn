@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="DreamWorks Dragons: Legends of The Nine Realms" Moder="fbin" Cusa="CUSA28381" Version="01.01" Process="eboot.bin">
+  <Genres Name="Action" />
+  <Genres Name="Adventure" />
+  <Genres Name="Family" />
+  <Items />
+  <Cheat Text="Cristais Infinitos">
+    <Cheatline>
+      <Offset>7FC5DB50</Offset>
+      <Section>0</Section>
+      <ValueOn>48-C1-E2-04-C7-44-10-2C-9F-86-01-00-E9-64-53-C0-01</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>81862EBD</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-8E-AC-3F-FE-90-90-90</ValueOn>
+      <ValueOff>48-C1-E2-04-89-4C-10-2C</ValueOff>
+    </Cheatline>
+  </Cheat>
+</Trainer>

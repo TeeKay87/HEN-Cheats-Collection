@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Airport Simulator: Day &amp; Night" Moder="Reddevil82 - FW 9.00" Cusa="CUSA29671" Version="01.01" Process="eboot.bin">
+  <Genres Name="Simulation" />
+  <Items />
+  <Cheat Text="Infinite Buy Task">
+    <Cheatline>
+      <Offset>183BE9A</Offset>
+      <Section>0</Section>
+      <ValueOn>0F-84-A8-2C-E3-7E-C7-40-2C-63-00-00-00-E9-67-2C-E3-7E</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>8066EB0E</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-87-D3-1C-81</ValueOn>
+      <ValueOff>74-3E-FF-48-2C</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max Level ( after 1st successful task )">
+    <Cheatline>
+      <Offset>183BEC7</Offset>
+      <Section>0</Section>
+      <ValueOn>B8-0A-00-00-00-41-89-46-18-E9-23-12-C5-7E</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>8048D0F2</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-D0-ED-3A-81-90</ValueOn>
+      <ValueOff>FF-C0-41-89-46-18</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max Money">
+    <Cheatline>
+      <Offset>183BE80</Offset>
+      <Section>0</Section>
+      <ValueOn>50-48-B8-00-00-80-FF-64-CD-CD-41-48-89-41-10-C5-FB-10-41-10-58-E9-FA-87-E3-7E</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>8067468F</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-EC-77-1C-81</ValueOn>
+      <ValueOff>C5-FB-10-41-10</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Unlimited Player Upgrades ( after 1st successful task )">
+    <Cheatline>
+      <Offset>1B52A1</Offset>
+      <Section>14</Section>
+      <ValueOn>90-90</ValueOn>
+      <ValueOff>FF-C8</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Unlimited XP Points ( after 1st successful task )">
+    <Cheatline>
+      <Offset>183BEAC</Offset>
+      <Section>0</Section>
+      <ValueOn>41-81-7C-24-1C-7F-96-98-00-77-0B-41-BE-7F-96-98-00-45-01-74-24-1C-E9-F9-0E-C5-7E</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>8048CDBB</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-EC-F0-3A-81</ValueOn>
+      <ValueOff>45-01-74-24-1C</ValueOff>
+    </Cheatline>
+  </Cheat>
+</Trainer>

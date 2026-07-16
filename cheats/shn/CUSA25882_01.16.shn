@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="WWE 2K22" Moder="aran" Cusa="CUSA25882" Version="01.16" Process="eboot.bin">
+  <Genres Name="Action" />
+  <Genres Name="Fighting" />
+  <Genres Name="Sports" />
+  <Items />
+  <Cheat Text="INF HEALTH">
+    <Cheatline>
+      <Offset>7FE9DF90</Offset>
+      <Section>0</Section>
+      <ValueOn>81-BB-00-03-00-00-0A-1E-28-00-75-0C-C7-43-10-00-00-C8-42-E9-66-54-0E-81-C5-FA-11-5B-10-E9-5C-54-0E-81</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>F83409</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-82-AB-F1-7E</ValueOn>
+      <ValueOff>C5-FA-11-5B-10</ValueOff>
+    </Cheatline>
+  </Cheat>
+</Trainer>

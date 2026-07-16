@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Neon Abyss" Moder="Wander FW9.00" Cusa="CUSA18917" Version="01.07" Process="eboot.bin">
+  <Genres Name="Action" />
+  <Genres Name="Adventure" />
+  <Items />
+  <Cheat Text="Ultimate All(testing)">
+    <Cheatline>
+      <Offset>7FC5EE20</Offset>
+      <Section>0</Section>
+      <ValueOn>51-48-B9-00-00-00-00-00-40-7F-40-4A-89-4C-E8-30-59-E9-FA-DA-46-02</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>820CC929</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-F2-24-B9-FD-90-90</ValueOn>
+      <ValueOff>C4-A1-7B-11-44-E8-30</ValueOff>
+    </Cheatline>
+  </Cheat>
+</Trainer>

@@ -1,7 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Ghost of Tsushima" Moder="Celogamez" Cusa="CUSA11456" Version="02.18" Process="eboot.bin">
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Ghost of Tsushima" Moder="Saso, JustGotenks, Celogamez" Cusa="CUSA11456" Version="02.18" Process="eboot.bin">
+  <Genres Name="Adventure" />
   <Genres Name="Action" />
   <Items />
+  <Cheat Text="Infinite Health">
+    <Cheatline>
+      <Offset>E2712C</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-CF-3E-51-00-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-87-34-19-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>133B000</Offset>
+      <Section>0</Section>
+      <ValueOn>81-3F-18-56-82-01-75-12-C7-87-30-19-00-00-00-00-7A-44-C5-FA-10-87-30-19-00-00-C5-FA-11-87-34-19-00-00-E9-0D-C1-AE-FF-90</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Resolve">
+    <Cheatline>
+      <Offset>7363B9</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-A2-4C-C0-00-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-87-54-43-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>133B060</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-87-54-43-00-00-00-00-20-41-E9-52-B3-3F-FF-90</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Tech Points (Enable After Earn 1 point)">
+    <Cheatline>
+      <Offset>6E2CB4</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-C7-83-C5-00</ValueOn>
+      <ValueOff>43-01-74-AC-58</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>133B080</Offset>
+      <Section>0</Section>
+      <ValueOn>43-C6-44-AC-58-00-E9-2E-7C-3A-FF-90</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max Resource (On Get)">
+    <Cheatline>
+      <Offset>6E0182</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-B9-AE-C5-00</ValueOn>
+      <ValueOff>42-89-5C-A8-08</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>133B040</Offset>
+      <Section>0</Section>
+      <ValueOn>42-C7-44-A8-08-E7-03-00-00-E9-39-51-3A-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Infinite Resolve">
     <Cheatline>
       <Offset>7363B9</Offset>

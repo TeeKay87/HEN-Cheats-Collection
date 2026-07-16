@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="NEO: The World Ends with You" Moder="Reddevil82, Tester: Skal" Cusa="CUSA26377" Version="01.02" Process="eboot.bin">
+  <Genres Name="Action" />
+  <Genres Name="Strategy" />
+  <Items />
+  <Cheat Text="Max Health">
+    <Cheatline>
+      <Offset>18D3F40</Offset>
+      <Section>0</Section>
+      <ValueOn>41-8B-5C-24-5C-E9-20-AD-BA-7E</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>8047EC65</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-D6-52-45-81</ValueOn>
+      <ValueOff>41-8B-5C-24-60</ValueOff>
+    </Cheatline>
+  </Cheat>
+</Trainer>

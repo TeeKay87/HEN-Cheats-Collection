@@ -26,6 +26,102 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-07-16 | ADDED | CUSA01671 | 01.00 | [Devil May Cry 4: Special Edition](https://hencheats.vercel.app/#CUSA01671-01.00) |
+| 2026-07-16 | ADDED | CUSA03178 | 01.01 | [Resident Evil: Origins Collection](https://hencheats.vercel.app/#CUSA03178-01.01) |
+| 2026-07-16 | ADDED | CUSA04607 | 01.02 | [Batman: Return to Arkham](https://hencheats.vercel.app/#CUSA04607-01.02) |
+| 2026-07-16 | ADDED | CUSA08602 | 01.25 | [Call of Duty: WWII](https://hencheats.vercel.app/#CUSA08602-01.25) |
+| 2026-07-16 | ADDED | CUSA08624 | 02.16 | [The Long Dark](https://hencheats.vercel.app/#CUSA08624-02.16) |
+| 2026-07-16 | ADDED | CUSA10908 | 01.05 | [My Time at Portia](https://hencheats.vercel.app/#CUSA10908-01.05) |
+| 2026-07-16 | ADDED | CUSA12641 | 01.09 | [Warriors Orochi 4](https://hencheats.vercel.app/#CUSA12641-01.09) |
+| 2026-07-16 | ADDED | CUSA17776 | 01.14 | [Marvel's Spider-Man: Miles Morales](https://hencheats.vercel.app/#CUSA17776-01.14) |
+| 2026-07-16 | ADDED | CUSA20133 | 01.12 | [Mortal Shell](https://hencheats.vercel.app/#CUSA20133-01.12) |
+| 2026-07-16 | ADDED | CUSA25569 | 01.04 | [Evil West](https://hencheats.vercel.app/#CUSA25569-01.04) |
+| 2026-07-16 | ADDED | CUSA26619 | 01.04 | [Grand Theft Auto: San Andreas - The Definitive Edition](https://hencheats.vercel.app/#CUSA26619-01.04) |
+| 2026-07-16 | ADDED | CUSA27321 | 01.30 | [Jurassic World Evolution 2](https://hencheats.vercel.app/#CUSA27321-01.30) |
+| 2026-07-16 | ADDED | CUSA29772 | 01.01 | [River City Girls Zero](https://hencheats.vercel.app/#CUSA29772-01.01) |
+| 2026-07-16 | ADDED | CUSA32132 | 01.13 | [Like a Dragon: Infinite Wealth](https://hencheats.vercel.app/#CUSA32132-01.13) |
+| 2026-07-16 | ADDED | CUSA32809 | 01.10 | [Sword Art Online: Last Recollection](https://hencheats.vercel.app/#CUSA32809-01.10) |
+| 2026-07-16 | ADDED | CUSA33758 | 01.01 | [Soulcalibur: Broken Destiny](https://hencheats.vercel.app/#CUSA33758-01.01) |
+| 2026-07-16 | ADDED | CUSA33877 | 01.00 | [Resident Evil Director's Cut](https://hencheats.vercel.app/#CUSA33877-01.00) |
+| 2026-07-16 | ADDED | CUSA34388 | 02.04 | [God of War: Ragnarok](https://hencheats.vercel.app/#CUSA34388-02.04) |
+| 2026-07-16 | ADDED | CUSA34388 | 03.00 | [God of War: Ragnarok](https://hencheats.vercel.app/#CUSA34388-03.00) |
+| 2026-07-16 | ADDED | CUSA34390 | 02.04 | [God of War: Ragnarok](https://hencheats.vercel.app/#CUSA34390-02.04) |
+| 2026-07-16 | ADDED | CUSA34698 | 01.03 | [Sand Land](https://hencheats.vercel.app/#CUSA34698-01.03) |
+| 2026-07-16 | ADDED | CUSA34766 | 01.05 | [Granblue Fantasy: Relink](https://hencheats.vercel.app/#CUSA34766-01.05) |
+| 2026-07-16 | ADDED | CUSA34896 | 01.01 | [Beyond Good & Evil 20th Anniversary Edition](https://hencheats.vercel.app/#CUSA34896-01.01) |
+| 2026-07-16 | ADDED | CUSA36582 | 01.01 | [Prince of Persia: The Lost Crown](https://hencheats.vercel.app/#CUSA36582-01.01) |
+| 2026-07-16 | ADDED | CUSA39420 | 01.02 | [Hollow Knight: Silksong](https://hencheats.vercel.app/#CUSA39420-01.02) |
+| 2026-07-16 | ADDED | CUSA40247 | 01.04 | [Forgive Me Father](https://hencheats.vercel.app/#CUSA40247-01.04) |
+| 2026-07-16 | ADDED | PPSA14033 | 01.000.000 | [Everspace 2 Stellar Edition](https://hencheats.vercel.app/#PPSA14033-01.000.000) |
+| 2026-07-16 | ADDED | CUSA45404 | 01.01 | [Crazy Chicken Traps and Treasure 2](https://hencheats.vercel.app/#CUSA45404-01.01) |
+| 2026-07-16 | ADDED | PPSA08448 | 01.000.000 | [Asterix & Obelix XXXL: The Ram From Hibernia](https://hencheats.vercel.app/#PPSA08448-01.000.000) |
+| 2026-07-16 | ADDED | PPSA02985 | 02.001.000 | [Fishing: North Atlantic](https://hencheats.vercel.app/#PPSA02985-02.001.000) |
+| 2026-07-16 | ADDED | CUSA34386 | 05.03 | [God of War: Ragnarok](https://hencheats.vercel.app/#CUSA34386-05.03) |
+| 2026-07-16 | ADDED | CUSA34388 | 05.03 | [God of War: Ragnarok](https://hencheats.vercel.app/#CUSA34388-05.03) |
+| 2026-07-16 | ADDED | CUSA34390 | 05.03 | [God of War: Ragnarok](https://hencheats.vercel.app/#CUSA34390-05.03) |
+| 2026-07-16 | ADDED | CUSA34392 | 05.03 | [God of War: Ragnarok](https://hencheats.vercel.app/#CUSA34392-05.03) |
+| 2026-07-16 | ADDED | CUSA34394 | 05.03 | [God of War: Ragnarok](https://hencheats.vercel.app/#CUSA34394-05.03) |
+| 2026-07-16 | ADDED | CUSA00740 | 01.28 | [Terraria](https://hencheats.vercel.app/#CUSA00740-01.28) |
+| 2026-07-16 | ADDED | CUSA01839 | 01.07 | [Ultra Street Fighter IV](https://hencheats.vercel.app/#CUSA01839-01.07) |
+| 2026-07-16 | ADDED | CUSA03979 | 01.03 | [BioShock: The Collection](https://hencheats.vercel.app/#CUSA03979-01.03) |
+| 2026-07-16 | ADDED | CUSA08603 | 01.25 | [Call of Duty: WWII](https://hencheats.vercel.app/#CUSA08603-01.25) |
+| 2026-07-16 | ADDED | CUSA11147 | 01.00 | [Onimusha: Warlords](https://hencheats.vercel.app/#CUSA11147-01.00) |
+| 2026-07-16 | ADDED | CUSA12289 | 01.06 | [Shenmue III](https://hencheats.vercel.app/#CUSA12289-01.06) |
+| 2026-07-16 | ADDED | CUSA14332 | 01.00 | [Ashen](https://hencheats.vercel.app/#CUSA14332-01.00) |
+| 2026-07-16 | ADDED | CUSA14925 | 02.21 | [Bus Simulator 21](https://hencheats.vercel.app/#CUSA14925-02.21) |
+| 2026-07-16 | ADDED | CUSA18917 | 01.07 | [Neon Abyss](https://hencheats.vercel.app/#CUSA18917-01.07) |
+| 2026-07-16 | ADDED | CUSA20605 | 01.04 | [Rebel Galaxy Outlaw](https://hencheats.vercel.app/#CUSA20605-01.04) |
+| 2026-07-16 | ADDED | CUSA25272 | 01.00 | [The King of Fighters XV](https://hencheats.vercel.app/#CUSA25272-01.00) |
+| 2026-07-16 | ADDED | CUSA25502 | 01.18 | [Hot Wheels Unleashed](https://hencheats.vercel.app/#CUSA25502-01.18) |
+| 2026-07-16 | ADDED | CUSA25882 | 01.16 | [WWE 2K22](https://hencheats.vercel.app/#CUSA25882-01.16) |
+| 2026-07-16 | ADDED | CUSA26377 | 01.02 | [NEO: The World Ends with You](https://hencheats.vercel.app/#CUSA26377-01.02) |
+| 2026-07-16 | ADDED | CUSA28381 | 01.01 | [DreamWorks Dragons: Legends of The Nine Realms](https://hencheats.vercel.app/#CUSA28381-01.01) |
+| 2026-07-16 | ADDED | CUSA29578 | 01.12 | [Stranger of Paradise: Final Fantasy Origin](https://hencheats.vercel.app/#CUSA29578-01.12) |
+| 2026-07-16 | ADDED | CUSA29671 | 01.01 | [Airport Simulator: Day & Night](https://hencheats.vercel.app/#CUSA29671-01.01) |
+| 2026-07-16 | ADDED | CUSA34392 | 05.05 | [God of War: Ragnarok](https://hencheats.vercel.app/#CUSA34392-05.05) |
+| 2026-07-16 | ADDED | CUSA34394 | 05.05 | [God of War: Ragnarok](https://hencheats.vercel.app/#CUSA34394-05.05) |
+| 2026-07-16 | ADDED | PPSA02629 | 02.000.000 | [Trek to Yomi](https://hencheats.vercel.app/#PPSA02629-02.000.000) |
+| 2026-07-16 | ADDED | PPSA03952 | 01.000.000 | [Resident Evil 3](https://hencheats.vercel.app/#PPSA03952-01.000.000) |
+| 2026-07-16 | ADDED | CUSA48215 | 01.01 | [Wrath: Aeon of Ruin](https://hencheats.vercel.app/#CUSA48215-01.01) |
+| 2026-07-16 | UPDATE | CUSA01708 | 01.00 | [Devil May Cry 4: Special Edition](https://hencheats.vercel.app/#CUSA01708-01.00) |
+| 2026-07-16 | UPDATE | CUSA14835 | 01.91 | [Dragon Ball Z: Kakarot](https://hencheats.vercel.app/#CUSA14835-01.91) |
+| 2026-07-16 | UPDATE | CUSA27373 | 01.12 | [The Callisto Protocol](https://hencheats.vercel.app/#CUSA27373-01.12) |
+| 2026-07-16 | UPDATE | CUSA33151 | 01.07 | [Assassin's Creed Mirage](https://hencheats.vercel.app/#CUSA33151-01.07) |
+| 2026-07-16 | UPDATE | CUSA33151 | 01.11 | [Assassin's Creed Mirage](https://hencheats.vercel.app/#CUSA33151-01.11) |
+| 2026-07-16 | UPDATE | CUSA33388 | 01.04 | [Resident Evil 4](https://hencheats.vercel.app/#CUSA33388-01.04) |
+| 2026-07-16 | UPDATE | CUSA34029 | 01.08 | [Call of Duty: Modern Warfare II](https://hencheats.vercel.app/#CUSA34029-01.08) |
+| 2026-07-16 | UPDATE | CUSA34384 | 05.01 | [God of War: Ragnarok](https://hencheats.vercel.app/#CUSA34384-05.01) |
+| 2026-07-16 | UPDATE | CUSA14123 | 01.05 | [Resident Evil 3](https://hencheats.vercel.app/#CUSA14123-01.05) |
+| 2026-07-16 | UPDATE | CUSA34386 | 05.01 | [God of War: Ragnarok](https://hencheats.vercel.app/#CUSA34386-05.01) |
+| 2026-07-16 | UPDATE | CUSA34388 | 04.02 | [God of War: Ragnarok](https://hencheats.vercel.app/#CUSA34388-04.02) |
+| 2026-07-16 | UPDATE | CUSA34388 | 05.01 | [God of War: Ragnarok](https://hencheats.vercel.app/#CUSA34388-05.01) |
+| 2026-07-16 | UPDATE | CUSA34390 | 05.01 | [God of War: Ragnarok](https://hencheats.vercel.app/#CUSA34390-05.01) |
+| 2026-07-16 | UPDATE | CUSA34392 | 05.01 | [God of War: Ragnarok](https://hencheats.vercel.app/#CUSA34392-05.01) |
+| 2026-07-16 | UPDATE | CUSA34394 | 05.01 | [God of War: Ragnarok](https://hencheats.vercel.app/#CUSA34394-05.01) |
+| 2026-07-16 | UPDATE | CUSA39420 | 01.04 | [Hollow Knight: Silksong](https://hencheats.vercel.app/#CUSA39420-01.04) |
+| 2026-07-16 | UPDATE | CUSA42378 | 01.04 | [Contra: Operation Galuga](https://hencheats.vercel.app/#CUSA42378-01.04) |
+| 2026-07-16 | UPDATE | CUSA34388 | 02.00 | [God of War: Ragnarok](https://hencheats.vercel.app/#CUSA34388-02.00) |
+| 2026-07-16 | UPDATE | CUSA55613 | 01.10 | [Plants vs. ZombiesT: Replanted](https://hencheats.vercel.app/#CUSA55613-01.10) |
+| 2026-07-16 | UPDATE | CUSA12584 | 01.33 | [Dying Light 2: Stay Human](https://hencheats.vercel.app/#CUSA12584-01.33) |
+| 2026-07-16 | UPDATE | CUSA02376 | 01.52 | [Assassin's Creed Syndicate](https://hencheats.vercel.app/#CUSA02376-01.52) |
+| 2026-07-16 | UPDATE | CUSA34384 | 05.03 | [God of War: Ragnarok](https://hencheats.vercel.app/#CUSA34384-05.03) |
+| 2026-07-16 | UPDATE | CUSA00250 | 01.02 | [Thief](https://hencheats.vercel.app/#CUSA00250-01.02) |
+| 2026-07-16 | UPDATE | CUSA00369 | 01.03 | [Lords of the Fallen](https://hencheats.vercel.app/#CUSA00369-01.03) |
+| 2026-07-16 | UPDATE | CUSA00377 | 01.03 | [Lords of the Fallen](https://hencheats.vercel.app/#CUSA00377-01.03) |
+| 2026-07-16 | UPDATE | CUSA01671 | 01.00 | [Devil May Cry 4: Special Edition](https://hencheats.vercel.app/#CUSA01671-01.00) |
+| 2026-07-16 | UPDATE | CUSA11456 | 02.18 | [Ghost of Tsushima](https://hencheats.vercel.app/#CUSA11456-02.18) |
+| 2026-07-16 | UPDATE | CUSA11597 | 01.00 | [SteamWorld Dig 2](https://hencheats.vercel.app/#CUSA11597-01.00) |
+| 2026-07-16 | UPDATE | CUSA07104 | 01.01 | [Resident Evil: Code: Veronica X](https://hencheats.vercel.app/#CUSA07104-01.01) |
+| 2026-07-16 | UPDATE | CUSA13275 | 01.23 | [DOOM Eternal](https://hencheats.vercel.app/#CUSA13275-01.23) |
+| 2026-07-16 | UPDATE | CUSA24605 | 01.12 | [Two Point Campus](https://hencheats.vercel.app/#CUSA24605-01.12) |
+| 2026-07-16 | UPDATE | CUSA32132 | 01.13 | [Like a Dragon: Infinite Wealth](https://hencheats.vercel.app/#CUSA32132-01.13) |
+| 2026-07-16 | UPDATE | CUSA34384 | 05.05 | [God of War: Ragnarok](https://hencheats.vercel.app/#CUSA34384-05.05) |
+| 2026-07-16 | UPDATE | CUSA34386 | 05.05 | [God of War: Ragnarok](https://hencheats.vercel.app/#CUSA34386-05.05) |
+| 2026-07-16 | UPDATE | CUSA34388 | 05.05 | [God of War: Ragnarok](https://hencheats.vercel.app/#CUSA34388-05.05) |
+| 2026-07-16 | UPDATE | CUSA34390 | 05.05 | [God of War: Ragnarok](https://hencheats.vercel.app/#CUSA34390-05.05) |
+| 2026-07-16 | UPDATE | CUSA42391 | 01.11 | [High on Life](https://hencheats.vercel.app/#CUSA42391-01.11) |
+| 2026-07-16 | UPDATE | CUSA15717 | 01.09 | [Far Cry 6](https://hencheats.vercel.app/#CUSA15717-01.09) |
+| 2026-07-16 | UPDATE | PPSA14251 | 01.006.000 | [Mafia: The Old Country](https://hencheats.vercel.app/#PPSA14251-01.006.000) |
 | 2026-07-16 | ADDED | PPSA07257 | 05.000.000 | [Gotham Knights](https://hencheats.vercel.app/#PPSA07257-05.000.000) |
 | 2026-07-16 | ADDED | PPSA13579 | 01.007.000 | [Blasphemous 2](https://hencheats.vercel.app/#PPSA13579-01.007.000) |
 | 2026-07-15 | ADDED | CUSA03051 | 01.01 | [Guns, Gore & Cannoli](https://hencheats.vercel.app/#CUSA03051-01.01) |
