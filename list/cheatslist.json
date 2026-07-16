@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-15T12:09:26.7657573Z",
+  "generatedUtc": "2026-07-16T13:42:11.6013633Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -116118,18 +116118,26 @@
       "title": "Blasphemous 2",
       "idLower": "ppsa13579",
       "titleLower": "blasphemous 2",
-      "cheatsTotal": 6,
+      "cheatsTotal": 11,
       "creators": [
-        "Celogamez"
+        "Celogamez",
+        "Talixme"
       ],
       "creatorsLower": [
-        "celogamez"
+        "celogamez",
+        "talixme"
       ],
       "formats": {
         "json": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "--Inf_Hp",
+            "--Inf_Mana",
+            "--Inf_Potions",
+            "Inf Money And Skill Points",
+            "Master Code"
+          ]
         },
         "shn": {
           "hasFile": false,
