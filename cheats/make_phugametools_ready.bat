@@ -12,12 +12,12 @@ rem Sokningen ar inte rekursiv: undermappar ignoreras.
 rem Alla filandelser tillats.
 rem
 rem Destinationer:
-rem   Filnamn som borjar med PPSA -> data\PHU\PS5
-rem   Alla andra filer           -> data\PHU\PS4
+rem   Filnamn som borjar med PPSA -> data\PHU\cheats\PS5
+rem   Alla andra filer           -> data\PHU\cheats\PS4
 rem ============================================================
 
 set "ROOT=%~dp0"
-set "DEST=%ROOT%data\PHU"
+set "DEST=%ROOT%data\PHU\cheats"
 set "DEST_PS4=%DEST%\PS4"
 set "DEST_PS5=%DEST%\PS5"
 
