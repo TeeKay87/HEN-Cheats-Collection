@@ -26,6 +26,8 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-07-19 | ADDED | PPSA17337 | 01.004.000 | [Space Adventure Cobra - The Awakening](https://hencheats.vercel.app/#PPSA17337-01.004.000) |
+| 2026-07-19 | ADDED | PPSA06568 | 01.000.000 | [Sword Art Online: Fractured Daydream](https://hencheats.vercel.app/#PPSA06568-01.000.000) |
 | 2026-07-16 | ADDED | CUSA01671 | 01.00 | [Devil May Cry 4: Special Edition](https://hencheats.vercel.app/#CUSA01671-01.00) |
 | 2026-07-16 | ADDED | CUSA03178 | 01.01 | [Resident Evil: Origins Collection](https://hencheats.vercel.app/#CUSA03178-01.01) |
 | 2026-07-16 | ADDED | CUSA04607 | 01.02 | [Batman: Return to Arkham](https://hencheats.vercel.app/#CUSA04607-01.02) |

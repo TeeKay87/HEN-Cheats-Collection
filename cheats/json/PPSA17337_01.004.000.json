@@ -1,0 +1,75 @@
+{
+  "name": "Space Adventure Cobra - The Awakening",
+  "id": "PPSA17337",
+  "version": "01.004.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Energy",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD17049",
+          "on": "C5FA11937C030000E9637D7100",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "7FD17076",
+          "on": "C5FA11937C030000E936BD7100",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "8042EDB1",
+          "on": "E993828EFF909090",
+          "off": "C5FA11837C030000"
+        },
+        {
+          "offset": "80432DB1",
+          "on": "E9C0428EFF909090",
+          "off": "C5FA11837C030000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD17000",
+          "on": "0F2EC17415C5FA1087B8010000C5FA1187DC010000E98FD97400C787DC01000000000000E980D97400",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "804649A1",
+          "on": "E95A268BFF909090",
+          "off": "C5FA1187DC010000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Super",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80432D58",
+          "on": "9090909090909090",
+          "off": "C5FA118380030000"
+        }
+      ]
+    },
+    {
+      "name": "Stop Timer",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "800BCADC",
+          "on": "9090909090909090",
+          "off": "C5FA1083C4010000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

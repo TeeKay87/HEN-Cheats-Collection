@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-16T21:54:01.7045308Z",
+  "generatedUtc": "2026-07-19T00:23:35.7210298Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -114766,6 +114766,45 @@
       }
     },
     {
+      "id": "PPSA06568",
+      "version": "01.000.000",
+      "title": "Sword Art Online: Fractured Daydream",
+      "idLower": "ppsa06568",
+      "titleLower": "sword art online: fractured daydream",
+      "cheatsTotal": 7,
+      "creators": [
+        "Wander"
+      ],
+      "creatorsLower": [
+        "wander"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 7,
+          "cheats": [
+            "Infinite Health",
+            "Max Character Rank",
+            "Max Col",
+            "Max Player rank",
+            "Max Upgrade Materials",
+            "No skill cooldown",
+            "Unque bar recharge"
+          ]
+        }
+      }
+    },
+    {
       "id": "PPSA06693",
       "version": "01.000.037",
       "title": "Remnant 2",
@@ -118056,6 +118095,42 @@
             "Infi Ammo",
             "Infi Items"
           ]
+        }
+      }
+    },
+    {
+      "id": "PPSA17337",
+      "version": "01.004.000",
+      "title": "Space Adventure Cobra - The Awakening",
+      "idLower": "ppsa17337",
+      "titleLower": "space adventure cobra - the awakening",
+      "cheatsTotal": 4,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Inf Energy",
+            "Inf Hp",
+            "Inf Super",
+            "Stop Timer"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },
