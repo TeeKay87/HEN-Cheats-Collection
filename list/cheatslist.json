@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-19T00:23:35.7210298Z",
+  "generatedUtc": "2026-07-19T08:23:23.9338664Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -111933,6 +111933,44 @@
             "Max Money \u0026 No Weight Limit",
             "Untouchable",
             "Zero Weight"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA02182",
+      "version": "01.024.000",
+      "title": "Suicide Squad: Kill the Justice League",
+      "idLower": "ppsa02182",
+      "titleLower": "suicide squad: kill the justice league",
+      "cheatsTotal": 6,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 6,
+          "cheats": [
+            "1 Hit Kill",
+            "Infi Ammo",
+            "Infi Jetpack",
+            "Infi Shield",
+            "Infi Traversal ATK",
+            "Untouchable"
           ]
         }
       }
