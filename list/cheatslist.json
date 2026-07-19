@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-19T08:23:23.9338664Z",
+  "generatedUtc": "2026-07-19T22:45:05.9393019Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -118393,6 +118393,42 @@
             "Inf Ability 2",
             "Inf HP",
             "No Reload"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
+      "id": "PPSA20289",
+      "version": "02.000.000",
+      "title": "Kong: Survivor Instinct",
+      "idLower": "ppsa20289",
+      "titleLower": "kong: survivor instinct",
+      "cheatsTotal": 4,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Inf Hp",
+            "Inf Items",
+            "Inf Medkits",
+            "No reload"
           ]
         },
         "shn": {

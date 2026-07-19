@@ -1,0 +1,65 @@
+{
+  "name": "Kong: Survivor Instinct",
+  "id": "PPSA20289",
+  "version": "02.000.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80411DB8",
+          "on": "90909090",
+          "off": "44896020"
+        }
+      ]
+    },
+    {
+      "name": "Inf Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD17000",
+          "on": "B863000000428944E310E93911BD02",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "828E8143",
+          "on": "E9B8EE42FD",
+          "off": "428944E310"
+        }
+      ]
+    },
+    {
+      "name": "Inf Medkits",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD1702F",
+          "on": "448B703C4489703C5BE957976F00",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "8041078F",
+          "on": "E99B6890FF",
+          "off": "4489703C5B"
+        }
+      ]
+    },
+    {
+      "name": "No reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80412BD2",
+          "on": "90909090",
+          "off": "44897844"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

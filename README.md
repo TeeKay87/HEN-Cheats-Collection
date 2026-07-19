@@ -26,6 +26,7 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-07-20 | ADDED | PPSA20289 | 02.000.000 | [Kong: Survivor Instinct](https://hencheats.vercel.app/#PPSA20289-02.000.000) |
 | 2026-07-19 | ADDED | PPSA02182 | 01.024.000 | [Suicide Squad: Kill the Justice League](https://hencheats.vercel.app/#PPSA02182-01.024.000) |
 | 2026-07-19 | ADDED | PPSA17337 | 01.004.000 | [Space Adventure Cobra - The Awakening](https://hencheats.vercel.app/#PPSA17337-01.004.000) |
 | 2026-07-19 | ADDED | PPSA06568 | 01.000.000 | [Sword Art Online: Fractured Daydream](https://hencheats.vercel.app/#PPSA06568-01.000.000) |
