@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-19T22:45:05.9393019Z",
+  "generatedUtc": "2026-07-20T18:01:49.6972275Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -76916,6 +76916,41 @@
             "Max Boxes",
             "Max Wumpa by hejran7"
           ]
+        }
+      }
+    },
+    {
+      "id": "CUSA23470",
+      "version": "01.05",
+      "title": "Crash Bandicoot 4: It\u0027s About Time",
+      "idLower": "cusa23470",
+      "titleLower": "crash bandicoot 4: it\u0027s about time",
+      "cheatsTotal": 3,
+      "creators": [
+        "LuC-iTA"
+      ],
+      "creatorsLower": [
+        "luc-ita"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Jump in midair",
+            "Untouchable (Use with Jump in midair code)",
+            "Untouchable - Third AkuAku mask effect"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },
