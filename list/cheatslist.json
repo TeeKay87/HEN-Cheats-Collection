@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-20T18:01:49.6972275Z",
+  "generatedUtc": "2026-07-20T21:00:58.9632542Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -119033,6 +119033,45 @@
             "Stealth Kill (Touch)",
             "Untouchable",
             "Zero Weight (When Changed)"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA22322",
+      "version": "01.000.000",
+      "title": "Dragon Quest I \u0026 II HD-2D Remake",
+      "idLower": "ppsa22322",
+      "titleLower": "dragon quest i \u0026 ii hd-2d remake",
+      "cheatsTotal": 7,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 7,
+          "cheats": [
+            "1 Hit Kill",
+            "Infi HP",
+            "Infi Items Use",
+            "Infi MP",
+            "Max Medal",
+            "Max Money",
+            "Walking Speed x 2"
           ]
         }
       }
