@@ -1,0 +1,102 @@
+{
+  "name": "Revenge of the Savage Planet",
+  "id": "PPSA20154",
+  "version": "01.000.021",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "GodMode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4193F37",
+          "on": "9090909090",
+          "off": "E89451CAFF"
+        }
+      ]
+    },
+    {
+      "name": "Inf Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "631B000",
+          "on": "817B0848000400740DC5FA1183B8020000E9B6F8BFFDC5FA118BB8020000E9A9F8BFFD",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "3F1A8C4",
+          "on": "E937074002909090",
+          "off": "C5FA1183B8020000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Materials",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "631B072",
+          "on": "BA0F2700008954C1200154C108E94AC9DEFD",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "41079C6",
+          "on": "E9A7362102909090",
+          "off": "8954C1200154C108"
+        }
+      ]
+    },
+    {
+      "name": "Inf Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "631B043",
+          "on": "C4C17A1007C4C17A1107E9B2EDB2FD",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "3E49DF1",
+          "on": "E94D124D029090909090909090909090909090",
+          "off": "C4C17A1007C5FA5C45E4C5FA5FC1C4C17A1107"
+        }
+      ]
+    },
+    {
+      "name": "Inf Throwables",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "631B0A4",
+          "on": "8B0889084488B368010000E9E2CEDEFD",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "4107F8D",
+          "on": "E91231210290909090",
+          "off": "89084488B368010000"
+        }
+      ]
+    },
+    {
+      "name": "No Weapon Heat",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "631B0D4",
+          "on": "C5FA118B6C010000E97165FDFD",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "42F164A",
+          "on": "E9859A0202909090",
+          "off": "C5FA11836C010000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

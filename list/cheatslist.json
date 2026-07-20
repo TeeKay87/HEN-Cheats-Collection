@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-20T21:00:58.9632542Z",
+  "generatedUtc": "2026-07-20T21:08:05.4391065Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -118428,6 +118428,44 @@
             "Inf Ability 2",
             "Inf HP",
             "No Reload"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
+      "id": "PPSA20154",
+      "version": "01.000.021",
+      "title": "Revenge of the Savage Planet",
+      "idLower": "ppsa20154",
+      "titleLower": "revenge of the savage planet",
+      "cheatsTotal": 6,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 6,
+          "cheats": [
+            "GodMode",
+            "Inf Hp",
+            "Inf Materials",
+            "Inf Stamina",
+            "Inf Throwables",
+            "No Weapon Heat"
           ]
         },
         "shn": {
