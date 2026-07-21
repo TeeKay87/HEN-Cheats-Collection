@@ -1,3 +1,25 @@
+// Default sorting used when the URL does not contain a valid ?sort= value.
+// Available values:
+//   'title-asc'  = A-Z
+//   'title-desc' = Z-A
+//   'added-desc' = Newest first
+//   'added-asc'  = Oldest first
+const DEFAULT_SORT = 'added-desc';
+
+// Number of days an entry should be marked as NEW.
+// Example: 14 means the added date plus the following 13 days.
+const NEW_BADGE_DAYS = 7;
+
+// Repository location used by the per-format Download buttons.
+const CHEATS_REPOSITORY_BRANCH = 'master';
+const CHEATS_REPOSITORY_API_BASE_URL =
+  'https://api.github.com/repos/TeeKay87/HEN-Cheats-Collection';
+const CHEATS_TREE_API_URL =
+  `${CHEATS_REPOSITORY_API_BASE_URL}/git/trees/${CHEATS_REPOSITORY_BRANCH}?recursive=1`;
+const CHEATS_RAW_BASE_URL =
+  `https://raw.githubusercontent.com/TeeKay87/HEN-Cheats-Collection/${CHEATS_REPOSITORY_BRANCH}/cheats`;
+const DOWNLOADABLE_FORMATS = new Set(['json', 'mc4', 'shn']);
+
 const state = {
   entries: [],
   covers: new Map(),
@@ -5,7 +27,7 @@ const state = {
   notes: new Map(),
   favorites: new Set(),
   activeFilter: 'all',
-  activeSort: 'title-asc',
+  activeSort: DEFAULT_SORT,
   searchTerm: '',
   searchActive: false,
   filteredEntries: [],
@@ -58,9 +80,7 @@ const MINIMUM_CHARS_FOR_SEARCH = 2;
 
 const RENDER_BATCH_SIZE = 60;
 const SEARCH_DEBOUNCE_MS = 150;
-const DEFAULT_SORT = 'title-asc';
 const VALID_SORTS = new Set(['title-asc', 'title-desc', 'added-desc', 'added-asc']);
-const NEW_BADGE_DAYS = 14;
 const MILLISECONDS_PER_DAY = 24 * 60 * 60 * 1000;
 const MARKDOWN_ALLOWED_TAGS = [
   'p',
@@ -505,6 +525,7 @@ function buildCard(entry) {
   const card = clone.querySelector('.game-card');
   const favoriteButton = clone.querySelector('.favorite-btn');
   const newBadge = clone.querySelector('.new-badge');
+  const notesBadge = clone.querySelector('.notes-badge');
   const hitbox = clone.querySelector('.card-hitbox');
   const title = clone.querySelector('.card-title');
   const id = clone.querySelector('.card-id');
@@ -519,6 +540,12 @@ function buildCard(entry) {
   id.textContent = entry.id;
   version.textContent = `v${entry.version}`;
   cheats.textContent = `${entry.cheatsTotal} cheat${entry.cheatsTotal === 1 ? '' : 's'}`;
+
+  if (notesBadge && state.notes.has(key)) {
+    notesBadge.hidden = false;
+    notesBadge.title = 'This entry has notes';
+    notesBadge.setAttribute('aria-label', 'This entry has notes');
+  }
 
   if (newBadge && isNewEntry(entry)) {
     newBadge.hidden = false;
@@ -634,6 +661,318 @@ function renderCards() {
   else window.scrollTo({ top: 0, behavior: 'auto' });
 }
 
+let cheatFileIndexPromise = null;
+const cheatFormatDirectoryPromises = new Map();
+
+function getCheatDownloadDetails(entry, format) {
+  const normalizedFormat = String(format || '').trim().toLowerCase();
+
+  if (!DOWNLOADABLE_FORMATS.has(normalizedFormat)) {
+    return null;
+  }
+
+  return {
+    format: normalizedFormat,
+    filePrefix: `${entry.id}_${entry.version}`,
+    zipName: `${entry.id}_${entry.version}_${normalizedFormat.toUpperCase()}.zip`,
+  };
+}
+
+function buildRawCheatFileUrl(format, fileName) {
+  return [
+    CHEATS_RAW_BASE_URL,
+    encodeURIComponent(format),
+    encodeURIComponent(fileName),
+  ].join('/');
+}
+
+function isMatchingCheatFile(fileName, filePrefix, format) {
+  const normalizedName = String(fileName || '').toLowerCase();
+  const normalizedPrefix = String(filePrefix || '').toLowerCase();
+  const extension = `.${String(format || '').toLowerCase()}`;
+
+  return (
+    normalizedName === `${normalizedPrefix}${extension}` ||
+    (
+      normalizedName.startsWith(`${normalizedPrefix}_`) &&
+      normalizedName.endsWith(extension)
+    )
+  );
+}
+
+function normalizeCheatFile(format, fileName) {
+  return {
+    format,
+    fileName,
+    rawUrl: buildRawCheatFileUrl(format, fileName),
+  };
+}
+
+function sortMatchingCheatFiles(files, filePrefix, format) {
+  const primaryFileName = `${filePrefix}.${format}`.toLowerCase();
+
+  return files.sort((a, b) => {
+    const aIsPrimary = a.fileName.toLowerCase() === primaryFileName;
+    const bIsPrimary = b.fileName.toLowerCase() === primaryFileName;
+
+    if (aIsPrimary !== bIsPrimary) return aIsPrimary ? -1 : 1;
+
+    return a.fileName.localeCompare(b.fileName, undefined, {
+      numeric: true,
+      sensitivity: 'base',
+    });
+  });
+}
+
+async function fetchGitHubJson(url) {
+  const response = await fetch(url, {
+    cache: 'no-cache',
+    mode: 'cors',
+    headers: {
+      Accept: 'application/vnd.github+json',
+      'X-GitHub-Api-Version': '2022-11-28',
+    },
+  });
+
+  if (!response.ok) {
+    throw new Error(`GitHub API returned HTTP ${response.status}.`);
+  }
+
+  return response.json();
+}
+
+async function loadCheatFileIndex() {
+  if (!cheatFileIndexPromise) {
+    cheatFileIndexPromise = (async () => {
+      const treeData = await fetchGitHubJson(CHEATS_TREE_API_URL);
+
+      if (!Array.isArray(treeData.tree)) {
+        throw new Error('GitHub returned an invalid repository tree.');
+      }
+
+      const filesByFormat = new Map(
+        [...DOWNLOADABLE_FORMATS].map((format) => [format, []])
+      );
+
+      treeData.tree.forEach((item) => {
+        if (item?.type !== 'blob' || typeof item.path !== 'string') return;
+
+        const match = /^cheats\/(json|mc4|shn)\/([^/]+)$/i.exec(item.path);
+        if (!match) return;
+
+        const format = match[1].toLowerCase();
+        const fileName = match[2];
+        filesByFormat.get(format)?.push(normalizeCheatFile(format, fileName));
+      });
+
+      return {
+        filesByFormat,
+        truncated: treeData.truncated === true,
+      };
+    })().catch((error) => {
+      cheatFileIndexPromise = null;
+      throw error;
+    });
+  }
+
+  return cheatFileIndexPromise;
+}
+
+async function loadCheatFormatDirectory(format) {
+  if (!cheatFormatDirectoryPromises.has(format)) {
+    const directoryUrl =
+      `${CHEATS_REPOSITORY_API_BASE_URL}/contents/cheats/${encodeURIComponent(format)}` +
+      `?ref=${encodeURIComponent(CHEATS_REPOSITORY_BRANCH)}`;
+
+    const promise = fetchGitHubJson(directoryUrl)
+      .then((items) => {
+        if (!Array.isArray(items)) {
+          throw new Error(`GitHub returned an invalid ${format} directory listing.`);
+        }
+
+        return items
+          .filter((item) => item?.type === 'file' && typeof item.name === 'string')
+          .map((item) => normalizeCheatFile(format, item.name));
+      })
+      .catch((error) => {
+        cheatFormatDirectoryPromises.delete(format);
+        throw error;
+      });
+
+    cheatFormatDirectoryPromises.set(format, promise);
+  }
+
+  return cheatFormatDirectoryPromises.get(format);
+}
+
+function findMatchesInFiles(files, details) {
+  const uniqueFiles = new Map();
+
+  files.forEach((file) => {
+    if (
+      file?.format === details.format &&
+      isMatchingCheatFile(file.fileName, details.filePrefix, details.format)
+    ) {
+      uniqueFiles.set(file.fileName.toLowerCase(), file);
+    }
+  });
+
+  return sortMatchingCheatFiles(
+    [...uniqueFiles.values()],
+    details.filePrefix,
+    details.format
+  );
+}
+
+async function findMatchingCheatFiles(details) {
+  let treeMatches = [];
+  let treeWasTruncated = false;
+
+  try {
+    const treeIndex = await loadCheatFileIndex();
+    treeMatches = findMatchesInFiles(
+      treeIndex.filesByFormat.get(details.format) || [],
+      details
+    );
+    treeWasTruncated = treeIndex.truncated;
+
+    if (!treeWasTruncated) {
+      return treeMatches;
+    }
+  } catch (error) {
+    console.warn('Could not load the GitHub repository tree:', error);
+  }
+
+  try {
+    const directoryFiles = await loadCheatFormatDirectory(details.format);
+    const directoryMatches = findMatchesInFiles(directoryFiles, details);
+
+    return findMatchesInFiles(
+      [...treeMatches, ...directoryMatches],
+      details
+    );
+  } catch (directoryError) {
+    console.warn(
+      `Could not load the GitHub ${details.format} directory:`,
+      directoryError
+    );
+
+    if (treeMatches.length) {
+      return treeMatches;
+    }
+
+    // Preserve the original direct-download behavior as a final fallback.
+    // This still works for the normal ID_VERSION.ext filename.
+    const conventionalFileName = `${details.filePrefix}.${details.format}`;
+    return [normalizeCheatFile(details.format, conventionalFileName)];
+  }
+}
+
+function triggerBlobDownload(blob, fileName) {
+  const objectUrl = URL.createObjectURL(blob);
+  const link = document.createElement('a');
+  link.href = objectUrl;
+  link.download = fileName;
+  link.hidden = true;
+  document.body.append(link);
+  link.click();
+  link.remove();
+
+  window.setTimeout(() => URL.revokeObjectURL(objectUrl), 1000);
+}
+
+function setDownloadButtonState(button, stateName, label) {
+  button.classList.remove('is-loading', 'is-success', 'is-error');
+
+  if (stateName) {
+    button.classList.add(stateName);
+  }
+
+  button.textContent = label;
+}
+
+async function downloadCheatAsZip(entry, format, button) {
+  const details = getCheatDownloadDetails(entry, format);
+  if (!details) return;
+
+  const defaultLabel = 'Download';
+  button.disabled = true;
+  button.removeAttribute('title');
+  setDownloadButtonState(button, 'is-loading', 'Searching…');
+
+  try {
+    if (typeof window.JSZip !== 'function') {
+      throw new Error('JSZip is unavailable.');
+    }
+
+    const matchingFiles = await findMatchingCheatFiles(details);
+
+    if (!matchingFiles.length) {
+      throw new Error(
+        `No files matching ${details.filePrefix}*.${details.format} were found.`
+      );
+    }
+
+    const zip = new window.JSZip();
+
+    for (let index = 0; index < matchingFiles.length; index += 1) {
+      const file = matchingFiles[index];
+      setDownloadButtonState(
+        button,
+        'is-loading',
+        `Downloading ${index + 1}/${matchingFiles.length}…`
+      );
+
+      const response = await fetch(file.rawUrl, {
+        cache: 'no-cache',
+        mode: 'cors',
+      });
+
+      if (!response.ok) {
+        throw new Error(
+          `GitHub returned HTTP ${response.status} for ${file.fileName}.`
+        );
+      }
+
+      zip.file(file.fileName, await response.arrayBuffer());
+    }
+
+    setDownloadButtonState(
+      button,
+      'is-loading',
+      `Packing ${matchingFiles.length} file${matchingFiles.length === 1 ? '' : 's'}…`
+    );
+
+    const zipBlob = await zip.generateAsync({
+      type: 'blob',
+      compression: 'DEFLATE',
+      compressionOptions: { level: 6 },
+    });
+
+    triggerBlobDownload(zipBlob, details.zipName);
+    setDownloadButtonState(
+      button,
+      'is-success',
+      matchingFiles.length === 1 ? 'Downloaded' : `Downloaded ${matchingFiles.length}`
+    );
+  } catch (error) {
+    console.error(
+      `Could not download ${details.filePrefix}*.${details.format}:`,
+      error
+    );
+    button.title = error instanceof Error
+      ? error.message
+      : `Could not download ${details.filePrefix}*.${details.format}`;
+    setDownloadButtonState(button, 'is-error', 'Failed');
+  } finally {
+    window.setTimeout(() => {
+      button.disabled = false;
+      button.removeAttribute('title');
+      setDownloadButtonState(button, '', defaultLabel);
+    }, 2200);
+  }
+}
+
 function formatAvailableFormats(entry) {
   return Object.entries(entry.formats || {})
     .filter(([, data]) => data?.hasFile && data.cheatsCount > 0)
@@ -672,6 +1011,7 @@ function renderModal(entry, { fromNavigation = false } = {}) {
   availableFormats.forEach(([format, data]) => {
     const section = document.createElement('section');
     section.className = 'cheat-group';
+    const downloadDetails = getCheatDownloadDetails(entry, format);
 
     const items = data.cheats
       .map((cheat) => `<li>${escapeHtml(cheat)}</li>`)
@@ -679,11 +1019,26 @@ function renderModal(entry, { fromNavigation = false } = {}) {
 
     section.innerHTML = `
       <div class="cheat-group-header">
-        <h3>${escapeHtml(format)}</h3>
+        <div class="cheat-group-title-row">
+          <h3>${escapeHtml(format)}</h3>
+          ${
+            downloadDetails
+              ? `<button type="button" class="cheat-download-btn" aria-label="Download ${escapeHtml(format.toUpperCase())} cheat file as ZIP">Download</button>`
+              : ''
+          }
+        </div>
         <span class="cheat-count">${data.cheatsCount} cheat${data.cheatsCount === 1 ? '' : 's'}</span>
       </div>
       <ul class="cheat-list">${items}</ul>
     `;
+
+    const downloadButton = section.querySelector('.cheat-download-btn');
+    if (downloadButton) {
+      downloadButton.addEventListener('click', () => {
+        downloadCheatAsZip(entry, format, downloadButton);
+      });
+    }
+
     elements.modalCheatGroups.append(section);
   });
 

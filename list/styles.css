@@ -215,7 +215,7 @@ img {
 .toggle-btn:hover,
 .toggle-btn:focus-visible {
   color: var(--text);
-  transform: translateY(-1px);
+  transform: translateY(-3px);
 }
 
 .toggle-btn.is-active {
@@ -313,6 +313,38 @@ img {
   cursor: pointer;
 }
 
+.card-indicators {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6px;
+  flex: 0 0 auto;
+}
+
+.notes-badge {
+  display: inline-grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  flex: 0 0 30px;
+  border-radius: 999px;
+  color: #ebe7ff;
+  background: rgba(143, 124, 255, 0.3);
+  border: 1px solid rgba(190, 180, 255, 0.42);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.28);
+  pointer-events: none;
+}
+
+.notes-badge svg {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+
+.notes-badge[hidden] {
+  display: none;
+}
+
 .new-badge {
   display: inline-flex;
   align-items: center;
@@ -365,10 +397,11 @@ img {
 .favorite-btn::before,
 .modal-favorite-btn::before {
   content: "★";
-  font-size: 1.18rem;
+  font-size: 2rem;
   line-height: 1;
   color: rgba(255, 255, 255, 0.8);
   text-shadow: 0 1px 14px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3px);
 }
 
 .favorite-btn.is-favorite,
@@ -831,6 +864,60 @@ img {
   letter-spacing: 0.06em;
 }
 
+.cheat-group-title-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
+.cheat-download-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 100px;
+  min-height: 34px;
+  padding: 0 13px;
+  border-radius: 999px;
+  border: 1px solid rgba(110, 231, 183, 0.42);
+  background: rgba(110, 231, 183, 0.18);
+  color: #dff7eb;
+  font-size: 0.86rem;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+  transition: transform 180ms ease, background 180ms ease, border-color 180ms ease, opacity 180ms ease;
+}
+
+.cheat-download-btn:hover,
+.cheat-download-btn:focus-visible {
+  transform: translateY(-1px);
+  border-color: rgba(110, 231, 183, 0.72);
+  background: rgba(110, 231, 183, 0.28);
+}
+
+.cheat-download-btn:disabled {
+  cursor: wait;
+  opacity: 0.82;
+}
+
+.cheat-download-btn.is-loading {
+  background: rgba(108, 168, 255, 0.2);
+  border-color: rgba(108, 168, 255, 0.46);
+  color: #e2edff;
+}
+
+.cheat-download-btn.is-success {
+  background: rgba(110, 231, 183, 0.34);
+  border-color: rgba(110, 231, 183, 0.76);
+}
+
+.cheat-download-btn.is-error {
+  background: rgba(255, 119, 152, 0.18);
+  border-color: rgba(255, 119, 152, 0.48);
+  color: #ffd9e3;
+}
+
 .cheat-count {
   color: var(--muted);
   font-size: 0.9rem;
@@ -994,6 +1081,22 @@ img {
     min-height: 210px;
   }
 
+  .cheat-group-header {
+    align-items: flex-start;
+  }
+
+  .cheat-group-title-row {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .cheat-download-btn {
+    min-width: 88px;
+    min-height: 30px;
+    padding: 0 10px;
+    font-size: 0.8rem;
+  }
+
   .cheat-list {
     grid-template-columns: 1fr;
   }
@@ -1026,6 +1129,17 @@ img {
     min-height: 26px;
     font-size: 0.78rem;
     padding: 0 8px;
+  }
+
+  .notes-badge {
+    width: 26px;
+    height: 26px;
+    flex-basis: 26px;
+  }
+
+  .notes-badge svg {
+    width: 14px;
+    height: 14px;
   }
 }
 

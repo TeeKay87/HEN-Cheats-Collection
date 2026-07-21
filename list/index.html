@@ -195,7 +195,14 @@
           </div>
           <div class="card-bottom">
             <span class="card-cheats"></span>
-            <span class="new-badge" hidden>NEW</span>
+            <span class="card-indicators">
+              <span class="notes-badge" hidden>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6Zm0 2.5L17.5 8H14V4.5ZM8 12h8v2H8v-2Zm0 4h8v2H8v-2Z" />
+                </svg>
+              </span>
+              <span class="new-badge" hidden>NEW</span>
+            </span>
           </div>
         </div>
       </article>
@@ -203,6 +210,7 @@
 
     <script src="vendor/marked.umd.js" defer></script>
     <script src="vendor/purify.min.js" defer></script>
+    <script src="vendor/jszip.min.js" defer></script>
     <script src="app.js" defer></script>
   </body>
 </html>
