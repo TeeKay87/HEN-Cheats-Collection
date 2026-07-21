@@ -18,7 +18,7 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 
 > Play your way.
 
-![HEN Cheats Page](HENCheatsPage.png)
+![HEN Cheats Page](HENCheatsPage.jpg)
 
 ## Version History
 
