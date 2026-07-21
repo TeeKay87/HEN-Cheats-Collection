@@ -3,7 +3,7 @@
 2. Click `Download ZIP` (or click [here](https://github.com/TeeKay87/HEN-Cheats-Collection/archive/refs/heads/master.zip))
 
 ## How to use
-####Depending of which cheat engine you are using, the following steps may differ.
+#### Depending of which cheat engine you are using, the following steps may differ.
 
 - Download the entire repository by following the steps above.
 - The `Cheats-folder` in downloaded zip is ready for `etaHEN`.
