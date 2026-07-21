@@ -1,0 +1,123 @@
+{
+  "name": "TEVI",
+  "id": "PPSA21112",
+  "version": "01.000.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "--Inf_Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD1BF00",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "--One_Hit_Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD1BF01",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Godmode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "829EE3DF",
+          "on": "9090909090",
+          "off": "E85C6DFFFF"
+        }
+      ]
+    },
+    {
+      "name": "Inf Money And Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB096",
+          "on": "41BF3F420F0046017CA820E9207D1101",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "7FCCB0C6",
+          "on": "E90F171101",
+          "off": "0000000000"
+        },
+        {
+          "offset": "80DE2DC1",
+          "on": "E9D082EEFE",
+          "off": "46017CA820"
+        },
+        {
+          "offset": "80DDC7D5",
+          "on": "E9ECE8EEFE",
+          "off": "4429748120"
+        }
+      ]
+    },
+    {
+      "name": "Inf Mp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB06A",
+          "on": "C683CC01000001E979599001",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "815D09E9",
+          "on": "E97CA66FFE90",
+          "off": "8883CC010000"
+        }
+      ]
+    },
+    {
+      "name": "Master Code",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD1BF00",
+          "on": "00",
+          "off": "00"
+        },
+        {
+          "offset": "7FD1BF01",
+          "on": "00",
+          "off": "00"
+        },
+        {
+          "offset": "7FCCB000",
+          "on": "41813EA0DFBC027419803DF10E050001752C41C7863C01000000000000E98F7B4E01803DD70E0500017513418B86400100004189863C010000E9737B4E014189863C010000E9677B4E01",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "811B2BAA",
+          "on": "E95184B1FE9090",
+          "off": "4189863C010000"
+        }
+      ]
+    },
+    {
+      "name": "Stop Timer",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80DF900F",
+          "on": "9090909090909090",
+          "off": "C5FA1183E8010000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

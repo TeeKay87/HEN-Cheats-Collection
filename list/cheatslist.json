@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-20T21:08:05.4391065Z",
+  "generatedUtc": "2026-07-21T09:20:33.5454247Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -118835,6 +118835,45 @@
             "Max Stats (Party)",
             "Run Speed x 2"
           ]
+        }
+      }
+    },
+    {
+      "id": "PPSA21112",
+      "version": "01.000.000",
+      "title": "TEVI",
+      "idLower": "ppsa21112",
+      "titleLower": "tevi",
+      "cheatsTotal": 7,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 7,
+          "cheats": [
+            "--Inf_Hp",
+            "--One_Hit_Kill",
+            "Godmode",
+            "Inf Money And Items",
+            "Inf Mp",
+            "Master Code",
+            "Stop Timer"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },

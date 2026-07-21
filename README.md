@@ -26,6 +26,7 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-07-21 | ADDED | PPSA21112 | 01.000.000 | [TEVI](https://hencheats.vercel.app/#PPSA21112-01.000.000) |
 | 2026-07-20 | ADDED | PPSA20154 | 01.000.021 | [Revenge of the Savage Planet](https://hencheats.vercel.app/#PPSA20154-01.000.021) |
 | 2026-07-20 | ADDED | PPSA22322 | 01.000.000 | [Dragon Quest I & II HD-2D Remake](https://hencheats.vercel.app/#PPSA22322-01.000.000) |
 | 2026-07-20 | ADDED | CUSA23470 | 01.05 | [Crash Bandicoot 4: It's About Time](https://hencheats.vercel.app/#CUSA23470-01.05) |
