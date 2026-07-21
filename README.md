@@ -10,17 +10,17 @@ Depending of which cheat engine you are using, the following steps may differ.
 - In the `Cheats-folder` are three `.bat` files to convert the collection for other cheat engines.
 
 # Use with GoldHEN/etaHEN
-1 FTP into your PlayStation.
-2 Delete, rename or backup the `cheats` folder from `/data/etaHEN/` *(PS5)* or `/user/data/GoldHEN/` *(PS4)*.
-3 Place the `cheats` folder from my collection in its place.
+1. FTP into your PlayStation.
+2. Delete, rename or backup the `cheats` folder from `/data/etaHEN/` *(PS5)* or `/user/data/GoldHEN/` *(PS4)*.
+3. Place the `cheats` folder from my collection in its place.
 
 # Use with another cheat engine
-1 Run the `.bat` that matches your choice of cheat engine.
-2 This creates a `data-folder` and copies all the cheat-files into the correct folders.
-3 FTP into your PlayStation.
-4 **`IMPORTANT! DO NOT DELETE THE DATA FOLDER FROM YOUR PLAYSTAION`**
-5 Drop the newly created `data-folder` in the same place as the one on your PlayStation.
-6 Overwrite any old cheats with the new ones.
+1. Run the `.bat` that matches your choice of cheat engine.
+2. This creates a `data-folder` and copies all the cheat-files into the correct folders.
+3. FTP into your PlayStation.
+4. **`IMPORTANT! DO NOT DELETE THE DATA FOLDER FROM YOUR PLAYSTAION`**
+5. Drop the newly created `data-folder` in the same place as the one on your PlayStation.
+6. Overwrite any old cheats with the new ones.
 
 **`IMPORTANT!` Restart and re-jb the PlayStation. Enjoy your brand new cheats**.
 
