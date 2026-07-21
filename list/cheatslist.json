@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-21T09:20:33.5454247Z",
+  "generatedUtc": "2026-07-21T11:27:39.1997682Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -118213,7 +118213,7 @@
       "title": "Gears of War: Reloaded",
       "idLower": "ppsa17525",
       "titleLower": "gears of war: reloaded",
-      "cheatsTotal": 6,
+      "cheatsTotal": 9,
       "creators": [
         "Talixme"
       ],
@@ -118223,11 +118223,14 @@
       "formats": {
         "json": {
           "hasFile": true,
-          "cheatsCount": 3,
+          "cheatsCount": 6,
           "cheats": [
             "Inf Ammo",
             "Inf Hp",
-            "Inf Hp And Onehitkill"
+            "Inf Hp And Onehitkill",
+            "--Inf_Hp",
+            "--One_Hit_Kill",
+            "Master Code"
           ]
         },
         "shn": {

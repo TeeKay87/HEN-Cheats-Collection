@@ -1,8 +1,11 @@
 const state = {
   entries: [],
   covers: new Map(),
+  addedDates: new Map(),
+  notes: new Map(),
   favorites: new Set(),
   activeFilter: 'all',
+  activeSort: 'title-asc',
   searchTerm: '',
   searchActive: false,
   filteredEntries: [],
@@ -20,6 +23,7 @@ const elements = {
   statusMessage: document.getElementById('statusMessage'),
   emptyState: document.getElementById('emptyState'),
   resultsLine: document.getElementById('resultsLine'),
+  sortSelect: document.getElementById('sortSelect'),
   footerGenerated: document.getElementById('footerGenerated'),
   footerCreated: document.getElementById('footerCreated'),
   modalRoot: document.getElementById('modalRoot'),
@@ -30,6 +34,8 @@ const elements = {
   modalIdVersion: document.getElementById('modalIdVersion'),
   modalCheatsTotal: document.getElementById('modalCheatsTotal'),
   modalCreators: document.getElementById('modalCreators'),
+  modalNotes: document.getElementById('modalNotes'),
+  modalNotesContent: document.getElementById('modalNotesContent'),
   modalGameId: document.getElementById('modalGameId'),
   modalVersion: document.getElementById('modalVersion'),
   modalFormats: document.getElementById('modalFormats'),
@@ -42,6 +48,7 @@ const elements = {
 const STORAGE_KEY = 'hen-cheats-favorites';
 const SEARCH_PARAM = 'q';
 const FILTER_PARAM = 'view';
+const SORT_PARAM = 'sort';
 const HASH_SEPARATOR = '-';
 const COVERART_SIZE = '384';
 const COVERART_SUFFIX = '?w=' + COVERART_SIZE + '&thumb=false';
@@ -51,9 +58,63 @@ const MINIMUM_CHARS_FOR_SEARCH = 2;
 
 const RENDER_BATCH_SIZE = 60;
 const SEARCH_DEBOUNCE_MS = 150;
+const DEFAULT_SORT = 'title-asc';
+const VALID_SORTS = new Set(['title-asc', 'title-desc', 'added-desc', 'added-asc']);
+const NEW_BADGE_DAYS = 14;
+const MILLISECONDS_PER_DAY = 24 * 60 * 60 * 1000;
+const MARKDOWN_ALLOWED_TAGS = [
+  'p',
+  'h1', 'h2', 'h3', 'h4', 'h5', 'h6',
+  'strong',
+  'em',
+  'blockquote',
+  'ol', 'ul', 'li',
+  'code',
+  'hr',
+  'a',
+  'br',
+];
+const MARKDOWN_ALLOWED_ATTRIBUTES = ['href', 'title'];
 
 function entryKey(entry) {
   return `${entry.id}${HASH_SEPARATOR}${entry.version}`;
+}
+
+function parseDateOnlyUtc(value) {
+  const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(value || '').trim());
+  if (!match) return null;
+
+  const year = Number(match[1]);
+  const month = Number(match[2]);
+  const day = Number(match[3]);
+  const timestamp = Date.UTC(year, month - 1, day);
+  const parsed = new Date(timestamp);
+
+  if (
+    parsed.getUTCFullYear() !== year ||
+    parsed.getUTCMonth() !== month - 1 ||
+    parsed.getUTCDate() !== day
+  ) {
+    return null;
+  }
+
+  return timestamp;
+}
+
+function getTodayUtcTimestamp() {
+  const now = new Date();
+  return Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
+}
+
+function isNewEntry(entry) {
+  const addedTimestamp = parseDateOnlyUtc(entry.addedDate);
+  if (addedTimestamp === null) return false;
+
+  const ageInDays = Math.floor(
+    (getTodayUtcTimestamp() - addedTimestamp) / MILLISECONDS_PER_DAY
+  );
+
+  return ageInDays >= 0 && ageInDays < NEW_BADGE_DAYS;
 }
 
 function escapeHtml(value) {
@@ -63,6 +124,64 @@ function escapeHtml(value) {
     .replaceAll('>', '&gt;')
     .replaceAll('"', '&quot;')
     .replaceAll("'", '&#39;');
+}
+
+function renderBasicMarkdown(markdownText) {
+  const source = String(markdownText || '').trim();
+  if (!source) return '';
+
+  if (!window.marked?.Marked || !window.marked?.Renderer || !window.DOMPurify) {
+    console.warn('Markdown libraries are unavailable. Showing the note as plain text.');
+    return `<p>${escapeHtml(source).replaceAll('\n', '<br>')}</p>`;
+  }
+
+  const renderer = new window.marked.Renderer();
+
+  // Raw HTML is not part of the supported notes syntax.
+  renderer.html = ({ text }) => escapeHtml(text);
+
+  // Images are intentionally unsupported and are shown as their alt text only.
+  renderer.image = ({ text }) => escapeHtml(text || '');
+
+  // Only inline code is supported. Block/fenced code is displayed as plain text.
+  renderer.code = ({ text }) => `<p>${escapeHtml(text)}</p>`;
+
+  const markdownParser = new window.marked.Marked({
+    renderer,
+    gfm: false,
+    breaks: false,
+    pedantic: false,
+  });
+
+  const parsedHtml = markdownParser.parse(source);
+  const sanitizedHtml = window.DOMPurify.sanitize(parsedHtml, {
+    ALLOWED_TAGS: MARKDOWN_ALLOWED_TAGS,
+    ALLOWED_ATTR: MARKDOWN_ALLOWED_ATTRIBUTES,
+  });
+
+  const template = document.createElement('template');
+  template.innerHTML = sanitizedHtml;
+
+  template.content.querySelectorAll('a').forEach((link) => {
+    const href = link.getAttribute('href');
+
+    try {
+      const url = new URL(href || '', window.location.href);
+      if (!['http:', 'https:'].includes(url.protocol)) {
+        link.removeAttribute('href');
+        link.removeAttribute('title');
+        return;
+      }
+
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+    } catch {
+      link.removeAttribute('href');
+      link.removeAttribute('title');
+    }
+  });
+
+  return template.innerHTML;
 }
 
 function normalize(value) {
@@ -89,6 +208,24 @@ function getCoverUrl(entry) {
   if (idCover && idCover !== 'no-image') return idCover;
 
   return null;
+}
+
+async function loadOptionalJson(url, fallbackValue) {
+  try {
+    const response = await fetch(url);
+
+    if (!response.ok) {
+      if (response.status !== 404) {
+        console.warn(`Could not load ${url}: HTTP ${response.status}`);
+      }
+      return fallbackValue;
+    }
+
+    return await response.json();
+  } catch (error) {
+    console.warn(`Could not load ${url}:`, error);
+    return fallbackValue;
+  }
 }
 
 function loadFavorites() {
@@ -153,9 +290,12 @@ function syncHeaderState() {
 
 function getSearchParams() {
   const params = new URLSearchParams(window.location.search);
+  const requestedSort = params.get(SORT_PARAM) || DEFAULT_SORT;
+
   return {
     q: params.get(SEARCH_PARAM) || '',
     view: params.get(FILTER_PARAM) === 'favorites' ? 'favorites' : 'all',
+    sort: VALID_SORTS.has(requestedSort) ? requestedSort : DEFAULT_SORT,
   };
 }
 
@@ -173,6 +313,9 @@ function buildUrl({ preserveHash = true } = {}) {
 
   if (state.activeFilter === 'favorites') params.set(FILTER_PARAM, 'favorites');
   else params.delete(FILTER_PARAM);
+
+  if (state.activeSort !== DEFAULT_SORT) params.set(SORT_PARAM, state.activeSort);
+  else params.delete(SORT_PARAM);
 
   const nextQuery = params.toString();
   const nextHash =
@@ -222,7 +365,9 @@ function applyControlsFromUrl() {
   const params = getSearchParams();
   state.searchTerm = params.q;
   state.activeFilter = params.view;
+  state.activeSort = params.sort;
   elements.searchInput.value = params.q;
+  elements.sortSelect.value = params.sort;
   elements.toggleButtons.forEach((button) => {
     const isActive = button.dataset.filter === state.activeFilter;
     button.classList.toggle('is-active', isActive);
@@ -235,23 +380,72 @@ function getEffectiveSearchTerm(value) {
   return normalizedValue.length >= MINIMUM_CHARS_FOR_SEARCH ? normalizedValue : '';
 }
 
+function compareAlphabetically(a, b, titleDirection = 1) {
+  const titleSort = a.title.localeCompare(b.title, undefined, { sensitivity: 'base' });
+  if (titleSort !== 0) return titleSort * titleDirection;
+
+  const idSort = a.id.localeCompare(b.id, undefined, { sensitivity: 'base' });
+  if (idSort !== 0) return idSort;
+
+  return a.version.localeCompare(b.version, undefined, {
+    numeric: true,
+    sensitivity: 'base',
+  });
+}
+
+function compareByAddedDate(a, b, newestFirst) {
+  const aTimestamp = parseDateOnlyUtc(a.addedDate);
+  const bTimestamp = parseDateOnlyUtc(b.addedDate);
+  const aHasDate = aTimestamp !== null;
+  const bHasDate = bTimestamp !== null;
+
+  // Entries without a known added date always appear last.
+  if (aHasDate !== bHasDate) return aHasDate ? -1 : 1;
+
+  if (aHasDate && bHasDate && aTimestamp !== bTimestamp) {
+    return newestFirst
+      ? bTimestamp - aTimestamp
+      : aTimestamp - bTimestamp;
+  }
+
+  return compareAlphabetically(a, b);
+}
+
+function sortEntries(entries) {
+  return entries.sort((a, b) => {
+    switch (state.activeSort) {
+      case 'title-desc':
+        return compareAlphabetically(a, b, -1);
+      case 'added-desc':
+        return compareByAddedDate(a, b, true);
+      case 'added-asc':
+        return compareByAddedDate(a, b, false);
+      case 'title-asc':
+      default:
+        return compareAlphabetically(a, b);
+    }
+  });
+}
+
 function filterEntries() {
   const effectiveSearch = getEffectiveSearchTerm(state.searchTerm);
   const useSearch = effectiveSearch.length >= MINIMUM_CHARS_FOR_SEARCH;
 
-  state.filteredEntries = state.entries.filter((entry) => {
-    if (state.activeFilter === 'favorites' && !state.favorites.has(entryKey(entry))) {
-      return false;
-    }
+  state.filteredEntries = sortEntries(
+    state.entries.filter((entry) => {
+      if (state.activeFilter === 'favorites' && !state.favorites.has(entryKey(entry))) {
+        return false;
+      }
 
-    if (!useSearch) return true;
+      if (!useSearch) return true;
 
-    return (
-      entry.searchBlob.includes(effectiveSearch) ||
-      entry.idLower.includes(effectiveSearch) ||
-      entry.titleLower.includes(effectiveSearch)
-    );
-  });
+      return (
+        entry.searchBlob.includes(effectiveSearch) ||
+        entry.idLower.includes(effectiveSearch) ||
+        entry.titleLower.includes(effectiveSearch)
+      );
+    })
+  );
 
   const shownEntries = state.filteredEntries.length;
   const shownGames = countUniqueGames(state.filteredEntries);
@@ -310,6 +504,7 @@ function buildCard(entry) {
   const clone = elements.cardTemplate.content.cloneNode(true);
   const card = clone.querySelector('.game-card');
   const favoriteButton = clone.querySelector('.favorite-btn');
+  const newBadge = clone.querySelector('.new-badge');
   const hitbox = clone.querySelector('.card-hitbox');
   const title = clone.querySelector('.card-title');
   const id = clone.querySelector('.card-id');
@@ -324,6 +519,12 @@ function buildCard(entry) {
   id.textContent = entry.id;
   version.textContent = `v${entry.version}`;
   cheats.textContent = `${entry.cheatsTotal} cheat${entry.cheatsTotal === 1 ? '' : 's'}`;
+
+  if (newBadge && isNewEntry(entry)) {
+    newBadge.hidden = false;
+    newBadge.title = `Added ${entry.addedDate}`;
+    newBadge.setAttribute('aria-label', `New entry added ${entry.addedDate}`);
+  }
 
   cover.loading = 'lazy';
   cover.decoding = 'async';
@@ -451,6 +652,15 @@ function renderModal(entry, { fromNavigation = false } = {}) {
   elements.modalIdVersion.textContent = `${entry.id} · ${entry.version}`;
   elements.modalCheatsTotal.textContent = `${entry.cheatsTotal} total cheats`;
   elements.modalCreators.textContent = `By ${creatorsText}`;
+
+  const noteText = state.notes.get(state.activeEntryKey);
+  if (typeof noteText === 'string' && noteText.trim()) {
+    elements.modalNotesContent.innerHTML = renderBasicMarkdown(noteText);
+    elements.modalNotes.hidden = false;
+  } else {
+    elements.modalNotesContent.innerHTML = '';
+    elements.modalNotes.hidden = true;
+  }
 
   // modal hero still gets the full-size 1024 image
   elements.modalHero.style.backgroundImage = coverUrl
@@ -587,6 +797,15 @@ function initEvents() {
     });
   });
 
+  elements.sortSelect.addEventListener('change', (event) => {
+    state.activeSort = VALID_SORTS.has(event.target.value)
+      ? event.target.value
+      : DEFAULT_SORT;
+    updateUrl();
+    filterEntries();
+    renderCards();
+  });
+
   elements.modalClose.addEventListener('click', closeModal);
   elements.modalBackdrop.addEventListener('click', closeModal);
   document.addEventListener('keydown', (event) => {
@@ -616,9 +835,11 @@ async function loadData() {
   elements.statusMessage.hidden = false;
   elements.statusMessage.textContent = 'Loading data files…';
 
-  const [cheatsResponse, coversResponse] = await Promise.all([
+  const [cheatsResponse, coversResponse, addedData, notesData] = await Promise.all([
     fetch('./cheatslist.json'),
     fetch('./covers.json'),
+    loadOptionalJson('./added.json', {}),
+    loadOptionalJson('./notes.json', {}),
   ]);
 
   if (!cheatsResponse.ok || !coversResponse.ok) {
@@ -626,22 +847,42 @@ async function loadData() {
   }
 
   const [cheatsData, coversData] = await Promise.all([cheatsResponse.json(), coversResponse.json()]);
+  const validAddedData =
+    addedData && typeof addedData === 'object' && !Array.isArray(addedData)
+      ? addedData
+      : {};
+
+  if (validAddedData !== addedData) {
+    console.warn('added.json must contain a JSON object. NEW badges have been disabled.');
+  }
+
+  state.addedDates = new Map(
+    Object.entries(validAddedData).map(([key, date]) => [key, String(date)])
+  );
+
+  const validNotesData =
+    notesData && typeof notesData === 'object' && !Array.isArray(notesData)
+      ? notesData
+      : {};
+
+  if (validNotesData !== notesData) {
+    console.warn('notes.json must contain a JSON object. Notes have been disabled.');
+  }
+
+  state.notes = new Map(
+    Object.entries(validNotesData)
+      .filter(([, note]) => typeof note === 'string' && note.trim())
+      .map(([key, note]) => [key, note])
+  );
 
   state.generatedUtc = parseGeneratedDate(cheatsData.generatedUtc || cheatsData.generatedUTC || coversData.generatedUtc);
-  state.entries = [...(cheatsData.entries || [])]
-    .map((entry) => ({
-      ...entry,
-      idLower: normalizeSearch(entry.id),
-      titleLower: normalizeSearch(entry.title),
-      searchBlob: [entry.id, entry.title, ...(entry.creators || [])].map(normalizeSearch).join(' | '),
-    }))
-    .sort((a, b) => {
-      const titleSort = a.title.localeCompare(b.title, undefined, { sensitivity: 'base' });
-      if (titleSort !== 0) return titleSort;
-      const idSort = a.id.localeCompare(b.id, undefined, { sensitivity: 'base' });
-      if (idSort !== 0) return idSort;
-      return a.version.localeCompare(b.version, undefined, { numeric: true, sensitivity: 'base' });
-    });
+  state.entries = [...(cheatsData.entries || [])].map((entry) => ({
+    ...entry,
+    addedDate: state.addedDates.get(entryKey(entry)) || null,
+    idLower: normalizeSearch(entry.id),
+    titleLower: normalizeSearch(entry.title),
+    searchBlob: [entry.id, entry.title, ...(entry.creators || [])].map(normalizeSearch).join(' | '),
+  }));
 
   state.totalGames = countUniqueGames(state.entries);
   state.covers = new Map(

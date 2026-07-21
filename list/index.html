@@ -72,7 +72,18 @@
                 <button type="button" class="toggle-btn" data-filter="favorites">Favorites</button>
               </div>
             </div>
-            <p class="results-line" id="resultsLine">Loading collection…</p>
+            <div class="results-row">
+              <p class="results-line" id="resultsLine">Loading collection…</p>
+              <label class="sort-control" for="sortSelect">
+                <span>Sort by</span>
+                <select id="sortSelect" aria-label="Sort entries">
+                  <option value="title-asc">A–Z</option>
+                  <option value="title-desc">Z–A</option>
+                  <option value="added-desc">Newest</option>
+                  <option value="added-asc">Oldest</option>
+                </select>
+              </label>
+            </div>
           </div>
         </div>
       </header>
@@ -156,6 +167,13 @@
           </div>
 		  -->
 
+          <section class="notes-panel" id="modalNotes" aria-labelledby="modalNotesTitle" hidden>
+            <div class="notes-panel-header">
+              <h3 id="modalNotesTitle">Notes</h3>
+            </div>
+            <div class="notes-content" id="modalNotesContent"></div>
+          </section>
+
           <div class="cheat-groups" id="modalCheatGroups"></div>
         </div>
       </section>
@@ -177,11 +195,14 @@
           </div>
           <div class="card-bottom">
             <span class="card-cheats"></span>
+            <span class="new-badge" hidden>NEW</span>
           </div>
         </div>
       </article>
     </template>
 
+    <script src="vendor/marked.umd.js" defer></script>
+    <script src="vendor/purify.min.js" defer></script>
     <script src="app.js" defer></script>
   </body>
 </html>
