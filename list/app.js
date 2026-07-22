@@ -14,6 +14,8 @@ const NEW_BADGE_DAYS = 7;
 const CHEATS_REPOSITORY_BRANCH = 'master';
 const CHEATS_REPOSITORY_API_BASE_URL =
   'https://api.github.com/repos/TeeKay87/HEN-Cheats-Collection';
+const CHEATS_NEW_ISSUE_URL =
+  'https://github.com/TeeKay87/HEN-Cheats-Collection/issues/new';
 const CHEATS_TREE_API_URL =
   `${CHEATS_REPOSITORY_API_BASE_URL}/git/trees/${CHEATS_REPOSITORY_BRANCH}?recursive=1`;
 const CHEATS_RAW_BASE_URL =
@@ -678,6 +680,41 @@ function getCheatDownloadDetails(entry, format) {
   };
 }
 
+function buildCheatIssueUrl(entry, format) {
+  const normalizedFormat = String(format || '').trim().toUpperCase();
+  const issueTitle = `Cheat Issue: ${entry.id} | ${entry.version} | ${normalizedFormat} | ${entry.title}`;
+  const issueBody = `## Cheat information
+
+- **Game:** ${entry.title}
+- **ID:** ${entry.id}
+- **Version:** ${entry.version}
+- **Format:** ${normalizedFormat}
+- **Firmware:** 
+- **Cheat Engine:** 
+
+[https://hencheats.vercel.app/#${entry.id}-${entry.version}](https://hencheats.vercel.app/#${entry.id}-${entry.version})
+
+## Problem description
+
+
+
+## Expected behavior
+
+
+
+## Additional information
+
+
+`;
+
+  const params = new URLSearchParams({
+    title: issueTitle,
+    body: issueBody,
+  });
+
+  return `${CHEATS_NEW_ISSUE_URL}?${params.toString()}`;
+}
+
 function buildRawCheatFileUrl(format, fileName) {
   return [
     CHEATS_RAW_BASE_URL,
@@ -1017,15 +1054,24 @@ function renderModal(entry, { fromNavigation = false } = {}) {
       .map((cheat) => `<li>${escapeHtml(cheat)}</li>`)
       .join('');
 
+    const reportIssueUrl = buildCheatIssueUrl(entry, format);
+
     section.innerHTML = `
       <div class="cheat-group-header">
-        <div class="cheat-group-title-row">
-          <h3>${escapeHtml(format)}</h3>
+        <h3>${escapeHtml(format)}</h3>
+        <div class="cheat-group-actions">
           ${
             downloadDetails
               ? `<button type="button" class="cheat-download-btn" aria-label="Download ${escapeHtml(format.toUpperCase())} cheat file as ZIP">Download</button>`
               : ''
           }
+          <a
+            class="cheat-report-btn"
+            href="${escapeHtml(reportIssueUrl)}"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Report a problem with ${escapeHtml(entry.title)} ${escapeHtml(entry.id)} version ${escapeHtml(entry.version)}"
+          >Report Problem</a>
         </div>
         <span class="cheat-count">${data.cheatsCount} cheat${data.cheatsCount === 1 ? '' : 's'}</span>
       </div>

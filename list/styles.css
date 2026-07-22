@@ -850,9 +850,9 @@ img {
 }
 
 .cheat-group-header {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
   align-items: center;
-  justify-content: space-between;
   gap: 10px;
   margin-bottom: 14px;
 }
@@ -864,14 +864,16 @@ img {
   letter-spacing: 0.06em;
 }
 
-.cheat-group-title-row {
+.cheat-group-actions {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  justify-content: flex-start;
+  gap: 8px;
   min-width: 0;
 }
 
-.cheat-download-btn {
+.cheat-download-btn,
+.cheat-report-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -879,14 +881,25 @@ img {
   min-height: 34px;
   padding: 0 13px;
   border-radius: 999px;
-  border: 1px solid rgba(110, 231, 183, 0.42);
-  background: rgba(110, 231, 183, 0.18);
-  color: #dff7eb;
   font-size: 0.86rem;
   font-weight: 700;
   line-height: 1;
   cursor: pointer;
+  text-decoration: none;
+  white-space: nowrap;
   transition: transform 180ms ease, background 180ms ease, border-color 180ms ease, opacity 180ms ease;
+}
+
+.cheat-download-btn {
+  border: 1px solid rgba(110, 231, 183, 0.42);
+  background: rgba(110, 231, 183, 0.18);
+  color: #dff7eb;
+}
+
+.cheat-report-btn {
+  border: 1px solid rgba(255, 119, 152, 0.42);
+  background: rgba(255, 119, 152, 0.14);
+  color: #ffd9e3;
 }
 
 .cheat-download-btn:hover,
@@ -894,6 +907,13 @@ img {
   transform: translateY(-1px);
   border-color: rgba(110, 231, 183, 0.72);
   background: rgba(110, 231, 183, 0.28);
+}
+
+.cheat-report-btn:hover,
+.cheat-report-btn:focus-visible {
+  transform: translateY(-1px);
+  border-color: rgba(255, 119, 152, 0.72);
+  background: rgba(255, 119, 152, 0.24);
 }
 
 .cheat-download-btn:disabled {
@@ -1085,12 +1105,12 @@ img {
     align-items: flex-start;
   }
 
-  .cheat-group-title-row {
+  .cheat-group-actions {
     flex-wrap: wrap;
-    gap: 8px;
   }
 
-  .cheat-download-btn {
+  .cheat-download-btn,
+  .cheat-report-btn {
     min-width: 88px;
     min-height: 30px;
     padding: 0 10px;
@@ -1144,6 +1164,37 @@ img {
 }
 
 @media (max-width: 480px) {
+
+  .cheat-group-header {
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 10px 12px;
+  }
+
+  .cheat-group-header h3 {
+    grid-column: 1;
+    grid-row: 1;
+    align-self: center;
+  }
+
+  .cheat-count {
+    grid-column: 2;
+    grid-row: 1;
+    align-self: center;
+    text-align: right;
+  }
+
+  .cheat-group-actions {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    width: 100%;
+    flex-wrap: nowrap;
+  }
+
+  .cheat-download-btn,
+  .cheat-report-btn {
+    flex: 1 1 0;
+    min-width: 0;
+  }
 
   .header-inner {
     padding: 12px 10px 8px;

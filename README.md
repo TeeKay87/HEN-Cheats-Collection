@@ -574,6 +574,7 @@ Big improvements to the website:
 - New cheats get a `NEW`-badge.
 - Entries now supports notes. This will be the main way to convey information going forward regarding cheats and anything related to it.
 - Cheats can now be downloaded directly from the website. Browse for a game, enter it's card, and download just the cheat file you want. To download the whole collection you still have to go to [GitHub](https://github.com/TeeKay87/HEN-Cheats-Collection).
+- You can now report cheat issues directly from the game-cards on the webiste.
 
 ### 2026-07-11
 Fixed a couple of things.
