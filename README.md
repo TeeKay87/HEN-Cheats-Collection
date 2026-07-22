@@ -49,6 +49,7 @@ The website lets you:
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-07-22 | ADDED | CUSA05164 | 01.01 | [Valentino Rossi The Game](https://hencheats.vercel.app/#CUSA05164-01.01) |
 | 2026-07-21 | UPDATE | PPSA17525 | 01.008.001 | [Gears of War: Reloaded](https://hencheats.vercel.app/#PPSA17525-01.008.001) |
 | 2026-07-21 | ADDED | PPSA21112 | 01.000.000 | [TEVI](https://hencheats.vercel.app/#PPSA21112-01.000.000) |
 | 2026-07-20 | ADDED | PPSA20154 | 01.000.021 | [Revenge of the Savage Planet](https://hencheats.vercel.app/#PPSA20154-01.000.021) |
@@ -567,6 +568,13 @@ The website lets you:
 </details>
 
 ## Notes
+### 2026-07-21
+Big improvements to the website:
+- Sorting options - Sort by A-Z, Z-A, New-Old, Old-New.
+- New cheats get a `NEW`-badge.
+- Entries now supports notes. This will be the main way to convey information going forward regarding cheats and anything related to it.
+- Cheats can now be downloaded directly from the website. Browse for a game, enter it's card, and download just the cheat file you want. To download the whole collection you still have to go to [GitHub](https://github.com/TeeKay87/HEN-Cheats-Collection).
+
 ### 2026-07-11
 Fixed a couple of things.
 - All involved cheat creators are now credited when cheat files are merged. Previously a bug caused only the creator of the first file to be credited.
