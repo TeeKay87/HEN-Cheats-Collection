@@ -49,6 +49,7 @@ The website lets you:
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-07-23 | ADDED | PPSA15368 | 01.000.003 | [Contra: Operation Galuga](https://hencheats.vercel.app/#PPSA15368-01.000.003) |
 | 2026-07-23 | ADDED | PPSA01903 | 01.005.000 | [Final Fantasy VII Remake Intergrade](https://hencheats.vercel.app/#PPSA01903-01.005.000) |
 | 2026-07-22 | ADDED | CUSA05164 | 01.01 | [Valentino Rossi The Game](https://hencheats.vercel.app/#CUSA05164-01.01) |
 | 2026-07-21 | UPDATE | PPSA17525 | 01.008.001 | [Gears of War: Reloaded](https://hencheats.vercel.app/#PPSA17525-01.008.001) |

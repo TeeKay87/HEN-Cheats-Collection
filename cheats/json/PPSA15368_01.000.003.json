@@ -1,0 +1,71 @@
+{
+  "name": "Contra: Operation Galuga",
+  "id": "PPSA15368",
+  "version": "01.000.003",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Hover",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "823546A6",
+          "on": "C5FA11B36C060000",
+          "off": "C5FA11836C060000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCC7000",
+          "on": "6683780C01740B89084883C418E9BFE38500B9A00F000089084883C418E9AFE38500",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "805253CB",
+          "on": "E9301C7AFF90",
+          "off": "89084883C418"
+        }
+      ]
+    },
+    {
+      "name": "Inf Jumps",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCC7074",
+          "on": "C680E905000002E93B156902",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "823585B4",
+          "on": "E9BBEA96FD9090",
+          "off": "C680E905000000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Lives",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCC7042",
+          "on": "41BF6300000045897D104C89EFE91DD05A00",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "8027406A",
+          "on": "E9D32FA5FF9090",
+          "off": "45897D104C89EF"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Saso_PS5",
+    "Talixme"
+  ]
+}

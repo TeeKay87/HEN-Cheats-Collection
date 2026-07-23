@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-23T08:54:47.0146861Z",
+  "generatedUtc": "2026-07-23T13:08:33.6162017Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -117820,6 +117820,44 @@
             "Infi Stamina",
             "Untouchable"
           ]
+        }
+      }
+    },
+    {
+      "id": "PPSA15368",
+      "version": "01.000.003",
+      "title": "Contra: Operation Galuga",
+      "idLower": "ppsa15368",
+      "titleLower": "contra: operation galuga",
+      "cheatsTotal": 4,
+      "creators": [
+        "Saso_PS5",
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "saso_ps5",
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Inf Hover",
+            "Inf Hp",
+            "Inf Jumps",
+            "Inf Lives"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },
