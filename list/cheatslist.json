@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-23T20:28:56.6065337Z",
+  "generatedUtc": "2026-07-23T21:38:33.2307406Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -120118,6 +120118,42 @@
             "Max Money (Buy or Sell)",
             "Infi Resources, Items, Money - Super Death"
           ]
+        }
+      }
+    },
+    {
+      "id": "PPSA26356",
+      "version": "01.002.000",
+      "title": "BUBBLE BOBBLE Sugar Dungeons",
+      "idLower": "ppsa26356",
+      "titleLower": "bubble bobble sugar dungeons",
+      "cheatsTotal": 4,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "God Mode",
+            "Inf Hab Items",
+            "Inf Items",
+            "Stop Timer"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },

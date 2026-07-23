@@ -1,0 +1,75 @@
+{
+  "name": "BUBBLE BOBBLE Sugar Dungeons",
+  "id": "PPSA26356",
+  "version": "01.002.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "God Mode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "800484E0",
+          "on": "C3909090909090",
+          "off": "80BFA200000000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Hab Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "800C4CA0",
+          "on": "909090",
+          "off": "FF4814"
+        },
+        {
+          "offset": "7FD17000",
+          "on": "8B481889481885C9E9F87C3600",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "8007ED00",
+          "on": "E9FB82C9FF",
+          "off": "89481885C9"
+        }
+      ]
+    },
+    {
+      "name": "Inf Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD1702D",
+          "on": "B90F2700008948144883C408E9C36E3600",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "8007DEFA",
+          "on": "E92E91C9FF9090",
+          "off": "8948144883C408"
+        }
+      ]
+    },
+    {
+      "name": "Stop Timer",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD1705E",
+          "on": "C5FA10434CC5FA11434CE92B1A4100",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "80128A93",
+          "on": "E9C6E5BEFF",
+          "off": "C5FA11434C"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}
