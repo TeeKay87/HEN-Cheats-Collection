@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-22T14:32:46.2578044Z",
+  "generatedUtc": "2026-07-23T08:54:47.0146861Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -111875,6 +111875,45 @@
           "cheats": [
             "Inf Jumps",
             "Inf Time"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA01903",
+      "version": "01.005.000",
+      "title": "Final Fantasy VII Remake Intergrade",
+      "idLower": "ppsa01903",
+      "titleLower": "final fantasy vii remake intergrade",
+      "cheatsTotal": 7,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 7,
+          "cheats": [
+            "1 Hit Kill",
+            "Infi ATB",
+            "Infi Consumables",
+            "Infi HP",
+            "Infi LIMIT",
+            "Infi MP",
+            "Max Money"
           ]
         }
       }
