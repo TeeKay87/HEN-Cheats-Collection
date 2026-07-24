@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-24T20:40:08.6690234Z",
+  "generatedUtc": "2026-07-24T23:39:11.1169474Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -120229,6 +120229,40 @@
             "Infinite Health",
             "Item 99",
             "Max Divine Gold"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA26528",
+      "version": "01.000.028",
+      "title": "Code Violet",
+      "idLower": "ppsa26528",
+      "titleLower": "code violet",
+      "cheatsTotal": 2,
+      "creators": [
+        "Aigars Uze"
+      ],
+      "creatorsLower": [
+        "aigars uze"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Gode Mode",
+            "Infinite Ammo And Throwables Gain On Spend (must have at least 2 in inventory)"
           ]
         }
       }
