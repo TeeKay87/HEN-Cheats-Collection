@@ -1,0 +1,82 @@
+{
+  "name": "Ninja Gaiden: Ragebound",
+  "id": "PPSA28002",
+  "version": "01.006.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Easy Max Combo And Kills",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD17072",
+          "on": "66C783B4000000E70366C783B8000000E70366C783BC000000E703E9B0E5B002",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "8282563A",
+          "on": "E9331A4FFD909090",
+          "off": "C5F9D68BB4000000"
+        }
+      ]
+    },
+    {
+      "name": "God Mode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "82DAFC69",
+          "on": "9090909090",
+          "off": "C5F82E4068"
+        }
+      ]
+    },
+    {
+      "name": "Inf Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD17000",
+          "on": "488B46304885C07410488B48404885C97407807931017401C3554889E54156E942CB0903",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "82DB3B60",
+          "on": "E99B34F6FC90",
+          "off": "554889E54156"
+        }
+      ]
+    },
+    {
+      "name": "Inf Shop Items At Buy",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD17044",
+          "on": "42C7443B0C63000000E90B723301",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "8104E258",
+          "on": "E9E78DCCFE",
+          "off": "4289443B0C"
+        }
+      ]
+    },
+    {
+      "name": "Stop Timer",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "82827FE1",
+          "on": "9090909090909090",
+          "off": "C5FA118BB0000000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme",
+    "Ali-mk"
+  ]
+}

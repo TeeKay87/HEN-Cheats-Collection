@@ -49,6 +49,8 @@ The website lets you:
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-07-24 | ADDED | CUSA00318 | 01.01 | [MotoGP 14](https://hencheats.vercel.app/#CUSA00318-01.01) |
+| 2026-07-24 | ADDED | PPSA28002 | 01.006.000 | [Ninja Gaiden: Ragebound](https://hencheats.vercel.app/#PPSA28002-01.006.000) |
 | 2026-07-24 | ADDED | PPSA29714 | 02.000.013 | [BlazBlue Entropy Effect X](https://hencheats.vercel.app/#PPSA29714-02.000.013) |
 | 2026-07-23 | ADDED | PPSA26356 | 01.002.000 | [BUBBLE BOBBLE Sugar Dungeons](https://hencheats.vercel.app/#PPSA26356-01.002.000) |
 | 2026-07-23 | ADDED | CUSA02041 | 01.02 | [MotoGP 15](https://hencheats.vercel.app/#CUSA02041-01.02) |

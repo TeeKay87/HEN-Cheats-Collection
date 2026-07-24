@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-24T14:12:42.4678182Z",
+  "generatedUtc": "2026-07-24T20:40:08.6690234Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -3080,6 +3080,39 @@
           "cheats": [
             "Infinite Clones"
           ]
+        }
+      }
+    },
+    {
+      "id": "CUSA00318",
+      "version": "01.01",
+      "title": "MotoGP 14",
+      "idLower": "cusa00318",
+      "titleLower": "motogp 14",
+      "cheatsTotal": 1,
+      "creators": [
+        "LuC-iTA"
+      ],
+      "creatorsLower": [
+        "luc-ita"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 1,
+          "cheats": [
+            "Opponents don\u0027t move"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },
@@ -120369,6 +120402,45 @@
             "Inf Hp",
             "Inf Lives"
           ]
+        }
+      }
+    },
+    {
+      "id": "PPSA28002",
+      "version": "01.006.000",
+      "title": "Ninja Gaiden: Ragebound",
+      "idLower": "ppsa28002",
+      "titleLower": "ninja gaiden: ragebound",
+      "cheatsTotal": 5,
+      "creators": [
+        "Ali-mk",
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "ali-mk",
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "Easy Max Combo And Kills",
+            "God Mode",
+            "Inf Hp",
+            "Inf Shop Items At Buy",
+            "Stop Timer"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },
