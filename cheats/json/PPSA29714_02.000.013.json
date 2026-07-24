@@ -1,0 +1,70 @@
+{
+  "name": "BlazBlue Entropy Effect X",
+  "id": "PPSA29714",
+  "version": "02.000.013",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD17000",
+          "on": "83BFF802000001740B554889E54157E93298C4014831C0C3",
+          "off": "000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "81960840",
+          "on": "E9BB673BFE90",
+          "off": "554889E54157"
+        }
+      ]
+    },
+    {
+      "name": "Inf Mp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD17038",
+          "on": "48BB000000006400000049895CC720E9BD20BD01",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "818E9104",
+          "on": "E92FDF42FE",
+          "off": "49895CC720"
+        }
+      ]
+    },
+    {
+      "name": "Inf Reroll Points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD1706C",
+          "on": "81FCA01DFFEE740C49890649894E08E9355FD60748C7C00F27000049890649894E08E9225FD607",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "87A7CFAE",
+          "on": "E9B9A029F89090",
+          "off": "49890649894E08"
+        }
+      ]
+    },
+    {
+      "name": "Stop Timer",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8198D751",
+          "on": "90909090909090",
+          "off": "4889832C010000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

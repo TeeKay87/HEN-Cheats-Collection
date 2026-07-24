@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-23T21:38:33.2307406Z",
+  "generatedUtc": "2026-07-24T14:12:42.4678182Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -120523,6 +120523,42 @@
             "No Radioactivity",
             "Zero Weight"
           ]
+        }
+      }
+    },
+    {
+      "id": "PPSA29714",
+      "version": "02.000.013",
+      "title": "BlazBlue Entropy Effect X",
+      "idLower": "ppsa29714",
+      "titleLower": "blazblue entropy effect x",
+      "cheatsTotal": 4,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Inf Hp",
+            "Inf Mp",
+            "Inf Reroll Points",
+            "Stop Timer"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },
