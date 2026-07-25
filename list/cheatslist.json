@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-25T15:25:02.8344803Z",
+  "generatedUtc": "2026-07-25T16:20:05.5689629Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -36860,6 +36860,39 @@
             "Max/Infinite Money On Pick Up",
             "Max/Infinite Skill Points On Use"
           ]
+        }
+      }
+    },
+    {
+      "id": "CUSA07865",
+      "version": "01.00",
+      "title": "MotoGP 17",
+      "idLower": "cusa07865",
+      "titleLower": "motogp 17",
+      "cheatsTotal": 1,
+      "creators": [
+        "LuC-iTA"
+      ],
+      "creatorsLower": [
+        "luc-ita"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 1,
+          "cheats": [
+            "Opponents don\u0027t drive (Read notes)"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },
