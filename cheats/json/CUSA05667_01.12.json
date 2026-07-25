@@ -1,0 +1,70 @@
+{
+  "name": "Rain World",
+  "id": "CUSA05667",
+  "version": "01.12",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Cant Grab You",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5F000",
+          "on": "B000C3E93F658400",
+          "off": "0000000000000000"
+        },
+        {
+          "offset": "804A5540",
+          "on": "E9BB9A7BFF9090",
+          "off": "83BF3803000000"
+        }
+      ]
+    },
+    {
+      "name": "Easy Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5F028",
+          "on": "B80A000000C3E9F345EF00",
+          "off": "0000000000000000000000"
+        },
+        {
+          "offset": "80B53620",
+          "on": "E903BA10FF90",
+          "off": "554889E54157"
+        }
+      ]
+    },
+    {
+      "name": "Inf Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "804FC970",
+          "on": "90",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "Longest Time To Rain",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5F053",
+          "on": "B89F860100C34889E54157E9032D9F00",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "80651D60",
+          "on": "E9EED260FF90",
+          "off": "554889E54157"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

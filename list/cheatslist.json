@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-25T00:21:28.2369746Z",
+  "generatedUtc": "2026-07-25T15:25:02.8344803Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -28768,6 +28768,42 @@
             "INF AMMO",
             "reload inf"
           ]
+        }
+      }
+    },
+    {
+      "id": "CUSA05667",
+      "version": "01.12",
+      "title": "Rain World",
+      "idLower": "cusa05667",
+      "titleLower": "rain world",
+      "cheatsTotal": 4,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Cant Grab You",
+            "Easy Hp",
+            "Inf Hp",
+            "Longest Time To Rain"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },
