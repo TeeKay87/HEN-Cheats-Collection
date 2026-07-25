@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-25T16:20:05.5689629Z",
+  "generatedUtc": "2026-07-25T16:39:33.3077074Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -111108,6 +111108,48 @@
             "SSS Style Rank",
             "Stop Time In The Bloody Palace"
           ]
+        }
+      }
+    },
+    {
+      "id": "PPSA01461",
+      "version": "01.013.002",
+      "title": "Marvel\u0027s Spider-Man: Miles Morales",
+      "idLower": "ppsa01461",
+      "titleLower": "marvel\u0027s spider-man: miles morales",
+      "cheatsTotal": 8,
+      "creators": [
+        "Talixme",
+        "Wander"
+      ],
+      "creatorsLower": [
+        "talixme",
+        "wander"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 8,
+          "cheats": [
+            "Easy Combo",
+            "God Mode",
+            "Inf Ammo",
+            "Inf Exp",
+            "Inf Hab Points",
+            "Inf Hp",
+            "Inf Items",
+            "Inf Venon"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },

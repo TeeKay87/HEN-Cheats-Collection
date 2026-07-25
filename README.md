@@ -49,6 +49,7 @@ The website lets you:
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-07-25 | ADDED | PPSA01461 | 01.013.002 | [Marvel's Spider-Man: Miles Morales](https://hencheats.vercel.app/#PPSA01461-01.013.002) |
 | 2026-07-25 | ADDED | CUSA07865 | 01.00 | [MotoGP 17](https://hencheats.vercel.app/#CUSA07865-01.00) |
 | 2026-07-25 | ADDED | CUSA05667 | 01.12 | [Rain World](https://hencheats.vercel.app/#CUSA05667-01.12) |
 | 2026-07-25 | ADDED | PPSA15508 | 02.001.010 | [The Last of Us: Part II Remastered](https://hencheats.vercel.app/#PPSA15508-02.001.010) |
