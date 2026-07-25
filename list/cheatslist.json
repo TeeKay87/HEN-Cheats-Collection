@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-24T23:39:11.1169474Z",
+  "generatedUtc": "2026-07-25T00:21:28.2369746Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -118010,6 +118010,43 @@
             "No Reload",
             "Inf Ammo \u0026 Items",
             "Invincible Mode"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA15508",
+      "version": "02.001.010",
+      "title": "The Last of Us: Part II Remastered",
+      "idLower": "ppsa15508",
+      "titleLower": "the last of us: part ii remastered",
+      "cheatsTotal": 5,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "Infi Ammo",
+            "Infi Consumables",
+            "Infi Health",
+            "Infi Weapon Durability",
+            "Melee Attack Immunity"
           ]
         }
       }
