@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-26T11:02:15.6138301Z",
+  "generatedUtc": "2026-07-26T13:34:54.4589286Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -114095,6 +114095,40 @@
           "cheats": [
             "Inf Jumps"
           ]
+        }
+      }
+    },
+    {
+      "id": "PPSA04203",
+      "version": "01.000.019",
+      "title": "Sid Meier\u0027s Civilization VII",
+      "idLower": "ppsa04203",
+      "titleLower": "sid meier\u0027s civilization vii",
+      "cheatsTotal": 2,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Inf Leadership Attributes",
+            "Inf Rosources"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },

@@ -49,6 +49,7 @@ The website lets you:
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-07-26 | ADDED | PPSA04203 | 01.000.019 | [Sid Meier's Civilization VII](https://hencheats.vercel.app/#PPSA04203-01.000.019) |
 | 2026-07-26 | ADDED | PPSA03712 | 01.006.000 | [Puzzle Bobble 3D: Vacation Odyssey](https://hencheats.vercel.app/#PPSA03712-01.006.000) |
 | 2026-07-26 | ADDED | PPSA28601 | 01.000.004 | [Steel Seed](https://hencheats.vercel.app/#PPSA28601-01.000.004) |
 | 2026-07-25 | ADDED | PPSA28209 | 01.011.000 | [MindsEye](https://hencheats.vercel.app/#PPSA28209-01.011.000) |
