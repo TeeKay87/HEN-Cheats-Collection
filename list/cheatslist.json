@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-26T13:34:54.4589286Z",
+  "generatedUtc": "2026-07-26T23:12:43.7095532Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -112576,6 +112576,44 @@
             "Max Items (2st Get)",
             "Untouchable"
           ]
+        }
+      }
+    },
+    {
+      "id": "PPSA02527",
+      "version": "01.000.005",
+      "title": "Kitaria Fables",
+      "idLower": "ppsa02527",
+      "titleLower": "kitaria fables",
+      "cheatsTotal": 6,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 6,
+          "cheats": [
+            "Inf Hp",
+            "Inf Items",
+            "Inf Mana",
+            "Inf Stamina",
+            "No Cooldown",
+            "Stop Days Counter"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },

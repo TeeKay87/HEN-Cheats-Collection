@@ -1,0 +1,97 @@
+{
+  "name": "Kitaria Fables",
+  "id": "PPSA02527",
+  "version": "01.000.005",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB000",
+          "on": "807F58017501C3554889E54157E944331A00",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "7FE6E350",
+          "on": "E9ABCCE5FF90",
+          "off": "554889E54157"
+        }
+      ]
+    },
+    {
+      "name": "Inf Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FEA1B6A",
+          "on": "90909090",
+          "off": "44297020"
+        }
+      ]
+    },
+    {
+      "name": "Inf Mana",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FE78D6F",
+          "on": "9090909090",
+          "off": "C5FA5C4064"
+        }
+      ]
+    },
+    {
+      "name": "Inf Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB032",
+          "on": "807F58017513488B87180100004885C07407C7403800009643554889E54157E9B0C01900",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "7FE67100",
+          "on": "E92D3FE6FF90",
+          "off": "554889E54157"
+        }
+      ]
+    },
+    {
+      "name": "No Cooldown",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB076",
+          "on": "C7838800000000000000E9D2D62D00",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "7FFA874F",
+          "on": "E92229D2FF909090",
+          "off": "C5FA118B88000000"
+        }
+      ]
+    },
+    {
+      "name": "Stop Days Counter",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB0A5",
+          "on": "8B4858894858E9EECE3700",
+          "off": "0000000000000000000000"
+        },
+        {
+          "offset": "80047F94",
+          "on": "E90C31C8FF9090909090",
+          "off": "418B8ECC000000894858"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}
