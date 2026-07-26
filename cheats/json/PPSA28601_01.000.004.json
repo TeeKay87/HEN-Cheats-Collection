@@ -1,0 +1,70 @@
+{
+  "name": "Steel Seed",
+  "id": "PPSA28601",
+  "version": "01.000.004",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "42E8030",
+          "on": "C3",
+          "off": "55"
+        },
+        {
+          "offset": "42E7B34",
+          "on": "909090",
+          "off": "4428F0"
+        }
+      ]
+    },
+    {
+      "name": "Inf Enegy",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5D6F000",
+          "on": "C5FA118098060000E925326CFE",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "443222A",
+          "on": "E9D1CD9301909090",
+          "off": "C5FA118898060000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4325561",
+          "on": "9090909090",
+          "off": "E89AD4C9FF"
+        }
+      ]
+    },
+    {
+      "name": "Inf Money",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5D6F02D",
+          "on": "4989C641BF9F86010044017860E9551E33FE",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "40A0E8D",
+          "on": "E99BE1CC019090",
+          "off": "4989C644017860"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

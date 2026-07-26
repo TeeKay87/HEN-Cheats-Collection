@@ -1,0 +1,81 @@
+{
+  "name": "Puzzle Bobble 3D: Vacation Odyssey",
+  "id": "PPSA03712",
+  "version": "01.006.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Bobbles ",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "132C295",
+          "on": "909090909090",
+          "off": "FF876C010000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Coins",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB000",
+          "on": "C783300200009F860100E9A74D5E81",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "12AFDB0",
+          "on": "E94BB2A17E90",
+          "off": "898330020000"
+        }
+      ]
+    },
+    {
+      "name": "inf Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB02F",
+          "on": "B86300000089014889DFE9F24A5E81",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "12AFB2B",
+          "on": "E9FFB4A17E",
+          "off": "89014889DF"
+        }
+      ]
+    },
+    {
+      "name": "Max Score",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB05E",
+          "on": "C7838C0000009F860100E995176581",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "131C7FA",
+          "on": "E95FE89A7E909090",
+          "off": "C5FA7F8380000000"
+        }
+      ]
+    },
+    {
+      "name": "Stop Timer",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1347AD6",
+          "on": "9090909090909090",
+          "off": "C5FA118324010000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

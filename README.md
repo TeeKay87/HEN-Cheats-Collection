@@ -49,6 +49,8 @@ The website lets you:
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-07-26 | ADDED | PPSA03712 | 01.006.000 | [Puzzle Bobble 3D: Vacation Odyssey](https://hencheats.vercel.app/#PPSA03712-01.006.000) |
+| 2026-07-26 | ADDED | PPSA28601 | 01.000.004 | [Steel Seed](https://hencheats.vercel.app/#PPSA28601-01.000.004) |
 | 2026-07-25 | ADDED | PPSA28209 | 01.011.000 | [MindsEye](https://hencheats.vercel.app/#PPSA28209-01.011.000) |
 | 2026-07-25 | ADDED | PPSA01461 | 01.013.002 | [Marvel's Spider-Man: Miles Morales](https://hencheats.vercel.app/#PPSA01461-01.013.002) |
 | 2026-07-25 | ADDED | CUSA07865 | 01.00 | [MotoGP 17](https://hencheats.vercel.app/#CUSA07865-01.00) |

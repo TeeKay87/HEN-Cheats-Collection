@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-25T21:10:03.4798653Z",
+  "generatedUtc": "2026-07-26T11:02:15.6138301Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -113522,6 +113522,43 @@
       }
     },
     {
+      "id": "PPSA03712",
+      "version": "01.006.000",
+      "title": "Puzzle Bobble 3D: Vacation Odyssey",
+      "idLower": "ppsa03712",
+      "titleLower": "puzzle bobble 3d: vacation odyssey",
+      "cheatsTotal": 5,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "Inf Bobbles",
+            "Inf Coins",
+            "inf Items",
+            "Max Score",
+            "Stop Timer"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
       "id": "PPSA03831",
       "version": "01.041.000",
       "title": "Sonic Frontiers",
@@ -120811,6 +120848,42 @@
             "No Radioactivity",
             "Zero Weight"
           ]
+        }
+      }
+    },
+    {
+      "id": "PPSA28601",
+      "version": "01.000.004",
+      "title": "Steel Seed",
+      "idLower": "ppsa28601",
+      "titleLower": "steel seed",
+      "cheatsTotal": 4,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Inf Ammo",
+            "Inf Enegy",
+            "Inf Hp",
+            "Inf Money"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },
