@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-26T23:12:43.7095532Z",
+  "generatedUtc": "2026-07-27T16:57:59.2499636Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -121253,6 +121253,47 @@
             "Max CP (Buy)",
             "Save count always 1",
             "Untouchable"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA31977",
+      "version": "01.000.000",
+      "title": "Darksiders: Warmastered Edition",
+      "idLower": "ppsa31977",
+      "titleLower": "darksiders: warmastered edition",
+      "cheatsTotal": 9,
+      "creators": [
+        "Celogamez"
+      ],
+      "creatorsLower": [
+        "celogamez"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 9,
+          "cheats": [
+            "Easy Kill",
+            "Infinite Fracture Cannon Ammo",
+            "Infinite Health",
+            "Infinite Horse Gallop",
+            "Instant Chaos After Use",
+            "Max Chaos (1 Hit)",
+            "Max XP/Levels",
+            "Max/Infinite Souls",
+            "Max/Infinite Wrath"
           ]
         }
       }
