@@ -1,0 +1,86 @@
+{
+  "name": "Demon Slayer: Kimetsu no Yaiba: The Hinokami Chronicles 2",
+  "id": "PPSA25428",
+  "version": "01.007.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD17000",
+          "on": "6683BC245C0800001A741E83BC24540800001A740AC5FA114B58E92E54C885C5FA114B58E92454C885C5FA104B58C5FA114B58E91554C885",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "599C448",
+          "on": "E9B3AB377A",
+          "off": "C5FA114B58"
+        }
+      ]
+    },
+    {
+      "name": "Inf Money",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD170C2",
+          "on": "BA9F8601008950044889DFE9B34C8C86",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "65DBD7F",
+          "on": "E93EB3737990",
+          "off": "8950044889DF"
+        }
+      ]
+    },
+    {
+      "name": "Inf Support Gauge",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD1708D",
+          "on": "C5FA1087FC020000C5FA1187F8020000E93081D385",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "5A4F1CA",
+          "on": "E9BE7E2C7A909090",
+          "off": "C5FA1187F8020000"
+        }
+      ]
+    },
+    {
+      "name": "Ing Magic",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD17058",
+          "on": "C5FA1083BC000000C5FA1183B8000000E94B44CC85",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "59DB4B0",
+          "on": "E9A3BB337A909090",
+          "off": "C5FA1183B8000000"
+        }
+      ]
+    },
+    {
+      "name": "Stop Timer",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "57EAB66",
+          "on": "9090909090",
+          "off": "C5FA114F38"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

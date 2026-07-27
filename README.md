@@ -49,6 +49,8 @@ The website lets you:
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-07-27 | ADDED | PPSA02774 | 01.002.000 | [XIII](https://hencheats.vercel.app/#PPSA02774-01.002.000) |
+| 2026-07-27 | ADDED | PPSA25428 | 01.007.000 | [Demon Slayer: Kimetsu no Yaiba: The Hinokami Chronicles 2](https://hencheats.vercel.app/#PPSA25428-01.007.000) |
 | 2026-07-27 | ADDED | PPSA31977 | 01.000.000 | [Darksiders: Warmastered Edition](https://hencheats.vercel.app/#PPSA31977-01.000.000) |
 | 2026-07-27 | ADDED | PPSA02527 | 01.000.005 | [Kitaria Fables](https://hencheats.vercel.app/#PPSA02527-01.000.005) |
 | 2026-07-26 | ADDED | PPSA04203 | 01.000.019 | [Sid Meier's Civilization VII](https://hencheats.vercel.app/#PPSA04203-01.000.019) |

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-27T16:57:59.2499636Z",
+  "generatedUtc": "2026-07-27T20:01:45.4881754Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -112902,6 +112902,40 @@
       }
     },
     {
+      "id": "PPSA02774",
+      "version": "01.002.000",
+      "title": "XIII",
+      "idLower": "ppsa02774",
+      "titleLower": "xiii",
+      "cheatsTotal": 2,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Inf Ammo",
+            "Inf Hp"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
       "id": "PPSA02801",
       "version": "01.000.003",
       "title": "New Joe \u0026 Mac: Caveman Ninja",
@@ -120258,6 +120292,43 @@
             "Max/Infinite Runes",
             "No Skill Cooldown"
           ]
+        }
+      }
+    },
+    {
+      "id": "PPSA25428",
+      "version": "01.007.000",
+      "title": "Demon Slayer: Kimetsu no Yaiba: The Hinokami Chronicles 2",
+      "idLower": "ppsa25428",
+      "titleLower": "demon slayer: kimetsu no yaiba: the hinokami chronicles 2",
+      "cheatsTotal": 5,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "Inf Hp",
+            "Inf Money",
+            "Inf Support Gauge",
+            "Ing Magic",
+            "Stop Timer"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },
