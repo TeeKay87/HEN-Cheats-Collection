@@ -49,6 +49,9 @@ The website lets you:
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-07-28 | ADDED | PPSA07411 | 01.590.000 | [Resident Evil 4](https://hencheats.vercel.app/#PPSA07411-01.590.000) |
+| 2026-07-27 | ADDED | PPSA04263 | 01.010.002 | [Grand Theft Auto V](https://hencheats.vercel.app/#PPSA04263-01.010.002) |
+| 2026-07-27 | ADDED | PPSA04264 | 01.010.002 | [Grand Theft Auto V](https://hencheats.vercel.app/#PPSA04264-01.010.002) |
 | 2026-07-27 | ADDED | PPSA02774 | 01.002.000 | [XIII](https://hencheats.vercel.app/#PPSA02774-01.002.000) |
 | 2026-07-27 | ADDED | PPSA25428 | 01.007.000 | [Demon Slayer: Kimetsu no Yaiba: The Hinokami Chronicles 2](https://hencheats.vercel.app/#PPSA25428-01.007.000) |
 | 2026-07-27 | ADDED | PPSA31977 | 01.000.000 | [Darksiders: Warmastered Edition](https://hencheats.vercel.app/#PPSA31977-01.000.000) |

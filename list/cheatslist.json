@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-27T20:01:45.4881754Z",
+  "generatedUtc": "2026-07-28T02:02:20.218937Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -114243,6 +114243,44 @@
       }
     },
     {
+      "id": "PPSA04263",
+      "version": "01.010.002",
+      "title": "Grand Theft Auto V",
+      "idLower": "ppsa04263",
+      "titleLower": "grand theft auto v",
+      "cheatsTotal": 6,
+      "creators": [
+        "Aigars Uze"
+      ],
+      "creatorsLower": [
+        "aigars uze"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 6,
+          "cheats": [
+            "Add Money 9000000 (Go to phone, internet,Money and services, Liberty City Exchange, Markets,then activate cheat, choose one and buy, then deactivate cheat, then quick save)",
+            "Infinite Ammo No Reload",
+            "Infinite Armor",
+            "Infinite Health",
+            "Infinite Special Ability",
+            "Never Wanted"
+          ]
+        }
+      }
+    },
+    {
       "id": "PPSA04264",
       "version": "01.005.000",
       "title": "Grand Theft Auto V",
@@ -114281,6 +114319,44 @@
             "Max Wanted Level",
             "Never Wanted",
             "No Reload"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA04264",
+      "version": "01.010.002",
+      "title": "Grand Theft Auto V",
+      "idLower": "ppsa04264",
+      "titleLower": "grand theft auto v",
+      "cheatsTotal": 6,
+      "creators": [
+        "Aigars Uze"
+      ],
+      "creatorsLower": [
+        "aigars uze"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 6,
+          "cheats": [
+            "Add Money 9000000 (Go to phone, internet,Money and services, Liberty City Exchange, Markets,then activate cheat, choose one and buy, then deactivate cheat, then quick save)",
+            "Infinite Ammo No Reload",
+            "Infinite Armor",
+            "Infinite Health",
+            "Infinite Special Ability",
+            "Never Wanted"
           ]
         }
       }
@@ -115651,6 +115727,56 @@
             "Save always 0",
             "Stop Time (Mercenaries)",
             "Stop Time (Story)"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA07411",
+      "version": "01.590.000",
+      "title": "Resident Evil 4",
+      "idLower": "ppsa07411",
+      "titleLower": "resident evil 4",
+      "cheatsTotal": 18,
+      "creators": [
+        "Celogamez"
+      ],
+      "creatorsLower": [
+        "celogamez"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 18,
+          "cheats": [
+            "God Mode",
+            "God Mode Ashley",
+            "Infinite Ammo/Crafting/Items Usage",
+            "Infinite Grenades",
+            "Infinite Knife Durability",
+            "Infinite Mayhen Mode (Mercenaries)",
+            "Infinite spinels (Enter the trade)",
+            "Instant Max Mayhen Mode (Mercenaries",
+            "Max/Infinite CP",
+            "Max/Infinite Pesetas On Pick Up",
+            "No Damage For Boat",
+            "No Damage For Crane",
+            "No Damage For Wagon",
+            "No Reload",
+            "Perfect Aim",
+            "Save always 0",
+            "Stop Story Time",
+            "Stop Time (Mercenaries)"
           ]
         }
       }
