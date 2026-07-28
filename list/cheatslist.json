@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-28T02:02:20.218937Z",
+  "generatedUtc": "2026-07-28T10:18:53.9336522Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -121532,6 +121532,43 @@
             "Infi Stamina",
             "Max Amrita (On Get)",
             "Max Money (On Get)"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA32802",
+      "version": "01.002.002",
+      "title": "Fatal Frame II: Crimson Butterfly Remake",
+      "idLower": "ppsa32802",
+      "titleLower": "fatal frame ii: crimson butterfly remake",
+      "cheatsTotal": 5,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "1 Hit Kill",
+            "Infi Health",
+            "Infi Items",
+            "Infi Points",
+            "Infi Stamina"
           ]
         }
       }

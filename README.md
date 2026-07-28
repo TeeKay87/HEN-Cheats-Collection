@@ -49,6 +49,7 @@ The website lets you:
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-07-28 | ADDED | PPSA32802 | 01.002.002 | [Fatal Frame II: Crimson Butterfly Remake](https://hencheats.vercel.app/#PPSA32802-01.002.002) |
 | 2026-07-28 | ADDED | PPSA07411 | 01.590.000 | [Resident Evil 4](https://hencheats.vercel.app/#PPSA07411-01.590.000) |
 | 2026-07-27 | ADDED | PPSA04263 | 01.010.002 | [Grand Theft Auto V](https://hencheats.vercel.app/#PPSA04263-01.010.002) |
 | 2026-07-27 | ADDED | PPSA04264 | 01.010.002 | [Grand Theft Auto V](https://hencheats.vercel.app/#PPSA04264-01.010.002) |
