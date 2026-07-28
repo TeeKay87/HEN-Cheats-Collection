@@ -1,0 +1,70 @@
+{
+  "name": "In Sound Mind",
+  "id": "PPSA01932",
+  "version": "01.000.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "802C144B",
+          "on": "90909090",
+          "off": "44897014"
+        }
+      ]
+    },
+    {
+      "name": "Inf Battery",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB071",
+          "on": "448B7010448970104883C408E931635F00",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "802C13AB",
+          "on": "E9C19CA0FF909090",
+          "off": "448970104883C408"
+        }
+      ]
+    },
+    {
+      "name": "Inf Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB000",
+          "on": "817B1C0000C842740AC5FA114318E9923EC800C5FA10431CC5FA114318E9833EC800",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "8094EEA0",
+          "on": "E95BC137FF",
+          "off": "C5FA114318"
+        }
+      ]
+    },
+    {
+      "name": "Inf Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB042",
+          "on": "C5FA10431CC5FA114318E9E0286D00",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "8039D92C",
+          "on": "E911D792FF",
+          "off": "C5FA114318"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

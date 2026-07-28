@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-28T10:18:53.9336522Z",
+  "generatedUtc": "2026-07-28T15:35:22.4197075Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -112136,6 +112136,42 @@
       }
     },
     {
+      "id": "PPSA01932",
+      "version": "01.000.000",
+      "title": "In Sound Mind",
+      "idLower": "ppsa01932",
+      "titleLower": "in sound mind",
+      "cheatsTotal": 4,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Inf Ammo",
+            "Inf Battery",
+            "Inf Hp",
+            "Inf Stamina"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
       "id": "PPSA01981",
       "version": "01.011.000",
       "title": "Doom Eternal",
@@ -114720,6 +114756,42 @@
             "Max Items (2st get)",
             "No Weapon Overheating"
           ]
+        }
+      }
+    },
+    {
+      "id": "PPSA04921",
+      "version": "01.000.009",
+      "title": "In Sound Mind",
+      "idLower": "ppsa04921",
+      "titleLower": "in sound mind",
+      "cheatsTotal": 4,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Inf Ammo",
+            "Inf Battery",
+            "Inf Hp",
+            "Inf Stamina"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },
