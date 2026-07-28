@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-28T22:49:30.2954232Z",
+  "generatedUtc": "2026-07-28T23:54:18.9434436Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -111869,6 +111869,42 @@
             "Inf Heart Rate Sight",
             "Inf HP",
             "No Reload"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA01687",
+      "version": "01.026.000",
+      "title": "Call of Duty: Vanguard",
+      "idLower": "ppsa01687",
+      "titleLower": "call of duty: vanguard",
+      "cheatsTotal": 4,
+      "creators": [
+        "Aigars Uze"
+      ],
+      "creatorsLower": [
+        "aigars uze"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Infinite Ammo, Grenades, No Reload (also works in zombie mode)",
+            "Infinite Health And One Hit Kill In Campaign Mode (dont use with Infinite Health)",
+            "Infinite Health Campaign Mode",
+            "Infinite Health Zombie Mode"
           ]
         }
       }

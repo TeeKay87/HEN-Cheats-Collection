@@ -27,6 +27,7 @@ const state = {
   covers: new Map(),
   addedDates: new Map(),
   notes: new Map(),
+  pinned: new Set(),
   favorites: new Set(),
   activeFilter: 'all',
   activeSort: DEFAULT_SORT,
@@ -435,6 +436,13 @@ function compareByAddedDate(a, b, newestFirst) {
 
 function sortEntries(entries) {
   return entries.sort((a, b) => {
+    const aPinned = state.pinned.has(entryKey(a));
+    const bPinned = state.pinned.has(entryKey(b));
+
+    // Pinned entries always come first. Within each group, keep using
+    // the sort order selected by the user.
+    if (aPinned !== bPinned) return aPinned ? -1 : 1;
+
     switch (state.activeSort) {
       case 'title-desc':
         return compareAlphabetically(a, b, -1);
@@ -528,6 +536,7 @@ function buildCard(entry) {
   const favoriteButton = clone.querySelector('.favorite-btn');
   const newBadge = clone.querySelector('.new-badge');
   const notesBadge = clone.querySelector('.notes-badge');
+  const pinBadge = clone.querySelector('.pin-badge');
   const hitbox = clone.querySelector('.card-hitbox');
   const title = clone.querySelector('.card-title');
   const id = clone.querySelector('.card-id');
@@ -547,6 +556,12 @@ function buildCard(entry) {
     notesBadge.hidden = false;
     notesBadge.title = 'This entry has notes';
     notesBadge.setAttribute('aria-label', 'This entry has notes');
+  }
+
+  if (pinBadge && state.pinned.has(key)) {
+    pinBadge.hidden = false;
+    pinBadge.title = 'Pinned entry';
+    pinBadge.setAttribute('aria-label', 'Pinned entry');
   }
 
   if (newBadge && isNewEntry(entry)) {
@@ -1236,11 +1251,12 @@ async function loadData() {
   elements.statusMessage.hidden = false;
   elements.statusMessage.textContent = 'Loading data files…';
 
-  const [cheatsResponse, coversResponse, addedData, notesData] = await Promise.all([
+  const [cheatsResponse, coversResponse, addedData, notesData, pinnedData] = await Promise.all([
     fetch('./cheatslist.json'),
     fetch('./covers.json'),
     loadOptionalJson('./added.json', {}),
     loadOptionalJson('./notes.json', {}),
+    loadOptionalJson('./pinned.json', []),
   ]);
 
   if (!cheatsResponse.ok || !coversResponse.ok) {
@@ -1274,6 +1290,19 @@ async function loadData() {
     Object.entries(validNotesData)
       .filter(([, note]) => typeof note === 'string' && note.trim())
       .map(([key, note]) => [key, note])
+  );
+
+  const validPinnedData = Array.isArray(pinnedData) ? pinnedData : [];
+
+  if (validPinnedData !== pinnedData) {
+    console.warn('pinned.json must contain a JSON array. Pinned entries have been disabled.');
+  }
+
+  state.pinned = new Set(
+    validPinnedData
+      .filter((key) => typeof key === 'string')
+      .map((key) => key.trim())
+      .filter(Boolean)
   );
 
   state.generatedUtc = parseGeneratedDate(cheatsData.generatedUtc || cheatsData.generatedUTC || coversData.generatedUtc);

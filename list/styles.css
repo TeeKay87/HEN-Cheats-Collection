@@ -321,7 +321,8 @@ img {
   flex: 0 0 auto;
 }
 
-.notes-badge {
+.notes-badge,
+.pin-badge {
   display: inline-grid;
   place-items: center;
   width: 30px;
@@ -335,13 +336,22 @@ img {
   pointer-events: none;
 }
 
-.notes-badge svg {
+.pin-badge {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  z-index: 4;
+}
+
+.notes-badge svg,
+.pin-badge svg {
   width: 16px;
   height: 16px;
   fill: currentColor;
 }
 
-.notes-badge[hidden] {
+.notes-badge[hidden],
+.pin-badge[hidden] {
   display: none;
 }
 
@@ -1151,13 +1161,20 @@ img {
     padding: 0 8px;
   }
 
-  .notes-badge {
+  .notes-badge,
+  .pin-badge {
     width: 26px;
     height: 26px;
     flex-basis: 26px;
   }
 
-  .notes-badge svg {
+  .pin-badge {
+    top: 10px;
+    left: 12px;
+  }
+
+  .notes-badge svg,
+  .pin-badge svg {
     width: 14px;
     height: 14px;
   }
