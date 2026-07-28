@@ -1,0 +1,102 @@
+{
+  "name": "Shinobi: Art of Vengeance",
+  "id": "PPSA19461",
+  "version": "01.200.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Coins",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD17056",
+          "on": "BB9F86010001596085DB0F8EF6DEB600E9C9DEB600",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "80884F2D",
+          "on": "E9242149FF9090",
+          "off": "01596085DB7E28"
+        }
+      ]
+    },
+    {
+      "name": "Inf Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD17000",
+          "on": "C5FA115328E94A0F6901",
+          "off": "00000000000000000000"
+        },
+        {
+          "offset": "813A7F4F",
+          "on": "E9ACF096FE",
+          "off": "C5FA114328"
+        }
+      ]
+    },
+    {
+      "name": "Inf Hp Wolf",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD1708B",
+          "on": "C5FA115728E902E63001",
+          "off": "00000000000000000000"
+        },
+        {
+          "offset": "81025692",
+          "on": "E9F419CFFE",
+          "off": "C5FA114F28"
+        }
+      ]
+    },
+    {
+      "name": "Inf Kunai",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "81C88262",
+          "on": "90909090",
+          "off": "41295E20"
+        },
+        {
+          "offset": "8161B1E3",
+          "on": "909090",
+          "off": "FF4B20"
+        }
+      ]
+    },
+    {
+      "name": "Inf Mp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD1702A",
+          "on": "C743240000CA43E9F1213101",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "81029222",
+          "on": "E903DECEFE",
+          "off": "C5FA114324"
+        }
+      ]
+    },
+    {
+      "name": "Inf Rage",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "81D7356B",
+          "on": "90909090909090",
+          "off": "C7401800000000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

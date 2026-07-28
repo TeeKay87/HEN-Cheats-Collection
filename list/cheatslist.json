@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-28T15:35:22.4197075Z",
+  "generatedUtc": "2026-07-28T22:05:38.3672585Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -119090,6 +119090,44 @@
             "Inf Ability 2",
             "Inf HP",
             "No Reload"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
+      "id": "PPSA19461",
+      "version": "01.200.000",
+      "title": "Shinobi: Art of Vengeance",
+      "idLower": "ppsa19461",
+      "titleLower": "shinobi: art of vengeance",
+      "cheatsTotal": 6,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 6,
+          "cheats": [
+            "Inf Coins",
+            "Inf Hp",
+            "Inf Hp Wolf",
+            "Inf Kunai",
+            "Inf Mp",
+            "Inf Rage"
           ]
         },
         "shn": {
