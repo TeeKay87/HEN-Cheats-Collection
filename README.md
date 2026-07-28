@@ -49,6 +49,7 @@ The website lets you:
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-07-29 | ADDED | PPSA03026 | 01.000.005 | [The Forgotten City](https://hencheats.vercel.app/#PPSA03026-01.000.005) |
 | 2026-07-29 | ADDED | PPSA19461 | 01.200.000 | [Shinobi: Art of Vengeance](https://hencheats.vercel.app/#PPSA19461-01.200.000) |
 | 2026-07-28 | ADDED | PPSA01932 | 01.000.000 | [In Sound Mind](https://hencheats.vercel.app/#PPSA01932-01.000.000) |
 | 2026-07-28 | ADDED | PPSA04921 | 01.000.009 | [In Sound Mind](https://hencheats.vercel.app/#PPSA04921-01.000.009) |

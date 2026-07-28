@@ -1,0 +1,76 @@
+{
+  "name": "The Forgotten City",
+  "id": "PPSA03026",
+  "version": "01.000.005",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Alot of items on gain",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4F6BB00",
+          "on": "4C8D7C010841C7073F420F00E9EA4CD1FB",
+          "off": "4C8D7C010841C7073F420F00E9EA4CD1FB"
+        },
+        {
+          "offset": "C807F3",
+          "on": "E908B32E04909090",
+          "off": "4C8D7C0108450137"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Breath",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4F6BB31",
+          "on": "41C78424180500000000F042E91F8ACCFB",
+          "off": "41C78424180500000000F042E91F8ACCFB"
+        },
+        {
+          "offset": "C34557",
+          "on": "E9D57533049090909090",
+          "off": "C4C17A118C2418050000"
+        }
+      ]
+    },
+    {
+      "name": "infinite_Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4F6BB62",
+          "on": "41C7862805000000004843E9017FCCFB",
+          "off": "41C7862805000000004843E9017FCCFB"
+        },
+        {
+          "offset": "C33A6A",
+          "on": "E9F380330490909090",
+          "off": "C4C17A118628050000"
+        }
+      ]
+    },
+    {
+      "name": "infinite_item_use",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4F6BB92",
+          "on": "488D440108C7009F860100E9BA54D1FB",
+          "off": "488D440108C7009F860100E9BA54D1FB"
+        },
+        {
+          "offset": "C81055",
+          "on": "E938AB2E049090",
+          "off": "488D4401088910"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Anonymous",
+    "Wander"
+  ]
+}
