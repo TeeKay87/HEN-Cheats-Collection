@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-28T23:54:18.9434436Z",
+  "generatedUtc": "2026-07-29T12:07:46.5800919Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -112615,6 +112615,47 @@
       }
     },
     {
+      "id": "PPSA02494",
+      "version": "01.003.000",
+      "title": "Doraemon Story of Seasons: Friends of the Great Kingdom",
+      "idLower": "ppsa02494",
+      "titleLower": "doraemon story of seasons: friends of the great kingdom",
+      "cheatsTotal": 9,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 9,
+          "cheats": [
+            "--Faster_Timer",
+            "--Fast_Timer",
+            "--Stop_Time",
+            "Inf Gold",
+            "Inf Hp",
+            "Inf Materials",
+            "Inf Seeds",
+            "Inf Water",
+            "Master Code Timer"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
       "id": "PPSA02525",
       "version": "01.009.000",
       "title": "Tormented Souls",
@@ -119060,6 +119101,43 @@
             "Max Valor Surge (On Hit)",
             "Untouchable"
           ]
+        }
+      }
+    },
+    {
+      "id": "PPSA18189",
+      "version": "01.000.004",
+      "title": "Pac-Man World 2: Re-Pac",
+      "idLower": "ppsa18189",
+      "titleLower": "pac-man world 2: re-pac",
+      "cheatsTotal": 5,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "Inf Balls",
+            "Inf Coins",
+            "Inf Hp",
+            "Inf Score",
+            "Stop Timer"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },

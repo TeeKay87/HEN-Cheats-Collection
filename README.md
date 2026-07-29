@@ -49,6 +49,8 @@ The website lets you:
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-07-29 | ADDED | PPSA02494 | 01.003.000 | [Doraemon Story of Seasons: Friends of the Great Kingdom](https://hencheats.vercel.app/#PPSA02494-01.003.000) |
+| 2026-07-29 | ADDED | PPSA18189 | 01.000.004 | [Pac-Man World 2: Re-Pac](https://hencheats.vercel.app/#PPSA18189-01.000.004) |
 | 2026-07-29 | ADDED | PPSA01687 | 01.026.000 | [Call of Duty: Vanguard](https://hencheats.vercel.app/#PPSA01687-01.026.000) |
 | 2026-07-29 | ADDED | PPSA03026 | 01.000.005 | [The Forgotten City](https://hencheats.vercel.app/#PPSA03026-01.000.005) |
 | 2026-07-29 | ADDED | PPSA19461 | 01.200.000 | [Shinobi: Art of Vengeance](https://hencheats.vercel.app/#PPSA19461-01.200.000) |

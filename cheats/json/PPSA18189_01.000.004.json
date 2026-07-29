@@ -1,0 +1,86 @@
+{
+  "name": "Pac-Man World 2: Re-Pac",
+  "id": "PPSA18189",
+  "version": "01.000.004",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Balls",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD17000",
+          "on": "B9E7030000898B80000000E949CB9E00",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "80703B53",
+          "on": "E9A83461FF90",
+          "off": "898B80000000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Coins",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD17061",
+          "on": "B8E70300004289443B0CE902198D01",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "815E896D",
+          "on": "E9EFE672FE",
+          "off": "4289443B0C"
+        }
+      ]
+    },
+    {
+      "name": "Inf Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "806DC239",
+          "on": "44017374",
+          "off": "44897374"
+        }
+      ]
+    },
+    {
+      "name": "Inf Score",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD17030",
+          "on": "B83F420F0041898684000000E9A2429F00",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "8070B2DC",
+          "on": "E94FBD60FF9090",
+          "off": "41898684000000"
+        }
+      ]
+    },
+    {
+      "name": "Stop Timer",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD17090",
+          "on": "C34889E54157E90BFF4D00",
+          "off": "0000000000000000000000"
+        },
+        {
+          "offset": "801F6FA0",
+          "on": "E9EB00B2FF90",
+          "off": "554889E54157"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "name": "Doraemon Story of Seasons: Friends of the Great Kingdom",
+  "id": "PPSA02494",
+  "version": "01.003.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "--Faster_Timer",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD1BF02",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "--Fast_Timer",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD1BF01",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "--Stop_Time",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD1BF00",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Inf Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCF031",
+          "on": "B93F420F00894F6039F0E95E488A00",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "80573899",
+          "on": "E993B775FF",
+          "off": "894F6039F0"
+        }
+      ]
+    },
+    {
+      "name": "Inf Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8089899A",
+          "on": "909090",
+          "off": "4429E7"
+        }
+      ]
+    },
+    {
+      "name": "Inf Materials",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCF000",
+          "on": "BAE7030000895018413B5E18E9A637D200",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "809F27B0",
+          "on": "E94BC82DFF9090",
+          "off": "895018413B5E18"
+        }
+      ]
+    },
+    {
+      "name": "Inf Seeds",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80B9EC7C",
+          "on": "90909090",
+          "off": "44296918"
+        }
+      ]
+    },
+    {
+      "name": "Inf Water",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "809EB569",
+          "on": "909090",
+          "off": "FF4B20"
+        }
+      ]
+    },
+    {
+      "name": "Master Code Timer",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD1BF00",
+          "on": "00",
+          "off": "00"
+        },
+        {
+          "offset": "7FD1BF01",
+          "on": "00",
+          "off": "00"
+        },
+        {
+          "offset": "7FD1BF02",
+          "on": "00",
+          "off": "00"
+        },
+        {
+          "offset": "7FCCF060",
+          "on": "833D99CE0400017418833D91CE0400017411833D89CE040001741241035E24EB20EB1E41035E2441035E24EB1441035E2441035E2441035E2441035E2441035E2441895E24E989A7A900",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "8076982B",
+          "on": "E9305856FF909090",
+          "off": "41035E2441895E24"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}
