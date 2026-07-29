@@ -49,6 +49,7 @@ The website lets you:
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-07-29 | ADDED | PPSA29629 | 02.002.000 | [Marvel Cosmic Invasion](https://hencheats.vercel.app/#PPSA29629-02.002.000) |
 | 2026-07-29 | ADDED | PPSA02494 | 01.003.000 | [Doraemon Story of Seasons: Friends of the Great Kingdom](https://hencheats.vercel.app/#PPSA02494-01.003.000) |
 | 2026-07-29 | ADDED | PPSA18189 | 01.000.004 | [Pac-Man World 2: Re-Pac](https://hencheats.vercel.app/#PPSA18189-01.000.004) |
 | 2026-07-29 | ADDED | PPSA01687 | 01.026.000 | [Call of Duty: Vanguard](https://hencheats.vercel.app/#PPSA01687-01.026.000) |

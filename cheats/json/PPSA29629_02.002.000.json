@@ -1,0 +1,65 @@
+{
+  "name": "Marvel Cosmic Invasion",
+  "id": "PPSA29629",
+  "version": "02.002.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "DB0062",
+          "on": "90909090",
+          "off": "41894610"
+        }
+      ]
+    },
+    {
+      "name": "Inf Mp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "D7326C",
+          "on": "90909090",
+          "off": "4189461C"
+        }
+      ]
+    },
+    {
+      "name": "Inf Super",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "145F000",
+          "on": "B8640000008943188B4318E9ED5B7CFF",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "C24BF7",
+          "on": "E904A4830090",
+          "off": "8943188B4318"
+        }
+      ]
+    },
+    {
+      "name": "Max Score",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "145F030",
+          "on": "41BF3F420F0044897F14E928687CFFE9D0677CFF",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "C2580E",
+          "on": "E91D98830090",
+          "off": "44897F14EB53"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-29T12:07:46.5800919Z",
+  "generatedUtc": "2026-07-29T17:02:01.4111449Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -121404,6 +121404,42 @@
             "Inf Enegy",
             "Inf Hp",
             "Inf Money"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
+      "id": "PPSA29629",
+      "version": "02.002.000",
+      "title": "Marvel Cosmic Invasion",
+      "idLower": "ppsa29629",
+      "titleLower": "marvel cosmic invasion",
+      "cheatsTotal": 4,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Inf Hp",
+            "Inf Mp",
+            "Inf Super",
+            "Max Score"
           ]
         },
         "shn": {
