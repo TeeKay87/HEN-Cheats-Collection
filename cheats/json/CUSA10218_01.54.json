@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "TRAINER INFO (read only)",
+      "description": "Important! Please be sure to read the cheats comments where available! Fully tested, but let me know if there is any issue. Should also work on the PS5. Enjoy! :)",
       "type": "checkbox",
       "memory": [
         {
@@ -17,6 +18,7 @@
     },
     {
       "name": "Master Code (Must be enabled first \u002B all the time)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -118,6 +120,7 @@
     },
     {
       "name": "God Mode",
+      "description": "Untouchable and No effects",
       "type": "checkbox",
       "memory": [
         {
@@ -144,6 +147,7 @@
     },
     {
       "name": "--Toggle_Stealth_Mode",
+      "description": "Be sure to enable it before getting detected. Works all the time, except when mounted (the overriden machine is detectable).",
       "type": "checkbox",
       "memory": [
         {
@@ -155,6 +159,7 @@
     },
     {
       "name": "--Infinite_Health",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -166,6 +171,7 @@
     },
     {
       "name": "--One_Hit_Kill",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -177,6 +183,7 @@
     },
     {
       "name": "Infinite Ammo",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -188,6 +195,7 @@
     },
     {
       "name": "Max Arrows Per Shot (5)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -199,6 +207,7 @@
     },
     {
       "name": "--Hour:12",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -210,6 +219,7 @@
     },
     {
       "name": "Infinite Jump and Glide",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -226,6 +236,7 @@
     },
     {
       "name": "--XP x5",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -237,6 +248,7 @@
     },
     {
       "name": "--XP x10",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -248,6 +260,7 @@
     },
     {
       "name": "--XP x20",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -259,6 +272,7 @@
     },
     {
       "name": "--XP x50",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -270,6 +284,7 @@
     },
     {
       "name": "--XP x100",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -281,6 +296,7 @@
     },
     {
       "name": "--Walking Speed x1",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -292,6 +308,7 @@
     },
     {
       "name": "--Walking Speed x2",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -303,6 +320,7 @@
     },
     {
       "name": "--Walking Speed x3",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -314,6 +332,7 @@
     },
     {
       "name": "No Crafting Limits",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -335,6 +354,7 @@
     },
     {
       "name": "No Purchase Requirements",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -346,6 +366,7 @@
     },
     {
       "name": "Infinite Concentration",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -357,6 +378,7 @@
     },
     {
       "name": "Infinite Inventory",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -383,6 +405,7 @@
     },
     {
       "name": "Infinite Potions (On Use)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -399,6 +422,7 @@
     },
     {
       "name": "Infinite Rope Durability",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -415,6 +439,7 @@
     },
     {
       "name": "Infinite Weaver Armour",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -431,6 +456,7 @@
     },
     {
       "name": "Max Infinite Oxygen",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -442,6 +468,7 @@
     },
     {
       "name": "Max Infinite Skill Points (3)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -453,6 +480,7 @@
     },
     {
       "name": "Infinite Metal Shards (On Repair)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -464,6 +492,7 @@
     },
     {
       "name": "Infinite Metal Shards and Bluegleams (On Buy)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -475,6 +504,7 @@
     },
     {
       "name": "Max Shards - On Buy",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -491,6 +521,7 @@
     },
     {
       "name": "Infinite Modifications (On Use)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -502,6 +533,7 @@
     },
     {
       "name": "Infinite Hunting Ground Trials Timer",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -513,6 +545,7 @@
     },
     {
       "name": "Spear and Lance - No Cooldown",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

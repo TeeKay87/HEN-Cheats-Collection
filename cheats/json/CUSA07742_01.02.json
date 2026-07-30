@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Inf Battery",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -22,6 +23,7 @@
     },
     {
       "name": "Inf Life",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

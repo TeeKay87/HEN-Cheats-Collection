@@ -24,12 +24,14 @@
   </Cheat>
   <Cheat Text="MAX-lives-99">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>7C7800</Offset>
       <Section>0</Section>
       <ValueOn>BA-63-00-00-00-41-89-97-00-01-00-00-E9-6A-19-D5-FF</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>519174</Offset>
       <Section>0</Section>
       <ValueOn>E9-87-E6-2A-00-90-90</ValueOn>

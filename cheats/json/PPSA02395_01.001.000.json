@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Inf Ammo And Items",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -22,6 +23,7 @@
     },
     {
       "name": "Inf Filter Time",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -38,6 +40,7 @@
     },
     {
       "name": "Inf HP",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

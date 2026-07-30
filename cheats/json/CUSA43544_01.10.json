@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Player Stats",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -37,6 +38,7 @@
     },
     {
       "name": "--Level_Number",
+      "description": "Max 99",
       "type": "checkbox",
       "memory": [
         {
@@ -48,6 +50,7 @@
     },
     {
       "name": "--MAX_HP",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -59,6 +62,7 @@
     },
     {
       "name": "--MAX_Stats",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -70,6 +74,7 @@
     },
     {
       "name": "Inf Items",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -106,6 +111,7 @@
     },
     {
       "name": "Inf Money",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

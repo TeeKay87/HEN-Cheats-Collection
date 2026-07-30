@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Master Code",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -47,6 +48,7 @@
     },
     {
       "name": "--Inf_Air",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -58,6 +60,7 @@
     },
     {
       "name": "--Inf_Hp",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -69,6 +72,7 @@
     },
     {
       "name": "--No_Hunger",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -80,6 +84,7 @@
     },
     {
       "name": "--No_Radiation",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -91,6 +96,7 @@
     },
     {
       "name": "--No_Thirst",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

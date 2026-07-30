@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "TRAINER INFO (read only)",
+      "description": "nPlease be sure to read the comment on each individual cheat, if a comment is available. Enjoy!",
       "type": "checkbox",
       "memory": [
         {
@@ -17,6 +18,7 @@
     },
     {
       "name": "Health Master Code (must be enabled)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -43,6 +45,7 @@
     },
     {
       "name": "--Enemy_Infinite_HP",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -54,6 +57,7 @@
     },
     {
       "name": "--One_Hit_Kill",
+      "description": "Do NOT use One Hit Kill on the first bear(Bjorn).\r\nOtherwise you may not be able to complete the fight.\r\n\r\nAlso, OHK may cause an issue that certain enemies will not show up as they are programmed to be created when other enemies reach a certain HP level when they are getting hit, but OHK obviously just kills them instantly.\r\n\r\nIn such cases, if you are getting stuck, for example in the Old Friends quest, when reaching the cave with many Draugrs and can\u0027t pass the rocks-blocked door, \r\n\r\nI recommend you disable OHK, reload the checkpoint or reload a previous save and play that part again.",
       "type": "checkbox",
       "memory": [
         {
@@ -65,6 +69,7 @@
     },
     {
       "name": "--Player_Infinite_HP",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

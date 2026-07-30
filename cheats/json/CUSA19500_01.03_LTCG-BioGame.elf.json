@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "TRAINER INFO (read only)",
+      "description": "Cheats for ME-1 ARE ONLY for Mass Effect 1, not for ME2 or ME3 and vice versa, so only enable the cheats for the game that you are playing and only enable AFTER the game is launched, not on the LAUNCHER MENU (game selection) before you launch the game of your choice! Watch Out! If you enable ME-2 cheats on another game like Mass Effect 3, for example, they will not work and it is likely the game will crash. Also - DISABLE ANY ACTIVE CHEAT BEFORE GOING BACK TO THE LAUNCHER MENU OR SWITCHING BETWEEN MASS EFFECT GAMES, OTHERWISE THE GAME MAY CRASH. This trainer was made and tested on PS4 Firmware 9.00, but should also work on other firmwares.",
       "type": "checkbox",
       "memory": [
         {
@@ -17,6 +18,7 @@
     },
     {
       "name": "Mass Effect 1 - Health Master Code (Must be enabled ALL THE TIME after launching ME-1)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -55,6 +57,7 @@
     },
     {
       "name": "[ME-1] Shield Master Code (Must be enabled ALL THE TIME after launching ME-1)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -93,6 +96,7 @@
     },
     {
       "name": "[ME-1] Infinite Max Mako Shield",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -109,6 +113,7 @@
     },
     {
       "name": "[ME-1] Inf Grenades",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -125,6 +130,7 @@
     },
     {
       "name": "[ME-1] Inf Max Medi-Gel (on get, use)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -141,6 +147,7 @@
     },
     {
       "name": "[ME-1] Inf Max Money (on get)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -152,6 +159,7 @@
     },
     {
       "name": "[ME-1] Inf Max Omni-Gel (On get, use)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -168,6 +176,7 @@
     },
     {
       "name": "[ME-1] Infinite Stamina",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -184,6 +193,7 @@
     },
     {
       "name": "[ME-1] No Weapon Cooldown",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -195,6 +205,7 @@
     },
     {
       "name": "[ME-1] Reverse Missions Timer",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -206,6 +217,7 @@
     },
     {
       "name": "[ME-1] Inf Max Talent Points",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -222,6 +234,7 @@
     },
     {
       "name": "[ME-1] Instant Max XP (OTU)",
+      "description": "OTU - One Time Use. Takes effect when killing an enemy etc.  When the XP updates to Max (Level 30), disable the cheat.",
       "type": "checkbox",
       "memory": [
         {
@@ -238,6 +251,7 @@
     },
     {
       "name": "Mass Effect 2 - Health Master Code (Must be enabled ALL THE TIME after launching ME-2)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -298,6 +312,7 @@
     },
     {
       "name": "[ME-2] Infinite Max Ammo",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -314,6 +329,7 @@
     },
     {
       "name": "[ME-2] Infinite Stamina",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -330,6 +346,7 @@
     },
     {
       "name": "[ME-2] Powers - No Cooldown",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -346,6 +363,7 @@
     },
     {
       "name": "[ME-2] Super Accuracy",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -362,6 +380,7 @@
     },
     {
       "name": "[ME-2] Inf Talent Points",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -378,6 +397,7 @@
     },
     {
       "name": "[ME-2] Max Paragon and Renegade level (OTU)",
+      "description": "Enable the cheat, then open the menu and then the squad to populate. Then save the game and reload. OTU=One time use cheat.",
       "type": "checkbox",
       "memory": [
         {
@@ -394,6 +414,7 @@
     },
     {
       "name": "[ME-2] Infinite Resources",
+      "description": "Resources are: Credits, Medi-Gel, Platinum, Palladium, Iridium, Element Zero. Open the mission computer (OPTIONS button) to populate the values.",
       "type": "checkbox",
       "memory": [
         {
@@ -410,6 +431,7 @@
     },
     {
       "name": "[ME-2]Reverse Digital Timer",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -421,6 +443,7 @@
     },
     {
       "name": "Mass Effect 3 - Master Code (Must be enabled ALL THE TIME after launching ME3)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -514,6 +537,7 @@
     },
     {
       "name": "---[ME-3] No Shake (Requires Master Code)",
+      "description": "The cheat disables weapon and camera shakes while shooting. Once enabled, the cheat can only be disabled after a game/save reload.",
       "type": "checkbox",
       "memory": [
         {
@@ -525,6 +549,7 @@
     },
     {
       "name": "[ME-3] Infinite Shield",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -541,6 +566,7 @@
     },
     {
       "name": "[ME-3] Infinite Ammo",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -557,6 +583,7 @@
     },
     {
       "name": "[ME-3] Infinite Talent Points",
+      "description": "Must disable this cheat outside the talent upgrade menu!",
       "type": "checkbox",
       "memory": [
         {

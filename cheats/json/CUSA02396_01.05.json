@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Infinite Hearts",
+      "description": "To activate this cheat you need to be on the level selection map. If you activate it before, the cheat will not work and will set your lives to 0 (Para activar este cheat debes de estar en el mapa de selecci\u00F3n de niveles, si lo activas antes el cheat no funcionar\u00E1 y pondr\u00E1 tus vidas en 0)",
       "type": "checkbox",
       "memory": [
         {
@@ -17,6 +18,7 @@
     },
     {
       "name": "Infinite Moves",
+      "description": "You can activate it at any time in the game (Puedes activarlo en cualquier momento del juego)",
       "type": "checkbox",
       "memory": [
         {

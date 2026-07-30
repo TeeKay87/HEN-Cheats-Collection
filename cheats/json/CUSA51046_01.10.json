@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Easy health",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -17,6 +18,7 @@
     },
     {
       "name": "Inf Air Dash",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -28,6 +30,7 @@
     },
     {
       "name": "Inf Double Jump",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

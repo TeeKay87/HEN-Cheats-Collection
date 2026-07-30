@@ -4,12 +4,14 @@
   <Items />
   <Cheat Text="MAX-money-(MC)">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>82457800</Offset>
       <Section>0</Section>
       <ValueOn>B9-FF-E0-F5-05-89-48-10-48-83-C4-28-E9-EF-30-5A-FE</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>809FA8F9</Offset>
       <Section>0</Section>
       <ValueOn>E9-02-CF-A5-01-90-90</ValueOn>

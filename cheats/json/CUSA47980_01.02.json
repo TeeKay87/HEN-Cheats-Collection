@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Master Code (MC)",
+      "description": "Some cheats may not work during tutorials",
       "type": "checkbox",
       "memory": [
         {
@@ -22,6 +23,7 @@
     },
     {
       "name": "Max Health (Enable MC)",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -33,6 +35,7 @@
     },
     {
       "name": "One Hit Kill (Enable MC)",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -44,6 +47,7 @@
     },
     {
       "name": "Weapon Health (Enable MC)",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -55,6 +59,7 @@
     },
     {
       "name": "Max Mana (Enable MC)",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -66,6 +71,7 @@
     },
     {
       "name": "Ignored by the Enemy (Enable MC)",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -77,6 +83,7 @@
     },
     {
       "name": "Max Coins",
+      "description": "To trigger it, spend coins; disable it after obtaining 9 million coins",
       "type": "checkbox",
       "memory": [
         {

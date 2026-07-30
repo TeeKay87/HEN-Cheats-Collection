@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Inf Life And Stamina",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -22,6 +23,7 @@
     },
     {
       "name": "Inf Items",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -53,6 +55,7 @@
     },
     {
       "name": "0 Weight",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

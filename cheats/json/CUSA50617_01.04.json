@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "TRAINER INFO (read only)",
+      "description": "This trainer has been partially tested and seem to work fine. Please let me know if there is any issue. Be sure to read the comment on each individual cheat, if a comment is available. Trainer is compatible with CUSA50614, CUSA50615, CUSA50617, CUSA48853. Enjoy! :)",
       "type": "checkbox",
       "memory": [
         {
@@ -17,6 +18,7 @@
     },
     {
       "name": "Master Code (Must be enabled first \u002B all the time)",
+      "description": "Cheats with -- prefix depend on the Master Code",
       "type": "checkbox",
       "memory": [
         {
@@ -53,6 +55,7 @@
     },
     {
       "name": "God Mode",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -89,6 +92,7 @@
     },
     {
       "name": "One Hit Kill",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -100,6 +104,7 @@
     },
     {
       "name": "Inf\u002BMax Health",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -126,6 +131,7 @@
     },
     {
       "name": "Kill Everybody Around (L3 \u002B L2)",
+      "description": "When this cheat is enabled, pressing L3\u002BL2 will instantly kill everyone in the area.",
       "type": "checkbox",
       "memory": [
         {
@@ -162,6 +168,7 @@
     },
     {
       "name": "Enemies Dont Attack",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -178,6 +185,7 @@
     },
     {
       "name": "Inf\u002BMax FP",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -194,6 +202,7 @@
     },
     {
       "name": "Inf\u002BMax Stamina",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -210,6 +219,7 @@
     },
     {
       "name": "--Vanish All Enemies",
+      "description": "Probably not very useful. Just added it for the sake of it. :-)",
       "type": "checkbox",
       "memory": [
         {
@@ -221,6 +231,7 @@
     },
     {
       "name": "Inf\u002BMax Consumables",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -232,6 +243,7 @@
     },
     {
       "name": "Inf\u002BMax Runes",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -248,6 +260,7 @@
     },
     {
       "name": "Runes Retained On Death",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -259,6 +272,7 @@
     },
     {
       "name": "Inf\u002BMax Murks",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -275,6 +289,7 @@
     },
     {
       "name": "Player No Dead 1.04",
+      "description": "Player can take damage but never die.",
       "type": "checkbox",
       "memory": [
         {
@@ -286,6 +301,7 @@
     },
     {
       "name": "Infinite Ultimate Art",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -297,6 +313,7 @@
     },
     {
       "name": "--No Skill Cooldown",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -308,6 +325,7 @@
     },
     {
       "name": "Multi Jump And Levitate",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -319,6 +337,7 @@
     },
     {
       "name": "Inf\u002BMax Level (15)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -335,6 +354,7 @@
     },
     {
       "name": "--Enemy Speed x0.2",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -346,6 +366,7 @@
     },
     {
       "name": "--Enemy Speed x0.5",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -357,6 +378,7 @@
     },
     {
       "name": "--Enemy Speed x2",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -368,6 +390,7 @@
     },
     {
       "name": "--Player Speed x1",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -379,6 +402,7 @@
     },
     {
       "name": "--Player Speed x2",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -390,6 +414,7 @@
     },
     {
       "name": "--Player Speed x3",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -401,6 +426,7 @@
     },
     {
       "name": "--Player Speed x4",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -412,6 +438,7 @@
     },
     {
       "name": "Stop Night Growth",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -428,6 +455,7 @@
     },
     {
       "name": "Disable Idle Timer",
+      "description": "This disables the annoying timer that sign you out of the game if you remain idle for some time.",
       "type": "checkbox",
       "memory": [
         {

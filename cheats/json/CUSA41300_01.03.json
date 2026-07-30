@@ -526,6 +526,7 @@
     },
     {
       "name": "Master [EN_US]",
+      "description": "Enable items (in the L2 menu) when needed, don\u0027t leave items active that you don\u0027t need",
       "type": "checkbox",
       "memory": [
         {
@@ -542,6 +543,7 @@
     },
     {
       "name": "Master [EN_UK]",
+      "description": "Enable items (in the L2 menu) when needed, don\u0027t leave items active that you don\u0027t need",
       "type": "checkbox",
       "memory": [
         {
@@ -558,6 +560,7 @@
     },
     {
       "name": "Master [FRE]",
+      "description": "Activez les \u00E9l\u00E9ments (dans le menu L2) si n\u00E9cessaire, ne laissez pas actifs les \u00E9l\u00E9ments dont vous n\u0027avez pas besoin",
       "type": "checkbox",
       "memory": [
         {
@@ -574,6 +577,7 @@
     },
     {
       "name": "Master [DEU]",
+      "description": "Aktivieren Sie bei Bedarf Elemente (im L2-Men\u00FC), lassen Sie keine Elemente aktiv, die Sie nicht ben\u00F6tigen",
       "type": "checkbox",
       "memory": [
         {
@@ -590,6 +594,7 @@
     },
     {
       "name": "Master [ITA]",
+      "description": "Abilita gli oggetti (nel menu L2) quando necessario, non lasciare attivi oggetti che non ti servono",
       "type": "checkbox",
       "memory": [
         {
@@ -606,6 +611,7 @@
     },
     {
       "name": "Master [ESP]",
+      "description": "Habilite elementos (en el men\u00FA L2) cuando sea necesario, no deje activos elementos que no necesite",
       "type": "checkbox",
       "memory": [
         {
@@ -622,6 +628,7 @@
     },
     {
       "name": "Master [JPN]",
+      "description": "\u5FC5\u8981\u306B\u5FDC\u3058\u3066(L2\u30E1\u30CB\u30E5\u30FC\u3067)\u9805\u76EE\u3092\u6709\u52B9\u306B\u3057\u3001\u4E0D\u8981\u306A\u9805\u76EE\u3092\u30A2\u30AF\u30C6\u30A3\u30D6\u306A\u307E\u307E\u306B\u3057\u306A\u3044\u3067\u304F\u3060\u3055\u3044",
       "type": "checkbox",
       "memory": [
         {
@@ -990,6 +997,7 @@
     },
     {
       "name": "Pal Key Red (Enable PL)",
+      "description": "Disable Pal Key Cyan before enabling this cheat",
       "type": "checkbox",
       "memory": [
         {
@@ -1001,6 +1009,7 @@
     },
     {
       "name": "Pal Key Cyan (Enable PL)",
+      "description": "Disable Pal Key Red before enabling this cheat",
       "type": "checkbox",
       "memory": [
         {
@@ -1078,6 +1087,7 @@
     },
     {
       "name": "Suppressor",
+      "description": "After activating this cheat, equip the socom and disable this cheat or you will not be able to shoot",
       "type": "checkbox",
       "memory": [
         {

@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "TRAINER INFO (read only)",
+      "description": "Please  be sure to read the comment on each individual cheat, if a comment is available. For my most advanced Ragnarok trainer I recommend using my ShnExt trainer with MultiTrainer2. Enjoy! :-)",
       "type": "checkbox",
       "memory": [
         {
@@ -17,6 +18,7 @@
     },
     {
       "name": "God Mode (Untouchable\u002BNo Effects) [DO NOT USE IN VALHALLA]",
+      "description": "May cause progression issues with some bosses. Disable and restart from checkpoint if and when it does. Use No Damage Taken instead.",
       "type": "checkbox",
       "memory": [
         {
@@ -53,6 +55,7 @@
     },
     {
       "name": "No Damage Taken",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -64,6 +67,7 @@
     },
     {
       "name": "No XP,HS, Resources subtracted when used",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -80,6 +84,7 @@
     },
     {
       "name": "No Crafting And Upgrade Limits",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -91,6 +96,7 @@
     },
     {
       "name": "Infinite Arrows and Throwables [DO NOT USE IN VALHALLA]",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -117,6 +123,7 @@
     },
     {
       "name": "Infinite Rage (incl. Kratos and Atreus)",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -133,6 +140,7 @@
     },
     {
       "name": "Damage Multiplier(Master Code) [DO NOT USE IN VALHALLA]",
+      "description": "Enable this first and then only one of the damage levels. May not affect some travelers (mini bosses)",
       "type": "checkbox",
       "memory": [
         {
@@ -149,6 +157,7 @@
     },
     {
       "name": "--5x damage",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -160,6 +169,7 @@
     },
     {
       "name": "--10x damage",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -171,6 +181,7 @@
     },
     {
       "name": "--20x damage",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -182,6 +193,7 @@
     },
     {
       "name": "--30x damage",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -193,6 +205,7 @@
     },
     {
       "name": "--40x damage",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -204,6 +217,7 @@
     },
     {
       "name": "--50x damage",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -215,6 +229,7 @@
     },
     {
       "name": "--100x damage (one hit kill)",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -226,6 +241,7 @@
     },
     {
       "name": "One Hit Stun [DO NOT USE IN VALHALLA]",
+      "description": "This cheat may cause progression issues with some enemies (especially bosses).If and when it does, be sure to disable it and reload the checkpoint.",
       "type": "checkbox",
       "memory": [
         {
@@ -242,6 +258,7 @@
     },
     {
       "name": "Infinite Max Shield Charge",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -258,6 +275,7 @@
     },
     {
       "name": "No Talisman and Relic Cooldown",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -274,6 +292,7 @@
     },
     {
       "name": "Infinite Weapon Charge (L1\u002BTriangle)",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {

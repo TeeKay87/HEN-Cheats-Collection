@@ -4,24 +4,28 @@
   <Items />
   <Cheat Text="Infinite-Health-(Master-Code)">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>3623800</Offset>
       <Section>0</Section>
       <ValueOn>41-83-BC-24-AC-00-00-00-02-75-0A-41-8B-44-24-0C-E9-7B-26-09-FD-41-89-44-24-20-E9-71-26-09-FD</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>6B5E8B</Offset>
       <Section>0</Section>
       <ValueOn>E9-70-D9-F6-02</ValueOn>
       <ValueOff>41-89-44-24-20</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>3623821</Offset>
       <Section>0</Section>
       <ValueOn>41-83-BC-24-38-02-00-00-00-75-E9-41-8B-44-24-0C-E9-5A-26-09-FD-41-89-44-24-20-E9-50-26-09-FD</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>6B5E8B</Offset>
       <Section>0</Section>
       <ValueOn>E9-91-D9-F6-02</ValueOn>

@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Jump in midair",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -17,6 +18,7 @@
     },
     {
       "name": "Untouchable (Use with Jump in midair code)",
+      "description": "Falling into the void you\u0027ll not die, use it with the Jump in midair code. Only works when you\u0027re on foot, not when you slide.",
       "type": "checkbox",
       "memory": [
         {
@@ -28,6 +30,7 @@
     },
     {
       "name": "Untouchable - Third AkuAku mask effect",
+      "description": "Don\u0027t need the Jump in midair code, falling into the void you\u0027ll die.",
       "type": "checkbox",
       "memory": [
         {

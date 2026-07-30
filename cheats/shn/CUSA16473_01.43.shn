@@ -4,6 +4,7 @@
   <Items />
   <Cheat Text="infinite oxygen">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>190322A</Offset>
       <Section>0</Section>
       <ValueOn>90-90-90-90-90</ValueOn>
@@ -12,6 +13,7 @@
   </Cheat>
   <Cheat Text="printing material never disappears">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>188445B</Offset>
       <Section>0</Section>
       <ValueOn>90-90-90-90-90</ValueOn>
@@ -20,6 +22,7 @@
   </Cheat>
   <Cheat Text="inf fuel">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>1831587</Offset>
       <Section>0</Section>
       <ValueOn>90-90-90-90-90</ValueOn>
@@ -28,6 +31,7 @@
   </Cheat>
   <Cheat Text="bytes never decrease">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>1A2DF2B</Offset>
       <Section>0</Section>
       <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
@@ -36,6 +40,7 @@
   </Cheat>
   <Cheat Text="inf soil canister">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>1AA9B3A</Offset>
       <Section>0</Section>
       <ValueOn>90-90-90-90-90</ValueOn>
@@ -44,6 +49,7 @@
   </Cheat>
   <Cheat Text="inf jetpack fuel">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>18256F8</Offset>
       <Section>0</Section>
       <ValueOn>90-90-90-90-90</ValueOn>

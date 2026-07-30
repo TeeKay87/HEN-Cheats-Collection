@@ -4,12 +4,14 @@
   <Items />
   <Cheat Text="Infinite-Health-(mc)">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>140B800</Offset>
       <Section>0</Section>
       <ValueOn>83-BB-AC-02-00-00-01-75-0A-C5-FA-10-4B-0C-E9-68-36-31-FF-C5-FA-11-4B-68-E9-5E-36-31-FF</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>71EE76</Offset>
       <Section>0</Section>
       <ValueOn>E9-85-C9-CE-00</ValueOn>
@@ -34,12 +36,14 @@
   </Cheat>
   <Cheat Text="MAX-SkillS-Points-(MC)">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>140B833</Offset>
       <Section>0</Section>
       <ValueOn>B8-0F-27-00-00-89-83-E0-07-00-00-E9-FD-47-90-FF</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>D1003A</Offset>
       <Section>0</Section>
       <ValueOn>E9-F4-B7-6F-00-90</ValueOn>
@@ -56,12 +60,14 @@
   </Cheat>
   <Cheat Text="Infinite-Health-2-(mc)">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>140B800</Offset>
       <Section>0</Section>
       <ValueOn>83-BB-BC-00-00-00-00-75-0A-C5-FA-10-4B-0C-E9-68-36-31-FF-C5-FA-11-4B-68-E9-5E-36-31-FF</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>71EE76</Offset>
       <Section>0</Section>
       <ValueOn>E9-85-C9-CE-00</ValueOn>
@@ -70,12 +76,14 @@
   </Cheat>
   <Cheat Text="MAX-All-Items-(MC)">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>140B822</Offset>
       <Section>0</Section>
       <ValueOn>C7-40-04-0F-27-00-00-41-89-DE-E9-FD-4A-BB-FF</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>FC0328</Offset>
       <Section>0</Section>
       <ValueOn>E9-F5-B4-44-00</ValueOn>
@@ -84,12 +92,14 @@
   </Cheat>
   <Cheat Text="Invincible-1-(mc)">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>140B845</Offset>
       <Section>0</Section>
       <ValueOn>49-83-FB-02-0F-84-A6-0C-A5-FF-31-D2-41-FF-50-08-E9-9E-0C-A5-FF</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>E5C4F1</Offset>
       <Section>0</Section>
       <ValueOn>E9-4F-F3-5A-00-90-90</ValueOn>
@@ -98,12 +108,14 @@
   </Cheat>
   <Cheat Text="Invincibl-2-(mc)">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>140B81F</Offset>
       <Section>0</Section>
       <ValueOn>49-83-F9-05-0F-84-5D-72-9F-FF-E8-02-32-A2-FF-E9-53-72-9F-FF</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>E02A81</Offset>
       <Section>0</Section>
       <ValueOn>E9-99-8D-60-00</ValueOn>

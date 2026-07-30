@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Inf Life",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -22,6 +23,7 @@
     },
     {
       "name": "Inf Stamina",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -48,6 +50,7 @@
     },
     {
       "name": "Inf Gold",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -64,6 +67,7 @@
     },
     {
       "name": "Inf Skulls",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -80,6 +84,7 @@
     },
     {
       "name": "Inf Rings",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -96,6 +101,7 @@
     },
     {
       "name": "No Corruption",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

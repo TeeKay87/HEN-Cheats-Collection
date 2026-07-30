@@ -4,84 +4,98 @@
   <Items />
   <Cheat Text="Infinite-Health + 1 Hit Kill-(MC)">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>81B1F800</Offset>
       <Section>0</Section>
       <ValueOn>41-80-7D-28-01-75-0B-C4-C1-7A-10-45-0C-E9-0C-5C-B8-FE-C4-C1-7A-10-45-7C-E9-01-5C-B8-FE</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>806A5418</Offset>
       <Section>0</Section>
       <ValueOn>E9-E3-A3-47-01-90</ValueOn>
       <ValueOff>C4-C1-7A-10-45-7C</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>81B1F81F</Offset>
       <Section>0</Section>
       <ValueOn>41-80-7D-28-00-75-0B-C4-C1-7A-10-45-0C-E9-ED-5B-B8-FE-C4-C1-7A-10-45-7C-E9-E2-5B-B8-FE</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>806A5418</Offset>
       <Section>0</Section>
       <ValueOn>E9-02-A4-47-01</ValueOn>
       <ValueOff>E9-E3-A3-47-01</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>81B1F83E</Offset>
       <Section>0</Section>
       <ValueOn>41-80-BD-9C-00-00-00-00-75-0B-C4-C1-7A-10-45-0C-E9-CB-5B-B8-FE-C4-C1-7A-10-45-7C-E9-C0-5B-B8-FE</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>806A5418</Offset>
       <Section>0</Section>
       <ValueOn>E9-21-A4-47-01</ValueOn>
       <ValueOff>E9-02-A4-47-01</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>81B1F860</Offset>
       <Section>0</Section>
       <ValueOn>41-80-BD-9C-00-00-00-02-75-0B-C4-C1-7A-10-45-0C-E9-A9-5B-B8-FE-C4-C1-7A-10-45-7C-E9-9E-5B-B8-FE</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>806A5418</Offset>
       <Section>0</Section>
       <ValueOn>E9-43-A4-47-01</ValueOn>
       <ValueOff>E9-21-A4-47-01</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>81B1F882</Offset>
       <Section>0</Section>
       <ValueOn>41-80-BD-9C-00-00-00-02-75-0B-C4-C1-7A-10-4D-0C-E9-87-5B-B8-FE-C4-C1-7A-10-4D-7C-E9-7C-5B-B8-FE</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>806A5418</Offset>
       <Section>0</Section>
       <ValueOn>E9-65-A4-47-01</ValueOn>
       <ValueOff>E9-43-A4-47-01</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>81B1F8A4</Offset>
       <Section>0</Section>
       <ValueOn>41-80-BD-9C-00-00-00-02-75-0B-C4-C1-7A-10-4D-0C-E9-65-5B-B8-FE-C4-C1-7A-10-45-7C-E9-5A-5B-B8-FE</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>806A5418</Offset>
       <Section>0</Section>
       <ValueOn>E9-87-A4-47-01</ValueOn>
       <ValueOff>E9-65-A4-47-01</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>81B1F8C6</Offset>
       <Section>0</Section>
       <ValueOn>41-80-BD-9C-00-00-00-02-75-0B-C4-C1-7A-10-45-0C-E9-43-5B-B8-FE-C4-C1-7A-10-4D-7C-E9-38-5B-B8-FE</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>806A5418</Offset>
       <Section>0</Section>
       <ValueOn>E9-A9-A4-47-01</ValueOn>
@@ -90,24 +104,28 @@
   </Cheat>
   <Cheat Text="1 Hit Kill-(MC)">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>81B1F800</Offset>
       <Section>0</Section>
       <ValueOn>41-80-7D-28-01-75-0B-C4-C1-7A-10-45-0C-E9-0C-5C-B8-FE-C4-C1-7A-10-45-7C-E9-01-5C-B8-FE</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>806A5418</Offset>
       <Section>0</Section>
       <ValueOn>E9-E3-A3-47-01-90</ValueOn>
       <ValueOff>C4-C1-7A-10-45-7C</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>81B1F81F</Offset>
       <Section>0</Section>
       <ValueOn>41-80-7D-28-00-75-0B-C4-C1-7A-10-45-0C-E9-ED-5B-B8-FE-C4-C1-7A-10-45-7C-E9-E2-5B-B8-FE</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>806A5418</Offset>
       <Section>0</Section>
       <ValueOn>E9-02-A4-47-01</ValueOn>

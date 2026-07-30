@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Master Code",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -42,6 +43,7 @@
     },
     {
       "name": "--Inf_Hp",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -53,6 +55,7 @@
     },
     {
       "name": "--Inf_Mind",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -64,6 +67,7 @@
     },
     {
       "name": "--Inf_Power",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -75,6 +79,7 @@
     },
     {
       "name": "--One_hit_kill",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -86,6 +91,7 @@
     },
     {
       "name": "Inf Items and Money",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

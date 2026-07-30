@@ -43,7 +43,8 @@
         {
           "offset": "4E00A",
           "on": "EB01",
-          "off": "EB05"
+          "off": "EB05",
+          "section": "31"
         }
       ]
     },
@@ -54,7 +55,8 @@
         {
           "offset": "4E02E",
           "on": "EB01",
-          "off": "EB0B"
+          "off": "EB0B",
+          "section": "31"
         }
       ]
     },
@@ -65,7 +67,8 @@
         {
           "offset": "4E057",
           "on": "EB01",
-          "off": "EB0B"
+          "off": "EB0B",
+          "section": "31"
         }
       ]
     }

@@ -86,6 +86,7 @@
     },
     {
       "name": "Enemies Dont Attack",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -102,6 +103,7 @@
     },
     {
       "name": "Player No Dead 1.21",
+      "description": "Player can take damage but never die.",
       "type": "checkbox",
       "memory": [
         {
@@ -113,6 +115,7 @@
     },
     {
       "name": "Inf\u002BMax FP",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -124,6 +127,7 @@
     },
     {
       "name": "Inf\u002BMax Stamina",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -140,6 +144,7 @@
     },
     {
       "name": "Infinite Ultimate Art",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -151,6 +156,7 @@
     },
     {
       "name": "Multi Jump And Levitate",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -162,6 +168,7 @@
     },
     {
       "name": "Inf\u002BMax Level (15)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -178,6 +185,7 @@
     },
     {
       "name": "Stop Night Growth",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -194,6 +202,7 @@
     },
     {
       "name": "Disable Idle Timer",
+      "description": "This disables the annoying timer that sign you out of the game if you remain idle for some time.",
       "type": "checkbox",
       "memory": [
         {

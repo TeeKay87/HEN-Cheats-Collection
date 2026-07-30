@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Cant Grab You",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -22,6 +23,7 @@
     },
     {
       "name": "Easy Hp",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -38,6 +40,7 @@
     },
     {
       "name": "Inf Hp",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -49,6 +52,7 @@
     },
     {
       "name": "Longest Time To Rain",
+      "description": "After Save",
       "type": "checkbox",
       "memory": [
         {

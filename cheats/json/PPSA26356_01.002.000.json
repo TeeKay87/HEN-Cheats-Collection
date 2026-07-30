@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "God Mode",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -17,6 +18,7 @@
     },
     {
       "name": "Inf Hab Items",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -38,6 +40,7 @@
     },
     {
       "name": "Inf Items",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -54,6 +57,7 @@
     },
     {
       "name": "Stop Timer",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

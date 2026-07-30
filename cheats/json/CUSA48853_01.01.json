@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "TRAINER INFO (read only)",
+      "description": "This trainer has been partially tested and seem to work fine. Please let me know if there is any issue. Be sure to read the comment on each individual cheat, if a comment is available. Trainer is compatible with CUSA50614, CUSA50615, CUSA50617, CUSA48853. Enjoy! :)",
       "type": "checkbox",
       "memory": [
         {
@@ -17,6 +18,7 @@
     },
     {
       "name": "Master Code (Must be enabled first and all the time)",
+      "description": "Cheats with -- prefix depend on the Master Code",
       "type": "checkbox",
       "memory": [
         {
@@ -53,6 +55,7 @@
     },
     {
       "name": "God Mode",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -89,6 +92,7 @@
     },
     {
       "name": "One Hit Kill",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -100,6 +104,7 @@
     },
     {
       "name": "Inf\u002BMax Health",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -126,6 +131,7 @@
     },
     {
       "name": "Inf\u002BMax FP",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -142,6 +148,7 @@
     },
     {
       "name": "Inf\u002BMax Stamina",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -158,6 +165,7 @@
     },
     {
       "name": "Inf\u002BMax Consumables",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -169,6 +177,7 @@
     },
     {
       "name": "Inf\u002BMax Runes",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -185,6 +194,7 @@
     },
     {
       "name": "Runes Retained On Death",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -196,6 +206,7 @@
     },
     {
       "name": "Inf\u002BMax Murks",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -212,6 +223,7 @@
     },
     {
       "name": "Player No Dead 1.01-1.02",
+      "description": "Player can take damage but never die.",
       "type": "checkbox",
       "memory": [
         {
@@ -223,6 +235,7 @@
     },
     {
       "name": "Infinite Ultimate Art",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -234,6 +247,7 @@
     },
     {
       "name": "--No Skill Cooldown",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -245,6 +259,7 @@
     },
     {
       "name": "--Enemy Speed x0",
+      "description": "Freezes enemies",
       "type": "checkbox",
       "memory": [
         {
@@ -256,6 +271,7 @@
     },
     {
       "name": "--Enemy Speed x0.5",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -267,6 +283,7 @@
     },
     {
       "name": "--Enemy Speed x1",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -278,6 +295,7 @@
     },
     {
       "name": "--Enemy Speed x2",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -289,6 +307,7 @@
     },
     {
       "name": "--Player Speed x1",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -300,6 +319,7 @@
     },
     {
       "name": "--Player Speed x2",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -311,6 +331,7 @@
     },
     {
       "name": "--Player Speed x3",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -322,6 +343,7 @@
     },
     {
       "name": "--Player Speed x4",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -333,6 +355,7 @@
     },
     {
       "name": "--Player Speed x5",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

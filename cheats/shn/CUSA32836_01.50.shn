@@ -5,6 +5,7 @@
   <Cheat Text="Infinite Health - Green Bar (Player 1 only)" Description="You must turn ON at the beginning of the fight.">
     <Cheatline>
       <PS5Offset>800-executable[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>258B800</Offset>
       <Section>0</Section>
       <ValueOn>83-78-18-00-75-0C-C7-40-38-00-00-C8-42-E9-D6-31-85-FE-C5-FA-11-40-38-E9-CC-31-85-FE</ValueOn>
@@ -12,6 +13,7 @@
     </Cheatline>
     <Cheatline>
       <PS5Offset>17AD61D-executable[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>DDE9E3</Offset>
       <Section>0</Section>
       <ValueOn>E9-18-CE-7A-01</ValueOn>
@@ -21,6 +23,7 @@
   <Cheat Text="Infinite Magic / Chakra - Blue Bar (Player 1 only)" Description="You must turn ON at the beginning of the fight.">
     <Cheatline>
       <PS5Offset>7E2-executable[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>258B81E</Offset>
       <Section>0</Section>
       <ValueOn>83-78-34-02-75-0C-C7-40-40-00-00-C8-42-E9-78-38-85-FE-C5-FA-11-40-40-E9-6E-38-85-FE</ValueOn>
@@ -28,6 +31,7 @@
     </Cheatline>
     <Cheatline>
       <PS5Offset>17ACF5D-executable[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>DDF0A3</Offset>
       <Section>0</Section>
       <ValueOn>E9-76-C7-7A-01</ValueOn>

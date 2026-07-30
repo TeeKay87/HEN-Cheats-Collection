@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "TRAINER INFO (read only)",
+      "description": "This is my v04.06 port for Cosmaty\u0027s excellent v01.50 trainer. I have added a teleport cheat, reset horse fear bar and No toxicity from decoctions. Important! Please be sure to read the cheats\u0027 comments, where available! I have partially tested it and it seems to be working fine, but please let me know if there is any issue. This version is multiCUSA compatible and since it is AOB based it should be fully or partially working on past and future versions of the game. Enjoy! :)",
       "type": "checkbox",
       "memory": [
         {
@@ -17,6 +18,7 @@
     },
     {
       "name": "Master Codes (Must be enabled!)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -63,6 +65,7 @@
     },
     {
       "name": "--Easy_Kill",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -74,6 +77,7 @@
     },
     {
       "name": "--Infinite_Adrenaline",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -85,6 +89,7 @@
     },
     {
       "name": "--Infinite_HP",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -96,6 +101,7 @@
     },
     {
       "name": "--Infinite_Horse_Run",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -107,6 +113,7 @@
     },
     {
       "name": "--Infinite_Oxygen",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -118,6 +125,7 @@
     },
     {
       "name": "--Inifinite_Stamina",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -129,6 +137,7 @@
     },
     {
       "name": "--Min_Horse_Panic",
+      "description": "Enable this together with Reset Horse Fear Bar cheat",
       "type": "checkbox",
       "memory": [
         {
@@ -140,6 +149,7 @@
     },
     {
       "name": "--No_Toxicity",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -151,6 +161,7 @@
     },
     {
       "name": "No Toxicity From Decoctions 4.06",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -167,6 +178,7 @@
     },
     {
       "name": "Reset Horse Fear Bar",
+      "description": "Enable this together with MinHorsePanic cheat",
       "type": "checkbox",
       "memory": [
         {
@@ -183,6 +195,7 @@
     },
     {
       "name": "Teleport to Map Waypoint",
+      "description": "Must enable God Mode otherwise the teleport will kill you. Note that teleporting may break some quests.",
       "type": "checkbox",
       "memory": [
         {
@@ -209,6 +222,7 @@
     },
     {
       "name": "--XP_Multiplier x1",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -220,6 +234,7 @@
     },
     {
       "name": "--XP_Multiplier x5",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -231,6 +246,7 @@
     },
     {
       "name": "--XP_Multiplier x10",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -242,6 +258,7 @@
     },
     {
       "name": "--XP_Multiplier x20",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -253,6 +270,7 @@
     },
     {
       "name": "--XP_Multiplier x50",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -264,6 +282,7 @@
     },
     {
       "name": "--XP_Multiplier x999",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -275,6 +294,7 @@
     },
     {
       "name": "--Game Speed x1",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -286,6 +306,7 @@
     },
     {
       "name": "Infinite Items 4.06 ",
+      "description": "In some rare cases you may not be able to clear a loot when the cheat is enabled. Disable the cheat and clear that specific loot.",
       "type": "checkbox",
       "memory": [
         {
@@ -312,6 +333,7 @@
     },
     {
       "name": "Infinite Potions",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -328,6 +350,7 @@
     },
     {
       "name": "No Crafting and Alchemy Requirements",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -339,6 +362,7 @@
     },
     {
       "name": "Infinite Money 4.06",
+      "description": "Takes effect when buying or selling",
       "type": "checkbox",
       "memory": [
         {
@@ -355,6 +379,7 @@
     },
     {
       "name": "--Walking Speed x1",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -366,6 +391,7 @@
     },
     {
       "name": "Infinite Skill Points",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -382,6 +408,7 @@
     },
     {
       "name": "Durable Weapons And Armor",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -398,6 +425,7 @@
     },
     {
       "name": "Max Weight 99999",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

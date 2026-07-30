@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "TRAINER INFO (read only)",
+      "description": "BE SURE TO READ ALL the comments where available. As a rule of thumb (for all games), ALWAYS enable only cheats that are needed and disable when they are not. You may need to enable Player-No-Dead cheat to prevent dying from fall damage when using the Moon/Super-Jump cheat. For an even more advanced trainer, which also includes the stats cheats and other perks, check out my MultiTrainer2 ShnExt trainer. This trainer was made and tested on PS4 Firmware 9.00, but should also work on other firmwares. Enjoy! ;-)",
       "type": "checkbox",
       "memory": [
         {
@@ -17,6 +18,7 @@
     },
     {
       "name": "Master Code (Must be enabled ALL THE TIME)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -146,6 +148,7 @@
     },
     {
       "name": "Invincible",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -162,6 +165,7 @@
     },
     {
       "name": "Infinite Stamina",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -178,6 +182,7 @@
     },
     {
       "name": "Infinite FP",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -194,6 +199,7 @@
     },
     {
       "name": "No Effects",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -210,6 +216,7 @@
     },
     {
       "name": "Stealth Mode",
+      "description": "Enemies will be able to see you if and when you attack them.",
       "type": "checkbox",
       "memory": [
         {
@@ -221,6 +228,7 @@
     },
     {
       "name": "Enemies Dont Attack",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -237,6 +245,7 @@
     },
     {
       "name": "Player No Dead",
+      "description": "May take health damage, but will remain alive, even when falling from heights.",
       "type": "checkbox",
       "memory": [
         {
@@ -248,6 +257,7 @@
     },
     {
       "name": "Unlimited Jumps",
+      "description": "Can not be used if player speed is set too high.",
       "type": "checkbox",
       "memory": [
         {
@@ -259,6 +269,7 @@
     },
     {
       "name": "100%% Loot Drop-Rate",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -275,6 +286,7 @@
     },
     {
       "name": "No Overloaded Weight Slowdown",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -291,6 +303,7 @@
     },
     {
       "name": "Infinite Runes",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -302,6 +315,7 @@
     },
     {
       "name": "Max Inf Items (on Get and Use)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -313,6 +327,7 @@
     },
     {
       "name": "Ignore Crafting Item Requirement",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -324,6 +339,7 @@
     },
     {
       "name": "Ignore Smithing Item Requirement",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -335,6 +351,7 @@
     },
     {
       "name": "Quick Buy and Sell Shop Items",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -467,6 +484,7 @@
     },
     {
       "name": "Pause By Controller (read description)",
+      "description": "Pause Game: Press Options \u002B Dpad Right. UnPause Game: Press Options \u002B Dpad Left. Note: Some background elements like flowers may still move while the game is paused. Thats normal.",
       "type": "checkbox",
       "memory": [
         {

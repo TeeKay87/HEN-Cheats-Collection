@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Inf HP",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -22,6 +23,7 @@
     },
     {
       "name": "Inf MP",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -33,6 +35,7 @@
     },
     {
       "name": "Inf Items",
+      "description": "At least 2",
       "type": "checkbox",
       "memory": [
         {
@@ -49,6 +52,7 @@
     },
     {
       "name": "Inf Money",
+      "description": "Inf Money Shop",
       "type": "checkbox",
       "memory": [
         {

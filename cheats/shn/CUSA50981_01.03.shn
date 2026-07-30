@@ -5,6 +5,7 @@
   <Cheat Text="Invincible">
     <Cheatline>
       <PS5Offset>800-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>83723800</Offset>
       <Section>14</Section>
       <ValueOn>48-83-FA-01-0F-84-0A-6C-6F-FD-E8-F1-5A-6F-FD-E9-00-6C-6F-FD</ValueOn>
@@ -12,6 +13,7 @@
     </Cheatline>
     <Cheatline>
       <PS5Offset>2909BF1-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>80E1A40F</Offset>
       <Section>14</Section>
       <ValueOn>E9-EC-93-90-02</ValueOn>

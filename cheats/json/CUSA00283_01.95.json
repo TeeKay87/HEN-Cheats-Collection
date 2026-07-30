@@ -116,6 +116,7 @@
     },
     {
       "name": "[ Infinite Items ]",
+      "description": "You need atleast 2 items in a single item slot to have infinite.",
       "type": "checkbox",
       "memory": [
         {
@@ -127,6 +128,7 @@
     },
     {
       "name": "[ Infinite Items (use) ]",
+      "description": "You need atleast 2 items in a single item slot to have infinite.",
       "type": "checkbox",
       "memory": [
         {
@@ -138,6 +140,7 @@
     },
     {
       "name": "[ Infinite Health ]",
+      "description": "Including monsters, animals and other players.",
       "type": "checkbox",
       "memory": [
         {
@@ -149,6 +152,7 @@
     },
     {
       "name": "[ Infinite Food ]",
+      "description": "Including monsters, animals and other players.",
       "type": "checkbox",
       "memory": [
         {
@@ -171,6 +175,7 @@
     },
     {
       "name": "[ Freeze Potions ]",
+      "description": "\u002B Poison doesnt do damage",
       "type": "checkbox",
       "memory": [
         {
@@ -182,6 +187,7 @@
     },
     {
       "name": "[ Slider Bypass ]",
+      "description": "Bypasses maximum/minimum limits of sliders",
       "type": "checkbox",
       "memory": [
         {

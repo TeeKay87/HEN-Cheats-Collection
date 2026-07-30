@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Inf HP \u0026 One Hit kill",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -22,6 +23,7 @@
     },
     {
       "name": "Inf HP",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -38,6 +40,7 @@
     },
     {
       "name": "Inf Items",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -49,6 +52,7 @@
     },
     {
       "name": "Inf Money",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

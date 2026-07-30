@@ -27,12 +27,14 @@
         {
           "offset": "EB7E9",
           "on": "750F",
-          "off": "7505"
+          "off": "7505",
+          "section": "7"
         },
         {
           "offset": "EB7E0",
           "on": "7518",
-          "off": "750E"
+          "off": "750E",
+          "section": "7"
         }
       ]
     }

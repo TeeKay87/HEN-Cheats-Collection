@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Inf Hp",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -17,6 +18,7 @@
     },
     {
       "name": "Inf Seeds",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -28,6 +30,7 @@
     },
     {
       "name": "Inf Water",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -39,6 +42,7 @@
     },
     {
       "name": "Inf Materials",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -55,6 +59,7 @@
     },
     {
       "name": "Inf Gold",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -71,6 +76,7 @@
     },
     {
       "name": "Master Code Timer",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -102,6 +108,7 @@
     },
     {
       "name": "--Fast_Timer",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -113,6 +120,7 @@
     },
     {
       "name": "--Faster_Timer",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -124,6 +132,7 @@
     },
     {
       "name": "--Stop_Time",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

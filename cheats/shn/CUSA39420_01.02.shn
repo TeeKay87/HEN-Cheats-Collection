@@ -61,6 +61,7 @@
   <Cheat Text="Infinite Health ">
     <Cheatline>
       <PS5Offset>2C147E3-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>8222B81D</Offset>
       <Section>15</Section>
       <ValueOn>90-90-90</ValueOn>
@@ -70,6 +71,7 @@
   <Cheat Text="No hit Detection" Description="Do NOT open the inventory screen with this cheat on. It will soft crash the game">
     <Cheatline>
       <PS5Offset>2DBEE6D-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>82081193</Offset>
       <Section>15</Section>
       <ValueOn>90-90-90-90-90</ValueOn>
@@ -77,6 +79,7 @@
     </Cheatline>
     <Cheatline>
       <PS5Offset>283FB16-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>826004EA</Offset>
       <Section>15</Section>
       <ValueOn>90-90-90-90-90</ValueOn>
@@ -86,6 +89,7 @@
   <Cheat Text="One Hit Kill">
     <Cheatline>
       <PS5Offset>79A-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>84E3F866</Offset>
       <Section>15</Section>
       <ValueOn>EB-FE</ValueOn>
@@ -93,6 +97,7 @@
     </Cheatline>
     <Cheatline>
       <PS5Offset>2D082D0-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>82137D30</Offset>
       <Section>15</Section>
       <ValueOn>E9-31-7B-D0-02-90</ValueOn>
@@ -100,6 +105,7 @@
     </Cheatline>
     <Cheatline>
       <PS5Offset>796-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>84E3F86A</Offset>
       <Section>15</Section>
       <ValueOn>31-D2-89-90-A8-00-00-00-E9-BF-84-2F-FD</ValueOn>
@@ -107,6 +113,7 @@
     </Cheatline>
     <Cheatline>
       <PS5Offset>79A-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>84E3F866</Offset>
       <Section>15</Section>
       <ValueOn>EB-02-90</ValueOn>
@@ -116,6 +123,7 @@
   <Cheat Text="Infinite Silk">
     <Cheatline>
       <PS5Offset>7EA-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>84E3F816</Offset>
       <Section>15</Section>
       <ValueOn>EB-FE</ValueOn>
@@ -123,6 +131,7 @@
     </Cheatline>
     <Cheatline>
       <PS5Offset>2C1462C-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>8222B9D4</Offset>
       <Section>15</Section>
       <ValueOn>E9-3D-3E-C1-02-90</ValueOn>
@@ -130,6 +139,7 @@
     </Cheatline>
     <Cheatline>
       <PS5Offset>7E6-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>84E3F81A</Offset>
       <Section>15</Section>
       <ValueOn>C7-87-84-00-00-00-14-00-00-00-E9-B1-C1-3E-FD-C7-83-84-00-00-00-14-00-00-00-E9-38-C2-3E-FD</ValueOn>
@@ -137,6 +147,7 @@
     </Cheatline>
     <Cheatline>
       <PS5Offset>7EA-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>84E3F816</Offset>
       <Section>15</Section>
       <ValueOn>EB-02-90</ValueOn>
@@ -144,6 +155,7 @@
     </Cheatline>
     <Cheatline>
       <PS5Offset>7C6-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>84E3F83A</Offset>
       <Section>15</Section>
       <ValueOn>EB-ED</ValueOn>
@@ -151,6 +163,7 @@
     </Cheatline>
     <Cheatline>
       <PS5Offset>2C14596-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>8222BA6A</Offset>
       <Section>15</Section>
       <ValueOn>E9-CB-3D-C1-02-90</ValueOn>
@@ -160,6 +173,7 @@
   <Cheat Text="Infinite Prayer Beads">
     <Cheatline>
       <PS5Offset>7C2-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>84E3F83E</Offset>
       <Section>15</Section>
       <ValueOn>EB-FE</ValueOn>
@@ -167,6 +181,7 @@
     </Cheatline>
     <Cheatline>
       <PS5Offset>2C1470A-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>8222B8F6</Offset>
       <Section>15</Section>
       <ValueOn>E9-43-3F-C1-02-90</ValueOn>
@@ -174,6 +189,7 @@
     </Cheatline>
     <Cheatline>
       <PS5Offset>7BE-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>84E3F842</Offset>
       <Section>15</Section>
       <ValueOn>C7-87-80-00-00-00-0F-27-00-00-E9-AB-C0-3E-FD-C7-87-80-00-00-00-0F-27-00-00-E9-08-C1-3E-FD</ValueOn>
@@ -181,6 +197,7 @@
     </Cheatline>
     <Cheatline>
       <PS5Offset>7C2-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>84E3F83E</Offset>
       <Section>15</Section>
       <ValueOn>EB-02-90</ValueOn>
@@ -188,6 +205,7 @@
     </Cheatline>
     <Cheatline>
       <PS5Offset>79E-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>84E3F862</Offset>
       <Section>15</Section>
       <ValueOn>EB-ED</ValueOn>
@@ -195,6 +213,7 @@
     </Cheatline>
     <Cheatline>
       <PS5Offset>2C1469E-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>8222B962</Offset>
       <Section>15</Section>
       <ValueOn>E9-FB-3E-C1-02-90</ValueOn>
@@ -204,6 +223,7 @@
   <Cheat Text="Infinite Shell Shards">
     <Cheatline>
       <PS5Offset>800-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>84E3F800</Offset>
       <Section>15</Section>
       <ValueOn>EB-FE</ValueOn>
@@ -211,6 +231,7 @@
     </Cheatline>
     <Cheatline>
       <PS5Offset>2C1468A-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>8222B976</Offset>
       <Section>15</Section>
       <ValueOn>E9-85-3E-C1-02-90</ValueOn>
@@ -218,6 +239,7 @@
     </Cheatline>
     <Cheatline>
       <PS5Offset>7FC-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>84E3F804</Offset>
       <Section>15</Section>
       <ValueOn>BE-D0-07-00-00-89-B7-38-09-00-00-E9-68-C1-3E-FD</ValueOn>
@@ -225,6 +247,7 @@
     </Cheatline>
     <Cheatline>
       <PS5Offset>800-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>84E3F800</Offset>
       <Section>15</Section>
       <ValueOn>EB-02-90</ValueOn>
@@ -234,6 +257,7 @@
   <Cheat Text="Infinite Tool Use" Description="Disable cheat before switching tools">
     <Cheatline>
       <PS5Offset>17A2778-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>8369D888</Offset>
       <Section>15</Section>
       <ValueOn>90-90-90-90-90</ValueOn>
@@ -243,6 +267,7 @@
   <Cheat Text="Infinite Consumables">
     <Cheatline>
       <PS5Offset>787-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>84E3F879</Offset>
       <Section>15</Section>
       <ValueOn>EB-FE</ValueOn>
@@ -250,6 +275,7 @@
     </Cheatline>
     <Cheatline>
       <PS5Offset>17E3D20-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>8365C2E0</Offset>
       <Section>15</Section>
       <ValueOn>E9-94-35-7E-01</ValueOn>
@@ -257,6 +283,7 @@
     </Cheatline>
     <Cheatline>
       <PS5Offset>783-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>84E3F87D</Offset>
       <Section>15</Section>
       <ValueOn>48-C7-C0-32-00-00-00-4B-89-44-27-10-E9-57-CA-81-FE</ValueOn>
@@ -264,6 +291,7 @@
     </Cheatline>
     <Cheatline>
       <PS5Offset>787-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>84E3F879</Offset>
       <Section>15</Section>
       <ValueOn>EB-02-90</ValueOn>

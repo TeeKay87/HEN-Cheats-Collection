@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Inf Life Ship",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -17,6 +18,7 @@
     },
     {
       "name": "Inf Life",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -28,6 +30,7 @@
     },
     {
       "name": "Inf Money",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

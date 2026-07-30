@@ -12,12 +12,14 @@
   </Cheat>
   <Cheat Text="MAX-Skill-Points">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>25C3816</Offset>
       <Section>0</Section>
       <ValueOn>C7-87-EC-01-00-00-0F-27-00-00-66-0F-18-24-00-E9-EC-7D-A4-FE</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>100B610</Offset>
       <Section>0</Section>
       <ValueOn>E9-01-82-5B-01-90</ValueOn>

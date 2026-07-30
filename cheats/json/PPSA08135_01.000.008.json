@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Ammo INF (No reload)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -22,6 +23,7 @@
     },
     {
       "name": "Inf Items (even Keys)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

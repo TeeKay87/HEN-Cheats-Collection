@@ -30,12 +30,14 @@
   </Cheat>
   <Cheat Text="Infinite-Health-(mc)">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>83BC3800</Offset>
       <Section>0</Section>
       <ValueOn>83-7F-24-00-75-0A-C5-FA-10-4F-0C-E9-B7-4F-F6-FD-C5-FA-11-4F-28-E9-AD-4F-F6-FD</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>81B287C2</Offset>
       <Section>0</Section>
       <ValueOn>E9-39-B0-09-02</ValueOn>
@@ -80,12 +82,14 @@
   </Cheat>
   <Cheat Text="MAX-Coins">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>83BC38A8</Offset>
       <Section>0</Section>
       <ValueOn>BB-3F-42-0F-00-01-59-60-E9-EE-D5-04-FE</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>81C10E9E</Offset>
       <Section>0</Section>
       <ValueOn>E9-05-2A-FB-01</ValueOn>

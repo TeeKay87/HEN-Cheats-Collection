@@ -34,12 +34,14 @@
   </Cheat>
   <Cheat Text="MAX-SCORE">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>821BFF02</Offset>
       <Section>0</Section>
       <ValueOn>81-40-20-0F-27-00-00-E9-11-FA-30-FF</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>814CF918</Offset>
       <Section>0</Section>
       <ValueOn>E9-E5-05-CF-00-90-90</ValueOn>

@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Easy Money",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -22,6 +23,7 @@
     },
     {
       "name": "Inf Inventory",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

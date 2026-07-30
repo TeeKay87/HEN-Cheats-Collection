@@ -13,6 +13,7 @@
   <Cheat Text="MAX-lives">
     <Cheatline>
       <PS5Offset>7ED-executable[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>23EB813</Offset>
       <Section>0</Section>
       <ValueOn>BE-E7-03-00-00-41-89-76-0C-E9-39-3A-1E-FE</ValueOn>
@@ -20,6 +21,7 @@
     </Cheatline>
     <Cheatline>
       <PS5Offset>1E1CDAC-executable[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>5CF254</Offset>
       <Section>0</Section>
       <ValueOn>E9-BA-C5-E1-01-90</ValueOn>

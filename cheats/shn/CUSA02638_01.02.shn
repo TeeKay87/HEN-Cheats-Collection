@@ -20,12 +20,14 @@
   </Cheat>
   <Cheat Text="max-lives + Infinite-(MC)">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>85F812</Offset>
       <Section>0</Section>
       <ValueOn>B9-63-00-00-00-89-88-28-08-00-00-E9-07-0A-C1-FF</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>470223</Offset>
       <Section>0</Section>
       <ValueOn>E9-EA-F5-3E-00-90</ValueOn>
@@ -34,12 +36,14 @@
   </Cheat>
   <Cheat Text="MAX-GOLD-(MC)">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>85F800</Offset>
       <Section>0</Section>
       <ValueOn>BE-7F-96-98-00-89-B7-AC-08-00-00-E9-D2-FA-C1-FF</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>47F2DC</Offset>
       <Section>0</Section>
       <ValueOn>E9-1F-05-3E-00-90</ValueOn>

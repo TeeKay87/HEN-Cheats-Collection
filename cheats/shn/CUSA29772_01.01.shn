@@ -4,12 +4,14 @@
   <Items />
   <Cheat Text="Inf HP / 1 Hit Kill (Master Code)">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>60F800</Offset>
       <Section>0</Section>
       <ValueOn>41-50-4C-8D-84-07-C0-01-00-00-66-41-81-F8-E4-21-74-1C-66-41-81-F8-E6-21-74-14-66-41-81-F8-E8-21-74-0C-66-41-81-F8-EA-21-74-04-EB-02-B2-FF-41-58-88-94-07-C0-01-00-00-C3-66-41-81-F8-EC-21-74-1A-66-41-81-F8-EE-21-74-12-66-41-81-F8-F0-21-74-0A-66-41-81-F8-F2-21-74-02-EB-D4-30-D2-EB-D0</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>4F1B42</Offset>
       <Section>0</Section>
       <ValueOn>E9-B9-DC-11-00-90-90</ValueOn>
@@ -18,6 +20,7 @@
   </Cheat>
   <Cheat Text="Kunio (MC)">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>60F810</Offset>
       <Section>0</Section>
       <ValueOn>74-1A</ValueOn>
@@ -26,6 +29,7 @@
   </Cheat>
   <Cheat Text="Riki (MC)">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>60F818</Offset>
       <Section>0</Section>
       <ValueOn>74-12</ValueOn>
@@ -34,6 +38,7 @@
   </Cheat>
   <Cheat Text="Misako (MC)">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>60F820</Offset>
       <Section>0</Section>
       <ValueOn>74-0A</ValueOn>
@@ -42,6 +47,7 @@
   </Cheat>
   <Cheat Text="Kyoko (MC)">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>60F828</Offset>
       <Section>0</Section>
       <ValueOn>74-02</ValueOn>
@@ -50,6 +56,7 @@
   </Cheat>
   <Cheat Text="1 Hit Kill (MC)">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>60F82A</Offset>
       <Section>0</Section>
       <ValueOn>EB-0C</ValueOn>

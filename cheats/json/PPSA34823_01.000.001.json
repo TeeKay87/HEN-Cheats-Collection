@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Master Code",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -32,6 +33,7 @@
     },
     {
       "name": "--Inf_Coins",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -43,6 +45,7 @@
     },
     {
       "name": "--Inf_Lives",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -54,6 +57,7 @@
     },
     {
       "name": "Inf Hp",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -65,6 +69,7 @@
     },
     {
       "name": "Inf Jumps",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

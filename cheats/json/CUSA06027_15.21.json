@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Infinte HP \u002B Invisible (pick ancient potion)",
+      "description": "use ancient potion then ready your ancient potion from item bar, you will be invisible",
       "type": "checkbox",
       "memory": [
         {
@@ -17,6 +18,7 @@
     },
     {
       "name": "Infinite Stamina",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -28,6 +30,7 @@
     },
     {
       "name": "Item ID modifier",
+      "description": "Master Code Item ID / go to item box then sell item tab and move any item into free space inventory slot",
       "type": "checkbox",
       "memory": [
         {
@@ -44,6 +47,7 @@
     },
     {
       "name": "Increase Item ID",
+      "description": "need MC Item ID",
       "type": "checkbox",
       "memory": [
         {
@@ -55,6 +59,7 @@
     },
     {
       "name": "Decrease Item ID",
+      "description": "need MC Item ID",
       "type": "checkbox",
       "memory": [
         {
@@ -66,6 +71,7 @@
     },
     {
       "name": "99 Inventory items",
+      "description": "go to item box then sell tab and go to any free space inventory slot then move / rearranged (square button) the item from there, vice versa of item id modifier",
       "type": "checkbox",
       "memory": [
         {
@@ -82,6 +88,7 @@
     },
     {
       "name": "x5 Item in Pouch",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -98,6 +105,7 @@
     },
     {
       "name": "Sharpness",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -109,6 +117,7 @@
     },
     {
       "name": "Easy Capture and Kill All instantly",
+      "description": "Master Code CapKILL",
       "type": "checkbox",
       "memory": [
         {
@@ -125,6 +134,7 @@
     },
     {
       "name": "Easy Capture",
+      "description": "need MC CapKILL",
       "type": "checkbox",
       "memory": [
         {
@@ -136,6 +146,7 @@
     },
     {
       "name": "Kill All",
+      "description": "need MC CapKILL",
       "type": "checkbox",
       "memory": [
         {
@@ -147,6 +158,7 @@
     },
     {
       "name": "One Hit Kill",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -163,6 +175,7 @@
     },
     {
       "name": "Max Spirit Blade Gauge (Longsword)",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -179,6 +192,7 @@
     },
     {
       "name": "Level 3 Spirit Gauge (Longsword)",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -195,6 +209,7 @@
     },
     {
       "name": "Max Demon Gauge (Dual Blade)",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -206,6 +221,7 @@
     },
     {
       "name": "Demon Gauge Timer Disabled (Dual Blade)",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -217,6 +233,7 @@
     },
     {
       "name": "Fast Charge (GreatSword)",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -233,6 +250,7 @@
     },
     {
       "name": "Switch Gauge (Switch Axe)",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -249,6 +267,7 @@
     },
     {
       "name": "Ampede State (Switch Axe)",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -260,6 +279,7 @@
     },
     {
       "name": "Gunlance Shell (Gunlance)",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -271,6 +291,7 @@
     },
     {
       "name": "Gunlance Max Shell",
+      "description": "use a shell or shell reload then turn off this cheat after. max of 5 shell",
       "type": "checkbox",
       "memory": [
         {
@@ -282,6 +303,7 @@
     },
     {
       "name": "Infinite Wyrmstake Cannon (Gunlance) ",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -293,6 +315,7 @@
     },
     {
       "name": "Instant Wyrmstake Blast (Gunlance)",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -309,6 +332,7 @@
     },
     {
       "name": "Instant Wyrmstake shot (Gunlance)",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -320,6 +344,7 @@
     },
     {
       "name": "Max Phial (Charge Blade)",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -336,6 +361,7 @@
     },
     {
       "name": "Sword Block Attacks Disabled (Charge Blade)",
+      "description": "this is effective when Charge Gauge is in full energy",
       "type": "checkbox",
       "memory": [
         {
@@ -347,6 +373,7 @@
     },
     {
       "name": "Charge Gauge Disabled (Charge Blade)",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -358,6 +385,7 @@
     },
     {
       "name": "Fast Charge Rising Slash (Charge Blade)",
+      "description": "sword attack: Rising Slash can be released for 0.5 sec does not effect if pressed too long",
       "type": "checkbox",
       "memory": [
         {
@@ -369,6 +397,7 @@
     },
     {
       "name": "Power Axe Mode (Charge Blade)",
+      "description": "this needs 1 or more phial to work",
       "type": "checkbox",
       "memory": [
         {
@@ -385,6 +414,7 @@
     },
     {
       "name": "Element Boost (Charge Blade)",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -401,6 +431,7 @@
     },
     {
       "name": "Element Slash (Charge Blade)",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -417,6 +448,7 @@
     },
     {
       "name": "Kinsect Stamina (Insect Glaive)",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -428,6 +460,7 @@
     },
     {
       "name": "Extract Effects (Insect Glaive)",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -444,6 +477,7 @@
     },
     {
       "name": "Affinity",
+      "description": "requires affinity buffs to work",
       "type": "checkbox",
       "memory": [
         {
@@ -455,6 +489,7 @@
     },
     {
       "name": "Affinity Buffs",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -471,6 +506,7 @@
     },
     {
       "name": "Defence",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -487,6 +523,7 @@
     },
     {
       "name": "Quest Timer",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -498,6 +535,7 @@
     },
     {
       "name": "Infinite Specialized Tools",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -514,6 +552,7 @@
     },
     {
       "name": "Disable Poison",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -525,6 +564,7 @@
     },
     {
       "name": "All Status Buffs",
+      "description": "180 sec",
       "type": "checkbox",
       "memory": [
         {
@@ -541,6 +581,7 @@
     },
     {
       "name": "Natural Fuel steamworks",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -557,6 +598,7 @@
     },
     {
       "name": "Stored Fuel steamworks",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {

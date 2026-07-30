@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "TRAINER INFO (read only)",
+      "description": "This is my v04.00 port for Cosmaty v01.50 trainer. I have added a teleport cheat, reset horse fear bar, XP multiplier and No toxicity from decoctions. IMPORTANT!  ENABLE CHEATS ONLY AFTER YOU START PLAYING! Please be sure to read the cheats comments, where available! I have partially tested it and it seems to be working fine, but please let me know if there is any issue. Enjoy! :-)",
       "hint": "null",
       "type": "checkbox",
       "memory": [
@@ -18,6 +19,7 @@
     },
     {
       "name": "Master Code (Enable this first!)",
+      "description": "none",
       "hint": "null",
       "type": "checkbox",
       "memory": [
@@ -35,6 +37,7 @@
     },
     {
       "name": "--Infinite Health (req MC)",
+      "description": "Must enable Master Code First",
       "hint": "null",
       "type": "checkbox",
       "memory": [
@@ -47,6 +50,7 @@
     },
     {
       "name": "--Easy Kill  (req MC)",
+      "description": "Must enable Master Code First",
       "hint": "null",
       "type": "checkbox",
       "memory": [
@@ -59,6 +63,7 @@
     },
     {
       "name": "--Minimum Horse Panic (req MC)",
+      "description": "Must enable Master Code First",
       "hint": "null",
       "type": "checkbox",
       "memory": [
@@ -81,6 +86,7 @@
     },
     {
       "name": "--Infinite Horse Run  (req MC)",
+      "description": "Must enable Master Code First",
       "hint": "null",
       "type": "checkbox",
       "memory": [
@@ -93,6 +99,7 @@
     },
     {
       "name": "--Infinite Oxygen  (req MC)",
+      "description": "Must enable Master Code First",
       "hint": "null",
       "type": "checkbox",
       "memory": [
@@ -105,6 +112,7 @@
     },
     {
       "name": "--Infinite Adrenaline (req MC)",
+      "description": "Must enable Master Code First",
       "hint": "null",
       "type": "checkbox",
       "memory": [
@@ -117,6 +125,7 @@
     },
     {
       "name": "--No Toxicity (req MC)",
+      "description": "Must enable Master Code First",
       "hint": "null",
       "type": "checkbox",
       "memory": [
@@ -139,6 +148,7 @@
     },
     {
       "name": "--Infinite Stamina  (req MC)",
+      "description": "Must enable Master Code First",
       "hint": "null",
       "type": "checkbox",
       "memory": [
@@ -151,6 +161,7 @@
     },
     {
       "name": "Teleport to map waypoint",
+      "description": "Enable Infinite Health or you may die when being teleported",
       "hint": "null",
       "type": "checkbox",
       "memory": [
@@ -178,6 +189,7 @@
     },
     {
       "name": "XP Multiplier (Master Code)",
+      "description": "Must enable only while already playing OR THE GAME WILL CRASH. Enable this first and then pick only ONE of the multipliers below",
       "hint": "null",
       "type": "checkbox",
       "memory": [
@@ -195,6 +207,7 @@
     },
     {
       "name": "--2x XP",
+      "description": "none",
       "hint": "null",
       "type": "checkbox",
       "memory": [
@@ -207,6 +220,7 @@
     },
     {
       "name": "--3x XP",
+      "description": "none",
       "hint": "null",
       "type": "checkbox",
       "memory": [
@@ -219,6 +233,7 @@
     },
     {
       "name": "--4x XP",
+      "description": "none",
       "hint": "null",
       "type": "checkbox",
       "memory": [
@@ -231,6 +246,7 @@
     },
     {
       "name": "--5x XP",
+      "description": "none",
       "hint": "null",
       "type": "checkbox",
       "memory": [
@@ -243,6 +259,7 @@
     },
     {
       "name": "--10x XP",
+      "description": "none",
       "hint": "null",
       "type": "checkbox",
       "memory": [
@@ -255,6 +272,7 @@
     },
     {
       "name": "Game Speed (Master Code)",
+      "description": "Enable this first and then pick only ONE of the multipliers below",
       "hint": "null",
       "type": "checkbox",
       "memory": [
@@ -272,6 +290,7 @@
     },
     {
       "name": "--2x Speed",
+      "description": "none",
       "hint": "null",
       "type": "checkbox",
       "memory": [
@@ -284,6 +303,7 @@
     },
     {
       "name": "--3x Speed",
+      "description": "none",
       "hint": "null",
       "type": "checkbox",
       "memory": [
@@ -296,6 +316,7 @@
     },
     {
       "name": "--4x Speed",
+      "description": "none",
       "hint": "null",
       "type": "checkbox",
       "memory": [
@@ -308,6 +329,7 @@
     },
     {
       "name": "--5x Speed",
+      "description": "none",
       "hint": "null",
       "type": "checkbox",
       "memory": [
@@ -320,6 +342,7 @@
     },
     {
       "name": "Infinite Items",
+      "description": "",
       "hint": "null",
       "type": "checkbox",
       "memory": [
@@ -342,6 +365,7 @@
     },
     {
       "name": "Infinite Money (on buy or sell)",
+      "description": "",
       "hint": "null",
       "type": "checkbox",
       "memory": [
@@ -359,6 +383,7 @@
     },
     {
       "name": "Walking Speed (Master Code)",
+      "description": "Enable this first and then pick only ONE of the multipliers below",
       "hint": "null",
       "type": "checkbox",
       "memory": [
@@ -371,6 +396,7 @@
     },
     {
       "name": "--x2 Walking Speed",
+      "description": "",
       "hint": "null",
       "type": "checkbox",
       "memory": [
@@ -383,6 +409,7 @@
     },
     {
       "name": "--x3 Walking Speed",
+      "description": "",
       "hint": "null",
       "type": "checkbox",
       "memory": [
@@ -395,6 +422,7 @@
     },
     {
       "name": "Infinite Skill Points",
+      "description": "",
       "hint": "null",
       "type": "checkbox",
       "memory": [
@@ -412,6 +440,7 @@
     },
     {
       "name": "Durable Weapons And Armour",
+      "description": "",
       "hint": "null",
       "type": "checkbox",
       "memory": [
@@ -429,6 +458,7 @@
     },
     {
       "name": "Max Weight 99999",
+      "description": "",
       "hint": "null",
       "type": "checkbox",
       "memory": [

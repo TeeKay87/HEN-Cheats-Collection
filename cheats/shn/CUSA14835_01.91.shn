@@ -4,6 +4,7 @@
   <Items />
   <Cheat Text="Caution : i would advise not using XP gain cheat unless you need to (creat a backup save) cz if you level up too high the game becames boring">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>7E237FE</Offset>
       <Section>0</Section>
       <ValueOn>00-00</ValueOn>
@@ -12,6 +13,7 @@
   </Cheat>
   <Cheat Text="inf HP">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>F5944F</Offset>
       <Section>0</Section>
       <ValueOn>90-90-90-90-90-90</ValueOn>
@@ -20,6 +22,7 @@
   </Cheat>
   <Cheat Text="inf ki">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>F594AF</Offset>
       <Section>0</Section>
       <ValueOn>90-90-90-90-90-90</ValueOn>
@@ -28,12 +31,14 @@
   </Cheat>
   <Cheat Text="inf medals/items">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>7E23800</Offset>
       <Section>0</Section>
       <ValueOn>C7-44-90-04-E7-03-00-00-03-5C-90-04-48-FF-C2-E9-13-22-4E-F9</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>1305A20</Offset>
       <Section>0</Section>
       <ValueOn>E9-DB-DD-B1-06-90-90</ValueOn>
@@ -42,12 +47,14 @@
   </Cheat>
   <Cheat Text="Max money">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>7E23816</Offset>
       <Section>0</Section>
       <ValueOn>C7-03-3F-42-0F-00-8B-03-48-83-C4-08-E9-24-8D-2A-FA</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>20CC545</Offset>
       <Section>0</Section>
       <ValueOn>E9-CC-72-D5-05-90</ValueOn>
@@ -56,12 +63,14 @@
   </Cheat>
   <Cheat Text="max ORBs">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>7E23829</Offset>
       <Section>0</Section>
       <ValueOn>C7-00-3F-42-0F-00-8B-00-5B-41-5E-E9-F1-58-CD-F9</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>1AF9125</Offset>
       <Section>0</Section>
       <ValueOn>E9-FF-A6-32-06</ValueOn>
@@ -70,12 +79,14 @@
   </Cheat>
   <Cheat Text="XP gain x 2">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>7E2383B</Offset>
       <Section>0</Section>
       <ValueOn>4D-01-FF-44-01-FA-B8-FF-C9-9A-3B-E9-95-61-13-F9</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>F599D8</Offset>
       <Section>0</Section>
       <ValueOn>E9-5E-9E-EC-06-90-90-90</ValueOn>
@@ -84,12 +95,14 @@
   </Cheat>
   <Cheat Text="XP gain x 4">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>7E2383B</Offset>
       <Section>0</Section>
       <ValueOn>4D-01-FF-4D-01-FF-44-01-FA-B8-FF-C9-9A-3B-E9-92-61-13-F9</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>F599D8</Offset>
       <Section>0</Section>
       <ValueOn>E9-5E-9E-EC-06-90-90-90</ValueOn>
@@ -98,12 +111,14 @@
   </Cheat>
   <Cheat Text="XP gain x 8">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>7E2383B</Offset>
       <Section>0</Section>
       <ValueOn>4D-01-FF-4D-01-FF-4D-01-FF-44-01-FA-B8-FF-C9-9A-3B-E9-8F-61-13-F9</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>F599D8</Offset>
       <Section>0</Section>
       <ValueOn>E9-5E-9E-EC-06-90-90-90</ValueOn>
@@ -112,12 +127,14 @@
   </Cheat>
   <Cheat Text="XP gain x 32">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>7E2383B</Offset>
       <Section>0</Section>
       <ValueOn>4D-01-FF-4D-01-FF-4D-01-FF-4D-01-FF-4D-01-FF-44-01-FA-B8-FF-C9-9A-3B-E9-89-61-13-F9</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>F599D8</Offset>
       <Section>0</Section>
       <ValueOn>E9-5E-9E-EC-06-90-90-90</ValueOn>
@@ -126,12 +143,14 @@
   </Cheat>
   <Cheat Text="XP gain x 256">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>7E2383B</Offset>
       <Section>0</Section>
       <ValueOn>4D-01-FF-4D-01-FF-4D-01-FF-4D-01-FF-4D-01-FF-4D-01-FF-4D-01-FF-4D-01-FF-44-01-FA-B8-FF-C9-9A-3B-E9-80-61-13-F9</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>F599D8</Offset>
       <Section>0</Section>
       <ValueOn>E9-5E-9E-EC-06-90-90-90</ValueOn>
@@ -140,12 +159,14 @@
   </Cheat>
   <Cheat Text="player lvl 250 (after 2 battles) = one hit kills = boring and permenent">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>7E23862</Offset>
       <Section>0</Section>
       <ValueOn>48-C7-81-70-02-00-00-EC-0C-F6-19-E9-8B-61-13-F9</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>F599F6</Offset>
       <Section>0</Section>
       <ValueOn>E9-67-9E-EC-06-90-90</ValueOn>

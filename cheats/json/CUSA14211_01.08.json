@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Inf Exp",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -22,6 +23,7 @@
     },
     {
       "name": "Inf Item (on use)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -38,6 +40,7 @@
     },
     {
       "name": "Inf Money",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

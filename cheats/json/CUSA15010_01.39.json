@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "All Client Godmode",
+      "description": "Offsets From 1.27 By DeathRGH And Rizla Used To Find New Offsets",
       "type": "checkbox",
       "memory": [
         {
@@ -27,6 +28,7 @@
     },
     {
       "name": "All Client Infinite Ammo",
+      "description": "Offsets From 1.27 By DeathRGH And Rizla Used To Find New Offsets",
       "type": "checkbox",
       "memory": [
         {
@@ -43,6 +45,7 @@
     },
     {
       "name": "All Client Infinite Points",
+      "description": "Offsets From 1.27 By DeathRGH And Rizla Used To Find New Offsets",
       "type": "checkbox",
       "memory": [
         {
@@ -54,6 +57,7 @@
     },
     {
       "name": "All Client 1-Hit Kill",
+      "description": "Offsets From 1.27 By DeathRGH And Rizla Used To Find New Offsets",
       "type": "checkbox",
       "memory": [
         {

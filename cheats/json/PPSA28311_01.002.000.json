@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Inf Hp And Money",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -22,6 +23,7 @@
     },
     {
       "name": "Inf Combo",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

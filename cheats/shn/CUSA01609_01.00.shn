@@ -12,12 +12,14 @@
   </Cheat>
   <Cheat Text="MAX-money">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>723800</Offset>
       <Section>0</Section>
       <ValueOn>C7-80-8C-11-00-00-E7-03-00-00-E9-51-63-E9-FF</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>5B9B5A</Offset>
       <Section>0</Section>
       <ValueOn>E9-A1-9C-16-00-90</ValueOn>

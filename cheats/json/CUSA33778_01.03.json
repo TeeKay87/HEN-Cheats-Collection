@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "TRAINER INFO (read only)",
+      "description": "BE SURE TO READ ALL the comments where available. As a rule of thumb (for all games), ALWAYS enable only cheats that are needed and disable when they are not. For an even more advanced trainer, check out my MultiTrainer2 ShnExt trainer. This trainer was made and tested on PS4 Firmware 9.00, but should also work on other firmwares.",
       "type": "checkbox",
       "memory": [
         {
@@ -17,6 +18,7 @@
     },
     {
       "name": "Master Code - Must be enabled first and always remain active",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -63,6 +65,7 @@
     },
     {
       "name": "---God Mode Toggle (Requires MC)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -74,6 +77,7 @@
     },
     {
       "name": "Infinite Health",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -90,6 +94,7 @@
     },
     {
       "name": "One Hit Kill",
+      "description": "Do not use it against bosses or you may encounter game progression issues.",
       "type": "checkbox",
       "memory": [
         {
@@ -106,6 +111,7 @@
     },
     {
       "name": "One Hit Drain Enemy Stamina",
+      "description": "Do not use it against bosses or you may encounter game progression issues.",
       "type": "checkbox",
       "memory": [
         {
@@ -117,6 +123,7 @@
     },
     {
       "name": "Infinite Max Force",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -133,6 +140,7 @@
     },
     {
       "name": "Infinite Max Saber Stamina",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -149,6 +157,7 @@
     },
     {
       "name": "Unlimited Slow Motion Force",
+      "description": "After it\u0027s drained, must hit an enemy for it to fully refill instantly",
       "type": "checkbox",
       "memory": [
         {
@@ -165,6 +174,7 @@
     },
     {
       "name": "Infinite Max Blaster Bullets",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -181,6 +191,7 @@
     },
     {
       "name": "Infinite Companion Combat Meter",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -197,6 +208,7 @@
     },
     {
       "name": "---XP Multiplier x5 (requires MC)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -208,6 +220,7 @@
     },
     {
       "name": "---XP Multiplier x10 (requires MC)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -219,6 +232,7 @@
     },
     {
       "name": "---XP Multiplier x25 (requires MC)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -230,6 +244,7 @@
     },
     {
       "name": "99 Skill Points",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

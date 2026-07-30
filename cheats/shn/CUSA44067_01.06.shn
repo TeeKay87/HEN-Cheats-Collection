@@ -4,12 +4,14 @@
   <Items />
   <Cheat Text="Infinite-Health-(MC)">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>19CF81F</Offset>
       <Section>0</Section>
       <ValueOn>83-BB-94-00-00-00-00-75-0A-C5-FA-10-4B-0C-E9-53-7D-FD-FE-C5-FA-11-4B-60-E9-49-7D-FD-FE</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>9A7580</Offset>
       <Section>0</Section>
       <ValueOn>E9-9A-82-02-01</ValueOn>
@@ -34,12 +36,14 @@
   </Cheat>
   <Cheat Text="MAX-All-items-AMMO-Medkit">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>19CF83E</Offset>
       <Section>0</Section>
       <ValueOn>B8-E7-03-00-00-89-47-2C-E9-33-BC-8E-FF</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>12BB479</Offset>
       <Section>0</Section>
       <ValueOn>E9-C0-43-71-00</ValueOn>

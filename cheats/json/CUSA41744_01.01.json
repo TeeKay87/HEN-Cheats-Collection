@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Inf Life",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -17,6 +18,7 @@
     },
     {
       "name": "Inf Money When You Save",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -33,6 +35,7 @@
     },
     {
       "name": "No Pistol Reload",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -44,6 +47,7 @@
     },
     {
       "name": "Inf Pistol Ammo",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -55,6 +59,7 @@
     },
     {
       "name": "Inf Ammo Shotgun",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

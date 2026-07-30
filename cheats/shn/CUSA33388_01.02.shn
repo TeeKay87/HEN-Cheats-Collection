@@ -297,12 +297,14 @@
   </Cheat>
   <Cheat Text="inf spinel when trading">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>BC238B5</Offset>
       <Section>0</Section>
       <ValueOn>C7-43-20-E7-03-00-00-80-7D-CF-00-0F-84-FA-B6-0D-F7-E9-EA-B6-0D-F7</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>2CFEFAC</Offset>
       <Section>0</Section>
       <ValueOn>E9-04-49-F2-08-90-90</ValueOn>
@@ -311,6 +313,7 @@
   </Cheat>
   <Cheat Text="No Relod">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>3625264</Offset>
       <Section>0</Section>
       <ValueOn>90-90-90-90-90</ValueOn>
@@ -319,12 +322,14 @@
   </Cheat>
   <Cheat Text="inf gems when combining">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>BC2388A</Offset>
       <Section>0</Section>
       <ValueOn>C7-40-34-63-00-00-00-E9-88-04-0D-F7-E9-BF-0A-0D-F7</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>2CF4352</Offset>
       <Section>0</Section>
       <ValueOn>E9-33-F5-F2-08-90-90-90</ValueOn>
@@ -333,12 +338,14 @@
   </Cheat>
   <Cheat Text="inf gems when remving">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>BC2389D</Offset>
       <Section>0</Section>
       <ValueOn>C7-40-34-63-00-00-00-80-7D-CF-00-0F-84-48-E5-0C-F7-E9-37-E5-0C-F7</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>2CF1DE1</Offset>
       <Section>0</Section>
       <ValueOn>E9-B7-1A-F3-08-90-90</ValueOn>
@@ -347,12 +354,14 @@
   </Cheat>
   <Cheat Text="save counter always 1">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>BC23876</Offset>
       <Section>0</Section>
       <ValueOn>41-C7-45-4C-01-00-00-00-E9-53-72-17-FA-E9-E4-72-17-FA</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>5D9AB63</Offset>
       <Section>0</Section>
       <ValueOn>E9-0E-8D-E8-05-90-90-90-90</ValueOn>

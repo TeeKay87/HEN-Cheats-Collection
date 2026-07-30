@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "TRAINER INFO (read only)",
+      "description": "This is a selection of the best of the best cheats made for this incredible game, by Dioniso, Fullcode, Rizla and me (Pharaoh2k).\r\nThe trainer is cross-region compatible (CUSA24705, CUSA28561, CUSA28563, CUSA30023).\r\nI have improved a few of the cheats made by others, but left the original credit. Also excluded some cheats which were redundant or unnecassry, in my opinion. Enjoy! :-)\r\nPharaoh2k",
       "type": "checkbox",
       "memory": [
         {
@@ -17,6 +18,7 @@
     },
     {
       "name": "Master Code (Must be enabled first \u002B all the time)",
+      "description": "Cheats with -- prefix depend on the Master Code",
       "type": "checkbox",
       "memory": [
         {
@@ -153,6 +155,7 @@
     },
     {
       "name": "--One Hit Kill",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -164,6 +167,7 @@
     },
     {
       "name": "God Mode",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -190,6 +194,7 @@
     },
     {
       "name": "Infinite Jump and Glide",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -201,6 +206,7 @@
     },
     {
       "name": "--Toggle_Mount_Invincible",
+      "description": "If using one hit your mount will also go down in one hit only for the first hit then it will be invincible after you revive it OR you can simply disable one hit then hit your mount once to get it invincible and enable one hit again to stop it from going down.\r\n\r\nCredit: Original version made by Rizla. I made my own improved version for cross console compatibility.",
       "type": "checkbox",
       "memory": [
         {
@@ -212,6 +218,7 @@
     },
     {
       "name": "Stealth Mode",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -223,6 +230,7 @@
     },
     {
       "name": "Infinite Heavy Weapons Ammo",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -239,6 +247,7 @@
     },
     {
       "name": "Infinite Max Items and Arrows",
+      "description": "Some will be 9999 after geting them, some after spendingusing 1.",
       "type": "checkbox",
       "memory": [
         {
@@ -275,6 +284,7 @@
     },
     {
       "name": "No Craft, Purchase, Upgrade Requirements",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -286,6 +296,7 @@
     },
     {
       "name": "[Weapon] Instant Reload Speed",
+      "description": "This is the animation when Aloy takes an arrow.",
       "type": "checkbox",
       "memory": [
         {
@@ -302,6 +313,7 @@
     },
     {
       "name": "[Weapon] Straight Shot With Little Tautness",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -318,6 +330,7 @@
     },
     {
       "name": "--Hour: 0",
+      "description": "Choose only one option",
       "type": "checkbox",
       "memory": [
         {
@@ -329,6 +342,7 @@
     },
     {
       "name": "--Hour: 6",
+      "description": "Choose only one option",
       "type": "checkbox",
       "memory": [
         {
@@ -340,6 +354,7 @@
     },
     {
       "name": "--Hour: 12",
+      "description": "Choose only one option",
       "type": "checkbox",
       "memory": [
         {
@@ -351,6 +366,7 @@
     },
     {
       "name": "--Hour: 18",
+      "description": "Choose only one option",
       "type": "checkbox",
       "memory": [
         {
@@ -362,6 +378,7 @@
     },
     {
       "name": "Max Med Use Amount on Gain",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -373,6 +390,7 @@
     },
     {
       "name": "No Stash Items Increase",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -384,6 +402,7 @@
     },
     {
       "name": "Max Infinite Shards (Open Inventory)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -400,6 +419,7 @@
     },
     {
       "name": "Inf\u002BMax Valor Surge",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -416,6 +436,7 @@
     },
     {
       "name": "Instant End Valor Surge",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -427,6 +448,7 @@
     },
     {
       "name": "Infinite Oxygen\u002BStamina",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -438,6 +460,7 @@
     },
     {
       "name": "Inf\u002BMax Skill Points (Open Inventory)",
+      "description": "Skill points will be set as soon as you open the menu but you won\u0027t see the change until you open it a 2nd time.",
       "type": "checkbox",
       "memory": [
         {
@@ -454,6 +477,7 @@
     },
     {
       "name": "--XP Multiplier x5",
+      "description": "Choose only one option",
       "type": "checkbox",
       "memory": [
         {
@@ -465,6 +489,7 @@
     },
     {
       "name": "--XP Multiplier x10",
+      "description": "Choose only one option",
       "type": "checkbox",
       "memory": [
         {
@@ -476,6 +501,7 @@
     },
     {
       "name": "--XP Multiplier x20",
+      "description": "Choose only one option",
       "type": "checkbox",
       "memory": [
         {
@@ -487,6 +513,7 @@
     },
     {
       "name": "--XP Multiplier x50",
+      "description": "Choose only one option",
       "type": "checkbox",
       "memory": [
         {
@@ -498,6 +525,7 @@
     },
     {
       "name": "--XP Multiplier x100",
+      "description": "Choose only one option",
       "type": "checkbox",
       "memory": [
         {
@@ -509,6 +537,7 @@
     },
     {
       "name": "Instant Remove Effects",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -525,6 +554,7 @@
     },
     {
       "name": "Instant Mount Override Recovery",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -541,6 +571,7 @@
     },
     {
       "name": "Mount Never Gets Scared (Read Info)",
+      "description": "After some time of shooting your own mount you will notice the bar around will start decreasing and this cheat is what will stop it the bar from decreasing so your mount never runs away from you no matter how many times you shoot it.",
       "type": "checkbox",
       "memory": [
         {
@@ -552,6 +583,7 @@
     },
     {
       "name": "Infinite Food Health Boost on Use",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -568,6 +600,7 @@
     },
     {
       "name": "--Aloy Speed x1",
+      "description": "Choose only one option",
       "type": "checkbox",
       "memory": [
         {
@@ -579,6 +612,7 @@
     },
     {
       "name": "--Others Speed x0.2",
+      "description": "Choose only one option",
       "type": "checkbox",
       "memory": [
         {
@@ -590,6 +624,7 @@
     },
     {
       "name": "--Game Speed x1",
+      "description": "Choose only one option",
       "type": "checkbox",
       "memory": [
         {
@@ -601,6 +636,7 @@
     },
     {
       "name": "--Camera Zoom x0",
+      "description": "Choose only one option",
       "type": "checkbox",
       "memory": [
         {
@@ -612,6 +648,7 @@
     },
     {
       "name": "--Camera Zoom x1",
+      "description": "Choose only one option",
       "type": "checkbox",
       "memory": [
         {
@@ -623,6 +660,7 @@
     },
     {
       "name": "--Camera Zoom x2",
+      "description": "Choose only one option",
       "type": "checkbox",
       "memory": [
         {
@@ -634,6 +672,7 @@
     },
     {
       "name": "[Teleport] To Base (L1\u002BL2\u002BR1\u002BR2)",
+      "description": "Since you have to come back to The Base many times during the game, you can use this cheat after having discovered it.",
       "type": "checkbox",
       "memory": [
         {
@@ -670,6 +709,7 @@
     },
     {
       "name": "[Teleport] To map waypoint",
+      "description": "Press L2 while placing the Marker. If the Marker is on a reference place (building, fire, etc.) it will not work. Place it next to the reference place.",
       "type": "checkbox",
       "memory": [
         {

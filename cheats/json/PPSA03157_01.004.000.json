@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Inf Hp",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -17,6 +18,7 @@
     },
     {
       "name": "Inf Ammo",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

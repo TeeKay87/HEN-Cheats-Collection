@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "GodMode",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -17,6 +18,7 @@
     },
     {
       "name": "Inf Exp",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -28,6 +30,7 @@
     },
     {
       "name": "One hit Kill",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

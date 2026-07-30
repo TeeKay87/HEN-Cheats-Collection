@@ -20,12 +20,14 @@
   </Cheat>
   <Cheat Text="MAX-Points-1-buy">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>844A7800</Offset>
       <Section>0</Section>
       <ValueOn>B8-E7-03-00-00-42-89-44-3B-0C-E9-1B-00-01-FD</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>814B7825</Offset>
       <Section>0</Section>
       <ValueOn>E9-D6-FF-FE-02</ValueOn>

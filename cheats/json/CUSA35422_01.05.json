@@ -70,6 +70,7 @@
     },
     {
       "name": "[04][Unlock] All Items \u002BInfinite",
+      "description": "Items will be infinite as long as cheat is ON.",
       "type": "checkbox",
       "memory": [
         {
@@ -86,6 +87,7 @@
     },
     {
       "name": "[05][Unlock] All Weapons \u002B666 Ammo",
+      "description": "It can be turned off after using it once. But you can leave it on.",
       "type": "checkbox",
       "memory": [
         {
@@ -112,6 +114,7 @@
     },
     {
       "name": "[06][Unlock] All Keys",
+      "description": "All Keys means Keys, CD, etc ... Keys needed to advance in the game.",
       "type": "checkbox",
       "memory": [
         {
@@ -128,6 +131,7 @@
     },
     {
       "name": "[07a][Speed] Player x2",
+      "description": "Turn speed cheats off for normal speed.",
       "type": "checkbox",
       "memory": [
         {
@@ -283,6 +287,7 @@
     },
     {
       "name": "[12a][RGB] Red = 1",
+      "description": "These last cheats are just some light effects on shadows. Turn them ON to 8 to have more light.",
       "type": "checkbox",
       "memory": [
         {

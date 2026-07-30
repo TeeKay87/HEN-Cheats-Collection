@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Inf Hp",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -22,6 +23,7 @@
     },
     {
       "name": "Inf Ammo",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -33,6 +35,7 @@
     },
     {
       "name": "No Reload",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -44,6 +47,7 @@
     },
     {
       "name": "Inf Energy",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -60,6 +64,7 @@
     },
     {
       "name": "No Toxicity",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -76,6 +81,7 @@
     },
     {
       "name": "Inf Items",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -92,6 +98,7 @@
     },
     {
       "name": "Inf Money",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -108,6 +115,7 @@
     },
     {
       "name": "Inf Talents Points",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -124,6 +132,7 @@
     },
     {
       "name": "Inf Advantages Poitns",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -140,6 +149,7 @@
     },
     {
       "name": "Max Exp",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

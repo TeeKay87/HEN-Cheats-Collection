@@ -118,6 +118,7 @@
     },
     {
       "name": "TRAINER INFO (read only)",
+      "description": "This trainer is inspired by the excellent FLiNG trainer for the PC version of Cyberpunk 2077. Made and tested on Firmware 9.00. BE SURE TO READ ALL the comments where available. It\u0060s recommended to enable cheats such as Stats, Money, Inventory quantities, on demand and disable them when not needed. Most of them are needed to modify stats only once or a few times at most. Enjoy! ;-)",
       "type": "checkbox",
       "memory": [
         {
@@ -129,6 +130,7 @@
     },
     {
       "name": "Master Switch (Must be enabled first)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -145,6 +147,7 @@
     },
     {
       "name": "--Infinite Health (Req. MS)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -156,6 +159,7 @@
     },
     {
       "name": "--Infinite Stamina (Req. MS)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -167,6 +171,7 @@
     },
     {
       "name": "--Infinite RAM (Req. MS)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -178,6 +183,7 @@
     },
     {
       "name": "--Instant Hack Upload (Req. MS)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -189,6 +195,7 @@
     },
     {
       "name": "--One Hit Kills Enemy (Req. MS)",
+      "description": "This affects also hacks such as Short Circuit, Contagion etc., so will kill enemies instantly. Note that this cheat may cause progression issues in some rare situations, such as the drone attack on Panam\u0060s car or whenever using the car turret gun! If and when this happens, be sure to disable the cheat and reload your last save/checkpoint to be able to complete the mission.",
       "type": "checkbox",
       "memory": [
         {
@@ -200,6 +207,7 @@
     },
     {
       "name": "--One Hit Destroys Vehicles (Req. MS)",
+      "description": "Do NOT enable this cheat while you are using any kind of vehicle!",
       "type": "checkbox",
       "memory": [
         {
@@ -211,6 +219,7 @@
     },
     {
       "name": "Skills and Hacks Instant Cooldown",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -227,6 +236,7 @@
     },
     {
       "name": "Super Stealth",
+      "description": "Enemies will be able to hear you, but won\u0060t see you and won\u0060t notice that you killed anyone. Be sure to have the cheat enabled before and not after entering hostile area for it to work properly.",
       "type": "checkbox",
       "memory": [
         {
@@ -238,6 +248,7 @@
     },
     {
       "name": "Infinite Ammo",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -254,6 +265,7 @@
     },
     {
       "name": "Super Accuracy",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -280,6 +292,7 @@
     },
     {
       "name": "No Recoil",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -291,6 +304,7 @@
     },
     {
       "name": "No Reload (reloaded)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -307,6 +321,7 @@
     },
     {
       "name": "Infinite Grenades",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -323,6 +338,7 @@
     },
     {
       "name": "Infinite Double Jump",
+      "description": "Requires \u0060reinforced tendons\u0060 Cyberware",
       "type": "checkbox",
       "memory": [
         {
@@ -339,6 +355,7 @@
     },
     {
       "name": "Super Jump",
+      "description": "Pick only one multiplier below. Note that if the multiplier is high, you must enable infinite life cheat or you may crash and die when reaching the ground.",
       "type": "checkbox",
       "memory": [
         {
@@ -355,6 +372,7 @@
     },
     {
       "name": "--x3 Multiplier",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -366,6 +384,7 @@
     },
     {
       "name": "--x5 Multiplier",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -377,6 +396,7 @@
     },
     {
       "name": "--x10 Multiplier",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -388,6 +408,7 @@
     },
     {
       "name": "--x15 Multiplier",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -399,6 +420,7 @@
     },
     {
       "name": "--x20 Multiplier",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -410,6 +432,7 @@
     },
     {
       "name": "--x30 Multiplier",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -421,6 +444,7 @@
     },
     {
       "name": "--x40 Multiplier",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -432,6 +456,7 @@
     },
     {
       "name": "9876 pc. Inventory and Quickhack Components",
+      "description": "Auto updates the quantity when loading a save or when accessing the backpack in your inventory.",
       "type": "checkbox",
       "memory": [
         {
@@ -448,6 +473,7 @@
     },
     {
       "name": "9900 pc. Inventory Items Quantity",
+      "description": "Auto updates the quantity of possible items when accessing the backpack. Note that you may need to access it twice to view the updated quantities. Some items may require hovering over with the cursor and waiting for the pop-up to show for the quantity to update. Some items quantity can not be updated (such as most weapons), that\u0060s intentional.",
       "type": "checkbox",
       "memory": [
         {
@@ -464,6 +490,7 @@
     },
     {
       "name": "9999999 Money",
+      "description": "After enabling the cheat and setting the value, open the player menu to get the money value updated.",
       "type": "checkbox",
       "memory": [
         {
@@ -480,6 +507,7 @@
     },
     {
       "name": "Freeze Breach Protocol Timer",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -491,6 +519,7 @@
     },
     {
       "name": "Game Speed (must enable first)",
+      "description": "Strongly recommended to set multiplier up to 3 to prevent any possible playthrough and save bugs.",
       "type": "checkbox",
       "memory": [
         {
@@ -517,6 +546,7 @@
     },
     {
       "name": "--x0.1 Speed",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -528,6 +558,7 @@
     },
     {
       "name": "--x0.5 Speed",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -539,6 +570,7 @@
     },
     {
       "name": "--x1.5 Speed",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -550,6 +582,7 @@
     },
     {
       "name": "--x2 Speed",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -561,6 +594,7 @@
     },
     {
       "name": "--x2.5 Speed",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -572,6 +606,7 @@
     },
     {
       "name": "--x3 Speed",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -583,6 +618,7 @@
     },
     {
       "name": "Level, Street Credits, Skills XP (Must be enabled first)",
+      "description": "After enabling this cheat, open your player menu (touchpad) TWICE (enter and exit it) to see the new numbers. After setting this you must save and reload the game for all the matching stats to update properly. Disable the cheat when all stats are updated.",
       "type": "checkbox",
       "memory": [
         {
@@ -599,6 +635,7 @@
     },
     {
       "name": "--Level 10",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -610,6 +647,7 @@
     },
     {
       "name": "--Level 20",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -621,6 +659,7 @@
     },
     {
       "name": "--Level 30",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -632,6 +671,7 @@
     },
     {
       "name": "--Level 40",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -643,6 +683,7 @@
     },
     {
       "name": "--Level 50",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -654,6 +695,7 @@
     },
     {
       "name": "--Street Credits 10",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -665,6 +707,7 @@
     },
     {
       "name": "--Street Credits 20",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -676,6 +719,7 @@
     },
     {
       "name": "--Street Credits 30",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -687,6 +731,7 @@
     },
     {
       "name": "--Street Credits 40",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -698,6 +743,7 @@
     },
     {
       "name": "--Street Credits 50",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -709,6 +755,7 @@
     },
     {
       "name": "--Skills XP 10,000",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -720,6 +767,7 @@
     },
     {
       "name": "--Skills XP 20,000",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -731,6 +779,7 @@
     },
     {
       "name": "--Skills XP 30,000",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -742,6 +791,7 @@
     },
     {
       "name": "--Skills XP 40,000",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -753,6 +803,7 @@
     },
     {
       "name": "--Skills XP 50,000",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -764,6 +815,7 @@
     },
     {
       "name": "--Skills XP 60,000",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -775,6 +827,7 @@
     },
     {
       "name": "Skill XP Multiplier",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -791,6 +844,7 @@
     },
     {
       "name": "--Multiplier x2",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -802,6 +856,7 @@
     },
     {
       "name": "--Multiplier x4",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -813,6 +868,7 @@
     },
     {
       "name": "--Multiplier x6",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -824,6 +880,7 @@
     },
     {
       "name": "--Multiplier x8",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -835,6 +892,7 @@
     },
     {
       "name": "--Multiplier x10",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -846,6 +904,7 @@
     },
     {
       "name": "999 Attribute Points (on use)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -862,6 +921,7 @@
     },
     {
       "name": "999 Perk Points (on use)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

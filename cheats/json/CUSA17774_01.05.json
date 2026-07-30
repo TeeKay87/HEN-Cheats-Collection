@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Inf Life",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -22,6 +23,7 @@
     },
     {
       "name": "Inf Stamina",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -38,6 +40,7 @@
     },
     {
       "name": "Inf Resistance",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -54,6 +57,7 @@
     },
     {
       "name": "Inf Items",
+      "description": "Some items cannot be crafted properly, like the anchor.",
       "type": "checkbox",
       "memory": [
         {

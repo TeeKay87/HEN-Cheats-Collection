@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Max Divine Gold",
+      "description": "pick up 2 times",
       "type": "checkbox",
       "memory": [
         {
@@ -22,6 +23,7 @@
     },
     {
       "name": "Item 99",
+      "description": "On consume",
       "type": "checkbox",
       "memory": [
         {
@@ -38,6 +40,7 @@
     },
     {
       "name": "Infinite Health",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

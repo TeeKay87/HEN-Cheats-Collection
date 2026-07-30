@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "TRAINER INFO (read only)",
+      "description": "BE SURE TO READ ALL the comments where available. As a rule of thumb, ALWAYS enable cheats that are needed and disable when they are not. OTU = One time use cheat. Partially ported from TLH v01.22 PS4 trainer and FLiNG PC trainer. For an even more advanced Fallout-4 trainer, check out my MultiTrainer2 ShnExt trainer. Made and tested on PS4 Firmware 9.00. Enjoy! ;-)",
       "type": "checkbox",
       "memory": [
         {
@@ -17,6 +18,7 @@
     },
     {
       "name": "Master Switch (Must be enabled first)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -43,6 +45,7 @@
     },
     {
       "name": "---God Mode  (Req. MS)",
+      "description": "Gives the player a complete invincibility to all types of damages (might still get temporary blurred vision rarely, but no damage). When enabling this option, no need to enable Inf_HP, Inf_AP, No_Radiation and Infinite Power Armor Core Power.",
       "type": "checkbox",
       "memory": [
         {
@@ -87,6 +90,7 @@
     },
     {
       "name": "---One Hit Kill (Req. MS)",
+      "description": "Note that you may get instantly killed by an explotion you initiated yourself etc., for example - if you shoot and explode a car while standing nearby and get hit by your own initiated blast - you will be instantly killed with this cheat enabled.",
       "type": "checkbox",
       "memory": [
         {
@@ -98,6 +102,7 @@
     },
     {
       "name": "Invincible",
+      "description": "Prevents getting hit and effects. Does not prevent fall damage. Use god mode if you want to prevent it.\r\nCheat has not been throughly tested so might cause progressions issues or other issues.",
       "type": "checkbox",
       "memory": [
         {
@@ -124,6 +129,7 @@
     },
     {
       "name": "Infinite Power Armor Core Power",
+      "description": "If God Mode cheat is enabled, no need to enable this cheat.",
       "type": "checkbox",
       "memory": [
         {
@@ -140,6 +146,7 @@
     },
     {
       "name": "No Weight Limit",
+      "description": "Takes effect when weight value changes (including when firing a weapon). You may probably want to keep this cheat enabled all the time.",
       "type": "checkbox",
       "memory": [
         {
@@ -151,6 +158,7 @@
     },
     {
       "name": "Stealth Mode",
+      "description": "Takes effect only when enabled before enemies detect you",
       "type": "checkbox",
       "memory": [
         {
@@ -162,6 +170,7 @@
     },
     {
       "name": "Instant Lock Picking",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -173,6 +182,7 @@
     },
     {
       "name": "Easy Terminal Hacking (PWNed)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -184,6 +194,7 @@
     },
     {
       "name": "Infinite Hacking Attempts",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -195,6 +206,7 @@
     },
     {
       "name": "No Reload - Bottomless clip",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -206,6 +218,7 @@
     },
     {
       "name": "Max Accuracy",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -222,6 +235,7 @@
     },
     {
       "name": "No Recoil",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -238,6 +252,7 @@
     },
     {
       "name": "No Weapon Spin-up",
+      "description": "This cheat disables the spin-up and cool-down delays of weapons like the mini-gun. They can be then used to fire instantly. The Small-Arms Fully-Automatic cheat already contains this functionality, so you may want to disable this cheat if you enabled the other one.",
       "type": "checkbox",
       "memory": [
         {
@@ -254,6 +269,7 @@
     },
     {
       "name": "Manual Weapon Rapid Fire",
+      "description": "The cheat eliminates the delay between manual shots. Mostly handy with weapons like the 10mm pistol. Using this cheat is pointless if you enabled the Small Arms Fully Automatic cheat.",
       "type": "checkbox",
       "memory": [
         {
@@ -265,6 +281,7 @@
     },
     {
       "name": "Small Arms Fully Automatic",
+      "description": "The cheat code modifies all semi-automatic small arms to behave as fully automatic weapons. Additionally, it eliminates the spin-up delay and cooldown period for weapons like the mini-gun.  If you want to disable this option after it took effect, you may need to restart/reload the game in order to restore the original weapon functionality.",
       "type": "checkbox",
       "memory": [
         {
@@ -286,6 +303,7 @@
     },
     {
       "name": "Max Items and Ammo On Use or Gain",
+      "description": "This cheat has not been thoroughly tested but it is possible that it might cause some progression issues or even game crashes. Be sure to enable it only when absolutely necessary and disable it when not. To get the ammo quantity to update, you must disable the No reload cheat first. You can re-enable it after the ammo quantity of the weapon you are using is maximized.",
       "type": "checkbox",
       "memory": [
         {
@@ -297,6 +315,7 @@
     },
     {
       "name": "Super Jump",
+      "description": "Pick one of jump multipliers below. Enable Infinite HP cheat to avoid dying or God Mode to avoid dying and also prevent fall damage.",
       "type": "checkbox",
       "memory": [
         {
@@ -357,6 +376,7 @@
     },
     {
       "name": "Set Game Speed",
+      "description": "If you want to change the speed, use ONLY ONE of the game speed cheats, not both at the same time.",
       "type": "checkbox",
       "memory": [
         {
@@ -434,6 +454,7 @@
     },
     {
       "name": "Set Game Speed (Including Speech)",
+      "description": "If you want to change the speed, use ONLY ONE of the game speed cheats, not both at the same time.",
       "type": "checkbox",
       "memory": [
         {
@@ -516,6 +537,7 @@
     },
     {
       "name": "Set Time of Day",
+      "description": "Pick only 1 option below. Default hour is 10am",
       "type": "checkbox",
       "memory": [
         {
@@ -576,6 +598,7 @@
     },
     {
       "name": "Max Bottle Caps On Trade",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -592,6 +615,7 @@
     },
     {
       "name": "70 Perk Points On Game Start (OTU)",
+      "description": "Enable this cheat at the game start while chatting with the salesman and reaching the Registration Form perks selection. After the cheat takes effect, disable it and dont use it anymore throughout the game.",
       "type": "checkbox",
       "memory": [
         {
@@ -608,6 +632,7 @@
     },
     {
       "name": "Ignore Perk Points Requirements",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -624,6 +649,7 @@
     },
     {
       "name": "Infinite Perk Points Upgrade Requirements",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -635,6 +661,7 @@
     },
     {
       "name": "Max XP and Level (OTU)",
+      "description": "Enable this cheat only once. After the cheat takes effect, disable it and dont use it anymore throughout the game.",
       "type": "checkbox",
       "memory": [
         {
@@ -651,6 +678,7 @@
     },
     {
       "name": "Max Crafting Stock",
+      "description": "This will set all your existing crafting items to 999,999 when you open crafting mode. Items must have at least 1 piece in stock for it to update their quantity. Make sure to enable the cheat before entering crafting mode and disable it when the quantities change take effect.",
       "type": "checkbox",
       "memory": [
         {
@@ -667,6 +695,7 @@
     },
     {
       "name": "Minimum Building Requirement",
+      "description": "When activated, building material requirements will be set to 1. If you want to disable this option after it took effect, you will need to restart the game in order to restore building material requirements.",
       "type": "checkbox",
       "memory": [
         {

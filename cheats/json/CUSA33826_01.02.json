@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Inf HP",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -22,6 +23,7 @@
     },
     {
       "name": "Inf MP",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -38,6 +40,7 @@
     },
     {
       "name": "Inf Money",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -54,6 +57,7 @@
     },
     {
       "name": "Inf Items",
+      "description": "In Battle",
       "type": "checkbox",
       "memory": [
         {

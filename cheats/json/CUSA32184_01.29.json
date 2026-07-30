@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Inf Items And Gold",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -27,6 +28,7 @@
     },
     {
       "name": "Inf Life",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -43,6 +45,7 @@
     },
     {
       "name": "Inf Prey Bar",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -59,6 +62,7 @@
     },
     {
       "name": "Inf Prey Points",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

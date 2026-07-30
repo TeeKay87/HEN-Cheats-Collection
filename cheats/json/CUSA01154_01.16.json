@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Master Code (MC)",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -52,6 +53,7 @@
     },
     {
       "name": "Max Health",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -68,6 +70,7 @@
     },
     {
       "name": "Ignored by the Enemy",
+      "description": "Enable it after you get off the helicopter; it work with enemy soldiers/helicopter but not with skulls; if you enable it after the enemy has seen you, the cheat won\u0027t work",
       "type": "checkbox",
       "memory": [
         {
@@ -94,6 +97,7 @@
     },
     {
       "name": "One Hit Kill",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -140,6 +144,7 @@
     },
     {
       "name": "Hyper Run (Enable MC)",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -151,6 +156,7 @@
     },
     {
       "name": "Infinite Ammo/Fulton/Drugs",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -167,6 +173,7 @@
     },
     {
       "name": "Infinite Silencer",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -183,6 +190,7 @@
     },
     {
       "name": "No Spread",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -199,6 +207,7 @@
     },
     {
       "name": "No Recoil",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -215,6 +224,7 @@
     },
     {
       "name": "Fast Chocke",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -231,6 +241,7 @@
     },
     {
       "name": "No Mission Time",
+      "description": "Lock in-game mission time to 00:00",
       "type": "checkbox",
       "memory": [
         {
@@ -247,6 +258,7 @@
     },
     {
       "name": "No Mission Penality",
+      "description": "Penalties such as getting hit, dying, restarting the game, etc. will not be counted.",
       "type": "checkbox",
       "memory": [
         {
@@ -268,6 +280,7 @@
     },
     {
       "name": "Weather 0 : Clean (Enable MC)",
+      "description": "Before using it, disable other weather cheats; the in-game weather will be locked to it; to restore normal weather, disable all weather cheats and enable/disable Weather 0",
       "type": "checkbox",
       "memory": [
         {
@@ -279,6 +292,7 @@
     },
     {
       "name": "Weather 1 : Cloudy (Enable MC)",
+      "description": "Before using it, disable other weather cheats; the in-game weather will be locked to it; to restore normal weather, disable all weather cheats and enable/disable Weather 0",
       "type": "checkbox",
       "memory": [
         {
@@ -305,6 +319,7 @@
     },
     {
       "name": "Weather 2 : Rain (Enable MC)",
+      "description": "Before using it, disable other weather cheats; the in-game weather will be locked to it; to restore normal weather, disable all weather cheats and enable/disable Weather 0",
       "type": "checkbox",
       "memory": [
         {
@@ -331,6 +346,7 @@
     },
     {
       "name": "Weather 3 : Sand Storm (Enable MC)",
+      "description": "Before using it, disable other weather cheats; the in-game weather will be locked to it; to restore normal weather, disable all weather cheats and enable/disable Weather 0",
       "type": "checkbox",
       "memory": [
         {
@@ -357,6 +373,7 @@
     },
     {
       "name": "Weather 4 : Mist (Enable MC)",
+      "description": "Before using it, disable other weather cheats; the in-game weather will be locked to it; to restore normal weather, disable all weather cheats and enable/disable Weather 0",
       "type": "checkbox",
       "memory": [
         {
@@ -383,6 +400,7 @@
     },
     {
       "name": "Time of Day 0 : 00:00 AM (Enable MC)",
+      "description": "Before using it, disable other Time of Day cheats; The in-game time will be locked to it",
       "type": "checkbox",
       "memory": [
         {
@@ -394,6 +412,7 @@
     },
     {
       "name": "Time of Day 1 : 06:00 AM (Enable MC)",
+      "description": "Before using it, disable other Time of Day cheats; The in-game time will be locked to it",
       "type": "checkbox",
       "memory": [
         {
@@ -410,6 +429,7 @@
     },
     {
       "name": "Time of Day 2 : 12:00 PM (Enable MC)",
+      "description": "Before using it, disable other Time of Day cheats; The in-game time will be locked to it",
       "type": "checkbox",
       "memory": [
         {
@@ -426,6 +446,7 @@
     },
     {
       "name": "Time of Day 3 : 18:00 PM (Enable MC)",
+      "description": "Before using it, disable other Time of Day cheats; The in-game time will be locked to it",
       "type": "checkbox",
       "memory": [
         {
@@ -442,6 +463,7 @@
     },
     {
       "name": "Time of Day x100 (Enable MC)",
+      "description": "Before using it, disable other Time of Day cheats; The in-game time will be accelerated",
       "type": "checkbox",
       "memory": [
         {
@@ -453,6 +475,7 @@
     },
     {
       "name": "Max Heroism",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -469,6 +492,7 @@
     },
     {
       "name": "Max GMP",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -485,6 +509,7 @@
     },
     {
       "name": "Unlock Cassette/Database",
+      "description": "After you get all 99 cassette and all 99 database, you can disable it",
       "type": "checkbox",
       "memory": [
         {
@@ -501,6 +526,7 @@
     },
     {
       "name": "Unlock Developments",
+      "description": "Some items will be unlocked during the gameplay",
       "type": "checkbox",
       "memory": [
         {
@@ -517,6 +543,7 @@
     },
     {
       "name": "Instant Developments",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -543,6 +570,7 @@
     },
     {
       "name": "Instant Base Developments",
+      "description": "After starting one of the base developments, go back to the idroid menu to trigger it",
       "type": "checkbox",
       "memory": [
         {
@@ -559,6 +587,7 @@
     },
     {
       "name": "Instant External Mission",
+      "description": "After starting the external mission, go back to the idroid menu to trigger it",
       "type": "checkbox",
       "memory": [
         {
@@ -575,6 +604,7 @@
     },
     {
       "name": "Instant Mother Base Optional Mission (Target Shooting)",
+      "description": "Instant completion by hitting a target; Enable it after loading the mission and disable it before calling the helicopter to leave the mother base",
       "type": "checkbox",
       "memory": [
         {
@@ -591,6 +621,7 @@
     },
     {
       "name": "Instant Nuclear Development",
+      "description": "After starting the nuclear development, go back to the idroid menu to trigger it",
       "type": "checkbox",
       "memory": [
         {
@@ -617,6 +648,7 @@
     },
     {
       "name": "Infinite Resources",
+      "description": "Some resources will be unlocked during the gameplay and will have the maximum value",
       "type": "checkbox",
       "memory": [
         {
@@ -633,6 +665,7 @@
     },
     {
       "name": "Upgrade Base Units",
+      "description": "Move one or more soldiers between units to trigger it",
       "type": "checkbox",
       "memory": [
         {
@@ -649,6 +682,7 @@
     },
     {
       "name": "Max Soldiers Skills",
+      "description": "Activate it only to fully enhance the selected soldier abilities to their maximum allowed potential (scroll the list for other soldiers), then turn it off; the soldiers might all be reassigned to the basic development unit so press R3 (and select all personnel) for automatic reassignment",
       "type": "checkbox",
       "memory": [
         {
@@ -665,6 +699,7 @@
     },
     {
       "name": "Infinite NVG lvl.5",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -681,6 +716,7 @@
     },
     {
       "name": "Infinite Mimetic Suit/Parasites lvl. 5/6 (Invisibility)",
+      "description": "To return visible with the parasites suit disable the cheat",
       "type": "checkbox",
       "memory": [
         {
@@ -697,6 +733,7 @@
     },
     {
       "name": "D-Walker Infinite Ammo/Silencer/Overheat",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -753,6 +790,7 @@
     },
     {
       "name": "D-Friend Infinite Health",
+      "description": "No demage for D-Horse, DD, D-Walker and Quiet",
       "type": "checkbox",
       "memory": [
         {
@@ -769,6 +807,7 @@
     },
     {
       "name": "D-Friend Max Points",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -785,6 +824,7 @@
     },
     {
       "name": "Tanks Infinite Ammo/Speed/Rockets/Overheat",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {

@@ -12,12 +12,14 @@
   </Cheat>
   <Cheat Text="MAX-GOLD-All-Items-Weapon-(mc)">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>82C4F800</Offset>
       <Section>0</Section>
       <ValueOn>B8-FF-E0-F5-05-41-89-44-24-38-E9-70-8A-E5-FD</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>80AA827A</Offset>
       <Section>0</Section>
       <ValueOn>E9-81-75-1A-02</ValueOn>

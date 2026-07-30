@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Inf Jumps",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -17,6 +18,7 @@
     },
     {
       "name": "Inf Time",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

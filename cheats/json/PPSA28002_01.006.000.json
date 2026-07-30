@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Inf Hp",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -22,6 +23,7 @@
     },
     {
       "name": "Inf Shop Items At Buy",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -38,6 +40,7 @@
     },
     {
       "name": "Easy Max Combo And Kills",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -54,6 +57,7 @@
     },
     {
       "name": "Stop Timer",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -65,6 +69,7 @@
     },
     {
       "name": "God Mode",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

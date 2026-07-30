@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Master Code",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -22,6 +23,7 @@
     },
     {
       "name": "--Inf_Life",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -33,6 +35,7 @@
     },
     {
       "name": "--One_Hit_Kill",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -44,6 +47,7 @@
     },
     {
       "name": "Inf Special",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -55,6 +59,7 @@
     },
     {
       "name": "Inf Items",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -81,6 +86,7 @@
     },
     {
       "name": "Inf Exp",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

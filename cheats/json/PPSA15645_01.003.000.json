@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Inf Hp Order of Ecclesia",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -17,6 +18,7 @@
     },
     {
       "name": "Inf Mp  Order of Ecclesia",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -28,6 +30,7 @@
     },
     {
       "name": "Inf Gold  Order of Ecclesia",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -44,6 +47,7 @@
     },
     {
       "name": "Inf Exp  Order of Ecclesia",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -60,6 +64,7 @@
     },
     {
       "name": "Inf Hp Portrait Of  Ruin",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -71,6 +76,7 @@
     },
     {
       "name": "Inf Mp Portrait Of  Ruin",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -82,6 +88,7 @@
     },
     {
       "name": "Inf Money Portrait Of  Ruin",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -98,6 +105,7 @@
     },
     {
       "name": "Inf Exp Portrait Of  Ruin",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -114,6 +122,7 @@
     },
     {
       "name": "Inf Hp Dawn Of Sorrow",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -130,6 +139,7 @@
     },
     {
       "name": "Inf Mp Dawn Of Sorrow",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -151,6 +161,7 @@
     },
     {
       "name": "Inf Money Dawn Of Sorrow",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -167,6 +178,7 @@
     },
     {
       "name": "Inf Exp Dawn Of Sorrow",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Inf Hp",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -22,6 +23,7 @@
     },
     {
       "name": "Inf Ammo",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -33,6 +35,7 @@
     },
     {
       "name": "Inf Exp",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -49,6 +52,7 @@
     },
     {
       "name": "Inf Hab Points",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -65,6 +69,7 @@
     },
     {
       "name": "Easy Combo",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -81,6 +86,7 @@
     },
     {
       "name": "Inf Items",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -102,6 +108,7 @@
     },
     {
       "name": "Inf Venon",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -113,6 +120,7 @@
     },
     {
       "name": "God Mode",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

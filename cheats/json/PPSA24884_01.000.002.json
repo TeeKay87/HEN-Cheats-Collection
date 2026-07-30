@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Inh Hp And O2",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -22,6 +23,7 @@
     },
     {
       "name": "Inf Ammo",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -38,6 +40,7 @@
     },
     {
       "name": "No Reload",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -54,6 +57,7 @@
     },
     {
       "name": "Laser and Ship Ammo",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -70,6 +74,7 @@
     },
     {
       "name": "99 Items At use And Pick",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -86,6 +91,7 @@
     },
     {
       "name": "Inf Items",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -102,6 +108,7 @@
     },
     {
       "name": "No weight",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

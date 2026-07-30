@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Life",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
       "type": "checkbox",
       "memory": [
         {
@@ -22,6 +23,7 @@
     },
     {
       "name": "Auto Full Life When Zero",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
       "type": "checkbox",
       "memory": [
         {
@@ -33,6 +35,7 @@
     },
     {
       "name": "Invulnerable",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
       "type": "checkbox",
       "memory": [
         {
@@ -49,6 +52,7 @@
     },
     {
       "name": "Infinite Jump",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
       "type": "checkbox",
       "memory": [
         {
@@ -65,6 +69,7 @@
     },
     {
       "name": "Remove Air Glide Meter for Infinite Jump",
+      "description": "Infinite Jump Must be turned ON\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
       "type": "checkbox",
       "memory": [
         {
@@ -76,6 +81,7 @@
     },
     {
       "name": "Infinite Smurf Tools Meter",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
       "type": "checkbox",
       "memory": [
         {
@@ -87,6 +93,7 @@
     },
     {
       "name": "Freeze Timer",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
       "type": "checkbox",
       "memory": [
         {
@@ -98,6 +105,7 @@
     },
     {
       "name": "Max Nuts",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
       "type": "checkbox",
       "memory": [
         {
@@ -109,38 +117,45 @@
     },
     {
       "name": "Runtime Master Code (MUST STAY ON) \u2014 Character Speed",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
       "type": "checkbox",
       "memory": [
         {
           "offset": "ABB0BF",
           "on": "49C787E802000000000000664181BFA80400000001751F41C787F802000000000040C5F857C041C787F002000000000000E992E6B6FF41C787F002000000000000E982E6B6FF49C787E802000000000000664181BFA80400000001751F41C787F80200000000803FC5F857C041C787F002000000000000E94CE6B6FF",
-          "off": "49C787E802000000000000664181BFA80400000001751F41C787F802000000000040C5F857C041C787F002000000000000E992E6B6FF41C787F002000000000000E982E6B6FF49C787E802000000000000664181BFA80400000001751F41C787F80200000000803FC5F857C041C787F002000000000000E94CE6B6FF"
+          "off": "49C787E802000000000000664181BFA80400000001751F41C787F802000000000040C5F857C041C787F002000000000000E992E6B6FF41C787F002000000000000E982E6B6FF49C787E802000000000000664181BFA80400000001751F41C787F80200000000803FC5F857C041C787F002000000000000E94CE6B6FF",
+          "expected": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
         },
         {
           "offset": "ABB13B",
           "on": "41C787F002000000000000E93CE6B6FF",
-          "off": "41C787F002000000000000E93CE6B6FF"
+          "off": "41C787F002000000000000E93CE6B6FF",
+          "expected": "00000000000000000000000000000000"
         },
         {
           "offset": "ABB14B",
           "on": "E9B5FFFFFF9090909090909090909090909090",
-          "off": "E9B5FFFFFF9090909090909090909090909090"
+          "off": "E9B5FFFFFF9090909090909090909090909090",
+          "expected": "00000000000000000000000000000000000000"
         },
         {
           "offset": "629771",
           "on": "E9D5194900",
-          "off": "E9D5194900"
+          "off": "E9D5194900",
+          "expected": "49C787E802"
         }
       ]
     },
     {
       "name": "[DEP] Character Speed",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
       "type": "checkbox",
       "memory": [
         {
           "offset": "ABB14B",
           "on": "E96FFFFFFF9090909090909090909090909090",
-          "off": "E9B5FFFFFF9090909090909090909090909090"
+          "off": "E9B5FFFFFF9090909090909090909090909090",
+          "expected": "E9B5FFFFFF9090909090909090909090909090"
         }
       ]
     }

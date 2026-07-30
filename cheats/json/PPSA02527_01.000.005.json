@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Inf Hp",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -22,6 +23,7 @@
     },
     {
       "name": "Inf Stamina",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -38,6 +40,7 @@
     },
     {
       "name": "Inf Items",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -49,6 +52,7 @@
     },
     {
       "name": "Inf Mana",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -60,6 +64,7 @@
     },
     {
       "name": "No Cooldown",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -76,6 +81,7 @@
     },
     {
       "name": "Stop Days Counter",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

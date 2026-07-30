@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Max Health (MC)",
+      "description": "Disable it in Javamatic mission until repair mix.r",
       "type": "checkbox",
       "memory": [
         {
@@ -308,6 +309,7 @@
     },
     {
       "name": "Max Mutations",
+      "description": "Triggered when a mutation is activated",
       "type": "checkbox",
       "memory": [
         {
@@ -356,6 +358,7 @@
     },
     {
       "name": "Game Settings (GS)",
+      "description": "To trigger cheats, first activate the desired ones, set up a custom game in the game settings, save the game and reload it",
       "type": "checkbox",
       "memory": [
         {

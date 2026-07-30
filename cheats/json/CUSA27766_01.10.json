@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Inf Life And Healer",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -32,6 +33,7 @@
     },
     {
       "name": "Inf Gems",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

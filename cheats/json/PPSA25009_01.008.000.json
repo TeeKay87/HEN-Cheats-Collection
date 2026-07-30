@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Inf Items",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -22,6 +23,7 @@
     },
     {
       "name": "Inf Steps",
+      "description": "Disable After cross first door.",
       "type": "checkbox",
       "memory": [
         {

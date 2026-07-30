@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "TRAINER INFO (read only)",
+      "description": "Important! Please be sure to read the cheats comments where available! Fully tested, but let me know if there is any issue. This version is multiCUSA (multiregion CUSA10211, CUSA10212, CUSA10213, CUSA10218, CUSA10234) compatible. It may also work on the PS5. Enjoy! :)",
       "type": "checkbox",
       "memory": [
         {
@@ -17,6 +18,7 @@
     },
     {
       "name": "Master Code (Must be enabled first \u0026 all the time)",
+      "description": "Cheats with -- prefix depend on the Master Code",
       "type": "checkbox",
       "memory": [
         {
@@ -133,6 +135,7 @@
     },
     {
       "name": "God Mode",
+      "description": "Untouchable and No effects",
       "type": "checkbox",
       "memory": [
         {
@@ -159,6 +162,7 @@
     },
     {
       "name": "--Infinite_Health",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -170,6 +174,7 @@
     },
     {
       "name": "--One_Hit_Kill",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -181,6 +186,7 @@
     },
     {
       "name": "--Toggle_Stealth_Mode",
+      "description": "Be sure to enable it before getting detected. Works all the time, except when mounted (the overriden machine is detectable).",
       "type": "checkbox",
       "memory": [
         {
@@ -192,6 +198,7 @@
     },
     {
       "name": "Infinite Ammo",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -203,6 +210,7 @@
     },
     {
       "name": "Max Arrows Per Shot (5)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -214,6 +222,7 @@
     },
     {
       "name": "--Hour: 0",
+      "description": "Choose only one option",
       "type": "checkbox",
       "memory": [
         {
@@ -225,6 +234,7 @@
     },
     {
       "name": "--Hour: 6",
+      "description": "Choose only one option",
       "type": "checkbox",
       "memory": [
         {
@@ -236,6 +246,7 @@
     },
     {
       "name": "--Hour: 12",
+      "description": "Choose only one option",
       "type": "checkbox",
       "memory": [
         {
@@ -247,6 +258,7 @@
     },
     {
       "name": "--Hour: 18",
+      "description": "Choose only one option",
       "type": "checkbox",
       "memory": [
         {
@@ -258,6 +270,7 @@
     },
     {
       "name": "Infinite Jump and Glide",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -274,6 +287,7 @@
     },
     {
       "name": "--XP Multiplier x5",
+      "description": "Choose only one option",
       "type": "checkbox",
       "memory": [
         {
@@ -285,6 +299,7 @@
     },
     {
       "name": "--XP Multiplier x10",
+      "description": "Choose only one option",
       "type": "checkbox",
       "memory": [
         {
@@ -296,6 +311,7 @@
     },
     {
       "name": "--XP Multiplier x20",
+      "description": "Choose only one option",
       "type": "checkbox",
       "memory": [
         {
@@ -307,6 +323,7 @@
     },
     {
       "name": "--Aloy Walking Speed x1",
+      "description": "Choose only one option",
       "type": "checkbox",
       "memory": [
         {
@@ -318,6 +335,7 @@
     },
     {
       "name": "--Aloy Walking Speed x2",
+      "description": "Choose only one option",
       "type": "checkbox",
       "memory": [
         {
@@ -329,6 +347,7 @@
     },
     {
       "name": "--Aloy Walking Speed x3",
+      "description": "Choose only one option",
       "type": "checkbox",
       "memory": [
         {
@@ -340,6 +359,7 @@
     },
     {
       "name": "--Game Speed x1",
+      "description": "Choose only one option",
       "type": "checkbox",
       "memory": [
         {
@@ -351,6 +371,7 @@
     },
     {
       "name": "--Camera Zoom x0.6",
+      "description": "Choose only one option",
       "type": "checkbox",
       "memory": [
         {
@@ -362,6 +383,7 @@
     },
     {
       "name": "--Camera Zoom x1",
+      "description": "Choose only one option",
       "type": "checkbox",
       "memory": [
         {
@@ -373,6 +395,7 @@
     },
     {
       "name": "--Camera Zoom x1.4",
+      "description": "Choose only one option",
       "type": "checkbox",
       "memory": [
         {
@@ -384,6 +407,7 @@
     },
     {
       "name": "No Crafting Limits",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -405,6 +429,7 @@
     },
     {
       "name": "No Purchase Requirements",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -416,6 +441,7 @@
     },
     {
       "name": "Infinite Concentration",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -427,6 +453,7 @@
     },
     {
       "name": "Infinite Inventory",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -453,6 +480,7 @@
     },
     {
       "name": "Infinite Potions (On Use)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -469,6 +497,7 @@
     },
     {
       "name": "Infinite Rope Durability",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -485,6 +514,7 @@
     },
     {
       "name": "Infinite Weaver Armour",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -501,6 +531,7 @@
     },
     {
       "name": "Max Infinite Oxygen",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -512,6 +543,7 @@
     },
     {
       "name": "Max Infinite Skill Points (3)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -523,6 +555,7 @@
     },
     {
       "name": "Infinite Metal Shards (On Repair)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -534,6 +567,7 @@
     },
     {
       "name": "Infinite Metal Shards and Bluegleams (On Buy)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -545,6 +579,7 @@
     },
     {
       "name": "Max Shards - On Buy",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -561,6 +596,7 @@
     },
     {
       "name": "Infinite Modifications (On Use)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -572,6 +608,7 @@
     },
     {
       "name": "Infinite Hunting Ground Trials Timer",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -583,6 +620,7 @@
     },
     {
       "name": "Spear and Lance - No Cooldown",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -594,6 +632,7 @@
     },
     {
       "name": "Master Code (Must be enabled all the time)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -715,6 +754,7 @@
     },
     {
       "name": "God Mode",
+      "description": "Untouchable and No effects",
       "type": "checkbox",
       "memory": [
         {
@@ -741,6 +781,7 @@
     },
     {
       "name": "--Disable_Stealth",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -752,6 +793,7 @@
     },
     {
       "name": "--Enable_Stealth",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -763,6 +805,7 @@
     },
     {
       "name": "--Infinite_Health",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -774,6 +817,7 @@
     },
     {
       "name": "--One_Hit_Kill",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -785,6 +829,7 @@
     },
     {
       "name": "--Daytime Hour: 0",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -796,6 +841,7 @@
     },
     {
       "name": "--Daytime Hour: 6",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -807,6 +853,7 @@
     },
     {
       "name": "--Daytime Hour: 12",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -818,6 +865,7 @@
     },
     {
       "name": "--Daytime Hour: 18",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -829,6 +877,7 @@
     },
     {
       "name": "Infinite Jump and Glide",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -845,6 +894,7 @@
     },
     {
       "name": "--XP x1",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -856,6 +906,7 @@
     },
     {
       "name": "--XP x5",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -867,6 +918,7 @@
     },
     {
       "name": "--XP x10",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -878,6 +930,7 @@
     },
     {
       "name": "--XP x20",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -889,6 +942,7 @@
     },
     {
       "name": "--XP x100",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -900,6 +954,7 @@
     },
     {
       "name": "--Walking Speed x1",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -911,6 +966,7 @@
     },
     {
       "name": "--Walking Speed x2",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -922,6 +978,7 @@
     },
     {
       "name": "--Walking Speed x3",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -933,6 +990,7 @@
     },
     {
       "name": "--Walking Speed x4",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -944,6 +1002,7 @@
     },
     {
       "name": "--Game Speed x2",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -955,6 +1014,7 @@
     },
     {
       "name": "--Game Speed x3",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -966,6 +1026,7 @@
     },
     {
       "name": "--Cam Zoom x0.6",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -977,6 +1038,7 @@
     },
     {
       "name": "--Cam Zoom x1",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -988,6 +1050,7 @@
     },
     {
       "name": "--Cam Zoom x1.4",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -999,6 +1062,7 @@
     },
     {
       "name": "Infinite Potions (On Use)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -1015,6 +1079,7 @@
     },
     {
       "name": "Infinite Weaver Armour",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -1031,6 +1096,7 @@
     },
     {
       "name": "Max Shards - On Buy",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

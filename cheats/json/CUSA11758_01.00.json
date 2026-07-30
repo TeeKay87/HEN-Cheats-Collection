@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Inf Life",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -22,6 +23,7 @@
     },
     {
       "name": "Inf Special",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

@@ -44,12 +44,14 @@
   </Cheat>
   <Cheat Text="max-gold + Infinite">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>7143800</Offset>
       <Section>0</Section>
       <ValueOn>B8-7F-96-98-00-89-47-34-E9-35-78-6D-FC</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>381B03A</Offset>
       <Section>0</Section>
       <ValueOn>E9-C1-87-92-03-90-90-90</ValueOn>

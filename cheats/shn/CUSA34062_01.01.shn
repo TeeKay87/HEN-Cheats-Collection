@@ -4,12 +4,14 @@
   <Items />
   <Cheat Text="Infinite-Health-(mc)">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>8213F800</Offset>
       <Section>0</Section>
       <ValueOn>41-83-7F-60-01-75-0B-C4-C1-7A-10-47-0C-E9-11-FB-88-FE-C4-C1-7A-11-47-24-E9-06-FB-88-FE</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>809CF31D</Offset>
       <Section>0</Section>
       <ValueOn>E9-DE-04-77-01-90</ValueOn>

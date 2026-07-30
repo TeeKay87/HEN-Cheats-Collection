@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Inf Hp and No curse",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -22,6 +23,7 @@
     },
     {
       "name": "Inf Money",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

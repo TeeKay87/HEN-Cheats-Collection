@@ -11,12 +11,14 @@
         {
           "offset": "2814C0",
           "on": "C3",
-          "off": "55"
+          "off": "55",
+          "section": "14"
         },
         {
           "offset": "29BD10",
           "on": "C3",
-          "off": "55"
+          "off": "55",
+          "section": "14"
         }
       ]
     },
@@ -107,7 +109,8 @@
         {
           "offset": "29DDB5",
           "on": "9090",
-          "off": "FFC8"
+          "off": "FFC8",
+          "section": "14"
         }
       ]
     },

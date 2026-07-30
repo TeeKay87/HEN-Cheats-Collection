@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Inf O2",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -22,6 +23,7 @@
     },
     {
       "name": "0 Weight",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -38,6 +40,7 @@
     },
     {
       "name": "Inf Bombs",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -54,6 +57,7 @@
     },
     {
       "name": "Inf Ammo",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -70,6 +74,7 @@
     },
     {
       "name": "Inf Stamina",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -86,6 +91,7 @@
     },
     {
       "name": "Max Items At Sell",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -102,6 +108,7 @@
     },
     {
       "name": "1 Hit Kill (Only Melee)",
+      "description": "Don\u0027t use it too much or the enemies will respawn dead",
       "type": "checkbox",
       "memory": [
         {

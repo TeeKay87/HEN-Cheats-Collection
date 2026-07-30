@@ -4,6 +4,7 @@
   <Items />
   <Cheat Text="Charge Gauge Never Drains" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>48169A</Offset>
       <Section>0</Section>
       <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
@@ -12,12 +13,14 @@
   </Cheat>
   <Cheat Text="Max Precious Gem On Pickup" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>19E781A</Offset>
       <Section>0</Section>
       <ValueOn>C7-03-FF-E0-F5-05-E9-F2-CE-B1-FE</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>504711</Offset>
       <Section>0</Section>
       <ValueOn>E9-04-31-4E-01</ValueOn>

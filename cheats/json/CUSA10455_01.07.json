@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Master Code (MC)",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -32,6 +33,7 @@
     },
     {
       "name": "Max Health (Enable MC)",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -43,6 +45,7 @@
     },
     {
       "name": "Max Health Car (Enable MC)",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -54,6 +57,7 @@
     },
     {
       "name": "Max Shield (Enable MC)",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -65,6 +69,7 @@
     },
     {
       "name": "Max Nitro (Enable MC)",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -76,6 +81,7 @@
     },
     {
       "name": "Max XP/Level (Enable MC)",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -87,6 +93,7 @@
     },
     {
       "name": "Max Skill Points",
+      "description": "Triggered by spending the first skill points",
       "type": "checkbox",
       "memory": [
         {
@@ -103,6 +110,7 @@
     },
     {
       "name": "Max Money",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -119,6 +127,7 @@
     },
     {
       "name": "Unlock Weapons Slots (Enable MC)",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -130,6 +139,7 @@
     },
     {
       "name": "Max Weapon Skill",
+      "description": "Triggered by killing an enemy with a weapon from each category",
       "type": "checkbox",
       "memory": [
         {
@@ -146,6 +156,7 @@
     },
     {
       "name": "Max Weapon Accuracy (Enable MC)",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -162,6 +173,7 @@
     },
     {
       "name": "Max Demage/One Hit Kill (Enable MC)",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -183,6 +195,7 @@
     },
     {
       "name": "Max Ammo (Enable MC)",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -204,6 +217,7 @@
     },
     {
       "name": "No Reload (Enable MC)",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -215,6 +229,7 @@
     },
     {
       "name": "Space in the Backpack x99 (Enable MC)",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -226,6 +241,7 @@
     },
     {
       "name": "Ignored by the Enemy (Enable MC)",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -237,6 +253,7 @@
     },
     {
       "name": "Hyper Run (Enable MC)",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -248,6 +265,7 @@
     },
     {
       "name": "Jump x2 (Enable MC)",
+      "description": "none",
       "type": "checkbox",
       "memory": [
         {
@@ -259,6 +277,7 @@
     },
     {
       "name": "Infinite Golden Keys (Enable MC)",
+      "description": "Use golden keys only after reaching max level so you get equivalent weapons/items",
       "type": "checkbox",
       "memory": [
         {
@@ -270,6 +289,7 @@
     },
     {
       "name": "Master Code",
+      "description": "Activate only one option",
       "type": "checkbox",
       "memory": [
         {
@@ -286,6 +306,7 @@
     },
     {
       "name": "--Inf_Ammo",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -297,6 +318,7 @@
     },
     {
       "name": "--Inf_Life_and_Ammo",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -308,6 +330,7 @@
     },
     {
       "name": "--Infinite_Life",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -319,6 +342,7 @@
     },
     {
       "name": "No Reload",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -335,6 +359,7 @@
     },
     {
       "name": "Easy Money",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -351,6 +376,7 @@
     },
     {
       "name": "Inf Money Shopping",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -367,6 +393,7 @@
     },
     {
       "name": "Inf Exp Points",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -383,6 +410,7 @@
     },
     {
       "name": "Inf Exp",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -399,6 +427,7 @@
     },
     {
       "name": "--Max exp",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

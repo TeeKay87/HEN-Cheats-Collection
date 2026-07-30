@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Inf Hp",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -32,6 +33,7 @@
     },
     {
       "name": "Inf Energy",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -58,6 +60,7 @@
     },
     {
       "name": "Inf Credits",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

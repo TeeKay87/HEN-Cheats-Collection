@@ -5,6 +5,7 @@
   <Cheat Text="Infinite-Health-(MC)">
     <Cheatline>
       <PS5Offset>76C-executable[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>227B894</Offset>
       <Section>0</Section>
       <ValueOn>41-83-7E-6C-02-75-0B-F3-45-0F-10-7E-0C-E9-04-D4-B1-FE-F3-45-0F-11-BE-18-03-00-00-E9-F6-D3-B1-FE</ValueOn>
@@ -12,6 +13,7 @@
     </Cheatline>
     <Cheatline>
       <PS5Offset>14E335F-executable[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>D98CA1</Offset>
       <Section>0</Section>
       <ValueOn>E9-EE-2B-4E-01-90-90-90-90</ValueOn>
@@ -21,6 +23,7 @@
   <Cheat Text="Inf-Health-One-Hit-Kill-(MC)">
     <Cheatline>
       <PS5Offset>6E1-executable[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>227B91F</Offset>
       <Section>0</Section>
       <ValueOn>41-83-7E-6C-02-75-0B-F3-45-0F-10-7E-0C-E9-79-D3-B1-FE-F3-41-0F-11-86-18-03-00-00-E9-6B-D3-B1-FE</ValueOn>
@@ -28,6 +31,7 @@
     </Cheatline>
     <Cheatline>
       <PS5Offset>14E335F-executable[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>D98CA1</Offset>
       <Section>0</Section>
       <ValueOn>E9-79-2C-4E-01</ValueOn>

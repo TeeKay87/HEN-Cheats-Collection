@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Inf Stamina",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -22,6 +23,7 @@
     },
     {
       "name": "Max Score",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

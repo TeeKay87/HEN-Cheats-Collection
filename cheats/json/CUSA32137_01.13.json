@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "TRAINER INFO (read only)",
+      "description": "Please  be sure to read the comment on each individual cheat, if a comment is available. Enjoy! :-)",
       "type": "checkbox",
       "memory": [
         {
@@ -17,6 +18,7 @@
     },
     {
       "name": "Infinite Max HP",
+      "description": "Takes effect when HP value changes during battle",
       "type": "checkbox",
       "memory": [
         {
@@ -33,6 +35,7 @@
     },
     {
       "name": "Infinite Max MP",
+      "description": "Takes effect when MP value changes during battle",
       "type": "checkbox",
       "memory": [
         {
@@ -49,6 +52,7 @@
     },
     {
       "name": "Easy Kill",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -65,6 +69,7 @@
     },
     {
       "name": "One Hit Kill",
+      "description": "Note that when using this cheat, you may not gain XP and money upon winning the battle.",
       "type": "checkbox",
       "memory": [
         {
@@ -91,6 +96,7 @@
     },
     {
       "name": "God Mode (Untouchable)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -117,6 +123,7 @@
     },
     {
       "name": "Stealth Mode",
+      "description": "When activated, any already flagged enemy wont see you. All other NPCs wont get flagged as enemies. Compulsory battles will still be triggered. Disable this cheat if you are already in a battle, or you may not be able to complete the battle.",
       "type": "checkbox",
       "memory": [
         {
@@ -128,6 +135,7 @@
     },
     {
       "name": "Max Cash",
+      "description": "This will update your money to 999,999,999 Yen instantly when opening the menu, then the cheat can be disabled and game saved with the amount.",
       "type": "checkbox",
       "memory": [
         {
@@ -144,6 +152,7 @@
     },
     {
       "name": "Infinite Items Usage",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -160,6 +169,7 @@
     },
     {
       "name": "Game Speed Multiplier (Movements) Master Code",
+      "description": "Must enable this MC first and then choose only one of the speeds below",
       "type": "checkbox",
       "memory": [
         {
@@ -171,6 +181,7 @@
     },
     {
       "name": "--Speed x2 (Movements)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -182,6 +193,7 @@
     },
     {
       "name": "--Speed x3 (Movements)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -193,6 +205,7 @@
     },
     {
       "name": "--Speed x4 (Movements)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -204,6 +217,7 @@
     },
     {
       "name": "Exp Multiplier (Master Code)",
+      "description": "Must enable this MC first and then choose only one of the multipliers below",
       "type": "checkbox",
       "memory": [
         {
@@ -220,6 +234,7 @@
     },
     {
       "name": "--Multiplier x100",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -231,6 +246,7 @@
     },
     {
       "name": "--Multiplier x1,000",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -242,6 +258,7 @@
     },
     {
       "name": "--Multiplier x10,000",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -253,6 +270,7 @@
     },
     {
       "name": "--Multiplier x100,000",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -264,6 +282,7 @@
     },
     {
       "name": "--Multiplier x1,000,000",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -275,6 +294,7 @@
     },
     {
       "name": "--Multiplier x10,000,000",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -286,6 +306,7 @@
     },
     {
       "name": "Job Exp Multiplier (Master Code)",
+      "description": "Must enable this MC first and then choose only one of the multipliers below",
       "type": "checkbox",
       "memory": [
         {
@@ -302,6 +323,7 @@
     },
     {
       "name": "--Multiplier x100",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -313,6 +335,7 @@
     },
     {
       "name": "--Multiplier x1,000",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -324,6 +347,7 @@
     },
     {
       "name": "--Multiplier x10,000",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -335,6 +359,7 @@
     },
     {
       "name": "--Multiplier x100,000",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -346,6 +371,7 @@
     },
     {
       "name": "--Multiplier x1,000,000",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -357,6 +383,7 @@
     },
     {
       "name": "--Multiplier x10,000,000",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -368,6 +395,7 @@
     },
     {
       "name": "Cash Multiplier (Master Code)",
+      "description": "Must enable this MC first and then choose only one of the multipliers below",
       "type": "checkbox",
       "memory": [
         {
@@ -384,6 +412,7 @@
     },
     {
       "name": "--Multiplier x100",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -395,6 +424,7 @@
     },
     {
       "name": "--Multiplier x1,000",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -406,6 +436,7 @@
     },
     {
       "name": "--Multiplier x10,000",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -417,6 +448,7 @@
     },
     {
       "name": "--Multiplier x100,000",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -428,6 +460,7 @@
     },
     {
       "name": "--Multiplier x1,000,000",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -439,6 +472,7 @@
     },
     {
       "name": "--Multiplier x10,000,000",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -450,6 +484,7 @@
     },
     {
       "name": "Max Cash",
+      "description": "This will update your money to 999,999,999 Yen instantly when opening the menu, then the cheat can be disabled and game saved with the amount.",
       "type": "checkbox",
       "memory": [
         {

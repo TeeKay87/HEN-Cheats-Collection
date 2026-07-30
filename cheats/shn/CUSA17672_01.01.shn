@@ -7,6 +7,7 @@
   <Cheat Text="Invincible-(MC)">
     <Cheatline>
       <PS5Offset>800-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>822F3800</Offset>
       <Section>14</Section>
       <ValueOn>48-83-FA-00-0F-84-44-69-B8-FE-E8-61-83-C9-FE-E9-2D-69-B8-FE</ValueOn>
@@ -14,6 +15,7 @@
     </Cheatline>
     <Cheatline>
       <PS5Offset>1479EC4-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>80E7A13C</Offset>
       <Section>14</Section>
       <ValueOn>E9-BF-96-47-01</ValueOn>
@@ -73,6 +75,7 @@
   <Cheat Text="MAX-All-items-(9999)">
     <Cheatline>
       <PS5Offset>800-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>822F3800</Offset>
       <Section>14</Section>
       <ValueOn>BA-0F-27-00-00-42-89-54-38-2C-E9-8D-36-80-FF</ValueOn>
@@ -80,6 +83,7 @@
     </Cheatline>
     <Cheatline>
       <PS5Offset>7FD169-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
+      <Absolute>True</Absolute>
       <Offset>81AF6E97</Offset>
       <Section>14</Section>
       <ValueOn>E9-64-C9-7F-00</ValueOn>

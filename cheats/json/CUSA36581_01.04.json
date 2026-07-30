@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "TRAINER INFO (read only)",
+      "description": "Please note that you MUST read the comment on each individual cheat, if a comment is available, or your game/saves may have issues. Enjoy this incredible game! :-)",
       "type": "checkbox",
       "memory": [
         {
@@ -17,6 +18,7 @@
     },
     {
       "name": "Infinite Currencies, Arrows and Consumables",
+      "description": "Must have at least one piece for the cheat to take effect to stop subtracting the remaining quantity.",
       "type": "checkbox",
       "memory": [
         {
@@ -28,6 +30,7 @@
     },
     {
       "name": "No Purchase and Upgrade Limits",
+      "description": "Can purchase and upgrade anything, even if you dont have enough currencies. Best to enable/use together with Infinite Currencies, Arrows and Consumables cheat",
       "type": "checkbox",
       "memory": [
         {
@@ -44,6 +47,7 @@
     },
     {
       "name": "God Mode (Untouchable)",
+      "description": "Can still be frozen by enemies. That is intentional.",
       "type": "checkbox",
       "memory": [
         {
@@ -70,6 +74,7 @@
     },
     {
       "name": "Infinite Health",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -81,6 +86,7 @@
     },
     {
       "name": "Infinite Jumps",
+      "description": "Do NOT jump to places that you are not suppose to reach yet or you may mess up your game and saves with a progression issue that will require to start the game from an earlier point or start from the beginning. Only use this cheat to easily reach places you have already been to before or you are suppose to reach and can reach even without the cheat.",
       "type": "checkbox",
       "memory": [
         {
@@ -92,6 +98,7 @@
     },
     {
       "name": "Instant Athra Surge Charge",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -108,6 +115,7 @@
     },
     {
       "name": "No Athra Surge Cooldown",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -124,6 +132,7 @@
     },
     {
       "name": "Damage Multiplier (Master Code)",
+      "description": "RECOMMENDED to disable this cheat in boss fights. Enable this MC first and then choose only one of multipliers below. May cause progression issues when used when fighting some bosses, especially in the beginning of the game, before mount Qaf.",
       "type": "checkbox",
       "memory": [
         {
@@ -150,6 +159,7 @@
     },
     {
       "name": "--Damage x5",
+      "description": "",
       "type": "button",
       "memory": [
         {
@@ -161,6 +171,7 @@
     },
     {
       "name": "--Damage x10",
+      "description": "",
       "type": "button",
       "memory": [
         {
@@ -172,6 +183,7 @@
     },
     {
       "name": "--Damage x20",
+      "description": "",
       "type": "button",
       "memory": [
         {
@@ -183,6 +195,7 @@
     },
     {
       "name": "--Damage x50",
+      "description": "",
       "type": "button",
       "memory": [
         {
@@ -194,6 +207,7 @@
     },
     {
       "name": "--Damage x100",
+      "description": "",
       "type": "button",
       "memory": [
         {
@@ -205,6 +219,7 @@
     },
     {
       "name": "Jump Height Multiplier (Master Code)",
+      "description": "Enable this MC first and then choose only one of multipliers below. Do NOT jump to places that you are not suppose to reach yet or you may mess up your game and saves with a progression issue that will require to start the game from an earlier point or start from the beginning. Only use this cheat to easily reach places you have already been to before or you are suppose to reach and can reach even without the cheat.",
       "type": "checkbox",
       "memory": [
         {
@@ -221,6 +236,7 @@
     },
     {
       "name": "--Jump x2",
+      "description": "",
       "type": "button",
       "memory": [
         {
@@ -232,6 +248,7 @@
     },
     {
       "name": "--Jump x3",
+      "description": "",
       "type": "button",
       "memory": [
         {
@@ -243,6 +260,7 @@
     },
     {
       "name": "--Jump x4",
+      "description": "",
       "type": "button",
       "memory": [
         {
@@ -254,6 +272,7 @@
     },
     {
       "name": "--Jump x5",
+      "description": "",
       "type": "button",
       "memory": [
         {
@@ -265,6 +284,7 @@
     },
     {
       "name": "Easy Kill",
+      "description": "May cause progression issues when used when fighting some bosses, especially in the beginning of the game, before mount Qaf.",
       "type": "checkbox",
       "memory": [
         {

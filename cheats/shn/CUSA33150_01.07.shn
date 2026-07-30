@@ -20,6 +20,7 @@
   </Cheat>
   <Cheat Text="Infinite Oxygen">
     <Cheatline>
+      <Absolute>True</Absolute>
       <Offset>1F52EAA</Offset>
       <Section>0</Section>
       <ValueOn>C5-FA-11-88-DC-06-00-00</ValueOn>

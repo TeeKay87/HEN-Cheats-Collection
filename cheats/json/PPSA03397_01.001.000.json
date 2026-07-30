@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "999 Skill Points",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -22,6 +23,7 @@
     },
     {
       "name": "Inf Ammo",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -33,6 +35,7 @@
     },
     {
       "name": "Inf EXP (Level 50)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "God",
+      "description": "GODMODE Effects still very much active.",
       "type": "checkbox",
       "memory": [
         {
@@ -22,6 +23,7 @@
     },
     {
       "name": "Inf Jumps",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -58,6 +60,7 @@
     },
     {
       "name": "Inf Time",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -74,6 +77,7 @@
     },
     {
       "name": "L1R1_Complete_Lvl",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

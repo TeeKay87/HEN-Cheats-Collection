@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "TRAINER INFO (read only)",
+      "description": "Enjoy!",
       "type": "checkbox",
       "memory": [
         {
@@ -17,6 +18,7 @@
     },
     {
       "name": "1 Hit Kill",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -33,6 +35,7 @@
     },
     {
       "name": "All Existing Inventory Items - 99pcs",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -49,6 +52,7 @@
     },
     {
       "name": "Current BP x2",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -60,6 +64,7 @@
     },
     {
       "name": "Darts - Top Score",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -71,6 +76,7 @@
     },
     {
       "name": "Easy BP (~L50)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -82,6 +88,7 @@
     },
     {
       "name": "Easy Complete Quests v102",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -93,6 +100,7 @@
     },
     {
       "name": "Easy FP (Materia)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -104,6 +112,7 @@
     },
     {
       "name": "Easy Skillmaster",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -115,6 +124,7 @@
     },
     {
       "name": "Freeze PlayTime",
+      "description": "Do Not use together with Null PlayTime cheat!",
       "type": "checkbox",
       "memory": [
         {
@@ -126,6 +136,7 @@
     },
     {
       "name": "Infinite Health",
+      "description": "HealthPoisonBikeXIII (Time)XIII (Hit)Bike (Allies)",
       "type": "checkbox",
       "memory": [
         {
@@ -157,6 +168,7 @@
     },
     {
       "name": "Infinite Limit",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -183,6 +195,7 @@
     },
     {
       "name": "Infinite MP",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -194,6 +207,7 @@
     },
     {
       "name": "Infinite Special Attacks",
+      "description": "CloudOthers, Barret",
       "type": "checkbox",
       "memory": [
         {
@@ -210,6 +224,7 @@
     },
     {
       "name": "Infinite StackItems",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -226,6 +241,7 @@
     },
     {
       "name": "Instant ButtonHold Actions",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -237,6 +253,7 @@
     },
     {
       "name": "Invulnerable Enemys",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -248,6 +265,7 @@
     },
     {
       "name": "Max ATB Gauge",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -264,6 +282,7 @@
     },
     {
       "name": "Max Gil on Get",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -275,6 +294,7 @@
     },
     {
       "name": "Null PlayTime",
+      "description": "Do Not use together with Freeze PlayTime cheat!",
       "type": "checkbox",
       "memory": [
         {
@@ -286,6 +306,7 @@
     },
     {
       "name": "Stats - Luck 9999",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -297,6 +318,7 @@
     },
     {
       "name": "Stats - Magic 9999",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -308,6 +330,7 @@
     },
     {
       "name": "Stats - Magical Damage 9999",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -319,6 +342,7 @@
     },
     {
       "name": "Stats - Magical Defense 9999",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -330,6 +354,7 @@
     },
     {
       "name": "Stats - MP 9999",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -351,6 +376,7 @@
     },
     {
       "name": "Stats - Physical Damage 9999",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -362,6 +388,7 @@
     },
     {
       "name": "Stats - Speed 9999",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -378,6 +405,7 @@
     },
     {
       "name": "Stats - Strength 9999",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -389,6 +417,7 @@
     },
     {
       "name": "Stats - Vitality 9999",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -400,6 +429,7 @@
     },
     {
       "name": "Stats - Will 9999",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Master Code",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -37,6 +38,7 @@
     },
     {
       "name": "--Inf_Hp",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -48,6 +50,7 @@
     },
     {
       "name": "--Inf_Stamina",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -59,6 +62,7 @@
     },
     {
       "name": "--One_Hit_Kill",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -70,6 +74,7 @@
     },
     {
       "name": "Inf Materials and Items",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -86,6 +91,7 @@
     },
     {
       "name": "Inf Weapons Durability",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "TRAINER INFO (read only)",
+      "description": "This trainer has been partially tested on version 01.22 and seem to work fine. Please let me know if there is any issue. Be sure to read the comment on each individual cheat, if a comment is available. Trainer was made on CUSA18723 but it\u0027s multiCUSA compatible and should work on all CUSAs version 01.22 and partially on older and future versions of the game. Enjoy! :)",
       "type": "checkbox",
       "memory": [
         {
@@ -17,6 +18,7 @@
     },
     {
       "name": "Master Code (Must be enabled first \u002B all the time)",
+      "description": "All cheats which start with -- prefix depend on this Master Code.",
       "type": "checkbox",
       "memory": [
         {
@@ -228,6 +230,7 @@
     },
     {
       "name": "--Infinite_HP",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -239,6 +242,7 @@
     },
     {
       "name": "--Infinite_Horse_HP",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -250,6 +254,7 @@
     },
     {
       "name": "--One_Hit_Kill",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -261,6 +266,7 @@
     },
     {
       "name": "--Max FP",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -272,6 +278,7 @@
     },
     {
       "name": "--Max HP",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -283,6 +290,7 @@
     },
     {
       "name": "--Max Stamina",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -294,6 +302,7 @@
     },
     {
       "name": "--Arcane 99",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -305,6 +314,7 @@
     },
     {
       "name": "--Dexterity 99",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -316,6 +326,7 @@
     },
     {
       "name": "--Endurance 99",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -327,6 +338,7 @@
     },
     {
       "name": "--Faith 99",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -338,6 +350,7 @@
     },
     {
       "name": "--Intelligence 99",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -349,6 +362,7 @@
     },
     {
       "name": "--Level 99",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -360,6 +374,7 @@
     },
     {
       "name": "--Mind 99",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -371,6 +386,7 @@
     },
     {
       "name": "--Runes 99999999",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -382,6 +398,7 @@
     },
     {
       "name": "--Strength 99",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -393,6 +410,7 @@
     },
     {
       "name": "--Vigor 99",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -404,6 +422,7 @@
     },
     {
       "name": "--Enemy Speed x0.5",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -415,6 +434,7 @@
     },
     {
       "name": "--Enemy Speed x1",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -426,6 +446,7 @@
     },
     {
       "name": "--Enemy Speed x2",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -437,6 +458,7 @@
     },
     {
       "name": "--FreezeEnemy",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -448,6 +470,7 @@
     },
     {
       "name": "--Horse Speed x1",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -459,6 +482,7 @@
     },
     {
       "name": "--Horse Speed x2",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -470,6 +494,7 @@
     },
     {
       "name": "--Horse Speed x3",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -481,6 +506,7 @@
     },
     {
       "name": "--Player Speed x1",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -492,6 +518,7 @@
     },
     {
       "name": "--Player Speed x2",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -503,6 +530,7 @@
     },
     {
       "name": "--Player Speed x3",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -514,6 +542,7 @@
     },
     {
       "name": "Untouchable v01.22",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -530,6 +559,7 @@
     },
     {
       "name": "No Effects v01.13-v01.22",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -546,6 +576,7 @@
     },
     {
       "name": "100%% Loot Drop-Rate",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -562,6 +593,7 @@
     },
     {
       "name": "Infinite FP",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -578,6 +610,7 @@
     },
     {
       "name": "Infinite Stamina",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -594,6 +627,7 @@
     },
     {
       "name": "Pause By Controller",
+      "description": "Pause Game: Press Options \u002B Dpad Right UnPause Game: Press Options \u002B Dpad Left Note: Some background elements like flowers and sounds may still play but the game will be paused.",
       "type": "checkbox",
       "memory": [
         {
@@ -620,6 +654,7 @@
     },
     {
       "name": "Player No Dead v01.22",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -631,6 +666,7 @@
     },
     {
       "name": "Super Jump",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -672,6 +708,7 @@
     },
     {
       "name": "--Jump Distance x1",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -683,6 +720,7 @@
     },
     {
       "name": "--Jump Distance x2",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -694,6 +732,7 @@
     },
     {
       "name": "--Jump Distance x5",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -705,6 +744,7 @@
     },
     {
       "name": "--Jump Distance x10",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -716,6 +756,7 @@
     },
     {
       "name": "--Jump Height x1",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -727,6 +768,7 @@
     },
     {
       "name": "--Jump Height x2",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -738,6 +780,7 @@
     },
     {
       "name": "--Jump Height x5",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -749,6 +792,7 @@
     },
     {
       "name": "--Jump Height x10",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -760,6 +804,7 @@
     },
     {
       "name": "Unlimited Jumps",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -771,6 +816,7 @@
     },
     {
       "name": "Stealth Mode",
+      "description": "Enemies will be able to see you if and when you attack them.",
       "type": "checkbox",
       "memory": [
         {
@@ -782,6 +828,7 @@
     },
     {
       "name": "Infinite Runes",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -793,6 +840,7 @@
     },
     {
       "name": "Runes Retained On Death",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -804,6 +852,7 @@
     },
     {
       "name": "Max\u002BInf Items on Get\u002BUse v01.17-v01.22",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -815,6 +864,7 @@
     },
     {
       "name": "PlayerExterminate (OHK) v01.17-v01.22",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -826,6 +876,7 @@
     },
     {
       "name": "Enemies Dont Attack v01.22",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -842,6 +893,7 @@
     },
     {
       "name": "Ignore Crafting Item Requirement",
+      "description": "Thanks to fullcodes for originally finding this ported to 1.09 by Rizla.",
       "type": "checkbox",
       "memory": [
         {
@@ -853,6 +905,7 @@
     },
     {
       "name": "Ignore Smithing Item Requirement",
+      "description": "Thanks to fullcodes for originally finding this ported to 1.09 by Rizla.",
       "type": "checkbox",
       "memory": [
         {
@@ -864,6 +917,7 @@
     },
     {
       "name": "Quick Buy\u002BSell Shop Items",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -875,6 +929,7 @@
     },
     {
       "name": "No Overloaded Weight Slowdown",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -891,6 +946,7 @@
     },
     {
       "name": "--Hour: 0",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -902,6 +958,7 @@
     },
     {
       "name": "--Hour: 6",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -913,6 +970,7 @@
     },
     {
       "name": "--Hour: 12",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -924,6 +982,7 @@
     },
     {
       "name": "--Hour: 18",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

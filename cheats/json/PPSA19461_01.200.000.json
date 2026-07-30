@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Inf Hp",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -22,6 +23,7 @@
     },
     {
       "name": "Inf Mp",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -38,6 +40,7 @@
     },
     {
       "name": "Inf Kunai",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -54,6 +57,7 @@
     },
     {
       "name": "Inf Coins",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -70,6 +74,7 @@
     },
     {
       "name": "Inf Rage",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -81,6 +86,7 @@
     },
     {
       "name": "Inf Hp Wolf",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

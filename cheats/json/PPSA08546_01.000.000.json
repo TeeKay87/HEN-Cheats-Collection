@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Inf HP \u002B No reload",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -22,6 +23,7 @@
     },
     {
       "name": "Inf Items Pick up",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -38,6 +40,7 @@
     },
     {
       "name": "Inf Items use (x2)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

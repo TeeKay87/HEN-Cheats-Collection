@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Inf Lives",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -17,6 +18,7 @@
     },
     {
       "name": "Inf Coins",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

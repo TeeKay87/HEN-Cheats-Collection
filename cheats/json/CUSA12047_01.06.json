@@ -27,7 +27,8 @@
         {
           "offset": "5FA27",
           "on": "418B8634010000",
-          "off": "418B8630010000"
+          "off": "418B8630010000",
+          "section": "3"
         }
       ]
     },
@@ -38,7 +39,8 @@
         {
           "offset": "5FA25",
           "on": "7513",
-          "off": "7515"
+          "off": "7515",
+          "section": "3"
         }
       ]
     },
@@ -92,6 +94,7 @@
     },
     {
       "name": "Speed MC (Must Be On)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -108,6 +111,7 @@
     },
     {
       "name": "Super HP Bar On Reload",
+      "description": "(permanent hp bar works on save file as well)",
       "type": "checkbox",
       "memory": [
         {
@@ -124,6 +128,7 @@
     },
     {
       "name": "Infinite Health",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -140,6 +145,7 @@
     },
     {
       "name": "One Hit Kill",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -151,6 +157,7 @@
     },
     {
       "name": "Untouchable",
+      "description": "cant be hit",
       "type": "checkbox",
       "memory": [
         {
@@ -167,6 +174,7 @@
     },
     {
       "name": "Auto Block Target",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -193,6 +201,7 @@
     },
     {
       "name": "Parry Always On Time",
+      "description": "Parry when holdeing L1",
       "type": "checkbox",
       "memory": [
         {
@@ -204,6 +213,7 @@
     },
     {
       "name": "Player Infinite Posture",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -215,6 +225,7 @@
     },
     {
       "name": "Quick Deathblow",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -231,6 +242,7 @@
     },
     {
       "name": "Enemy Infinite posture",
+      "description": "for practice",
       "type": "checkbox",
       "memory": [
         {
@@ -242,6 +254,7 @@
     },
     {
       "name": "100% Drop Rate",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -263,6 +276,7 @@
     },
     {
       "name": "Max Money",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -274,6 +288,7 @@
     },
     {
       "name": "Max Items On Use",
+      "description": "max items on use or when items get transfer to Storage, must have 1 at least",
       "type": "checkbox",
       "memory": [
         {
@@ -285,6 +300,7 @@
     },
     {
       "name": "Infinite Quick Items",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -296,6 +312,7 @@
     },
     {
       "name": "Infinite Merchant Items",
+      "description": "turn off after use or when traveling, does not apply to (Prosthetic) upgrade materials",
       "type": "checkbox",
       "memory": [
         {
@@ -307,6 +324,7 @@
     },
     {
       "name": "Auto Pick Enemy Drops",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -318,6 +336,7 @@
     },
     {
       "name": "Exp Quick lvl Up",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -334,6 +353,7 @@
     },
     {
       "name": "High Jump",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -350,6 +370,7 @@
     },
     {
       "name": "Super Jump",
+      "description": "turn off when traveling",
       "type": "checkbox",
       "memory": [
         {
@@ -366,6 +387,7 @@
     },
     {
       "name": "Undetected",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -382,6 +404,7 @@
     },
     {
       "name": "Enemy Location",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -393,6 +416,7 @@
     },
     {
       "name": "Enemy Don\u0027t Move",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -404,6 +428,7 @@
     },
     {
       "name": "Enemy Don\u0027t Attack",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -415,6 +440,7 @@
     },
     {
       "name": "No Fall Damage",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -426,6 +452,7 @@
     },
     {
       "name": "No Status Effects",
+      "description": "Poison\\Terror\\Burn\\Enfeeblement\\Shock\\Stepping into the fire",
       "type": "checkbox",
       "memory": [
         {
@@ -462,6 +489,7 @@
     },
     {
       "name": "No Money\\Exp loss Upon Death",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -478,6 +506,7 @@
     },
     {
       "name": "Practice Mode (No One Dies)",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -489,6 +518,7 @@
     },
     {
       "name": "Resurrection Charge No Cooldown",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -505,6 +535,7 @@
     },
     {
       "name": "Infinite Resurrection",
+      "description": "you need one resurrection charge at least",
       "type": "checkbox",
       "memory": [
         {
@@ -516,6 +547,7 @@
     },
     {
       "name": "Player Speed 1.50",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -527,6 +559,7 @@
     },
     {
       "name": "Enemy Speed 0.00",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -538,6 +571,7 @@
     },
     {
       "name": "Untouchable v2",
+      "description": "cant be hit",
       "type": "checkbox",
       "memory": [
         {
@@ -554,6 +588,7 @@
     },
     {
       "name": "Mikiri Counter Always On Time Test",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {

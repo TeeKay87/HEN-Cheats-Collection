@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "TRAINER INFO (read only)",
+      "description": "For the \u0022Easy Money\u0022 code to work, activate it only when selling. If you travel with it on, years will pass.Activate Stop time OR Easy Money.",
       "type": "checkbox",
       "memory": [
         {
@@ -17,6 +18,7 @@
     },
     {
       "name": "No Damage",
+      "description": "",
       "type": "checkbox",
       "memory": [
         {
@@ -33,6 +35,7 @@
     },
     {
       "name": "Stop Time Clock",
+      "description": "Desactivate Selling.",
       "type": "checkbox",
       "memory": [
         {
@@ -44,6 +47,7 @@
     },
     {
       "name": "Easy Money",
+      "description": "IMPORTANT ONLY ACTIVATE AT THE MOMENT OF SELLING,later desactivate.",
       "type": "checkbox",
       "memory": [
         {

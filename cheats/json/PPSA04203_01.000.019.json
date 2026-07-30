@@ -6,6 +6,7 @@
   "mods": [
     {
       "name": "Inf Rosources",
+      "description": "Disable after Use",
       "type": "checkbox",
       "memory": [
         {
@@ -22,6 +23,7 @@
     },
     {
       "name": "Inf Leadership Attributes",
+      "description": "Disable after Use",
       "type": "checkbox",
       "memory": [
         {
