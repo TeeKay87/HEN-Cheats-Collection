@@ -68,6 +68,17 @@
       ]
     },
     {
+      "name": "Infnite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B073D6",
+          "on": "909090",
+          "off": "448928"
+        }
+      ]
+    },
+    {
       "name": "Infinite Ammo For Silent Pistol",
       "type": "checkbox",
       "memory": [
@@ -86,17 +97,6 @@
           "offset": "D240EE",
           "on": "90909090909090",
           "off": "66898798030000"
-        }
-      ]
-    },
-    {
-      "name": "Infnite Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "B073D6",
-          "on": "909090",
-          "off": "448928"
         }
       ]
     }

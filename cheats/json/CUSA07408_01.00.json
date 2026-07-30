@@ -5,28 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Freeze Items Usage Timer",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8F1466",
-          "on": "9090909090909090",
-          "off": "C5FA5C05123A5600"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Arrows",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5614DA",
-          "on": "C5FA5CC8",
-          "off": "C5FA5CC1"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -59,18 +37,29 @@
       ]
     },
     {
-      "name": "Instant Kill Enemies",
+      "name": "Infinite Arrows",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "E0782E",
-          "on": "41C7462000000000C4C17A104620E90F9C75FF",
+          "offset": "5614DA",
+          "on": "C5FA5CC8",
+          "off": "C5FA5CC1"
+        }
+      ]
+    },
+    {
+      "name": "Max XP/Hacksilver/Resources",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "E0781B",
+          "on": "41C7443630FFC99A3B418B443630E9C8CCA9FF",
           "off": "00000000000000000000000000000000000000"
         },
         {
-          "offset": "56144A",
-          "on": "E9DF638A0090",
-          "off": "C4C17A104620"
+          "offset": "8A44F0",
+          "on": "E92633560090",
+          "off": "41837C363000"
         }
       ]
     },
@@ -91,18 +80,29 @@
       ]
     },
     {
-      "name": "Max XP/Hacksilver/Resources",
+      "name": "Freeze Items Usage Timer",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "E0781B",
-          "on": "41C7443630FFC99A3B418B443630E9C8CCA9FF",
+          "offset": "8F1466",
+          "on": "9090909090909090",
+          "off": "C5FA5C05123A5600"
+        }
+      ]
+    },
+    {
+      "name": "Instant Kill Enemies",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "E0782E",
+          "on": "41C7462000000000C4C17A104620E90F9C75FF",
           "off": "00000000000000000000000000000000000000"
         },
         {
-          "offset": "8A44F0",
-          "on": "E92633560090",
-          "off": "41837C363000"
+          "offset": "56144A",
+          "on": "E9DF638A0090",
+          "off": "C4C17A104620"
         }
       ]
     }

@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Breath",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "183BDD5",
-          "on": "41C787981B000000004842E98FDA61FF",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "E5986B",
-          "on": "E965259E0090909090",
-          "off": "C4C17A119F981B0000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -53,6 +37,22 @@
       ]
     },
     {
+      "name": "Infinite Breath",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "183BDD5",
+          "on": "41C787981B000000004842E98FDA61FF",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "E5986B",
+          "on": "E965259E0090909090",
+          "off": "C4C17A119F981B0000"
+        }
+      ]
+    },
+    {
       "name": "Max Ammo",
       "type": "checkbox",
       "memory": [
@@ -69,34 +69,18 @@
       ]
     },
     {
-      "name": "Max Gold",
+      "name": "No Reload",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "183BDE5",
-          "on": "0F84CC24B9FF66C7400CD0840FB7400CE9BA24B9FF",
-          "off": "000000000000000000000000000000000000000000"
+          "offset": "183BDFA",
+          "on": "418B8424A405000041898424A0050000418B8424A0050000E9F4A3C0FF",
+          "off": "0000000000000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "13CE2AE",
-          "on": "E932DB460090",
-          "off": "740D0FB7400C"
-        }
-      ]
-    },
-    {
-      "name": "Max Items",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "183BE63",
-          "on": "0F848103C5FF4983FF0375184983FF0375124983FF03750C4983FF03750666C7400CE7030FB7400CE95603C5FF",
-          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "148C1E0",
-          "on": "E97EFC3A0090",
-          "off": "740E0FB7400C"
+          "offset": "1446203",
+          "on": "E9F25B3F00909090",
+          "off": "418B8424A0050000"
         }
       ]
     },
@@ -117,18 +101,18 @@
       ]
     },
     {
-      "name": "Max Score ( Challenge )",
+      "name": "Max Items",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "183BE38",
-          "on": "488B88A8070000C7412C3F420F008B512CE9915BC1FF",
-          "off": "00000000000000000000000000000000000000000000"
+          "offset": "183BE63",
+          "on": "0F848103C5FF4983FF0375184983FF0375124983FF03750C4983FF03750666C7400CE7030FB7400CE95603C5FF",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "14519D5",
-          "on": "E95EA43E009090909090",
-          "off": "488B88A80700008B512C"
+          "offset": "148C1E0",
+          "on": "E97EFC3A0090",
+          "off": "740E0FB7400C"
         }
       ]
     },
@@ -159,6 +143,22 @@
       ]
     },
     {
+      "name": "Max Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "183BDE5",
+          "on": "0F84CC24B9FF66C7400CD0840FB7400CE9BA24B9FF",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "13CE2AE",
+          "on": "E932DB460090",
+          "off": "740D0FB7400C"
+        }
+      ]
+    },
+    {
       "name": "Max XP ( on gain )",
       "type": "checkbox",
       "memory": [
@@ -175,22 +175,6 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "183BDFA",
-          "on": "418B8424A405000041898424A0050000418B8424A0050000E9F4A3C0FF",
-          "off": "0000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "1446203",
-          "on": "E9F25B3F00909090",
-          "off": "418B8424A0050000"
-        }
-      ]
-    },
-    {
       "name": "XP Multiplier ( x 10 )",
       "type": "checkbox",
       "memory": [
@@ -203,6 +187,22 @@
           "offset": "11F75D1",
           "on": "E9CF486400909090",
           "off": "8944241045016E40"
+        }
+      ]
+    },
+    {
+      "name": "Max Score ( Challenge )",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "183BE38",
+          "on": "488B88A8070000C7412C3F420F008B512CE9915BC1FF",
+          "off": "00000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "14519D5",
+          "on": "E95EA43E009090909090",
+          "off": "488B88A80700008B512C"
         }
       ]
     }

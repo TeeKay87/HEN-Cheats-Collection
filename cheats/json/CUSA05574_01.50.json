@@ -5,18 +5,29 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Durable Weapons and Armor",
+      "name": "Master",
+      "type": "master",
+      "memory": [
+        {
+          "offset": "24F3800",
+          "on": "83792003740E837920077423837920057429EB4190909090909090909090909090909090909090909090909090EB2690909090909090909090EB1A909090909090909090909090909090909090EB06C5FA10448104C5FA11048183FB060F85D3ABC0FEE9B9ABC0FE",
+          "off": ""
+        },
+        {
+          "offset": "10FE41A",
+          "on": "E9E1533F01",
+          "off": ""
+        }
+      ]
+    },
+    {
+      "name": "God Mode",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "24F393C",
-          "on": "C74419640000C842498B07E9F4DD3CFE",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "8C1739",
-          "on": "E9FE21C3019090",
-          "off": "89441964498B07"
+          "offset": "24F3814",
+          "on": "83F8007436",
+          "off": "9090909090"
         }
       ]
     },
@@ -32,12 +43,23 @@
       ]
     },
     {
-      "name": "God Mode",
+      "name": "Inf Stamina",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "24F3814",
-          "on": "83F8007436",
+          "offset": "24F3819",
+          "on": "83F8037431",
+          "off": "9090909090"
+        }
+      ]
+    },
+    {
+      "name": "No Toxic",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "24F381E",
+          "on": "83F8057437",
           "off": "9090909090"
         }
       ]
@@ -54,12 +76,34 @@
       ]
     },
     {
+      "name": "Inf Oxygen",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "24F3828",
+          "on": "83F80C7422",
+          "off": "9090909090"
+        }
+      ]
+    },
+    {
       "name": "Inf Horse Run",
       "type": "checkbox",
       "memory": [
         {
           "offset": "24F382F",
           "on": "83F803741B",
+          "off": "9090909090"
+        }
+      ]
+    },
+    {
+      "name": "Min Horse Panic",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "24F3834",
+          "on": "83F8067416",
           "off": "9090909090"
         }
       ]
@@ -91,60 +135,6 @@
       ]
     },
     {
-      "name": "Inf Oxygen",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "24F3828",
-          "on": "83F80C7422",
-          "off": "9090909090"
-        }
-      ]
-    },
-    {
-      "name": "Inf Skill Points",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "24F3914",
-          "on": "4839F3750C418B04242B45C8E9AD27DFFE41817C240CE80300007D02EBE7B863000000E99627DFFE",
-          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "12E60CB",
-          "on": "E944D820019090",
-          "off": "418B04242B45C8"
-        }
-      ]
-    },
-    {
-      "name": "Inf Stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "24F3819",
-          "on": "83F8037431",
-          "off": "9090909090"
-        }
-      ]
-    },
-    {
-      "name": "Master",
-      "type": "master",
-      "memory": [
-        {
-          "offset": "24F3800",
-          "on": "83792003740E837920077423837920057429EB4190909090909090909090909090909090909090909090909090EB2690909090909090909090EB1A909090909090909090909090909090909090EB06C5FA10448104C5FA11048183FB060F85D3ABC0FEE9B9ABC0FE",
-          "off": ""
-        },
-        {
-          "offset": "10FE41A",
-          "on": "E9E1533F01",
-          "off": ""
-        }
-      ]
-    },
-    {
       "name": "Max Waight 999999",
       "type": "checkbox",
       "memory": [
@@ -157,44 +147,6 @@
           "offset": "C4A8A7",
           "on": "E9F98F8A019090",
           "off": "C4817A104CE70C"
-        }
-      ]
-    },
-    {
-      "name": "Min Horse Panic",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "24F3834",
-          "on": "83F8067416",
-          "off": "9090909090"
-        }
-      ]
-    },
-    {
-      "name": "No Toxic",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "24F381E",
-          "on": "83F8057437",
-          "off": "9090909090"
-        }
-      ]
-    },
-    {
-      "name": "XP x16 (Turn off first: x4, x8)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "24F38E5",
-          "on": "4839F3750C418B04240345C8E90C27DFFE41817C2404E80300007D02EBE7B810000000F765C841030424E9EE26DFFE",
-          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "12E5FFB",
-          "on": "E9E5D820019090",
-          "off": "418B04240345C8"
         }
       ]
     },
@@ -227,6 +179,54 @@
           "offset": "12E5FFB",
           "on": "E9E5D820019090",
           "off": "418B04240345C8"
+        }
+      ]
+    },
+    {
+      "name": "XP x16 (Turn off first: x4, x8)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "24F38E5",
+          "on": "4839F3750C418B04240345C8E90C27DFFE41817C2404E80300007D02EBE7B810000000F765C841030424E9EE26DFFE",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "12E5FFB",
+          "on": "E9E5D820019090",
+          "off": "418B04240345C8"
+        }
+      ]
+    },
+    {
+      "name": "Inf Skill Points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "24F3914",
+          "on": "4839F3750C418B04242B45C8E9AD27DFFE41817C240CE80300007D02EBE7B863000000E99627DFFE",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "12E60CB",
+          "on": "E944D820019090",
+          "off": "418B04242B45C8"
+        }
+      ]
+    },
+    {
+      "name": "Durable Weapons and Armor",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "24F393C",
+          "on": "C74419640000C842498B07E9F4DD3CFE",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "8C1739",
+          "on": "E9FE21C3019090",
+          "off": "89441964498B07"
         }
       ]
     }

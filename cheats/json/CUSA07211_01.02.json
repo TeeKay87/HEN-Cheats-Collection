@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "TRAINER INFO (read only)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "60D2FFF",
+          "on": "00",
+          "off": "00"
+        }
+      ]
+    },
+    {
       "name": "1 Hit Kill",
       "type": "checkbox",
       "memory": [
@@ -395,17 +406,6 @@
           "offset": "DFC37D",
           "on": "B80F270000909090909090909090",
           "off": "488B80A03A00008B84082C020000"
-        }
-      ]
-    },
-    {
-      "name": "TRAINER INFO (read only)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "60D2FFF",
-          "on": "00",
-          "off": "00"
         }
       ]
     }

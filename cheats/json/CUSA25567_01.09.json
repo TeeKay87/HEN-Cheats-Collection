@@ -5,28 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "13B0CF2",
-          "on": "909090",
-          "off": "8904B1"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Grenades",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "14430CA",
-          "on": "9090909090",
-          "off": "E8D187FBFF"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health\u002BArmor (Enable Only When Start A Mission)",
       "type": "checkbox",
       "memory": [
@@ -39,22 +17,6 @@
           "offset": "225A54",
           "on": "E957A36B06",
           "off": "C5FA11470C"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Medkits On Use",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "68DFA40",
-          "on": "83FA010308E9F82DBFFA",
-          "off": "00000000000000000000"
-        },
-        {
-          "offset": "14D283D",
-          "on": "E9FED14005",
-          "off": "83FA018908"
         }
       ]
     },
@@ -75,18 +37,67 @@
       ]
     },
     {
-      "name": "Infinite Take down",
+      "name": "Infinite Medkits On Use",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "68DF6B0",
-          "on": "C783E01500000000C842E9C3E7A2FA",
+          "offset": "68DFA40",
+          "on": "83FA010308E9F82DBFFA",
+          "off": "00000000000000000000"
+        },
+        {
+          "offset": "14D283D",
+          "on": "E9FED14005",
+          "off": "83FA018908"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "13B0CF2",
+          "on": "909090",
+          "off": "8904B1"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "13FAD73",
+          "on": "909090909090",
+          "off": "FF9048070000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Grenades",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "14430CA",
+          "on": "9090909090",
+          "off": "E8D187FBFF"
+        }
+      ]
+    },
+    {
+      "name": "No Wasting Time To Use Mastiff",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "68DF990",
+          "on": "C7832C04000000000000E93DF0ACFA",
           "off": "000000000000000000000000000000"
         },
         {
-          "offset": "130DE7A",
-          "on": "E931185D05909090",
-          "off": "C5FA1183E0150000"
+          "offset": "13AE9D4",
+          "on": "E9B70F5305909090",
+          "off": "C5FA11832C040000"
         }
       ]
     },
@@ -117,29 +128,18 @@
       ]
     },
     {
-      "name": "No Reload",
+      "name": "Infinite Take down",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "13FAD73",
-          "on": "909090909090",
-          "off": "FF9048070000"
-        }
-      ]
-    },
-    {
-      "name": "No Wasting Time To Use Mastiff",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "68DF990",
-          "on": "C7832C04000000000000E93DF0ACFA",
+          "offset": "68DF6B0",
+          "on": "C783E01500000000C842E9C3E7A2FA",
           "off": "000000000000000000000000000000"
         },
         {
-          "offset": "13AE9D4",
-          "on": "E9B70F5305909090",
-          "off": "C5FA11832C040000"
+          "offset": "130DE7A",
+          "on": "E931185D05909090",
+          "off": "C5FA1183E0150000"
         }
       ]
     }

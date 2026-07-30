@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Disintegrator Ray",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "68E75F0",
-          "on": "488B7DD0C6420463E9A65447FA",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "D5CA9C",
-          "on": "E94FABB8059090",
-          "off": "488B7DD048890A"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health (Crypto / Saucer)",
       "type": "checkbox",
       "memory": [
@@ -49,22 +33,6 @@
           "offset": "BF99A8",
           "on": "E9F3DACE05909090",
           "off": "C5FA118398000000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite HoloBob Duration",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "68E75D0",
-          "on": "C4C17A10842410020000C4C17A11842458020000E9A2E413FA",
-          "off": "00000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "A25A81",
-          "on": "E94A1BEC059090909090",
-          "off": "C4C17A11842458020000"
         }
       ]
     },
@@ -101,6 +69,22 @@
       ]
     },
     {
+      "name": "Infinite Disintegrator Ray",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "68E75F0",
+          "on": "488B7DD0C6420463E9A65447FA",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "D5CA9C",
+          "on": "E94FABB8059090",
+          "off": "488B7DD048890A"
+        }
+      ]
+    },
+    {
       "name": "Max DNA (Disable To Collect)",
       "type": "checkbox",
       "memory": [
@@ -113,6 +97,22 @@
           "offset": "D2CEF2",
           "on": "E9A9A6BB059090",
           "off": "448BAFA8050000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite HoloBob Duration",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "68E75D0",
+          "on": "C4C17A10842410020000C4C17A11842458020000E9A2E413FA",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "A25A81",
+          "on": "E94A1BEC059090909090",
+          "off": "C4C17A11842458020000"
         }
       ]
     }

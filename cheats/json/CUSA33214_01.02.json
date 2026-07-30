@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Art Gauge",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "6CBB810",
-          "on": "C7879802000000009644E949E358FA",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "1249B60",
-          "on": "E9AB1CA705909090",
-          "off": "C5FA118798020000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -33,6 +17,22 @@
           "offset": "B569E4",
           "on": "E9574F1606909090",
           "off": "C5FA1187C0000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Art Gauge",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6CBB810",
+          "on": "C7879802000000009644E949E358FA",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "1249B60",
+          "on": "E9AB1CA705909090",
+          "off": "C5FA118798020000"
         }
       ]
     },

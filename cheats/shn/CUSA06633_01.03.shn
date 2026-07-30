@@ -10,20 +10,6 @@
       <ValueOff>C4-C1-7A-11-8F-1C-83-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Battery Life Value" Description="Infinite Battery Life Value">
-    <Cheatline>
-      <Offset>254B848</Offset>
-      <Section>0</Section>
-      <ValueOn>41-C7-87-1C-83-00-00-00-00-80-3F-E9-F9-23-57-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>1ABDC48</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-FB-DB-A8-00-90-90-90-90</ValueOn>
-      <ValueOff>C4-C1-7A-11-8F-1C-83-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite Health" Description="Infinite Health">
     <Cheatline>
       <Offset>254B800</Offset>
@@ -50,6 +36,20 @@
       <Section>0</Section>
       <ValueOn>E9-BC-AA-B0-00-90-90-90-90</ValueOn>
       <ValueOff>C4-C1-7A-10-97-34-7D-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Battery Life Value" Description="Infinite Battery Life Value">
+    <Cheatline>
+      <Offset>254B848</Offset>
+      <Section>0</Section>
+      <ValueOn>41-C7-87-1C-83-00-00-00-00-80-3F-E9-F9-23-57-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>1ABDC48</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-FB-DB-A8-00-90-90-90-90</ValueOn>
+      <ValueOff>C4-C1-7A-11-8F-1C-83-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max Bandage" Description="Max Bandage">

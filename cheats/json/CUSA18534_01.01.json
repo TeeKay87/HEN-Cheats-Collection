@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Abilites Bar (Enable only after unlock Ablities)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3347151",
-          "on": "6641C787400100009001E92EE8FFFF",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "3345987",
-          "on": "E9C51700009090",
-          "off": "41899F40010000"
-        }
-      ]
-    },
-    {
       "name": "Inf Health",
       "type": "checkbox",
       "memory": [
@@ -33,6 +17,22 @@
           "offset": "335065D",
           "on": "E9801C0000",
           "off": "39C80F4EC8"
+        }
+      ]
+    },
+    {
+      "name": "Inf Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3AA50E2",
+          "on": "418B48104189480CE96E86FFFF",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "3A9D757",
+          "on": "E98679000090",
+          "off": "C4C17A11400C"
         }
       ]
     },
@@ -69,18 +69,18 @@
       ]
     },
     {
-      "name": "Inf Stamina",
+      "name": "Inf Abilites Bar (Enable only after unlock Ablities)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "3AA50E2",
-          "on": "418B48104189480CE96E86FFFF",
-          "off": "00000000000000000000000000"
+          "offset": "3347151",
+          "on": "6641C787400100009001E92EE8FFFF",
+          "off": "000000000000000000000000000000"
         },
         {
-          "offset": "3A9D757",
-          "on": "E98679000090",
-          "off": "C4C17A11400C"
+          "offset": "3345987",
+          "on": "E9C51700009090",
+          "off": "41899F40010000"
         }
       ]
     }

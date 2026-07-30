@@ -5,18 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Heavy Thrust",
+      "name": "Max/Infinite Health",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "185BB00",
-          "on": "9041C6462863E9C852B37E",
-          "off": "0000000000000000000000"
+          "offset": "185BDB0",
+          "on": "C7401800E0A044E96E3CB37E",
+          "off": "000000000000000000000000"
         },
         {
-          "offset": "80390DC4",
-          "on": "E937AD4C8190909090909090909090",
-          "off": "41C787900200000000704241FF4E28"
+          "offset": "8038FA25",
+          "on": "E986C34C81",
+          "off": "C5FA114018"
         }
       ]
     },
@@ -33,6 +33,22 @@
           "offset": "804C7CB1",
           "on": "E9EA3D398190",
           "off": "FFC841894618"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Heavy Thrust",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "185BB00",
+          "on": "9041C6462863E9C852B37E",
+          "off": "0000000000000000000000"
+        },
+        {
+          "offset": "80390DC4",
+          "on": "E937AD4C8190909090909090909090",
+          "off": "41C787900200000000704241FF4E28"
         }
       ]
     },
@@ -70,22 +86,6 @@
           "offset": "BBC88",
           "on": "89401090",
           "off": "44017010"
-        }
-      ]
-    },
-    {
-      "name": "Max/Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "185BDB0",
-          "on": "C7401800E0A044E96E3CB37E",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "8038FA25",
-          "on": "E986C34C81",
-          "off": "C5FA114018"
         }
       ]
     }

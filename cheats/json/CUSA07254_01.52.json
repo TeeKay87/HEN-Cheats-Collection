@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Stellaris Backport 5.05 Game Version 01.52",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "17FD9F1",
+          "on": "C390",
+          "off": "0000"
+        }
+      ]
+    },
+    {
       "name": "Infinite Resources",
       "type": "checkbox",
       "memory": [
@@ -17,17 +28,6 @@
           "offset": "5F20FE",
           "on": "E9CEB82001",
           "off": "418B4C2408"
-        }
-      ]
-    },
-    {
-      "name": "Stellaris Backport 5.05 Game Version 01.52",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "17FD9F1",
-          "on": "C390",
-          "off": "0000"
         }
       ]
     }

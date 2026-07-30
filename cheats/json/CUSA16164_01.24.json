@@ -5,6 +5,33 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Max/Infinite Health/1 Shot Kills (Master Code)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "127BDB0",
+          "on": "80BB84000000017512C5FA114B60C5FA114B60E9E15B09FF0F57C9C5FA114B60E9D45B09FF",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "3119A4",
+          "on": "E907A4F600",
+          "off": "C5FA114B60"
+        }
+      ]
+    },
+    {
+      "name": "Max/Infinite Health (Enable MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "127BDB9",
+          "on": "C5FA104B64",
+          "off": "C5FA114B60"
+        }
+      ]
+    },
+    {
       "name": "1 Shot Kills (Enable MC)",
       "type": "checkbox",
       "memory": [
@@ -12,6 +39,17 @@
           "offset": "127BDB7",
           "on": "750F",
           "off": "7512"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Stamina (For Running)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "E0DB1E",
+          "on": "909090909090",
+          "off": "C4C17A114F10"
         }
       ]
     },
@@ -32,13 +70,34 @@
       ]
     },
     {
-      "name": "Infinite Stamina (For Running)",
+      "name": "Max/Infinite Ammo/Items",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "E0DB1E",
-          "on": "909090909090",
-          "off": "C4C17A114F10"
+          "offset": "1279D80",
+          "on": "85F6C7432CFA000000E99A779CFF",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "C41523",
+          "on": "E958886300",
+          "off": "85F689432C"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1279D30",
+          "on": "0F46FE8B7940E960109AFF",
+          "off": "0000000000000000000000"
+        },
+        {
+          "offset": "C1AD95",
+          "on": "E996EF650090",
+          "off": "0F46FE897940"
         }
       ]
     },
@@ -65,65 +124,6 @@
           "offset": "6E9AE6",
           "on": "E90521B900909090",
           "off": "498B460849894508"
-        }
-      ]
-    },
-    {
-      "name": "Max/Infinite Ammo/Items",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1279D80",
-          "on": "85F6C7432CFA000000E99A779CFF",
-          "off": "0000000000000000000000000000"
-        },
-        {
-          "offset": "C41523",
-          "on": "E958886300",
-          "off": "85F689432C"
-        }
-      ]
-    },
-    {
-      "name": "Max/Infinite Health (Enable MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "127BDB9",
-          "on": "C5FA104B64",
-          "off": "C5FA114B60"
-        }
-      ]
-    },
-    {
-      "name": "Max/Infinite Health/1 Shot Kills (Master Code)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "127BDB0",
-          "on": "80BB84000000017512C5FA114B60C5FA114B60E9E15B09FF0F57C9C5FA114B60E9D45B09FF",
-          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "3119A4",
-          "on": "E907A4F600",
-          "off": "C5FA114B60"
-        }
-      ]
-    },
-    {
-      "name": "No Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1279D30",
-          "on": "0F46FE8B7940E960109AFF",
-          "off": "0000000000000000000000"
-        },
-        {
-          "offset": "C1AD95",
-          "on": "E996EF650090",
-          "off": "0F46FE897940"
         }
       ]
     }

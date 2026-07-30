@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Extra Boxes on Gain (May cause freeze)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "72CD2B",
-          "on": "45012E",
-          "off": "45892E"
-        }
-      ]
-    },
-    {
       "name": "Infinite Hearts",
       "type": "checkbox",
       "memory": [
@@ -28,6 +17,22 @@
           "offset": "6A2152",
           "on": "E9C9E19500909090",
           "off": "C5FA1187F8010000"
+        }
+      ]
+    },
+    {
+      "name": "Max Seeds on Gain",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "10003F0",
+          "on": "BF280A000041C746287F969800E90FB972FF",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "72BD08",
+          "on": "E9E3468D0090909090",
+          "off": "BF280A000041894628"
         }
       ]
     },
@@ -48,18 +53,13 @@
       ]
     },
     {
-      "name": "Max Seeds on Gain",
+      "name": "Extra Boxes on Gain (May cause freeze)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "10003F0",
-          "on": "BF280A000041C746287F969800E90FB972FF",
-          "off": "000000000000000000000000000000000000"
-        },
-        {
-          "offset": "72BD08",
-          "on": "E9E3468D0090909090",
-          "off": "BF280A000041894628"
+          "offset": "72CD2B",
+          "on": "45012E",
+          "off": "45892E"
         }
       ]
     }

@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo (Pistols)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5F8D0",
-          "on": "E8D5F620036681FC7059750C41BE0C00000044897310EB0444897310E90D76F900",
-          "off": "000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "80BF6EF5",
-          "on": "E9D68906FF90909090",
-          "off": "E8B680270244897310"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -37,18 +21,18 @@
       ]
     },
     {
-      "name": "Instant Transformation (on hit)",
+      "name": "Infinite Ammo (Pistols)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "18B7C10",
-          "on": "C743100000C842E927DB117F",
-          "off": "000000000000000000000000"
+          "offset": "7FC5F8D0",
+          "on": "E8D5F620036681FC7059750C41BE0C00000044897310EB0444897310E90D76F900",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "809D573E",
-          "on": "E9CD24EE80",
-          "off": "C5FA114B10"
+          "offset": "80BF6EF5",
+          "on": "E9D68906FF90909090",
+          "off": "E8B680270244897310"
         }
       ]
     },
@@ -65,6 +49,22 @@
           "offset": "80BF6D75",
           "on": "E9068B06FF90909090",
           "off": "E83682270244897314"
+        }
+      ]
+    },
+    {
+      "name": "Instant Transformation (on hit)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "18B7C10",
+          "on": "C743100000C842E927DB117F",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "809D573E",
+          "on": "E9CD24EE80",
+          "off": "C5FA114B10"
         }
       ]
     }

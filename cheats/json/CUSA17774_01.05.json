@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Items",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5F099",
-          "on": "83C6014189F083C60141897618E92301E902",
-          "off": "000000000000000000000000000000000000"
-        },
-        {
-          "offset": "82AEF1C7",
-          "on": "E9CDFE16FD9090",
-          "off": "4189F041897618"
-        }
-      ]
-    },
-    {
       "name": "Inf Life",
       "type": "checkbox",
       "memory": [
@@ -33,6 +17,22 @@
           "offset": "806E0BBF",
           "on": "E93CE457FF90",
           "off": "C4C1797E4628"
+        }
+      ]
+    },
+    {
+      "name": "Inf Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5F037",
+          "on": "C4C17A104610C4C17A114610E9015ACC00",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "80924A43",
+          "on": "E9EFA533FF90",
+          "off": "C4C17A114610"
         }
       ]
     },
@@ -53,18 +53,18 @@
       ]
     },
     {
-      "name": "Inf Stamina",
+      "name": "Inf Items",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5F037",
-          "on": "C4C17A104610C4C17A114610E9015ACC00",
-          "off": "0000000000000000000000000000000000"
+          "offset": "7FC5F099",
+          "on": "83C6014189F083C60141897618E92301E902",
+          "off": "000000000000000000000000000000000000"
         },
         {
-          "offset": "80924A43",
-          "on": "E9EFA533FF90",
-          "off": "C4C17A114610"
+          "offset": "82AEF1C7",
+          "on": "E9CDFE16FD9090",
+          "off": "4189F041897618"
         }
       ]
     }

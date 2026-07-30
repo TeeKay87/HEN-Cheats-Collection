@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Freeze Timer",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "E2D7F5",
-          "on": "9090909090909090",
-          "off": "C5FA118138010000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Fuel",
       "type": "checkbox",
       "memory": [
@@ -28,6 +17,22 @@
           "offset": "12AB553",
           "on": "E958884A01909090",
           "off": "C5FA1088A0060000"
+        }
+      ]
+    },
+    {
+      "name": "No Damage",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2753DE1",
+          "on": "480F44C3C70000000000E93D4986FE",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "FB8727",
+          "on": "E9B5B6790190",
+          "off": "480F44C38908"
         }
       ]
     },
@@ -48,18 +53,13 @@
       ]
     },
     {
-      "name": "No Damage",
+      "name": "Freeze Timer",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "2753DE1",
-          "on": "480F44C3C70000000000E93D4986FE",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "FB8727",
-          "on": "E9B5B6790190",
-          "off": "480F44C38908"
+          "offset": "E2D7F5",
+          "on": "9090909090909090",
+          "off": "C5FA118138010000"
         }
       ]
     }

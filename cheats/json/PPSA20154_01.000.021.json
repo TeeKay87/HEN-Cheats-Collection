@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "GodMode",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "4193F37",
-          "on": "9090909090",
-          "off": "E89451CAFF"
-        }
-      ]
-    },
-    {
       "name": "Inf Hp",
       "type": "checkbox",
       "memory": [
@@ -32,22 +21,6 @@
       ]
     },
     {
-      "name": "Inf Materials",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "631B072",
-          "on": "BA0F2700008954C1200154C108E94AC9DEFD",
-          "off": "000000000000000000000000000000000000"
-        },
-        {
-          "offset": "41079C6",
-          "on": "E9A7362102909090",
-          "off": "8954C1200154C108"
-        }
-      ]
-    },
-    {
       "name": "Inf Stamina",
       "type": "checkbox",
       "memory": [
@@ -60,6 +33,22 @@
           "offset": "3E49DF1",
           "on": "E94D124D029090909090909090909090909090",
           "off": "C4C17A1007C5FA5C45E4C5FA5FC1C4C17A1107"
+        }
+      ]
+    },
+    {
+      "name": "Inf Materials",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "631B072",
+          "on": "BA0F2700008954C1200154C108E94AC9DEFD",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "41079C6",
+          "on": "E9A7362102909090",
+          "off": "8954C1200154C108"
         }
       ]
     },
@@ -92,6 +81,17 @@
           "offset": "42F164A",
           "on": "E9859A0202909090",
           "off": "C5FA11836C010000"
+        }
+      ]
+    },
+    {
+      "name": "GodMode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4193F37",
+          "on": "9090909090",
+          "off": "E89451CAFF"
         }
       ]
     }

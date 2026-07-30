@@ -24,14 +24,6 @@
       <ValueOff>0F-84-04-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Pressure Bomb">
-    <Cheatline>
-      <Offset>6C892F</Offset>
-      <Section>0</Section>
-      <ValueOn>C5-EA-58-C0</ValueOn>
-      <ValueOff>C5-EA-5C-C0</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Max Gold / Gears (On Spend)">
     <Cheatline>
       <Offset>C6B84A</Offset>
@@ -60,6 +52,14 @@
       <ValueOff>41-89-87-DC-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="Inf Pressure Bomb">
+    <Cheatline>
+      <Offset>6C892F</Offset>
+      <Section>0</Section>
+      <ValueOn>C5-EA-58-C0</ValueOn>
+      <ValueOff>C5-EA-5C-C0</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Inf HP">
     <Cheatline>
       <Offset>86B800</Offset>
@@ -80,14 +80,6 @@
       <Section>0</Section>
       <ValueOn>0F-85-04-01-00-00</ValueOn>
       <ValueOff>0F-84-04-01-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Inf Pressure Bomb">
-    <Cheatline>
-      <Offset>2C892F</Offset>
-      <Section>0</Section>
-      <ValueOn>C5-EA-58-C0</ValueOn>
-      <ValueOff>C5-EA-5C-C0</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max Gold / Gears (On Spend)">
@@ -116,6 +108,14 @@
       <Section>0</Section>
       <ValueOn>E9-A7-66-5A-00-90-90</ValueOn>
       <ValueOff>41-89-87-DC-01-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Inf Pressure Bomb">
+    <Cheatline>
+      <Offset>2C892F</Offset>
+      <Section>0</Section>
+      <ValueOn>C5-EA-58-C0</ValueOn>
+      <ValueOff>C5-EA-5C-C0</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

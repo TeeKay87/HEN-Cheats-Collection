@@ -37,22 +37,6 @@
       ]
     },
     {
-      "name": "Infinite Tech Points (Enable After Earn 1 point)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "13333A0",
-          "on": "43C644AC5800E96EEE3AFF",
-          "off": "0000000000000000000000"
-        },
-        {
-          "offset": "6E2214",
-          "on": "E98711C500",
-          "off": "430174AC58"
-        }
-      ]
-    },
-    {
       "name": "Max Resource (On Get)",
       "type": "checkbox",
       "memory": [
@@ -65,6 +49,22 @@
           "offset": "6DF6E2",
           "on": "E9E9267C7F",
           "off": "42895CA808"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Tech Points (Enable After Earn 1 point)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "13333A0",
+          "on": "43C644AC5800E96EEE3AFF",
+          "off": "0000000000000000000000"
+        },
+        {
+          "offset": "6E2214",
+          "on": "E98711C500",
+          "off": "430174AC58"
         }
       ]
     }

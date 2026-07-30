@@ -5,129 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "0.1 Weight Carrying",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3573580",
-          "on": "C7400CCDCCCC3DE9814697FE",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "1EE7C08",
-          "on": "E973B96801",
-          "off": "C5FA11400C"
-        }
-      ]
-    },
-    {
-      "name": "Alot of Chiral Crystals (on collect)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3573C40",
-          "on": "0F48CAC740289F860100E970984AFE",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "1A1D4B9",
-          "on": "E98267B50190",
-          "off": "0F48CA894828"
-        }
-      ]
-    },
-    {
-      "name": "Ceramic 900000 (on spend first time)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3573D20",
-          "on": "C74048A0BB0D00488B5050E92C1072FF",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "2C94D54",
-          "on": "E9C7EF8D00909090",
-          "off": "48894848488B5050"
-        }
-      ]
-    },
-    {
-      "name": "Chemicals 900000 (on spend first time)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3573AA0",
-          "on": "C74050A0BB0D00488B4858E9CA1272FF",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "2C94D72",
-          "on": "E929ED8D00909090",
-          "off": "48894850488B4858"
-        }
-      ]
-    },
-    {
-      "name": "Fast Running",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3573540",
-          "on": "C7809C3C00000000F041C5FA10A89C3C0000E920E530FE",
-          "off": "0000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "1881A6F",
-          "on": "E9CC1ACF01909090",
-          "off": "C5FA11A89C3C0000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Ammo/No reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1A73BB9",
-          "on": "909090",
-          "off": "668918"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Boot Durability",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3573BC0",
-          "on": "41C7850C03000000007A44E99C2B21FE",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "1786763",
-          "on": "E958D4DE0190909090",
-          "off": "C4C17A118D0C030000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Breath Holding",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "35739D0",
-          "on": "41C784243401000000007A44E93D0021FE",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "1783A14",
-          "on": "E9B7FFDE019090909090",
-          "off": "C4C17A11842434010000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -155,6 +32,22 @@
       ]
     },
     {
+      "name": "Infinite Breath Holding",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "35739D0",
+          "on": "41C784243401000000007A44E93D0021FE",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "1783A14",
+          "on": "E9B7FFDE019090909090",
+          "off": "C4C17A11842434010000"
+        }
+      ]
+    },
+    {
       "name": "Infinite Running",
       "type": "checkbox",
       "memory": [
@@ -167,6 +60,54 @@
           "offset": "1781808",
           "on": "E93322DF019090909090",
           "off": "C4C17A118C2404010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Water walk",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3573AA0",
+          "on": "41C784243401000000007A44E938FE20FE",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "17838B9",
+          "on": "E9E201DF019090909090",
+          "off": "C4C17A11842434010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Boot Durability",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3573BC0",
+          "on": "41C7850C03000000007A44E99C2B21FE",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "1786763",
+          "on": "E958D4DE0190909090",
+          "off": "C4C17A118D0C030000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Spray/Ladder/Anchor/PCC",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3573B80",
+          "on": "66C784470A0100006400E99C082BFE",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "1824423",
+          "on": "E958F7D401909090",
+          "off": "66898C470A010000"
         }
       ]
     },
@@ -187,18 +128,13 @@
       ]
     },
     {
-      "name": "Infinite Spray/Ladder/Anchor/PCC",
+      "name": "Infinite Ammo/No reload",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "3573B80",
-          "on": "66C784470A0100006400E99C082BFE",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "1824423",
-          "on": "E958F7D401909090",
-          "off": "66898C470A010000"
+          "offset": "1A73BB9",
+          "on": "909090",
+          "off": "668918"
         }
       ]
     },
@@ -251,38 +187,6 @@
       ]
     },
     {
-      "name": "Infinite Water walk",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3573AA0",
-          "on": "41C784243401000000007A44E938FE20FE",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "17838B9",
-          "on": "E9E201DF019090909090",
-          "off": "C4C17A11842434010000"
-        }
-      ]
-    },
-    {
-      "name": "Metal 900000 (on spend first time)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3573D60",
-          "on": "C74040A0BB0D00488B5048E9CE0F72FF",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "2C94D36",
-          "on": "E925F08D00909090",
-          "off": "48894840488B5048"
-        }
-      ]
-    },
-    {
       "name": "No Cargo Damage 1",
       "type": "checkbox",
       "memory": [
@@ -331,6 +235,113 @@
       ]
     },
     {
+      "name": "Fast Running",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3573540",
+          "on": "C7809C3C00000000F041C5FA10A89C3C0000E920E530FE",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1881A6F",
+          "on": "E9CC1ACF01909090",
+          "off": "C5FA11A89C3C0000"
+        }
+      ]
+    },
+    {
+      "name": "0.1 Weight Carrying",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3573580",
+          "on": "C7400CCDCCCC3DE9814697FE",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "1EE7C08",
+          "on": "E973B96801",
+          "off": "C5FA11400C"
+        }
+      ]
+    },
+    {
+      "name": "Alot of Chiral Crystals (on collect)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3573C40",
+          "on": "0F48CAC740289F860100E970984AFE",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "1A1D4B9",
+          "on": "E98267B50190",
+          "off": "0F48CA894828"
+        }
+      ]
+    },
+    {
+      "name": "Special Alloy Wont decrease",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2C94D87",
+          "on": "90909090",
+          "off": "48894858"
+        }
+      ]
+    },
+    {
+      "name": "Chemicals 900000 (on spend first time)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3573AA0",
+          "on": "C74050A0BB0D00488B4858E9CA1272FF",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "2C94D72",
+          "on": "E929ED8D00909090",
+          "off": "48894850488B4858"
+        }
+      ]
+    },
+    {
+      "name": "Ceramic 900000 (on spend first time)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3573D20",
+          "on": "C74048A0BB0D00488B5050E92C1072FF",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "2C94D54",
+          "on": "E9C7EF8D00909090",
+          "off": "48894848488B5050"
+        }
+      ]
+    },
+    {
+      "name": "Metal 900000 (on spend first time)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3573D60",
+          "on": "C74040A0BB0D00488B5048E9CE0F72FF",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "2C94D36",
+          "on": "E925F08D00909090",
+          "off": "48894840488B5048"
+        }
+      ]
+    },
+    {
       "name": "Resins 900000 (on spend first time)",
       "type": "checkbox",
       "memory": [
@@ -343,17 +354,6 @@
           "offset": "2C94D18",
           "on": "E933EF8D00909090",
           "off": "48894838488B5040"
-        }
-      ]
-    },
-    {
-      "name": "Special Alloy Wont decrease",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2C94D87",
-          "on": "90909090",
-          "off": "48894858"
         }
       ]
     }

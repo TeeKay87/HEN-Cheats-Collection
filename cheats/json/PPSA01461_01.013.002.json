@@ -5,29 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Easy Combo",
+      "name": "Inf Hp",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FCCB0AC",
-          "on": "41C746500F0000004C89F7E92A28AC80",
-          "off": "00000000000000000000000000000000"
+          "offset": "7FCCB000",
+          "on": "81BBCC0000000000C842740DC5FA119388000000E9BFEC2082C783880000000000C842E9B0EC2082",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "78D8DF",
-          "on": "E9C8D7537F9090",
-          "off": "41FF46504C89F7"
-        }
-      ]
-    },
-    {
-      "name": "God Mode",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1EE4810",
-          "on": "9090909090",
-          "off": "E85B5CFFFF"
+          "offset": "1ED9CD0",
+          "on": "E92B13DF7D909090",
+          "off": "C5FA119388000000"
         }
       ]
     },
@@ -75,18 +64,18 @@
       ]
     },
     {
-      "name": "Inf Hp",
+      "name": "Easy Combo",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FCCB000",
-          "on": "81BBCC0000000000C842740DC5FA119388000000E9BFEC2082C783880000000000C842E9B0EC2082",
-          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000"
+          "offset": "7FCCB0AC",
+          "on": "41C746500F0000004C89F7E92A28AC80",
+          "off": "00000000000000000000000000000000"
         },
         {
-          "offset": "1ED9CD0",
-          "on": "E92B13DF7D909090",
-          "off": "C5FA119388000000"
+          "offset": "78D8DF",
+          "on": "E9C8D7537F9090",
+          "off": "41FF46504C89F7"
         }
       ]
     },
@@ -119,6 +108,17 @@
           "offset": "7E0F0A",
           "on": "90909090",
           "off": "C5DA5CE3"
+        }
+      ]
+    },
+    {
+      "name": "God Mode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1EE4810",
+          "on": "9090909090",
+          "off": "E85B5CFFFF"
         }
       ]
     }

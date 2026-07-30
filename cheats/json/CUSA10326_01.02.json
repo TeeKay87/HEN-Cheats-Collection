@@ -5,13 +5,34 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo",
+      "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "126FE2E",
-          "on": "418B4618",
-          "off": "41894618"
+          "offset": "3B6BDB0",
+          "on": "4C89F690E927549DFC",
+          "off": "000000000000000000"
+        },
+        {
+          "offset": "5411DA",
+          "on": "E9D1AB620390",
+          "off": "4C89F6FF5128"
+        }
+      ]
+    },
+    {
+      "name": "Invincibility",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3B6BDF0",
+          "on": "90E9CAFD9CFC",
+          "off": "000000000000"
+        },
+        {
+          "offset": "53BBBA",
+          "on": "E93102630390",
+          "off": "FF90E0020000"
         }
       ]
     },
@@ -32,22 +53,6 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3B6BDB0",
-          "on": "4C89F690E927549DFC",
-          "off": "000000000000000000"
-        },
-        {
-          "offset": "5411DA",
-          "on": "E9D1AB620390",
-          "off": "4C89F6FF5128"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health Syringes",
       "type": "checkbox",
       "memory": [
@@ -59,6 +64,28 @@
       ]
     },
     {
+      "name": "Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "126FE2E",
+          "on": "418B4618",
+          "off": "41894618"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "119DF20",
+          "on": "8B91D8000000",
+          "off": "8991D8000000"
+        }
+      ]
+    },
+    {
       "name": "Infinite Throwables (After Getting Throwables)",
       "type": "checkbox",
       "memory": [
@@ -66,22 +93,6 @@
           "offset": "12C4FF3",
           "on": "8B7370",
           "off": "897370"
-        }
-      ]
-    },
-    {
-      "name": "Invincibility",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3B6BDF0",
-          "on": "90E9CAFD9CFC",
-          "off": "000000000000"
-        },
-        {
-          "offset": "53BBBA",
-          "on": "E93102630390",
-          "off": "FF90E0020000"
         }
       ]
     },
@@ -109,33 +120,6 @@
           "offset": "17B76A",
           "on": "E9B1069F0390",
           "off": "FFC941894764"
-        }
-      ]
-    },
-    {
-      "name": "No Damage To The Helicopter",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3B6BA30",
-          "on": "C4C17A108750010000E9E6C87DFD",
-          "off": "0000000000000000000000000000"
-        },
-        {
-          "offset": "134831B",
-          "on": "E91037820290909090",
-          "off": "C4C17A118750010000"
-        }
-      ]
-    },
-    {
-      "name": "No Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "119DF20",
-          "on": "8B91D8000000",
-          "off": "8991D8000000"
         }
       ]
     },
@@ -172,6 +156,22 @@
       ]
     },
     {
+      "name": "No Damage To The Helicopter",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3B6BA30",
+          "on": "C4C17A108750010000E9E6C87DFD",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "134831B",
+          "on": "E91037820290909090",
+          "off": "C4C17A118750010000"
+        }
+      ]
+    },
+    {
       "name": "Infinite Ammo",
       "type": "checkbox",
       "memory": [
@@ -179,17 +179,6 @@
           "offset": "126FE2E",
           "on": "90909090",
           "off": "41894618"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health Syringes",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1316584",
-          "on": "909090909090",
-          "off": "898390000000"
         }
       ]
     },
@@ -205,13 +194,13 @@
       ]
     },
     {
-      "name": "Infinite Skill Points",
+      "name": "Infinite Health Syringes",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "17B76C",
-          "on": "90909090",
-          "off": "41894F64"
+          "offset": "1316584",
+          "on": "909090909090",
+          "off": "898390000000"
         }
       ]
     },
@@ -223,6 +212,17 @@
           "offset": "12C4FF3",
           "on": "909090",
           "off": "897370"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Skill Points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "17B76C",
+          "on": "90909090",
+          "off": "41894F64"
         }
       ]
     }

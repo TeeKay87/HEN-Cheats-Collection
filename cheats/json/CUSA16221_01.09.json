@@ -5,33 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "1 Hit Kill (Enable MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "334FDB6",
-          "on": "750F",
-          "off": "7511"
-        }
-      ]
-    },
-    {
-      "name": "Max Score On Gain",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "334FB90",
-          "on": "C74401443F420F00E9685AFDFC",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "325600",
-          "on": "E98BA50203",
-          "off": "44016C0144"
-        }
-      ]
-    },
-    {
       "name": "Max/Infinite Health/Special Attack/1 Hit Kill (Master Code)",
       "type": "checkbox",
       "memory": [
@@ -44,6 +17,17 @@
           "offset": "33CF6E",
           "on": "E93D2E0103",
           "off": "41896C242C"
+        }
+      ]
+    },
+    {
+      "name": "1 Hit Kill (Enable MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "334FDB6",
+          "on": "750F",
+          "off": "7511"
         }
       ]
     },
@@ -76,6 +60,22 @@
           "offset": "2F3B28",
           "on": "E933C10503",
           "off": "747C896920"
+        }
+      ]
+    },
+    {
+      "name": "Max Score On Gain",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "334FB90",
+          "on": "C74401443F420F00E9685AFDFC",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "325600",
+          "on": "E98BA50203",
+          "off": "44016C0144"
         }
       ]
     }

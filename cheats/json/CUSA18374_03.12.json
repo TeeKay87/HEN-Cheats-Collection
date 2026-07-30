@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "999 items (on use)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "22FF7D0",
-          "on": "6641C74756E703E9C2F508FF",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "138ED99",
-          "on": "E9320AF700",
-          "off": "6645897756"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -33,38 +17,6 @@
           "offset": "ED2408",
           "on": "E9E3D44201909090",
           "off": "4989B42400FB0000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health/1Hit (turn off before jumping from high place)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "22F8E30",
-          "on": "4180BC2480090000017512498BB42408FB00004989B42400FB0000EB0DBE000000004989B42400FB0000E9B195BDFE",
-          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "ED2408",
-          "on": "E9236A4201909090",
-          "off": "4989B42400FB0000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Skill points",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "22F8EA0",
-          "on": "66C780D8000000E703E9505E55FF",
-          "off": "0000000000000000000000000000"
-        },
-        {
-          "offset": "184ECF6",
-          "on": "E9A5A1AA00909090",
-          "off": "664489B0D8000000"
         }
       ]
     },
@@ -85,6 +37,22 @@
       ]
     },
     {
+      "name": "Infinite Skill points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "22F8EA0",
+          "on": "66C780D8000000E703E9505E55FF",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "184ECF6",
+          "on": "E9A5A1AA00909090",
+          "off": "664489B0D8000000"
+        }
+      ]
+    },
+    {
       "name": "Max Money (on buy)",
       "type": "checkbox",
       "memory": [
@@ -97,6 +65,38 @@
           "offset": "1B5D44F",
           "on": "E9CC267A0090",
           "off": "410FAFC629C1"
+        }
+      ]
+    },
+    {
+      "name": "999 items (on use)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "22FF7D0",
+          "on": "6641C74756E703E9C2F508FF",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "138ED99",
+          "on": "E9320AF700",
+          "off": "6645897756"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health/1Hit (turn off before jumping from high place)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "22F8E30",
+          "on": "4180BC2480090000017512498BB42408FB00004989B42400FB0000EB0DBE000000004989B42400FB0000E9B195BDFE",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "ED2408",
+          "on": "E9236A4201909090",
+          "off": "4989B42400FB0000"
         }
       ]
     }

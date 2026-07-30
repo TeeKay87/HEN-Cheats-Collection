@@ -32,29 +32,34 @@
       ]
     },
     {
-      "name": "Lock Item (buggy)",
+      "name": "One-hit Kill",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "80E0C47D",
-          "on": "E97EEBAD80909090909090",
-          "off": "29D84189070F8497000000"
+          "offset": "809D553F",
+          "on": "E9EC5AF1809090",
+          "off": "8958204883C408"
         },
         {
-          "offset": "18EB000",
-          "on": "41837F0400740529D8418907E97714527F909090",
+          "offset": "18EB030",
+          "on": "BB000000008958204883C408E905A50E7F909090",
           "off": "0000000000000000000000000000000000000000"
         }
       ]
     },
     {
-      "name": "Max Coins (on get)",
+      "name": "One-hit Destroy (trees, rocks, etc)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "8074E5A3",
-          "on": "C743303F420F00",
-          "off": "41037620897330"
+          "offset": "80BDC52F",
+          "on": "E9CCEAD0809090",
+          "off": "8958204883C408"
+        },
+        {
+          "offset": "18EB000",
+          "on": "664181FC50C37605BB000000008958204883C408E91D152F7F909090",
+          "off": "00000000000000000000000000000000000000000000000000000000"
         }
       ]
     },
@@ -81,33 +86,28 @@
       ]
     },
     {
-      "name": "One-hit Destroy (trees, rocks, etc)",
+      "name": "Max Coins (on get)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "80BDC52F",
-          "on": "E9CCEAD0809090",
-          "off": "8958204883C408"
-        },
-        {
-          "offset": "18EB000",
-          "on": "664181FC50C37605BB000000008958204883C408E91D152F7F909090",
-          "off": "00000000000000000000000000000000000000000000000000000000"
+          "offset": "8074E5A3",
+          "on": "C743303F420F00",
+          "off": "41037620897330"
         }
       ]
     },
     {
-      "name": "One-hit Kill",
+      "name": "Lock Item (buggy)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "809D553F",
-          "on": "E9EC5AF1809090",
-          "off": "8958204883C408"
+          "offset": "80E0C47D",
+          "on": "E97EEBAD80909090909090",
+          "off": "29D84189070F8497000000"
         },
         {
-          "offset": "18EB030",
-          "on": "BB000000008958204883C408E905A50E7F909090",
+          "offset": "18EB000",
+          "on": "41837F0400740529D8418907E97714527F909090",
           "off": "0000000000000000000000000000000000000000"
         }
       ]

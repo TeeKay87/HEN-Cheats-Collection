@@ -5,38 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Arrow (on shoot)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "6793B90",
-          "on": "41C686D805000006E9A73108FA",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "816D3D",
-          "on": "E94ECEF7059090",
-          "off": "4589AED8050000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Frenzy (when activating)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "670B3E0",
-          "on": "C7830401000000004843E90E8A10FA",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "813DF5",
-          "on": "E9E675EF05909090",
-          "off": "C5FA118B04010000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -53,6 +21,22 @@
       ]
     },
     {
+      "name": "Infinite Arrow (on shoot)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6793B90",
+          "on": "41C686D805000006E9A73108FA",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "816D3D",
+          "on": "E94ECEF7059090",
+          "off": "4589AED8050000"
+        }
+      ]
+    },
+    {
       "name": "Infinite Potions (on use)",
       "type": "checkbox",
       "memory": [
@@ -65,6 +49,22 @@
           "offset": "814182",
           "on": "E9E971EF059090",
           "off": "4589AED0050000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Frenzy (when activating)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "670B3E0",
+          "on": "C7830401000000004843E90E8A10FA",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "813DF5",
+          "on": "E9E675EF05909090",
+          "off": "C5FA118B04010000"
         }
       ]
     },

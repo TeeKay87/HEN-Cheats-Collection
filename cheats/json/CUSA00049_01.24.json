@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "CF5AC4",
+          "on": "9090",
+          "off": "FFC8"
+        }
+      ]
+    },
+    {
       "name": "Infinite Ammo and Grenade Usage",
       "type": "checkbox",
       "memory": [
@@ -28,17 +39,6 @@
           "offset": "2E3C400",
           "on": "807B6029750CC7431C0000C842C5FA10431CC5FA11431CE9171A5FFE",
           "off": "00000000000000000000000000000000000000000000000000000000"
-        }
-      ]
-    },
-    {
-      "name": "No Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "CF5AC4",
-          "on": "9090",
-          "off": "FFC8"
         }
       ]
     }

@@ -5,11 +5,11 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "PlayerExterminate (Need a Loading)",
+      "name": "PlayerNoDead (Need a Loading)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "11A7A2D",
+          "offset": "11A78E9",
           "on": "41B70190909090",
           "off": "41B70090909090"
         }
@@ -27,11 +27,11 @@
       ]
     },
     {
-      "name": "PlayerNoDead (Need a Loading)",
+      "name": "PlayerExterminate (Need a Loading)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "11A78E9",
+          "offset": "11A7A2D",
           "on": "41B70190909090",
           "off": "41B70090909090"
         }

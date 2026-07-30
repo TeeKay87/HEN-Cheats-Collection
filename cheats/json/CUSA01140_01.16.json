@@ -5,134 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Armor Parasites",
+      "name": "Max GMP",
       "type": "button",
       "memory": [
         {
-          "offset": "3BF5DE0",
-          "on": "1770",
-          "off": "1770"
-        }
-      ]
-    },
-    {
-      "name": "Camouflage Parasites",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "3BF5DDC",
-          "on": "1770",
-          "off": "1770"
-        }
-      ]
-    },
-    {
-      "name": "CCCP-WG TYPE-A",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "3BF5DC4",
-          "on": "1770",
-          "off": "1770"
-        }
-      ]
-    },
-    {
-      "name": "CCCP-WG TYPE-C",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "3BF5DC0",
-          "on": "1770",
-          "off": "1770"
-        }
-      ]
-    },
-    {
-      "name": "CFA-WG TYPE-A",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "3BF5DCC",
-          "on": "1770",
-          "off": "1770"
-        }
-      ]
-    },
-    {
-      "name": "CFA-WG TYPE-C",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "3BF5DC8",
-          "on": "1770",
-          "off": "1770"
-        }
-      ]
-    },
-    {
-      "name": "Max African Peach",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "3BF5D84",
-          "on": "2EE0",
-          "off": "2EE0"
-        }
-      ]
-    },
-    {
-      "name": "Max Biological Material",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "3BF5D64",
-          "on": "F4240",
-          "off": "F4240"
-        }
-      ]
-    },
-    {
-      "name": "Max Black Carrot",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "3BF5D78",
-          "on": "2EE0",
-          "off": "2EE0"
-        }
-      ]
-    },
-    {
-      "name": "Max Common Metal",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "3BF5D68",
-          "on": "F4240",
-          "off": "F4240"
-        }
-      ]
-    },
-    {
-      "name": "Max Digitalis Lutea",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "3BF5D8C",
-          "on": "2EE0",
-          "off": "2EE0"
-        }
-      ]
-    },
-    {
-      "name": "Max Digitalis Purpurea",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "3BF5D88",
-          "on": "2EE0",
-          "off": "2EE0"
+          "offset": "3BE78D4",
+          "on": "4C4B40",
+          "off": "4C4B40"
         }
       ]
     },
@@ -148,35 +27,24 @@
       ]
     },
     {
-      "name": "Max GMP",
+      "name": "Max Biological Material",
       "type": "button",
       "memory": [
         {
-          "offset": "3BE78D4",
-          "on": "4C4B40",
-          "off": "4C4B40"
+          "offset": "3BF5D64",
+          "on": "F4240",
+          "off": "F4240"
         }
       ]
     },
     {
-      "name": "Max Golden Crescent",
+      "name": "Max Common Metal",
       "type": "button",
       "memory": [
         {
-          "offset": "3BF5D7C",
-          "on": "2EE0",
-          "off": "2EE0"
-        }
-      ]
-    },
-    {
-      "name": "Max Haoma",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "3BF5D90",
-          "on": "2EE0",
-          "off": "2EE0"
+          "offset": "3BF5D68",
+          "on": "F4240",
+          "off": "F4240"
         }
       ]
     },
@@ -203,6 +71,39 @@
       ]
     },
     {
+      "name": "Max Wormwood",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "3BF5D74",
+          "on": "2EE0",
+          "off": "2EE0"
+        }
+      ]
+    },
+    {
+      "name": "Max Black Carrot",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "3BF5D78",
+          "on": "2EE0",
+          "off": "2EE0"
+        }
+      ]
+    },
+    {
+      "name": "Max Golden Crescent",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "3BF5D7C",
+          "on": "2EE0",
+          "off": "2EE0"
+        }
+      ]
+    },
+    {
       "name": "Max Tarragon",
       "type": "button",
       "memory": [
@@ -214,11 +115,44 @@
       ]
     },
     {
-      "name": "Max Wormwood",
+      "name": "Max African Peach",
       "type": "button",
       "memory": [
         {
-          "offset": "3BF5D74",
+          "offset": "3BF5D84",
+          "on": "2EE0",
+          "off": "2EE0"
+        }
+      ]
+    },
+    {
+      "name": "Max Digitalis Purpurea",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "3BF5D88",
+          "on": "2EE0",
+          "off": "2EE0"
+        }
+      ]
+    },
+    {
+      "name": "Max Digitalis Lutea",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "3BF5D8C",
+          "on": "2EE0",
+          "off": "2EE0"
+        }
+      ]
+    },
+    {
+      "name": "Max Haoma",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "3BF5D90",
           "on": "2EE0",
           "off": "2EE0"
         }
@@ -236,35 +170,24 @@
       ]
     },
     {
-      "name": "Armor Parasites",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "37F5DE0",
-          "on": "6000",
-          "off": "6000"
-        }
-      ]
-    },
-    {
       "name": "Camouflage Parasites",
       "type": "button",
       "memory": [
         {
-          "offset": "37F5DDC",
-          "on": "6000",
-          "off": "6000"
+          "offset": "3BF5DDC",
+          "on": "1770",
+          "off": "1770"
         }
       ]
     },
     {
-      "name": "CCCP-WG TYPE-A",
+      "name": "Armor Parasites",
       "type": "button",
       "memory": [
         {
-          "offset": "37F5DC4",
-          "on": "6000",
-          "off": "6000"
+          "offset": "3BF5DE0",
+          "on": "1770",
+          "off": "1770"
         }
       ]
     },
@@ -273,20 +196,20 @@
       "type": "button",
       "memory": [
         {
-          "offset": "37F5DC0",
-          "on": "6000",
-          "off": "6000"
+          "offset": "3BF5DC0",
+          "on": "1770",
+          "off": "1770"
         }
       ]
     },
     {
-      "name": "CFA-WG TYPE-A",
+      "name": "CCCP-WG TYPE-A",
       "type": "button",
       "memory": [
         {
-          "offset": "37F5DCC",
-          "on": "6000",
-          "off": "6000"
+          "offset": "3BF5DC4",
+          "on": "1770",
+          "off": "1770"
         }
       ]
     },
@@ -295,86 +218,20 @@
       "type": "button",
       "memory": [
         {
-          "offset": "37F5DC8",
-          "on": "6000",
-          "off": "6000"
+          "offset": "3BF5DC8",
+          "on": "1770",
+          "off": "1770"
         }
       ]
     },
     {
-      "name": "Max African Peach",
+      "name": "CFA-WG TYPE-A",
       "type": "button",
       "memory": [
         {
-          "offset": "37F5D84",
-          "on": "1200",
-          "off": "1200"
-        }
-      ]
-    },
-    {
-      "name": "Max Biological Material",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "37F5D64",
-          "on": "100000",
-          "off": "100000"
-        }
-      ]
-    },
-    {
-      "name": "Max Black Carrot",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "37F5D78",
-          "on": "1200",
-          "off": "1200"
-        }
-      ]
-    },
-    {
-      "name": "Max Common Metal",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "37F5D68",
-          "on": "100000",
-          "off": "100000"
-        }
-      ]
-    },
-    {
-      "name": "Max Digitalis Lutea",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "37F5D8C",
-          "on": "1200",
-          "off": "1200"
-        }
-      ]
-    },
-    {
-      "name": "Max Digitalis Purpurea",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "37F5D88",
-          "on": "1200",
-          "off": "1200"
-        }
-      ]
-    },
-    {
-      "name": "Max Fuel Resources",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "37F5D60",
-          "on": "100000",
-          "off": "100000"
+          "offset": "3BF5DCC",
+          "on": "1770",
+          "off": "1770"
         }
       ]
     },
@@ -390,24 +247,35 @@
       ]
     },
     {
-      "name": "Max Golden Crescent",
+      "name": "Max Fuel Resources",
       "type": "button",
       "memory": [
         {
-          "offset": "37F5D7C",
-          "on": "1200",
-          "off": "1200"
+          "offset": "37F5D60",
+          "on": "100000",
+          "off": "100000"
         }
       ]
     },
     {
-      "name": "Max Haoma",
+      "name": "Max Biological Material",
       "type": "button",
       "memory": [
         {
-          "offset": "37F5D90",
-          "on": "1200",
-          "off": "1200"
+          "offset": "37F5D64",
+          "on": "100000",
+          "off": "100000"
+        }
+      ]
+    },
+    {
+      "name": "Max Common Metal",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "37F5D68",
+          "on": "100000",
+          "off": "100000"
         }
       ]
     },
@@ -434,17 +302,6 @@
       ]
     },
     {
-      "name": "Max Tarragon",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "37F5D80",
-          "on": "1200",
-          "off": "1200"
-        }
-      ]
-    },
-    {
       "name": "Max Wormwood",
       "type": "button",
       "memory": [
@@ -456,11 +313,154 @@
       ]
     },
     {
+      "name": "Max Black Carrot",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "37F5D78",
+          "on": "1200",
+          "off": "1200"
+        }
+      ]
+    },
+    {
+      "name": "Max Golden Crescent",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "37F5D7C",
+          "on": "1200",
+          "off": "1200"
+        }
+      ]
+    },
+    {
+      "name": "Max Tarragon",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "37F5D80",
+          "on": "1200",
+          "off": "1200"
+        }
+      ]
+    },
+    {
+      "name": "Max African Peach",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "37F5D84",
+          "on": "1200",
+          "off": "1200"
+        }
+      ]
+    },
+    {
+      "name": "Max Digitalis Purpurea",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "37F5D88",
+          "on": "1200",
+          "off": "1200"
+        }
+      ]
+    },
+    {
+      "name": "Max Digitalis Lutea",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "37F5D8C",
+          "on": "1200",
+          "off": "1200"
+        }
+      ]
+    },
+    {
+      "name": "Max Haoma",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "37F5D90",
+          "on": "1200",
+          "off": "1200"
+        }
+      ]
+    },
+    {
       "name": "Mist Parasites",
       "type": "button",
       "memory": [
         {
           "offset": "37F5DD8",
+          "on": "6000",
+          "off": "6000"
+        }
+      ]
+    },
+    {
+      "name": "Camouflage Parasites",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "37F5DDC",
+          "on": "6000",
+          "off": "6000"
+        }
+      ]
+    },
+    {
+      "name": "Armor Parasites",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "37F5DE0",
+          "on": "6000",
+          "off": "6000"
+        }
+      ]
+    },
+    {
+      "name": "CCCP-WG TYPE-C",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "37F5DC0",
+          "on": "6000",
+          "off": "6000"
+        }
+      ]
+    },
+    {
+      "name": "CCCP-WG TYPE-A",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "37F5DC4",
+          "on": "6000",
+          "off": "6000"
+        }
+      ]
+    },
+    {
+      "name": "CFA-WG TYPE-C",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "37F5DC8",
+          "on": "6000",
+          "off": "6000"
+        }
+      ]
+    },
+    {
+      "name": "CFA-WG TYPE-A",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "37F5DCC",
           "on": "6000",
           "off": "6000"
         }

@@ -16,51 +16,40 @@
       ]
     },
     {
-      "name": "Fast Run",
+      "name": "No BB Stress Meter Drain",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "35D3040",
-          "on": "C7809C3C00000000F041C5FA10A89C3C0000E98EEF2EFE",
-          "off": "0000000000000000000000000000000000000000000000"
+          "offset": "1833D19",
+          "on": "C2",
+          "off": "CA"
+        }
+      ]
+    },
+    {
+      "name": "No Cargo Weight (Even with carriers)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F425D5",
+          "on": "70",
+          "off": "40"
+        }
+      ]
+    },
+    {
+      "name": "No Cargo Deterioration or Damage (Everything in Cargo Management.)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "35D3080",
+          "on": "C743040000C8C2C5FA106B04E994D295FE",
+          "off": "0000000000000000000000000000000000"
         },
         {
-          "offset": "18C1FDD",
-          "on": "E95E10D101909090",
-          "off": "C5FA11A89C3C0000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite (Sticky Gun/Repair Spray/Ladder/PCC/Climbing Anchor)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1864173",
-          "on": "9090",
-          "off": "29F0"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1ABED51",
-          "on": "9090",
-          "off": "39D9"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Battery Recharge",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "188E5D5",
-          "on": "84280000909090909090909090909090",
-          "off": "80280000C5FA5CC3C5FA5FC1C5F82EC1"
+          "offset": "1F30320",
+          "on": "E95B2D6A01",
+          "off": "C5FA106B04"
         }
       ]
     },
@@ -76,35 +65,84 @@
       ]
     },
     {
-      "name": "Infinite Hold Breath",
+      "name": "No Road Deterioration",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "17BFFD7",
+          "offset": "205A6B9",
+          "on": "909090909090",
+          "off": "C4C17A11471C"
+        }
+      ]
+    },
+    {
+      "name": "No Structure Deterioration",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F69B4D",
           "on": "C9",
+          "off": "C0"
+        }
+      ]
+    },
+    {
+      "name": "Set all Structure Builds to 10Mil",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "35D3060",
+          "on": "41C785D80000008096184BC4C17A1085D8000000E9DE6A99FE",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1F69B4E",
+          "on": "E90D95660190909090",
+          "off": "C4C17A1185D8000000"
+        }
+      ]
+    },
+    {
+      "name": "Instant Structure Builds",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F69092",
+          "on": "C8",
           "off": "C1"
         }
       ]
     },
     {
-      "name": "Infinite Monster Energy Drinks",
+      "name": "Infinite Ammo",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "18671CC",
-          "on": "58",
-          "off": "48"
+          "offset": "1ABED51",
+          "on": "9090",
+          "off": "39D9"
         }
       ]
     },
     {
-      "name": "Infinite Resistance to Rough Terrain",
+      "name": "Infinite (Sticky Gun/Repair Spray/Ladder/PCC/Climbing Anchor)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "17C122D",
-          "on": "90909090909090909090",
-          "off": "C4C17A11842434010000"
+          "offset": "1864173",
+          "on": "9090",
+          "off": "29F0"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Battery Recharge",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "188E5D5",
+          "on": "84280000909090909090909090909090",
+          "off": "80280000C5FA5CC3C5FA5FC1C5F82EC1"
         }
       ]
     },
@@ -131,51 +169,35 @@
       ]
     },
     {
-      "name": "Instant Structure Builds",
+      "name": "Infinite Resistance to Rough Terrain",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1F69092",
-          "on": "C8",
+          "offset": "17C122D",
+          "on": "90909090909090909090",
+          "off": "C4C17A11842434010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Monster Energy Drinks",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "18671CC",
+          "on": "58",
+          "off": "48"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Hold Breath",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "17BFFD7",
+          "on": "C9",
           "off": "C1"
-        }
-      ]
-    },
-    {
-      "name": "No BB Stress Meter Drain",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1833D19",
-          "on": "C2",
-          "off": "CA"
-        }
-      ]
-    },
-    {
-      "name": "No Cargo Deterioration or Damage (Everything in Cargo Management.)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "35D3080",
-          "on": "C743040000C8C2C5FA106B04E994D295FE",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "1F30320",
-          "on": "E95B2D6A01",
-          "off": "C5FA106B04"
-        }
-      ]
-    },
-    {
-      "name": "No Cargo Weight (Even with carriers)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1F425D5",
-          "on": "70",
-          "off": "40"
         }
       ]
     },
@@ -191,24 +213,18 @@
       ]
     },
     {
-      "name": "No Road Deterioration",
+      "name": "Fast Run",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "205A6B9",
-          "on": "909090909090",
-          "off": "C4C17A11471C"
-        }
-      ]
-    },
-    {
-      "name": "No Structure Deterioration",
-      "type": "checkbox",
-      "memory": [
+          "offset": "35D3040",
+          "on": "C7809C3C00000000F041C5FA10A89C3C0000E98EEF2EFE",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
         {
-          "offset": "1F69B4D",
-          "on": "C9",
-          "off": "C0"
+          "offset": "18C1FDD",
+          "on": "E95E10D101909090",
+          "off": "C5FA11A89C3C0000"
         }
       ]
     },
@@ -249,34 +265,173 @@
       ]
     },
     {
-      "name": "Set all Structure Builds to 10Mil",
+      "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "35D3060",
-          "on": "41C785D80000008096184BC4C17A1085D8000000E9DE6A99FE",
-          "off": "00000000000000000000000000000000000000000000000000"
+          "offset": "35D31F0",
+          "on": "C5F82EC8C70000007A44E9A3121EFE",
+          "off": "000000000000000000000000000000"
         },
         {
-          "offset": "1F69B4E",
-          "on": "E90D95660190909090",
-          "off": "C4C17A1185D8000000"
+          "offset": "17B449A",
+          "on": "E951EDE101909090",
+          "off": "C5F82EC8C5FA1100"
         }
       ]
     },
     {
-      "name": "0 Weight ",
+      "name": "Fast Running",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "35D3A70",
-          "on": "C7400C00000000E95BEB96FE",
-          "off": "000000000000000000000000"
+          "offset": "35D3220",
+          "on": "C7809C3C00000000F041C5FA10A89C3C0000E9AEED2EFE",
+          "off": "0000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "1F425D2",
-          "on": "E999146901",
-          "off": "C5FA11400C"
+          "offset": "18C1FDD",
+          "on": "E93E12D101909090",
+          "off": "C5FA11A89C3C0000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1ABED56",
+          "on": "909090",
+          "off": "668918"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Boot Durability",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "35D3990",
+          "on": "41C7850C03000000007A44E97FF41EFE",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "17C2E16",
+          "on": "E9750BE10190909090",
+          "off": "C4C17A118D0C030000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Spray/Ladder/Anchor/ PCC (use)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "35D3AA0",
+          "on": "66C784510A0100006400E9CE0629FE",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "1864175",
+          "on": "E926F9D601909090",
+          "off": "668984510A010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Air holding working",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "35D3DA0",
+          "on": "41C784243401000000007A44E93DC21EFE",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "17BFFE4",
+          "on": "E9B73DE1019090909090",
+          "off": "C4C17A11842434010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Running Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "35D3C40",
+          "on": "41C784240401000000007A44E9CFA11EFE",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "17BDE16",
+          "on": "E9255EE1019090909090",
+          "off": "C4C17A118C2404010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite jump stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "35D3DD0",
+          "on": "C7803401000000007A44E95B5B38FE",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "1959932",
+          "on": "E999A4C701909090",
+          "off": "C5FA118034010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Water walking Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "35D3E20",
+          "on": "41C784243401000000007A44E906D41EFE",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "17C122D",
+          "on": "E9EE2BE1019090909090",
+          "off": "C4C17A11842434010000"
+        }
+      ]
+    },
+    {
+      "name": "900000 Resins",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "35D39C0",
+          "on": "C74038A0BB0D00488B5040E9965472FF",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "2CF8E5E",
+          "on": "E95DAB8D00909090",
+          "off": "48894838488B5040"
+        }
+      ]
+    },
+    {
+      "name": "900000 Metal",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "35D39F0",
+          "on": "C74040A0BB0D00488B5048E9845472FF",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "2CF8E7C",
+          "on": "E96FAB8D00909090",
+          "off": "48894840488B5048"
         }
       ]
     },
@@ -313,205 +468,29 @@
       ]
     },
     {
-      "name": "900000 Metal",
+      "name": "Special Alloy do not decrease",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "35D39F0",
-          "on": "C74040A0BB0D00488B5048E9845472FF",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "2CF8E7C",
-          "on": "E96FAB8D00909090",
-          "off": "48894840488B5048"
+          "offset": "2CF8ECD",
+          "on": "90909090",
+          "off": "48894858"
         }
       ]
     },
     {
-      "name": "900000 Resins",
+      "name": "0 Weight ",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "35D39C0",
-          "on": "C74038A0BB0D00488B5040E9965472FF",
-          "off": "00000000000000000000000000000000"
+          "offset": "35D3A70",
+          "on": "C7400C00000000E95BEB96FE",
+          "off": "000000000000000000000000"
         },
         {
-          "offset": "2CF8E5E",
-          "on": "E95DAB8D00909090",
-          "off": "48894838488B5040"
-        }
-      ]
-    },
-    {
-      "name": "Fast Running",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "35D3220",
-          "on": "C7809C3C00000000F041C5FA10A89C3C0000E9AEED2EFE",
-          "off": "0000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "18C1FDD",
-          "on": "E93E12D101909090",
-          "off": "C5FA11A89C3C0000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Air holding working",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "35D3DA0",
-          "on": "41C784243401000000007A44E93DC21EFE",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "17BFFE4",
-          "on": "E9B73DE1019090909090",
-          "off": "C4C17A11842434010000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1ABED56",
-          "on": "909090",
-          "off": "668918"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Boot Durability",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "35D3990",
-          "on": "41C7850C03000000007A44E97FF41EFE",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "17C2E16",
-          "on": "E9750BE10190909090",
-          "off": "C4C17A118D0C030000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "35D31F0",
-          "on": "C5F82EC8C70000007A44E9A3121EFE",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "17B449A",
-          "on": "E951EDE101909090",
-          "off": "C5F82EC8C5FA1100"
-        }
-      ]
-    },
-    {
-      "name": "Infinite jump stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "35D3DD0",
-          "on": "C7803401000000007A44E95B5B38FE",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "1959932",
-          "on": "E999A4C701909090",
-          "off": "C5FA118034010000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Running Stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "35D3C40",
-          "on": "41C784240401000000007A44E9CFA11EFE",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "17BDE16",
-          "on": "E9255EE1019090909090",
-          "off": "C4C17A118C2404010000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Skeleton Battery",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "35D3B10",
-          "on": "41C784248028000000007A44E9CEAA2BFE",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "188E5E5",
-          "on": "E92655D4019090909090",
-          "off": "C4C17A11842480280000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Spray/Ladder/Anchor/ PCC (use)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "35D3AA0",
-          "on": "66C784510A0100006400E9CE0629FE",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "1864175",
-          "on": "E926F9D601909090",
-          "off": "668984510A010000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Water walking Stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "35D3E20",
-          "on": "41C784243401000000007A44E906D41EFE",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "17C122D",
-          "on": "E9EE2BE1019090909090",
-          "off": "C4C17A11842434010000"
-        }
-      ]
-    },
-    {
-      "name": "Max Building Durability",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "35D3B40",
-          "on": "41C785D80000008096184BE9076099FE",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "1F69B4E",
-          "on": "E9ED9F660190909090",
-          "off": "C4C17A1185D8000000"
+          "offset": "1F425D2",
+          "on": "E999146901",
+          "off": "C5FA11400C"
         }
       ]
     },
@@ -548,13 +527,34 @@
       ]
     },
     {
-      "name": "Special Alloy do not decrease",
+      "name": "Infinite Skeleton Battery",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "2CF8ECD",
-          "on": "90909090",
-          "off": "48894858"
+          "offset": "35D3B10",
+          "on": "41C784248028000000007A44E9CEAA2BFE",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "188E5E5",
+          "on": "E92655D4019090909090",
+          "off": "C4C17A11842480280000"
+        }
+      ]
+    },
+    {
+      "name": "Max Building Durability",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "35D3B40",
+          "on": "41C785D80000008096184BE9076099FE",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "1F69B4E",
+          "on": "E9ED9F660190909090",
+          "off": "C4C17A1185D8000000"
         }
       ]
     }

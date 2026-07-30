@@ -16,14 +16,6 @@
       <ValueOff>C5-FA-11-9B-64-0C-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Helix">
-    <Cheatline>
-      <Offset>DCB9D4</Offset>
-      <Section>0</Section>
-      <ValueOn>C4-C1-7A-10-87-F8-00-00-00</ValueOn>
-      <ValueOff>C4-C1-72-5D-87-F8-00-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite Throwables">
     <Cheatline>
       <Offset>2ABF980</Offset>
@@ -36,6 +28,14 @@
       <Section>0</Section>
       <ValueOn>E9-03-CE-D5-01-90-90</ValueOn>
       <ValueOff>83-BF-F0-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Inf Helix">
+    <Cheatline>
+      <Offset>DCB9D4</Offset>
+      <Section>0</Section>
+      <ValueOn>C4-C1-7A-10-87-F8-00-00-00</ValueOn>
+      <ValueOff>C4-C1-72-5D-87-F8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

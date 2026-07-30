@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Everything Cost $0 When Buying",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1F07F21",
-          "on": "C5FA110090488B03",
-          "off": "C5FA11400C488B03"
-        }
-      ]
-    },
-    {
       "name": "Infinite Ammo",
       "type": "checkbox",
       "memory": [
@@ -38,6 +27,17 @@
       ]
     },
     {
+      "name": "Everything Cost $0 When Buying",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F07F21",
+          "on": "C5FA110090488B03",
+          "off": "C5FA11400C488B03"
+        }
+      ]
+    },
+    {
       "name": "Unlimited Items",
       "type": "checkbox",
       "memory": [
@@ -45,17 +45,6 @@
           "offset": "1D26FC0",
           "on": "41894E0C9090905B",
           "off": "41898E9C0000005B"
-        }
-      ]
-    },
-    {
-      "name": "Everything Cost $0 When Buying",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1b07f21",
-          "on": "C5FA110090488B03",
-          "off": "C5FA11400C488B03"
         }
       ]
     },
@@ -78,6 +67,17 @@
           "offset": "5aa6e0",
           "on": "9090909090C39090",
           "off": "C5FA114748C39090"
+        }
+      ]
+    },
+    {
+      "name": "Everything Cost $0 When Buying",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1b07f21",
+          "on": "C5FA110090488B03",
+          "off": "C5FA11400C488B03"
         }
       ]
     },

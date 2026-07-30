@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Get Skillpoints For Spending Them",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "80B5ACA9",
-          "on": "01C8",
-          "off": "2BC1"
-        }
-      ]
-    },
-    {
       "name": "Godmode",
       "type": "checkbox",
       "memory": [
@@ -32,12 +21,34 @@
       ]
     },
     {
+      "name": "Get Skillpoints For Spending Them",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80B5ACA9",
+          "on": "01C8",
+          "off": "2BC1"
+        }
+      ]
+    },
+    {
       "name": "Infinite Health / Stamina",
       "hint": "This will affect all creatures aswell. If a new zombie spawns it, will instantly die.",
       "type": "checkbox",
       "memory": [
         {
           "offset": "808901BB",
+          "on": "909090909090",
+          "off": "F3450F117F24"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health / Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "804901BB",
           "on": "909090909090",
           "off": "F3450F117F24"
         }
@@ -51,17 +62,6 @@
           "offset": "8075ACA9",
           "on": "01C8",
           "off": "2BC1"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health / Stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "804901BB",
-          "on": "909090909090",
-          "off": "F3450F117F24"
         }
       ]
     },

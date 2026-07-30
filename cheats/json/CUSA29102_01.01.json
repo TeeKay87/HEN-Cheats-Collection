@@ -37,22 +37,6 @@
       ]
     },
     {
-      "name": "Max experience",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "6EE6F0",
-          "on": "C701FFE0F505E8450C95FFE9F80A99FF",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "7F1F1",
-          "on": "E9FAF466009090",
-          "off": "8911E84801FCFF"
-        }
-      ]
-    },
-    {
       "name": "Max Gald after Battle",
       "type": "checkbox",
       "memory": [
@@ -81,6 +65,22 @@
           "offset": "128886",
           "on": "E9956F5C009090",
           "off": "FE8C08BD0E0000"
+        }
+      ]
+    },
+    {
+      "name": "Max experience",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6EE6F0",
+          "on": "C701FFE0F505E8450C95FFE9F80A99FF",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "7F1F1",
+          "on": "E9FAF466009090",
+          "off": "8911E84801FCFF"
         }
       ]
     }

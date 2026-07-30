@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Easy Level Up (activate pick a potion then deactivate)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "21C385A",
-          "on": "81C6FFC99A3B89B7EC010000E99C7DA4FE",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "C0B600",
-          "on": "E955825B019090",
-          "off": "8B87EC010000C3"
-        }
-      ]
-    },
-    {
       "name": "God Mode",
       "type": "checkbox",
       "memory": [
@@ -44,6 +28,22 @@
           "offset": "BE9D2E",
           "on": "909090909090",
           "off": "89B39C010000"
+        }
+      ]
+    },
+    {
+      "name": "Easy Level Up (activate pick a potion then deactivate)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "21C385A",
+          "on": "81C6FFC99A3B89B7EC010000E99C7DA4FE",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "C0B600",
+          "on": "E955825B019090",
+          "off": "8B87EC010000C3"
         }
       ]
     }

@@ -5,39 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Always Able To Climb",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "993B9D",
-          "on": "C685EBFDFFFF01",
-          "off": "C685EBFDFFFF00"
-        }
-      ]
-    },
-    {
-      "name": "Draw Debug Strings",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "144CB50",
-          "on": "C3",
-          "off": "55"
-        }
-      ]
-    },
-    {
-      "name": "Freeze FX",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2350110",
-          "on": "C3",
-          "off": "55"
-        }
-      ]
-    },
-    {
       "name": "Godmode",
       "type": "checkbox",
       "memory": [
@@ -82,6 +49,49 @@
       ]
     },
     {
+      "name": "Wire Frame Rendering",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "186EF10",
+          "on": "89F183E107",
+          "off": "89F183E107"
+        },
+        {
+          "offset": "2F83014",
+          "on": "BE01000000BA0100000089F183E107E9EDBE8EFE",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "186EF10",
+          "on": "E9FF407101",
+          "off": "89F183E107"
+        }
+      ]
+    },
+    {
+      "name": "Freeze FX",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2350110",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "Draw Debug Strings",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "144CB50",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
       "name": "Small Hud",
       "type": "checkbox",
       "memory": [
@@ -114,31 +124,66 @@
       ]
     },
     {
-      "name": "Teleport Patch 1",
+      "name": "Always Able To Climb",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "993B9D",
+          "on": "C685EBFDFFFF01",
+          "off": "C685EBFDFFFF00"
+        }
+      ]
+    },
+    {
+      "name": "Teleport Patch V1",
+      "hint": "The following options are for testing purposes!",
       "type": "checkbox",
       "memory": [
         {
           "offset": "993A81",
           "on": "9090909090",
           "off": "E98F000000"
-        }
-      ]
-    },
-    {
-      "name": "Teleport Patch 10",
-      "type": "checkbox",
-      "memory": [
+        },
+        {
+          "offset": "993A5B",
+          "on": "909090909090",
+          "off": "0F85B4000000"
+        },
+        {
+          "offset": "993A51",
+          "on": "909090909090",
+          "off": "0F85BE000000"
+        },
+        {
+          "offset": "993A2B",
+          "on": "909090909090",
+          "off": "0F85E4000000"
+        },
+        {
+          "offset": "993F68",
+          "on": "9090909090",
+          "off": "E9E5070000"
+        },
+        {
+          "offset": "993E71",
+          "on": "909090909090",
+          "off": "0F84C30C0000"
+        },
+        {
+          "offset": "993BA6",
+          "on": "909090909090",
+          "off": "0F848E0F0000"
+        },
+        {
+          "offset": "993A05",
+          "on": "909090909090",
+          "off": "0F840A010000"
+        },
         {
           "offset": "9939DF",
           "on": "909090909090",
           "off": "0F8330010000"
-        }
-      ]
-    },
-    {
-      "name": "Teleport Patch 11",
-      "type": "checkbox",
-      "memory": [
+        },
         {
           "offset": "993890",
           "on": "EB20",
@@ -147,24 +192,13 @@
       ]
     },
     {
-      "name": "Teleport Patch 12 (Inside Trace Function)",
+      "name": "Teleport Patch 1",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "995142",
-          "on": "9090",
-          "off": "730B"
-        }
-      ]
-    },
-    {
-      "name": "Teleport Patch 13 (Change 4 to 8)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "9962B2",
-          "on": "C4C17A5C4708",
-          "off": "C4C17A5C4704"
+          "offset": "993A81",
+          "on": "9090909090",
+          "off": "E98F000000"
         }
       ]
     },
@@ -257,55 +291,20 @@
       ]
     },
     {
-      "name": "Teleport Patch V1",
-      "hint": "The following options are for testing purposes!",
+      "name": "Teleport Patch 10",
       "type": "checkbox",
       "memory": [
-        {
-          "offset": "993A81",
-          "on": "9090909090",
-          "off": "E98F000000"
-        },
-        {
-          "offset": "993A5B",
-          "on": "909090909090",
-          "off": "0F85B4000000"
-        },
-        {
-          "offset": "993A51",
-          "on": "909090909090",
-          "off": "0F85BE000000"
-        },
-        {
-          "offset": "993A2B",
-          "on": "909090909090",
-          "off": "0F85E4000000"
-        },
-        {
-          "offset": "993F68",
-          "on": "9090909090",
-          "off": "E9E5070000"
-        },
-        {
-          "offset": "993E71",
-          "on": "909090909090",
-          "off": "0F84C30C0000"
-        },
-        {
-          "offset": "993BA6",
-          "on": "909090909090",
-          "off": "0F848E0F0000"
-        },
-        {
-          "offset": "993A05",
-          "on": "909090909090",
-          "off": "0F840A010000"
-        },
         {
           "offset": "9939DF",
           "on": "909090909090",
           "off": "0F8330010000"
-        },
+        }
+      ]
+    },
+    {
+      "name": "Teleport Patch 11",
+      "type": "checkbox",
+      "memory": [
         {
           "offset": "993890",
           "on": "EB20",
@@ -314,56 +313,24 @@
       ]
     },
     {
-      "name": "Wire Frame Rendering",
+      "name": "Teleport Patch 12 (Inside Trace Function)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "186EF10",
-          "on": "89F183E107",
-          "off": "89F183E107"
-        },
-        {
-          "offset": "2F83014",
-          "on": "BE01000000BA0100000089F183E107E9EDBE8EFE",
-          "off": "0000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "186EF10",
-          "on": "E9FF407101",
-          "off": "89F183E107"
+          "offset": "995142",
+          "on": "9090",
+          "off": "730B"
         }
       ]
     },
     {
-      "name": "Always Able To Climb",
+      "name": "Teleport Patch 13 (Change 4 to 8)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "593b9d",
-          "on": "C685EBFDFFFF01",
-          "off": "C685EBFDFFFF00"
-        }
-      ]
-    },
-    {
-      "name": "Draw Debug Strings",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "104cb50",
-          "on": "C3",
-          "off": "55"
-        }
-      ]
-    },
-    {
-      "name": "Freeze FX",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1f50110",
-          "on": "C3",
-          "off": "55"
+          "offset": "9962B2",
+          "on": "C4C17A5C4708",
+          "off": "C4C17A5C4704"
         }
       ]
     },
@@ -411,6 +378,49 @@
       ]
     },
     {
+      "name": "Wire Frame Rendering",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "146ef10",
+          "on": "89F183E107",
+          "off": "89F183E107"
+        },
+        {
+          "offset": "2b83014",
+          "on": "BE01000000BA0100000089F183E107E9EDBE8EFE",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "146ef10",
+          "on": "E9FF407101",
+          "off": "89F183E107"
+        }
+      ]
+    },
+    {
+      "name": "Freeze FX",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1f50110",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "Draw Debug Strings",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "104cb50",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
       "name": "Small Hud",
       "type": "checkbox",
       "memory": [
@@ -443,31 +453,65 @@
       ]
     },
     {
-      "name": "Teleport Patch 1",
+      "name": "Always Able To Climb",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "593b9d",
+          "on": "C685EBFDFFFF01",
+          "off": "C685EBFDFFFF00"
+        }
+      ]
+    },
+    {
+      "name": "Teleport Patch V1",
       "type": "checkbox",
       "memory": [
         {
           "offset": "593a81",
           "on": "9090909090",
           "off": "E98F000000"
-        }
-      ]
-    },
-    {
-      "name": "Teleport Patch 10",
-      "type": "checkbox",
-      "memory": [
+        },
+        {
+          "offset": "593a5b",
+          "on": "909090909090",
+          "off": "0F85B4000000"
+        },
+        {
+          "offset": "593a51",
+          "on": "909090909090",
+          "off": "0F85BE000000"
+        },
+        {
+          "offset": "593a2b",
+          "on": "909090909090",
+          "off": "0F85E4000000"
+        },
+        {
+          "offset": "593f68",
+          "on": "9090909090",
+          "off": "E9E5070000"
+        },
+        {
+          "offset": "593e71",
+          "on": "909090909090",
+          "off": "0F84C30C0000"
+        },
+        {
+          "offset": "593ba6",
+          "on": "909090909090",
+          "off": "0F848E0F0000"
+        },
+        {
+          "offset": "593a05",
+          "on": "909090909090",
+          "off": "0F840A010000"
+        },
         {
           "offset": "5939df",
           "on": "909090909090",
           "off": "0F8330010000"
-        }
-      ]
-    },
-    {
-      "name": "Teleport Patch 11",
-      "type": "checkbox",
-      "memory": [
+        },
         {
           "offset": "593890",
           "on": "EB20",
@@ -476,24 +520,13 @@
       ]
     },
     {
-      "name": "Teleport Patch 12 (Inside Trace Function)",
+      "name": "Teleport Patch 1",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "595142",
-          "on": "9090",
-          "off": "730B"
-        }
-      ]
-    },
-    {
-      "name": "Teleport Patch 13 (Change 4 to 8)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5962b2",
-          "on": "C4C17A5C4708",
-          "off": "C4C17A5C4704"
+          "offset": "593a81",
+          "on": "9090909090",
+          "off": "E98F000000"
         }
       ]
     },
@@ -586,54 +619,20 @@
       ]
     },
     {
-      "name": "Teleport Patch V1",
+      "name": "Teleport Patch 10",
       "type": "checkbox",
       "memory": [
-        {
-          "offset": "593a81",
-          "on": "9090909090",
-          "off": "E98F000000"
-        },
-        {
-          "offset": "593a5b",
-          "on": "909090909090",
-          "off": "0F85B4000000"
-        },
-        {
-          "offset": "593a51",
-          "on": "909090909090",
-          "off": "0F85BE000000"
-        },
-        {
-          "offset": "593a2b",
-          "on": "909090909090",
-          "off": "0F85E4000000"
-        },
-        {
-          "offset": "593f68",
-          "on": "9090909090",
-          "off": "E9E5070000"
-        },
-        {
-          "offset": "593e71",
-          "on": "909090909090",
-          "off": "0F84C30C0000"
-        },
-        {
-          "offset": "593ba6",
-          "on": "909090909090",
-          "off": "0F848E0F0000"
-        },
-        {
-          "offset": "593a05",
-          "on": "909090909090",
-          "off": "0F840A010000"
-        },
         {
           "offset": "5939df",
           "on": "909090909090",
           "off": "0F8330010000"
-        },
+        }
+      ]
+    },
+    {
+      "name": "Teleport Patch 11",
+      "type": "checkbox",
+      "memory": [
         {
           "offset": "593890",
           "on": "EB20",
@@ -642,23 +641,24 @@
       ]
     },
     {
-      "name": "Wire Frame Rendering",
+      "name": "Teleport Patch 12 (Inside Trace Function)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "146ef10",
-          "on": "89F183E107",
-          "off": "89F183E107"
-        },
+          "offset": "595142",
+          "on": "9090",
+          "off": "730B"
+        }
+      ]
+    },
+    {
+      "name": "Teleport Patch 13 (Change 4 to 8)",
+      "type": "checkbox",
+      "memory": [
         {
-          "offset": "2b83014",
-          "on": "BE01000000BA0100000089F183E107E9EDBE8EFE",
-          "off": "0000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "146ef10",
-          "on": "E9FF407101",
-          "off": "89F183E107"
+          "offset": "5962b2",
+          "on": "C4C17A5C4708",
+          "off": "C4C17A5C4704"
         }
       ]
     }

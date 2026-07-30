@@ -5,6 +5,28 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Health (WIP/Experimental)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "111801C",
+          "on": "9090909090909090",
+          "off": "C5FA1183CC040000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Armor",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1117F59",
+          "on": "9090909090909090",
+          "off": "C5FA1183D0040000"
+        }
+      ]
+    },
+    {
       "name": "Infinite Ammo/No Reload",
       "type": "checkbox",
       "memory": [
@@ -22,28 +44,6 @@
           "offset": "120922B",
           "on": "90909090",
           "off": "4189560C"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Armor",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1117F59",
-          "on": "9090909090909090",
-          "off": "C5FA1183D0040000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health (WIP/Experimental)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "111801C",
-          "on": "9090909090909090",
-          "off": "C5FA1183CC040000"
         }
       ]
     },

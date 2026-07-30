@@ -5,13 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-Credits",
+      "name": "Invincibility",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "807FEE6754",
-          "on": "63",
-          "off": "63"
+          "offset": "807FF0746C",
+          "on": "00000001",
+          "off": "00000001"
         }
       ]
     },
@@ -27,13 +27,13 @@
       ]
     },
     {
-      "name": "Invincibility",
+      "name": "Infinite-Credits",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "807FF0746C",
-          "on": "00000001",
-          "off": "00000001"
+          "offset": "807FEE6754",
+          "on": "63",
+          "off": "63"
         }
       ]
     }

@@ -21,22 +21,6 @@
       ]
     },
     {
-      "name": "Instant Wrath/Havoc Bar Refill (L1\u002BR2 To Deactivate Havoc)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "48B9550",
-          "on": "4C39E3740FEB24C5FA119330010000E9F3559CFBC783300100000000FA43C5FA108B30010000E9DC559CFBC783300100000000F943C5FA109330010000EBC8",
-          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "27EB4F",
-          "on": "E9FCA96304909090",
-          "off": "C5FA119330010000"
-        }
-      ]
-    },
-    {
       "name": "Max Souls / Consumables (On Pick)",
       "type": "checkbox",
       "memory": [
@@ -49,6 +33,22 @@
           "offset": "38C6D5",
           "on": "E926315C04909090909090",
           "off": "01CA8910C745C800000000"
+        }
+      ]
+    },
+    {
+      "name": "Instant Wrath/Havoc Bar Refill (L1\u002BR2 To Deactivate Havoc)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "48B9550",
+          "on": "4C39E3740FEB24C5FA119330010000E9F3559CFBC783300100000000FA43C5FA108B30010000E9DC559CFBC783300100000000F943C5FA109330010000EBC8",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "27EB4F",
+          "on": "E9FCA96304909090",
+          "off": "C5FA119330010000"
         }
       ]
     }

@@ -5,6 +5,38 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5CADFC0",
+          "on": "418B959407000041899590070000E982ABBBFA",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "868B4E",
+          "on": "E96D5444059090",
+          "off": "41899590070000"
+        }
+      ]
+    },
+    {
+      "name": "47,000 Flowers on Gain",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5C9DF10",
+          "on": "41C784249807000098B70000E9B7A3BCFA",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "8682D0",
+          "on": "E93B5C4305909090",
+          "off": "4501BC2498070000"
+        }
+      ]
+    },
+    {
       "name": "\u002B2 Flowers on Gain",
       "type": "checkbox",
       "memory": [
@@ -85,18 +117,18 @@
       ]
     },
     {
-      "name": "47,000 Flowers on Gain",
+      "name": "47,000 Spatulas on Gain",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "5C9DF10",
-          "on": "41C784249807000098B70000E9B7A3BCFA",
+          "offset": "5CAE020",
+          "on": "41C78424A007000098B70000E956A2BBFA",
           "off": "0000000000000000000000000000000000"
         },
         {
-          "offset": "8682D0",
-          "on": "E93B5C4305909090",
-          "off": "4501BC2498070000"
+          "offset": "86827F",
+          "on": "E99C5D4405909090",
+          "off": "4501BC24A0070000"
         }
       ]
     },
@@ -117,38 +149,6 @@
       ]
     },
     {
-      "name": "47,000 Spatulas on Gain",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5CAE020",
-          "on": "41C78424A007000098B70000E956A2BBFA",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "86827F",
-          "on": "E99C5D4405909090",
-          "off": "4501BC24A0070000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5CADFC0",
-          "on": "418B959407000041899590070000E982ABBBFA",
-          "off": "00000000000000000000000000000000000000"
-        },
-        {
-          "offset": "868B4E",
-          "on": "E96D5444059090",
-          "off": "41899590070000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Jumps",
       "type": "checkbox",
       "memory": [
@@ -165,22 +165,6 @@
       ]
     },
     {
-      "name": "Reset Running Speed to Default",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5CD4B40",
-          "on": "C78483BC01000000803B44E9E0C490FC",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "25E1027",
-          "on": "E9143B6F0390909090",
-          "off": "C5FA108483BC010000"
-        }
-      ]
-    },
-    {
       "name": "x4 Running Speed",
       "type": "checkbox",
       "memory": [
@@ -214,7 +198,7 @@
     },
     {
       "name": "Reset Running Speed to Default",
-      "type": "button",
+      "type": "checkbox",
       "memory": [
         {
           "offset": "5CD4B40",
@@ -251,6 +235,22 @@
         {
           "offset": "5CD4B40",
           "on": "C78483BC01000000803B46E9E0C490FC",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "25E1027",
+          "on": "E9143B6F0390909090",
+          "off": "C5FA108483BC010000"
+        }
+      ]
+    },
+    {
+      "name": "Reset Running Speed to Default",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "5CD4B40",
+          "on": "C78483BC01000000803B44E9E0C490FC",
           "off": "00000000000000000000000000000000"
         },
         {

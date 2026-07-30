@@ -5,40 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode by JustGotenks",
+      "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "544B6A3",
-          "on": "E9F039D5059090",
-          "off": "C5FA114814720A"
-        },
-        {
-          "offset": "B19F098",
-          "on": "83783C027505F30F104814C5FA114814E9FDC52AFA909090",
-          "off": "000000000000000000000000000000000000000000000000"
-        }
-      ]
-    },
-    {
-      "name": "Inf Pipe Bombs by LMN",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3110583",
-          "on": "9090909090",
-          "off": "E838BABF02"
-        }
-      ]
-    },
-    {
-      "name": "Inf white flower and First Aid Med usage by LMN",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "62C04DA",
-          "on": "909090909090",
-          "off": "FF9070060000"
+          "offset": "544B69F",
+          "on": "C5F82ED0",
+          "off": "C5F82EC1"
         }
       ]
     },
@@ -69,33 +42,6 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "544B69F",
-          "on": "C5F82ED0",
-          "off": "C5F82EC1"
-        }
-      ]
-    },
-    {
-      "name": "infinite items",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5ECE0",
-          "on": "41295C244C41C744244C63000000E98BD94B83",
-          "off": "00000000000000000000000000000000000000"
-        },
-        {
-          "offset": "311C679",
-          "on": "E96226B47C",
-          "off": "41295C244C"
-        }
-      ]
-    },
-    {
       "name": "Infinite money",
       "type": "checkbox",
       "memory": [
@@ -122,40 +68,18 @@
       ]
     },
     {
-      "name": "Info crafting materials by LMN",
+      "name": "infinite items",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "54AB9F1",
-          "on": "9090909090",
-          "off": "E84A13C7FD"
-        }
-      ]
-    },
-    {
-      "name": "No Reload by JustGotenks",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "4A98FA6",
-          "on": "B900000000",
-          "off": "B901000000"
-        }
-      ]
-    },
-    {
-      "name": "One-hit Kill by JustGotenks",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "544B695",
-          "on": "E94E3AD505",
-          "off": "C5F25C4DD4"
+          "offset": "7FC5ECE0",
+          "on": "41295C244C41C744244C63000000E98BD94B83",
+          "off": "00000000000000000000000000000000000000"
         },
         {
-          "offset": "B19F0E8",
-          "on": "83783C027409C5F057C9E9A3C52AFAC5F25C4DD4E999C52AFA909090",
-          "off": "00000000000000000000000000000000000000000000000000000000"
+          "offset": "311C679",
+          "on": "E96226B47C",
+          "off": "41295C244C"
         }
       ]
     },
@@ -188,6 +112,82 @@
           "offset": "311D264",
           "on": "E93700B47C90",
           "off": "4429E189484C"
+        }
+      ]
+    },
+    {
+      "name": "Info crafting materials by LMN",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "54AB9F1",
+          "on": "9090909090",
+          "off": "E84A13C7FD"
+        }
+      ]
+    },
+    {
+      "name": "Inf white flower and First Aid Med usage by LMN",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "62C04DA",
+          "on": "909090909090",
+          "off": "FF9070060000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Pipe Bombs by LMN",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3110583",
+          "on": "9090909090",
+          "off": "E838BABF02"
+        }
+      ]
+    },
+    {
+      "name": "Godmode by JustGotenks",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "544B6A3",
+          "on": "E9F039D5059090",
+          "off": "C5FA114814720A"
+        },
+        {
+          "offset": "B19F098",
+          "on": "83783C027505F30F104814C5FA114814E9FDC52AFA909090",
+          "off": "000000000000000000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "One-hit Kill by JustGotenks",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "544B695",
+          "on": "E94E3AD505",
+          "off": "C5F25C4DD4"
+        },
+        {
+          "offset": "B19F0E8",
+          "on": "83783C027409C5F057C9E9A3C52AFAC5F25C4DD4E999C52AFA909090",
+          "off": "00000000000000000000000000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "No Reload by JustGotenks",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4A98FA6",
+          "on": "B900000000",
+          "off": "B901000000"
         }
       ]
     },

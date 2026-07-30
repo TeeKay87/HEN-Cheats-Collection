@@ -5,147 +5,50 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": " Sp Jump\u002BExpl. Ammo",
+      "name": "Player Inv. Master Code",
       "type": "checkbox",
       "memory": [
-        {
-          "offset": "02D5B91C",
-          "on": "7405",
-          "off": "7432"
-        }
-      ]
-    },
-    {
-      "name": "2.1 Billion Money [Don\u0027t Freez It]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "02D5B95F",
-          "on": "81F9C00C0000741281F9A0250100740A81F9806202007402EB10488D470CC7470CFF4F446433470CEB00488D470C33470CE9027A65FF",
-          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "023B3390",
-          "on": "E9CA859A009090",
-          "off": "488D470C33470C"
-        }
-      ]
-    },
-    {
-      "name": "Explosive Ammo Only",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "02D5B91C",
-          "on": "7423",
-          "off": "7432"
-        }
-      ]
-    },
-    {
-      "name": "Full Player Armor",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "02D5B82F",
-          "on": "41C704240000FA43E9D38E3EFD",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "144709",
-          "on": "E92171C10290",
-          "off": "C4C17A100424"
-        }
-      ]
-    },
-    {
-      "name": "Full Player Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "02D5B822",
-          "on": "C4C17A104720C4C17A1107EBD6",
-          "off": "00000000000000000000000000"
-        },
         {
           "offset": "02D5B800",
-          "on": "EB20909090",
+          "on": "C4C17A100741C78708FFFFFF0C004000E989CD71FE",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "01478599",
+          "on": "E962328E01",
           "off": "C4C17A1007"
         }
       ]
     },
     {
-      "name": "Full Player Oxygen",
+      "name": "Vihicle Engine Durability Master Code",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "33A4DA",
-          "on": "C5FA119978020000",
-          "off": "C5FA108178020000"
+          "offset": "02D5B874",
+          "on": "C4C17A100641C78608FFFFFF0C004000E9B5E261FD",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "379B39",
+          "on": "E9361D9E02",
+          "off": "C4C17A1006"
         }
       ]
     },
     {
-      "name": "Full Player Special Ability",
+      "name": "Run And Swim Master Code",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "02D5B83C",
-          "on": "C5FA104B3CC5FA114B34E9DA33A4FD",
-          "off": "000000000000000000000000000000"
+          "offset": "02D5B8CE",
+          "on": "C5FA100BC5F82EC84181FC00A0EE037405E9C2CC71FE41C787880300000000803F41C787900300000000803FE9A7CC71FE",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "79EC20",
-          "on": "E917CC5B02",
-          "off": "C5FA104B34"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "02D5B85A",
-          "on": "41BEE80300004489F0E96FF581FE",
-          "off": "0000000000000000000000000000"
-        },
-        {
-          "offset": "0157ADD0",
-          "on": "E9850A7E019090",
-          "off": "440F4EF04489F0"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Player Stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "02D5B84B",
-          "on": "C783F00B0000003C1C46E9589BA4FD",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "7A53AA",
-          "on": "E99C645B02909090",
-          "off": "C5FA108BF00B0000"
-        }
-      ]
-    },
-    {
-      "name": "Invincible Player",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "02D5B815",
-          "on": "41C78708FFFFFFFC094000EBEE",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "02D5B805",
-          "on": "EB0E909090909090909090",
-          "off": "41C78708FFFFFF0C004000"
+          "offset": "0147859E",
+          "on": "E92B338E01909090",
+          "off": "C5FA100BC5F82EC8"
         }
       ]
     },
@@ -166,6 +69,113 @@
       ]
     },
     {
+      "name": "Invincible Player",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "02D5B815",
+          "on": "41C78708FFFFFFFC094000EBEE",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "02D5B805",
+          "on": "EB0E909090909090909090",
+          "off": "41C78708FFFFFF0C004000"
+        }
+      ]
+    },
+    {
+      "name": "Full Player Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "02D5B822",
+          "on": "C4C17A104720C4C17A1107EBD6",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "02D5B800",
+          "on": "EB20909090",
+          "off": "C4C17A1007"
+        }
+      ]
+    },
+    {
+      "name": "Full Player Armor",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "02D5B82F",
+          "on": "41C704240000FA43E9D38E3EFD",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "144709",
+          "on": "E92171C10290",
+          "off": "C4C17A100424"
+        }
+      ]
+    },
+    {
+      "name": "Full Player Special Ability",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "02D5B83C",
+          "on": "C5FA104B3CC5FA114B34E9DA33A4FD",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "79EC20",
+          "on": "E917CC5B02",
+          "off": "C5FA104B34"
+        }
+      ]
+    },
+    {
+      "name": "Full Player Oxygen",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "33A4DA",
+          "on": "C5FA119978020000",
+          "off": "C5FA108178020000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Player Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "02D5B84B",
+          "on": "C783F00B0000003C1C46E9589BA4FD",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "7A53AA",
+          "on": "E99C645B02909090",
+          "off": "C5FA108BF00B0000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "02D5B85A",
+          "on": "41BEE80300004489F0E96FF581FE",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "0157ADD0",
+          "on": "E9850A7E019090",
+          "off": "440F4EF04489F0"
+        }
+      ]
+    },
+    {
       "name": "No Reload",
       "type": "checkbox",
       "memory": [
@@ -182,45 +192,18 @@
       ]
     },
     {
-      "name": "Player Inv. Master Code",
+      "name": "Vehilcle Engine Durable",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "02D5B800",
-          "on": "C4C17A100741C78708FFFFFF0C004000E989CD71FE",
-          "off": "000000000000000000000000000000000000000000"
+          "offset": "02D5B889",
+          "on": "41C78608FFFFFFFC094000EBEE",
+          "off": "00000000000000000000000000"
         },
         {
-          "offset": "01478599",
-          "on": "E962328E01",
-          "off": "C4C17A1007"
-        }
-      ]
-    },
-    {
-      "name": "Powerful Shot",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "02D5B995",
-          "on": "41C785040C00000000807FE971092EFD",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "03C30D",
-          "on": "E983F6D10290909090",
-          "off": "C4C17A1085040C0000"
-        }
-      ]
-    },
-    {
-      "name": "Remove Noise On Wanted",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "623D20",
-          "on": "C3",
-          "off": "55"
+          "offset": "02D5B879",
+          "on": "EB0E909090909090909090",
+          "off": "41C78608FFFFFF0C004000"
         }
       ]
     },
@@ -241,18 +224,13 @@
       ]
     },
     {
-      "name": "Run And Swim Master Code",
+      "name": "Remove Noise On Wanted",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "02D5B8CE",
-          "on": "C5FA100BC5F82EC84181FC00A0EE037405E9C2CC71FE41C787880300000000803F41C787900300000000803FE9A7CC71FE",
-          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "0147859E",
-          "on": "E92B338E01909090",
-          "off": "C5FA100BC5F82EC8"
+          "offset": "623D20",
+          "on": "C3",
+          "off": "55"
         }
       ]
     },
@@ -300,6 +278,60 @@
       ]
     },
     {
+      "name": "Explosive Ammo Only",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "02D5B91C",
+          "on": "7423",
+          "off": "7432"
+        }
+      ]
+    },
+    {
+      "name": " Sp Jump\u002BExpl. Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "02D5B91C",
+          "on": "7405",
+          "off": "7432"
+        }
+      ]
+    },
+    {
+      "name": "2.1 Billion Money [Don\u0027t Freez It]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "02D5B95F",
+          "on": "81F9C00C0000741281F9A0250100740A81F9806202007402EB10488D470CC7470CFF4F446433470CEB00488D470C33470CE9027A65FF",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "023B3390",
+          "on": "E9CA859A009090",
+          "off": "488D470C33470C"
+        }
+      ]
+    },
+    {
+      "name": "Powerful Shot",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "02D5B995",
+          "on": "41C785040C00000000807FE971092EFD",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "03C30D",
+          "on": "E983F6D10290909090",
+          "off": "C4C17A1085040C0000"
+        }
+      ]
+    },
+    {
       "name": "Super Power Punch",
       "type": "checkbox",
       "memory": [
@@ -312,38 +344,6 @@
           "offset": "7B07B1",
           "on": "E9EFB15A02909090",
           "off": "480F45F8C5FA1007"
-        }
-      ]
-    },
-    {
-      "name": "Vehilcle Engine Durable",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "02D5B889",
-          "on": "41C78608FFFFFFFC094000EBEE",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "02D5B879",
-          "on": "EB0E909090909090909090",
-          "off": "41C78608FFFFFF0C004000"
-        }
-      ]
-    },
-    {
-      "name": "Vihicle Engine Durability Master Code",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "02D5B874",
-          "on": "C4C17A100641C78608FFFFFF0C004000E9B5E261FD",
-          "off": "000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "379B39",
-          "on": "E9361D9E02",
-          "off": "C4C17A1006"
         }
       ]
     }

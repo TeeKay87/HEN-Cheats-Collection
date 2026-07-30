@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Dragons Hp",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "12CB827",
-          "on": "0F85B139F67E41C7472064000000458B7720E95E39F67E",
-          "off": "0000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "8022F196",
-          "on": "E98CC6098190",
-          "off": "754C458B7720"
-        }
-      ]
-    },
-    {
       "name": "Unlock All Ingredients",
       "type": "checkbox",
       "memory": [
@@ -43,6 +27,22 @@
           "offset": "802F7DDB",
           "on": "E9203AFD80909090",
           "off": "448B6010488B5A18"
+        }
+      ]
+    },
+    {
+      "name": "Dragons Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "12CB827",
+          "on": "0F85B139F67E41C7472064000000458B7720E95E39F67E",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "8022F196",
+          "on": "E98CC6098190",
+          "off": "754C458B7720"
         }
       ]
     }

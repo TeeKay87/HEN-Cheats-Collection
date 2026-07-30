@@ -5,34 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo",
+      "name": "Items x20 (on use)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "831ABE20",
-          "on": "C640300F4C8B3424E91D0B99FD",
-          "off": "00000000000000000000000000"
+          "offset": "831ABD80",
+          "on": "41C644243014E9DB3F98FD",
+          "off": "0000000000000000000000"
         },
         {
-          "offset": "80B3C943",
-          "on": "E9D8F466029090",
-          "off": "8948304C8B3424"
-        }
-      ]
-    },
-    {
-      "name": "Infinite AP While Loading",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "831ABEA0",
-          "on": "C6805C0100000AE925B027FD",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "80426ECB",
-          "on": "E9D04FD80290",
-          "off": "89885C010000"
+          "offset": "80B2FD61",
+          "on": "E91AC06702",
+          "off": "4189442430"
         }
       ]
     },
@@ -53,6 +37,22 @@
       ]
     },
     {
+      "name": "Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "831ABE20",
+          "on": "C640300F4C8B3424E91D0B99FD",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "80B3C943",
+          "on": "E9D8F466029090",
+          "off": "8948304C8B3424"
+        }
+      ]
+    },
+    {
       "name": "Infinite AP While Shooting",
       "type": "checkbox",
       "memory": [
@@ -64,6 +64,22 @@
         {
           "offset": "804125A4",
           "on": "E9B798D90290",
+          "off": "89885C010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite AP While Loading",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "831ABEA0",
+          "on": "C6805C0100000AE925B027FD",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "80426ECB",
+          "on": "E9D04FD80290",
           "off": "89885C010000"
         }
       ]
@@ -85,34 +101,34 @@
       ]
     },
     {
-      "name": "Infinite Attribute points after Commiting points",
+      "name": "Infinite Water on the Map (turn off scrap cheat)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "831ABC20",
-          "on": "41C686DC00000032E9C6AC75FD",
+          "offset": "831ABF80",
+          "on": "48634C2408C6003CE9A248ADFD",
           "off": "00000000000000000000000000"
         },
         {
-          "offset": "809068EC",
-          "on": "E92F538A029090",
-          "off": "4589BEDC000000"
+          "offset": "80C80828",
+          "on": "E953B752029090",
+          "off": "48634C24088908"
         }
       ]
     },
     {
-      "name": "Infinite Perk points",
+      "name": "Max Experience (at the end of battle)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "831ABBC0",
-          "on": "41C686B400000014E946BD79FD",
-          "off": "00000000000000000000000000"
+          "offset": "831ABB00",
+          "on": "41C784244C0200007F969800E92AEAA0FD",
+          "off": "0000000000000000000000000000000000"
         },
         {
-          "offset": "8094790C",
-          "on": "E9AF4286029090",
-          "off": "4589BEB4000000"
+          "offset": "80BBA533",
+          "on": "E9C8155F02909090",
+          "off": "418984244C020000"
         }
       ]
     },
@@ -133,50 +149,34 @@
       ]
     },
     {
-      "name": "Infinite Water on the Map (turn off scrap cheat)",
+      "name": "Infinite Perk points",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "831ABF80",
-          "on": "48634C2408C6003CE9A248ADFD",
+          "offset": "831ABBC0",
+          "on": "41C686B400000014E946BD79FD",
           "off": "00000000000000000000000000"
         },
         {
-          "offset": "80C80828",
-          "on": "E953B752029090",
-          "off": "48634C24088908"
+          "offset": "8094790C",
+          "on": "E9AF4286029090",
+          "off": "4589BEB4000000"
         }
       ]
     },
     {
-      "name": "Items x20 (on use)",
+      "name": "Infinite Attribute points after Commiting points",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "831ABD80",
-          "on": "41C644243014E9DB3F98FD",
-          "off": "0000000000000000000000"
+          "offset": "831ABC20",
+          "on": "41C686DC00000032E9C6AC75FD",
+          "off": "00000000000000000000000000"
         },
         {
-          "offset": "80B2FD61",
-          "on": "E91AC06702",
-          "off": "4189442430"
-        }
-      ]
-    },
-    {
-      "name": "Max Experience (at the end of battle)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "831ABB00",
-          "on": "41C784244C0200007F969800E92AEAA0FD",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "80BBA533",
-          "on": "E9C8155F02909090",
-          "off": "418984244C020000"
+          "offset": "809068EC",
+          "on": "E92F538A029090",
+          "off": "4589BEDC000000"
         }
       ]
     },

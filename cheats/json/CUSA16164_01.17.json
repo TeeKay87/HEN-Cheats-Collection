@@ -5,13 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Experience Multiplier",
+      "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "6E40DA",
-          "on": "49014508",
-          "off": "49894508"
+          "offset": "127B640",
+          "on": "80BB84000000017509C7436000001643EB05C5FA114B60E93D1409FF",
+          "off": "00000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "30CA94",
+          "on": "E9A7EBF600",
+          "off": "C5FA114B60"
         }
       ]
     },
@@ -32,18 +37,13 @@
       ]
     },
     {
-      "name": "Infinite Health",
+      "name": "Experience Multiplier",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "127B640",
-          "on": "80BB84000000017509C7436000001643EB05C5FA114B60E93D1409FF",
-          "off": "00000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "30CA94",
-          "on": "E9A7EBF600",
-          "off": "C5FA114B60"
+          "offset": "6E40DA",
+          "on": "49014508",
+          "off": "49894508"
         }
       ]
     },

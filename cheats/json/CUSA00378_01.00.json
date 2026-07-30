@@ -27,17 +27,6 @@
       ]
     },
     {
-      "name": "Infinite Breath",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8F4E8F",
-          "on": "9090909090",
-          "off": "C5FA114310"
-        }
-      ]
-    },
-    {
       "name": "Infinite Stamina",
       "type": "checkbox",
       "memory": [
@@ -45,6 +34,17 @@
           "offset": "8F49C7",
           "on": "9090909090",
           "off": "C5FA114B10"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Breath",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8F4E8F",
+          "on": "9090909090",
+          "off": "C5FA114310"
         }
       ]
     },
@@ -71,17 +71,6 @@
       ]
     },
     {
-      "name": "Infinite Breath",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "4F4E8F",
-          "on": "9090909090",
-          "off": "C5FA114310"
-        }
-      ]
-    },
-    {
       "name": "Infinite Stamina",
       "type": "checkbox",
       "memory": [
@@ -89,6 +78,17 @@
           "offset": "4F49C7",
           "on": "9090909090",
           "off": "C5FA114B10"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Breath",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4F4E8F",
+          "on": "9090909090",
+          "off": "C5FA114310"
         }
       ]
     }

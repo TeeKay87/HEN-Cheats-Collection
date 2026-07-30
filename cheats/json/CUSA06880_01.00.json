@@ -5,48 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Attributes 950 (hero creation / Shop Re Train hero)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "11CD29C",
-          "on": "486308FFC1B9B60300008908E93F66177F",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "803438E5",
-          "on": "E9B299E8809090",
-          "off": "486308FFC18908"
-        },
-        {
-          "offset": "11CD2AF",
-          "on": "486308FFC9B9B60300008908E9CC66177F",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "80343985",
-          "on": "E92599E8809090",
-          "off": "486308FFC98908"
-        }
-      ]
-    },
-    {
-      "name": "Duplicate Item by 5 (move item to item / split / stash)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "11CD279",
-          "on": "41BF0500000045897E184C8B3424E99EAE487F",
-          "off": "00000000000000000000000000000000000000"
-        },
-        {
-          "offset": "80658122",
-          "on": "E95251B780909090",
-          "off": "45897E184C8B3424"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health and Endurance",
       "type": "checkbox",
       "memory": [
@@ -79,6 +37,22 @@
       ]
     },
     {
+      "name": "Duplicate Item by 5 (move item to item / split / stash)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "11CD279",
+          "on": "41BF0500000045897E184C8B3424E99EAE487F",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "80658122",
+          "on": "E95251B780909090",
+          "off": "45897E184C8B3424"
+        }
+      ]
+    },
+    {
       "name": "Max Gold (buy)",
       "type": "checkbox",
       "memory": [
@@ -91,6 +65,32 @@
           "offset": "80418B20",
           "on": "E96947DB8090",
           "off": "F3440F117810"
+        }
+      ]
+    },
+    {
+      "name": "Attributes 950 (hero creation / Shop Re Train hero)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "11CD29C",
+          "on": "486308FFC1B9B60300008908E93F66177F",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "803438E5",
+          "on": "E9B299E8809090",
+          "off": "486308FFC18908"
+        },
+        {
+          "offset": "11CD2AF",
+          "on": "486308FFC9B9B60300008908E9CC66177F",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "80343985",
+          "on": "E92599E8809090",
+          "off": "486308FFC98908"
         }
       ]
     }

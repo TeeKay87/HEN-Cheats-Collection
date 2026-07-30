@@ -5,33 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo\u002BNo Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5B54D90",
-          "on": "490F44F74183EE6344297654E9D9BFE0FA",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "960D72",
-          "on": "E919401F05909090",
-          "off": "490F44F744297654"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Consumable Items",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "941662",
-          "on": "909090",
-          "off": "89702C"
-        }
-      ]
-    },
-    {
       "name": "Infinite HP 1",
       "type": "checkbox",
       "memory": [
@@ -64,6 +37,33 @@
       ]
     },
     {
+      "name": "Infinite Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "83BF77",
+          "on": "9090909090909090",
+          "off": "C5FA118B40010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo\u002BNo Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5B54D90",
+          "on": "490F44F74183EE6344297654E9D9BFE0FA",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "960D72",
+          "on": "E919401F05909090",
+          "off": "490F44F744297654"
+        }
+      ]
+    },
+    {
       "name": "Infinite Money\u002BItems",
       "type": "checkbox",
       "memory": [
@@ -75,13 +75,13 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
+      "name": "Infinite Consumable Items",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "83BF77",
-          "on": "9090909090909090",
-          "off": "C5FA118B40010000"
+          "offset": "941662",
+          "on": "909090",
+          "off": "89702C"
         }
       ]
     }

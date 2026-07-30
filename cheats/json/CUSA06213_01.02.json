@@ -5,33 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Fast Growup",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5B068",
-          "on": "488D75CC41C7462CF4010000E932476000",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "8025F7A3",
-          "on": "E9C0B89FFF909090",
-          "off": "488D75CC41895E2C"
-        }
-      ]
-    },
-    {
-      "name": "Inf Jumps",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8025567E",
-          "on": "41C686E000000001",
-          "off": "41C686E000000000"
-        }
-      ]
-    },
-    {
       "name": "Inf Life",
       "type": "checkbox",
       "memory": [
@@ -39,17 +12,6 @@
           "offset": "8025E883",
           "on": "90909090",
           "off": "45297E20"
-        }
-      ]
-    },
-    {
-      "name": "Inf O2",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8023A87A",
-          "on": "90909090",
-          "off": "41894634"
         }
       ]
     },
@@ -82,6 +44,44 @@
           "offset": "8025DFD5",
           "on": "E955D09FFF90",
           "off": "C4C17A114724"
+        }
+      ]
+    },
+    {
+      "name": "Inf O2",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8023A87A",
+          "on": "90909090",
+          "off": "41894634"
+        }
+      ]
+    },
+    {
+      "name": "Inf Jumps",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8025567E",
+          "on": "41C686E000000001",
+          "off": "41C686E000000000"
+        }
+      ]
+    },
+    {
+      "name": "Fast Growup",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5B068",
+          "on": "488D75CC41C7462CF4010000E932476000",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "8025F7A3",
+          "on": "E9C0B89FFF909090",
+          "off": "488D75CC41895E2C"
         }
       ]
     }

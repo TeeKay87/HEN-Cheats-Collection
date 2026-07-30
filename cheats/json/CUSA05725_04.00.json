@@ -5,134 +5,31 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "--10x XP",
+      "name": "TRAINER INFO (read only)",
       "hint": "null",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "293B833",
-          "on": "00000001",
-          "off": "0000000A"
-        }
-      ]
-    },
-    {
-      "name": "--2x Speed",
-      "hint": "null",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "293BE14",
-          "on": "00000040",
-          "off": "0000803F"
-        }
-      ]
-    },
-    {
-      "name": "--2x XP",
-      "hint": "null",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "293B833",
-          "on": "00000001",
-          "off": "00000002"
-        }
-      ]
-    },
-    {
-      "name": "--3x Speed",
-      "hint": "null",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "293BE14",
-          "on": "00004040",
-          "off": "0000803F"
-        }
-      ]
-    },
-    {
-      "name": "--3x XP",
-      "hint": "null",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "293B833",
-          "on": "00000001",
-          "off": "00000003"
-        }
-      ]
-    },
-    {
-      "name": "--4x Speed",
-      "hint": "null",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "293BE14",
-          "on": "00008040",
-          "off": "0000803F"
-        }
-      ]
-    },
-    {
-      "name": "--4x XP",
-      "hint": "null",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "293B833",
-          "on": "00000001",
-          "off": "00000004"
-        }
-      ]
-    },
-    {
-      "name": "--5x Speed",
-      "hint": "null",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "293BE14",
-          "on": "0000A040",
-          "off": "0000803F"
-        }
-      ]
-    },
-    {
-      "name": "--5x XP",
-      "hint": "null",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "293B833",
-          "on": "00000001",
-          "off": "00000005"
-        }
-      ]
-    },
-    {
-      "name": "--Easy Kill  (req MC)",
-      "hint": "null",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "293B7F9",
-          "on": "01",
+          "offset": "293B7F7",
+          "on": "00",
           "off": "00"
         }
       ]
     },
     {
-      "name": "--Infinite Adrenaline (req MC)",
+      "name": "Master Code (Enable this first!)",
       "hint": "null",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "293B7FD",
-          "on": "01",
-          "off": "00"
+          "offset": "293B7F8",
+          "on": "909090909090909083792003741183792007745383792005746BE987000000803DDAFFFFFF01750583F8007473803DCDFFFFFF01750583F8037465803DC0FFFFFF01750583F8067462803DB3FFFFFF01750583F8097449803DA6FFFFFF01754683F80C743BEB3F803D97FFFFFF01750583F803742B803D8AFFFFFF01752883F806741DEB21803D7BFFFFFF017518813C810000F038740FC704810000F038EB0BC5FA10448104C5FA11048183FB060F8563A1BFFEE960A1BFFE",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1535A0A",
+          "on": "E9F15D4001",
+          "off": "C5FA110481"
         }
       ]
     },
@@ -149,36 +46,12 @@
       ]
     },
     {
-      "name": "--Infinite Horse Run  (req MC)",
+      "name": "--Easy Kill  (req MC)",
       "hint": "null",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "293B7FB",
-          "on": "01",
-          "off": "00"
-        }
-      ]
-    },
-    {
-      "name": "--Infinite Oxygen  (req MC)",
-      "hint": "null",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "293B7FC",
-          "on": "01",
-          "off": "00"
-        }
-      ]
-    },
-    {
-      "name": "--Infinite Stamina  (req MC)",
-      "hint": "null",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "293B7FF",
+          "offset": "293B7F9",
           "on": "01",
           "off": "00"
         }
@@ -207,6 +80,42 @@
       ]
     },
     {
+      "name": "--Infinite Horse Run  (req MC)",
+      "hint": "null",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "293B7FB",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "--Infinite Oxygen  (req MC)",
+      "hint": "null",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "293B7FC",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "--Infinite Adrenaline (req MC)",
+      "hint": "null",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "293B7FD",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
       "name": "--No Toxicity (req MC)",
       "hint": "null",
       "type": "checkbox",
@@ -229,43 +138,118 @@
       ]
     },
     {
-      "name": "--x2 Walking Speed",
+      "name": "--Infinite Stamina  (req MC)",
       "hint": "null",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "ACFAAC",
-          "on": "00000040",
-          "off": "0000803F"
+          "offset": "293B7FF",
+          "on": "01",
+          "off": "00"
         }
       ]
     },
     {
-      "name": "--x3 Walking Speed",
+      "name": "Teleport to map waypoint",
       "hint": "null",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "ACFAAC",
-          "on": "00004040",
-          "off": "0000803F"
-        }
-      ]
-    },
-    {
-      "name": "Durable Weapons And Armour",
-      "hint": "null",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "293BA68",
-          "on": "C74419640000C842498B07E9E8873BFE",
-          "off": "00000000000000000000000000000000"
+          "offset": "293BB00",
+          "on": "41894C8508890D46C53B00418B4C240C41894C850C890D3AC53B00C70534C53B0000004842E91E53C7FE",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "CF4259",
-          "on": "E90A78C4019090",
-          "off": "89441964498B07"
+          "offset": "15B0E3C",
+          "on": "E9BFAC380190909090909090909090",
+          "off": "41894C8508418B4C240C41894C850C"
+        },
+        {
+          "offset": "293BB50",
+          "on": "833DFAC43B0000744C538B1DF1C43B0041899D900100008B1DE8C43B0041899D940100008B1DDFC43B0041899D980100005BC705C5C43B0000000000C705BFC43B0000000000C705B9C43B0000000000E95161F6FDC4C17A11AD90010000C4C17A11B594010000C4C17A118598010000E93161F6FD",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "8A1CDB",
+          "on": "E9709E090290909090909090909090909090909090909090909090",
+          "off": "C4C17A11AD90010000C4C17A11B594010000C4C17A118598010000"
+        }
+      ]
+    },
+    {
+      "name": "XP Multiplier (Master Code)",
+      "hint": "null",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "293BD00",
+          "on": "4839F3750C418B04240345C8E9D168DEFE41817C2404E80300007D02EBE7A133B8930200000000F765C841030424E9AF68DEFE00000001",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "17225DB",
+          "on": "E9209721019090",
+          "off": "418B04240345C8"
+        }
+      ]
+    },
+    {
+      "name": "--2x XP",
+      "hint": "null",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "293B833",
+          "on": "00000001",
+          "off": "00000002"
+        }
+      ]
+    },
+    {
+      "name": "--3x XP",
+      "hint": "null",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "293B833",
+          "on": "00000001",
+          "off": "00000003"
+        }
+      ]
+    },
+    {
+      "name": "--4x XP",
+      "hint": "null",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "293B833",
+          "on": "00000001",
+          "off": "00000004"
+        }
+      ]
+    },
+    {
+      "name": "--5x XP",
+      "hint": "null",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "293B833",
+          "on": "00000001",
+          "off": "00000005"
+        }
+      ]
+    },
+    {
+      "name": "--10x XP",
+      "hint": "null",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "293B833",
+          "on": "00000001",
+          "off": "0000000A"
         }
       ]
     },
@@ -283,6 +267,54 @@
           "offset": "584D2A",
           "on": "E9D1703B029090",
           "off": "83BFD801000000"
+        }
+      ]
+    },
+    {
+      "name": "--2x Speed",
+      "hint": "null",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "293BE14",
+          "on": "00000040",
+          "off": "0000803F"
+        }
+      ]
+    },
+    {
+      "name": "--3x Speed",
+      "hint": "null",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "293BE14",
+          "on": "00004040",
+          "off": "0000803F"
+        }
+      ]
+    },
+    {
+      "name": "--4x Speed",
+      "hint": "null",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "293BE14",
+          "on": "00008040",
+          "off": "0000803F"
+        }
+      ]
+    },
+    {
+      "name": "--5x Speed",
+      "hint": "null",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "293BE14",
+          "on": "0000A040",
+          "off": "0000803F"
         }
       ]
     },
@@ -326,6 +358,42 @@
       ]
     },
     {
+      "name": "Walking Speed (Master Code)",
+      "hint": "null",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "ACFAAA",
+          "on": "C7000000803F",
+          "off": "C7000000803F"
+        }
+      ]
+    },
+    {
+      "name": "--x2 Walking Speed",
+      "hint": "null",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "ACFAAC",
+          "on": "00000040",
+          "off": "0000803F"
+        }
+      ]
+    },
+    {
+      "name": "--x3 Walking Speed",
+      "hint": "null",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "ACFAAC",
+          "on": "00004040",
+          "off": "0000803F"
+        }
+      ]
+    },
+    {
       "name": "Infinite Skill Points",
       "hint": "null",
       "type": "checkbox",
@@ -343,19 +411,19 @@
       ]
     },
     {
-      "name": "Master Code (Enable this first!)",
+      "name": "Durable Weapons And Armour",
       "hint": "null",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "293B7F8",
-          "on": "909090909090909083792003741183792007745383792005746BE987000000803DDAFFFFFF01750583F8007473803DCDFFFFFF01750583F8037465803DC0FFFFFF01750583F8067462803DB3FFFFFF01750583F8097449803DA6FFFFFF01754683F80C743BEB3F803D97FFFFFF01750583F803742B803D8AFFFFFF01752883F806741DEB21803D7BFFFFFF017518813C810000F038740FC704810000F038EB0BC5FA10448104C5FA11048183FB060F8563A1BFFEE960A1BFFE",
-          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+          "offset": "293BA68",
+          "on": "C74419640000C842498B07E9E8873BFE",
+          "off": "00000000000000000000000000000000"
         },
         {
-          "offset": "1535A0A",
-          "on": "E9F15D4001",
-          "off": "C5FA110481"
+          "offset": "CF4259",
+          "on": "E90A78C4019090",
+          "off": "89441964498B07"
         }
       ]
     },
@@ -377,74 +445,6 @@
       ]
     },
     {
-      "name": "Teleport to map waypoint",
-      "hint": "null",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "293BB00",
-          "on": "41894C8508890D46C53B00418B4C240C41894C850C890D3AC53B00C70534C53B0000004842E91E53C7FE",
-          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "15B0E3C",
-          "on": "E9BFAC380190909090909090909090",
-          "off": "41894C8508418B4C240C41894C850C"
-        },
-        {
-          "offset": "293BB50",
-          "on": "833DFAC43B0000744C538B1DF1C43B0041899D900100008B1DE8C43B0041899D940100008B1DDFC43B0041899D980100005BC705C5C43B0000000000C705BFC43B0000000000C705B9C43B0000000000E95161F6FDC4C17A11AD90010000C4C17A11B594010000C4C17A118598010000E93161F6FD",
-          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "8A1CDB",
-          "on": "E9709E090290909090909090909090909090909090909090909090",
-          "off": "C4C17A11AD90010000C4C17A11B594010000C4C17A118598010000"
-        }
-      ]
-    },
-    {
-      "name": "TRAINER INFO (read only)",
-      "hint": "null",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "293B7F7",
-          "on": "00",
-          "off": "00"
-        }
-      ]
-    },
-    {
-      "name": "Walking Speed (Master Code)",
-      "hint": "null",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "ACFAAA",
-          "on": "C7000000803F",
-          "off": "C7000000803F"
-        }
-      ]
-    },
-    {
-      "name": "XP Multiplier (Master Code)",
-      "hint": "null",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "293BD00",
-          "on": "4839F3750C418B04240345C8E9D168DEFE41817C2404E80300007D02EBE7A133B8930200000000F765C841030424E9AF68DEFE00000001",
-          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "17225DB",
-          "on": "E9209721019090",
-          "off": "418B04240345C8"
-        }
-      ]
-    },
-    {
       "name": "9999 Weight",
       "type": "checkbox",
       "memory": [
@@ -457,6 +457,22 @@
           "offset": "C801A7",
           "on": "E9C4B78B019090",
           "off": "C4817A104CE70C"
+        }
+      ]
+    },
+    {
+      "name": "Max Coins (on sell) Turn off after use",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "253BA40",
+          "on": "4883FA2C74094883FA2D74034401E0C7013F420F00E938553AFE4401E08901E92E553AFE",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "8E0F8D",
+          "on": "E9AEAAC501",
+          "off": "4401E08901"
         }
       ]
     },
@@ -493,22 +509,6 @@
       ]
     },
     {
-      "name": "Infinite Food (on consume equip it first) ",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "253B660",
-          "on": "BE03000000C60063E90F603AFE",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "8E1675",
-          "on": "E9E69FC5019090",
-          "off": "BE030000008910"
-        }
-      ]
-    },
-    {
       "name": "Infinite Skill points (on spend)",
       "type": "checkbox",
       "memory": [
@@ -525,18 +525,18 @@
       ]
     },
     {
-      "name": "Max Coins (on sell) Turn off after use",
+      "name": "Infinite Food (on consume equip it first) ",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "253BA40",
-          "on": "4883FA2C74094883FA2D74034401E0C7013F420F00E938553AFE4401E08901E92E553AFE",
-          "off": "000000000000000000000000000000000000000000000000000000000000000000000000"
+          "offset": "253B660",
+          "on": "BE03000000C60063E90F603AFE",
+          "off": "00000000000000000000000000"
         },
         {
-          "offset": "8E0F8D",
-          "on": "E9AEAAC501",
-          "off": "4401E08901"
+          "offset": "8E1675",
+          "on": "E9E69FC5019090",
+          "off": "BE030000008910"
         }
       ]
     }

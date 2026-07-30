@@ -2,12 +2,18 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Mickey's Wild Adventure" Moder="Ali-mk" Cusa="SCUS00163" Version="01.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Lives">
+  <Cheat Text="Invincible">
     <Cheatline>
-      <Offset>105E46</Offset>
+      <Offset>107DCC</Offset>
       <Section>11</Section>
       <ValueOn>00</ValueOn>
-      <ValueOff>42</ValueOff>
+      <ValueOff>FF</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>107DCD</Offset>
+      <Section>11</Section>
+      <ValueOn>00</ValueOn>
+      <ValueOff>FF</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite-Health">
@@ -26,18 +32,12 @@
       <ValueOff>42</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Invincible">
+  <Cheat Text="Infinite Lives">
     <Cheatline>
-      <Offset>107DCC</Offset>
+      <Offset>105E46</Offset>
       <Section>11</Section>
       <ValueOn>00</ValueOn>
-      <ValueOff>FF</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>107DCD</Offset>
-      <Section>11</Section>
-      <ValueOn>00</ValueOn>
-      <ValueOff>FF</ValueOff>
+      <ValueOff>42</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Buffs",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "399E5E0",
-          "on": "41C787880000000000FA44E929F2B2FC",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "4CD810",
-          "on": "E9CB0D4D0390909090",
-          "off": "C4C17A118788000000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -37,6 +21,22 @@
       ]
     },
     {
+      "name": "Max/Infinite Dragon Cure Potion",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "399FA20",
+          "on": "C780EDC0000063000000E9E1629DFD",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "1375D0A",
+          "on": "E9119D620290",
+          "off": "8888EDC00000"
+        }
+      ]
+    },
+    {
       "name": "Infinite Throwables/Items",
       "type": "checkbox",
       "memory": [
@@ -49,6 +49,22 @@
           "offset": "F8E1B6",
           "on": "E92516A102",
           "off": "29770889F0"
+        }
+      ]
+    },
+    {
+      "name": "Instant Infinite Divine Beast Gauge (Hit Enemy)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "399F750",
+          "on": "41C744245000007A44E92652BDFC",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "57497D",
+          "on": "E9CEAD42039090",
+          "off": "C4C17811442450"
         }
       ]
     },
@@ -96,22 +112,6 @@
       ]
     },
     {
-      "name": "Instant Infinite Divine Beast Gauge (Hit Enemy)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "399F750",
-          "on": "41C744245000007A44E92652BDFC",
-          "off": "0000000000000000000000000000"
-        },
-        {
-          "offset": "57497D",
-          "on": "E9CEAD42039090",
-          "off": "C4C17811442450"
-        }
-      ]
-    },
-    {
       "name": "Max Moral",
       "type": "checkbox",
       "memory": [
@@ -124,6 +124,22 @@
           "offset": "53CFF6",
           "on": "E9C5224603",
           "off": "41894C2410"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Buffs",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "399E5E0",
+          "on": "41C787880000000000FA44E929F2B2FC",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "4CD810",
+          "on": "E9CB0D4D0390909090",
+          "off": "C4C17A118788000000"
         }
       ]
     },
@@ -156,22 +172,6 @@
           "offset": "13788FE",
           "on": "E91D6C620290",
           "off": "0F42F1897010"
-        }
-      ]
-    },
-    {
-      "name": "Max/Infinite Dragon Cure Potion",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "399FA20",
-          "on": "C780EDC0000063000000E9E1629DFD",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "1375D0A",
-          "on": "E9119D620290",
-          "off": "8888EDC00000"
         }
       ]
     },

@@ -2,14 +2,6 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="BloodRayne Betrayal: Fresh Bites" Moder="Ali-mk" Cusa="CUSA26608" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite-AMMO">
-    <Cheatline>
-      <Offset>EA369</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>41-FE-8C-24-10-0D-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite-Health(MC)">
     <Cheatline>
       <Offset>AEB800</Offset>
@@ -22,6 +14,14 @@
       <Section>0</Section>
       <ValueOn>E9-B8-D4-52-00-90-90-90</ValueOn>
       <ValueOff>C5-FA-11-87-7C-02-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite-AMMO">
+    <Cheatline>
+      <Offset>EA369</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>41-FE-8C-24-10-0D-00-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

@@ -5,35 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Earn Money on Spend",
+      "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "18D9BC9",
-          "on": "0108",
-          "off": "8908"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Adrenaline",
-      "type": "checkbox",
-      "memory": [
+          "offset": "522B800",
+          "on": "41C74610804FC347C4C17A104610E98162B5FD",
+          "off": "00000000000000000000000000000000000000"
+        },
         {
-          "offset": "271D386",
-          "on": "83E800",
-          "off": "894714"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "271BFED",
-          "on": "83EE00",
-          "off": "897004"
+          "offset": "2D81A8E",
+          "on": "E96D9D4A0290",
+          "off": "C4C17A104610"
         }
       ]
     },
@@ -54,18 +37,29 @@
       ]
     },
     {
-      "name": "Infinite Health",
+      "name": "Infinite Ammo",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "522B800",
-          "on": "41C74610804FC347C4C17A104610E98162B5FD",
-          "off": "00000000000000000000000000000000000000"
+          "offset": "271BFED",
+          "on": "83EE00",
+          "off": "897004"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "522B813",
+          "on": "B864000000894218E915F2A4FD",
+          "off": "00000000000000000000000000"
         },
         {
-          "offset": "2D81A8E",
-          "on": "E96D9D4A0290",
-          "off": "C4C17A104610"
+          "offset": "2C7AA30",
+          "on": "E9DE0D5B02",
+          "off": "75038B4218"
         }
       ]
     },
@@ -77,6 +71,44 @@
           "offset": "271C05B",
           "on": "83690400909090",
           "off": "C7410400000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Adrenaline",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "271D386",
+          "on": "83E800",
+          "off": "894714"
+        }
+      ]
+    },
+    {
+      "name": "Max Wiretaps/MarkersOnUse",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "522B820",
+          "on": "C747147F96184BC5FA104714E98487E4FA",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "73FB0",
+          "on": "E96B781B05",
+          "off": "C5FA114714"
+        }
+      ]
+    },
+    {
+      "name": "Earn Money on Spend",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "18D9BC9",
+          "on": "0108",
+          "off": "8908"
         }
       ]
     },
@@ -109,38 +141,6 @@
           "offset": "18D9C1B",
           "on": "E91E1C9503",
           "off": "750B8B4104"
-        }
-      ]
-    },
-    {
-      "name": "Max Wiretaps/MarkersOnUse",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "522B820",
-          "on": "C747147F96184BC5FA104714E98487E4FA",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "73FB0",
-          "on": "E96B781B05",
-          "off": "C5FA114714"
-        }
-      ]
-    },
-    {
-      "name": "No Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "522B813",
-          "on": "B864000000894218E915F2A4FD",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "2C7AA30",
-          "on": "E9DE0D5B02",
-          "off": "75038B4218"
         }
       ]
     }

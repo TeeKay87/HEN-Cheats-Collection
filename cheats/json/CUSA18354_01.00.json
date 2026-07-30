@@ -52,6 +52,22 @@
       ]
     },
     {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80A44123",
+          "on": "C5FA104B60C743540000C842909090",
+          "off": "C5FA5C4350C5FA104B60C5FA114354"
+        },
+        {
+          "offset": "8089EFEF",
+          "on": "C5FA588550FFFFFFC4C17A114754",
+          "off": "C5FA588550FFFFFFC4C17A114754"
+        }
+      ]
+    },
+    {
       "name": "Infinite Money",
       "type": "checkbox",
       "memory": [
@@ -90,22 +106,6 @@
           "offset": "80875F9A",
           "on": "E9775A48819090",
           "off": "4189BE04020000"
-        }
-      ]
-    },
-    {
-      "name": "No Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "80A44123",
-          "on": "C5FA104B60C743540000C842909090",
-          "off": "C5FA5C4350C5FA104B60C5FA114354"
-        },
-        {
-          "offset": "8089EFEF",
-          "on": "C5FA588550FFFFFFC4C17A114754",
-          "off": "C5FA588550FFFFFFC4C17A114754"
         }
       ]
     },

@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Arrows-99",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "80809ECDA8",
-          "on": "63",
-          "off": "63"
-        }
-      ]
-    },
-    {
       "name": "Infinite-Health",
       "type": "checkbox",
       "memory": [
@@ -28,6 +17,17 @@
           "offset": "80809EAE21",
           "on": "FFFF",
           "off": "FFFF"
+        }
+      ]
+    },
+    {
+      "name": "Arrows-99",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80809ECDA8",
+          "on": "63",
+          "off": "63"
         }
       ]
     }

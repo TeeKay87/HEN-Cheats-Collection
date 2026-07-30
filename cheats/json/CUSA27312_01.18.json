@@ -5,33 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Freez Timer",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "81B2F533",
-          "on": "9090909090909090",
-          "off": "C5FA5C8018020000"
-        }
-      ]
-    },
-    {
-      "name": "Inf Consumables",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "823AB800",
-          "on": "BE0A0000006689745120E9FB7483FF",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "81BE2D02",
-          "on": "E9F98A7C00909090",
-          "off": "4429F66689745120"
-        }
-      ]
-    },
-    {
       "name": "Inf Health",
       "type": "checkbox",
       "memory": [
@@ -61,6 +34,33 @@
           "offset": "81BC3B32",
           "on": "B8E7030000",
           "off": "C4E278F2C2"
+        }
+      ]
+    },
+    {
+      "name": "Freez Timer",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "81B2F533",
+          "on": "9090909090909090",
+          "off": "C5FA5C8018020000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Consumables",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "823AB800",
+          "on": "BE0A0000006689745120E9FB7483FF",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "81BE2D02",
+          "on": "E9F98A7C00909090",
+          "off": "4429F66689745120"
         }
       ]
     }

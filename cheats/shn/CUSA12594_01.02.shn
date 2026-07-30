@@ -4,18 +4,12 @@
   <Genres Name="Adventure" />
   <Genres Name="Family" />
   <Items />
-  <Cheat Text="Bala Infinita">
+  <Cheat Text="Vida Infinita">
     <Cheatline>
-      <Offset>2A9A26</Offset>
+      <Offset>2AA130</Offset>
       <Section>15</Section>
       <ValueOn>90-90-90-90</ValueOn>
-      <ValueOff>F2-0F-5C-C1</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>2A9AB8</Offset>
-      <Section>15</Section>
-      <ValueOn>90-90-90-90</ValueOn>
-      <ValueOff>F2-0F-5C-C1</ValueOff>
+      <ValueOff>2B-44-24-08</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Dinheiro Infinito">
@@ -32,12 +26,18 @@
       <ValueOff>89-88-8C-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Vida Infinita">
+  <Cheat Text="Bala Infinita">
     <Cheatline>
-      <Offset>2AA130</Offset>
+      <Offset>2A9A26</Offset>
       <Section>15</Section>
       <ValueOn>90-90-90-90</ValueOn>
-      <ValueOff>2B-44-24-08</ValueOff>
+      <ValueOff>F2-0F-5C-C1</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>2A9AB8</Offset>
+      <Section>15</Section>
+      <ValueOn>90-90-90-90</ValueOn>
+      <ValueOff>F2-0F-5C-C1</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

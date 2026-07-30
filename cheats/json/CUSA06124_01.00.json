@@ -16,17 +16,6 @@
       ]
     },
     {
-      "name": "TacP Gain on Spend",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "445296",
-          "on": "015118",
-          "off": "895118"
-        }
-      ]
-    },
-    {
       "name": "TacP Gain when enemy killed during battle",
       "type": "checkbox",
       "memory": [
@@ -34,6 +23,17 @@
           "offset": "445214",
           "on": "015018",
           "off": "895018"
+        }
+      ]
+    },
+    {
+      "name": "TacP Gain on Spend",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "445296",
+          "on": "015118",
+          "off": "895118"
         }
       ]
     }

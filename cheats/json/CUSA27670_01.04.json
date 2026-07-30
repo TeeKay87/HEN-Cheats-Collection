@@ -21,22 +21,6 @@
       ]
     },
     {
-      "name": "Items/Ammo x99 (on use)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5D970",
-          "on": "C68481DC09000063E9F2153D80",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "2EF68",
-          "on": "E903EAC27F9090",
-          "off": "899481DC090000"
-        }
-      ]
-    },
-    {
       "name": "Max Experience (Use Only Once)",
       "type": "checkbox",
       "memory": [
@@ -49,6 +33,22 @@
           "offset": "2B0ED",
           "on": "E9BE2CC37F90",
           "off": "899168050000"
+        }
+      ]
+    },
+    {
+      "name": "Items/Ammo x99 (on use)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5D970",
+          "on": "C68481DC09000063E9F2153D80",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "2EF68",
+          "on": "E903EAC27F9090",
+          "off": "899481DC090000"
         }
       ]
     }

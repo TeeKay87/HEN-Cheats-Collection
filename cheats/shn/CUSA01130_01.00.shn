@@ -10,14 +10,6 @@
       <ValueOff>C5-FA-11-83-78-0A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Health Never Decreases" Description="What/how/when is this Cheat: Change me!">
-    <Cheatline>
-      <Offset>2D2F44</Offset>
-      <Section>0</Section>
-      <ValueOn>89-4F-20</ValueOn>
-      <ValueOff>89-57-20</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Max Precious Gem On Pickup" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Offset>19E781A</Offset>
@@ -30,6 +22,14 @@
       <Section>0</Section>
       <ValueOn>E9-04-31-4E-01</ValueOn>
       <ValueOff>E9-F7-30-4E-01</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Health Never Decreases" Description="What/how/when is this Cheat: Change me!">
+    <Cheatline>
+      <Offset>2D2F44</Offset>
+      <Section>0</Section>
+      <ValueOn>89-4F-20</ValueOn>
+      <ValueOff>89-57-20</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

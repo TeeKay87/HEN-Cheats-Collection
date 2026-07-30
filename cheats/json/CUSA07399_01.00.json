@@ -28,6 +28,17 @@
       ]
     },
     {
+      "name": "Set Lives to 999",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "24F9EA114",
+          "on": "E7030000",
+          "off": "E7030000"
+        }
+      ]
+    },
+    {
       "name": "Set Boxes to 999",
       "type": "button",
       "memory": [
@@ -35,18 +46,6 @@
           "offset": "2587CC0E0",
           "on": "E7030000",
           "off": "E7030000"
-        }
-      ]
-    },
-    {
-      "name": "Set Crystals to 99",
-      "hint": "only for Crash Bandicoot 2 and 3.",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "24F9EA12C",
-          "on": "63000000",
-          "off": "63000000"
         }
       ]
     },
@@ -62,11 +61,33 @@
       ]
     },
     {
+      "name": "Set Platin to 99",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "24F9EA128",
+          "on": "63000000",
+          "off": "63000000"
+        }
+      ]
+    },
+    {
       "name": "Set Gold to 99",
       "type": "button",
       "memory": [
         {
           "offset": "24F9EA124",
+          "on": "63000000",
+          "off": "63000000"
+        }
+      ]
+    },
+    {
+      "name": "Set Saphir to 99",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "24F9EA120",
           "on": "63000000",
           "off": "63000000"
         }
@@ -85,33 +106,12 @@
       ]
     },
     {
-      "name": "Set Lives to 999",
+      "name": "Set Crystals to 99",
+      "hint": "only for Crash Bandicoot 2 and 3.",
       "type": "button",
       "memory": [
         {
-          "offset": "24F9EA114",
-          "on": "E7030000",
-          "off": "E7030000"
-        }
-      ]
-    },
-    {
-      "name": "Set Platin to 99",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "24F9EA128",
-          "on": "63000000",
-          "off": "63000000"
-        }
-      ]
-    },
-    {
-      "name": "Set Saphir to 99",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "24F9EA120",
+          "offset": "24F9EA12C",
           "on": "63000000",
           "off": "63000000"
         }
@@ -140,6 +140,17 @@
       ]
     },
     {
+      "name": "Set Lives to 999",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "24F5EA114",
+          "on": "E7030000",
+          "off": "E7030000"
+        }
+      ]
+    },
+    {
       "name": "Set Boxes to 999",
       "type": "button",
       "memory": [
@@ -151,22 +162,22 @@
       ]
     },
     {
-      "name": "Set Crystals to 99",
+      "name": "Set Diamonds to 99",
       "type": "button",
       "memory": [
         {
-          "offset": "24F5EA12C",
+          "offset": "24F5EA11C",
           "on": "63000000",
           "off": "63000000"
         }
       ]
     },
     {
-      "name": "Set Diamonds to 99",
+      "name": "Set Platin to 99",
       "type": "button",
       "memory": [
         {
-          "offset": "24F5EA11C",
+          "offset": "24F5EA128",
           "on": "63000000",
           "off": "63000000"
         }
@@ -184,6 +195,17 @@
       ]
     },
     {
+      "name": "Set Saphir to 99",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "24F5EA120",
+          "on": "63000000",
+          "off": "63000000"
+        }
+      ]
+    },
+    {
       "name": "Set Keys to 99",
       "type": "button",
       "memory": [
@@ -195,33 +217,11 @@
       ]
     },
     {
-      "name": "Set Lives to 999",
+      "name": "Set Crystals to 99",
       "type": "button",
       "memory": [
         {
-          "offset": "24F5EA114",
-          "on": "E7030000",
-          "off": "E7030000"
-        }
-      ]
-    },
-    {
-      "name": "Set Platin to 99",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "24F5EA128",
-          "on": "63000000",
-          "off": "63000000"
-        }
-      ]
-    },
-    {
-      "name": "Set Saphir to 99",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "24F5EA120",
+          "offset": "24F5EA12C",
           "on": "63000000",
           "off": "63000000"
         }

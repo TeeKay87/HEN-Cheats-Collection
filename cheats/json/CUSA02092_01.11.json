@@ -5,6 +5,22 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Health \u002B Shield",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3B6F800",
+          "on": "41C7450000004843488B458084C0E92B6BBEFC",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "756338",
+          "on": "E9C394410390",
+          "off": "488B458084C0"
+        }
+      ]
+    },
+    {
       "name": "1 Hit Kill",
       "type": "checkbox",
       "memory": [
@@ -63,18 +79,34 @@
       ]
     },
     {
-      "name": "Infinite Health \u002B Shield",
+      "name": "Infinite Praetor Points (Need Buy Once)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "3B6F800",
-          "on": "41C7450000004843488B458084C0E92B6BBEFC",
-          "off": "00000000000000000000000000000000000000"
+          "offset": "3B6F8D0",
+          "on": "4889DFC7433842000000E926C729FD",
+          "off": "000000000000000000000000000000"
         },
         {
-          "offset": "756338",
-          "on": "E9C394410390",
-          "off": "488B458084C0"
+          "offset": "E0BFFF",
+          "on": "E9CC38D60290",
+          "off": "4889DF894338"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Weapon Points (Need Buy Once)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3B6F860",
+          "on": "C783705A0500420000008B83705A0500E9723012FD",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "C928E1",
+          "on": "E97ACFED0290",
+          "off": "8983705A0500"
         }
       ]
     },
@@ -95,22 +127,6 @@
       ]
     },
     {
-      "name": "Infinite Praetor Points (Need Buy Once)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3B6F8D0",
-          "on": "4889DFC7433842000000E926C729FD",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "E0BFFF",
-          "on": "E9CC38D60290",
-          "off": "4889DF894338"
-        }
-      ]
-    },
-    {
       "name": "Infinite Rune Trial Time",
       "type": "checkbox",
       "memory": [
@@ -118,22 +134,6 @@
           "offset": "A6FC9F",
           "on": "909090",
           "off": "4429F0"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Weapon Points (Need Buy Once)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3B6F860",
-          "on": "C783705A0500420000008B83705A0500E9723012FD",
-          "off": "000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "C928E1",
-          "on": "E97ACFED0290",
-          "off": "8983705A0500"
         }
       ]
     }

@@ -5,13 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo",
+      "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "15B45A2",
-          "on": "83E90090",
-          "off": "41894F1C"
+          "offset": "2DC7800",
+          "on": "C78054020000F0237449C5FA108054020000C5FA118050020000E986E5CAFD",
+          "off": "00000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "A75D9D",
+          "on": "E95E1A3502909090",
+          "off": "C5FA108050020000"
         }
       ]
     },
@@ -28,22 +33,6 @@
           "offset": "143DCC",
           "on": "E96D3AC802909090",
           "off": "C5FA10875C140000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2DC7800",
-          "on": "C78054020000F0237449C5FA108054020000C5FA118050020000E986E5CAFD",
-          "off": "00000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "A75D9D",
-          "on": "E95E1A3502909090",
-          "off": "C5FA108050020000"
         }
       ]
     },
@@ -80,6 +69,44 @@
       ]
     },
     {
+      "name": "Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "15B45A2",
+          "on": "83E90090",
+          "off": "41894F1C"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "158D02D",
+          "on": "89C9",
+          "off": "29CA"
+        }
+      ]
+    },
+    {
+      "name": "Never Wanted",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2DC7855",
+          "on": "BA000000008996E8070000E9ACE4CAFD",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "A75D0B",
+          "on": "E9451B350290",
+          "off": "8B96E8070000"
+        }
+      ]
+    },
+    {
       "name": "Infinite Vehicle Engine",
       "type": "checkbox",
       "memory": [
@@ -102,33 +129,6 @@
           "offset": "142E876",
           "on": "E90190990190909090",
           "off": "C4C17A108794070000"
-        }
-      ]
-    },
-    {
-      "name": "Never Wanted",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2DC7855",
-          "on": "BA000000008996E8070000E9ACE4CAFD",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "A75D0B",
-          "on": "E9451B350290",
-          "off": "8B96E8070000"
-        }
-      ]
-    },
-    {
-      "name": "No Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "158D02D",
-          "on": "89C9",
-          "off": "29CA"
         }
       ]
     },

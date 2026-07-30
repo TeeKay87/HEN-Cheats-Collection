@@ -5,18 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Focus",
+      "name": "Mastercode: Infinite Health / One Hit Kill ( must be activated )",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "668BE53",
-          "on": "3D205ACB067517C4C17A108624040000C4C17A118620040000E9C6A28BFAC4C17A118620040000E9B8A28BFA",
-          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+          "offset": "668BDF0",
+          "on": "664181FCE0ED7515C5FA1183FC010000C5FA1183FC010000E93F3B8CFAC5FA1183FC010000C5FA1183FC010000E92A3B8CFA",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "F4612E",
-          "on": "E9205D740590909090",
-          "off": "C4C17A118620040000"
+          "offset": "F4F944",
+          "on": "E9A7C47305909090",
+          "off": "C5FA1183FC010000"
         }
       ]
     },
@@ -32,18 +32,13 @@
       ]
     },
     {
-      "name": "Infinite Ichor",
+      "name": "One Hit Kill [MC]",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "668BDD1",
-          "on": "C4C17A109704050000C4C17A119700050000E99810ACFA",
-          "off": "0000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "114CE77",
-          "on": "E955EF530590909090",
-          "off": "C4C17A119700050000"
+          "offset": "668BE0D",
+          "on": "0F57C09090909090",
+          "off": "C5FA1183FC010000"
         }
       ]
     },
@@ -64,34 +59,18 @@
       ]
     },
     {
-      "name": "Mastercode: Infinite Health / One Hit Kill ( must be activated )",
+      "name": "Infinite Focus",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "668BDF0",
-          "on": "664181FCE0ED7515C5FA1183FC010000C5FA1183FC010000E93F3B8CFAC5FA1183FC010000C5FA1183FC010000E92A3B8CFA",
-          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+          "offset": "668BE53",
+          "on": "3D205ACB067517C4C17A108624040000C4C17A118620040000E9C6A28BFAC4C17A118620040000E9B8A28BFA",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "F4F944",
-          "on": "E9A7C47305909090",
-          "off": "C5FA1183FC010000"
-        }
-      ]
-    },
-    {
-      "name": "Max Haze ( on gain )",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "668BDC0",
-          "on": "8B8B4C050000898B48050000E9D12AABFA",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "113E89C",
-          "on": "E91FD5540590",
-          "off": "898B48050000"
+          "offset": "F4612E",
+          "on": "E9205D740590909090",
+          "off": "C4C17A118620040000"
         }
       ]
     },
@@ -112,13 +91,34 @@
       ]
     },
     {
-      "name": "One Hit Kill [MC]",
+      "name": "Max Haze ( on gain )",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "668BE0D",
-          "on": "0F57C09090909090",
-          "off": "C5FA1183FC010000"
+          "offset": "668BDC0",
+          "on": "8B8B4C050000898B48050000E9D12AABFA",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "113E89C",
+          "on": "E91FD5540590",
+          "off": "898B48050000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ichor",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "668BDD1",
+          "on": "C4C17A109704050000C4C17A119700050000E99810ACFA",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "114CE77",
+          "on": "E955EF530590909090",
+          "off": "C4C17A119700050000"
         }
       ]
     }

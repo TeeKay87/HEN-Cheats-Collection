@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "F0346E",
-          "on": "9090909090909090",
-          "off": "4189848EDC130000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -38,13 +27,13 @@
       ]
     },
     {
-      "name": "All Client 1-Hit Kill",
+      "name": "Infinite Ammo",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "14f6bf7",
-          "on": "29C090",
-          "off": "4429F8"
+          "offset": "F0346E",
+          "on": "9090909090909090",
+          "off": "4189848EDC130000"
         }
       ]
     },
@@ -97,110 +86,29 @@
       ]
     },
     {
-      "name": "Disconnect",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "751c3c0",
-          "on": "646973636F6E6E65637400",
-          "off": "646973636F6E6E65637400"
-        },
-        {
-          "offset": "753b7c4",
-          "on": "0A",
-          "off": "0A"
-        }
-      ]
-    },
-    {
-      "name": "Draw Lobby Debug",
+      "name": "All Client 1-Hit Kill",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "81bc29",
-          "on": "EB",
-          "off": "75"
+          "offset": "14f6bf7",
+          "on": "29C090",
+          "off": "4429F8"
         }
       ]
     },
     {
-      "name": "Force Start Match",
-      "type": "button",
+      "name": "No Recoil",
+      "type": "checkbox",
       "memory": [
         {
-          "offset": "751c3c0",
-          "on": "6C6F6262795F737461727467616D6500",
-          "off": "6C6F6262795F737461727467616D6500"
+          "offset": "f3bc54",
+          "on": "90909090",
+          "off": "C5FA110E"
         },
         {
-          "offset": "753b7c4",
-          "on": "0F",
-          "off": "0F"
-        }
-      ]
-    },
-    {
-      "name": "Give CRBR-S",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "ad38380",
-          "on": "0300000000000000",
-          "off": "0300000000000000"
-        }
-      ]
-    },
-    {
-      "name": "Give Porters X2 Ray Gun",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "ad38380",
-          "on": "D701000000000000",
-          "off": "D701000000000000"
-        }
-      ]
-    },
-    {
-      "name": "Give RAI K-84",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "ad38380",
-          "on": "3A00000000000000",
-          "off": "3A00000000000000"
-        }
-      ]
-    },
-    {
-      "name": "Movement Speed 1000",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "751c3c0",
-          "on": "675F7370656564203130303000",
-          "off": "675F7370656564203130303000"
-        },
-        {
-          "offset": "753b7c4",
-          "on": "0C",
-          "off": "0C"
-        }
-      ]
-    },
-    {
-      "name": "Movement Speed 500",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "751c3c0",
-          "on": "675F73706565642035303000",
-          "off": "675F73706565642035303000"
-        },
-        {
-          "offset": "753b7c4",
-          "on": "0B",
-          "off": "0B"
+          "offset": "f3bc62",
+          "on": "9090909090",
+          "off": "C5FA114604"
         }
       ]
     },
@@ -221,18 +129,39 @@
       ]
     },
     {
-      "name": "No Recoil",
+      "name": "Rapid Fire",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "f3bc54",
-          "on": "90909090",
-          "off": "C5FA110E"
+          "offset": "e652e6",
+          "on": "9090",
+          "off": "8932"
         },
         {
-          "offset": "f3bc62",
-          "on": "9090909090",
-          "off": "C5FA114604"
+          "offset": "e65308",
+          "on": "9090",
+          "off": "890A"
+        }
+      ]
+    },
+    {
+      "name": "Vehicle Godmode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "12d72dc",
+          "on": "898190030000",
+          "off": "898190030000"
+        },
+        {
+          "offset": "1ff7000",
+          "on": "83B970030000017505E9D4022EFF898190030000E9C9022EFF",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "12d72dc",
+          "on": "E91FFDD10090",
+          "off": "898190030000"
         }
       ]
     },
@@ -269,18 +198,34 @@
       ]
     },
     {
-      "name": "Rapid Fire",
-      "type": "checkbox",
+      "name": "Movement Speed 500",
+      "type": "button",
       "memory": [
         {
-          "offset": "e652e6",
-          "on": "9090",
-          "off": "8932"
+          "offset": "751c3c0",
+          "on": "675F73706565642035303000",
+          "off": "675F73706565642035303000"
         },
         {
-          "offset": "e65308",
-          "on": "9090",
-          "off": "890A"
+          "offset": "753b7c4",
+          "on": "0B",
+          "off": "0B"
+        }
+      ]
+    },
+    {
+      "name": "Movement Speed 1000",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "751c3c0",
+          "on": "675F7370656564203130303000",
+          "off": "675F7370656564203130303000"
+        },
+        {
+          "offset": "753b7c4",
+          "on": "0C",
+          "off": "0C"
         }
       ]
     },
@@ -301,6 +246,55 @@
       ]
     },
     {
+      "name": "Give Porters X2 Ray Gun",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "ad38380",
+          "on": "D701000000000000",
+          "off": "D701000000000000"
+        }
+      ]
+    },
+    {
+      "name": "Give CRBR-S",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "ad38380",
+          "on": "0300000000000000",
+          "off": "0300000000000000"
+        }
+      ]
+    },
+    {
+      "name": "Give RAI K-84",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "ad38380",
+          "on": "3A00000000000000",
+          "off": "3A00000000000000"
+        }
+      ]
+    },
+    {
+      "name": "Force Start Match",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "751c3c0",
+          "on": "6C6F6262795F737461727467616D6500",
+          "off": "6C6F6262795F737461727467616D6500"
+        },
+        {
+          "offset": "753b7c4",
+          "on": "0F",
+          "off": "0F"
+        }
+      ]
+    },
+    {
       "name": "Restart Match",
       "type": "button",
       "memory": [
@@ -317,23 +311,29 @@
       ]
     },
     {
-      "name": "Vehicle Godmode",
+      "name": "Disconnect",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "751c3c0",
+          "on": "646973636F6E6E65637400",
+          "off": "646973636F6E6E65637400"
+        },
+        {
+          "offset": "753b7c4",
+          "on": "0A",
+          "off": "0A"
+        }
+      ]
+    },
+    {
+      "name": "Draw Lobby Debug",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "12d72dc",
-          "on": "898190030000",
-          "off": "898190030000"
-        },
-        {
-          "offset": "1ff7000",
-          "on": "83B970030000017505E9D4022EFF898190030000E9C9022EFF",
-          "off": "00000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "12d72dc",
-          "on": "E91FFDD10090",
-          "off": "898190030000"
+          "offset": "81bc29",
+          "on": "EB",
+          "off": "75"
         }
       ]
     }

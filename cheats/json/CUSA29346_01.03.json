@@ -16,22 +16,6 @@
       ]
     },
     {
-      "name": "Health Node Fragment",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "4D0F87A",
-          "on": "C787580200000400000048638758020000E9D7AD80FB",
-          "off": "00000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "51A660",
-          "on": "E915527F049090",
-          "off": "48638758020000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -80,18 +64,13 @@
       ]
     },
     {
-      "name": "Max Apocalypse Flask",
+      "name": "One Hit Kill",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "4D0F892",
-          "on": "C787000100000000C642C5FA108700010000E98FAD80FB",
-          "off": "0000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "51A630",
-          "on": "E95D527F04909090",
-          "off": "C5FA108700010000"
+          "offset": "35C0F2",
+          "on": "C7878400000000000000",
+          "off": "898784000000C3909090"
         }
       ]
     },
@@ -112,45 +91,34 @@
       ]
     },
     {
-      "name": "One Hit Kill",
+      "name": "Health Node Fragment",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "35C0F2",
-          "on": "C7878400000000000000",
-          "off": "898784000000C3909090"
+          "offset": "4D0F87A",
+          "on": "C787580200000400000048638758020000E9D7AD80FB",
+          "off": "00000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "51A660",
+          "on": "E915527F049090",
+          "off": "48638758020000"
         }
       ]
     },
     {
-      "name": "Super Jump Drone [ Land ]",
+      "name": "Max Apocalypse Flask",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "4D0F8DF",
-          "on": "415741BF000020C166410F6EC7415FF30F10C0E938C880FB",
-          "off": "000000000000000000000000000000000000000000000000"
+          "offset": "4D0F892",
+          "on": "C787000100000000C642C5FA108700010000E98FAD80FB",
+          "off": "0000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "51C127",
-          "on": "E9B3377F04909090",
-          "off": "C5FA1087D8020000"
-        }
-      ]
-    },
-    {
-      "name": "Super Jump Drone [ Water ]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "4D0F8F9",
-          "on": "415741BF000020C166410F6EC7415FF30F10C0E97EC880FB",
-          "off": "000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "51C187",
-          "on": "E96D377F04909090",
-          "off": "C5FA1087E8020000"
+          "offset": "51A630",
+          "on": "E95D527F04909090",
+          "off": "C5FA108700010000"
         }
       ]
     },
@@ -183,6 +151,38 @@
           "offset": "51C0A7",
           "on": "E919387F04909090",
           "off": "C5FA1087C8020000"
+        }
+      ]
+    },
+    {
+      "name": "Super Jump Drone [ Land ]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4D0F8DF",
+          "on": "415741BF000020C166410F6EC7415FF30F10C0E938C880FB",
+          "off": "000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "51C127",
+          "on": "E9B3377F04909090",
+          "off": "C5FA1087D8020000"
+        }
+      ]
+    },
+    {
+      "name": "Super Jump Drone [ Water ]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4D0F8F9",
+          "on": "415741BF000020C166410F6EC7415FF30F10C0E97EC880FB",
+          "off": "000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "51C187",
+          "on": "E96D377F04909090",
+          "off": "C5FA1087E8020000"
         }
       ]
     },

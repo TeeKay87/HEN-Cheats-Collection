@@ -5,13 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-bomb",
+      "name": "Invincible",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "80807B1107",
-          "on": "63",
-          "off": "63"
+          "offset": "808034D880",
+          "on": "FF",
+          "off": "FF"
+        },
+        {
+          "offset": "808034D881",
+          "on": "FF",
+          "off": "FF"
         }
       ]
     },
@@ -21,6 +26,17 @@
       "memory": [
         {
           "offset": "808034DD49",
+          "on": "63",
+          "off": "63"
+        }
+      ]
+    },
+    {
+      "name": "Infinite-bomb",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80807B1107",
           "on": "63",
           "off": "63"
         }
@@ -37,22 +53,6 @@
         },
         {
           "offset": "80807B110D",
-          "on": "FF",
-          "off": "FF"
-        }
-      ]
-    },
-    {
-      "name": "Invincible",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "808034D880",
-          "on": "FF",
-          "off": "FF"
-        },
-        {
-          "offset": "808034D881",
           "on": "FF",
           "off": "FF"
         }

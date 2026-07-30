@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "All Levitate Press L2 to Descend",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5587B6B",
-          "on": "C783CC0000000000484480BBF00100009A750CC783CC0000000000C843EB08C5FA1183CC000000E9395436FD",
-          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "28ECFC8",
-          "on": "E99EABC902909090",
-          "off": "C5FA1183CC000000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health/shield/x9999 Orb(Pause game to restore health/shield/Orb)",
       "type": "checkbox",
       "memory": [
@@ -43,6 +27,22 @@
         {
           "offset": "5587B6B",
           "on": "C783CC0000000000484480BBF001000092750CC783CC0000000000C843EB08C5FA1183CC000000E9395436FD",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "28ECFC8",
+          "on": "E99EABC902909090",
+          "off": "C5FA1183CC000000"
+        }
+      ]
+    },
+    {
+      "name": "All Levitate Press L2 to Descend",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5587B6B",
+          "on": "C783CC0000000000484480BBF00100009A750CC783CC0000000000C843EB08C5FA1183CC000000E9395436FD",
           "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
         },
         {

@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Fast Exp/Leveling",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "F97822",
-          "on": "014B3C0143384883",
-          "off": "894B3C0143384883"
-        }
-      ]
-    },
-    {
       "name": "Infinite Ammo",
       "type": "checkbox",
       "memory": [
@@ -31,7 +20,7 @@
       "type": "checkbox",
       "memory": [
         {
-          "offset": "b97822",
+          "offset": "F97822",
           "on": "014B3C0143384883",
           "off": "894B3C0143384883"
         }
@@ -45,6 +34,17 @@
           "offset": "b6e610",
           "on": "909090909090C366",
           "off": "8B8794030000C366"
+        }
+      ]
+    },
+    {
+      "name": "Fast Exp/Leveling",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "b97822",
+          "on": "014B3C0143384883",
+          "off": "894B3C0143384883"
         }
       ]
     }

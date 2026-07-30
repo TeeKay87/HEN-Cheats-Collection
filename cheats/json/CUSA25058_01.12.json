@@ -21,22 +21,6 @@
       ]
     },
     {
-      "name": "Inf Boost",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7DB83C",
-          "on": "4981FA96EDE118740C488B0349890424E9CBA58BFF488B43E0EBF1",
-          "off": "000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "95E15",
-          "on": "E9225A74009090",
-          "off": "488B0349890424"
-        }
-      ]
-    },
-    {
       "name": "Inf HP \u002B (MC)",
       "type": "checkbox",
       "memory": [
@@ -55,6 +39,22 @@
           "offset": "7DB80D",
           "on": "EB00",
           "off": "EB17"
+        }
+      ]
+    },
+    {
+      "name": "Inf Boost",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7DB83C",
+          "on": "4981FA96EDE118740C488B0349890424E9CBA58BFF488B43E0EBF1",
+          "off": "000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "95E15",
+          "on": "E9225A74009090",
+          "off": "488B0349890424"
         }
       ]
     }

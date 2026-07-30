@@ -2,9 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Shikigami no Shiro" Moder="Ali-mk" Cusa="SLPM62165" Version="01.00" Process="eboot.bin">
   <Genres Name="Platformer" />
   <Items />
-  <Cheat Text="Infinite-Bomb">
+  <Cheat Text="Invincible">
     <Cheatline>
-      <Offset>807FEC9A66</Offset>
+      <Offset>807FEC9A48</Offset>
+      <Section>0</Section>
+      <ValueOn>FF</ValueOn>
+      <ValueOff>FF</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>807FEC9A49</Offset>
       <Section>0</Section>
       <ValueOn>FF</ValueOn>
       <ValueOff>FF</ValueOff>
@@ -24,15 +30,9 @@
       <ValueOff>FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Invincible">
+  <Cheat Text="Infinite-Bomb">
     <Cheatline>
-      <Offset>807FEC9A48</Offset>
-      <Section>0</Section>
-      <ValueOn>FF</ValueOn>
-      <ValueOff>FF</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>807FEC9A49</Offset>
+      <Offset>807FEC9A66</Offset>
       <Section>0</Section>
       <ValueOn>FF</ValueOn>
       <ValueOff>FF</ValueOff>

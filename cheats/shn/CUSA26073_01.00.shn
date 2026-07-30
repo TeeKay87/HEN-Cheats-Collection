@@ -2,12 +2,12 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Natsuki Chronicles" Moder="Ali-mk" Cusa="CUSA26073" Version="01.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite-credits-ARCADE-Mode">
+  <Cheat Text="Invincible-ARCADE-Mode">
     <Cheatline>
-      <Offset>36F86D</Offset>
+      <Offset>298389</Offset>
       <Section>0</Section>
       <ValueOn>90-90-90-90-90-90</ValueOn>
-      <ValueOff>FF-8B-48-01-00-00</ValueOff>
+      <ValueOff>FF-90-88-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite-SHELD-ARCADE-Mode">
@@ -18,12 +18,12 @@
       <ValueOff>C5-FA-58-05-F2-7E-69-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite-SHELD-STORY-Mode">
+  <Cheat Text="Infinite-credits-ARCADE-Mode">
     <Cheatline>
-      <Offset>28A5CE</Offset>
+      <Offset>36F86D</Offset>
       <Section>0</Section>
-      <ValueOn>90-90-90-90</ValueOn>
-      <ValueOff>C5-FA-5C-C1</ValueOff>
+      <ValueOn>90-90-90-90-90-90</ValueOn>
+      <ValueOff>FF-8B-48-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite-SP-ARCADE-Mode">
@@ -40,22 +40,6 @@
       <ValueOff>89-87-1C-07-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite-SP-STORY-Mode">
-    <Cheatline>
-      <Offset>28FF40</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>C5-FA-11-87-1C-07-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Invincible-ARCADE-Mode">
-    <Cheatline>
-      <Offset>298389</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90</ValueOn>
-      <ValueOff>FF-90-88-01-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Invincible-STORY-Mode">
     <Cheatline>
       <Offset>28A571</Offset>
@@ -68,6 +52,22 @@
       <Section>0</Section>
       <ValueOn>90-90-90-90-90</ValueOn>
       <ValueOff>E8-F5-1F-FF-FF</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite-SHELD-STORY-Mode">
+    <Cheatline>
+      <Offset>28A5CE</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90</ValueOn>
+      <ValueOff>C5-FA-5C-C1</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite-SP-STORY-Mode">
+    <Cheatline>
+      <Offset>28FF40</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-87-1C-07-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="MAX-CR-Points-STORY-Mode-1-buy">

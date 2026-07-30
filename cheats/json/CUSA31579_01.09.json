@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Combo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "80C2FCF8",
-          "on": "9090909090",
-          "off": "E8D39AB1FF"
-        }
-      ]
-    },
-    {
       "name": "Inf Hp",
       "type": "checkbox",
       "memory": [
@@ -27,13 +16,13 @@
       ]
     },
     {
-      "name": "Inf Items (At least 2)",
+      "name": "Inf Mp",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "80772AD6",
+          "offset": "80B328BF",
           "on": "9090909090",
-          "off": "E8C5AD5C00"
+          "off": "E8EC7C6800"
         }
       ]
     },
@@ -49,13 +38,24 @@
       ]
     },
     {
-      "name": "Inf Mp",
+      "name": "Inf Items (At least 2)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "80B328BF",
+          "offset": "80772AD6",
           "on": "9090909090",
-          "off": "E8EC7C6800"
+          "off": "E8C5AD5C00"
+        }
+      ]
+    },
+    {
+      "name": "Inf Combo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80C2FCF8",
+          "on": "9090909090",
+          "off": "E8D39AB1FF"
         }
       ]
     }

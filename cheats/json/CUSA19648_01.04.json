@@ -5,33 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "All Guns",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1A485F9",
-          "on": "83C308",
-          "off": "035F30"
-        }
-      ]
-    },
-    {
-      "name": "Counter Bar Refill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "24E7D33",
-          "on": "41C746540000C842E9F0B554FF",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "1A3332A",
-          "on": "E9044AAB0090",
-          "off": "C4C17A114654"
-        }
-      ]
-    },
-    {
       "name": "Infinite HP",
       "type": "checkbox",
       "memory": [
@@ -60,6 +33,33 @@
           "offset": "1962D8F",
           "on": "E9914FB80090",
           "off": "0F49C8894F2C"
+        }
+      ]
+    },
+    {
+      "name": "Counter Bar Refill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "24E7D33",
+          "on": "41C746540000C842E9F0B554FF",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "1A3332A",
+          "on": "E9044AAB0090",
+          "off": "C4C17A114654"
+        }
+      ]
+    },
+    {
+      "name": "All Guns",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1A485F9",
+          "on": "83C308",
+          "off": "035F30"
         }
       ]
     },

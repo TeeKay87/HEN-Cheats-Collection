@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "1 Hit Kill (MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1F93841",
-          "on": "7515",
-          "off": "7504"
-        }
-      ]
-    },
-    {
       "name": "Health / Stamin / 1 Hit Kill (Master Code)",
       "type": "checkbox",
       "memory": [
@@ -28,6 +17,28 @@
           "offset": "88E783",
           "on": "E9785070019090",
           "off": "488903418A4F06"
+        }
+      ]
+    },
+    {
+      "name": "Stamina (MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F93804",
+          "on": "7565",
+          "off": "7545"
+        }
+      ]
+    },
+    {
+      "name": "1 Hit Kill (MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F93841",
+          "on": "7515",
+          "off": "7504"
         }
       ]
     },
@@ -60,17 +71,6 @@
           "offset": "99442A",
           "on": "E927F4E10190",
           "off": "4989068A4B06"
-        }
-      ]
-    },
-    {
-      "name": "Stamina (MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1F93804",
-          "on": "7565",
-          "off": "7545"
         }
       ]
     }

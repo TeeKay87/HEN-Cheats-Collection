@@ -5,35 +5,34 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Air (Under Water)",
+      "name": "Ryu Infinite HP \u002B 1Hk (Dragon Sword)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "721F92",
-          "on": "9090",
-          "off": "FFC8"
+          "offset": "CD6617",
+          "on": "80BC56E4010000017512668BBC56840100006689BC5694010000EB1E80BC56E501000000750C66C78456940100000000EB086689BC5694010000E9C82AB7FF",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "849116",
+          "on": "E9FCD44800909090",
+          "off": "6689BC5694010000"
         }
       ]
     },
     {
-      "name": "Infinite Karma",
+      "name": "Rachel Infinite HP \u002B 1Hk (War Hammer)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "A0A134",
-          "on": "BF00CA9A3B90",
-          "off": "81FF00CA9A3B"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Yellow Essence",
-      "type": "checkbox",
-      "memory": [
+          "offset": "CD6656",
+          "on": "80BC56E20100009A7512668BBC56840100006689BC5694010000EB1E80BC56E301000000750C66C78456940100000000EB086689BC5694010000E9892AB7FF",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
         {
-          "offset": "8458FE",
-          "on": "0F4FCB",
-          "off": "0F4CCB"
+          "offset": "849116",
+          "on": "E93BD54800909090",
+          "off": "6689BC5694010000"
         }
       ]
     },
@@ -60,34 +59,35 @@
       ]
     },
     {
-      "name": "Rachel Infinite HP \u002B 1Hk (War Hammer)",
+      "name": "Infinite Yellow Essence",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "CD6656",
-          "on": "80BC56E20100009A7512668BBC56840100006689BC5694010000EB1E80BC56E301000000750C66C78456940100000000EB086689BC5694010000E9892AB7FF",
-          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "849116",
-          "on": "E93BD54800909090",
-          "off": "6689BC5694010000"
+          "offset": "8458FE",
+          "on": "0F4FCB",
+          "off": "0F4CCB"
         }
       ]
     },
     {
-      "name": "Ryu Infinite HP \u002B 1Hk (Dragon Sword)",
+      "name": "Infinite Karma",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "CD6617",
-          "on": "80BC56E4010000017512668BBC56840100006689BC5694010000EB1E80BC56E501000000750C66C78456940100000000EB086689BC5694010000E9C82AB7FF",
-          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
+          "offset": "A0A134",
+          "on": "BF00CA9A3B90",
+          "off": "81FF00CA9A3B"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Air (Under Water)",
+      "type": "checkbox",
+      "memory": [
         {
-          "offset": "849116",
-          "on": "E9FCD44800909090",
-          "off": "6689BC5694010000"
+          "offset": "721F92",
+          "on": "9090",
+          "off": "FFC8"
         }
       ]
     }

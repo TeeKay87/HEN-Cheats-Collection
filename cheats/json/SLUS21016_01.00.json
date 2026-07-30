@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite-Grenades",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "807FDA7844",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
       "name": "Inf-Ammo-Never-Reload",
       "type": "checkbox",
       "memory": [
@@ -15,17 +26,6 @@
         },
         {
           "offset": "807FDA462C",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite-Grenades",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "807FDA7844",
           "on": "00000000",
           "off": "00000000"
         }

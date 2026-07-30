@@ -16,17 +16,6 @@
       ]
     },
     {
-      "name": "Max eggs",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "157900",
-          "on": "96",
-          "off": "96"
-        }
-      ]
-    },
-    {
       "name": "Max gems",
       "type": "checkbox",
       "memory": [
@@ -34,6 +23,17 @@
           "offset": "1579BC",
           "on": "204E",
           "off": "204E"
+        }
+      ]
+    },
+    {
+      "name": "Max eggs",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "157900",
+          "on": "96",
+          "off": "96"
         }
       ]
     },

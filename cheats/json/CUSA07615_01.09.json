@@ -37,17 +37,6 @@
       ]
     },
     {
-      "name": "Infinite Money, CP",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7567DD",
-          "on": "9090909090909090",
-          "off": "49898CC7A8C80000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Skillpoints",
       "type": "checkbox",
       "memory": [
@@ -60,6 +49,17 @@
           "offset": "752C04",
           "on": "E9F71BA800",
           "off": "498954C648"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Money, CP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7567DD",
+          "on": "9090909090909090",
+          "off": "49898CC7A8C80000"
         }
       ]
     },

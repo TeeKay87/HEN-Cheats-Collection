@@ -5,13 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "1-Hit Kill",
+      "name": "All Client Infinite Ammo",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1A92A6E",
-          "on": "29C090",
-          "off": "4429E8"
+          "offset": "1BB015C",
+          "on": "90909090909090",
+          "off": "89848A24130000"
         }
       ]
     },
@@ -27,13 +27,186 @@
       ]
     },
     {
-      "name": "All Client Infinite Ammo",
+      "name": "Infinite Points",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1BB015C",
-          "on": "90909090909090",
-          "off": "89848A24130000"
+          "offset": "12E874D",
+          "on": "4D89B66C440000",
+          "off": "4189866C440000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Specialist / Grenades",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B0D78A",
+          "on": "909090909090",
+          "off": "C4C17A114518"
+        },
+        {
+          "offset": "12A8B83",
+          "on": "C7030000C842909090",
+          "off": "C5FA1045ACC5FA1103"
+        },
+        {
+          "offset": "B0D709",
+          "on": "41C745180000C84290909090",
+          "off": "C4C17A1155180F8595000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Shield Durability",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1C44852",
+          "on": "9090",
+          "off": "8919"
+        }
+      ]
+    },
+    {
+      "name": "1-Hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1A92A6E",
+          "on": "29C090",
+          "off": "4429E8"
+        }
+      ]
+    },
+    {
+      "name": "Draw Lobby Debug",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "16B27B7",
+          "on": "E9A900000090",
+          "off": "0F85A8000000"
+        }
+      ]
+    },
+    {
+      "name": "Remove Dvar Protections",
+      "hint": "The following options are for testing purposes only!",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "19B65FE",
+          "on": "909090909090",
+          "off": "0F856B060000"
+        },
+        {
+          "offset": "19B6606",
+          "on": "909090909090",
+          "off": "0F885A060000"
+        }
+      ]
+    },
+    {
+      "name": "Spoof Lobby ZM",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "4DDAB28",
+          "on": "40400000",
+          "off": "40400000"
+        }
+      ]
+    },
+    {
+      "name": "Spoof Lobby WZ",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "4DDAB28",
+          "on": "43400000",
+          "off": "43400000"
+        }
+      ]
+    },
+    {
+      "name": "exec wz default settings.cfg",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "B1C22A0",
+          "on": "657865632067616D65646174612F636F6E666967732F777A2F777A5F64656661756C745F73657474696E67732E6366670A00",
+          "off": "657865632067616D65646174612F636F6E666967732F777A2F777A5F64656661756C745F73657474696E67732E6366670A00"
+        },
+        {
+          "offset": "B23F2AC",
+          "on": "31",
+          "off": "31"
+        }
+      ]
+    },
+    {
+      "name": "map wz open skyscrapers",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "B1C22A0",
+          "on": "6D617020777A5F6F70656E5F736B79736372617065727300",
+          "off": "6D617020777A5F6F70656E5F736B79736372617065727300"
+        },
+        {
+          "offset": "B23F2AC",
+          "on": "18",
+          "off": "18"
+        }
+      ]
+    },
+    {
+      "name": "map wz escape",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "B1C22A0",
+          "on": "6D617020777A5F65736361706500",
+          "off": "6D617020777A5F65736361706500"
+        },
+        {
+          "offset": "B23F2AC",
+          "on": "0D",
+          "off": "0D"
+        }
+      ]
+    },
+    {
+      "name": "sv mapname wz open skyscrapers",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "B1C22A0",
+          "on": "73765F6D61706E616D6520777A5F6F70656E5F736B79736372617065727300",
+          "off": "73765F6D61706E616D6520777A5F6F70656E5F736B79736372617065727300"
+        },
+        {
+          "offset": "B23F2AC",
+          "on": "1E",
+          "off": "1E"
+        }
+      ]
+    },
+    {
+      "name": "disconnect",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "B1C22A0",
+          "on": "646973636F6E6E65637400",
+          "off": "646973636F6E6E65637400"
+        },
+        {
+          "offset": "B23F2AC",
+          "on": "0A",
+          "off": "0A"
         }
       ]
     },
@@ -71,124 +244,6 @@
       ]
     },
     {
-      "name": "disconnect",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "B1C22A0",
-          "on": "646973636F6E6E65637400",
-          "off": "646973636F6E6E65637400"
-        },
-        {
-          "offset": "B23F2AC",
-          "on": "0A",
-          "off": "0A"
-        }
-      ]
-    },
-    {
-      "name": "Draw Lobby Debug",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "16B27B7",
-          "on": "E9A900000090",
-          "off": "0F85A8000000"
-        }
-      ]
-    },
-    {
-      "name": "exec wz default settings.cfg",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "B1C22A0",
-          "on": "657865632067616D65646174612F636F6E666967732F777A2F777A5F64656661756C745F73657474696E67732E6366670A00",
-          "off": "657865632067616D65646174612F636F6E666967732F777A2F777A5F64656661756C745F73657474696E67732E6366670A00"
-        },
-        {
-          "offset": "B23F2AC",
-          "on": "31",
-          "off": "31"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Points",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "12E874D",
-          "on": "4D89B66C440000",
-          "off": "4189866C440000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Shield Durability",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1C44852",
-          "on": "9090",
-          "off": "8919"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Specialist / Grenades",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "B0D78A",
-          "on": "909090909090",
-          "off": "C4C17A114518"
-        },
-        {
-          "offset": "12A8B83",
-          "on": "C7030000C842909090",
-          "off": "C5FA1045ACC5FA1103"
-        },
-        {
-          "offset": "B0D709",
-          "on": "41C745180000C84290909090",
-          "off": "C4C17A1155180F8595000000"
-        }
-      ]
-    },
-    {
-      "name": "map wz escape",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "B1C22A0",
-          "on": "6D617020777A5F65736361706500",
-          "off": "6D617020777A5F65736361706500"
-        },
-        {
-          "offset": "B23F2AC",
-          "on": "0D",
-          "off": "0D"
-        }
-      ]
-    },
-    {
-      "name": "map wz open skyscrapers",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "B1C22A0",
-          "on": "6D617020777A5F6F70656E5F736B79736372617065727300",
-          "off": "6D617020777A5F6F70656E5F736B79736372617065727300"
-        },
-        {
-          "offset": "B23F2AC",
-          "on": "18",
-          "off": "18"
-        }
-      ]
-    },
-    {
       "name": "Patch FindXAssetHeader",
       "type": "button",
       "memory": [
@@ -215,68 +270,13 @@
       ]
     },
     {
-      "name": "Remove Dvar Protections",
-      "hint": "The following options are for testing purposes only!",
+      "name": "All Client Infinite Ammo",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "19B65FE",
-          "on": "909090909090",
-          "off": "0F856B060000"
-        },
-        {
-          "offset": "19B6606",
-          "on": "909090909090",
-          "off": "0F885A060000"
-        }
-      ]
-    },
-    {
-      "name": "Spoof Lobby WZ",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "4DDAB28",
-          "on": "43400000",
-          "off": "43400000"
-        }
-      ]
-    },
-    {
-      "name": "Spoof Lobby ZM",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "4DDAB28",
-          "on": "40400000",
-          "off": "40400000"
-        }
-      ]
-    },
-    {
-      "name": "sv mapname wz open skyscrapers",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "B1C22A0",
-          "on": "73765F6D61706E616D6520777A5F6F70656E5F736B79736372617065727300",
-          "off": "73765F6D61706E616D6520777A5F6F70656E5F736B79736372617065727300"
-        },
-        {
-          "offset": "B23F2AC",
-          "on": "1E",
-          "off": "1E"
-        }
-      ]
-    },
-    {
-      "name": "1-Hit Kill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1692a6e",
-          "on": "29C090",
-          "off": "4429E8"
+          "offset": "17b015c",
+          "on": "90909090909090",
+          "off": "89848A24130000"
         }
       ]
     },
@@ -292,13 +292,185 @@
       ]
     },
     {
-      "name": "All Client Infinite Ammo",
+      "name": "Infinite Points",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "17b015c",
-          "on": "90909090909090",
-          "off": "89848A24130000"
+          "offset": "ee874d",
+          "on": "4D89B66C440000",
+          "off": "4189866C440000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Specialist / Grenades",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "70d78a",
+          "on": "909090909090",
+          "off": "C4C17A114518"
+        },
+        {
+          "offset": "ea8b83",
+          "on": "C7030000C842909090",
+          "off": "C5FA1045ACC5FA1103"
+        },
+        {
+          "offset": "70d709",
+          "on": "41C745180000C84290909090",
+          "off": "C4C17A1155180F8595000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Shield Durability",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1844852",
+          "on": "9090",
+          "off": "8919"
+        }
+      ]
+    },
+    {
+      "name": "1-Hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1692a6e",
+          "on": "29C090",
+          "off": "4429E8"
+        }
+      ]
+    },
+    {
+      "name": "Draw Lobby Debug",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "12b27b7",
+          "on": "E9A900000090",
+          "off": "0F85A8000000"
+        }
+      ]
+    },
+    {
+      "name": "Remove Dvar Protections",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "15b65fe",
+          "on": "909090909090",
+          "off": "0F856B060000"
+        },
+        {
+          "offset": "15b6606",
+          "on": "909090909090",
+          "off": "0F885A060000"
+        }
+      ]
+    },
+    {
+      "name": "Spoof Lobby ZM",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "49dab28",
+          "on": "40400000",
+          "off": "40400000"
+        }
+      ]
+    },
+    {
+      "name": "Spoof Lobby WZ",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "49dab28",
+          "on": "43400000",
+          "off": "43400000"
+        }
+      ]
+    },
+    {
+      "name": "exec wz default settings.cfg",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "adc22a0",
+          "on": "657865632067616D65646174612F636F6E666967732F777A2F777A5F64656661756C745F73657474696E67732E6366670A00",
+          "off": "657865632067616D65646174612F636F6E666967732F777A2F777A5F64656661756C745F73657474696E67732E6366670A00"
+        },
+        {
+          "offset": "ae3f2ac",
+          "on": "31",
+          "off": "31"
+        }
+      ]
+    },
+    {
+      "name": "map wz open skyscrapers",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "adc22a0",
+          "on": "6D617020777A5F6F70656E5F736B79736372617065727300",
+          "off": "6D617020777A5F6F70656E5F736B79736372617065727300"
+        },
+        {
+          "offset": "ae3f2ac",
+          "on": "18",
+          "off": "18"
+        }
+      ]
+    },
+    {
+      "name": "map wz escape",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "adc22a0",
+          "on": "6D617020777A5F65736361706500",
+          "off": "6D617020777A5F65736361706500"
+        },
+        {
+          "offset": "ae3f2ac",
+          "on": "0D",
+          "off": "0D"
+        }
+      ]
+    },
+    {
+      "name": "sv mapname wz open skyscrapers",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "adc22a0",
+          "on": "73765F6D61706E616D6520777A5F6F70656E5F736B79736372617065727300",
+          "off": "73765F6D61706E616D6520777A5F6F70656E5F736B79736372617065727300"
+        },
+        {
+          "offset": "ae3f2ac",
+          "on": "1E",
+          "off": "1E"
+        }
+      ]
+    },
+    {
+      "name": "disconnect",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "adc22a0",
+          "on": "646973636F6E6E65637400",
+          "off": "646973636F6E6E65637400"
+        },
+        {
+          "offset": "ae3f2ac",
+          "on": "0A",
+          "off": "0A"
         }
       ]
     },
@@ -336,124 +508,6 @@
       ]
     },
     {
-      "name": "disconnect",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "adc22a0",
-          "on": "646973636F6E6E65637400",
-          "off": "646973636F6E6E65637400"
-        },
-        {
-          "offset": "ae3f2ac",
-          "on": "0A",
-          "off": "0A"
-        }
-      ]
-    },
-    {
-      "name": "Draw Lobby Debug",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "12b27b7",
-          "on": "E9A900000090",
-          "off": "0F85A8000000"
-        }
-      ]
-    },
-    {
-      "name": "exec wz default settings.cfg",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "adc22a0",
-          "on": "657865632067616D65646174612F636F6E666967732F777A2F777A5F64656661756C745F73657474696E67732E6366670A00",
-          "off": "657865632067616D65646174612F636F6E666967732F777A2F777A5F64656661756C745F73657474696E67732E6366670A00"
-        },
-        {
-          "offset": "ae3f2ac",
-          "on": "31",
-          "off": "31"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Points",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "ee874d",
-          "on": "4D89B66C440000",
-          "off": "4189866C440000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Shield Durability",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1844852",
-          "on": "9090",
-          "off": "8919"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Specialist / Grenades",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "70d78a",
-          "on": "909090909090",
-          "off": "C4C17A114518"
-        },
-        {
-          "offset": "ea8b83",
-          "on": "C7030000C842909090",
-          "off": "C5FA1045ACC5FA1103"
-        },
-        {
-          "offset": "70d709",
-          "on": "41C745180000C84290909090",
-          "off": "C4C17A1155180F8595000000"
-        }
-      ]
-    },
-    {
-      "name": "map wz escape",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "adc22a0",
-          "on": "6D617020777A5F65736361706500",
-          "off": "6D617020777A5F65736361706500"
-        },
-        {
-          "offset": "ae3f2ac",
-          "on": "0D",
-          "off": "0D"
-        }
-      ]
-    },
-    {
-      "name": "map wz open skyscrapers",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "adc22a0",
-          "on": "6D617020777A5F6F70656E5F736B79736372617065727300",
-          "off": "6D617020777A5F6F70656E5F736B79736372617065727300"
-        },
-        {
-          "offset": "ae3f2ac",
-          "on": "18",
-          "off": "18"
-        }
-      ]
-    },
-    {
       "name": "Patch FindXAssetHeader",
       "type": "button",
       "memory": [
@@ -476,60 +530,6 @@
           "offset": "a7c9c7",
           "on": "EBAA",
           "off": "EBAA"
-        }
-      ]
-    },
-    {
-      "name": "Remove Dvar Protections",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "15b65fe",
-          "on": "909090909090",
-          "off": "0F856B060000"
-        },
-        {
-          "offset": "15b6606",
-          "on": "909090909090",
-          "off": "0F885A060000"
-        }
-      ]
-    },
-    {
-      "name": "Spoof Lobby WZ",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "49dab28",
-          "on": "43400000",
-          "off": "43400000"
-        }
-      ]
-    },
-    {
-      "name": "Spoof Lobby ZM",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "49dab28",
-          "on": "40400000",
-          "off": "40400000"
-        }
-      ]
-    },
-    {
-      "name": "sv mapname wz open skyscrapers",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "adc22a0",
-          "on": "73765F6D61706E616D6520777A5F6F70656E5F736B79736372617065727300",
-          "off": "73765F6D61706E616D6520777A5F6F70656E5F736B79736372617065727300"
-        },
-        {
-          "offset": "ae3f2ac",
-          "on": "1E",
-          "off": "1E"
         }
       ]
     }

@@ -5,28 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Buy To Earn Money",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "B86DC9",
-          "on": "4401F8",
-          "off": "4429F8"
-        }
-      ]
-    },
-    {
-      "name": "Duplicate Money When Used",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "13CFBF",
-          "on": "41014610",
-          "off": "41294610"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health/Stamina/Magic",
       "type": "checkbox",
       "memory": [
@@ -45,6 +23,28 @@
           "offset": "13CFBF",
           "on": "90909090",
           "off": "41294610"
+        }
+      ]
+    },
+    {
+      "name": "Duplicate Money When Used",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "13CFBF",
+          "on": "41014610",
+          "off": "41294610"
+        }
+      ]
+    },
+    {
+      "name": "Buy To Earn Money",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B86DC9",
+          "on": "4401F8",
+          "off": "4429F8"
         }
       ]
     }

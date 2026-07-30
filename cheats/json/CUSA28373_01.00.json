@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Data Disk (On Spend)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3740ED7",
-          "on": "0187CC000000",
-          "off": "8987CC000000"
-        }
-      ]
-    },
-    {
       "name": "Earn Money (On Spend)",
       "type": "checkbox",
       "memory": [
@@ -27,6 +16,17 @@
       ]
     },
     {
+      "name": "Data Disk (On Spend)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3740ED7",
+          "on": "0187CC000000",
+          "off": "8987CC000000"
+        }
+      ]
+    },
+    {
       "name": "Infinite Carrot Juice",
       "type": "checkbox",
       "memory": [
@@ -34,17 +34,6 @@
           "offset": "3743A99",
           "on": "9090909090909090",
           "off": "41FF8C24EC010000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Exploding Puppet",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "37447F4",
-          "on": "909090909090",
-          "off": "FF8BEC010000"
         }
       ]
     },
@@ -71,17 +60,6 @@
       ]
     },
     {
-      "name": "Infinite SP",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "373C67A",
-          "on": "909090909090",
-          "off": "898BEC000000"
-        }
-      ]
-    },
-    {
       "name": "Plant Seeds multiplier (Do Not Exceed 50)",
       "type": "checkbox",
       "memory": [
@@ -89,6 +67,28 @@
           "offset": "373E86A",
           "on": "0108",
           "off": "8908"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Exploding Puppet",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "37447F4",
+          "on": "909090909090",
+          "off": "FF8BEC010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite SP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "373C67A",
+          "on": "909090909090",
+          "off": "898BEC000000"
         }
       ]
     }

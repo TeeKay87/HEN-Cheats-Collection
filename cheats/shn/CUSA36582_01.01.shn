@@ -2,20 +2,6 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Prince of Persia: The Lost Crown" Moder="Wander FW9.00" Cusa="CUSA36582" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Arrows/Potions(on Shoot/Consume)">
-    <Cheatline>
-      <Offset>84716FD0</Offset>
-      <Section>0</Section>
-      <ValueOn>48-8B-44-C1-30-C6-40-14-0A-E9-02-BC-D2-FC</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>81442BD7</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-F4-43-2D-03-90-90-90-90</ValueOn>
-      <ValueOff>48-8B-44-C1-30-44-29-70-14</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite Health" Description="Turn off before fighting Varham for first time">
     <Cheatline>
       <Offset>847179D0</Offset>
@@ -70,6 +56,20 @@
       <Section>0</Section>
       <ValueOn>E9-A3-D2-D0-03-90-90-90-90</ValueOn>
       <ValueOff>C4-C1-7A-11-86-68-01-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Arrows/Potions(on Shoot/Consume)">
+    <Cheatline>
+      <Offset>84716FD0</Offset>
+      <Section>0</Section>
+      <ValueOn>48-8B-44-C1-30-C6-40-14-0A-E9-02-BC-D2-FC</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>81442BD7</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-F4-43-2D-03-90-90-90-90</ValueOn>
+      <ValueOff>48-8B-44-C1-30-44-29-70-14</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

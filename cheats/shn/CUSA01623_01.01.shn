@@ -17,20 +17,6 @@
       <ValueOff>C5-FA-10-A0-CC-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Item Meter">
-    <Cheatline>
-      <Offset>3BF85A</Offset>
-      <Section>0</Section>
-      <ValueOn>C7-87-D4-01-00-00-00-00-48-43-C5-FA-10-87-D4-01-00-00-E9-1E-35-CB-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>72D87</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-CE-CA-34-00-90-90-90</ValueOn>
-      <ValueOff>C5-FA-11-87-D4-01-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite Magic">
     <Cheatline>
       <Offset>3BF843</Offset>
@@ -43,6 +29,20 @@
       <Section>0</Section>
       <ValueOn>E9-72-CB-34-00-90-90-90</ValueOn>
       <ValueOff>C5-FA-11-83-D0-01-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Item Meter">
+    <Cheatline>
+      <Offset>3BF85A</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-87-D4-01-00-00-00-00-48-43-C5-FA-10-87-D4-01-00-00-E9-1E-35-CB-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>72D87</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-CE-CA-34-00-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-87-D4-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Rage of Sparta">

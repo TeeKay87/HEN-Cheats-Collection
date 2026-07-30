@@ -5,24 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Freeze Timer ( Collect Tech - Scrap )",
+      "name": "Mastercode Health ( must be activated )",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "10904F3",
-          "on": "90909090909090",
-          "off": "C4C17A11442464"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Energy",
-      "type": "checkbox",
-      "memory": [
+          "offset": "2E3BD30",
+          "on": "81BBC80000002C010000750DC5FA118314010000E97F7939FDC5FA118314010000C5FA118314010000E96A7939FD",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
         {
-          "offset": "1D49D9",
-          "on": "C5FA118B18010000",
-          "off": "C5FA118318010000"
+          "offset": "1D36C0",
+          "on": "E96B86C602909090",
+          "off": "C5FA118314010000"
         }
       ]
     },
@@ -33,6 +27,17 @@
         {
           "offset": "2E3BD3C",
           "on": "C5FA118B14010000",
+          "off": "C5FA118314010000"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill [MC]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2E3BD49",
+          "on": "0F57C09090909090",
           "off": "C5FA118314010000"
         }
       ]
@@ -49,18 +54,29 @@
       ]
     },
     {
-      "name": "Mastercode Health ( must be activated )",
+      "name": "Infinite Energy",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "2E3BD30",
-          "on": "81BBC80000002C010000750DC5FA118314010000E97F7939FDC5FA118314010000C5FA118314010000E96A7939FD",
-          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+          "offset": "1D49D9",
+          "on": "C5FA118B18010000",
+          "off": "C5FA118318010000"
+        }
+      ]
+    },
+    {
+      "name": "Max Tech - Scrap",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2E3BDDB",
+          "on": "C7875C01000020BCBE4CC5FA10875C010000E9869B39FD526564646576696C3832202D20465720392E3030",
+          "off": "0000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "1D36C0",
-          "on": "E96B86C602909090",
-          "off": "C5FA118314010000"
+          "offset": "1D5970",
+          "on": "E96664C602909090",
+          "off": "C5FA10875C010000"
         }
       ]
     },
@@ -108,29 +124,13 @@
       ]
     },
     {
-      "name": "Max Tech - Scrap",
+      "name": "Freeze Timer ( Collect Tech - Scrap )",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "2E3BDDB",
-          "on": "C7875C01000020BCBE4CC5FA10875C010000E9869B39FD526564646576696C3832202D20465720392E3030",
-          "off": "0000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "1D5970",
-          "on": "E96664C602909090",
-          "off": "C5FA10875C010000"
-        }
-      ]
-    },
-    {
-      "name": "One Hit Kill [MC]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2E3BD49",
-          "on": "0F57C09090909090",
-          "off": "C5FA118314010000"
+          "offset": "10904F3",
+          "on": "90909090909090",
+          "off": "C4C17A11442464"
         }
       ]
     }

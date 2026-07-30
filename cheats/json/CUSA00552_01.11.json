@@ -5,38 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Enable Dev Menu",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5AE00",
-          "on": "C681812E000001E903933A80",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "4108",
-          "on": "E9F36CC57F9090",
-          "off": "80B9812E000000"
-        }
-      ]
-    },
-    {
-      "name": "Flashlight Does Not Turn Off",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5BDB0",
-          "on": "C4817A118DD4070000E9E3BDA380",
-          "off": "0000000000000000000000000000"
-        },
-        {
-          "offset": "697B98",
-          "on": "E913425C7F90909090",
-          "off": "C4C17A1195D4070000"
-        }
-      ]
-    },
-    {
       "name": "Parts, Skills, Items On Use (x999)",
       "type": "checkbox",
       "memory": [
@@ -65,6 +33,38 @@
           "offset": "68742",
           "on": "E81BFDFFFF9090",
           "off": "FF84BB48640100"
+        }
+      ]
+    },
+    {
+      "name": "Flashlight Does Not Turn Off",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5BDB0",
+          "on": "C4817A118DD4070000E9E3BDA380",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "697B98",
+          "on": "E913425C7F90909090",
+          "off": "C4C17A1195D4070000"
+        }
+      ]
+    },
+    {
+      "name": "Enable Dev Menu",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5AE00",
+          "on": "C681812E000001E903933A80",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "4108",
+          "on": "E9F36CC57F9090",
+          "off": "80B9812E000000"
         }
       ]
     }

@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1286B97",
+          "on": "90909090",
+          "off": "488914C1"
+        }
+      ]
+    },
+    {
       "name": "Bottomless Clip",
       "type": "checkbox",
       "memory": [
@@ -43,11 +54,22 @@
       ]
     },
     {
-      "name": "Infinite Motor Oil",
+      "name": "Molotov: Ignore Crafting Limit",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "014F2D42",
+          "offset": "01278C95",
+          "on": "9090",
+          "off": "29C3"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Weapon Durability",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "015E2417",
           "on": "C5F828C1",
           "off": "C5F25CC0"
         }
@@ -65,6 +87,17 @@
       ]
     },
     {
+      "name": "Infinite Motor Oil",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "014F2D42",
+          "on": "C5F828C1",
+          "off": "C5F25CC0"
+        }
+      ]
+    },
+    {
       "name": "Infinite Silencer",
       "type": "checkbox",
       "memory": [
@@ -72,39 +105,6 @@
           "offset": "01612A7E",
           "on": "898370030000",
           "off": "898B70030000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1286B97",
-          "on": "90909090",
-          "off": "488914C1"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Weapon Durability",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "015E2417",
-          "on": "C5F828C1",
-          "off": "C5F25CC0"
-        }
-      ]
-    },
-    {
-      "name": "Molotov: Ignore Crafting Limit",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "01278C95",
-          "on": "9090",
-          "off": "29C3"
         }
       ]
     }

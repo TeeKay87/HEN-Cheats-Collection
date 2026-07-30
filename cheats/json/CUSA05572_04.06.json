@@ -5,268 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "--Easy_Kill",
+      "name": "TRAINER INFO (read only)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "24EF0B5",
-          "on": "01000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "--Game Speed x1",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "24EF2C0",
-          "on": "0000803F",
-          "off": "0000803F"
-        }
-      ]
-    },
-    {
-      "name": "--Infinite_Adrenaline",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "24EF0C5",
-          "on": "01000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "--Infinite_Horse_Run",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "24EF0BD",
-          "on": "01000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "--Infinite_HP",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "24EF0B1",
-          "on": "01000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "--Infinite_Oxygen",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "24EF0C1",
-          "on": "01000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "--Inifinite_Stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "24EF0CD",
-          "on": "01000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "--Min_Horse_Panic",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "24EF0B9",
-          "on": "01000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "--No_Toxicity",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "24EF0C9",
-          "on": "01000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "--Walking Speed x1",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "24EF3C9",
-          "on": "0000803F",
-          "off": "0000803F"
-        }
-      ]
-    },
-    {
-      "name": "--XP_Multiplier x1",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "24EF288",
-          "on": "01000000",
-          "off": "01000000"
-        }
-      ]
-    },
-    {
-      "name": "--XP_Multiplier x10",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "24EF288",
-          "on": "0A000000",
-          "off": "01000000"
-        }
-      ]
-    },
-    {
-      "name": "--XP_Multiplier x20",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "24EF288",
-          "on": "14000000",
-          "off": "01000000"
-        }
-      ]
-    },
-    {
-      "name": "--XP_Multiplier x5",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "24EF288",
-          "on": "05000000",
-          "off": "01000000"
-        }
-      ]
-    },
-    {
-      "name": "--XP_Multiplier x50",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "24EF288",
-          "on": "32000000",
-          "off": "01000000"
-        }
-      ]
-    },
-    {
-      "name": "--XP_Multiplier x999",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "24EF288",
-          "on": "E7030000",
-          "off": "01000000"
-        }
-      ]
-    },
-    {
-      "name": "Durable Weapons And Armor",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "24EF435",
-          "on": "C74419640000C842498B07E9FB6040FE",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "8F5539",
-          "on": "E9F79EBF019090",
-          "off": "89441964498B07"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Items 4.06 ",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "24EF2E4",
-          "on": "8B45AC3942040F8D0A5C40FE894204E9025C40FE",
-          "off": "0000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "24EF318",
-          "on": "428B543354669C483D0F0100007509669D29CAE91C363FFE669DE915363FFE",
-          "off": "00000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "8F4EF4",
-          "on": "E9EBA3BF0190",
-          "off": "8B45AC894204"
-        },
-        {
-          "offset": "8E2945",
-          "on": "E9CEC9C0019090",
-          "off": "428B54335429CA"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Money 4.06",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "24EF389",
-          "on": "41C7440A543F420F0045036C0A54E9FB153FFE",
-          "off": "00000000000000000000000000000000000000"
-        },
-        {
-          "offset": "8E0992",
-          "on": "E9F2E9C001",
-          "off": "45036C0A54"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Potions",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "24EF357",
-          "on": "C745AC630000008B45AC894204E9115F40FE",
-          "off": "000000000000000000000000000000000000"
-        },
-        {
-          "offset": "8F5274",
-          "on": "E9DEA0BF0190",
-          "off": "8B45AC894204"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Skill Points",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "24EF3ED",
-          "on": "4839F3750C418B04242B45C8E9644FE3FE41817C240CE80300007D02EBE7B8E7030000E94D4FE3FE",
-          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "132435B",
-          "on": "E98DB01C019090",
-          "off": "418B04242B45C8"
+          "offset": "24EEFFF",
+          "on": "00",
+          "off": "00"
         }
       ]
     },
@@ -317,29 +62,90 @@
       ]
     },
     {
-      "name": "Max Weight 99999",
+      "name": "--Easy_Kill",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "24EF465",
-          "on": "4883FB00740CC4817A104CE70CE9172079FE43817CE71000007042740CC4817A104CE70CE9002079FE43C744E70C804FC34743C744E710804FC347E9E91F79FE",
-          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "C81487",
-          "on": "E9D9DF86019090",
-          "off": "C4817A104CE70C"
+          "offset": "24EF0B5",
+          "on": "01000000",
+          "off": "00000000"
         }
       ]
     },
     {
-      "name": "No Crafting and Alchemy Requirements",
+      "name": "--Infinite_Adrenaline",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "AEEB4",
-          "on": "31C090",
-          "off": "8B4204"
+          "offset": "24EF0C5",
+          "on": "01000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "--Infinite_HP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "24EF0B1",
+          "on": "01000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "--Infinite_Horse_Run",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "24EF0BD",
+          "on": "01000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "--Infinite_Oxygen",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "24EF0C1",
+          "on": "01000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "--Inifinite_Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "24EF0CD",
+          "on": "01000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "--Min_Horse_Panic",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "24EF0B9",
+          "on": "01000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "--No_Toxicity",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "24EF0C9",
+          "on": "01000000",
+          "off": "00000000"
         }
       ]
     },
@@ -402,13 +208,207 @@
       ]
     },
     {
-      "name": "TRAINER INFO (read only)",
+      "name": "--XP_Multiplier x1",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "24EEFFF",
-          "on": "00",
-          "off": "00"
+          "offset": "24EF288",
+          "on": "01000000",
+          "off": "01000000"
+        }
+      ]
+    },
+    {
+      "name": "--XP_Multiplier x5",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "24EF288",
+          "on": "05000000",
+          "off": "01000000"
+        }
+      ]
+    },
+    {
+      "name": "--XP_Multiplier x10",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "24EF288",
+          "on": "0A000000",
+          "off": "01000000"
+        }
+      ]
+    },
+    {
+      "name": "--XP_Multiplier x20",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "24EF288",
+          "on": "14000000",
+          "off": "01000000"
+        }
+      ]
+    },
+    {
+      "name": "--XP_Multiplier x50",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "24EF288",
+          "on": "32000000",
+          "off": "01000000"
+        }
+      ]
+    },
+    {
+      "name": "--XP_Multiplier x999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "24EF288",
+          "on": "E7030000",
+          "off": "01000000"
+        }
+      ]
+    },
+    {
+      "name": "--Game Speed x1",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "24EF2C0",
+          "on": "0000803F",
+          "off": "0000803F"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Items 4.06 ",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "24EF2E4",
+          "on": "8B45AC3942040F8D0A5C40FE894204E9025C40FE",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "24EF318",
+          "on": "428B543354669C483D0F0100007509669D29CAE91C363FFE669DE915363FFE",
+          "off": "00000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "8F4EF4",
+          "on": "E9EBA3BF0190",
+          "off": "8B45AC894204"
+        },
+        {
+          "offset": "8E2945",
+          "on": "E9CEC9C0019090",
+          "off": "428B54335429CA"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Potions",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "24EF357",
+          "on": "C745AC630000008B45AC894204E9115F40FE",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "8F5274",
+          "on": "E9DEA0BF0190",
+          "off": "8B45AC894204"
+        }
+      ]
+    },
+    {
+      "name": "No Crafting and Alchemy Requirements",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "AEEB4",
+          "on": "31C090",
+          "off": "8B4204"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Money 4.06",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "24EF389",
+          "on": "41C7440A543F420F0045036C0A54E9FB153FFE",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "8E0992",
+          "on": "E9F2E9C001",
+          "off": "45036C0A54"
+        }
+      ]
+    },
+    {
+      "name": "--Walking Speed x1",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "24EF3C9",
+          "on": "0000803F",
+          "off": "0000803F"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Skill Points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "24EF3ED",
+          "on": "4839F3750C418B04242B45C8E9644FE3FE41817C240CE80300007D02EBE7B8E7030000E94D4FE3FE",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "132435B",
+          "on": "E98DB01C019090",
+          "off": "418B04242B45C8"
+        }
+      ]
+    },
+    {
+      "name": "Durable Weapons And Armor",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "24EF435",
+          "on": "C74419640000C842498B07E9FB6040FE",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "8F5539",
+          "on": "E9F79EBF019090",
+          "off": "89441964498B07"
+        }
+      ]
+    },
+    {
+      "name": "Max Weight 99999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "24EF465",
+          "on": "4883FB00740CC4817A104CE70CE9172079FE43817CE71000007042740CC4817A104CE70CE9002079FE43C744E70C804FC34743C744E710804FC347E9E91F79FE",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "C81487",
+          "on": "E9D9DF86019090",
+          "off": "C4817A104CE70C"
         }
       ]
     }

@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "99 Items (on get)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "82D4BF10",
-          "on": "41C644241863E975D5A6FD",
-          "off": "0000000000000000000000"
-        },
-        {
-          "offset": "807B948B",
-          "on": "E9802A5902",
-          "off": "4589742418"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health (1 player)",
       "type": "checkbox",
       "memory": [
@@ -33,6 +17,22 @@
           "offset": "808F3CEA",
           "on": "E96182450290",
           "off": "C4C17A114D28"
+        }
+      ]
+    },
+    {
+      "name": "99 Items (on get)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "82D4BF10",
+          "on": "41C644241863E975D5A6FD",
+          "off": "0000000000000000000000"
+        },
+        {
+          "offset": "807B948B",
+          "on": "E9802A5902",
+          "off": "4589742418"
         }
       ]
     },

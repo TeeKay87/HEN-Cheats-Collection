@@ -21,38 +21,6 @@
       ]
     },
     {
-      "name": "Dose is always full and available",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "64D1630",
-          "on": "C5FA1087CC070000C787CC070000804FC347E985A6A9FA",
-          "off": "0000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "F6BCC4",
-          "on": "E967595605909090",
-          "off": "C5FA1087CC070000"
-        }
-      ]
-    },
-    {
-      "name": "High Beam Shooter Always Max",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "64D15E0",
-          "on": "31C0418B4E0441C7460400004843E9755CDCFA",
-          "off": "00000000000000000000000000000000000000"
-        },
-        {
-          "offset": "1297263",
-          "on": "E978A32305",
-          "off": "31C0418A0E"
-        }
-      ]
-    },
-    {
       "name": "Infinte Life",
       "type": "checkbox",
       "memory": [
@@ -65,6 +33,22 @@
           "offset": "ACA9D4",
           "on": "E9E76AA00590",
           "off": "8B8744020000"
+        }
+      ]
+    },
+    {
+      "name": "Max Score",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "64D1500",
+          "on": "8B874C020000C7874C0200007F969800C787500200007F969800E99B955FFA",
+          "off": "00000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "ACAAB4",
+          "on": "E9476AA00590",
+          "off": "8B874C020000"
         }
       ]
     },
@@ -85,18 +69,34 @@
       ]
     },
     {
-      "name": "Max Score",
+      "name": "High Beam Shooter Always Max",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "64D1500",
-          "on": "8B874C020000C7874C0200007F969800C787500200007F969800E99B955FFA",
-          "off": "00000000000000000000000000000000000000000000000000000000000000"
+          "offset": "64D15E0",
+          "on": "31C0418B4E0441C7460400004843E9755CDCFA",
+          "off": "00000000000000000000000000000000000000"
         },
         {
-          "offset": "ACAAB4",
-          "on": "E9476AA00590",
-          "off": "8B874C020000"
+          "offset": "1297263",
+          "on": "E978A32305",
+          "off": "31C0418A0E"
+        }
+      ]
+    },
+    {
+      "name": "Dose is always full and available",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "64D1630",
+          "on": "C5FA1087CC070000C787CC070000804FC347E985A6A9FA",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "F6BCC4",
+          "on": "E967595605909090",
+          "off": "C5FA1087CC070000"
         }
       ]
     }

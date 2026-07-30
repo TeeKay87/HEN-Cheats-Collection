@@ -32,6 +32,17 @@
       ]
     },
     {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "616B06",
+          "on": "83E800",
+          "off": "418907"
+        }
+      ]
+    },
+    {
       "name": "Inf Breath",
       "type": "checkbox",
       "memory": [
@@ -48,49 +59,6 @@
       ]
     },
     {
-      "name": "Inf Buggy Equipment Usage (DLC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "F8BE44",
-          "on": "9090909090",
-          "off": "C5FA115318"
-        }
-      ]
-    },
-    {
-      "name": "Inf Camoufladge When Used",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "207384E",
-          "on": "C743140000B442C5FA104314E92640B6FE",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "BD7880",
-          "on": "E9C9BF4901",
-          "off": "C5FA114314"
-        }
-      ]
-    },
-    {
-      "name": "Inf Fuel (DLC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2073881",
-          "on": "C783200300000000E040C5FA108320030000E951ABEFFE",
-          "off": "0000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "F6E3E1",
-          "on": "E99B541001909090",
-          "off": "C5FA118320030000"
-        }
-      ]
-    },
-    {
       "name": "Inf Grappling Hook Stamina",
       "type": "checkbox",
       "memory": [
@@ -103,22 +71,6 @@
           "offset": "C815FA",
           "on": "E918223F0190",
           "off": "C4C17A114640"
-        }
-      ]
-    },
-    {
-      "name": "Inf Nitro (DLC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2073870",
-          "on": "C7471000004843C5FA104710E93CF7F0FE",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "F82FB8",
-          "on": "E9B3080F01",
-          "off": "C5FA104710"
         }
       ]
     },
@@ -155,6 +107,22 @@
       ]
     },
     {
+      "name": "Inf Camoufladge When Used",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "207384E",
+          "on": "C743140000B442C5FA104314E92640B6FE",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "BD7880",
+          "on": "E9C9BF4901",
+          "off": "C5FA114314"
+        }
+      ]
+    },
+    {
       "name": "Inf/Dupe Items",
       "type": "checkbox",
       "memory": [
@@ -162,38 +130,6 @@
           "offset": "616B0B",
           "on": "4589F6",
           "off": "458937"
-        }
-      ]
-    },
-    {
-      "name": "Max Agility LVL on Gain",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "20738C7",
-          "on": "B9D8F6030089483841894E48E9781D33FE",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "3A5649",
-          "on": "E979E2CC019090",
-          "off": "8B483841894E48"
-        }
-      ]
-    },
-    {
-      "name": "Max Legend LVL on Unlock",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "20738E9",
-          "on": "B9B0B10A2F8988F8000000E9AA1D33FE",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "3A569D",
-          "on": "E947E2CC0190",
-          "off": "8B88F8000000"
         }
       ]
     },
@@ -214,22 +150,6 @@
       ]
     },
     {
-      "name": "Max Power LVL on Gain",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "20738D8",
-          "on": "B9F20F0D0089486841894E4CE9791D33FE",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "3A565B",
-          "on": "E978E2CC019090",
-          "off": "8B486841894E4C"
-        }
-      ]
-    },
-    {
       "name": "Max Survivor Rank on Gain",
       "type": "checkbox",
       "memory": [
@@ -246,13 +166,93 @@
       ]
     },
     {
-      "name": "No Reload",
+      "name": "Max Agility LVL on Gain",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "616B06",
-          "on": "83E800",
-          "off": "418907"
+          "offset": "20738C7",
+          "on": "B9D8F6030089483841894E48E9781D33FE",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "3A5649",
+          "on": "E979E2CC019090",
+          "off": "8B483841894E48"
+        }
+      ]
+    },
+    {
+      "name": "Max Power LVL on Gain",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "20738D8",
+          "on": "B9F20F0D0089486841894E4CE9791D33FE",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "3A565B",
+          "on": "E978E2CC019090",
+          "off": "8B486841894E4C"
+        }
+      ]
+    },
+    {
+      "name": "Max Legend LVL on Unlock",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "20738E9",
+          "on": "B9B0B10A2F8988F8000000E9AA1D33FE",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "3A569D",
+          "on": "E947E2CC0190",
+          "off": "8B88F8000000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Nitro (DLC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2073870",
+          "on": "C7471000004843C5FA104710E93CF7F0FE",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "F82FB8",
+          "on": "E9B3080F01",
+          "off": "C5FA104710"
+        }
+      ]
+    },
+    {
+      "name": "Inf Fuel (DLC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2073881",
+          "on": "C783200300000000E040C5FA108320030000E951ABEFFE",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "F6E3E1",
+          "on": "E99B541001909090",
+          "off": "C5FA118320030000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Buggy Equipment Usage (DLC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "F8BE44",
+          "on": "9090909090",
+          "off": "C5FA115318"
         }
       ]
     }

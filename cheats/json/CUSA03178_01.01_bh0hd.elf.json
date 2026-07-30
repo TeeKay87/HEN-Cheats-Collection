@@ -5,22 +5,6 @@
   "process": "bh0hd.elf",
   "mods": [
     {
-      "name": "Infinite Ammo(Resident evil 0)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "B03940",
-          "on": "43C644FC0832E94CDA60FF",
-          "off": "0000000000000000000000"
-        },
-        {
-          "offset": "111392",
-          "on": "E9A9259F00",
-          "off": "478974FC08"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health/1hit kill (resident evil 0)",
       "type": "checkbox",
       "memory": [
@@ -33,6 +17,22 @@
           "offset": "168540",
           "on": "E9FBB2990090",
           "off": "89B750130000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo(Resident evil 0)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B03940",
+          "on": "43C644FC0832E94CDA60FF",
+          "off": "0000000000000000000000"
+        },
+        {
+          "offset": "111392",
+          "on": "E9A9259F00",
+          "off": "478974FC08"
         }
       ]
     },

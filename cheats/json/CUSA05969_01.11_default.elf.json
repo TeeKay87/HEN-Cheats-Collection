@@ -59,22 +59,6 @@
       ]
     },
     {
-      "name": "Infinite AA Gun Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "C73800",
-          "on": "4589AF30020000452BAF2C020000E906EB9DFF",
-          "off": "00000000000000000000000000000000000000"
-        },
-        {
-          "offset": "652312",
-          "on": "E9E91462009090",
-          "off": "4529AF2C020000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Ammo",
       "type": "checkbox",
       "memory": [
@@ -86,13 +70,13 @@
       ]
     },
     {
-      "name": "Infinite Medkits",
+      "name": "No Reload",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "726D47",
-          "on": "4589F690",
-          "off": "45897704"
+          "offset": "9261D7",
+          "on": "4529E49090",
+          "off": "4429648810"
         }
       ]
     },
@@ -108,13 +92,29 @@
       ]
     },
     {
-      "name": "No Reload",
+      "name": "Infinite Medkits",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "9261D7",
-          "on": "4529E49090",
-          "off": "4429648810"
+          "offset": "726D47",
+          "on": "4589F690",
+          "off": "45897704"
+        }
+      ]
+    },
+    {
+      "name": "Infinite AA Gun Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "C73800",
+          "on": "4589AF30020000452BAF2C020000E906EB9DFF",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "652312",
+          "on": "E9E91462009090",
+          "off": "4529AF2C020000"
         }
       ]
     }

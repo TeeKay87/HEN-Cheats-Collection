@@ -5,6 +5,22 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "9,999,999 Protein on Gain",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5941550",
+          "on": "C783800300007F969800E911273BFB",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "CF3C6A",
+          "on": "E9E1D8C40490",
+          "off": "898380030000"
+        }
+      ]
+    },
+    {
       "name": "9,999,999 Fats on Gain",
       "type": "checkbox",
       "memory": [
@@ -53,22 +69,6 @@
       ]
     },
     {
-      "name": "9,999,999 Protein on Gain",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5941550",
-          "on": "C783800300007F969800E911273BFB",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "CF3C6A",
-          "on": "E9E1D8C40490",
-          "off": "898380030000"
-        }
-      ]
-    },
-    {
       "name": "Disable HUD (Pause, then unpause to fix when disabled)",
       "hint": "Pause, then unpause to fix when disabled.",
       "type": "checkbox",
@@ -81,18 +81,14 @@
       ]
     },
     {
-      "name": "Infinite Oxygen",
+      "name": "Sky effects (weird screen during Sonar)",
+      "hint": "Weird screen during sonar.",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "5941900",
-          "on": "41C785E80700000000C642E92AB52DFB",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "C1CE31",
-          "on": "E9CA4AD20490909090",
-          "off": "C4C17A1185E8070000"
+          "offset": "2E28643",
+          "on": "C57A114310",
+          "off": "C5FA114310"
         }
       ]
     },
@@ -113,14 +109,18 @@
       ]
     },
     {
-      "name": "Sky effects (weird screen during Sonar)",
-      "hint": "Weird screen during sonar.",
+      "name": "Infinite Oxygen",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "2E28643",
-          "on": "C57A114310",
-          "off": "C5FA114310"
+          "offset": "5941900",
+          "on": "41C785E80700000000C642E92AB52DFB",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "C1CE31",
+          "on": "E9CA4AD20490909090",
+          "off": "C4C17A1185E8070000"
         }
       ]
     }

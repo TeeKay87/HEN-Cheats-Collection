@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "24C259",
+          "on": "909090",
+          "off": "294814"
+        }
+      ]
+    },
+    {
       "name": "Infinite Grenades",
       "type": "checkbox",
       "memory": [
@@ -21,13 +32,18 @@
       ]
     },
     {
-      "name": "Infinite Health",
+      "name": "Max Ink (on gain)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "24C259",
-          "on": "909090",
-          "off": "294814"
+          "offset": "1817E10",
+          "on": "0F84F30A407FC740109F860100E9E20A407F",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "80C188FE",
+          "on": "E90DF5BF8090",
+          "off": "740F44897010"
         }
       ]
     },
@@ -44,22 +60,6 @@
           "offset": "80B864AA",
           "on": "E9A119C9809090909090",
           "off": "0F841E01000044017864"
-        }
-      ]
-    },
-    {
-      "name": "Max Ink (on gain)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1817E10",
-          "on": "0F84F30A407FC740109F860100E9E20A407F",
-          "off": "000000000000000000000000000000000000"
-        },
-        {
-          "offset": "80C188FE",
-          "on": "E90DF5BF8090",
-          "off": "740F44897010"
         }
       ]
     }

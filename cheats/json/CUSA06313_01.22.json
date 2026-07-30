@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Each golden orb doubles the total (Deactivate after reaching a large sum)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "22C26C7",
-          "on": "440130",
-          "off": "448930"
-        }
-      ]
-    },
-    {
       "name": "Inf lives",
       "type": "checkbox",
       "memory": [
@@ -39,6 +28,17 @@
           "offset": "21BFA6A",
           "on": "E931082E069090",
           "off": "410195B4030000"
+        }
+      ]
+    },
+    {
+      "name": "Each golden orb doubles the total (Deactivate after reaching a large sum)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "22C26C7",
+          "on": "440130",
+          "off": "448930"
         }
       ]
     }

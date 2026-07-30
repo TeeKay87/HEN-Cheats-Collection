@@ -5,17 +5,6 @@
   "process": "default_mp.elf",
   "mods": [
     {
-      "name": "All Client Godmode",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7138BA",
-          "on": "90909090909090",
-          "off": "4529A7D0010000"
-        }
-      ]
-    },
-    {
       "name": "All Client Infinite Ammo",
       "type": "checkbox",
       "memory": [
@@ -31,7 +20,7 @@
       "type": "checkbox",
       "memory": [
         {
-          "offset": "3138ba",
+          "offset": "7138BA",
           "on": "90909090909090",
           "off": "4529A7D0010000"
         }
@@ -45,6 +34,17 @@
           "offset": "1768ef",
           "on": "9090909090",
           "off": "44297C8108"
+        }
+      ]
+    },
+    {
+      "name": "All Client Godmode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3138ba",
+          "on": "90909090909090",
+          "off": "4529A7D0010000"
         }
       ]
     }

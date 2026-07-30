@@ -3,6 +3,28 @@
   <Genres Name="Action" />
   <Genres Name="Shooter" />
   <Items />
+  <Cheat Text="Max/Infinite Health/1 Shot Kills (Master Code)">
+    <Cheatline>
+      <Offset>127B9E0</Offset>
+      <Section>0</Section>
+      <ValueOn>80-BB-84-00-00-00-01-75-12-C5-FA-11-4B-60-C5-FA-11-4B-60-E9-B1-5F-09-FF-0F-57-C9-C5-FA-11-4B-60-E9-A4-5F-09-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>3119A4</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-37-A0-F6-00</ValueOn>
+      <ValueOff>C5-FA-11-4B-60</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max/Infinite Health (Need MC)">
+    <Cheatline>
+      <Offset>127B9E9</Offset>
+      <Section>0</Section>
+      <ValueOn>C5-FA-10-4B-64</ValueOn>
+      <ValueOff>C5-FA-11-4B-60</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="1 Shot Kills (Need MC)">
     <Cheatline>
       <Offset>127B9E7</Offset>
@@ -23,6 +45,34 @@
       <Section>0</Section>
       <ValueOn>E9-2D-DB-46-00-90</ValueOn>
       <ValueOff>C4-C1-7A-11-4F-10</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max/Infinite Ammo/Items">
+    <Cheatline>
+      <Offset>127A2F0</Offset>
+      <Section>0</Section>
+      <ValueOn>85-F6-C7-43-2C-FA-00-00-00-E9-AA-71-9C-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>C414A3</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-48-8E-63-00</ValueOn>
+      <ValueOff>85-F6-89-43-2C</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="No Reload">
+    <Cheatline>
+      <Offset>127B630</Offset>
+      <Section>0</Section>
+      <ValueOn>0F-46-FE-8B-79-40-E9-E0-F6-99-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>C1AD15</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-16-09-66-00-90</ValueOn>
+      <ValueOff>0F-46-FE-89-79-40</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max XP/Levels/Skill Points On Gain (Disable/Restart The Game)">
@@ -49,56 +99,6 @@
       <Section>0</Section>
       <ValueOn>E9-AF-71-5C-00</ValueOn>
       <ValueOff>53-50-89-77-38</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Max/Infinite Ammo/Items">
-    <Cheatline>
-      <Offset>127A2F0</Offset>
-      <Section>0</Section>
-      <ValueOn>85-F6-C7-43-2C-FA-00-00-00-E9-AA-71-9C-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>C414A3</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-48-8E-63-00</ValueOn>
-      <ValueOff>85-F6-89-43-2C</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Max/Infinite Health (Need MC)">
-    <Cheatline>
-      <Offset>127B9E9</Offset>
-      <Section>0</Section>
-      <ValueOn>C5-FA-10-4B-64</ValueOn>
-      <ValueOff>C5-FA-11-4B-60</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Max/Infinite Health/1 Shot Kills (Master Code)">
-    <Cheatline>
-      <Offset>127B9E0</Offset>
-      <Section>0</Section>
-      <ValueOn>80-BB-84-00-00-00-01-75-12-C5-FA-11-4B-60-C5-FA-11-4B-60-E9-B1-5F-09-FF-0F-57-C9-C5-FA-11-4B-60-E9-A4-5F-09-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>3119A4</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-37-A0-F6-00</ValueOn>
-      <ValueOff>C5-FA-11-4B-60</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="No Reload">
-    <Cheatline>
-      <Offset>127B630</Offset>
-      <Section>0</Section>
-      <ValueOn>0F-46-FE-8B-79-40-E9-E0-F6-99-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>C1AD15</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-16-09-66-00-90</ValueOn>
-      <ValueOff>0F-46-FE-89-79-40</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

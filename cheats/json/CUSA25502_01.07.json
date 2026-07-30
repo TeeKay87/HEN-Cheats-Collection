@@ -5,18 +5,24 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Boost",
+      "name": "Unlimited Coins (on gain)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7A8FF00",
-          "on": "C7832C01000000001041E9A79346F9",
-          "off": "000000000000000000000000000000"
-        },
+          "offset": "1EC6220",
+          "on": "B900CA9A3B",
+          "off": "C4E278F2C9"
+        }
+      ]
+    },
+    {
+      "name": "Unlimited Gears (on gain)",
+      "type": "checkbox",
+      "memory": [
         {
-          "offset": "EF92AE",
-          "on": "E94D6CB906909090",
-          "off": "C5FA11832C010000"
+          "offset": "1EED0F0",
+          "on": "B900CA9A3B",
+          "off": "C4E278F2C9"
         }
       ]
     },
@@ -37,24 +43,18 @@
       ]
     },
     {
-      "name": "Unlimited Coins (on gain)",
+      "name": "Infinite Boost",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1EC6220",
-          "on": "B900CA9A3B",
-          "off": "C4E278F2C9"
-        }
-      ]
-    },
-    {
-      "name": "Unlimited Gears (on gain)",
-      "type": "checkbox",
-      "memory": [
+          "offset": "7A8FF00",
+          "on": "C7832C01000000001041E9A79346F9",
+          "off": "000000000000000000000000000000"
+        },
         {
-          "offset": "1EED0F0",
-          "on": "B900CA9A3B",
-          "off": "C4E278F2C9"
+          "offset": "EF92AE",
+          "on": "E94D6CB906909090",
+          "off": "C5FA11832C010000"
         }
       ]
     }

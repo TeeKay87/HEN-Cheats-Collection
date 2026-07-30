@@ -5,34 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "1 Hit Kill",
-      "type": "checkbox",
+      "name": "Master",
+      "type": "master",
       "memory": [
         {
-          "offset": "473F83C",
-          "on": "488B80C0180000488B4018483B05B2474CFB0F848E95AAFCC780D800000002000000E97F95AAFC",
-          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000"
+          "offset": "473F800",
+          "on": "534889C348891DF5474CFB5B8B88E40000008988E40000008B88F00000008988F00000008B88D80000008988D8000000488B88D8000000E9B7CD57FC",
+          "off": ""
         },
         {
-          "offset": "11E8DD7",
-          "on": "E9606A5503909090909090",
-          "off": "488B80C0180000488B4018"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Armour Durability",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "473F8E6",
-          "on": "BE00000000897714C390E9306DB6FC",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "12A6620",
-          "on": "E9C1924903",
-          "off": "897714C390"
+          "offset": "CBC5EC",
+          "on": "E90F32A8039090",
+          "off": ""
         }
       ]
     },
@@ -59,6 +43,33 @@
       ]
     },
     {
+      "name": "Infinite Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "473F818",
+          "on": "8B88F4000000",
+          "off": "8B88F0000000"
+        }
+      ]
+    },
+    {
+      "name": "1 Hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "473F83C",
+          "on": "488B80C0180000488B4018483B05B2474CFB0F848E95AAFCC780D800000002000000E97F95AAFC",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "11E8DD7",
+          "on": "E9606A5503909090909090",
+          "off": "488B80C0180000488B4018"
+        }
+      ]
+    },
+    {
       "name": "Infinite Souls",
       "type": "checkbox",
       "memory": [
@@ -71,17 +82,6 @@
           "offset": "1056FF3",
           "on": "E96B886E03",
           "off": "89507429CA"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "473F818",
-          "on": "8B88F4000000",
-          "off": "8B88F0000000"
         }
       ]
     },
@@ -102,18 +102,18 @@
       ]
     },
     {
-      "name": "Master",
-      "type": "master",
+      "name": "Infinite Armour Durability",
+      "type": "checkbox",
       "memory": [
         {
-          "offset": "473F800",
-          "on": "534889C348891DF5474CFB5B8B88E40000008988E40000008B88F00000008988F00000008B88D80000008988D8000000488B88D8000000E9B7CD57FC",
-          "off": ""
+          "offset": "473F8E6",
+          "on": "BE00000000897714C390E9306DB6FC",
+          "off": "000000000000000000000000000000"
         },
         {
-          "offset": "CBC5EC",
-          "on": "E90F32A8039090",
-          "off": ""
+          "offset": "12A6620",
+          "on": "E9C1924903",
+          "off": "897714C390"
         }
       ]
     },

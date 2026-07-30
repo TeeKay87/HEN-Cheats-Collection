@@ -2,6 +2,14 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Slain: Back from Hell" Moder="Ali-mk" Cusa="CUSA06465" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
+  <Cheat Text="Invincible">
+    <Cheatline>
+      <Offset>8018C56E</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90</ValueOn>
+      <ValueOff>E8-FB-FA-15-00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Inf-Health-One-Hit-Kill-(mc)">
     <Cheatline>
       <PS5Offset>800-MonoAssembliesPS4.prx[0]-5</PS5Offset>
@@ -38,14 +46,6 @@
       <Section>0</Section>
       <ValueOn>90-90-90-90</ValueOn>
       <ValueOff>49-63-46-28</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Invincible">
-    <Cheatline>
-      <Offset>8018C56E</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90</ValueOn>
-      <ValueOff>E8-FB-FA-15-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

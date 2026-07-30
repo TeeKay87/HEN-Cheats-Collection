@@ -31,18 +31,18 @@
       ]
     },
     {
-      "name": "Inf Items",
+      "name": "Inf MP",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5F0D3",
-          "on": "C7401463000000FF4814B001E9184BDE00",
+          "offset": "7FC5F06E",
+          "on": "BBE703000041895E18498B06E95C21A100",
           "off": "0000000000000000000000000000000000"
         },
         {
-          "offset": "80A43BF7",
-          "on": "E9D7B421FF",
-          "off": "FF4814B001"
+          "offset": "806711D4",
+          "on": "E995DE5EFF9090",
+          "off": "41895E18498B06"
         }
       ]
     },
@@ -63,18 +63,18 @@
       ]
     },
     {
-      "name": "Inf MP",
+      "name": "Inf Items",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5F06E",
-          "on": "BBE703000041895E18498B06E95C21A100",
+          "offset": "7FC5F0D3",
+          "on": "C7401463000000FF4814B001E9184BDE00",
           "off": "0000000000000000000000000000000000"
         },
         {
-          "offset": "806711D4",
-          "on": "E995DE5EFF9090",
-          "off": "41895E18498B06"
+          "offset": "80A43BF7",
+          "on": "E9D7B421FF",
+          "off": "FF4814B001"
         }
       ]
     }

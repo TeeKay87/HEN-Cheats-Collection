@@ -5,6 +5,33 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Invincible-P1",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "14E304",
+          "on": "00",
+          "off": "FF"
+        },
+        {
+          "offset": "14E305",
+          "on": "00",
+          "off": "FF"
+        }
+      ]
+    },
+    {
+      "name": "Infinite-lives-P1",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1568E6",
+          "on": "00",
+          "off": "42"
+        }
+      ]
+    },
+    {
       "name": "Infinite-All-Weapon-P1",
       "type": "checkbox",
       "memory": [
@@ -38,33 +65,6 @@
           "offset": "1BF456",
           "on": "00",
           "off": "42"
-        }
-      ]
-    },
-    {
-      "name": "Infinite-lives-P1",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1568E6",
-          "on": "00",
-          "off": "42"
-        }
-      ]
-    },
-    {
-      "name": "Invincible-P1",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "14E304",
-          "on": "00",
-          "off": "FF"
-        },
-        {
-          "offset": "14E305",
-          "on": "00",
-          "off": "FF"
         }
       ]
     }

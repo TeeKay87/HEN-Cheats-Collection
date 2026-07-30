@@ -643,20 +643,20 @@
       <ValueOff>E8-4A-13-C7-FD</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Pipe Bombs">
-    <Cheatline>
-      <Offset>3110583</Offset>
-      <Section>1</Section>
-      <ValueOn>90-90-90-90-90</ValueOn>
-      <ValueOff>E8-38-BA-BF-02</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Inf white flower and First Aid Med usage ">
     <Cheatline>
       <Offset>62C04DA</Offset>
       <Section>1</Section>
       <ValueOn>90-90-90-90-90-90</ValueOn>
       <ValueOff>FF-90-70-06-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Inf Pipe Bombs">
+    <Cheatline>
+      <Offset>3110583</Offset>
+      <Section>1</Section>
+      <ValueOn>90-90-90-90-90</ValueOn>
+      <ValueOff>E8-38-BA-BF-02</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

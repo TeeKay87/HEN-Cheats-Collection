@@ -51,6 +51,27 @@
       ]
     },
     {
+      "name": "Infinite Energy",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "408376",
+          "on": "C5F35CC0C5FB1103",
+          "off": "C5F35CC0C5FB1103"
+        },
+        {
+          "offset": "229B01F",
+          "on": "4181F90001000074134183F950740DC5F35CC0C5FB1103E943D316FEE93ED316FE",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "408376",
+          "on": "E9A42CE901909090",
+          "off": "C5F35CC0C5FB1103"
+        }
+      ]
+    },
+    {
       "name": "Infinite Coins",
       "hint": "Pick up a coin to max it out.",
       "type": "checkbox",
@@ -69,27 +90,6 @@
           "offset": "229BFE1",
           "on": "01",
           "off": "00"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Energy",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "408376",
-          "on": "C5F35CC0C5FB1103",
-          "off": "C5F35CC0C5FB1103"
-        },
-        {
-          "offset": "229B01F",
-          "on": "4181F90001000074134183F950740DC5F35CC0C5FB1103E943D316FEE93ED316FE",
-          "off": "000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "408376",
-          "on": "E9A42CE901909090",
-          "off": "C5F35CC0C5FB1103"
         }
       ]
     },

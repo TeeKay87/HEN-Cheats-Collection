@@ -2,14 +2,6 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="United Assault: Normandy '44" Moder="Saso_9.00" Cusa="CUSA29456" Version="01.03" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Ammo(No reload) / Grenades / Explosive (MC)">
-    <Cheatline>
-      <Offset>56FB82D</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-01</ValueOn>
-      <ValueOff>EB-EB</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Inf Health / Stamina /Ammo (Master Code)">
     <Cheatline>
       <Offset>56FB800</Offset>
@@ -24,12 +16,12 @@
       <ValueOff>41-89-03-49-83-C3-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Normal Speed (MC)">
+  <Cheat Text="Ammo(No reload) / Grenades / Explosive (MC)">
     <Cheatline>
-      <Offset>56FB85B</Offset>
-      <Section>1</Section>
-      <ValueOn>41-C6-47-06-43</ValueOn>
-      <ValueOff>41-C6-47-06-47</ValueOff>
+      <Offset>56FB82D</Offset>
+      <Section>0</Section>
+      <ValueOn>EB-01</ValueOn>
+      <ValueOff>EB-EB</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Player Speed (Master Code)">
@@ -52,6 +44,14 @@
       <Section>0</Section>
       <ValueOn>41-C6-47-06-45</ValueOn>
       <ValueOff>41-C6-47-06-43</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Normal Speed (MC)">
+    <Cheatline>
+      <Offset>56FB85B</Offset>
+      <Section>1</Section>
+      <ValueOn>41-C6-47-06-43</ValueOn>
+      <ValueOff>41-C6-47-06-47</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

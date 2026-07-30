@@ -5,18 +5,23 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-Health-2",
+      "name": "Return-to-Health",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "8080BC25F2",
-          "on": "99",
-          "off": "99"
+          "offset": "8081126380",
+          "on": "000000FF",
+          "off": "000000FF"
         },
         {
-          "offset": "8080BC25F3",
-          "on": "55",
-          "off": "55"
+          "offset": "8081126381",
+          "on": "000000FF",
+          "off": "000000FF"
+        },
+        {
+          "offset": "8081126382",
+          "on": "000000FF",
+          "off": "000000FF"
         }
       ]
     },
@@ -47,23 +52,18 @@
       ]
     },
     {
-      "name": "Return-to-Health",
+      "name": "Infinite-Health-2",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "8081126380",
-          "on": "000000FF",
-          "off": "000000FF"
+          "offset": "8080BC25F2",
+          "on": "99",
+          "off": "99"
         },
         {
-          "offset": "8081126381",
-          "on": "000000FF",
-          "off": "000000FF"
-        },
-        {
-          "offset": "8081126382",
-          "on": "000000FF",
-          "off": "000000FF"
+          "offset": "8080BC25F3",
+          "on": "55",
+          "off": "55"
         }
       ]
     }

@@ -5,39 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Earn SP on Spend",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1DF13E",
-          "on": "01F0",
-          "off": "29F0"
-        }
-      ]
-    },
-    {
-      "name": "Freeze Mission Timer",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "281DE3",
-          "on": "9090909090",
-          "off": "C5FA114740"
-        }
-      ]
-    },
-    {
-      "name": "Increasing Mission Timer",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "281DDB",
-          "on": "C5F258C0",
-          "off": "C5F25CC0"
-        }
-      ]
-    },
-    {
       "name": "Max Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -54,18 +21,29 @@
       ]
     },
     {
-      "name": "Max Infinite Mission Timer (100 Mins)",
+      "name": "Earn SP on Spend",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "46D7849",
-          "on": "C747400080BB45C5FA104740E98EA5BAFB",
-          "off": "0000000000000000000000000000000000"
+          "offset": "1DF13E",
+          "on": "01F0",
+          "off": "29F0"
+        }
+      ]
+    },
+    {
+      "name": "Max SP (999,999)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "46D7800",
+          "on": "C7878C0900003F420F00E94379B0FB",
+          "off": "000000000000000000000000000000"
         },
         {
-          "offset": "281DE3",
-          "on": "E9615A4504",
-          "off": "C5FA114740"
+          "offset": "1DF14C",
+          "on": "E9AF864F0490",
+          "off": "89878C090000"
         }
       ]
     },
@@ -86,18 +64,40 @@
       ]
     },
     {
-      "name": "Max SP (999,999)",
+      "name": "Max Infinite Mission Timer (100 Mins)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "46D7800",
-          "on": "C7878C0900003F420F00E94379B0FB",
-          "off": "000000000000000000000000000000"
+          "offset": "46D7849",
+          "on": "C747400080BB45C5FA104740E98EA5BAFB",
+          "off": "0000000000000000000000000000000000"
         },
         {
-          "offset": "1DF14C",
-          "on": "E9AF864F0490",
-          "off": "89878C090000"
+          "offset": "281DE3",
+          "on": "E9615A4504",
+          "off": "C5FA114740"
+        }
+      ]
+    },
+    {
+      "name": "Increasing Mission Timer",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "281DDB",
+          "on": "C5F258C0",
+          "off": "C5F25CC0"
+        }
+      ]
+    },
+    {
+      "name": "Freeze Mission Timer",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "281DE3",
+          "on": "9090909090",
+          "off": "C5FA114740"
         }
       ]
     }

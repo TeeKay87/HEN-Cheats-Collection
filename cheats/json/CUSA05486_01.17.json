@@ -5,6 +5,22 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Max Coins (after taking a stack from corpses)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1D23B20",
+          "on": "41C74424103F420F00E9707D41FE",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "13B899",
+          "on": "E98282BE01",
+          "off": "4189442410"
+        }
+      ]
+    },
+    {
       "name": "99 Crafting Items (after Spending)",
       "type": "checkbox",
       "memory": [
@@ -33,22 +49,6 @@
           "offset": "A6E48B",
           "on": "E900572B0190",
           "off": "8888310A0000"
-        }
-      ]
-    },
-    {
-      "name": "Max Coins (after taking a stack from corpses)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1D23B20",
-          "on": "41C74424103F420F00E9707D41FE",
-          "off": "0000000000000000000000000000"
-        },
-        {
-          "offset": "13B899",
-          "on": "E98282BE01",
-          "off": "4189442410"
         }
       ]
     },

@@ -10,6 +10,14 @@
       <ValueOff>61-A8</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="Infinite Lives">
+    <Cheatline>
+      <Offset>11E286</Offset>
+      <Section>11</Section>
+      <ValueOn>00</ValueOn>
+      <ValueOff>42</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Infinite Health">
     <Cheatline>
       <Offset>1163B8</Offset>
@@ -22,14 +30,6 @@
       <Section>11</Section>
       <ValueOn>00</ValueOn>
       <ValueOff>FF</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Lives">
-    <Cheatline>
-      <Offset>11E286</Offset>
-      <Section>11</Section>
-      <ValueOn>00</ValueOn>
-      <ValueOff>42</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

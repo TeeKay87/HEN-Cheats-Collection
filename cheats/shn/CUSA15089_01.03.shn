@@ -2,20 +2,6 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Star Wars: Squadrons" Moder="Reddevil82 -  FW 9.00" Cusa="CUSA15089" Version="01.03" Process="eboot.bin">
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Infinite Energy / Ammo">
-    <Cheatline>
-      <Offset>46CFDD0</Offset>
-      <Section>0</Section>
-      <ValueOn>C7-46-2C-00-C0-79-44-C5-F8-10-46-2C-E9-A4-7D-08-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>2757B80</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-4B-82-F7-01</ValueOn>
-      <ValueOff>C5-F8-10-46-2C</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite Health">
     <Cheatline>
       <Offset>46CFDB0</Offset>
@@ -28,6 +14,20 @@
       <Section>0</Section>
       <ValueOn>E9-55-EC-81-02</ValueOn>
       <ValueOff>C5-FA-11-43-2C</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Energy / Ammo">
+    <Cheatline>
+      <Offset>46CFDD0</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-46-2C-00-C0-79-44-C5-F8-10-46-2C-E9-A4-7D-08-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>2757B80</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-4B-82-F7-01</ValueOn>
+      <ValueOff>C5-F8-10-46-2C</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max Missiles / Warheads ( you need 1 )">

@@ -2,20 +2,26 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Borderlands: The Handsome Collection" Moder="hejran7" Cusa="CUSA02980" Version="01.00" Process="MAGNOLIA.elf">
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Inf Ammo - Grenades">
-    <Cheatline>
-      <Offset>742992</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90</ValueOn>
-      <ValueOff>C5-F2-5C-CA</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Instant lvl 72 - Inf Ammo - Inf HP">
     <Cheatline>
       <Offset>7429CA</Offset>
       <Section>0</Section>
       <ValueOn>C5-FA-11-9B-A0-00-00-00</ValueOn>
       <ValueOff>C5-FA-11-93-A0-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max Skill Points - Badass Tokens">
+    <Cheatline>
+      <Offset>1EB7800</Offset>
+      <Section>0</Section>
+      <ValueOn>2B-45-C8-B8-0F-27-00-00-41-89-07-E9-D1-46-1A-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>5BEDB</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-20-B9-E5-01-90</ValueOn>
+      <ValueOff>2B-45-C8-41-89-07</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max Eridium Points on Use">
@@ -46,18 +52,12 @@
       <ValueOff>42-89-94-B3-78-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Skill Points - Badass Tokens">
+  <Cheat Text="Inf Ammo - Grenades">
     <Cheatline>
-      <Offset>1EB7800</Offset>
+      <Offset>742992</Offset>
       <Section>0</Section>
-      <ValueOn>2B-45-C8-B8-0F-27-00-00-41-89-07-E9-D1-46-1A-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>5BEDB</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-20-B9-E5-01-90</ValueOn>
-      <ValueOff>2B-45-C8-41-89-07</ValueOff>
+      <ValueOn>90-90-90-90</ValueOn>
+      <ValueOff>C5-F2-5C-CA</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="No Reload- Inf Ammo must be On">

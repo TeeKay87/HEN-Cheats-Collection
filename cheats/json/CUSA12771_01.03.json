@@ -5,33 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Broom boost",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8443660",
-          "on": "C7404000009643E970939CFA",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "2E0C9D7",
-          "on": "E9846C6305",
-          "off": "C5FA114040"
-        }
-      ]
-    },
-    {
-      "name": "infinite Gold/Items",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7B4ACD",
-          "on": "90909090",
-          "off": "480FBE07"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -64,6 +37,33 @@
       ]
     },
     {
+      "name": "Infinite Broom boost",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8443660",
+          "on": "C7404000009643E970939CFA",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "2E0C9D7",
+          "on": "E9846C6305",
+          "off": "C5FA114040"
+        }
+      ]
+    },
+    {
+      "name": "Spells No Cooldown (in Fight only)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "272687A",
+          "on": "9090909090",
+          "off": "C5F8114208"
+        }
+      ]
+    },
+    {
       "name": "Max Level After Doing few Experience tasks ",
       "type": "checkbox",
       "memory": [
@@ -80,29 +80,13 @@
       ]
     },
     {
-      "name": "Potions do not decrease when drinking them",
+      "name": "infinite Gold/Items",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "8442DA0",
-          "on": "90E9031A9CFE57616E646572204657392E3030",
-          "off": "000000000000"
-        },
-        {
-          "offset": "6E047A4",
-          "on": "E9F7E56301",
-          "off": "E8876F94F9"
-        }
-      ]
-    },
-    {
-      "name": "Spells No Cooldown (in Fight only)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "272687A",
-          "on": "9090909090",
-          "off": "C5F8114208"
+          "offset": "7B4ACD",
+          "on": "90909090",
+          "off": "480FBE07"
         }
       ]
     },
@@ -119,6 +103,22 @@
           "offset": "6E06665",
           "on": "E956CB6301",
           "off": "E8C65094F9"
+        }
+      ]
+    },
+    {
+      "name": "Potions do not decrease when drinking them",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8442DA0",
+          "on": "90E9031A9CFE57616E646572204657392E3030",
+          "off": "000000000000"
+        },
+        {
+          "offset": "6E047A4",
+          "on": "E9F7E56301",
+          "off": "E8876F94F9"
         }
       ]
     }

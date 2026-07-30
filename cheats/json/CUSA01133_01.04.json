@@ -27,6 +27,22 @@
       ]
     },
     {
+      "name": "Infinite Money (Raid)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "153F800",
+          "on": "49C7C49F8601004C89A3C8C40000E9B63732FF",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "862FC2",
+          "on": "E939C8CD009090",
+          "off": "4C89A3C8C40000"
+        }
+      ]
+    },
+    {
       "name": "Infinite BP",
       "type": "checkbox",
       "memory": [
@@ -39,17 +55,6 @@
           "offset": "7BAB4D",
           "on": "E9C14CD80090",
           "off": "8987B0180000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "410210",
-          "on": "909090",
-          "off": "4429F0"
         }
       ]
     },
@@ -70,18 +75,13 @@
       ]
     },
     {
-      "name": "Infinite Money (Raid)",
+      "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "153F800",
-          "on": "49C7C49F8601004C89A3C8C40000E9B63732FF",
-          "off": "00000000000000000000000000000000000000"
-        },
-        {
-          "offset": "862FC2",
-          "on": "E939C8CD009090",
-          "off": "4C89A3C8C40000"
+          "offset": "410210",
+          "on": "909090",
+          "off": "4429F0"
         }
       ]
     }

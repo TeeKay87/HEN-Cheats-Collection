@@ -5,34 +5,12 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "handgun SIGPRO",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1BD3D4",
-          "on": "11FFFFFF",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
       "name": "Inf-Ammo All Weapons",
       "type": "checkbox",
       "memory": [
         {
           "offset": "15830A",
           "on": "00",
-          "off": "10"
-        }
-      ]
-    },
-    {
-      "name": "Inf-Ink-Ribbons-HARD MODE",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "157FCC",
-          "on": "99",
           "off": "10"
         }
       ]
@@ -49,13 +27,35 @@
       ]
     },
     {
-      "name": "Infinite-Assault Rifle",
+      "name": "Inf-Ink-Ribbons-HARD MODE",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1BD3D5",
-          "on": "FFFF",
+          "offset": "157FCC",
+          "on": "99",
           "off": "10"
+        }
+      ]
+    },
+    {
+      "name": "handgun SIGPRO",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1BD3D4",
+          "on": "11FFFFFF",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite-rocket launcher",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1BD3D4",
+          "on": "0AFFFF",
+          "off": "040000"
         }
       ]
     },
@@ -82,45 +82,23 @@
       ]
     },
     {
-      "name": "Infinite-machine gun",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1BD3D4",
-          "on": "0BFFFF",
-          "off": "000000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite-magnum",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1BD3D5",
-          "on": "05FFFF",
-          "off": "0606"
-        }
-      ]
-    },
-    {
-      "name": "Infinite-rocket launcher",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1BD3D4",
-          "on": "0AFFFF",
-          "off": "040000"
-        }
-      ]
-    },
-    {
       "name": "Infinite-shotgun",
       "type": "checkbox",
       "memory": [
         {
           "offset": "1BD3D4",
           "on": "04FFFF",
+          "off": "000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite-machine gun",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1BD3D4",
+          "on": "0BFFFF",
           "off": "000000"
         }
       ]
@@ -133,6 +111,28 @@
           "offset": "1BD3D4",
           "on": "81FFFF",
           "off": "000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite-Assault Rifle",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1BD3D5",
+          "on": "FFFF",
+          "off": "10"
+        }
+      ]
+    },
+    {
+      "name": "Infinite-magnum",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1BD3D5",
+          "on": "05FFFF",
+          "off": "0606"
         }
       ]
     }

@@ -2,14 +2,6 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="20XX" Moder="Ali-mk" Cusa="CUSA11120" Version="01.04" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite-All-Weapon">
-    <Cheatline>
-      <Offset>37DD6C</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>49-89-86-30-01-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite-Health-King-(MC)">
     <Cheatline>
       <Offset>B07800</Offset>
@@ -216,6 +208,14 @@
       <ValueOff>E9-F9-A1-38-00</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="Infinite-All-Weapon">
+    <Cheatline>
+      <Offset>37DD6C</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>49-89-86-30-01-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Infinite-lives">
     <Cheatline>
       <Offset>104B5F</Offset>
@@ -224,20 +224,20 @@
       <ValueOff>89-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite-Time">
-    <Cheatline>
-      <Offset>1A8ED</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90</ValueOn>
-      <ValueOff>C5-FB-11-03</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Max + Infinite-Nuts">
     <Cheatline>
       <Offset>37DE3E</Offset>
       <Section>0</Section>
       <ValueOn>90-90</ValueOn>
       <ValueOff>8B-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite-Time">
+    <Cheatline>
+      <Offset>1A8ED</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90</ValueOn>
+      <ValueOff>C5-FB-11-03</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max-money(MC)">

@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-Bomb P1",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "807FF1075C",
-          "on": "FF",
-          "off": "11"
-        }
-      ]
-    },
-    {
       "name": "Infinite-lives P1",
       "type": "checkbox",
       "memory": [
@@ -23,6 +12,17 @@
           "offset": "807FF10758",
           "on": "63",
           "off": "02"
+        }
+      ]
+    },
+    {
+      "name": "Infinite-Bomb P1",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "807FF1075C",
+          "on": "FF",
+          "off": "11"
         }
       ]
     }

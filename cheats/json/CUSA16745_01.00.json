@@ -5,146 +5,45 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Boost EXP",
+      "name": "Max\u002B Inf HP | Battle ",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1DDE456",
-          "on": "4883C0644801C648894710E9B496EFFE",
-          "off": "00000000000000000000000000000000"
+          "offset": "1DDE400",
+          "on": "898B300E0000E9C19A32FE",
+          "off": "0000000000000000000000"
         },
         {
-          "offset": "CD7B13",
-          "on": "E93E6910019090",
-          "off": "4801C648894710"
+          "offset": "107EC5",
+          "on": "E93665CD019090",
+          "off": "488983300E0000"
         }
       ]
     },
     {
-      "name": "Brand Awareness| Boost Job Points",
+      "name": "Max\u002B Inf MP | Battle",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1DDE4CC",
-          "on": "8B470483C06401C6E9DCA2EFFE",
-          "off": "00000000000000000000000000"
+          "offset": "1DDE417",
+          "on": "B80F2700004189868C0F0000E9189B32FE",
+          "off": "0000000000000000000000000000000000"
         },
         {
-          "offset": "CD87B0",
-          "on": "E9175D1001",
-          "off": "8B470401C6"
+          "offset": "107F39",
+          "on": "E9D964CD019090",
+          "off": "4189868C0F0000"
         }
       ]
     },
     {
-      "name": "Ecommerce | Even More Points",
+      "name": "Max Money/Pts/Rings On Spend/Gain",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1DDE4EC",
-          "on": "8B4704052C01000001C6E9BAA2EFFE",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "CD87B0",
-          "on": "E9375D1001",
-          "off": "8B470401C6"
-        }
-      ]
-    },
-    {
-      "name": "Enterprise | Hella Points",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1DDE50E",
-          "on": "8B470405D007000001C6E998A2EFFE",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "CD87B0",
-          "on": "E9595D1001",
-          "off": "8B470401C6"
-        }
-      ]
-    },
-    {
-      "name": "Even More EXP",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1DDE47C",
-          "on": "48055E0100004801C648894710E98C96EFFE",
-          "off": "000000000000000000000000000000000000"
-        },
-        {
-          "offset": "CD7B13",
-          "on": "E9646910019090",
-          "off": "4801C648894710"
-        }
-      ]
-    },
-    {
-      "name": "EXP OVERLORD | MAX LEVEL",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1DDE530",
-          "on": "4805FFE0F5054801C648894710E9D895EFFE",
-          "off": "000000000000000000000000000000000000"
-        },
-        {
-          "offset": "CD7B13",
-          "on": "E9186A10019090",
-          "off": "4801C648894710"
-        }
-      ]
-    },
-    {
-      "name": "Extra EXP",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1DDE468",
-          "on": "4805C80000004801C648894710E9A096EFFE",
-          "off": "000000000000000000000000000000000000"
-        },
-        {
-          "offset": "CD7B13",
-          "on": "E9506910019090",
-          "off": "4801C648894710"
-        }
-      ]
-    },
-    {
-      "name": "Hella EXP",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1DDE4A4",
-          "on": "4805080700004801C648894710E96496EFFE",
-          "off": "000000000000000000000000000000000000"
-        },
-        {
-          "offset": "CD7B13",
-          "on": "E98C6910019090",
-          "off": "4801C648894710"
-        }
-      ]
-    },
-    {
-      "name": "HR | Lots Of Points",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1DDE4FD",
-          "on": "8B470405F401000001C6E9A9A2EFFE",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "CD87B0",
-          "on": "E9485D1001",
-          "off": "8B470401C6"
+          "offset": "CBAADD",
+          "on": "488904CA",
+          "off": "48891CCA"
         }
       ]
     },
@@ -156,22 +55,6 @@
           "offset": "CBB5BC",
           "on": "90909090",
           "off": "44897A04"
-        }
-      ]
-    },
-    {
-      "name": "Lots Of EXP",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1DDE490",
-          "on": "4805840300004801C648894710E97896EFFE",
-          "off": "000000000000000000000000000000000000"
-        },
-        {
-          "offset": "CD7B13",
-          "on": "E9786910019090",
-          "off": "4801C648894710"
         }
       ]
     },
@@ -208,49 +91,6 @@
       ]
     },
     {
-      "name": "Max Money/Pts/Rings On Spend/Gain",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "CBAADD",
-          "on": "488904CA",
-          "off": "48891CCA"
-        }
-      ]
-    },
-    {
-      "name": "Max\u002B Inf HP | Battle ",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1DDE400",
-          "on": "898B300E0000E9C19A32FE",
-          "off": "0000000000000000000000"
-        },
-        {
-          "offset": "107EC5",
-          "on": "E93665CD019090",
-          "off": "488983300E0000"
-        }
-      ]
-    },
-    {
-      "name": "Max\u002B Inf MP | Battle",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1DDE417",
-          "on": "B80F2700004189868C0F0000E9189B32FE",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "107F39",
-          "on": "E9D964CD019090",
-          "off": "4189868C0F0000"
-        }
-      ]
-    },
-    {
       "name": "MiniGame| Claw Machine| Infinte Turns",
       "type": "checkbox",
       "memory": [
@@ -263,6 +103,38 @@
           "offset": "B27CEC",
           "on": "E95B682B01",
           "off": "4589742450"
+        }
+      ]
+    },
+    {
+      "name": "MiniGame| Movie Theatre | Max Score",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1DDE55E",
+          "on": "034338B89F860100894338E9CEB164FF",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "1429736",
+          "on": "E9234E9B0090",
+          "off": "034338894338"
+        }
+      ]
+    },
+    {
+      "name": "MiniGame| EVocational Tests| Stop Timer",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1DDE56E",
+          "on": "C4C17A108584010000C4C17A118584010000E96BA466FF",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "14489E7",
+          "on": "E9825B990090909090",
+          "off": "C4C17A118584010000"
         }
       ]
     },
@@ -294,34 +166,114 @@
       ]
     },
     {
-      "name": "MiniGame| EVocational Tests| Stop Timer",
+      "name": "Boost EXP",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1DDE56E",
-          "on": "C4C17A108584010000C4C17A118584010000E96BA466FF",
-          "off": "0000000000000000000000000000000000000000000000"
+          "offset": "1DDE456",
+          "on": "4883C0644801C648894710E9B496EFFE",
+          "off": "00000000000000000000000000000000"
         },
         {
-          "offset": "14489E7",
-          "on": "E9825B990090909090",
-          "off": "C4C17A118584010000"
+          "offset": "CD7B13",
+          "on": "E93E6910019090",
+          "off": "4801C648894710"
         }
       ]
     },
     {
-      "name": "MiniGame| Movie Theatre | Max Score",
+      "name": "Extra EXP",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1DDE55E",
-          "on": "034338B89F860100894338E9CEB164FF",
-          "off": "00000000000000000000000000000000"
+          "offset": "1DDE468",
+          "on": "4805C80000004801C648894710E9A096EFFE",
+          "off": "000000000000000000000000000000000000"
         },
         {
-          "offset": "1429736",
-          "on": "E9234E9B0090",
-          "off": "034338894338"
+          "offset": "CD7B13",
+          "on": "E9506910019090",
+          "off": "4801C648894710"
+        }
+      ]
+    },
+    {
+      "name": "Even More EXP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1DDE47C",
+          "on": "48055E0100004801C648894710E98C96EFFE",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "CD7B13",
+          "on": "E9646910019090",
+          "off": "4801C648894710"
+        }
+      ]
+    },
+    {
+      "name": "Lots Of EXP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1DDE490",
+          "on": "4805840300004801C648894710E97896EFFE",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "CD7B13",
+          "on": "E9786910019090",
+          "off": "4801C648894710"
+        }
+      ]
+    },
+    {
+      "name": "Hella EXP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1DDE4A4",
+          "on": "4805080700004801C648894710E96496EFFE",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "CD7B13",
+          "on": "E98C6910019090",
+          "off": "4801C648894710"
+        }
+      ]
+    },
+    {
+      "name": "EXP OVERLORD | MAX LEVEL",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1DDE530",
+          "on": "4805FFE0F5054801C648894710E9D895EFFE",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "CD7B13",
+          "on": "E9186A10019090",
+          "off": "4801C648894710"
+        }
+      ]
+    },
+    {
+      "name": "Brand Awareness| Boost Job Points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1DDE4CC",
+          "on": "8B470483C06401C6E9DCA2EFFE",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "CD87B0",
+          "on": "E9175D1001",
+          "off": "8B470401C6"
         }
       ]
     },
@@ -337,6 +289,54 @@
         {
           "offset": "CD87B0",
           "on": "E9265D1001",
+          "off": "8B470401C6"
+        }
+      ]
+    },
+    {
+      "name": "Ecommerce | Even More Points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1DDE4EC",
+          "on": "8B4704052C01000001C6E9BAA2EFFE",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "CD87B0",
+          "on": "E9375D1001",
+          "off": "8B470401C6"
+        }
+      ]
+    },
+    {
+      "name": "HR | Lots Of Points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1DDE4FD",
+          "on": "8B470405F401000001C6E9A9A2EFFE",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "CD87B0",
+          "on": "E9485D1001",
+          "off": "8B470401C6"
+        }
+      ]
+    },
+    {
+      "name": "Enterprise | Hella Points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1DDE50E",
+          "on": "8B470405D007000001C6E998A2EFFE",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "CD87B0",
+          "on": "E9595D1001",
           "off": "8B470401C6"
         }
       ]

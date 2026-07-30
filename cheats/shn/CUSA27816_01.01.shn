@@ -4,6 +4,32 @@
   <Genres Name="Adventure" />
   <Genres Name="Family" />
   <Items />
+  <Cheat Text="Vida Infinita">
+    <Cheatline>
+      <Offset>7FC5D100</Offset>
+      <Section>0</Section>
+      <ValueOn>80-78-44-02-75-12-80-78-34-02-75-0C-80-78-6C-02-75-06-C6-40-1C-03-EB-07-8B-4C-24-F4-89-48-1C-E9-F1-83-EA-00</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>80B0550E</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-ED-7B-15-FF-90-90</ValueOn>
+      <ValueOff>8B-4C-24-F4-89-48-1C</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>7FC5E2D0</Offset>
+      <Section>0</Section>
+      <ValueOn>8B-4C-24-F4-C6-40-3C-63-E9-A8-FA-95-00</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>805BDD7E</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-4D-05-6A-FF-90-90</ValueOn>
+      <ValueOff>8B-4C-24-F4-89-48-3C</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Frutas Infinita">
     <Cheatline>
       <Offset>1987DD0</Offset>
@@ -44,32 +70,6 @@
       <Section>0</Section>
       <ValueOn>E9-6D-98-3C-81-90-90</ValueOn>
       <ValueOff>8B-4C-24-F4-89-48-40</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Vida Infinita">
-    <Cheatline>
-      <Offset>7FC5D100</Offset>
-      <Section>0</Section>
-      <ValueOn>80-78-44-02-75-12-80-78-34-02-75-0C-80-78-6C-02-75-06-C6-40-1C-03-EB-07-8B-4C-24-F4-89-48-1C-E9-F1-83-EA-00</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>80B0550E</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-ED-7B-15-FF-90-90</ValueOn>
-      <ValueOff>8B-4C-24-F4-89-48-1C</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>7FC5E2D0</Offset>
-      <Section>0</Section>
-      <ValueOn>8B-4C-24-F4-C6-40-3C-63-E9-A8-FA-95-00</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>805BDD7E</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-4D-05-6A-FF-90-90</ValueOn>
-      <ValueOff>8B-4C-24-F4-89-48-3C</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

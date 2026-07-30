@@ -5,6 +5,39 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Use Cheats on Refined mode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0",
+          "on": "000000000000",
+          "off": "000000000000"
+        }
+      ]
+    },
+    {
+      "name": "Max Phozon On Gain",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "475729",
+          "on": "898B44210000",
+          "off": "898344210000"
+        }
+      ]
+    },
+    {
+      "name": "Max Gold On Buy",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "66F0A5",
+          "on": "899BAC030000",
+          "off": "898BAC030000"
+        }
+      ]
+    },
+    {
       "name": "Max Ability Point On Usage",
       "type": "checkbox",
       "memory": [
@@ -23,39 +56,6 @@
           "offset": "475A3B",
           "on": "899B4021000090",
           "off": "4489B340210000"
-        }
-      ]
-    },
-    {
-      "name": "Max Gold On Buy",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "66F0A5",
-          "on": "899BAC030000",
-          "off": "898BAC030000"
-        }
-      ]
-    },
-    {
-      "name": "Max Phozon On Gain",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "475729",
-          "on": "898B44210000",
-          "off": "898344210000"
-        }
-      ]
-    },
-    {
-      "name": "Use Cheats on Refined mode",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "0",
-          "on": "000000000000",
-          "off": "000000000000"
         }
       ]
     }

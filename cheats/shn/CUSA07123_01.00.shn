@@ -3,20 +3,6 @@
   <Genres Name="Action" />
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="2 hit kill">
-    <Cheatline>
-      <Offset>10CB81B</Offset>
-      <Section>0</Section>
-      <ValueOn>53-48-89-FB-48-83-EB-10-48-3B-1D-D6-87-B3-FE-74-07-48-C7-C1-00-00-00-00-48-89-4F-10-5B-48-39-C8-0F-84-EC-29-0B-FF-E9-B9-29-0B-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>17E1F6</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-20-D6-F4-00-90-90</ValueOn>
-      <ValueOff>48-89-4F-10-48-39-C8</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Default">
     <Cheatline>
       <Offset>10CB800</Offset>
@@ -37,6 +23,20 @@
       <Section>0</Section>
       <ValueOn>49-8B-46-18</ValueOn>
       <ValueOff>49-8B-46-20</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="2 hit kill">
+    <Cheatline>
+      <Offset>10CB81B</Offset>
+      <Section>0</Section>
+      <ValueOn>53-48-89-FB-48-83-EB-10-48-3B-1D-D6-87-B3-FE-74-07-48-C7-C1-00-00-00-00-48-89-4F-10-5B-48-39-C8-0F-84-EC-29-0B-FF-E9-B9-29-0B-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>17E1F6</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-20-D6-F4-00-90-90</ValueOn>
+      <ValueOff>48-89-4F-10-48-39-C8</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="infinit Ki">

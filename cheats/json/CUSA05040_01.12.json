@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "1.25x Game Clock And Shot Clock",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "18D3284",
-          "on": "48B80000A03F09000000",
-          "off": "48B80000803F0900"
-        }
-      ]
-    },
-    {
       "name": "Make Most Shots Hold Left Dpad",
       "type": "checkbox",
       "memory": [
@@ -28,6 +17,17 @@
           "offset": "1632E1C",
           "on": "E9DF09D101",
           "off": "BA00000000"
+        }
+      ]
+    },
+    {
+      "name": "1.25x Game Clock And Shot Clock",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "18D3284",
+          "on": "48B80000A03F09000000",
+          "off": "48B80000803F0900"
         }
       ]
     }

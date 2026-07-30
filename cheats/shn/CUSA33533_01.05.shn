@@ -48,14 +48,6 @@
       <ValueOff>C5-FA-11-80-E8-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Collision">
-    <Cheatline>
-      <Offset>C8CB88</Offset>
-      <Section>16</Section>
-      <ValueOn>90-90-90-90-90</ValueOn>
-      <ValueOff>E8-A3-3A-D2-7F</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="No Increment the Suit Level">
     <Cheatline>
       <Offset>30D1E9</Offset>
@@ -78,6 +70,14 @@
       <Section>16</Section>
       <ValueOn>C4-41-7A-11-BF-68-02-00-00</ValueOn>
       <ValueOff>C4-C1-7A-11-87-68-02-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="No Collision">
+    <Cheatline>
+      <Offset>C8CB88</Offset>
+      <Section>16</Section>
+      <ValueOn>90-90-90-90-90</ValueOn>
+      <ValueOff>E8-A3-3A-D2-7F</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

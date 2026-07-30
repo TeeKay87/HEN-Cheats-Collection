@@ -21,13 +21,13 @@
       ]
     },
     {
-      "name": "Infinite Items/Ammo",
+      "name": "Infinite Money",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "891C3120",
-          "on": "90909090",
-          "off": "90909090"
+          "offset": "18675A2",
+          "on": "4589BF7C010000",
+          "off": "4501B77C010000"
         }
       ]
     },
@@ -43,13 +43,13 @@
       ]
     },
     {
-      "name": "Infinite Money",
+      "name": "Infinite Items/Ammo",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "18675A2",
-          "on": "4589BF7C010000",
-          "off": "4501B77C010000"
+          "offset": "891C3120",
+          "on": "90909090",
+          "off": "90909090"
         }
       ]
     }

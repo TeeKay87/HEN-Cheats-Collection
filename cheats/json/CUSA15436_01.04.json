@@ -5,65 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "99 items",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "431B940",
-          "on": "4889DFC64038638B703890E94EC8AAFC",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "DC8198",
-          "on": "E9A337550390",
-          "off": "4889DF8B7038"
-        }
-      ]
-    },
-    {
-      "name": "Bleed Disabled",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "114C674",
-          "on": "909090",
-          "off": "488930"
-        }
-      ]
-    },
-    {
-      "name": "Groschen 9m",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "431B960",
-          "on": "C74138FFE0F5058B4138418907E91EB685FC",
-          "off": "000000000000000000000000000000000000"
-        },
-        {
-          "offset": "B76F8A",
-          "on": "E9D1497A0390",
-          "off": "8B4138418907"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Energy",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "431B900",
-          "on": "41C7852405000000C07944C4C17A10852405000090E9BA3FDAFC",
-          "off": "0000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "10BF8CB",
-          "on": "E930C0250390909090",
-          "off": "C4C17A108524050000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -76,22 +17,6 @@
           "offset": "7C007A",
           "on": "E932B8B503909090",
           "off": "C5FA10871C050000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Nourishment",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "431B920",
-          "on": "41C785280500000000C842C4C17A10852805000090E95E3FDAFC",
-          "off": "0000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "10BF88F",
-          "on": "E98CC0250390909090",
-          "off": "C4C17A108528050000"
         }
       ]
     },
@@ -112,6 +37,38 @@
       ]
     },
     {
+      "name": "Infinite Energy",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "431B900",
+          "on": "41C7852405000000C07944C4C17A10852405000090E9BA3FDAFC",
+          "off": "0000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "10BF8CB",
+          "on": "E930C0250390909090",
+          "off": "C4C17A108524050000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Nourishment",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "431B920",
+          "on": "41C785280500000000C842C4C17A10852805000090E95E3FDAFC",
+          "off": "0000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "10BF88F",
+          "on": "E98CC0250390909090",
+          "off": "C4C17A108528050000"
+        }
+      ]
+    },
+    {
       "name": "Weight",
       "type": "checkbox",
       "memory": [
@@ -123,18 +80,45 @@
       ]
     },
     {
-      "name": "Infinite Energy",
+      "name": "99 items",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "431FF60",
-          "on": "C4C17A108728050000C4C17A118724050000E9511DDAFC",
-          "off": "0000000000000000000000000000000000000000000000"
+          "offset": "431B940",
+          "on": "4889DFC64038638B703890E94EC8AAFC",
+          "off": "00000000000000000000000000000000"
         },
         {
-          "offset": "10C1CBF",
-          "on": "E99CE2250390909090",
-          "off": "C4C17A118724050000"
+          "offset": "DC8198",
+          "on": "E9A337550390",
+          "off": "4889DF8B7038"
+        }
+      ]
+    },
+    {
+      "name": "Groschen 9m",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "431B960",
+          "on": "C74138FFE0F5058B4138418907E91EB685FC",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "B76F8A",
+          "on": "E9D1497A0390",
+          "off": "8B4138418907"
+        }
+      ]
+    },
+    {
+      "name": "Bleed Disabled",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "114C674",
+          "on": "909090",
+          "off": "488930"
         }
       ]
     },
@@ -155,6 +139,22 @@
       ]
     },
     {
+      "name": "Infinite Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "431FDB0",
+          "on": "C4C17A109F24050000C4C17A119F20050000E9CE22DAFC",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "10C208C",
+          "on": "E91FDD250390909090",
+          "off": "C4C17A119F20050000"
+        }
+      ]
+    },
+    {
       "name": "Infinite Nourishment",
       "type": "checkbox",
       "memory": [
@@ -171,18 +171,18 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
+      "name": "Infinite Energy",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "431FDB0",
-          "on": "C4C17A109F24050000C4C17A119F20050000E9CE22DAFC",
+          "offset": "431FF60",
+          "on": "C4C17A108728050000C4C17A118724050000E9511DDAFC",
           "off": "0000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "10C208C",
-          "on": "E91FDD250390909090",
-          "off": "C4C17A119F20050000"
+          "offset": "10C1CBF",
+          "on": "E99CE2250390909090",
+          "off": "C4C17A118724050000"
         }
       ]
     }

@@ -5,28 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "B73D9",
-          "on": "909090909090",
-          "off": "89B764020000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite items (on use) (deactivate when buying items)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2C3542",
-          "on": "909090",
-          "off": "488931"
-        }
-      ]
-    },
-    {
       "name": "Master Code",
       "type": "checkbox",
       "memory": [
@@ -39,6 +17,33 @@
           "offset": "38178",
           "on": "E953F2DF7F90",
           "off": "89B764020000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B73D9",
+          "on": "909090909090",
+          "off": "89B764020000"
+        }
+      ]
+    },
+    {
+      "name": "Max Experience (on the second moster kill)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC4F2B0",
+          "on": "C78270020000FFE0F505E95F983E80",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "38B18",
+          "on": "E99367C17F90",
+          "off": "898A70020000"
         }
       ]
     },
@@ -59,18 +64,13 @@
       ]
     },
     {
-      "name": "Max Experience (on the second moster kill)",
+      "name": "Infinite items (on use) (deactivate when buying items)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC4F2B0",
-          "on": "C78270020000FFE0F505E95F983E80",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "38B18",
-          "on": "E99367C17F90",
-          "off": "898A70020000"
+          "offset": "2C3542",
+          "on": "909090",
+          "off": "488931"
         }
       ]
     }

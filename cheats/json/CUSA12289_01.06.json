@@ -21,22 +21,6 @@
       ]
     },
     {
-      "name": "Infinite Tokens",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "4FBBE10",
-          "on": "488B87E0010000C7402C3F420F008B402CE9683C6CFB",
-          "off": "00000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "67FA84",
-          "on": "E987C393049090909090",
-          "off": "488B87E00100008B402C"
-        }
-      ]
-    },
-    {
       "name": "Max Money",
       "type": "checkbox",
       "memory": [
@@ -53,18 +37,18 @@
       ]
     },
     {
-      "name": "Only collected Infinite Items",
+      "name": "Infinite Tokens",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "4F74640",
-          "on": "4898C60481638B1C81E938AA70FB",
-          "off": "0000000000000000000000000000"
+          "offset": "4FBBE10",
+          "on": "488B87E0010000C7402C3F420F008B402CE9683C6CFB",
+          "off": "00000000000000000000000000000000000000000000"
         },
         {
-          "offset": "67F081",
-          "on": "E9BA558F04",
-          "off": "48988B1C81"
+          "offset": "67FA84",
+          "on": "E987C393049090909090",
+          "off": "488B87E00100008B402C"
         }
       ]
     },
@@ -80,6 +64,22 @@
         {
           "offset": "67F081",
           "on": "E9EA638904",
+          "off": "48988B1C81"
+        }
+      ]
+    },
+    {
+      "name": "Only collected Infinite Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4F74640",
+          "on": "4898C60481638B1C81E938AA70FB",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "67F081",
+          "on": "E9BA558F04",
           "off": "48988B1C81"
         }
       ]

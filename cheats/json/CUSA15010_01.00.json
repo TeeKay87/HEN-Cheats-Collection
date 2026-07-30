@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "1-Hit Kill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1949AB4",
-          "on": "29C090",
-          "off": "4429E0"
-        }
-      ]
-    },
-    {
       "name": "All Client Godmode",
       "type": "checkbox",
       "memory": [
@@ -45,6 +34,17 @@
           "offset": "178C92C",
           "on": "C78432EC5B0000FFFFFF7F909090",
           "off": "898C32EC5B0000418986EC5B0000"
+        }
+      ]
+    },
+    {
+      "name": "1-Hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1949AB4",
+          "on": "29C090",
+          "off": "4429E0"
         }
       ]
     },
@@ -107,17 +107,6 @@
       ]
     },
     {
-      "name": "1-Hit Kill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1549ab4",
-          "on": "29C090",
-          "off": "4429E0"
-        }
-      ]
-    },
-    {
       "name": "All Client Godmode",
       "type": "checkbox",
       "memory": [
@@ -147,6 +136,17 @@
           "offset": "138c92c",
           "on": "C78432EC5B0000FFFFFF7F909090",
           "off": "898C32EC5B0000418986EC5B0000"
+        }
+      ]
+    },
+    {
+      "name": "1-Hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1549ab4",
+          "on": "29C090",
+          "off": "4429E0"
         }
       ]
     },

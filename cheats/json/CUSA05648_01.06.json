@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo / No Reload (MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1063848",
-          "on": "9090",
-          "off": "EBE7"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health / (Master Code)",
       "type": "checkbox",
       "memory": [
@@ -43,6 +32,17 @@
       ]
     },
     {
+      "name": "Infinite Ammo / No Reload (MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1063848",
+          "on": "9090",
+          "off": "EBE7"
+        }
+      ]
+    },
+    {
       "name": "Infinite Plasma (MC)",
       "type": "checkbox",
       "memory": [
@@ -54,17 +54,6 @@
       ]
     },
     {
-      "name": "Max Money 1M (MC)/ Turn Off To Collect More",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1063871",
-          "on": "9090",
-          "off": "EBBE"
-        }
-      ]
-    },
-    {
       "name": "Max Skill Points 99 (MC)",
       "type": "checkbox",
       "memory": [
@@ -72,6 +61,17 @@
           "offset": "10638C1",
           "on": "9090",
           "off": "EB20"
+        }
+      ]
+    },
+    {
+      "name": "Max Money 1M (MC)/ Turn Off To Collect More",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1063871",
+          "on": "9090",
+          "off": "EBBE"
         }
       ]
     }

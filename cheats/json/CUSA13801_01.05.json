@@ -27,6 +27,33 @@
       ]
     },
     {
+      "name": "Max/Infinite Health/1 Hit Kill (Master Code)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5FF90",
+          "on": "41837E500075154189863001000041898630010000E9E28AB08131C041898630010000E9D48AB081",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1768A85",
+          "on": "E906754F7E9090",
+          "off": "41898630010000"
+        }
+      ]
+    },
+    {
+      "name": "Max/Infinite Health (Need MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5FF97",
+          "on": "418B8634010000",
+          "off": "41898630010000"
+        }
+      ]
+    },
+    {
       "name": "1 Hit Kill (Need MC)",
       "type": "checkbox",
       "memory": [
@@ -50,33 +77,6 @@
           "offset": "11AE78E",
           "on": "E9BDF0AA7E90",
           "off": "4589384489FA"
-        }
-      ]
-    },
-    {
-      "name": "Max/Infinite Health (Need MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5FF97",
-          "on": "418B8634010000",
-          "off": "41898630010000"
-        }
-      ]
-    },
-    {
-      "name": "Max/Infinite Health/1 Hit Kill (Master Code)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5FF90",
-          "on": "41837E500075154189863001000041898630010000E9E28AB08131C041898630010000E9D48AB081",
-          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "1768A85",
-          "on": "E906754F7E9090",
-          "off": "41898630010000"
         }
       ]
     },

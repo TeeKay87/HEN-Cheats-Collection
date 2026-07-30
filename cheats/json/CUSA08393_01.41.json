@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "21 Skillpoints / Kill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "4177C10",
-          "on": "6641C78314010000FFFF",
-          "off": "4529E74189B314010000"
-        }
-      ]
-    },
-    {
       "name": "Godmode",
       "type": "checkbox",
       "memory": [
@@ -38,6 +27,17 @@
       ]
     },
     {
+      "name": "21 Skillpoints / Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4177C10",
+          "on": "6641C78314010000FFFF",
+          "off": "4529E74189B314010000"
+        }
+      ]
+    },
+    {
       "name": "Max Money",
       "type": "button",
       "memory": [
@@ -45,17 +45,6 @@
           "offset": "3E3E524",
           "on": "B87E9698009090",
           "off": "B87E9698009090"
-        }
-      ]
-    },
-    {
-      "name": "21 Skillpoints / Kill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3D77C10",
-          "on": "6641C78314010000FFFF",
-          "off": "4529E74189B314010000"
         }
       ]
     },
@@ -78,6 +67,17 @@
           "offset": "3A3E529",
           "on": "9090",
           "off": "29C8"
+        }
+      ]
+    },
+    {
+      "name": "21 Skillpoints / Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3D77C10",
+          "on": "6641C78314010000FFFF",
+          "off": "4529E74189B314010000"
         }
       ]
     },

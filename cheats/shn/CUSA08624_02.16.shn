@@ -228,104 +228,6 @@
       <ValueOff>C5-FA-11-43-7C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="10-INF torch fire N C">
-    <Cheatline>
-      <Offset>81A3BB63</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>C5-FA-11-83-BC-00-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="11-Fire Temp always Max W B">
-    <Cheatline>
-      <Offset>85C438B1</Offset>
-      <Section>0</Section>
-      <ValueOn>C7-43-18-00-00-A0-42-C5-FA-10-43-18-E9-01-9B-EC-FB</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>81B0D3BE</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-EE-64-13-04</ValueOn>
-      <ValueOff>C5-FA-10-43-18</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="12-FIRE pit immune to wind N C">
-    <Cheatline>
-      <Offset>81B09056</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>C4-C1-7A-11-86-BC-00-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="13-water never decreases N C">
-    <Cheatline>
-      <Offset>80C7A1E3</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90</ValueOn>
-      <ValueOff>C5-FA-11-40-1C</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>828729C6</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90</ValueOn>
-      <ValueOff>C5-FA-11-40-1C</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="14-Charcoal never decreases N C">
-    <Cheatline>
-      <Offset>8210D912</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90</ValueOn>
-      <ValueOff>FF-48-18</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="15-Firewood never decreases N C">
-    <Cheatline>
-      <Offset>80C9C163</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90</ValueOn>
-      <ValueOff>89-43-18</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="16-Spray paint never decreases N C">
-    <Cheatline>
-      <Offset>81A37F32</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>C5-FA-11-88-04-03-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>81A37F64</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>C5-FA-11-80-04-03-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="17-Medications never decreases N C">
-    <Cheatline>
-      <Offset>81DD6E70</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90</ValueOn>
-      <ValueOff>41-89-46-18</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="18-Oil/Antiseptic never decreases  N C">
-    <Cheatline>
-      <Offset>80C7C3FA</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90</ValueOn>
-      <ValueOff>C4-C1-7A-11-46-18</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="19-Lantern Oil never decreases N A OR">
-    <Cheatline>
-      <Offset>81619940</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90</ValueOn>
-      <ValueOff>C5-FA-11-43-60</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="2-ENABLE ALL B/C OPIONS (too easy=Boring)">
     <Cheatline>
       <Offset>85C43800</Offset>
@@ -700,6 +602,238 @@
       <ValueOff>C4-C1-7A-10-46-5C</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="3-INF Health W B">
+    <Cheatline>
+      <Offset>85C43800</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-43-18-00-00-D2-42-C5-FA-10-43-18-E9-2F-4A-92-FB</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>8156823B</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-C0-B5-6D-04</ValueOn>
+      <ValueOff>C5-FA-11-43-18</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="4-INF Weight W C">
+    <Cheatline>
+      <Offset>85C43813</Offset>
+      <Section>0</Section>
+      <ValueOn>41-C7-45-70-00-00-00-00-C4-C1-7A-10-5D-70-E9-73-B3-18-FC</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>81DCEB93</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-7B-4C-E7-03-90</ValueOn>
+      <ValueOff>C4-C1-7A-11-5D-70</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>85C43927</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-83-80-00-00-00-00-00-00-00-C5-FA-10-83-80-00-00-00-E9-06-EB-A8-FC</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>826D243C</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-E6-14-57-03-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-83-80-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="5-INF Stamina N C">
+    <Cheatline>
+      <Offset>81C5C460</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90</ValueOn>
+      <ValueOff>C4-C1-7A-11-46-7C</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>81C5C481</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90</ValueOn>
+      <ValueOff>C4-C1-7A-11-46-7C</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="6-Durablity never decreases N A OR">
+    <Cheatline>
+      <Offset>82E2E3E2</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90</ValueOn>
+      <ValueOff>E8-B9-0C-05-FF</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>81E75572</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-83-04-03-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>81E75593</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-83-04-03-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="7-Durablity is always MAX  W R B">
+    <Cheatline>
+      <Offset>85C43828</Offset>
+      <Section>0</Section>
+      <ValueOn>48-8B-83-08-03-00-00-C5-FA-10-48-48-C5-FA-11-8B-04-03-00-00-C5-FA-10-83-04-03-00-00-E9-3D-1D-23-FC</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>81E75572</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-B1-E2-DC-03-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-83-04-03-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>85C4384B</Offset>
+      <Section>0</Section>
+      <ValueOn>50-48-8B-83-08-03-00-00-C5-FA-10-40-48-C5-FA-11-83-04-03-00-00-58-E9-7B-AC-22-FC</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>81E6E4D9</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-6D-53-DD-03-90-90-90</ValueOn>
+      <ValueOff>C5-FA-10-83-04-03-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>85C43868</Offset>
+      <Section>0</Section>
+      <ValueOn>50-49-8B-85-08-03-00-00-C5-FA-10-40-48-C4-C1-7A-11-85-04-03-00-00-58-E9-EA-1F-19-FC</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>81DD5865</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-FE-DF-E6-03-90-90-90-90</ValueOn>
+      <ValueOff>C4-C1-7A-10-85-04-03-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="8-INF Crafting  N C">
+    <Cheatline>
+      <Offset>81DD70B3</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90</ValueOn>
+      <ValueOff>41-89-4F-18</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="9-INF Fire time N C">
+    <Cheatline>
+      <Offset>81B08898</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-83-BC-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>82AB89B3</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-83-BC-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="10-INF torch fire N C">
+    <Cheatline>
+      <Offset>81A3BB63</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-83-BC-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="11-Fire Temp always Max W B">
+    <Cheatline>
+      <Offset>85C438B1</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-43-18-00-00-A0-42-C5-FA-10-43-18-E9-01-9B-EC-FB</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>81B0D3BE</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-EE-64-13-04</ValueOn>
+      <ValueOff>C5-FA-10-43-18</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="12-FIRE pit immune to wind N C">
+    <Cheatline>
+      <Offset>81B09056</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>C4-C1-7A-11-86-BC-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="13-water never decreases N C">
+    <Cheatline>
+      <Offset>80C7A1E3</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-40-1C</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>828729C6</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-40-1C</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="14-Charcoal never decreases N C">
+    <Cheatline>
+      <Offset>8210D912</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90</ValueOn>
+      <ValueOff>FF-48-18</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="15-Firewood never decreases N C">
+    <Cheatline>
+      <Offset>80C9C163</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90</ValueOn>
+      <ValueOff>89-43-18</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="16-Spray paint never decreases N C">
+    <Cheatline>
+      <Offset>81A37F32</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-88-04-03-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>81A37F64</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-80-04-03-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="17-Medications never decreases N C">
+    <Cheatline>
+      <Offset>81DD6E70</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90</ValueOn>
+      <ValueOff>41-89-46-18</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="18-Oil/Antiseptic never decreases  N C">
+    <Cheatline>
+      <Offset>80C7C3FA</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90</ValueOn>
+      <ValueOff>C4-C1-7A-11-46-18</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="19-Lantern Oil never decreases N A OR">
+    <Cheatline>
+      <Offset>81619940</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-43-60</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="20-Lantern Oil always full on ignition W B">
     <Cheatline>
       <Offset>85C43886</Offset>
@@ -796,20 +930,6 @@
       <Section>0</Section>
       <ValueOn>E9-24-57-E7-03</ValueOn>
       <ValueOff>C5-FB-10-40-18</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="3-INF Health W B">
-    <Cheatline>
-      <Offset>85C43800</Offset>
-      <Section>0</Section>
-      <ValueOn>C7-43-18-00-00-D2-42-C5-FA-10-43-18-E9-2F-4A-92-FB</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>8156823B</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-C0-B5-6D-04</ValueOn>
-      <ValueOff>C5-FA-11-43-18</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="30-NO More Thirst N B">
@@ -928,32 +1048,6 @@
       <ValueOff>44-29-68-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="4-INF Weight W C">
-    <Cheatline>
-      <Offset>85C43813</Offset>
-      <Section>0</Section>
-      <ValueOn>41-C7-45-70-00-00-00-00-C4-C1-7A-10-5D-70-E9-73-B3-18-FC</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>81DCEB93</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-7B-4C-E7-03-90</ValueOn>
-      <ValueOff>C4-C1-7A-11-5D-70</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>85C43927</Offset>
-      <Section>0</Section>
-      <ValueOn>C7-83-80-00-00-00-00-00-00-00-C5-FA-10-83-80-00-00-00-E9-06-EB-A8-FC</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>826D243C</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-E6-14-57-03-90-90-90</ValueOn>
-      <ValueOff>C5-FA-11-83-80-00-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="40-Make the selected item in inventory X16 (require 1 item or more)W">
     <Cheatline>
       <Offset>85C43899</Offset>
@@ -1058,20 +1152,6 @@
       <ValueOff>41-8B-44-24-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="5-INF Stamina N C">
-    <Cheatline>
-      <Offset>81C5C460</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90</ValueOn>
-      <ValueOff>C4-C1-7A-11-46-7C</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>81C5C481</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90</ValueOn>
-      <ValueOff>C4-C1-7A-11-46-7C</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="50-Rest/Sleep Start at 7 Days (use with caution cz hunger will kill you) (read guide on how to use)  N">
     <Cheatline>
       <Offset>81D907E9</Offset>
@@ -1086,86 +1166,6 @@
       <Section>0</Section>
       <ValueOn>B8-60-09-00-00</ValueOn>
       <ValueOff>41-8B-44-24-40</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="6-Durablity never decreases N A OR">
-    <Cheatline>
-      <Offset>82E2E3E2</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90</ValueOn>
-      <ValueOff>E8-B9-0C-05-FF</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>81E75572</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>C5-FA-11-83-04-03-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>81E75593</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>C5-FA-11-83-04-03-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="7-Durablity is always MAX  W R B">
-    <Cheatline>
-      <Offset>85C43828</Offset>
-      <Section>0</Section>
-      <ValueOn>48-8B-83-08-03-00-00-C5-FA-10-48-48-C5-FA-11-8B-04-03-00-00-C5-FA-10-83-04-03-00-00-E9-3D-1D-23-FC</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>81E75572</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-B1-E2-DC-03-90-90-90</ValueOn>
-      <ValueOff>C5-FA-11-83-04-03-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>85C4384B</Offset>
-      <Section>0</Section>
-      <ValueOn>50-48-8B-83-08-03-00-00-C5-FA-10-40-48-C5-FA-11-83-04-03-00-00-58-E9-7B-AC-22-FC</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>81E6E4D9</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-6D-53-DD-03-90-90-90</ValueOn>
-      <ValueOff>C5-FA-10-83-04-03-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>85C43868</Offset>
-      <Section>0</Section>
-      <ValueOn>50-49-8B-85-08-03-00-00-C5-FA-10-40-48-C4-C1-7A-11-85-04-03-00-00-58-E9-EA-1F-19-FC</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>81DD5865</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-FE-DF-E6-03-90-90-90-90</ValueOn>
-      <ValueOff>C4-C1-7A-10-85-04-03-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="8-INF Crafting  N C">
-    <Cheatline>
-      <Offset>81DD70B3</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90</ValueOn>
-      <ValueOff>41-89-4F-18</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="9-INF Fire time N C">
-    <Cheatline>
-      <Offset>81B08898</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>C5-FA-11-83-BC-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>82AB89B3</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>C5-FA-11-83-BC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

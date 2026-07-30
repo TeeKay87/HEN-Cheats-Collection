@@ -5,50 +5,24 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Exp  Order of Ecclesia",
+      "name": "Inf Hp Order of Ecclesia",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FCCB030",
-          "on": "B9FFE0F50541898FBC070000E967771000",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "7FDD27A1",
-          "on": "E98A88EFFF9090",
-          "off": "41898FBC070000"
+          "offset": "7FEF1C8C",
+          "on": "9090909090909090",
+          "off": "664429A064070000"
         }
       ]
     },
     {
-      "name": "Inf Exp Dawn Of Sorrow",
+      "name": "Inf Mp  Order of Ecclesia",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FCCB0F6",
-          "on": "B9FFE0F505898B04930700E9E9D24B00",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "801883E9",
-          "on": "E9082DB4FF90",
-          "off": "898B04930700"
-        }
-      ]
-    },
-    {
-      "name": "Inf Exp Portrait Of  Ruin",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FCCB094",
-          "on": "B9FFE0F505898AD8660200E99D5B1900",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "7FE60C3B",
-          "on": "E954A4E6FF90",
-          "off": "898AD8660200"
+          "offset": "7FECF7C4",
+          "on": "909090",
+          "off": "662918"
         }
       ]
     },
@@ -69,29 +43,18 @@
       ]
     },
     {
-      "name": "Inf Hp Dawn Of Sorrow",
+      "name": "Inf Exp  Order of Ecclesia",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "8017BE4B",
-          "on": "9090909090909090",
-          "off": "664429B0CC920700"
+          "offset": "7FCCB030",
+          "on": "B9FFE0F50541898FBC070000E967771000",
+          "off": "0000000000000000000000000000000000"
         },
         {
-          "offset": "7FE87E4B",
-          "on": "9090909090909090",
-          "off": "664429B0CC920700"
-        }
-      ]
-    },
-    {
-      "name": "Inf Hp Order of Ecclesia",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FEF1C8C",
-          "on": "9090909090909090",
-          "off": "664429A064070000"
+          "offset": "7FDD27A1",
+          "on": "E98A88EFFF9090",
+          "off": "41898FBC070000"
         }
       ]
     },
@@ -107,18 +70,13 @@
       ]
     },
     {
-      "name": "Inf Money Dawn Of Sorrow",
+      "name": "Inf Mp Portrait Of  Ruin",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FCCB0C4",
-          "on": "41BEFFE0F5054401B008930700E932854A00",
-          "off": "000000000000000000000000000000000000"
-        },
-        {
-          "offset": "80173601",
-          "on": "E9BE7AB5FF9090",
-          "off": "4401B008930700"
+          "offset": "7FE3652A",
+          "on": "90909090909090",
+          "off": "66299888660200"
         }
       ]
     },
@@ -139,13 +97,34 @@
       ]
     },
     {
-      "name": "Inf Mp  Order of Ecclesia",
+      "name": "Inf Exp Portrait Of  Ruin",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FECF7C4",
-          "on": "909090",
-          "off": "662918"
+          "offset": "7FCCB094",
+          "on": "B9FFE0F505898AD8660200E99D5B1900",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "7FE60C3B",
+          "on": "E954A4E6FF90",
+          "off": "898AD8660200"
+        }
+      ]
+    },
+    {
+      "name": "Inf Hp Dawn Of Sorrow",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8017BE4B",
+          "on": "9090909090909090",
+          "off": "664429B0CC920700"
+        },
+        {
+          "offset": "7FE87E4B",
+          "on": "9090909090909090",
+          "off": "664429B0CC920700"
         }
       ]
     },
@@ -171,13 +150,34 @@
       ]
     },
     {
-      "name": "Inf Mp Portrait Of  Ruin",
+      "name": "Inf Money Dawn Of Sorrow",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FE3652A",
-          "on": "90909090909090",
-          "off": "66299888660200"
+          "offset": "7FCCB0C4",
+          "on": "41BEFFE0F5054401B008930700E932854A00",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "80173601",
+          "on": "E9BE7AB5FF9090",
+          "off": "4401B008930700"
+        }
+      ]
+    },
+    {
+      "name": "Inf Exp Dawn Of Sorrow",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB0F6",
+          "on": "B9FFE0F505898B04930700E9E9D24B00",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "801883E9",
+          "on": "E9082DB4FF90",
+          "off": "898B04930700"
         }
       ]
     }

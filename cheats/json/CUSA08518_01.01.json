@@ -5,50 +5,12 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Focus Point",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1E8874E",
-          "on": "90909090909090",
-          "off": "41298698030000"
-        }
-      ]
-    },
-    {
-      "name": "Item Increase Upon Use/Sell(Dont Use In Battle)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "125A5D8",
-          "on": "4401F0",
-          "off": "4429F0"
-        }
-      ]
-    },
-    {
-      "name": "Money Gain After Battle Is Always \u002B100K(Disable Exp Cheat)",
+      "name": "Money Gain After Battle Is Always \u002B500(Disable Exp Cheat)",
       "type": "checkbox",
       "memory": [
         {
           "offset": "71BF800",
-          "on": "85C90F49D081C2A0860100E93A7D06FA",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "1227545",
-          "on": "E9B682F905",
-          "off": "85C90F49D0"
-        }
-      ]
-    },
-    {
-      "name": "Money Gain After Battle Is Always \u002B10K(Disable Exp Cheat)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "71BF800",
-          "on": "85C90F49D081C210270000E93A7D06FA",
+          "on": "85C90F49D081C2F4010000E93A7D06FA",
           "off": "00000000000000000000000000000000"
         },
         {
@@ -75,12 +37,12 @@
       ]
     },
     {
-      "name": "Money Gain After Battle Is Always \u002B500(Disable Exp Cheat)",
+      "name": "Money Gain After Battle Is Always \u002B10K(Disable Exp Cheat)",
       "type": "checkbox",
       "memory": [
         {
           "offset": "71BF800",
-          "on": "85C90F49D081C2F4010000E93A7D06FA",
+          "on": "85C90F49D081C210270000E93A7D06FA",
           "off": "00000000000000000000000000000000"
         },
         {
@@ -91,92 +53,39 @@
       ]
     },
     {
-      "name": "Perfectionist Pearl Gain Extra 10",
+      "name": "Money Gain After Battle Is Always \u002B100K(Disable Exp Cheat)",
       "type": "checkbox",
       "memory": [
         {
           "offset": "71BF800",
-          "on": "83C20A4189D641895118E9399E09FA",
-          "off": "000000000000000000000000000000"
+          "on": "85C90F49D081C2A0860100E93A7D06FA",
+          "off": "00000000000000000000000000000000"
         },
         {
-          "offset": "1259641",
-          "on": "E9BA61F6059090",
-          "off": "4189D641895118"
+          "offset": "1227545",
+          "on": "E9B682F905",
+          "off": "85C90F49D0"
         }
       ]
     },
     {
-      "name": "Perfectionist Pearl Gain Extra 100",
+      "name": "Item Increase Upon Use/Sell(Dont Use In Battle)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "71BF800",
-          "on": "83C2644189D641895118E9399E09FA",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "1259641",
-          "on": "E9BA61F6059090",
-          "off": "4189D641895118"
+          "offset": "125A5D8",
+          "on": "4401F0",
+          "off": "4429F0"
         }
       ]
     },
     {
-      "name": "Perfectionist Pearl Gain Extra 50",
+      "name": "Quick Exp Gain(\u002B1K)(Disable Money Cheat)",
       "type": "checkbox",
       "memory": [
         {
           "offset": "71BF800",
-          "on": "83C2324189D641895118E9399E09FA",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "1259641",
-          "on": "E9BA61F6059090",
-          "off": "4189D641895118"
-        }
-      ]
-    },
-    {
-      "name": "Perfectionist Pearl Gain Extra 500",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "71BF800",
-          "on": "81C2F40100004189D641895118E9369E09FA",
-          "off": "000000000000000000000000000000000000"
-        },
-        {
-          "offset": "1259641",
-          "on": "E9BA61F6059090",
-          "off": "4189D641895118"
-        }
-      ]
-    },
-    {
-      "name": "Quick Exp Gain After Battle(\u002B100K)(Disable Money Cheat)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "71BF800",
-          "on": "450F4DEC4101C54181C5A0860100E9A5EB02FA",
-          "off": "00000000000000000000000000000000000000"
-        },
-        {
-          "offset": "11EE3B1",
-          "on": "E94A14FD059090",
-          "off": "450F4DEC4101C5"
-        }
-      ]
-    },
-    {
-      "name": "Quick Exp Gain After Battle(\u002B10K)(Disable Money Cheat)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "71BF800",
-          "on": "450F4DEC4101C54181C510270000E9A5EB02FA",
+          "on": "450F4DEC4101C54181C5E8030000E9A5EB02FA",
           "off": "00000000000000000000000000000000000000"
         },
         {
@@ -203,18 +112,109 @@
       ]
     },
     {
-      "name": "Quick Exp Gain(\u002B1K)(Disable Money Cheat)",
+      "name": "Quick Exp Gain After Battle(\u002B10K)(Disable Money Cheat)",
       "type": "checkbox",
       "memory": [
         {
           "offset": "71BF800",
-          "on": "450F4DEC4101C54181C5E8030000E9A5EB02FA",
+          "on": "450F4DEC4101C54181C510270000E9A5EB02FA",
           "off": "00000000000000000000000000000000000000"
         },
         {
           "offset": "11EE3B1",
           "on": "E94A14FD059090",
           "off": "450F4DEC4101C5"
+        }
+      ]
+    },
+    {
+      "name": "Quick Exp Gain After Battle(\u002B100K)(Disable Money Cheat)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "71BF800",
+          "on": "450F4DEC4101C54181C5A0860100E9A5EB02FA",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "11EE3B1",
+          "on": "E94A14FD059090",
+          "off": "450F4DEC4101C5"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Focus Point",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E8874E",
+          "on": "90909090909090",
+          "off": "41298698030000"
+        }
+      ]
+    },
+    {
+      "name": "Perfectionist Pearl Gain Extra 10",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "71BF800",
+          "on": "83C20A4189D641895118E9399E09FA",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "1259641",
+          "on": "E9BA61F6059090",
+          "off": "4189D641895118"
+        }
+      ]
+    },
+    {
+      "name": "Perfectionist Pearl Gain Extra 50",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "71BF800",
+          "on": "83C2324189D641895118E9399E09FA",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "1259641",
+          "on": "E9BA61F6059090",
+          "off": "4189D641895118"
+        }
+      ]
+    },
+    {
+      "name": "Perfectionist Pearl Gain Extra 100",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "71BF800",
+          "on": "83C2644189D641895118E9399E09FA",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "1259641",
+          "on": "E9BA61F6059090",
+          "off": "4189D641895118"
+        }
+      ]
+    },
+    {
+      "name": "Perfectionist Pearl Gain Extra 500",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "71BF800",
+          "on": "81C2F40100004189D641895118E9369E09FA",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1259641",
+          "on": "E9BA61F6059090",
+          "off": "4189D641895118"
         }
       ]
     }

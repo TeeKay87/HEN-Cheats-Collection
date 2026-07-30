@@ -67,18 +67,18 @@
       ]
     },
     {
-      "name": "Max Ammo ( Weapon down )",
+      "name": "One Hit Kill",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "147790B",
-          "on": "66C780786C0100E703440FBF90786C0100E9FE9DD5FE",
-          "off": "00000000000000000000000000000000000000000000"
+          "offset": "1477875",
+          "on": "31C0898740040000E94835ECFE",
+          "off": "00000000000000000000000000"
         },
         {
-          "offset": "1D1717",
-          "on": "E9EF612A01909090",
-          "off": "440FBF90786C0100"
+          "offset": "33ADC4",
+          "on": "E9ACCA130190",
+          "off": "898740040000"
         }
       ]
     },
@@ -115,18 +115,18 @@
       ]
     },
     {
-      "name": "Max EMP Grenades",
+      "name": "Max Ammo ( Weapon down )",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1477923",
-          "on": "66C780B86C0100E703440FBF98B86C0100E9669ED5FE",
+          "offset": "147790B",
+          "on": "66C780786C0100E703440FBF90786C0100E9FE9DD5FE",
           "off": "00000000000000000000000000000000000000000000"
         },
         {
-          "offset": "1D1797",
-          "on": "E987612A01909090",
-          "off": "440FBF98B86C0100"
+          "offset": "1D1717",
+          "on": "E9EF612A01909090",
+          "off": "440FBF90786C0100"
         }
       ]
     },
@@ -147,18 +147,18 @@
       ]
     },
     {
-      "name": "Max Total Score ( after Level finished )",
+      "name": "Max EMP Grenades",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1477897",
-          "on": "C74310FFE0F5058B4B10BA816967FFE9454A0BFF",
-          "off": "0000000000000000000000000000000000000000"
+          "offset": "1477923",
+          "on": "66C780B86C0100E703440FBF98B86C0100E9669ED5FE",
+          "off": "00000000000000000000000000000000000000000000"
         },
         {
-          "offset": "52C2E8",
-          "on": "E9AAB5F400909090",
-          "off": "8B4B10BA816967FF"
+          "offset": "1D1797",
+          "on": "E987612A01909090",
+          "off": "440FBF98B86C0100"
         }
       ]
     },
@@ -179,18 +179,18 @@
       ]
     },
     {
-      "name": "One Hit Kill",
+      "name": "Max Total Score ( after Level finished )",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1477875",
-          "on": "31C0898740040000E94835ECFE",
-          "off": "00000000000000000000000000"
+          "offset": "1477897",
+          "on": "C74310FFE0F5058B4B10BA816967FFE9454A0BFF",
+          "off": "0000000000000000000000000000000000000000"
         },
         {
-          "offset": "33ADC4",
-          "on": "E9ACCA130190",
-          "off": "898740040000"
+          "offset": "52C2E8",
+          "on": "E9AAB5F400909090",
+          "off": "8B4B10BA816967FF"
         }
       ]
     }

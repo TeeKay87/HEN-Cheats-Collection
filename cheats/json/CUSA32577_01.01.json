@@ -53,22 +53,6 @@
       ]
     },
     {
-      "name": "Max experience gain",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "55FBBE0",
-          "on": "41C78424A42D02003F420F00E916A53CFB",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "9C60FF",
-          "on": "E9DC5AC304909090",
-          "off": "41899C24A42D0200"
-        }
-      ]
-    },
-    {
       "name": "Max Style points (on buy)",
       "type": "checkbox",
       "memory": [
@@ -81,6 +65,22 @@
           "offset": "A223DC",
           "on": "E94F97BD049090",
           "off": "41298EB42D0200"
+        }
+      ]
+    },
+    {
+      "name": "Max experience gain",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "55FBBE0",
+          "on": "41C78424A42D02003F420F00E916A53CFB",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "9C60FF",
+          "on": "E9DC5AC304909090",
+          "off": "41899C24A42D0200"
         }
       ]
     }

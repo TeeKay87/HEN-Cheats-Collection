@@ -5,55 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "11F0C55",
-          "on": "8B83D4070000",
-          "off": "8983D4070000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Consumables",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "F37FBC",
-          "on": "90909090909090",
-          "off": "83BB400C000000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Medkits",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "F37F82",
-          "on": "909090909090",
-          "off": "FF8B400C0000"
-        }
-      ]
-    },
-    {
-      "name": "Max/Infinite Credits/Rep Scrip",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5F1F820",
-          "on": "41C74424087F969800E9B4ACF3FA",
-          "off": "0000000000000000000000000000"
-        },
-        {
-          "offset": "E5A4DD",
-          "on": "E93E530C05",
-          "off": "4189442408"
-        }
-      ]
-    },
-    {
       "name": "Max/Infinite Health/Team",
       "type": "checkbox",
       "memory": [
@@ -70,6 +21,17 @@
       ]
     },
     {
+      "name": "Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "11F0C55",
+          "on": "8B83D4070000",
+          "off": "8983D4070000"
+        }
+      ]
+    },
+    {
       "name": "No Reload",
       "type": "checkbox",
       "memory": [
@@ -77,6 +39,44 @@
           "offset": "11F0C9D",
           "on": "8B83DC070000",
           "off": "8983DC070000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Medkits",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "F37F82",
+          "on": "909090909090",
+          "off": "FF8B400C0000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Consumables",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "F37FBC",
+          "on": "90909090909090",
+          "off": "83BB400C000000"
+        }
+      ]
+    },
+    {
+      "name": "Max/Infinite Credits/Rep Scrip",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5F1F820",
+          "on": "41C74424087F969800E9B4ACF3FA",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "E5A4DD",
+          "on": "E93E530C05",
+          "off": "4189442408"
         }
       ]
     }

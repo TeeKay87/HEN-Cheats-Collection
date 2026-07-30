@@ -2,6 +2,14 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Metal Gear Solid V: The Definitive Experience" Moder="Saso_9.00" Cusa="CUSA05597" Version="01.11" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
+  <Cheat Text="Infinite Health">
+    <Cheatline>
+      <Offset>1D1CE3E</Offset>
+      <Section>0</Section>
+      <ValueOn>C4-C1-7A-11-74-8C-CC</ValueOn>
+      <ValueOff>C4-C1-7A-11-6C-8C-CC</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Infinite Ammo / No Relaod">
     <Cheatline>
       <Offset>2164BB1</Offset>
@@ -16,6 +24,14 @@
       <ValueOff>89-01</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="Infinite Suppressor">
+    <Cheatline>
+      <Offset>1FA5CBD</Offset>
+      <Section>0</Section>
+      <ValueOn>40-8A-7C-72-05</ValueOn>
+      <ValueOff>40-8A-7C-72-04</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Infinite Grenades">
     <Cheatline>
       <Offset>34EA100</Offset>
@@ -28,22 +44,6 @@
       <Section>0</Section>
       <ValueOn>E9-B7-51-38-01-90</ValueOn>
       <ValueOff>39-CE-66-0F-46-CE</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Health">
-    <Cheatline>
-      <Offset>1D1CE3E</Offset>
-      <Section>0</Section>
-      <ValueOn>C4-C1-7A-11-74-8C-CC</ValueOn>
-      <ValueOff>C4-C1-7A-11-6C-8C-CC</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Suppressor">
-    <Cheatline>
-      <Offset>1FA5CBD</Offset>
-      <Section>0</Section>
-      <ValueOn>40-8A-7C-72-05</ValueOn>
-      <ValueOff>40-8A-7C-72-04</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max GMP (5000000)">

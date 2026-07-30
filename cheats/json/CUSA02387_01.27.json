@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Better Aiming",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "17DB640",
-          "on": "C3",
-          "off": "55"
-        }
-      ]
-    },
-    {
       "name": "Enemies AFK",
       "type": "checkbox",
       "memory": [
@@ -23,17 +12,6 @@
           "offset": "3B4C00",
           "on": "C3",
           "off": "55"
-        }
-      ]
-    },
-    {
-      "name": "Fire rate 60 / 2",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "32C1098",
-          "on": "0000F041",
-          "off": "00007042"
         }
       ]
     },
@@ -65,6 +43,17 @@
       ]
     },
     {
+      "name": "Better Aiming",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "17DB640",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
       "name": "One Hit Kill",
       "type": "checkbox",
       "memory": [
@@ -76,13 +65,13 @@
       ]
     },
     {
-      "name": "Player isGrounded",
+      "name": "Vsync off for more fps 120\u002B laggy on PS4",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "19F6AC0",
-          "on": "b000",
-          "off": "b001"
+          "offset": "1347BA7",
+          "on": "0f94c0",
+          "off": "0f95c0"
         }
       ]
     },
@@ -98,13 +87,24 @@
       ]
     },
     {
-      "name": "Vsync off for more fps 120\u002B laggy on PS4",
+      "name": "Player isGrounded",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1347BA7",
-          "on": "0f94c0",
-          "off": "0f95c0"
+          "offset": "19F6AC0",
+          "on": "b000",
+          "off": "b001"
+        }
+      ]
+    },
+    {
+      "name": "Fire rate 60 / 2",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "32C1098",
+          "on": "0000F041",
+          "off": "00007042"
         }
       ]
     }

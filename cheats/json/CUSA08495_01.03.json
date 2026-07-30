@@ -5,45 +5,50 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "100% Drop Rate Press L3\u002BR3",
+      "name": "Inf HP Master Code",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "12B0794",
-          "on": "F63F1C46",
-          "off": "66660640"
+          "offset": "1837800",
+          "on": "4183BFC000000000750E4189B700040000E97EFBA3FE31F64189B700040000E970FBA3FE",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "12B076C",
-          "on": "F63F1C46",
-          "off": "66660640"
-        },
-        {
-          "offset": "4BB2A3",
-          "on": "E9F3C537019090",
-          "off": "8994079C700000"
+          "offset": "27738D",
+          "on": "E96E045C019090",
+          "off": "4189B700040000"
         }
       ]
     },
     {
-      "name": "Bleed Resistance",
+      "name": "Stamina Master Code",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "27D36A",
-          "on": "90909090909090",
-          "off": "41898638040000"
+          "offset": "1837851",
+          "on": "83BBC4000000007513909090909090898B10040000E93704A4FE31C9898B10040000E92A04A4FE",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "277C9C",
+          "on": "E9B0FB5B0190",
+          "off": "898B10040000"
         }
       ]
     },
     {
-      "name": "Curse Resistance",
+      "name": "Speed Hack Master Code",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "27D3E8",
-          "on": "90909090909090",
-          "off": "4189863C040000"
+          "offset": "1837878",
+          "on": "6681FC9083750FC7000000803FC5FA5900E9CC04B6FE480F44C1C5FA5900E9BF04B6FE",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "397D52",
+          "on": "E921FB4901909090",
+          "off": "480F44C1C5FA5900"
         }
       ]
     },
@@ -59,13 +64,51 @@
       ]
     },
     {
-      "name": "Dupe Anything (Storage) \u002B Max Items",
+      "name": "Player Infinite Health",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "6E825E",
-          "on": "89C3",
-          "off": "39C3"
+          "offset": "183780A",
+          "on": "41898700040000",
+          "off": "4189B700040000"
+        }
+      ]
+    },
+    {
+      "name": "Player \u002B Enemy Inf HP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "27738D",
+          "on": "90909090909090",
+          "off": "E96E045C019090"
+        }
+      ]
+    },
+    {
+      "name": "Player Only Inf Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "183785A",
+          "on": "8B8B14040000",
+          "off": "909090909090"
+        }
+      ]
+    },
+    {
+      "name": "Player \u002B NPC Inf Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1837851",
+          "on": "813B6860C50190",
+          "off": "83BBC400000000"
+        },
+        {
+          "offset": "183785A",
+          "on": "8B8B14040000",
+          "off": "909090909090"
         }
       ]
     },
@@ -81,18 +124,13 @@
       ]
     },
     {
-      "name": "Inf HP Master Code",
+      "name": "Max Infinite Spell Uses",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1837800",
-          "on": "4183BFC000000000750E4189B700040000E97EFBA3FE31F64189B700040000E970FBA3FE",
-          "off": "000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "27738D",
-          "on": "E96E045C019090",
-          "off": "4189B700040000"
+          "offset": "6EC089",
+          "on": "418944B71C",
+          "off": "418954B71C"
         }
       ]
     },
@@ -119,13 +157,13 @@
       ]
     },
     {
-      "name": "Max Infinite Spell Uses",
+      "name": "Dupe Anything (Storage) \u002B Max Items",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "6EC089",
-          "on": "418944B71C",
-          "off": "418954B71C"
+          "offset": "6E825E",
+          "on": "89C3",
+          "off": "39C3"
         }
       ]
     },
@@ -152,51 +190,13 @@
       ]
     },
     {
-      "name": "Player \u002B Enemy Inf HP",
+      "name": "Bleed Resistance",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "27738D",
+          "offset": "27D36A",
           "on": "90909090909090",
-          "off": "E96E045C019090"
-        }
-      ]
-    },
-    {
-      "name": "Player \u002B NPC Inf Stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1837851",
-          "on": "813B6860C50190",
-          "off": "83BBC400000000"
-        },
-        {
-          "offset": "183785A",
-          "on": "8B8B14040000",
-          "off": "909090909090"
-        }
-      ]
-    },
-    {
-      "name": "Player Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "183780A",
-          "on": "41898700040000",
-          "off": "4189B700040000"
-        }
-      ]
-    },
-    {
-      "name": "Player Only Inf Stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "183785A",
-          "on": "8B8B14040000",
-          "off": "909090909090"
+          "off": "41898638040000"
         }
       ]
     },
@@ -212,18 +212,13 @@
       ]
     },
     {
-      "name": "Speed Hack Master Code",
+      "name": "Curse Resistance",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1837878",
-          "on": "6681FC9083750FC7000000803FC5FA5900E9CC04B6FE480F44C1C5FA5900E9BF04B6FE",
-          "off": "0000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "397D52",
-          "on": "E921FB4901909090",
-          "off": "480F44C1C5FA5900"
+          "offset": "27D3E8",
+          "on": "90909090909090",
+          "off": "4189863C040000"
         }
       ]
     },
@@ -261,18 +256,23 @@
       ]
     },
     {
-      "name": "Stamina Master Code",
+      "name": "100% Drop Rate Press L3\u002BR3",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1837851",
-          "on": "83BBC4000000007513909090909090898B10040000E93704A4FE31C9898B10040000E92A04A4FE",
-          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000"
+          "offset": "12B0794",
+          "on": "F63F1C46",
+          "off": "66660640"
         },
         {
-          "offset": "277C9C",
-          "on": "E9B0FB5B0190",
-          "off": "898B10040000"
+          "offset": "12B076C",
+          "on": "F63F1C46",
+          "off": "66660640"
+        },
+        {
+          "offset": "4BB2A3",
+          "on": "E9F3C537019090",
+          "off": "8994079C700000"
         }
       ]
     }

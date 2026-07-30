@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "999 items (on use/get)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "114FA50",
-          "on": "428B14B16642C704B1E703E994C439FF57616E646572204657392E3030",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "4EBEEC",
-          "on": "E95F3BC600909090",
-          "off": "428B14B146893CB1"
-        }
-      ]
-    },
-    {
       "name": "Max Experience",
       "type": "checkbox",
       "memory": [
@@ -33,6 +17,22 @@
           "offset": "3C373D",
           "on": "E98EC4D8009090",
           "off": "4101B0D8280000"
+        }
+      ]
+    },
+    {
+      "name": "999 items (on use/get)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "114FA50",
+          "on": "428B14B16642C704B1E703E994C439FF57616E646572204657392E3030",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "4EBEEC",
+          "on": "E95F3BC600909090",
+          "off": "428B14B146893CB1"
         }
       ]
     },

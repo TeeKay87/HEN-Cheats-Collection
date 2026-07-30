@@ -5,6 +5,22 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Health/1 Hit kill (Master Code)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8BC3DB0",
+          "on": "4183BDBC00000001751341C7857801000000E02B45E9DF4640F90F57C0C4C17A118578010000E9CE4640F9",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1FC84A0",
+          "on": "E90BB9BF0690909090",
+          "off": "C4C17A118578010000"
+        }
+      ]
+    },
+    {
       "name": "1 Hit Kill (Activate After Killing The First Zombie)",
       "type": "checkbox",
       "memory": [
@@ -12,6 +28,17 @@
           "offset": "8BC3DB8",
           "on": "7510",
           "off": "7513"
+        }
+      ]
+    },
+    {
+      "name": "Medkits Don\u0027t Decrease",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6606948",
+          "on": "9090909090",
+          "off": "E863C5FFFF"
         }
       ]
     },
@@ -27,18 +54,13 @@
       ]
     },
     {
-      "name": "Infinite Health/1 Hit kill (Master Code)",
+      "name": "No Reload",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "8BC3DB0",
-          "on": "4183BDBC00000001751341C7857801000000E02B45E9DF4640F90F57C0C4C17A118578010000E9CE4640F9",
-          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "1FC84A0",
-          "on": "E90BB9BF0690909090",
-          "off": "C4C17A118578010000"
+          "offset": "24F1720",
+          "on": "909090909090",
+          "off": "898704010000"
         }
       ]
     },
@@ -91,22 +113,6 @@
       ]
     },
     {
-      "name": "Max XP",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8BC3B90",
-          "on": "C681B0000000014983FF1475004189C5E9B09FC5F9",
-          "off": "000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "281DB4A",
-          "on": "E941603A06909090909090",
-          "off": "C681B00000000144896878"
-        }
-      ]
-    },
-    {
       "name": "Max/Infinite Fury On Kill",
       "type": "checkbox",
       "memory": [
@@ -123,24 +129,18 @@
       ]
     },
     {
-      "name": "Medkits Don\u0027t Decrease",
+      "name": "Max XP",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "6606948",
-          "on": "9090909090",
-          "off": "E863C5FFFF"
-        }
-      ]
-    },
-    {
-      "name": "No Reload",
-      "type": "checkbox",
-      "memory": [
+          "offset": "8BC3B90",
+          "on": "C681B0000000014983FF1475004189C5E9B09FC5F9",
+          "off": "000000000000000000000000000000000000000000"
+        },
         {
-          "offset": "24F1720",
-          "on": "909090909090",
-          "off": "898704010000"
+          "offset": "281DB4A",
+          "on": "E941603A06909090909090",
+          "off": "C681B00000000144896878"
         }
       ]
     }

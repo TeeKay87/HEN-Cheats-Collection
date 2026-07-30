@@ -37,12 +37,12 @@
       ]
     },
     {
-      "name": "Inf Ultra Combo Player 1",
+      "name": "Inf Ultra Combo PLAYER 2",
       "type": "checkbox",
       "memory": [
         {
           "offset": "C5B820",
-          "on": "4883FB01740749C7C5000090014589AE3C6D0000E917A441FF",
+          "on": "4883FB01750749C7C5000090014589AE3C6D0000E917A441FF",
           "off": "00000000000000000000000000000000000000000000000000"
         },
         {
@@ -53,12 +53,12 @@
       ]
     },
     {
-      "name": "Inf Ultra Combo PLAYER 2",
+      "name": "Inf Ultra Combo Player 1",
       "type": "checkbox",
       "memory": [
         {
           "offset": "C5B820",
-          "on": "4883FB01750749C7C5000090014589AE3C6D0000E917A441FF",
+          "on": "4883FB01740749C7C5000090014589AE3C6D0000E917A441FF",
           "off": "00000000000000000000000000000000000000000000000000"
         },
         {

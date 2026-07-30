@@ -16,32 +16,18 @@
       <ValueOff>46-89-BC-B3-20-62-02-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money  &quot;After Buy&quot;">
+  <Cheat Text="Quick Level Up">
     <Cheatline>
-      <Offset>95BD6B</Offset>
+      <Offset>95BD2B</Offset>
       <Section>0</Section>
-      <ValueOn>B8-FF-C9-9A-3B-89-87-E0-99-07-00-E9-D4-89-8D-FF</ValueOn>
+      <ValueOn>2D-FF-E0-F5-05-89-83-B0-00-00-00-E9-C2-FF-8D-FF</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>234749</Offset>
+      <Offset>23BCF7</Offset>
       <Section>0</Section>
-      <ValueOn>E9-1D-76-72-00-90</ValueOn>
-      <ValueOff>89-87-E0-99-07-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Max SP &quot;After Gain&quot;">
-    <Cheatline>
-      <Offset>95BD7B</Offset>
-      <Section>0</Section>
-      <ValueOn>B9-FF-C9-9A-3B-89-8F-E4-99-07-00-E9-B3-67-8D-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>232538</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-3E-98-72-00-90</ValueOn>
-      <ValueOff>89-8F-E4-99-07-00</ValueOff>
+      <ValueOn>E9-2F-00-72-00-90</ValueOn>
+      <ValueOff>89-83-B0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max Stats &quot;After Level Up&quot;">
@@ -142,18 +128,32 @@
       <ValueOff>C5-FA-11-83-84-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quick Level Up">
+  <Cheat Text="Max Money  &quot;After Buy&quot;">
     <Cheatline>
-      <Offset>95BD2B</Offset>
+      <Offset>95BD6B</Offset>
       <Section>0</Section>
-      <ValueOn>2D-FF-E0-F5-05-89-83-B0-00-00-00-E9-C2-FF-8D-FF</ValueOn>
+      <ValueOn>B8-FF-C9-9A-3B-89-87-E0-99-07-00-E9-D4-89-8D-FF</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>23BCF7</Offset>
+      <Offset>234749</Offset>
       <Section>0</Section>
-      <ValueOn>E9-2F-00-72-00-90</ValueOn>
-      <ValueOff>89-83-B0-00-00-00</ValueOff>
+      <ValueOn>E9-1D-76-72-00-90</ValueOn>
+      <ValueOff>89-87-E0-99-07-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max SP &quot;After Gain&quot;">
+    <Cheatline>
+      <Offset>95BD7B</Offset>
+      <Section>0</Section>
+      <ValueOn>B9-FF-C9-9A-3B-89-8F-E4-99-07-00-E9-B3-67-8D-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>232538</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-3E-98-72-00-90</ValueOn>
+      <ValueOff>89-8F-E4-99-07-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

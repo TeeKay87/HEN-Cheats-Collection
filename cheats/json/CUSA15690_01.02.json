@@ -32,17 +32,6 @@
       ]
     },
     {
-      "name": "food never decrease",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "F658E4",
-          "on": "9090909090",
-          "off": "E8F7060000"
-        }
-      ]
-    },
-    {
       "name": "inf overdrive",
       "type": "checkbox",
       "memory": [
@@ -50,22 +39,6 @@
           "offset": "E0C2B3",
           "on": "9090909090",
           "off": "E828DC9C00"
-        }
-      ]
-    },
-    {
-      "name": "inf stockpiles (disable to be able to remove one)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2713800",
-          "on": "C74058F401000048C1E320E9859D7DFE",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "EED58E",
-          "on": "E96D6282019090",
-          "off": "89485848C1E320"
         }
       ]
     },
@@ -93,6 +66,33 @@
           "offset": "1064686",
           "on": "9090909090",
           "off": "E8C5F8FFFF"
+        }
+      ]
+    },
+    {
+      "name": "food never decrease",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "F658E4",
+          "on": "9090909090",
+          "off": "E8F7060000"
+        }
+      ]
+    },
+    {
+      "name": "inf stockpiles (disable to be able to remove one)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2713800",
+          "on": "C74058F401000048C1E320E9859D7DFE",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "EED58E",
+          "on": "E96D6282019090",
+          "off": "89485848C1E320"
         }
       ]
     },

@@ -5,39 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2BB49AA",
-          "on": "9090909090",
-          "off": "42894CE830"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Items/Antivirus",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "A3EA06",
-          "on": "90909090",
-          "off": "41894720"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Melee Weapon Durability",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "49C0B9",
-          "on": "909090909090",
-          "off": "C4C17A114758"
-        }
-      ]
-    },
-    {
       "name": "Infinite Stamina",
       "type": "checkbox",
       "memory": [
@@ -49,24 +16,13 @@
       ]
     },
     {
-      "name": "Knowledge Points Multiplier (On Gain)",
+      "name": "Infinite Ammo",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "F48E92",
-          "on": "41014728",
-          "off": "41894728"
-        }
-      ]
-    },
-    {
-      "name": "Knownledge Multiplier(On Spend)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8AE316",
-          "on": "41014628",
-          "off": "41894628"
+          "offset": "2BB49AA",
+          "on": "9090909090",
+          "off": "42894CE830"
         }
       ]
     },
@@ -82,6 +38,28 @@
       ]
     },
     {
+      "name": "Knowledge Points Multiplier (On Gain)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "F48E92",
+          "on": "41014728",
+          "off": "41894728"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Items/Antivirus",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "A3EA06",
+          "on": "90909090",
+          "off": "41894720"
+        }
+      ]
+    },
+    {
       "name": "Supply Points Multiplier",
       "type": "checkbox",
       "memory": [
@@ -89,6 +67,28 @@
           "offset": "F4FD16",
           "on": "41014618",
           "off": "41894618"
+        }
+      ]
+    },
+    {
+      "name": "Knownledge Multiplier(On Spend)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8AE316",
+          "on": "41014628",
+          "off": "41894628"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Melee Weapon Durability",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "49C0B9",
+          "on": "909090909090",
+          "off": "C4C17A114758"
         }
       ]
     }

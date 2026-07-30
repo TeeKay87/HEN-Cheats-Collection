@@ -27,13 +27,13 @@
       ]
     },
     {
-      "name": "99999999 PTAS",
-      "type": "button",
+      "name": "Infinite Health",
+      "type": "checkbox",
       "memory": [
         {
-          "offset": "1031C7C",
-          "on": "FFE0F505",
-          "off": "FFE0F505"
+          "offset": "208A26",
+          "on": "90909090909090",
+          "off": "66898818500000"
         }
       ]
     },
@@ -49,17 +49,6 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "208A26",
-          "on": "90909090909090",
-          "off": "66898818500000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Inventory Ammo",
       "type": "checkbox",
       "memory": [
@@ -67,6 +56,17 @@
           "offset": "2e0dee",
           "on": "6641014f02",
           "off": "6641894f02"
+        }
+      ]
+    },
+    {
+      "name": "99999999 PTAS",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "1031C7C",
+          "on": "FFE0F505",
+          "off": "FFE0F505"
         }
       ]
     },
@@ -82,78 +82,13 @@
       ]
     },
     {
-      "name": "Attache Case XL (Activate B4 Starting The Game)",
-      "type": "button",
+      "name": "Matrix",
+      "type": "checkbox",
       "memory": [
         {
-          "offset": "740806",
-          "on": "7F",
-          "off": "AD"
-        }
-      ]
-    },
-    {
-      "name": "Blacktail",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "7407CE",
-          "on": "2700",
-          "off": "2300"
-        }
-      ]
-    },
-    {
-      "name": "Bowgun",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "7407CE",
-          "on": "1000",
-          "off": "2300"
-        }
-      ]
-    },
-    {
-      "name": "Broken Butterfly",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "7407CE",
-          "on": "2900",
-          "off": "2300"
-        }
-      ]
-    },
-    {
-      "name": "Change Character Size To Big",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "8FA140",
-          "on": "41807C240B03740FC4C17A108424BC000000E926FCC4FF41C78424BC0000000000004041C78424C00000000000004041C78424C400000000000040C4C17A108424BC000000E9F3FBC4FF",
-          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "549D73",
-          "on": "E9C8033B009090909090",
-          "off": "C4C17A108424BC000000"
-        }
-      ]
-    },
-    {
-      "name": "Change Character Size To Normal",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "8FA1A0",
-          "on": "41807C240B03740FC4C17A108424BC000000E9C6FBC4FF41C78424BC0000000000803F41C78424C00000000000803F41C78424C40000000000803FC4C17A108424BC000000E993FBC4FF",
-          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "549D73",
-          "on": "E928043B009090909090",
-          "off": "C4C17A108424BC000000"
+          "offset": "2B5C73",
+          "on": "C5FA104F01",
+          "off": "C5FA104F04"
         }
       ]
     },
@@ -174,108 +109,6 @@
       ]
     },
     {
-      "name": "Enemy Freeze",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "94260",
-          "on": "C3",
-          "off": "55"
-        }
-      ]
-    },
-    {
-      "name": "Handcannon",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "7407CE",
-          "on": "3700",
-          "off": "2300"
-        }
-      ]
-    },
-    {
-      "name": "Handgun",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "7407CE",
-          "on": "2300",
-          "off": "2300"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Chicago Typewriter (Put Handgun In The Center)",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "7407CE",
-          "on": "3400",
-          "off": "2300"
-        },
-        {
-          "offset": "7407D4",
-          "on": "0660",
-          "off": "0000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Clip Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC57F50",
-          "on": "90E99D8E6880",
-          "off": "000000000000"
-        },
-        {
-          "offset": "2E0DEE",
-          "on": "E95D71977F",
-          "off": "6641894F02"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health All Players",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC57AB0",
-          "on": "0F4EDA90E9550F5B80",
-          "off": "000000000000000000"
-        },
-        {
-          "offset": "208A09",
-          "on": "E9A2F0A47F",
-          "off": "0F4EDA29DA"
-        },
-        {
-          "offset": "7FC57870",
-          "on": "0F4ECA90E9FD115B80",
-          "off": "000000000000000000"
-        },
-        {
-          "offset": "208A71",
-          "on": "E9FAEDA47F",
-          "off": "0F4ECA29CA"
-        }
-      ]
-    },
-    {
-      "name": "Infinite R. Launcher (Put Handgun In The Center)",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "7407CE",
-          "on": "6D00",
-          "off": "2300"
-        }
-      ]
-    },
-    {
       "name": "Invisible",
       "type": "checkbox",
       "memory": [
@@ -292,84 +125,13 @@
       ]
     },
     {
-      "name": "Killer 7",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "7407CE",
-          "on": "2A00",
-          "off": "2300"
-        }
-      ]
-    },
-    {
-      "name": "Krauser\u0027s Bow",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "7407CE",
-          "on": "5200",
-          "off": "2300"
-        }
-      ]
-    },
-    {
-      "name": "Matilda",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "7407CE",
-          "on": "0300",
-          "off": "2300"
-        }
-      ]
-    },
-    {
-      "name": "Matrix",
+      "name": "Walk Through Walls",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "2B5C73",
-          "on": "C5FA104F01",
-          "off": "C5FA104F04"
-        }
-      ]
-    },
-    {
-      "name": "Mine Thrower",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "7407CE",
-          "on": "3600",
-          "off": "2300"
-        }
-      ]
-    },
-    {
-      "name": "No Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC57F40",
-          "on": "09C890E949A16880",
-          "off": "0000000000000000"
-        },
-        {
-          "offset": "2E208C",
-          "on": "E9AF5E977F",
-          "off": "09C8894306"
-        }
-      ]
-    },
-    {
-      "name": "P.R.L 412 (Put Handgun In The Center)",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "7407CE",
-          "on": "4100",
-          "off": "2300"
+          "offset": "65E0",
+          "on": "C3",
+          "off": "55"
         }
       ]
     },
@@ -385,84 +147,29 @@
       ]
     },
     {
-      "name": "Punisher",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "7407CE",
-          "on": "2100",
-          "off": "2300"
-        }
-      ]
-    },
-    {
-      "name": "Red9",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "7407CE",
-          "on": "2500",
-          "off": "2300"
-        }
-      ]
-    },
-    {
-      "name": "Rifle (Put Handgun In The Center)",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "7407CE",
-          "on": "2E00",
-          "off": "2300"
-        }
-      ]
-    },
-    {
-      "name": "Rifle Semi Auto",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "7407CE",
-          "on": "2F00",
-          "off": "2300"
-        }
-      ]
-    },
-    {
-      "name": "Riot Gun",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "7407CE",
-          "on": "9400",
-          "off": "2300"
-        }
-      ]
-    },
-    {
-      "name": "Save Always 0",
+      "name": "Enemy Freeze",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC57E90",
-          "on": "C6800050000000E90EC96480",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "2A47A3",
-          "on": "E9E8369B7F9090",
-          "off": "66898800500000"
+          "offset": "94260",
+          "on": "C3",
+          "off": "55"
         }
       ]
     },
     {
-      "name": "Shotgun",
+      "name": "Speed Normal",
       "type": "button",
       "memory": [
         {
-          "offset": "7407CE",
-          "on": "4700",
-          "off": "2300"
+          "offset": "8FA0C0",
+          "on": "C5FA108704030000C787040300000000803FE91999A0FF",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "3039E8",
+          "on": "E9D3665F00909090",
+          "off": "C5FA108704030000"
         }
       ]
     },
@@ -499,28 +206,211 @@
       ]
     },
     {
-      "name": "Speed Normal",
+      "name": "Change Character Size To Normal",
       "type": "button",
       "memory": [
         {
-          "offset": "8FA0C0",
-          "on": "C5FA108704030000C787040300000000803FE91999A0FF",
-          "off": "0000000000000000000000000000000000000000000000"
+          "offset": "8FA1A0",
+          "on": "41807C240B03740FC4C17A108424BC000000E9C6FBC4FF41C78424BC0000000000803F41C78424C00000000000803F41C78424C40000000000803FC4C17A108424BC000000E993FBC4FF",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "3039E8",
-          "on": "E9D3665F00909090",
-          "off": "C5FA108704030000"
+          "offset": "549D73",
+          "on": "E928043B009090909090",
+          "off": "C4C17A108424BC000000"
         }
       ]
     },
     {
-      "name": "Striker",
+      "name": "Change Character Size To Big",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "8FA140",
+          "on": "41807C240B03740FC4C17A108424BC000000E926FCC4FF41C78424BC0000000000004041C78424C00000000000004041C78424C400000000000040C4C17A108424BC000000E9F3FBC4FF",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "549D73",
+          "on": "E9C8033B009090909090",
+          "off": "C4C17A108424BC000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health All Players",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC57AB0",
+          "on": "0F4EDA90E9550F5B80",
+          "off": "000000000000000000"
+        },
+        {
+          "offset": "208A09",
+          "on": "E9A2F0A47F",
+          "off": "0F4EDA29DA"
+        },
+        {
+          "offset": "7FC57870",
+          "on": "0F4ECA90E9FD115B80",
+          "off": "000000000000000000"
+        },
+        {
+          "offset": "208A71",
+          "on": "E9FAEDA47F",
+          "off": "0F4ECA29CA"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Clip Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC57F50",
+          "on": "90E99D8E6880",
+          "off": "000000000000"
+        },
+        {
+          "offset": "2E0DEE",
+          "on": "E95D71977F",
+          "off": "6641894F02"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC57F40",
+          "on": "09C890E949A16880",
+          "off": "0000000000000000"
+        },
+        {
+          "offset": "2E208C",
+          "on": "E9AF5E977F",
+          "off": "09C8894306"
+        }
+      ]
+    },
+    {
+      "name": "Save Always 0",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC57E90",
+          "on": "C6800050000000E90EC96480",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "2A47A3",
+          "on": "E9E8369B7F9090",
+          "off": "66898800500000"
+        }
+      ]
+    },
+    {
+      "name": "Attache Case XL (Activate B4 Starting The Game)",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "740806",
+          "on": "7F",
+          "off": "AD"
+        }
+      ]
+    },
+    {
+      "name": "Infinite R. Launcher (Put Handgun In The Center)",
       "type": "button",
       "memory": [
         {
           "offset": "7407CE",
-          "on": "2D00",
+          "on": "6D00",
+          "off": "2300"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Chicago Typewriter (Put Handgun In The Center)",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "7407CE",
+          "on": "3400",
+          "off": "2300"
+        },
+        {
+          "offset": "7407D4",
+          "on": "0660",
+          "off": "0000"
+        }
+      ]
+    },
+    {
+      "name": "P.R.L 412 (Put Handgun In The Center)",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "7407CE",
+          "on": "4100",
+          "off": "2300"
+        }
+      ]
+    },
+    {
+      "name": "Handgun",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "7407CE",
+          "on": "2300",
+          "off": "2300"
+        }
+      ]
+    },
+    {
+      "name": "Punisher",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "7407CE",
+          "on": "2100",
+          "off": "2300"
+        }
+      ]
+    },
+    {
+      "name": "Red9",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "7407CE",
+          "on": "2500",
+          "off": "2300"
+        }
+      ]
+    },
+    {
+      "name": "Blacktail",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "7407CE",
+          "on": "2700",
+          "off": "2300"
+        }
+      ]
+    },
+    {
+      "name": "Broken Butterfly",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "7407CE",
+          "on": "2900",
           "off": "2300"
         }
       ]
@@ -537,13 +427,161 @@
       ]
     },
     {
-      "name": "Walk Through Walls",
+      "name": "Mine Thrower",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "7407CE",
+          "on": "3600",
+          "off": "2300"
+        }
+      ]
+    },
+    {
+      "name": "Handcannon",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "7407CE",
+          "on": "3700",
+          "off": "2300"
+        }
+      ]
+    },
+    {
+      "name": "Shotgun",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "7407CE",
+          "on": "4700",
+          "off": "2300"
+        }
+      ]
+    },
+    {
+      "name": "Krauser\u0027s Bow",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "7407CE",
+          "on": "5200",
+          "off": "2300"
+        }
+      ]
+    },
+    {
+      "name": "Bowgun",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "7407CE",
+          "on": "1000",
+          "off": "2300"
+        }
+      ]
+    },
+    {
+      "name": "Matilda",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "7407CE",
+          "on": "0300",
+          "off": "2300"
+        }
+      ]
+    },
+    {
+      "name": "Riot Gun",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "7407CE",
+          "on": "9400",
+          "off": "2300"
+        }
+      ]
+    },
+    {
+      "name": "Killer 7",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "7407CE",
+          "on": "2A00",
+          "off": "2300"
+        }
+      ]
+    },
+    {
+      "name": "Striker",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "7407CE",
+          "on": "2D00",
+          "off": "2300"
+        }
+      ]
+    },
+    {
+      "name": "Rifle (Put Handgun In The Center)",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "7407CE",
+          "on": "2E00",
+          "off": "2300"
+        }
+      ]
+    },
+    {
+      "name": "Rifle Semi Auto",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "7407CE",
+          "on": "2F00",
+          "off": "2300"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health: Leon/Ada",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "65E0",
-          "on": "C3",
-          "off": "55"
+          "offset": "208A0C",
+          "on": "9090",
+          "off": "29DA"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health: Ashley/Louis",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "208A74",
+          "on": "9090",
+          "off": "29CA"
+        }
+      ]
+    },
+    {
+      "name": "Infinite PTAS",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2F9D0D",
+          "on": "9090",
+          "off": "29C1"
+        },
+        {
+          "offset": "5368C9",
+          "on": "909090909090",
+          "off": "29810C500000"
         }
       ]
     },
@@ -560,6 +598,33 @@
           "offset": "2D78D9",
           "on": "E9227F640090",
           "off": "01810C500000"
+        }
+      ]
+    },
+    {
+      "name": "Freeze Save-Counter",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2A4794",
+          "on": "9090",
+          "off": "FFC1"
+        }
+      ]
+    },
+    {
+      "name": "Freeze Retry-Counter",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "25DA93",
+          "on": "909090",
+          "off": "41FFC5"
+        },
+        {
+          "offset": "25DA8E",
+          "on": "909090",
+          "off": "41FFC7"
         }
       ]
     },
@@ -581,71 +646,6 @@
           "offset": "44F9B5",
           "on": "E956FE4C00",
           "off": "7E03FF400C"
-        }
-      ]
-    },
-    {
-      "name": "Freeze Retry-Counter",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "25DA93",
-          "on": "909090",
-          "off": "41FFC5"
-        },
-        {
-          "offset": "25DA8E",
-          "on": "909090",
-          "off": "41FFC7"
-        }
-      ]
-    },
-    {
-      "name": "Freeze Save-Counter",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2A4794",
-          "on": "9090",
-          "off": "FFC1"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health: Ashley/Louis",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "208A74",
-          "on": "9090",
-          "off": "29CA"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health: Leon/Ada",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "208A0C",
-          "on": "9090",
-          "off": "29DA"
-        }
-      ]
-    },
-    {
-      "name": "Infinite PTAS",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2F9D0D",
-          "on": "9090",
-          "off": "29C1"
-        },
-        {
-          "offset": "5368C9",
-          "on": "909090909090",
-          "off": "29810C500000"
         }
       ]
     }

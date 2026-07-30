@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "751A8A",
+          "on": "9090909090",
+          "off": "C5FA114728"
+        }
+      ]
+    },
+    {
       "name": "Infinite Breath",
       "type": "checkbox",
       "memory": [
@@ -17,17 +28,6 @@
           "offset": "E5986B",
           "on": "E9D0269E0090909090",
           "off": "C4C17A119F981B0000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "751A8A",
-          "on": "9090909090",
-          "off": "C5FA114728"
         }
       ]
     },
@@ -74,6 +74,44 @@
       ]
     },
     {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "18E3800",
+          "on": "4883FB0775030F57E4C5DA584828E9EB81F3FE",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "81B9F9",
+          "on": "E9027E0C01",
+          "off": "C5DA584828"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Breath",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "EDA44A",
+          "on": "9090909090909090",
+          "off": "C5F82885F0FEFFFF"
+        }
+      ]
+    },
+    {
+      "name": "Max Ammo/Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "D6DAD1",
+          "on": "9090909090",
+          "off": "66410F43DF"
+        }
+      ]
+    },
+    {
       "name": "Bottomless Clip/Infinite Skillpoints",
       "type": "checkbox",
       "memory": [
@@ -92,44 +130,6 @@
           "offset": "125E868",
           "on": "4989C790",
           "off": "458B7E40"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Breath",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "EDA44A",
-          "on": "9090909090909090",
-          "off": "C5F82885F0FEFFFF"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "18E3800",
-          "on": "4883FB0775030F57E4C5DA584828E9EB81F3FE",
-          "off": "00000000000000000000000000000000000000"
-        },
-        {
-          "offset": "81B9F9",
-          "on": "E9027E0C01",
-          "off": "C5DA584828"
-        }
-      ]
-    },
-    {
-      "name": "Max Ammo/Items",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "D6DAD1",
-          "on": "9090909090",
-          "off": "66410F43DF"
         }
       ]
     }

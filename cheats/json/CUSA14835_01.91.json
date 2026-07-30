@@ -86,22 +86,6 @@
       ]
     },
     {
-      "name": "player lvl 250 (after 2 battles) = one hit kills = boring and permenent",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7E23862",
-          "on": "48C78170020000EC0CF619E98B6113F9",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "F599F6",
-          "on": "E9679EEC069090",
-          "off": "48899170020000"
-        }
-      ]
-    },
-    {
       "name": "XP gain x 2",
       "type": "checkbox",
       "memory": [
@@ -109,38 +93,6 @@
           "offset": "7E2383B",
           "on": "4D01FF4401FAB8FFC99A3BE9956113F9",
           "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "F599D8",
-          "on": "E95E9EEC06909090",
-          "off": "4401FAB8FFC99A3B"
-        }
-      ]
-    },
-    {
-      "name": "XP gain x 256",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7E2383B",
-          "on": "4D01FF4D01FF4D01FF4D01FF4D01FF4D01FF4D01FF4D01FF4401FAB8FFC99A3BE9806113F9",
-          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "F599D8",
-          "on": "E95E9EEC06909090",
-          "off": "4401FAB8FFC99A3B"
-        }
-      ]
-    },
-    {
-      "name": "XP gain x 32",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7E2383B",
-          "on": "4D01FF4D01FF4D01FF4D01FF4D01FF4401FAB8FFC99A3BE9896113F9",
-          "off": "00000000000000000000000000000000000000000000000000000000"
         },
         {
           "offset": "F599D8",
@@ -178,6 +130,54 @@
           "offset": "F599D8",
           "on": "E95E9EEC06909090",
           "off": "4401FAB8FFC99A3B"
+        }
+      ]
+    },
+    {
+      "name": "XP gain x 32",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2383B",
+          "on": "4D01FF4D01FF4D01FF4D01FF4D01FF4401FAB8FFC99A3BE9896113F9",
+          "off": "00000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "F599D8",
+          "on": "E95E9EEC06909090",
+          "off": "4401FAB8FFC99A3B"
+        }
+      ]
+    },
+    {
+      "name": "XP gain x 256",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E2383B",
+          "on": "4D01FF4D01FF4D01FF4D01FF4D01FF4D01FF4D01FF4D01FF4401FAB8FFC99A3BE9806113F9",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "F599D8",
+          "on": "E95E9EEC06909090",
+          "off": "4401FAB8FFC99A3B"
+        }
+      ]
+    },
+    {
+      "name": "player lvl 250 (after 2 battles) = one hit kills = boring and permenent",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E23862",
+          "on": "48C78170020000EC0CF619E98B6113F9",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "F599F6",
+          "on": "E9679EEC069090",
+          "off": "48899170020000"
         }
       ]
     }

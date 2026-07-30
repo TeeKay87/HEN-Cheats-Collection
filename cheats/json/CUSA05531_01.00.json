@@ -5,28 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "99999 LP",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "29044D8",
-          "on": "9F860100",
-          "off": "9F860100"
-        }
-      ]
-    },
-    {
-      "name": "Add Item",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "16B7D1",
-          "on": "6647011C4A",
-          "off": "6647891C4A"
-        }
-      ]
-    },
-    {
       "name": "Infinite Item",
       "type": "checkbox",
       "memory": [
@@ -34,17 +12,6 @@
           "offset": "16B7D1",
           "on": "9090909090",
           "off": "6647891C4A"
-        }
-      ]
-    },
-    {
-      "name": "Infinite MP",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "16B3B2",
-          "on": "9090909090",
-          "off": "6644896F4C"
         }
       ]
     },
@@ -71,13 +38,35 @@
       ]
     },
     {
-      "name": "99999 HP For All Characters",
-      "type": "button",
+      "name": "99999 LP",
+      "type": "checkbox",
       "memory": [
         {
           "offset": "29044D8",
           "on": "9F860100",
           "off": "9F860100"
+        }
+      ]
+    },
+    {
+      "name": "Add Item",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "16B7D1",
+          "on": "6647011C4A",
+          "off": "6647891C4A"
+        }
+      ]
+    },
+    {
+      "name": "Infinite MP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "16B3B2",
+          "on": "9090909090",
+          "off": "6644896F4C"
         }
       ]
     },
@@ -89,6 +78,17 @@
           "offset": "2902148",
           "on": "FFE0F505",
           "off": "FFE0F505"
+        }
+      ]
+    },
+    {
+      "name": "99999 HP For All Characters",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "29044D8",
+          "on": "9F860100",
+          "off": "9F860100"
         }
       ]
     },

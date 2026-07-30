@@ -5,29 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Golden Coin Multiplier",
+      "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "50A31CA",
-          "on": "014834",
-          "off": "894834"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "B823B90",
-          "on": "41C744244432000000E93B5FCBF8",
-          "off": "0000000000000000000000000000"
+          "offset": "B8238F0",
+          "on": "90E9364A93F6",
+          "off": "000000000000"
         },
         {
-          "offset": "44D9AD4",
-          "on": "E9B7A03407",
-          "off": "4189442444"
+          "offset": "2158327",
+          "on": "E9C4B56C09",
+          "off": "E8E473D6FF"
         }
       ]
     },
@@ -48,22 +37,6 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "B8238F0",
-          "on": "90E9364A93F6",
-          "off": "000000000000"
-        },
-        {
-          "offset": "2158327",
-          "on": "E9C4B56C09",
-          "off": "E8E473D6FF"
-        }
-      ]
-    },
-    {
       "name": "Infinite Knife Durability",
       "type": "checkbox",
       "memory": [
@@ -80,18 +53,18 @@
       ]
     },
     {
-      "name": "Max CP (on spend)",
+      "name": "Infinite Ammo",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "B823920",
-          "on": "C783A0000000FFE0F505E9559A0BF7",
-          "off": "000000000000000000000000000000"
+          "offset": "B823B90",
+          "on": "41C744244432000000E93B5FCBF8",
+          "off": "0000000000000000000000000000"
         },
         {
-          "offset": "28DD37D",
-          "on": "E99E65F4089090",
-          "off": "4489BBA0000000"
+          "offset": "44D9AD4",
+          "on": "E9B7A03407",
+          "off": "4189442444"
         }
       ]
     },
@@ -112,22 +85,6 @@
       ]
     },
     {
-      "name": "Max Score (at shooting range)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "B823DF0",
-          "on": "C781DC0000003F420F00E9497DD2F7",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "354BB42",
-          "on": "E9A9822D0890",
-          "off": "0181DC000000"
-        }
-      ]
-    },
-    {
       "name": "Max Spinel (on get)",
       "type": "checkbox",
       "memory": [
@@ -144,6 +101,60 @@
       ]
     },
     {
+      "name": "Max Score (at shooting range)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B823DF0",
+          "on": "C781DC0000003F420F00E9497DD2F7",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "354BB42",
+          "on": "E9A9822D0890",
+          "off": "0181DC000000"
+        }
+      ]
+    },
+    {
+      "name": "Golden Coin Multiplier",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "50A31CA",
+          "on": "014834",
+          "off": "894834"
+        }
+      ]
+    },
+    {
+      "name": "Max CP (on spend)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B823920",
+          "on": "C783A0000000FFE0F505E9559A0BF7",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "28DD37D",
+          "on": "E99E65F4089090",
+          "off": "4489BBA0000000"
+        }
+      ]
+    },
+    {
+      "name": "infinite ammo item usage \u0026 crafting",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "321F16A",
+          "on": "909090",
+          "off": "894834"
+        }
+      ]
+    },
+    {
       "name": "inf cash usage",
       "type": "checkbox",
       "memory": [
@@ -151,6 +162,33 @@
           "offset": "34E7171",
           "on": "9090909090",
           "off": "45896C2410"
+        }
+      ]
+    },
+    {
+      "name": "inf spinel when trading",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "BC238B5",
+          "on": "C74320E7030000807DCF000F84FAB60DF7E9EAB60DF7",
+          "off": "00000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "2CFEFAC",
+          "on": "E90449F2089090",
+          "off": "894320807DCF00"
+        }
+      ]
+    },
+    {
+      "name": "No Relod",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3625264",
+          "on": "9090909090",
+          "off": "E847472B01"
         }
       ]
     },
@@ -187,55 +225,6 @@
       ]
     },
     {
-      "name": "inf key usage (trainning area and looked drawers) disable after using",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "50A31CA",
-          "on": "909090",
-          "off": "894834"
-        }
-      ]
-    },
-    {
-      "name": "inf spinel when trading",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "BC238B5",
-          "on": "C74320E7030000807DCF000F84FAB60DF7E9EAB60DF7",
-          "off": "00000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "2CFEFAC",
-          "on": "E90449F2089090",
-          "off": "894320807DCF00"
-        }
-      ]
-    },
-    {
-      "name": "infinite ammo item usage \u0026 crafting",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "321F16A",
-          "on": "909090",
-          "off": "894834"
-        }
-      ]
-    },
-    {
-      "name": "No Relod",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3625264",
-          "on": "9090909090",
-          "off": "E847472B01"
-        }
-      ]
-    },
-    {
       "name": "save counter always 1",
       "type": "checkbox",
       "memory": [
@@ -248,6 +237,17 @@
           "offset": "5D9AB63",
           "on": "E90E8DE80590909090",
           "off": "4189454CE96AFFFFFF"
+        }
+      ]
+    },
+    {
+      "name": "inf key usage (trainning area and looked drawers) disable after using",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "50A31CA",
+          "on": "909090",
+          "off": "894834"
         }
       ]
     }

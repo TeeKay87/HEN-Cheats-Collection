@@ -5,6 +5,22 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "82EF800",
+          "on": "669C904151904D8B4F2090418139503092089041597507C4C17A10473490C5FA11474C90669DE9010EE2F7",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "110627",
+          "on": "E9D4F11D08",
+          "off": "C5FA11474C"
+        }
+      ]
+    },
+    {
       "name": "Infinite Arrows",
       "type": "checkbox",
       "memory": [
@@ -37,28 +53,12 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "82EF800",
-          "on": "669C904151904D8B4F2090418139503092089041597507C4C17A10473490C5FA11474C90669DE9010EE2F7",
-          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "110627",
-          "on": "E9D4F11D08",
-          "off": "C5FA11474C"
-        }
-      ]
-    },
-    {
-      "name": "Level 0 on kill",
+      "name": "Level 183 on kill",
       "type": "checkbox",
       "memory": [
         {
           "offset": "81C76E0",
-          "on": "41C7855001000000000000E9DCA8ABF8",
+          "on": "41C785500100007F969800E9DCA8ABF8",
           "off": "00000000000000000000000000000000"
         },
         {
@@ -85,12 +85,12 @@
       ]
     },
     {
-      "name": "Level 183 on kill",
+      "name": "Level 0 on kill",
       "type": "checkbox",
       "memory": [
         {
           "offset": "81C76E0",
-          "on": "41C785500100007F969800E9DCA8ABF8",
+          "on": "41C7855001000000000000E9DCA8ABF8",
           "off": "00000000000000000000000000000000"
         },
         {

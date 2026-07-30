@@ -30,28 +30,6 @@
       <ValueOff>48-8B-75-E0-48-89-CA</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Jump Height Reset MC">
-    <Cheatline>
-      <Offset>18D9E45</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-2B-90-90-90</ValueOn>
-      <ValueOff>E9-85-AB-49-7F</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Jump Master Code">
-    <Cheatline>
-      <Offset>18D9E40</Offset>
-      <Section>0</Section>
-      <ValueOn>C5-FA-10-40-44-E9-85-AB-49-7F-90-C7-40-44-00-00-48-42-E9-78-AB-49-7F-90-C7-40-44-00-00-20-42-E9-6B-AB-49-7F-90-C7-40-44-00-00-F0-41-E9-5E-AB-49-7F-90-C7-40-44-9A-99-8B-42-90-E9-50-AB-49-7F</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>80D749CA</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-71-54-B6-80</ValueOn>
-      <ValueOff>C5-FA-10-40-44</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Max Live ( on gain / lose )">
     <Cheatline>
       <Offset>18DBDD4</Offset>
@@ -80,6 +58,20 @@
       <ValueOff>8B-4C-24-F4-89-48-10</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="One Hit Kill ( Boss )">
+    <Cheatline>
+      <Offset>18DBE2E</Offset>
+      <Section>0</Section>
+      <ValueOn>8B-4C-24-F4-C6-40-18-00-E9-5A-38-F9-7E</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>8086F68E</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-9B-C7-06-81-90-90</ValueOn>
+      <ValueOff>8B-4C-24-F4-89-48-18</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Max Score in Retro Game ( on gain )">
     <Cheatline>
       <Offset>18DBE3B</Offset>
@@ -94,18 +86,26 @@
       <ValueOff>8B-4C-24-F4-89-48-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill ( Boss )">
+  <Cheat Text="Jump Master Code">
     <Cheatline>
-      <Offset>18DBE2E</Offset>
+      <Offset>18D9E40</Offset>
       <Section>0</Section>
-      <ValueOn>8B-4C-24-F4-C6-40-18-00-E9-5A-38-F9-7E</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+      <ValueOn>C5-FA-10-40-44-E9-85-AB-49-7F-90-C7-40-44-00-00-48-42-E9-78-AB-49-7F-90-C7-40-44-00-00-20-42-E9-6B-AB-49-7F-90-C7-40-44-00-00-F0-41-E9-5E-AB-49-7F-90-C7-40-44-9A-99-8B-42-90-E9-50-AB-49-7F</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>8086F68E</Offset>
+      <Offset>80D749CA</Offset>
       <Section>0</Section>
-      <ValueOn>E9-9B-C7-06-81-90-90</ValueOn>
-      <ValueOff>8B-4C-24-F4-89-48-18</ValueOff>
+      <ValueOn>E9-71-54-B6-80</ValueOn>
+      <ValueOff>C5-FA-10-40-44</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Jump Height Reset MC">
+    <Cheatline>
+      <Offset>18D9E45</Offset>
+      <Section>0</Section>
+      <ValueOn>EB-2B-90-90-90</ValueOn>
+      <ValueOff>E9-85-AB-49-7F</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

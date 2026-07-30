@@ -5,6 +5,22 @@
   "process": "bh1hd.elf",
   "mods": [
     {
+      "name": "Infinite Ink (on use) (Resident evil)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "AA7CB0",
+          "on": "41C6470463418A0424E96A9562FF",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "D1220",
+          "on": "E98B6A9D00909090",
+          "off": "41894704418A0424"
+        }
+      ]
+    },
+    {
       "name": "Infinite Ammo (Resident evil)",
       "type": "checkbox",
       "memory": [
@@ -33,22 +49,6 @@
           "offset": "18CC5F",
           "on": "E9FCB091009090",
           "off": "4189864C170000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Ink (on use) (Resident evil)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "AA7CB0",
-          "on": "41C6470463418A0424E96A9562FF",
-          "off": "0000000000000000000000000000"
-        },
-        {
-          "offset": "D1220",
-          "on": "E98B6A9D00909090",
-          "off": "41894704418A0424"
         }
       ]
     }

@@ -5,93 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "28 Gold Bolts [MC] ( collect 1 to unlock Debug Menu )",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "350B92C",
-          "on": "E823000000",
-          "off": "45897C2418"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Air under Water",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "35A744",
-          "on": "C783000100000000C842",
-          "off": "C5FA1183000100007761"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "4BB208",
-          "on": "C5FA5FC1",
-          "off": "C5FA5DC1"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "350B970",
-          "on": "41C785C00300000000A041C4C17A108DC0030000E938B2D8FC",
-          "off": "00000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "296BB8",
-          "on": "E9B34D270390909090",
-          "off": "C4C17A108DC0030000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Hoverboard Boost",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "350B9A0",
-          "on": "41C786B8010000CDCC8C3FC4C17A108EB8010000E9334FE7FC",
-          "off": "00000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "3808E3",
-          "on": "E9B8B0180390909090",
-          "off": "C4C17A108EB8010000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Jet Pack",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "421C5E",
-          "on": "41C7874C0400000000704290909090909090",
-          "off": "C4C17A11A74C040000C4C178108F38040000"
-        }
-      ]
-    },
-    {
-      "name": "Invincibility ",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "EDEA0B",
-          "on": "9090909090909090",
-          "off": "C5F82E81C0030000"
-        }
-      ]
-    },
-    {
       "name": "Mastercode ( must be activated )",
       "type": "checkbox",
       "memory": [
@@ -130,6 +43,44 @@
       ]
     },
     {
+      "name": "28 Gold Bolts [MC] ( collect 1 to unlock Debug Menu )",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "350B92C",
+          "on": "E823000000",
+          "off": "45897C2418"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "350B970",
+          "on": "41C785C00300000000A041C4C17A108DC0030000E938B2D8FC",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "296BB8",
+          "on": "E9B34D270390909090",
+          "off": "C4C17A108DC0030000"
+        }
+      ]
+    },
+    {
+      "name": "Invincibility ",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "EDEA0B",
+          "on": "9090909090909090",
+          "off": "C5F82E81C0030000"
+        }
+      ]
+    },
+    {
       "name": "One Hit Kill \u002B Invisible",
       "type": "checkbox",
       "memory": [
@@ -147,6 +98,55 @@
           "offset": "FE43D0",
           "on": "E9BB755202909090",
           "off": "C5FA1087C0030000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4BB208",
+          "on": "C5FA5FC1",
+          "off": "C5FA5DC1"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Air under Water",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "35A744",
+          "on": "C783000100000000C842",
+          "off": "C5FA1183000100007761"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Jet Pack",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "421C5E",
+          "on": "41C7874C0400000000704290909090909090",
+          "off": "C4C17A11A74C040000C4C178108F38040000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Hoverboard Boost",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "350B9A0",
+          "on": "41C786B8010000CDCC8C3FC4C17A108EB8010000E9334FE7FC",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "3808E3",
+          "on": "E9B8B0180390909090",
+          "off": "C4C17A108EB8010000"
         }
       ]
     }

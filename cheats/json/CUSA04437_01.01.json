@@ -31,61 +31,6 @@
       ]
     },
     {
-      "name": "Freeze Bonus Combo Time - Mercenaries",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3A591",
-          "on": "90909090909090909090",
-          "off": "C4A17A118C20EC060000"
-        }
-      ]
-    },
-    {
-      "name": "Freeze Combo Count - Mercenaries",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3A51A",
-          "on": "90909090909090909090",
-          "off": "C4A17A119421E4060000"
-        }
-      ]
-    },
-    {
-      "name": "Freeze Countdown Timer - DS",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "9A98",
-          "on": "9090909090909090",
-          "off": "C5FA118B9C0F0000"
-        }
-      ]
-    },
-    {
-      "name": "Freeze Countdown Timer - Mercenaries",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "4621F",
-          "on": "9090909090909090",
-          "off": "C5FA1183A0070000"
-        }
-      ]
-    },
-    {
-      "name": "Freeze Countup Timer - STORY-LIN-DS",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "728A8E",
-          "on": "909090909090909090",
-          "off": "C5FA5884C768460000"
-        }
-      ]
-    },
-    {
       "name": "Inf Health Always On",
       "type": "checkbox",
       "memory": [
@@ -93,6 +38,17 @@
           "offset": "6161B4",
           "on": "668983681E0000",
           "off": "66898B681E0000"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7381E5",
+          "on": "909090",
+          "off": "29560C"
         }
       ]
     },
@@ -161,17 +117,6 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7381E5",
-          "on": "909090",
-          "off": "29560C"
-        }
-      ]
-    },
-    {
       "name": "Run without Pressing X or L3",
       "type": "checkbox",
       "memory": [
@@ -179,6 +124,61 @@
           "offset": "C0114B",
           "on": "0D02000100",
           "off": "0D00000100"
+        }
+      ]
+    },
+    {
+      "name": "Freeze Countup Timer - STORY-LIN-DS",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "728A8E",
+          "on": "909090909090909090",
+          "off": "C5FA5884C768460000"
+        }
+      ]
+    },
+    {
+      "name": "Freeze Countdown Timer - DS",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "9A98",
+          "on": "9090909090909090",
+          "off": "C5FA118B9C0F0000"
+        }
+      ]
+    },
+    {
+      "name": "Freeze Combo Count - Mercenaries",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3A51A",
+          "on": "90909090909090909090",
+          "off": "C4A17A119421E4060000"
+        }
+      ]
+    },
+    {
+      "name": "Freeze Bonus Combo Time - Mercenaries",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3A591",
+          "on": "90909090909090909090",
+          "off": "C4A17A118C20EC060000"
+        }
+      ]
+    },
+    {
+      "name": "Freeze Countdown Timer - Mercenaries",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4621F",
+          "on": "9090909090909090",
+          "off": "C5FA1183A0070000"
         }
       ]
     }

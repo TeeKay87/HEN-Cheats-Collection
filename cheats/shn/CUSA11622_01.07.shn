@@ -2,34 +2,6 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Agony" Moder="Reddevil82 - FW 9.00" Cusa="CUSA11622" Version="01.07" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Astral Timer">
-    <Cheatline>
-      <Offset>4CC784A</Offset>
-      <Section>0</Section>
-      <ValueOn>C4-C1-7A-10-87-0C-0D-00-00-C4-C1-7A-11-87-10-0D-00-00-E9-17-A1-4A-FB</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>17196F</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-D6-5E-B5-04-90-90-90-90</ValueOn>
-      <ValueOff>C4-C1-7A-11-87-10-0D-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Breath">
-    <Cheatline>
-      <Offset>4CC7833</Offset>
-      <Section>0</Section>
-      <ValueOn>C5-FA-10-83-24-0D-00-00-C5-FA-11-83-94-0D-00-00-E9-7B-FC-48-FB</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>1574BB</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-73-03-B7-04-90-90-90</ValueOn>
-      <ValueOff>C5-FA-11-83-94-0D-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite Health">
     <Cheatline>
       <Offset>4CC7800</Offset>
@@ -58,32 +30,32 @@
       <ValueOff>C5-FA-11-83-88-0D-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Astral Timer">
+  <Cheat Text="Infinite Breath">
     <Cheatline>
-      <Offset>4CC78AE</Offset>
+      <Offset>4CC7833</Offset>
       <Section>0</Section>
-      <ValueOn>C7-87-0C-0D-00-00-00-00-7A-44-C5-FA-5E-87-0C-0D-00-00-E9-5F-8D-4B-FB</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+      <ValueOn>C5-FA-10-83-24-0D-00-00-C5-FA-11-83-94-0D-00-00-E9-7B-FC-48-FB</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>18061C</Offset>
+      <Offset>1574BB</Offset>
       <Section>0</Section>
-      <ValueOn>E9-8D-72-B4-04-90-90-90</ValueOn>
-      <ValueOff>C5-FA-5E-87-0C-0D-00-00</ValueOff>
+      <ValueOn>E9-73-03-B7-04-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-83-94-0D-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Breath">
+  <Cheat Text="Infinite Astral Timer">
     <Cheatline>
-      <Offset>4CC7895</Offset>
+      <Offset>4CC784A</Offset>
       <Section>0</Section>
-      <ValueOn>C7-83-24-0D-00-00-00-00-C8-42-C5-FA-10-83-24-0D-00-00-E9-04-FD-48-FB</ValueOn>
+      <ValueOn>C4-C1-7A-10-87-0C-0D-00-00-C4-C1-7A-11-87-10-0D-00-00-E9-17-A1-4A-FB</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>1575A8</Offset>
+      <Offset>17196F</Offset>
       <Section>0</Section>
-      <ValueOn>E9-E8-02-B7-04-90-90-90</ValueOn>
-      <ValueOff>C5-FA-10-83-24-0D-00-00</ValueOff>
+      <ValueOn>E9-D6-5E-B5-04-90-90-90-90</ValueOn>
+      <ValueOff>C4-C1-7A-11-87-10-0D-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max Health">
@@ -100,18 +72,46 @@
       <ValueOff>C5-FA-10-83-5C-09-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Knowledge">
+  <Cheat Text="Max Stamina">
     <Cheatline>
-      <Offset>4CC7DD9</Offset>
+      <Offset>4CC787C</Offset>
       <Section>0</Section>
-      <ValueOn>E8-FC-F7-62-FB-C7-40-14-63-00-00-00-8B-40-14-E9-07-57-56-FB</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+      <ValueOn>C7-83-20-0D-00-00-00-00-C8-42-C5-FA-10-9B-20-0D-00-00-E9-5E-FD-48-FB</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>22D4EC</Offset>
+      <Offset>1575E9</Offset>
       <Section>0</Section>
-      <ValueOn>E9-E8-A8-A9-04</ValueOn>
-      <ValueOff>E8-EF-A0-0C-00</ValueOff>
+      <ValueOn>E9-8E-02-B7-04-90-90-90</ValueOn>
+      <ValueOff>C5-FA-10-9B-20-0D-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max Breath">
+    <Cheatline>
+      <Offset>4CC7895</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-83-24-0D-00-00-00-00-C8-42-C5-FA-10-83-24-0D-00-00-E9-04-FD-48-FB</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>1575A8</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-E8-02-B7-04-90-90-90</ValueOn>
+      <ValueOff>C5-FA-10-83-24-0D-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max Astral Timer">
+    <Cheatline>
+      <Offset>4CC78AE</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-87-0C-0D-00-00-00-00-7A-44-C5-FA-5E-87-0C-0D-00-00-E9-5F-8D-4B-FB</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>18061C</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-8D-72-B4-04-90-90-90</ValueOn>
+      <ValueOff>C5-FA-5E-87-0C-0D-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max Skills">
@@ -128,18 +128,18 @@
       <ValueOff>E8-C5-A0-0C-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Stamina">
+  <Cheat Text="Max Knowledge">
     <Cheatline>
-      <Offset>4CC787C</Offset>
+      <Offset>4CC7DD9</Offset>
       <Section>0</Section>
-      <ValueOn>C7-83-20-0D-00-00-00-00-C8-42-C5-FA-10-9B-20-0D-00-00-E9-5E-FD-48-FB</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+      <ValueOn>E8-FC-F7-62-FB-C7-40-14-63-00-00-00-8B-40-14-E9-07-57-56-FB</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>1575E9</Offset>
+      <Offset>22D4EC</Offset>
       <Section>0</Section>
-      <ValueOn>E9-8E-02-B7-04-90-90-90</ValueOn>
-      <ValueOff>C5-FA-10-9B-20-0D-00-00</ValueOff>
+      <ValueOn>E9-E8-A8-A9-04</ValueOn>
+      <ValueOff>E8-EF-A0-0C-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

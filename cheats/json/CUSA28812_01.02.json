@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "InF Coins",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1017800",
-          "on": "BA3F420F00E975694AFF",
-          "off": "00000000000000000000"
-        },
-        {
-          "offset": "4BE179",
-          "on": "E98296B50090",
-          "off": "81F940420F00"
-        }
-      ]
-    },
-    {
       "name": "Inf HP",
       "type": "checkbox",
       "memory": [
@@ -37,22 +21,6 @@
       ]
     },
     {
-      "name": "Inf throwables",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1017838",
-          "on": "B8040000008903E93A9357FF",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "590B79",
-          "on": "E9BA6CA800",
-          "off": "89034C89E3"
-        }
-      ]
-    },
-    {
       "name": "Max XP",
       "type": "checkbox",
       "memory": [
@@ -65,6 +33,38 @@
           "offset": "586C70",
           "on": "E9AA0BA9009090",
           "off": "4489B310090000"
+        }
+      ]
+    },
+    {
+      "name": "InF Coins",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1017800",
+          "on": "BA3F420F00E975694AFF",
+          "off": "00000000000000000000"
+        },
+        {
+          "offset": "4BE179",
+          "on": "E98296B50090",
+          "off": "81F940420F00"
+        }
+      ]
+    },
+    {
+      "name": "Inf throwables",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1017838",
+          "on": "B8040000008903E93A9357FF",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "590B79",
+          "on": "E9BA6CA800",
+          "off": "89034C89E3"
         }
       ]
     }

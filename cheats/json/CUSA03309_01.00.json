@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Earn Skills On Spend",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "DA4E9A",
-          "on": "034850",
-          "off": "2B4850"
-        }
-      ]
-    },
-    {
       "name": "Infinite Arrows/Clubs/spears",
       "type": "checkbox",
       "memory": [
@@ -34,6 +23,17 @@
           "offset": "241C9BE",
           "on": "9090909090909090",
           "off": "41899C2488000000"
+        }
+      ]
+    },
+    {
+      "name": "Earn Skills On Spend",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "DA4E9A",
+          "on": "034850",
+          "off": "2B4850"
         }
       ]
     },

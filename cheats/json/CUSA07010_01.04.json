@@ -21,65 +21,6 @@
       ]
     },
     {
-      "name": "Alternative - Catch 1 Emeralds to get all ( incl. Super Sonic )",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3C7380",
-          "on": "4C8B682041C745707F000000418B4570E90D3FD1FF",
-          "off": "000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "DB29A",
-          "on": "E9E1C02E00909090",
-          "off": "4C8B6820418B4570"
-        }
-      ]
-    },
-    {
-      "name": "Collect 1 Silver Medallion ( Unlock all Specials / Debug Mode )",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "D1F28",
-          "on": "41C785C42501002000000090",
-          "off": "4589A5C4250100E89CE1F2FF"
-        }
-      ]
-    },
-    {
-      "name": "Freeze Ring Timer ( Bonus Game )",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3C7F50",
-          "on": "BAE7030000895024E9D363D1FF",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "DE32B",
-          "on": "E9209C2E00",
-          "off": "FFCA895024"
-        }
-      ]
-    },
-    {
-      "name": "Invincibility",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3C6120",
-          "on": "41C7872801000009000000418B8728010000E98EB0D4FF",
-          "off": "0000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "1111BE",
-          "on": "E95D4F2B009090",
-          "off": "418B8728010000"
-        }
-      ]
-    },
-    {
       "name": "Max Lives",
       "type": "checkbox",
       "memory": [
@@ -108,6 +49,22 @@
           "offset": "E1EDB",
           "on": "90909090909090",
           "off": "488983F4000000"
+        }
+      ]
+    },
+    {
+      "name": "Invincibility",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3C6120",
+          "on": "41C7872801000009000000418B8728010000E98EB0D4FF",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1111BE",
+          "on": "E95D4F2B009090",
+          "off": "418B8728010000"
         }
       ]
     },
@@ -144,32 +101,6 @@
       ]
     },
     {
-      "name": "Only 1 Blue Sphere ( Bonus Game )",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3C7EB0",
-          "on": "FFC9B900000000894808E9321ED1FF",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "D9CEC",
-          "on": "E9BFE12E00",
-          "off": "FFC9894808"
-        },
-        {
-          "offset": "3C6760",
-          "on": "488B0049C7C501000000E9C1F3D6FF",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "135B29",
-          "on": "E9320C29009090",
-          "off": "488B004C636808"
-        }
-      ]
-    },
-    {
       "name": "Set Timer to 0",
       "type": "checkbox",
       "memory": [
@@ -198,6 +129,75 @@
           "offset": "246C9",
           "on": "E902383A009090",
           "off": "418B8524010000"
+        }
+      ]
+    },
+    {
+      "name": "Alternative - Catch 1 Emeralds to get all ( incl. Super Sonic )",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3C7380",
+          "on": "4C8B682041C745707F000000418B4570E90D3FD1FF",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "DB29A",
+          "on": "E9E1C02E00909090",
+          "off": "4C8B6820418B4570"
+        }
+      ]
+    },
+    {
+      "name": "Freeze Ring Timer ( Bonus Game )",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3C7F50",
+          "on": "BAE7030000895024E9D363D1FF",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "DE32B",
+          "on": "E9209C2E00",
+          "off": "FFCA895024"
+        }
+      ]
+    },
+    {
+      "name": "Collect 1 Silver Medallion ( Unlock all Specials / Debug Mode )",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "D1F28",
+          "on": "41C785C42501002000000090",
+          "off": "4589A5C4250100E89CE1F2FF"
+        }
+      ]
+    },
+    {
+      "name": "Only 1 Blue Sphere ( Bonus Game )",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3C7EB0",
+          "on": "FFC9B900000000894808E9321ED1FF",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "D9CEC",
+          "on": "E9BFE12E00",
+          "off": "FFC9894808"
+        },
+        {
+          "offset": "3C6760",
+          "on": "488B0049C7C501000000E9C1F3D6FF",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "135B29",
+          "on": "E9320C29009090",
+          "off": "488B004C636808"
         }
       ]
     }

@@ -30,20 +30,6 @@
       <ValueOff>C4-C1-7A-11-46-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max First Aid Kits ( on use )">
-    <Cheatline>
-      <Offset>18D3E30</Offset>
-      <Section>0</Section>
-      <ValueOn>41-8B-8E-28-01-00-00-41-89-8E-2C-01-00-00-E9-CA-4B-D3-7E</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>80608A06</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-25-B4-2C-81-90-90</ValueOn>
-      <ValueOff>41-89-8E-2C-01-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Max Grenades ( on use )">
     <Cheatline>
       <Offset>18D3DE8</Offset>
@@ -56,6 +42,20 @@
       <Section>0</Section>
       <ValueOn>E9-3C-5A-3E-81-90-90-90</ValueOn>
       <ValueOff>48-8B-47-28-FF-4C-88-20</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max First Aid Kits ( on use )">
+    <Cheatline>
+      <Offset>18D3E30</Offset>
+      <Section>0</Section>
+      <ValueOn>41-8B-8E-28-01-00-00-41-89-8E-2C-01-00-00-E9-CA-4B-D3-7E</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>80608A06</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-25-B4-2C-81-90-90</ValueOn>
+      <ValueOff>41-89-8E-2C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max Money">

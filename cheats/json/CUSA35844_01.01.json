@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Cursed Technique use ",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "57D7AD0",
-          "on": "41C7864C01000000007A44E958A291FB",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "10F1D2F",
-          "on": "E99C5D6E0490909090",
-          "off": "C4C17A11864C010000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -37,18 +21,18 @@
       ]
     },
     {
-      "name": "Infinite Sprinting",
+      "name": "Max Juju Points (on buyig)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "57D7B90",
-          "on": "C7839C01000000001644E9DFB091FB",
+          "offset": "57D7910",
+          "on": "C78768030000FFE0F505E9F6B494FB",
           "off": "000000000000000000000000000000"
         },
         {
-          "offset": "10F2C76",
-          "on": "E9154F6E04909090",
-          "off": "C5FA11839C010000"
+          "offset": "1122E0F",
+          "on": "E9FC4A6B0490",
+          "off": "898768030000"
         }
       ]
     },
@@ -69,6 +53,22 @@
       ]
     },
     {
+      "name": "Infinite Sprinting",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "57D7B90",
+          "on": "C7839C01000000001644E9DFB091FB",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "10F2C76",
+          "on": "E9154F6E04909090",
+          "off": "C5FA11839C010000"
+        }
+      ]
+    },
+    {
       "name": "Max Cursed spirit technique Bar ",
       "type": "checkbox",
       "memory": [
@@ -85,18 +85,18 @@
       ]
     },
     {
-      "name": "Max Juju Points (on buyig)",
+      "name": "Infinite Cursed Technique use ",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "57D7910",
-          "on": "C78768030000FFE0F505E9F6B494FB",
-          "off": "000000000000000000000000000000"
+          "offset": "57D7AD0",
+          "on": "41C7864C01000000007A44E958A291FB",
+          "off": "00000000000000000000000000000000"
         },
         {
-          "offset": "1122E0F",
-          "on": "E9FC4A6B0490",
-          "off": "898768030000"
+          "offset": "10F1D2F",
+          "on": "E99C5D6E0490909090",
+          "off": "C4C17A11864C010000"
         }
       ]
     }

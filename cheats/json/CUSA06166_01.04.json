@@ -5,28 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo No Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "11C3A6E",
-          "on": "9090",
-          "off": "29D9"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Bottles (turn off when using Max item cheat",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "11C0B19",
-          "on": "01CE",
-          "off": "29CE"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -50,6 +28,28 @@
           "offset": "10648D6",
           "on": "C5F258C0",
           "off": "C5F25CC0"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "11C3A6E",
+          "on": "9090",
+          "off": "29D9"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Bottles (turn off when using Max item cheat",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "11C0B19",
+          "on": "01CE",
+          "off": "29CE"
         }
       ]
     },

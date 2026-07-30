@@ -5,13 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "2x Skill Points (ON \u0026 OFF)",
+      "name": "x2 Item On Pickup (ON \u0026 OFF)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "daf082",
-          "on": "410104244D85F674",
-          "off": "418904244D85F674"
+          "offset": "666912",
+          "on": "0355AC7616488D44",
+          "off": "2B55AC7616488D44"
         }
       ]
     },
@@ -27,13 +27,13 @@
       ]
     },
     {
-      "name": "x2 Item On Pickup (ON \u0026 OFF)",
+      "name": "2x Skill Points (ON \u0026 OFF)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "666912",
-          "on": "0355AC7616488D44",
-          "off": "2B55AC7616488D44"
+          "offset": "daf082",
+          "on": "410104244D85F674",
+          "off": "418904244D85F674"
         }
       ]
     }

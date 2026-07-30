@@ -5,50 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "999999 Credits",
+      "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "37EFBA0",
-          "on": "C783980000003F420F00E9C09CCEFD",
-          "off": "000000000000000000000000000000"
+          "offset": "37EFA00",
+          "on": "817B106E992940750CC7434400004843E9BD5548FDC5FA114344E9B35548FD",
+          "off": "00000000000000000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "14D9869",
-          "on": "E93263310290",
-          "off": "898B98000000"
-        }
-      ]
-    },
-    {
-      "name": "Fast XP Gain",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "37EFB50",
-          "on": "B88813000001C341895F18E91A20F4FD",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "1731B74",
-          "on": "E9D7DF0B0290",
-          "off": "01C341895F18"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Ammo/Grenades/Typhoon/Parts",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "37EFB00",
-          "on": "41BEC8000000448973405BE9A1EFCAFD",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "149EAAC",
-          "on": "E94F103502",
-          "off": "448973405B"
+          "offset": "C74FCD",
+          "on": "E92EAAB702",
+          "off": "C5FA114344"
         }
       ]
     },
@@ -69,18 +37,34 @@
       ]
     },
     {
-      "name": "Infinite Health",
+      "name": "Infinite Ammo/Grenades/Typhoon/Parts",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "37EFA00",
-          "on": "817B106E992940750CC7434400004843E9BD5548FDC5FA114344E9B35548FD",
-          "off": "00000000000000000000000000000000000000000000000000000000000000"
+          "offset": "37EFB00",
+          "on": "41BEC8000000448973405BE9A1EFCAFD",
+          "off": "00000000000000000000000000000000"
         },
         {
-          "offset": "C74FCD",
-          "on": "E92EAAB702",
-          "off": "C5FA114344"
+          "offset": "149EAAC",
+          "on": "E94F103502",
+          "off": "448973405B"
+        }
+      ]
+    },
+    {
+      "name": "Fast XP Gain",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "37EFB50",
+          "on": "B88813000001C341895F18E91A20F4FD",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "1731B74",
+          "on": "E9D7DF0B0290",
+          "off": "01C341895F18"
         }
       ]
     },
@@ -92,6 +76,22 @@
           "offset": "1731EED",
           "on": "01D8",
           "off": "29D8"
+        }
+      ]
+    },
+    {
+      "name": "999999 Credits",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "37EFBA0",
+          "on": "C783980000003F420F00E9C09CCEFD",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "14D9869",
+          "on": "E93263310290",
+          "off": "898B98000000"
         }
       ]
     }

@@ -5,38 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Freeze Timer",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "473E15",
-          "on": "90E92C3ACCFF",
-          "off": "000000000000"
-        },
-        {
-          "offset": "13783F",
-          "on": "E9D1C53300909090",
-          "off": "C5FA1105D1587400"
-        }
-      ]
-    },
-    {
-      "name": "Max Items",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "473DFE",
-          "on": "C78488A00F0000630000008B9488A00F0000E9F917D4FF",
-          "off": "0000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "1B5607",
-          "on": "E9F2E72B009090",
-          "off": "8B9488A00F0000"
-        }
-      ]
-    },
-    {
       "name": "Max Money",
       "type": "checkbox",
       "memory": [
@@ -69,6 +37,22 @@
       ]
     },
     {
+      "name": "Max Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "473DFE",
+          "on": "C78488A00F0000630000008B9488A00F0000E9F917D4FF",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1B5607",
+          "on": "E9F2E72B009090",
+          "off": "8B9488A00F0000"
+        }
+      ]
+    },
+    {
       "name": "No Hunger / No Sleep",
       "type": "checkbox",
       "memory": [
@@ -81,6 +65,22 @@
           "offset": "293DAC",
           "on": "E9A5FA1D00909090",
           "off": "C5FA1105C0965E00"
+        }
+      ]
+    },
+    {
+      "name": "Freeze Timer",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "473E15",
+          "on": "90E92C3ACCFF",
+          "off": "000000000000"
+        },
+        {
+          "offset": "13783F",
+          "on": "E9D1C53300909090",
+          "off": "C5FA1105D1587400"
         }
       ]
     }

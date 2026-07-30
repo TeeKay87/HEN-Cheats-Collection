@@ -21,6 +21,17 @@
       ]
     },
     {
+      "name": "No Weapon Jamp On Shoot",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "55D4F3",
+          "on": "410F948620190000",
+          "off": "410F928620190000"
+        }
+      ]
+    },
+    {
       "name": "Gun Without Clip",
       "type": "checkbox",
       "memory": [
@@ -33,6 +44,17 @@
           "offset": "54B876",
           "on": "E9106D1801909090",
           "off": "41898424C0180000"
+        }
+      ]
+    },
+    {
+      "name": "No Medkit Decrease",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5D249F",
+          "on": "909090909090",
+          "off": "FF8B44090000"
         }
       ]
     },
@@ -65,28 +87,6 @@
           "offset": "419530",
           "on": "E931902B01",
           "off": "0FB74772C3"
-        }
-      ]
-    },
-    {
-      "name": "No Medkit Decrease",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5D249F",
-          "on": "909090909090",
-          "off": "FF8B44090000"
-        }
-      ]
-    },
-    {
-      "name": "No Weapon Jamp On Shoot",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "55D4F3",
-          "on": "410F948620190000",
-          "off": "410F928620190000"
         }
       ]
     }

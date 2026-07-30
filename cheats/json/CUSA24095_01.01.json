@@ -21,6 +21,17 @@
       ]
     },
     {
+      "name": "Ki",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "A13017",
+          "on": "C5FA11836C0D0000",
+          "off": "C5FA118B6C0D0000"
+        }
+      ]
+    },
+    {
       "name": "Karma",
       "type": "checkbox",
       "memory": [
@@ -33,17 +44,6 @@
           "offset": "160F03",
           "on": "0F4FCB",
           "off": "0F4CCB"
-        }
-      ]
-    },
-    {
-      "name": "Ki",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "A13017",
-          "on": "C5FA11836C0D0000",
-          "off": "C5FA118B6C0D0000"
         }
       ]
     }

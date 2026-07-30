@@ -2,14 +2,6 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Trek to Yomi" Moder="Saso" Cusa="PPSA02629" Version="02.000.000" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="1 Hit Kill (MC) /  Deactivate In Training">
-    <Cheatline>
-      <Offset>56C3839</Offset>
-      <Section>0</Section>
-      <ValueOn>74-2F</ValueOn>
-      <ValueOff>74-05</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Health / Stamina / 1 HK (Master Code)">
     <Cheatline>
       <Offset>56C3800</Offset>
@@ -24,6 +16,22 @@
       <ValueOff>C5-FA-11-47-0C</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="Stamina (MC) / Deactivate In Training">
+    <Cheatline>
+      <Offset>56C382F</Offset>
+      <Section>0</Section>
+      <ValueOn>EB-19</ValueOn>
+      <ValueOff>EB-0F</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="1 Hit Kill (MC) /  Deactivate In Training">
+    <Cheatline>
+      <Offset>56C3839</Offset>
+      <Section>0</Section>
+      <ValueOn>74-2F</ValueOn>
+      <ValueOff>74-05</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Ranged Weapon">
     <Cheatline>
       <Offset>56C3871</Offset>
@@ -36,14 +44,6 @@
       <Section>0</Section>
       <ValueOn>E9-E8-3A-38-05</ValueOn>
       <ValueOff>C5-FA-11-47-08</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Stamina (MC) / Deactivate In Training">
-    <Cheatline>
-      <Offset>56C382F</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-19</ValueOn>
-      <ValueOff>EB-0F</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

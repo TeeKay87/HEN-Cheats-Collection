@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Change score to max for daredevil",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5EAEB1",
-          "on": "B8FFFF0000909090",
-          "off": "418B843D94010000"
-        }
-      ]
-    },
-    {
       "name": "Mod pod credits to 65535",
       "type": "checkbox",
       "memory": [
@@ -23,6 +12,39 @@
           "offset": "4107AF",
           "on": "BAFFFF000090",
           "off": "83F80A0F43D1"
+        }
+      ]
+    },
+    {
+      "name": "Unlimited Bonus In Race (exchange bonus to reset)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "70A09A",
+          "on": "9090",
+          "off": "FFC8"
+        }
+      ]
+    },
+    {
+      "name": "Unlimited Bonus Boxes",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2CC9E9",
+          "on": "9090",
+          "off": "FFCA"
+        }
+      ]
+    },
+    {
+      "name": "Change score to max for daredevil",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5EAEB1",
+          "on": "B8FFFF0000909090",
+          "off": "418B843D94010000"
         }
       ]
     },
@@ -115,28 +137,6 @@
           "offset": "5DA491",
           "on": "C5F259C8",
           "off": "C5F258C8"
-        }
-      ]
-    },
-    {
-      "name": "Unlimited Bonus Boxes",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2CC9E9",
-          "on": "9090",
-          "off": "FFCA"
-        }
-      ]
-    },
-    {
-      "name": "Unlimited Bonus In Race (exchange bonus to reset)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "70A09A",
-          "on": "9090",
-          "off": "FFC8"
         }
       ]
     }

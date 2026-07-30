@@ -5,104 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Attache Case XL (Activate B4 Starting The Game)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "740806",
-          "on": "7F",
-          "off": "AD"
-        }
-      ]
-    },
-    {
-      "name": "Blacktail",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "7407CE",
-          "on": "2700",
-          "off": "2300"
-        }
-      ]
-    },
-    {
-      "name": "Bowgun",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "7407CE",
-          "on": "1000",
-          "off": "2300"
-        }
-      ]
-    },
-    {
-      "name": "Broken Butterfly",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "7407CE",
-          "on": "2900",
-          "off": "2300"
-        }
-      ]
-    },
-    {
-      "name": "Handcannon",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "7407CE",
-          "on": "3700",
-          "off": "2300"
-        }
-      ]
-    },
-    {
-      "name": "Handgun",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "7407CE",
-          "on": "2300",
-          "off": "2300"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Chicago Typewriter (Put Handgun In The Center)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7407CE",
-          "on": "3400",
-          "off": "2300"
-        },
-        {
-          "offset": "7407D4",
-          "on": "0660",
-          "off": "0000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Clip Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC57F50",
-          "on": "90E99D8E6880",
-          "off": "000000000000"
-        },
-        {
-          "offset": "2E0DEE",
-          "on": "E95D71977F",
-          "off": "6641894F02"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health All Players",
       "type": "checkbox",
       "memory": [
@@ -129,57 +31,18 @@
       ]
     },
     {
-      "name": "Infinite R. Launcher (Put Handgun In The Center)",
+      "name": "Infinite Clip Ammo",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7407CE",
-          "on": "6D00",
-          "off": "2300"
-        }
-      ]
-    },
-    {
-      "name": "Killer 7",
-      "type": "button",
-      "memory": [
+          "offset": "7FC57F50",
+          "on": "90E99D8E6880",
+          "off": "000000000000"
+        },
         {
-          "offset": "7407CE",
-          "on": "2A00",
-          "off": "2300"
-        }
-      ]
-    },
-    {
-      "name": "Krausers Bow",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "7407CE",
-          "on": "5200",
-          "off": "2300"
-        }
-      ]
-    },
-    {
-      "name": "Matilda",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "7407CE",
-          "on": "0300",
-          "off": "2300"
-        }
-      ]
-    },
-    {
-      "name": "Mine Thrower",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "7407CE",
-          "on": "3600",
-          "off": "2300"
+          "offset": "2E0DEE",
+          "on": "E95D71977F",
+          "off": "6641894F02"
         }
       ]
     },
@@ -200,12 +63,77 @@
       ]
     },
     {
+      "name": "Save Always 0",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC57E90",
+          "on": "C6800050000000E90EC96480",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "2A47A3",
+          "on": "E9E8369B7F9090",
+          "off": "66898800500000"
+        }
+      ]
+    },
+    {
+      "name": "Attache Case XL (Activate B4 Starting The Game)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "740806",
+          "on": "7F",
+          "off": "AD"
+        }
+      ]
+    },
+    {
+      "name": "Infinite R. Launcher (Put Handgun In The Center)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7407CE",
+          "on": "6D00",
+          "off": "2300"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Chicago Typewriter (Put Handgun In The Center)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7407CE",
+          "on": "3400",
+          "off": "2300"
+        },
+        {
+          "offset": "7407D4",
+          "on": "0660",
+          "off": "0000"
+        }
+      ]
+    },
+    {
       "name": "P.R.L 412 (Put Handgun In The Center)",
       "type": "button",
       "memory": [
         {
           "offset": "7407CE",
           "on": "4100",
+          "off": "2300"
+        }
+      ]
+    },
+    {
+      "name": "Handgun",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "7407CE",
+          "on": "2300",
           "off": "2300"
         }
       ]
@@ -233,6 +161,138 @@
       ]
     },
     {
+      "name": "Blacktail",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "7407CE",
+          "on": "2700",
+          "off": "2300"
+        }
+      ]
+    },
+    {
+      "name": "Broken Butterfly",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "7407CE",
+          "on": "2900",
+          "off": "2300"
+        }
+      ]
+    },
+    {
+      "name": "TMP",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "7407CE",
+          "on": "3000",
+          "off": "2300"
+        }
+      ]
+    },
+    {
+      "name": "Mine Thrower",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "7407CE",
+          "on": "3600",
+          "off": "2300"
+        }
+      ]
+    },
+    {
+      "name": "Handcannon",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "7407CE",
+          "on": "3700",
+          "off": "2300"
+        }
+      ]
+    },
+    {
+      "name": "Shotgun",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "7407CE",
+          "on": "4700",
+          "off": "2300"
+        }
+      ]
+    },
+    {
+      "name": "Krausers Bow",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "7407CE",
+          "on": "5200",
+          "off": "2300"
+        }
+      ]
+    },
+    {
+      "name": "Bowgun",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "7407CE",
+          "on": "1000",
+          "off": "2300"
+        }
+      ]
+    },
+    {
+      "name": "Matilda",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "7407CE",
+          "on": "0300",
+          "off": "2300"
+        }
+      ]
+    },
+    {
+      "name": "Riot Gun",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "7407CE",
+          "on": "9400",
+          "off": "2300"
+        }
+      ]
+    },
+    {
+      "name": "Killer 7",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "7407CE",
+          "on": "2A00",
+          "off": "2300"
+        }
+      ]
+    },
+    {
+      "name": "Striker",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "7407CE",
+          "on": "2D00",
+          "off": "2300"
+        }
+      ]
+    },
+    {
       "name": "Rifle (Put Handgun In The Center)",
       "type": "button",
       "memory": [
@@ -250,66 +310,6 @@
         {
           "offset": "7407CE",
           "on": "2F00",
-          "off": "2300"
-        }
-      ]
-    },
-    {
-      "name": "Riot Gun",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "7407CE",
-          "on": "9400",
-          "off": "2300"
-        }
-      ]
-    },
-    {
-      "name": "Save Always 0",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC57E90",
-          "on": "C6800050000000E90EC96480",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "2A47A3",
-          "on": "E9E8369B7F9090",
-          "off": "66898800500000"
-        }
-      ]
-    },
-    {
-      "name": "Shotgun",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "7407CE",
-          "on": "4700",
-          "off": "2300"
-        }
-      ]
-    },
-    {
-      "name": "Striker",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "7407CE",
-          "on": "2D00",
-          "off": "2300"
-        }
-      ]
-    },
-    {
-      "name": "TMP",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "7407CE",
-          "on": "3000",
           "off": "2300"
         }
       ]

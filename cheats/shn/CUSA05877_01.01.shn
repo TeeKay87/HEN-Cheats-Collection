@@ -3,14 +3,6 @@
   <Genres Name="Action" />
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Infinite Ammo">
-    <Cheatline>
-      <Offset>8A3C2F</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>66-89-8F-94-02-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite Health (Main Hero)">
     <Cheatline>
       <Offset>1283E70</Offset>
@@ -39,20 +31,6 @@
       <ValueOff>0F-4F-D8-41-89-5E-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Items x90 (On use/get/buy)">
-    <Cheatline>
-      <Offset>1283860</Offset>
-      <Section>0</Section>
-      <ValueOn>42-C6-84-38-00-0A-00-00-5A-E9-68-BC-60-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>88F4CE</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-8D-43-9F-00-90-90-90</ValueOn>
-      <ValueOff>42-88-9C-38-00-0A-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Max Experience (main hero)">
     <Cheatline>
       <Offset>1283C60</Offset>
@@ -65,6 +43,28 @@
       <Section>0</Section>
       <ValueOn>E9-44-F2-9E-00-90-90</ValueOn>
       <ValueOff>89-58-1C-48-83-C4-08</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Ammo">
+    <Cheatline>
+      <Offset>8A3C2F</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>66-89-8F-94-02-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Items x90 (On use/get/buy)">
+    <Cheatline>
+      <Offset>1283860</Offset>
+      <Section>0</Section>
+      <ValueOn>42-C6-84-38-00-0A-00-00-5A-E9-68-BC-60-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>88F4CE</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-8D-43-9F-00-90-90-90</ValueOn>
+      <ValueOff>42-88-9C-38-00-0A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max Yen (on buy)">

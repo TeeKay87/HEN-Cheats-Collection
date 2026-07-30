@@ -5,55 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "--Faster_Timer",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FD1BF02",
-          "on": "01",
-          "off": "00"
-        }
-      ]
-    },
-    {
-      "name": "--Fast_Timer",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FD1BF01",
-          "on": "01",
-          "off": "00"
-        }
-      ]
-    },
-    {
-      "name": "--Stop_Time",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FD1BF00",
-          "on": "01",
-          "off": "00"
-        }
-      ]
-    },
-    {
-      "name": "Inf Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FCCF031",
-          "on": "B93F420F00894F6039F0E95E488A00",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "80573899",
-          "on": "E993B775FF",
-          "off": "894F6039F0"
-        }
-      ]
-    },
-    {
       "name": "Inf Hp",
       "type": "checkbox",
       "memory": [
@@ -61,22 +12,6 @@
           "offset": "8089899A",
           "on": "909090",
           "off": "4429E7"
-        }
-      ]
-    },
-    {
-      "name": "Inf Materials",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FCCF000",
-          "on": "BAE7030000895018413B5E18E9A637D200",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "809F27B0",
-          "on": "E94BC82DFF9090",
-          "off": "895018413B5E18"
         }
       ]
     },
@@ -99,6 +34,38 @@
           "offset": "809EB569",
           "on": "909090",
           "off": "FF4B20"
+        }
+      ]
+    },
+    {
+      "name": "Inf Materials",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCF000",
+          "on": "BAE7030000895018413B5E18E9A637D200",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "809F27B0",
+          "on": "E94BC82DFF9090",
+          "off": "895018413B5E18"
+        }
+      ]
+    },
+    {
+      "name": "Inf Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCF031",
+          "on": "B93F420F00894F6039F0E95E488A00",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "80573899",
+          "on": "E993B775FF",
+          "off": "894F6039F0"
         }
       ]
     },
@@ -130,6 +97,39 @@
           "offset": "8076982B",
           "on": "E9305856FF909090",
           "off": "41035E2441895E24"
+        }
+      ]
+    },
+    {
+      "name": "--Fast_Timer",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD1BF01",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "--Faster_Timer",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD1BF02",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "--Stop_Time",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD1BF00",
+          "on": "01",
+          "off": "00"
         }
       ]
     }

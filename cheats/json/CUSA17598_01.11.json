@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "No Reload (nop)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "134E51D",
+          "on": "90909090909090",
+          "off": "4129B6F8030000"
+        }
+      ]
+    },
+    {
       "name": "Infinite AP (nop)",
       "type": "checkbox",
       "memory": [
@@ -12,17 +23,6 @@
           "offset": "10F4D28",
           "on": "909090909090",
           "off": "898BF0000000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Durability",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "112E893",
-          "on": "909090909090",
-          "off": "29B798010000"
         }
       ]
     },
@@ -38,6 +38,17 @@
       ]
     },
     {
+      "name": "Infinite Durability",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "112E893",
+          "on": "909090909090",
+          "off": "29B798010000"
+        }
+      ]
+    },
+    {
       "name": "Infinite Item (nop)",
       "type": "checkbox",
       "memory": [
@@ -45,17 +56,6 @@
           "offset": "112646A",
           "on": "9090",
           "off": "8901"
-        }
-      ]
-    },
-    {
-      "name": "No Reload (nop)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "134E51D",
-          "on": "90909090909090",
-          "off": "4129B6F8030000"
         }
       ]
     }

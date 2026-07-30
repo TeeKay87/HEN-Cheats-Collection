@@ -2,20 +2,6 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Divinity: Original Sin: Enhanced Edition" Moder="hejran7" Cusa="CUSA02762" Version="01.00" Process="eboot.bin">
   <Genres Name="Strategy" />
   <Items />
-  <Cheat Text="10000 XP On Get">
-    <Cheatline>
-      <Offset>1457883</Offset>
-      <Section>0</Section>
-      <ValueOn>81-87-50-01-00-00-00-00-01-00-E9-CF-1C-1A-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>5F955B</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-23-E3-E5-00-90</ValueOn>
-      <ValueOff>89-B7-50-01-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Max Inf HP">
     <Cheatline>
       <Offset>1457800</Offset>
@@ -64,6 +50,20 @@
       <Section>0</Section>
       <ValueOn>E9-A3-E2-07-01-90</ValueOn>
       <ValueOff>89-8F-CC-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="10000 XP On Get">
+    <Cheatline>
+      <Offset>1457883</Offset>
+      <Section>0</Section>
+      <ValueOn>81-87-50-01-00-00-00-00-01-00-E9-CF-1C-1A-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>5F955B</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-23-E3-E5-00-90</ValueOn>
+      <ValueOff>89-B7-50-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Unlimited Actions">

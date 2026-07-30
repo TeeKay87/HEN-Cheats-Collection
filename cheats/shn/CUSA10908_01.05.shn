@@ -31,34 +31,6 @@
       <ValueOff>F3-44-0F-11-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max coins (on sell)">
-    <Cheatline>
-      <Offset>153F430</Offset>
-      <Section>0</Section>
-      <ValueOn>41-C7-44-24-58-7F-96-98-00-E9-9F-01-37-7F</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>808AF5D8</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-53-FE-C8-80</ValueOn>
-      <ValueOff>41-89-6C-24-58</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Max Experience ">
-    <Cheatline>
-      <Offset>153FF00</Offset>
-      <Section>0</Section>
-      <ValueOn>03-44-24-08-41-C7-46-14-FF-E0-F5-05-E9-B4-5D-15-7F</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>80695CBD</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-3E-A2-EA-80-90-90-90</ValueOn>
-      <ValueOff>03-44-24-08-41-89-46-14</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Max items (on gain)">
     <Cheatline>
       <Offset>153D4D0</Offset>
@@ -85,6 +57,34 @@
       <Section>0</Section>
       <ValueOn>E9-4C-24-B4-80</ValueOn>
       <ValueOff>41-89-44-24-44</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max coins (on sell)">
+    <Cheatline>
+      <Offset>153F430</Offset>
+      <Section>0</Section>
+      <ValueOn>41-C7-44-24-58-7F-96-98-00-E9-9F-01-37-7F</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>808AF5D8</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-53-FE-C8-80</ValueOn>
+      <ValueOff>41-89-6C-24-58</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max Experience ">
+    <Cheatline>
+      <Offset>153FF00</Offset>
+      <Section>0</Section>
+      <ValueOn>03-44-24-08-41-C7-46-14-FF-E0-F5-05-E9-B4-5D-15-7F</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>80695CBD</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-3E-A2-EA-80-90-90-90</ValueOn>
+      <ValueOff>03-44-24-08-41-89-46-14</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

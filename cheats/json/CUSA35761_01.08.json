@@ -5,13 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Easy Money",
+      "name": "TRAINER INFO (read only)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "8685A0C2",
-          "on": "48014818",
-          "off": "48894818"
+          "offset": "7FC5EFFF",
+          "on": "00",
+          "off": "00"
         }
       ]
     },
@@ -43,13 +43,13 @@
       ]
     },
     {
-      "name": "TRAINER INFO (read only)",
+      "name": "Easy Money",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5EFFF",
-          "on": "00",
-          "off": "00"
+          "offset": "8685A0C2",
+          "on": "48014818",
+          "off": "48894818"
         }
       ]
     }

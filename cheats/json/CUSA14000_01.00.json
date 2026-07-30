@@ -21,22 +21,6 @@
       ]
     },
     {
-      "name": "Max Items",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "153FDB0",
-          "on": "48634C2410C60063E975FD4A7F",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "809EFB2D",
-          "on": "E97E02B5809090",
-          "off": "48634C24108908"
-        }
-      ]
-    },
-    {
       "name": "Max Lives",
       "type": "checkbox",
       "memory": [
@@ -49,6 +33,22 @@
           "offset": "80576003",
           "on": "E9F89DFC809090",
           "off": "418986AC000000"
+        }
+      ]
+    },
+    {
+      "name": "Max Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "153FDB0",
+          "on": "48634C2410C60063E975FD4A7F",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "809EFB2D",
+          "on": "E97E02B5809090",
+          "off": "48634C24108908"
         }
       ]
     },

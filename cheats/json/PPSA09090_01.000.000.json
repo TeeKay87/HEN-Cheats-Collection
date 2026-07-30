@@ -5,18 +5,28 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Credits",
+      "name": "Inf Hp",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FCCB0C0",
-          "on": "41BFFFE0F50544897B3C4183FE130F87501FFB00E93D1F1F03",
-          "off": "00000000000000000000000000000000000000000000000000"
+          "offset": "7FCCB000",
+          "on": "C4C17A10461CC4C17A114624E98C042601",
+          "off": "0000000000000000000000000000000000"
         },
         {
-          "offset": "82EBD00C",
-          "on": "E9AFE0E0FC909090909090909090",
-          "off": "44017B3C4183FE130F870A00DCFD"
+          "offset": "7FCCB031",
+          "on": "C4C17A10461CC4C17A114624E95B044A03",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "80F2B497",
+          "on": "E964FBD9FE90",
+          "off": "C4C17A114624"
+        },
+        {
+          "offset": "8316B497",
+          "on": "E995FBB5FC90",
+          "off": "C4C17A114624"
         }
       ]
     },
@@ -47,28 +57,18 @@
       ]
     },
     {
-      "name": "Inf Hp",
+      "name": "Inf Credits",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FCCB000",
-          "on": "C4C17A10461CC4C17A114624E98C042601",
-          "off": "0000000000000000000000000000000000"
+          "offset": "7FCCB0C0",
+          "on": "41BFFFE0F50544897B3C4183FE130F87501FFB00E93D1F1F03",
+          "off": "00000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "7FCCB031",
-          "on": "C4C17A10461CC4C17A114624E95B044A03",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "80F2B497",
-          "on": "E964FBD9FE90",
-          "off": "C4C17A114624"
-        },
-        {
-          "offset": "8316B497",
-          "on": "E995FBB5FC90",
-          "off": "C4C17A114624"
+          "offset": "82EBD00C",
+          "on": "E9AFE0E0FC909090909090909090",
+          "off": "44017B3C4183FE130F870A00DCFD"
         }
       ]
     }

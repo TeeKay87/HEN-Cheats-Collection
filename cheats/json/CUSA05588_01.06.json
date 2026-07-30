@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Dash",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5AC70",
-          "on": "41C784249C0000000000803FE9E0766880",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "2E2357",
-          "on": "E91489977F9090909090",
-          "off": "C4C17A118C249C000000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Lives",
       "type": "checkbox",
       "memory": [
@@ -33,6 +17,22 @@
           "offset": "30D2B8",
           "on": "E9A3D9947F90",
           "off": "0F48CA894B64"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Dash",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5AC70",
+          "on": "41C784249C0000000000803FE9E0766880",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "2E2357",
+          "on": "E91489977F9090909090",
+          "off": "C4C17A118C249C000000"
         }
       ]
     }

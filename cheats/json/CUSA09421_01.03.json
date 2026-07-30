@@ -16,45 +16,18 @@
       ]
     },
     {
-      "name": "Infinite Laser",
+      "name": "Max Stars",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "2A8FC5",
-          "on": "F30F111090",
-          "off": "F3440F1138"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Mega Bomb",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1E2B829",
-          "on": "BE040000008930E9FD2649FE",
-          "off": "000000000000000000000000"
+          "offset": "1E2B800",
+          "on": "4885C00F84192149FE4983FE030F85D42049FEB9FFFF0000E9CA2049FE",
+          "off": "0000000000000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "2BDF2C",
-          "on": "E9F8D8B60190",
-          "off": "486334248930"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Shield",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1E2B81B",
-          "on": "BE050000008930E9BB2749FE",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "2BDFDC",
-          "on": "E93AD8B60190",
-          "off": "486334248930"
+          "offset": "2BD8DE",
+          "on": "E91DDFB60190909090",
+          "off": "4885C00F843B000000"
         }
       ]
     },
@@ -75,18 +48,45 @@
       ]
     },
     {
-      "name": "Max Stars",
+      "name": "Infinite Shield",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1E2B800",
-          "on": "4885C00F84192149FE4983FE030F85D42049FEB9FFFF0000E9CA2049FE",
-          "off": "0000000000000000000000000000000000000000000000000000000000"
+          "offset": "1E2B81B",
+          "on": "BE050000008930E9BB2749FE",
+          "off": "000000000000000000000000"
         },
         {
-          "offset": "2BD8DE",
-          "on": "E91DDFB60190909090",
-          "off": "4885C00F843B000000"
+          "offset": "2BDFDC",
+          "on": "E93AD8B60190",
+          "off": "486334248930"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Mega Bomb",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E2B829",
+          "on": "BE040000008930E9FD2649FE",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "2BDF2C",
+          "on": "E9F8D8B60190",
+          "off": "486334248930"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Laser",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2A8FC5",
+          "on": "F30F111090",
+          "off": "F3440F1138"
         }
       ]
     },
@@ -98,6 +98,17 @@
           "offset": "802E1DD2",
           "on": "F3410F119768020000",
           "off": "F3450F11BF68020000"
+        }
+      ]
+    },
+    {
+      "name": "Infinity Resources",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8038D89C",
+          "on": "B87F969800",
+          "off": "3509130500"
         }
       ]
     },
@@ -123,17 +134,6 @@
       ]
     },
     {
-      "name": "Infinite Mega Bome",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8038DF2C",
-          "on": "66BE0300",
-          "off": "48633424"
-        }
-      ]
-    },
-    {
       "name": "Infinite Shield",
       "type": "checkbox",
       "memory": [
@@ -145,13 +145,13 @@
       ]
     },
     {
-      "name": "Infinity Resources",
+      "name": "Infinite Mega Bome",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "8038D89C",
-          "on": "B87F969800",
-          "off": "3509130500"
+          "offset": "8038DF2C",
+          "on": "66BE0300",
+          "off": "48633424"
         }
       ]
     },

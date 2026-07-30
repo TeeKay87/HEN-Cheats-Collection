@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Live",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "F3A54",
+          "on": "9090",
+          "off": "29F0"
+        }
+      ]
+    },
+    {
       "name": "9.999 Lums ( per Level )",
       "type": "checkbox",
       "memory": [
@@ -38,17 +49,6 @@
           "offset": "A6FC60",
           "on": "E95B42A20090",
           "off": "03B000020000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Live",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "F3A54",
-          "on": "9090",
-          "off": "29F0"
         }
       ]
     },

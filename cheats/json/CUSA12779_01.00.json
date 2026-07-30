@@ -21,6 +21,22 @@
       ]
     },
     {
+      "name": "Jump Height",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6B8A135",
+          "on": "41C7470400004844C4C17A104704E963341AFA",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "D2D5A5",
+          "on": "E98BCBE50590",
+          "off": "C4C17A104704"
+        }
+      ]
+    },
+    {
       "name": "Gravity Jump Forward (must turn on Gravity Jump)",
       "type": "checkbox",
       "memory": [
@@ -81,22 +97,6 @@
           "offset": "D2D5AB",
           "on": "E94DCBE50590",
           "off": "C4C17A104E04"
-        }
-      ]
-    },
-    {
-      "name": "Jump Height",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "6B8A135",
-          "on": "41C7470400004844C4C17A104704E963341AFA",
-          "off": "00000000000000000000000000000000000000"
-        },
-        {
-          "offset": "D2D5A5",
-          "on": "E98BCBE50590",
-          "off": "C4C17A104704"
         }
       ]
     }

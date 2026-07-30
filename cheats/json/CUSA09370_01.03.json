@@ -37,18 +37,18 @@
       ]
     },
     {
-      "name": "Infinite Perk Points",
+      "name": "Infinite Stat point Van Helsing",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "69D7CB0",
-          "on": "C7874C16000064000000E96E9B7FFA",
-          "off": "000000000000000000000000000000"
+          "offset": "69D7BF0",
+          "on": "C6807C0A000063E9FD2691FE",
+          "off": "000000000000000000000000"
         },
         {
-          "offset": "11D1827",
-          "on": "E98464800590",
-          "off": "01B74C160000"
+          "offset": "52EA2F2",
+          "on": "E9F9D86E019090",
+          "off": "4429A87C0A0000"
         }
       ]
     },
@@ -69,18 +69,18 @@
       ]
     },
     {
-      "name": "Infinite Stat point Van Helsing",
+      "name": "Infinite Perk Points",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "69D7BF0",
-          "on": "C6807C0A000063E9FD2691FE",
-          "off": "000000000000000000000000"
+          "offset": "69D7CB0",
+          "on": "C7874C16000064000000E96E9B7FFA",
+          "off": "000000000000000000000000000000"
         },
         {
-          "offset": "52EA2F2",
-          "on": "E9F9D86E019090",
-          "off": "4429A87C0A0000"
+          "offset": "11D1827",
+          "on": "E98464800590",
+          "off": "01B74C160000"
         }
       ]
     },
@@ -101,22 +101,6 @@
       ]
     },
     {
-      "name": "Max Coins (on get)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "69D7D10",
-          "on": "C787441600007F969800E9F8E07FFA",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "11D5E11",
-          "on": "E9FA1E800590",
-          "off": "898F44160000"
-        }
-      ]
-    },
-    {
       "name": "Max Experience",
       "type": "checkbox",
       "memory": [
@@ -129,6 +113,22 @@
           "offset": "193736A",
           "on": "E921090A059090",
           "off": "418987800A0000"
+        }
+      ]
+    },
+    {
+      "name": "Max Coins (on get)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "69D7D10",
+          "on": "C787441600007F969800E9F8E07FFA",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "11D5E11",
+          "on": "E9FA1E800590",
+          "off": "898F44160000"
         }
       ]
     }

@@ -16,17 +16,6 @@
       ]
     },
     {
-      "name": "Infinite Items",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5E883B",
-          "on": "B8E7030000",
-          "off": "85C90F49C1"
-        }
-      ]
-    },
-    {
       "name": "Infinite Skillbar",
       "type": "checkbox",
       "memory": [
@@ -34,6 +23,17 @@
           "offset": "6B01D4",
           "on": "9090909090909090",
           "off": "C5FA1187E0030000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5E883B",
+          "on": "B8E7030000",
+          "off": "85C90F49C1"
         }
       ]
     },
@@ -65,17 +65,6 @@
       ]
     },
     {
-      "name": "Infinite Items",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1E883B",
-          "on": "B8E7030000",
-          "off": "85C90F49C1"
-        }
-      ]
-    },
-    {
       "name": "Infinite Skillbar",
       "type": "checkbox",
       "memory": [
@@ -83,6 +72,17 @@
           "offset": "2B01D4",
           "on": "9090909090909090",
           "off": "C5FA1187E0030000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E883B",
+          "on": "B8E7030000",
+          "off": "85C90F49C1"
         }
       ]
     },

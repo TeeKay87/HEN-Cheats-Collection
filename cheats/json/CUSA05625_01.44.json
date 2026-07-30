@@ -5,38 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "1 Hit Kill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "663A250",
-          "on": "807B0306750FC783D400000000000000E9B92DF0FC89B3D4000000E9AE2DF0FC",
-          "off": "0000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "353D018",
-          "on": "E933D20F0390",
-          "off": "89B3D4000000"
-        }
-      ]
-    },
-    {
-      "name": "Fast Lvl Up / XP",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "663A340",
-          "on": "FFC34489CE41BA0F270000E9546174FD",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "3D8049F",
-          "on": "E99C9E8B02",
-          "off": "FFC34489CE"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -44,22 +12,6 @@
           "offset": "3558223",
           "on": "89C190",
           "off": "0F4EC8"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Oxygen",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "663A2A0",
-          "on": "C5FA108040050000C5FA118044050000E9F80167FE",
-          "off": "000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "4CAA4A5",
-          "on": "E9F6FD9801909090",
-          "off": "C5FA118044050000"
         }
       ]
     },
@@ -80,18 +32,34 @@
       ]
     },
     {
-      "name": "Max Abilities Points (On Spend)",
+      "name": "Infinite Oxygen",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "663A300",
-          "on": "66C7808C020000E7038B988C020000E9B08BBBFB",
-          "off": "0000000000000000000000000000000000000000"
+          "offset": "663A2A0",
+          "on": "C5FA108040050000C5FA118044050000E9F80167FE",
+          "off": "000000000000000000000000000000000000000000"
         },
         {
-          "offset": "21F2EBE",
-          "on": "E93D74440490",
-          "off": "8B988C020000"
+          "offset": "4CAA4A5",
+          "on": "E9F6FD9801909090",
+          "off": "C5FA118044050000"
+        }
+      ]
+    },
+    {
+      "name": "1 Hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "663A250",
+          "on": "807B0306750FC783D400000000000000E9B92DF0FC89B3D4000000E9AE2DF0FC",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "353D018",
+          "on": "E933D20F0390",
+          "off": "89B3D4000000"
         }
       ]
     },
@@ -108,6 +76,38 @@
           "offset": "3A465AB",
           "on": "E9203DBF02",
           "off": "41894424F0"
+        }
+      ]
+    },
+    {
+      "name": "Max Abilities Points (On Spend)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "663A300",
+          "on": "66C7808C020000E7038B988C020000E9B08BBBFB",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "21F2EBE",
+          "on": "E93D74440490",
+          "off": "8B988C020000"
+        }
+      ]
+    },
+    {
+      "name": "Fast Lvl Up / XP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "663A340",
+          "on": "FFC34489CE41BA0F270000E9546174FD",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "3D8049F",
+          "on": "E99C9E8B02",
+          "off": "FFC34489CE"
         }
       ]
     }

@@ -5,61 +5,29 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "1Hit Kill (activate Master code)",
+      "name": "Infinite Health/1hit kill",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "10DA18",
-          "on": "750B",
-          "off": "750E"
+          "offset": "7FE9E8F0",
+          "on": "4180BDB801000013750A41C7457400009443EB090F57C0C4C17A114574E9E3C9FD80",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "E7B2EF",
+          "on": "E9FC35027F90",
+          "off": "C4C17A114574"
         }
       ]
     },
     {
-      "name": "All Items/shard/ammo (on gain have 2)",
+      "name": "Infinite Focus ",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FE9FE50",
-          "on": "0F4CF06641C74650DC05E918810482",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "1EE7F70",
-          "on": "E9DB7EFB7D9090",
-          "off": "0F4CF041897650"
-        }
-      ]
-    },
-    {
-      "name": "All items/shards/Ammo(on use have 2)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FE9FE20",
-          "on": "29C86641C74050DC05E965690482",
-          "off": "0000000000000000000000000000"
-        },
-        {
-          "offset": "1EE678D",
-          "on": "E98E96FB7D90",
-          "off": "29C841894050"
-        }
-      ]
-    },
-    {
-      "name": "Boltblaster Infinite Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FE9FF40",
-          "on": "41C68424900000001EE9418A1982",
-          "off": "0000000000000000000000000000"
-        },
-        {
-          "offset": "2038987",
-          "on": "E9B475E67D909090",
-          "off": "41898C2490000000"
+          "offset": "18F6DF4",
+          "on": "909090909090",
+          "off": "C4C17A11455C"
         }
       ]
     },
@@ -80,56 +48,72 @@
       ]
     },
     {
-      "name": "Infinite Focus ",
+      "name": "All items/shards/Ammo(on use have 2)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "18F6DF4",
-          "on": "909090909090",
-          "off": "C4C17A11455C"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health (activate Master code)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "10DA1A",
-          "on": "909090909090",
-          "off": "C4C17A114574"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health/1hit kill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FE9E8F0",
-          "on": "4180BDB801000013750A41C7457400009443EB090F57C0C4C17A114574E9E3C9FD80",
-          "off": "00000000000000000000000000000000000000000000000000000000000000000000"
+          "offset": "7FE9FE20",
+          "on": "29C86641C74050DC05E965690482",
+          "off": "0000000000000000000000000000"
         },
         {
-          "offset": "E7B2EF",
-          "on": "E9FC35027F90",
-          "off": "C4C17A114574"
+          "offset": "1EE678D",
+          "on": "E98E96FB7D90",
+          "off": "29C841894050"
         }
       ]
     },
     {
-      "name": "Infinite Valor Surge (on activate)",
+      "name": "All Items/shard/ammo (on gain have 2)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FE9FFC0",
-          "on": "C5F25CC0C70600001644E9DB94C781",
+          "offset": "7FE9FE50",
+          "on": "0F4CF06641C74650DC05E918810482",
           "off": "000000000000000000000000000000"
         },
         {
-          "offset": "1B194A2",
-          "on": "E9196B387E909090",
-          "off": "C5F25CC0C5FA1106"
+          "offset": "1EE7F70",
+          "on": "E9DB7EFB7D9090",
+          "off": "0F4CF041897650"
+        }
+      ]
+    },
+    {
+      "name": "Skill Points increase(have 2 points deactivate after having 600)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F6A178",
+          "on": "41014E70",
+          "off": "41894E70"
+        }
+      ]
+    },
+    {
+      "name": "Skill points dont decrease(turn off other skill cheat)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F6A178",
+          "on": "90909090",
+          "off": "41894E70"
+        }
+      ]
+    },
+    {
+      "name": "Boltblaster Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FE9FF40",
+          "on": "41C68424900000001EE9418A1982",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "2038987",
+          "on": "E9B475E67D909090",
+          "off": "41898C2490000000"
         }
       ]
     },
@@ -150,6 +134,22 @@
       ]
     },
     {
+      "name": "Infinite Valor Surge (on activate)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FE9FFC0",
+          "on": "C5F25CC0C70600001644E9DB94C781",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "1B194A2",
+          "on": "E9196B387E909090",
+          "off": "C5F25CC0C5FA1106"
+        }
+      ]
+    },
+    {
       "name": "Master code",
       "type": "checkbox",
       "memory": [
@@ -166,24 +166,24 @@
       ]
     },
     {
-      "name": "Skill points dont decrease(turn off other skill cheat)",
+      "name": "Infinite Health (activate Master code)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1F6A178",
-          "on": "90909090",
-          "off": "41894E70"
+          "offset": "10DA1A",
+          "on": "909090909090",
+          "off": "C4C17A114574"
         }
       ]
     },
     {
-      "name": "Skill Points increase(have 2 points deactivate after having 600)",
+      "name": "1Hit Kill (activate Master code)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1F6A178",
-          "on": "41014E70",
-          "off": "41894E70"
+          "offset": "10DA18",
+          "on": "750B",
+          "off": "750E"
         }
       ]
     }

@@ -21,18 +21,18 @@
       ]
     },
     {
-      "name": "Inf Items (On Sell need 2\u002B)",
+      "name": "Inf Stam",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "D7F852",
-          "on": "66C7448F026300E910FD6EFF",
-          "off": "000000000000000000000000"
+          "offset": "D7F822",
+          "on": "C5FA10838C010000C5FA1183A0010000C5FA1083A0010000E9EBD064FF",
+          "off": "0000000000000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "46F569",
-          "on": "E9E4029100",
-          "off": "6689448F02"
+          "offset": "3CC922",
+          "on": "E9FB2E9B00909090",
+          "off": "C5FA1083A0010000"
         }
       ]
     },
@@ -53,29 +53,34 @@
       ]
     },
     {
-      "name": "Inf Stam",
+      "name": "Inf Items (On Sell need 2\u002B)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "D7F822",
-          "on": "C5FA10838C010000C5FA1183A0010000C5FA1083A0010000E9EBD064FF",
-          "off": "0000000000000000000000000000000000000000000000000000000000"
+          "offset": "D7F852",
+          "on": "66C7448F026300E910FD6EFF",
+          "off": "000000000000000000000000"
         },
         {
-          "offset": "3CC922",
-          "on": "E9FB2E9B00909090",
-          "off": "C5FA1083A0010000"
+          "offset": "46F569",
+          "on": "E9E4029100",
+          "off": "6689448F02"
         }
       ]
     },
     {
-      "name": "Infinite Items",
+      "name": "Max Money On Spend",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "46F569",
-          "on": "9090909090",
-          "off": "6689448F02"
+          "offset": "D7F800",
+          "on": "BA7F969800899094C50400E9E2DC9BFF",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "73D4EC",
+          "on": "E90F23640090",
+          "off": "899094C50400"
         }
       ]
     },
@@ -107,18 +112,13 @@
       ]
     },
     {
-      "name": "Max Money On Spend",
+      "name": "Infinite Items",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "D7F800",
-          "on": "BA7F969800899094C50400E9E2DC9BFF",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "73D4EC",
-          "on": "E90F23640090",
-          "off": "899094C50400"
+          "offset": "46F569",
+          "on": "9090909090",
+          "off": "6689448F02"
         }
       ]
     }

@@ -4,6 +4,20 @@
   <Genres Name="Adventure" />
   <Genres Name="Family" />
   <Items />
+  <Cheat Text="Vida Infinita">
+    <Cheatline>
+      <Offset>44FE10</Offset>
+      <Section>0</Section>
+      <ValueOn>49-83-F8-00-75-0F-C4-C1-7A-10-84-24-C8-01-00-00-E9-9B-8D-BE-FF-C4-C1-7A-11-84-24-C8-01-00-00-E9-8C-8D-BE-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>38BB6</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-55-72-41-00-90-90-90-90-90</ValueOn>
+      <ValueOff>C4-C1-7A-11-84-24-C8-01-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Dinheiro Infinito">
     <Cheatline>
       <Offset>44F6D0</Offset>
@@ -16,22 +30,6 @@
       <Section>0</Section>
       <ValueOn>E9-70-03-3D-00-90</ValueOn>
       <ValueOff>01-91-E4-04-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Itens Infinitos">
-    <Cheatline>
-      <Offset>B3570</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90</ValueOn>
-      <ValueOff>FF-48-28</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Luz Infinita">
-    <Cheatline>
-      <Offset>34FFE</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90</ValueOn>
-      <ValueOff>C5-FA-5C-01</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Nivel Maximo - Venda tesouros pelo menos 2 vezes">
@@ -48,6 +46,14 @@
       <ValueOff>89-88-94-05-00-00</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="Luz Infinita">
+    <Cheatline>
+      <Offset>34FFE</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90</ValueOn>
+      <ValueOff>C5-FA-5C-01</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Perola Azul Infinita">
     <Cheatline>
       <Offset>44FEC0</Offset>
@@ -60,6 +66,14 @@
       <Section>0</Section>
       <ValueOn>E9-9D-F4-3B-00-90</ValueOn>
       <ValueOff>29-83-E8-04-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Itens Infinitos">
+    <Cheatline>
+      <Offset>B3570</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90</ValueOn>
+      <ValueOff>FF-48-28</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Poderes Infinitos">
@@ -80,20 +94,6 @@
       <Section>0</Section>
       <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
       <ValueOff>C5-FA-11-83-CC-01-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Vida Infinita">
-    <Cheatline>
-      <Offset>44FE10</Offset>
-      <Section>0</Section>
-      <ValueOn>49-83-F8-00-75-0F-C4-C1-7A-10-84-24-C8-01-00-00-E9-9B-8D-BE-FF-C4-C1-7A-11-84-24-C8-01-00-00-E9-8C-8D-BE-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>38BB6</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-55-72-41-00-90-90-90-90-90</ValueOn>
-      <ValueOff>C4-C1-7A-11-84-24-C8-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

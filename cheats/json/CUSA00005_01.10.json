@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Bombs",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "67607E",
-          "on": "B863000000909090",
-          "off": "B9000000000F48C1"
-        }
-      ]
-    },
-    {
       "name": "Infinite Lives",
       "type": "checkbox",
       "memory": [
@@ -31,7 +20,7 @@
       "type": "checkbox",
       "memory": [
         {
-          "offset": "27607E",
+          "offset": "67607E",
           "on": "B863000000909090",
           "off": "B9000000000F48C1"
         }
@@ -45,6 +34,17 @@
           "offset": "275A6D",
           "on": "B863000000",
           "off": "FFC80F48C1"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Bombs",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "27607E",
+          "on": "B863000000909090",
+          "off": "B9000000000F48C1"
         }
       ]
     }

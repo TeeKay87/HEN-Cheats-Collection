@@ -32,29 +32,18 @@
       ]
     },
     {
-      "name": "Infinite Hack",
+      "name": "No Reload",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1D7BD24",
-          "on": "909090",
-          "off": "49891E"
-        }
-      ]
-    },
-    {
-      "name": "Max Tech Points on Spend",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "85E3E32",
-          "on": "BEFFC99A3B89772C4889FBE9488A7AF9",
+          "offset": "85E3DBA",
+          "on": "BA63000000899010010000E9827024F9",
           "off": "00000000000000000000000000000000"
         },
         {
-          "offset": "1D8C884",
-          "on": "E9A975850690",
-          "off": "89772C4889FB"
+          "offset": "182AE46",
+          "on": "E96F8FDB0690",
+          "off": "8B9010010000"
         }
       ]
     },
@@ -75,6 +64,33 @@
       ]
     },
     {
+      "name": "Max Tech Points on Spend",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "85E3E32",
+          "on": "BEFFC99A3B89772C4889FBE9488A7AF9",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "1D8C884",
+          "on": "E9A975850690",
+          "off": "89772C4889FB"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Hack",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1D7BD24",
+          "on": "909090",
+          "off": "49891E"
+        }
+      ]
+    },
+    {
       "name": "No Gadget Cooldown",
       "type": "checkbox",
       "memory": [
@@ -91,56 +107,18 @@
       ]
     },
     {
-      "name": "No Reload",
+      "name": "Master Code Player Health",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "85E3DBA",
-          "on": "BA63000000899010010000E9827024F9",
-          "off": "00000000000000000000000000000000"
+          "offset": "085E3D58",
+          "on": "C64370008BB3AC050000E9EC4F66F9",
+          "off": "000000000000000000000000000000"
         },
         {
-          "offset": "182AE46",
-          "on": "E96F8FDB0690",
-          "off": "8B9010010000"
-        }
-      ]
-    },
-    {
-      "name": "A lot of Etto",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "085E3D8A",
-          "on": "0F849AE38DFBC74024FFE0F505448B702444897020E9AAE28DFB",
-          "off": "0000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "03EC2044",
-          "on": "E9411D72049090909090",
-          "off": "0F84E6000000448B7020"
-        }
-      ]
-    },
-    {
-      "name": "Hacking Without Cooldown",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "0163B87F",
-          "on": "B800000000",
-          "off": "B801000000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Camouflage",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "017C6E70",
-          "on": "C3",
-          "off": "55"
+          "offset": "01C48D4D",
+          "on": "E906B0990690",
+          "off": "8BB3AC050000"
         }
       ]
     },
@@ -161,17 +139,6 @@
       ]
     },
     {
-      "name": "Instant Cooldown Elec-Shock-Missl. Drone",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "010C3F58",
-          "on": "C5FA11530C",
-          "off": "C5FA11430C"
-        }
-      ]
-    },
-    {
       "name": "Keeping Players Health",
       "type": "checkbox",
       "memory": [
@@ -179,17 +146,6 @@
           "offset": "085E3D58",
           "on": "C6437001",
           "off": "C6437000"
-        }
-      ]
-    },
-    {
-      "name": "Long Camouflage Duration",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "017C5E5E",
-          "on": "EB1B",
-          "off": "771B"
         }
       ]
     },
@@ -226,6 +182,38 @@
       ]
     },
     {
+      "name": "No Wanted Level [ Dont Lock ]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "085E3E50",
+          "on": "C74020000000004489F0E9C85107F9",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "01659020",
+          "on": "E92BAEF8069090",
+          "off": "448B70204489F0"
+        }
+      ]
+    },
+    {
+      "name": "A lot of Etto",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "085E3D8A",
+          "on": "0F849AE38DFBC74024FFE0F505448B702444897020E9AAE28DFB",
+          "off": "0000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "03EC2044",
+          "on": "E9411D72049090909090",
+          "off": "0F84E6000000448B7020"
+        }
+      ]
+    },
+    {
       "name": "Lots of Tech Points",
       "type": "checkbox",
       "memory": [
@@ -242,18 +230,13 @@
       ]
     },
     {
-      "name": "Master Code Player Health",
+      "name": "Hacking Without Cooldown",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "085E3D58",
-          "on": "C64370008BB3AC050000E9EC4F66F9",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "01C48D4D",
-          "on": "E906B0990690",
-          "off": "8BB3AC050000"
+          "offset": "0163B87F",
+          "on": "B800000000",
+          "off": "B801000000"
         }
       ]
     },
@@ -269,18 +252,46 @@
       ]
     },
     {
-      "name": "No Wanted Level [ Dont Lock ]",
+      "name": "Long Camouflage Duration",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "085E3E50",
-          "on": "C74020000000004489F0E9C85107F9",
-          "off": "000000000000000000000000000000"
-        },
+          "offset": "017C5E5E",
+          "on": "EB1B",
+          "off": "771B"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Camouflage",
+      "type": "checkbox",
+      "memory": [
         {
-          "offset": "01659020",
-          "on": "E92BAEF8069090",
-          "off": "448B70204489F0"
+          "offset": "017C6E70",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "Undetected By Enemy",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B99DF0",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "Instant Cooldown Elec-Shock-Missl. Drone",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "010C3F58",
+          "on": "C5FA11530C",
+          "off": "C5FA11430C"
         }
       ]
     },
@@ -361,17 +372,6 @@
           "offset": "04B4EF28",
           "on": "E9C54EA903",
           "off": "C5FB104078"
-        }
-      ]
-    },
-    {
-      "name": "Undetected By Enemy",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "B99DF0",
-          "on": "C3",
-          "off": "55"
         }
       ]
     }

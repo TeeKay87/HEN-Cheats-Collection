@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max F\u0026E Skills Points",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2207DDB",
-          "on": "C78028B100009F860100448BB028B10000E9FC5F380A",
-          "off": "00000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "58DDE6",
-          "on": "E9F09FC7019090",
-          "off": "448BB028B10000"
-        }
-      ]
-    },
-    {
       "name": "Max Money",
       "type": "checkbox",
       "memory": [
@@ -37,18 +21,18 @@
       ]
     },
     {
-      "name": "Max Moral",
+      "name": "Max F\u0026E Skills Points",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "2207E02",
-          "on": "C7871CB100000000C842C5FA10871CB10000E9EF700FFE",
-          "off": "0000000000000000000000000000000000000000000000"
+          "offset": "2207DDB",
+          "on": "C78028B100009F860100448BB028B10000E9FC5F380A",
+          "off": "00000000000000000000000000000000000000000000"
         },
         {
-          "offset": "2FEF00",
-          "on": "E9FD8EF001909090",
-          "off": "C5FA10871CB10000"
+          "offset": "58DDE6",
+          "on": "E9F09FC7019090",
+          "off": "448BB028B10000"
         }
       ]
     },
@@ -65,6 +49,22 @@
           "offset": "301994",
           "on": "E95864F001",
           "off": "C5FA100498"
+        }
+      ]
+    },
+    {
+      "name": "Max Moral",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2207E02",
+          "on": "C7871CB100000000C842C5FA10871CB10000E9EF700FFE",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "2FEF00",
+          "on": "E9FD8EF001909090",
+          "off": "C5FA10871CB10000"
         }
       ]
     },

@@ -16,34 +16,6 @@
       <ValueOff>48-8D-B5-18-FF-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Card Draws">
-    <Cheatline>
-      <Offset>946BE39</Offset>
-      <Section>0</Section>
-      <ValueOn>4C-89-F7-E9-58-71-95-F9</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>2DC2F94</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-A0-8E-6A-06</ValueOn>
-      <ValueOff>4C-89-F7-FF-C8</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Copper ( on gain / use )">
-    <Cheatline>
-      <Offset>946BDEE</Offset>
-      <Section>0</Section>
-      <ValueOn>C7-87-9C-03-00-00-7F-96-98-00-8B-9F-9C-03-00-00-E9-6E-16-C8-F8</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>20ED46B</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-7E-E9-37-07-90</ValueOn>
-      <ValueOff>8B-9F-9C-03-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite Health ( Player / Team )">
     <Cheatline>
       <Offset>946BE41</Offset>
@@ -56,20 +28,6 @@
       <Section>0</Section>
       <ValueOn>E9-1A-76-4B-06-90-90-90</ValueOn>
       <ValueOff>C5-FA-10-89-E0-07-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Skull Totems ( on gain / use )">
-    <Cheatline>
-      <Offset>946BEA5</Offset>
-      <Section>0</Section>
-      <ValueOn>0F-84-2A-DB-94-F9-C7-40-10-00-00-00-00-C7-40-0C-7F-96-98-00-8B-48-0C-E9-FF-DA-94-F9</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>2DB99B8</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-E8-24-6B-06</ValueOn>
-      <ValueOff>74-21-8B-48-0C</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Stamina ( Battle Mode )">
@@ -100,20 +58,6 @@
       <ValueOff>C4-C1-7A-11-86-60-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Supply Lines ( on gain / use )">
-    <Cheatline>
-      <Offset>946BE58</Offset>
-      <Section>0</Section>
-      <ValueOn>0F-84-2E-E4-B9-F9-C7-40-04-7F-96-98-00-8B-48-04-E9-19-E4-B9-F9</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>300A27C</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-D7-1B-46-06</ValueOn>
-      <ValueOff>74-14-8B-48-04</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Max Ammo">
     <Cheatline>
       <Offset>946BDB0</Offset>
@@ -126,6 +70,20 @@
       <Section>0</Section>
       <ValueOn>E9-85-70-55-06-90-90</ValueOn>
       <ValueOff>8B-84-06-68-05-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="No Reload ( Ammo )">
+    <Cheatline>
+      <Offset>946BDDB</Offset>
+      <Section>0</Section>
+      <ValueOn>41-8B-86-C0-02-00-00-41-89-86-AC-02-00-00-E9-CC-2D-37-F9</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>27DEBB3</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-23-D2-C8-06-90-90</ValueOn>
+      <ValueOff>41-89-86-AC-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max Ammo Items">
@@ -142,18 +100,60 @@
       <ValueOff>8B-81-AC-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload ( Ammo )">
+  <Cheat Text="Infinite Copper ( on gain / use )">
     <Cheatline>
-      <Offset>946BDDB</Offset>
+      <Offset>946BDEE</Offset>
       <Section>0</Section>
-      <ValueOn>41-8B-86-C0-02-00-00-41-89-86-AC-02-00-00-E9-CC-2D-37-F9</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+      <ValueOn>C7-87-9C-03-00-00-7F-96-98-00-8B-9F-9C-03-00-00-E9-6E-16-C8-F8</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>27DEBB3</Offset>
+      <Offset>20ED46B</Offset>
       <Section>0</Section>
-      <ValueOn>E9-23-D2-C8-06-90-90</ValueOn>
-      <ValueOff>41-89-86-AC-02-00-00</ValueOff>
+      <ValueOn>E9-7E-E9-37-07-90</ValueOn>
+      <ValueOff>8B-9F-9C-03-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Card Draws">
+    <Cheatline>
+      <Offset>946BE39</Offset>
+      <Section>0</Section>
+      <ValueOn>4C-89-F7-E9-58-71-95-F9</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>2DC2F94</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-A0-8E-6A-06</ValueOn>
+      <ValueOff>4C-89-F7-FF-C8</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Supply Lines ( on gain / use )">
+    <Cheatline>
+      <Offset>946BE58</Offset>
+      <Section>0</Section>
+      <ValueOn>0F-84-2E-E4-B9-F9-C7-40-04-7F-96-98-00-8B-48-04-E9-19-E4-B9-F9</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>300A27C</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-D7-1B-46-06</ValueOn>
+      <ValueOff>74-14-8B-48-04</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Skull Totems ( on gain / use )">
+    <Cheatline>
+      <Offset>946BEA5</Offset>
+      <Section>0</Section>
+      <ValueOn>0F-84-2A-DB-94-F9-C7-40-10-00-00-00-00-C7-40-0C-7F-96-98-00-8B-48-0C-E9-FF-DA-94-F9</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>2DB99B8</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-E8-24-6B-06</ValueOn>
+      <ValueOff>74-21-8B-48-0C</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

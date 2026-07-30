@@ -2,6 +2,14 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Night Slashers: Remake" Moder="Ali-mk" Cusa="CUSA49320" Version="01.05" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
+  <Cheat Text="Invincible-1-DEAD-(MC)">
+    <Cheatline>
+      <Offset>808E5F2B</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90</ValueOn>
+      <ValueOff>E8-E0-F4-FF-FF</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Infinite-Health-(MC)">
     <Cheatline>
       <Offset>8471B817</Offset>
@@ -14,14 +22,6 @@
       <Section>0</Section>
       <ValueOn>E9-D3-2A-9B-03</ValueOn>
       <ValueOff>FF-90-C8-01-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Invincible-1-DEAD-(MC)">
-    <Cheatline>
-      <Offset>808E5F2B</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90</ValueOn>
-      <ValueOff>E8-E0-F4-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="MAX-lives-1-DEAD-99-(MC)">

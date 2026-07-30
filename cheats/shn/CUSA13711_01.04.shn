@@ -4,12 +4,12 @@
   <Genres Name="Adventure" />
   <Genres Name="Family" />
   <Items />
-  <Cheat Text="Frutas Infinitas">
+  <Cheat Text="Vigor Infinito">
     <Cheatline>
-      <Offset>5D4AE6</Offset>
+      <Offset>5E9FD8</Offset>
       <Section>0</Section>
       <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>41-89-94-24-F0-01-00-00</ValueOff>
+      <ValueOff>C5-FA-11-83-10-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Velocidade Infinita">
@@ -20,12 +20,12 @@
       <ValueOff>C4-C1-7A-11-46-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Vigor Infinito">
+  <Cheat Text="Frutas Infinitas">
     <Cheatline>
-      <Offset>5E9FD8</Offset>
+      <Offset>5D4AE6</Offset>
       <Section>0</Section>
       <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>C5-FA-11-83-10-02-00-00</ValueOff>
+      <ValueOff>41-89-94-24-F0-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

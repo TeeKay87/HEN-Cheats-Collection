@@ -16,6 +16,14 @@
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="Infinite Ammo">
+    <Cheatline>
+      <Offset>1E8B4</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>41-89-85-28-01-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Inf Item and scrap on get (make sure to Get at least 2)">
     <Cheatline>
       <Offset>1183800</Offset>
@@ -28,14 +36,6 @@
       <Section>0</Section>
       <ValueOn>E9-83-55-FD-00-90</ValueOn>
       <ValueOff>41-89-4F-10-EB-3E</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Ammo">
-    <Cheatline>
-      <Offset>1E8B4</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>41-89-85-28-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

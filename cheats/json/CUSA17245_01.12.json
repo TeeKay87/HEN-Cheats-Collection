@@ -5,6 +5,38 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Health (deactivate to destroy boxes)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5EE30",
+          "on": "80BB10010000007506C6435C34EB0589C089435CE9D1FCDA80",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "A0EB14",
+          "on": "E91703257F90",
+          "off": "0F47C289435C"
+        }
+      ]
+    },
+    {
+      "name": "Max coins(on gain deactivate health first)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5E830",
+          "on": "41C7869C0400007F969800E93CC8EE80",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "B4B075",
+          "on": "E9B637117F9090",
+          "off": "41899E9C040000"
+        }
+      ]
+    },
+    {
       "name": "10 items (on sell)",
       "type": "checkbox",
       "memory": [
@@ -37,38 +69,6 @@
       ]
     },
     {
-      "name": "Fate Instant Recharge (on killing enemies)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FEA4070",
-          "on": "66C7870C0300000901E97AA0A680",
-          "off": "0000000000000000000000000000"
-        },
-        {
-          "offset": "90E0F2",
-          "on": "E9795F597F90",
-          "off": "898F0C030000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health (deactivate to destroy boxes)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5EE30",
-          "on": "80BB10010000007506C6435C34EB0589C089435CE9D1FCDA80",
-          "off": "00000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "A0EB14",
-          "on": "E91703257F90",
-          "off": "0F47C289435C"
-        }
-      ]
-    },
-    {
       "name": "Infinite Mana",
       "type": "checkbox",
       "memory": [
@@ -76,6 +76,22 @@
           "offset": "A52E6C",
           "on": "9090909090909090",
           "off": "41898C24D0000000"
+        }
+      ]
+    },
+    {
+      "name": "max Items (on use)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5F9C0",
+          "on": "41C686B000000063E9B09DDF80",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "A59776",
+          "on": "E94562207F9090",
+          "off": "4189B6B0000000"
         }
       ]
     },
@@ -96,34 +112,18 @@
       ]
     },
     {
-      "name": "Max coins(on gain deactivate health first)",
+      "name": "Fate Instant Recharge (on killing enemies)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5E830",
-          "on": "41C7869C0400007F969800E93CC8EE80",
-          "off": "00000000000000000000000000000000"
+          "offset": "7FEA4070",
+          "on": "66C7870C0300000901E97AA0A680",
+          "off": "0000000000000000000000000000"
         },
         {
-          "offset": "B4B075",
-          "on": "E9B637117F9090",
-          "off": "41899E9C040000"
-        }
-      ]
-    },
-    {
-      "name": "max Items (on use)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5F9C0",
-          "on": "41C686B000000063E9B09DDF80",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "A59776",
-          "on": "E94562207F9090",
-          "off": "4189B6B0000000"
+          "offset": "90E0F2",
+          "on": "E9795F597F90",
+          "off": "898F0C030000"
         }
       ]
     }

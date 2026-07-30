@@ -5,13 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Electric Sword Gauge Never Decreases",
+      "name": "Infinite Souls on gain",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "26D537",
-          "on": "90909090909090",
-          "off": "6629883EAF0000"
+          "offset": "B510",
+          "on": "899088AD0000",
+          "off": "898888AD0000"
         }
       ]
     },
@@ -27,13 +27,13 @@
       ]
     },
     {
-      "name": "Infinite Souls on gain",
+      "name": "Electric Sword Gauge Never Decreases",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "B510",
-          "on": "899088AD0000",
-          "off": "898888AD0000"
+          "offset": "26D537",
+          "on": "90909090909090",
+          "off": "6629883EAF0000"
         }
       ]
     }

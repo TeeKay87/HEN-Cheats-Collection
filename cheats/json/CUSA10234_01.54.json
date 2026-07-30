@@ -5,316 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "--Hour:12",
+      "name": "TRAINER INFO (read only)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "54F7F28",
-          "on": "00004041",
-          "off": "00004041"
-        }
-      ]
-    },
-    {
-      "name": "--Infinite_Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "54F7F24",
-          "on": "01000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "--One_Hit_Kill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "54F7F20",
-          "on": "01000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "--Toggle_Stealth_Mode",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "54F7F08",
-          "on": "00000000",
-          "off": "01000000"
-        }
-      ]
-    },
-    {
-      "name": "--Walking Speed x1",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "54F7F30",
-          "on": "0000803F",
-          "off": "0000803F"
-        }
-      ]
-    },
-    {
-      "name": "--Walking Speed x2",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "54F7F30",
-          "on": "00000040",
-          "off": "0000803F"
-        }
-      ]
-    },
-    {
-      "name": "--Walking Speed x3",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "54F7F30",
-          "on": "00004040",
-          "off": "0000803F"
-        }
-      ]
-    },
-    {
-      "name": "--XP x10",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "54F7F2C",
-          "on": "0A000000",
-          "off": "01000000"
-        }
-      ]
-    },
-    {
-      "name": "--XP x100",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "54F7F2C",
-          "on": "64000000",
-          "off": "01000000"
-        }
-      ]
-    },
-    {
-      "name": "--XP x20",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "54F7F2C",
-          "on": "14000000",
-          "off": "01000000"
-        }
-      ]
-    },
-    {
-      "name": "--XP x5",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "54F7F2C",
-          "on": "05000000",
-          "off": "01000000"
-        }
-      ]
-    },
-    {
-      "name": "--XP x50",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "54F7F2C",
-          "on": "32000000",
-          "off": "01000000"
-        }
-      ]
-    },
-    {
-      "name": "God Mode",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1F27000",
-          "on": "C5FA104064488905F40E5D03E9242E2EFF",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "1F27031",
-          "on": "31C94C89EE50488B05C20E5D03483947F8580F849483A1FEE98A83A1FE",
-          "off": "0000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "1209E30",
-          "on": "E9CBD1D100",
-          "off": "C5FA104064"
-        },
-        {
-          "offset": "93F3D3",
-          "on": "E9597C5E01",
-          "off": "31C94C89EE"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "10DE939",
-          "on": "4531FF",
-          "off": "4585FF"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Concentration",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "16A1623",
-          "on": "C5FA104358",
-          "off": "C5FA584358"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Hunting Ground Trials Timer",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "11BD86B",
-          "on": "38D2",
-          "off": "84D2"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Inventory",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "E273A0",
-          "on": "C3",
-          "off": "55"
-        },
-        {
-          "offset": "146CEED",
-          "on": "909090",
-          "off": "FF5068"
-        },
-        {
-          "offset": "F36B35",
-          "on": "909090",
-          "off": "FF5068"
-        },
-        {
-          "offset": "14948FF",
-          "on": "909090",
-          "off": "FF5068"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Jump and Glide",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1F2715F",
-          "on": "6641C78600010000010166418B8E00010000E9052A27FF",
-          "off": "0000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "1199B73",
-          "on": "E9E7D5D800909090",
-          "off": "66418B8E00010000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Metal Shards (On Repair)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1478716",
-          "on": "909090",
-          "off": "FF5068"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Metal Shards and Bluegleams (On Buy)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1494CE5",
-          "on": "909090",
-          "off": "41FFD7"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Modifications (On Use)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "168B944",
-          "on": "4839C0",
-          "off": "4885C0"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Potions (On Use)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1F271FD",
-          "on": "480F44F131C9E9BC0304FF",
-          "off": "0000000000000000000000"
-        },
-        {
-          "offset": "F675B9",
-          "on": "E93FFCFB0090",
-          "off": "480F44F131C9"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Rope Durability",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "14A1C2C",
-          "on": "F30F10C0",
-          "off": "C5FA5CC1"
-        },
-        {
-          "offset": "149DB88",
-          "on": "F30F10C1",
-          "off": "C5F25CC0"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Weaver Armour",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1F27228",
-          "on": "41C747580000FA43C4C17A104758E9FE2B74FF",
-          "off": "00000000000000000000000000000000000000"
-        },
-        {
-          "offset": "1669E33",
-          "on": "E9F0D38B0090",
-          "off": "C4C17A114758"
+          "offset": "1F26FFF",
+          "on": "00",
+          "off": "00"
         }
       ]
     },
@@ -420,6 +117,76 @@
       ]
     },
     {
+      "name": "God Mode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F27000",
+          "on": "C5FA104064488905F40E5D03E9242E2EFF",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "1F27031",
+          "on": "31C94C89EE50488B05C20E5D03483947F8580F849483A1FEE98A83A1FE",
+          "off": "0000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1209E30",
+          "on": "E9CBD1D100",
+          "off": "C5FA104064"
+        },
+        {
+          "offset": "93F3D3",
+          "on": "E9597C5E01",
+          "off": "31C94C89EE"
+        }
+      ]
+    },
+    {
+      "name": "--Toggle_Stealth_Mode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "54F7F08",
+          "on": "00000000",
+          "off": "01000000"
+        }
+      ]
+    },
+    {
+      "name": "--Infinite_Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "54F7F24",
+          "on": "01000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "--One_Hit_Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "54F7F20",
+          "on": "01000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "10DE939",
+          "on": "4531FF",
+          "off": "4585FF"
+        }
+      ]
+    },
+    {
       "name": "Max Arrows Per Shot (5)",
       "type": "checkbox",
       "memory": [
@@ -431,40 +198,117 @@
       ]
     },
     {
-      "name": "Max Infinite Oxygen",
+      "name": "--Hour:12",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "14A7EB5",
-          "on": "F30F10C1",
-          "off": "C5FA5DC1"
+          "offset": "54F7F28",
+          "on": "00004041",
+          "off": "00004041"
         }
       ]
     },
     {
-      "name": "Max Infinite Skill Points (3)",
+      "name": "Infinite Jump and Glide",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "15D9379",
-          "on": "31D24C89E74889DE6641C74424640300",
-          "off": "8B433031D24C89E74889DE4129442464"
-        }
-      ]
-    },
-    {
-      "name": "Max Shards - On Buy",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1F2725B",
-          "on": "B87F96980041894554498B7548E93E9E00FF",
-          "off": "000000000000000000000000000000000000"
+          "offset": "1F2715F",
+          "on": "6641C78600010000010166418B8E00010000E9052A27FF",
+          "off": "0000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "F310A3",
-          "on": "E9B361FF00909090",
-          "off": "41894554498B7548"
+          "offset": "1199B73",
+          "on": "E9E7D5D800909090",
+          "off": "66418B8E00010000"
+        }
+      ]
+    },
+    {
+      "name": "--XP x5",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "54F7F2C",
+          "on": "05000000",
+          "off": "01000000"
+        }
+      ]
+    },
+    {
+      "name": "--XP x10",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "54F7F2C",
+          "on": "0A000000",
+          "off": "01000000"
+        }
+      ]
+    },
+    {
+      "name": "--XP x20",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "54F7F2C",
+          "on": "14000000",
+          "off": "01000000"
+        }
+      ]
+    },
+    {
+      "name": "--XP x50",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "54F7F2C",
+          "on": "32000000",
+          "off": "01000000"
+        }
+      ]
+    },
+    {
+      "name": "--XP x100",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "54F7F2C",
+          "on": "64000000",
+          "off": "01000000"
+        }
+      ]
+    },
+    {
+      "name": "--Walking Speed x1",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "54F7F30",
+          "on": "0000803F",
+          "off": "0000803F"
+        }
+      ]
+    },
+    {
+      "name": "--Walking Speed x2",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "54F7F30",
+          "on": "00000040",
+          "off": "0000803F"
+        }
+      ]
+    },
+    {
+      "name": "--Walking Speed x3",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "54F7F30",
+          "on": "00004040",
+          "off": "0000803F"
         }
       ]
     },
@@ -501,6 +345,173 @@
       ]
     },
     {
+      "name": "Infinite Concentration",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "16A1623",
+          "on": "C5FA104358",
+          "off": "C5FA584358"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Inventory",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "E273A0",
+          "on": "C3",
+          "off": "55"
+        },
+        {
+          "offset": "146CEED",
+          "on": "909090",
+          "off": "FF5068"
+        },
+        {
+          "offset": "F36B35",
+          "on": "909090",
+          "off": "FF5068"
+        },
+        {
+          "offset": "14948FF",
+          "on": "909090",
+          "off": "FF5068"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Potions (On Use)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F271FD",
+          "on": "480F44F131C9E9BC0304FF",
+          "off": "0000000000000000000000"
+        },
+        {
+          "offset": "F675B9",
+          "on": "E93FFCFB0090",
+          "off": "480F44F131C9"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Rope Durability",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "14A1C2C",
+          "on": "F30F10C0",
+          "off": "C5FA5CC1"
+        },
+        {
+          "offset": "149DB88",
+          "on": "F30F10C1",
+          "off": "C5F25CC0"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Weaver Armour",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F27228",
+          "on": "41C747580000FA43C4C17A104758E9FE2B74FF",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1669E33",
+          "on": "E9F0D38B0090",
+          "off": "C4C17A114758"
+        }
+      ]
+    },
+    {
+      "name": "Max Infinite Oxygen",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "14A7EB5",
+          "on": "F30F10C1",
+          "off": "C5FA5DC1"
+        }
+      ]
+    },
+    {
+      "name": "Max Infinite Skill Points (3)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "15D9379",
+          "on": "31D24C89E74889DE6641C74424640300",
+          "off": "8B433031D24C89E74889DE4129442464"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Metal Shards (On Repair)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1478716",
+          "on": "909090",
+          "off": "FF5068"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Metal Shards and Bluegleams (On Buy)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1494CE5",
+          "on": "909090",
+          "off": "41FFD7"
+        }
+      ]
+    },
+    {
+      "name": "Max Shards - On Buy",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F2725B",
+          "on": "B87F96980041894554498B7548E93E9E00FF",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "F310A3",
+          "on": "E9B361FF00909090",
+          "off": "41894554498B7548"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Modifications (On Use)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "168B944",
+          "on": "4839C0",
+          "off": "4885C0"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Hunting Ground Trials Timer",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "11BD86B",
+          "on": "38D2",
+          "off": "84D2"
+        }
+      ]
+    },
+    {
       "name": "Spear and Lance - No Cooldown",
       "type": "checkbox",
       "memory": [
@@ -508,17 +519,6 @@
           "offset": "A8763D",
           "on": "C5FA1108",
           "off": "C5FA1100"
-        }
-      ]
-    },
-    {
-      "name": "TRAINER INFO (read only)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1F26FFF",
-          "on": "00",
-          "off": "00"
         }
       ]
     }

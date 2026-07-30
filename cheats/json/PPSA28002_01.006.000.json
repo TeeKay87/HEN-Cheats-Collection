@@ -5,33 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Easy Max Combo And Kills",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FD17072",
-          "on": "66C783B4000000E70366C783B8000000E70366C783BC000000E703E9B0E5B002",
-          "off": "0000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "8282563A",
-          "on": "E9331A4FFD909090",
-          "off": "C5F9D68BB4000000"
-        }
-      ]
-    },
-    {
-      "name": "God Mode",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "82DAFC69",
-          "on": "9090909090",
-          "off": "C5F82E4068"
-        }
-      ]
-    },
-    {
       "name": "Inf Hp",
       "type": "checkbox",
       "memory": [
@@ -64,6 +37,22 @@
       ]
     },
     {
+      "name": "Easy Max Combo And Kills",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD17072",
+          "on": "66C783B4000000E70366C783B8000000E70366C783BC000000E703E9B0E5B002",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "8282563A",
+          "on": "E9331A4FFD909090",
+          "off": "C5F9D68BB4000000"
+        }
+      ]
+    },
+    {
       "name": "Stop Timer",
       "type": "checkbox",
       "memory": [
@@ -71,6 +60,17 @@
           "offset": "82827FE1",
           "on": "9090909090909090",
           "off": "C5FA118BB0000000"
+        }
+      ]
+    },
+    {
+      "name": "God Mode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "82DAFC69",
+          "on": "9090909090",
+          "off": "C5F82E4068"
         }
       ]
     }

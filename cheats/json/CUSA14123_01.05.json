@@ -478,17 +478,6 @@
       ]
     },
     {
-      "name": "Easy Kill (MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "713B80A",
-          "on": "7508",
-          "off": "7503"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health / Easy Kill (Master Code)",
       "type": "checkbox",
       "memory": [
@@ -501,6 +490,17 @@
           "offset": "91F464",
           "on": "E997C38106",
           "off": "C4E270F2C0"
+        }
+      ]
+    },
+    {
+      "name": "Easy Kill (MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "713B80A",
+          "on": "7508",
+          "off": "7503"
         }
       ]
     },

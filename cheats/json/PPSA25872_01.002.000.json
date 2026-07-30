@@ -5,18 +5,35 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "10x Score",
+      "name": "Inf Hp",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FD17032",
-          "on": "C7803801000064000000E945C24200",
-          "off": "000000000000000000000000000000"
-        },
+          "offset": "7FFEA13E",
+          "on": "909090909090",
+          "off": "FF8B94000000"
+        }
+      ]
+    },
+    {
+      "name": "Stop Timer",
+      "type": "checkbox",
+      "memory": [
         {
-          "offset": "80143280",
-          "on": "E9AD3DBDFF90",
-          "off": "FF8038010000"
+          "offset": "800E9D26",
+          "on": "9090909090",
+          "off": "C5FB114120"
+        }
+      ]
+    },
+    {
+      "name": "Inf Grenades",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FFEB0B0",
+          "on": "9090",
+          "off": "FFC8"
         }
       ]
     },
@@ -37,35 +54,18 @@
       ]
     },
     {
-      "name": "Inf Grenades",
+      "name": "10x Score",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FFEB0B0",
-          "on": "9090",
-          "off": "FFC8"
-        }
-      ]
-    },
-    {
-      "name": "Inf Hp",
-      "type": "checkbox",
-      "memory": [
+          "offset": "7FD17032",
+          "on": "C7803801000064000000E945C24200",
+          "off": "000000000000000000000000000000"
+        },
         {
-          "offset": "7FFEA13E",
-          "on": "909090909090",
-          "off": "FF8B94000000"
-        }
-      ]
-    },
-    {
-      "name": "Stop Timer",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "800E9D26",
-          "on": "9090909090",
-          "off": "C5FB114120"
+          "offset": "80143280",
+          "on": "E9AD3DBDFF90",
+          "off": "FF8038010000"
         }
       ]
     }

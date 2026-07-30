@@ -16,17 +16,6 @@
       ]
     },
     {
-      "name": "Infinite Bombs / Rockets",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "598F18",
-          "on": "BE0500000089B7DC0000009090",
-          "off": "89B7DC00000080BFC90A020000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Energy",
       "type": "checkbox",
       "memory": [
@@ -49,13 +38,13 @@
       ]
     },
     {
-      "name": "Max Level Infamous",
-      "type": "button",
+      "name": "Infinite Bombs / Rockets",
+      "type": "checkbox",
       "memory": [
         {
-          "offset": "129BD08",
-          "on": "00CAE6FD",
-          "off": "00CAE6FD"
+          "offset": "598F18",
+          "on": "BE0500000089B7DC0000009090",
+          "off": "89B7DC00000080BFC90A020000"
         }
       ]
     },
@@ -71,6 +60,17 @@
       ]
     },
     {
+      "name": "Max Level Infamous",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "129BD08",
+          "on": "00CAE6FD",
+          "off": "00CAE6FD"
+        }
+      ]
+    },
+    {
       "name": "Godmode",
       "type": "checkbox",
       "memory": [
@@ -78,17 +78,6 @@
           "offset": "1C5732",
           "on": "90909090",
           "off": "C5EA5CD1"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Bombs / Rockets",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "198F18",
-          "on": "BE0500000089B7DC0000009090",
-          "off": "89B7DC00000080BFC90A020000"
         }
       ]
     },
@@ -115,13 +104,13 @@
       ]
     },
     {
-      "name": "Max Level Infamous",
-      "type": "button",
+      "name": "Infinite Bombs / Rockets",
+      "type": "checkbox",
       "memory": [
         {
-          "offset": "E9BD08",
-          "on": "00CAE6FD",
-          "off": "00CAE6FD"
+          "offset": "198F18",
+          "on": "BE0500000089B7DC0000009090",
+          "off": "89B7DC00000080BFC90A020000"
         }
       ]
     },
@@ -133,6 +122,17 @@
           "offset": "E9BD08",
           "on": "A0E68745",
           "off": "A0E68745"
+        }
+      ]
+    },
+    {
+      "name": "Max Level Infamous",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "E9BD08",
+          "on": "00CAE6FD",
+          "off": "00CAE6FD"
         }
       ]
     }

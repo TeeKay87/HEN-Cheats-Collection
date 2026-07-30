@@ -5,6 +5,17 @@
   "process": "default.elf",
   "mods": [
     {
+      "name": "Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "ACDDE0",
+          "on": "90909090",
+          "off": "29548808"
+        }
+      ]
+    },
+    {
       "name": "Godmode",
       "type": "checkbox",
       "memory": [
@@ -17,17 +28,6 @@
           "offset": "83A500",
           "on": "E95C8B5F0090",
           "off": "554889E54157"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "ACDDE0",
-          "on": "90909090",
-          "off": "29548808"
         }
       ]
     },
@@ -48,6 +48,17 @@
       ]
     },
     {
+      "name": "Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6cdde0",
+          "on": "90909090",
+          "off": "29548808"
+        }
+      ]
+    },
+    {
       "name": "Godmode",
       "type": "checkbox",
       "memory": [
@@ -60,17 +71,6 @@
           "offset": "43a500",
           "on": "E95C8B5F0090",
           "off": "554889E54157"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "6cdde0",
-          "on": "90909090",
-          "off": "29548808"
         }
       ]
     },

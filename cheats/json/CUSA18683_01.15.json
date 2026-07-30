@@ -5,6 +5,22 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "111FC90",
+          "on": "4180BEB806000000750C6641C78614010000E703EB0741898614010000E9DA776CFF",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "7E7485",
+          "on": "E9068893009090",
+          "off": "41898614010000"
+        }
+      ]
+    },
+    {
       "name": "Infinite Boost",
       "type": "checkbox",
       "memory": [
@@ -21,18 +37,34 @@
       ]
     },
     {
-      "name": "Infinite Health",
+      "name": "Max EX Filll (on hit)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "111FC90",
-          "on": "4180BEB806000000750C6641C78614010000E703EB0741898614010000E9DA776CFF",
-          "off": "00000000000000000000000000000000000000000000000000000000000000000000"
+          "offset": "111F360",
+          "on": "41C785E80900000000C842E9B87163FF",
+          "off": "00000000000000000000000000000000"
         },
         {
-          "offset": "7E7485",
-          "on": "E9068893009090",
-          "off": "41898614010000"
+          "offset": "75651F",
+          "on": "E93C8E9C0090909090",
+          "off": "C4C17A1185E8090000"
+        }
+      ]
+    },
+    {
+      "name": "Max GP (on spend)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "111FAE0",
+          "on": "42C7442004FFC99A3BE925DCFFFE",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "11D70E",
+          "on": "E9CD230001",
+          "off": "46896C2004"
         }
       ]
     },
@@ -81,38 +113,6 @@
           "offset": "7A84D2",
           "on": "E929749700",
           "off": "C5FA114720"
-        }
-      ]
-    },
-    {
-      "name": "Max EX Filll (on hit)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "111F360",
-          "on": "41C785E80900000000C842E9B87163FF",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "75651F",
-          "on": "E93C8E9C0090909090",
-          "off": "C4C17A1185E8090000"
-        }
-      ]
-    },
-    {
-      "name": "Max GP (on spend)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "111FAE0",
-          "on": "42C7442004FFC99A3BE925DCFFFE",
-          "off": "0000000000000000000000000000"
-        },
-        {
-          "offset": "11D70E",
-          "on": "E9CD230001",
-          "off": "46896C2004"
         }
       ]
     }

@@ -2,28 +2,6 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Batman: Return to Arkham" Moder="Saso_9.00" Cusa="CUSA04607" Version="01.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="1 Hit Kill (MC)">
-    <Cheatline>
-      <Offset>44C381B</Offset>
-      <Section>0</Section>
-      <ValueOn>74-18</ValueOn>
-      <ValueOff>74-13</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Freez (Bomb Timer)">
-    <Cheatline>
-      <Offset>44C387F</Offset>
-      <Section>0</Section>
-      <ValueOn>48-83-F9-06-75-14-49-83-FA-00-75-0E-81-7F-08-F0-24-01-00-75-05-E9-71-22-12-FE-C5-FA-5C-45-C8-E9-67-22-12-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>25E5B05</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-75-DD-ED-01</ValueOn>
-      <ValueOff>C5-FA-5C-45-C8</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Inf Health / Armor / 1 Hit Kill (Master Code)">
     <Cheatline>
       <Offset>44C3800</Offset>
@@ -38,6 +16,14 @@
       <ValueOff>2B-45-C8-41-89-07</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="1 Hit Kill (MC)">
+    <Cheatline>
+      <Offset>44C381B</Offset>
+      <Section>0</Section>
+      <ValueOn>74-18</ValueOn>
+      <ValueOff>74-13</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Upgrade Points (On Use)">
     <Cheatline>
       <Offset>44C3844</Offset>
@@ -50,6 +36,20 @@
       <Section>0</Section>
       <ValueOn>E9-60-C2-ED-01-90</ValueOn>
       <ValueOff>8D-48-FF-41-89-0F</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Freez (Bomb Timer)">
+    <Cheatline>
+      <Offset>44C387F</Offset>
+      <Section>0</Section>
+      <ValueOn>48-83-F9-06-75-14-49-83-FA-00-75-0E-81-7F-08-F0-24-01-00-75-05-E9-71-22-12-FE-C5-FA-5C-45-C8-E9-67-22-12-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>25E5B05</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-75-DD-ED-01</ValueOn>
+      <ValueOff>C5-FA-5C-45-C8</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

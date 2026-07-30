@@ -5,33 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-AMMO",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "12D938",
-          "on": "00",
-          "off": "FF"
-        },
-        {
-          "offset": "12D939",
-          "on": "00",
-          "off": "FF"
-        }
-      ]
-    },
-    {
-      "name": "Infinite-Grenades",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "12FC6A",
-          "on": "00",
-          "off": "42"
-        }
-      ]
-    },
-    {
       "name": "Infinite-Health",
       "type": "checkbox",
       "memory": [
@@ -50,6 +23,33 @@
           "offset": "1208DE",
           "on": "00",
           "off": "82"
+        }
+      ]
+    },
+    {
+      "name": "Infinite-Grenades",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "12FC6A",
+          "on": "00",
+          "off": "42"
+        }
+      ]
+    },
+    {
+      "name": "Infinite-AMMO",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "12D938",
+          "on": "00",
+          "off": "FF"
+        },
+        {
+          "offset": "12D939",
+          "on": "00",
+          "off": "FF"
         }
       ]
     }

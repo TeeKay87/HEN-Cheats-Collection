@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health (battle network 4 Blue moon)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "6E97920",
-          "on": "83C024668B0C02E90AABF2F9",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "DC242F",
-          "on": "E9EC540D069090",
-          "off": "83C02466890C02"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health (battle network 4 Red Sun)",
       "type": "checkbox",
       "memory": [
@@ -37,18 +21,18 @@
       ]
     },
     {
-      "name": "Infinite Health (battle network 5 Team Colonel)",
+      "name": "Infinite Health (battle network 4 Blue moon)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "6E978D0",
-          "on": "83C124807C0A40007506668B040AEB046689040AE9E9285BFB",
-          "off": "00000000000000000000000000000000000000000000000000"
+          "offset": "6E97920",
+          "on": "83C024668B0C02E90AABF2F9",
+          "off": "000000000000000000000000"
         },
         {
-          "offset": "244A1CB",
-          "on": "E900D7A4049090",
-          "off": "83C1246689040A"
+          "offset": "DC242F",
+          "on": "E9EC540D069090",
+          "off": "83C02466890C02"
         }
       ]
     },
@@ -64,6 +48,22 @@
         {
           "offset": "1810A6B",
           "on": "E9B06D68059090",
+          "off": "83C1246689040A"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health (battle network 5 Team Colonel)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6E978D0",
+          "on": "83C124807C0A40007506668B040AEB046689040AE9E9285BFB",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "244A1CB",
+          "on": "E900D7A4049090",
           "off": "83C1246689040A"
         }
       ]

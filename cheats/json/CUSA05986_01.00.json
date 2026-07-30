@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Nitro",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "35AA940",
-          "on": "41C78514020000675DBA40E91E0FE7FE",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "241B865",
-          "on": "E9D6F0180190909090",
-          "off": "C4C17A118514020000"
-        }
-      ]
-    },
-    {
       "name": "Max Money",
       "type": "checkbox",
       "memory": [
@@ -37,17 +21,6 @@
       ]
     },
     {
-      "name": "Max Rep Points",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "0295ED5A",
-          "on": "C743087F96980090",
-          "off": "448973084489430C"
-        }
-      ]
-    },
-    {
       "name": "Max Tokens",
       "type": "checkbox",
       "memory": [
@@ -60,6 +33,33 @@
           "offset": "0291288B",
           "on": "E9C0565001",
           "off": "41894C2418"
+        }
+      ]
+    },
+    {
+      "name": "Max Rep Points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0295ED5A",
+          "on": "C743087F96980090",
+          "off": "448973084489430C"
+        }
+      ]
+    },
+    {
+      "name": "Inf Nitro",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "35AA940",
+          "on": "41C78514020000675DBA40E91E0FE7FE",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "241B865",
+          "on": "E9D6F0180190909090",
+          "off": "C4C17A118514020000"
         }
       ]
     }

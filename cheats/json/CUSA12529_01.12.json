@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Force",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5FDB0",
-          "on": "C783740100000000C842E98BA44682",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "20CA242",
-          "on": "E9695BB97D909090",
-          "off": "C5FA119374010000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -41,8 +25,13 @@
       "type": "checkbox",
       "memory": [
         {
+          "offset": "7FC5FDB0",
+          "on": "C783740100000000C842E98BA44682",
+          "off": "000000000000000000000000000000"
+        },
+        {
           "offset": "20CA242",
-          "on": "C5FA118374010000",
+          "on": "E9695BB97D909090",
           "off": "C5FA119374010000"
         }
       ]
@@ -60,6 +49,17 @@
           "offset": "15A452C",
           "on": "E97F78BC04909090",
           "off": "C5FA1183B4010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Force",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "20CA242",
+          "on": "C5FA118374010000",
+          "off": "C5FA119374010000"
         }
       ]
     },

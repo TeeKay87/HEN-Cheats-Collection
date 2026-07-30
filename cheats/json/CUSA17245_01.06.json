@@ -5,49 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Arrows",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "A47A04",
-          "on": "9090",
-          "off": "FFCE"
-        }
-      ]
-    },
-    {
-      "name": "Inf Fate",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "13ED670",
-          "on": "B80901000089870C030000E9DB9E51FF",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "907555",
-          "on": "E91661AE0090",
-          "off": "89870C030000"
-        }
-      ]
-    },
-    {
-      "name": "Inf Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "13ED640",
-          "on": "BBFFFF000041899E94040000E9BB6D74FF",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "B34405",
-          "on": "E936928B009090",
-          "off": "41899E94040000"
-        }
-      ]
-    },
-    {
       "name": "Inf Health (Dont Use With 1 Hit)",
       "type": "checkbox",
       "memory": [
@@ -80,6 +37,22 @@
       ]
     },
     {
+      "name": "Inf Fate",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "13ED670",
+          "on": "B80901000089870C030000E9DB9E51FF",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "907555",
+          "on": "E91661AE0090",
+          "off": "89870C030000"
+        }
+      ]
+    },
+    {
       "name": "Inf Mana",
       "type": "checkbox",
       "memory": [
@@ -92,6 +65,33 @@
           "offset": "A414E1",
           "on": "E91AC19A00909090",
           "off": "41898424D0000000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "13ED640",
+          "on": "BBFFFF000041899E94040000E9BB6D74FF",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "B34405",
+          "on": "E936928B009090",
+          "off": "41899E94040000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Arrows",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "A47A04",
+          "on": "9090",
+          "off": "FFCE"
         }
       ]
     }

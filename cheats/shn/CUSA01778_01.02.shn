@@ -16,25 +16,25 @@
       <ValueOff>66-41-89-46-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Score">
+  <Cheat Text="Player 1: Infinite Health">
     <Cheatline>
-      <Offset>363484</Offset>
-      <Section>0</Section>
-      <ValueOn>89-C1-90</ValueOn>
-      <ValueOff>0F-42-C8</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Player 1: 1-Hit K.O.">
-    <Cheatline>
-      <Offset>144B801</Offset>
+      <Offset>144B800</Offset>
       <Section>0</Section>
       <ValueOn>01</ValueOn>
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Player 1: Infinite Health">
+  <Cheat Text="Player 2: Infinite Health">
     <Cheatline>
       <Offset>144B800</Offset>
+      <Section>0</Section>
+      <ValueOn>02</ValueOn>
+      <ValueOff>00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Player 1: 1-Hit K.O.">
+    <Cheatline>
+      <Offset>144B801</Offset>
       <Section>0</Section>
       <ValueOn>01</ValueOn>
       <ValueOff>00</ValueOff>
@@ -48,12 +48,12 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Player 2: Infinite Health">
+  <Cheat Text="Max Score">
     <Cheatline>
-      <Offset>144B800</Offset>
+      <Offset>363484</Offset>
       <Section>0</Section>
-      <ValueOn>02</ValueOn>
-      <ValueOff>00</ValueOff>
+      <ValueOn>89-C1-90</ValueOn>
+      <ValueOff>0F-42-C8</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

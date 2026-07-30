@@ -32,22 +32,6 @@
       ]
     },
     {
-      "name": "Infinite Ammo/No Reload (Use Infinite Items)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5FDE0",
-          "on": "41038E80070000E90EB9B180",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "77B6F3",
-          "on": "E9E8464E7F9090",
-          "off": "41FF8E80070000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -80,18 +64,18 @@
       ]
     },
     {
-      "name": "Infinite Skill Points",
+      "name": "Infinite Ammo/No Reload (Use Infinite Items)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5F040",
-          "on": "038F74060000E97B9AAC80",
-          "off": "0000000000000000000000"
+          "offset": "7FC5FDE0",
+          "on": "41038E80070000E90EB9B180",
+          "off": "000000000000000000000000"
         },
         {
-          "offset": "728AC0",
-          "on": "E97B65537F90",
-          "off": "898774060000"
+          "offset": "77B6F3",
+          "on": "E9E8464E7F9090",
+          "off": "41FF8E80070000"
         }
       ]
     },
@@ -108,6 +92,22 @@
           "offset": "727253",
           "on": "E9A878537F9090",
           "off": "418B8E6C060000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Skill Points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5F040",
+          "on": "038F74060000E97B9AAC80",
+          "off": "0000000000000000000000"
+        },
+        {
+          "offset": "728AC0",
+          "on": "E97B65537F90",
+          "off": "898774060000"
         }
       ]
     }

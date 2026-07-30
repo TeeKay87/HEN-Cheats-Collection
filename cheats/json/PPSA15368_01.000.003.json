@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Hover",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "823546A6",
-          "on": "C5FA11B36C060000",
-          "off": "C5FA11836C060000"
-        }
-      ]
-    },
-    {
       "name": "Inf Hp",
       "type": "checkbox",
       "memory": [
@@ -28,6 +17,22 @@
           "offset": "805253CB",
           "on": "E9301C7AFF90",
           "off": "89084883C418"
+        }
+      ]
+    },
+    {
+      "name": "Inf Lives",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCC7042",
+          "on": "41BF6300000045897D104C89EFE91DD05A00",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "8027406A",
+          "on": "E9D32FA5FF9090",
+          "off": "45897D104C89EF"
         }
       ]
     },
@@ -48,18 +53,13 @@
       ]
     },
     {
-      "name": "Inf Lives",
+      "name": "Inf Hover",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FCC7042",
-          "on": "41BF6300000045897D104C89EFE91DD05A00",
-          "off": "000000000000000000000000000000000000"
-        },
-        {
-          "offset": "8027406A",
-          "on": "E9D32FA5FF9090",
-          "off": "45897D104C89EF"
+          "offset": "823546A6",
+          "on": "C5FA11B36C060000",
+          "off": "C5FA11836C060000"
         }
       ]
     }

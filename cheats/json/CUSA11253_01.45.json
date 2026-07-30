@@ -5,66 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "1 Hit Kill (Need MC)",
+      "name": "Max/Infinite Health/1 Hit Kill (Master Code)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1A9B746",
-          "on": "7515",
-          "off": "7517"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Jumps",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1A9AC30",
-          "on": "E885D394FE90E9BCC2D8FE",
-          "off": "0000000000000000000000"
+          "offset": "1A9B740",
+          "on": "41837C245809751741898424840100004189842484010000E924D660FE31C04189842484010000E915D660FE",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "826EEE",
-          "on": "E93D3D270190909090",
-          "off": "E8CD10BCFF41FF4648"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Throwables",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "41292C",
-          "on": "448B7B30",
-          "off": "44897B30"
-        }
-      ]
-    },
-    {
-      "name": "Max/Infinite Cells",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1A9BB20",
-          "on": "41C784247404000040420F00E96AF28DFE",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "37AD93",
-          "on": "E9880D7201909090",
-          "off": "4189B42474040000"
-        },
-        {
-          "offset": "1A9B530",
-          "on": "41C7867404000040420F00E9C5F98DFE",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "37AEFE",
-          "on": "E92D0672019090",
-          "off": "4189B674040000"
+          "offset": "A8D79",
+          "on": "E9C2299F01909090",
+          "off": "4189842484010000"
         }
       ]
     },
@@ -80,18 +32,24 @@
       ]
     },
     {
-      "name": "Max/Infinite Health/1 Hit Kill (Master Code)",
+      "name": "1 Hit Kill (Need MC)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1A9B740",
-          "on": "41837C245809751741898424840100004189842484010000E924D660FE31C04189842484010000E915D660FE",
-          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
+          "offset": "1A9B746",
+          "on": "7515",
+          "off": "7517"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Throwables",
+      "type": "checkbox",
+      "memory": [
         {
-          "offset": "A8D79",
-          "on": "E9C2299F01909090",
-          "off": "4189842484010000"
+          "offset": "41292C",
+          "on": "448B7B30",
+          "off": "44897B30"
         }
       ]
     },
@@ -122,6 +80,32 @@
       ]
     },
     {
+      "name": "Max/Infinite Cells",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1A9BB20",
+          "on": "41C784247404000040420F00E96AF28DFE",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "37AD93",
+          "on": "E9880D7201909090",
+          "off": "4189B42474040000"
+        },
+        {
+          "offset": "1A9B530",
+          "on": "41C7867404000040420F00E9C5F98DFE",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "37AEFE",
+          "on": "E92D0672019090",
+          "off": "4189B674040000"
+        }
+      ]
+    },
+    {
       "name": "No Cooldown Ability",
       "type": "checkbox",
       "memory": [
@@ -134,6 +118,22 @@
           "offset": "119912",
           "on": "E9991E98019090",
           "off": "488983A0000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Jumps",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1A9AC30",
+          "on": "E885D394FE90E9BCC2D8FE",
+          "off": "0000000000000000000000"
+        },
+        {
+          "offset": "826EEE",
+          "on": "E93D3D270190909090",
+          "off": "E8CD10BCFF41FF4648"
         }
       ]
     }

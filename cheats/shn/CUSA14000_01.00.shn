@@ -16,20 +16,6 @@
       <ValueOff>49-63-87-A8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items">
-    <Cheatline>
-      <Offset>153FDB0</Offset>
-      <Section>0</Section>
-      <ValueOn>48-63-4C-24-10-C6-00-63-E9-75-FD-4A-7F</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>809EFB2D</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-7E-02-B5-80-90-90</ValueOn>
-      <ValueOff>48-63-4C-24-10-89-08</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Max Lives">
     <Cheatline>
       <Offset>153FE00</Offset>
@@ -42,6 +28,20 @@
       <Section>0</Section>
       <ValueOn>E9-F8-9D-FC-80-90-90</ValueOn>
       <ValueOff>41-89-86-AC-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max Items">
+    <Cheatline>
+      <Offset>153FDB0</Offset>
+      <Section>0</Section>
+      <ValueOn>48-63-4C-24-10-C6-00-63-E9-75-FD-4A-7F</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>809EFB2D</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-7E-02-B5-80-90-90</ValueOn>
+      <ValueOff>48-63-4C-24-10-89-08</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max Money">

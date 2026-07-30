@@ -3,22 +3,6 @@
   <Genres Name="Action" />
   <Genres Name="Fighting" />
   <Items />
-  <Cheat Text="1 Hit Kill (Need MC)">
-    <Cheatline>
-      <Offset>34C7E06</Offset>
-      <Section>0</Section>
-      <ValueOn>75-0A</ValueOn>
-      <ValueOff>75-0C</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Health/Special Attack (Need MC)">
-    <Cheatline>
-      <Offset>34C7E08</Offset>
-      <Section>0</Section>
-      <ValueOn>41-8B-6C-24-2C</ValueOn>
-      <ValueOff>41-89-6C-24-2C</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite Health/Special Attack/1 Hit Kill (Master Code)">
     <Cheatline>
       <Offset>34C7E00</Offset>
@@ -33,18 +17,20 @@
       <ValueOff>41-89-6C-24-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Score On 1 Hit">
+  <Cheat Text="Infinite Health/Special Attack (Need MC)">
     <Cheatline>
-      <Offset>34C7990</Offset>
+      <Offset>34C7E08</Offset>
       <Section>0</Section>
-      <ValueOn>C7-44-01-44-3F-42-0F-00-E9-BE-40-E5-FC</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+      <ValueOn>41-8B-6C-24-2C</ValueOn>
+      <ValueOff>41-89-6C-24-2C</ValueOff>
     </Cheatline>
+  </Cheat>
+  <Cheat Text="1 Hit Kill (Need MC)">
     <Cheatline>
-      <Offset>31BA56</Offset>
+      <Offset>34C7E06</Offset>
       <Section>0</Section>
-      <ValueOn>E9-35-BF-1A-03</ValueOn>
-      <ValueOff>44-01-6C-01-44</ValueOff>
+      <ValueOn>75-0A</ValueOn>
+      <ValueOff>75-0C</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max/Infinite Lives">
@@ -73,6 +59,20 @@
       <Section>0</Section>
       <ValueOn>E9-A3-CA-1D-03</ValueOn>
       <ValueOff>74-7C-89-69-20</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max Score On 1 Hit">
+    <Cheatline>
+      <Offset>34C7990</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-44-01-44-3F-42-0F-00-E9-BE-40-E5-FC</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>31BA56</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-35-BF-1A-03</ValueOn>
+      <ValueOff>44-01-6C-01-44</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

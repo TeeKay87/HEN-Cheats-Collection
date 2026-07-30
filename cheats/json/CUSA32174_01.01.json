@@ -5,54 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "2 Hit Kill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "6E1BBD8",
-          "on": "664183BEC40500000074076641C746160000410FB75E16E932E772FD",
-          "off": "00000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "454A321",
-          "on": "E9B2188D02",
-          "off": "410FB75E16"
-        }
-      ]
-    },
-    {
-      "name": "Cannon Coaching Max Score ( on gain )",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "6E1B8DB",
-          "on": "035758C747580F270000E9140CBBFD",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "49CC4F8",
-          "on": "E9DEF3440290",
-          "off": "035758895758"
-        }
-      ]
-    },
-    {
-      "name": "Dancing Max Score ( on gain )",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "6E1B8CA",
-          "on": "C780E80000009F860100E94BBCB1FD",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "493751E",
-          "on": "E9A7434E0290",
-          "off": "89B0E8000000"
-        }
-      ]
-    },
-    {
       "name": "Godmode",
       "type": "checkbox",
       "memory": [
@@ -60,22 +12,6 @@
           "offset": "4725B96",
           "on": "9090909090",
           "off": "E8A5D8FDFF"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Gauge ( Soldier Squad )",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "6E1BC19",
-          "on": "C5FA104714C5FA114710C5FA104710E92719E4FD",
-          "off": "0000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "4C5D54F",
-          "on": "E9C5E61B02",
-          "off": "C5FA104710"
         }
       ]
     },
@@ -96,6 +32,38 @@
       ]
     },
     {
+      "name": "2 Hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6E1BBD8",
+          "on": "664183BEC40500000074076641C746160000410FB75E16E932E772FD",
+          "off": "00000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "454A321",
+          "on": "E9B2188D02",
+          "off": "410FB75E16"
+        }
+      ]
+    },
+    {
+      "name": "Max Heat",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6E1B800",
+          "on": "F30F1105D46F3901C5F8100DCC6F3901E9348F56FD",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4384741",
+          "on": "E9BA70A902909090",
+          "off": "C5F8100D93E0E203"
+        }
+      ]
+    },
+    {
       "name": "Infinite Stamina",
       "type": "checkbox",
       "memory": [
@@ -112,18 +80,50 @@
       ]
     },
     {
-      "name": "Infinite Third Eyes ( Rock - Paper - Scissors )",
+      "name": "Infinite Gauge ( Soldier Squad )",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "6E1B87C",
-          "on": "41C7471003000000418B5F10E833005BFDE9815CA8FD",
-          "off": "00000000000000000000000000000000000000000000"
+          "offset": "6E1BC19",
+          "on": "C5FA104714C5FA114710C5FA104710E92719E4FD",
+          "off": "0000000000000000000000000000000000000000"
         },
         {
-          "offset": "48A150A",
-          "on": "E96DA3570290909090",
-          "off": "418B5F10E8ADA3B2FF"
+          "offset": "4C5D54F",
+          "on": "E9C5E61B02",
+          "off": "C5FA104710"
+        }
+      ]
+    },
+    {
+      "name": "Max Money",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6E1BC2D",
+          "on": "C7848A68780100FFC99A3B8B948A68780100E9566756FD",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4382393",
+          "on": "E99598A9029090",
+          "off": "8B948A68780100"
+        }
+      ]
+    },
+    {
+      "name": "Max Virtue",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6E1B817",
+          "on": "C705D7733A017F9698008B35D1733A01E98F37D4FD",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4B5EFB5",
+          "on": "E95DC82B0290",
+          "off": "8B353D3C6603"
         }
       ]
     },
@@ -144,18 +144,82 @@
       ]
     },
     {
-      "name": "Max Combo",
+      "name": "Max Swordsman Orbs",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "6E1B87A",
-          "on": "BBE7030000891D437B3A01E988288FFD",
-          "off": "00000000000000000000000000000000"
+          "offset": "6E1B858",
+          "on": "88158A7039010FB63583703901E92991D3FD",
+          "off": "000000000000000000000000000000000000"
         },
         {
-          "offset": "470E10C",
-          "on": "E969D7700290",
-          "off": "891DB652AB03"
+          "offset": "4B5498C",
+          "on": "E9C76E2C029090",
+          "off": "0FB6356CDE6503"
+        }
+      ]
+    },
+    {
+      "name": "Max Gunman Orbs",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6E1B82E",
+          "on": "C605B4703901FF0FB60DAD703901E98491D3FD",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4B549BE",
+          "on": "E96B6E2C029090",
+          "off": "0FB60D24DF6503"
+        }
+      ]
+    },
+    {
+      "name": "Max Wild Dancer Orbs",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6E1B843",
+          "on": "C605A0703901FF0FB61599703901E97991D3FD",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4B549C8",
+          "on": "E9766E2C029090",
+          "off": "0FB6151BDF6503"
+        }
+      ]
+    },
+    {
+      "name": "Max Training Orbs",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6E1B82E",
+          "on": "C605B7703901FF0FB60DB0703901E99E91D3FD",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4B549D8",
+          "on": "E9516E2C029090",
+          "off": "0FB60D0DDF6503"
+        }
+      ]
+    },
+    {
+      "name": "Max XP ( on gain )",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6E1B843",
+          "on": "41C74487447F969800E9B13A20FE",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "501F2FD",
+          "on": "E941C5DF01",
+          "off": "4189748744"
         }
       ]
     },
@@ -192,34 +256,44 @@
       ]
     },
     {
-      "name": "Max Gunman Orbs",
+      "name": "Max Combo",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "6E1B82E",
-          "on": "C605B4703901FF0FB60DAD703901E98491D3FD",
-          "off": "00000000000000000000000000000000000000"
+          "offset": "6E1B87A",
+          "on": "BBE7030000891D437B3A01E988288FFD",
+          "off": "00000000000000000000000000000000"
         },
         {
-          "offset": "4B549BE",
-          "on": "E96B6E2C029090",
-          "off": "0FB60D24DF6503"
+          "offset": "470E10C",
+          "on": "E969D7700290",
+          "off": "891DB652AB03"
         }
       ]
     },
     {
-      "name": "Max Heat",
+      "name": "Unlock all ( Produce - Seafood - Materials )",
       "type": "checkbox",
       "memory": [
         {
           "offset": "6E1B800",
-          "on": "F30F1105D46F3901C5F8100DCC6F3901E9348F56FD",
-          "off": "000000000000000000000000000000000000000000"
+          "on": "66C7400401006683780400E91003D1FD",
+          "off": "00000000000000000000000000000000"
         },
         {
-          "offset": "4384741",
-          "on": "E9BA70A902909090",
-          "off": "C5F8100D93E0E203"
+          "offset": "4B2BB1B",
+          "on": "E9E0FC2E02",
+          "off": "6683780400"
+        },
+        {
+          "offset": "6E1B812",
+          "on": "66C7400201006683780200E9DF02D1FD",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "4B2BAFC",
+          "on": "E911FD2E02",
+          "off": "6683780200"
         }
       ]
     },
@@ -272,34 +346,18 @@
       ]
     },
     {
-      "name": "Max Money",
+      "name": "Max Wodden Tags",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "6E1BC2D",
-          "on": "C7848A68780100FFC99A3B8B948A68780100E9566756FD",
-          "off": "0000000000000000000000000000000000000000000000"
+          "offset": "6E1B842",
+          "on": "C7058C733A010F2700004C633585733A01E9AF2B10FE",
+          "off": "00000000000000000000000000000000000000000000"
         },
         {
-          "offset": "4382393",
-          "on": "E99598A9029090",
-          "off": "8B948A68780100"
-        }
-      ]
-    },
-    {
-      "name": "Max Score Wood Chooping",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "6E1B894",
-          "on": "41C78424A4020000E7030000418B8C24A4020000E9C93DB0FD",
-          "off": "00000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "491F66E",
-          "on": "E921C24F02909090",
-          "off": "418B8C24A4020000"
+          "offset": "4F1E400",
+          "on": "E93DD4EF019090",
+          "off": "4C6335D1472A03"
         }
       ]
     },
@@ -320,98 +378,34 @@
       ]
     },
     {
-      "name": "Max Swordsman Orbs",
+      "name": "Infinite Third Eyes ( Rock - Paper - Scissors )",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "6E1B858",
-          "on": "88158A7039010FB63583703901E92991D3FD",
-          "off": "000000000000000000000000000000000000"
-        },
-        {
-          "offset": "4B5498C",
-          "on": "E9C76E2C029090",
-          "off": "0FB6356CDE6503"
-        }
-      ]
-    },
-    {
-      "name": "Max Training Orbs",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "6E1B82E",
-          "on": "C605B7703901FF0FB60DB0703901E99E91D3FD",
-          "off": "00000000000000000000000000000000000000"
-        },
-        {
-          "offset": "4B549D8",
-          "on": "E9516E2C029090",
-          "off": "0FB60D0DDF6503"
-        }
-      ]
-    },
-    {
-      "name": "Max Virtue",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "6E1B817",
-          "on": "C705D7733A017F9698008B35D1733A01E98F37D4FD",
-          "off": "000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "4B5EFB5",
-          "on": "E95DC82B0290",
-          "off": "8B353D3C6603"
-        }
-      ]
-    },
-    {
-      "name": "Max Wild Dancer Orbs",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "6E1B843",
-          "on": "C605A0703901FF0FB61599703901E97991D3FD",
-          "off": "00000000000000000000000000000000000000"
-        },
-        {
-          "offset": "4B549C8",
-          "on": "E9766E2C029090",
-          "off": "0FB6151BDF6503"
-        }
-      ]
-    },
-    {
-      "name": "Max Wodden Tags",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "6E1B842",
-          "on": "C7058C733A010F2700004C633585733A01E9AF2B10FE",
+          "offset": "6E1B87C",
+          "on": "41C7471003000000418B5F10E833005BFDE9815CA8FD",
           "off": "00000000000000000000000000000000000000000000"
         },
         {
-          "offset": "4F1E400",
-          "on": "E93DD4EF019090",
-          "off": "4C6335D1472A03"
+          "offset": "48A150A",
+          "on": "E96DA3570290909090",
+          "off": "418B5F10E8ADA3B2FF"
         }
       ]
     },
     {
-      "name": "Max XP ( on gain )",
+      "name": "Max Score Wood Chooping",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "6E1B843",
-          "on": "41C74487447F969800E9B13A20FE",
-          "off": "0000000000000000000000000000"
+          "offset": "6E1B894",
+          "on": "41C78424A4020000E7030000418B8C24A4020000E9C93DB0FD",
+          "off": "00000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "501F2FD",
-          "on": "E941C5DF01",
-          "off": "4189748744"
+          "offset": "491F66E",
+          "on": "E921C24F02909090",
+          "off": "418B8C24A4020000"
         }
       ]
     },
@@ -432,28 +426,34 @@
       ]
     },
     {
-      "name": "Unlock all ( Produce - Seafood - Materials )",
+      "name": "Dancing Max Score ( on gain )",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "6E1B800",
-          "on": "66C7400401006683780400E91003D1FD",
-          "off": "00000000000000000000000000000000"
+          "offset": "6E1B8CA",
+          "on": "C780E80000009F860100E94BBCB1FD",
+          "off": "000000000000000000000000000000"
         },
         {
-          "offset": "4B2BB1B",
-          "on": "E9E0FC2E02",
-          "off": "6683780400"
+          "offset": "493751E",
+          "on": "E9A7434E0290",
+          "off": "89B0E8000000"
+        }
+      ]
+    },
+    {
+      "name": "Cannon Coaching Max Score ( on gain )",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6E1B8DB",
+          "on": "035758C747580F270000E9140CBBFD",
+          "off": "000000000000000000000000000000"
         },
         {
-          "offset": "6E1B812",
-          "on": "66C7400201006683780200E9DF02D1FD",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "4B2BAFC",
-          "on": "E911FD2E02",
-          "off": "6683780200"
+          "offset": "49CC4F8",
+          "on": "E9DEF3440290",
+          "off": "035758895758"
         }
       ]
     }

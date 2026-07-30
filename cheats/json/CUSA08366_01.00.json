@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Click On Every Couple Kills Your XP Doubles",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "92D71D",
-          "on": "440163408B7B3C48",
-          "off": "448963408B7B3C48"
-        }
-      ]
-    },
-    {
       "name": "Doubles Every Time U Spend A Skill Point",
       "type": "checkbox",
       "memory": [
@@ -42,7 +31,7 @@
       "type": "checkbox",
       "memory": [
         {
-          "offset": "52d71d",
+          "offset": "92D71D",
           "on": "440163408B7B3C48",
           "off": "448963408B7B3C48"
         }
@@ -67,6 +56,17 @@
           "offset": "46747d",
           "on": "0187B40F0000C390",
           "off": "8987B40F0000C390"
+        }
+      ]
+    },
+    {
+      "name": "Click On Every Couple Kills Your XP Doubles",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "52d71d",
+          "on": "440163408B7B3C48",
+          "off": "448963408B7B3C48"
         }
       ]
     }

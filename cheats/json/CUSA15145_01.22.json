@@ -5,28 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Easy Win (MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "18ECC18",
-          "on": "750F",
-          "off": "7505"
-        }
-      ]
-    },
-    {
-      "name": "Enemy Super 0 On Use (MC)-2",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "18ECC78",
-          "on": "750E",
-          "off": "75C8"
-        }
-      ]
-    },
-    {
       "name": "Health / Super / Easy Win (Master Code)",
       "type": "checkbox",
       "memory": [
@@ -43,6 +21,17 @@
       ]
     },
     {
+      "name": "Easy Win (MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "18ECC18",
+          "on": "750F",
+          "off": "7505"
+        }
+      ]
+    },
+    {
       "name": "Max Super On Use (MC)-1",
       "type": "checkbox",
       "memory": [
@@ -50,6 +39,17 @@
           "offset": "18ECC09",
           "on": "7540",
           "off": "7514"
+        }
+      ]
+    },
+    {
+      "name": "Enemy Super 0 On Use (MC)-2",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "18ECC78",
+          "on": "750E",
+          "off": "75C8"
         }
       ]
     }

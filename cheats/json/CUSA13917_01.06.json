@@ -5,11 +5,11 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Breath",
+      "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "298CA37",
+          "offset": "29906C2",
           "on": "909090",
           "off": "FF5038"
         }
@@ -27,24 +27,13 @@
       ]
     },
     {
-      "name": "Infinite Health",
+      "name": "Infinite Breath",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "29906C2",
+          "offset": "298CA37",
           "on": "909090",
           "off": "FF5038"
-        }
-      ]
-    },
-    {
-      "name": "Lot Of Perk Points On Use",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "34E0F0D",
-          "on": "41898424C0000000",
-          "off": "4529AC24C0000000"
         }
       ]
     },
@@ -77,6 +66,17 @@
           "offset": "38F6D32",
           "on": "E9E95B367C9090",
           "off": "4589B780010000"
+        }
+      ]
+    },
+    {
+      "name": "Lot Of Perk Points On Use",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "34E0F0D",
+          "on": "41898424C0000000",
+          "off": "4529AC24C0000000"
         }
       ]
     }

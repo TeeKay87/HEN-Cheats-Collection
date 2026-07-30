@@ -21,18 +21,18 @@
       ]
     },
     {
-      "name": "Infinite Items",
+      "name": "Max Health",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "23B3800",
-          "on": "0F84DFE6B0FE448968EC448B68F4E973E6B0FE",
-          "off": "00000000000000000000000000000000000000"
+          "offset": "23B380E",
+          "on": "66C780900300007F96E97AD355FE",
+          "off": "0000000000000000000000000000"
         },
         {
-          "offset": "EC1E80",
-          "on": "E97B194F0190",
-          "off": "7469448968F4"
+          "offset": "910B8F",
+          "on": "E97A2CAA019090",
+          "off": "4C8BB090030000"
         }
       ]
     },
@@ -53,18 +53,18 @@
       ]
     },
     {
-      "name": "Max Health",
+      "name": "Infinite Items",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "23B380E",
-          "on": "66C780900300007F96E97AD355FE",
-          "off": "0000000000000000000000000000"
+          "offset": "23B3800",
+          "on": "0F84DFE6B0FE448968EC448B68F4E973E6B0FE",
+          "off": "00000000000000000000000000000000000000"
         },
         {
-          "offset": "910B8F",
-          "on": "E97A2CAA019090",
-          "off": "4C8BB090030000"
+          "offset": "EC1E80",
+          "on": "E97B194F0190",
+          "off": "7469448968F4"
         }
       ]
     }

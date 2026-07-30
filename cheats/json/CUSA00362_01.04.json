@@ -21,17 +21,6 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1E8B4",
-          "on": "90909090909090",
-          "off": "41898528010000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Crafting Materials",
       "type": "checkbox",
       "memory": [
@@ -39,6 +28,17 @@
           "offset": "1AE72E",
           "on": "01",
           "off": "89"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E8B4",
+          "on": "90909090909090",
+          "off": "41898528010000"
         }
       ]
     }

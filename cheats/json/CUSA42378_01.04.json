@@ -16,17 +16,6 @@
       ]
     },
     {
-      "name": "Invincible-not all-enemy",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "80F4227B",
-          "on": "909090909090",
-          "off": "FF90E8010000"
-        }
-      ]
-    },
-    {
       "name": "MAX-CREDITS",
       "type": "checkbox",
       "memory": [
@@ -39,6 +28,17 @@
           "offset": "80BEFFAE",
           "on": "9090909090",
           "off": "4189442410"
+        }
+      ]
+    },
+    {
+      "name": "Invincible-not all-enemy",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80F4227B",
+          "on": "909090909090",
+          "off": "FF90E8010000"
         }
       ]
     }

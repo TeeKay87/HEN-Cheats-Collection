@@ -5,14 +5,6 @@
   <Genres Name="Fighting" />
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="1 Hit Kill">
-    <Cheatline>
-      <Offset>1213801</Offset>
-      <Section>0</Section>
-      <ValueOn>01</ValueOn>
-      <ValueOff>00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Health / 1 Hit">
     <Cheatline>
       <Offset>1213800</Offset>
@@ -30,6 +22,14 @@
   <Cheat Text="Infinite Health">
     <Cheatline>
       <Offset>1213800</Offset>
+      <Section>0</Section>
+      <ValueOn>01</ValueOn>
+      <ValueOff>00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="1 Hit Kill">
+    <Cheatline>
+      <Offset>1213801</Offset>
       <Section>0</Section>
       <ValueOn>01</ValueOn>
       <ValueOff>00</ValueOff>

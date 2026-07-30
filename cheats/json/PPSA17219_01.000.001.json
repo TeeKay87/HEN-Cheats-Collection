@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Inf Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "823414CE",
+          "on": "9090",
+          "off": "FFC8"
+        }
+      ]
+    },
+    {
       "name": "Inf Coins",
       "type": "checkbox",
       "memory": [
@@ -17,17 +28,6 @@
           "offset": "81B0FADC",
           "on": "E91F7520FE909090",
           "off": "41FF462041FF4638"
-        }
-      ]
-    },
-    {
-      "name": "Inf Hp",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "823414CE",
-          "on": "9090",
-          "off": "FFC8"
         }
       ]
     }

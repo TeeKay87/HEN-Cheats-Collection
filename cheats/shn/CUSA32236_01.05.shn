@@ -4,6 +4,20 @@
   <Genres Name="Adventure" />
   <Genres Name="Horror" />
   <Items />
+  <Cheat Text="Vida Infinita">
+    <Cheatline>
+      <Offset>1B13DB0</Offset>
+      <Section>0</Section>
+      <ValueOn>49-83-FF-1E-75-0A-45-2B-7C-24-28-E9-F7-92-21-7F-45-29-7C-24-28-E9-ED-92-21-7F</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>80D2D0B2</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-F9-6C-DE-80</ValueOn>
+      <ValueOff>45-29-7C-24-28</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Dogmas Infinito">
     <Cheatline>
       <Offset>1B13DE0</Offset>
@@ -30,20 +44,6 @@
       <Section>0</Section>
       <ValueOn>E9-2B-4B-2C-81-90</ValueOn>
       <ValueOff>01-88-08-01-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Vida Infinita">
-    <Cheatline>
-      <Offset>1B13DB0</Offset>
-      <Section>0</Section>
-      <ValueOn>49-83-FF-1E-75-0A-45-2B-7C-24-28-E9-F7-92-21-7F-45-29-7C-24-28-E9-ED-92-21-7F</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>80D2D0B2</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-F9-6C-DE-80</ValueOn>
-      <ValueOff>45-29-7C-24-28</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

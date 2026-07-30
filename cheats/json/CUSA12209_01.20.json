@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Fuel",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "82B3383E",
-          "on": "C4C17A104724C4C17A114720E971B039FE",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "80ECE8BA",
-          "on": "E97F4FC60190",
-          "off": "C4C17A114720"
-        }
-      ]
-    },
-    {
       "name": "Max Money",
       "type": "checkbox",
       "memory": [
@@ -33,22 +17,6 @@
           "offset": "80E65D0E",
           "on": "E9EDDACC01",
           "off": "E80D1E9B00"
-        }
-      ]
-    },
-    {
-      "name": "Max Passive Level",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "82B3385F",
-          "on": "4889434841C7471C05000000418B471CE97FC72BFE",
-          "off": "000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "80DEFFEB",
-          "on": "E96F38D401909090",
-          "off": "48894348418B471C"
         }
       ]
     },
@@ -69,6 +37,38 @@
       ]
     },
     {
+      "name": "No Tiredness",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "82B33826",
+          "on": "4157448B783C44897838415FC5FA104038E9009A2DFE",
+          "off": "00000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "80E0D237",
+          "on": "E9EA65D201",
+          "off": "C5FA104038"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Fuel",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "82B3383E",
+          "on": "C4C17A104724C4C17A114720E971B039FE",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "80ECE8BA",
+          "on": "E97F4FC60190",
+          "off": "C4C17A114720"
+        }
+      ]
+    },
+    {
       "name": "No Damage",
       "type": "checkbox",
       "memory": [
@@ -85,18 +85,18 @@
       ]
     },
     {
-      "name": "No Tiredness",
+      "name": "Max Passive Level",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "82B33826",
-          "on": "4157448B783C44897838415FC5FA104038E9009A2DFE",
-          "off": "00000000000000000000000000000000000000000000"
+          "offset": "82B3385F",
+          "on": "4889434841C7471C05000000418B471CE97FC72BFE",
+          "off": "000000000000000000000000000000000000000000"
         },
         {
-          "offset": "80E0D237",
-          "on": "E9EA65D201",
-          "off": "C5FA104038"
+          "offset": "80DEFFEB",
+          "on": "E96F38D401909090",
+          "off": "48894348418B471C"
         }
       ]
     },

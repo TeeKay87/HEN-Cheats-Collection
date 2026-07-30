@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Max Money",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "20E790C94",
+          "on": "C09EF87F",
+          "off": "C09EF87F"
+        }
+      ]
+    },
+    {
       "name": "Fill Health",
       "type": "button",
       "memory": [
@@ -27,17 +38,6 @@
       ]
     },
     {
-      "name": "Max Attack Value",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "20E790B10",
-          "on": "E00FCC0C",
-          "off": "E00FCC0C"
-        }
-      ]
-    },
-    {
       "name": "Max Health Capacity",
       "type": "button",
       "memory": [
@@ -45,6 +45,17 @@
           "offset": "20E790B90",
           "on": "C09EF87F",
           "off": "C09EF87F"
+        }
+      ]
+    },
+    {
+      "name": "Max Attack Value",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "20E790B10",
+          "on": "E00FCC0C",
+          "off": "E00FCC0C"
         }
       ]
     },
@@ -60,17 +71,6 @@
       ]
     },
     {
-      "name": "Max Money",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "20E790C94",
-          "on": "C09EF87F",
-          "off": "C09EF87F"
-        }
-      ]
-    },
-    {
       "name": "Max XP",
       "type": "button",
       "memory": [
@@ -78,6 +78,17 @@
           "offset": "20E790CD4",
           "on": "FFC99A3B",
           "off": "FFC99A3B"
+        }
+      ]
+    },
+    {
+      "name": "Max Money",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "20E390C94",
+          "on": "C09EF87F",
+          "off": "C09EF87F"
         }
       ]
     },
@@ -104,17 +115,6 @@
       ]
     },
     {
-      "name": "Max Attack Value",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "20E390B10",
-          "on": "E00FCC0C",
-          "off": "E00FCC0C"
-        }
-      ]
-    },
-    {
       "name": "Max Health Capacity",
       "type": "button",
       "memory": [
@@ -126,6 +126,17 @@
       ]
     },
     {
+      "name": "Max Attack Value",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "20E390B10",
+          "on": "E00FCC0C",
+          "off": "E00FCC0C"
+        }
+      ]
+    },
+    {
       "name": "Max Mana Attack Value",
       "type": "button",
       "memory": [
@@ -133,17 +144,6 @@
           "offset": "20E390A90",
           "on": "E00FCC0C",
           "off": "E00FCC0C"
-        }
-      ]
-    },
-    {
-      "name": "Max Money",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "20E390C94",
-          "on": "C09EF87F",
-          "off": "C09EF87F"
         }
       ]
     },

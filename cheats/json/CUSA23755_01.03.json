@@ -21,6 +21,17 @@
       ]
     },
     {
+      "name": "Max Power Energy",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "399FF8",
+          "on": "C5F82EC1",
+          "off": "C5F82EC8"
+        }
+      ]
+    },
+    {
       "name": "Max Points ( on gain )",
       "type": "checkbox",
       "memory": [
@@ -33,17 +44,6 @@
           "offset": "687113",
           "on": "E9E84640019090909090909090",
           "off": "C36666662E0F1F840000000000"
-        }
-      ]
-    },
-    {
-      "name": "Max Power Energy",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "399FF8",
-          "on": "C5F82EC1",
-          "off": "C5F82EC8"
         }
       ]
     },

@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "TRAINER INFO (read only)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "60D2FFF",
+          "on": "00",
+          "off": "00"
+        }
+      ]
+    },
+    {
       "name": "1 Hit Kill",
       "type": "checkbox",
       "memory": [
@@ -399,13 +410,13 @@
       ]
     },
     {
-      "name": "TRAINER INFO (read only)",
+      "name": "INF HP",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "60D2FFF",
-          "on": "00",
-          "off": "00"
+          "offset": "DFB8D1",
+          "on": "9090909090",
+          "off": "4489740830"
         }
       ]
     },
@@ -416,6 +427,17 @@
         {
           "offset": "E560D8",
           "on": "4401B4C33C560300",
+          "off": "4489B4C33C560300"
+        }
+      ]
+    },
+    {
+      "name": "Freez GIL",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "E560D8",
+          "on": "9090909090909090",
           "off": "4489B4C33C560300"
         }
       ]
@@ -432,28 +454,6 @@
       ]
     },
     {
-      "name": "ADD Mp",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "DFBBD8",
-          "on": "4401740838",
-          "off": "4489740838"
-        }
-      ]
-    },
-    {
-      "name": "Freez GIL",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "E560D8",
-          "on": "9090909090909090",
-          "off": "4489B4C33C560300"
-        }
-      ]
-    },
-    {
       "name": "Freez Mp",
       "type": "checkbox",
       "memory": [
@@ -465,24 +465,13 @@
       ]
     },
     {
-      "name": "Freez Special LIMIT",
+      "name": "ADD Mp",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "DFBF76",
-          "on": "909090909090",
-          "off": "C5FA11440824"
-        }
-      ]
-    },
-    {
-      "name": "INF HP",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "DFB8D1",
-          "on": "9090909090",
-          "off": "4489740830"
+          "offset": "DFBBD8",
+          "on": "4401740838",
+          "off": "4489740838"
         }
       ]
     },
@@ -494,6 +483,17 @@
           "offset": "DFB656",
           "on": "C57A114C0844",
           "off": "C5FA11440844"
+        }
+      ]
+    },
+    {
+      "name": "Freez Special LIMIT",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "DFBF76",
+          "on": "909090909090",
+          "off": "C5FA11440824"
         }
       ]
     }

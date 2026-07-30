@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Freez Timer",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1DDA900",
-          "on": "C7838400000000001644E9950A1DFF",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "FAB39C",
-          "on": "E95FF5E200909090",
-          "off": "C5FA118384000000"
-        }
-      ]
-    },
-    {
       "name": "Health Master Code (Enable First)",
       "type": "checkbox",
       "memory": [
@@ -33,22 +17,6 @@
           "offset": "10C27D8",
           "on": "E9E41300009090",
           "off": "4C89EFC5FA5CC1"
-        }
-      ]
-    },
-    {
-      "name": "Inf Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1101854",
-          "on": "C6401063498B07E97BAC0000",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "110C4D4",
-          "on": "E97B53FFFF9090",
-          "off": "44896010498B07"
         }
       ]
     },
@@ -85,6 +53,22 @@
       ]
     },
     {
+      "name": "Inf Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1101854",
+          "on": "C6401063498B07E97BAC0000",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "110C4D4",
+          "on": "E97B53FFFF9090",
+          "off": "44896010498B07"
+        }
+      ]
+    },
+    {
       "name": "No Reload",
       "type": "checkbox",
       "memory": [
@@ -92,6 +76,22 @@
           "offset": "ECCD04",
           "on": "909090",
           "off": "017010"
+        }
+      ]
+    },
+    {
+      "name": "Freez Timer",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1DDA900",
+          "on": "C7838400000000001644E9950A1DFF",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "FAB39C",
+          "on": "E95FF5E200909090",
+          "off": "C5FA118384000000"
         }
       ]
     }

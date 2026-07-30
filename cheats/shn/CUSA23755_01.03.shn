@@ -3,22 +3,6 @@
   <Genres Name="Adventure" />
   <Genres Name="Arcade" />
   <Items />
-  <Cheat Text="Gegner Tod in 1 Hit">
-    <Cheatline>
-      <Offset>439A9F</Offset>
-      <Section>14</Section>
-      <ValueOn>C5-FA-11-51-10</ValueOn>
-      <ValueOff>C5-FA-11-49-10</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Max Kraft Energy">
-    <Cheatline>
-      <Offset>399FF8</Offset>
-      <Section>14</Section>
-      <ValueOn>C5-F8-2E-C1</ValueOn>
-      <ValueOff>C5-F8-2E-C8</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Max Leben">
     <Cheatline>
       <Offset>198BD20</Offset>
@@ -33,6 +17,14 @@
       <ValueOff>C5-FA-11-40-10</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="Max Kraft Energy">
+    <Cheatline>
+      <Offset>399FF8</Offset>
+      <Section>14</Section>
+      <ValueOn>C5-F8-2E-C1</ValueOn>
+      <ValueOff>C5-F8-2E-C8</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Max Punkte (wenn man welche bekommmt)">
     <Cheatline>
       <Offset>1A8B800</Offset>
@@ -45,6 +37,14 @@
       <Section>14</Section>
       <ValueOn>E9-E8-46-40-01-90-90-90-90-90-90-90-90</ValueOn>
       <ValueOff>C3-66-66-66-2E-0F-1F-84-00-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Gegner Tod in 1 Hit">
+    <Cheatline>
+      <Offset>439A9F</Offset>
+      <Section>14</Section>
+      <ValueOn>C5-FA-11-51-10</ValueOn>
+      <ValueOff>C5-FA-11-49-10</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Hacky Max Score">

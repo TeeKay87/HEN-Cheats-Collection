@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Focus",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "23BF826",
-          "on": "41C7879000000000007A44E97AD047FE",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "83C8A7",
-          "on": "E97A2FB80190909090",
-          "off": "C4C17A118790000000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -37,18 +21,29 @@
       ]
     },
     {
-      "name": "Infinite Items ( on gain )",
+      "name": "Stealth Mode ( Dont touch Enemy )",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "23BF80C",
-          "on": "41BF63000000E9532B91FE",
-          "off": "0000000000000000000000"
+          "offset": "C65695",
+          "on": "0F57C99090",
+          "off": "C5FA114F64"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Focus",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "23BF826",
+          "on": "41C7879000000000007A44E97AD047FE",
+          "off": "00000000000000000000000000000000"
         },
         {
-          "offset": "CD2364",
-          "on": "E9A3D46E0190",
-          "off": "4189D74529E7"
+          "offset": "83C8A7",
+          "on": "E97A2FB80190909090",
+          "off": "C4C17A118790000000"
         }
       ]
     },
@@ -69,6 +64,22 @@
       ]
     },
     {
+      "name": "Infinite Items ( on gain )",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "23BF80C",
+          "on": "41BF63000000E9532B91FE",
+          "off": "0000000000000000000000"
+        },
+        {
+          "offset": "CD2364",
+          "on": "E9A3D46E0190",
+          "off": "4189D74529E7"
+        }
+      ]
+    },
+    {
       "name": "One Hit Kill",
       "type": "checkbox",
       "memory": [
@@ -76,17 +87,6 @@
           "offset": "8124F2",
           "on": "C4C17A114568",
           "off": "C4C17A114D68"
-        }
-      ]
-    },
-    {
-      "name": "Stealth Mode ( Dont touch Enemy )",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "C65695",
-          "on": "0F57C99090",
-          "off": "C5FA114F64"
         }
       ]
     }

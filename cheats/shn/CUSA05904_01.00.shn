@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Far Cry 5" Moder="DeathRGH" Cusa="CUSA05904" Version="01.00" Process="eboot.bin">
   <Items />
-  <Cheat Text="Get Perk Points For Spending Them">
-    <Cheatline>
-      <Offset>31CAB9C</Offset>
-      <Section>0</Section>
-      <ValueOn>44-01-BB-D8-00-00-00</ValueOn>
-      <ValueOff>44-29-BB-D8-00-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Godmode">
     <Cheatline>
       <Offset>26157F7</Offset>
@@ -31,14 +23,6 @@
       <ValueOff>44-89-BB-88-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money / Items On Pickup">
-    <Cheatline>
-      <Offset>1115B20</Offset>
-      <Section>0</Section>
-      <ValueOn>B8-FF-C9-9A-3B-90-90</ValueOn>
-      <ValueOff>B8-FF-C9-9A-3B-90-90</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="No Recoil">
     <Cheatline>
       <Offset>3224B59</Offset>
@@ -51,6 +35,22 @@
       <Section>0</Section>
       <ValueOn>90-90-90-90-90-90-90-90-90</ValueOn>
       <ValueOff>C4-C1-7A-11-87-1C-01-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Get Perk Points For Spending Them">
+    <Cheatline>
+      <Offset>31CAB9C</Offset>
+      <Section>0</Section>
+      <ValueOn>44-01-BB-D8-00-00-00</ValueOn>
+      <ValueOff>44-29-BB-D8-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max Money / Items On Pickup">
+    <Cheatline>
+      <Offset>1115B20</Offset>
+      <Section>0</Section>
+      <ValueOn>B8-FF-C9-9A-3B-90-90</ValueOn>
+      <ValueOff>B8-FF-C9-9A-3B-90-90</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

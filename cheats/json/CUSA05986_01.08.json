@@ -21,22 +21,6 @@
       ]
     },
     {
-      "name": "Infinite Nitrous",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3EAB81F",
-          "on": "41C78514020000595ABA40E905A055FE",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "240582B",
-          "on": "E9EF5FAA0190909090",
-          "off": "C4C17A118514020000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Tokens",
       "type": "checkbox",
       "memory": [
@@ -49,6 +33,22 @@
           "offset": "295F43B",
           "on": "E9D0C35401",
           "off": "41894C2418"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Nitrous",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3EAB81F",
+          "on": "41C78514020000595ABA40E905A055FE",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "240582B",
+          "on": "E9EF5FAA0190909090",
+          "off": "C4C17A118514020000"
         }
       ]
     },
@@ -69,22 +69,6 @@
       ]
     },
     {
-      "name": "Infinite Nitro",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "240582B",
-          "on": "909090909090909090",
-          "off": "C4C17A118514020000"
-        },
-        {
-          "offset": "2405FF9",
-          "on": "909090909090909090",
-          "off": "C4C17A118514020000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Tokens",
       "type": "checkbox",
       "memory": [
@@ -97,6 +81,22 @@
           "offset": "295F43B",
           "on": "E8C0BB5401",
           "off": "41894C2418"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Nitro",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "240582B",
+          "on": "909090909090909090",
+          "off": "C4C17A118514020000"
+        },
+        {
+          "offset": "2405FF9",
+          "on": "909090909090909090",
+          "off": "C4C17A118514020000"
         }
       ]
     }

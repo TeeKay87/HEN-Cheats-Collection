@@ -5,33 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Exp",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "C687A",
-          "on": "4D01B60C060000",
-          "off": "41018E0C060000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Gear Enhancement",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5FFF30",
-          "on": "B8E7030000894304498B06E96BDFB3FF",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "13DEA5",
-          "on": "E986204C0090",
-          "off": "894304498B06"
-        }
-      ]
-    },
-    {
       "name": "Infinite Money",
       "type": "checkbox",
       "memory": [
@@ -43,13 +16,13 @@
       ]
     },
     {
-      "name": "Infinite Strip Skill Exp",
+      "name": "Infinite Exp",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "CED99",
-          "on": "4589A48718060000",
-          "off": "4589B48718060000"
+          "offset": "C687A",
+          "on": "4D01B60C060000",
+          "off": "41018E0C060000"
         }
       ]
     },
@@ -70,6 +43,17 @@
       ]
     },
     {
+      "name": "Infinite Strip Skill Exp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "CED99",
+          "on": "4589A48718060000",
+          "off": "4589B48718060000"
+        }
+      ]
+    },
+    {
       "name": "Infinite Weapon Enhancement",
       "type": "checkbox",
       "memory": [
@@ -81,6 +65,22 @@
         {
           "offset": "16F655",
           "on": "E9C608490090",
+          "off": "894304498B06"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Gear Enhancement",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5FFF30",
+          "on": "B8E7030000894304498B06E96BDFB3FF",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "13DEA5",
+          "on": "E986204C0090",
           "off": "894304498B06"
         }
       ]

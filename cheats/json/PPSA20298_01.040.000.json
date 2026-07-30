@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Coins",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FD1709A",
-          "on": "41015E1481C33F420F00E952524B00",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "801CC2F3",
-          "on": "E9A2ADB4FF909090",
-          "off": "41015E1441035E10"
-        }
-      ]
-    },
-    {
       "name": "Inf Hp",
       "type": "checkbox",
       "memory": [
@@ -65,6 +49,22 @@
           "offset": "802A3381",
           "on": "E9E53CA7FF",
           "off": "C5FA114764"
+        }
+      ]
+    },
+    {
+      "name": "Inf Coins",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD1709A",
+          "on": "41015E1481C33F420F00E952524B00",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "801CC2F3",
+          "on": "E9A2ADB4FF909090",
+          "off": "41015E1441035E10"
         }
       ]
     }

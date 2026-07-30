@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Inf Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "806DC239",
+          "on": "44017374",
+          "off": "44897374"
+        }
+      ]
+    },
+    {
       "name": "Inf Balls",
       "type": "checkbox",
       "memory": [
@@ -21,33 +32,6 @@
       ]
     },
     {
-      "name": "Inf Coins",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FD17061",
-          "on": "B8E70300004289443B0CE902198D01",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "815E896D",
-          "on": "E9EFE672FE",
-          "off": "4289443B0C"
-        }
-      ]
-    },
-    {
-      "name": "Inf Hp",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "806DC239",
-          "on": "44017374",
-          "off": "44897374"
-        }
-      ]
-    },
-    {
       "name": "Inf Score",
       "type": "checkbox",
       "memory": [
@@ -60,6 +44,22 @@
           "offset": "8070B2DC",
           "on": "E94FBD60FF9090",
           "off": "41898684000000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Coins",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD17061",
+          "on": "B8E70300004289443B0CE902198D01",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "815E896D",
+          "on": "E9EFE672FE",
+          "off": "4289443B0C"
         }
       ]
     },

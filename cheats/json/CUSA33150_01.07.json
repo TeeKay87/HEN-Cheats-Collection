@@ -5,6 +5,50 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2DA9DD8",
+          "on": "898F68010000",
+          "off": "899768010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "323A30E",
+          "on": "C5FA105310",
+          "off": "C5FA595310"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Oxygen",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F52EAA",
+          "on": "C5FA1188DC060000",
+          "off": "C5FA1180DC060000"
+        }
+      ]
+    },
+    {
+      "name": "Mount Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2E3B1E5",
+          "on": "C4C17A11450C",
+          "off": "C4C17A11550C"
+        }
+      ]
+    },
+    {
       "name": "(99)  Skill Points / Level (On Spend)",
       "type": "checkbox",
       "memory": [
@@ -33,50 +77,6 @@
           "offset": "2F7059D",
           "on": "E95E72730390",
           "off": "2B45840F42C1"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2DA9DD8",
-          "on": "898F68010000",
-          "off": "899768010000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Oxygen",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1F52EAA",
-          "on": "C5FA1188DC060000",
-          "off": "C5FA1180DC060000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "323A30E",
-          "on": "C5FA105310",
-          "off": "C5FA595310"
-        }
-      ]
-    },
-    {
-      "name": "Mount Stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2E3B1E5",
-          "on": "C4C17A11450C",
-          "off": "C4C17A11550C"
         }
       ]
     }

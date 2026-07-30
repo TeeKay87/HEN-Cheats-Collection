@@ -58,32 +58,40 @@
       <ValueOff>42-0F-B7-04-78</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Attack Stats">
+  <Cheat Text="Max Player Troops">
     <Cheatline>
-      <Offset>1E83E23</Offset>
+      <Offset>1E83DA5</Offset>
       <Section>0</Section>
-      <ValueOn>41-03-54-8D-54-41-C7-44-8D-54-D0-07-00-00-E9-D5-7B-10-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+      <ValueOn>0F-84-66-EE-64-FE-C7-41-08-40-0D-03-00-8B-41-08-E9-58-EE-64-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>F8BA06</Offset>
+      <Offset>4D2C0D</Offset>
       <Section>0</Section>
-      <ValueOn>E9-18-84-EF-00</ValueOn>
-      <ValueOff>41-03-54-8D-54</ValueOff>
+      <ValueOn>E9-93-11-9B-01</ValueOn>
+      <ValueOff>74-08-8B-41-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Bow Skill Stats">
+  <Cheat Text="No Enemy Troops">
     <Cheatline>
-      <Offset>1E83E49</Offset>
+      <Offset>1E83DBA</Offset>
       <Section>0</Section>
-      <ValueOn>41-03-44-0D-54-41-C7-44-0D-54-D0-07-00-00-E9-87-AD-10-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+      <ValueOn>48-69-D2-24-01-00-00-C7-44-11-08-00-00-00-00-8B-4C-11-08-E9-0E-EF-64-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>F8EBDE</Offset>
+      <Offset>4D2CD5</Offset>
       <Section>0</Section>
-      <ValueOn>E9-66-52-EF-00</ValueOn>
-      <ValueOff>41-03-44-0D-54</ValueOff>
+      <ValueOn>E9-E0-10-9B-01-90-90-90-90-90-90</ValueOn>
+      <ValueOff>48-69-D2-24-01-00-00-8B-4C-11-08</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max KO Points ( on gain )">
+    <Cheatline>
+      <Offset>D85869</Offset>
+      <Section>0</Section>
+      <ValueOn>0F-42-C9</ValueOn>
+      <ValueOff>0F-42-C8</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max Combo Points ( on gain )">
@@ -100,18 +108,32 @@
       <ValueOff>89-91-5C-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Defense Stats">
+  <Cheat Text="Max XP Level ( on gain )">
     <Cheatline>
-      <Offset>1E83E80</Offset>
+      <Offset>1E83DD2</Offset>
       <Section>0</Section>
-      <ValueOn>41-03-54-CD-54-41-C7-44-CD-54-D0-07-00-00-E9-B7-90-10-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+      <ValueOn>41-0F-42-CC-C7-43-04-3F-42-0F-00-E9-6F-6E-92-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>F8CF45</Offset>
+      <Offset>7AAC4A</Offset>
       <Section>0</Section>
-      <ValueOn>E9-36-6F-EF-00</ValueOn>
-      <ValueOff>41-03-54-CD-54</ValueOff>
+      <ValueOn>E9-83-91-6D-01-90-90</ValueOn>
+      <ValueOff>41-0F-42-CC-89-4B-04</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max Reputation ( on gain )">
+    <Cheatline>
+      <Offset>1E83DE2</Offset>
+      <Section>0</Section>
+      <ValueOn>66-C7-44-48-04-40-01-0F-B7-44-48-04-E9-EA-8C-AC-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>94CAD8</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-05-73-53-01</ValueOn>
+      <ValueOff>0F-B7-44-48-04</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max Food">
@@ -156,40 +178,32 @@
       <ValueOff>41-8B-45-6C-41-03-45-54</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max KO Points ( on gain )">
+  <Cheat Text="Max Attack Stats">
     <Cheatline>
-      <Offset>D85869</Offset>
+      <Offset>1E83E23</Offset>
       <Section>0</Section>
-      <ValueOn>0F-42-C9</ValueOn>
-      <ValueOff>0F-42-C8</ValueOff>
+      <ValueOn>41-03-54-8D-54-41-C7-44-8D-54-D0-07-00-00-E9-D5-7B-10-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>F8BA06</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-18-84-EF-00</ValueOn>
+      <ValueOff>41-03-54-8D-54</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Player Troops">
+  <Cheat Text="Max Defense Stats">
     <Cheatline>
-      <Offset>1E83DA5</Offset>
+      <Offset>1E83E80</Offset>
       <Section>0</Section>
-      <ValueOn>0F-84-66-EE-64-FE-C7-41-08-40-0D-03-00-8B-41-08-E9-58-EE-64-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+      <ValueOn>41-03-54-CD-54-41-C7-44-CD-54-D0-07-00-00-E9-B7-90-10-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>4D2C0D</Offset>
+      <Offset>F8CF45</Offset>
       <Section>0</Section>
-      <ValueOn>E9-93-11-9B-01</ValueOn>
-      <ValueOff>74-08-8B-41-08</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Max Reputation ( on gain )">
-    <Cheatline>
-      <Offset>1E83DE2</Offset>
-      <Section>0</Section>
-      <ValueOn>66-C7-44-48-04-40-01-0F-B7-44-48-04-E9-EA-8C-AC-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>94CAD8</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-05-73-53-01</ValueOn>
-      <ValueOff>0F-B7-44-48-04</ValueOff>
+      <ValueOn>E9-36-6F-EF-00</ValueOn>
+      <ValueOff>41-03-54-CD-54</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max Speed Stats">
@@ -206,32 +220,18 @@
       <ValueOff>41-03-4C-37-54</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max XP Level ( on gain )">
+  <Cheat Text="Max Bow Skill Stats">
     <Cheatline>
-      <Offset>1E83DD2</Offset>
+      <Offset>1E83E49</Offset>
       <Section>0</Section>
-      <ValueOn>41-0F-42-CC-C7-43-04-3F-42-0F-00-E9-6F-6E-92-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+      <ValueOn>41-03-44-0D-54-41-C7-44-0D-54-D0-07-00-00-E9-87-AD-10-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>7AAC4A</Offset>
+      <Offset>F8EBDE</Offset>
       <Section>0</Section>
-      <ValueOn>E9-83-91-6D-01-90-90</ValueOn>
-      <ValueOff>41-0F-42-CC-89-4B-04</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="No Enemy Troops">
-    <Cheatline>
-      <Offset>1E83DBA</Offset>
-      <Section>0</Section>
-      <ValueOn>48-69-D2-24-01-00-00-C7-44-11-08-00-00-00-00-8B-4C-11-08-E9-0E-EF-64-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>4D2CD5</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-E0-10-9B-01-90-90-90-90-90-90</ValueOn>
-      <ValueOff>48-69-D2-24-01-00-00-8B-4C-11-08</ValueOff>
+      <ValueOn>E9-66-52-EF-00</ValueOn>
+      <ValueOff>41-03-44-0D-54</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

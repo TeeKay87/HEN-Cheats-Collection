@@ -5,38 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Enemy Doesnt Shoot (except Uebersoldaten)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2FFB882",
-          "on": "8B43703DFEFFFF01740B8B93A4000000E9264419FE31C0E92F4419FE",
-          "off": "00000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "118FCB7",
-          "on": "E9C6BBE60190",
-          "off": "8B93A4000000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Bullets",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2FFB83D",
-          "on": "8B43703DFEFFFF01742C8B83E000000083F8FF75178B83C400000083F80075068B83A40000008983C000000039D60F4ED6E95A4419FE39D60F4ED631C085F6E9474419FE90",
-          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "118FCBF",
-          "on": "E979BBE601",
-          "off": "39D60F4ED6"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -49,22 +17,6 @@
           "offset": "E82A2A",
           "on": "E9D18D1702",
           "off": "C5FA114310"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Laser \u002B Granades \u002B Hatchets (100)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2FFB7F3",
-          "on": "B864000000894330E98B4419FE",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "118FC85",
-          "on": "E969BBE60190",
-          "off": "0F49C1894330"
         }
       ]
     },
@@ -95,6 +47,38 @@
       ]
     },
     {
+      "name": "Infinite Bullets",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2FFB83D",
+          "on": "8B43703DFEFFFF01742C8B83E000000083F8FF75178B83C400000083F80075068B83A40000008983C000000039D60F4ED6E95A4419FE39D60F4ED631C085F6E9474419FE90",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "118FCBF",
+          "on": "E979BBE601",
+          "off": "39D60F4ED6"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Laser \u002B Granades \u002B Hatchets (100)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2FFB7F3",
+          "on": "B864000000894330E98B4419FE",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "118FC85",
+          "on": "E969BBE60190",
+          "off": "0F49C1894330"
+        }
+      ]
+    },
+    {
       "name": "Infinite Upgrade Kits \u002B Enigma Codes (99)",
       "type": "checkbox",
       "memory": [
@@ -107,6 +91,22 @@
           "offset": "87E7E5",
           "on": "E9FBCF7702909090",
           "off": "48C1E0048B44010C"
+        }
+      ]
+    },
+    {
+      "name": "Enemy Doesnt Shoot (except Uebersoldaten)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2FFB882",
+          "on": "8B43703DFEFFFF01740B8B93A4000000E9264419FE31C0E92F4419FE",
+          "off": "00000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "118FCB7",
+          "on": "E9C6BBE60190",
+          "off": "8B93A4000000"
         }
       ]
     }

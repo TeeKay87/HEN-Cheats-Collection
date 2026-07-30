@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "1 Hit Kill \u002B (MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5AA7854",
-          "on": "75E4",
-          "off": "74E4"
-        }
-      ]
-    },
-    {
       "name": "Health / Stamina  (Master Code)",
       "type": "checkbox",
       "memory": [
@@ -32,18 +21,24 @@
       ]
     },
     {
-      "name": "Infinite Consumables",
+      "name": "Team Health \u002B (MC)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "BEAF53",
-          "on": "90909090909090",
-          "off": "83BB140C000000"
-        },
+          "offset": "5AA7822",
+          "on": "81781840294800",
+          "off": "817818D6614800"
+        }
+      ]
+    },
+    {
+      "name": "1 Hit Kill \u002B (MC)",
+      "type": "checkbox",
+      "memory": [
         {
-          "offset": "BEB1FC",
-          "on": "90909090909090",
-          "off": "83BB140C000000"
+          "offset": "5AA7854",
+          "on": "75E4",
+          "off": "74E4"
         }
       ]
     },
@@ -80,13 +75,18 @@
       ]
     },
     {
-      "name": "Team Health \u002B (MC)",
+      "name": "Infinite Consumables",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "5AA7822",
-          "on": "81781840294800",
-          "off": "817818D6614800"
+          "offset": "BEAF53",
+          "on": "90909090909090",
+          "off": "83BB140C000000"
+        },
+        {
+          "offset": "BEB1FC",
+          "on": "90909090909090",
+          "off": "83BB140C000000"
         }
       ]
     }

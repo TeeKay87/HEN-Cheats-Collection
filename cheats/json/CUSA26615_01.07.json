@@ -5,18 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo (Need Total Bullets ON)",
+      "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "5903818",
-          "on": "90E9842A99FB",
+          "offset": "5903800",
+          "on": "90E971C689FB",
           "off": "000000000000"
         },
         {
-          "offset": "129629C",
-          "on": "E977D5660490",
-          "off": "894B088B4B0C"
+          "offset": "119FE6E",
+          "on": "E98D39760490909090",
+          "off": "C4C17A1186DC040000"
         }
       ]
     },
@@ -37,34 +37,18 @@
       ]
     },
     {
-      "name": "Infinite Health",
+      "name": "Infinite Ammo (Need Total Bullets ON)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "5903800",
-          "on": "90E971C689FB",
+          "offset": "5903818",
+          "on": "90E9842A99FB",
           "off": "000000000000"
         },
         {
-          "offset": "119FE6E",
-          "on": "E98D39760490909090",
-          "off": "C4C17A1186DC040000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Max Money Instantly",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "590382E",
-          "on": "0580A1031C3D00CA9A3BE92D4C81FB",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "1118465",
-          "on": "E9C4B37E04",
-          "off": "3D00CA9A3B"
+          "offset": "129629C",
+          "on": "E977D5660490",
+          "off": "894B088B4B0C"
         }
       ]
     },
@@ -97,6 +81,22 @@
           "offset": "110E95D",
           "on": "E9BE4E7F049090",
           "off": "C7432002000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Max Money Instantly",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "590382E",
+          "on": "0580A1031C3D00CA9A3BE92D4C81FB",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "1118465",
+          "on": "E9C4B37E04",
+          "off": "3D00CA9A3B"
         }
       ]
     }

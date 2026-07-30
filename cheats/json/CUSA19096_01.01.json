@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Ammo/No Reload (Reload Once For Akimbo)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "186C620",
-          "on": "41C785800000006300000041C7858400000063000000BF63000000E91084D67E",
-          "off": "0000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "805D4A49",
-          "on": "E9D27B29819090",
-          "off": "49898580000000"
-        }
-      ]
-    },
-    {
       "name": "Inf Health",
       "type": "checkbox",
       "memory": [
@@ -33,6 +17,22 @@
           "offset": "808B882C",
           "on": "E9CF3DFB80",
           "off": "C5FA114344"
+        }
+      ]
+    },
+    {
+      "name": "Inf Ammo/No Reload (Reload Once For Akimbo)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "186C620",
+          "on": "41C785800000006300000041C7858400000063000000BF63000000E91084D67E",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "805D4A49",
+          "on": "E9D27B29819090",
+          "off": "49898580000000"
         }
       ]
     },

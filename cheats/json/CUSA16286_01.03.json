@@ -5,6 +5,22 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5D330",
+          "on": "C6836801000064E9FFB28880",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "4E8635",
+          "on": "E9F64C777F90",
+          "off": "898B68010000"
+        }
+      ]
+    },
+    {
       "name": "Infinite Endurence",
       "type": "checkbox",
       "memory": [
@@ -21,18 +37,18 @@
       ]
     },
     {
-      "name": "Infinite Flashlight Battery",
+      "name": "Max Infinite Ammo/No Reload",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5E050",
-          "on": "4103942410280000E9E9028880",
+          "offset": "7FC5F540",
+          "on": "4103842434100000E912A38B80",
           "off": "00000000000000000000000000"
         },
         {
-          "offset": "4DE33E",
-          "on": "E90DFD777F909090",
-          "off": "4189942410280000"
+          "offset": "519857",
+          "on": "E9E45C747F909090",
+          "off": "4129842434100000"
         }
       ]
     },
@@ -53,34 +69,18 @@
       ]
     },
     {
-      "name": "Infinite Health",
+      "name": "Infinite Flashlight Battery",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5D330",
-          "on": "C6836801000064E9FFB28880",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "4E8635",
-          "on": "E9F64C777F90",
-          "off": "898B68010000"
-        }
-      ]
-    },
-    {
-      "name": "Max Infinite Ammo/No Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5F540",
-          "on": "4103842434100000E912A38B80",
+          "offset": "7FC5E050",
+          "on": "4103942410280000E9E9028880",
           "off": "00000000000000000000000000"
         },
         {
-          "offset": "519857",
-          "on": "E9E45C747F909090",
-          "off": "4129842434100000"
+          "offset": "4DE33E",
+          "on": "E90DFD777F909090",
+          "off": "4189942410280000"
         }
       ]
     }

@@ -21,66 +21,18 @@
       ]
     },
     {
-      "name": "Infinite Health (battle network 2)",
+      "name": "Max Zennys (Battle Network 1)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "4F0FA00",
-          "on": "41C60409E7E917AE95FB",
-          "off": "00000000000000000000"
+          "offset": "4F0F940",
+          "on": "83C174C7040AFFE0F505E98F5E1FFB",
+          "off": "000000000000000000000000000000"
         },
         {
-          "offset": "86A81C",
-          "on": "E9DF516A04",
-          "off": "6641890409"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health (Battle network 3)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "4F0F7A0",
-          "on": "66418B0409E947DE20FC",
-          "off": "00000000000000000000"
-        },
-        {
-          "offset": "111D5EC",
-          "on": "E9AF21DF03",
-          "off": "6641890409"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Subchip (battle network 3)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "4F0FB30",
-          "on": "4103570841C604100AE9094448FC",
-          "off": "0000000000000000000000000000"
-        },
-        {
-          "offset": "1393F3F",
-          "on": "E9ECBBB703909090",
-          "off": "4103570841880C10"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Subchips (have 2) Battle network 2",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "4F0FA80",
-          "on": "4103570841C604100AE9608BB2FB",
-          "off": "0000000000000000000000000000"
-        },
-        {
-          "offset": "A385E6",
-          "on": "E995744D04909090",
-          "off": "4103570841880C10"
+          "offset": "1057D7",
+          "on": "E964A1E0049090",
+          "off": "83C17444891C0A"
         }
       ]
     },
@@ -101,18 +53,18 @@
       ]
     },
     {
-      "name": "Max Bugfrag (battle network 3)",
+      "name": "Infinite Health (battle network 2)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "4F0FBB0",
-          "on": "83C178C7040AFFE0F505E9DE5814FC",
-          "off": "000000000000000000000000000000"
+          "offset": "4F0FA00",
+          "on": "41C60409E7E917AE95FB",
+          "off": "00000000000000000000"
         },
         {
-          "offset": "1055496",
-          "on": "E915A7EB039090",
-          "off": "83C17844893C0A"
+          "offset": "86A81C",
+          "on": "E9DF516A04",
+          "off": "6641890409"
         }
       ]
     },
@@ -133,18 +85,34 @@
       ]
     },
     {
-      "name": "Max Zennys (Battle Network 1)",
+      "name": "Infinite Subchips (have 2) Battle network 2",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "4F0F940",
-          "on": "83C174C7040AFFE0F505E98F5E1FFB",
-          "off": "000000000000000000000000000000"
+          "offset": "4F0FA80",
+          "on": "4103570841C604100AE9608BB2FB",
+          "off": "0000000000000000000000000000"
         },
         {
-          "offset": "1057D7",
-          "on": "E964A1E0049090",
-          "off": "83C17444891C0A"
+          "offset": "A385E6",
+          "on": "E995744D04909090",
+          "off": "4103570841880C10"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health (Battle network 3)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4F0F7A0",
+          "on": "66418B0409E947DE20FC",
+          "off": "00000000000000000000"
+        },
+        {
+          "offset": "111D5EC",
+          "on": "E9AF21DF03",
+          "off": "6641890409"
         }
       ]
     },
@@ -161,6 +129,38 @@
           "offset": "1054D26",
           "on": "E9B5ADEB039090",
           "off": "83C17444893C0A"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Subchip (battle network 3)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4F0FB30",
+          "on": "4103570841C604100AE9094448FC",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "1393F3F",
+          "on": "E9ECBBB703909090",
+          "off": "4103570841880C10"
+        }
+      ]
+    },
+    {
+      "name": "Max Bugfrag (battle network 3)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4F0FBB0",
+          "on": "83C178C7040AFFE0F505E9DE5814FC",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "1055496",
+          "on": "E915A7EB039090",
+          "off": "83C17844893C0A"
         }
       ]
     }

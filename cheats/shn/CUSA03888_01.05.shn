@@ -2,20 +2,20 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Styx: Shards of Darkness" Moder="Ali-mk" Cusa="CUSA03888" Version="01.05" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite-Amber-energy">
-    <Cheatline>
-      <Offset>2B532C</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>C5-FA-11-87-E0-03-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite-Health">
     <Cheatline>
       <Offset>2B52FC</Offset>
       <Section>0</Section>
       <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
       <ValueOff>C5-FA-11-87-DC-03-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite-Amber-energy">
+    <Cheatline>
+      <Offset>2B532C</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-87-E0-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="MAX + All-Items + Inf-(999)">

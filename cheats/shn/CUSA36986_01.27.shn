@@ -3,20 +3,6 @@
   <Genres Name="Action" />
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Infinite Buffs">
-    <Cheatline>
-      <Offset>399E5E0</Offset>
-      <Section>0</Section>
-      <ValueOn>41-C7-87-88-00-00-00-00-00-FA-44-E9-29-F2-B2-FC</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>4CD810</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-CB-0D-4D-03-90-90-90-90</ValueOn>
-      <ValueOff>C4-C1-7A-11-87-88-00-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite Health">
     <Cheatline>
       <Offset>399FDB0</Offset>
@@ -31,6 +17,20 @@
       <ValueOff>C4-C1-7C-11-47-10</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="Max/Infinite Dragon Cure Potion">
+    <Cheatline>
+      <Offset>399FA20</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-80-ED-C0-00-00-63-00-00-00-E9-E1-62-9D-FD</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>1375D0A</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-11-9D-62-02-90</ValueOn>
+      <ValueOff>88-88-ED-C0-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Infinite Throwables/Items">
     <Cheatline>
       <Offset>399F7E0</Offset>
@@ -43,6 +43,20 @@
       <Section>0</Section>
       <ValueOn>E9-25-16-A1-02</ValueOn>
       <ValueOff>29-77-08-89-F0</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Instant Infinite Divine Beast Gauge (Hit Enemy)">
+    <Cheatline>
+      <Offset>399F750</Offset>
+      <Section>0</Section>
+      <ValueOn>41-C7-44-24-50-00-00-7A-44-E9-26-52-BD-FC</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>57497D</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-CE-AD-42-03-90-90</ValueOn>
+      <ValueOff>C4-C1-78-11-44-24-50</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Tiger Beast Gauge">
@@ -81,20 +95,6 @@
       <ValueOff>89-B4-81-E8-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Infinite Divine Beast Gauge (Hit Enemy)">
-    <Cheatline>
-      <Offset>399F750</Offset>
-      <Section>0</Section>
-      <ValueOn>41-C7-44-24-50-00-00-7A-44-E9-26-52-BD-FC</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>57497D</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-CE-AD-42-03-90-90</ValueOn>
-      <ValueOff>C4-C1-78-11-44-24-50</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Max Moral">
     <Cheatline>
       <Offset>399F2C0</Offset>
@@ -107,6 +107,20 @@
       <Section>0</Section>
       <ValueOn>E9-C5-22-46-03</ValueOn>
       <ValueOff>41-89-4C-24-10</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Buffs">
+    <Cheatline>
+      <Offset>399E5E0</Offset>
+      <Section>0</Section>
+      <ValueOn>41-C7-87-88-00-00-00-00-00-FA-44-E9-29-F2-B2-FC</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>4CD810</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-CB-0D-4D-03-90-90-90-90</ValueOn>
+      <ValueOff>C4-C1-7A-11-87-88-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max/Infinite Accolades On Buy">
@@ -135,20 +149,6 @@
       <Section>0</Section>
       <ValueOn>E9-1D-6C-62-02-90</ValueOn>
       <ValueOff>0F-42-F1-89-70-10</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Max/Infinite Dragon Cure Potion">
-    <Cheatline>
-      <Offset>399FA20</Offset>
-      <Section>0</Section>
-      <ValueOn>C7-80-ED-C0-00-00-63-00-00-00-E9-E1-62-9D-FD</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>1375D0A</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-11-9D-62-02-90</ValueOn>
-      <ValueOff>88-88-ED-C0-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max/Infinite Genuine Qi (Gain/Use)">

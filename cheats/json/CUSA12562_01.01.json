@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Invincible\u002Bpower=no-Weapon",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2F6822",
+          "on": "909090909090",
+          "off": "FF90F0000000"
+        }
+      ]
+    },
+    {
       "name": "Infinite-Health",
       "type": "checkbox",
       "memory": [
@@ -23,17 +34,6 @@
           "offset": "415B5D",
           "on": "90909090",
           "off": "41885E2C"
-        }
-      ]
-    },
-    {
-      "name": "Invincible\u002Bpower=no-Weapon",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2F6822",
-          "on": "909090909090",
-          "off": "FF90F0000000"
         }
       ]
     }

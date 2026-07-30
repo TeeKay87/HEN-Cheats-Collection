@@ -4,6 +4,14 @@
   <Genres Name="Adventure" />
   <Genres Name="Fighting" />
   <Items />
+  <Cheat Text="Infinite Health">
+    <Cheatline>
+      <Offset>3550C03</Offset>
+      <Section>0</Section>
+      <ValueOn>89-C1-90</ValueOn>
+      <ValueOff>0F-4E-C8</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="1 Hit Kill">
     <Cheatline>
       <Offset>35359EC</Offset>
@@ -18,14 +26,6 @@
       <ValueOff>79-7C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="21 Skillpoints / Kill">
-    <Cheatline>
-      <Offset>3D77C10</Offset>
-      <Section>0</Section>
-      <ValueOn>66-41-C7-83-14-01-00-00-FF-FF</ValueOn>
-      <ValueOff>45-29-E7-41-89-B3-14-01-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite Arrows">
     <Cheatline>
       <Offset>3A3E529</Offset>
@@ -34,12 +34,12 @@
       <ValueOff>29-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="21 Skillpoints / Kill">
     <Cheatline>
-      <Offset>3550C03</Offset>
+      <Offset>3D77C10</Offset>
       <Section>0</Section>
-      <ValueOn>89-C1-90</ValueOn>
-      <ValueOff>0F-4E-C8</ValueOff>
+      <ValueOn>66-41-C7-83-14-01-00-00-FF-FF</ValueOn>
+      <ValueOff>45-29-E7-41-89-B3-14-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max Money">

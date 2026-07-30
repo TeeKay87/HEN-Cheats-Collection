@@ -2,6 +2,20 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="FIFA 18" Moder="Wander FW9.00" Cusa="CUSA07994" Version="01.10" Process="eboot.bin">
   <Genres Name="Sports" />
   <Items />
+  <Cheat Text="Max Score (in Training) (Journey Mode)">
+    <Cheatline>
+      <Offset>6C9B940</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-86-58-84-02-00-7F-96-98-00-E9-EC-5F-84-FC</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>34E1935</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-06-A0-7B-03-90</ValueOn>
+      <ValueOff>01-96-58-84-02-00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Infinite Skill Points (Journey Mode)">
     <Cheatline>
       <Offset>6C9B9B0</Offset>
@@ -28,20 +42,6 @@
       <Section>0</Section>
       <ValueOn>E9-B7-6E-72-01-90-90</ValueOn>
       <ValueOff>48-8B-54-35-88-89-02</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Max Score (in Training) (Journey Mode)">
-    <Cheatline>
-      <Offset>6C9B940</Offset>
-      <Section>0</Section>
-      <ValueOn>C7-86-58-84-02-00-7F-96-98-00-E9-EC-5F-84-FC</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>34E1935</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-06-A0-7B-03-90</ValueOn>
-      <ValueOff>01-96-58-84-02-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

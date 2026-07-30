@@ -5,23 +5,23 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Items / Ammo ( added after use )",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "272910",
-          "on": "44016838",
-          "off": "44296838"
-        }
-      ]
-    },
-    {
       "name": "Infinite Items / Ammo ( does not deduct any value )",
       "type": "checkbox",
       "memory": [
         {
           "offset": "272910",
           "on": "90909090",
+          "off": "44296838"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Items / Ammo ( added after use )",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "272910",
+          "on": "44016838",
           "off": "44296838"
         }
       ]

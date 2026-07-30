@@ -5,22 +5,22 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-Bomb-99",
+      "name": "Infinite-lives-99",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "807FE932F2",
+          "offset": "807FE93218",
           "on": "63",
           "off": "63"
         }
       ]
     },
     {
-      "name": "Infinite-lives-99",
+      "name": "Infinite-Bomb-99",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "807FE93218",
+          "offset": "807FE932F2",
           "on": "63",
           "off": "63"
         }

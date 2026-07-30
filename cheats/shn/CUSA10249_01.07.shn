@@ -17,6 +17,14 @@
       <ValueOff>80-B8-A1-3A-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="Show All Dev Menu Details">
+    <Cheatline>
+      <Offset>252BAB</Offset>
+      <Section>0</Section>
+      <ValueOn>41-BC-01-00-00-00-90</ValueOn>
+      <ValueOff>44-8B-A0-B4-3A-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Hide All Dev Menu Details">
     <Cheatline>
       <Offset>252B8A</Offset>
@@ -31,14 +39,6 @@
       <Section>0</Section>
       <ValueOn>90-90-90-90-90-90-90</ValueOn>
       <ValueOff>41-FF-8E-14-08-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Show All Dev Menu Details">
-    <Cheatline>
-      <Offset>252BAB</Offset>
-      <Section>0</Section>
-      <ValueOn>41-BC-01-00-00-00-90</ValueOn>
-      <ValueOff>44-8B-A0-B4-3A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Enable Dev Menu">

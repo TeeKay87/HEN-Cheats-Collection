@@ -27,6 +27,17 @@
       ]
     },
     {
+      "name": "Infinite Throwables",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1FE2B1F",
+          "on": "90909090",
+          "off": "44897B78"
+        }
+      ]
+    },
+    {
       "name": "Infinite Cash",
       "type": "checkbox",
       "memory": [
@@ -49,28 +60,6 @@
       ]
     },
     {
-      "name": "Infinite Syringes",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1306FFD",
-          "on": "90909090909090",
-          "off": "418987C0000000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Throwables",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1FE2B1F",
-          "on": "90909090",
-          "off": "44897B78"
-        }
-      ]
-    },
-    {
       "name": "Infinite XP",
       "type": "checkbox",
       "memory": [
@@ -78,6 +67,17 @@
           "offset": "C8D182",
           "on": "9090909090",
           "off": "412944246C"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Syringes",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1306FFD",
+          "on": "90909090909090",
+          "off": "418987C0000000"
         }
       ]
     }

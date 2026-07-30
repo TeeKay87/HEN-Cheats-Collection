@@ -21,6 +21,70 @@
       ]
     },
     {
+      "name": "Infinite Oxygen",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "587EB80",
+          "on": "41C785680A0000003C1C46E9411411FB",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "98FFC8",
+          "on": "E9B3EBEE0490909090",
+          "off": "C4C17A1185680A0000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "587EBD0",
+          "on": "6681FCB0A2740AC5FA10470CE9B892ADFAC74708003C1C46C7470C003C1C46E9A592ADFA",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "357E94",
+          "on": "E9376D5205",
+          "off": "C5FA10470C"
+        }
+      ]
+    },
+    {
+      "name": "Max Level on Gain",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "587E8F0",
+          "on": "41C786500400007F969800E9F24B1FFB",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "A734EB",
+          "on": "E900B4E0049090",
+          "off": "41898650040000"
+        }
+      ]
+    },
+    {
+      "name": "9,999,999 Protein on Gain",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "587E780",
+          "on": "41C786400400007F969800E9754C1FFB",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "A733FE",
+          "on": "E97DB3E0049090",
+          "off": "41898640040000"
+        }
+      ]
+    },
+    {
       "name": "9,999,999 Fats on Gain",
       "type": "checkbox",
       "memory": [
@@ -69,22 +133,6 @@
       ]
     },
     {
-      "name": "9,999,999 Protein on Gain",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "587E780",
-          "on": "41C786400400007F969800E9754C1FFB",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "A733FE",
-          "on": "E97DB3E0049090",
-          "off": "41898640040000"
-        }
-      ]
-    },
-    {
       "name": "Faster Game Speed",
       "type": "button",
       "memory": [
@@ -113,54 +161,6 @@
           "offset": "ACB074",
           "on": "E9273CDB04909090",
           "off": "C5FA1087AC040000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "587EBD0",
-          "on": "6681FCB0A2740AC5FA10470CE9B892ADFAC74708003C1C46C7470C003C1C46E9A592ADFA",
-          "off": "000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "357E94",
-          "on": "E9376D5205",
-          "off": "C5FA10470C"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Oxygen",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "587EB80",
-          "on": "41C785680A0000003C1C46E9411411FB",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "98FFC8",
-          "on": "E9B3EBEE0490909090",
-          "off": "C4C17A1185680A0000"
-        }
-      ]
-    },
-    {
-      "name": "Max Level on Gain",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "587E8F0",
-          "on": "41C786500400007F969800E9F24B1FFB",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "A734EB",
-          "on": "E900B4E0049090",
-          "off": "41898650040000"
         }
       ]
     }

@@ -5,259 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "(Dante) 1 Hit Kill (Enable MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8A47F46",
-          "on": "750B",
-          "off": "750E"
-        }
-      ]
-    },
-    {
-      "name": "(Dante) Infinite Health (Enable MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8A47F48",
-          "on": "909090909090",
-          "off": "C4C17A114610"
-        }
-      ]
-    },
-    {
-      "name": "(Dante) Infinite Health/1 Hit Kill (Master Code)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8A47F40",
-          "on": "664181FAC0D2750EC4C17A114610E97DEB55F90F57C0C4C17A114610E96FEB55F943656C6F67616D657A5F392E3030",
-          "off": "000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "1FA6ACA",
-          "on": "E97114AA0690",
-          "off": "C4C17A114610"
-        }
-      ]
-    },
-    {
-      "name": "(Dante) Infinite Royal Release",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5DB70",
-          "on": "90E9254BF282",
-          "off": "000000000000"
-        },
-        {
-          "offset": "2B82694",
-          "on": "E9D7B40D7D9090",
-          "off": "C7402800000000"
-        }
-      ]
-    },
-    {
-      "name": "(Dante) Infinite Royal Revenge",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5DE10",
-          "on": "C740280060EA46E91D52F282",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "2B83034",
-          "on": "E9D7AD0D7D",
-          "off": "C5FA114028"
-        }
-      ]
-    },
-    {
-      "name": "(Dante) Instant Fill Royal Guard",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5D5D0",
-          "on": "C740280060EA46E91B64F282",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "2B839F2",
-          "on": "E9D99B0D7D",
-          "off": "C5FA114028"
-        }
-      ]
-    },
-    {
-      "name": "(Dante) Max/Infinite Devil Triger",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5E7B0",
-          "on": "C783141A000000401C46E9E08EF382",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "2B97697",
-          "on": "E914710C7D909090",
-          "off": "C5FA1183141A0000"
-        }
-      ]
-    },
-    {
-      "name": "(Nero) 1 Hit Kill (Enable MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8A47E76",
-          "on": "750B",
-          "off": "750E"
-        }
-      ]
-    },
-    {
-      "name": "(Nero) Devil Breakers Equipment x999 (Buy In Shop)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5DB90",
-          "on": "0F4FCEC7449020E7030000E9033BFF82",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "2C5169C",
-          "on": "E9EFC4007D9090",
-          "off": "0F4FCE894C9020"
-        }
-      ]
-    },
-    {
-      "name": "(Nero) Infinite Bullets",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5EDB0",
-          "on": "B80600000041898720030000E9381B5082",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "21608F2",
-          "on": "E9B9E4AF7D9090",
-          "off": "41898720030000"
-        }
-      ]
-    },
-    {
-      "name": "(Nero) Infinite Devil Breakers",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5CB80",
-          "on": "41BE070000004489B3CC170000E93FB9F083",
-          "off": "000000000000000000000000000000000000"
-        },
-        {
-          "offset": "3B684CA",
-          "on": "E9B1460F7C9090",
-          "off": "4489B3CC170000"
-        }
-      ]
-    },
-    {
-      "name": "(Nero) Infinite Exceed",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5FAA0",
-          "on": "FFCABA03000000E98A31F183",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "3B72C31",
-          "on": "E96ACE0E7C",
-          "off": "FFCA895018"
-        }
-      ]
-    },
-    {
-      "name": "(Nero) Infinite Health (Enable MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8A47E78",
-          "on": "909090909090",
-          "off": "C4C17A114610"
-        }
-      ]
-    },
-    {
-      "name": "(Nero) Infinite Health/1 Hit Kill (Master Code)",
+      "name": "(Virgil) Infinite Health/1 Hit Kill (Master Code)",
       "type": "checkbox",
       "memory": [
         {
           "offset": "8A47E70",
-          "on": "664181FA28FB750EC4C17A114610E94DEC55F90F57C0C4C17A114610E93FEC55F943656C6F67616D657A5F392E3030",
+          "on": "664181FAD0EB750EC4C17A114610E94DEC55F90F57C0C4C17A114610E93FEC55F943656C6F67616D657A5F392E3030",
           "off": "000000000000000000000000000000000000000000000000000000000000000000"
         },
         {
           "offset": "1FA6ACA",
           "on": "E9A113AA0690",
-          "off": "C4C17A114610"
-        }
-      ]
-    },
-    {
-      "name": "(Nero) Instant Fill Exceed",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5DB90",
-          "on": "FFC1B90300000041894E18E9DA355B82",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "2211174",
-          "on": "E917CAA47D90",
-          "off": "FFC141894E18"
-        }
-      ]
-    },
-    {
-      "name": "(V) 1 Hit Kill (Enable MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8A47BA6",
-          "on": "750B",
-          "off": "750E"
-        }
-      ]
-    },
-    {
-      "name": "(V) Infinite Health (Enable MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8A47BA8",
-          "on": "909090909090",
-          "off": "C4C17A114610"
-        }
-      ]
-    },
-    {
-      "name": "(V) Infinite Health/1 Hit Kill (Master Code)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8A47BA0",
-          "on": "664181FA90F0750EC4C17A114610E91DEF55F90F57C0C4C17A114610E90FEF55F943656C6F67616D657A5F392E3030",
-          "off": "000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "1FA6ACA",
-          "on": "E9D110AA0690",
           "off": "C4C17A114610"
         }
       ]
@@ -274,18 +32,13 @@
       ]
     },
     {
-      "name": "(Virgil) Infinite Health/1 Hit Kill (Master Code)",
+      "name": "(Virgil) 1 Hit Kill (Enable MC)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "8A47E70",
-          "on": "664181FAD0EB750EC4C17A114610E94DEC55F90F57C0C4C17A114610E93FEC55F943656C6F67616D657A5F392E3030",
-          "off": "000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "1FA6ACA",
-          "on": "E9A113AA0690",
-          "off": "C4C17A114610"
+          "offset": "8A47E76",
+          "on": "750B",
+          "off": "750E"
         }
       ]
     },
@@ -322,6 +75,253 @@
       ]
     },
     {
+      "name": "(Nero) Infinite Health/1 Hit Kill (Master Code)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8A47E70",
+          "on": "664181FA28FB750EC4C17A114610E94DEC55F90F57C0C4C17A114610E93FEC55F943656C6F67616D657A5F392E3030",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1FA6ACA",
+          "on": "E9A113AA0690",
+          "off": "C4C17A114610"
+        }
+      ]
+    },
+    {
+      "name": "(Nero) Infinite Health (Enable MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8A47E78",
+          "on": "909090909090",
+          "off": "C4C17A114610"
+        }
+      ]
+    },
+    {
+      "name": "(Nero) Devil Breakers Equipment x999 (Buy In Shop)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5DB90",
+          "on": "0F4FCEC7449020E7030000E9033BFF82",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "2C5169C",
+          "on": "E9EFC4007D9090",
+          "off": "0F4FCE894C9020"
+        }
+      ]
+    },
+    {
+      "name": "(Nero) Infinite Devil Breakers",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5CB80",
+          "on": "41BE070000004489B3CC170000E93FB9F083",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "3B684CA",
+          "on": "E9B1460F7C9090",
+          "off": "4489B3CC170000"
+        }
+      ]
+    },
+    {
+      "name": "(Nero) Infinite Exceed",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5FAA0",
+          "on": "FFCABA03000000E98A31F183",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "3B72C31",
+          "on": "E96ACE0E7C",
+          "off": "FFCA895018"
+        }
+      ]
+    },
+    {
+      "name": "(Nero) Instant Fill Exceed",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5DB90",
+          "on": "FFC1B90300000041894E18E9DA355B82",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "2211174",
+          "on": "E917CAA47D90",
+          "off": "FFC141894E18"
+        }
+      ]
+    },
+    {
+      "name": "(Nero) Infinite Bullets",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5EDB0",
+          "on": "B80600000041898720030000E9381B5082",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "21608F2",
+          "on": "E9B9E4AF7D9090",
+          "off": "41898720030000"
+        }
+      ]
+    },
+    {
+      "name": "(V) Infinite Health/1 Hit Kill (Master Code)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8A47BA0",
+          "on": "664181FA90F0750EC4C17A114610E91DEF55F90F57C0C4C17A114610E90FEF55F943656C6F67616D657A5F392E3030",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1FA6ACA",
+          "on": "E9D110AA0690",
+          "off": "C4C17A114610"
+        }
+      ]
+    },
+    {
+      "name": "(V) Infinite Health (Enable MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8A47BA8",
+          "on": "909090909090",
+          "off": "C4C17A114610"
+        }
+      ]
+    },
+    {
+      "name": "(V) 1 Hit Kill (Enable MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8A47BA6",
+          "on": "750B",
+          "off": "750E"
+        }
+      ]
+    },
+    {
+      "name": "(Dante) Infinite Health/1 Hit Kill (Master Code)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8A47F40",
+          "on": "664181FAC0D2750EC4C17A114610E97DEB55F90F57C0C4C17A114610E96FEB55F943656C6F67616D657A5F392E3030",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1FA6ACA",
+          "on": "E97114AA0690",
+          "off": "C4C17A114610"
+        }
+      ]
+    },
+    {
+      "name": "(Dante) Infinite Health (Enable MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8A47F48",
+          "on": "909090909090",
+          "off": "C4C17A114610"
+        }
+      ]
+    },
+    {
+      "name": "(Dante) 1 Hit Kill (Enable MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8A47F46",
+          "on": "750B",
+          "off": "750E"
+        }
+      ]
+    },
+    {
+      "name": "(Dante) Infinite Royal Revenge",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5DE10",
+          "on": "C740280060EA46E91D52F282",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "2B83034",
+          "on": "E9D7AD0D7D",
+          "off": "C5FA114028"
+        }
+      ]
+    },
+    {
+      "name": "(Dante) Instant Fill Royal Guard",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5D5D0",
+          "on": "C740280060EA46E91B64F282",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "2B839F2",
+          "on": "E9D99B0D7D",
+          "off": "C5FA114028"
+        }
+      ]
+    },
+    {
+      "name": "(Dante) Infinite Royal Release",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5DB70",
+          "on": "90E9254BF282",
+          "off": "000000000000"
+        },
+        {
+          "offset": "2B82694",
+          "on": "E9D7B40D7D9090",
+          "off": "C7402800000000"
+        }
+      ]
+    },
+    {
+      "name": "(Dante) Max/Infinite Devil Triger",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5E7B0",
+          "on": "C783141A000000401C46E9E08EF382",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "2B97697",
+          "on": "E914710C7D909090",
+          "off": "C5FA1183141A0000"
+        }
+      ]
+    },
+    {
       "name": "Max/Infinite Devil Triger Bar",
       "type": "checkbox",
       "memory": [
@@ -334,22 +334,6 @@
           "offset": "268A674",
           "on": "E9A7375D7D909090",
           "off": "C5FA118310110000"
-        }
-      ]
-    },
-    {
-      "name": "Max/Infinite Gold Orbs On Gain Or Buy",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5FB00",
-          "on": "41C784249800000063000000E981710D81",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "D36C8A",
-          "on": "E9718EF27E909090",
-          "off": "4101842498000000"
         }
       ]
     },
@@ -386,6 +370,22 @@
           "offset": "D2FAD5",
           "on": "E926EBF27E",
           "off": "4189442464"
+        }
+      ]
+    },
+    {
+      "name": "Max/Infinite Gold Orbs On Gain Or Buy",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5FB00",
+          "on": "41C784249800000063000000E981710D81",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "D36C8A",
+          "on": "E9718EF27E909090",
+          "off": "4101842498000000"
         }
       ]
     },

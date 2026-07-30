@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf HP",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "686F819",
-          "on": "90E9817899FA",
-          "off": "000000000000"
-        },
-        {
-          "offset": "1207097",
-          "on": "E97D87660590909090",
-          "off": "C4C17A1186BC000000"
-        }
-      ]
-    },
-    {
       "name": "Inf Stamina",
       "type": "checkbox",
       "memory": [
@@ -33,6 +17,22 @@
           "offset": "1215754",
           "on": "E9A7A06505909090",
           "off": "C5FA11930C010000"
+        }
+      ]
+    },
+    {
+      "name": "Inf HP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "686F819",
+          "on": "90E9817899FA",
+          "off": "000000000000"
+        },
+        {
+          "offset": "1207097",
+          "on": "E97D87660590909090",
+          "off": "C4C17A1186BC000000"
         }
       ]
     }

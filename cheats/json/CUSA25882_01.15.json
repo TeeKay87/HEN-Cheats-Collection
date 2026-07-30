@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Attribute points(on use)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FE9D7C0",
-          "on": "66C78358050000E703E957832582",
-          "off": "0000000000000000000000000000"
-        },
-        {
-          "offset": "20F5B1F",
-          "on": "E99C7CDA7D90",
-          "off": "898B58050000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -33,6 +17,22 @@
           "offset": "F968D7",
           "on": "E9B476F07E",
           "off": "C5FA115B10"
+        }
+      ]
+    },
+    {
+      "name": "Attribute points(on use)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FE9D7C0",
+          "on": "66C78358050000E703E957832582",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "20F5B1F",
+          "on": "E99C7CDA7D90",
+          "off": "898B58050000"
         }
       ]
     }

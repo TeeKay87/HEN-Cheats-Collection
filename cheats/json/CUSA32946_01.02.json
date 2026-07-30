@@ -21,22 +21,6 @@
       ]
     },
     {
-      "name": "Infinite Lives",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5FA60",
-          "on": "90E962329400",
-          "off": "000000000000"
-        },
-        {
-          "offset": "805A2CC2",
-          "on": "E999CD6BFF90",
-          "off": "FF8B94000000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Super",
       "type": "checkbox",
       "memory": [
@@ -54,6 +38,22 @@
           "offset": "2DAD80",
           "on": "9090",
           "off": "29C3"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Lives",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5FA60",
+          "on": "90E962329400",
+          "off": "000000000000"
+        },
+        {
+          "offset": "805A2CC2",
+          "on": "E999CD6BFF90",
+          "off": "FF8B94000000"
         }
       ]
     }

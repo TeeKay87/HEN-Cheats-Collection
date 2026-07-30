@@ -21,17 +21,6 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "B52544",
-          "on": "90909090909090",
-          "off": "41898714030000"
-        }
-      ]
-    },
-    {
       "name": "No Reload",
       "type": "checkbox",
       "memory": [
@@ -39,6 +28,17 @@
           "offset": "B0C038",
           "on": "909090909090",
           "off": "298210030000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B52544",
+          "on": "90909090909090",
+          "off": "41898714030000"
         }
       ]
     },
@@ -59,17 +59,6 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "752544",
-          "on": "90909090909090",
-          "off": "41898714030000"
-        }
-      ]
-    },
-    {
       "name": "No Reload",
       "type": "checkbox",
       "memory": [
@@ -77,6 +66,17 @@
           "offset": "70C038",
           "on": "909090909090",
           "off": "298210030000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "752544",
+          "on": "90909090909090",
+          "off": "41898714030000"
         }
       ]
     }

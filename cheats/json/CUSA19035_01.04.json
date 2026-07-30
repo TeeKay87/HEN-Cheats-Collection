@@ -5,18 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Jumps",
+      "name": "Max Apples on Gain",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "6B5D620",
-          "on": "C6833803000000E92AD363F9",
-          "off": "000000000000000000000000"
+          "offset": "6B781E0",
+          "on": "45038D0404000045018D00040000E9563D1EFA",
+          "off": "00000000000000000000000000000000000000"
         },
         {
-          "offset": "19A950",
-          "on": "E9CB2C9C0690",
-          "off": "8B8338030000"
+          "offset": "D5BF42",
+          "on": "E999C2E1059090",
+          "off": "45018D00040000"
         }
       ]
     },
@@ -37,34 +37,18 @@
       ]
     },
     {
-      "name": "Max Apples on Gain",
+      "name": "Infinite Jumps",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "6B781E0",
-          "on": "45038D0404000045018D00040000E9563D1EFA",
-          "off": "00000000000000000000000000000000000000"
+          "offset": "6B5D620",
+          "on": "C6833803000000E92AD363F9",
+          "off": "000000000000000000000000"
         },
         {
-          "offset": "D5BF42",
-          "on": "E999C2E1059090",
-          "off": "45018D00040000"
-        }
-      ]
-    },
-    {
-      "name": "Max Boxes and Apples",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "6757870",
-          "on": "66C787E80200003F42E9F49A68FA",
-          "off": "0000000000000000000000000000"
-        },
-        {
-          "offset": "DE136C",
-          "on": "E9FF64970590",
-          "off": "89B7E8020000"
+          "offset": "19A950",
+          "on": "E9CB2C9C0690",
+          "off": "8B8338030000"
         }
       ]
     },
@@ -81,6 +65,22 @@
           "offset": "2C87FC4",
           "on": "E9B7CAEF03",
           "off": "C5FA1145A0"
+        }
+      ]
+    },
+    {
+      "name": "Max Boxes and Apples",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6757870",
+          "on": "66C787E80200003F42E9F49A68FA",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "DE136C",
+          "on": "E9FF64970590",
+          "off": "89B7E8020000"
         }
       ]
     }

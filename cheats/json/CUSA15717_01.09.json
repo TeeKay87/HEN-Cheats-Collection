@@ -5,70 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Always Wanted",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7CD70C0",
-          "on": "C5FA10050C000000C5FA114740E93EC2B5F89090",
-          "off": "C5FA10050C000000C5FA114740E93EC2B5F89090"
-        },
-        {
-          "offset": "83330B",
-          "on": "E9B03D4A07",
-          "off": "C5FA114740"
-        },
-        {
-          "offset": "7CD70D4",
-          "on": "0000F042",
-          "off": "0000F042"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Ammo/Throwables",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "133B1F3",
-          "on": "83E800",
-          "off": "4429F0"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Sprint",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "382E380",
-          "on": "909090909090",
-          "off": "FF9070050000"
-        }
-      ]
-    },
-    {
-      "name": "Never Wanted",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7CD70C0",
-          "on": "C5FA10050C000000C5FA114740E93EC2B5F89090",
-          "off": "C5FA10050C000000C5FA114740E93EC2B5F89090"
-        },
-        {
-          "offset": "83330B",
-          "on": "E9B03D4A07",
-          "off": "C5FA114740"
-        },
-        {
-          "offset": "7CD70D4",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
       "name": "No Damage",
       "type": "checkbox",
       "memory": [
@@ -95,13 +31,40 @@
       ]
     },
     {
-      "name": "No Recoil",
+      "name": "Infinite Sprint",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "4C830EA",
-          "on": "9090909090",
-          "off": "E8A1561100"
+          "offset": "382E380",
+          "on": "909090909090",
+          "off": "FF9070050000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo/Throwables",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "133B1F3",
+          "on": "83E800",
+          "off": "4429F0"
+        }
+      ]
+    },
+    {
+      "name": "One-hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7CD7030",
+          "on": "669C81FD60A4CCEE740AC5FA108560FFFFFFEB0CC5F857C0C5FA118560FFFFFF669DE9D559B4FB90",
+          "off": "669C81FD60A4CCEE740AC5FA108560FFFFFFEB0CC5F857C0C5FA118560FFFFFF669DE9D559B4FB90"
+        },
+        {
+          "offset": "381CA24",
+          "on": "E907A64B04909090",
+          "off": "C5FA108560FFFFFF"
         }
       ]
     },
@@ -133,18 +96,13 @@
       ]
     },
     {
-      "name": "One-hit Kill",
+      "name": "No Recoil",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7CD7030",
-          "on": "669C81FD60A4CCEE740AC5FA108560FFFFFFEB0CC5F857C0C5FA118560FFFFFF669DE9D559B4FB90",
-          "off": "669C81FD60A4CCEE740AC5FA108560FFFFFFEB0CC5F857C0C5FA118560FFFFFF669DE9D559B4FB90"
-        },
-        {
-          "offset": "381CA24",
-          "on": "E907A64B04909090",
-          "off": "C5FA108560FFFFFF"
+          "offset": "4C830EA",
+          "on": "9090909090",
+          "off": "E8A1561100"
         }
       ]
     },
@@ -207,45 +165,44 @@
       ]
     },
     {
-      "name": "Infinite Ammo/Medkits/Throwables",
+      "name": "Never Wanted",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "133B1F6",
-          "on": "8B4354",
-          "off": "8B4354"
+          "offset": "7CD70C0",
+          "on": "C5FA10050C000000C5FA114740E93EC2B5F89090",
+          "off": "C5FA10050C000000C5FA114740E93EC2B5F89090"
+        },
+        {
+          "offset": "83330B",
+          "on": "E9B03D4A07",
+          "off": "C5FA114740"
+        },
+        {
+          "offset": "7CD70D4",
+          "on": "00000000",
+          "off": "00000000"
         }
       ]
     },
     {
-      "name": "Infinite Breath",
+      "name": "Always Wanted",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7CD7E30",
-          "on": "31D290E97467B5FB",
-          "off": "0000000000000000"
+          "offset": "7CD70C0",
+          "on": "C5FA10050C000000C5FA114740E93EC2B5F89090",
+          "off": "C5FA10050C000000C5FA114740E93EC2B5F89090"
         },
         {
-          "offset": "382E5A7",
-          "on": "E984984A04",
-          "off": "31D2FF5040"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Endurance",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7CD7E10",
-          "on": "C5FA5FC190E95F65B5FB",
-          "off": "00000000000000000000"
+          "offset": "83330B",
+          "on": "E9B03D4A07",
+          "off": "C5FA114740"
         },
         {
-          "offset": "382E372",
-          "on": "E9999A4A049090",
-          "off": "C5FA5FC1FF5040"
+          "offset": "7CD70D4",
+          "on": "0000F042",
+          "off": "0000F042"
         }
       ]
     },
@@ -282,13 +239,45 @@
       ]
     },
     {
-      "name": "Max/Infinite Pesos/Materials/Resources/Uranium",
+      "name": "Infinite Endurance",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "133B179",
-          "on": "894354",
-          "off": "894B54"
+          "offset": "7CD7E10",
+          "on": "C5FA5FC190E95F65B5FB",
+          "off": "00000000000000000000"
+        },
+        {
+          "offset": "382E372",
+          "on": "E9999A4A049090",
+          "off": "C5FA5FC1FF5040"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Breath",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7CD7E30",
+          "on": "31D290E97467B5FB",
+          "off": "0000000000000000"
+        },
+        {
+          "offset": "382E5A7",
+          "on": "E984984A04",
+          "off": "31D2FF5040"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo/Medkits/Throwables",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "133B1F6",
+          "on": "8B4354",
+          "off": "8B4354"
         }
       ]
     },
@@ -300,6 +289,17 @@
           "offset": "4C4F703",
           "on": "6689837C010000",
           "off": "4489B37C010000"
+        }
+      ]
+    },
+    {
+      "name": "Max/Infinite Pesos/Materials/Resources/Uranium",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "133B179",
+          "on": "894354",
+          "off": "894B54"
         }
       ]
     }

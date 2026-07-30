@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "012F89B7",
+          "on": "90909090",
+          "off": "488914C1"
+        }
+      ]
+    },
+    {
       "name": "Infinite Ammo",
       "type": "checkbox",
       "memory": [
@@ -21,13 +32,13 @@
       ]
     },
     {
-      "name": "Infinite Bandages",
+      "name": "Infinite Items",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "012E95FD",
-          "on": "9090",
-          "off": "29D0"
+          "offset": "012E95B0",
+          "on": "C3",
+          "off": "55"
         }
       ]
     },
@@ -39,17 +50,6 @@
           "offset": "0157CD8D",
           "on": "90909090",
           "off": "C5F82EC1"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Items",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "012E95B0",
-          "on": "C3",
-          "off": "55"
         }
       ]
     },
@@ -76,13 +76,13 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
+      "name": "Infinite Bandages",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "012F89B7",
-          "on": "90909090",
-          "off": "488914C1"
+          "offset": "012E95FD",
+          "on": "9090",
+          "off": "29D0"
         }
       ]
     }

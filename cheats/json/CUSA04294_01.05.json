@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Money (Duplicate x2)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "184BFBF",
+          "on": "48014818",
+          "off": "48894818"
+        }
+      ]
+    },
+    {
       "name": "Infinite Ammo",
       "type": "checkbox",
       "memory": [
@@ -23,17 +34,6 @@
           "offset": "E3BE3C",
           "on": "9090909090",
           "off": "C5FA114774"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Money (Duplicate x2)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "184BFBF",
-          "on": "48014818",
-          "off": "48894818"
         }
       ]
     }

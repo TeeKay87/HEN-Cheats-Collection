@@ -16,6 +16,20 @@
       <ValueOff>C5-F8-2E-40-40</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="Perfect Vehicle Condition" Description="Perfect Vehicle Condition">
+    <Cheatline>
+      <Offset>19F3DD5</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-40-44-00-00-80-3F-C5-F8-2E-40-44-E9-91-5B-53-7F</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>80F29972</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-5E-A4-AC-80</ValueOn>
+      <ValueOff>C5-F8-2E-40-44</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Max Money" Description="Max Money">
     <Cheatline>
       <Offset>19F3DE6</Offset>
@@ -42,20 +56,6 @@
       <Section>0</Section>
       <ValueOn>E9-4E-9C-D4-80-90</ValueOn>
       <ValueOff>0F-4F-D0-89-53-7C</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Perfect Vehicle Condition" Description="Perfect Vehicle Condition">
-    <Cheatline>
-      <Offset>19F3DD5</Offset>
-      <Section>0</Section>
-      <ValueOn>C7-40-44-00-00-80-3F-C5-F8-2E-40-44-E9-91-5B-53-7F</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>80F29972</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-5E-A4-AC-80</ValueOn>
-      <ValueOff>C5-F8-2E-40-44</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

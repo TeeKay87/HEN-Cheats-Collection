@@ -5,34 +5,24 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Freeze Money (for Pay N Spray/Ammu-Nation)",
+      "name": "Infinite Health (WIP/Experimental)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "F85F16",
-          "on": "909090909090",
-          "off": "89155CE52D05"
-        },
-        {
-          "offset": "F94E7D",
-          "on": "9090",
-          "off": "29D1"
+          "offset": "10F1775",
+          "on": "9090909090909090",
+          "off": "C5FA119320040000"
         }
       ]
     },
     {
-      "name": "Get $99.999.999 (Upon Mission Completion)",
+      "name": "Infinte Armour",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "57CFEC0",
-          "on": "C78410D8000000FFE0F505E981607DFB",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "FA5F4A",
-          "on": "E9719F82049090",
-          "off": "018C10D8000000"
+          "offset": "10F1624",
+          "on": "9090909090909090",
+          "off": "C5FA119324040000"
         }
       ]
     },
@@ -53,24 +43,34 @@
       ]
     },
     {
-      "name": "Infinite Health (WIP/Experimental)",
+      "name": "Get $99.999.999 (Upon Mission Completion)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "10F1775",
-          "on": "9090909090909090",
-          "off": "C5FA119320040000"
+          "offset": "57CFEC0",
+          "on": "C78410D8000000FFE0F505E981607DFB",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "FA5F4A",
+          "on": "E9719F82049090",
+          "off": "018C10D8000000"
         }
       ]
     },
     {
-      "name": "Infinte Armour",
+      "name": "Freeze Money (for Pay N Spray/Ammu-Nation)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "10F1624",
-          "on": "9090909090909090",
-          "off": "C5FA119324040000"
+          "offset": "F85F16",
+          "on": "909090909090",
+          "off": "89155CE52D05"
+        },
+        {
+          "offset": "F94E7D",
+          "on": "9090",
+          "off": "29D1"
         }
       ]
     }

@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Ignored by the Enemy (Enable MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5EC4972",
-          "on": "803D25FFFFFF00",
-          "off": "803D25FFFFFF01"
-        }
-      ]
-    },
-    {
       "name": "Master Code (MC)",
       "type": "checkbox",
       "memory": [
@@ -32,22 +21,6 @@
       ]
     },
     {
-      "name": "Max Coins",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5EC499C",
-          "on": "8B164983F80175204983F965751A4983FA6575144981FB06020000750B4983FD007505BA7F96980089175DE99C84EE79",
-          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "7FDACE63",
-          "on": "E9347B1186",
-          "off": "8B1689175D"
-        }
-      ]
-    },
-    {
       "name": "Max Health (Enable MC)",
       "type": "checkbox",
       "memory": [
@@ -55,17 +28,6 @@
           "offset": "5EC48BF",
           "on": "803DD8FFFFFF00",
           "off": "803DD8FFFFFF01"
-        }
-      ]
-    },
-    {
-      "name": "Max Mana (Enable MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5EC4954",
-          "on": "803D43FFFFFF00",
-          "off": "803D43FFFFFF01"
         }
       ]
     },
@@ -88,6 +50,44 @@
           "offset": "5EC4918",
           "on": "803D7FFFFFFF00",
           "off": "803D7FFFFFFF01"
+        }
+      ]
+    },
+    {
+      "name": "Max Mana (Enable MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5EC4954",
+          "on": "803D43FFFFFF00",
+          "off": "803D43FFFFFF01"
+        }
+      ]
+    },
+    {
+      "name": "Ignored by the Enemy (Enable MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5EC4972",
+          "on": "803D25FFFFFF00",
+          "off": "803D25FFFFFF01"
+        }
+      ]
+    },
+    {
+      "name": "Max Coins",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5EC499C",
+          "on": "8B164983F80175204983F965751A4983FA6575144981FB06020000750B4983FD007505BA7F96980089175DE99C84EE79",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "7FDACE63",
+          "on": "E9347B1186",
+          "off": "8B1689175D"
         }
       ]
     }

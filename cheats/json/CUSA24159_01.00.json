@@ -5,6 +5,22 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Health / 1 Hit (Master Code)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "60EA570",
+          "on": "807E363A750A8B467429D0E90F8AEBFA8B467029D0E9058AEBFAC7467000000000EBED",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "FA2F8A",
+          "on": "E9E1751405",
+          "off": "8B467029D0"
+        }
+      ]
+    },
+    {
       "name": "1 Hit Kill (MC)",
       "type": "checkbox",
       "memory": [
@@ -28,22 +44,6 @@
           "offset": "10981C1",
           "on": "E9DA24050590909090",
           "off": "C4C17A118650010000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health / 1 Hit (Master Code)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "60EA570",
-          "on": "807E363A750A8B467429D0E90F8AEBFA8B467029D0E9058AEBFAC7467000000000EBED",
-          "off": "0000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "FA2F8A",
-          "on": "E9E1751405",
-          "off": "8B467029D0"
         }
       ]
     },

@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Adrenaline Bar",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "26BB2CD",
-          "on": "9090909090",
-          "off": "E884000000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -27,7 +16,7 @@
       ]
     },
     {
-      "name": "Infinite Resources",
+      "name": "Infinite Silver",
       "type": "checkbox",
       "memory": [
         {
@@ -38,18 +27,13 @@
       ]
     },
     {
-      "name": "Infinite Abilites Bar (Enable only after unlock Ablities)",
+      "name": "Infinite Adrenaline Bar",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "65B7820",
-          "on": "418B9F4401000041899F40010000E9A63A10FC",
-          "off": "00000000000000000000000000000000000000"
-        },
-        {
-          "offset": "26BB2D2",
-          "on": "E949C5EF039090",
-          "off": "41899F40010000"
+          "offset": "26BB2CD",
+          "on": "9090909090",
+          "off": "E884000000"
         }
       ]
     },
@@ -66,6 +50,17 @@
           "offset": "26C5D48",
           "on": "E9531AEF03",
           "off": "39C80F4EC8"
+        }
+      ]
+    },
+    {
+      "name": "Stamina Instant Refill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2C013AE",
+          "on": "C4C17A104710",
+          "off": "C4C17A10470C"
         }
       ]
     },
@@ -102,13 +97,18 @@
       ]
     },
     {
-      "name": "Stamina Instant Refill",
+      "name": "Infinite Abilites Bar (Enable only after unlock Ablities)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "2C013AE",
-          "on": "C4C17A104710",
-          "off": "C4C17A10470C"
+          "offset": "65B7820",
+          "on": "418B9F4401000041899F40010000E9A63A10FC",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "26BB2D2",
+          "on": "E949C5EF039090",
+          "off": "41899F40010000"
         }
       ]
     }

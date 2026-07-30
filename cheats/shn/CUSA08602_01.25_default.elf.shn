@@ -2,14 +2,6 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Call of Duty: WWII" Moder="Saso" Cusa="CUSA08602" Version="01.25" Process="default.elf">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Inf Ammo / No Reload">
-    <Cheatline>
-      <Offset>D34DE7</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90</ValueOn>
-      <ValueOff>44-29-64-88-10</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Inf Health">
     <Cheatline>
       <Offset>106F800</Offset>
@@ -24,34 +16,20 @@
       <ValueOff>41-89-97-2C-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="Inf Ammo / No Reload">
+    <Cheatline>
+      <Offset>D34DE7</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90</ValueOn>
+      <ValueOff>44-29-64-88-10</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Inf Throwables">
     <Cheatline>
       <Offset>D0E04E</Offset>
       <Section>0</Section>
       <ValueOn>90-90-90</ValueOn>
       <ValueOff>FF-48-10</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="P-47  MG (No Overheating) ">
-    <Cheatline>
-      <Offset>106F83A</Offset>
-      <Section>0</Section>
-      <ValueOn>49-8B-06-48-81-F9-85-04-00-00-75-0B-48-3D-00-00-00-3F-7E-03-48-31-C0-48-89-03-E9-CB-39-C0-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>C7321E</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-17-C6-3F-00-90</ValueOn>
-      <ValueOff>49-8B-06-48-89-03</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="P-47 (Inf HP)">
-    <Cheatline>
-      <Offset>B3EA8E</Offset>
-      <Section>0</Section>
-      <ValueOn>C5-FA-2C-C1</ValueOn>
-      <ValueOff>C5-FA-2C-C0</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Sherman Tank (Inf HP)">
@@ -79,6 +57,28 @@
       <Offset>C68EC1</Offset>
       <Section>0</Section>
       <ValueOn>E9-D7-69-40-00-90</ValueOn>
+      <ValueOff>49-8B-06-48-89-03</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="P-47 (Inf HP)">
+    <Cheatline>
+      <Offset>B3EA8E</Offset>
+      <Section>0</Section>
+      <ValueOn>C5-FA-2C-C1</ValueOn>
+      <ValueOff>C5-FA-2C-C0</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="P-47  MG (No Overheating) ">
+    <Cheatline>
+      <Offset>106F83A</Offset>
+      <Section>0</Section>
+      <ValueOn>49-8B-06-48-81-F9-85-04-00-00-75-0B-48-3D-00-00-00-3F-7E-03-48-31-C0-48-89-03-E9-CB-39-C0-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>C7321E</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-17-C6-3F-00-90</ValueOn>
       <ValueOff>49-8B-06-48-89-03</ValueOff>
     </Cheatline>
   </Cheat>

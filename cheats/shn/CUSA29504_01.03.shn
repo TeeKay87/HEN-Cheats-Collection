@@ -58,6 +58,90 @@
       <ValueOff>8B-83-20-01-00-00-FF-C8</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="Player Walk Speed [ x 2 ]" Description="Player Walk Speed [ x 2 ]">
+    <Cheatline>
+      <Offset>1987F11</Offset>
+      <Section>0</Section>
+      <ValueOn>41-B8-00-00-80-40-66-41-0F-6E-C0-E9-47-C2-E4-7E</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>807D4160</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-AC-3D-1B-81-90-90-90</ValueOn>
+      <ValueOff>C5-FA-10-83-CC-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Player Walk Speed [ x 3 ]" Description="Player Walk Speed [ x 3 ]">
+    <Cheatline>
+      <Offset>1987F21</Offset>
+      <Section>0</Section>
+      <ValueOn>41-B8-00-00-C0-40-66-41-0F-6E-C0-E9-37-C2-E4-7E</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>807D4160</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-BC-3D-1B-81-90-90-90</ValueOn>
+      <ValueOff>C5-FA-10-83-CC-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Player Walk Speed [ x 4 ]" Description="Player Walk Speed [ x 4 ]">
+    <Cheatline>
+      <Offset>1987F31</Offset>
+      <Section>0</Section>
+      <ValueOn>41-B8-00-00-00-41-66-41-0F-6E-C0-E9-27-C2-E4-7E</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>807D4160</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-CC-3D-1B-81-90-90-90</ValueOn>
+      <ValueOff>C5-FA-10-83-CC-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Player Run Speed [ x 2 ]" Description="Player Run Speed [ x 2 ]">
+    <Cheatline>
+      <Offset>1987F41</Offset>
+      <Section>0</Section>
+      <ValueOn>41-B8-00-00-C0-40-66-41-0F-6E-C0-E9-D6-BA-E4-7E</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>807D3A1F</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-1D-45-1B-81-90-90-90</ValueOn>
+      <ValueOff>C5-FA-10-83-D0-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Player Run Speed [ x 3 ]" Description="Player Run Speed [ x 3 ]">
+    <Cheatline>
+      <Offset>1987F51</Offset>
+      <Section>0</Section>
+      <ValueOn>41-B8-00-00-10-41-66-41-0F-6E-C0-E9-C6-BA-E4-7E</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>807D3A1F</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-2D-45-1B-81-90-90-90</ValueOn>
+      <ValueOff>C5-FA-10-83-D0-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Player Run Speed [ x 4 ]" Description="Player Run Speed [ x 4 ]">
+    <Cheatline>
+      <Offset>1987F61</Offset>
+      <Section>0</Section>
+      <ValueOn>41-B8-00-00-40-41-66-41-0F-6E-C0-E9-B6-BA-E4-7E</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>807D3A1F</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-3D-45-1B-81-90-90-90</ValueOn>
+      <ValueOff>C5-FA-10-83-D0-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Player Jump Height [ x 2 ]" Description="Player Jump Height [ x 2 ]">
     <Cheatline>
       <Offset>1987F71</Offset>
@@ -116,90 +200,6 @@
       <Section>14</Section>
       <ValueOn>90-90-90-90-90</ValueOn>
       <ValueOff>C5-FA-5C-45-DC</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Player Run Speed [ x 2 ]" Description="Player Run Speed [ x 2 ]">
-    <Cheatline>
-      <Offset>1987F41</Offset>
-      <Section>0</Section>
-      <ValueOn>41-B8-00-00-C0-40-66-41-0F-6E-C0-E9-D6-BA-E4-7E</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>807D3A1F</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-1D-45-1B-81-90-90-90</ValueOn>
-      <ValueOff>C5-FA-10-83-D0-00-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Player Run Speed [ x 3 ]" Description="Player Run Speed [ x 3 ]">
-    <Cheatline>
-      <Offset>1987F51</Offset>
-      <Section>0</Section>
-      <ValueOn>41-B8-00-00-10-41-66-41-0F-6E-C0-E9-C6-BA-E4-7E</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>807D3A1F</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-2D-45-1B-81-90-90-90</ValueOn>
-      <ValueOff>C5-FA-10-83-D0-00-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Player Run Speed [ x 4 ]" Description="Player Run Speed [ x 4 ]">
-    <Cheatline>
-      <Offset>1987F61</Offset>
-      <Section>0</Section>
-      <ValueOn>41-B8-00-00-40-41-66-41-0F-6E-C0-E9-B6-BA-E4-7E</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>807D3A1F</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-3D-45-1B-81-90-90-90</ValueOn>
-      <ValueOff>C5-FA-10-83-D0-00-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Player Walk Speed [ x 2 ]" Description="Player Walk Speed [ x 2 ]">
-    <Cheatline>
-      <Offset>1987F11</Offset>
-      <Section>0</Section>
-      <ValueOn>41-B8-00-00-80-40-66-41-0F-6E-C0-E9-47-C2-E4-7E</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>807D4160</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-AC-3D-1B-81-90-90-90</ValueOn>
-      <ValueOff>C5-FA-10-83-CC-00-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Player Walk Speed [ x 3 ]" Description="Player Walk Speed [ x 3 ]">
-    <Cheatline>
-      <Offset>1987F21</Offset>
-      <Section>0</Section>
-      <ValueOn>41-B8-00-00-C0-40-66-41-0F-6E-C0-E9-37-C2-E4-7E</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>807D4160</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-BC-3D-1B-81-90-90-90</ValueOn>
-      <ValueOff>C5-FA-10-83-CC-00-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Player Walk Speed [ x 4 ]" Description="Player Walk Speed [ x 4 ]">
-    <Cheatline>
-      <Offset>1987F31</Offset>
-      <Section>0</Section>
-      <ValueOn>41-B8-00-00-00-41-66-41-0F-6E-C0-E9-27-C2-E4-7E</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>807D4160</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-CC-3D-1B-81-90-90-90</ValueOn>
-      <ValueOff>C5-FA-10-83-CC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

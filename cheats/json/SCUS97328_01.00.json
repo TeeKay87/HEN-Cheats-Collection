@@ -21,17 +21,6 @@
       ]
     },
     {
-      "name": "Buying Items Doesnt Decrease Credits",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "808003AFD0",
-          "on": "2D284000",
-          "off": "2D284000"
-        }
-      ]
-    },
-    {
       "name": "Max Days",
       "type": "checkbox",
       "memory": [
@@ -81,6 +70,17 @@
           "offset": "808060C224",
           "on": "E8000000",
           "off": "E8000000"
+        }
+      ]
+    },
+    {
+      "name": "Buying Items Doesnt Decrease Credits",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "808003AFD0",
+          "on": "2D284000",
+          "off": "2D284000"
         }
       ]
     }

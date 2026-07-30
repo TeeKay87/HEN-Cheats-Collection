@@ -5,6 +5,33 @@
   "process": "dmc3.elf",
   "mods": [
     {
+      "name": "Infinite Health/1 Hit Kill (Master Code DMC3)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5BA80",
+          "on": "4181FD002AB400750DC5FA115208E977E541800F57D2C5FA115208E96AE54180",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "7A005",
+          "on": "E9761ABE7F",
+          "off": "C5FA115208"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health (DMC3)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5BA89",
+          "on": "C5FA105208",
+          "off": "C5FA115208"
+        }
+      ]
+    },
+    {
       "name": "1 Hit Kill (DMC3)",
       "type": "checkbox",
       "memory": [
@@ -28,33 +55,6 @@
           "offset": "244FB0",
           "on": "E90B6FA17F909090",
           "off": "C5FA1187783E0000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health (DMC3)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5BA89",
-          "on": "C5FA105208",
-          "off": "C5FA115208"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health/1 Hit Kill (Master Code DMC3)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5BA80",
-          "on": "4181FD002AB400750DC5FA115208E977E541800F57D2C5FA115208E96AE54180",
-          "off": "0000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "7A005",
-          "on": "E9761ABE7F",
-          "off": "C5FA115208"
         }
       ]
     },

@@ -5,50 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Hyper Run (Enable MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1E6825D",
-          "on": "803D33FFFFFF00",
-          "off": "803D33FFFFFF01"
-        }
-      ]
-    },
-    {
-      "name": "Ignored by the Enemy (Enable MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1E68244",
-          "on": "803D4CFFFFFF00",
-          "off": "803D4CFFFFFF01"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Golden Keys (Enable MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1E68352",
-          "on": "803D3EFEFFFF00",
-          "off": "803D3EFEFFFF01"
-        }
-      ]
-    },
-    {
-      "name": "Jump x2 (Enable MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1E6828F",
-          "on": "803D01FFFFFF00",
-          "off": "803D01FFFFFF01"
-        }
-      ]
-    },
-    {
       "name": "Master Code (MC)",
       "type": "checkbox",
       "memory": [
@@ -75,23 +31,132 @@
       ]
     },
     {
-      "name": "Max Ammo (Enable MC)",
+      "name": "Max Health (Enable MC)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1E683CF",
-          "on": "803DC1FDFFFF00",
-          "off": "803DC1FDFFFF01"
+          "offset": "1E6830A",
+          "on": "803D86FEFFFF00",
+          "off": "803D86FEFFFF01"
+        }
+      ]
+    },
+    {
+      "name": "Max Health Car (Enable MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E681CE",
+          "on": "803DC2FFFFFF00",
+          "off": "803DC2FFFFFF01"
+        }
+      ]
+    },
+    {
+      "name": "Max Shield (Enable MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E6832E",
+          "on": "803D62FEFFFF00",
+          "off": "803D62FEFFFF01"
+        }
+      ]
+    },
+    {
+      "name": "Max Nitro (Enable MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E681A3",
+          "on": "803DEDFFFFFF00",
+          "off": "803DEDFFFFFF01"
+        }
+      ]
+    },
+    {
+      "name": "Max XP/Level (Enable MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E682D7",
+          "on": "803DB9FEFFFF00",
+          "off": "803DB9FEFFFF01"
+        }
+      ]
+    },
+    {
+      "name": "Max Skill Points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E6841A",
+          "on": "4883F9017505B86A000000418907418906E92DA056FE",
+          "off": "00000000000000000000000000000000000000000000"
         },
         {
-          "offset": "1E68481",
-          "on": "C5FA108098000000415041514D8B87800400004D8B80980200004D89C1458B80800000004589819800000041594158E900D787FF",
-          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+          "offset": "3D2457",
+          "on": "E9BE5FA90190",
+          "off": "418907418906"
+        }
+      ]
+    },
+    {
+      "name": "Max Money",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E68436",
+          "on": "C787800300007F969800C787840300007F9698008B8780030000E9318E60FF",
+          "off": "00000000000000000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "16E5BAD",
-          "on": "E9CF287800909090",
-          "off": "C5FA108098000000"
+          "offset": "1471280",
+          "on": "E9B1719F0090",
+          "off": "8B8780030000"
+        }
+      ]
+    },
+    {
+      "name": "Unlock Weapons Slots (Enable MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E68217",
+          "on": "803D79FFFFFF00",
+          "off": "803D79FFFFFF01"
+        }
+      ]
+    },
+    {
+      "name": "Max Weapon Skill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E6845B",
+          "on": "43C74427103200000043C744271420DE010043C744271820DE0100E993A587FF",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "16E2A09",
+          "on": "E94D5A7800",
+          "off": "4301442714"
+        }
+      ]
+    },
+    {
+      "name": "Max Weapon Accuracy (Enable MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E682AE",
+          "on": "803DE2FEFFFF00",
+          "off": "803DE2FEFFFF01"
+        },
+        {
+          "offset": "1E6838C",
+          "on": "803D04FEFFFF00",
+          "off": "803D04FEFFFF01"
         }
       ]
     },
@@ -117,121 +182,23 @@
       ]
     },
     {
-      "name": "Max Health (Enable MC)",
+      "name": "Max Ammo (Enable MC)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1E6830A",
-          "on": "803D86FEFFFF00",
-          "off": "803D86FEFFFF01"
-        }
-      ]
-    },
-    {
-      "name": "Max Health Car (Enable MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1E681CE",
-          "on": "803DC2FFFFFF00",
-          "off": "803DC2FFFFFF01"
-        }
-      ]
-    },
-    {
-      "name": "Max Money",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1E68436",
-          "on": "C787800300007F969800C787840300007F9698008B8780030000E9318E60FF",
-          "off": "00000000000000000000000000000000000000000000000000000000000000"
+          "offset": "1E683CF",
+          "on": "803DC1FDFFFF00",
+          "off": "803DC1FDFFFF01"
         },
         {
-          "offset": "1471280",
-          "on": "E9B1719F0090",
-          "off": "8B8780030000"
-        }
-      ]
-    },
-    {
-      "name": "Max Nitro (Enable MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1E681A3",
-          "on": "803DEDFFFFFF00",
-          "off": "803DEDFFFFFF01"
-        }
-      ]
-    },
-    {
-      "name": "Max Shield (Enable MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1E6832E",
-          "on": "803D62FEFFFF00",
-          "off": "803D62FEFFFF01"
-        }
-      ]
-    },
-    {
-      "name": "Max Skill Points",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1E6841A",
-          "on": "4883F9017505B86A000000418907418906E92DA056FE",
-          "off": "00000000000000000000000000000000000000000000"
+          "offset": "1E68481",
+          "on": "C5FA108098000000415041514D8B87800400004D8B80980200004D89C1458B80800000004589819800000041594158E900D787FF",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "3D2457",
-          "on": "E9BE5FA90190",
-          "off": "418907418906"
-        }
-      ]
-    },
-    {
-      "name": "Max Weapon Accuracy (Enable MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1E682AE",
-          "on": "803DE2FEFFFF00",
-          "off": "803DE2FEFFFF01"
-        },
-        {
-          "offset": "1E6838C",
-          "on": "803D04FEFFFF00",
-          "off": "803D04FEFFFF01"
-        }
-      ]
-    },
-    {
-      "name": "Max Weapon Skill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1E6845B",
-          "on": "43C74427103200000043C744271420DE010043C744271820DE0100E993A587FF",
-          "off": "0000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "16E2A09",
-          "on": "E94D5A7800",
-          "off": "4301442714"
-        }
-      ]
-    },
-    {
-      "name": "Max XP/Level (Enable MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1E682D7",
-          "on": "803DB9FEFFFF00",
-          "off": "803DB9FEFFFF01"
+          "offset": "16E5BAD",
+          "on": "E9CF287800909090",
+          "off": "C5FA108098000000"
         }
       ]
     },
@@ -258,24 +225,62 @@
       ]
     },
     {
-      "name": "Unlock Weapons Slots (Enable MC)",
+      "name": "Ignored by the Enemy (Enable MC)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1E68217",
-          "on": "803D79FFFFFF00",
-          "off": "803D79FFFFFF01"
+          "offset": "1E68244",
+          "on": "803D4CFFFFFF00",
+          "off": "803D4CFFFFFF01"
         }
       ]
     },
     {
-      "name": "--Infinite_Life",
+      "name": "Hyper Run (Enable MC)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1E6B091",
-          "on": "0100000000000000",
-          "off": "0000000000000000"
+          "offset": "1E6825D",
+          "on": "803D33FFFFFF00",
+          "off": "803D33FFFFFF01"
+        }
+      ]
+    },
+    {
+      "name": "Jump x2 (Enable MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E6828F",
+          "on": "803D01FFFFFF00",
+          "off": "803D01FFFFFF01"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Golden Keys (Enable MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E68352",
+          "on": "803D3EFEFFFF00",
+          "off": "803D3EFEFFFF01"
+        }
+      ]
+    },
+    {
+      "name": "Master Code",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E6B000",
+          "on": "48833D8900000001742148833D8700000001743048833D85000000017452C5FA118F98000000E918F195FE81FB7087FFEE0F840CF195FEC5FA118F98000000E9FFF095FE81FB804FFFEE740DC5FA118F98000000E9EAF095FEC7879800000000C07944C5FA108F98000000E9D3F095FE81FB7087FFEE0F84C7F095FE81FB804FFFEE74D5C5FA118F98000000E9B2F095FE000000000000000000000000000000000000000000000000",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "7CA13B",
+          "on": "E9C00E6A01909090",
+          "off": "C5FA118F98000000"
         }
       ]
     },
@@ -302,13 +307,29 @@
       ]
     },
     {
-      "name": "--Max exp",
+      "name": "--Infinite_Life",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1E6B1B1",
-          "on": "7F96184B",
-          "off": "00000000"
+          "offset": "1E6B091",
+          "on": "0100000000000000",
+          "off": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E6B0C9",
+          "on": "81FBB059FFEE741381FB909DFFEE740B418906498B07E96E8156FE498B07E9668156FE",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "3D324C",
+          "on": "E9787EA90190",
+          "off": "418906498B07"
         }
       ]
     },
@@ -329,18 +350,18 @@
       ]
     },
     {
-      "name": "Inf Exp",
+      "name": "Inf Money Shopping",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1E6B19C",
-          "on": "C5FA101D0D000000C5FA119B98000000E9E0F495FE00401C47",
-          "off": "00000000000000000000000000000000000000000000000000"
+          "offset": "1E6B13C",
+          "on": "BA7F969800899380030000E9E36160FF",
+          "off": "00000000000000000000000000000000"
         },
         {
-          "offset": "7CA689",
-          "on": "E90E0B6A01909090",
-          "off": "C5FA119B98000000"
+          "offset": "1471329",
+          "on": "E90E9E9F0090",
+          "off": "899380030000"
         }
       ]
     },
@@ -361,50 +382,29 @@
       ]
     },
     {
-      "name": "Inf Money Shopping",
+      "name": "Inf Exp",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1E6B13C",
-          "on": "BA7F969800899380030000E9E36160FF",
-          "off": "00000000000000000000000000000000"
+          "offset": "1E6B19C",
+          "on": "C5FA101D0D000000C5FA119B98000000E9E0F495FE00401C47",
+          "off": "00000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "1471329",
-          "on": "E90E9E9F0090",
-          "off": "899380030000"
+          "offset": "7CA689",
+          "on": "E90E0B6A01909090",
+          "off": "C5FA119B98000000"
         }
       ]
     },
     {
-      "name": "Master Code",
+      "name": "--Max exp",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1E6B000",
-          "on": "48833D8900000001742148833D8700000001743048833D85000000017452C5FA118F98000000E918F195FE81FB7087FFEE0F840CF195FEC5FA118F98000000E9FFF095FE81FB804FFFEE740DC5FA118F98000000E9EAF095FEC7879800000000C07944C5FA108F98000000E9D3F095FE81FB7087FFEE0F84C7F095FE81FB804FFFEE74D5C5FA118F98000000E9B2F095FE000000000000000000000000000000000000000000000000",
-          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "7CA13B",
-          "on": "E9C00E6A01909090",
-          "off": "C5FA118F98000000"
-        }
-      ]
-    },
-    {
-      "name": "No Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1E6B0C9",
-          "on": "81FBB059FFEE741381FB909DFFEE740B418906498B07E96E8156FE498B07E9668156FE",
-          "off": "0000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "3D324C",
-          "on": "E9787EA90190",
-          "off": "418906498B07"
+          "offset": "1E6B1B1",
+          "on": "7F96184B",
+          "off": "00000000"
         }
       ]
     }

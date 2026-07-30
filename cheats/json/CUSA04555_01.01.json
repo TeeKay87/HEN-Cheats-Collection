@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Level",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "703800",
-          "on": "BAFFFFFF0041B9FFFFFFFFE91C61BBFF",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "2B9926",
-          "on": "E9D59E440090",
-          "off": "41B9FFFFFFFF"
-        }
-      ]
-    },
-    {
       "name": "Max Money",
       "type": "checkbox",
       "memory": [
@@ -33,6 +17,22 @@
           "offset": "1CF5F7",
           "on": "909090",
           "off": "0F4EC1"
+        }
+      ]
+    },
+    {
+      "name": "Max Level",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "703800",
+          "on": "BAFFFFFF0041B9FFFFFFFFE91C61BBFF",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "2B9926",
+          "on": "E9D59E440090",
+          "off": "41B9FFFFFFFF"
         }
       ]
     }

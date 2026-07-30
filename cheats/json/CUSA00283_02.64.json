@@ -5,45 +5,35 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "\u267E\uFE0FInfinite Items\u267E\uFE0F",
+      "name": "\uD83D\uDD1DMultijump\uD83D\uDD1D",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "AB96196",
-          "on": "C6432A40807B2A00C5F857C0E91FAADFF9",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "4990BBE",
-          "on": "E9D3552006909090",
-          "off": "807B2A00C5F857C0"
+          "offset": "177AE50",
+          "on": "85D27552",
+          "off": "85D27452"
         }
       ]
     },
     {
-      "name": "\u267E\uFE0FInfinite Max Items\u267E\uFE0F",
+      "name": "\u27A1\uFE0FJump Foward x4\u27A1\uFE0F",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "AB9617F",
-          "on": "42C644362A4042807C362A000F846FA34EF9E9DFA34EF9",
-          "off": "0000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "408056D",
-          "on": "E90D5CB106909090",
-          "off": "42807C362A00748B"
+          "offset": "85013C4",
+          "on": "33333340",
+          "off": "CDCC4C3E"
         }
       ]
     },
     {
-      "name": "\u2694\uFE0FAntiknockback\u2694\uFE0F",
+      "name": "\u27A1\uFE0FJump Foward x2\u27A1\uFE0F",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "4532D10",
-          "on": "C3",
-          "off": "55"
+          "offset": "85013C4",
+          "on": "52B81B3F",
+          "off": "CDCC4C3E"
         }
       ]
     },
@@ -59,13 +49,13 @@
       ]
     },
     {
-      "name": "\u26ABSet Entity Colour Black\u26AB",
+      "name": "\u2694\uFE0FAntiknockback\u2694\uFE0F",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "B351DB0",
-          "on": "00000000204100002041000000000040",
-          "off": "00000000000000000000000000000000"
+          "offset": "4532D10",
+          "on": "C3",
+          "off": "55"
         }
       ]
     },
@@ -86,28 +76,6 @@
       ]
     },
     {
-      "name": "\u27A1\uFE0FJump Foward x2\u27A1\uFE0F",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "85013C4",
-          "on": "52B81B3F",
-          "off": "CDCC4C3E"
-        }
-      ]
-    },
-    {
-      "name": "\u27A1\uFE0FJump Foward x4\u27A1\uFE0F",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "85013C4",
-          "on": "33333340",
-          "off": "CDCC4C3E"
-        }
-      ]
-    },
-    {
       "name": "\uD83C\uDF56Infinite Food\uD83C\uDF56",
       "type": "checkbox",
       "memory": [
@@ -124,13 +92,45 @@
       ]
     },
     {
-      "name": "\uD83D\uDD1DMultijump\uD83D\uDD1D",
+      "name": "\uD83D\uDE24Infinite Oxygen\uD83D\uDE24",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "177AE50",
-          "on": "85D27552",
-          "off": "85D27452"
+          "offset": "82B8E55",
+          "on": "909090909090",
+          "off": "664489740812"
+        }
+      ]
+    },
+    {
+      "name": "\u267E\uFE0FInfinite Max Items\u267E\uFE0F",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "AB9617F",
+          "on": "42C644362A4042807C362A000F846FA34EF9E9DFA34EF9",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "408056D",
+          "on": "E90D5CB106909090",
+          "off": "42807C362A00748B"
+        }
+      ]
+    },
+    {
+      "name": "\u267E\uFE0FInfinite Items\u267E\uFE0F",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "AB96196",
+          "on": "C6432A40807B2A00C5F857C0E91FAADFF9",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "4990BBE",
+          "on": "E9D3552006909090",
+          "off": "807B2A00C5F857C0"
         }
       ]
     },
@@ -140,6 +140,17 @@
       "memory": [
         {
           "offset": "B351D20",
+          "on": "00002041",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "\uD83D\uDFE2Change Specified Colour To Green\uD83D\uDFE2",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B351D24",
           "on": "00002041",
           "off": "00000000"
         }
@@ -168,34 +179,23 @@
       ]
     },
     {
-      "name": "\uD83D\uDE24Infinite Oxygen\uD83D\uDE24",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "82B8E55",
-          "on": "909090909090",
-          "off": "664489740812"
-        }
-      ]
-    },
-    {
-      "name": "\uD83D\uDFE2Change Specified Colour To Green\uD83D\uDFE2",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "B351D24",
-          "on": "00002041",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
       "name": "\uD83D\uDFE2Set Entity Colour Green\uD83D\uDFE2",
       "type": "checkbox",
       "memory": [
         {
           "offset": "B351DB0",
           "on": "00000000000020550000200000000040",
+          "off": "00000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "\u26ABSet Entity Colour Black\u26AB",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B351DB0",
+          "on": "00000000204100002041000000000040",
           "off": "00000000000000000000000000000000"
         }
       ]

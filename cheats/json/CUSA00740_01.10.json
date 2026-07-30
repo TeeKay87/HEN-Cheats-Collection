@@ -5,87 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "50% Brightness",
+      "name": "Invincible",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "12DB834",
-          "on": "C74014CDCC4C3FE9A1E9EC7E",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "801AA1DB",
-          "on": "E95416138190",
-          "off": "F3440F117814"
-        },
-        {
-          "offset": "12DB840",
-          "on": "C74024CDCC4C3FE9B3E9EC7E",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "801AA1F9",
-          "on": "E94216138190",
-          "off": "F3440F117824"
-        },
-        {
-          "offset": "12DB84C",
-          "on": "C7401CCDCC4C3FE998E9EC7E",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "801AA1EA",
-          "on": "E95D16138190",
-          "off": "F3440F11781C"
-        }
-      ]
-    },
-    {
-      "name": "Big Weapon After Take and Place",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "80532CEB",
-          "on": "66C780FE0000004040",
-          "off": "F3440F11B8FC000000"
-        }
-      ]
-    },
-    {
-      "name": "Craft Anything",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "80304009",
-          "on": "723B",
-          "off": "743B"
-        }
-      ]
-    },
-    {
-      "name": "Fast Forward Time",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "12DB800",
-          "on": "83C018F20F2AC8F20F58C1E9DF14F07E",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "801DCCE7",
-          "on": "E914EB0F81909090",
-          "off": "F20F2AC8F20F58C1"
-        }
-      ]
-    },
-    {
-      "name": "Freeze Timer",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "801DCCFB",
-          "on": "909090909090",
-          "off": "F3440F117824"
+          "offset": "80259A40",
+          "on": "410FB68785040000",
+          "off": "410FB68784040000"
         }
       ]
     },
@@ -133,6 +59,33 @@
       ]
     },
     {
+      "name": "One Hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80691E14",
+          "on": "29C0",
+          "off": "2BC1"
+        },
+        {
+          "offset": "80691D91",
+          "on": "29C9",
+          "off": "2BCA"
+        }
+      ]
+    },
+    {
+      "name": "Craft Anything",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80304009",
+          "on": "723B",
+          "off": "743B"
+        }
+      ]
+    },
+    {
       "name": "INV-Take one for Max",
       "type": "checkbox",
       "memory": [
@@ -154,29 +107,76 @@
       ]
     },
     {
-      "name": "Invincible",
+      "name": "Big Weapon After Take and Place",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "80259A40",
-          "on": "410FB68785040000",
-          "off": "410FB68784040000"
+          "offset": "80532CEB",
+          "on": "66C780FE0000004040",
+          "off": "F3440F11B8FC000000"
         }
       ]
     },
     {
-      "name": "One Hit Kill",
+      "name": "50% Brightness",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "80691E14",
-          "on": "29C0",
-          "off": "2BC1"
+          "offset": "12DB834",
+          "on": "C74014CDCC4C3FE9A1E9EC7E",
+          "off": "000000000000000000000000"
         },
         {
-          "offset": "80691D91",
-          "on": "29C9",
-          "off": "2BCA"
+          "offset": "801AA1DB",
+          "on": "E95416138190",
+          "off": "F3440F117814"
+        },
+        {
+          "offset": "12DB840",
+          "on": "C74024CDCC4C3FE9B3E9EC7E",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "801AA1F9",
+          "on": "E94216138190",
+          "off": "F3440F117824"
+        },
+        {
+          "offset": "12DB84C",
+          "on": "C7401CCDCC4C3FE998E9EC7E",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "801AA1EA",
+          "on": "E95D16138190",
+          "off": "F3440F11781C"
+        }
+      ]
+    },
+    {
+      "name": "Freeze Timer",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "801DCCFB",
+          "on": "909090909090",
+          "off": "F3440F117824"
+        }
+      ]
+    },
+    {
+      "name": "Fast Forward Time",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "12DB800",
+          "on": "83C018F20F2AC8F20F58C1E9DF14F07E",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "801DCCE7",
+          "on": "E914EB0F81909090",
+          "off": "F20F2AC8F20F58C1"
         }
       ]
     },

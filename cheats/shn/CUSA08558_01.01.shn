@@ -23,22 +23,6 @@
       <ValueOff>C5-FA-11-43-28-48-8B-85</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Level">
-    <Cheatline>
-      <Offset>219DECD48</Offset>
-      <Section>0</Section>
-      <ValueOn>7F-96-98-00</ValueOn>
-      <ValueOff>7F-96-98-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Set Kill series to 9.999.999">
-    <Cheatline>
-      <Offset>219DE9D44</Offset>
-      <Section>0</Section>
-      <ValueOn>7F-96-98-00</ValueOn>
-      <ValueOff>7F-96-98-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Set Money to 8.999.999">
     <Cheatline>
       <Offset>20007962C</Offset>
@@ -53,6 +37,22 @@
       <Section>0</Section>
       <ValueOn>E7-03-00-00</ValueOn>
       <ValueOff>E7-03-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max Level">
+    <Cheatline>
+      <Offset>219DECD48</Offset>
+      <Section>0</Section>
+      <ValueOn>7F-96-98-00</ValueOn>
+      <ValueOff>7F-96-98-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Set Kill series to 9.999.999">
+    <Cheatline>
+      <Offset>219DE9D44</Offset>
+      <Section>0</Section>
+      <ValueOn>7F-96-98-00</ValueOn>
+      <ValueOff>7F-96-98-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

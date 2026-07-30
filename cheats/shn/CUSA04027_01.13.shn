@@ -3,18 +3,18 @@
   <Genres Name="Action" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Enemy 1 Hit Kill //Unlock Before Boss Battle">
+  <Cheat Text="No Reload and Infinite Grenade">
     <Cheatline>
-      <Offset>992500</Offset>
+      <Offset>537B42</Offset>
       <Section>61</Section>
-      <ValueOn>80-7B-02-C9-C4-C1-7A-2A-CC-77-04-C5-F8-28-C1-E9-7E-2E-6B-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>41-89-9C-24-F0-0E-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>4538D</Offset>
+      <Offset>5378E4</Offset>
       <Section>61</Section>
-      <ValueOn>E9-6E-D1-94-00</ValueOn>
-      <ValueOff>C4-C1-7A-2A-CC</ValueOff>
+      <ValueOn>90-90</ValueOn>
+      <ValueOff>FF-CB</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite AMMO">
@@ -23,6 +23,14 @@
       <Section>61</Section>
       <ValueOn>90-90-90</ValueOn>
       <ValueOff>44-29-FB</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Skill No Cooldown">
+    <Cheatline>
+      <Offset>540349</Offset>
+      <Section>61</Section>
+      <ValueOn>C6-83-F0-0E-00-00-C8</ValueOn>
+      <ValueOff>44-89-B3-F0-0E-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Health">
@@ -49,26 +57,18 @@
       <ValueOff>FA-5C-C9</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload and Infinite Grenade">
+  <Cheat Text="Enemy 1 Hit Kill //Unlock Before Boss Battle">
     <Cheatline>
-      <Offset>537B42</Offset>
+      <Offset>992500</Offset>
       <Section>61</Section>
-      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>41-89-9C-24-F0-0E-00-00</ValueOff>
+      <ValueOn>80-7B-02-C9-C4-C1-7A-2A-CC-77-04-C5-F8-28-C1-E9-7E-2E-6B-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>5378E4</Offset>
+      <Offset>4538D</Offset>
       <Section>61</Section>
-      <ValueOn>90-90</ValueOn>
-      <ValueOff>FF-CB</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Skill No Cooldown">
-    <Cheatline>
-      <Offset>540349</Offset>
-      <Section>61</Section>
-      <ValueOn>C6-83-F0-0E-00-00-C8</ValueOn>
-      <ValueOff>44-89-B3-F0-0E-00-00</ValueOff>
+      <ValueOn>E9-6E-D1-94-00</ValueOn>
+      <ValueOff>C4-C1-7A-2A-CC</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "EasyLevel",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5F074",
-          "on": "C78018010000FFE0F505E943F3C200",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "8088E3C0",
-          "on": "E9AF0C3DFF90",
-          "off": "018818010000"
-        }
-      ]
-    },
-    {
       "name": "Inf Life",
       "type": "checkbox",
       "memory": [
@@ -42,6 +26,33 @@
       ]
     },
     {
+      "name": "EasyLevel",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5F074",
+          "on": "C78018010000FFE0F505E943F3C200",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "8088E3C0",
+          "on": "E9AF0C3DFF90",
+          "off": "018818010000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Skill Points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "807F7758",
+          "on": "909090909090",
+          "off": "29881C010000"
+        }
+      ]
+    },
+    {
       "name": "Inf Money",
       "type": "checkbox",
       "memory": [
@@ -54,17 +65,6 @@
           "offset": "8088D46B",
           "on": "E9D21C3DFF90",
           "off": "0188F4000000"
-        }
-      ]
-    },
-    {
-      "name": "Inf Skill Points",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "807F7758",
-          "on": "909090909090",
-          "off": "29881C010000"
         }
       ]
     }

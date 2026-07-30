@@ -5,29 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Extra Resources Suply [Suply Raid Mission]",
-      "type": "checkbox",
+      "name": "Master",
+      "type": "master",
       "memory": [
         {
-          "offset": "539F836",
-          "on": "41C7868C00000080969800C4C17A2A868C000000E919D004FB",
-          "off": "00000000000000000000000000000000000000000000000000"
+          "offset": "539F810",
+          "on": "B000884778C390E909D11DFB",
+          "off": ""
         },
         {
-          "offset": "3EC85F",
-          "on": "E9D22FFB0490909090",
-          "off": "C4C17A2A868C000000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Clip Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "20E9B0",
-          "on": "C3",
-          "off": "55"
+          "offset": "57C920",
+          "on": "E9EB2EE204",
+          "off": ""
         }
       ]
     },
@@ -43,18 +32,24 @@
       ]
     },
     {
-      "name": "Infinite Skill Points",
+      "name": "Infinite Clip Ammo",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "539F81C",
-          "on": "B86400000083FE037505E99BEE08FB89F08B448710E990EE08FB",
-          "off": "0000000000000000000000000000000000000000000000000000"
-        },
+          "offset": "20E9B0",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "No Blood On Screen",
+      "type": "checkbox",
+      "memory": [
         {
-          "offset": "42E6C0",
-          "on": "E95711F70490",
-          "off": "89F08B448710"
+          "offset": "34CC356",
+          "on": "9090909090",
+          "off": "E8D50068FD"
         }
       ]
     },
@@ -75,33 +70,6 @@
       ]
     },
     {
-      "name": "Master",
-      "type": "master",
-      "memory": [
-        {
-          "offset": "539F810",
-          "on": "B000884778C390E909D11DFB",
-          "off": ""
-        },
-        {
-          "offset": "57C920",
-          "on": "E9EB2EE204",
-          "off": ""
-        }
-      ]
-    },
-    {
-      "name": "No Blood On Screen",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "34CC356",
-          "on": "9090909090",
-          "off": "E8D50068FD"
-        }
-      ]
-    },
-    {
       "name": "Stealth Mode [Player Only]",
       "type": "checkbox",
       "memory": [
@@ -109,6 +77,38 @@
           "offset": "539F810",
           "on": "B001",
           "off": "B000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Skill Points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "539F81C",
+          "on": "B86400000083FE037505E99BEE08FB89F08B448710E990EE08FB",
+          "off": "0000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "42E6C0",
+          "on": "E95711F70490",
+          "off": "89F08B448710"
+        }
+      ]
+    },
+    {
+      "name": "Extra Resources Suply [Suply Raid Mission]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "539F836",
+          "on": "41C7868C00000080969800C4C17A2A868C000000E919D004FB",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "3EC85F",
+          "on": "E9D22FFB0490909090",
+          "off": "C4C17A2A868C000000"
         }
       ]
     },

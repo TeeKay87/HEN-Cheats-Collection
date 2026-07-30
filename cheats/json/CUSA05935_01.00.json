@@ -5,28 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Double Studs On Pick Up",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "9B735E",
-          "on": "49011F4881FB8096",
-          "off": "49891F4881FB8096"
-        }
-      ]
-    },
-    {
-      "name": "Double Studs On Pick Up",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "D1111D",
-          "on": "49011F4883C4085B",
-          "off": "49891F4883C4085B"
-        }
-      ]
-    },
-    {
       "name": "Godmode",
       "type": "checkbox",
       "memory": [
@@ -43,6 +21,17 @@
       ]
     },
     {
+      "name": "Double Studs On Pick Up",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "9B735E",
+          "on": "49011F4881FB8096",
+          "off": "49891F4881FB8096"
+        }
+      ]
+    },
+    {
       "name": "Godmode",
       "type": "checkbox",
       "memory": [
@@ -55,6 +44,17 @@
           "offset": "D9FF0F",
           "on": "E9EDBC3C00909090",
           "off": "410FB68D30120000"
+        }
+      ]
+    },
+    {
+      "name": "Double Studs On Pick Up",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "D1111D",
+          "on": "49011F4883C4085B",
+          "off": "49891F4883C4085B"
         }
       ]
     }

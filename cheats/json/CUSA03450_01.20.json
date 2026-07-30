@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "256 Skill Points (After one use)",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "AF5D21",
-          "on": "C687C10B0000FF",
-          "off": "C687C10B0000FF"
-        }
-      ]
-    },
-    {
       "name": "Infinite Ammo",
       "type": "checkbox",
       "memory": [
@@ -34,6 +23,17 @@
           "offset": "109491",
           "on": "014A20",
           "off": "894A20"
+        }
+      ]
+    },
+    {
+      "name": "256 Skill Points (After one use)",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "AF5D21",
+          "on": "C687C10B0000FF",
+          "off": "C687C10B0000FF"
         }
       ]
     }

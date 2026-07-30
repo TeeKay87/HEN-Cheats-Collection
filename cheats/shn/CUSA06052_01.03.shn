@@ -22,6 +22,34 @@
       <ValueOff>C5-FA-11-87-10-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="Max/Infinite Coins">
+    <Cheatline>
+      <Offset>12BFDD0</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-83-08-01-00-00-3F-42-0F-00-E9-FF-E0-28-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>54DED8</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-F3-1E-D7-00-90</ValueOn>
+      <ValueOff>01-B3-08-01-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max/Infinite Special Hability">
+    <Cheatline>
+      <Offset>12BFDBE</Offset>
+      <Section>0</Section>
+      <ValueOn>90-E9-5C-D5-20-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>4CD316</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-A3-2A-DF-00-90-90-90-90-90</ValueOn>
+      <ValueOff>C7-83-80-01-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Infinite Secondary Weapons">
     <Cheatline>
       <Offset>12BEEC0</Offset>
@@ -56,34 +84,6 @@
       <Section>0</Section>
       <ValueOn>41-89-47-48</ValueOn>
       <ValueOff>45-01-77-48</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Max/Infinite Coins">
-    <Cheatline>
-      <Offset>12BFDD0</Offset>
-      <Section>0</Section>
-      <ValueOn>C7-83-08-01-00-00-3F-42-0F-00-E9-FF-E0-28-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>54DED8</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-F3-1E-D7-00-90</ValueOn>
-      <ValueOff>01-B3-08-01-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Max/Infinite Special Hability">
-    <Cheatline>
-      <Offset>12BFDBE</Offset>
-      <Section>0</Section>
-      <ValueOn>90-E9-5C-D5-20-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>4CD316</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-A3-2A-DF-00-90-90-90-90-90</ValueOn>
-      <ValueOff>C7-83-80-01-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

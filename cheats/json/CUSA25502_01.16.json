@@ -5,38 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Boost",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7B77E40",
-          "on": "C7832C01000000001041E9703039F9",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "F0AEB7",
-          "on": "E984CFC606909090",
-          "off": "C5FA11832C010000"
-        }
-      ]
-    },
-    {
-      "name": "Unlimited Blind Boxes (on gain)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7B77DF0",
-          "on": "4885C041C7461400CA9A3BE92A8E34FA",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "1EC0C23",
-          "on": "E9C871CB059090",
-          "off": "4885C041894E14"
-        }
-      ]
-    },
-    {
       "name": "Unlimited Coins (on gain)",
       "type": "checkbox",
       "memory": [
@@ -60,6 +28,38 @@
           "offset": "4DE37EF",
           "on": "E91C46D902909090",
           "off": "C4E1FB2CC0498906"
+        }
+      ]
+    },
+    {
+      "name": "Unlimited Blind Boxes (on gain)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7B77DF0",
+          "on": "4885C041C7461400CA9A3BE92A8E34FA",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "1EC0C23",
+          "on": "E9C871CB059090",
+          "off": "4885C041894E14"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Boost",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7B77E40",
+          "on": "C7832C01000000001041E9703039F9",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "F0AEB7",
+          "on": "E984CFC606909090",
+          "off": "C5FA11832C010000"
         }
       ]
     }

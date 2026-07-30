@@ -16,20 +16,6 @@
       <ValueOff>48-8B-47-38-8B-40-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Star Rating">
-    <Cheatline>
-      <Offset>189FE10</Offset>
-      <Section>0</Section>
-      <ValueOn>C7-40-1C-00-00-A0-40-C5-FA-10-40-1C-E9-88-A7-E4-7E</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>806EA5A4</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-67-58-1B-81</ValueOn>
-      <ValueOff>C5-FA-10-40-1C</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Max XP Level">
     <Cheatline>
       <Offset>189FDD7</Offset>
@@ -70,6 +56,20 @@
       <Section>0</Section>
       <ValueOn>E9-C1-7D-43-81-90-90-90-90-90-90</ValueOn>
       <ValueOff>41-8B-BF-50-01-00-00-84-C0-74-0A</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max Star Rating">
+    <Cheatline>
+      <Offset>189FE10</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-40-1C-00-00-A0-40-C5-FA-10-40-1C-E9-88-A7-E4-7E</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>806EA5A4</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-67-58-1B-81</ValueOn>
+      <ValueOff>C5-FA-10-40-1C</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

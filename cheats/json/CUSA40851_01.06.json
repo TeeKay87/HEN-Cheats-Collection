@@ -5,38 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Bombs and Items from Boat",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5F0F0",
-          "on": "B863000000418947200F85F672C301E9D672C301",
-          "off": "0000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "818963D4",
-          "on": "E9178D3CFE90",
-          "off": "41894720751B"
-        }
-      ]
-    },
-    {
-      "name": "Inf Fuel",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5F048",
-          "on": "C5FA104720C5FA114720E97500C401",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "8189F0C7",
-          "on": "E97CFF3BFE",
-          "off": "C5FA114720"
-        }
-      ]
-    },
-    {
       "name": "Inf Life",
       "type": "checkbox",
       "memory": [
@@ -64,6 +32,22 @@
       ]
     },
     {
+      "name": "Inf Fuel",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5F048",
+          "on": "C5FA104720C5FA114720E97500C401",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "8189F0C7",
+          "on": "E97CFF3BFE",
+          "off": "C5FA114720"
+        }
+      ]
+    },
+    {
       "name": "Inf Money",
       "type": "checkbox",
       "memory": [
@@ -76,6 +60,22 @@
           "offset": "84C69B27",
           "on": "E94B55FFFA",
           "off": "438944352C"
+        }
+      ]
+    },
+    {
+      "name": "Inf Bombs and Items from Boat",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5F0F0",
+          "on": "B863000000418947200F85F672C301E9D672C301",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "818963D4",
+          "on": "E9178D3CFE90",
+          "off": "41894720751B"
         }
       ]
     },

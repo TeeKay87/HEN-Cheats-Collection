@@ -21,18 +21,18 @@
       ]
     },
     {
-      "name": "Infinite Katarina/Player Ability points",
+      "name": "Infinite Mana",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "2523D50",
-          "on": "C6877C0A000063E9C4B762FE",
-          "off": "000000000000000000000000"
+          "offset": "2523E40",
+          "on": "C787440B0000003C1C46E9076060FE",
+          "off": "000000000000000000000000000000"
         },
         {
-          "offset": "B4F51A",
-          "on": "E931489D0190",
-          "off": "01B77C0A0000"
+          "offset": "B29E4E",
+          "on": "E9ED9F9F01909090",
+          "off": "C5FA1197440B0000"
         }
       ]
     },
@@ -53,18 +53,18 @@
       ]
     },
     {
-      "name": "Infinite Mana",
+      "name": "Infinite Katarina/Player Ability points",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "2523E40",
-          "on": "C787440B0000003C1C46E9076060FE",
-          "off": "000000000000000000000000000000"
+          "offset": "2523D50",
+          "on": "C6877C0A000063E9C4B762FE",
+          "off": "000000000000000000000000"
         },
         {
-          "offset": "B29E4E",
-          "on": "E9ED9F9F01909090",
-          "off": "C5FA1197440B0000"
+          "offset": "B4F51A",
+          "on": "E931489D0190",
+          "off": "01B77C0A0000"
         }
       ]
     },

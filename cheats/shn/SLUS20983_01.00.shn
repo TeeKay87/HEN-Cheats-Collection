@@ -2,6 +2,14 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Musashi: Samurai Legend" Moder="Aurangzeb565" Cusa="SLUS20983" Version="01.00" Process="eboot.bin">
   <Genres Name="Action Role-playing game" />
   <Items />
+  <Cheat Text="Max Money">
+    <Cheatline>
+      <Offset>80802C6BA8</Offset>
+      <Section>0</Section>
+      <ValueOn>02-BC-BE-4C</ValueOn>
+      <ValueOff>02-BC-BE-4C</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Max Focus">
     <Cheatline>
       <Offset>80802C6BA0</Offset>
@@ -16,14 +24,6 @@
       <Section>0</Section>
       <ValueOn>00-00-48-43</ValueOn>
       <ValueOff>00-00-48-43</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Max Money">
-    <Cheatline>
-      <Offset>80802C6BA8</Offset>
-      <Section>0</Section>
-      <ValueOn>02-BC-BE-4C</ValueOn>
-      <ValueOff>02-BC-BE-4C</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

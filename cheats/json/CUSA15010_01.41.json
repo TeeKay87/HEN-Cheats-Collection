@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "All Client 1-Hit Kill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1500A77",
-          "on": "29C090",
-          "off": "4429F8"
-        }
-      ]
-    },
-    {
       "name": "All Client Godmode",
       "type": "checkbox",
       "memory": [
@@ -37,17 +26,6 @@
       ]
     },
     {
-      "name": "All Client Infinite Aetherium Crystals",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "12EBE9E",
-          "on": "8989245D0000",
-          "off": "8981245D0000"
-        }
-      ]
-    },
-    {
       "name": "All Client Infinite Ammo",
       "type": "checkbox",
       "memory": [
@@ -60,6 +38,28 @@
           "offset": "F09EA0",
           "on": "55",
           "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "All Client Infinite Aetherium Crystals",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "12EBE9E",
+          "on": "8989245D0000",
+          "off": "8981245D0000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "125C6BE",
+          "on": "90909090909090",
+          "off": "488B8D90FEFFFF"
         }
       ]
     },
@@ -86,29 +86,13 @@
       ]
     },
     {
-      "name": "Infinite Health",
+      "name": "All Client 1-Hit Kill",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "125C6BE",
-          "on": "90909090909090",
-          "off": "488B8D90FEFFFF"
-        }
-      ]
-    },
-    {
-      "name": "No Gun Shake",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "E71579",
-          "on": "90909090909090",
-          "off": "898CF0780E0000"
-        },
-        {
-          "offset": "E71586",
-          "on": "90909090909090",
-          "off": "898CF07C0E0000"
+          "offset": "1500A77",
+          "on": "29C090",
+          "off": "4429F8"
         }
       ]
     },
@@ -125,6 +109,22 @@
           "offset": "F43702",
           "on": "9090909090",
           "off": "C5FA114604"
+        }
+      ]
+    },
+    {
+      "name": "No Gun Shake",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "E71579",
+          "on": "90909090909090",
+          "off": "898CF0780E0000"
+        },
+        {
+          "offset": "E71586",
+          "on": "90909090909090",
+          "off": "898CF07C0E0000"
         }
       ]
     },

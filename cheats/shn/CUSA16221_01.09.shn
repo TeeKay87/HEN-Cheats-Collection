@@ -3,28 +3,6 @@
   <Genres Name="Arcade" />
   <Genres Name="Fighting" />
   <Items />
-  <Cheat Text="1 Hit Kill (Enable MC)">
-    <Cheatline>
-      <Offset>334FDB6</Offset>
-      <Section>0</Section>
-      <ValueOn>75-0F</ValueOn>
-      <ValueOff>75-11</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Max Score On Gain">
-    <Cheatline>
-      <Offset>334FB90</Offset>
-      <Section>0</Section>
-      <ValueOn>C7-44-01-44-3F-42-0F-00-E9-68-5A-FD-FC</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>325600</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-8B-A5-02-03</ValueOn>
-      <ValueOff>44-01-6C-01-44</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Max/Infinite Health/Special Attack/1 Hit Kill (Master Code)">
     <Cheatline>
       <Offset>334FDB0</Offset>
@@ -37,6 +15,14 @@
       <Section>0</Section>
       <ValueOn>E9-3D-2E-01-03</ValueOn>
       <ValueOff>41-89-6C-24-2C</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="1 Hit Kill (Enable MC)">
+    <Cheatline>
+      <Offset>334FDB6</Offset>
+      <Section>0</Section>
+      <ValueOn>75-0F</ValueOn>
+      <ValueOff>75-11</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max/Infinite Lives">
@@ -65,6 +51,20 @@
       <Section>0</Section>
       <ValueOn>E9-33-C1-05-03</ValueOn>
       <ValueOff>74-7C-89-69-20</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max Score On Gain">
+    <Cheatline>
+      <Offset>334FB90</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-44-01-44-3F-42-0F-00-E9-68-5A-FD-FC</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>325600</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-8B-A5-02-03</ValueOn>
+      <ValueOff>44-01-6C-01-44</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

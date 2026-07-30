@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Inf Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "ED183",
+          "on": "4501A8E40A0000",
+          "off": "4529A8E40A0000"
+        }
+      ]
+    },
+    {
       "name": "Inf Blood",
       "type": "checkbox",
       "memory": [
@@ -21,29 +32,13 @@
       ]
     },
     {
-      "name": "Inf Elixir",
+      "name": "Inf Wrath of Aarbron",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "3BEB819",
-          "on": "BEE703000089B0C4000000E9EC9E5FFC",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "1E570F",
-          "on": "E90561A00390",
-          "off": "8BB0C4000000"
-        }
-      ]
-    },
-    {
-      "name": "Inf Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "ED183",
-          "on": "4501A8E40A0000",
-          "off": "4529A8E40A0000"
+          "offset": "E5E9D",
+          "on": "9090909090909090",
+          "off": "41FF8C24EC0A0000"
         }
       ]
     },
@@ -64,6 +59,22 @@
       ]
     },
     {
+      "name": "Inf Elixir",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3BEB819",
+          "on": "BEE703000089B0C4000000E9EC9E5FFC",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "1E570F",
+          "on": "E90561A00390",
+          "off": "8BB0C4000000"
+        }
+      ]
+    },
+    {
       "name": "Inf Shadow Stones",
       "type": "checkbox",
       "memory": [
@@ -76,17 +87,6 @@
           "offset": "F4CEB",
           "on": "E9296BAF039090",
           "off": "448BB0C8000000"
-        }
-      ]
-    },
-    {
-      "name": "Inf Wrath of Aarbron",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "E5E9D",
-          "on": "9090909090909090",
-          "off": "41FF8C24EC0A0000"
         }
       ]
     }

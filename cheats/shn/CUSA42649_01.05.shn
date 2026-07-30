@@ -18,22 +18,6 @@
       <ValueOff>C5-FA-11-47-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Thinner and Paint" Description="You must activate it once you're already in the game, whether it's a loaded game or a new one, otherwise, the cheat won't work.. (Debes activarlo cuando ya estes dentro de la partida, ya sea una partida cargada o una partida nueva, sino el truco no funcionará.).">
-    <Cheatline>
-      <PS5Offset>4B1-executable[0]-5</PS5Offset>
-      <Offset>63A3B4F</Offset>
-      <Section>0</Section>
-      <ValueOn>83-7F-14-00-75-09-C7-47-08-00-00-C0-40-EB-A3-C5-FA-11-47-08-EB-9C</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <PS5Offset>504-executable[0]-5</PS5Offset>
-      <Offset>63A3AFC</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-51</ValueOn>
-      <ValueOff>C5-FA</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite Tickets x9999999" Description="You must activate it once you're already in the game, whether it's a loaded game or a new one, otherwise, the cheat won't work.. (Debes activarlo cuando ya estes dentro de la partida, ya sea una partida cargada o una partida nueva, sino el truco no funcionará.).">
     <Cheatline>
       <PS5Offset>4C5-executable[0]-5</PS5Offset>
@@ -48,6 +32,22 @@
       <Section>0</Section>
       <ValueOn>E9-31-F0-02-05</ValueOn>
       <ValueOff>41-89-06-74-50</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Thinner and Paint" Description="You must activate it once you're already in the game, whether it's a loaded game or a new one, otherwise, the cheat won't work.. (Debes activarlo cuando ya estes dentro de la partida, ya sea una partida cargada o una partida nueva, sino el truco no funcionará.).">
+    <Cheatline>
+      <PS5Offset>4B1-executable[0]-5</PS5Offset>
+      <Offset>63A3B4F</Offset>
+      <Section>0</Section>
+      <ValueOn>83-7F-14-00-75-09-C7-47-08-00-00-C0-40-EB-A3-C5-FA-11-47-08-EB-9C</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <PS5Offset>504-executable[0]-5</PS5Offset>
+      <Offset>63A3AFC</Offset>
+      <Section>0</Section>
+      <ValueOn>EB-51</ValueOn>
+      <ValueOff>C5-FA</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

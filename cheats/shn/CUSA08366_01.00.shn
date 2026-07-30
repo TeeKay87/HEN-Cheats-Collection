@@ -3,20 +3,6 @@
   <Genres Name="Action" />
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Infinite Character Skill Points">
-    <Cheatline>
-      <Offset>C584B0</Offset>
-      <Section>0</Section>
-      <ValueOn>FF-C8-66-C7-47-44-E7-03-E9-6F-93-95-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>5B1827</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-84-6C-6A-00</ValueOn>
-      <ValueOff>FF-C8-89-47-44</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite Health">
     <Cheatline>
       <Offset>C67DB0</Offset>
@@ -45,20 +31,6 @@
       <ValueOff>C5-FA-11-43-34</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Mastery Skill points">
-    <Cheatline>
-      <Offset>C58180</Offset>
-      <Section>0</Section>
-      <ValueOn>FF-C8-66-C7-47-48-E7-03-E9-DF-99-95-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>5B1B67</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-14-66-6A-00</ValueOn>
-      <ValueOff>FF-C8-89-47-48</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="MAX EXPERIENCE">
     <Cheatline>
       <Offset>C67D10</Offset>
@@ -85,6 +57,34 @@
       <Section>0</Section>
       <ValueOn>E9-DE-74-78-00-90</ValueOn>
       <ValueOff>89-87-54-10-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Character Skill Points">
+    <Cheatline>
+      <Offset>C584B0</Offset>
+      <Section>0</Section>
+      <ValueOn>FF-C8-66-C7-47-44-E7-03-E9-6F-93-95-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>5B1827</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-84-6C-6A-00</ValueOn>
+      <ValueOff>FF-C8-89-47-44</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Mastery Skill points">
+    <Cheatline>
+      <Offset>C58180</Offset>
+      <Section>0</Section>
+      <ValueOn>FF-C8-66-C7-47-48-E7-03-E9-DF-99-95-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>5B1B67</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-14-66-6A-00</ValueOn>
+      <ValueOff>FF-C8-89-47-48</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

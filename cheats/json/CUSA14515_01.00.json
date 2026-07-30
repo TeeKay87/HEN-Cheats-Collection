@@ -21,22 +21,6 @@
       ]
     },
     {
-      "name": "Infinite Timer",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "17D7DF4",
-          "on": "C787A800000000009643E90BACDC7E",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "805A2A06",
-          "on": "E9E9532381909090",
-          "off": "C5FA1187A8000000"
-        }
-      ]
-    },
-    {
       "name": "One Hit Kill",
       "type": "checkbox",
       "memory": [
@@ -49,6 +33,22 @@
           "offset": "80748F06",
           "on": "E9D3EE0881",
           "off": "C5FA114724"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Timer",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "17D7DF4",
+          "on": "C787A800000000009643E90BACDC7E",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "805A2A06",
+          "on": "E9E9532381909090",
+          "off": "C5FA1187A8000000"
         }
       ]
     }

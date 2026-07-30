@@ -10,20 +10,6 @@
       <ValueOff>41-89-4C-24-44</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items and Money On Use/Sell/Buy">
-    <Cheatline>
-      <Offset>1867800</Offset>
-      <Section>0</Section>
-      <ValueOn>B9-9F-86-01-00-41-89-4C-24-44-E9-C0-50-C5-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>4BC8CA</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-31-AF-3A-01</ValueOn>
-      <ValueOff>41-89-4C-24-44</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Use Attribute/Learning Point for Max Skill and Ability">
     <Cheatline>
       <Offset>1867800</Offset>
@@ -36,6 +22,20 @@
       <Section>0</Section>
       <ValueOn>E9-5F-BF-2D-01</ValueOn>
       <ValueOff>43-89-5C-AE-1C</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max Items and Money On Use/Sell/Buy">
+    <Cheatline>
+      <Offset>1867800</Offset>
+      <Section>0</Section>
+      <ValueOn>B9-9F-86-01-00-41-89-4C-24-44-E9-C0-50-C5-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>4BC8CA</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-31-AF-3A-01</ValueOn>
+      <ValueOff>41-89-4C-24-44</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

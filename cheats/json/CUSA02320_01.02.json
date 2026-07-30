@@ -5,6 +5,22 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "L3 \u002B Upper L or Upper R Touch Pad",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "923800",
+          "on": "5148B98883400008000000488B094883E102750DC683444800000059E91B2494FFC683444800000159E90E2494FF",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "265C35",
+          "on": "E9C6DB6B009090",
+          "off": "80BB4448000000"
+        }
+      ]
+    },
+    {
       "name": "Enable FPS View - Hold L3",
       "type": "checkbox",
       "memory": [
@@ -28,22 +44,6 @@
           "offset": "465539",
           "on": "E9F0E24B009090",
           "off": "80B8B939000000"
-        }
-      ]
-    },
-    {
-      "name": "L3 \u002B Upper L or Upper R Touch Pad",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "923800",
-          "on": "5148B98883400008000000488B094883E102750DC683444800000059E91B2494FFC683444800000159E90E2494FF",
-          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "265C35",
-          "on": "E9C6DB6B009090",
-          "off": "80BB4448000000"
         }
       ]
     },
@@ -113,17 +113,6 @@
       ]
     },
     {
-      "name": "Enable Dev Menu",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2CFEA0",
-          "on": "4180BFE847000000EB04AC0E000041C6874448000001EB05849D0E0000",
-          "off": "4180BFE847000000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Ammo/No Reload",
       "type": "checkbox",
       "memory": [
@@ -136,6 +125,17 @@
           "offset": "346469",
           "on": "E98289907F909090",
           "off": "41FF8C0640040000"
+        }
+      ]
+    },
+    {
+      "name": "Enable Dev Menu",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2CFEA0",
+          "on": "4180BFE847000000EB04AC0E000041C6874448000001EB05849D0E0000",
+          "off": "4180BFE847000000"
         }
       ]
     },

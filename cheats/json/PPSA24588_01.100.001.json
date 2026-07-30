@@ -5,18 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Advantages Poitns",
+      "name": "Inf Hp",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "6F4B135",
-          "on": "C7833403000063000000E9D0EC93FE",
-          "off": "000000000000000000000000000000"
+          "offset": "6F4B000",
+          "on": "C5FA10A74C040000C5FA11A748040000E905061DFA",
+          "off": "000000000000000000000000000000000000000000"
         },
         {
-          "offset": "5889E0E",
-          "on": "E922136C0190",
-          "off": "898334030000"
+          "offset": "111B612",
+          "on": "E9E9F9E205909090",
+          "off": "C5FA11A748040000"
         }
       ]
     },
@@ -28,6 +28,17 @@
           "offset": "17118AC",
           "on": "90909090",
           "off": "45296508"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "17164C5",
+          "on": "909090909090",
+          "off": "898338010000"
         }
       ]
     },
@@ -48,18 +59,18 @@
       ]
     },
     {
-      "name": "Inf Hp",
+      "name": "No Toxicity",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "6F4B000",
-          "on": "C5FA10A74C040000C5FA11A748040000E905061DFA",
-          "off": "000000000000000000000000000000000000000000"
+          "offset": "6F4B06A",
+          "on": "C7874802000000000000E9A56487F9",
+          "off": "000000000000000000000000000000"
         },
         {
-          "offset": "111B612",
-          "on": "E9E9F9E205909090",
-          "off": "C5FA11A748040000"
+          "offset": "7C1516",
+          "on": "E94F9B7806909090",
+          "off": "C5FA118F48020000"
         }
       ]
     },
@@ -112,6 +123,22 @@
       ]
     },
     {
+      "name": "Inf Advantages Poitns",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6F4B135",
+          "on": "C7833403000063000000E9D0EC93FE",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "5889E0E",
+          "on": "E922136C0190",
+          "off": "898334030000"
+        }
+      ]
+    },
+    {
       "name": "Max Exp",
       "type": "checkbox",
       "memory": [
@@ -124,33 +151,6 @@
           "offset": "1EA6270",
           "on": "E9EF4E0A059090",
           "off": "4189870C090000"
-        }
-      ]
-    },
-    {
-      "name": "No Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "17164C5",
-          "on": "909090909090",
-          "off": "898338010000"
-        }
-      ]
-    },
-    {
-      "name": "No Toxicity",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "6F4B06A",
-          "on": "C7874802000000000000E9A56487F9",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "7C1516",
-          "on": "E94F9B7806909090",
-          "off": "C5FA118F48020000"
         }
       ]
     }

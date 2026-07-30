@@ -5,28 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Get Max XP For 1 Kill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "BC5E47",
-          "on": "48C7C0FFE0F5054C63F689D3909090",
-          "off": "488B87800000004C63F689D34C01F0"
-        }
-      ]
-    },
-    {
-      "name": "Get Money For Spending It",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "B79480",
-          "on": "01D9",
-          "off": "29D9"
-        }
-      ]
-    },
-    {
       "name": "Godmode",
       "type": "checkbox",
       "memory": [
@@ -49,17 +27,6 @@
       ]
     },
     {
-      "name": "Infinite Rage",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "B7F23F",
-          "on": "9090909090909090",
-          "off": "C5FA1183A01C0000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Stamina",
       "type": "checkbox",
       "memory": [
@@ -67,6 +34,17 @@
           "offset": "B51C24",
           "on": "909090909090909090",
           "off": "C4C17A1185A40D0000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Rage",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B7F23F",
+          "on": "9090909090909090",
+          "off": "C5FA1183A01C0000"
         }
       ]
     },
@@ -82,24 +60,24 @@
       ]
     },
     {
-      "name": "Get Max XP For 1 Kill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7c5e47",
-          "on": "48C7C0FFE0F5054C63F689D3909090",
-          "off": "488B87800000004C63F689D34C01F0"
-        }
-      ]
-    },
-    {
       "name": "Get Money For Spending It",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "779480",
+          "offset": "B79480",
           "on": "01D9",
           "off": "29D9"
+        }
+      ]
+    },
+    {
+      "name": "Get Max XP For 1 Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "BC5E47",
+          "on": "48C7C0FFE0F5054C63F689D3909090",
+          "off": "488B87800000004C63F689D34C01F0"
         }
       ]
     },
@@ -126,17 +104,6 @@
       ]
     },
     {
-      "name": "Infinite Rage",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "77f23f",
-          "on": "9090909090909090",
-          "off": "C5FA1183A01C0000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Stamina",
       "type": "checkbox",
       "memory": [
@@ -148,6 +115,17 @@
       ]
     },
     {
+      "name": "Infinite Rage",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "77f23f",
+          "on": "9090909090909090",
+          "off": "C5FA1183A01C0000"
+        }
+      ]
+    },
+    {
       "name": "Infinite Weapon Durability",
       "type": "checkbox",
       "memory": [
@@ -155,6 +133,28 @@
           "offset": "3d2156",
           "on": "9090909090",
           "off": "C5FA114B04"
+        }
+      ]
+    },
+    {
+      "name": "Get Money For Spending It",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "779480",
+          "on": "01D9",
+          "off": "29D9"
+        }
+      ]
+    },
+    {
+      "name": "Get Max XP For 1 Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7c5e47",
+          "on": "48C7C0FFE0F5054C63F689D3909090",
+          "off": "488B87800000004C63F689D34C01F0"
         }
       ]
     }

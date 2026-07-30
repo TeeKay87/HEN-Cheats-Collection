@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Call of Duty: Modern Warfare" Moder="Celogamez" Cusa="CUSA15280" Version="01.22" Process="default.elf">
   <Items />
+  <Cheat Text="Infinite Health (Campaign)">
+    <Cheatline>
+      <Offset>7FC5FDB0</Offset>
+      <Section>0</Section>
+      <ValueOn>49-8B-06-48-81-F9-86-12-00-00-75-0C-41-C7-07-00-00-48-43-E9-6C-40-ED-80-49-89-07-E9-64-40-ED-80</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>B33E2E</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-7D-BF-12-7F-90</ValueOn>
+      <ValueOff>49-8B-06-49-89-07</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Health (Multiplayer/Local Co-op)">
+    <Cheatline>
+      <Offset>020B3E40</Offset>
+      <Section>0</Section>
+      <ValueOn>48-83-FE-00-75-0F-C7-83-B8-01-00-00-C8-00-00-00-E9-E8-4F-89-FE-29-83-B8-01-00-00-E9-DD-4F-89-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>948E37</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-04-B0-76-01-90</ValueOn>
+      <ValueOff>29-83-B8-01-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Infinite Ammo">
     <Cheatline>
       <Offset>020B3310</Offset>
@@ -13,6 +41,20 @@
       <Section>0</Section>
       <ValueOn>E9-22-F3-86-01-90-90-90-90</ValueOn>
       <ValueOff>4C-8B-85-B0-FE-FF-FF-89-18</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="No Reload">
+    <Cheatline>
+      <Offset>020B3270</Offset>
+      <Section>0</Section>
+      <ValueOn>48-8B-95-98-FD-FF-FF-B9-63-00-00-00-89-4C-90-50-E9-86-52-78-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>838500</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-6B-AD-87-01-90-90-90-90-90-90</ValueOn>
+      <ValueOff>48-8B-95-98-FD-FF-FF-89-4C-90-50</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Grenades">
@@ -43,34 +85,6 @@
       <ValueOff>49-8B-06-49-89-07</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health (Campaign)">
-    <Cheatline>
-      <Offset>7FC5FDB0</Offset>
-      <Section>0</Section>
-      <ValueOn>49-8B-06-48-81-F9-86-12-00-00-75-0C-41-C7-07-00-00-48-43-E9-6C-40-ED-80-49-89-07-E9-64-40-ED-80</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>B33E2E</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-7D-BF-12-7F-90</ValueOn>
-      <ValueOff>49-8B-06-49-89-07</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Health (Multiplayer/Local Co-op)">
-    <Cheatline>
-      <Offset>020B3E40</Offset>
-      <Section>0</Section>
-      <ValueOn>48-83-FE-00-75-0F-C7-83-B8-01-00-00-C8-00-00-00-E9-E8-4F-89-FE-29-83-B8-01-00-00-E9-DD-4F-89-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>948E37</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-04-B0-76-01-90</ValueOn>
-      <ValueOff>29-83-B8-01-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="No Recoil">
     <Cheatline>
       <Offset>020B3B80</Offset>
@@ -95,20 +109,6 @@
       <Section>0</Section>
       <ValueOn>E9-9B-17-8D-01-90-90-90-90</ValueOn>
       <ValueOff>C4-C1-7A-10-A6-20-07-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="No Reload">
-    <Cheatline>
-      <Offset>020B3270</Offset>
-      <Section>0</Section>
-      <ValueOn>48-8B-95-98-FD-FF-FF-B9-63-00-00-00-89-4C-90-50-E9-86-52-78-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>838500</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-6B-AD-87-01-90-90-90-90-90-90</ValueOn>
-      <ValueOff>48-8B-95-98-FD-FF-FF-89-4C-90-50</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

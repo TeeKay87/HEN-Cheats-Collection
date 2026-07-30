@@ -41,12 +41,18 @@
       <ValueOff>C5-FA-5E-43-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Skillpoints">
+  <Cheat Text="One Hit Kill (Use with InfiniteHealth)">
     <Cheatline>
-      <Offset>3380B3</Offset>
+      <Offset>1AEB823</Offset>
       <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90</ValueOn>
-      <ValueOff>FF-88-84-00-00-00</ValueOff>
+      <ValueOn>41-81-3C-24-80-4F-C3-47-75-04-C5-F8-28-C1-E9-F7-4B-F3-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>A20425</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-F9-B3-0C-01-90-90-90</ValueOn>
+      <ValueOff>C5-F2-58-85-44-FB-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max Items/XP on Get">
@@ -63,18 +69,12 @@
       <ValueOff>44-0F-43-E0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill (Use with InfiniteHealth)">
+  <Cheat Text="Infinite Skillpoints">
     <Cheatline>
-      <Offset>1AEB823</Offset>
+      <Offset>3380B3</Offset>
       <Section>0</Section>
-      <ValueOn>41-81-3C-24-80-4F-C3-47-75-04-C5-F8-28-C1-E9-F7-4B-F3-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>A20425</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-F9-B3-0C-01-90-90-90</ValueOn>
-      <ValueOff>C5-F2-58-85-44-FB-FF-FF</ValueOff>
+      <ValueOn>90-90-90-90-90-90</ValueOn>
+      <ValueOff>FF-88-84-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

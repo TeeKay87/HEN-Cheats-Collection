@@ -21,22 +21,6 @@
       ]
     },
     {
-      "name": "Instant Max Combo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2B7B140",
-          "on": "41C786C80000000F270000E99B1BA7FD",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "5ECCE4",
-          "on": "E957E458029090",
-          "off": "4501BEC8000000"
-        }
-      ]
-    },
-    {
       "name": "Max Studs on Gain",
       "type": "checkbox",
       "memory": [
@@ -49,6 +33,22 @@
           "offset": "19B0B7D",
           "on": "E9DEA31C01909090",
           "off": "4C8973304C897328"
+        }
+      ]
+    },
+    {
+      "name": "Instant Max Combo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2B7B140",
+          "on": "41C786C80000000F270000E99B1BA7FD",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "5ECCE4",
+          "on": "E957E458029090",
+          "off": "4501BEC8000000"
         }
       ]
     },

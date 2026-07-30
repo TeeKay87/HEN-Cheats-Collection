@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "9,999,999 Items (MUST Buy 1 from store FIRST)(Turn off to use items)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1F8A300",
-          "on": "0F8EF99036FEC742047F969800E9719036FE",
-          "off": "000000000000000000000000000000000000"
-        },
-        {
-          "offset": "2F3379",
-          "on": "E9826FC9019090909090",
-          "off": "0F8E8600000044897A04"
-        }
-      ]
-    },
-    {
       "name": "9,999,999 SP, Yen, Shogi Points on gain",
       "type": "checkbox",
       "memory": [
@@ -33,22 +17,6 @@
           "offset": "2F292F",
           "on": "E9AC77C901909090",
           "off": "480F4FD84A891CE9"
-        }
-      ]
-    },
-    {
-      "name": "9,999,999 VR Credits on Gain",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1F8A3C0",
-          "on": "C783F00100007F969800E96DD16CFF",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "1657536",
-          "on": "E9852E930090",
-          "off": "898BF0010000"
         }
       ]
     },
@@ -69,22 +37,6 @@
       ]
     },
     {
-      "name": "Infinite Extract Duration",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1F8BDD0",
-          "on": "C780B400000000009643E9DD7E29FE",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "223CB4",
-          "on": "E91781D601909090",
-          "off": "C5FA1180B4000000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Weapon Durability",
       "type": "checkbox",
       "memory": [
@@ -101,13 +53,18 @@
       ]
     },
     {
-      "name": "Items dont decrease (Buy from store first)",
+      "name": "9,999,999 Items (MUST Buy 1 from store FIRST)(Turn off to use items)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "2F337F",
-          "on": "90909090",
-          "off": "44897A04"
+          "offset": "1F8A300",
+          "on": "0F8EF99036FEC742047F969800E9719036FE",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "2F3379",
+          "on": "E9826FC9019090909090",
+          "off": "0F8E8600000044897A04"
         }
       ]
     },
@@ -119,6 +76,49 @@
           "offset": "2F337F",
           "on": "44017A04",
           "off": "44897A04"
+        }
+      ]
+    },
+    {
+      "name": "Items dont decrease (Buy from store first)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2F337F",
+          "on": "90909090",
+          "off": "44897A04"
+        }
+      ]
+    },
+    {
+      "name": "9,999,999 VR Credits on Gain",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F8A3C0",
+          "on": "C783F00100007F969800E96DD16CFF",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "1657536",
+          "on": "E9852E930090",
+          "off": "898BF0010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Extract Duration",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F8BDD0",
+          "on": "C780B400000000009643E9DD7E29FE",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "223CB4",
+          "on": "E91781D601909090",
+          "off": "C5FA1180B4000000"
         }
       ]
     }

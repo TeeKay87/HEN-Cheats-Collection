@@ -16,12 +16,12 @@
       <ValueOff>C5-F8-11-03-EB-75</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Jumps">
+  <Cheat Text="Unbesiegbar">
     <Cheatline>
-      <Offset>3DEF8B</Offset>
+      <Offset>1FFF806</Offset>
       <Section>0</Section>
-      <ValueOn>83-F8-00</ValueOn>
-      <ValueOff>83-F8-02</ValueOff>
+      <ValueOn>74-28</ValueOn>
+      <ValueOff>74-17</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max Boxen">
@@ -32,18 +32,12 @@
       <ValueOff>74-0F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Diamanten">
+  <Cheat Text="Max Äpfel">
     <Cheatline>
-      <Offset>1FFF858</Offset>
+      <Offset>1FFF816</Offset>
       <Section>0</Section>
-      <ValueOn>49-89-FE-BE-63-00-00-00-41-89-76-14-E9-EF-44-1D-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>1D3D51</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-02-BB-E2-01-90-90</ValueOn>
-      <ValueOff>49-89-FE-41-89-76-14</ValueOff>
+      <ValueOn>74-21</ValueOn>
+      <ValueOff>74-07</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max Leben">
@@ -60,20 +54,26 @@
       <ValueOff>49-89-FE-41-89-76-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Äpfel">
+  <Cheat Text="Max Diamanten">
     <Cheatline>
-      <Offset>1FFF816</Offset>
+      <Offset>1FFF858</Offset>
       <Section>0</Section>
-      <ValueOn>74-21</ValueOn>
-      <ValueOff>74-07</ValueOff>
+      <ValueOn>49-89-FE-BE-63-00-00-00-41-89-76-14-E9-EF-44-1D-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>1D3D51</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-02-BB-E2-01-90-90</ValueOn>
+      <ValueOff>49-89-FE-41-89-76-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Unbesiegbar">
+  <Cheat Text="Infinite Jumps">
     <Cheatline>
-      <Offset>1FFF806</Offset>
+      <Offset>3DEF8B</Offset>
       <Section>0</Section>
-      <ValueOn>74-28</ValueOn>
-      <ValueOff>74-17</ValueOff>
+      <ValueOn>83-F8-00</ValueOn>
+      <ValueOff>83-F8-02</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

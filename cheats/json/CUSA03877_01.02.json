@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Amber",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "45D3E00",
-          "on": "C787E003000000009642E9CDC3CDFB",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "2B01D4",
-          "on": "E9273C3204909090",
-          "off": "C5FA1187E0030000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -33,6 +17,22 @@
           "offset": "2B01B4",
           "on": "E9573C3204909090",
           "off": "C5FA1187DC030000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Amber",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "45D3E00",
+          "on": "C787E003000000009642E9CDC3CDFB",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "2B01D4",
+          "on": "E9273C3204909090",
+          "off": "C5FA1187E0030000"
         }
       ]
     },
@@ -69,28 +69,6 @@
       ]
     },
     {
-      "name": "Perfect Mission Time ( Reset to 0 )",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2341B4",
-          "on": "9090909090909090",
-          "off": "C5F258836C040000"
-        }
-      ]
-    },
-    {
-      "name": "Perfect Mission Time ( Stop Timer )",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2341BC",
-          "on": "9090909090909090",
-          "off": "C5FA11836C040000"
-        }
-      ]
-    },
-    {
       "name": "Pure Quartz ( on gain )",
       "type": "checkbox",
       "memory": [
@@ -123,6 +101,22 @@
       ]
     },
     {
+      "name": "Zero Kill Counts",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "45D3E50",
+          "on": "C6877804000000E94623C6FB",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "23619C",
+          "on": "E9AFDC390490",
+          "off": "89B778040000"
+        }
+      ]
+    },
+    {
       "name": "Zero Alert Counts",
       "type": "checkbox",
       "memory": [
@@ -139,18 +133,24 @@
       ]
     },
     {
-      "name": "Zero Kill Counts",
+      "name": "Perfect Mission Time ( Reset to 0 )",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "45D3E50",
-          "on": "C6877804000000E94623C6FB",
-          "off": "000000000000000000000000"
-        },
+          "offset": "2341B4",
+          "on": "9090909090909090",
+          "off": "C5F258836C040000"
+        }
+      ]
+    },
+    {
+      "name": "Perfect Mission Time ( Stop Timer )",
+      "type": "checkbox",
+      "memory": [
         {
-          "offset": "23619C",
-          "on": "E9AFDC390490",
-          "off": "89B778040000"
+          "offset": "2341BC",
+          "on": "9090909090909090",
+          "off": "C5FA11836C040000"
         }
       ]
     }

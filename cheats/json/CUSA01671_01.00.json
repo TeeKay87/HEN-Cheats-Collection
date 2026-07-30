@@ -5,29 +5,110 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "100% Mission Bonus Red Orbs",
+      "name": "Invincible cant be hit ",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "EE7823",
-          "on": "448BB3900100004489B38C010000E97EC431FF",
-          "off": "00000000000000000000000000000000000000"
+          "offset": "EE7846",
+          "on": "6681FC78830F841B4472FF80BF8F1D000000E90C4472FF",
+          "off": "0000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "203CAD",
-          "on": "E9713BCE009090",
-          "off": "4401B38C010000"
+          "offset": "60BC62",
+          "on": "E9DFBB8D009090",
+          "off": "80BF8F1D000000"
         }
       ]
     },
     {
-      "name": "Dante Inf Disaster Gauge",
+      "name": "Inf Health",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "C0909",
-          "on": "C5FA1183D49E0100",
-          "off": "C5FA1083D49E0100"
+          "offset": "EE77E0",
+          "on": "6681FC20830F8406E53AFFC5FA115B40E9FCE43AFF",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "295CEC",
+          "on": "E9EF1AC500",
+          "off": "C5FA115B40"
+        }
+      ]
+    },
+    {
+      "name": "Inf Hp Alt",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "EE7232",
+          "on": "C5FA104340C5FA5CD983BB9C000000030F85A4EA3AFFE9A4EA3AFF",
+          "off": "000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "295CE3",
+          "on": "E94A15C500",
+          "off": "C5FA104340C5FA5CD9"
+        }
+      ]
+    },
+    {
+      "name": "Inf HP \u002B Easy Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "EE77E0",
+          "on": "6681FC20830F8406E53AFFC74340000080BFE9FAE43AFF",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "295CEC",
+          "on": "E9EF1AC500",
+          "off": "C5FA115B40"
+        }
+      ]
+    },
+    {
+      "name": "Inf HP Hell and Hell",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "295D56",
+          "on": "C7434000409C46",
+          "off": "C74340000080BF"
+        }
+      ]
+    },
+    {
+      "name": "Inf HP Player \u002B Enemy for Practice",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "295CEC",
+          "on": "9090909090",
+          "off": "C5FA115B40"
+        }
+      ]
+    },
+    {
+      "name": "Nero Inf Max Act",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5E050A",
+          "on": "909090909090",
+          "off": "8983100D0100"
+        }
+      ]
+    },
+    {
+      "name": "Nero Instant Charge Shot",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "60C9B4",
+          "on": "90909090",
+          "off": "0FB7420A"
         }
       ]
     },
@@ -43,6 +124,17 @@
       ]
     },
     {
+      "name": "Dante Inf Disaster Gauge",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "C0909",
+          "on": "C5FA1183D49E0100",
+          "off": "C5FA1083D49E0100"
+        }
+      ]
+    },
+    {
       "name": "Dante Inf Royal Guard",
       "type": "checkbox",
       "memory": [
@@ -50,6 +142,93 @@
           "offset": "C07BE",
           "on": "C5FA118340990100",
           "off": "C5FA108340990100"
+        }
+      ]
+    },
+    {
+      "name": "Vergil Inf Concentration Gauge",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1140F3",
+          "on": "C5FA118360910000",
+          "off": "C5F82E8360910000"
+        }
+      ]
+    },
+    {
+      "name": "Vergil Inf Round Trip",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "11FCA4",
+          "on": "9090909090909090",
+          "off": "C5FA11838C910000"
+        }
+      ]
+    },
+    {
+      "name": "Vergil Instant Charge Round Trip",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "EE7817",
+          "on": "C7431000004842E9A95072FF",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "60C8C5",
+          "on": "E94DAF8D009090",
+          "off": "C7431000000000"
+        }
+      ]
+    },
+    {
+      "name": "Vergil Inf Trick Up",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "F4B0E",
+          "on": "90909090909090",
+          "off": "41FE85B0920000"
+        }
+      ]
+    },
+    {
+      "name": "Lady Instant Charge Shot",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "60C9AF",
+          "on": "C5FA114E10",
+          "off": "C5FA114610"
+        },
+        {
+          "offset": "DCACF",
+          "on": "4C89B3B420000090",
+          "off": "C5FA10A3B4200000"
+        }
+      ]
+    },
+    {
+      "name": "Trish Inf Round Trip",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "106B90",
+          "on": "48898BFCB4000090",
+          "off": "C5FA1083FCB40000"
+        }
+      ]
+    },
+    {
+      "name": "Int Air Hike",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "59CB8F",
+          "on": "909090909090",
+          "off": "FE8790290000"
         }
       ]
     },
@@ -107,141 +286,6 @@
       ]
     },
     {
-      "name": "Inf Gold Orbs Hell and Hell",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "167B76",
-          "on": "909090909090",
-          "off": "FF88BC010000"
-        }
-      ]
-    },
-    {
-      "name": "Inf Gold Orbs in Inventory",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "21F98B",
-          "on": "90909090",
-          "off": "41895728"
-        }
-      ]
-    },
-    {
-      "name": "Inf Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "EE77E0",
-          "on": "6681FC20830F8406E53AFFC5FA115B40E9FCE43AFF",
-          "off": "000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "295CEC",
-          "on": "E9EF1AC500",
-          "off": "C5FA115B40"
-        }
-      ]
-    },
-    {
-      "name": "Inf HP \u002B Easy Kill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "EE77E0",
-          "on": "6681FC20830F8406E53AFFC74340000080BFE9FAE43AFF",
-          "off": "0000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "295CEC",
-          "on": "E9EF1AC500",
-          "off": "C5FA115B40"
-        }
-      ]
-    },
-    {
-      "name": "Inf Hp Alt",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "EE7232",
-          "on": "C5FA104340C5FA5CD983BB9C000000030F85A4EA3AFFE9A4EA3AFF",
-          "off": "000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "295CE3",
-          "on": "E94A15C500",
-          "off": "C5FA104340C5FA5CD9"
-        }
-      ]
-    },
-    {
-      "name": "Inf HP Hell and Hell",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "295D56",
-          "on": "C7434000409C46",
-          "off": "C74340000080BF"
-        }
-      ]
-    },
-    {
-      "name": "Inf HP Player \u002B Enemy for Practice",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "295CEC",
-          "on": "9090909090",
-          "off": "C5FA115B40"
-        }
-      ]
-    },
-    {
-      "name": "Int Air Hike",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "59CB8F",
-          "on": "909090909090",
-          "off": "FE8790290000"
-        }
-      ]
-    },
-    {
-      "name": "Invincible cant be hit ",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "EE7846",
-          "on": "6681FC78830F841B4472FF80BF8F1D000000E90C4472FF",
-          "off": "0000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "60BC62",
-          "on": "E9DFBB8D009090",
-          "off": "80BF8F1D000000"
-        }
-      ]
-    },
-    {
-      "name": "Lady Instant Charge Shot",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "60C9AF",
-          "on": "C5FA114E10",
-          "off": "C5FA114610"
-        },
-        {
-          "offset": "DCACF",
-          "on": "4C89B3B420000090",
-          "off": "C5FA10A3B4200000"
-        }
-      ]
-    },
-    {
       "name": "Max Inf Devil Trigger",
       "type": "checkbox",
       "memory": [
@@ -278,6 +322,17 @@
       ]
     },
     {
+      "name": "Max Inf Red Orbs",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "203BE4",
+          "on": "9090",
+          "off": "7C0A"
+        }
+      ]
+    },
+    {
       "name": "Max Inf Proud Souls",
       "type": "checkbox",
       "memory": [
@@ -309,95 +364,40 @@
       ]
     },
     {
-      "name": "Max Inf Red Orbs",
+      "name": "Inf Gold Orbs Hell and Hell",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "203BE4",
-          "on": "9090",
-          "off": "7C0A"
-        }
-      ]
-    },
-    {
-      "name": "Nero Inf Max Act",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5E050A",
+          "offset": "167B76",
           "on": "909090909090",
-          "off": "8983100D0100"
+          "off": "FF88BC010000"
         }
       ]
     },
     {
-      "name": "Nero Instant Charge Shot",
+      "name": "Inf Gold Orbs in Inventory",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "60C9B4",
+          "offset": "21F98B",
           "on": "90909090",
-          "off": "0FB7420A"
+          "off": "41895728"
         }
       ]
     },
     {
-      "name": "Trish Inf Round Trip",
+      "name": "100% Mission Bonus Red Orbs",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "106B90",
-          "on": "48898BFCB4000090",
-          "off": "C5FA1083FCB40000"
-        }
-      ]
-    },
-    {
-      "name": "Vergil Inf Concentration Gauge",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1140F3",
-          "on": "C5FA118360910000",
-          "off": "C5F82E8360910000"
-        }
-      ]
-    },
-    {
-      "name": "Vergil Inf Round Trip",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "11FCA4",
-          "on": "9090909090909090",
-          "off": "C5FA11838C910000"
-        }
-      ]
-    },
-    {
-      "name": "Vergil Inf Trick Up",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "F4B0E",
-          "on": "90909090909090",
-          "off": "41FE85B0920000"
-        }
-      ]
-    },
-    {
-      "name": "Vergil Instant Charge Round Trip",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "EE7817",
-          "on": "C7431000004842E9A95072FF",
-          "off": "000000000000000000000000"
+          "offset": "EE7823",
+          "on": "448BB3900100004489B38C010000E97EC431FF",
+          "off": "00000000000000000000000000000000000000"
         },
         {
-          "offset": "60C8C5",
-          "on": "E94DAF8D009090",
-          "off": "C7431000000000"
+          "offset": "203CAD",
+          "on": "E9713BCE009090",
+          "off": "4401B38C010000"
         }
       ]
     }

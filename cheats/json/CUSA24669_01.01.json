@@ -21,17 +21,6 @@
       ]
     },
     {
-      "name": "Inf Soul Sliver",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2AA642",
-          "on": "909090909090",
-          "off": "8988C4000000"
-        }
-      ]
-    },
-    {
       "name": "Inf Souls",
       "type": "checkbox",
       "memory": [
@@ -44,6 +33,17 @@
           "offset": "80E1E446",
           "on": "E9B50D7780",
           "off": "C5FA114018"
+        }
+      ]
+    },
+    {
+      "name": "Inf Soul Sliver",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2AA642",
+          "on": "909090909090",
+          "off": "8988C4000000"
         }
       ]
     }

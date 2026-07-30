@@ -21,6 +21,28 @@
       ]
     },
     {
+      "name": "Unlimited Weight",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "20E5BD",
+          "on": "9090909090",
+          "off": "C5FA1045BC"
+        }
+      ]
+    },
+    {
+      "name": "Unlimted Items (on consume)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "48689E",
+          "on": "909090909090",
+          "off": "FF8BA0050000"
+        }
+      ]
+    },
+    {
       "name": "Unlimited Items (on drop need 2)",
       "type": "checkbox",
       "memory": [
@@ -43,17 +65,6 @@
       ]
     },
     {
-      "name": "Unlimited Stam, Joy, Fatigue, Hunger and Thirst",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "471C21",
-          "on": "90909090",
-          "off": "C5E25DC0"
-        }
-      ]
-    },
-    {
       "name": "Unlimited Weapon Durability",
       "type": "checkbox",
       "memory": [
@@ -65,24 +76,13 @@
       ]
     },
     {
-      "name": "Unlimited Weight",
+      "name": "Unlimited Stam, Joy, Fatigue, Hunger and Thirst",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "20E5BD",
-          "on": "9090909090",
-          "off": "C5FA1045BC"
-        }
-      ]
-    },
-    {
-      "name": "Unlimted Items (on consume)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "48689E",
-          "on": "909090909090",
-          "off": "FF8BA0050000"
+          "offset": "471C21",
+          "on": "90909090",
+          "off": "C5E25DC0"
         }
       ]
     }

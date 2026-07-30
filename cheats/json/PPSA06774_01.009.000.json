@@ -16,22 +16,6 @@
       ]
     },
     {
-      "name": "Inf Hp",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FCCB05B",
-          "on": "837B50000F845BEE2281898B68020000E950EE2281",
-          "off": "000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "EF9EBA",
-          "on": "E99C11DD7E90",
-          "off": "898B68020000"
-        }
-      ]
-    },
-    {
       "name": "Inf Hp And Onehitkill",
       "type": "checkbox",
       "memory": [
@@ -43,6 +27,22 @@
         {
           "offset": "EF9EBA",
           "on": "E96311DD7E90",
+          "off": "898B68020000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB05B",
+          "on": "837B50000F845BEE2281898B68020000E950EE2281",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "EF9EBA",
+          "on": "E99C11DD7E90",
           "off": "898B68020000"
         }
       ]

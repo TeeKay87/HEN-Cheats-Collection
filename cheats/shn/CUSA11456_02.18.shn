@@ -31,20 +31,6 @@
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Tech Points (Enable After Earn 1 point)">
-    <Cheatline>
-      <Offset>6E2CB4</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-C7-83-C5-00</ValueOn>
-      <ValueOff>43-01-74-AC-58</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>133B080</Offset>
-      <Section>0</Section>
-      <ValueOn>43-C6-44-AC-58-00-E9-2E-7C-3A-FF-90</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Max Resource (On Get)">
     <Cheatline>
       <Offset>6E0182</Offset>
@@ -59,26 +45,18 @@
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Resolve">
-    <Cheatline>
-      <Offset>7363B9</Offset>
-      <Section>0</Section>
-      <ValueOn>C5-FA-10-87-54-43-00-00</ValueOn>
-      <ValueOff>C5-FA-11-87-54-43-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Technique Points (Enable When you get 1)">
-    <Cheatline>
-      <Offset>133B920</Offset>
-      <Section>0</Section>
-      <ValueOn>43-C6-44-AC-58-00-E9-8E-73-3A-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
+  <Cheat Text="Infinite Tech Points (Enable After Earn 1 point)">
     <Cheatline>
       <Offset>6E2CB4</Offset>
       <Section>0</Section>
-      <ValueOn>E9-67-8C-C5-00</ValueOn>
+      <ValueOn>E9-C7-83-C5-00</ValueOn>
       <ValueOff>43-01-74-AC-58</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>133B080</Offset>
+      <Section>0</Section>
+      <ValueOn>43-C6-44-AC-58-00-E9-2E-7C-3A-FF-90</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max/Infinite Health">
@@ -95,6 +73,14 @@
       <ValueOff>C5-FA-11-87-34-19-00-00</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="Infinite Resolve">
+    <Cheatline>
+      <Offset>7363B9</Offset>
+      <Section>0</Section>
+      <ValueOn>C5-FA-10-87-54-43-00-00</ValueOn>
+      <ValueOff>C5-FA-11-87-54-43-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Max/Infinite Resources On Pick Up">
     <Cheatline>
       <Offset>133B9D0</Offset>
@@ -107,6 +93,20 @@
       <Section>0</Section>
       <ValueOn>E9-49-B8-C5-00</ValueOn>
       <ValueOff>42-89-5C-A8-08</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Technique Points (Enable When you get 1)">
+    <Cheatline>
+      <Offset>133B920</Offset>
+      <Section>0</Section>
+      <ValueOn>43-C6-44-AC-58-00-E9-8E-73-3A-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>6E2CB4</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-67-8C-C5-00</ValueOn>
+      <ValueOff>43-01-74-AC-58</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

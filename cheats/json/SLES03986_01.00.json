@@ -5,11 +5,11 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-Bomb",
+      "name": "Infinite-Weapon",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1457D2",
+          "offset": "14602A",
           "on": "00",
           "off": "42"
         }
@@ -38,11 +38,11 @@
       ]
     },
     {
-      "name": "Infinite-Weapon",
+      "name": "Infinite-Bomb",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "14602A",
+          "offset": "1457D2",
           "on": "00",
           "off": "42"
         }

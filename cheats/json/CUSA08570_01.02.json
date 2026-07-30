@@ -37,22 +37,6 @@
       ]
     },
     {
-      "name": "Infinite Skill Use",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5B410",
-          "on": "41C78424D02B020010270000E965666380",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "291A7E",
-          "on": "E98D999C7F909090",
-          "off": "41898424D02B0200"
-        }
-      ]
-    },
-    {
       "name": "Max Experience",
       "type": "checkbox",
       "memory": [
@@ -65,6 +49,22 @@
           "offset": "27E255",
           "on": "E906D19D7F909090",
           "off": "C5FA118780100000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Skill Use",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5B410",
+          "on": "41C78424D02B020010270000E965666380",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "291A7E",
+          "on": "E98D999C7F909090",
+          "off": "41898424D02B0200"
         }
       ]
     }

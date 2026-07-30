@@ -16,17 +16,6 @@
       ]
     },
     {
-      "name": "Earn Skill Points On Spend",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "31CAB9C",
-          "on": "4401BBD8000000",
-          "off": "4429BBD8000000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Resources/Medkits/Throwables/Ammo(reloadable)",
       "type": "checkbox",
       "memory": [
@@ -34,6 +23,17 @@
           "offset": "1115B97",
           "on": "909090",
           "off": "89434C"
+        }
+      ]
+    },
+    {
+      "name": "Earn Skill Points On Spend",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "31CAB9C",
+          "on": "4401BBD8000000",
+          "off": "4429BBD8000000"
         }
       ]
     }

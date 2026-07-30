@@ -4,22 +4,6 @@
   <Genres Name="Adventure" />
   <Genres Name="Fighting" />
   <Items />
-  <Cheat Text="1 Hit Kills">
-    <Cheatline>
-      <Offset>6032E5</Offset>
-      <Section>16</Section>
-      <ValueOn>0F-57-C0-90-F3-0F-11-00</ValueOn>
-      <ValueOff>F3-0F-10-00-F3-0F-5A-C0</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="99x Combo">
-    <Cheatline>
-      <Offset>90CBEA</Offset>
-      <Section>16</Section>
-      <ValueOn>48-C7-C1-63-00-00-00</ValueOn>
-      <ValueOff>48-63-89-C0-00-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite Health">
     <Cheatline>
       <Offset>1297800</Offset>
@@ -40,6 +24,14 @@
       <ValueOff>FF-C8</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="1 Hit Kills">
+    <Cheatline>
+      <Offset>6032E5</Offset>
+      <Section>16</Section>
+      <ValueOn>0F-57-C0-90-F3-0F-11-00</ValueOn>
+      <ValueOff>F3-0F-10-00-F3-0F-5A-C0</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Infinite Magic">
     <Cheatline>
       <Offset>84D4A8</Offset>
@@ -48,63 +40,11 @@
       <ValueOff>F2-0F-5C-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Time">
-    <Cheatline>
-      <Offset>5F5E49</Offset>
-      <Section>16</Section>
-      <ValueOn>90-90-90-90</ValueOn>
-      <ValueOff>F2-0F-5C-C1</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Max Items for Collection Quests">
-    <Cheatline>
-      <Offset>605FF4</Offset>
-      <Section>16</Section>
-      <ValueOn>B8-63-00-00-00-90</ValueOn>
-      <ValueOff>49-63-47-60-FF-C0</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Max Magic Crystalls on Get">
-    <Cheatline>
-      <Offset>61F1B9</Offset>
-      <Section>16</Section>
-      <ValueOn>48-C7-C1-3F-42-0F-00</ValueOn>
-      <ValueOff>48-63-08-03-4C-24-08</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Score x1">
     <Cheatline>
       <Offset>1297812</Offset>
       <Section>0</Section>
       <ValueOn>C7-40-20-00-00-80-3F-F3-0F-10-50-20-E9-B3-ED-43-7F</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>806D65D1</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-3C-12-BC-80</ValueOn>
-      <ValueOff>F3-0F-10-50-20</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Score x10">
-    <Cheatline>
-      <Offset>1297812</Offset>
-      <Section>0</Section>
-      <ValueOn>C7-40-20-00-00-20-41-F3-0F-10-50-20-E9-B3-ED-43-7F</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>806D65D1</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-3C-12-BC-80</ValueOn>
-      <ValueOff>F3-0F-10-50-20</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Score x100">
-    <Cheatline>
-      <Offset>1297812</Offset>
-      <Section>0</Section>
-      <ValueOn>C7-40-20-00-00-C8-42-F3-0F-10-50-20-E9-B3-ED-43-7F</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
@@ -128,6 +68,20 @@
       <ValueOff>F3-0F-10-50-20</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="Score x10">
+    <Cheatline>
+      <Offset>1297812</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-40-20-00-00-20-41-F3-0F-10-50-20-E9-B3-ED-43-7F</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>806D65D1</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-3C-12-BC-80</ValueOn>
+      <ValueOff>F3-0F-10-50-20</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Score x20">
     <Cheatline>
       <Offset>1297812</Offset>
@@ -142,6 +96,44 @@
       <ValueOff>F3-0F-10-50-20</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="Score x100">
+    <Cheatline>
+      <Offset>1297812</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-40-20-00-00-C8-42-F3-0F-10-50-20-E9-B3-ED-43-7F</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>806D65D1</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-3C-12-BC-80</ValueOn>
+      <ValueOff>F3-0F-10-50-20</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max Items for Collection Quests">
+    <Cheatline>
+      <Offset>605FF4</Offset>
+      <Section>16</Section>
+      <ValueOn>B8-63-00-00-00-90</ValueOn>
+      <ValueOff>49-63-47-60-FF-C0</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Time">
+    <Cheatline>
+      <Offset>5F5E49</Offset>
+      <Section>16</Section>
+      <ValueOn>90-90-90-90</ValueOn>
+      <ValueOff>F2-0F-5C-C1</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max Magic Crystalls on Get">
+    <Cheatline>
+      <Offset>61F1B9</Offset>
+      <Section>16</Section>
+      <ValueOn>48-C7-C1-3F-42-0F-00</ValueOn>
+      <ValueOff>48-63-08-03-4C-24-08</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Unlock Magic Items">
     <Cheatline>
       <Offset>1297823</Offset>
@@ -154,6 +146,14 @@
       <Section>0</Section>
       <ValueOn>E9-A4-D4-A8-80</ValueOn>
       <ValueOff>48-8D-44-88-20</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="99x Combo">
+    <Cheatline>
+      <Offset>90CBEA</Offset>
+      <Section>16</Section>
+      <ValueOn>48-C7-C1-63-00-00-00</ValueOn>
+      <ValueOff>48-63-89-C0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

@@ -27,13 +27,13 @@
       ]
     },
     {
-      "name": "Infinite first Aid kit",
+      "name": "Requisition Credits Multiply",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "BEB1C2",
-          "on": "909090909090",
-          "off": "FF8B140C0000"
+          "offset": "B1CDE0",
+          "on": "41015E08",
+          "off": "41895E08"
         }
       ]
     },
@@ -49,24 +49,13 @@
       ]
     },
     {
-      "name": "Requisition Credits Multiply",
+      "name": "Infinite first Aid kit",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "B1CDE0",
-          "on": "41015E08",
-          "off": "41895E08"
-        }
-      ]
-    },
-    {
-      "name": "1 Hit Kill (MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5AA5A3D",
-          "on": "75E4",
-          "off": "74E4"
+          "offset": "BEB1C2",
+          "on": "909090909090",
+          "off": "FF8B140C0000"
         }
       ]
     },
@@ -83,6 +72,17 @@
           "offset": "A7E84",
           "on": "E977DB9F05",
           "off": "C5FA11470C"
+        }
+      ]
+    },
+    {
+      "name": "1 Hit Kill (MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5AA5A3D",
+          "on": "75E4",
+          "off": "74E4"
         }
       ]
     },

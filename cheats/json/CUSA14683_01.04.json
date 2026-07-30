@@ -16,29 +16,18 @@
       ]
     },
     {
-      "name": "High Damage/Invincible to most enemies",
+      "name": "Skill points ivreases (on Spend)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "75A7C4",
-          "on": "9090909090",
-          "off": "C5FA114708"
-        }
-      ]
-    },
-    {
-      "name": "Max Basic component (pick up 2 at least)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "69F7DE0",
-          "on": "0F48DE66C744C804E703E95A8770FA",
-          "off": "000000000000000000000000000000"
+          "offset": "69F7C70",
+          "on": "41FF8750010000E9814F70FA",
+          "off": "000000000000000000000000"
         },
         {
-          "offset": "1100542",
-          "on": "E999788F059090",
-          "off": "0F48DE895CC804"
+          "offset": "10FCBF6",
+          "on": "E975B08F059090",
+          "off": "41FF8F50010000"
         }
       ]
     },
@@ -59,18 +48,29 @@
       ]
     },
     {
-      "name": "Skill points ivreases (on Spend)",
+      "name": "Max Basic component (pick up 2 at least)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "69F7C70",
-          "on": "41FF8750010000E9814F70FA",
-          "off": "000000000000000000000000"
+          "offset": "69F7DE0",
+          "on": "0F48DE66C744C804E703E95A8770FA",
+          "off": "000000000000000000000000000000"
         },
         {
-          "offset": "10FCBF6",
-          "on": "E975B08F059090",
-          "off": "41FF8F50010000"
+          "offset": "1100542",
+          "on": "E999788F059090",
+          "off": "0F48DE895CC804"
+        }
+      ]
+    },
+    {
+      "name": "High Damage/Invincible to most enemies",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "75A7C4",
+          "on": "9090909090",
+          "off": "C5FA114708"
         }
       ]
     }

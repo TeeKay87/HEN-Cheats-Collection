@@ -5,38 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Hero Max Level (after battle)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "6DAF970",
-          "on": "41C786880C0000FFE0F505E9930A27FB",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "202040C",
-          "on": "E95FF5D8049090",
-          "off": "41899E880C0000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Reserve (when taking Have 2)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "6DAF010",
-          "on": "41C7450063000000418955FCE9CD4165FB",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "24031E6",
-          "on": "E925BE9A04909090",
-          "off": "41894500418955FC"
-        }
-      ]
-    },
-    {
       "name": "Max Gold (when buying recruits)",
       "type": "checkbox",
       "memory": [
@@ -85,6 +53,22 @@
       ]
     },
     {
+      "name": "Hero Max Level (after battle)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6DAF970",
+          "on": "41C786880C0000FFE0F505E9930A27FB",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "202040C",
+          "on": "E95FF5D8049090",
+          "off": "41899E880C0000"
+        }
+      ]
+    },
+    {
       "name": "Max Talent Points (on spending)",
       "type": "checkbox",
       "memory": [
@@ -101,22 +85,6 @@
       ]
     },
     {
-      "name": "Power Anarchy Order Finesse Max Level ",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "6DADDD0",
-          "on": "41C644240432E9A3BF59FB",
-          "off": "0000000000000000000000"
-        },
-        {
-          "offset": "2349D79",
-          "on": "E95240A604",
-          "off": "4501742404"
-        }
-      ]
-    },
-    {
       "name": "Recruits Max Rank (After winning battle)",
       "type": "checkbox",
       "memory": [
@@ -129,6 +97,38 @@
           "offset": "220CAB1",
           "on": "E9CA27BA04909090",
           "off": "410157104983C6D8"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Reserve (when taking Have 2)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6DAF010",
+          "on": "41C7450063000000418955FCE9CD4165FB",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "24031E6",
+          "on": "E925BE9A04909090",
+          "off": "41894500418955FC"
+        }
+      ]
+    },
+    {
+      "name": "Power Anarchy Order Finesse Max Level ",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6DADDD0",
+          "on": "41C644240432E9A3BF59FB",
+          "off": "0000000000000000000000"
+        },
+        {
+          "offset": "2349D79",
+          "on": "E95240A604",
+          "off": "4501742404"
         }
       ]
     }

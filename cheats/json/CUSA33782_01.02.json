@@ -37,38 +37,6 @@
       ]
     },
     {
-      "name": "Max Coins (on buy)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "194B800",
-          "on": "8B4C24F4C74020DC410F00E98534D67E",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "806AEC8E",
-          "on": "E96DCB29819090",
-          "off": "8B4C24F4894820"
-        }
-      ]
-    },
-    {
-      "name": "Max Materials/food/potions (on gather turn off when buying)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "194B7B0",
-          "on": "8B4C24F466C74028E703E9265EC47E",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "805915DE",
-          "on": "E9CDA13B819090",
-          "off": "8B4C24F4894828"
-        }
-      ]
-    },
-    {
       "name": "Max Rocks (on gather)",
       "type": "checkbox",
       "memory": [
@@ -97,6 +65,38 @@
           "offset": "806AECAE",
           "on": "E99DCA29819090",
           "off": "8B4C24F4894824"
+        }
+      ]
+    },
+    {
+      "name": "Max Materials/food/potions (on gather turn off when buying)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "194B7B0",
+          "on": "8B4C24F466C74028E703E9265EC47E",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "805915DE",
+          "on": "E9CDA13B819090",
+          "off": "8B4C24F4894828"
+        }
+      ]
+    },
+    {
+      "name": "Max Coins (on buy)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "194B800",
+          "on": "8B4C24F4C74020DC410F00E98534D67E",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "806AEC8E",
+          "on": "E96DCB29819090",
+          "off": "8B4C24F4894820"
         }
       ]
     }

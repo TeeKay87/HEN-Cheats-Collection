@@ -21,13 +21,13 @@
       ]
     },
     {
-      "name": "Infinite Immunity/Chemical Area",
+      "name": "Infinite Stamina/Breath",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "2EF7C3D",
-          "on": "C4C17A10472C",
-          "off": "C4C17A11472C"
+          "offset": "2F21885",
+          "on": "90909090909090",
+          "off": "C4C17A11442410"
         }
       ]
     },
@@ -48,17 +48,6 @@
       ]
     },
     {
-      "name": "Infinite Stamina/Breath",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2F21885",
-          "on": "90909090909090",
-          "off": "C4C17A11442410"
-        }
-      ]
-    },
-    {
       "name": "Infinite Throwables",
       "type": "checkbox",
       "memory": [
@@ -75,13 +64,24 @@
       ]
     },
     {
-      "name": "Infinite Time challenge (Disable B4 Finishing)",
+      "name": "Infinite Weapons Durability",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "3501DD8",
-          "on": "C5FA104370",
-          "off": "C5FA114370"
+          "offset": "2BA0F73",
+          "on": "C5FA1083A8000000",
+          "off": "C5FA1183A8000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Immunity/Chemical Area",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2EF7C3D",
+          "on": "C4C17A10472C",
+          "off": "C4C17A11472C"
         }
       ]
     },
@@ -98,28 +98,6 @@
           "offset": "24BC5D4",
           "on": "E9270AB6039090909090",
           "off": "C4C17A11842480010000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Weapons Durability",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2BA0F73",
-          "on": "C5FA1083A8000000",
-          "off": "C5FA1183A8000000"
-        }
-      ]
-    },
-    {
-      "name": "Max XP (Use After Escaping Waltz)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "30F1EED",
-          "on": "41897E18",
-          "off": "49894618"
         }
       ]
     },
@@ -146,6 +124,109 @@
           "offset": "2E986E8",
           "on": "E9A3441803",
           "off": "29D8894734"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Time challenge (Disable B4 Finishing)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3501DD8",
+          "on": "C5FA104370",
+          "off": "C5FA114370"
+        }
+      ]
+    },
+    {
+      "name": "Max XP (Use After Escaping Waltz)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "30F1EED",
+          "on": "41897E18",
+          "off": "49894618"
+        }
+      ]
+    },
+    {
+      "name": "Godmode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6077000",
+          "on": "41837E34007405E8349ACFFBE91A5B31FC909090",
+          "off": "41837E34007405E8349ACFFBE91A5B31FC909090"
+        },
+        {
+          "offset": "238CB26",
+          "on": "E9D5A4CE03",
+          "off": "E8153F9EFF"
+        }
+      ]
+    },
+    {
+      "name": "One-hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6077050",
+          "on": "41837E3400740EC745D400401C46C5FA1045D4EB05C5FA114DD4E9955A31FC90",
+          "off": "41837E3400740EC745D400401C46C5FA1045D4EB05C5FA114DD4E9955A31FC90"
+        },
+        {
+          "offset": "238CAFF",
+          "on": "E94CA5CE03",
+          "off": "C5FA114DD4"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2F21869",
+          "on": "C5FA1045B0",
+          "off": "C5FA1045C0"
+        }
+      ]
+    },
+    {
+      "name": "Max Weapon Durability",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2BA0F62",
+          "on": "C5FA5FC1",
+          "off": "C5FA5DC1"
+        }
+      ]
+    },
+    {
+      "name": "Keep Items (on use|craft)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2E9A95C",
+          "on": "909090",
+          "off": "4429E6"
+        },
+        {
+          "offset": "2E9AC68",
+          "on": "9090",
+          "off": "FFC8"
+        }
+      ]
+    },
+    {
+      "name": "Max Item (on get|buy|craft)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2E9C30A",
+          "on": "89C6",
+          "off": "0331"
         }
       ]
     },
@@ -178,87 +259,6 @@
           "offset": "30F1EC7",
           "on": "E92452F8029090",
           "off": "4D8B6E184889F1"
-        }
-      ]
-    },
-    {
-      "name": "Godmode",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "6077000",
-          "on": "41837E34007405E8349ACFFBE91A5B31FC909090",
-          "off": "41837E34007405E8349ACFFBE91A5B31FC909090"
-        },
-        {
-          "offset": "238CB26",
-          "on": "E9D5A4CE03",
-          "off": "E8153F9EFF"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2F21869",
-          "on": "C5FA1045B0",
-          "off": "C5FA1045C0"
-        }
-      ]
-    },
-    {
-      "name": "Keep Items (on use|craft)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2E9A95C",
-          "on": "909090",
-          "off": "4429E6"
-        },
-        {
-          "offset": "2E9AC68",
-          "on": "9090",
-          "off": "FFC8"
-        }
-      ]
-    },
-    {
-      "name": "Max Item (on get|buy|craft)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2E9C30A",
-          "on": "89C6",
-          "off": "0331"
-        }
-      ]
-    },
-    {
-      "name": "Max Weapon Durability",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2BA0F62",
-          "on": "C5FA5FC1",
-          "off": "C5FA5DC1"
-        }
-      ]
-    },
-    {
-      "name": "One-hit Kill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "6077050",
-          "on": "41837E3400740EC745D400401C46C5FA1045D4EB05C5FA114DD4E9955A31FC90",
-          "off": "41837E3400740EC745D400401C46C5FA1045D4EB05C5FA114DD4E9955A31FC90"
-        },
-        {
-          "offset": "238CAFF",
-          "on": "E94CA5CE03",
-          "off": "C5FA114DD4"
         }
       ]
     }

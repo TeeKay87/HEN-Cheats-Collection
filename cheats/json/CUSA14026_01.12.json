@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Skills Instant Cooldown",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "15BB2EF",
+          "on": "90909090",
+          "off": "488B5DA0"
+        }
+      ]
+    },
+    {
       "name": "Infinite Power focus",
       "type": "checkbox",
       "memory": [
@@ -12,17 +23,6 @@
           "offset": "155D44C",
           "on": "9090909090909090",
           "off": "478A8C26C8020000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite skills",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "167C5B9",
-          "on": "909090",
-          "off": "89427C"
         }
       ]
     },
@@ -38,13 +38,13 @@
       ]
     },
     {
-      "name": "Skills Instant Cooldown",
+      "name": "Infinite skills",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "15BB2EF",
-          "on": "90909090",
-          "off": "488B5DA0"
+          "offset": "167C5B9",
+          "on": "909090",
+          "off": "89427C"
         }
       ]
     }

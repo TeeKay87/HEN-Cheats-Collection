@@ -21,6 +21,22 @@
       ]
     },
     {
+      "name": "Max XP all characters",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8493800",
+          "on": "418B8E0A0C000041898E080C0000E90DF7B6F8",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1002F19",
+          "on": "E9E20849079090",
+          "off": "41898E080C0000"
+        }
+      ]
+    },
+    {
       "name": "Infinite SORA HP",
       "type": "checkbox",
       "memory": [
@@ -49,22 +65,6 @@
           "offset": "6A9404",
           "on": "E906A4DE0790",
           "off": "8B87EC050000"
-        }
-      ]
-    },
-    {
-      "name": "Max XP all characters",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8493800",
-          "on": "418B8E0A0C000041898E080C0000E90DF7B6F8",
-          "off": "00000000000000000000000000000000000000"
-        },
-        {
-          "offset": "1002F19",
-          "on": "E9E20849079090",
-          "off": "41898E080C0000"
         }
       ]
     }

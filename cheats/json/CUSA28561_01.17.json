@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Damage x2",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5FB00",
-          "on": "4180BDD8000000137415C5FA1085FCFEFFFFC5FA5CC2C5FA5CC2E98FB32181C5FA1085FCFEFFFFC5FA5CC2E97EB32181",
-          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "E7AEA2",
-          "on": "E9594CDE7E909090",
-          "off": "C5FA1085FCFEFFFF"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -60,6 +44,22 @@
           "offset": "7FC5FB00",
           "on": "4180BDD8000000137411C5FA1085FCFEFFFFC5FA5CC4E993B32181C5FA1085FCFEFFFFC5FA5CC2E982B32181",
           "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "E7AEA2",
+          "on": "E9594CDE7E909090",
+          "off": "C5FA1085FCFEFFFF"
+        }
+      ]
+    },
+    {
+      "name": "Damage x2",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5FB00",
+          "on": "4180BDD8000000137415C5FA1085FCFEFFFFC5FA5CC2C5FA5CC2E98FB32181C5FA1085FCFEFFFFC5FA5CC2E97EB32181",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
         },
         {
           "offset": "E7AEA2",
@@ -148,28 +148,6 @@
       ]
     },
     {
-      "name": "1 Hit Kill (Need MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5FE88",
-          "on": "750B",
-          "off": "750E"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health (Need MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5FE8A",
-          "on": "C4C17A104574",
-          "off": "C4C17A114574"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health/1 Hit Kill (Master Code)",
       "type": "checkbox",
       "memory": [
@@ -186,18 +164,24 @@
       ]
     },
     {
-      "name": "Infinite Weapon Stamina",
+      "name": "Infinite Health (Need MC)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5FE60",
-          "on": "C5FA104350E9064E1782",
-          "off": "00000000000000000000"
-        },
+          "offset": "5FE8A",
+          "on": "C4C17A104574",
+          "off": "C4C17A114574"
+        }
+      ]
+    },
+    {
+      "name": "1 Hit Kill (Need MC)",
+      "type": "checkbox",
+      "memory": [
         {
-          "offset": "1DD4C6B",
-          "on": "E9F0B1E87D",
-          "off": "C5FA114350"
+          "offset": "5FE88",
+          "on": "750B",
+          "off": "750E"
         }
       ]
     },
@@ -230,6 +214,22 @@
           "offset": "1B194A2",
           "on": "E9E96A147E909090",
           "off": "C5F25CC0C5FA1106"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Weapon Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5FE60",
+          "on": "C5FA104350E9064E1782",
+          "off": "00000000000000000000"
+        },
+        {
+          "offset": "1DD4C6B",
+          "on": "E9F0B1E87D",
+          "off": "C5FA114350"
         }
       ]
     }

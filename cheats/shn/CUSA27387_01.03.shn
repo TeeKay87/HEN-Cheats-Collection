@@ -2,20 +2,6 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Hades" Moder="Pharaoh2k" Cusa="CUSA27387" Version="01.03" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="God Mode">
-    <Cheatline>
-      <Offset>90FB00</Offset>
-      <Section>0</Section>
-      <ValueOn>C7-05-AE-5D-34-00-00-00-00-00-C5-FA-59-05-A6-5D-34-00-C7-05-9C-5D-34-00-00-00-80-3F-E9-1F-8B-BF-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>508638</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-C3-74-40-00-90-90-90</ValueOn>
-      <ValueOff>C5-FA-59-05-78-D2-74-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Health and Artefacts (Master Code)">
     <Cheatline>
       <Offset>90F800</Offset>
@@ -30,6 +16,22 @@
       <ValueOff>48-8B-03-48-8B-4D-D0</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="Infinite Health (Must enable MC)" Description="Dying a few times in the game is an important part of the game story, so it's highly recommended to die and return back to House of Hades from time to time.">
+    <Cheatline>
+      <Offset>90F808</Offset>
+      <Section>0</Section>
+      <ValueOn>01</ValueOn>
+      <ValueOff>00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="One Hit Kill (Must enable MC)">
+    <Cheatline>
+      <Offset>90F809</Offset>
+      <Section>0</Section>
+      <ValueOn>01</ValueOn>
+      <ValueOff>00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Infinite Artefacts on Get (Must enable MC)" Description="Artefacts are: Ambrosia, Diamond, Titan Blood, Keys, Gemstones, Nectar, Darkness">
     <Cheatline>
       <Offset>90F80A</Offset>
@@ -38,20 +40,18 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Cast Bullets">
+  <Cheat Text="God Mode">
     <Cheatline>
-      <Offset>337D91</Offset>
+      <Offset>90FB00</Offset>
       <Section>0</Section>
-      <ValueOn>90-90</ValueOn>
-      <ValueOff>FF-C8</ValueOff>
+      <ValueOn>C7-05-AE-5D-34-00-00-00-00-00-C5-FA-59-05-A6-5D-34-00-C7-05-9C-5D-34-00-00-00-80-3F-E9-1F-8B-BF-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Health (Must enable MC)" Description="Dying a few times in the game is an important part of the game story, so it's highly recommended to die and return back to House of Hades from time to time.">
     <Cheatline>
-      <Offset>90F808</Offset>
+      <Offset>508638</Offset>
       <Section>0</Section>
-      <ValueOn>01</ValueOn>
-      <ValueOff>00</ValueOff>
+      <ValueOn>E9-C3-74-40-00-90-90-90</ValueOn>
+      <ValueOff>C5-FA-59-05-78-D2-74-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Money">
@@ -68,20 +68,18 @@
       <ValueOff>48-8B-01-49-89-06</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Clip">
+  <Cheat Text="Walk Speed (Master Code)" Description="Some enemies speed is also effected by this cheat">
     <Cheatline>
-      <Offset>556B69</Offset>
+      <Offset>90FA66</Offset>
       <Section>0</Section>
-      <ValueOn>75-3F</ValueOn>
-      <ValueOff>74-3F</ValueOff>
+      <ValueOn>50-B8-00-00-80-3F-41-89-87-AC-03-00-00-58-C4-C1-72-59-8F-AC-03-00-00-E9-06-09-C4-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
-  </Cheat>
-  <Cheat Text="One Hit Kill (Must enable MC)">
     <Cheatline>
-      <Offset>90F809</Offset>
+      <Offset>55037F</Offset>
       <Section>0</Section>
-      <ValueOn>01</ValueOn>
-      <ValueOff>00</ValueOff>
+      <ValueOn>E9-E2-F6-3B-00-90-90-90-90</ValueOn>
+      <ValueOff>C4-C1-72-59-8F-AC-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Speed x1.5 (Must enable walk speed MC)">
@@ -108,18 +106,20 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Walk Speed (Master Code)" Description="Some enemies speed is also effected by this cheat">
+  <Cheat Text="Infinite Cast Bullets">
     <Cheatline>
-      <Offset>90FA66</Offset>
+      <Offset>337D91</Offset>
       <Section>0</Section>
-      <ValueOn>50-B8-00-00-80-3F-41-89-87-AC-03-00-00-58-C4-C1-72-59-8F-AC-03-00-00-E9-06-09-C4-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+      <ValueOn>90-90</ValueOn>
+      <ValueOff>FF-C8</ValueOff>
     </Cheatline>
+  </Cheat>
+  <Cheat Text="No Clip">
     <Cheatline>
-      <Offset>55037F</Offset>
+      <Offset>556B69</Offset>
       <Section>0</Section>
-      <ValueOn>E9-E2-F6-3B-00-90-90-90-90</ValueOn>
-      <ValueOff>C4-C1-72-59-8F-AC-03-00-00</ValueOff>
+      <ValueOn>75-3F</ValueOn>
+      <ValueOff>74-3F</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

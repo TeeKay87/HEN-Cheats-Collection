@@ -5,18 +5,13 @@
   "process": "hackGU_vol2.elf",
   "mods": [
     {
-      "name": "1 Hit Kill ",
+      "name": "Never Dec Items Used",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "C9B805",
-          "on": "4839C3740466B9000066898B9C010000E9054577FF",
-          "off": "000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "40FD18",
-          "on": "E9E8BA88009090",
-          "off": "66898B9C010000"
+          "offset": "5FF9A4",
+          "on": "9090",
+          "off": "29CA"
         }
       ]
     },
@@ -32,18 +27,18 @@
       ]
     },
     {
-      "name": "Aida Battle 1 Hit Kill",
+      "name": "1 Hit Kill ",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "C9B82E",
-          "on": "4883FB00740FC57A110F0F84435F45FFE93A5F45FFC5FA1117EBEF",
-          "off": "000000000000000000000000000000000000000000000000000000"
+          "offset": "C9B805",
+          "on": "4839C3740466B9000066898B9C010000E9054577FF",
+          "off": "000000000000000000000000000000000000000000"
         },
         {
-          "offset": "F1777",
-          "on": "E9B2A0BA0090",
-          "off": "C5FA11177404"
+          "offset": "40FD18",
+          "on": "E9E8BA88009090",
+          "off": "66898B9C010000"
         }
       ]
     },
@@ -64,13 +59,18 @@
       ]
     },
     {
-      "name": "Never Dec Items Used",
+      "name": "Aida Battle 1 Hit Kill",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "5FF9A4",
-          "on": "9090",
-          "off": "29CA"
+          "offset": "C9B82E",
+          "on": "4883FB00740FC57A110F0F84435F45FFE93A5F45FFC5FA1117EBEF",
+          "off": "000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "F1777",
+          "on": "E9B2A0BA0090",
+          "off": "C5FA11177404"
         }
       ]
     }

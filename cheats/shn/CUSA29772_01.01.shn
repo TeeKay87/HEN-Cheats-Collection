@@ -2,14 +2,6 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="River City Girls Zero" Moder="Saso" Cusa="CUSA29772" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="1 Hit Kill (MC)">
-    <Cheatline>
-      <Offset>60F82A</Offset>
-      <Section>0</Section>
-      <ValueOn>EB-0C</ValueOn>
-      <ValueOff>EB-02</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Inf HP / 1 Hit Kill (Master Code)">
     <Cheatline>
       <Offset>60F800</Offset>
@@ -32,12 +24,12 @@
       <ValueOff>74-1C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Kyoko (MC)">
+  <Cheat Text="Riki (MC)">
     <Cheatline>
-      <Offset>60F828</Offset>
+      <Offset>60F818</Offset>
       <Section>0</Section>
-      <ValueOn>74-02</ValueOn>
-      <ValueOff>74-04</ValueOff>
+      <ValueOn>74-12</ValueOn>
+      <ValueOff>74-14</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Misako (MC)">
@@ -48,12 +40,20 @@
       <ValueOff>74-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Riki (MC)">
+  <Cheat Text="Kyoko (MC)">
     <Cheatline>
-      <Offset>60F818</Offset>
+      <Offset>60F828</Offset>
       <Section>0</Section>
-      <ValueOn>74-12</ValueOn>
-      <ValueOff>74-14</ValueOff>
+      <ValueOn>74-02</ValueOn>
+      <ValueOff>74-04</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="1 Hit Kill (MC)">
+    <Cheatline>
+      <Offset>60F82A</Offset>
+      <Section>0</Section>
+      <ValueOn>EB-0C</ValueOn>
+      <ValueOff>EB-02</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

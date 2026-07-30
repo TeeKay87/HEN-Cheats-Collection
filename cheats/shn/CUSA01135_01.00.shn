@@ -6,20 +6,6 @@
   <Genres Name="Platformer" />
   <Genres Name="Puzzele" />
   <Items />
-  <Cheat Text="Easy Level Up (activate pick a potion then deactivate)" Description="Easy Level Up (activate pick a potion then deactivate)">
-    <Cheatline>
-      <Offset>21C385A</Offset>
-      <Section>0</Section>
-      <ValueOn>81-C6-FF-C9-9A-3B-89-B7-EC-01-00-00-E9-9C-7D-A4-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>C0B600</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-55-82-5B-01-90-90</ValueOn>
-      <ValueOff>8B-87-EC-01-00-00-C3</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="God Mode" Description="God Mode">
     <Cheatline>
       <Offset>21C3800</Offset>
@@ -40,6 +26,20 @@
       <Section>0</Section>
       <ValueOn>90-90-90-90-90-90</ValueOn>
       <ValueOff>89-B3-9C-01-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Easy Level Up (activate pick a potion then deactivate)" Description="Easy Level Up (activate pick a potion then deactivate)">
+    <Cheatline>
+      <Offset>21C385A</Offset>
+      <Section>0</Section>
+      <ValueOn>81-C6-FF-C9-9A-3B-89-B7-EC-01-00-00-E9-9C-7D-A4-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>C0B600</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-55-82-5B-01-90-90</ValueOn>
+      <ValueOff>8B-87-EC-01-00-00-C3</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

@@ -2,20 +2,6 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dungeons &amp; Dragons: Dark Alliance" Moder="EvilGoku" Cusa="CUSA25234" Version="01.08" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="999999 Money _crystal _inf item use (buy or sell or pickup or upgrade)  ">
-    <Cheatline>
-      <Offset>82678AD</Offset>
-      <Section>1</Section>
-      <ValueOn>41-BD-7F-96-98-00-45-89-AC-24-6C-01-00-00-E9-04-D5-37-F9</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>15E4DBC</Offset>
-      <Section>1</Section>
-      <ValueOn>E9-EC-2A-C8-06-90-90-90</ValueOn>
-      <ValueOff>45-89-AC-24-6C-01-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Inf HP and 1 Hit Kill">
     <Cheatline>
       <Offset>8267800</Offset>
@@ -28,6 +14,20 @@
       <Section>1</Section>
       <ValueOn>E9-67-49-21-07</ValueOn>
       <ValueOff>C5-FA-11-63-2C</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="999999 Money _crystal _inf item use (buy or sell or pickup or upgrade)  ">
+    <Cheatline>
+      <Offset>82678AD</Offset>
+      <Section>1</Section>
+      <ValueOn>41-BD-7F-96-98-00-45-89-AC-24-6C-01-00-00-E9-04-D5-37-F9</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>15E4DBC</Offset>
+      <Section>1</Section>
+      <ValueOn>E9-EC-2A-C8-06-90-90-90</ValueOn>
+      <ValueOff>45-89-AC-24-6C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Never Decrease Attribute Points">

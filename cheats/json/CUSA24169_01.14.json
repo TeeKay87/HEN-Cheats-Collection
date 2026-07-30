@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Focus Regen (Press PS4 Pad Once Then Exit)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "713F837",
-          "on": "C7862C01000000007A45E96D11B6F9",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "CA09AB",
-          "on": "E987EE4906909090",
-          "off": "C5FA11862C010000"
-        }
-      ]
-    },
-    {
       "name": "Inf HP (Don\u0027t Work with DLC)",
       "type": "checkbox",
       "memory": [
@@ -33,6 +17,22 @@
           "offset": "C8A9C7",
           "on": "E9344E4B069090909090",
           "off": "C4C17A118424880A0000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Focus Regen (Press PS4 Pad Once Then Exit)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "713F837",
+          "on": "C7862C01000000007A45E96D11B6F9",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "CA09AB",
+          "on": "E987EE4906909090",
+          "off": "C5FA11862C010000"
         }
       ]
     },
@@ -69,6 +69,22 @@
       ]
     },
     {
+      "name": "Stealth (Enemies Don\u0027t Attack)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "713F81D",
+          "on": "B100E91DDC20FD",
+          "off": "00000000000000"
+        },
+        {
+          "offset": "434D439",
+          "on": "E9DF23DF02909090",
+          "off": "88080F845CFFFFFF"
+        }
+      ]
+    },
+    {
       "name": "Inf Time (Use in Kill Run Mode)",
       "type": "checkbox",
       "memory": [
@@ -101,22 +117,6 @@
       ]
     },
     {
-      "name": "Stealth (Enemies Don\u0027t Attack)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "713F81D",
-          "on": "B100E91DDC20FD",
-          "off": "00000000000000"
-        },
-        {
-          "offset": "434D439",
-          "on": "E9DF23DF02909090",
-          "off": "88080F845CFFFFFF"
-        }
-      ]
-    },
-    {
       "name": "Inf Focus Regen (Press PS4 pad once then exit and deactivate cheat after if use HP cheat)",
       "type": "checkbox",
       "memory": [
@@ -129,6 +129,22 @@
           "offset": "CA09AB",
           "on": "E950EE4906909090",
           "off": "C5FA11862C010000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Time (Use in Kill Run Mode)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "713F800",
+          "on": "C787CC0300000000C841E921A7A9F9",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "BD9F28",
+          "on": "E9D3585606909090",
+          "off": "C5FA1187CC030000"
         }
       ]
     },
@@ -155,18 +171,13 @@
       ]
     },
     {
-      "name": "Inf Time (Use in Kill Run Mode)",
+      "name": "Stealth (Enemies Don\u0027t Attack)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "713F800",
-          "on": "C787CC0300000000C841E921A7A9F9",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "BD9F28",
-          "on": "E9D3585606909090",
-          "off": "C5FA1187CC030000"
+          "offset": "434C499",
+          "on": "9090",
+          "off": "8808"
         }
       ]
     },
@@ -183,17 +194,6 @@
           "offset": "A997D5",
           "on": "E926606A0690909090",
           "off": "C4C17A1185940D0000"
-        }
-      ]
-    },
-    {
-      "name": "Stealth (Enemies Don\u0027t Attack)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "434C499",
-          "on": "9090",
-          "off": "8808"
         }
       ]
     }

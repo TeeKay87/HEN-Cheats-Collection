@@ -38,46 +38,13 @@
       ]
     },
     {
-      "name": "Infinite Arrow-Bullet-Divine Rice ",
+      "name": "Infinite Shortcut Items",
       "type": "checkbox",
       "memory": [
         {
           "offset": "D586B9",
           "on": "9090909090909090",
           "off": "66899C06745D1000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Glory",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "E23A01",
-          "on": "018BBC040000",
-          "off": "898BBC040000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Sentience",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "A88C7B",
-          "on": "9090909090",
-          "off": "C5FA11430C"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Talisman",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "E33512",
-          "on": "6644019C16F43111",
-          "off": "6644899C16F43111"
         }
       ]
     },
@@ -93,24 +60,24 @@
       ]
     },
     {
-      "name": "Max Level",
+      "name": "Infinite Talisman",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "D356E7",
-          "on": "410107",
-          "off": "418907"
+          "offset": "E33512",
+          "on": "6644019C16F43111",
+          "off": "6644899C16F43111"
         }
       ]
     },
     {
-      "name": "Max Weapon Familiarity",
+      "name": "Max Yokai Shift Gauge",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1175649",
-          "on": "4989470C",
-          "off": "4589770C"
+          "offset": "A9C732",
+          "on": "C5FA118864010000",
+          "off": "C5FA118064010000"
         }
       ]
     },
@@ -126,13 +93,46 @@
       ]
     },
     {
-      "name": "Max Yokai Shift Gauge",
+      "name": "Max Level",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "A9C732",
-          "on": "C5FA118864010000",
-          "off": "C5FA118064010000"
+          "offset": "D356E7",
+          "on": "410107",
+          "off": "418907"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Sentience",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "A88C7B",
+          "on": "9090909090",
+          "off": "C5FA11430C"
+        }
+      ]
+    },
+    {
+      "name": "Max Weapon Familiarity",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1175649",
+          "on": "4989470C",
+          "off": "4589770C"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Glory",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "E23A01",
+          "on": "018BBC040000",
+          "off": "898BBC040000"
         }
       ]
     }

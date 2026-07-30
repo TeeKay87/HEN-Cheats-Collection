@@ -5,50 +5,40 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "1M Gold (Buy / Sell)",
+      "name": "Infinite Mana",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "134C8F8",
-          "on": "4A8BB4F8289D000048C7C640420F00E90C6522FF",
-          "off": "0000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "572E10",
-          "on": "E9E39ADD00909090",
-          "off": "4A8BB4F8289D0000"
+          "offset": "753A59",
+          "on": "90909090",
+          "off": "4489680C"
         }
       ]
     },
     {
-      "name": "Infinite Fury",
+      "name": "Max gold on buy",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "134C89F",
-          "on": "4883C10C4889C8668178FC96207506C700003C1C46E94B3C40FF",
-          "off": "0000000000000000000000000000000000000000000000000000"
+          "offset": "1352070",
+          "on": "42C784F8289D000015CD5B07E9A30D22FF",
+          "off": "0000000000000000000000000000000000"
         },
         {
-          "offset": "7504FD",
-          "on": "E99DC3BF009090",
-          "off": "4883C10C4889C8"
+          "offset": "572E1C",
+          "on": "E94FF2DD00909090",
+          "off": "4A898CF8289D0000"
         }
       ]
     },
     {
-      "name": "Infinite Hatred and Discipline",
+      "name": "Item / Kill Multiplier",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "134C89F",
-          "on": "4883C10C4889C8668178FC96507506C700003C1C46668178FC96607506C700003C1C46E93D3C40FF",
-          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "7504FD",
-          "on": "E99DC3BF009090",
-          "off": "4883C10C4889C8"
+          "offset": "916C58",
+          "on": "B90F27000090",
+          "off": "81F9FFFFFF00"
         }
       ]
     },
@@ -69,55 +59,12 @@
       ]
     },
     {
-      "name": "Infinite Mana",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "753A59",
-          "on": "90909090",
-          "off": "4489680C"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Mana (Necro Mancer)",
+      "name": "Infinite Fury",
       "type": "checkbox",
       "memory": [
         {
           "offset": "134C89F",
-          "on": "4883C10C4889C88078FC967506C700003C1C46E94D3C40FF",
-          "off": "000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "7504FD",
-          "on": "E99DC3BF009090",
-          "off": "4883C10C4889C8"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Mana (Wizard)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "134C89F",
-          "on": "4883C10C4889C8668178FC96107506C700003C1C46E94B3C40FF",
-          "off": "0000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "7504FD",
-          "on": "E99DC3BF009090",
-          "off": "4883C10C4889C8"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Spirit",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "134C89F",
-          "on": "4883C10C4889C8668178FC96307506C700003C1C46E94B3C40FF",
+          "on": "4883C10C4889C8668178FC96207506C700003C1C46E94B3C40FF",
           "off": "0000000000000000000000000000000000000000000000000000"
         },
         {
@@ -144,13 +91,66 @@
       ]
     },
     {
-      "name": "Item / Kill Multiplier",
+      "name": "Infinite Mana (Wizard)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "916C58",
-          "on": "B90F27000090",
-          "off": "81F9FFFFFF00"
+          "offset": "134C89F",
+          "on": "4883C10C4889C8668178FC96107506C700003C1C46E94B3C40FF",
+          "off": "0000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "7504FD",
+          "on": "E99DC3BF009090",
+          "off": "4883C10C4889C8"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Mana (Necro Mancer)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "134C89F",
+          "on": "4883C10C4889C88078FC967506C700003C1C46E94D3C40FF",
+          "off": "000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "7504FD",
+          "on": "E99DC3BF009090",
+          "off": "4883C10C4889C8"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Hatred and Discipline",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "134C89F",
+          "on": "4883C10C4889C8668178FC96507506C700003C1C46668178FC96607506C700003C1C46E93D3C40FF",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "7504FD",
+          "on": "E99DC3BF009090",
+          "off": "4883C10C4889C8"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Spirit",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "134C89F",
+          "on": "4883C10C4889C8668178FC96307506C700003C1C46E94B3C40FF",
+          "off": "0000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "7504FD",
+          "on": "E99DC3BF009090",
+          "off": "4883C10C4889C8"
         }
       ]
     },
@@ -171,18 +171,18 @@
       ]
     },
     {
-      "name": "Max gold on buy",
+      "name": "1M Gold (Buy / Sell)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1352070",
-          "on": "42C784F8289D000015CD5B07E9A30D22FF",
-          "off": "0000000000000000000000000000000000"
+          "offset": "134C8F8",
+          "on": "4A8BB4F8289D000048C7C640420F00E90C6522FF",
+          "off": "0000000000000000000000000000000000000000"
         },
         {
-          "offset": "572E1C",
-          "on": "E94FF2DD00909090",
-          "off": "4A898CF8289D0000"
+          "offset": "572E10",
+          "on": "E9E39ADD00909090",
+          "off": "4A8BB4F8289D0000"
         }
       ]
     }

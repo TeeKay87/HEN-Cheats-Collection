@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Food use",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "12A27E7",
-          "on": "9090909090909090",
-          "off": "41FF8C2400010000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -44,6 +33,17 @@
           "offset": "12149E4",
           "on": "E9F7746505909090",
           "off": "C5FA11930C010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Food use",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "12A27E7",
+          "on": "9090909090909090",
+          "off": "41FF8C2400010000"
         }
       ]
     }

@@ -37,22 +37,6 @@
       ]
     },
     {
-      "name": "Inf Money",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "322F844",
-          "on": "B8FFC99A3B41018424201F0000E9B9F6FDFC",
-          "off": "000000000000000000000000000000000000"
-        },
-        {
-          "offset": "20EF07",
-          "on": "E938090203909090",
-          "off": "41898424201F0000"
-        }
-      ]
-    },
-    {
       "name": "Max Inf 7th Sense 1P",
       "type": "checkbox",
       "memory": [
@@ -65,6 +49,22 @@
           "offset": "238C6",
           "on": "C5FA114F58",
           "off": "C5FA114758"
+        }
+      ]
+    },
+    {
+      "name": "Inf Money",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "322F844",
+          "on": "B8FFC99A3B41018424201F0000E9B9F6FDFC",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "20EF07",
+          "on": "E938090203909090",
+          "off": "41898424201F0000"
         }
       ]
     }

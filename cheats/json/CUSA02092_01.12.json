@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "E3D32D",
-          "on": "909090",
-          "off": "894338"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health \u002B Shield",
       "type": "checkbox",
       "memory": [
@@ -27,11 +16,11 @@
       ]
     },
     {
-      "name": "Infinite Praetor Points",
+      "name": "Infinite Ammo",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "E3C722",
+          "offset": "E3D32D",
           "on": "909090",
           "off": "894338"
         }
@@ -45,6 +34,17 @@
           "offset": "CB4301",
           "on": "909090909090",
           "off": "8983705A0500"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Praetor Points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "E3C722",
+          "on": "909090",
+          "off": "894338"
         }
       ]
     }

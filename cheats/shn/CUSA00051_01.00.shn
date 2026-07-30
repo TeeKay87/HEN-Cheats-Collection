@@ -2,26 +2,30 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Injustice: Gods Among Us: Ultimate Edition" Moder="Reddevil82 - FW 9.00" Cusa="CUSA00051" Version="01.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Change Timer to 999">
+  <Cheat Text="Mastercode ( must be activated )">
     <Cheatline>
-      <Offset>1A97DE5</Offset>
+      <Offset>1A97800</Offset>
       <Section>0</Section>
-      <ValueOn>B9-E7-03-00-00-89-88-64-04-00-00-E9-79-C5-CC-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+      <ValueOn>83-7B-0C-00-75-12-C5-FA-11-84-83-C4-04-00-00-C5-FA-11-84-83-C4-04-00-00-81-7B-0C-00-00-01-00-75-17-C5-FA-11-84-83-C4-04-00-00-C5-FA-11-84-83-C4-04-00-00-E9-AF-D2-B8-FE-C5-FA-11-84-83-C4-04-00-00-E9-A1-D2-B8-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>764368</Offset>
+      <Offset>624ADE</Offset>
       <Section>0</Section>
-      <ValueOn>E9-78-3A-33-01-90</ValueOn>
-      <ValueOff>89-88-64-04-00-00</ValueOff>
+      <ValueOn>E9-1D-2D-47-01-90-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-84-83-C4-04-00-00</ValueOff>
     </Cheatline>
-  </Cheat>
-  <Cheat Text="Freeze Timer">
     <Cheatline>
-      <Offset>764368</Offset>
+      <Offset>1A97E00</Offset>
       <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90</ValueOn>
-      <ValueOff>89-88-64-04-00-00</ValueOff>
+      <ValueOn>83-7F-08-00-75-12-C5-FA-C2-87-C4-03-00-00-04-C5-FA-C2-87-C4-03-00-00-04-83-7F-08-01-75-17-C5-FA-C2-87-C4-03-00-00-04-C5-FA-C2-87-C4-03-00-00-04-E9-DC-09-C1-FE-C5-FA-C2-87-C4-03-00-00-04-E9-CE-09-C1-FE-52-65-64-64-65-76-69-6C-38-32-20-2D-20-46-57-20-39-2E-30-30</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>6A8808</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-F3-F5-3E-01-90-90-90-90</ValueOn>
+      <ValueOff>C5-FA-C2-87-C4-03-00-00-04</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Health Player 1 [ MC ]">
@@ -56,30 +60,18 @@
       <ValueOff>C5-FA-C2-87-C4-03-00-00-04-C5-FA-C2-87-C4-03-00-00-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Mastercode ( must be activated )">
+  <Cheat Text="Max Player XP Level">
     <Cheatline>
-      <Offset>1A97800</Offset>
+      <Offset>1A97DD0</Offset>
       <Section>0</Section>
-      <ValueOn>83-7B-0C-00-75-12-C5-FA-11-84-83-C4-04-00-00-C5-FA-11-84-83-C4-04-00-00-81-7B-0C-00-00-01-00-75-17-C5-FA-11-84-83-C4-04-00-00-C5-FA-11-84-83-C4-04-00-00-E9-AF-D2-B8-FE-C5-FA-11-84-83-C4-04-00-00-E9-A1-D2-B8-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+      <ValueOn>0F-84-CA-2E-95-FF-01-43-10-C7-43-10-FF-C9-9A-3B-E9-6C-2E-95-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>624ADE</Offset>
+      <Offset>13EAC4C</Offset>
       <Section>0</Section>
-      <ValueOn>E9-1D-2D-47-01-90-90-90-90</ValueOn>
-      <ValueOff>C5-FA-11-84-83-C4-04-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>1A97E00</Offset>
-      <Section>0</Section>
-      <ValueOn>83-7F-08-00-75-12-C5-FA-C2-87-C4-03-00-00-04-C5-FA-C2-87-C4-03-00-00-04-83-7F-08-01-75-17-C5-FA-C2-87-C4-03-00-00-04-C5-FA-C2-87-C4-03-00-00-04-E9-DC-09-C1-FE-C5-FA-C2-87-C4-03-00-00-04-E9-CE-09-C1-FE-52-65-64-64-65-76-69-6C-38-32-20-2D-20-46-57-20-39-2E-30-30</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>6A8808</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-F3-F5-3E-01-90-90-90-90</ValueOn>
-      <ValueOff>C5-FA-C2-87-C4-03-00-00-04</ValueOff>
+      <ValueOn>E9-7F-D1-6A-00</ValueOn>
+      <ValueOff>74-58-01-43-10</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max Access Cards ( on gain - use )">
@@ -110,18 +102,26 @@
       <ValueOff>89-98-4C-F2-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Player XP Level">
+  <Cheat Text="Freeze Timer">
     <Cheatline>
-      <Offset>1A97DD0</Offset>
+      <Offset>764368</Offset>
       <Section>0</Section>
-      <ValueOn>0F-84-CA-2E-95-FF-01-43-10-C7-43-10-FF-C9-9A-3B-E9-6C-2E-95-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+      <ValueOn>90-90-90-90-90-90</ValueOn>
+      <ValueOff>89-88-64-04-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Change Timer to 999">
+    <Cheatline>
+      <Offset>1A97DE5</Offset>
+      <Section>0</Section>
+      <ValueOn>B9-E7-03-00-00-89-88-64-04-00-00-E9-79-C5-CC-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>13EAC4C</Offset>
+      <Offset>764368</Offset>
       <Section>0</Section>
-      <ValueOn>E9-7F-D1-6A-00</ValueOn>
-      <ValueOff>74-58-01-43-10</ValueOff>
+      <ValueOn>E9-78-3A-33-01-90</ValueOn>
+      <ValueOff>89-88-64-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

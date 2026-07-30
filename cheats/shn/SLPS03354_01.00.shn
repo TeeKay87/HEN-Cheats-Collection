@@ -2,20 +2,6 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Zanac x Zanac" Moder="Ali-mk" Cusa="SLPS03354" Version="01.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite-lives">
-    <Cheatline>
-      <Offset>142A38</Offset>
-      <Section>11</Section>
-      <ValueOn>00</ValueOn>
-      <ValueOff>FF</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>142A39</Offset>
-      <Section>11</Section>
-      <ValueOn>00</ValueOn>
-      <ValueOff>FF</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Invincible">
     <Cheatline>
       <Offset>1417C8</Offset>
@@ -25,6 +11,20 @@
     </Cheatline>
     <Cheatline>
       <Offset>1417C9</Offset>
+      <Section>11</Section>
+      <ValueOn>00</ValueOn>
+      <ValueOff>FF</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite-lives">
+    <Cheatline>
+      <Offset>142A38</Offset>
+      <Section>11</Section>
+      <ValueOn>00</ValueOn>
+      <ValueOff>FF</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>142A39</Offset>
       <Section>11</Section>
       <ValueOn>00</ValueOn>
       <ValueOff>FF</ValueOff>

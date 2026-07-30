@@ -2,12 +2,18 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Toukiden 2" Moder="GamerX2 &amp; DanteClaus" Cusa="CUSA05797" Version="01.03" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Infinite Items">
+  <Cheat Text="Max Money On Spend">
     <Cheatline>
-      <Offset>46F569</Offset>
+      <Offset>D7F800</Offset>
       <Section>0</Section>
-      <ValueOn>90-90-90-90-90</ValueOn>
-      <ValueOff>66-89-44-8F-02</ValueOff>
+      <ValueOn>BA-7F-96-98-00-89-90-94-C5-04-00-E9-E2-DC-9B-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>73D4EC</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-0F-23-64-00-90</ValueOn>
+      <ValueOff>89-90-94-C5-04-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Money">
@@ -32,18 +38,12 @@
       <ValueOff>66-89-44-8F-02</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money On Spend">
+  <Cheat Text="Infinite Items">
     <Cheatline>
-      <Offset>D7F800</Offset>
+      <Offset>46F569</Offset>
       <Section>0</Section>
-      <ValueOn>BA-7F-96-98-00-89-90-94-C5-04-00-E9-E2-DC-9B-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>73D4EC</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-0F-23-64-00-90</ValueOn>
-      <ValueOff>89-90-94-C5-04-00</ValueOff>
+      <ValueOn>90-90-90-90-90</ValueOn>
+      <ValueOff>66-89-44-8F-02</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

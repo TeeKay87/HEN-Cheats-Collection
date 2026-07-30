@@ -5,6 +5,49 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "72EE6B",
+          "on": "9090909090",
+          "off": "C5FA114B40"
+        }
+      ]
+    },
+    {
+      "name": "99 Items (on gain optional)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5E880",
+          "on": "4401E041C6450863E90904B800",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "807DEC8F",
+          "on": "E9ECFB47FF9090",
+          "off": "4401E041894508"
+        }
+      ]
+    },
+    {
+      "name": "40 Items (on gain)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5E880",
+          "on": "4401E041C6450828E90904B800",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "807DEC8F",
+          "on": "E9ECFB47FF9090",
+          "off": "4401E041894508"
+        }
+      ]
+    },
+    {
       "name": "33 Items (on use)",
       "type": "checkbox",
       "memory": [
@@ -33,49 +76,6 @@
           "offset": "807DEC8F",
           "on": "E9ECFB47FF9090",
           "off": "4401E041894508"
-        }
-      ]
-    },
-    {
-      "name": "40 Items (on gain)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5E880",
-          "on": "4401E041C6450828E90904B800",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "807DEC8F",
-          "on": "E9ECFB47FF9090",
-          "off": "4401E041894508"
-        }
-      ]
-    },
-    {
-      "name": "99 Items (on gain optional)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5E880",
-          "on": "4401E041C6450863E90904B800",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "807DEC8F",
-          "on": "E9ECFB47FF9090",
-          "off": "4401E041894508"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "72EE6B",
-          "on": "9090909090",
-          "off": "C5FA114B40"
         }
       ]
     },

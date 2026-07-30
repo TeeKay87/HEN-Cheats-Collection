@@ -5,6 +5,54 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Set Time| Midnight ",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3418047",
+          "on": "E8AE078CFDBB0000000089584CE9572A96FD",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "D7AAA8",
+          "on": "E99AD56902909090",
+          "off": "E853DDF5FF89584C"
+        }
+      ]
+    },
+    {
+      "name": "Set Time| Dawn",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "341805D",
+          "on": "E898078CFDBB0852000089584CE9412A96FD",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "D7AAA8",
+          "on": "E9B0D56902909090",
+          "off": "E853DDF5FF89584C"
+        }
+      ]
+    },
+    {
+      "name": "Set Time| Morning",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3418073",
+          "on": "E882078CFDBBA861000089584CE92B2A96FD",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "D7AAA8",
+          "on": "E9C6D56902909090",
+          "off": "E853DDF5FF89584C"
+        }
+      ]
+    },
+    {
       "name": "Set Time| 10 AM",
       "type": "checkbox",
       "memory": [
@@ -53,54 +101,6 @@
       ]
     },
     {
-      "name": "Set Time| Dawn",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "341805D",
-          "on": "E898078CFDBB0852000089584CE9412A96FD",
-          "off": "000000000000000000000000000000000000"
-        },
-        {
-          "offset": "D7AAA8",
-          "on": "E9B0D56902909090",
-          "off": "E853DDF5FF89584C"
-        }
-      ]
-    },
-    {
-      "name": "Set Time| Midnight ",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3418047",
-          "on": "E8AE078CFDBB0000000089584CE9572A96FD",
-          "off": "000000000000000000000000000000000000"
-        },
-        {
-          "offset": "D7AAA8",
-          "on": "E99AD56902909090",
-          "off": "E853DDF5FF89584C"
-        }
-      ]
-    },
-    {
-      "name": "Set Time| Morning",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3418073",
-          "on": "E882078CFDBBA861000089584CE92B2A96FD",
-          "off": "000000000000000000000000000000000000"
-        },
-        {
-          "offset": "D7AAA8",
-          "on": "E9C6D56902909090",
-          "off": "E853DDF5FF89584C"
-        }
-      ]
-    },
-    {
       "name": "Set Time| Night",
       "type": "checkbox",
       "memory": [
@@ -117,17 +117,6 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "B03C91",
-          "on": "9090",
-          "off": "8938"
-        }
-      ]
-    },
-    {
       "name": "Infinite Silencer",
       "type": "checkbox",
       "memory": [
@@ -135,6 +124,17 @@
           "offset": "D240EE",
           "on": "90909090909090",
           "off": "66898798030000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B03C91",
+          "on": "9090",
+          "off": "8938"
         }
       ]
     }

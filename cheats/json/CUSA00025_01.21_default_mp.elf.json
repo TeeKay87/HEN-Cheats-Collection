@@ -5,13 +5,24 @@
   "process": "default_mp.elf",
   "mods": [
     {
-      "name": "AFK Aliens",
+      "name": "All Client Infinite Ammo",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "6B6AC0",
-          "on": "48C7C001000000C390",
-          "off": "488D053991720131C9"
+          "offset": "526396",
+          "on": "9090909090",
+          "off": "44297C8108"
+        }
+      ]
+    },
+    {
+      "name": "All Client Godmode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6D6705",
+          "on": "9090909090909090",
+          "off": "41299C24DC010000"
         }
       ]
     },
@@ -42,24 +53,24 @@
       ]
     },
     {
-      "name": "All Client Godmode",
+      "name": "Super Jump",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "6D6705",
-          "on": "9090909090909090",
-          "off": "41299C24DC010000"
+          "offset": "C29088",
+          "on": "00C07944",
+          "off": "00001C42"
         }
       ]
     },
     {
-      "name": "All Client Infinite Ammo",
+      "name": "AFK Aliens",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "526396",
-          "on": "9090909090",
-          "off": "44297C8108"
+          "offset": "6B6AC0",
+          "on": "48C7C001000000C390",
+          "off": "488D053991720131C9"
         }
       ]
     },
@@ -235,24 +246,24 @@
       ]
     },
     {
-      "name": "Super Jump",
+      "name": "All Client Infinite Ammo",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "C29088",
-          "on": "00C07944",
-          "off": "00001C42"
+          "offset": "126396",
+          "on": "9090909090",
+          "off": "44297C8108"
         }
       ]
     },
     {
-      "name": "AFK Aliens",
+      "name": "All Client Godmode",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "2b6ac0",
-          "on": "48C7C001000000C390",
-          "off": "488D053991720131C9"
+          "offset": "2d6705",
+          "on": "9090909090909090",
+          "off": "41299C24DC010000"
         }
       ]
     },
@@ -283,24 +294,24 @@
       ]
     },
     {
-      "name": "All Client Godmode",
+      "name": "Super Jump",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "2d6705",
-          "on": "9090909090909090",
-          "off": "41299C24DC010000"
+          "offset": "829088",
+          "on": "00C07944",
+          "off": "00001C42"
         }
       ]
     },
     {
-      "name": "All Client Infinite Ammo",
+      "name": "AFK Aliens",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "126396",
-          "on": "9090909090",
-          "off": "44297C8108"
+          "offset": "2b6ac0",
+          "on": "48C7C001000000C390",
+          "off": "488D053991720131C9"
         }
       ]
     },
@@ -472,17 +483,6 @@
           "offset": "2f76705cc",
           "on": "1500400000000000",
           "off": "1500400000000000"
-        }
-      ]
-    },
-    {
-      "name": "Super Jump",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "829088",
-          "on": "00C07944",
-          "off": "00001C42"
         }
       ]
     }

@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Boatmans Coins",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "6160E9",
-          "on": "83C663",
-          "off": "037004"
-        }
-      ]
-    },
-    {
       "name": "Inf health",
       "type": "checkbox",
       "memory": [
@@ -28,6 +17,22 @@
           "offset": "801220",
           "on": "E9DB5D2405909090",
           "off": "C5FA11837C030000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5A47100",
+          "on": "C5FA1083A4030000C5FA1183A0030000E902A3DBFA",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "80140F",
+          "on": "E9EC5C2405909090",
+          "off": "C5FA1183A0030000"
         }
       ]
     },
@@ -48,18 +53,13 @@
       ]
     },
     {
-      "name": "Inf Stamina",
+      "name": "Inf Boatmans Coins",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "5A47100",
-          "on": "C5FA1083A4030000C5FA1183A0030000E902A3DBFA",
-          "off": "000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "80140F",
-          "on": "E9EC5C2405909090",
-          "off": "C5FA1183A0030000"
+          "offset": "6160E9",
+          "on": "83C663",
+          "off": "037004"
         }
       ]
     },

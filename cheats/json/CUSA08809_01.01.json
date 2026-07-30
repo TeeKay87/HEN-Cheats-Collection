@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Grip",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7ED1D3",
-          "on": "9090909090909090",
-          "off": "C5FA1105B58AA702"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -23,6 +12,17 @@
           "offset": "7ECF0D",
           "on": "9090909090909090",
           "off": "C5FA1105638DA702"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Grip",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7ED1D3",
+          "on": "9090909090909090",
+          "off": "C5FA1105B58AA702"
         }
       ]
     }

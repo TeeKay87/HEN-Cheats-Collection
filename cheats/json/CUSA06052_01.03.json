@@ -26,6 +26,38 @@
       ]
     },
     {
+      "name": "Max/Infinite Coins",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "12BFDD0",
+          "on": "C783080100003F420F00E9FFE028FF",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "54DED8",
+          "on": "E9F31ED70090",
+          "off": "01B308010000"
+        }
+      ]
+    },
+    {
+      "name": "Max/Infinite Special Hability",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "12BFDBE",
+          "on": "90E95CD520FF",
+          "off": "000000000000"
+        },
+        {
+          "offset": "4CD316",
+          "on": "E9A32ADF009090909090",
+          "off": "C7838001000000000000"
+        }
+      ]
+    },
+    {
       "name": "Infinite Secondary Weapons",
       "type": "checkbox",
       "memory": [
@@ -65,38 +97,6 @@
           "offset": "4EB109",
           "on": "41894748",
           "off": "45017748"
-        }
-      ]
-    },
-    {
-      "name": "Max/Infinite Coins",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "12BFDD0",
-          "on": "C783080100003F420F00E9FFE028FF",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "54DED8",
-          "on": "E9F31ED70090",
-          "off": "01B308010000"
-        }
-      ]
-    },
-    {
-      "name": "Max/Infinite Special Hability",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "12BFDBE",
-          "on": "90E95CD520FF",
-          "off": "000000000000"
-        },
-        {
-          "offset": "4CD316",
-          "on": "E9A32ADF009090909090",
-          "off": "C7838001000000000000"
         }
       ]
     }

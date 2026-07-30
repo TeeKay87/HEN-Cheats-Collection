@@ -5,77 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Change Timer to 999",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1A97DE5",
-          "on": "B9E7030000898864040000E979C5CCFE",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "764368",
-          "on": "E9783A330190",
-          "off": "898864040000"
-        }
-      ]
-    },
-    {
-      "name": "Freeze Timer",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "764368",
-          "on": "909090909090",
-          "off": "898864040000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health Player 1 [ MC ]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1A97806",
-          "on": "C5FA108483C8040000",
-          "off": "C5FA118483C4040000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health Player 2 [ MC ]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1A97821",
-          "on": "C5FA108483C8040000",
-          "off": "C5FA118483C4040000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Supermeter Player 1 [ MC ]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1A97E06",
-          "on": "C787C40300000000803F9090909090909090",
-          "off": "C5FAC287C403000004C5FAC287C403000004"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Supermeter Player 2 [ MC ]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1A97E1E",
-          "on": "C787C40300000000803F9090909090909090",
-          "off": "C5FAC287C403000004C5FAC287C403000004"
-        }
-      ]
-    },
-    {
       "name": "Mastercode ( must be activated )",
       "type": "checkbox",
       "memory": [
@@ -98,6 +27,110 @@
           "offset": "6A8808",
           "on": "E9F3F53E0190909090",
           "off": "C5FAC287C403000004"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health Player 1 [ MC ]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1A97806",
+          "on": "C5FA108483C8040000",
+          "off": "C5FA118483C4040000"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill Player 1 [ MC ]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1A97806",
+          "on": "0F57C0909090909090",
+          "off": "C5FA118483C4040000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health Player 2 [ MC ]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1A97821",
+          "on": "C5FA108483C8040000",
+          "off": "C5FA118483C4040000"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill Player 2 [ MC ]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1A97821",
+          "on": "0F57C0909090909090",
+          "off": "C5FA118483C4040000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Supermeter Player 1 [ MC ]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1A97E06",
+          "on": "C787C40300000000803F9090909090909090",
+          "off": "C5FAC287C403000004C5FAC287C403000004"
+        }
+      ]
+    },
+    {
+      "name": "Zero Supermeter Player 1 [ MC ]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1A97E06",
+          "on": "C787C4030000000000009090909090909090",
+          "off": "C5FAC287C403000004C5FAC287C403000004"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Supermeter Player 2 [ MC ]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1A97E1E",
+          "on": "C787C40300000000803F9090909090909090",
+          "off": "C5FAC287C403000004C5FAC287C403000004"
+        }
+      ]
+    },
+    {
+      "name": "Zero Supermeter Player 2 [ MC ]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1A97E1E",
+          "on": "C787C4030000000000009090909090909090",
+          "off": "C5FAC287C403000004C5FAC287C403000004"
+        }
+      ]
+    },
+    {
+      "name": "Max Player XP Level",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1A97DD0",
+          "on": "0F84CA2E95FF014310C74310FFC99A3BE96C2E95FF",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "13EAC4C",
+          "on": "E97FD16A00",
+          "off": "7458014310"
         }
       ]
     },
@@ -134,62 +167,29 @@
       ]
     },
     {
-      "name": "Max Player XP Level",
+      "name": "Freeze Timer",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1A97DD0",
-          "on": "0F84CA2E95FF014310C74310FFC99A3BE96C2E95FF",
-          "off": "000000000000000000000000000000000000000000"
+          "offset": "764368",
+          "on": "909090909090",
+          "off": "898864040000"
+        }
+      ]
+    },
+    {
+      "name": "Change Timer to 999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1A97DE5",
+          "on": "B9E7030000898864040000E979C5CCFE",
+          "off": "00000000000000000000000000000000"
         },
         {
-          "offset": "13EAC4C",
-          "on": "E97FD16A00",
-          "off": "7458014310"
-        }
-      ]
-    },
-    {
-      "name": "One Hit Kill Player 1 [ MC ]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1A97806",
-          "on": "0F57C0909090909090",
-          "off": "C5FA118483C4040000"
-        }
-      ]
-    },
-    {
-      "name": "One Hit Kill Player 2 [ MC ]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1A97821",
-          "on": "0F57C0909090909090",
-          "off": "C5FA118483C4040000"
-        }
-      ]
-    },
-    {
-      "name": "Zero Supermeter Player 1 [ MC ]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1A97E06",
-          "on": "C787C4030000000000009090909090909090",
-          "off": "C5FAC287C403000004C5FAC287C403000004"
-        }
-      ]
-    },
-    {
-      "name": "Zero Supermeter Player 2 [ MC ]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1A97E1E",
-          "on": "C787C4030000000000009090909090909090",
-          "off": "C5FAC287C403000004C5FAC287C403000004"
+          "offset": "764368",
+          "on": "E9783A330190",
+          "off": "898864040000"
         }
       ]
     }

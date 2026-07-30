@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf-shurikens",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "808059540C",
-          "on": "270F0000",
-          "off": "270F0000"
-        }
-      ]
-    },
-    {
       "name": "Infinite-Health",
       "type": "checkbox",
       "memory": [
@@ -32,6 +21,17 @@
       "memory": [
         {
           "offset": "808067B514",
+          "on": "270F0000",
+          "off": "270F0000"
+        }
+      ]
+    },
+    {
+      "name": "Inf-shurikens",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "808059540C",
           "on": "270F0000",
           "off": "270F0000"
         }

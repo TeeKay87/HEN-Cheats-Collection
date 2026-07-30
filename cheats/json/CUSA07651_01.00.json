@@ -5,6 +5,33 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "A5F892",
+          "on": "9090909090",
+          "off": "E879CFF9FF"
+        }
+      ]
+    },
+    {
+      "name": "Kill all Enemies in Stage ( Reboot Ally after use !!! )",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2E578E4",
+          "on": "4883FA017509C4C17A108794070000E9BF74BAFD",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "9FEDAE",
+          "on": "E9318B450290909090",
+          "off": "C4C17A108794070000"
+        }
+      ]
+    },
+    {
       "name": "Infinite Boost",
       "type": "checkbox",
       "memory": [
@@ -21,18 +48,29 @@
       ]
     },
     {
-      "name": "Infinite Burst ( Special Attack L3 \u002B R3 )",
+      "name": "Infinite Repair Kits ( Armor )",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "2E578A0",
-          "on": "C7836801000000401C45C5FA108368010000C5FA118368010000E99CC5B9FD",
-          "off": "00000000000000000000000000000000000000000000000000000000000000"
+          "offset": "2E5783F",
+          "on": "C5FA108C0FF8480000E938F7C0FD",
+          "off": "0000000000000000000000000000"
         },
         {
-          "offset": "9F3E53",
-          "on": "E9483A4602909090",
-          "off": "C5FA118368010000"
+          "offset": "A66F7C",
+          "on": "E9BE083F0290909090",
+          "off": "C5FA108C0FF4480000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Special Attacks",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "A67526",
+          "on": "C4C17A1111",
+          "off": "C4C17A1109"
         }
       ]
     },
@@ -69,83 +107,18 @@
       ]
     },
     {
-      "name": "Infinite Health",
+      "name": "Infinite Burst ( Special Attack L3 \u002B R3 )",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "A5F892",
-          "on": "9090909090",
-          "off": "E879CFF9FF"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Repair Kits ( Armor )",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2E5783F",
-          "on": "C5FA108C0FF8480000E938F7C0FD",
-          "off": "0000000000000000000000000000"
+          "offset": "2E578A0",
+          "on": "C7836801000000401C45C5FA108368010000C5FA118368010000E99CC5B9FD",
+          "off": "00000000000000000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "A66F7C",
-          "on": "E9BE083F0290909090",
-          "off": "C5FA108C0FF4480000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Special Attacks",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "A67526",
-          "on": "C4C17A1111",
-          "off": "C4C17A1109"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Tickets",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2E578D0",
-          "on": "E8B5CBD7FDFF4B1CC7431C04000000E95F59D3FD",
-          "off": "0000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "B8D23B",
-          "on": "E990A62C02909090",
-          "off": "E850720400FF4B1C"
-        }
-      ]
-    },
-    {
-      "name": "Kill all Enemies in Stage ( Reboot Ally after use !!! )",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2E578E4",
-          "on": "4883FA017509C4C17A108794070000E9BF74BAFD",
-          "off": "0000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "9FEDAE",
-          "on": "E9318B450290909090",
-          "off": "C4C17A108794070000"
-        }
-      ]
-    },
-    {
-      "name": "Max Ace Points ( on gain )",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "BE755C",
-          "on": "89548308",
-          "off": "894C8308"
+          "offset": "9F3E53",
+          "on": "E9483A4602909090",
+          "off": "C5FA118368010000"
         }
       ]
     },
@@ -162,6 +135,33 @@
           "offset": "969FCD",
           "on": "E9B5D84E029090",
           "off": "448BB094F20200"
+        }
+      ]
+    },
+    {
+      "name": "Max Ace Points ( on gain )",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "BE755C",
+          "on": "89548308",
+          "off": "894C8308"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Tickets",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2E578D0",
+          "on": "E8B5CBD7FDFF4B1CC7431C04000000E95F59D3FD",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "B8D23B",
+          "on": "E990A62C02909090",
+          "off": "E850720400FF4B1C"
         }
       ]
     }

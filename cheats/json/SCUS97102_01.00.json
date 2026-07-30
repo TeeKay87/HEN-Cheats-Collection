@@ -92,6 +92,446 @@
       ]
     },
     {
+      "name": "License A-1 Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8080578ED0",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "License A-2 Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8080579024",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "License A-3 Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8080579178",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "License A-4 Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80805792CC",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "License A-5 Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8080579420",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "License A-6 Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8080579574",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "License A-7 Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80805796C8",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "License A-8 Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "808057981C",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "License B-1 Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8080578430",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "License B-2 Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8080578584",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "License B-3 Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80805786D8",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "License B-4 Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "808057882C",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "License B-5 Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8080578980",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "License B-6 Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8080578AD4",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "License B-7 Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8080578C28",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "License B-8 Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8080578D7C",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "License Ia-1 Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "808057A410",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "License Ia-2 Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "808057A564",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "License Ia-3 Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "808057A6B8",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "License Ia-4 Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "808057A80C",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "License Ia-5 Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "808057A960",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "License Ia-6 Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "808057AAB4",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "License Ia-7 Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "808057AC08",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "License Ia-8 Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "808057AD5C",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "License Ib-1 Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8080579970",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "License Ib-2 Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8080579AC4",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "License Ib-3 Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8080579C18",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "License Ib-4 Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8080579D6C",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "License Ib-5 Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8080579EC0",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "License Ib-6 Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "808057A014",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "License Ib-7 Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "808057A168",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "License Ib-8 Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "808057A2BC",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "Super License 1 Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "808057AEB0",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "Super License 2 Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "808057B004",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "Super License 3 Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "808057B158",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "Super License 4 Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "808057B2AC",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "Super License 5 Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "808057B400",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "Super License 6 Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "808057B554",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "Super License 7 Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "808057B6A8",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "Super License 8 Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "808057B7FC",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
       "name": "Gold 4wd Challenge",
       "type": "checkbox",
       "memory": [
@@ -1264,446 +1704,6 @@
       "memory": [
         {
           "offset": "808057C480",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "License A-1 Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8080578ED0",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "License A-2 Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8080579024",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "License A-3 Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8080579178",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "License A-4 Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "80805792CC",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "License A-5 Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8080579420",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "License A-6 Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8080579574",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "License A-7 Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "80805796C8",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "License A-8 Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "808057981C",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "License B-1 Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8080578430",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "License B-2 Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8080578584",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "License B-3 Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "80805786D8",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "License B-4 Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "808057882C",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "License B-5 Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8080578980",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "License B-6 Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8080578AD4",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "License B-7 Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8080578C28",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "License B-8 Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8080578D7C",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "License Ia-1 Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "808057A410",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "License Ia-2 Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "808057A564",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "License Ia-3 Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "808057A6B8",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "License Ia-4 Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "808057A80C",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "License Ia-5 Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "808057A960",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "License Ia-6 Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "808057AAB4",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "License Ia-7 Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "808057AC08",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "License Ia-8 Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "808057AD5C",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "License Ib-1 Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8080579970",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "License Ib-2 Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8080579AC4",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "License Ib-3 Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8080579C18",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "License Ib-4 Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8080579D6C",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "License Ib-5 Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8080579EC0",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "License Ib-6 Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "808057A014",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "License Ib-7 Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "808057A168",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "License Ib-8 Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "808057A2BC",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "Super License 1 Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "808057AEB0",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "Super License 2 Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "808057B004",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "Super License 3 Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "808057B158",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "Super License 4 Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "808057B2AC",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "Super License 5 Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "808057B400",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "Super License 6 Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "808057B554",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "Super License 7 Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "808057B6A8",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
-      "name": "Super License 8 Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "808057B7FC",
           "on": "00000000",
           "off": "00000000"
         }

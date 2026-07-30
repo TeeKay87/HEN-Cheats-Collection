@@ -21,22 +21,6 @@
       ]
     },
     {
-      "name": "Max Star Rating",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "189FE10",
-          "on": "C7401C0000A040C5FA10401CE988A7E47E",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "806EA5A4",
-          "on": "E967581B81",
-          "off": "C5FA10401C"
-        }
-      ]
-    },
-    {
       "name": "Max XP Level",
       "type": "checkbox",
       "memory": [
@@ -81,6 +65,22 @@
           "offset": "8046805B",
           "on": "E9C17D4381909090909090",
           "off": "418BBF5001000084C0740A"
+        }
+      ]
+    },
+    {
+      "name": "Max Star Rating",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "189FE10",
+          "on": "C7401C0000A040C5FA10401CE988A7E47E",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "806EA5A4",
+          "on": "E967581B81",
+          "off": "C5FA10401C"
         }
       ]
     }

@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Earn Money on Spend",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1869518",
-          "on": "4F01A4EFA0060000",
-          "off": "4F29A4EFA0060000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Ammo/Throwables",
       "type": "checkbox",
       "memory": [
@@ -23,6 +12,22 @@
           "offset": "133CFB4",
           "on": "83EA00",
           "off": "4429F2"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5F8F800",
+          "on": "BBFF0000008998A0000000E98BA13AFB",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "133997D",
+          "on": "E97E5EC50490",
+          "off": "8B98A0000000"
         }
       ]
     },
@@ -43,18 +48,13 @@
       ]
     },
     {
-      "name": "Max Followers on 2nd Gain",
+      "name": "Earn Money on Spend",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "5F8F821",
-          "on": "48C7C1F039580049898EB8060000E9F0998DFB",
-          "off": "00000000000000000000000000000000000000"
-        },
-        {
-          "offset": "186921D",
-          "on": "E9FF6572049090",
-          "off": "498B8EB8060000"
+          "offset": "1869518",
+          "on": "4F01A4EFA0060000",
+          "off": "4F29A4EFA0060000"
         }
       ]
     },
@@ -75,18 +75,18 @@
       ]
     },
     {
-      "name": "No Reload",
+      "name": "Max Followers on 2nd Gain",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "5F8F800",
-          "on": "BBFF0000008998A0000000E98BA13AFB",
-          "off": "00000000000000000000000000000000"
+          "offset": "5F8F821",
+          "on": "48C7C1F039580049898EB8060000E9F0998DFB",
+          "off": "00000000000000000000000000000000000000"
         },
         {
-          "offset": "133997D",
-          "on": "E97E5EC50490",
-          "off": "8B98A0000000"
+          "offset": "186921D",
+          "on": "E9FF6572049090",
+          "off": "498B8EB8060000"
         }
       ]
     }

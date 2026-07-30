@@ -26,17 +26,6 @@
       ]
     },
     {
-      "name": "Infinite Items",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "67DEE5",
-          "on": "9090",
-          "off": "FFC8"
-        }
-      ]
-    },
-    {
       "name": "Infinite Mana",
       "type": "checkbox",
       "memory": [
@@ -44,6 +33,17 @@
           "offset": "670512",
           "on": "909090909090909090",
           "off": "6641898424602A0000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "67DEE5",
+          "on": "9090",
+          "off": "FFC8"
         }
       ]
     },

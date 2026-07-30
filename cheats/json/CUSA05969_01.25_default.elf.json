@@ -5,6 +5,17 @@
   "process": "default.elf",
   "mods": [
     {
+      "name": "INF Throwable",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "90E04E",
+          "on": "909090",
+          "off": "FF4810"
+        }
+      ]
+    },
+    {
       "name": "INF Ammo",
       "type": "checkbox",
       "memory": [
@@ -23,17 +34,6 @@
           "offset": "7313C7",
           "on": "90909090",
           "off": "45897704"
-        }
-      ]
-    },
-    {
-      "name": "INF Throwable",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "90E04E",
-          "on": "909090",
-          "off": "FF4810"
         }
       ]
     }

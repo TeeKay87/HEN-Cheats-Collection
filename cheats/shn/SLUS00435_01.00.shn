@@ -10,18 +10,12 @@
       <ValueOff>A0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Lighting Bombs">
+  <Cheat Text="Infinite Smoke Bombs">
     <Cheatline>
-      <Offset>118A34</Offset>
+      <Offset>11859E</Offset>
       <Section>11</Section>
       <ValueOn>00</ValueOn>
-      <ValueOff>FF</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>118A35</Offset>
-      <Section>11</Section>
-      <ValueOn>00</ValueOn>
-      <ValueOff>FF</ValueOff>
+      <ValueOff>42</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Lives">
@@ -38,12 +32,18 @@
       <ValueOff>FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Smoke Bombs">
+  <Cheat Text="Infinite Lighting Bombs">
     <Cheatline>
-      <Offset>11859E</Offset>
+      <Offset>118A34</Offset>
       <Section>11</Section>
       <ValueOn>00</ValueOn>
-      <ValueOff>42</ValueOff>
+      <ValueOff>FF</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>118A35</Offset>
+      <Section>11</Section>
+      <ValueOn>00</ValueOn>
+      <ValueOff>FF</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

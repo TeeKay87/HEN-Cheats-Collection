@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "99 Items (on use)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5FFB0",
-          "on": "C684070818000063E9D6D23F80",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "5D28C",
-          "on": "E91F2DC07F9090",
-          "off": "898C0708180000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -37,22 +21,6 @@
       ]
     },
     {
-      "name": "Max Shells (on gain)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5F190",
-          "on": "C780D85E00005F4D2F00E9E70D5680",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "1BFF80",
-          "on": "E90BF2A97F90",
-          "off": "8988D85E0000"
-        }
-      ]
-    },
-    {
       "name": "Special Skill Points (on charge)",
       "type": "checkbox",
       "memory": [
@@ -65,6 +33,38 @@
           "offset": "1B163",
           "on": "E99817C47F",
           "off": "89421031D2"
+        }
+      ]
+    },
+    {
+      "name": "99 Items (on use)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5FFB0",
+          "on": "C684070818000063E9D6D23F80",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "5D28C",
+          "on": "E91F2DC07F9090",
+          "off": "898C0708180000"
+        }
+      ]
+    },
+    {
+      "name": "Max Shells (on gain)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5F190",
+          "on": "C780D85E00005F4D2F00E9E70D5680",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "1BFF80",
+          "on": "E90BF2A97F90",
+          "off": "8988D85E0000"
         }
       ]
     }

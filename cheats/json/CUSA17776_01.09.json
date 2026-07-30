@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Gadget use",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "4B83D50",
-          "on": "29D841C6473810E9E1FE37FD",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "1F03C37",
-          "on": "E91401C80290",
-          "off": "29D841894738"
-        }
-      ]
-    },
-    {
       "name": "Infinite health",
       "type": "checkbox",
       "memory": [
@@ -53,6 +37,22 @@
       ]
     },
     {
+      "name": "Infinite Gadget use",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4B83D50",
+          "on": "29D841C6473810E9E1FE37FD",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "1F03C37",
+          "on": "E91401C80290",
+          "off": "29D841894738"
+        }
+      ]
+    },
+    {
       "name": "Max Experience (activate once)",
       "type": "checkbox",
       "memory": [
@@ -69,22 +69,6 @@
       ]
     },
     {
-      "name": "Max infinite Resources (on spend on gadget and suits)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "4B83D10",
-          "on": "E8D54438FD66C74038E703E9A6E838FD",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "1F125BD",
-          "on": "E94E17C70290909090",
-          "off": "E82E5CFFFF44896838"
-        }
-      ]
-    },
-    {
       "name": "Max skill points (on spend have 2)",
       "type": "checkbox",
       "memory": [
@@ -97,6 +81,22 @@
           "offset": "BA5C98",
           "on": "E903E0FD0390",
           "off": "2981F8B90000"
+        }
+      ]
+    },
+    {
+      "name": "Max infinite Resources (on spend on gadget and suits)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4B83D10",
+          "on": "E8D54438FD66C74038E703E9A6E838FD",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "1F125BD",
+          "on": "E94E17C70290909090",
+          "off": "E82E5CFFFF44896838"
         }
       ]
     }

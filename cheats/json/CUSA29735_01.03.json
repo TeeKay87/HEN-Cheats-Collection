@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Energy",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "194BDE8",
-          "on": "C780F0020000080000008B80F0020000E96314C87E",
-          "off": "000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "805CD25A",
-          "on": "E989EB378190",
-          "off": "8B80F0020000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -33,6 +17,38 @@
           "offset": "804E0DBA",
           "on": "E9F1AF4681909090",
           "off": "C5FA1080D8000000"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill ( Dont use on Boss and Item )",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "194BDDB",
+          "on": "0F57C0C5FA114050E9D3FEBD7E",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "8052BCB6",
+          "on": "E920014281",
+          "off": "C5FA114050"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Energy",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "194BDE8",
+          "on": "C780F0020000080000008B80F0020000E96314C87E",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "805CD25A",
+          "on": "E989EB378190",
+          "off": "8B80F0020000"
         }
       ]
     },
@@ -65,22 +81,6 @@
           "offset": "804DE4EE",
           "on": "E91AD946819090",
           "off": "8B4C24F4894828"
-        }
-      ]
-    },
-    {
-      "name": "One Hit Kill ( Dont use on Boss and Item )",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "194BDDB",
-          "on": "0F57C0C5FA114050E9D3FEBD7E",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "8052BCB6",
-          "on": "E920014281",
-          "off": "C5FA114050"
         }
       ]
     }

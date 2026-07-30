@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Ammo(No reload) / Grenades / Explosive (MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "56FB82D",
-          "on": "EB01",
-          "off": "EBEB"
-        }
-      ]
-    },
-    {
       "name": "Inf Health / Stamina /Ammo (Master Code)",
       "type": "checkbox",
       "memory": [
@@ -32,13 +21,13 @@
       ]
     },
     {
-      "name": "Normal Speed (MC)",
+      "name": "Ammo(No reload) / Grenades / Explosive (MC)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "56FB85B",
-          "on": "41C6470643",
-          "off": "41C6470647"
+          "offset": "56FB82D",
+          "on": "EB01",
+          "off": "EBEB"
         }
       ]
     },
@@ -59,6 +48,17 @@
       ]
     },
     {
+      "name": "x2 Speed (MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "56FB85B",
+          "on": "41C6470645",
+          "off": "41C6470643"
+        }
+      ]
+    },
+    {
       "name": "Rabbit Speed (MC)",
       "type": "checkbox",
       "memory": [
@@ -70,13 +70,13 @@
       ]
     },
     {
-      "name": "x2 Speed (MC)",
+      "name": "Normal Speed (MC)",
       "type": "checkbox",
       "memory": [
         {
           "offset": "56FB85B",
-          "on": "41C6470645",
-          "off": "41C6470643"
+          "on": "41C6470643",
+          "off": "41C6470647"
         }
       ]
     }

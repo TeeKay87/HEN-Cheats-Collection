@@ -5,6 +5,17 @@
   "process": "default.elf",
   "mods": [
     {
+      "name": "All Client Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "C51DA3",
+          "on": "90909090",
+          "off": "8954B014"
+        }
+      ]
+    },
+    {
       "name": "All Client Godmode",
       "type": "checkbox",
       "memory": [
@@ -16,13 +27,13 @@
       ]
     },
     {
-      "name": "All Client Infinite Ammo",
+      "name": "Infinite Jetpack",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "C51DA3",
-          "on": "90909090",
-          "off": "8954B014"
+          "offset": "702301",
+          "on": "909090909090",
+          "off": "C4C17A110424"
         }
       ]
     },
@@ -71,13 +82,13 @@
       ]
     },
     {
-      "name": "Infinite Jetpack",
+      "name": "All Client Infinite Ammo",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "702301",
-          "on": "909090909090",
-          "off": "C4C17A110424"
+          "offset": "851DA3",
+          "on": "90909090",
+          "off": "8954B014"
         }
       ]
     },
@@ -93,13 +104,13 @@
       ]
     },
     {
-      "name": "All Client Infinite Ammo",
+      "name": "Infinite Jetpack",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "851DA3",
-          "on": "90909090",
-          "off": "8954B014"
+          "offset": "302301",
+          "on": "909090909090",
+          "off": "C4C17A110424"
         }
       ]
     },
@@ -144,17 +155,6 @@
           "offset": "3952F8C",
           "on": "01",
           "off": "01"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Jetpack",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "302301",
-          "on": "909090909090",
-          "off": "C4C17A110424"
         }
       ]
     }

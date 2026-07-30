@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Blue Gems (on spend disable before mission starts)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5FC90",
-          "on": "498B8EE0040000C7013F420F00E91CC76080",
-          "off": "000000000000000000000000000000000000"
-        },
-        {
-          "offset": "26C3B5",
-          "on": "E9D6389F7F90909090",
-          "off": "498B8EE00400002901"
-        }
-      ]
-    },
-    {
       "name": "Infinite Ammo (Disable outside Mission)",
       "type": "checkbox",
       "memory": [
@@ -33,22 +17,6 @@
           "offset": "2BA43D",
           "on": "E96E469A7F9090",
           "off": "41FF8FE0050000"
-        }
-      ]
-    },
-    {
-      "name": "infinite Throwable/items/boost (Disable outside Mission)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5FCA0",
-          "on": "FFC841C6450463E9B9444580",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "B415F",
-          "on": "E93CBBBA7F90",
-          "off": "FFC841894504"
         }
       ]
     },
@@ -69,18 +37,34 @@
       ]
     },
     {
-      "name": "Red Gems (on spend disable before mission starts)",
+      "name": "Blue Gems (on spend disable before mission starts)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FE7BE40",
-          "on": "418B442454C741049F860100E975053F80",
-          "off": "0000000000000000000000000000000000"
+          "offset": "7FC5FC90",
+          "on": "498B8EE0040000C7013F420F00E91CC76080",
+          "off": "000000000000000000000000000000000000"
         },
         {
-          "offset": "26C3BE",
-          "on": "E97DFAC07F909090",
-          "off": "418B442454294104"
+          "offset": "26C3B5",
+          "on": "E9D6389F7F90909090",
+          "off": "498B8EE00400002901"
+        }
+      ]
+    },
+    {
+      "name": "infinite Throwable/items/boost (Disable outside Mission)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5FCA0",
+          "on": "FFC841C6450463E9B9444580",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "B415F",
+          "on": "E93CBBBA7F90",
+          "off": "FFC841894504"
         }
       ]
     },
@@ -97,6 +81,22 @@
           "offset": "26C3C6",
           "on": "E955FAC07F909090",
           "off": "418B442458294108"
+        }
+      ]
+    },
+    {
+      "name": "Red Gems (on spend disable before mission starts)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FE7BE40",
+          "on": "418B442454C741049F860100E975053F80",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "26C3BE",
+          "on": "E97DFAC07F909090",
+          "off": "418B442454294104"
         }
       ]
     }

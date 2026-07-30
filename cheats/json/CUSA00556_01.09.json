@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Debug Menu (Disable)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "4108",
-          "on": "C681812E000000",
-          "off": "80B9812E000000"
-        }
-      ]
-    },
-    {
       "name": "Debug Menu (Enable)",
       "type": "checkbox",
       "memory": [
@@ -44,6 +33,17 @@
           "offset": "410F",
           "on": "E98F12000090",
           "off": "0F848E120000"
+        }
+      ]
+    },
+    {
+      "name": "Debug Menu (Disable)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4108",
+          "on": "C681812E000000",
+          "off": "80B9812E000000"
         }
       ]
     }

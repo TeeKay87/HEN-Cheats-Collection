@@ -5,38 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Astral Timer",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "4CC784A",
-          "on": "C4C17A10870C0D0000C4C17A1187100D0000E917A14AFB",
-          "off": "0000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "17196F",
-          "on": "E9D65EB50490909090",
-          "off": "C4C17A1187100D0000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Breath",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "4CC7833",
-          "on": "C5FA1083240D0000C5FA1183940D0000E97BFC48FB",
-          "off": "000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "1574BB",
-          "on": "E97303B704909090",
-          "off": "C5FA1183940D0000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -69,34 +37,34 @@
       ]
     },
     {
-      "name": "Max Astral Timer",
+      "name": "Infinite Breath",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "4CC78AE",
-          "on": "C7870C0D000000007A44C5FA5E870C0D0000E95F8D4BFB",
-          "off": "0000000000000000000000000000000000000000000000"
+          "offset": "4CC7833",
+          "on": "C5FA1083240D0000C5FA1183940D0000E97BFC48FB",
+          "off": "000000000000000000000000000000000000000000"
         },
         {
-          "offset": "18061C",
-          "on": "E98D72B404909090",
-          "off": "C5FA5E870C0D0000"
+          "offset": "1574BB",
+          "on": "E97303B704909090",
+          "off": "C5FA1183940D0000"
         }
       ]
     },
     {
-      "name": "Max Breath",
+      "name": "Infinite Astral Timer",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "4CC7895",
-          "on": "C783240D00000000C842C5FA1083240D0000E904FD48FB",
+          "offset": "4CC784A",
+          "on": "C4C17A10870C0D0000C4C17A1187100D0000E917A14AFB",
           "off": "0000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "1575A8",
-          "on": "E9E802B704909090",
-          "off": "C5FA1083240D0000"
+          "offset": "17196F",
+          "on": "E9D65EB50490909090",
+          "off": "C4C17A1187100D0000"
         }
       ]
     },
@@ -117,18 +85,50 @@
       ]
     },
     {
-      "name": "Max Knowledge",
+      "name": "Max Stamina",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "4CC7DD9",
-          "on": "E8FCF762FBC74014630000008B4014E9075756FB",
-          "off": "0000000000000000000000000000000000000000"
+          "offset": "4CC787C",
+          "on": "C783200D00000000C842C5FA109B200D0000E95EFD48FB",
+          "off": "0000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "22D4EC",
-          "on": "E9E8A8A904",
-          "off": "E8EFA00C00"
+          "offset": "1575E9",
+          "on": "E98E02B704909090",
+          "off": "C5FA109B200D0000"
+        }
+      ]
+    },
+    {
+      "name": "Max Breath",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4CC7895",
+          "on": "C783240D00000000C842C5FA1083240D0000E904FD48FB",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1575A8",
+          "on": "E9E802B704909090",
+          "off": "C5FA1083240D0000"
+        }
+      ]
+    },
+    {
+      "name": "Max Astral Timer",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4CC78AE",
+          "on": "C7870C0D000000007A44C5FA5E870C0D0000E95F8D4BFB",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "18061C",
+          "on": "E98D72B404909090",
+          "off": "C5FA5E870C0D0000"
         }
       ]
     },
@@ -149,18 +149,18 @@
       ]
     },
     {
-      "name": "Max Stamina",
+      "name": "Max Knowledge",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "4CC787C",
-          "on": "C783200D00000000C842C5FA109B200D0000E95EFD48FB",
-          "off": "0000000000000000000000000000000000000000000000"
+          "offset": "4CC7DD9",
+          "on": "E8FCF762FBC74014630000008B4014E9075756FB",
+          "off": "0000000000000000000000000000000000000000"
         },
         {
-          "offset": "1575E9",
-          "on": "E98E02B704909090",
-          "off": "C5FA109B200D0000"
+          "offset": "22D4EC",
+          "on": "E9E8A8A904",
+          "off": "E8EFA00C00"
         }
       ]
     }

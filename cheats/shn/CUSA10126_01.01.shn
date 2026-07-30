@@ -3,30 +3,32 @@
   <Genres Name="Action" />
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="0 Enemy KI (Showing Bar/Lock-On)">
+  <Cheat Text="Infinite Health">
     <Cheatline>
-      <Offset>13F7836</Offset>
+      <Offset>13F7800</Offset>
       <Section>0</Section>
-      <ValueOn>C7-40-40-00-00-00-00-C5-FA-10-48-40-E9-3F-4E-25-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+      <ValueOn>49-8B-46-18-49-89-46-20-89-C1-E9-00-C2-2B-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>64C681</Offset>
+      <Offset>6B3A09</Offset>
       <Section>0</Section>
-      <ValueOn>E9-B0-B1-DA-00</ValueOn>
-      <ValueOff>C5-FA-10-48-40</ValueOff>
+      <ValueOn>E9-F2-3D-D4-00-90</ValueOn>
+      <ValueOff>49-8B-46-20-89-C1</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite KI">
+    <Cheatline>
+      <Offset>13F780F</Offset>
+      <Section>0</Section>
+      <ValueOn>C5-FA-10-47-04-C5-FA-11-07-F3-0F-58-47-10-E9-07-43-DB-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>13F78F3</Offset>
+      <Offset>1ABB24</Offset>
       <Section>0</Section>
-      <ValueOn>C7-43-40-00-00-00-00-C5-FA-10-4B-40-E9-DA-F8-16-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>5671D9</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-15-07-E9-00</ValueOn>
-      <ValueOff>C5-FA-10-4B-40</ValueOff>
+      <ValueOn>E9-E6-BC-24-01</ValueOn>
+      <ValueOff>C5-FA-58-47-10</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="1/2 Hit Kill (Lock-On for 1 Hit)">
@@ -53,6 +55,46 @@
       <Section>0</Section>
       <ValueOn>E9-E3-0B-E9-00-90-90-90</ValueOn>
       <ValueOff>49-8B-4F-20-49-8B-47-18</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="0 Enemy KI (Showing Bar/Lock-On)">
+    <Cheatline>
+      <Offset>13F7836</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-40-40-00-00-00-00-C5-FA-10-48-40-E9-3F-4E-25-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>64C681</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-B0-B1-DA-00</ValueOn>
+      <ValueOff>C5-FA-10-48-40</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>13F78F3</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-43-40-00-00-00-00-C5-FA-10-4B-40-E9-DA-F8-16-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>5671D9</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-15-07-E9-00</ValueOn>
+      <ValueOff>C5-FA-10-4B-40</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="No Effects">
+    <Cheatline>
+      <Offset>13F7904</Offset>
+      <Section>0</Section>
+      <ValueOn>41-C7-46-0C-00-00-00-00-C4-C1-7A-10-46-0C-E9-C9-31-DD-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>1CAADA</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-25-CE-22-01-90</ValueOn>
+      <ValueOff>C4-C1-7A-11-46-0C</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Inf Amrita Gauge on Gain/Use">
@@ -93,62 +135,6 @@
       <ValueOff>C5-FA-11-53-50</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Ninjutsu Capacity">
-    <Cheatline>
-      <Offset>13F78B9</Offset>
-      <Section>0</Section>
-      <ValueOn>41-BE-3F-42-0F-00-45-89-B4-24-1C-50-0B-00-E9-C5-38-34-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>73B189</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-2B-C7-CB-00-90-90-90</ValueOn>
-      <ValueOff>45-03-B4-24-1C-50-0B-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Inf Onmyo Magic Capacity">
-    <Cheatline>
-      <Offset>13F78CC</Offset>
-      <Section>0</Section>
-      <ValueOn>41-BE-3F-42-0F-00-45-89-B4-24-20-50-0B-00-E9-D2-37-34-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>73B0A9</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-1E-C8-CB-00-90-90-90</ValueOn>
-      <ValueOff>45-03-B4-24-20-50-0B-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Health">
-    <Cheatline>
-      <Offset>13F7800</Offset>
-      <Section>0</Section>
-      <ValueOn>49-8B-46-18-49-89-46-20-89-C1-E9-00-C2-2B-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>6B3A09</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-F2-3D-D4-00-90</ValueOn>
-      <ValueOff>49-8B-46-20-89-C1</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite KI">
-    <Cheatline>
-      <Offset>13F780F</Offset>
-      <Section>0</Section>
-      <ValueOn>C5-FA-10-47-04-C5-FA-11-07-F3-0F-58-47-10-E9-07-43-DB-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>1ABB24</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-E6-BC-24-01</ValueOn>
-      <ValueOff>C5-FA-58-47-10</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite Living Weapon">
     <Cheatline>
       <Offset>13F7859</Offset>
@@ -175,6 +161,14 @@
       <ValueOff>C5-FA-11-47-1C</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="Kill to Max Weapons/Armour Familiarity">
+    <Cheatline>
+      <Offset>4D6AF3</Offset>
+      <Section>0</Section>
+      <ValueOn>48-89-43-14</ValueOn>
+      <ValueOff>44-89-73-14</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Kill to Max Weapons Proficiency">
     <Cheatline>
       <Offset>13F7917</Offset>
@@ -189,12 +183,42 @@
       <ValueOff>89-94-83-40-E6-0A-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Kill to Max Weapons/Armour Familiarity">
+  <Cheat Text="Max Items on Use">
     <Cheatline>
-      <Offset>4D6AF3</Offset>
+      <Offset>13F7847</Offset>
       <Section>0</Section>
-      <ValueOn>48-89-43-14</ValueOn>
-      <ValueOff>44-89-73-14</ValueOff>
+      <ValueOn>66-B8-63-00-66-43-89-84-2E-18-02-00-00-E9-F2-D8-F0-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>305142</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-00-27-0F-01-90-90-90-90</ValueOn>
+      <ValueOff>66-43-89-84-2E-18-02-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="x2 Items on Use">
+    <Cheatline>
+      <Offset>3050C9</Offset>
+      <Section>0</Section>
+      <ValueOn>01-F8</ValueOn>
+      <ValueOff>29-F8</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="x2 Special Items">
+    <Cheatline>
+      <Offset>305F69</Offset>
+      <Section>0</Section>
+      <ValueOn>01-F2</ValueOn>
+      <ValueOff>01-F2</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="x2 Materials on Use">
+    <Cheatline>
+      <Offset>3056C9</Offset>
+      <Section>0</Section>
+      <ValueOn>01-F2</ValueOn>
+      <ValueOff>29-F2</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max Amrita on Use">
@@ -223,18 +247,18 @@
       <ValueOff>49-89-46-08-41-C6-06-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Glory on Trade">
+  <Cheat Text="x2 Amrita on Use">
     <Cheatline>
-      <Offset>13F7928</Offset>
+      <Offset>63FAE6</Offset>
       <Section>0</Section>
-      <ValueOn>BA-FF-C9-9A-3B-89-90-F4-01-00-00-E9-02-20-F0-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+      <ValueOn>49-03-86-A8-00-00-00</ValueOn>
+      <ValueOff>49-2B-86-A8-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>2F9934</Offset>
+      <Offset>57ED84</Offset>
       <Section>0</Section>
-      <ValueOn>E9-EF-DF-0F-01-90</ValueOn>
-      <ValueOff>89-90-F4-01-00-00</ValueOff>
+      <ValueOn>48-03-83-90-00-00-00</ValueOn>
+      <ValueOff>48-2B-83-90-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max Gold on Spend">
@@ -299,64 +323,6 @@
       <ValueOff>49-89-4F-10-41-C6-07-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items on Use">
-    <Cheatline>
-      <Offset>13F7847</Offset>
-      <Section>0</Section>
-      <ValueOn>66-B8-63-00-66-43-89-84-2E-18-02-00-00-E9-F2-D8-F0-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>305142</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-00-27-0F-01-90-90-90-90</ValueOn>
-      <ValueOff>66-43-89-84-2E-18-02-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="No Effects">
-    <Cheatline>
-      <Offset>13F7904</Offset>
-      <Section>0</Section>
-      <ValueOn>41-C7-46-0C-00-00-00-00-C4-C1-7A-10-46-0C-E9-C9-31-DD-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>1CAADA</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-25-CE-22-01-90</ValueOn>
-      <ValueOff>C4-C1-7A-11-46-0C</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="x2 Agyo/Ungyo Prestige Points">
-    <Cheatline>
-      <Offset>6E995F</Offset>
-      <Section>0</Section>
-      <ValueOn>43-FF-8C-A6-A4-C2-15-00</ValueOn>
-      <ValueOff>43-FF-84-A6-A4-C2-15-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="x2 Amrita on Use">
-    <Cheatline>
-      <Offset>63FAE6</Offset>
-      <Section>0</Section>
-      <ValueOn>49-03-86-A8-00-00-00</ValueOn>
-      <ValueOff>49-2B-86-A8-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>57ED84</Offset>
-      <Section>0</Section>
-      <ValueOn>48-03-83-90-00-00-00</ValueOn>
-      <ValueOff>48-2B-83-90-00-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="x2 Glory on Trade">
-    <Cheatline>
-      <Offset>2F9928</Offset>
-      <Section>0</Section>
-      <ValueOn>01-FA</ValueOn>
-      <ValueOff>29-FA</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="x2 Gold on Spend">
     <Cheatline>
       <Offset>634D3E</Offset>
@@ -395,20 +361,34 @@
       <ValueOff>48-29-D8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="x2 Items on Use">
+  <Cheat Text="Max Glory on Trade">
     <Cheatline>
-      <Offset>3050C9</Offset>
+      <Offset>13F7928</Offset>
       <Section>0</Section>
-      <ValueOn>01-F8</ValueOn>
-      <ValueOff>29-F8</ValueOff>
+      <ValueOn>BA-FF-C9-9A-3B-89-90-F4-01-00-00-E9-02-20-F0-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>2F9934</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-EF-DF-0F-01-90</ValueOn>
+      <ValueOff>89-90-F4-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="x2 Materials on Use">
+  <Cheat Text="x2 Glory on Trade">
     <Cheatline>
-      <Offset>3056C9</Offset>
+      <Offset>2F9928</Offset>
       <Section>0</Section>
-      <ValueOn>01-F2</ValueOn>
-      <ValueOff>29-F2</ValueOff>
+      <ValueOn>01-FA</ValueOn>
+      <ValueOff>29-FA</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="x2 Samurai SP">
+    <Cheatline>
+      <Offset>6DD370</Offset>
+      <Section>0</Section>
+      <ValueOn>29-B7-F4-E5-0A-00</ValueOn>
+      <ValueOff>01-B7-F4-E5-0A-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="x2 Ninja SP">
@@ -427,20 +407,40 @@
       <ValueOff>01-B7-0C-E6-0A-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="x2 Samurai SP">
+  <Cheat Text="x2 Agyo/Ungyo Prestige Points">
     <Cheatline>
-      <Offset>6DD370</Offset>
+      <Offset>6E995F</Offset>
       <Section>0</Section>
-      <ValueOn>29-B7-F4-E5-0A-00</ValueOn>
-      <ValueOff>01-B7-F4-E5-0A-00</ValueOff>
+      <ValueOn>43-FF-8C-A6-A4-C2-15-00</ValueOn>
+      <ValueOff>43-FF-84-A6-A4-C2-15-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="x2 Special Items">
+  <Cheat Text="Inf Ninjutsu Capacity">
     <Cheatline>
-      <Offset>305F69</Offset>
+      <Offset>13F78B9</Offset>
       <Section>0</Section>
-      <ValueOn>01-F2</ValueOn>
-      <ValueOff>01-F2</ValueOff>
+      <ValueOn>41-BE-3F-42-0F-00-45-89-B4-24-1C-50-0B-00-E9-C5-38-34-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>73B189</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-2B-C7-CB-00-90-90-90</ValueOn>
+      <ValueOff>45-03-B4-24-1C-50-0B-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Inf Onmyo Magic Capacity">
+    <Cheatline>
+      <Offset>13F78CC</Offset>
+      <Section>0</Section>
+      <ValueOn>41-BE-3F-42-0F-00-45-89-B4-24-20-50-0B-00-E9-D2-37-34-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>73B0A9</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-1E-C8-CB-00-90-90-90</ValueOn>
+      <ValueOff>45-03-B4-24-20-50-0B-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

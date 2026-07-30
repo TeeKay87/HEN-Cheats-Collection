@@ -16,6 +16,22 @@
       ]
     },
     {
+      "name": "Infinite Ressource",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "125B800",
+          "on": "48630C24B97F9698008908E95AF2FC7E",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "8022AA64",
+          "on": "E9970D038190",
+          "off": "48630C248908"
+        }
+      ]
+    },
+    {
       "name": "Infinite Energy Shield ",
       "type": "checkbox",
       "memory": [
@@ -38,22 +54,6 @@
           "offset": "8023F5C4",
           "on": "E957C2018190",
           "off": "89B894000000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Ressource",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "125B800",
-          "on": "48630C24B97F9698008908E95AF2FC7E",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "8022AA64",
-          "on": "E9970D038190",
-          "off": "48630C248908"
         }
       ]
     }

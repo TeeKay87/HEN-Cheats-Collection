@@ -2,20 +2,6 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="ENDER MAGNOLIA: Bloom in the Mist" Moder="Wander FW900" Cusa="CUSA48223" Version="01.11" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Healing Ward">
-    <Cheatline>
-      <Offset>5C5BBDE</Offset>
-      <Section>0</Section>
-      <ValueOn>C7-87-FC-00-00-00-05-00-00-00-E9-60-D6-F7-FD</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>3BD9247</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-92-29-08-02-90</ValueOn>
-      <ValueOff>89-8F-FC-00-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite Health">
     <Cheatline>
       <Offset>5C5BC15</Offset>
@@ -30,18 +16,18 @@
       <ValueOff>89-87-3C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items" Description="only use when needed">
+  <Cheat Text="Infinite Healing Ward">
     <Cheatline>
-      <Offset>5C5BC00</Offset>
+      <Offset>5C5BBDE</Offset>
       <Section>0</Section>
-      <ValueOn>C7-01-FF-E0-F5-05-29-C2-0F-8E-6B-47-01-FE-E9-A8-48-01-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+      <ValueOn>C7-87-FC-00-00-00-05-00-00-00-E9-60-D6-F7-FD</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>3C704B1</Offset>
+      <Offset>3BD9247</Offset>
       <Section>0</Section>
-      <ValueOn>E9-4A-B7-FE-01-90-90-90-90-90</ValueOn>
-      <ValueOff>89-11-29-C2-0F-8E-BE-FE-FF-FF</ValueOff>
+      <ValueOn>E9-92-29-08-02-90</ValueOn>
+      <ValueOff>89-8F-FC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max level">
@@ -56,6 +42,20 @@
       <Section>0</Section>
       <ValueOn>E9-F5-30-0B-02-90</ValueOn>
       <ValueOff>89-83-8C-01-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max Items" Description="only use when needed">
+    <Cheatline>
+      <Offset>5C5BC00</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-01-FF-E0-F5-05-29-C2-0F-8E-6B-47-01-FE-E9-A8-48-01-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>3C704B1</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-4A-B7-FE-01-90-90-90-90-90</ValueOn>
+      <ValueOff>89-11-29-C2-0F-8E-BE-FE-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

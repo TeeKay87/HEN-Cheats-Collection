@@ -39,6 +39,20 @@
       <ValueOff>8A-89-B9-39-00-00</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="L3 + Upper L or Upper R Touch Pad">
+    <Cheatline>
+      <Offset>01357800</Offset>
+      <Section>0</Section>
+      <ValueOn>51-48-B9-24-07-83-01-00-00-00-00-48-8B-09-48-83-E1-02-75-0D-C6-80-FC-4B-00-00-00-59-E9-C6-82-A5-FF-C6-80-FC-4B-00-00-01-59-E9-B9-82-A5-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>DAFAE0</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-1B-7D-5A-00-90-90</ValueOn>
+      <ValueOff>80-B8-FC-4B-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Enable FPS View - Hold L3">
     <Cheatline>
       <Offset>162194</Offset>
@@ -59,20 +73,6 @@
       <Section>0</Section>
       <ValueOn>E9-DF-60-AE-00-90-90-90-74-27</ValueOn>
       <ValueOff>8A-89-B9-39-00-00-0A-08-75-27</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="L3 + Upper L or Upper R Touch Pad">
-    <Cheatline>
-      <Offset>01357800</Offset>
-      <Section>0</Section>
-      <ValueOn>51-48-B9-24-07-83-01-00-00-00-00-48-8B-09-48-83-E1-02-75-0D-C6-80-FC-4B-00-00-00-59-E9-C6-82-A5-FF-C6-80-FC-4B-00-00-01-59-E9-B9-82-A5-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>DAFAE0</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-1B-7D-5A-00-90-90</ValueOn>
-      <ValueOff>80-B8-FC-4B-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Dev Menu L3+Upper L or R Touch Pad">

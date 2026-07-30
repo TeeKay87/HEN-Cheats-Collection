@@ -5,6 +5,33 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Health/1 Hit Kill (Master Code)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F27E50",
+          "on": "4883F913750DC5FA114364E9371EB1FE0F57C0C5FA114364E92A1EB1FE",
+          "off": "0000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "A39C92",
+          "on": "E9B9E14E01",
+          "off": "C5FA114364"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health (Enable MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F27E56",
+          "on": "C5FA104364",
+          "off": "C5FA114364"
+        }
+      ]
+    },
+    {
       "name": "1 Hit Kill (Enable MC)",
       "type": "checkbox",
       "memory": [
@@ -12,6 +39,54 @@
           "offset": "1F27E54",
           "on": "750A",
           "off": "750D"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health Regeneration",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5BDE0",
+          "on": "C4C17A104C2454E99B603481",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "FA1E80",
+          "on": "E95B9FCB7E9090",
+          "off": "C4C17A114C2454"
+        }
+      ]
+    },
+    {
+      "name": "Max/Infinite Weaver Armour",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5B810",
+          "on": "41C747580000FA43E91CE6A081",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "1669E33",
+          "on": "E9D8195F7E90",
+          "off": "C4C17A114758"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Items/Shards/Resources On Use/Buy",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5BFD0",
+          "on": "4429F0418B4554E9CB502D81",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "F310A0",
+          "on": "E92BAFD27E9090",
+          "off": "4429F041894554"
         }
       ]
     },
@@ -48,65 +123,6 @@
       ]
     },
     {
-      "name": "Infinite Health (Enable MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1F27E56",
-          "on": "C5FA104364",
-          "off": "C5FA114364"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health Regeneration",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5BDE0",
-          "on": "C4C17A104C2454E99B603481",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "FA1E80",
-          "on": "E95B9FCB7E9090",
-          "off": "C4C17A114C2454"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health/1 Hit Kill (Master Code)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1F27E50",
-          "on": "4883F913750DC5FA114364E9371EB1FE0F57C0C5FA114364E92A1EB1FE",
-          "off": "0000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "A39C92",
-          "on": "E9B9E14E01",
-          "off": "C5FA114364"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Items/Shards/Resources On Use/Buy",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5BFD0",
-          "on": "4429F0418B4554E9CB502D81",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "F310A0",
-          "on": "E92BAFD27E9090",
-          "off": "4429F041894554"
-        }
-      ]
-    },
-    {
       "name": "Max Shards On Buy (Disable After Buy)",
       "type": "checkbox",
       "memory": [
@@ -135,22 +151,6 @@
           "offset": "15D9384",
           "on": "E9D72B687E",
           "off": "4129442464"
-        }
-      ]
-    },
-    {
-      "name": "Max/Infinite Weaver Armour",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5B810",
-          "on": "41C747580000FA43E91CE6A081",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "1669E33",
-          "on": "E9D8195F7E90",
-          "off": "C4C17A114758"
         }
       ]
     },

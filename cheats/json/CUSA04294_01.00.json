@@ -16,6 +16,17 @@
       ]
     },
     {
+      "name": "Infinite Hack",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "DD358C",
+          "on": "9090909090",
+          "off": "C5FA114774"
+        }
+      ]
+    },
+    {
       "name": "God Mode",
       "type": "checkbox",
       "memory": [
@@ -39,17 +50,6 @@
           "offset": "1211AFA",
           "on": "909090",
           "off": "894110"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Hack",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "DD358C",
-          "on": "9090909090",
-          "off": "C5FA114774"
         }
       ]
     }

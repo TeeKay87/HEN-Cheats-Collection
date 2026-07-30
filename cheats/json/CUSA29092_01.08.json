@@ -5,6 +5,33 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Health (Campaign Mode)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "10ADF3B",
+          "on": "C5FA2CC1",
+          "off": "C5FA2CC0"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health (Zombies Mode)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "27AF240",
+          "on": "4531C045298424C0010000E922B7DEFE",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "159A96A",
+          "on": "E9D1482101909090",
+          "off": "45298424C0010000"
+        }
+      ]
+    },
+    {
       "name": "Infinite Ammo / No Reload",
       "type": "checkbox",
       "memory": [
@@ -33,33 +60,6 @@
           "offset": "E5D4C8",
           "on": "E9031E950190",
           "off": "498B064189DE"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health (Campaign Mode)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "10ADF3B",
-          "on": "C5FA2CC1",
-          "off": "C5FA2CC0"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health (Zombies Mode)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "27AF240",
-          "on": "4531C045298424C0010000E922B7DEFE",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "159A96A",
-          "on": "E9D1482101909090",
-          "off": "45298424C0010000"
         }
       ]
     },

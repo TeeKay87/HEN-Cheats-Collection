@@ -5,28 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Duplicate Items After Use",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "20FFE49",
-          "on": "015E0C",
-          "off": "895E0C"
-        }
-      ]
-    },
-    {
-      "name": "Duplicate Money After Use",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1793AB6",
-          "on": "01",
-          "off": "89"
-        }
-      ]
-    },
-    {
       "name": "Godmode",
       "type": "checkbox",
       "memory": [
@@ -34,17 +12,6 @@
           "offset": "2A03F6C",
           "on": "9090909090",
           "off": "C5FA114864"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Items",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "20FFE49",
-          "on": "909090",
-          "off": "895E0C"
         }
       ]
     },
@@ -60,24 +27,35 @@
       ]
     },
     {
-      "name": "Duplicate Items After Use",
+      "name": "Duplicate Money After Use",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1CFFE49",
-          "on": "015E0C",
+          "offset": "1793AB6",
+          "on": "01",
+          "off": "89"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "20FFE49",
+          "on": "909090",
           "off": "895E0C"
         }
       ]
     },
     {
-      "name": "Duplicate Money After Use",
+      "name": "Duplicate Items After Use",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1393AB6",
-          "on": "01",
-          "off": "89"
+          "offset": "20FFE49",
+          "on": "015E0C",
+          "off": "895E0C"
         }
       ]
     },
@@ -93,6 +71,28 @@
       ]
     },
     {
+      "name": "Infinite Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "27B4E6F",
+          "on": "9090909090",
+          "off": "C5FA11436C"
+        }
+      ]
+    },
+    {
+      "name": "Duplicate Money After Use",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1393AB6",
+          "on": "01",
+          "off": "89"
+        }
+      ]
+    },
+    {
       "name": "Infinite Items",
       "type": "checkbox",
       "memory": [
@@ -104,13 +104,13 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
+      "name": "Duplicate Items After Use",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "27B4E6F",
-          "on": "9090909090",
-          "off": "C5FA11436C"
+          "offset": "1CFFE49",
+          "on": "015E0C",
+          "off": "895E0C"
         }
       ]
     }

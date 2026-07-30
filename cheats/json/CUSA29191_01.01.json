@@ -5,6 +5,22 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Max Infinite Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5D620",
+          "on": "41C7463C00004843E97B06F300",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "80B8DCA2",
+          "on": "E979F90CFF90",
+          "off": "C4C17A114E3C"
+        }
+      ]
+    },
+    {
       "name": "Infinite Ammo",
       "type": "checkbox",
       "memory": [
@@ -21,18 +37,18 @@
       ]
     },
     {
-      "name": "Infinite Fuel",
+      "name": "No Reload",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5C880",
-          "on": "41C6869800000009E99BE05901",
-          "off": "00000000000000000000000000"
+          "offset": "7FC5D070",
+          "on": "418B44245CE95C050000",
+          "off": "00000000000000000000"
         },
         {
-          "offset": "811FA921",
-          "on": "E95A1FA6FE9090",
-          "off": "4589BE98000000"
+          "offset": "7FC5D5D0",
+          "on": "E99BFAFFFF90",
+          "off": "41C644245C63"
         }
       ]
     },
@@ -53,34 +69,18 @@
       ]
     },
     {
-      "name": "Infinite Knowledge On Buy (Mikhail)",
+      "name": "Infinite Fuel",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5DB20",
-          "on": "0F840048F000418B4628E9EB47F000",
-          "off": "000000000000000000000000000000"
+          "offset": "7FC5C880",
+          "on": "41C6869800000009E99BE05901",
+          "off": "00000000000000000000000000"
         },
         {
-          "offset": "80B62314",
-          "on": "E907B80FFF90",
-          "off": "741641894628"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Knowledge On Use",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5DD90",
-          "on": "28741241034F28E981E7A600",
-          "off": "000000000000000000000000"
-        },
-        {
-          "offset": "806CC516",
-          "on": "E9751859FF9090",
-          "off": "28741241894728"
+          "offset": "811FA921",
+          "on": "E95A1FA6FE9090",
+          "off": "4589BE98000000"
         }
       ]
     },
@@ -101,38 +101,6 @@
       ]
     },
     {
-      "name": "Infinite Supply On Use",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5D0F0",
-          "on": "0F84306C5A01418B4618E91B6C5A01",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "81203D14",
-          "on": "E9D793A5FE90",
-          "off": "741641894618"
-        }
-      ]
-    },
-    {
-      "name": "Max Infinite Stamina",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5D620",
-          "on": "41C7463C00004843E97B06F300",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "80B8DCA2",
-          "on": "E979F90CFF90",
-          "off": "C4C17A114E3C"
-        }
-      ]
-    },
-    {
       "name": "Max Knowledge On Gain",
       "type": "checkbox",
       "memory": [
@@ -140,6 +108,22 @@
           "offset": "F48E92",
           "on": "41897F28",
           "off": "41894728"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Knowledge On Use",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5DD90",
+          "on": "28741241034F28E981E7A600",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "806CC516",
+          "on": "E9751859FF9090",
+          "off": "28741241894728"
         }
       ]
     },
@@ -166,18 +150,34 @@
       ]
     },
     {
-      "name": "No Reload",
+      "name": "Infinite Supply On Use",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5D070",
-          "on": "418B44245CE95C050000",
-          "off": "00000000000000000000"
+          "offset": "7FC5D0F0",
+          "on": "0F84306C5A01418B4618E91B6C5A01",
+          "off": "000000000000000000000000000000"
         },
         {
-          "offset": "7FC5D5D0",
-          "on": "E99BFAFFFF90",
-          "off": "41C644245C63"
+          "offset": "81203D14",
+          "on": "E9D793A5FE90",
+          "off": "741641894618"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Knowledge On Buy (Mikhail)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5DB20",
+          "on": "0F840048F000418B4628E9EB47F000",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "80B62314",
+          "on": "E907B80FFF90",
+          "off": "741641894628"
         }
       ]
     }

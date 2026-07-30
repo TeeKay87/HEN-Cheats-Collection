@@ -2,32 +2,18 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="God of War III Remastered" Moder="Celogamez" Cusa="CUSA01715" Version="01.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Max/Infinite Health">
     <Cheatline>
-      <Offset>7FC4BE60</Offset>
+      <Offset>3BFDB0</Offset>
       <Section>0</Section>
-      <ValueOn>41-83-BD-1C-05-00-00-00-75-17-C4-C1-7A-11-85-CC-01-00-00-C4-C1-7A-10-85-CC-01-00-00-E9-86-45-40-80-C4-C1-7A-10-85-CC-01-00-00-E9-78-45-40-80</ValueOn>
+      <ValueOn>41-80-BD-98-02-00-00-00-75-17-C4-C1-7A-10-85-D0-01-00-00-C4-C1-7A-11-85-CC-01-00-00-E9-36-06-C9-FF-C4-C1-7A-11-85-CC-01-00-00-E9-28-06-C9-FF</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
       <Offset>503FE</Offset>
       <Section>0</Section>
-      <ValueOn>E9-5D-BA-BF-7F-90-90-90-90</ValueOn>
+      <ValueOn>E9-AD-F9-36-00-90-90-90-90</ValueOn>
       <ValueOff>C4-C1-7A-11-85-CC-01-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Item Meter">
-    <Cheatline>
-      <Offset>7FC4BA70</Offset>
-      <Section>0</Section>
-      <ValueOn>C5-FA-10-87-D4-01-00-00-E9-12-73-42-80</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>72D87</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-E4-8C-BD-7F-90-90-90</ValueOn>
-      <ValueOff>C5-FA-11-87-D4-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Magic">
@@ -44,6 +30,20 @@
       <ValueOff>C5-FA-11-83-D0-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="Infinite Item Meter">
+    <Cheatline>
+      <Offset>7FC4BA70</Offset>
+      <Section>0</Section>
+      <ValueOn>C5-FA-10-87-D4-01-00-00-E9-12-73-42-80</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>72D87</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-E4-8C-BD-7F-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-87-D4-01-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Infinite Rage Of Sparta">
     <Cheatline>
       <Offset>7FC4BA90</Offset>
@@ -58,20 +58,6 @@
       <ValueOff>C5-FA-11-8B-D8-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Health">
-    <Cheatline>
-      <Offset>3BFDB0</Offset>
-      <Section>0</Section>
-      <ValueOn>41-80-BD-98-02-00-00-00-75-17-C4-C1-7A-10-85-D0-01-00-00-C4-C1-7A-11-85-CC-01-00-00-E9-36-06-C9-FF-C4-C1-7A-11-85-CC-01-00-00-E9-28-06-C9-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>503FE</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-AD-F9-36-00-90-90-90-90</ValueOn>
-      <ValueOff>C4-C1-7A-11-85-CC-01-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Max/Infinite Red Orbs">
     <Cheatline>
       <Offset>7FC4BA30</Offset>
@@ -84,6 +70,20 @@
       <Section>0</Section>
       <ValueOn>E9-3F-10-BE-7F-90-90-90</ValueOn>
       <ValueOff>C5-FA-11-87-E8-01-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Health">
+    <Cheatline>
+      <Offset>7FC4BE60</Offset>
+      <Section>0</Section>
+      <ValueOn>41-83-BD-1C-05-00-00-00-75-17-C4-C1-7A-11-85-CC-01-00-00-C4-C1-7A-10-85-CC-01-00-00-E9-86-45-40-80-C4-C1-7A-10-85-CC-01-00-00-E9-78-45-40-80</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>503FE</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-5D-BA-BF-7F-90-90-90-90</ValueOn>
+      <ValueOff>C4-C1-7A-11-85-CC-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

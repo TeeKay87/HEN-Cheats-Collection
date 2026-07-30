@@ -5,6 +5,28 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "38DDB62",
+          "on": "90909090909090",
+          "off": "4589B780010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Throwables,resources,medkits,ethanol",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "11DC9C7",
+          "on": "909090",
+          "off": "894348"
+        }
+      ]
+    },
+    {
       "name": "Gives everything 16959 except perk points",
       "type": "checkbox",
       "memory": [
@@ -21,17 +43,6 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "38DDB62",
-          "on": "90909090909090",
-          "off": "4589B780010000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Perk Points",
       "type": "checkbox",
       "memory": [
@@ -39,17 +50,6 @@
           "offset": "34ABABD",
           "on": "9090909090909090",
           "off": "4529AC24C0000000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Throwables,resources,medkits,ethanol",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "11DC9C7",
-          "on": "909090",
-          "off": "894348"
         }
       ]
     }

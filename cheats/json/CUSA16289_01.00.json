@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Bushido Spirit Points Multiplier",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "158150B",
-          "on": "0183C4030000",
-          "off": "2983C4030000"
-        }
-      ]
-    },
-    {
       "name": "Coins Multiplier",
       "type": "checkbox",
       "memory": [
@@ -27,17 +16,6 @@
       ]
     },
     {
-      "name": "Infinite Throwables",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1600665",
-          "on": "90909090909090",
-          "off": "418987F8000000"
-        }
-      ]
-    },
-    {
       "name": "Skill Fire Multiplier",
       "type": "checkbox",
       "memory": [
@@ -45,6 +23,28 @@
           "offset": "1581502",
           "on": "0183C0030000",
           "off": "2983C0030000"
+        }
+      ]
+    },
+    {
+      "name": "Bushido Spirit Points Multiplier",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "158150B",
+          "on": "0183C4030000",
+          "off": "2983C4030000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Throwables",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1600665",
+          "on": "90909090909090",
+          "off": "418987F8000000"
         }
       ]
     }

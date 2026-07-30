@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Stellaris Game Version 04.02",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "111C9F",
+          "on": "C390",
+          "off": "0000"
+        }
+      ]
+    },
+    {
       "name": "Infinite Resources",
       "type": "checkbox",
       "memory": [
@@ -17,17 +28,6 @@
           "offset": "7C50A0",
           "on": "E90CCC6D7F9090",
           "off": "C4C17C1044D500"
-        }
-      ]
-    },
-    {
-      "name": "Stellaris Game Version 04.02",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "111C9F",
-          "on": "C390",
-          "off": "0000"
         }
       ]
     },

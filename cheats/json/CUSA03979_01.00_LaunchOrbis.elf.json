@@ -5,28 +5,6 @@
   "process": "LaunchOrbis.elf",
   "mods": [
     {
-      "name": "2x Adam After Spend",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "4C4442",
-          "on": "4101",
-          "off": "4189"
-        }
-      ]
-    },
-    {
-      "name": "2x Money After Spend",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "4C408A",
-          "on": "01",
-          "off": "89"
-        }
-      ]
-    },
-    {
       "name": "Godmode",
       "type": "checkbox",
       "memory": [
@@ -43,17 +21,6 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "584200",
-          "on": "909090909090",
-          "off": "89B080000000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Eve",
       "type": "checkbox",
       "memory": [
@@ -61,6 +28,17 @@
           "offset": "4C3CB8",
           "on": "9090909090909090",
           "off": "C5FA118B680D0000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "584200",
+          "on": "909090909090",
+          "off": "89B080000000"
         }
       ]
     },
@@ -76,24 +54,24 @@
       ]
     },
     {
-      "name": "2x Adam After Spend",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "43ED32",
-          "on": "4101",
-          "off": "4189"
-        }
-      ]
-    },
-    {
       "name": "2x Money After Spend",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "43E97A",
+          "offset": "4C408A",
           "on": "01",
           "off": "89"
+        }
+      ]
+    },
+    {
+      "name": "2x Adam After Spend",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4C4442",
+          "on": "4101",
+          "off": "4189"
         }
       ]
     },
@@ -114,17 +92,6 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "49E7B0",
-          "on": "909090909090",
-          "off": "89B080000000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Eve",
       "type": "checkbox",
       "memory": [
@@ -136,6 +103,17 @@
       ]
     },
     {
+      "name": "Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "49E7B0",
+          "on": "909090909090",
+          "off": "89B080000000"
+        }
+      ]
+    },
+    {
       "name": "No Reload",
       "type": "checkbox",
       "memory": [
@@ -143,6 +121,28 @@
           "offset": "7543A6",
           "on": "909090",
           "off": "418907"
+        }
+      ]
+    },
+    {
+      "name": "2x Money After Spend",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "43E97A",
+          "on": "01",
+          "off": "89"
+        }
+      ]
+    },
+    {
+      "name": "2x Adam After Spend",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "43ED32",
+          "on": "4101",
+          "off": "4189"
         }
       ]
     }

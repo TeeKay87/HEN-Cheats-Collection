@@ -24,20 +24,6 @@
       <ValueOff>29-58-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Gun Shake">
-    <Cheatline>
-      <Offset>9EF84F</Offset>
-      <Section>0</Section>
-      <ValueOn>B9-00-00-00-00-42-89-8C-33-90-02-00-00-E9-6B-16-CB-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>6A0EC4</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-86-E9-34-00-90-90-90</ValueOn>
-      <ValueOff>42-89-8C-33-90-02-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="No Reload/Inf Grenades/Equipment">
     <Cheatline>
       <Offset>6A3856</Offset>
@@ -70,6 +56,20 @@
       <Section>0</Section>
       <ValueOn>E9-88-87-36-00-90-90-90</ValueOn>
       <ValueOff>C5-F2-5F-C0-C5-FA-11-03</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="No Gun Shake">
+    <Cheatline>
+      <Offset>9EF84F</Offset>
+      <Section>0</Section>
+      <ValueOn>B9-00-00-00-00-42-89-8C-33-90-02-00-00-E9-6B-16-CB-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>6A0EC4</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-86-E9-34-00-90-90-90</ValueOn>
+      <ValueOff>42-89-8C-33-90-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Rapid Fire">

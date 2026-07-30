@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Soul Point",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "13554E8",
+          "on": "89406C",
+          "off": "89786C"
+        }
+      ]
+    },
+    {
       "name": "Infinite Item",
       "type": "checkbox",
       "memory": [
@@ -16,13 +27,35 @@
       ]
     },
     {
-      "name": "Infinite Soul Point",
+      "name": "PlayerNoDead (Need a Loading)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "13554E8",
-          "on": "89406C",
-          "off": "89786C"
+          "offset": "11A78E9",
+          "on": "41B70190909090",
+          "off": "41B70090909090"
+        }
+      ]
+    },
+    {
+      "name": "PlayerHorseNoDead (Need a Loading)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "11A798B",
+          "on": "41B70190909090",
+          "off": "41B70090909090"
+        }
+      ]
+    },
+    {
+      "name": "PlayerExterminate (Need a Loading)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "11A7A2D",
+          "on": "41B70190909090",
+          "off": "41B70090909090"
         }
       ]
     },
@@ -38,44 +71,44 @@
       ]
     },
     {
+      "name": "IsNoArtsPointConsume (Need a Loading)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "11A7C28",
+          "on": "41B70190909090",
+          "off": "41B70090909090"
+        }
+      ]
+    },
+    {
+      "name": "Unlock More Debug Var (Needed for everything bellow this point)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "185043D",
+          "on": "90909090EB31",
+          "off": "0F8412480000"
+        }
+      ]
+    },
+    {
+      "name": "GameData.AllNoMpConsume (Need a Loading)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1850C09",
+          "on": "41B70190909090",
+          "off": "41B70090909090"
+        }
+      ]
+    },
+    {
       "name": "GameData.AllNoArrowConsume (Need a Loading)",
       "type": "checkbox",
       "memory": [
         {
           "offset": "1850CC9",
-          "on": "41B70190909090",
-          "off": "41B70090909090"
-        }
-      ]
-    },
-    {
-      "name": "GameData.AllNoAttack (Need a Loading)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "18509C9",
-          "on": "41B70190909090",
-          "off": "41B70090909090"
-        }
-      ]
-    },
-    {
-      "name": "GameData.AllNoDamage (Need a Loading)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1850789",
-          "on": "41B70190909090",
-          "off": "41B70090909090"
-        }
-      ]
-    },
-    {
-      "name": "GameData.AllNoDead (Need a Loading)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1850909",
           "on": "41B70190909090",
           "off": "41B70090909090"
         }
@@ -104,22 +137,44 @@
       ]
     },
     {
-      "name": "GameData.AllNoMove (Need a Loading)",
+      "name": "GameData.AllNoDamage (Need a Loading)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1850A89",
+          "offset": "1850789",
           "on": "41B70190909090",
           "off": "41B70090909090"
         }
       ]
     },
     {
-      "name": "GameData.AllNoMpConsume (Need a Loading)",
+      "name": "GameData.AllNoDead (Need a Loading)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1850C09",
+          "offset": "1850909",
+          "on": "41B70190909090",
+          "off": "41B70090909090"
+        }
+      ]
+    },
+    {
+      "name": "GameData.AllNoAttack (Need a Loading)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "18509C9",
+          "on": "41B70190909090",
+          "off": "41B70090909090"
+        }
+      ]
+    },
+    {
+      "name": "GameData.AllNoMove (Need a Loading)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1850A89",
           "on": "41B70190909090",
           "off": "41B70090909090"
         }
@@ -133,61 +188,6 @@
           "offset": "1850FC9",
           "on": "41B70190909090",
           "off": "41B70090909090"
-        }
-      ]
-    },
-    {
-      "name": "IsNoArtsPointConsume (Need a Loading)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "11A7C28",
-          "on": "41B70190909090",
-          "off": "41B70090909090"
-        }
-      ]
-    },
-    {
-      "name": "PlayerExterminate (Need a Loading)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "11A7A2D",
-          "on": "41B70190909090",
-          "off": "41B70090909090"
-        }
-      ]
-    },
-    {
-      "name": "PlayerHorseNoDead (Need a Loading)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "11A798B",
-          "on": "41B70190909090",
-          "off": "41B70090909090"
-        }
-      ]
-    },
-    {
-      "name": "PlayerNoDead (Need a Loading)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "11A78E9",
-          "on": "41B70190909090",
-          "off": "41B70090909090"
-        }
-      ]
-    },
-    {
-      "name": "Unlock More Debug Var (Needed for everything bellow this point)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "185043D",
-          "on": "90909090EB31",
-          "off": "0F8412480000"
         }
       ]
     }

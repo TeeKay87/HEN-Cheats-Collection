@@ -2,22 +2,6 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="God of War (2018)" Moder="Celogamez" Cusa="CUSA07408" Version="01.36" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Arrows">
-    <Cheatline>
-      <Offset>FFFDE6</Offset>
-      <Section>0</Section>
-      <ValueOn>C4-C1-7A-10-5E-20</ValueOn>
-      <ValueOff>C4-C1-7A-11-5E-20</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Health">
-    <Cheatline>
-      <Offset>FFFDB9</Offset>
-      <Section>0</Section>
-      <ValueOn>C4-C1-7A-10-5E-20</ValueOn>
-      <ValueOff>C4-C1-7A-11-5E-20</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite Health/Rage/Arrows (Master Code/Must Be On)">
     <Cheatline>
       <Offset>FFFDB0</Offset>
@@ -32,12 +16,36 @@
       <ValueOff>C4-C1-7A-11-5E-20</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="Infinite Health">
+    <Cheatline>
+      <Offset>FFFDB9</Offset>
+      <Section>0</Section>
+      <ValueOn>C4-C1-7A-10-5E-20</ValueOn>
+      <ValueOff>C4-C1-7A-11-5E-20</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Infinite Rage">
     <Cheatline>
       <Offset>FFFDD3</Offset>
       <Section>0</Section>
       <ValueOn>C4-C1-7A-11-66-20</ValueOn>
       <ValueOff>C4-C1-7A-11-5E-20</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Arrows">
+    <Cheatline>
+      <Offset>FFFDE6</Offset>
+      <Section>0</Section>
+      <ValueOn>C4-C1-7A-10-5E-20</ValueOn>
+      <ValueOff>C4-C1-7A-11-5E-20</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="No Cooldown">
+    <Cheatline>
+      <Offset>75D7AC</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-43-48</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max XP/Hacksilver/Resources">
@@ -52,14 +60,6 @@
       <Section>0</Section>
       <ValueOn>E9-7F-99-73-00-90</ValueOn>
       <ValueOff>41-83-7C-36-30-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="No Cooldown">
-    <Cheatline>
-      <Offset>75D7AC</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90</ValueOn>
-      <ValueOff>C5-FA-11-43-48</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

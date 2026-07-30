@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Inf Studs  (Get some studs then you will have enough)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "584621",
+          "on": "488D1CD2",
+          "off": "488D1C92"
+        }
+      ]
+    },
+    {
       "name": "Inf Building Studs",
       "type": "checkbox",
       "memory": [
@@ -17,17 +28,6 @@
           "offset": "4145B",
           "on": "E9A0A3490190",
           "off": "89B7FC300000"
-        }
-      ]
-    },
-    {
-      "name": "Inf Studs  (Get some studs then you will have enough)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "584621",
-          "on": "488D1CD2",
-          "off": "488D1C92"
         }
       ]
     }

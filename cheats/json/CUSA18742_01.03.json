@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "1 Hit kill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "23D7EB",
-          "on": "482983EC020000",
-          "off": "4489B3EC020000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -43,22 +32,6 @@
       ]
     },
     {
-      "name": "items (on use critical for the game use only in shops)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5F5B0",
-          "on": "C6840FC000000063E97F389780",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "5D2E35",
-          "on": "E976C7687F9090",
-          "off": "88840FC0000000"
-        }
-      ]
-    },
-    {
       "name": "Max coins (on buy)",
       "type": "checkbox",
       "memory": [
@@ -75,6 +48,22 @@
       ]
     },
     {
+      "name": "items (on use critical for the game use only in shops)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5F5B0",
+          "on": "C6840FC000000063E97F389780",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "5D2E35",
+          "on": "E976C7687F9090",
+          "off": "88840FC0000000"
+        }
+      ]
+    },
+    {
       "name": "Max Exp on Gain",
       "type": "checkbox",
       "memory": [
@@ -82,6 +71,17 @@
           "offset": "5D2D2A",
           "on": "015C8770",
           "off": "89548770"
+        }
+      ]
+    },
+    {
+      "name": "1 Hit kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "23D7EB",
+          "on": "482983EC020000",
+          "off": "4489B3EC020000"
         }
       ]
     }

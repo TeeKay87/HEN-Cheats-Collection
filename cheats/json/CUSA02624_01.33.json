@@ -5,18 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Grenade x99 \u002B Ammo",
+      "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "151F800",
-          "on": "41C6848E8406000063418B848E84060000E96737C7FF",
-          "off": "00000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "1192F75",
-          "on": "E986C83800909090",
-          "off": "418B848E84060000"
+          "offset": "9A2F1F",
+          "on": "9090909090909090",
+          "off": "43898435C8020000"
         }
       ]
     },
@@ -32,17 +27,6 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "9A2F1F",
-          "on": "9090909090909090",
-          "off": "43898435C8020000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Stack Ammo",
       "type": "checkbox",
       "memory": [
@@ -50,6 +34,22 @@
           "offset": "1193AAC",
           "on": "9090",
           "off": "8908"
+        }
+      ]
+    },
+    {
+      "name": "Grenade x99 \u002B Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "151F800",
+          "on": "41C6848E8406000063418B848E84060000E96737C7FF",
+          "off": "00000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1192F75",
+          "on": "E986C83800909090",
+          "off": "418B848E84060000"
         }
       ]
     },
@@ -97,6 +97,17 @@
       ]
     },
     {
+      "name": "Super Jump",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "16B5FBC",
+          "on": "00C07944",
+          "off": "00001C42"
+        }
+      ]
+    },
+    {
       "name": "FPS Counter",
       "type": "checkbox",
       "memory": [
@@ -120,17 +131,6 @@
           "offset": "9F4B84",
           "on": "EB0D",
           "off": "740D"
-        }
-      ]
-    },
-    {
-      "name": "Super Jump",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "16B5FBC",
-          "on": "00C07944",
-          "off": "00001C42"
         }
       ]
     }

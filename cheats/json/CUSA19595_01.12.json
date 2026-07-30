@@ -5,12 +5,39 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Mastercode Health - One Hit Kill ( must be activated )",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "18D3DD5",
+          "on": "837B54007505C5FA114358837B54037505C5FA114358C5FA114358E9331DC47EC7435800C07944C5FA104358C3",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "80515B23",
+          "on": "E9ADE23B81",
+          "off": "C5FA114358"
+        }
+      ]
+    },
+    {
       "name": "Infinite Health [ MC ]",
       "type": "checkbox",
       "memory": [
         {
           "offset": "18D3DDB",
           "on": "E815000000",
+          "off": "C5FA114358"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill [ MC ]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "18D3DE6",
+          "on": "0F57C09090",
           "off": "C5FA114358"
         }
       ]
@@ -32,22 +59,6 @@
       ]
     },
     {
-      "name": "Mastercode Health - One Hit Kill ( must be activated )",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "18D3DD5",
-          "on": "837B54007505C5FA114358837B54037505C5FA114358C5FA114358E9331DC47EC7435800C07944C5FA104358C3",
-          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "80515B23",
-          "on": "E9ADE23B81",
-          "off": "C5FA114358"
-        }
-      ]
-    },
-    {
       "name": "Max Credits",
       "type": "checkbox",
       "memory": [
@@ -60,17 +71,6 @@
           "offset": "80CC2CFE",
           "on": "E9FF10C180909090",
           "off": "4403701444897014"
-        }
-      ]
-    },
-    {
-      "name": "One Hit Kill [ MC ]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "18D3DE6",
-          "on": "0F57C09090",
-          "off": "C5FA114358"
         }
       ]
     }

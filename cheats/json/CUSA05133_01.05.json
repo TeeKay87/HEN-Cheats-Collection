@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Dance Battle Max Points",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5CEE99",
-          "on": "4D019FA8000000",
-          "off": "4D019FA8000000"
-        }
-      ]
-    },
-    {
       "name": "Godmode",
       "type": "checkbox",
       "memory": [
@@ -66,6 +55,17 @@
           "offset": "7D5DA9",
           "on": "909090909090",
           "off": "6641894C2404"
+        }
+      ]
+    },
+    {
+      "name": "Dance Battle Max Points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5CEE99",
+          "on": "4D019FA8000000",
+          "off": "4D019FA8000000"
         }
       ]
     }

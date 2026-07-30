@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Money Gain on Spend",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "4A2E0A",
-          "on": "0111",
-          "off": "8911"
-        }
-      ]
-    },
-    {
       "name": "Money Gain when enemy killed during battle",
       "type": "checkbox",
       "memory": [
@@ -23,6 +12,17 @@
           "offset": "4A2D6D",
           "on": "0108",
           "off": "8908"
+        }
+      ]
+    },
+    {
+      "name": "TacP Gain when enemy killed during battle",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4A2EBE",
+          "on": "014818",
+          "off": "894818"
         }
       ]
     },
@@ -38,13 +38,13 @@
       ]
     },
     {
-      "name": "TacP Gain when enemy killed during battle",
+      "name": "Money Gain on Spend",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "4A2EBE",
-          "on": "014818",
-          "off": "894818"
+          "offset": "4A2E0A",
+          "on": "0111",
+          "off": "8911"
         }
       ]
     }

@@ -5,18 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo (Resident evil)",
+      "name": "Infinite Health/1hit kill (resident evil 0)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "AA7CF0",
-          "on": "C644C33063E9778D62FF",
-          "off": "00000000000000000000"
+          "offset": "B03840",
+          "on": "80BF740200000C7509C6875013000096EB0BBE0000000089B750130000E9E44C66FF",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "D0A6C",
-          "on": "E97F729D00",
-          "off": "448964C330"
+          "offset": "168540",
+          "on": "E9FBB2990090",
+          "off": "89B750130000"
         }
       ]
     },
@@ -37,34 +37,13 @@
       ]
     },
     {
-      "name": "Infinite health (Resident evil)",
+      "name": "Infinite Ink (Resident evil 0)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "AA7D60",
-          "on": "6641C7864C170000B004E9F74E6EFF",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "18CC5F",
-          "on": "E9FCB091009090",
-          "off": "4189864C170000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health/1hit kill (resident evil 0)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "B03840",
-          "on": "80BF740200000C7509C6875013000096EB0BBE0000000089B750130000E9E44C66FF",
-          "off": "00000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "168540",
-          "on": "E9FBB2990090",
-          "off": "89B750130000"
+          "offset": "110A77",
+          "on": "9090",
+          "off": "29C8"
         }
       ]
     },
@@ -85,13 +64,34 @@
       ]
     },
     {
-      "name": "Infinite Ink (Resident evil 0)",
+      "name": "Infinite Ammo (Resident evil)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "110A77",
-          "on": "9090",
-          "off": "29C8"
+          "offset": "AA7CF0",
+          "on": "C644C33063E9778D62FF",
+          "off": "00000000000000000000"
+        },
+        {
+          "offset": "D0A6C",
+          "on": "E97F729D00",
+          "off": "448964C330"
+        }
+      ]
+    },
+    {
+      "name": "Infinite health (Resident evil)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "AA7D60",
+          "on": "6641C7864C170000B004E9F74E6EFF",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "18CC5F",
+          "on": "E9FCB091009090",
+          "off": "4189864C170000"
         }
       ]
     }

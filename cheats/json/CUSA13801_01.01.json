@@ -21,17 +21,6 @@
       ]
     },
     {
-      "name": "Inf Items",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "108197E",
-          "on": "458920",
-          "off": "458938"
-        }
-      ]
-    },
-    {
       "name": "Infinite Money",
       "type": "checkbox",
       "memory": [
@@ -44,6 +33,17 @@
           "offset": "138E1C4",
           "on": "E953964D029090",
           "off": "4189D64189557C"
+        }
+      ]
+    },
+    {
+      "name": "Inf Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "108197E",
+          "on": "458920",
+          "off": "458938"
         }
       ]
     }

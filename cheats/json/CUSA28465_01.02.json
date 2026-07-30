@@ -5,6 +5,22 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Health (Turn Off In 2nd Battle)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8191B430",
+          "on": "C5FA104024C5FA114020E9B5ACB7FE",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "804960EF",
+          "on": "E93C534801",
+          "off": "C5FA114020"
+        }
+      ]
+    },
+    {
       "name": "1 Hit Kill",
       "type": "checkbox",
       "memory": [
@@ -37,22 +53,6 @@
       ]
     },
     {
-      "name": "Infinite Bolts / Poison",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8191B530",
-          "on": "41BE630000004489B014010000E9E99FB7FE",
-          "off": "000000000000000000000000000000000000"
-        },
-        {
-          "offset": "80495524",
-          "on": "E9076048019090",
-          "off": "4489B014010000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Currency",
       "type": "checkbox",
       "memory": [
@@ -69,18 +69,18 @@
       ]
     },
     {
-      "name": "Infinite Health (Turn Off In 2nd Battle)",
+      "name": "Infinite Bolts / Poison",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "8191B430",
-          "on": "C5FA104024C5FA114020E9B5ACB7FE",
-          "off": "000000000000000000000000000000"
+          "offset": "8191B530",
+          "on": "41BE630000004489B014010000E9E99FB7FE",
+          "off": "000000000000000000000000000000000000"
         },
         {
-          "offset": "804960EF",
-          "on": "E93C534801",
-          "off": "C5FA114020"
+          "offset": "80495524",
+          "on": "E9076048019090",
+          "off": "4489B014010000"
         }
       ]
     }

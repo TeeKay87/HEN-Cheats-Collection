@@ -21,22 +21,6 @@
       ]
     },
     {
-      "name": "Max/Infinite Items/Potions/Arrows",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "39C7E40",
-          "on": "438944A70CC701E7030000E973C942FD",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "DF47BB",
-          "on": "E98036BD02909090",
-          "off": "438944A70C448931"
-        }
-      ]
-    },
-    {
       "name": "Max/Infinite Magic",
       "type": "checkbox",
       "memory": [
@@ -53,22 +37,6 @@
       ]
     },
     {
-      "name": "Max/Infinite Runes On Start",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "39C7E70",
-          "on": "8B09C7406CFFC99A3BE9CAAD9CFD",
-          "off": "0000000000000000000000000000"
-        },
-        {
-          "offset": "1392C43",
-          "on": "E928526302",
-          "off": "8B0989486C"
-        }
-      ]
-    },
-    {
       "name": "Max/Infinite Stamina",
       "type": "checkbox",
       "memory": [
@@ -81,6 +49,38 @@
           "offset": "10DCDE7",
           "on": "E914B08E029090",
           "off": "41898664010000"
+        }
+      ]
+    },
+    {
+      "name": "Max/Infinite Items/Potions/Arrows",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "39C7E40",
+          "on": "438944A70CC701E7030000E973C942FD",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "DF47BB",
+          "on": "E98036BD02909090",
+          "off": "438944A70C448931"
+        }
+      ]
+    },
+    {
+      "name": "Max/Infinite Runes On Start",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "39C7E70",
+          "on": "8B09C7406CFFC99A3BE9CAAD9CFD",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "1392C43",
+          "on": "E928526302",
+          "off": "8B0989486C"
         }
       ]
     }

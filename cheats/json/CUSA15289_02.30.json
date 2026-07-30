@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Shield [ MC ]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "36DB81D",
-          "on": "E81B0000009090",
-          "off": "83B89000000000"
-        }
-      ]
-    },
-    {
       "name": "Mastercode Shield (  must be activated )",
       "type": "checkbox",
       "memory": [
@@ -28,38 +17,6 @@
           "offset": "836AC7",
           "on": "E94B4DEA029090",
           "off": "83B89000000000"
-        }
-      ]
-    },
-    {
-      "name": "Max Energy",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "36DB800",
-          "on": "C705CAA06200030000008B35C4A06200E97B0343FD",
-          "off": "000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "B0BB8A",
-          "on": "E971FCBC0290",
-          "off": "8B35449D1F03"
-        }
-      ]
-    },
-    {
-      "name": "Max Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "36DBDE1",
-          "on": "E8549693FCC740480F2700008B4048E97EB543FD",
-          "off": "0000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "B1736B",
-          "on": "E9714ABC02909090",
-          "off": "E8D0E04FFF8B4048"
         }
       ]
     },
@@ -80,6 +37,60 @@
       ]
     },
     {
+      "name": "Max Energy",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "36DB800",
+          "on": "C705CAA06200030000008B35C4A06200E97B0343FD",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "B0BB8A",
+          "on": "E971FCBC0290",
+          "off": "8B35449D1F03"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Shield [ MC ]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "36DB81D",
+          "on": "E81B0000009090",
+          "off": "83B89000000000"
+        }
+      ]
+    },
+    {
+      "name": "Zero Shield Enemies [ MC ]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "36DB82A",
+          "on": "E8190000009090",
+          "off": "83B89000000000"
+        }
+      ]
+    },
+    {
+      "name": "Max Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "36DBDE1",
+          "on": "E8549693FCC740480F2700008B4048E97EB543FD",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "B1736B",
+          "on": "E9714ABC02909090",
+          "off": "E8D0E04FFF8B4048"
+        }
+      ]
+    },
+    {
       "name": "One Hit Kill",
       "type": "checkbox",
       "memory": [
@@ -92,17 +103,6 @@
           "offset": "92CCD5",
           "on": "E91BF1DA0290",
           "off": "898888000000"
-        }
-      ]
-    },
-    {
-      "name": "Zero Shield Enemies [ MC ]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "36DB82A",
-          "on": "E8190000009090",
-          "off": "83B89000000000"
         }
       ]
     }

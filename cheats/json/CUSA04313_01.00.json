@@ -5,48 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "1 Hit Attack And 3x Throw \u0026quot;After Level Up\u0026quot;",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1AEB879",
-          "on": "FFC0B8FFC99A3B89475CE9C598A5FE",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "545148",
-          "on": "E92C675A01",
-          "off": "FFC089475C"
-        },
-        {
-          "offset": "1AEB888",
-          "on": "FFC0B80F00000089476CE97699A5FE",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "545208",
-          "on": "E97B665A01",
-          "off": "FFC089476C"
-        }
-      ]
-    },
-    {
-      "name": "Fast Zombie Kills",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1AEB897",
-          "on": "4189F441814740D0070000E9488EA5FE",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "5446E8",
-          "on": "E9AA715A019090",
-          "off": "4189F441FF4740"
-        }
-      ]
-    },
-    {
       "name": "Godmode",
       "type": "checkbox",
       "memory": [
@@ -127,6 +85,48 @@
           "offset": "544A89",
           "on": "E9AF6D5A019090",
           "off": "45017D2C4C89E7"
+        }
+      ]
+    },
+    {
+      "name": "1 Hit Attack And 3x Throw \u0026quot;After Level Up\u0026quot;",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1AEB879",
+          "on": "FFC0B8FFC99A3B89475CE9C598A5FE",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "545148",
+          "on": "E92C675A01",
+          "off": "FFC089475C"
+        },
+        {
+          "offset": "1AEB888",
+          "on": "FFC0B80F00000089476CE97699A5FE",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "545208",
+          "on": "E97B665A01",
+          "off": "FFC089476C"
+        }
+      ]
+    },
+    {
+      "name": "Fast Zombie Kills",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1AEB897",
+          "on": "4189F441814740D0070000E9488EA5FE",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "5446E8",
+          "on": "E9AA715A019090",
+          "off": "4189F441FF4740"
         }
       ]
     }

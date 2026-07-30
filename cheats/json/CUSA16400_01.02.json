@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite health (M)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "48D0FFD",
-          "on": "7513",
-          "off": "750A"
-        }
-      ]
-    },
-    {
       "name": "Master Code Infinite Skill usage (turn off when gliding)",
       "type": "checkbox",
       "memory": [
@@ -28,6 +17,17 @@
           "offset": "9468C4",
           "on": "E927A7F803909090",
           "off": "4883C0FC41893C0B"
+        }
+      ]
+    },
+    {
+      "name": "Infinite health (M)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "48D0FFD",
+          "on": "7513",
+          "off": "750A"
         }
       ]
     },

@@ -5,6 +5,22 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite HP (All Players) / (Master Code)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FE627B0",
+          "on": "41837D2800741C41837D2801742041837D2802741941837D2803741241837D2804740BC4C17A11457CE94E2C4400C4C17A104518C4C17A11457CE93D2C440041C7457C00000000E9302C4400",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "802A5426",
+          "on": "E985D3BBFF90",
+          "off": "C4C17A11457C"
+        }
+      ]
+    },
+    {
       "name": "Disable (EDDIE) Inf HP",
       "type": "checkbox",
       "memory": [
@@ -49,17 +65,6 @@
       ]
     },
     {
-      "name": "Inf Weapon Durability",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "44BE98",
-          "on": "9090",
-          "off": "FFC8"
-        }
-      ]
-    },
-    {
       "name": "Infinite Energy",
       "type": "checkbox",
       "memory": [
@@ -76,18 +81,13 @@
       ]
     },
     {
-      "name": "Infinite HP (All Players) / (Master Code)",
+      "name": "Inf Weapon Durability",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FE627B0",
-          "on": "41837D2800741C41837D2801742041837D2802741941837D2803741241837D2804740BC4C17A11457CE94E2C4400C4C17A104518C4C17A11457CE93D2C440041C7457C00000000E9302C4400",
-          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "802A5426",
-          "on": "E985D3BBFF90",
-          "off": "C4C17A11457C"
+          "offset": "44BE98",
+          "on": "9090",
+          "off": "FFC8"
         }
       ]
     }

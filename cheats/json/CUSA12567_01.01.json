@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Energy",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2EC4100",
-          "on": "C5FA108318010000C5FA118310010000E9CC6B31FD",
-          "off": "000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "1DACD9",
-          "on": "E92294CE02909090",
-          "off": "C5FA118310010000"
-        }
-      ]
-    },
-    {
       "name": "Inf Health (Dont Use With 1 Hit)",
       "type": "checkbox",
       "memory": [
@@ -53,22 +37,6 @@
       ]
     },
     {
-      "name": "Inf Res / Drone Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2EC4050",
-          "on": "B8E7030000B9E7030000894750894F54E9839F59FD",
-          "off": "000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "45DFE2",
-          "on": "E96960A60290",
-          "off": "894750894F54"
-        }
-      ]
-    },
-    {
       "name": "Inf Stamina",
       "type": "checkbox",
       "memory": [
@@ -81,6 +49,38 @@
           "offset": "1DA28F",
           "on": "E92C9ECE02909090",
           "off": "C5FA118314010000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Energy",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2EC4100",
+          "on": "C5FA108318010000C5FA118310010000E9CC6B31FD",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1DACD9",
+          "on": "E92294CE02909090",
+          "off": "C5FA118310010000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Res / Drone Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2EC4050",
+          "on": "B8E7030000B9E7030000894750894F54E9839F59FD",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "45DFE2",
+          "on": "E96960A60290",
+          "off": "894750894F54"
         }
       ]
     },

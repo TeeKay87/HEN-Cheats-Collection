@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Blast Gauge (Open any Battle menu)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "15E64B",
-          "on": "41894D14",
-          "off": "41897514"
-        }
-      ]
-    },
-    {
       "name": "GOLD",
       "type": "checkbox",
       "memory": [
@@ -23,28 +12,6 @@
           "offset": "152B1D",
           "on": "909090909090",
           "off": "81FE00CA9A3B"
-        }
-      ]
-    },
-    {
-      "name": "Increase item use",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1499CE",
-          "on": "01349890",
-          "off": "44893C98"
-        }
-      ]
-    },
-    {
-      "name": "Max Cats Spirit",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "154D8F",
-          "on": "BE8096980090",
-          "off": "81FE80969800"
         }
       ]
     },
@@ -60,18 +27,24 @@
       ]
     },
     {
-      "name": "Max Lvl",
+      "name": "Max Cats Spirit",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "13C7800",
-          "on": "B9FFC99A3B89481CE9376FD9FE",
-          "off": "00000000000000000000000000"
-        },
+          "offset": "154D8F",
+          "on": "BE8096980090",
+          "off": "81FE80969800"
+        }
+      ]
+    },
+    {
+      "name": "Increase item use",
+      "type": "checkbox",
+      "memory": [
         {
-          "offset": "15E73F",
-          "on": "E9BC902601",
-          "off": "B99F0F0000"
+          "offset": "1499CE",
+          "on": "01349890",
+          "off": "44893C98"
         }
       ]
     },
@@ -82,28 +55,6 @@
         {
           "offset": "15E826",
           "on": "897924909090",
-          "off": "89B150450000"
-        }
-      ]
-    },
-    {
-      "name": "Skip Battle \u002B Max Base Arte ATK (Bind)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "15E826",
-          "on": "897938909090",
-          "off": "89B150450000"
-        }
-      ]
-    },
-    {
-      "name": "Skip Battle \u002B Max Base Arte Def (Bind)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "15E826",
-          "on": "89793C909090",
           "off": "89B150450000"
         }
       ]
@@ -131,6 +82,28 @@
       ]
     },
     {
+      "name": "Skip Battle \u002B Max Base Arte ATK (Bind)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "15E826",
+          "on": "897938909090",
+          "off": "89B150450000"
+        }
+      ]
+    },
+    {
+      "name": "Skip Battle \u002B Max Base Arte Def (Bind)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "15E826",
+          "on": "89793C909090",
+          "off": "89B150450000"
+        }
+      ]
+    },
+    {
       "name": "Skip Battle \u002B Max Base Focus (Bind)",
       "type": "checkbox",
       "memory": [
@@ -153,6 +126,22 @@
       ]
     },
     {
+      "name": "Max Lvl",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "13C7800",
+          "on": "B9FFC99A3B89481CE9376FD9FE",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "15E73F",
+          "on": "E9BC902601",
+          "off": "B99F0F0000"
+        }
+      ]
+    },
+    {
       "name": "Unlimited Tales coins (get / spend)",
       "type": "checkbox",
       "memory": [
@@ -160,6 +149,17 @@
           "offset": "15518E",
           "on": "909090909090",
           "off": "81FE00E1F505"
+        }
+      ]
+    },
+    {
+      "name": "Blast Gauge (Open any Battle menu)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "15E64B",
+          "on": "41894D14",
+          "off": "41897514"
         }
       ]
     }

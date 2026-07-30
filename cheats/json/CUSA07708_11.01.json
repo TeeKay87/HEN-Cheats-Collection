@@ -5,6 +5,28 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite HP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "425E0FB",
+          "on": "9090",
+          "off": "7614"
+        }
+      ]
+    },
+    {
+      "name": "Inf stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3FA9084",
+          "on": "9090909090",
+          "off": "C5FA5D406C"
+        }
+      ]
+    },
+    {
       "name": "Inf Item in use",
       "type": "checkbox",
       "memory": [
@@ -27,24 +49,24 @@
       ]
     },
     {
-      "name": "Inf stamina",
+      "name": "Max Money on buy",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "3FA9084",
-          "on": "9090909090",
-          "off": "C5FA5D406C"
+          "offset": "3F4D3E7",
+          "on": "01C1",
+          "off": "29D9"
         }
       ]
     },
     {
-      "name": "Infinite HP",
+      "name": "matrials increaseing on crafting",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "425E0FB",
-          "on": "9090",
-          "off": "7614"
+          "offset": "3677BBE",
+          "on": "44894E0C",
+          "off": "44897E0C"
         }
       ]
     },
@@ -71,6 +93,17 @@
       ]
     },
     {
+      "name": "Money Incress on purchase 2",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4093318",
+          "on": "01D190",
+          "off": "4429F1"
+        }
+      ]
+    },
+    {
       "name": "items incress when get ",
       "type": "checkbox",
       "memory": [
@@ -89,39 +122,6 @@
           "offset": "3DE387B",
           "on": "41894E0C",
           "off": "4189460C"
-        }
-      ]
-    },
-    {
-      "name": "matrials increaseing on crafting",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3677BBE",
-          "on": "44894E0C",
-          "off": "44897E0C"
-        }
-      ]
-    },
-    {
-      "name": "Max Money on buy",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3F4D3E7",
-          "on": "01C1",
-          "off": "29D9"
-        }
-      ]
-    },
-    {
-      "name": "Money Incress on purchase 2",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "4093318",
-          "on": "01D190",
-          "off": "4429F1"
         }
       ]
     }

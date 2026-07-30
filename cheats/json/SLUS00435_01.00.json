@@ -16,18 +16,13 @@
       ]
     },
     {
-      "name": "Infinite Lighting Bombs",
+      "name": "Infinite Smoke Bombs",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "118A34",
+          "offset": "11859E",
           "on": "00",
-          "off": "FF"
-        },
-        {
-          "offset": "118A35",
-          "on": "00",
-          "off": "FF"
+          "off": "42"
         }
       ]
     },
@@ -48,13 +43,18 @@
       ]
     },
     {
-      "name": "Infinite Smoke Bombs",
+      "name": "Infinite Lighting Bombs",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "11859E",
+          "offset": "118A34",
           "on": "00",
-          "off": "42"
+          "off": "FF"
+        },
+        {
+          "offset": "118A35",
+          "on": "00",
+          "off": "FF"
         }
       ]
     }

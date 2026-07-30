@@ -21,22 +21,6 @@
       ]
     },
     {
-      "name": "Inf Money And Mana",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5F072",
-          "on": "49C7C5FFE0F5054D89AE187700004D89AE28770000E9CF9B4780",
-          "off": "0000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "D8C54",
-          "on": "E91964B87F9090",
-          "off": "4D89AE18770000"
-        }
-      ]
-    },
-    {
       "name": "Inf SP",
       "type": "checkbox",
       "memory": [
@@ -49,6 +33,22 @@
           "offset": "163BED",
           "on": "E953B4AF7F909090",
           "off": "49899C2490010000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Money And Mana",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5F072",
+          "on": "49C7C5FFE0F5054D89AE187700004D89AE28770000E9CF9B4780",
+          "off": "0000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "D8C54",
+          "on": "E91964B87F9090",
+          "off": "4D89AE18770000"
         }
       ]
     },

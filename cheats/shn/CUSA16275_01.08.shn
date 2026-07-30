@@ -2,20 +2,6 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Blasphemous" Moder="Celogamez" Cusa="CUSA16275" Version="01.08" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Fervor">
-    <Cheatline>
-      <Offset>157FE00</Offset>
-      <Section>0</Section>
-      <ValueOn>90-E9-53-FC-82-7F</ValueOn>
-      <ValueOff>00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>80DAFA54</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-A7-03-7D-80</ValueOn>
-      <ValueOff>E8-C7-94-E4-FF</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite Health">
     <Cheatline>
       <Offset>157FEA0</Offset>
@@ -42,6 +28,20 @@
       <Section>0</Section>
       <ValueOn>E9-88-C9-7F-80-90</ValueOn>
       <ValueOff>FF-90-80-01-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Fervor">
+    <Cheatline>
+      <Offset>157FE00</Offset>
+      <Section>0</Section>
+      <ValueOn>90-E9-53-FC-82-7F</ValueOn>
+      <ValueOff>00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>80DAFA54</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-A7-03-7D-80</ValueOn>
+      <ValueOff>E8-C7-94-E4-FF</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max Health/Fervor/Blood Penitence On Use">

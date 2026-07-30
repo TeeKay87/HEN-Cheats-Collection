@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Better Accuracy",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "220BD5D",
-          "on": "C5F857C0",
-          "off": "C5F25FC0"
-        },
-        {
-          "offset": "25F900B",
-          "on": "9090909090909090",
-          "off": "C5FA1183280C0000"
-        }
-      ]
-    },
-    {
       "name": "Godmode",
       "type": "checkbox",
       "memory": [
@@ -32,22 +16,6 @@
         {
           "offset": "18E6F2A",
           "on": "E951C15E01",
-          "off": "4C894C2428"
-        }
-      ]
-    },
-    {
-      "name": "Godmode for all",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2ED3150",
-          "on": "49C7C1000000004C894C2428E9CE3DA1FE909090",
-          "off": "49C7C1000000004C894C2428E9CE3DA1FE909090"
-        },
-        {
-          "offset": "18E6F2A",
-          "on": "E921C25E01",
           "off": "4C894C2428"
         }
       ]
@@ -69,17 +37,6 @@
       ]
     },
     {
-      "name": "Infinite Magazine",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "25E49EB",
-          "on": "83E900",
-          "off": "4429F9"
-        }
-      ]
-    },
-    {
       "name": "One-hit Kill",
       "type": "checkbox",
       "memory": [
@@ -92,6 +49,49 @@
           "offset": "18E6F23",
           "on": "E968C25E019090",
           "off": "80BF0CAC000000"
+        }
+      ]
+    },
+    {
+      "name": "Better Accuracy",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "220BD5D",
+          "on": "C5F857C0",
+          "off": "C5F25FC0"
+        },
+        {
+          "offset": "25F900B",
+          "on": "9090909090909090",
+          "off": "C5FA1183280C0000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Magazine",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "25E49EB",
+          "on": "83E900",
+          "off": "4429F9"
+        }
+      ]
+    },
+    {
+      "name": "Godmode for all",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2ED3150",
+          "on": "49C7C1000000004C894C2428E9CE3DA1FE909090",
+          "off": "49C7C1000000004C894C2428E9CE3DA1FE909090"
+        },
+        {
+          "offset": "18E6F2A",
+          "on": "E921C25E01",
+          "off": "4C894C2428"
         }
       ]
     }

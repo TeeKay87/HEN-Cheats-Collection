@@ -5,6 +5,28 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Set Zeni to 9.999.999",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "2019691A4",
+          "on": "7F969800",
+          "off": "7F969800"
+        }
+      ]
+    },
+    {
+      "name": "Set TP/ZP to 9.999.999",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "2019691A8",
+          "on": "7F969800",
+          "off": "7F969800"
+        }
+      ]
+    },
+    {
       "name": "Set Exp to 9.999.999",
       "type": "button",
       "memory": [
@@ -27,22 +49,22 @@
       ]
     },
     {
-      "name": "Set TP/ZP to 9.999.999",
+      "name": "Set Zeni to 9.999.999",
       "type": "button",
       "memory": [
         {
-          "offset": "2019691A8",
+          "offset": "2015691A4",
           "on": "7F969800",
           "off": "7F969800"
         }
       ]
     },
     {
-      "name": "Set Zeni to 9.999.999",
+      "name": "Set TP/ZP to 9.999.999",
       "type": "button",
       "memory": [
         {
-          "offset": "2019691A4",
+          "offset": "2015691A8",
           "on": "7F969800",
           "off": "7F969800"
         }
@@ -67,28 +89,6 @@
           "offset": "20156C204",
           "on": "E7030000",
           "off": "E7030000"
-        }
-      ]
-    },
-    {
-      "name": "Set TP/ZP to 9.999.999",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "2015691A8",
-          "on": "7F969800",
-          "off": "7F969800"
-        }
-      ]
-    },
-    {
-      "name": "Set Zeni to 9.999.999",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "2015691A4",
-          "on": "7F969800",
-          "off": "7F969800"
         }
       ]
     }

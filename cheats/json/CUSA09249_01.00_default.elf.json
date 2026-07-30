@@ -5,33 +5,6 @@
   "process": "default.elf",
   "mods": [
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2E7BA0",
-          "on": "01D68B7108E9DA3E3F00",
-          "off": "00000000000000000000"
-        },
-        {
-          "offset": "6DBA7F",
-          "on": "E91CC1C0FF",
-          "off": "01D6897108"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Granades/Equipments",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "6BB21B",
-          "on": "9090909090",
-          "off": "E8002B0100"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -48,6 +21,22 @@
       ]
     },
     {
+      "name": "Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2E7BA0",
+          "on": "01D68B7108E9DA3E3F00",
+          "off": "00000000000000000000"
+        },
+        {
+          "offset": "6DBA7F",
+          "on": "E91CC1C0FF",
+          "off": "01D6897108"
+        }
+      ]
+    },
+    {
       "name": "No Reload",
       "type": "checkbox",
       "memory": [
@@ -55,6 +44,17 @@
           "offset": "6C86C0",
           "on": "9090909090",
           "off": "E85B560000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Granades/Equipments",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6BB21B",
+          "on": "9090909090",
+          "off": "E8002B0100"
         }
       ]
     }

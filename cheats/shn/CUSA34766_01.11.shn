@@ -2,62 +2,6 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Granblue Fantasy: Relink" Moder="d01v" Cusa="CUSA34766" Version="01.11" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="All treasure and key items" Description="Open item inventory. Your current treasure, key items pcs/quantity will be untouched">
-    <Cheatline>
-      <Offset>7FC5C640</Offset>
-      <Section>0</Section>
-      <ValueOn>83-7B-04-00-74-0B-8B-33-4C-39-E6-E9-67-B9-EA-82-90-C7-43-04-01-00-00-00-8B-33-4C-39-E6-E9-55-B9-EA-82</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>2B07FB2</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-89-46-15-7D</ValueOn>
-      <ValueOff>8B-33-4C-39-E6</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Event timer" Description="Any events like special chest (Shrouded treasure, Tombstone battle etc)">
-    <Cheatline>
-      <Offset>7FC5C6E0</Offset>
-      <Section>0</Section>
-      <ValueOn>41-C7-85-08-0A-00-00-00-00-80-3F-C4-C1-7A-10-85-08-0A-00-00-C4-C1-7A-11-85-08-0A-00-00-E9-EE-75-A6-80</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>6C3CE7</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-F4-89-59-7F-90-90-90-90</ValueOn>
-      <ValueOff>C4-C1-7A-11-85-08-0A-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Freeze link attack timer">
-    <Cheatline>
-      <Offset>7FC5C600</Offset>
-      <Section>0</Section>
-      <ValueOn>C5-FA-10-98-F0-00-00-00-C5-FA-11-80-74-01-00-00-C5-FA-10-98-74-01-00-00-E9-79-EC-2F-82-90</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>1F5B28E</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-6D-13-D0-7D-90-90-90</ValueOn>
-      <ValueOff>C5-FA-10-98-74-01-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Increase all level" Description="Press menu and then you need to reload checkpoint or go back to town">
-    <Cheatline>
-      <Offset>7FC5C720</Offset>
-      <Section>0</Section>
-      <ValueOn>41-FF-86-E0-30-00-00-41-8B-86-E0-30-00-00-E9-3D-CB-EF-80-90</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>B59269</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-B2-34-10-7F-90-90</ValueOn>
-      <ValueOff>41-8B-86-E0-30-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite Health">
     <Cheatline>
       <Offset>7FC5C510</Offset>
@@ -70,6 +14,14 @@
       <Section>0</Section>
       <ValueOn>E9-72-EB-54-7F-90-90-90-90-90-90</ValueOn>
       <ValueOff>4C-8D-B3-10-02-00-00-C5-F8-2E-C8</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite SKills">
+    <Cheatline>
+      <Offset>7F8C9E</Offset>
+      <Section>0</Section>
+      <ValueOn>C5-F2-5C-C0</ValueOn>
+      <ValueOff>C5-EA-5C-C0</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite SBA">
@@ -86,12 +38,60 @@
       <ValueOff>C5-FA-10-4B-7C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite SKills">
+  <Cheat Text="Replenish items at 1" Description="Set replenish items to be 1pc / infinite">
     <Cheatline>
-      <Offset>7F8C9E</Offset>
+      <Offset>7FC5C5A0</Offset>
       <Section>0</Section>
-      <ValueOn>C5-F2-5C-C0</ValueOn>
-      <ValueOff>C5-EA-5C-C0</ValueOff>
+      <ValueOn>C7-40-04-01-00-00-00-8B-40-04-89-44-24-70-E9-85-25-58-80-90</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>1DEB31</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-6A-DA-A7-7F-90-90</ValueOn>
+      <ValueOff>8B-40-04-89-44-24-70</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max link level" Description="You may use blue potion">
+    <Cheatline>
+      <Offset>7FC5C5D0</Offset>
+      <Section>0</Section>
+      <ValueOn>C5-FA-10-43-48-C5-FA-11-83-D0-01-00-00-E9-BC-C7-DE-82</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>2A48D96</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-35-38-21-7D-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-83-D0-01-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Freeze link attack timer">
+    <Cheatline>
+      <Offset>7FC5C600</Offset>
+      <Section>0</Section>
+      <ValueOn>C5-FA-10-98-F0-00-00-00-C5-FA-11-80-74-01-00-00-C5-FA-10-98-74-01-00-00-E9-79-EC-2F-82-90</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>1F5B28E</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-6D-13-D0-7D-90-90-90</ValueOn>
+      <ValueOff>C5-FA-10-98-74-01-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="All treasure and key items" Description="Open item inventory. Your current treasure, key items pcs/quantity will be untouched">
+    <Cheatline>
+      <Offset>7FC5C640</Offset>
+      <Section>0</Section>
+      <ValueOn>83-7B-04-00-74-0B-8B-33-4C-39-E6-E9-67-B9-EA-82-90-C7-43-04-01-00-00-00-8B-33-4C-39-E6-E9-55-B9-EA-82</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>2B07FB2</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-89-46-15-7D</ValueOn>
+      <ValueOff>8B-33-4C-39-E6</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Instant +999 treasures" Description="Open item inventory">
@@ -108,18 +108,46 @@
       <ValueOff>41-8B-6D-50-49-8B-7D-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max all members base atk" Description="press menu and then you need to reload checkpoint or go back to town. It will reset upon level up">
+  <Cheat Text="Sell item x900">
     <Cheatline>
-      <Offset>7FC5C7B0</Offset>
+      <Offset>7FC5C6B0</Offset>
       <Section>0</Section>
-      <ValueOn>41-C7-86-E8-30-00-00-3F-42-0F-00-41-8B-86-E8-30-00-00-E9-D1-CA-EF-80-90</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+      <ValueOn>4D-8D-67-04-41-01-47-04-41-C7-47-04-84-03-00-00-E9-11-5C-EA-82-90</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>B59291</Offset>
+      <Offset>2B022CE</Offset>
       <Section>0</Section>
-      <ValueOn>E9-1A-35-10-7F-90-90</ValueOn>
-      <ValueOff>41-8B-86-E8-30-00-00</ValueOff>
+      <ValueOn>E9-DD-A3-15-7D-90-90-90</ValueOn>
+      <ValueOff>4D-8D-67-04-41-01-47-04</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Event timer" Description="Any events like special chest (Shrouded treasure, Tombstone battle etc)">
+    <Cheatline>
+      <Offset>7FC5C6E0</Offset>
+      <Section>0</Section>
+      <ValueOn>41-C7-85-08-0A-00-00-00-00-80-3F-C4-C1-7A-10-85-08-0A-00-00-C4-C1-7A-11-85-08-0A-00-00-E9-EE-75-A6-80</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>6C3CE7</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-F4-89-59-7F-90-90-90-90</ValueOn>
+      <ValueOff>C4-C1-7A-11-85-08-0A-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Increase all level" Description="Press menu and then you need to reload checkpoint or go back to town">
+    <Cheatline>
+      <Offset>7FC5C720</Offset>
+      <Section>0</Section>
+      <ValueOn>41-FF-86-E0-30-00-00-41-8B-86-E0-30-00-00-E9-3D-CB-EF-80-90</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>B59269</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-B2-34-10-7F-90-90</ValueOn>
+      <ValueOff>41-8B-86-E0-30-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max all party exp" Description="press menu and then you need to reload checkpoint or go back to town">
@@ -150,60 +178,18 @@
       <ValueOff>41-8B-86-E4-30-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max crit all members" Description="press menu and then you need to reload checkpoint or go back to town. It will reset upon level up">
+  <Cheat Text="Max all members base atk" Description="press menu and then you need to reload checkpoint or go back to town. It will reset upon level up">
     <Cheatline>
-      <Offset>7FC5C810</Offset>
+      <Offset>7FC5C7B0</Offset>
       <Section>0</Section>
-      <ValueOn>41-C7-86-F4-30-00-00-64-00-00-00-41-8B-86-F4-30-00-00-E9-BB-CA-EF-80-90</ValueOn>
+      <ValueOn>41-C7-86-E8-30-00-00-3F-42-0F-00-41-8B-86-E8-30-00-00-E9-D1-CA-EF-80-90</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>B592DB</Offset>
+      <Offset>B59291</Offset>
       <Section>0</Section>
-      <ValueOn>E9-30-35-10-7F-90-90</ValueOn>
-      <ValueOff>41-8B-86-F4-30-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Max link level" Description="You may use blue potion">
-    <Cheatline>
-      <Offset>7FC5C5D0</Offset>
-      <Section>0</Section>
-      <ValueOn>C5-FA-10-43-48-C5-FA-11-83-D0-01-00-00-E9-BC-C7-DE-82</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>2A48D96</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-35-38-21-7D-90-90-90</ValueOn>
-      <ValueOff>C5-FA-11-83-D0-01-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Max MSP" Description="open menu">
-    <Cheatline>
-      <Offset>7FC5C870</Offset>
-      <Section>0</Section>
-      <ValueOn>41-C7-87-A8-00-00-00-3F-42-0F-00-41-8B-87-A8-00-00-00-E9-10-05-31-82-90</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>1F6CD90</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-DB-FA-CE-7D-90-90</ValueOn>
-      <ValueOff>41-8B-87-A8-00-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Max rupies" Description="open menu">
-    <Cheatline>
-      <Offset>7FC5C840</Offset>
-      <Section>0</Section>
-      <ValueOn>41-C7-47-40-FF-C9-9A-3B-41-8B-47-40-48-8D-74-24-15-E9-E3-04-31-82</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>1F6CD34</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-07-FB-CE-7D</ValueOn>
-      <ValueOff>48-8D-74-24-15</ValueOff>
+      <ValueOn>E9-1A-35-10-7F-90-90</ValueOn>
+      <ValueOff>41-8B-86-E8-30-00-00</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max stun power all members" Description="press menu and then you need to reload checkpoint or go back to town. It will reset upon level up">
@@ -220,32 +206,46 @@
       <ValueOff>C5-FA-11-48-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Replenish items at 1" Description="Set replenish items to be 1pc / infinite">
+  <Cheat Text="Max crit all members" Description="press menu and then you need to reload checkpoint or go back to town. It will reset upon level up">
     <Cheatline>
-      <Offset>7FC5C5A0</Offset>
+      <Offset>7FC5C810</Offset>
       <Section>0</Section>
-      <ValueOn>C7-40-04-01-00-00-00-8B-40-04-89-44-24-70-E9-85-25-58-80-90</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+      <ValueOn>41-C7-86-F4-30-00-00-64-00-00-00-41-8B-86-F4-30-00-00-E9-BB-CA-EF-80-90</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>1DEB31</Offset>
+      <Offset>B592DB</Offset>
       <Section>0</Section>
-      <ValueOn>E9-6A-DA-A7-7F-90-90</ValueOn>
-      <ValueOff>8B-40-04-89-44-24-70</ValueOff>
+      <ValueOn>E9-30-35-10-7F-90-90</ValueOn>
+      <ValueOff>41-8B-86-F4-30-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Sell item x900">
+  <Cheat Text="Max rupies" Description="open menu">
     <Cheatline>
-      <Offset>7FC5C6B0</Offset>
+      <Offset>7FC5C840</Offset>
       <Section>0</Section>
-      <ValueOn>4D-8D-67-04-41-01-47-04-41-C7-47-04-84-03-00-00-E9-11-5C-EA-82-90</ValueOn>
+      <ValueOn>41-C7-47-40-FF-C9-9A-3B-41-8B-47-40-48-8D-74-24-15-E9-E3-04-31-82</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>2B022CE</Offset>
+      <Offset>1F6CD34</Offset>
       <Section>0</Section>
-      <ValueOn>E9-DD-A3-15-7D-90-90-90</ValueOn>
-      <ValueOff>4D-8D-67-04-41-01-47-04</ValueOff>
+      <ValueOn>E9-07-FB-CE-7D</ValueOn>
+      <ValueOff>48-8D-74-24-15</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max MSP" Description="open menu">
+    <Cheatline>
+      <Offset>7FC5C870</Offset>
+      <Section>0</Section>
+      <ValueOn>41-C7-87-A8-00-00-00-3F-42-0F-00-41-8B-87-A8-00-00-00-E9-10-05-31-82-90</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>1F6CD90</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-DB-FA-CE-7D-90-90</ValueOn>
+      <ValueOff>41-8B-87-A8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

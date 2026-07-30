@@ -5,64 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "1 Hit Attack And 3x Throw \u0026quot;After Level Up\u0026quot;",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1BD3894",
-          "on": "FFC0B8FFC99A3B89476CE96AC79FFE",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "5D0008",
-          "on": "E987386001",
-          "off": "FFC089476C"
-        },
-        {
-          "offset": "1BD38A3",
-          "on": "FFC0B80F00000089477CE91BC89FFE",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "5D00C8",
-          "on": "E9D6376001",
-          "off": "FFC089477C"
-        }
-      ]
-    },
-    {
-      "name": "Fast Zombie Kills",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1BD3886",
-          "on": "4181442450D0070000E9DCBA9FFE",
-          "off": "0000000000000000000000000000"
-        },
-        {
-          "offset": "5CF36B",
-          "on": "E916456001",
-          "off": "41FF442450"
-        }
-      ]
-    },
-    {
-      "name": "Godmode",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1BD383F",
-          "on": "51B900009644660F6EC159C5FA114744E90D22A0FE",
-          "off": "000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "5D5A5C",
-          "on": "E9DEDD5F01",
-          "off": "C5FA114744"
-        }
-      ]
-    },
-    {
       "name": "Inf Ammo",
       "type": "checkbox",
       "memory": [
@@ -99,18 +41,18 @@
       ]
     },
     {
-      "name": "Max Money",
+      "name": "Godmode",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1BD3874",
-          "on": "41BFFFC99A3B4489BB88000000E92ADD9FFE",
-          "off": "000000000000000000000000000000000000"
+          "offset": "1BD383F",
+          "on": "51B900009644660F6EC159C5FA114744E90D22A0FE",
+          "off": "000000000000000000000000000000000000000000"
         },
         {
-          "offset": "5D15A9",
-          "on": "E9C62260019090",
-          "off": "4401BB88000000"
+          "offset": "5D5A5C",
+          "on": "E9DEDD5F01",
+          "off": "C5FA114744"
         }
       ]
     },
@@ -137,6 +79,64 @@
           "offset": "5CF76E",
           "on": "E9F1406001",
           "off": "45017C2440"
+        }
+      ]
+    },
+    {
+      "name": "Max Money",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1BD3874",
+          "on": "41BFFFC99A3B4489BB88000000E92ADD9FFE",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "5D15A9",
+          "on": "E9C62260019090",
+          "off": "4401BB88000000"
+        }
+      ]
+    },
+    {
+      "name": "Fast Zombie Kills",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1BD3886",
+          "on": "4181442450D0070000E9DCBA9FFE",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "5CF36B",
+          "on": "E916456001",
+          "off": "41FF442450"
+        }
+      ]
+    },
+    {
+      "name": "1 Hit Attack And 3x Throw \u0026quot;After Level Up\u0026quot;",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1BD3894",
+          "on": "FFC0B8FFC99A3B89476CE96AC79FFE",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "5D0008",
+          "on": "E987386001",
+          "off": "FFC089476C"
+        },
+        {
+          "offset": "1BD38A3",
+          "on": "FFC0B80F00000089477CE91BC89FFE",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "5D00C8",
+          "on": "E9D6376001",
+          "off": "FFC089477C"
         }
       ]
     }

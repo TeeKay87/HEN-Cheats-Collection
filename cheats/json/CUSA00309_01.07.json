@@ -5,34 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Get Max Shards x99",
+      "name": "Inf Health",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5BFE0",
-          "on": "BB63000000899FE0000000E9BA625880",
-          "off": "00000000000000000000000000000000"
+          "offset": "7FC5BFC0",
+          "on": "C4C17A119650EE010041C78650EE010000005E43E9479C5B80",
+          "off": "00000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "1E229D",
-          "on": "E93E9DA77F9090",
-          "off": "448BAFE0000000"
-        }
-      ]
-    },
-    {
-      "name": "Inf Ammo Capacity",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5BF70",
-          "on": "BE0800000089B7DC000000E92E765880",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "1E35A8",
-          "on": "E9C389A77F90",
-          "off": "89B7DC000000"
+          "offset": "215C17",
+          "on": "E9A463A47F90909090",
+          "off": "C4C17A119650EE0100"
         }
       ]
     },
@@ -53,18 +37,34 @@
       ]
     },
     {
-      "name": "Inf Health",
+      "name": "Inf Ammo Capacity",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5BFC0",
-          "on": "C4C17A119650EE010041C78650EE010000005E43E9479C5B80",
-          "off": "00000000000000000000000000000000000000000000000000"
+          "offset": "7FC5BF70",
+          "on": "BE0800000089B7DC000000E92E765880",
+          "off": "00000000000000000000000000000000"
         },
         {
-          "offset": "215C17",
-          "on": "E9A463A47F90909090",
-          "off": "C4C17A119650EE0100"
+          "offset": "1E35A8",
+          "on": "E9C389A77F90",
+          "off": "89B7DC000000"
+        }
+      ]
+    },
+    {
+      "name": "Get Max Shards x99",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5BFE0",
+          "on": "BB63000000899FE0000000E9BA625880",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "1E229D",
+          "on": "E93E9DA77F9090",
+          "off": "448BAFE0000000"
         }
       ]
     },

@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "God-Mode \u002B1 Every Hit/Kill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "488AEE",
-          "on": "01CA418994249C46",
-          "off": "29CA418994249C46"
-        }
-      ]
-    },
-    {
       "name": "Infinite Ammo",
       "type": "checkbox",
       "memory": [
@@ -42,7 +31,7 @@
       "type": "checkbox",
       "memory": [
         {
-          "offset": "88aee",
+          "offset": "488AEE",
           "on": "01CA418994249C46",
           "off": "29CA418994249C46"
         }
@@ -67,6 +56,17 @@
           "offset": "88e37",
           "on": "41018C2458060000",
           "off": "41898C2458060000"
+        }
+      ]
+    },
+    {
+      "name": "God-Mode \u002B1 Every Hit/Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "88aee",
+          "on": "01CA418994249C46",
+          "off": "29CA418994249C46"
         }
       ]
     }

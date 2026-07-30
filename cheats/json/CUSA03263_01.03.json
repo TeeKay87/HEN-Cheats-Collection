@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Free Purchase(nop, anything you can spend denars on)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "C69E2B",
-          "on": "90909090909090",
-          "off": "89B411F0050000"
-        }
-      ]
-    },
-    {
       "name": "Max Attribute(nop)",
       "type": "checkbox",
       "memory": [
@@ -45,6 +34,17 @@
           "offset": "BDDAB0",
           "on": "9090909090909090",
           "off": "4429A408E4020000"
+        }
+      ]
+    },
+    {
+      "name": "Free Purchase(nop, anything you can spend denars on)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "C69E2B",
+          "on": "90909090909090",
+          "off": "89B411F0050000"
         }
       ]
     },

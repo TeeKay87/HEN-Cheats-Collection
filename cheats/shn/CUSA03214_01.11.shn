@@ -2,20 +2,6 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="FIFA 17" Moder="Wander FW9.00" Cusa="CUSA03214" Version="01.11" Process="eboot.bin">
   <Genres Name="Sports" />
   <Items />
-  <Cheat Text="Max Budget (after selling Players)">
-    <Cheatline>
-      <Offset>58D89E0</Offset>
-      <Section>0</Section>
-      <ValueOn>48-8B-51-10-C7-02-FF-E0-F5-05-E9-35-24-F8-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>485AE1E</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-BD-DB-07-01-90</ValueOn>
-      <ValueOff>48-8B-51-10-01-02</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="max Score (while training)">
     <Cheatline>
       <Offset>58D8910</Offset>
@@ -42,6 +28,20 @@
       <Section>0</Section>
       <ValueOn>E9-E6-76-7A-01-90-90</ValueOn>
       <ValueOff>0F-44-C8-41-01-4E-58</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max Budget (after selling Players)">
+    <Cheatline>
+      <Offset>58D89E0</Offset>
+      <Section>0</Section>
+      <ValueOn>48-8B-51-10-C7-02-FF-E0-F5-05-E9-35-24-F8-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>485AE1E</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-BD-DB-07-01-90</ValueOn>
+      <ValueOff>48-8B-51-10-01-02</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

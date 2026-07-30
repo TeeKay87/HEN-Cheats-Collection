@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "99 item/food turn off when doing missions",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3B03510",
-          "on": "81E30000E0FF09FBC60063E9C96FC3FD",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "173A4DF",
-          "on": "E92C903C029090909090",
-          "off": "81E30000E0FF09FB8918"
-        }
-      ]
-    },
-    {
       "name": "Infinite health",
       "type": "checkbox",
       "memory": [
@@ -49,6 +33,22 @@
           "offset": "168A865",
           "on": "E9E692470290",
           "off": "09D089DA8906"
+        }
+      ]
+    },
+    {
+      "name": "99 item/food turn off when doing missions",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3B03510",
+          "on": "81E30000E0FF09FBC60063E9C96FC3FD",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "173A4DF",
+          "on": "E92C903C029090909090",
+          "off": "81E30000E0FF09FB8918"
         }
       ]
     },

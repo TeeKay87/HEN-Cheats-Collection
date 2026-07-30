@@ -5,28 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo /No Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "DBE904",
-          "on": "757F",
-          "off": "7538"
-        }
-      ]
-    },
-    {
-      "name": "Instant Drill ",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "DBE989",
-          "on": "7558",
-          "off": "75B3"
-        }
-      ]
-    },
-    {
       "name": "Master Code /Health /Ammo / Skill/Money/Ins_Drill",
       "type": "checkbox",
       "memory": [
@@ -43,13 +21,13 @@
       ]
     },
     {
-      "name": "Max Money (999999999)",
+      "name": "Infinite Ammo /No Reload",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "DBE967",
-          "on": "7546",
-          "off": "75D5"
+          "offset": "DBE904",
+          "on": "757F",
+          "off": "7538"
         }
       ]
     },
@@ -61,6 +39,28 @@
           "offset": "DBE90A",
           "on": "753F",
           "off": "7532"
+        }
+      ]
+    },
+    {
+      "name": "Max Money (999999999)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "DBE967",
+          "on": "7546",
+          "off": "75D5"
+        }
+      ]
+    },
+    {
+      "name": "Instant Drill ",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "DBE989",
+          "on": "7558",
+          "off": "75B3"
         }
       ]
     }

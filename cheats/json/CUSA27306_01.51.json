@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Booster Bar ",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8174280",
-          "on": "C5FA10936C020000C5FA119368020000E96CC3EFF9",
-          "off": "000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "20705F9",
-          "on": "E9823C1006909090",
-          "off": "C5FA119368020000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health 1",
       "type": "checkbox",
       "memory": [
@@ -65,6 +49,22 @@
           "offset": "2038452",
           "on": "E949BD130690909090",
           "off": "C4C17A1185C8000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Booster Bar ",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8174280",
+          "on": "C5FA10936C020000C5FA119368020000E96CC3EFF9",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "20705F9",
+          "on": "E9823C1006909090",
+          "off": "C5FA119368020000"
         }
       ]
     },

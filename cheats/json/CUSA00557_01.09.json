@@ -5,29 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Debug Mode",
-      "type": "checkbox",
+      "name": "Master",
+      "type": "master",
       "memory": [
         {
-          "offset": "14738A1",
-          "on": "C681812E000001E96808B9FE",
-          "off": "C681812E000000E9F61AB9FE"
+          "offset": "1473800",
+          "on": "483DA0860100740F90909090909090909090909089533085D20F85EAEA33FFE9CEEA33FFBA00000000895330E9C1EA33FF",
+          "off": ""
         },
         {
-          "offset": "4108",
-          "on": "E994F746019090",
-          "off": "E994F746019090"
-        }
-      ]
-    },
-    {
-      "name": "Easy Kill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "147380E",
-          "on": "807B388C7510",
-          "off": "909090909090"
+          "offset": "7B22EB",
+          "on": "E91015CC009090",
+          "off": ""
         }
       ]
     },
@@ -38,6 +27,17 @@
         {
           "offset": "1473808",
           "on": "807B388C7409",
+          "off": "909090909090"
+        }
+      ]
+    },
+    {
+      "name": "Easy Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "147380E",
+          "on": "807B388C7510",
           "off": "909090909090"
         }
       ]
@@ -80,18 +80,18 @@
       ]
     },
     {
-      "name": "Master",
-      "type": "master",
+      "name": "Debug Mode",
+      "type": "checkbox",
       "memory": [
         {
-          "offset": "1473800",
-          "on": "483DA0860100740F90909090909090909090909089533085D20F85EAEA33FFE9CEEA33FFBA00000000895330E9C1EA33FF",
-          "off": ""
+          "offset": "14738A1",
+          "on": "C681812E000001E96808B9FE",
+          "off": "C681812E000000E9F61AB9FE"
         },
         {
-          "offset": "7B22EB",
-          "on": "E91015CC009090",
-          "off": ""
+          "offset": "4108",
+          "on": "E994F746019090",
+          "off": "E994F746019090"
         }
       ]
     }

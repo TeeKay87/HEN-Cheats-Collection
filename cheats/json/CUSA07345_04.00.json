@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite MP",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FE77BF0",
-          "on": "6641C78404FC03000000C0E9269A8B80",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "73161C",
-          "on": "E9CF65747F9090909090",
-          "off": "C4C17A118C04FC030000"
-        }
-      ]
-    },
-    {
       "name": "Items x99 (on use have 2)",
       "type": "checkbox",
       "memory": [
@@ -37,18 +21,18 @@
       ]
     },
     {
-      "name": "Max Experience",
+      "name": "Infinite MP",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5B0B0",
-          "on": "C7808C000000FFE0F505E91D71EA80",
-          "off": "000000000000000000000000000000"
+          "offset": "7FE77BF0",
+          "on": "6641C78404FC03000000C0E9269A8B80",
+          "off": "00000000000000000000000000000000"
         },
         {
-          "offset": "B021D5",
-          "on": "E9D68E157F9090",
-          "off": "4489B08C000000"
+          "offset": "73161C",
+          "on": "E9CF65747F9090909090",
+          "off": "C4C17A118C04FC030000"
         }
       ]
     },
@@ -65,6 +49,22 @@
           "offset": "E460CA",
           "on": "E9511B037F909090",
           "off": "81FE7F9698008931"
+        }
+      ]
+    },
+    {
+      "name": "Max Experience",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5B0B0",
+          "on": "C7808C000000FFE0F505E91D71EA80",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "B021D5",
+          "on": "E9D68E157F9090",
+          "off": "4489B08C000000"
         }
       ]
     }

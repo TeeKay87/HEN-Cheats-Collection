@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Gold",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "19CB0BE",
-          "on": "C707003C1C46C5FA1007C5FA1107C5FA115708E94BA588FE",
-          "off": "000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "255618",
-          "on": "E9A15A770190909090",
-          "off": "C5FA1107C5FA115708"
-        }
-      ]
-    },
-    {
       "name": "Inf Life",
       "type": "checkbox",
       "memory": [
@@ -65,6 +49,22 @@
           "offset": "5A7073",
           "on": "E9FE3F4201",
           "off": "C5FA114378"
+        }
+      ]
+    },
+    {
+      "name": "Inf Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "19CB0BE",
+          "on": "C707003C1C46C5FA1007C5FA1107C5FA115708E94BA588FE",
+          "off": "000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "255618",
+          "on": "E9A15A770190909090",
+          "off": "C5FA1107C5FA115708"
         }
       ]
     }

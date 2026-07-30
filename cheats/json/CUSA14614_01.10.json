@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "infinite hleath",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "A4C61F",
-          "on": "909090909090",
-          "off": "898158020000"
-        }
-      ]
-    },
-    {
       "name": "infinite ki",
       "type": "checkbox",
       "memory": [
@@ -27,13 +16,13 @@
       ]
     },
     {
-      "name": "infinite rage",
+      "name": "infinite hleath",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "9D14B7",
-          "on": "90909090",
-          "off": "410F4EC7"
+          "offset": "A4C61F",
+          "on": "909090909090",
+          "off": "898158020000"
         }
       ]
     },
@@ -45,6 +34,17 @@
           "offset": "145AE85",
           "on": "909090",
           "off": "0F4CC8"
+        }
+      ]
+    },
+    {
+      "name": "infinite rage",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "9D14B7",
+          "on": "90909090",
+          "off": "410F4EC7"
         }
       ]
     },

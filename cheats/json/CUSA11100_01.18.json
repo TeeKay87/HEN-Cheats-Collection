@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "All Client Godmode",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "F8DC14",
-          "on": "9090909090909090",
-          "off": "4389840140030000"
-        }
-      ]
-    },
-    {
       "name": "All Client Infinite Ammo",
       "type": "checkbox",
       "memory": [
@@ -23,6 +12,17 @@
           "offset": "1B8C4CC",
           "on": "90909090909090",
           "off": "89848A24130000"
+        }
+      ]
+    },
+    {
+      "name": "All Client Godmode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "F8DC14",
+          "on": "9090909090909090",
+          "off": "4389840140030000"
         }
       ]
     },
@@ -54,17 +54,6 @@
       ]
     },
     {
-      "name": "All Client Godmode",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "b8dc14",
-          "on": "9090909090909090",
-          "off": "4389840140030000"
-        }
-      ]
-    },
-    {
       "name": "All Client Infinite Ammo",
       "type": "checkbox",
       "memory": [
@@ -72,6 +61,17 @@
           "offset": "178c4cc",
           "on": "90909090909090",
           "off": "89848A24130000"
+        }
+      ]
+    },
+    {
+      "name": "All Client Godmode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "b8dc14",
+          "on": "9090909090909090",
+          "off": "4389840140030000"
         }
       ]
     },

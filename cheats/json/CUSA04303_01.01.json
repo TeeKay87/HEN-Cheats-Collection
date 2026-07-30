@@ -37,22 +37,6 @@
       ]
     },
     {
-      "name": "Infinite Special Attacks skill Points",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "82E7A30",
-          "on": "41C685780A000063E91B3257F9",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "185AC51",
-          "on": "E9DACDA8069090",
-          "off": "412985780A0000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Stats skill points (player/Companion)",
       "type": "checkbox",
       "memory": [
@@ -65,6 +49,22 @@
           "offset": "18593D0",
           "on": "E9FBE3A80690",
           "off": "01B77C0A0000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Special Attacks skill Points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "82E7A30",
+          "on": "41C685780A000063E91B3257F9",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "185AC51",
+          "on": "E9DACDA8069090",
+          "off": "412985780A0000"
         }
       ]
     },

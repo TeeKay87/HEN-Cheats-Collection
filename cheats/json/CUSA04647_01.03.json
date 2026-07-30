@@ -5,28 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Items",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "31942A",
-          "on": "909090",
-          "off": "894804"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Items | Battle ",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1C3F7",
-          "on": "909090",
-          "off": "895004"
-        }
-      ]
-    },
-    {
       "name": "Infinite Money",
       "type": "checkbox",
       "memory": [
@@ -34,6 +12,33 @@
           "offset": "1F44D8",
           "on": "90909090909090",
           "off": "41898E487F0300"
+        }
+      ]
+    },
+    {
+      "name": "Max Money on Buy/Sell",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "233F800",
+          "on": "B97F96980041898E487F0300E9CE4CEBFD",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "1F44D8",
+          "on": "E923B314029090",
+          "off": "41898E487F0300"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "31942A",
+          "on": "909090",
+          "off": "894804"
         }
       ]
     },
@@ -54,18 +59,13 @@
       ]
     },
     {
-      "name": "Max Money on Buy/Sell",
+      "name": "Infinite Items | Battle ",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "233F800",
-          "on": "B97F96980041898E487F0300E9CE4CEBFD",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "1F44D8",
-          "on": "E923B314029090",
-          "off": "41898E487F0300"
+          "offset": "1C3F7",
+          "on": "909090",
+          "off": "895004"
         }
       ]
     },

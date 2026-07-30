@@ -21,22 +21,6 @@
       ]
     },
     {
-      "name": "Infinite Item Meter",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3BF85A",
-          "on": "C787D401000000004843C5FA1087D4010000E91E35CBFF",
-          "off": "0000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "72D87",
-          "on": "E9CECA3400909090",
-          "off": "C5FA1187D4010000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Magic",
       "type": "checkbox",
       "memory": [
@@ -49,6 +33,22 @@
           "offset": "72CCC",
           "on": "E972CB3400909090",
           "off": "C5FA1183D0010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Item Meter",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3BF85A",
+          "on": "C787D401000000004843C5FA1087D4010000E91E35CBFF",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "72D87",
+          "on": "E9CECA3400909090",
+          "off": "C5FA1187D4010000"
         }
       ]
     },

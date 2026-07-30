@@ -26,20 +26,20 @@
       <ValueOff>41-89-86-60-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="items Incressed ">
-    <Cheatline>
-      <Offset>D7CAE2</Offset>
-      <Section>0</Section>
-      <ValueOn>44-01-EA</ValueOn>
-      <ValueOff>44-29-EA</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Max Lv when get xp">
     <Cheatline>
       <Offset>A4CAF0</Offset>
       <Section>0</Section>
       <ValueOn>89-DA-90-90-90-90</ValueOn>
       <ValueOff>8B-91-50-02-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="items Incressed ">
+    <Cheatline>
+      <Offset>D7CAE2</Offset>
+      <Section>0</Section>
+      <ValueOn>44-01-EA</ValueOn>
+      <ValueOff>44-29-EA</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="MAX orbs on get/ when you get Max for all Orbs Stop it">

@@ -3,22 +3,6 @@
   <Genres Name="Action" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Infinite Breath">
-    <Cheatline>
-      <Offset>298CA37</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90</ValueOn>
-      <ValueOff>FF-50-38</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Endurance">
-    <Cheatline>
-      <Offset>298C793</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90</ValueOn>
-      <ValueOff>FF-50-38</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Infinite Health">
     <Cheatline>
       <Offset>29906C2</Offset>
@@ -35,12 +19,20 @@
       <ValueOff>E8-C1-FD-FE-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Lot Of Perk Points On Use">
+  <Cheat Text="Infinite Endurance">
     <Cheatline>
-      <Offset>34E0F0D</Offset>
+      <Offset>298C793</Offset>
       <Section>0</Section>
-      <ValueOn>41-89-84-24-C0-00-00-00</ValueOn>
-      <ValueOff>45-29-AC-24-C0-00-00-00</ValueOff>
+      <ValueOn>90-90-90</ValueOn>
+      <ValueOff>FF-50-38</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Breath">
+    <Cheatline>
+      <Offset>298CA37</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90</ValueOn>
+      <ValueOff>FF-50-38</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Max/Infinite Ammo/Medkits/Resources/Ethanol On Use">
@@ -69,6 +61,14 @@
       <Section>0</Section>
       <ValueOn>E9-E9-5B-36-7C-90-90</ValueOn>
       <ValueOff>45-89-B7-80-01-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Lot Of Perk Points On Use">
+    <Cheatline>
+      <Offset>34E0F0D</Offset>
+      <Section>0</Section>
+      <ValueOn>41-89-84-24-C0-00-00-00</ValueOn>
+      <ValueOff>45-29-AC-24-C0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
 </Trainer>

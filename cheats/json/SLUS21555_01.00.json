@@ -5,43 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf-Ammo/Never Reload",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "807FE83B7C",
-          "on": "00000000",
-          "off": "00000000"
-        },
-        {
-          "offset": "807FE83D18",
-          "on": "00000000",
-          "off": "00000000"
-        },
-        {
-          "offset": "807FE83B78",
-          "on": "24020063",
-          "off": "24020063"
-        }
-      ]
-    },
-    {
-      "name": "Infinite-Air",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "807FEC1700",
-          "on": "00000000",
-          "off": "00000000"
-        },
-        {
-          "offset": "807FEC18A0",
-          "on": "00000000",
-          "off": "00000000"
-        }
-      ]
-    },
-    {
       "name": "Infinite-Health",
       "type": "checkbox",
       "memory": [
@@ -80,6 +43,43 @@
           "offset": "807FE69E18",
           "on": "24020063",
           "off": "24020063"
+        }
+      ]
+    },
+    {
+      "name": "Inf-Ammo/Never Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "807FE83B7C",
+          "on": "00000000",
+          "off": "00000000"
+        },
+        {
+          "offset": "807FE83D18",
+          "on": "00000000",
+          "off": "00000000"
+        },
+        {
+          "offset": "807FE83B78",
+          "on": "24020063",
+          "off": "24020063"
+        }
+      ]
+    },
+    {
+      "name": "Infinite-Air",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "807FEC1700",
+          "on": "00000000",
+          "off": "00000000"
+        },
+        {
+          "offset": "807FEC18A0",
+          "on": "00000000",
+          "off": "00000000"
         }
       ]
     }

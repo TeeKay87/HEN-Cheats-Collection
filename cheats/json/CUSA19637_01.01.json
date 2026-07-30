@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Sephit",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3175E8",
+          "on": "9090",
+          "off": "8908"
+        }
+      ]
+    },
+    {
       "name": "Item",
       "type": "checkbox",
       "memory": [
@@ -23,17 +34,6 @@
           "offset": "30FCF8",
           "on": "90909090",
           "off": "4883C020"
-        }
-      ]
-    },
-    {
-      "name": "Sephit",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3175E8",
-          "on": "9090",
-          "off": "8908"
         }
       ]
     }

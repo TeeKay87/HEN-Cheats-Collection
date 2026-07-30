@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Burst",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "EF922",
-          "on": "4189BED82F0000",
-          "off": "4189B6D82F0000"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health \u002B Max HP",
       "type": "checkbox",
       "memory": [
@@ -48,6 +37,17 @@
       ]
     },
     {
+      "name": "Infinite Burst",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "EF922",
+          "on": "4189BED82F0000",
+          "off": "4189B6D82F0000"
+        }
+      ]
+    },
+    {
       "name": "Max Exp Battle",
       "type": "checkbox",
       "memory": [
@@ -70,6 +70,17 @@
       ]
     },
     {
+      "name": "Zen (buy)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "A12B7",
+          "on": "BFFFE0F50590",
+          "off": "81FFFFE0F505"
+        }
+      ]
+    },
+    {
       "name": "Secret Growth Med",
       "type": "checkbox",
       "memory": [
@@ -82,17 +93,6 @@
           "offset": "1F2457",
           "on": "E9CC1350009090",
           "off": "418B770C4889DF"
-        }
-      ]
-    },
-    {
-      "name": "Zen (buy)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "A12B7",
-          "on": "BFFFE0F50590",
-          "off": "81FFFFE0F505"
         }
       ]
     }

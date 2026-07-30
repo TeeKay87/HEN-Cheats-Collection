@@ -5,22 +5,27 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Max-GOLD",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8080AF2040",
+          "on": "63000000",
+          "off": "63000000"
+        },
+        {
+          "offset": "8080AF2041",
+          "on": "00000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
       "name": "Inf-Energy",
       "type": "checkbox",
       "memory": [
         {
           "offset": "8080AF2047",
-          "on": "63",
-          "off": "63"
-        }
-      ]
-    },
-    {
-      "name": "Infinite-lives",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "8080AF2045",
           "on": "63",
           "off": "63"
         }
@@ -38,18 +43,13 @@
       ]
     },
     {
-      "name": "Max-GOLD",
+      "name": "Infinite-lives",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "8080AF2040",
-          "on": "63000000",
-          "off": "63000000"
-        },
-        {
-          "offset": "8080AF2041",
-          "on": "00000000",
-          "off": "00000000"
+          "offset": "8080AF2045",
+          "on": "63",
+          "off": "63"
         }
       ]
     }

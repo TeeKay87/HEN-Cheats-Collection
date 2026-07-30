@@ -5,39 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "9999 Cash",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "13423C4",
-          "on": "0F2700",
-          "off": "0A0000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "C161F5",
-          "on": "909090",
-          "off": "894720"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Focus",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "D00952",
-          "on": "909090909090909090909090",
-          "off": "C4C17A114710C4C17A11472C"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -56,6 +23,39 @@
           "offset": "D00C69",
           "on": "909090909090",
           "off": "C4C17A115710"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Focus",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "D00952",
+          "on": "909090909090909090909090",
+          "off": "C4C17A114710C4C17A11472C"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "C161F5",
+          "on": "909090",
+          "off": "894720"
+        }
+      ]
+    },
+    {
+      "name": "9999 Cash",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "13423C4",
+          "on": "0F2700",
+          "off": "0A0000"
         }
       ]
     }

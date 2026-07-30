@@ -5,6 +5,22 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Inf Health / 1Hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "13D783F",
+          "on": "4180FD01741041C787C801000000004843E9DA64FC7E41C787C801000000000000E9CA64FC7E",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "8039DD26",
+          "on": "E9149B038190909090",
+          "off": "F3450F11BFC8010000"
+        }
+      ]
+    },
+    {
       "name": "Inf Ammo(1) No Reload (Default Pistol)",
       "type": "checkbox",
       "memory": [
@@ -33,22 +49,6 @@
           "offset": "803E99C0",
           "on": "E96CDEFE8090",
           "off": "FFC84189471C"
-        }
-      ]
-    },
-    {
-      "name": "Inf Health / 1Hit Kill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "13D783F",
-          "on": "4180FD01741041C787C801000000004843E9DA64FC7E41C787C801000000000000E9CA64FC7E",
-          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "8039DD26",
-          "on": "E9149B038190909090",
-          "off": "F3450F11BFC8010000"
         }
       ]
     }

@@ -7,6 +7,46 @@
   <Genres Name="RPG" />
   <Genres Name="Shooter" />
   <Items />
+  <Cheat Text="Infinite Health">
+    <Cheatline>
+      <Offset>1A18A71</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-43-40</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Armor">
+    <Cheatline>
+      <Offset>1A87E97</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-43-18</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite PSI">
+    <Cheatline>
+      <Offset>1A3F5D2</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-87-F8-04-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Stamina">
+    <Cheatline>
+      <Offset>1574D3E</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-0F</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Flashlight">
+    <Cheatline>
+      <Offset>1A163FD</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-83-84-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Bottomless Clip">
     <Cheatline>
       <Offset>26D3800</Offset>
@@ -19,78 +59,6 @@
       <Section>0</Section>
       <ValueOn>E9-82-E6-B5-00-90-90</ValueOn>
       <ValueOff>41-89-B7-24-04-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Easy Scan Completition">
-    <Cheatline>
-      <Offset>26D3874</Offset>
-      <Section>0</Section>
-      <ValueOn>83-79-28-03-7D-07-C7-41-28-03-00-00-00-8B-41-28-C3</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>19F17FA</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-75-20-CE-00</ValueOn>
-      <ValueOff>8B-41-28-C3-90</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Armor">
-    <Cheatline>
-      <Offset>1A87E97</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90</ValueOn>
-      <ValueOff>C5-FA-11-43-18</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Flashlight">
-    <Cheatline>
-      <Offset>1A163FD</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>C5-FA-11-83-84-00-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Floating">
-    <Cheatline>
-      <Offset>1574ECA</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90</ValueOn>
-      <ValueOff>C5-FA-11-17</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Hack-Time">
-    <Cheatline>
-      <Offset>26D3839</Offset>
-      <Section>0</Section>
-      <ValueOn>48-3D-01-03-00-00-75-13-C5-F8-2E-C1-74-0D-83-3F-00-74-08-81-3F-01-00-C0-3F-7D-04-C5-FA-11-07-C5-F8-2E-C1-E9-BF-90-F7-FE</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>164C918</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-1C-6F-08-01-90-90-90</ValueOn>
-      <ValueOff>C5-FA-11-07-C5-F8-2E-C1</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>26D3861</Offset>
-      <Section>0</Section>
-      <ValueOn>41-89-8E-90-00-00-00-41-39-8E-90-00-00-00-E9-BA-8B-40-FF</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>1ADC427</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-35-74-BF-00-90-90</ValueOn>
-      <ValueOff>41-39-8E-90-00-00-00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Infinite Health">
-    <Cheatline>
-      <Offset>1A18A71</Offset>
-      <Section>0</Section>
-      <ValueOn>90-90-90-90-90</ValueOn>
-      <ValueOff>C5-FA-11-43-40</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Items">
@@ -119,20 +87,46 @@
       <ValueOff>8B-47-54-C3-90</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite PSI">
+  <Cheat Text="Infinite Hack-Time">
     <Cheatline>
-      <Offset>1A3F5D2</Offset>
+      <Offset>26D3839</Offset>
       <Section>0</Section>
-      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
-      <ValueOff>C5-FA-11-87-F8-04-00-00</ValueOff>
+      <ValueOn>48-3D-01-03-00-00-75-13-C5-F8-2E-C1-74-0D-83-3F-00-74-08-81-3F-01-00-C0-3F-7D-04-C5-FA-11-07-C5-F8-2E-C1-E9-BF-90-F7-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>164C918</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-1C-6F-08-01-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-07-C5-F8-2E-C1</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>26D3861</Offset>
+      <Section>0</Section>
+      <ValueOn>41-89-8E-90-00-00-00-41-39-8E-90-00-00-00-E9-BA-8B-40-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>1ADC427</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-35-74-BF-00-90-90</ValueOn>
+      <ValueOff>41-39-8E-90-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina">
+  <Cheat Text="Infinite Floating">
     <Cheatline>
-      <Offset>1574D3E</Offset>
+      <Offset>1574ECA</Offset>
       <Section>0</Section>
       <ValueOn>90-90-90-90</ValueOn>
-      <ValueOff>C5-FA-11-0F</ValueOff>
+      <ValueOff>C5-FA-11-17</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Keycard Doors always open">
+    <Cheatline>
+      <Offset>17F3313</Offset>
+      <Section>0</Section>
+      <ValueOn>74-03</ValueOn>
+      <ValueOff>74-1F</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Instant Scan">
@@ -143,12 +137,18 @@
       <ValueOff>C4-C1-7A-58-85-0C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Keycard Doors always open">
+  <Cheat Text="Easy Scan Completition">
     <Cheatline>
-      <Offset>17F3313</Offset>
+      <Offset>26D3874</Offset>
       <Section>0</Section>
-      <ValueOn>74-03</ValueOn>
-      <ValueOff>74-1F</ValueOff>
+      <ValueOn>83-79-28-03-7D-07-C7-41-28-03-00-00-00-8B-41-28-C3</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>19F17FA</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-75-20-CE-00</ValueOn>
+      <ValueOff>8B-41-28-C3-90</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="No Cooldown">

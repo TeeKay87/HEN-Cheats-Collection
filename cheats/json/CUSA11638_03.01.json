@@ -5,61 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Freeze Timer",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "35BA345",
-          "on": "9090909090909090",
-          "off": "C5FA118314010000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Awakening [MC]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "494FE40",
-          "on": "C4C17A105044",
-          "off": "C4C17A115040"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Charge [MC]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "494FE17",
-          "on": "C4C17A104834",
-          "off": "C4C17A114830"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health [MC]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "494FDF2",
-          "on": "C5FA10482C",
-          "off": "C5FA114828"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Stamina [MC]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "494FE6A",
-          "on": "C4C17A1044243C",
-          "off": "C4C17A11442438"
-        }
-      ]
-    },
-    {
       "name": "Mastercode ( must be activated ) ",
       "type": "checkbox",
       "memory": [
@@ -106,18 +51,90 @@
       ]
     },
     {
-      "name": "Max Items ( on buy )",
+      "name": "Infinite Health [MC]",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "494FDC7",
-          "on": "66C744D104E7030FB744D104E915ADD7FE526564646576696C3832202D20465720392E3030",
-          "off": "0000000000000000000000000000000000"
-        },
+          "offset": "494FDF2",
+          "on": "C5FA10482C",
+          "off": "C5FA114828"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill [MC]",
+      "type": "checkbox",
+      "memory": [
         {
-          "offset": "36CAAE4",
-          "on": "E9DE522801",
-          "off": "0FB744D104"
+          "offset": "494FE01",
+          "on": "0F57C99090",
+          "off": "C5FA114828"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Charge [MC]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "494FE17",
+          "on": "C4C17A104834",
+          "off": "C4C17A114830"
+        }
+      ]
+    },
+    {
+      "name": "No Charge Enemies [MC]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "494FE28",
+          "on": "0F57C9909090",
+          "off": "C4C17A114830"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Awakening [MC]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "494FE40",
+          "on": "C4C17A105044",
+          "off": "C4C17A115040"
+        }
+      ]
+    },
+    {
+      "name": "No Awakening Enemies [MC]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "494FE51",
+          "on": "0F57D2909090",
+          "off": "C4C17A115040"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Stamina [MC]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "494FE6A",
+          "on": "C4C17A1044243C",
+          "off": "C4C17A11442438"
+        }
+      ]
+    },
+    {
+      "name": "No Stamina Enemies [MC]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "494FE7D",
+          "on": "0F57C090909090",
+          "off": "C4C17A11442438"
         }
       ]
     },
@@ -138,46 +155,29 @@
       ]
     },
     {
-      "name": "No Awakening Enemies [MC]",
+      "name": "Max Items ( on buy )",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "494FE51",
-          "on": "0F57D2909090",
-          "off": "C4C17A115040"
+          "offset": "494FDC7",
+          "on": "66C744D104E7030FB744D104E915ADD7FE526564646576696C3832202D20465720392E3030",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "36CAAE4",
+          "on": "E9DE522801",
+          "off": "0FB744D104"
         }
       ]
     },
     {
-      "name": "No Charge Enemies [MC]",
+      "name": "Freeze Timer",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "494FE28",
-          "on": "0F57C9909090",
-          "off": "C4C17A114830"
-        }
-      ]
-    },
-    {
-      "name": "No Stamina Enemies [MC]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "494FE7D",
-          "on": "0F57C090909090",
-          "off": "C4C17A11442438"
-        }
-      ]
-    },
-    {
-      "name": "One Hit Kill [MC]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "494FE01",
-          "on": "0F57C99090",
-          "off": "C5FA114828"
+          "offset": "35BA345",
+          "on": "9090909090909090",
+          "off": "C5FA118314010000"
         }
       ]
     }

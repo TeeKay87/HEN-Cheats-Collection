@@ -5,28 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health [ MC ]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5907E43",
-          "on": "C4C17A108424D8000000",
-          "off": "C4C17A11842418010000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Shield [ MC ]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5907E10",
-          "on": "C5FA118BE0020000",
-          "off": "C5FA1183E0020000"
-        }
-      ]
-    },
-    {
       "name": "Mastercode Health / Shield ( must be activated )",
       "type": "checkbox",
       "memory": [
@@ -53,18 +31,46 @@
       ]
     },
     {
-      "name": "Max Credits",
+      "name": "Infinite Health [ MC ]",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "5907DB0",
-          "on": "C787180500003F420F008B8718050000E9E5BCC0FE526564646576696C3832202D20465720392E3030",
-          "off": "000000000000000000000000000000000000000000"
-        },
+          "offset": "5907E43",
+          "on": "C4C17A108424D8000000",
+          "off": "C4C17A11842418010000"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill [ MC ]",
+      "type": "checkbox",
+      "memory": [
         {
-          "offset": "4513AA4",
-          "on": "E907433F0190",
-          "off": "8B8718050000"
+          "offset": "5907E58",
+          "on": "0F57C090909090909090",
+          "off": "C4C17A11842418010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Shield [ MC ]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5907E10",
+          "on": "C5FA118BE0020000",
+          "off": "C5FA1183E0020000"
+        }
+      ]
+    },
+    {
+      "name": "No Shield Enemy [ MC ]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5907E23",
+          "on": "0F57C09090909090",
+          "off": "C5FA1183E0020000"
         }
       ]
     },
@@ -111,24 +117,18 @@
       ]
     },
     {
-      "name": "No Shield Enemy [ MC ]",
+      "name": "Max Credits",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "5907E23",
-          "on": "0F57C09090909090",
-          "off": "C5FA1183E0020000"
-        }
-      ]
-    },
-    {
-      "name": "One Hit Kill [ MC ]",
-      "type": "checkbox",
-      "memory": [
+          "offset": "5907DB0",
+          "on": "C787180500003F420F008B8718050000E9E5BCC0FE526564646576696C3832202D20465720392E3030",
+          "off": "000000000000000000000000000000000000000000"
+        },
         {
-          "offset": "5907E58",
-          "on": "0F57C090909090909090",
-          "off": "C4C17A11842418010000"
+          "offset": "4513AA4",
+          "on": "E907433F0190",
+          "off": "8B8718050000"
         }
       ]
     }

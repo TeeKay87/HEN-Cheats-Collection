@@ -5,6 +5,22 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7507DF",
+          "on": "E91DF4FF019090",
+          "off": "418907488B4DC0"
+        },
+        {
+          "offset": "274FC01",
+          "on": "6641817F642B020F8509000000488B4DC0E9CF0B00FE41890790488B4DC0E9C20B00FE",
+          "off": "6641817F642B020F8509000000488B4DC0E9CF0B00FE41890790488B4DC0E9C20B00FE"
+        }
+      ]
+    },
+    {
       "name": "1 Hit Kill",
       "type": "checkbox",
       "memory": [
@@ -37,16 +53,16 @@
       ]
     },
     {
-      "name": "Infinite Health",
+      "name": "Godmode",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7507DF",
+          "offset": "B507DF",
           "on": "E91DF4FF019090",
           "off": "418907488B4DC0"
         },
         {
-          "offset": "274FC01",
+          "offset": "2B4FC01",
           "on": "6641817F642B020F8509000000488B4DC0E9CF0B00FE41890790488B4DC0E9C20B00FE",
           "off": "6641817F642B020F8509000000488B4DC0E9CF0B00FE41890790488B4DC0E9C20B00FE"
         }
@@ -64,22 +80,6 @@
         {
           "offset": "2B4FC01",
           "on": "6641817F642B020F8509000000488B4DC0E9CF0B00FE41C60700488B4DC0E9C20B00FE",
-          "off": "6641817F642B020F8509000000488B4DC0E9CF0B00FE41890790488B4DC0E9C20B00FE"
-        }
-      ]
-    },
-    {
-      "name": "Godmode",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "B507DF",
-          "on": "E91DF4FF019090",
-          "off": "418907488B4DC0"
-        },
-        {
-          "offset": "2B4FC01",
-          "on": "6641817F642B020F8509000000488B4DC0E9CF0B00FE41890790488B4DC0E9C20B00FE",
           "off": "6641817F642B020F8509000000488B4DC0E9CF0B00FE41890790488B4DC0E9C20B00FE"
         }
       ]

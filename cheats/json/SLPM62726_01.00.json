@@ -26,6 +26,22 @@
       ]
     },
     {
+      "name": "Inf-Lives-Player 1",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "807FFC7200",
+          "on": "63000000",
+          "off": "63000000"
+        },
+        {
+          "offset": "807FFC71C5",
+          "on": "66000000",
+          "off": "63000000"
+        }
+      ]
+    },
+    {
       "name": "Inf-Bombs-Player 1",
       "type": "checkbox",
       "memory": [
@@ -43,22 +59,6 @@
         {
           "offset": "808004B240",
           "on": "63000000",
-          "off": "63000000"
-        }
-      ]
-    },
-    {
-      "name": "Inf-Lives-Player 1",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "807FFC7200",
-          "on": "63000000",
-          "off": "63000000"
-        },
-        {
-          "offset": "807FFC71C5",
-          "on": "66000000",
           "off": "63000000"
         }
       ]

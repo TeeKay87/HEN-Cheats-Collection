@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Ammo",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "16FB023",
-          "on": "8B43108943184883C408E9E25F9D7E",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "800D100D",
-          "on": "E911A062819090",
-          "off": "8943184883C408"
-        }
-      ]
-    },
-    {
       "name": "Inf Hp",
       "type": "checkbox",
       "memory": [
@@ -33,6 +17,22 @@
           "offset": "80228200",
           "on": "E9FB2D4D8190",
           "off": "554889E54157"
+        }
+      ]
+    },
+    {
+      "name": "Inf Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "16FB023",
+          "on": "8B43108943184883C408E9E25F9D7E",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "800D100D",
+          "on": "E911A062819090",
+          "off": "8943184883C408"
         }
       ]
     }

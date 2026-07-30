@@ -5,18 +5,34 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "AP x999 (on spent)",
+      "name": "Max Money (on buy)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5BDC0",
-          "on": "418B4E1866C74028E703E966773001",
+          "offset": "7FC5B350",
+          "on": "0F846B11F400C740383F420F00E90111F400",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "80B9C45D",
+          "on": "E9EEEE0BFF90",
+          "off": "746844297038"
+        }
+      ]
+    },
+    {
+      "name": "Items x99 (on use)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FC5AE20",
+          "on": "0F842012F400C6402463E9BD10F400",
           "off": "000000000000000000000000000000"
         },
         {
-          "offset": "80F6352E",
-          "on": "E98D88CFFE9090",
-          "off": "418B4E18294828"
+          "offset": "80B9BEE2",
+          "on": "E939EF0BFF9090909090",
+          "off": "0F846401000044297024"
         }
       ]
     },
@@ -37,18 +53,18 @@
       ]
     },
     {
-      "name": "Items x99 (on use)",
+      "name": "AP x999 (on spent)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7FC5AE20",
-          "on": "0F842012F400C6402463E9BD10F400",
+          "offset": "7FC5BDC0",
+          "on": "418B4E1866C74028E703E966773001",
           "off": "000000000000000000000000000000"
         },
         {
-          "offset": "80B9BEE2",
-          "on": "E939EF0BFF9090909090",
-          "off": "0F846401000044297024"
+          "offset": "80F6352E",
+          "on": "E98D88CFFE9090",
+          "off": "418B4E18294828"
         }
       ]
     },
@@ -81,22 +97,6 @@
           "offset": "80A75912",
           "on": "E9F95C1EFF9090",
           "off": "410186D0010000"
-        }
-      ]
-    },
-    {
-      "name": "Max Money (on buy)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "7FC5B350",
-          "on": "0F846B11F400C740383F420F00E90111F400",
-          "off": "000000000000000000000000000000000000"
-        },
-        {
-          "offset": "80B9C45D",
-          "on": "E9EEEE0BFF90",
-          "off": "746844297038"
         }
       ]
     }

@@ -2,28 +2,18 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Adventures of Chris" Moder="Reddevil82 - FW 9.00" Cusa="CUSA33315" Version="01.01" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Crystal Weapon [ MC ]" Description="Crystal Weapon [ MC ]">
+  <Cheat Text="Mastercode Weapon ( must be activated for [ MC ] Cheats )" Description="Mastercode Weapon ( must be activated for [ MC ] Cheats )">
     <Cheatline>
-      <Offset>1C00022</Offset>
+      <Offset>18A3E20</Offset>
       <Section>0</Section>
-      <ValueOn>01</ValueOn>
-      <ValueOff>00</ValueOff>
+      <ValueOn>48-8B-44-24-F8-80-3D-F4-C1-35-00-01-75-07-C7-40-48-00-00-00-00-80-3D-E5-C1-35-00-01-75-07-C7-40-48-01-00-00-00-80-3D-D6-C1-35-00-01-75-07-C7-40-48-02-00-00-00-80-3D-C7-C1-35-00-01-75-07-C7-40-48-04-00-00-00-80-3D-B8-C1-35-00-01-75-07-C7-40-48-03-00-00-00-8B-40-48-E9-90-63-E2-7E</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
-  </Cheat>
-  <Cheat Text="Defense Weapon [ MC ]" Description="Defense Weapon [ MC ]">
     <Cheatline>
-      <Offset>1C00024</Offset>
+      <Offset>806CA205</Offset>
       <Section>0</Section>
-      <ValueOn>01</ValueOn>
-      <ValueOff>00</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Fireball Weapon [ MC ]" Description="Fireball Weapon [ MC ]">
-    <Cheatline>
-      <Offset>1C00021</Offset>
-      <Section>0</Section>
-      <ValueOn>01</ValueOn>
-      <ValueOff>00</ValueOff>
+      <ValueOn>E9-16-9C-1D-81-90-90-90</ValueOn>
+      <ValueOff>48-8B-44-24-F8-8B-40-48</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Health" Description="Infinite Health">
@@ -38,6 +28,20 @@
       <Section>0</Section>
       <ValueOn>E9-41-A9-E1-80</ValueOn>
       <ValueOff>C5-FA-10-40-10</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max Health" Description="Max Health">
+    <Cheatline>
+      <Offset>18A3DA8</Offset>
+      <Section>0</Section>
+      <ValueOn>48-8B-44-24-F8-C7-40-14-06-00-00-00-8B-40-14-E9-C1-02-CA-7E</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>80544075</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-2E-FD-35-81-90-90-90</ValueOn>
+      <ValueOff>48-8B-44-24-F8-8B-40-14</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="Infinite Helium" Description="Infinite Helium">
@@ -68,34 +72,6 @@
       <ValueOff>48-8B-44-24-F8-8B-40-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Mastercode Weapon ( must be activated for [ MC ] Cheats )" Description="Mastercode Weapon ( must be activated for [ MC ] Cheats )">
-    <Cheatline>
-      <Offset>18A3E20</Offset>
-      <Section>0</Section>
-      <ValueOn>48-8B-44-24-F8-80-3D-F4-C1-35-00-01-75-07-C7-40-48-00-00-00-00-80-3D-E5-C1-35-00-01-75-07-C7-40-48-01-00-00-00-80-3D-D6-C1-35-00-01-75-07-C7-40-48-02-00-00-00-80-3D-C7-C1-35-00-01-75-07-C7-40-48-04-00-00-00-80-3D-B8-C1-35-00-01-75-07-C7-40-48-03-00-00-00-8B-40-48-E9-90-63-E2-7E</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>806CA205</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-16-9C-1D-81-90-90-90</ValueOn>
-      <ValueOff>48-8B-44-24-F8-8B-40-48</ValueOff>
-    </Cheatline>
-  </Cheat>
-  <Cheat Text="Max Ballons" Description="Max Ballons">
-    <Cheatline>
-      <Offset>18A3DFA</Offset>
-      <Section>0</Section>
-      <ValueOn>48-8B-44-24-F8-C7-40-1C-0C-00-00-00-8B-40-1C-E9-AF-02-CA-7E</ValueOn>
-      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
-    </Cheatline>
-    <Cheatline>
-      <Offset>805440B5</Offset>
-      <Section>0</Section>
-      <ValueOn>E9-40-FD-35-81-90-90-90</ValueOn>
-      <ValueOff>48-8B-44-24-F8-8B-40-1C</ValueOff>
-    </Cheatline>
-  </Cheat>
   <Cheat Text="Max Cookies" Description="Max Cookies">
     <Cheatline>
       <Offset>18A3DE6</Offset>
@@ -110,18 +86,18 @@
       <ValueOff>48-8B-44-24-F8-8B-40-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Health" Description="Max Health">
+  <Cheat Text="Max Ballons" Description="Max Ballons">
     <Cheatline>
-      <Offset>18A3DA8</Offset>
+      <Offset>18A3DFA</Offset>
       <Section>0</Section>
-      <ValueOn>48-8B-44-24-F8-C7-40-14-06-00-00-00-8B-40-14-E9-C1-02-CA-7E</ValueOn>
+      <ValueOn>48-8B-44-24-F8-C7-40-1C-0C-00-00-00-8B-40-1C-E9-AF-02-CA-7E</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
-      <Offset>80544075</Offset>
+      <Offset>805440B5</Offset>
       <Section>0</Section>
-      <ValueOn>E9-2E-FD-35-81-90-90-90</ValueOn>
-      <ValueOff>48-8B-44-24-F8-8B-40-14</ValueOff>
+      <ValueOn>E9-40-FD-35-81-90-90-90</ValueOn>
+      <ValueOff>48-8B-44-24-F8-8B-40-1C</ValueOff>
     </Cheatline>
   </Cheat>
   <Cheat Text="One Hit Kill" Description="One Hit Kill">
@@ -146,9 +122,33 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="Fireball Weapon [ MC ]" Description="Fireball Weapon [ MC ]">
+    <Cheatline>
+      <Offset>1C00021</Offset>
+      <Section>0</Section>
+      <ValueOn>01</ValueOn>
+      <ValueOff>00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Crystal Weapon [ MC ]" Description="Crystal Weapon [ MC ]">
+    <Cheatline>
+      <Offset>1C00022</Offset>
+      <Section>0</Section>
+      <ValueOn>01</ValueOn>
+      <ValueOff>00</ValueOff>
+    </Cheatline>
+  </Cheat>
   <Cheat Text="Thunder Weapon [ MC ]" Description="Thunder Weapon [ MC ]">
     <Cheatline>
       <Offset>1C00023</Offset>
+      <Section>0</Section>
+      <ValueOn>01</ValueOn>
+      <ValueOff>00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Defense Weapon [ MC ]" Description="Defense Weapon [ MC ]">
+    <Cheatline>
+      <Offset>1C00024</Offset>
       <Section>0</Section>
       <ValueOn>01</ValueOn>
       <ValueOff>00</ValueOff>

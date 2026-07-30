@@ -21,6 +21,17 @@
       ]
     },
     {
+      "name": "Switch Health For (Narcos) / (MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5A0F807",
+          "on": "740D",
+          "off": "750D"
+        }
+      ]
+    },
+    {
       "name": "Inf Skill Points",
       "type": "checkbox",
       "memory": [
@@ -28,22 +39,6 @@
           "offset": "671217",
           "on": "4529F6",
           "off": "4489F2"
-        }
-      ]
-    },
-    {
-      "name": "Max Money (On Spend)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5A0F833",
-          "on": "4883C0FC41817B0C000080417505BF7F96184B41893C0BE9ED5815FB",
-          "off": "00000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "B65134",
-          "on": "E9FAA6EA04909090",
-          "off": "4883C0FC41893C0B"
         }
       ]
     },
@@ -64,13 +59,18 @@
       ]
     },
     {
-      "name": "Switch Health For (Narcos) / (MC)",
+      "name": "Max Money (On Spend)",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "5A0F807",
-          "on": "740D",
-          "off": "750D"
+          "offset": "5A0F833",
+          "on": "4883C0FC41817B0C000080417505BF7F96184B41893C0BE9ED5815FB",
+          "off": "00000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "B65134",
+          "on": "E9FAA6EA04909090",
+          "off": "4883C0FC41893C0B"
         }
       ]
     }

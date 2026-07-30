@@ -5,28 +5,34 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "0 Enemy KI (Showing Bar/Lock-On)",
+      "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "13F7836",
-          "on": "C7404000000000C5FA104840E93F4E25FF",
-          "off": "0000000000000000000000000000000000"
+          "offset": "13F7800",
+          "on": "498B46184989462089C1E900C22BFF",
+          "off": "000000000000000000000000000000"
         },
         {
-          "offset": "64C681",
-          "on": "E9B0B1DA00",
-          "off": "C5FA104840"
+          "offset": "6B3A09",
+          "on": "E9F23DD40090",
+          "off": "498B462089C1"
+        }
+      ]
+    },
+    {
+      "name": "Infinite KI",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "13F780F",
+          "on": "C5FA104704C5FA1107F30F584710E90743DBFE",
+          "off": "00000000000000000000000000000000000000"
         },
         {
-          "offset": "13F78F3",
-          "on": "C7434000000000C5FA104B40E9DAF816FF",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "5671D9",
-          "on": "E91507E900",
-          "off": "C5FA104B40"
+          "offset": "1ABB24",
+          "on": "E9E6BC2401",
+          "off": "C5FA584710"
         }
       ]
     },
@@ -53,6 +59,48 @@
           "offset": "566CF7",
           "on": "E9E30BE900909090",
           "off": "498B4F20498B4718"
+        }
+      ]
+    },
+    {
+      "name": "0 Enemy KI (Showing Bar/Lock-On)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "13F7836",
+          "on": "C7404000000000C5FA104840E93F4E25FF",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "64C681",
+          "on": "E9B0B1DA00",
+          "off": "C5FA104840"
+        },
+        {
+          "offset": "13F78F3",
+          "on": "C7434000000000C5FA104B40E9DAF816FF",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "5671D9",
+          "on": "E91507E900",
+          "off": "C5FA104B40"
+        }
+      ]
+    },
+    {
+      "name": "No Effects",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "13F7904",
+          "on": "41C7460C00000000C4C17A10460CE9C931DDFE",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1CAADA",
+          "on": "E925CE220190",
+          "off": "C4C17A11460C"
         }
       ]
     },
@@ -89,70 +137,6 @@
           "offset": "1AC2CB",
           "on": "E9B0B52401",
           "off": "C5FA115350"
-        }
-      ]
-    },
-    {
-      "name": "Inf Ninjutsu Capacity",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "13F78B9",
-          "on": "41BE3F420F004589B4241C500B00E9C53834FF",
-          "off": "00000000000000000000000000000000000000"
-        },
-        {
-          "offset": "73B189",
-          "on": "E92BC7CB00909090",
-          "off": "4503B4241C500B00"
-        }
-      ]
-    },
-    {
-      "name": "Inf Onmyo Magic Capacity",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "13F78CC",
-          "on": "41BE3F420F004589B42420500B00E9D23734FF",
-          "off": "00000000000000000000000000000000000000"
-        },
-        {
-          "offset": "73B0A9",
-          "on": "E91EC8CB00909090",
-          "off": "4503B42420500B00"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "13F7800",
-          "on": "498B46184989462089C1E900C22BFF",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "6B3A09",
-          "on": "E9F23DD40090",
-          "off": "498B462089C1"
-        }
-      ]
-    },
-    {
-      "name": "Infinite KI",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "13F780F",
-          "on": "C5FA104704C5FA1107F30F584710E90743DBFE",
-          "off": "00000000000000000000000000000000000000"
-        },
-        {
-          "offset": "1ABB24",
-          "on": "E9E6BC2401",
-          "off": "C5FA584710"
         }
       ]
     },
@@ -200,6 +184,55 @@
       ]
     },
     {
+      "name": "Max Items on Use",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "13F7847",
+          "on": "66B86300664389842E18020000E9F2D8F0FE",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "305142",
+          "on": "E900270F0190909090",
+          "off": "664389842E18020000"
+        }
+      ]
+    },
+    {
+      "name": "x2 Items on Use",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3050C9",
+          "on": "01F8",
+          "off": "29F8"
+        }
+      ]
+    },
+    {
+      "name": "x2 Special Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "305F69",
+          "on": "01F2",
+          "off": "01F2"
+        }
+      ]
+    },
+    {
+      "name": "x2 Materials on Use",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3056C9",
+          "on": "01F2",
+          "off": "29F2"
+        }
+      ]
+    },
+    {
       "name": "Max Amrita on Use",
       "type": "checkbox",
       "memory": [
@@ -216,18 +249,13 @@
       ]
     },
     {
-      "name": "Max Glory on Trade",
+      "name": "x2 Amrita on Use",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "13F7928",
-          "on": "BAFFC99A3B8990F4010000E90220F0FE",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "2F9934",
-          "on": "E9EFDF0F0190",
-          "off": "8990F4010000"
+          "offset": "63FAE6",
+          "on": "490386A8000000",
+          "off": "492B86A8000000"
         }
       ]
     },
@@ -248,71 +276,6 @@
       ]
     },
     {
-      "name": "Max Items on Use",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "13F7847",
-          "on": "66B86300664389842E18020000E9F2D8F0FE",
-          "off": "000000000000000000000000000000000000"
-        },
-        {
-          "offset": "305142",
-          "on": "E900270F0190909090",
-          "off": "664389842E18020000"
-        }
-      ]
-    },
-    {
-      "name": "No Effects",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "13F7904",
-          "on": "41C7460C00000000C4C17A10460CE9C931DDFE",
-          "off": "00000000000000000000000000000000000000"
-        },
-        {
-          "offset": "1CAADA",
-          "on": "E925CE220190",
-          "off": "C4C17A11460C"
-        }
-      ]
-    },
-    {
-      "name": "x2 Agyo/Ungyo Prestige Points",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "6E995F",
-          "on": "43FF8CA6A4C21500",
-          "off": "43FF84A6A4C21500"
-        }
-      ]
-    },
-    {
-      "name": "x2 Amrita on Use",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "63FAE6",
-          "on": "490386A8000000",
-          "off": "492B86A8000000"
-        }
-      ]
-    },
-    {
-      "name": "x2 Glory on Trade",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2F9928",
-          "on": "01FA",
-          "off": "29FA"
-        }
-      ]
-    },
-    {
       "name": "x2 Gold on Spend",
       "type": "checkbox",
       "memory": [
@@ -329,24 +292,40 @@
       ]
     },
     {
-      "name": "x2 Items on Use",
+      "name": "Max Glory on Trade",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "3050C9",
-          "on": "01F8",
-          "off": "29F8"
+          "offset": "13F7928",
+          "on": "BAFFC99A3B8990F4010000E90220F0FE",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "2F9934",
+          "on": "E9EFDF0F0190",
+          "off": "8990F4010000"
         }
       ]
     },
     {
-      "name": "x2 Materials on Use",
+      "name": "x2 Glory on Trade",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "3056C9",
-          "on": "01F2",
-          "off": "29F2"
+          "offset": "2F9928",
+          "on": "01FA",
+          "off": "29FA"
+        }
+      ]
+    },
+    {
+      "name": "x2 Samurai SP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6DD370",
+          "on": "29B7F4E50A00",
+          "off": "01B7F4E50A00"
         }
       ]
     },
@@ -373,24 +352,45 @@
       ]
     },
     {
-      "name": "x2 Samurai SP",
+      "name": "x2 Agyo/Ungyo Prestige Points",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "6DD370",
-          "on": "29B7F4E50A00",
-          "off": "01B7F4E50A00"
+          "offset": "6E995F",
+          "on": "43FF8CA6A4C21500",
+          "off": "43FF84A6A4C21500"
         }
       ]
     },
     {
-      "name": "x2 Special Items",
+      "name": "Inf Ninjutsu Capacity",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "305F69",
-          "on": "01F2",
-          "off": "01F2"
+          "offset": "13F78B9",
+          "on": "41BE3F420F004589B4241C500B00E9C53834FF",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "73B189",
+          "on": "E92BC7CB00909090",
+          "off": "4503B4241C500B00"
+        }
+      ]
+    },
+    {
+      "name": "Inf Onmyo Magic Capacity",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "13F78CC",
+          "on": "41BE3F420F004589B42420500B00E9D23734FF",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "73B0A9",
+          "on": "E91EC8CB00909090",
+          "off": "4503B42420500B00"
         }
       ]
     }

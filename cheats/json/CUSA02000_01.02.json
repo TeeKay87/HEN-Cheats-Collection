@@ -5,6 +5,44 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Master",
+      "type": "master",
+      "memory": [
+        {
+          "offset": "48B3800",
+          "on": "415149B900000000070000004D39CF41597E0B418907418906E96C44D3FD9090909090909090909090909090909090909090909090909090EBD9418B4704EBD3B800000000EBCC",
+          "off": ""
+        },
+        {
+          "offset": "25E7C84",
+          "on": "E977BB2C0290",
+          "off": ""
+        }
+      ]
+    },
+    {
+      "name": "God Mode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "48B381E",
+          "on": "4181BF980000002B020000740F",
+          "off": "90909090909090909090909090"
+        }
+      ]
+    },
+    {
+      "name": "Easy Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "48B382B",
+          "on": "4181BF980000002B0200007508",
+          "off": "90909090909090909090909090"
+        }
+      ]
+    },
+    {
       "name": "Add 2000 XP",
       "type": "checkbox",
       "memory": [
@@ -21,28 +59,6 @@
       ]
     },
     {
-      "name": "Easy Kill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "48B382B",
-          "on": "4181BF980000002B0200007508",
-          "off": "90909090909090909090909090"
-        }
-      ]
-    },
-    {
-      "name": "God Mode",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "48B381E",
-          "on": "4181BF980000002B020000740F",
-          "off": "90909090909090909090909090"
-        }
-      ]
-    },
-    {
       "name": "Inf Skill Points",
       "type": "checkbox",
       "memory": [
@@ -55,22 +71,6 @@
           "offset": "25E7F7C",
           "on": "E901B92C02",
           "off": "8D48FF890B"
-        }
-      ]
-    },
-    {
-      "name": "Master",
-      "type": "master",
-      "memory": [
-        {
-          "offset": "48B3800",
-          "on": "415149B900000000070000004D39CF41597E0B418907418906E96C44D3FD9090909090909090909090909090909090909090909090909090EBD9418B4704EBD3B800000000EBCC",
-          "off": ""
-        },
-        {
-          "offset": "25E7C84",
-          "on": "E977BB2C0290",
-          "off": ""
         }
       ]
     }

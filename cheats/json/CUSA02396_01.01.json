@@ -5,13 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Hearts",
+      "name": "Max Score Multiplier",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "F51976",
-          "on": "9090",
-          "off": "8908"
+          "offset": "EDCE6E",
+          "on": "41014630",
+          "off": "41894630"
         }
       ]
     },
@@ -27,24 +27,24 @@
       ]
     },
     {
-      "name": "Max Score Multiplier",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "EDCE6E",
-          "on": "41014630",
-          "off": "41894630"
-        }
-      ]
-    },
-    {
       "name": "Infinite Hearts",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "B51976",
+          "offset": "F51976",
           "on": "9090",
           "off": "8908"
+        }
+      ]
+    },
+    {
+      "name": "Max Score Multiplier",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "ADCE6E",
+          "on": "41014630",
+          "off": "41894630"
         }
       ]
     },
@@ -60,13 +60,13 @@
       ]
     },
     {
-      "name": "Max Score Multiplier",
+      "name": "Infinite Hearts",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "ADCE6E",
-          "on": "41014630",
-          "off": "41894630"
+          "offset": "B51976",
+          "on": "9090",
+          "off": "8908"
         }
       ]
     }

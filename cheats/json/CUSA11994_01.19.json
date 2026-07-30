@@ -5,44 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Focus",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3BEBBD0",
-          "on": "C5FA1084C714010000C5FA1184C710010000C5FA1084C710010000E9E71093FC526564646576696C3832202D20465720392E3030",
-          "off": "0000000000000000000000000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "51CCCE",
-          "on": "E9FDEE6C0390909090",
-          "off": "C5FA1084C710010000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health [ MC ]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3FC0021",
-          "on": "01",
-          "off": "00"
-        }
-      ]
-    },
-    {
-      "name": "Load Position [ MC ]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3FC0023",
-          "on": "01",
-          "off": "00"
-        }
-      ]
-    },
-    {
       "name": "Mastercode ( must be activate for [ MC ] Cheats )",
       "type": "checkbox",
       "memory": [
@@ -69,18 +31,88 @@
       ]
     },
     {
-      "name": "Max Benchmarks",
+      "name": "Infinite Health [ MC ]",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "3BEBC5A",
-          "on": "C7400C0050C347C5FA10400CE9C5D1F1FC",
-          "off": "0000000000000000000000000000000000"
+          "offset": "3FC0021",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Max Health [ MC ]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3FC0020",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Focus",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3BEBBD0",
+          "on": "C5FA1084C714010000C5FA1184C710010000C5FA1084C710010000E9E71093FC526564646576696C3832202D20465720392E3030",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "B08E2B",
-          "on": "E92A2E0E03",
-          "off": "C5FA10400C"
+          "offset": "51CCCE",
+          "on": "E9FDEE6C0390909090",
+          "off": "C5FA1084C710010000"
+        }
+      ]
+    },
+    {
+      "name": "Stealth Mode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3BEBC04",
+          "on": "0F57C0C4C17A1144242CE9F20EC0FC",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "7ECAFE",
+          "on": "E901F13F039090",
+          "off": "C4C17A1144242C"
+        }
+      ]
+    },
+    {
+      "name": "Max XP ( on gain )",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3BEBC13",
+          "on": "41C78548B80000400D0300E9312358FC",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "16DF4D",
+          "on": "E9C1DCA7039090",
+          "off": "41899D48B80000"
+        }
+      ]
+    },
+    {
+      "name": "Max Skillpoints",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3BEBC23",
+          "on": "C78350B800003200000083BB50B8000000E9832558FC",
+          "off": "00000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "16E1B5",
+          "on": "E969DAA7039090",
+          "off": "83BB50B8000000"
         }
       ]
     },
@@ -101,17 +133,6 @@
       ]
     },
     {
-      "name": "Max Health [ MC ]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3FC0020",
-          "on": "01",
-          "off": "00"
-        }
-      ]
-    },
-    {
       "name": "Max Ressources \u002B Shoots",
       "type": "checkbox",
       "memory": [
@@ -128,6 +149,44 @@
       ]
     },
     {
+      "name": "Save Position [ MC ]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3FC0022",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Load Position [ MC ]",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3FC0023",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Max Benchmarks",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3BEBC5A",
+          "on": "C7400C0050C347C5FA10400CE9C5D1F1FC",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "B08E2B",
+          "on": "E92A2E0E03",
+          "off": "C5FA10400C"
+        }
+      ]
+    },
+    {
       "name": "Max Score ( on gain )",
       "type": "checkbox",
       "memory": [
@@ -140,22 +199,6 @@
           "offset": "827477",
           "on": "E9EF473C03",
           "off": "C5FA114F54"
-        }
-      ]
-    },
-    {
-      "name": "Max Skillpoints",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3BEBC23",
-          "on": "C78350B800003200000083BB50B8000000E9832558FC",
-          "off": "00000000000000000000000000000000000000000000"
-        },
-        {
-          "offset": "16E1B5",
-          "on": "E969DAA7039090",
-          "off": "83BB50B8000000"
         }
       ]
     },
@@ -182,49 +225,6 @@
           "offset": "6DABC5",
           "on": "E9C6105103",
           "off": "C5FA114364"
-        }
-      ]
-    },
-    {
-      "name": "Max XP ( on gain )",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3BEBC13",
-          "on": "41C78548B80000400D0300E9312358FC",
-          "off": "00000000000000000000000000000000"
-        },
-        {
-          "offset": "16DF4D",
-          "on": "E9C1DCA7039090",
-          "off": "41899D48B80000"
-        }
-      ]
-    },
-    {
-      "name": "Save Position [ MC ]",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3FC0022",
-          "on": "01",
-          "off": "00"
-        }
-      ]
-    },
-    {
-      "name": "Stealth Mode",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3BEBC04",
-          "on": "0F57C0C4C17A1144242CE9F20EC0FC",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "7ECAFE",
-          "on": "E901F13F039090",
-          "off": "C4C17A1144242C"
         }
       ]
     }

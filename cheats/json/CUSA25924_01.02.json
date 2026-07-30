@@ -5,22 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Freeze Timer",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "18D7DB0",
-          "on": "90E9D51A847F526564646576696C3832202D20465720392E3030",
-          "off": "000000000000"
-        },
-        {
-          "offset": "81119886",
-          "on": "E925E57B80",
-          "off": "C5FA11401C"
-        }
-      ]
-    },
-    {
       "name": "Invincible",
       "type": "checkbox",
       "memory": [
@@ -65,6 +49,22 @@
           "offset": "8111763E",
           "on": "E99D077C809090",
           "off": "8B4C24F489481C"
+        }
+      ]
+    },
+    {
+      "name": "Freeze Timer",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "18D7DB0",
+          "on": "90E9D51A847F526564646576696C3832202D20465720392E3030",
+          "off": "000000000000"
+        },
+        {
+          "offset": "81119886",
+          "on": "E925E57B80",
+          "off": "C5FA11401C"
         }
       ]
     }

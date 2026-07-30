@@ -5,65 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Freeze Timer",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "16CA4F7",
-          "on": "9090909090",
-          "off": "C5FA104308"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Boost ( Sonic Simulator )",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2B6BEC0",
-          "on": "C7400C00004842C5FA10400CE96692ACFE",
-          "off": "0000000000000000000000000000000000"
-        },
-        {
-          "offset": "1635132",
-          "on": "E9896D5301",
-          "off": "C5FA10400C"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Lives",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "16C983E",
-          "on": "B964000000909090",
-          "off": "8B4808BB01000000"
-        },
-        {
-          "offset": "16CB1FF",
-          "on": "C740086400000090909090",
-          "off": "894808498BBC24A0010000"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Speed Boost",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "2B6BF90",
-          "on": "41C7460C0000C842C4C17A10460CE9B126D2FE",
-          "off": "00000000000000000000000000000000000000"
-        },
-        {
-          "offset": "188E64E",
-          "on": "E93DD92D0190",
-          "off": "C4C17A10460C"
-        }
-      ]
-    },
-    {
       "name": "Invincibility ( after first hit )",
       "type": "checkbox",
       "memory": [
@@ -96,18 +37,34 @@
       ]
     },
     {
-      "name": "Max Score Points [S-Rank] ( on gain )",
+      "name": "Infinite Speed Boost",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "2B6BEA0",
-          "on": "42C784BF74020000FFE0F505E923C9B5FE",
-          "off": "0000000000000000000000000000000000"
+          "offset": "2B6BF90",
+          "on": "41C7460C0000C842C4C17A10460CE9B126D2FE",
+          "off": "00000000000000000000000000000000000000"
         },
         {
-          "offset": "16C87CC",
-          "on": "E9CF364A01909090",
-          "off": "428984BF74020000"
+          "offset": "188E64E",
+          "on": "E93DD92D0190",
+          "off": "C4C17A10460C"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Lives",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "16C983E",
+          "on": "B964000000909090",
+          "off": "8B4808BB01000000"
+        },
+        {
+          "offset": "16CB1FF",
+          "on": "C740086400000090909090",
+          "off": "894808498BBC24A0010000"
         }
       ]
     },
@@ -130,6 +87,49 @@
           "offset": "16CA506",
           "on": "41C7842468020000CDCCCC3D9090",
           "off": "C4C17A118C2468020000C5F057C9"
+        }
+      ]
+    },
+    {
+      "name": "Freeze Timer",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "16CA4F7",
+          "on": "9090909090",
+          "off": "C5FA104308"
+        }
+      ]
+    },
+    {
+      "name": "Max Score Points [S-Rank] ( on gain )",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2B6BEA0",
+          "on": "42C784BF74020000FFE0F505E923C9B5FE",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "16C87CC",
+          "on": "E9CF364A01909090",
+          "off": "428984BF74020000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Boost ( Sonic Simulator )",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2B6BEC0",
+          "on": "C7400C00004842C5FA10400CE96692ACFE",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "1635132",
+          "on": "E9896D5301",
+          "off": "C5FA10400C"
         }
       ]
     }

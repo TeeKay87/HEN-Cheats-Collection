@@ -5,17 +5,6 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "1 Hit Kill (MC)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "34BEB06",
-          "on": "750B",
-          "off": "750D"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health / 1 Hit (Master Code)",
       "type": "checkbox",
       "memory": [
@@ -28,6 +17,17 @@
           "offset": "331F1E",
           "on": "E9DDCB1803",
           "off": "41896C242C"
+        }
+      ]
+    },
+    {
+      "name": "1 Hit Kill (MC)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "34BEB06",
+          "on": "750B",
+          "off": "750D"
         }
       ]
     },
@@ -48,17 +48,6 @@
       ]
     },
     {
-      "name": "Infinite Lives For All Players",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "3267FE",
-          "on": "90909090",
-          "off": "FF4C0B30"
-        }
-      ]
-    },
-    {
       "name": "No Decreased Star",
       "type": "checkbox",
       "memory": [
@@ -66,6 +55,17 @@
           "offset": "2EB43A",
           "on": "909090",
           "off": "896920"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Lives For All Players",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3267FE",
+          "on": "90909090",
+          "off": "FF4C0B30"
         }
       ]
     }

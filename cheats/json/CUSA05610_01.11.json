@@ -5,6 +5,17 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1D1CE3E",
+          "on": "C4C17A11748CCC",
+          "off": "C4C17A116C8CCC"
+        }
+      ]
+    },
+    {
       "name": "Infinite Ammo / No Relaod",
       "type": "checkbox",
       "memory": [
@@ -21,6 +32,17 @@
       ]
     },
     {
+      "name": "Infinite Suppressor",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1FA5CBD",
+          "on": "408A7C7205",
+          "off": "408A7C7204"
+        }
+      ]
+    },
+    {
       "name": "Infinite Grenades",
       "type": "checkbox",
       "memory": [
@@ -33,28 +55,6 @@
           "offset": "2164F44",
           "on": "E9B751380190",
           "off": "39CE660F46CE"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Health",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1D1CE3E",
-          "on": "C4C17A11748CCC",
-          "off": "C4C17A116C8CCC"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Suppressor",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "1FA5CBD",
-          "on": "408A7C7205",
-          "off": "408A7C7204"
         }
       ]
     },

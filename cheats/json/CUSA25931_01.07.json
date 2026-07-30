@@ -5,18 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Air under Water",
+      "name": "Max Lives",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "198FE00",
-          "on": "C5FA104370C5FA114374E903FC9D7F",
+          "offset": "198FDB0",
+          "on": "C783D000000004000000E93044F87E526564646576696C3832202D20465720392E3030",
           "off": "000000000000000000000000000000"
         },
         {
-          "offset": "8136FA0D",
-          "on": "E9EE036280",
-          "off": "C5FA114374"
+          "offset": "809141E8",
+          "on": "E9C3BB07819090",
+          "off": "4489B3D0000000"
         }
       ]
     },
@@ -37,22 +37,6 @@
       ]
     },
     {
-      "name": "Max Lives",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "198FDB0",
-          "on": "C783D000000004000000E93044F87E526564646576696C3832202D20465720392E3030",
-          "off": "000000000000000000000000000000"
-        },
-        {
-          "offset": "809141E8",
-          "on": "E9C3BB07819090",
-          "off": "4489B3D0000000"
-        }
-      ]
-    },
-    {
       "name": "Max Money ( on gain )",
       "type": "checkbox",
       "memory": [
@@ -65,6 +49,22 @@
           "offset": "809159D1",
           "on": "E90BA407819090",
           "off": "4189B6B8000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Air under Water",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "198FE00",
+          "on": "C5FA104370C5FA114374E903FC9D7F",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "8136FA0D",
+          "on": "E9EE036280",
+          "off": "C5FA114374"
         }
       ]
     }

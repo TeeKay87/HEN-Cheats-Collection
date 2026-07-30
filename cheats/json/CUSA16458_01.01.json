@@ -5,13 +5,24 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Fast Alcemy Lv",
+      "name": "Max Money on Purchase",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "1F6803",
-          "on": "891E",
-          "off": "8916"
+          "offset": "4C83B2",
+          "on": "4D893F",
+          "off": "418907"
+        }
+      ]
+    },
+    {
+      "name": "Stock In shop duplicated don\u0027t exceed 99 it will be negative",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4BF7D6",
+          "on": "40003441",
+          "off": "40283441"
         }
       ]
     },
@@ -27,13 +38,13 @@
       ]
     },
     {
-      "name": "Max Money on Purchase",
+      "name": "Fast Alcemy Lv",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "4C83B2",
-          "on": "4D893F",
-          "off": "418907"
+          "offset": "1F6803",
+          "on": "891E",
+          "off": "8916"
         }
       ]
     },
@@ -45,17 +56,6 @@
           "offset": "453EA8",
           "on": "41034C8D0D909090",
           "off": "41038C8590000000"
-        }
-      ]
-    },
-    {
-      "name": "Stock In shop duplicated don\u0027t exceed 99 it will be negative",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "4BF7D6",
-          "on": "40003441",
-          "off": "40283441"
         }
       ]
     }

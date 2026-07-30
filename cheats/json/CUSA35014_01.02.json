@@ -5,6 +5,28 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Invincible",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80EE204F",
+          "on": "9090909090",
+          "off": "E87C8EFFFF"
+        }
+      ]
+    },
+    {
+      "name": "InfSkill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "81A68FA6",
+          "on": "9090909090",
+          "off": "E815DDFFFF"
+        }
+      ]
+    },
+    {
       "name": "InfBoneSand",
       "type": "checkbox",
       "memory": [
@@ -37,28 +59,6 @@
       ]
     },
     {
-      "name": "InfSkill",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "81A68FA6",
-          "on": "9090909090",
-          "off": "E815DDFFFF"
-        }
-      ]
-    },
-    {
-      "name": "Invincible",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "80EE204F",
-          "on": "9090909090",
-          "off": "E87C8EFFFF"
-        }
-      ]
-    },
-    {
       "name": "Infinite Health",
       "type": "checkbox",
       "memory": [
@@ -71,33 +71,6 @@
           "offset": "8058D796",
           "on": "E955DD3B81",
           "off": "C5FA11405C"
-        }
-      ]
-    },
-    {
-      "name": "Infinite Skill Points (on spend)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "194BBD0",
-          "on": "8B4C24F4C6402063E9A819C17E",
-          "off": "00000000000000000000000000"
-        },
-        {
-          "offset": "8055D57E",
-          "on": "E94DE63E819090",
-          "off": "8B4C24F4894820"
-        }
-      ]
-    },
-    {
-      "name": "Instant/Max MP fill (turn off when entering the mirror to get max bar)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "4803B2",
-          "on": "89888C000000",
-          "off": "898888000000"
         }
       ]
     },
@@ -118,6 +91,22 @@
       ]
     },
     {
+      "name": "Infinite Skill Points (on spend)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "194BBD0",
+          "on": "8B4C24F4C6402063E9A819C17E",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "8055D57E",
+          "on": "E94DE63E819090",
+          "off": "8B4C24F4894820"
+        }
+      ]
+    },
+    {
       "name": "Max Glands (on spend)",
       "type": "checkbox",
       "memory": [
@@ -130,6 +119,17 @@
           "offset": "8073FF92",
           "on": "E989BC208190",
           "off": "898880000000"
+        }
+      ]
+    },
+    {
+      "name": "Instant/Max MP fill (turn off when entering the mirror to get max bar)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4803B2",
+          "on": "89888C000000",
+          "off": "898888000000"
         }
       ]
     }
