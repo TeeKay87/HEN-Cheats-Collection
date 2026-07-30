@@ -1,0 +1,141 @@
+{
+  "name": "Scars Above",
+  "id": "PPSA08597",
+  "version": "01.000.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "GodMode-OHK-Inf stamina-no status altered",
+      "description": "if you want no hittable just activate toogle\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "15B1EC3",
+          "on": "9090909090",
+          "off": "E87841FCFF",
+          "expected": "E87841FCFF"
+        },
+        {
+          "offset": "16E91B6",
+          "on": "90909090909090",
+          "off": "C4A17A11442004",
+          "expected": "C4A17A11442004"
+        }
+      ]
+    },
+    {
+      "name": "Refill charger when aiming",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "62F7600",
+          "on": "41C744DC1824000000418B7CDC18E97C0139FB00000000000000000000000000",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "168778A",
+          "on": "E971FEC604",
+          "off": "418B7CDC18"
+        }
+      ]
+    },
+    {
+      "name": "Max ability point on use",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "62F7633",
+          "on": "4429D0B8E7030000894318E9A3E638FB00000000000000000000000000",
+          "off": "0000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1685CE0",
+          "on": "E94E19C70490",
+          "off": "4429D0894318"
+        }
+      ]
+    },
+    {
+      "name": "Use rapid item slot - refill fiber",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "62F7663",
+          "on": "4C89EF41BE7800000045897718E9A7E138FB0000000000000000000000",
+          "off": "0000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1685815",
+          "on": "E9491EC7049090",
+          "off": "4C89EF45897718"
+        }
+      ]
+    },
+    {
+      "name": "Max item on take",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "62F7695",
+          "on": "48898560FDFFFF41BF28000000448938E9C7AB38FB000000000000",
+          "off": "000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1682267",
+          "on": "E92954C7049090909090",
+          "off": "48898560FDFFFF448938"
+        }
+      ]
+    },
+    {
+      "name": "Inf ammo ",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "16AFAC4",
+          "on": "90909090909090",
+          "off": "41FF8DC0020000",
+          "expected": "41FF8DC0020000"
+        },
+        {
+          "offset": "16B5D74",
+          "on": "90909090909090",
+          "off": "41898DC0020000",
+          "expected": "41898DC0020000"
+        },
+        {
+          "offset": "16BB83E",
+          "on": "90909090909090",
+          "off": "41FF8DC0020000",
+          "expected": "41FF8DC0020000"
+        },
+        {
+          "offset": "16BEDD2",
+          "on": "90909090909090",
+          "off": "41FF8FC0020000",
+          "expected": "41FF8FC0020000"
+        },
+        {
+          "offset": "16C6CC1",
+          "on": "9090909090909090",
+          "off": "41898C24C0020000",
+          "expected": "41898C24C0020000"
+        },
+        {
+          "offset": "16B2BA1",
+          "on": "9090909090909090",
+          "off": "41898C24C0020000",
+          "expected": "41898C24C0020000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Nobunaga-ITA"
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "name": "Total Chaos",
+  "id": "PPSA32393",
+  "version": "01.002.002",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "803234B0",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "Inf Stamina",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80322BBC",
+          "on": "909090909090",
+          "off": "C4C17A115E24"
+        },
+        {
+          "offset": "803232A0",
+          "on": "9090909090",
+          "off": "C5FA115B24"
+        },
+        {
+          "offset": "80322F4A",
+          "on": "909090909090",
+          "off": "C4C17A115E24"
+        }
+      ]
+    },
+    {
+      "name": "No Weight",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "802BBD90",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "No Hunger",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80325150",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "Inf Durability",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8045A330",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "Inf Items At Use",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1C37000",
+          "on": "B963000000894850E93353687E",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "802BC333",
+          "on": "E9C8AC97819090909090909090",
+          "off": "8B485083F9027C15FFC9894850"
+        }
+      ]
+    },
+    {
+      "name": "Inf Items At Pick",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1C3702D",
+          "on": "8B4950B963000000894850E90D15687E",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "802B8544",
+          "on": "E9E4EA978190",
+          "off": "8B4950014850"
+        }
+      ]
+    },
+    {
+      "name": "Inf Ammo",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8046021A",
+          "on": "909090909090",
+          "off": "8991A0000000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

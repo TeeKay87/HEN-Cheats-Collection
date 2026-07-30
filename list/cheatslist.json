@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-30T14:16:54.4309017Z",
+  "generatedUtc": "2026-07-30T21:22:12.5699544Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -116855,6 +116855,44 @@
       }
     },
     {
+      "id": "PPSA08597",
+      "version": "01.000.000",
+      "title": "Scars Above",
+      "idLower": "ppsa08597",
+      "titleLower": "scars above",
+      "cheatsTotal": 6,
+      "creators": [
+        "Nobunaga-ITA"
+      ],
+      "creatorsLower": [
+        "nobunaga-ita"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 6,
+          "cheats": [
+            "GodMode-OHK-Inf stamina-no status altered",
+            "Refill charger when aiming",
+            "Max ability point on use",
+            "Use rapid item slot - refill fiber",
+            "Max item on take",
+            "Inf ammo"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
       "id": "PPSA08666",
       "version": "01.040.000",
       "title": "Final Fantasy VII Rebirth",
@@ -121873,6 +121911,46 @@
             "Infinite Horse Gallop",
             "Max XP/Levels"
           ]
+        }
+      }
+    },
+    {
+      "id": "PPSA32393",
+      "version": "01.002.002",
+      "title": "Total Chaos",
+      "idLower": "ppsa32393",
+      "titleLower": "total chaos",
+      "cheatsTotal": 8,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 8,
+          "cheats": [
+            "Inf Hp",
+            "Inf Stamina",
+            "No Weight",
+            "No Hunger",
+            "Inf Durability",
+            "Inf Items At Use",
+            "Inf Items At Pick",
+            "Inf Ammo"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },

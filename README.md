@@ -49,6 +49,8 @@ The website lets you:
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-07-30 | ADDED | PPSA08597 | 01.000.000 | [Scars Above](https://hencheats.vercel.app/#PPSA08597-01.000.000) |
+| 2026-07-30 | ADDED | PPSA32393 | 01.002.002 | [Total Chaos](https://hencheats.vercel.app/#PPSA32393-01.002.002) |
 | 2026-07-30 | ADDED | PPSA01949 | 01.000.004 | [Control: Ultimate Edition](https://hencheats.vercel.app/#PPSA01949-01.000.004) |
 | 2026-07-30 | ADDED | PPSA02877 | 01.000.000 | [The Smurfs: Mission Vileaf](https://hencheats.vercel.app/#PPSA02877-01.000.000) |
 | 2026-07-29 | ADDED | PPSA29629 | 02.002.000 | [Marvel Cosmic Invasion](https://hencheats.vercel.app/#PPSA29629-02.002.000) |
