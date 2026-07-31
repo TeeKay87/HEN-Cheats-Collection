@@ -1,0 +1,123 @@
+{
+  "name": "Story of Seasons: A Wonderful Life",
+  "id": "PPSA11541",
+  "version": "01.002.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Stamina",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCC7000",
+          "on": "01C1418B4E0441890EE91C06D480",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "A07625",
+          "on": "E9D6F92B7F",
+          "off": "01C141890E"
+        }
+      ]
+    },
+    {
+      "name": "Inf Energy",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCC702E",
+          "on": "01FE418B771C41897718E93CF6D380",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "A06673",
+          "on": "E9B6092C7F90",
+          "off": "01FE41897718"
+        }
+      ]
+    },
+    {
+      "name": "Inf Hunger",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCC705D",
+          "on": "01C1418B4E1041894E0CE9D806D480",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "A0773E",
+          "on": "E91AF92B7F90",
+          "off": "01C141894E0C"
+        }
+      ]
+    },
+    {
+      "name": "Inf Seeds",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCC708C",
+          "on": "66C744B102E7030FB77CB102E9849AD880",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "A50B1C",
+          "on": "E96B65277F",
+          "off": "0FB77CB102"
+        }
+      ]
+    },
+    {
+      "name": "Inf Water",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCC70BD",
+          "on": "668B9022AD000066899020AD0000E9856DC980",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "95DE4E",
+          "on": "E96A92367F9090",
+          "off": "66899020AD0000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Money",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCC70F0",
+          "on": "B93F420F008908488BBDF8FEFFFFE9F1DB6580",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "7FCC7123",
+          "on": "B93F420F008908488BBC24A0010000E9C2B5DB80",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "324CEB",
+          "on": "E900249A7F90909090",
+          "off": "8908488BBDF8FEFFFF"
+        },
+        {
+          "offset": "A826EF",
+          "on": "E92F4A247F9090909090",
+          "off": "8908488BBC24A0010000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

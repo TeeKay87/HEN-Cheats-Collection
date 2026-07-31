@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-31T01:08:12.6969763Z",
+  "generatedUtc": "2026-07-31T12:41:31.5598452Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -116860,7 +116860,7 @@
       "title": "Scars Above",
       "idLower": "ppsa08597",
       "titleLower": "scars above",
-      "cheatsTotal": 6,
+      "cheatsTotal": 10,
       "creators": [
         "Nobunaga-ITA"
       ],
@@ -116870,14 +116870,18 @@
       "formats": {
         "json": {
           "hasFile": true,
-          "cheatsCount": 6,
+          "cheatsCount": 10,
           "cheats": [
             "GodMode-OHK-Inf stamina-no status altered",
             "Refill charger when aiming",
             "Max ability point on use",
             "Use rapid item slot - refill fiber",
             "Max item on take",
-            "Inf ammo"
+            "Inf ammo",
+            "Teleport Runtime Master Code (MUST STAY ON)",
+            "[DEP] Track Current Location",
+            "[DEP] Save Current Location",
+            "[DEP] Teleport to Saved Location"
           ]
         },
         "shn": {
@@ -117981,6 +117985,44 @@
           "cheatsCount": 1,
           "cheats": [
             "Inf Items"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
+      "id": "PPSA11541",
+      "version": "01.002.000",
+      "title": "Story of Seasons: A Wonderful Life",
+      "idLower": "ppsa11541",
+      "titleLower": "story of seasons: a wonderful life",
+      "cheatsTotal": 6,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 6,
+          "cheats": [
+            "Inf Stamina",
+            "Inf Energy",
+            "Inf Hunger",
+            "Inf Seeds",
+            "Inf Water",
+            "Inf Money"
           ]
         },
         "shn": {
