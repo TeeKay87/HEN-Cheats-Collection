@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-31T15:19:48.193124Z",
+  "generatedUtc": "2026-07-31T17:39:38.4617774Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -121710,6 +121710,77 @@
             "Inf Mp",
             "Inf Reroll Points",
             "Stop Timer"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
+      "id": "PPSA30094",
+      "version": "01.100.100",
+      "title": "High on Life 2",
+      "idLower": "ppsa30094",
+      "titleLower": "high on life 2",
+      "cheatsTotal": 4,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "1 Hit Kill",
+            "Infi Health",
+            "Infi Ammo",
+            "Max Money"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA30138",
+      "version": "01.000.001",
+      "title": "Fast \u0026 Furious: Arcade Edition",
+      "idLower": "ppsa30138",
+      "titleLower": "fast \u0026 furious: arcade edition",
+      "cheatsTotal": 3,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Stop Timer",
+            "Inf Nitro",
+            "Allways Win 1\u00BA Place"
           ]
         },
         "shn": {
