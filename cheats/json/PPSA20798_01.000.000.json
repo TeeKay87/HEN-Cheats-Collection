@@ -1,0 +1,55 @@
+{
+  "name": "Ufouria: The Saga 2",
+  "id": "PPSA20798",
+  "version": "01.000.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCC7000",
+          "on": "418B85F0000000418985F0000000E970FCA401",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "81716C7C",
+          "on": "E97F035BFE9090",
+          "off": "418985F0000000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Coins",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCC7033",
+          "on": "BB3F420F0041895C2428E9AB10AE01",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "7FCC7062",
+          "on": "BB3F420F0041895C2438E97C0FAE01",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "817A80E8",
+          "on": "E946EF51FE",
+          "off": "41895C2428"
+        },
+        {
+          "offset": "817A7FE8",
+          "on": "E975F051FE",
+          "off": "41895C2438"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

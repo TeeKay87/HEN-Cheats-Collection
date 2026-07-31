@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-31T12:41:31.5598452Z",
+  "generatedUtc": "2026-07-31T15:19:48.193124Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -119807,6 +119807,40 @@
             "Max Money",
             "Max Medal"
           ]
+        }
+      }
+    },
+    {
+      "id": "PPSA20798",
+      "version": "01.000.000",
+      "title": "Ufouria: The Saga 2",
+      "idLower": "ppsa20798",
+      "titleLower": "ufouria: the saga 2",
+      "cheatsTotal": 2,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Inf Hp",
+            "Inf Coins"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },
