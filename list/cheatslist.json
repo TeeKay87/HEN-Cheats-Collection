@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-30T21:22:12.5699544Z",
+  "generatedUtc": "2026-07-31T01:08:12.6969763Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -120429,6 +120429,43 @@
           "cheats": [
             "Inf Lives",
             "Inf Coins"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA23908",
+      "version": "01.005.000",
+      "title": "Code Vein II",
+      "idLower": "ppsa23908",
+      "titleLower": "code vein ii",
+      "cheatsTotal": 5,
+      "creators": [
+        "Aigars Uze"
+      ],
+      "creatorsLower": [
+        "aigars uze"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "Infinite Health",
+            "Infinite Stamina (stamina bar acts weird but it works)",
+            "Infinite Items On Use",
+            "Lots Of XP Points On Gain",
+            "Infinite Health And 1 Hit Kill (dont use with infinite health, with this cheat on stamina dont work)"
           ]
         }
       }
