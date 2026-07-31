@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-31T17:39:38.4617774Z",
+  "generatedUtc": "2026-07-31T22:03:51.6089869Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -116878,10 +116878,10 @@
             "Use rapid item slot - refill fiber",
             "Max item on take",
             "Inf ammo",
-            "Teleport Runtime Master Code (MUST STAY ON)",
-            "[DEP] Track Current Location",
-            "[DEP] Save Current Location",
-            "[DEP] Teleport to Saved Location"
+            "Runtime Master Code (MUST STAY ON) \u2014 Teleport",
+            "[DEP] Load Location",
+            "[DEP] Read Location",
+            "[DEP] Save Location"
           ]
         },
         "shn": {

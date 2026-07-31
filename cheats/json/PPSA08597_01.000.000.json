@@ -135,33 +135,52 @@
       ]
     },
     {
-      "name": "Teleport Runtime Master Code (MUST STAY ON)",
-      "description": "Master Code for Teleportation cheat. To use Teleport, this MC must stay on.",
+      "name": "Runtime Master Code (MUST STAY ON) \u2014 Teleport",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
       "type": "checkbox",
       "memory": [
         {
-          "offset": "62F7700",
-          "on": "803DFA88C202017414803DF288C20201743A803DE788C202017402EB65C605DD88C20200538B98D0010000891DD388C2028B98D4010000891DCB88C2028B98D8010000891DC388C2025BEB36C605AF88C20200833DAA88C202007426528B15A188C2028990D00100008B159988C2028990D40100008B159188C2028990D80100",
-          "off": "803DFA88C202017414803DF288C20201743A803DE788C202017402EB65C605DD88C20200538B98D0010000891DD388C2028B98D4010000891DCB88C2028B98D8010000891DC388C2025BEB36C605AF88C20200833DAA88C202007426528B15A188C2028990D00100008B159988C2028990D40100008B159188C2028990D80100",
+          "offset": "62F76CA",
+          "on": "803D3089C202017414803D2889C20201743A803D1D89C202017402EB65C6051389C20200538B98D0010000891D1189C2028B98D4010000891D0189C2028B98D8010000891DF188C2025BEB36C605E588C20200833DE888C202007426528B15DF88C2028990D00100008B15CF88C2028990D40100008B15BF88C2028990D80100",
+          "off": "803D3089C202017414803D2889C20201743A803D1D89C202017402EB65C6051389C20200538B98D0010000891D1189C2028B98D4010000891D0189C2028B98D8010000891DF188C2025BEB36C605E588C20200833DE888C202007426528B15DF88C2028990D00100008B15CF88C2028990D40100008B15BF88C2028990D80100",
           "expected": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
         },
         {
-          "offset": "62F7780",
-          "on": "005AC5F81088D0010000E932BA41FB00",
-          "off": "005AC5F81088D0010000E932BA41FB00",
-          "expected": "00000000000000000000000000000000"
+          "offset": "62F774A",
+          "on": "005AC5F81088D0010000E968BA41FB00000000000000",
+          "off": "005AC5F81088D0010000E968BA41FB00000000000000",
+          "expected": "00000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "8F20000",
+          "on": "0000000000000000000000000000000000000000000000000000000000000000",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000",
+          "expected": "0000000000000000000000000000000000000000000000000000000000000000"
         },
         {
           "offset": "17131B9",
-          "on": "E94245BE04909090",
-          "off": "E94245BE04909090",
+          "on": "E90C45BE04909090",
+          "off": "E90C45BE04909090",
           "expected": "C5F81088D0010000"
         }
       ]
     },
     {
-      "name": "[DEP] Track Current Location",
-      "description": "Requires Teleport Runtime Master Code. While enabled, the current X/Y/Z position is continuously copied to the verified RW storage. Disable it to freeze the last tracked position.",
+      "name": "[DEP] Load Location",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "8F20002",
+          "on": "01",
+          "off": "00",
+          "expected": "00"
+        }
+      ]
+    },
+    {
+      "name": "[DEP] Read Location",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
       "type": "checkbox",
       "memory": [
         {
@@ -173,25 +192,12 @@
       ]
     },
     {
-      "name": "[DEP] Save Current Location",
-      "description": "Requires Teleport Runtime Master Code. One-shot action: requests that the runtime save the current X/Y/Z position. The runtime clears the flag back to 0 after processing it.",
+      "name": "[DEP] Save Location",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
       "type": "button",
       "memory": [
         {
           "offset": "8F20001",
-          "on": "01",
-          "off": "00",
-          "expected": "00"
-        }
-      ]
-    },
-    {
-      "name": "[DEP] Teleport to Saved Location",
-      "description": "Requires Teleport Runtime Master Code. One-shot action: writes the stored X/Y/Z position back to the player object. The runtime clears the flag back to 0 after processing it.",
-      "type": "button",
-      "memory": [
-        {
-          "offset": "8F20002",
           "on": "01",
           "off": "00",
           "expected": "00"
