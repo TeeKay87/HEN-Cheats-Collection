@@ -54,6 +54,8 @@ The website lets you:
 <details>
 <summary><b>July 2026</b></summary>
 
+| Date | Status | ID | Version | Title |
+|-|-|-|-|-|
 | 2026-07-31 | ADDED | PPSA30138 | 01.000.001 | [Fast & Furious: Arcade Edition](https://hencheats.vercel.app/#PPSA30138-01.000.001) |
 | 2026-07-31 | ADDED | PPSA30094 | 01.100.100 | [High on Life 2](https://hencheats.vercel.app/#PPSA30094-01.100.100) |
 | 2026-07-31 | ADDED | PPSA11541 | 01.002.000 | [Story of Seasons: A Wonderful Life](https://hencheats.vercel.app/#PPSA11541-01.002.000) |
