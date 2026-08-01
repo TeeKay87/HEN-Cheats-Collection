@@ -49,8 +49,10 @@ The website lets you:
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-08-01 | ADDED | PPSA30568 | 01.000.000 | [Invincible VS](https://hencheats.vercel.app/#PPSA30568-01.000.000) |
 | 2026-07-31 | ADDED | PPSA30138 | 01.000.001 | [Fast & Furious: Arcade Edition](https://hencheats.vercel.app/#PPSA30138-01.000.001) |
 | 2026-07-31 | ADDED | PPSA30094 | 01.100.100 | [High on Life 2](https://hencheats.vercel.app/#PPSA30094-01.100.100) |
+| 2026-08-01 | ADDED | PPSA11541 | 01.002.000 | [Story of Seasons: A Wonderful Life](https://hencheats.vercel.app/#PPSA11541-01.002.000) |
 | 2026-07-31 | ADDED | PPSA20798 | 01.000.000 | [Ufouria: The Saga 2](https://hencheats.vercel.app/#PPSA20798-01.000.000) |
 | 2026-07-31 | ADDED | PPSA23908 | 01.005.000 | [Code Vein II](https://hencheats.vercel.app/#PPSA23908-01.005.000) |
 | 2026-07-30 | ADDED | PPSA08597 | 01.000.000 | [Scars Above](https://hencheats.vercel.app/#PPSA08597-01.000.000) |

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-07-31T22:03:51.6089869Z",
+  "generatedUtc": "2026-08-01T13:34:29.2744137Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -121863,6 +121863,45 @@
             "Infinite Dead Eye",
             "God Mode"
           ]
+        }
+      }
+    },
+    {
+      "id": "PPSA30568",
+      "version": "01.000.000",
+      "title": "Invincible VS",
+      "idLower": "ppsa30568",
+      "titleLower": "invincible vs",
+      "cheatsTotal": 7,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 7,
+          "cheats": [
+            "Master Code",
+            "--Inf_Hp_P1",
+            "--Inf_Hp_P2",
+            "--Inf_Special_P1",
+            "--Inf_Special_P2",
+            "--One_Hit_Kill_P1",
+            "--One_Hit_Kill_P2"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },

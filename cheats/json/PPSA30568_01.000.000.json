@@ -1,0 +1,130 @@
+{
+  "name": "Invincible VS",
+  "id": "PPSA30568",
+  "version": "01.000.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Master Code",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "87BBF00",
+          "on": "00",
+          "off": "00"
+        },
+        {
+          "offset": "87BBF01",
+          "on": "00",
+          "off": "00"
+        },
+        {
+          "offset": "87BBF02",
+          "on": "00",
+          "off": "00"
+        },
+        {
+          "offset": "87BBF03",
+          "on": "00",
+          "off": "00"
+        },
+        {
+          "offset": "87BBF04",
+          "on": "00",
+          "off": "00"
+        },
+        {
+          "offset": "87BBF05",
+          "on": "00",
+          "off": "00"
+        },
+        {
+          "offset": "7FD17000",
+          "on": "81BFB0020000010000007514803DED4EAA88017464803DE94EAA88017469EB4E81BF9001000001000000750B803DCE4EAA88017444EB3781BFB0020000020000007514803DB84EAA8801742D803DB14EAA88017432EB1781BF9001000002000000750B803D994EAA8801740DEB008947404C8B37E955FD68848B47488947404C8B37E947FD6884B8000000008947404C8B37E937FD6884",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "43A6DC8",
+          "on": "E93302977B90",
+          "off": "8947404C8B37"
+        }
+      ]
+    },
+    {
+      "name": "--Inf_Hp_P1",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "87BBF00",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "--Inf_Hp_P2",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "87BBF02",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "--Inf_Special_P1",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "87BBF01",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "--Inf_Special_P2",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "87BBF03",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "--One_Hit_Kill_P1",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "87BBF04",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "--One_Hit_Kill_P2",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "87BBF05",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}
