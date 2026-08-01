@@ -51,6 +51,8 @@ The website lets you:
 |-|-|-|-|-|
 | 2026-08-01 | ADDED | PPSA30568 | 01.000.000 | [Invincible VS](https://hencheats.vercel.app/#PPSA30568-01.000.000) |
 
+</details>
+
 <details>
 <summary><b>July 2026</b></summary>
 
