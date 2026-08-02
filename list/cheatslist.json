@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-08-02T14:36:55.4579017Z",
+  "generatedUtc": "2026-08-02T19:10:26.8346925Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -121215,6 +121215,45 @@
       }
     },
     {
+      "id": "PPSA26354",
+      "version": "01.001.000",
+      "title": "Triangle Strategy",
+      "idLower": "ppsa26354",
+      "titleLower": "triangle strategy",
+      "cheatsTotal": 7,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 7,
+          "cheats": [
+            "Master Code",
+            "--Inf_Hp",
+            "--One_Hit_Kill",
+            "Inf Items At Use",
+            "Inf Exp",
+            "Inf Money",
+            "Inf Items"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
       "id": "PPSA26356",
       "version": "01.002.000",
       "title": "BUBBLE BOBBLE Sugar Dungeons",
@@ -121455,6 +121494,47 @@
             "Max Points (Gold, Silver, Bronze)",
             "Max Level"
           ]
+        }
+      }
+    },
+    {
+      "id": "PPSA26917",
+      "version": "01.006.002",
+      "title": "Mandragora: Whispers of the Witch Tree",
+      "idLower": "ppsa26917",
+      "titleLower": "mandragora: whispers of the witch tree",
+      "cheatsTotal": 9,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 9,
+          "cheats": [
+            "Inf Hp",
+            "Inf Mana",
+            "Inf Stamina",
+            "Inf Mana Items",
+            "Inf Exp at spend",
+            "Inf Talent Points",
+            "Inf Money",
+            "Inf Items",
+            "Inf Items Crafting"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },

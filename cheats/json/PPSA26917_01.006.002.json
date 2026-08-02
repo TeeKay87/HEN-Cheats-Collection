@@ -1,0 +1,149 @@
+{
+  "name": "Mandragora: Whispers of the Witch Tree",
+  "id": "PPSA26917",
+  "version": "01.006.002",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "14EE4C4",
+          "on": "9090909090",
+          "off": "E8577FE5FF"
+        }
+      ]
+    },
+    {
+      "name": "Inf Mana",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "118C0B6",
+          "on": "909090909090909090",
+          "off": "C4C17A1186F4320000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Stamina",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "11A187E",
+          "on": "9090909090909090",
+          "off": "C5FA118300330000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Mana Items",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD17000",
+          "on": "C787FC04000063000000E933085681",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "127783C",
+          "on": "E9BFF7A97E90",
+          "off": "FF8FFC040000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Exp at spend",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD1702F",
+          "on": "B8FFC99A3B898304330000E98BE84881",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "11A58C4",
+          "on": "E96617B77E90",
+          "off": "898304330000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Talent Points",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD1705F",
+          "on": "41C74530E7030000C7437800000000E9A2BC5B81",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "12D2D0A",
+          "on": "E95043A47E909090909090",
+          "off": "41294D30C7437800000000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Money",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD17093",
+          "on": "C787840300003F420F00E9A8D18D81",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "15F4244",
+          "on": "E94A2E727E90",
+          "off": "898784030000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Items",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD170C2",
+          "on": "41C786FC04000063000000E982BF4681",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "118304D",
+          "on": "E97040B97E9090",
+          "off": "4189B6FC040000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Items Crafting",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD170F2",
+          "on": "41C781FC04000063000000E984C28D81",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "15F337F",
+          "on": "E96E3D727E9090",
+          "off": "418981FC040000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

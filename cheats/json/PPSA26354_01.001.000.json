@@ -1,0 +1,130 @@
+{
+  "name": "Triangle Strategy",
+  "id": "PPSA26354",
+  "version": "01.001.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Master Code",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7BD3F00",
+          "on": "00",
+          "off": "00"
+        },
+        {
+          "offset": "7BD3F01",
+          "on": "00",
+          "off": "00"
+        },
+        {
+          "offset": "57CF000",
+          "on": "41807F3C12740B803DF34E4002017412EB21803DE74E4002017402EB16E931E859FBB80000000041898700040000E920E859FB41898700040000E914E859FB",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "D6D84C",
+          "on": "E9AF17A6049090",
+          "off": "41898700040000"
+        }
+      ]
+    },
+    {
+      "name": "--Inf_Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7BD3F00",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "--One_Hit_Kill",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7BD3F01",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Inf Items At Use",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "57CF05F",
+          "on": "41BC64000000E9D8C655FB",
+          "off": "0000000000000000000000"
+        },
+        {
+          "offset": "D2B73D",
+          "on": "E91D39AA04",
+          "off": "4129F47E05"
+        }
+      ]
+    },
+    {
+      "name": "Inf Exp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "57CF08A",
+          "on": "BE3F420F0001F129D783F932E90FD15AFB",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "D7C1A3",
+          "on": "E9E22EA5049090",
+          "off": "01F129D783F932"
+        }
+      ]
+    },
+    {
+      "name": "Inf Money",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "57CF0BB",
+          "on": "410F49C0B83F420F00894720E9D00A4CFB",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "C8FB95",
+          "on": "E921F5B3049090",
+          "off": "410F49C0894720"
+        }
+      ]
+    },
+    {
+      "name": "Inf Items",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "57CF0EC",
+          "on": "440F4FE041BC63000000448921E9149048FB",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "C5810B",
+          "on": "E9DC6FB7049090",
+          "off": "440F4FE0448921"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

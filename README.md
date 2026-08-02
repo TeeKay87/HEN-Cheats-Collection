@@ -49,6 +49,8 @@ The website lets you:
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-08-02 | ADDED | PPSA26354 | 01.001.000 | [Triangle Strategy](https://hencheats.vercel.app/#PPSA26354-01.001.000) |
+| 2026-08-02 | ADDED | PPSA26917 | 01.006.002 | [Mandragora: Whispers of the Witch Tree](https://hencheats.vercel.app/#PPSA26917-01.006.002) |
 | 2026-08-02 | ADDED | PPSA17163 | 01.000.002 | [Jets'n'Guns 2](https://hencheats.vercel.app/#PPSA17163-01.000.002) |
 | 2026-08-02 | ADDED | PPSA18528 | 01.009.000 | [Mighty Morphin Power Rangers: Rita's Rewind](https://hencheats.vercel.app/#PPSA18528-01.009.000) |
 | 2026-08-02 | ADDED | PPSA22520 | 01.000.011 | [Animal Well](https://hencheats.vercel.app/#PPSA22520-01.000.011) |
