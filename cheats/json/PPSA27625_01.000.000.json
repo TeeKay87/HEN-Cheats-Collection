@@ -1,0 +1,142 @@
+{
+  "name": "FANTASY LIFE i: The Girl Who Steals Time",
+  "id": "PPSA27625",
+  "version": "01.000.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Master Code",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B00BF00",
+          "on": "00",
+          "off": "00"
+        },
+        {
+          "offset": "B00BF01",
+          "on": "00",
+          "off": "00"
+        },
+        {
+          "offset": "81B7000",
+          "on": "6641817F3C8000740B803DF14EE502017422EB35803DE54EE502017402EB2A418B773041897720438BBC25D4010000E9497A57FC41C7472000000000438BBC25D4010000E9347A57FC41897720438BBC25D4010000E9237A57FC",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "472EA71",
+          "on": "E98A85A80390909090909090",
+          "off": "41897720438BBC25D4010000"
+        }
+      ]
+    },
+    {
+      "name": "--In_Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B00BF00",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "--One_Hit_Kill",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B00BF01",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Inf Stamina",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "81B707A",
+          "on": "66418B76346641897624E9397E57FC",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "472EEBD",
+          "on": "E9B881A803",
+          "off": "6641897624"
+        }
+      ]
+    },
+    {
+      "name": "Inf Items At Use",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "81B70A9",
+          "on": "66C7402464000FB7482431D2E9AB7D9BFC",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "4B6EE5F",
+          "on": "E94582640390",
+          "off": "0FB7482431D2"
+        }
+      ]
+    },
+    {
+      "name": "Inf Money",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "81B70DA",
+          "on": "B8FFE0F50589477C3DFFE0F5050F8C1E5097FCE9F24F97FC",
+          "off": "000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4B2C0DA",
+          "on": "E9FBAF68039090909090",
+          "off": "89477C3DFFE0F5057C27"
+        }
+      ]
+    },
+    {
+      "name": "Max Exp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "81B7112",
+          "on": "C74108FFE0F5054883C408E9156C98FC",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "4B3DD30",
+          "on": "E9DD9367039090",
+          "off": "8959084883C408"
+        }
+      ]
+    },
+    {
+      "name": "Inf Items At Pick",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4B71002",
+          "on": "6641895F24",
+          "off": "6641894F24"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

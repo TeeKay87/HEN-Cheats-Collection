@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-08-01T13:34:29.2744137Z",
+  "generatedUtc": "2026-08-02T14:36:55.4579017Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -119046,6 +119046,44 @@
       }
     },
     {
+      "id": "PPSA17163",
+      "version": "01.000.002",
+      "title": "Jets\u0027n\u0027Guns 2",
+      "idLower": "ppsa17163",
+      "titleLower": "jets\u0027n\u0027guns 2",
+      "cheatsTotal": 6,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 6,
+          "cheats": [
+            "Master Code",
+            "--In_Hp",
+            "--One_Hit_Kill",
+            "Inf Bombs",
+            "Inf Super",
+            "Easy Score"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
       "id": "PPSA17219",
       "version": "01.000.001",
       "title": "Disney Illusion Island",
@@ -119341,6 +119379,43 @@
             "Maximum Number of Kills",
             "Max Exp"
           ]
+        }
+      }
+    },
+    {
+      "id": "PPSA18528",
+      "version": "01.009.000",
+      "title": "Mighty Morphin Power Rangers: Rita\u0027s Rewind",
+      "idLower": "ppsa18528",
+      "titleLower": "mighty morphin power rangers: rita\u0027s rewind",
+      "cheatsTotal": 5,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "Inf Hp",
+            "Inf Super",
+            "Inf Lives",
+            "inf Missile",
+            "Max Score"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },
@@ -120237,6 +120312,41 @@
             "Infi Money (Enter Shop and Exit)",
             "Infi Mastery Points (Use)"
           ]
+        }
+      }
+    },
+    {
+      "id": "PPSA22520",
+      "version": "01.000.011",
+      "title": "Animal Well",
+      "idLower": "ppsa22520",
+      "titleLower": "animal well",
+      "cheatsTotal": 3,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Inf Hp",
+            "Inf Fireworks",
+            "Have All Tools After Die"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },
@@ -121345,6 +121455,46 @@
             "Max Points (Gold, Silver, Bronze)",
             "Max Level"
           ]
+        }
+      }
+    },
+    {
+      "id": "PPSA27625",
+      "version": "01.000.000",
+      "title": "FANTASY LIFE i: The Girl Who Steals Time",
+      "idLower": "ppsa27625",
+      "titleLower": "fantasy life i: the girl who steals time",
+      "cheatsTotal": 8,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 8,
+          "cheats": [
+            "Master Code",
+            "--In_Hp",
+            "--One_Hit_Kill",
+            "Inf Stamina",
+            "Inf Items At Use",
+            "Inf Money",
+            "Max Exp",
+            "Inf Items At Pick"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },

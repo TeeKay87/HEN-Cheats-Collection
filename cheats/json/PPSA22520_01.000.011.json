@@ -1,0 +1,57 @@
+{
+  "name": "Animal Well",
+  "id": "PPSA22520",
+  "version": "01.000.011",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "137FF7",
+          "on": "9090",
+          "off": "29D1"
+        }
+      ]
+    },
+    {
+      "name": "Inf Fireworks",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "273000",
+          "on": "C680B301000006E9CBC2EBFF",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "12F2D1",
+          "on": "E92A3D140090",
+          "off": "8888B3010000"
+        }
+      ]
+    },
+    {
+      "name": "Have All Tools After Die",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "27302C",
+          "on": "C780DC010000FFFFFE00C680B401000009E98C76ECFF",
+          "off": "00000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "13A6C7",
+          "on": "E9608913009090",
+          "off": "C680B401000003"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}
