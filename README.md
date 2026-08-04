@@ -49,6 +49,7 @@ The website lets you:
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-08-04 | ADDED | PPSA01968 | 01.004.000 | [Death Stranding Director's Cut](https://hencheats.vercel.app/#PPSA01968-01.004.000) |
 | 2026-08-04 | ADDED | PPSA03388 | 01.005.400 | [Atlas Fallen: Reign of Sand](https://hencheats.vercel.app/#PPSA03388-01.005.400) |
 | 2026-08-04 | UPDATE | CUSA00265 | 02.35 | [Minecraft: PlayStation 4 Edition](https://hencheats.vercel.app/#CUSA00265-02.35) |
 | 2026-08-04 | UPDATE | CUSA00283 | 02.35 | [Minecraft: PlayStation 4 Edition](https://hencheats.vercel.app/#CUSA00283-02.35) |

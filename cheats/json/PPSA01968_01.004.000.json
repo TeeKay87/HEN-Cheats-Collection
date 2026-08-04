@@ -1,0 +1,327 @@
+{
+  "name": "Death Stranding Director\u0027s Cut",
+  "id": "PPSA01968",
+  "version": "01.004.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Credits",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "189D443",
+          "on": "C5F857C0",
+          "off": "C5F857C0"
+        }
+      ]
+    },
+    {
+      "name": "Infinite HP",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1799D77",
+          "on": "C5FA118FC0000000",
+          "off": "C5FA1187C0000000"
+        }
+      ]
+    },
+    {
+      "name": "No Conciousness Drain",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "34D3000",
+          "on": "41C785DC00000000007A44E926552CFE",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "179852D",
+          "on": "E9CEAAD30190909090",
+          "off": "C4C17A118DDC000000"
+        }
+      ]
+    },
+    {
+      "name": "Botomless Blood Bags",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "18806C5",
+          "on": "90909090",
+          "off": "C5F25CC8"
+        },
+        {
+          "offset": "1897B66",
+          "on": "90909090",
+          "off": "C5F25CC8"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Stamina",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "34D3030",
+          "on": "41C7863001000000000000E99DA02DFE41C784241001000000007A44E902532DFE41C784244001000000007A44E942732DFE41C784244001000000007A44E900712DFEC7804001000000007A44E97F2845FE0000000000000000000000000000",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "19258F9",
+          "on": "E975D7BA01909090",
+          "off": "C5FA118040010000"
+        },
+        {
+          "offset": "17AA169",
+          "on": "E9F48ED2019090909090",
+          "off": "C4C17A11842440010000"
+        },
+        {
+          "offset": "17AA39A",
+          "on": "E9B28CD2019090909090",
+          "off": "C4C17A11842440010000"
+        },
+        {
+          "offset": "17A8349",
+          "on": "E9F2ACD2019090909090",
+          "off": "C4C17A11842410010000"
+        },
+        {
+          "offset": "17AD0D4",
+          "on": "E9575FD20190909090",
+          "off": "C4C17A118E30010000"
+        }
+      ]
+    },
+    {
+      "name": "Super Speed",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "34D30A2",
+          "on": "4883FA01742A4883FA02750FC7804C4D00000000E040E9406949FE4883FA03750FC7804C4D000000000C42E92B6949FEC5FA11A84C4D0000E91E6949FE00",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "19699F5",
+          "on": "E9A896B601909090",
+          "off": "C5FA11A84C4D0000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1B207A5",
+          "on": "90909090",
+          "off": "66448930"
+        }
+      ]
+    },
+    {
+      "name": "No BB Stress",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "18538C9",
+          "on": "C5F055C2",
+          "off": "C5F055CA"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Cargo Durability",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "34D30FF",
+          "on": "C743040000C8C2C57A105304E9159CB2FEC743040000C8C2C5FA106B04E9B36F2FFD000000000000000000000000000000",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "7CA0CF",
+          "on": "E93C90D002",
+          "off": "C5FA106B04"
+        },
+        {
+          "offset": "1FFCD20",
+          "on": "E9DA634D01",
+          "off": "C57A105304"
+        }
+      ]
+    },
+    {
+      "name": "No Carry Weight",
+      "description": "Carry weight becomes 0.1 - might need to go into cargo management screen to apply\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "34D3141",
+          "on": "C7400CCDCCCC3DE9BCEBB1FE00000000000000000000000000000000000000",
+          "off": "00000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1FF1D04",
+          "on": "E938144E01",
+          "off": "C5FA11400C"
+        }
+      ]
+    },
+    {
+      "name": "Vehicles - Full Battery",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "251F9DE",
+          "on": "C4C17A104108",
+          "off": "C4C229AD4108"
+        },
+        {
+          "offset": "251FA93",
+          "on": "90909090",
+          "off": "C5F25CCB"
+        }
+      ]
+    },
+    {
+      "name": "Power Skeleton - Full Battery",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "34D316D",
+          "on": "C4C17A108314480000C4C17A118310480000E9C9B93CFE000000000000000000000000",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "189EB44",
+          "on": "E92446C30190909090",
+          "off": "C4C17A118310480000"
+        }
+      ]
+    },
+    {
+      "name": "Max Boots Durability",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "34D31A4",
+          "on": "C4C17A108C2430030000C4C17A118C242C030000E99C032DFE000000",
+          "off": "00000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "17A354F",
+          "on": "E950FCD2019090909090",
+          "off": "C4C17A118C242C030000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Tools",
+      "description": "Anchors / Ladders / Spray / PCC / Throwables\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "34D31DD",
+          "on": "4883FF0E750F66C784410A0100009600E9A44F3CFE66C784410A0100000500E9954F3CFE000000000000000000000000000000",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "189818E",
+          "on": "E94AB0C301909090",
+          "off": "6689B4410A010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Structures Durability",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "34D3221",
+          "on": "41C78424D80000008096184BC4C17A108424D8000000E95C44BDFE00000000",
+          "off": "00000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "20A768E",
+          "on": "E98EBB42019090909090",
+          "off": "C4C17A118424D8000000"
+        }
+      ]
+    },
+    {
+      "name": "Easy Construction Upgrades",
+      "description": "Need to add just single upgrade material and complete for instant upgrade\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "34D325C",
+          "on": "C7871002000000000100C7871802000000000100C7871C02000000000100C7872002000000000100C7872402000000000100E987EFBFFE00000000000000000000000000",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "20D2214",
+          "on": "E94310400190",
+          "off": "018F24020000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Chiral Bandwidth",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "34D32B3",
+          "on": "C744880800000000E98C95BFFE00000000000000000000000000000000",
+          "off": "0000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "20CC847",
+          "on": "E9676A4001",
+          "off": "4403748808"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Road Durability",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "34D32E0",
+          "on": "C7430C0000C842E90630F1FE00000000",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "23E62ED",
+          "on": "E9EECF0E01",
+          "off": "C5FA11430C"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Wander",
+    "Talixme",
+    "Vicodin10",
+    "Rizla",
+    "TLH",
+    "CompoteShoes"
+  ]
+}

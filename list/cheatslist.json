@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-08-04T18:36:15.2596169Z",
+  "generatedUtc": "2026-08-04T21:47:55.1735889Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -112234,6 +112234,66 @@
             "Inf Money",
             "Inf Items",
             "Inf Hab Points"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
+      "id": "PPSA01968",
+      "version": "01.004.000",
+      "title": "Death Stranding Director\u0027s Cut",
+      "idLower": "ppsa01968",
+      "titleLower": "death stranding director\u0027s cut",
+      "cheatsTotal": 18,
+      "creators": [
+        "CompoteShoes",
+        "Rizla",
+        "Talixme",
+        "TLH",
+        "Vicodin10",
+        "Wander"
+      ],
+      "creatorsLower": [
+        "compoteshoes",
+        "rizla",
+        "talixme",
+        "tlh",
+        "vicodin10",
+        "wander"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 18,
+          "cheats": [
+            "Credits",
+            "Infinite HP",
+            "No Conciousness Drain",
+            "Botomless Blood Bags",
+            "Infinite Stamina",
+            "Super Speed",
+            "Infinite Ammo",
+            "No BB Stress",
+            "Infinite Cargo Durability",
+            "No Carry Weight",
+            "Vehicles - Full Battery",
+            "Power Skeleton - Full Battery",
+            "Max Boots Durability",
+            "Infinite Tools",
+            "Infinite Structures Durability",
+            "Easy Construction Upgrades",
+            "Infinite Chiral Bandwidth",
+            "Infinite Road Durability"
           ]
         },
         "shn": {

@@ -46,22 +46,6 @@
           "off": "FF"
         }
       ]
-    },
-    {
-      "name": "Invincible-DO NOT-USE-BOMB",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "807FD421C4",
-          "on": "0000",
-          "off": "FFFF"
-        },
-        {
-          "offset": "807FD421C5",
-          "on": "0000",
-          "off": "FFFF"
-        }
-      ]
     }
   ],
   "credits": [
