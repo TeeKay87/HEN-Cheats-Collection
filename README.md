@@ -49,6 +49,10 @@ The website lets you:
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-08-04 | ADDED | PPSA03388 | 01.005.400 | [Atlas Fallen: Reign of Sand](https://hencheats.vercel.app/#PPSA03388-01.005.400) |
+| 2026-08-04 | UPDATE | CUSA00265 | 02.35 | [Minecraft: PlayStation 4 Edition](https://hencheats.vercel.app/#CUSA00265-02.35) |
+| 2026-08-04 | UPDATE | CUSA00283 | 02.35 | [Minecraft: PlayStation 4 Edition](https://hencheats.vercel.app/#CUSA00283-02.35) |
+| 2026-08-04 | UPDATE | SLPS25233 | 01.00 | [DoDonPachi Dai-Ou-Jou](https://hencheats.vercel.app/#SLPS25233-01.00) |
 | 2026-08-04 | ADDED | PPSA08587 | 01.004.002 | [Dragon Ball: Xenoverse 2](https://hencheats.vercel.app/#PPSA08587-01.004.002) |
 | 2026-08-03 | ADDED | PPSA05214 | 01.004.000 | [Thymesia](https://hencheats.vercel.app/#PPSA05214-01.004.000) |
 | 2026-08-02 | ADDED | PPSA26354 | 01.001.000 | [Triangle Strategy](https://hencheats.vercel.app/#PPSA26354-01.001.000) |

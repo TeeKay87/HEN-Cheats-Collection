@@ -1,0 +1,111 @@
+{
+  "name": "Atlas Fallen: Reign of Sand",
+  "id": "PPSA03388",
+  "version": "01.005.400",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "28C3669",
+          "on": "9090909090",
+          "off": "E802FE06FF"
+        }
+      ]
+    },
+    {
+      "name": "Inf Money",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "41CF000",
+          "on": "BA3F420F0089148889DAE9D672CFFE",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "41CF02F",
+          "on": "B93F420F00010C90E92AB68BFEE970AC8BFE",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "2EC62E0",
+          "on": "E91B8D3001",
+          "off": "89148889DA"
+        },
+        {
+          "offset": "2A89CA9",
+          "on": "E981537401909090",
+          "off": "010C90E9B5090000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Items",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "41CF061",
+          "on": "66BB63006641891C78E9F4BB8BFE",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "41CF08F",
+          "on": "8B9524FFFFFF66BAE70366011448E9FDB38BFE",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "2A8AC5E",
+          "on": "E9FE437401",
+          "off": "6641891C78"
+        },
+        {
+          "offset": "2A8A495",
+          "on": "E9F54B74019090909090",
+          "off": "8B9524FFFFFF66011448"
+        }
+      ]
+    },
+    {
+      "name": "Inf Stamina",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "41CF0C2",
+          "on": "C5FA110C81E988D55FFC",
+          "off": "00000000000000000000"
+        },
+        {
+          "offset": "7CC64F",
+          "on": "E96E2AA003",
+          "off": "C5FA110481"
+        }
+      ]
+    },
+    {
+      "name": "Inf Souls",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "41CF0EC",
+          "on": "C704887F96184BE9EDD65FFC",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "7CC7E0",
+          "on": "E90729A003",
+          "off": "C5FA110488"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

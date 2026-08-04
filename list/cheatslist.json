@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-08-04T09:24:21.3879688Z",
+  "generatedUtc": "2026-08-04T18:36:15.2596169Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -113581,6 +113581,43 @@
             "Inf Ammo",
             "Inf Credits",
             "Inf HP"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
+      "id": "PPSA03388",
+      "version": "01.005.400",
+      "title": "Atlas Fallen: Reign of Sand",
+      "idLower": "ppsa03388",
+      "titleLower": "atlas fallen: reign of sand",
+      "cheatsTotal": 5,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "Inf Hp",
+            "Inf Money",
+            "Inf Items",
+            "Inf Stamina",
+            "Inf Souls"
           ]
         },
         "shn": {
