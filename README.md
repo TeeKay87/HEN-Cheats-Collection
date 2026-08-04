@@ -49,6 +49,8 @@ The website lets you:
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-08-04 | ADDED | PPSA08587 | 01.004.002 | [Dragon Ball: Xenoverse 2](https://hencheats.vercel.app/#PPSA08587-01.004.002) |
+| 2026-08-03 | ADDED | PPSA05214 | 01.004.000 | [Thymesia](https://hencheats.vercel.app/#PPSA05214-01.004.000) |
 | 2026-08-02 | ADDED | PPSA26354 | 01.001.000 | [Triangle Strategy](https://hencheats.vercel.app/#PPSA26354-01.001.000) |
 | 2026-08-02 | ADDED | PPSA26917 | 01.006.002 | [Mandragora: Whispers of the Witch Tree](https://hencheats.vercel.app/#PPSA26917-01.006.002) |
 | 2026-08-02 | ADDED | PPSA17163 | 01.000.002 | [Jets'n'Guns 2](https://hencheats.vercel.app/#PPSA17163-01.000.002) |

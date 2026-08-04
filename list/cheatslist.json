@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-08-02T19:10:26.8346925Z",
+  "generatedUtc": "2026-08-04T09:24:21.3879688Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -115213,6 +115213,44 @@
       }
     },
     {
+      "id": "PPSA05214",
+      "version": "01.004.000",
+      "title": "Thymesia",
+      "idLower": "ppsa05214",
+      "titleLower": "thymesia",
+      "cheatsTotal": 6,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 6,
+          "cheats": [
+            "Master Code",
+            "--Inf_Hp",
+            "--Inf_Potions",
+            "--Inf_Souls",
+            "--Inf_Stamina",
+            "--Inf_Throwables"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
       "id": "PPSA05344",
       "version": "04.001.000",
       "title": "Park Beyond",
@@ -116851,6 +116889,46 @@
           "hasFile": false,
           "cheatsCount": 0,
           "cheats": []
+        }
+      }
+    },
+    {
+      "id": "PPSA08587",
+      "version": "01.004.002",
+      "title": "Dragon Ball: Xenoverse 2",
+      "idLower": "ppsa08587",
+      "titleLower": "dragon ball: xenoverse 2",
+      "cheatsTotal": 8,
+      "creators": [
+        "Celogamez"
+      ],
+      "creatorsLower": [
+        "celogamez"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 8,
+          "cheats": [
+            "Infinite Health/1 Hit Kill (MasterCode/Must Be On)",
+            "Infinite Health",
+            "1 Hit Kill",
+            "Infinite Ki",
+            "Infinite Stamina",
+            "Max/Infinite Zeni On Buy",
+            "Max/Infinite TPs On Buy",
+            "Max Attribute Points (Activate/Spend 1/Exit/Enter)"
+          ]
         }
       }
     },
