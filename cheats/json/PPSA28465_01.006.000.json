@@ -1,0 +1,140 @@
+{
+  "name": "Trails in the Sky 1st Chapter",
+  "id": "PPSA28465",
+  "version": "01.006.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf_Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6B315C",
+          "on": "C4E278F2C2803F007417803F017412803F02740D803F03740889470CE95126A4FF8B471089470CE94626A4FF",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "F57C6",
+          "on": "E991D95B00909090",
+          "off": "C4E278F2C289470C"
+        }
+      ]
+    },
+    {
+      "name": "Inf Mp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6B31A8",
+          "on": "C4E278F2C18B4718894714E9093CA4FF",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "F6DB9",
+          "on": "E9EAC35B00909090",
+          "off": "C4E278F2C1894714"
+        }
+      ]
+    },
+    {
+      "name": "Inf Super",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6B31D8",
+          "on": "C4E278F2C28B472089471CE98623A4FF",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "F5566",
+          "on": "E96DDC5B00909090",
+          "off": "C4E278F2C289471C"
+        }
+      ]
+    },
+    {
+      "name": "Inf Sepith",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6B3208",
+          "on": "B99F860100898C87E0381F00E95838CBFF",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "366A6A",
+          "on": "E999C734009090",
+          "off": "898C87E0381F00"
+        }
+      ]
+    },
+    {
+      "name": "Inf Money",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6B3239",
+          "on": "B87F969800898700391F00E92F3FCBFF",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "367172",
+          "on": "E9C2C0340090",
+          "off": "898700391F00"
+        }
+      ]
+    },
+    {
+      "name": "inf Items",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6B3269",
+          "on": "66BA6300664189948F24671100E99535CBFF",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "6B329B",
+          "on": "66B963006641898C8624671100E94E37CBFF",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "366807",
+          "on": "E95DCA340090909090",
+          "off": "664189948F24671100"
+        },
+        {
+          "offset": "3669F2",
+          "on": "E9A4C8340090909090",
+          "off": "6641898C8624671100"
+        }
+      ]
+    },
+    {
+      "name": "Inf Exp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6B32CD",
+          "on": "C4E270F2C0B87F969800894308E9013EA4FF",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "F70D8",
+          "on": "E9F0C15B00909090",
+          "off": "C4E270F2C0894308"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

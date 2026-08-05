@@ -49,6 +49,7 @@ The website lets you:
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-08-05 | ADDED | PPSA28465 | 01.006.000 | [Trails in the Sky 1st Chapter](https://hencheats.vercel.app/#PPSA28465-01.006.000) |
 | 2026-08-05 | ADDED | PPSA10621 | 01.012.000 | [Lies of P](https://hencheats.vercel.app/#PPSA10621-01.012.000) |
 | 2026-08-05 | ADDED | CUSA00242 | 01.47 | [Diablo III: Reaper of Souls: Ultimate Evil Edition](https://hencheats.vercel.app/#CUSA00242-01.47) |
 | 2026-08-05 | ADDED | PPSA04452 | 01.012.002 | [Warhammer 40,000: Space Marine 2](https://hencheats.vercel.app/#PPSA04452-01.012.002) |

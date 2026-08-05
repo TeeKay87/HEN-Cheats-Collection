@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-08-05T15:42:16.6171799Z",
+  "generatedUtc": "2026-08-05T20:47:00.6503019Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -122133,6 +122133,45 @@
             "No Hunger",
             "Zero Weight"
           ]
+        }
+      }
+    },
+    {
+      "id": "PPSA28465",
+      "version": "01.006.000",
+      "title": "Trails in the Sky 1st Chapter",
+      "idLower": "ppsa28465",
+      "titleLower": "trails in the sky 1st chapter",
+      "cheatsTotal": 7,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 7,
+          "cheats": [
+            "Inf_Hp",
+            "Inf Mp",
+            "Inf Super",
+            "Inf Sepith",
+            "Inf Money",
+            "inf Items",
+            "Inf Exp"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },
