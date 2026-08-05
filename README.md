@@ -49,6 +49,8 @@ The website lets you:
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-08-05 | ADDED | PPSA01746 | 01.016.000 | [Kena: Bridge of Spirits](https://hencheats.vercel.app/#PPSA01746-01.016.000) |
+| 2026-08-05 | ADDED | PPSA04334 | 01.000.004 | [Fatal Frame: Maiden of Black Water](https://hencheats.vercel.app/#PPSA04334-01.000.004) |
 | 2026-08-05 | ADDED | PPSA28465 | 01.006.000 | [Trails in the Sky 1st Chapter](https://hencheats.vercel.app/#PPSA28465-01.006.000) |
 | 2026-08-05 | ADDED | PPSA10621 | 01.012.000 | [Lies of P](https://hencheats.vercel.app/#PPSA10621-01.012.000) |
 | 2026-08-05 | ADDED | CUSA00242 | 01.47 | [Diablo III: Reaper of Souls: Ultimate Evil Edition](https://hencheats.vercel.app/#CUSA00242-01.47) |

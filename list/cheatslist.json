@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-08-05T20:47:00.6503019Z",
+  "generatedUtc": "2026-08-05T21:30:33.301532Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -111984,6 +111984,60 @@
       }
     },
     {
+      "id": "PPSA01746",
+      "version": "01.016.000",
+      "title": "Kena: Bridge of Spirits",
+      "idLower": "ppsa01746",
+      "titleLower": "kena: bridge of spirits",
+      "cheatsTotal": 22,
+      "creators": [
+        "d01v"
+      ],
+      "creatorsLower": [
+        "d01v"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 22,
+          "cheats": [
+            "Invsible",
+            "Diamonds wont Reduced from Hat Purchase",
+            "Diamond Added from Spending",
+            "Unlock All Upgrades",
+            "Infinity Shield",
+            "Lock Character Camera Direction",
+            "Forest Tears",
+            "Height Vector",
+            "Character Height",
+            "Brightness",
+            "Fisheye View",
+            "Drone View",
+            "Runtime Master Code (MUST STAY ON)",
+            "[DEP] Health",
+            "[DEP] Character Speed",
+            "[DEP] Max Courage and Karma",
+            "[DEP] Add Damage",
+            "[DEP] Arrow No Decrease and Infinite Bomb",
+            "[DEP] Bomb 0.3 Sec Cool Down and Curse Chest Timer",
+            "[DEP] Dodge Extended",
+            "[DEP] Gravity Jump Double Jump To Land Immediately",
+            "[DEP] Rusu Bow Challenge Timer"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
       "id": "PPSA01748",
       "version": "01.007.000",
       "title": "Marvel\u0027s Guardians of the Galaxy",
@@ -114815,6 +114869,60 @@
             "High Voltage Condenser (Spark Shot)",
             "Ink Ribbon"
           ]
+        }
+      }
+    },
+    {
+      "id": "PPSA04334",
+      "version": "01.000.004",
+      "title": "Fatal Frame: Maiden of Black Water",
+      "idLower": "ppsa04334",
+      "titleLower": "fatal frame: maiden of black water",
+      "cheatsTotal": 22,
+      "creators": [
+        "d01v"
+      ],
+      "creatorsLower": [
+        "d01v"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 22,
+          "cheats": [
+            "Infinite Health",
+            "Refill Health when Grab by Hand",
+            "Infinite Camera Flash",
+            "Infinite Lens Meter",
+            "Max Instant Range Focus",
+            "All Items Inventory",
+            "Plus One Item In Every Use",
+            "Plus One Film In Every Use",
+            "First Person Viewer",
+            "Character Height",
+            "Bounce Tits",
+            "Slide",
+            "Height Vector",
+            "Freeze Time",
+            "Max Points",
+            "Max Score",
+            "Runtime Master Code (MUST STAY ON)",
+            "[DEP] Black Water Meter",
+            "[DEP] Character Speed",
+            "[DEP] Walk Speed",
+            "[DEP] Run Speed",
+            "[DEP] Remove All Character Visual"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },

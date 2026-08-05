@@ -1,0 +1,415 @@
+{
+  "name": "Fatal Frame: Maiden of Black Water",
+  "id": "PPSA04334",
+  "version": "01.000.004",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Health",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4E8373",
+          "on": "01D1",
+          "off": "29D1"
+        }
+      ]
+    },
+    {
+      "name": "Refill Health when Grab by Hand",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "EF3000",
+          "on": "418B86C40D0000418986C00D0000E94F6C6EFF00000000000000000000000000",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "5D9C5B",
+          "on": "E9A09391009090",
+          "off": "418986C00D0000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Camera Flash",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4CFB3D",
+          "on": "C4C17A119424A4000000",
+          "off": "C4C17A118424A4000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Lens Meter",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4E4654",
+          "on": "89835C050000",
+          "off": "898B5C050000"
+        }
+      ]
+    },
+    {
+      "name": "Max Instant Range Focus",
+      "description": "This will allow your focus camera (L2 button) to max range\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "EF3033",
+          "on": "41C785D4010000003C1C46C4C17A1085D4010000E9AF115EFF00000000",
+          "off": "0000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4D41F2",
+          "on": "E93CEEA10090909090",
+          "off": "C4C17A1085D4010000"
+        }
+      ]
+    },
+    {
+      "name": "All Items Inventory",
+      "description": "how to use:\r\n\r\n1st open your inventory item.\r\n2nd Turn On this cheat.\r\n3rd use any usuable items.\r\n4th turn off this cheat\r\nclip tutorial on discord Team Reaper\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "EF3213",
+          "on": "4839D1741A837C0828007513C7440828010000008B5C082889D8E972BC4EFF8B5C082889D8E967BC4EFF000000",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "3DEE9E",
+          "on": "E97043B10090",
+          "off": "8B5C082889D8"
+        }
+      ]
+    },
+    {
+      "name": "Plus One Item In Every Use",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3DF25D",
+          "on": "8D5101",
+          "off": "8D51FF"
+        }
+      ]
+    },
+    {
+      "name": "Plus One Film In Every Use",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3E02BB",
+          "on": "8D7701",
+          "off": "8D77FF"
+        }
+      ]
+    },
+    {
+      "name": "First Person Viewer",
+      "description": "use camera\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "EF32DC",
+          "on": "89B1BC0D0000C681BC0D000001E995FD5EFF0000",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4E307D",
+          "on": "E95A02A10090",
+          "off": "89B1BC0D0000"
+        }
+      ]
+    },
+    {
+      "name": "Character Height",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "EF330E",
+          "on": "4C89BDE0FEFFFF50B800000000C5F96EC058C4C17A118594000000E9076A41FF0000",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "309D2E",
+          "on": "E9DB95BE009090",
+          "off": "4C89BDE0FEFFFF"
+        }
+      ]
+    },
+    {
+      "name": "Bounce Tits",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "EF334E",
+          "on": "50B800002041C5F96EC058C5FA114368C4E279184368E9B99A3EFF00000000000000",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "2DCE1C",
+          "on": "E92D65C10090",
+          "off": "C4E279184368"
+        }
+      ]
+    },
+    {
+      "name": "Slide",
+      "description": "Turn your walk or run into slide like a ghost\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "EF3389",
+          "on": "50B80000803FC5F96EC058C4C17A118648010000C4C17A108648010000E9B30141FF0000000000",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "303555",
+          "on": "E92FFEBE0090909090",
+          "off": "C4C17A108648010000"
+        }
+      ]
+    },
+    {
+      "name": "Height Vector",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "EF33CB",
+          "on": "83BB4403000000752050B80000803FC5F96EC058C5FA118364010000C5F8108360010000E94A1541FFC5F8108360010000E93D1541FF000000000000000000000000000000",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "304936",
+          "on": "E990EABE00909090",
+          "off": "C5F8108360010000"
+        }
+      ]
+    },
+    {
+      "name": "Freeze Time",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "581274",
+          "on": "9090909090",
+          "off": "C5FA114F4C"
+        }
+      ]
+    },
+    {
+      "name": "Max Points",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "EF3421",
+          "on": "890781F900E1F505E995B54EFF000000000000000000000000000000000000",
+          "off": "00000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "3DE9BD",
+          "on": "E95F4AB10090",
+          "off": "81F900E1F505"
+        }
+      ]
+    },
+    {
+      "name": "Max Score",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "EF344E",
+          "on": "C74350FFE0F505C5E22A4350E9786A5EFF00",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4D9ED2",
+          "on": "E97795A100",
+          "off": "C5E22A4350"
+        }
+      ]
+    },
+    {
+      "name": "Runtime Master Code (MUST STAY ON)",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "EF306C",
+          "on": "EB04EB16EB28C7837C0500000000803FC5FA10837C050000EB14C7837C05000000000000C5FA10837C050000EB00C5FA11837C050000E9391A5FFFC5FA11837C050000E92C1A5FFF",
+          "off": "EB04EB16EB28C7837C0500000000803FC5FA10837C050000EB14C7837C05000000000000C5FA10837C050000EB00C5FA11837C050000E9391A5FFFC5FA11837C050000E92C1A5FFF",
+          "expected": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "EF30E4",
+          "on": "50B800000040C5F96EC058C5FA11472CE947DF41FFC5FA11472CE93DDF41FF",
+          "off": "50B800000040C5F96EC058C5FA11472CE947DF41FFC5FA11472CE93DDF41FF",
+          "expected": "00000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "EF3133",
+          "on": "50B800000040C5F96EC058C5FA1187B4060000C5FA1087B4060000E985555FFF50B80000803FC5F96EC058C5FA1187B4060000C5FA1087B4060000E965555FFF",
+          "off": "50B800000040C5F96EC058C5FA1187B4060000C5FA1087B4060000E985555FFF50B80000803FC5F96EC058C5FA1187B4060000C5FA1087B4060000E965555FFF",
+          "expected": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "EF31A3",
+          "on": "50B800000040C5F96EC058C5FA1187B8060000C5FA1087B8060000E959555FFF50B80000803FC5F96EC058C5FA1187B8060000C5FA1087B8060000E939555FFF",
+          "off": "50B800000040C5F96EC058C5FA1187B8060000C5FA1087B8060000E959555FFF50B80000803FC5F96EC058C5FA1187B8060000C5FA1087B8060000E939555FFF",
+          "expected": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "EF325D",
+          "on": "EB2983BFD80D000001742083BFF80D0000017417C787B80D000000000000C5FA1087B80D0000E9664E41FFC787B80D00000000803FC5FA1087B80D0000E94F4E41FFC5FA1087B80D0000E9424E41FF",
+          "off": "EB2983BFD80D000001742083BFF80D0000017417C787B80D000000000000C5FA1087B80D0000E9664E41FFC787B80D00000000803FC5FA1087B80D0000E94F4E41FFC5FA1087B80D0000E9424E41FF",
+          "expected": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "EF30B4",
+          "on": "E9EEFFFFFF9090909090909090909090",
+          "off": "E9EEFFFFFF9090909090909090909090",
+          "expected": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "EF3103",
+          "on": "E9F1FFFFFF9090909090909090909090",
+          "off": "E9F1FFFFFF9090909090909090909090",
+          "expected": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "EF3173",
+          "on": "E9DBFFFFFF9090909090909090909090",
+          "off": "E9DBFFFFFF9090909090909090909090",
+          "expected": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "EF31E3",
+          "on": "E9DBFFFFFF9090909090909090909090",
+          "off": "E9DBFFFFFF9090909090909090909090",
+          "expected": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "EF32AC",
+          "on": "E9EEFFFFFF9090909090909090909090",
+          "off": "E9EEFFFFFF9090909090909090909090",
+          "expected": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "3080E6",
+          "on": "E9C1B1BE00909090",
+          "off": "E9C1B1BE00909090",
+          "expected": "C5FA1087B80D0000"
+        },
+        {
+          "offset": "31103B",
+          "on": "E9C320BE00",
+          "off": "E9C320BE00",
+          "expected": "C5FA11472C"
+        },
+        {
+          "offset": "4E4AD8",
+          "on": "E9D7E5A000909090",
+          "off": "E9D7E5A000909090",
+          "expected": "C5FA11837C050000"
+        },
+        {
+          "offset": "4E86D0",
+          "on": "E99EAAA000909090",
+          "off": "E99EAAA000909090",
+          "expected": "C5FA1087B4060000"
+        },
+        {
+          "offset": "4E8714",
+          "on": "E9CAAAA000909090",
+          "off": "E9CAAAA000909090",
+          "expected": "C5FA1087B8060000"
+        }
+      ]
+    },
+    {
+      "name": "[DEP] Black Water Meter",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "EF30B4",
+          "on": "E9B3FFFFFF9090909090909090909090",
+          "off": "E9EEFFFFFF9090909090909090909090",
+          "expected": "E9EEFFFFFF9090909090909090909090"
+        }
+      ]
+    },
+    {
+      "name": "[DEP] Character Speed",
+      "description": "recommended is 2\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "EF3103",
+          "on": "E9DCFFFFFF9090909090909090909090",
+          "off": "E9F1FFFFFF9090909090909090909090",
+          "expected": "E9F1FFFFFF9090909090909090909090"
+        }
+      ]
+    },
+    {
+      "name": "[DEP] Walk Speed",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "EF3173",
+          "on": "E9BBFFFFFF9090909090909090909090",
+          "off": "E9DBFFFFFF9090909090909090909090",
+          "expected": "E9DBFFFFFF9090909090909090909090"
+        }
+      ]
+    },
+    {
+      "name": "[DEP] Run Speed",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "EF31E3",
+          "on": "E9BBFFFFFF9090909090909090909090",
+          "off": "E9DBFFFFFF9090909090909090909090",
+          "expected": "E9DBFFFFFF9090909090909090909090"
+        }
+      ]
+    },
+    {
+      "name": "[DEP] Remove All Character Visual",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "EF32AC",
+          "on": "E9ACFFFFFF9090909090909090909090",
+          "off": "E9EEFFFFFF9090909090909090909090",
+          "expected": "E9EEFFFFFF9090909090909090909090"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "d01v"
+  ]
+}
