@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-08-05T08:54:24.3637674Z",
+  "generatedUtc": "2026-08-05T15:42:16.6171799Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -118004,6 +118004,49 @@
             "Infinite Arrows/Potions (On Use)",
             "Max/Infinite Time Crystals/Xerxes/Lingots (x2/Disable After Max)",
             "Infinite Jumps"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA10621",
+      "version": "01.012.000",
+      "title": "Lies of P",
+      "idLower": "ppsa10621",
+      "titleLower": "lies of p",
+      "cheatsTotal": 11,
+      "creators": [
+        "Celogamez"
+      ],
+      "creatorsLower": [
+        "celogamez"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 11,
+          "cheats": [
+            "Infinite Health/1 Hit Kill/Stamina/Fable/Legion (Mastercode/Must Be On",
+            "Infinite Health",
+            "1 Hit Kill",
+            "Infinite Stamina",
+            "Infinite Fable",
+            "Infinite Legion",
+            "Max Items On Pick Up",
+            "Max Items On Use",
+            "Infinite Weapon Sharpness Durability",
+            "Max Carry Weight",
+            "Max Ergo"
           ]
         }
       }
