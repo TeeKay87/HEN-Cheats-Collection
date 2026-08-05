@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-08-04T21:47:55.1735889Z",
+  "generatedUtc": "2026-08-05T07:44:43.5538438Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -114812,6 +114812,40 @@
             "Infinite Health Player And One-Hit Kill Enemy (Enable only after loading game / Don\u0027t use with Infinite Health)",
             "Medkits Increase On Spend",
             "Infinite Ammo (No Reload)"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA04452",
+      "version": "01.012.002",
+      "title": "Warhammer 40,000: Space Marine 2",
+      "idLower": "ppsa04452",
+      "titleLower": "warhammer 40,000: space marine 2",
+      "cheatsTotal": 2,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Infinity Armor",
+            "Infinity Ammo"
           ]
         }
       }
