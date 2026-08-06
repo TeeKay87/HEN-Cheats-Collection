@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-08-05T21:30:33.301532Z",
+  "generatedUtc": "2026-08-06T09:01:51.427985Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -122316,6 +122316,48 @@
           "hasFile": false,
           "cheatsCount": 0,
           "cheats": []
+        }
+      }
+    },
+    {
+      "id": "PPSA29343",
+      "version": "01.000.000",
+      "title": "Beast of Reincarnation Digital Deluxe Edition",
+      "idLower": "ppsa29343",
+      "titleLower": "beast of reincarnation digital deluxe edition",
+      "cheatsTotal": 10,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 10,
+          "cheats": [
+            "Untouchable",
+            "Infi Wolf Skill",
+            "Infi Medikit",
+            "Infi Arrow",
+            "Infi Arrow No reload",
+            "Acquire 40K Money Each",
+            "Max Skill Points",
+            "Max Ability Points",
+            "Untouchable (Wolf)",
+            "Infi Arrows"
+          ]
         }
       }
     },
