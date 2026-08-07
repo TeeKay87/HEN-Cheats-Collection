@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-08-06T09:01:51.427985Z",
+  "generatedUtc": "2026-08-07T09:49:01.4900809Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -116422,6 +116422,46 @@
             "50,000 Shooting Range Points",
             "All Skull Emblems Hit in Shooting Range"
           ]
+        }
+      }
+    },
+    {
+      "id": "PPSA07570",
+      "version": "01.010.001",
+      "title": "Mortal Kombat 1",
+      "idLower": "ppsa07570",
+      "titleLower": "mortal kombat 1",
+      "cheatsTotal": 6,
+      "creators": [
+        "Talixme",
+        "Wander"
+      ],
+      "creatorsLower": [
+        "talixme",
+        "wander"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 6,
+          "cheats": [
+            "Master Code",
+            "--Inf_Hp_P1",
+            "--Inf_Hp_P2",
+            "--One_Hit_Kill_P1",
+            "--One_Hit_Kill_P2",
+            "Stop Timer"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },

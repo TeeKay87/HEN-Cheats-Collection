@@ -1,0 +1,109 @@
+{
+  "name": "Mortal Kombat 1",
+  "id": "PPSA07570",
+  "version": "01.010.001",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Master Code",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "D2EFF00",
+          "on": "00",
+          "off": "00"
+        },
+        {
+          "offset": "D2EFF01",
+          "on": "00",
+          "off": "00"
+        },
+        {
+          "offset": "D2EFF02",
+          "on": "00",
+          "off": "00"
+        },
+        {
+          "offset": "D2EFF03",
+          "on": "00",
+          "off": "00"
+        },
+        {
+          "offset": "8AFB000",
+          "on": "81FC906EDFEE740BC4C17A110406E98409AFF96683BC24FC0A00000074166683BC24FC0A0000017428C4C17A110406E96309AFF9803DC54E7F04017431803DBF4E7F0401743AC4C17A110406E94609AFF9803DA94E7F04017414803DA14E7F0401741DC4C17A110406E92909AFF9C4C17A10440610C4C17A110406E91709AFF941C7040600000000E90A09AFF9",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "25EB991",
+          "on": "E96AF6500690",
+          "off": "C4C17A110406"
+        }
+      ]
+    },
+    {
+      "name": "--Inf_Hp_P1",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "D2EFF00",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "--Inf_Hp_P2",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "D2EFF01",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "--One_Hit_Kill_P1",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "D2EFF02",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "--One_Hit_Kill_P2",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "D2EFF03",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Stop Timer",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "26AE8CE",
+          "on": "90909090",
+          "off": "41FF4F70"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme",
+    "Wander"
+  ]
+}
