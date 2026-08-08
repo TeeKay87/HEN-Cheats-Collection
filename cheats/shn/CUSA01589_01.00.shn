@@ -2,7 +2,7 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dark Souls II: Scholar of the First Sin" Moder="hejran7" Cusa="CUSA01589" Version="01.00" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="HP MC (Must Be On)">
+  <StartUP Text="HP MC (Must Be On)">
     <Cheatline>
       <Offset>2077800</Offset>
       <Section>0</Section>
@@ -15,8 +15,8 @@
       <ValueOn>E9-6D-73-EE-01-90-90</ValueOn>
       <ValueOff>41-89-87-70-01-00-00</ValueOff>
     </Cheatline>
-  </Cheat>
-  <Cheat Text="Invincible MC (Must Be On)">
+  </StartUP>
+  <StartUP Text="Invincible MC (Must Be On)">
     <Cheatline>
       <Offset>2077840</Offset>
       <Section>0</Section>
@@ -29,8 +29,8 @@
       <ValueOn>E9-B4-39-EE-01-90-90</ValueOn>
       <ValueOff>83-B9-F0-05-00-00-00</ValueOff>
     </Cheatline>
-  </Cheat>
-  <Cheat Text="Speed MC (Must Be On)">
+  </StartUP>
+  <StartUP Text="Speed MC (Must Be On)">
     <Cheatline>
       <Offset>2077869</Offset>
       <Section>0</Section>
@@ -43,8 +43,8 @@
       <ValueOn>E9-B4-94-D1-01-90-90-90</ValueOn>
       <ValueOff>C5-FA-10-83-B0-02-00-00</ValueOff>
     </Cheatline>
-  </Cheat>
-  <Cheat Text="Pass Through Any Door MC (Must Be On)">
+  </StartUP>
+  <StartUP Text="Pass Through Any Door MC (Must Be On)">
     <Cheatline>
       <Offset>2077887</Offset>
       <Section>0</Section>
@@ -57,7 +57,7 @@
       <ValueOn>E9-E1-F9-C9-01-90-90</ValueOn>
       <ValueOff>83-BA-2C-06-00-00-00</ValueOff>
     </Cheatline>
-  </Cheat>
+  </StartUP>
   <Cheat Text="Invincible">
     <Cheatline>
       <Offset>2077847</Offset>

@@ -7,7 +7,7 @@
   <Genres Name="Racing" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Player Pointer">
+  <StartUP Text="Player Pointer">
     <Cheatline>
       <Offset>12B3800</Offset>
       <Section>0</Section>
@@ -20,8 +20,8 @@
       <ValueOn>E9-0A-56-C8-00</ValueOn>
       <ValueOff>C5-FA-2C-40-54</ValueOff>
     </Cheatline>
-  </Cheat>
-  <Cheat Text="Health / 1 Hit Kills">
+  </StartUP>
+  <StartUP Text="Health / 1 Hit Kills">
     <Cheatline>
       <Offset>12B3816</Offset>
       <Section>0</Section>
@@ -34,8 +34,8 @@
       <ValueOn>E9-54-B2-D5-00-90</ValueOn>
       <ValueOff>C4-C1-72-5D-56-5C</ValueOff>
     </Cheatline>
-  </Cheat>
-  <Cheat Text="Game-Speed">
+  </StartUP>
+  <StartUP Text="Game-Speed">
     <Cheatline>
       <Offset>12B38CA</Offset>
       <Section>0</Section>
@@ -48,8 +48,8 @@
       <ValueOn>E9-7F-E4-03-01</ValueOn>
       <ValueOff>C5-FA-10-40-38</ValueOff>
     </Cheatline>
-  </Cheat>
-  <Cheat Text="Day-Time">
+  </StartUP>
+  <StartUP Text="Day-Time">
     <Cheatline>
       <Offset>12B3912</Offset>
       <Section>0</Section>
@@ -62,7 +62,7 @@
       <ValueOn>E9-EB-96-24-01</ValueOn>
       <ValueOff>C5-FA-11-43-24</ValueOff>
     </Cheatline>
-  </Cheat>
+  </StartUP>
   <Cheat Text="Infinite Health">
     <Cheatline>
       <Offset>12B3800</Offset>

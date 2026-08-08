@@ -3,23 +3,20 @@
   "id": "CUSA02000",
   "version": "01.02",
   "process": "eboot.bin",
+  "master": {
+    "challenged": "yes",
+    "memory": [
+      {
+        "offset": "48B3800",
+        "on": "415149B900000000070000004D39CF41597E0B418907418906E96C44D3FD9090909090909090909090909090909090909090909090909090EBD9418B4704EBD3B800000000EBCC"
+      },
+      {
+        "offset": "25E7C84",
+        "on": "E977BB2C0290"
+      }
+    ]
+  },
   "mods": [
-    {
-      "name": "Master",
-      "type": "master",
-      "memory": [
-        {
-          "offset": "48B3800",
-          "on": "415149B900000000070000004D39CF41597E0B418907418906E96C44D3FD9090909090909090909090909090909090909090909090909090EBD9418B4704EBD3B800000000EBCC",
-          "off": ""
-        },
-        {
-          "offset": "25E7C84",
-          "on": "E977BB2C0290",
-          "off": ""
-        }
-      ]
-    },
     {
       "name": "God Mode",
       "type": "checkbox",

@@ -2,7 +2,7 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dark Souls III: The Fire Fades Edition" Moder="hejran7" Cusa="CUSA07439" Version="01.03" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="HP MC (Must Be On)">
+  <StartUP Text="HP MC (Must Be On)">
     <Cheatline>
       <Offset>4747800</Offset>
       <Section>0</Section>
@@ -15,8 +15,8 @@
       <ValueOn>E9-95-71-52-03-90</ValueOn>
       <ValueOff>89-C8-29-D8-78-4B</ValueOff>
     </Cheatline>
-  </Cheat>
-  <Cheat Text="Stamina MC (Must Be On)">
+  </StartUP>
+  <StartUP Text="Stamina MC (Must Be On)">
     <Cheatline>
       <Offset>474782D</Offset>
       <Section>0</Section>
@@ -29,7 +29,7 @@
       <ValueOn>E9-B2-43-4E-03</ValueOn>
       <ValueOff>39-D8-0F-4E-D8</ValueOff>
     </Cheatline>
-  </Cheat>
+  </StartUP>
   <Cheat Text="Inf HP">
     <Cheatline>
       <Offset>474780A</Offset>

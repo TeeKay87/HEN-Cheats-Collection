@@ -109,7 +109,7 @@
       <ValueOff>89-77-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Start Speed">
+  <StartUP Text="Start Speed">
     <Cheatline>
       <Offset>50DB7D0</Offset>
       <Section>0</Section>
@@ -122,8 +122,8 @@
       <ValueOn>E9-AA-0D-BC-03-90-90-90-90-90-90</ValueOn>
       <ValueOff>48-8B-80-B0-03-00-00-48-8B-40-30</ValueOff>
     </Cheatline>
-  </Cheat>
-  <Cheat Text="Player's Offsets HP=80237000 (+0xf8), MOVE=80237008 (+0x374)">
+  </StartUP>
+  <StartUP Text="Player's Offsets HP=80237000 (+0xf8), MOVE=80237008 (+0x374)">
     <Cheatline>
       <Offset>50DB780</Offset>
       <Section>0</Section>
@@ -136,7 +136,7 @@
       <ValueOn>E9-E8-01-6C-03-90-90</ValueOn>
       <ValueOff>48-8B-82-B0-03-00-00</ValueOff>
     </Cheatline>
-  </Cheat>
+  </StartUP>
   <Cheat Text="Infinite Health">
     <Cheatline>
       <Offset>50DB860</Offset>

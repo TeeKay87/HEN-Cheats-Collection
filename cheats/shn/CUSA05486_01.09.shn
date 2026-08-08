@@ -5,7 +5,7 @@
   <Genres Name="Fighting" />
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Health/Magic/Stamina">
+  <StartUP Text="Health/Magic/Stamina">
     <Cheatline>
       <Offset>1D1781F</Offset>
       <Section>0</Section>
@@ -18,7 +18,7 @@
       <ValueOn>E9-AF-F2-5D-01</ValueOn>
       <ValueOff>C4-C1-7A-5C-0F</ValueOff>
     </Cheatline>
-  </Cheat>
+  </StartUP>
   <Cheat Text="Infinite Health">
     <Cheatline>
       <Offset>1D1781F</Offset>

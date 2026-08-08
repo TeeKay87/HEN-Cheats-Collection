@@ -2,7 +2,7 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Bayonetta" Moder="hejran7" Cusa="CUSA16163" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Witch Time MC (Must Be On)">
+  <StartUP Text="Witch Time MC (Must Be On)">
     <Cheatline>
       <Offset>DE0597</Offset>
       <Section>0</Section>
@@ -15,7 +15,7 @@
       <ValueOn>E9-99-09-3A-00-90</ValueOn>
       <ValueOff>89-88-84-01-00-00</ValueOff>
     </Cheatline>
-  </Cheat>
+  </StartUP>
   <Cheat Text="Max Inf HP">
     <Cheatline>
       <Offset>DE0541</Offset>

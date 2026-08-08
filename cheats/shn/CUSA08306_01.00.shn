@@ -4,7 +4,7 @@
   <Genres Name="Fighting" />
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Health + 1 Hit Kills">
+  <StartUP Text="Health + 1 Hit Kills">
     <Cheatline>
       <Offset>5F3800</Offset>
       <Section>0</Section>
@@ -17,7 +17,7 @@
       <ValueOn>E9-22-16-5B-00</ValueOn>
       <ValueOff>41-89-17-74-2B</ValueOff>
     </Cheatline>
-  </Cheat>
+  </StartUP>
   <Cheat Text="Infinite Health">
     <Cheatline>
       <Offset>5F3800</Offset>

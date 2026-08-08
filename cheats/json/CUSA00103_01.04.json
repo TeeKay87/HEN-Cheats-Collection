@@ -3,6 +3,19 @@
   "id": "CUSA00103",
   "version": "01.04",
   "process": "eboot.bin",
+  "master": {
+    "challenged": "yes",
+    "memory": [
+      {
+        "offset": "1353874",
+        "on": "C4C17A114CCA0C4883FA087509C4C17A114CCA0C90904883FA047509C4C17A114CCA0C90904883FA440F85C4000AFFC4C17A114CCA0C9090E9B6000AFF"
+      },
+      {
+        "offset": "3F3960",
+        "on": "E90FFFF5009090"
+      }
+    ]
+  },
   "mods": [
     {
       "name": "Max Inf HP",
@@ -188,22 +201,6 @@
           "offset": "3E4CC5",
           "on": "909090909090909090",
           "off": "C4C17A119584010000"
-        }
-      ]
-    },
-    {
-      "name": "Master",
-      "type": "master",
-      "memory": [
-        {
-          "offset": "1353874",
-          "on": "C4C17A114CCA0C4883FA087509C4C17A114CCA0C90904883FA047509C4C17A114CCA0C90904883FA440F85C4000AFFC4C17A114CCA0C9090E9B6000AFF",
-          "off": ""
-        },
-        {
-          "offset": "3F3960",
-          "on": "E90FFFF5009090",
-          "off": ""
         }
       ]
     },

@@ -2,7 +2,7 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="The Witcher 3: Wild Hunt" Moder="Cosmaty, TLH" Cusa="CUSA05573" Version="01.50" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Code">
+  <StartUP Text="Code">
     <Cheatline>
       <Offset>24F3800</Offset>
       <Section>0</Section>
@@ -15,7 +15,7 @@
       <ValueOn>E9-E1-53-3F-01</ValueOn>
       <ValueOff>C5-FA-11-04-81</ValueOff>
     </Cheatline>
-  </Cheat>
+  </StartUP>
   <Cheat Text="God Mode">
     <Cheatline>
       <Offset>24F3814</Offset>

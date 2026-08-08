@@ -5,7 +5,7 @@
   <Genres Name="Shooter" />
   <Genres Name="Horror" />
   <Items />
-  <Cheat Text="SpeedHack Code">
+  <StartUP Text="SpeedHack Code">
     <Cheatline>
       <Offset>7E2B825</Offset>
       <Section>0</Section>
@@ -18,7 +18,7 @@
       <ValueOn>E9-3E-42-B0-06</ValueOn>
       <ValueOff>C5-FA-10-40-1C</ValueOff>
     </Cheatline>
-  </Cheat>
+  </StartUP>
   <Cheat Text="Infinite Health">
     <Cheatline>
       <Offset>1D62385</Offset>

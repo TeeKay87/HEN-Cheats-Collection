@@ -2,7 +2,7 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Resident Evil 4" Moder="hejran7" Cusa="CUSA33388" Version="01.04" Process="eboot.bin">
   <Genres Name="Horror" />
   <Items />
-  <Cheat Text="HP_Untouchable MC (must be on)">
+  <StartUP Text="HP_Untouchable MC (must be on)">
     <Cheatline>
       <Offset>B3CF889</Offset>
       <Section>0</Section>
@@ -27,7 +27,7 @@
       <ValueOn>E9-F0-5D-AA-05</ValueOn>
       <ValueOff>39-F2-0F-4C-F2</ValueOff>
     </Cheatline>
-  </Cheat>
+  </StartUP>
   <Cheat Text="Untouchable">
     <Cheatline>
       <Offset>B3CF890</Offset>

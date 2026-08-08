@@ -2,7 +2,7 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Mad Max" Moder="hejran7" Cusa="CUSA00103" Version="01.04" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Master Code 1 (Must Be On)">
+  <StartUP Text="Master Code 1 (Must Be On)">
     <Cheatline>
       <Offset>1353874</Offset>
       <Section>0</Section>
@@ -15,8 +15,8 @@
       <ValueOn>E9-0F-FF-F5-00-90-90</ValueOn>
       <ValueOff>C4-C1-7A-11-4C-CA-0C</ValueOff>
     </Cheatline>
-  </Cheat>
-  <Cheat Text="Master Code 2 (Must Be On)">
+  </StartUP>
+  <StartUP Text="Master Code 2 (Must Be On)">
     <Cheatline>
       <Offset>135394E</Offset>
       <Section>0</Section>
@@ -29,7 +29,7 @@
       <ValueOn>E9-84-2A-8C-00</ValueOn>
       <ValueOff>8D-50-01-89-11</ValueOff>
     </Cheatline>
-  </Cheat>
+  </StartUP>
   <Cheat Text="Max Inf HP">
     <Cheatline>
       <Offset>5CC7E9</Offset>

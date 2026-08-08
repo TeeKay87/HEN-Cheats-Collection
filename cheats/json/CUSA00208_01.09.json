@@ -3,23 +3,20 @@
   "id": "CUSA00208",
   "version": "01.09",
   "process": "eboot.bin",
+  "master": {
+    "challenged": "yes",
+    "memory": [
+      {
+        "offset": "50DB810",
+        "on": "48A300400000000000008B88F80000008988F80000008B88F800000041894C2418E981C081FC"
+      },
+      {
+        "offset": "18F78B1",
+        "on": "E95A3F7E0390"
+      }
+    ]
+  },
   "mods": [
-    {
-      "name": "Master",
-      "type": "master",
-      "memory": [
-        {
-          "offset": "50DB810",
-          "on": "48A300400000000000008B88F80000008988F80000008B88F800000041894C2418E981C081FC",
-          "off": ""
-        },
-        {
-          "offset": "18F78B1",
-          "on": "E95A3F7E0390",
-          "off": ""
-        }
-      ]
-    },
     {
       "name": "Infinite  BloodEcho",
       "type": "checkbox",

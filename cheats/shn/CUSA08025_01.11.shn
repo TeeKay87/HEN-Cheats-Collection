@@ -4,7 +4,7 @@
   <Genres Name="Shooter" />
   <Genres Name="Educational" />
   <Items />
-  <Cheat Text="Money^Eridium MC (Must Be On)">
+  <StartUP Text="Money^Eridium MC (Must Be On)">
     <Cheatline>
       <Offset>930007A</Offset>
       <Section>0</Section>
@@ -17,8 +17,8 @@
       <ValueOn>E9-85-A6-1B-04-90</ValueOn>
       <ValueOff>03-02-48-83-C2-40</ValueOff>
     </Cheatline>
-  </Cheat>
-  <Cheat Text="Speed Hack MC (Must Be On)">
+  </StartUP>
+  <StartUP Text="Speed Hack MC (Must Be On)">
     <Cheatline>
       <Offset>9300110</Offset>
       <Section>0</Section>
@@ -31,7 +31,7 @@
       <ValueOn>E9-6F-8B-7A-04-90-90-90</ValueOn>
       <ValueOff>C5-FA-59-83-08-11-00-00</ValueOff>
     </Cheatline>
-  </Cheat>
+  </StartUP>
   <Cheat Text="Max Inf HP\Shield">
     <Cheatline>
       <Offset>930005C</Offset>

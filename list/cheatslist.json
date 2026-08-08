@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-08-08T01:57:50.2120109Z",
+  "generatedUtc": "2026-08-08T09:01:15.8141588Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -1195,7 +1195,7 @@
       "title": "Mad Max",
       "idLower": "cusa00103",
       "titleLower": "mad max",
-      "cheatsTotal": 42,
+      "cheatsTotal": 37,
       "creators": [
         "hejran7",
         "hejran7, OldGamer",
@@ -1209,7 +1209,7 @@
       "formats": {
         "json": {
           "hasFile": true,
-          "cheatsCount": 14,
+          "cheatsCount": 13,
           "cheats": [
             "Max Inf HP",
             "Max Fury R3\u002BL2 On R3\u002BR2 Off",
@@ -1223,16 +1223,13 @@
             "Inf Griffa Tokens x1",
             "Inf Griffa Tokens x5",
             "Inf Enemy HP",
-            "Master",
             "Inf Enemy HP fake"
           ]
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 14,
+          "cheatsCount": 12,
           "cheats": [
-            "Master Code 1 (Must Be On)",
-            "Master Code 2 (Must Be On)",
             "Max Inf HP",
             "Max Fury R3\u002BL2 On R3\u002BR2 Off",
             "Max Inf Fury",
@@ -1249,10 +1246,8 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 14,
+          "cheatsCount": 12,
           "cheats": [
-            "Master Code 1",
-            "Master Code 2",
             "Max Inf HP",
             "Max Fury R3\u002BL2 On R3\u002BR2 Off",
             "Max Inf Fury",
@@ -1275,7 +1270,7 @@
       "title": "Tomb Raider: Definitive Edition",
       "idLower": "cusa00109",
       "titleLower": "tomb raider: definitive edition",
-      "cheatsTotal": 23,
+      "cheatsTotal": 22,
       "creators": [
         "Cosmaty",
         "Cosmaty, TLH",
@@ -1299,9 +1294,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 8,
+          "cheatsCount": 7,
           "cheats": [
-            "Health / 1 Hit",
             "Infinite Health",
             "Infinite Ammo/Resources",
             "Bottomless Clip",
@@ -1319,13 +1313,13 @@
             "Inf Item",
             "No Reload",
             "Inf Skill Points",
-            "Health / 1 Hit",
             "Infinite Health",
             "Infinite Ammo/Resources",
             "Infinite Skillpoints",
             "Max XP on Get",
             "Max Resources on Get",
-            "Instant QuickTime Events"
+            "Instant QuickTime Events",
+            "Health / 1 Hit"
           ]
         }
       }
@@ -1950,7 +1944,7 @@
       "title": "Bloodborne",
       "idLower": "cusa00207",
       "titleLower": "bloodborne",
-      "cheatsTotal": 32,
+      "cheatsTotal": 29,
       "creators": [
         "hejran7, Dioniso",
         "Shiningami"
@@ -1962,9 +1956,8 @@
       "formats": {
         "json": {
           "hasFile": true,
-          "cheatsCount": 7,
+          "cheatsCount": 6,
           "cheats": [
-            "Master",
             "Infinite  BloodEcho",
             "Infinite Lucidity",
             "Infinite Health",
@@ -1975,7 +1968,7 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 25,
+          "cheatsCount": 23,
           "cheats": [
             "Infinity HP",
             "One Hit Kill",
@@ -1988,8 +1981,6 @@
             "Inf Items On Use",
             "Dupe Anything In Storage Box",
             "Inf Weapon Durability",
-            "Start Speed",
-            "Player\u0027s Offsets HP=80237000 (\u002B0xf8), MOVE=80237008 (\u002B0x374)",
             "Infinite Health",
             "1 Hit Kill -Bosses",
             "Infinite Stamina",
@@ -2064,7 +2055,7 @@
       "title": "Bloodborne",
       "idLower": "cusa00208",
       "titleLower": "bloodborne",
-      "cheatsTotal": 32,
+      "cheatsTotal": 29,
       "creators": [
         "hejran7, Dioniso",
         "Shiningami"
@@ -2076,9 +2067,8 @@
       "formats": {
         "json": {
           "hasFile": true,
-          "cheatsCount": 7,
+          "cheatsCount": 6,
           "cheats": [
-            "Master",
             "Infinite  BloodEcho",
             "Infinite Lucidity",
             "Infinite Health",
@@ -2089,7 +2079,7 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 25,
+          "cheatsCount": 23,
           "cheats": [
             "Infinity HP",
             "One Hit Kill",
@@ -2102,8 +2092,6 @@
             "Inf Items On Use",
             "Dupe Anything In Storage Box",
             "Inf Weapon Durability",
-            "Start Speed",
-            "Player\u0027s Offsets HP=80237000 (\u002B0xf8), MOVE=80237008 (\u002B0x374)",
             "Infinite Health",
             "1 Hit Kill -Bosses",
             "Infinite Stamina",
@@ -2166,7 +2154,7 @@
       "title": "Dragon Age: Inquisition",
       "idLower": "cusa00220",
       "titleLower": "dragon age: inquisition",
-      "cheatsTotal": 78,
+      "cheatsTotal": 76,
       "creators": [
         "d01v"
       ],
@@ -2181,9 +2169,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 39,
+          "cheatsCount": 38,
           "cheats": [
-            "MasterCode",
             "Disable Infinite Health",
             "Disable Max Health",
             "Disable Infinite Stamina / Mana",
@@ -2226,9 +2213,8 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 39,
+          "cheatsCount": 38,
           "cheats": [
-            "MasterCode",
             "Disable Infinite Health",
             "Disable Max Health",
             "Disable Infinite Stamina / Mana",
@@ -3018,7 +3004,7 @@
       "title": "Bound by Flame",
       "idLower": "cusa00303",
       "titleLower": "bound by flame",
-      "cheatsTotal": 22,
+      "cheatsTotal": 21,
       "creators": [
         "TLH"
       ],
@@ -3033,9 +3019,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 11,
+          "cheatsCount": 10,
           "cheats": [
-            "Health / 1 Hit",
             "Infinite Health",
             "1 Hit Kills",
             "Infinite Mana",
@@ -3052,7 +3037,6 @@
           "hasFile": true,
           "cheatsCount": 11,
           "cheats": [
-            "Health / 1 Hit",
             "Infinite Health",
             "1 Hit Kills",
             "Infinite Mana",
@@ -3062,7 +3046,8 @@
             "Infinite Skillpoints",
             "Infinite Feat-Points",
             "Max Items/Resources",
-            "Instant Level 50"
+            "Instant Level 50",
+            "Health / 1 Hit"
           ]
         }
       }
@@ -3073,7 +3058,7 @@
       "title": "Bound by Flame",
       "idLower": "cusa00303",
       "titleLower": "bound by flame",
-      "cheatsTotal": 19,
+      "cheatsTotal": 18,
       "creators": [
         "Rizla, TLH"
       ],
@@ -3088,9 +3073,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 9,
+          "cheatsCount": 8,
           "cheats": [
-            "Health / 1 Hit Kill",
             "Infinite Health",
             "1 Hit Kill",
             "Infinite Mana",
@@ -3105,7 +3089,6 @@
           "hasFile": true,
           "cheatsCount": 10,
           "cheats": [
-            "Infinite Health/One Hit",
             "Infinite Health",
             "1 Hit Kill",
             "Infinite Mana",
@@ -3114,7 +3097,8 @@
             "0 Weight",
             "LVL 50 on XP Gain",
             "Infinite Skillpoints",
-            "Infinite Feat Points"
+            "Infinite Feat Points",
+            "Infinite Health/One Hit"
           ]
         }
       }
@@ -4641,7 +4625,7 @@
       "title": "Diablo III: Reaper of Souls: Ultimate Evil Edition",
       "idLower": "cusa00434",
       "titleLower": "diablo iii: reaper of souls: ultimate evil edition",
-      "cheatsTotal": 12,
+      "cheatsTotal": 10,
       "creators": [
         "Cosmaty"
       ],
@@ -4651,9 +4635,8 @@
       "formats": {
         "json": {
           "hasFile": true,
-          "cheatsCount": 4,
+          "cheatsCount": 3,
           "cheats": [
-            "Master",
             "God Mode",
             "Inf Mana",
             "Inf Money"
@@ -4671,9 +4654,8 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 4,
+          "cheatsCount": 3,
           "cheats": [
-            "Code",
             "God Mode",
             "Inf Mana",
             "Inf Money"
@@ -4803,7 +4785,7 @@
       "title": "Far Cry 4",
       "idLower": "cusa00462",
       "titleLower": "far cry 4",
-      "cheatsTotal": 13,
+      "cheatsTotal": 12,
       "creators": [
         "TLH"
       ],
@@ -4818,9 +4800,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 13,
+          "cheatsCount": 12,
           "cheats": [
-            "PlayerBase Pointer",
             "Infinite Health",
             "Bottomless Clip",
             "Infinite Ammo",
@@ -4957,7 +4938,7 @@
       "title": "Far Cry 4",
       "idLower": "cusa00496",
       "titleLower": "far cry 4",
-      "cheatsTotal": 72,
+      "cheatsTotal": 65,
       "creators": [
         "KevinTamvan"
       ],
@@ -5027,15 +5008,8 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 24,
+          "cheatsCount": 17,
           "cheats": [
-            "Faster Movement Code",
-            "Run/Swim Faster Code",
-            "Gravity Code",
-            "Reduce Slipp. Code",
-            "Super Jump Code",
-            "Forward Day Time Code",
-            "Oxygen Mask Code",
             "Infinite Health Player",
             "Infinite Ammo",
             "No Reload",
@@ -5063,7 +5037,7 @@
       "title": "Dragon Age: Inquisition",
       "idLower": "cusa00503",
       "titleLower": "dragon age: inquisition",
-      "cheatsTotal": 77,
+      "cheatsTotal": 76,
       "creators": [
         "d01v"
       ],
@@ -5117,9 +5091,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 39,
+          "cheatsCount": 38,
           "cheats": [
-            "MasterCode",
             "Disable Infinite Health",
             "Disable Max Health",
             "Disable Infinite Stamina / Mana",
@@ -5589,7 +5562,7 @@
       "title": "The Last of Us: Remastered",
       "idLower": "cusa00557",
       "titleLower": "the last of us: remastered",
-      "cheatsTotal": 18,
+      "cheatsTotal": 16,
       "creators": [
         "Cosmaty"
       ],
@@ -5599,9 +5572,8 @@
       "formats": {
         "json": {
           "hasFile": true,
-          "cheatsCount": 6,
+          "cheatsCount": 5,
           "cheats": [
-            "Master",
             "God Mode",
             "Easy Kill",
             "Inf Ammo",
@@ -5623,9 +5595,8 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 6,
+          "cheatsCount": 5,
           "cheats": [
-            "Code",
             "God Mode",
             "Easy Kill",
             "Inf Ammo",
@@ -7319,7 +7290,7 @@
       "title": "Bloodborne",
       "idLower": "cusa00900",
       "titleLower": "bloodborne",
-      "cheatsTotal": 32,
+      "cheatsTotal": 29,
       "creators": [
         "hejran7, Dioniso",
         "Shiningami"
@@ -7331,9 +7302,8 @@
       "formats": {
         "json": {
           "hasFile": true,
-          "cheatsCount": 7,
+          "cheatsCount": 6,
           "cheats": [
-            "Master",
             "Infinite  BloodEcho",
             "Infinite Lucidity",
             "Infinite Health",
@@ -7344,7 +7314,7 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 25,
+          "cheatsCount": 23,
           "cheats": [
             "Infinity HP",
             "One Hit Kill",
@@ -7357,8 +7327,6 @@
             "Inf Items On Use",
             "Dupe Anything In Storage Box",
             "Inf Weapon Durability",
-            "Start Speed",
-            "Player\u0027s Offsets HP=80237000 (\u002B0xf8), MOVE=80237008 (\u002B0x374)",
             "Infinite Health",
             "1 Hit Kill -Bosses",
             "Infinite Stamina",
@@ -7983,7 +7951,7 @@
       "title": "Sleeping Dogs: Definitive Edition",
       "idLower": "cusa01004",
       "titleLower": "sleeping dogs: definitive edition",
-      "cheatsTotal": 38,
+      "cheatsTotal": 34,
       "creators": [
         "TLH"
       ],
@@ -7998,12 +7966,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 19,
+          "cheatsCount": 15,
           "cheats": [
-            "Player Pointer",
-            "Health / 1 Hit Kills",
-            "Game-Speed",
-            "Day-Time",
             "Infinite Health",
             "1 Hit Kill",
             "Instant Health Regeneration",
@@ -8025,10 +7989,6 @@
           "hasFile": true,
           "cheatsCount": 19,
           "cheats": [
-            "Player Pointer",
-            "Health / 1 Hit Kills",
-            "Game-Speed",
-            "Day-Time",
             "Infinite Health",
             "1 Hit Kill",
             "Instant Health Regeneration",
@@ -8043,7 +8003,11 @@
             "Game-Speed: Slow (0.3)",
             "Game-Speed: Fast (2)",
             "Day-Time: Midnight",
-            "Day-Time: Noon"
+            "Day-Time: Noon",
+            "Player Pointer",
+            "Health / 1 Hit Kills",
+            "Game-Speed",
+            "Day-Time"
           ]
         }
       }
@@ -8438,7 +8402,7 @@
       "title": "The Evil Within",
       "idLower": "cusa01082",
       "titleLower": "the evil within",
-      "cheatsTotal": 27,
+      "cheatsTotal": 25,
       "creators": [
         "TLH"
       ],
@@ -8463,10 +8427,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 9,
+          "cheatsCount": 7,
           "cheats": [
-            "Pointer",
-            "Health / 1 Hit Kills",
             "Infinite Health",
             "1 Hit Kills",
             "Bottomless Clip",
@@ -8480,15 +8442,15 @@
           "hasFile": true,
           "cheatsCount": 9,
           "cheats": [
-            "Pointer",
-            "Health / 1 Hit Kills",
             "Infinite Health",
             "1 Hit Kills",
             "Bottomless Clip",
             "Infinite Ammo",
             "Infinite Gel",
             "Infinite Stamina",
-            "Infinite Items"
+            "Infinite Items",
+            "Pointer",
+            "Health / 1 Hit Kills"
           ]
         }
       }
@@ -9384,7 +9346,7 @@
       "title": "Street Fighter V",
       "idLower": "cusa01200",
       "titleLower": "street fighter v",
-      "cheatsTotal": 18,
+      "cheatsTotal": 16,
       "creators": [
         "TLH"
       ],
@@ -9399,10 +9361,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 9,
+          "cheatsCount": 7,
           "cheats": [
-            "Health Pointer",
-            "Health / 1 Hit",
             "P1: Infinite Health",
             "P1: 1 Hit Kill",
             "P2: Infinite Health",
@@ -9416,15 +9376,15 @@
           "hasFile": true,
           "cheatsCount": 9,
           "cheats": [
-            "Health Pointer",
-            "Health / 1 Hit",
             "P1: Infinite Health",
             "P1: 1 Hit Kill",
             "P2: Infinite Health",
             "P2: 1 Hit Kill",
             "Instant Regeneration",
             "Infinite Critical Gauge",
-            "Infinite V-Trigger Gauge"
+            "Infinite V-Trigger Gauge",
+            "Health Pointer",
+            "Health / 1 Hit"
           ]
         }
       }
@@ -9742,7 +9702,7 @@
       "title": "Dragon Ball: Xenoverse",
       "idLower": "cusa01341",
       "titleLower": "dragon ball: xenoverse",
-      "cheatsTotal": 28,
+      "cheatsTotal": 26,
       "creators": [
         "Rizla"
       ],
@@ -9782,10 +9742,8 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 10,
+          "cheatsCount": 8,
           "cheats": [
-            "MasterCode1",
-            "MasterCode2",
             "Max Zeni on Buy/Sell",
             "Max Points on Spend",
             "Max LVL/EXP on Gain",
@@ -9928,7 +9886,7 @@
       "title": "Bloodborne",
       "idLower": "cusa01363",
       "titleLower": "bloodborne",
-      "cheatsTotal": 32,
+      "cheatsTotal": 29,
       "creators": [
         "hejran7, Dioniso",
         "Shiningami"
@@ -9940,9 +9898,8 @@
       "formats": {
         "json": {
           "hasFile": true,
-          "cheatsCount": 7,
+          "cheatsCount": 6,
           "cheats": [
-            "Master",
             "Infinite  BloodEcho",
             "Infinite Lucidity",
             "Infinite Health",
@@ -9953,7 +9910,7 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 25,
+          "cheatsCount": 23,
           "cheats": [
             "Infinity HP",
             "One Hit Kill",
@@ -9966,8 +9923,6 @@
             "Inf Items On Use",
             "Dupe Anything In Storage Box",
             "Inf Weapon Durability",
-            "Start Speed",
-            "Player\u0027s Offsets HP=80237000 (\u002B0xf8), MOVE=80237008 (\u002B0x374)",
             "Infinite Health",
             "1 Hit Kill -Bosses",
             "Infinite Stamina",
@@ -10455,7 +10410,7 @@
       "title": "Dark Souls II: Scholar of the First Sin",
       "idLower": "cusa01589",
       "titleLower": "dark souls ii: scholar of the first sin",
-      "cheatsTotal": 21,
+      "cheatsTotal": 17,
       "creators": [
         "hejran7",
         "Skal_9.00"
@@ -10474,12 +10429,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 20,
+          "cheatsCount": 16,
           "cheats": [
-            "HP MC (Must Be On)",
-            "Invincible MC (Must Be On)",
-            "Speed MC (Must Be On)",
-            "Pass Through Any Door MC (Must Be On)",
             "Invincible",
             "Inf Health",
             "One Hit Kill",
@@ -10511,7 +10462,7 @@
       "title": "Dark Souls II: Scholar of the First Sin",
       "idLower": "cusa01589",
       "titleLower": "dark souls ii: scholar of the first sin",
-      "cheatsTotal": 37,
+      "cheatsTotal": 31,
       "creators": [
         "hejran7",
         "Shiningami"
@@ -10523,9 +10474,8 @@
       "formats": {
         "json": {
           "hasFile": true,
-          "cheatsCount": 8,
+          "cheatsCount": 7,
           "cheats": [
-            "Master",
             "God mode",
             "infinit Stamina",
             "infinit Souls Memory",
@@ -10537,12 +10487,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 21,
+          "cheatsCount": 17,
           "cheats": [
-            "HP OHK MC (Must Be On)",
-            "Invincible MC (Must Be On)",
-            "Speed Hack MC (Must Be On)",
-            "Pass Through Any Door MC (Must Be On)",
             "Inf Health",
             "One Hit Kill",
             "Invincible",
@@ -10564,9 +10510,8 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 8,
+          "cheatsCount": 7,
           "cheats": [
-            "Master Code",
             "God mode",
             "infinit Stamina",
             "infinit Souls Memory",
@@ -11089,7 +11034,7 @@
       "title": "Arcania: The Complete Tale",
       "idLower": "cusa01644",
       "titleLower": "arcania: the complete tale",
-      "cheatsTotal": 22,
+      "cheatsTotal": 21,
       "creators": [
         "Rizla"
       ],
@@ -11121,9 +11066,8 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 11,
+          "cheatsCount": 10,
           "cheats": [
-            "MasterCode",
             "Infinite Health",
             "Infinite Stamina",
             "Infinite Mana",
@@ -11515,7 +11459,7 @@
       "title": "One Piece: Pirate Warriors 3",
       "idLower": "cusa01742",
       "titleLower": "one piece: pirate warriors 3",
-      "cheatsTotal": 18,
+      "cheatsTotal": 16,
       "creators": [
         "TLH"
       ],
@@ -11530,10 +11474,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 9,
+          "cheatsCount": 7,
           "cheats": [
-            "Infinite Health \u002B Pointer",
-            "Health \u002B 1 Hit Kills",
             "Infinite Health",
             "1 Hit Kills",
             "Infinite Gauge",
@@ -11547,15 +11489,15 @@
           "hasFile": true,
           "cheatsCount": 9,
           "cheats": [
-            "Infinite Health \u002B Pointer",
-            "Health \u002B 1 Hit Kills",
             "Infinite Health",
             "1 Hit Kills",
             "Infinite Gauge",
             "Infinite Berry",
             "Max Berry on Get",
             "Max Stats",
-            "Max Crew Gauge"
+            "Max Crew Gauge",
+            "Infinite Health \u002B Pointer",
+            "Health \u002B 1 Hit Kills"
           ]
         }
       }
@@ -11566,7 +11508,7 @@
       "title": "Dark Souls II: Scholar of the First Sin",
       "idLower": "cusa01760",
       "titleLower": "dark souls ii: scholar of the first sin",
-      "cheatsTotal": 20,
+      "cheatsTotal": 16,
       "creators": [
         "hejran7"
       ],
@@ -11581,12 +11523,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 20,
+          "cheatsCount": 16,
           "cheats": [
-            "HP MC (Must Be On)",
-            "Invincible MC (Must Be On)",
-            "Speed MC (Must Be On)",
-            "Pass Through Any Door MC (Must Be On)",
             "Invincible",
             "Inf Health",
             "One Hit Kill",
@@ -11618,7 +11556,7 @@
       "title": "Dark Souls II: Scholar of the First Sin",
       "idLower": "cusa01760",
       "titleLower": "dark souls ii: scholar of the first sin",
-      "cheatsTotal": 25,
+      "cheatsTotal": 21,
       "creators": [
         "hejran7, Skal",
         "Skal"
@@ -11638,12 +11576,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 23,
+          "cheatsCount": 19,
           "cheats": [
-            "HP OHK MC (Must Be On)",
-            "Invincible MC (Must Be On)",
-            "Speed Hack MC (Must Be On)",
-            "Pass Through Any Door MC (Must Be On)",
             "Inf Health",
             "One Hit Kill",
             "Invincible",
@@ -11850,7 +11784,7 @@
       "title": "Dead or Alive 5: Last Round",
       "idLower": "cusa01778",
       "titleLower": "dead or alive 5: last round",
-      "cheatsTotal": 12,
+      "cheatsTotal": 11,
       "creators": [
         "TLH"
       ],
@@ -11865,9 +11799,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 6,
+          "cheatsCount": 5,
           "cheats": [
-            "Health",
             "Player 1: Infinite Health",
             "Player 2: Infinite Health",
             "Player 1: 1-Hit K.O.",
@@ -11879,12 +11812,12 @@
           "hasFile": true,
           "cheatsCount": 6,
           "cheats": [
-            "Health",
             "Player 1: Infinite Health",
             "Player 2: Infinite Health",
             "Player 1: 1-Hit K.O.",
             "Player 2: 1-Hit K.O.",
-            "Max Score"
+            "Max Score",
+            "Health"
           ]
         }
       }
@@ -12425,7 +12358,7 @@
       "title": "Batman: Return to Arkham",
       "idLower": "cusa02000",
       "titleLower": "batman: return to arkham",
-      "cheatsTotal": 15,
+      "cheatsTotal": 13,
       "creators": [
         "Cosmaty"
       ],
@@ -12435,9 +12368,8 @@
       "formats": {
         "json": {
           "hasFile": true,
-          "cheatsCount": 5,
+          "cheatsCount": 4,
           "cheats": [
-            "Master",
             "God Mode",
             "Easy Kill",
             "Add 2000 XP",
@@ -12457,9 +12389,8 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 5,
+          "cheatsCount": 4,
           "cheats": [
-            "Code",
             "God Mode",
             "Easy Kill",
             "Add 2000 XP",
@@ -12993,7 +12924,7 @@
       "title": "Middle-Earth: Shadow of Mordor: Game of the Year Edition",
       "idLower": "cusa02152",
       "titleLower": "middle-earth: shadow of mordor: game of the year edition",
-      "cheatsTotal": 26,
+      "cheatsTotal": 24,
       "creators": [
         "FW 9.00",
         "Reddevil82",
@@ -13027,10 +12958,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 8,
+          "cheatsCount": 6,
           "cheats": [
-            "Health Pointer",
-            "Health",
             "Infinite Health",
             "1-Hit Kills",
             "Infinite Focus",
@@ -13043,8 +12972,6 @@
           "hasFile": true,
           "cheatsCount": 10,
           "cheats": [
-            "Health Pointer",
-            "Health",
             "Infinite Health",
             "1-Hit Kills",
             "Infinite Focus",
@@ -13052,7 +12979,9 @@
             "Instant Max Level",
             "Instant Max Power",
             "Godmode",
-            "Infinite Arrows"
+            "Infinite Arrows",
+            "Health Pointer",
+            "Health"
           ]
         }
       }
@@ -13374,7 +13303,7 @@
       "title": "Dishonored: Definitive Edition",
       "idLower": "cusa02231",
       "titleLower": "dishonored: definitive edition",
-      "cheatsTotal": 40,
+      "cheatsTotal": 38,
       "creators": [
         "TLH"
       ],
@@ -13389,10 +13318,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 20,
+          "cheatsCount": 18,
           "cheats": [
-            "Health Pointer",
-            "Health / 1 Hit",
             "Infinite Health",
             "1 Hit Kill",
             "Infinite Mana",
@@ -13417,8 +13344,6 @@
           "hasFile": true,
           "cheatsCount": 20,
           "cheats": [
-            "Health Pointer",
-            "Health / 1 Hit",
             "Infinite Health",
             "1 Hit Kill",
             "Infinite Mana",
@@ -13436,7 +13361,9 @@
             "Infinite Adrenaline",
             "Wheels Instant Turn",
             "Safe always Open",
-            "Perfect Stats"
+            "Perfect Stats",
+            "Health Pointer",
+            "Health / 1 Hit"
           ]
         }
       }
@@ -14935,7 +14862,7 @@
       "title": "Mass Effect: Andromeda",
       "idLower": "cusa02491",
       "titleLower": "mass effect: andromeda",
-      "cheatsTotal": 30,
+      "cheatsTotal": 29,
       "creators": [
         "TLH"
       ],
@@ -14950,9 +14877,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 15,
+          "cheatsCount": 14,
           "cheats": [
-            "Health / 2 Hit Kills",
             "Infinite Health",
             "2 Hit Kills",
             "Infinite Shield",
@@ -14973,7 +14899,6 @@
           "hasFile": true,
           "cheatsCount": 15,
           "cheats": [
-            "Health / 2 Hit Kills",
             "Infinite Health",
             "2 Hit Kills",
             "Infinite Shield",
@@ -14987,7 +14912,8 @@
             "Infinite Credits",
             "Max Credits/Resources/Research Points",
             "Instant Max Level",
-            "Easy Monolith Scanning"
+            "Easy Monolith Scanning",
+            "Health / 2 Hit Kills"
           ]
         }
       }
@@ -16430,7 +16356,7 @@
       "title": "Resident Evil: Origins Collection",
       "idLower": "cusa02882",
       "titleLower": "resident evil: origins collection",
-      "cheatsTotal": 45,
+      "cheatsTotal": 44,
       "creators": [
         "Talixme",
         "Talixme, TLH, Molly",
@@ -16470,7 +16396,6 @@
           "hasFile": true,
           "cheatsCount": 13,
           "cheats": [
-            "Health / 1 Hit",
             "Infinite Health",
             "1 Hit Kills",
             "Infinite Tapes / Save w/o Tapes",
@@ -16482,17 +16407,17 @@
             "Infinite Selfdefense Weapons",
             "Doors open w/o Keys",
             "Doors open w/o Old-Keys",
-            "Have All Item\u0027s In Chest ~Swap Any Item From Inventory To Chest"
+            "Have All Item\u0027s In Chest ~Swap Any Item From Inventory To Chest",
+            "Health / 1 Hit"
           ]
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 16,
+          "cheatsCount": 15,
           "cheats": [
             "Godmode",
             "Infinite Pistol Ammo",
             "Infinite Tapes",
-            "Health / 1 Hit",
             "Infinite Health",
             "1 Hit Kills",
             "Infinite Tapes / Save w/o Tapes",
@@ -16515,7 +16440,7 @@
       "title": "Tom Clancy\u0027s Ghost Recon: Wildlands",
       "idLower": "cusa02902",
       "titleLower": "tom clancy\u0027s ghost recon: wildlands",
-      "cheatsTotal": 12,
+      "cheatsTotal": 11,
       "creators": [
         "KevinTamvan"
       ],
@@ -16525,9 +16450,8 @@
       "formats": {
         "json": {
           "hasFile": true,
-          "cheatsCount": 9,
+          "cheatsCount": 8,
           "cheats": [
-            "Master",
             "Infinite Health Player",
             "Infinite Clip Ammo",
             "No Blood On Screen",
@@ -17200,7 +17124,7 @@
       "title": "Bloodborne",
       "idLower": "cusa03014",
       "titleLower": "bloodborne",
-      "cheatsTotal": 32,
+      "cheatsTotal": 29,
       "creators": [
         "hejran7, Dioniso",
         "Shiningami"
@@ -17212,9 +17136,8 @@
       "formats": {
         "json": {
           "hasFile": true,
-          "cheatsCount": 7,
+          "cheatsCount": 6,
           "cheats": [
-            "Master",
             "Infinite  BloodEcho",
             "Infinite Lucidity",
             "Infinite Health",
@@ -17225,7 +17148,7 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 25,
+          "cheatsCount": 23,
           "cheats": [
             "Infinity HP",
             "One Hit Kill",
@@ -17238,8 +17161,6 @@
             "Inf Items On Use",
             "Dupe Anything In Storage Box",
             "Inf Weapon Durability",
-            "Start Speed",
-            "Player\u0027s Offsets HP=80237000 (\u002B0xf8), MOVE=80237008 (\u002B0x374)",
             "Infinite Health",
             "1 Hit Kill -Bosses",
             "Infinite Stamina",
@@ -17640,7 +17561,7 @@
       "title": "Bloodborne: Game of the Year Edition",
       "idLower": "cusa03173",
       "titleLower": "bloodborne: game of the year edition",
-      "cheatsTotal": 73,
+      "cheatsTotal": 70,
       "creators": [
         "Dioniso",
         "hejran7, Dioniso",
@@ -17656,9 +17577,8 @@
       "formats": {
         "json": {
           "hasFile": true,
-          "cheatsCount": 19,
+          "cheatsCount": 18,
           "cheats": [
-            "Master",
             "Infinite  BloodEcho",
             "Infinite Lucidity",
             "Infinite Health",
@@ -17681,7 +17601,7 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 25,
+          "cheatsCount": 23,
           "cheats": [
             "Infinity HP",
             "One Hit Kill",
@@ -17694,8 +17614,6 @@
             "Inf Items On Use",
             "Dupe Anything In Storage Box",
             "Inf Weapon Durability",
-            "Start Speed",
-            "Player\u0027s Offsets HP=80237000 (\u002B0xf8), MOVE=80237008 (\u002B0x374)",
             "Infinite Health",
             "1 Hit Kill -Bosses",
             "Infinite Stamina",
@@ -17725,7 +17643,6 @@
             "Inf Items On Use",
             "Dupe Anything In Storage Box",
             "Inf Weapon Durability",
-            "MasterCode",
             "Infinite Health",
             "Infinite Stamina",
             "Inf Friendly Hunter Health",
@@ -17737,12 +17654,13 @@
             "x2 Items on Use",
             "Infinite Weapon Durability",
             "No Poison",
-            "StartUP",
             "Infinit  BloodEcho",
             "infinit lucidity",
             "God Mode",
             "infinit Stamina",
-            "Infinit items"
+            "Infinit items",
+            "MasterCode",
+            "StartUP"
           ]
         }
       }
@@ -18438,7 +18356,7 @@
       "title": "Dark Souls III",
       "idLower": "cusa03388",
       "titleLower": "dark souls iii",
-      "cheatsTotal": 34,
+      "cheatsTotal": 32,
       "creators": [
         "hejran7"
       ],
@@ -18453,10 +18371,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 17,
+          "cheatsCount": 15,
           "cheats": [
-            "HP MC (Must Be On)",
-            "Stamina MC (Must Be On)",
             "Inf HP",
             "One Hit Kill",
             "Inf Magic",
@@ -18478,8 +18394,6 @@
           "hasFile": true,
           "cheatsCount": 17,
           "cheats": [
-            "Can\u0027t Touch This O.o",
-            "Stamina Master Code",
             "Inf HP",
             "One Hit Kill",
             "Inf Magic",
@@ -18494,7 +18408,9 @@
             "Inf Armour Durability",
             "Reduce Fall Damage",
             "Resistances Effects",
-            "Inf HP Player \u002B Enemy"
+            "Inf HP Player \u002B Enemy",
+            "Can\u0027t Touch This O.o",
+            "Stamina Master Code"
           ]
         }
       }
@@ -18505,7 +18421,7 @@
       "title": "Dark Souls III",
       "idLower": "cusa03388",
       "titleLower": "dark souls iii",
-      "cheatsTotal": 44,
+      "cheatsTotal": 42,
       "creators": [
         "hejran7",
         "hejran7, Celogamez"
@@ -18522,10 +18438,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 19,
+          "cheatsCount": 17,
           "cheats": [
-            "HP MC (Must Be On)",
-            "Stamina MC (Must Be On)",
             "Inf HP",
             "1 Hit Kill",
             "Inf Magic",
@@ -18549,8 +18463,6 @@
           "hasFile": true,
           "cheatsCount": 25,
           "cheats": [
-            "Can\u0027t Touch This O.o",
-            "Stamina Master Code",
             "Inf HP",
             "1 Hit Kill",
             "Inf Magic",
@@ -18573,7 +18485,9 @@
             "Infinite Items (On Use)",
             "Infinite Weapons Durability",
             "Infinite Armor Durability",
-            "Max/Infinite Souls"
+            "Max/Infinite Souls",
+            "Can\u0027t Touch This O.o",
+            "Stamina Master Code"
           ]
         }
       }
@@ -19660,7 +19574,7 @@
       "title": "Dishonored 2",
       "idLower": "cusa03603",
       "titleLower": "dishonored 2",
-      "cheatsTotal": 38,
+      "cheatsTotal": 36,
       "creators": [
         "TLH"
       ],
@@ -19675,10 +19589,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 19,
+          "cheatsCount": 17,
           "cheats": [
-            "Health Pointer",
-            "Health / 1 Hit",
             "Infinite Health",
             "1 Hit Kills",
             "Infinite Mana",
@@ -19702,8 +19614,6 @@
           "hasFile": true,
           "cheatsCount": 19,
           "cheats": [
-            "Health Pointer",
-            "Health / 1 Hit",
             "Infinite Health",
             "1 Hit Kills",
             "Infinite Mana",
@@ -19720,7 +19630,9 @@
             "Infinite Traits",
             "Movement Speed x5",
             "Perfect Stats",
-            "Zero Chaos"
+            "Zero Chaos",
+            "Health Pointer",
+            "Health / 1 Hit"
           ]
         }
       }
@@ -20094,7 +20006,7 @@
       "title": "One Piece: Burning Blood",
       "idLower": "cusa03651",
       "titleLower": "one piece: burning blood",
-      "cheatsTotal": 20,
+      "cheatsTotal": 19,
       "creators": [
         "TLH"
       ],
@@ -20109,9 +20021,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 10,
+          "cheatsCount": 9,
           "cheats": [
-            "Health / 1 Hit",
             "Infinite Health",
             "1 Hit Kills",
             "Infinite Gauge",
@@ -20127,7 +20038,6 @@
           "hasFile": true,
           "cheatsCount": 10,
           "cheats": [
-            "Health / 1 Hit",
             "Infinite Health",
             "1 Hit Kills",
             "Infinite Gauge",
@@ -20136,7 +20046,8 @@
             "Infinite Partner Gauge",
             "Infinite Money",
             "Max Money on Get",
-            "Instant Max XP"
+            "Instant Max XP",
+            "Health / 1 Hit"
           ]
         }
       }
@@ -25807,7 +25718,7 @@
       "title": "Vikings: Wolves of Midgard",
       "idLower": "cusa05032",
       "titleLower": "vikings: wolves of midgard",
-      "cheatsTotal": 34,
+      "cheatsTotal": 32,
       "creators": [
         "TLH"
       ],
@@ -25822,10 +25733,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 17,
+          "cheatsCount": 15,
           "cheats": [
-            "Pointer",
-            "Health / 1 Hit Kills",
             "Infinite Health",
             "1 Hit Kills",
             "Infinite Gift-Points",
@@ -25847,8 +25756,6 @@
           "hasFile": true,
           "cheatsCount": 17,
           "cheats": [
-            "Pointer",
-            "Health / 1 Hit Kills",
             "Infinite Health",
             "1 Hit Kills",
             "Infinite Gift-Points",
@@ -25863,7 +25770,9 @@
             "Infinite Blood",
             "Infinite Gold",
             "Infinite Iron",
-            "Infinite Wood"
+            "Infinite Wood",
+            "Pointer",
+            "Health / 1 Hit Kills"
           ]
         }
       }
@@ -26297,7 +26206,7 @@
       "title": "Dragon Ball: Xenoverse 2",
       "idLower": "cusa05088",
       "titleLower": "dragon ball: xenoverse 2",
-      "cheatsTotal": 28,
+      "cheatsTotal": 26,
       "creators": [
         "Rizla"
       ],
@@ -26337,10 +26246,8 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 10,
+          "cheatsCount": 8,
           "cheats": [
-            "MasterCode1",
-            "MasterCode2",
             "Max Zeni on Spend",
             "Max TP on Spend",
             "Max Points on Use (Back Out to See)",
@@ -26536,7 +26443,7 @@
       "title": "Yakuza 0",
       "idLower": "cusa05133",
       "titleLower": "yakuza 0",
-      "cheatsTotal": 103,
+      "cheatsTotal": 97,
       "creators": [
         "TLH"
       ],
@@ -26557,14 +26464,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 49,
+          "cheatsCount": 43,
           "cheats": [
-            "Health / 1 Hit",
-            "Heat",
-            "Blood Alcohol",
-            "Money/CP",
-            "Pocket Car Circuit: Infinite Boost/Gauge",
-            "Cabaret: Health / Max Hostess Stats/Level",
             "Infinite Health",
             "1 Hit Kill",
             "Heat: Empty",
@@ -26614,12 +26515,6 @@
           "hasFile": true,
           "cheatsCount": 49,
           "cheats": [
-            "Health / 1 Hit",
-            "Heat",
-            "Blood Alcohol",
-            "Money/CP",
-            "Pocket Car Circuit: Infinite Boost/Gauge",
-            "Cabaret: Health / Max Hostess Stats/Level",
             "Infinite Health",
             "1 Hit Kill",
             "Heat: Empty",
@@ -26662,7 +26557,13 @@
             "TelTel Boys Club: Infinite Time",
             "Casino: Big Win (10.000.000)",
             "Easy Training (Bacchus/Komaki/Areshi)",
-            "ItemEditor (L2=PrevID / R2=NextID)"
+            "ItemEditor (L2=PrevID / R2=NextID)",
+            "Health / 1 Hit",
+            "Heat",
+            "Blood Alcohol",
+            "Money/CP",
+            "Pocket Car Circuit: Infinite Boost/Gauge",
+            "Cabaret: Health / Max Hostess Stats/Level"
           ]
         }
       }
@@ -27441,7 +27342,7 @@
       "title": "The Elder Scrolls V: Skyrim Special Edition",
       "idLower": "cusa05486",
       "titleLower": "the elder scrolls v: skyrim special edition",
-      "cheatsTotal": 34,
+      "cheatsTotal": 33,
       "creators": [
         "Mrpc85",
         "TLH"
@@ -27463,9 +27364,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 15,
+          "cheatsCount": 14,
           "cheats": [
-            "Health/Magic/Stamina",
             "Infinite Health",
             "Infinite Magic",
             "Infinite Stamina",
@@ -27486,7 +27386,6 @@
           "hasFile": true,
           "cheatsCount": 15,
           "cheats": [
-            "Health/Magic/Stamina",
             "Infinite Health",
             "Infinite Magic",
             "Infinite Stamina",
@@ -27500,7 +27399,8 @@
             "Max Level",
             "Max Items",
             "Infinite Items",
-            "Max Items on Move"
+            "Max Items on Move",
+            "Health/Magic/Stamina"
           ]
         }
       }
@@ -27511,7 +27411,7 @@
       "title": "The Elder Scrolls V: Skyrim Special Edition",
       "idLower": "cusa05486",
       "titleLower": "the elder scrolls v: skyrim special edition",
-      "cheatsTotal": 32,
+      "cheatsTotal": 31,
       "creators": [
         "TLH"
       ],
@@ -27526,9 +27426,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 16,
+          "cheatsCount": 15,
           "cheats": [
-            "Health/Magic/Stamina",
             "Infinite Health",
             "Infinite Magic",
             "Infinite Stamina",
@@ -27550,7 +27449,6 @@
           "hasFile": true,
           "cheatsCount": 16,
           "cheats": [
-            "Health/Magic/Stamina",
             "Infinite Health",
             "Infinite Magic",
             "Infinite Stamina",
@@ -27565,7 +27463,8 @@
             "Max Items",
             "Max Legendary",
             "Max Level",
-            "Max Stats"
+            "Max Stats",
+            "Health/Magic/Stamina"
           ]
         }
       }
@@ -28038,7 +27937,7 @@
       "title": "The Witcher 3: Wild Hunt",
       "idLower": "cusa05573",
       "titleLower": "the witcher 3: wild hunt",
-      "cheatsTotal": 34,
+      "cheatsTotal": 33,
       "creators": [
         "Cosmaty, TLH"
       ],
@@ -28053,9 +27952,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 17,
+          "cheatsCount": 16,
           "cheats": [
-            "Code",
             "God Mode",
             "Easy Kill",
             "Inf Stamina",
@@ -28078,7 +27976,6 @@
           "hasFile": true,
           "cheatsCount": 17,
           "cheats": [
-            "Code",
             "God Mode",
             "Easy Kill",
             "Inf Stamina",
@@ -28094,7 +27991,8 @@
             "XP x16 (Turn off first: x4, x8)",
             "Inf Skill Points",
             "Durable Weapons and Armor",
-            "Infinite Items"
+            "Infinite Items",
+            "Code"
           ]
         }
       }
@@ -28194,7 +28092,7 @@
       "title": "The Witcher 3: Wild Hunt",
       "idLower": "cusa05574",
       "titleLower": "the witcher 3: wild hunt",
-      "cheatsTotal": 50,
+      "cheatsTotal": 48,
       "creators": [
         "Cosmaty",
         "Cosmaty, TLH"
@@ -28206,9 +28104,8 @@
       "formats": {
         "json": {
           "hasFile": true,
-          "cheatsCount": 16,
+          "cheatsCount": 15,
           "cheats": [
-            "Master",
             "God Mode",
             "Easy Kill",
             "Inf Stamina",
@@ -28228,9 +28125,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 17,
+          "cheatsCount": 16,
           "cheats": [
-            "Code",
             "God Mode",
             "Easy Kill",
             "Inf Stamina",
@@ -28253,7 +28149,6 @@
           "hasFile": true,
           "cheatsCount": 17,
           "cheats": [
-            "Code",
             "God Mode",
             "Easy Kill",
             "Inf Stamina",
@@ -28269,7 +28164,8 @@
             "XP x16 (Turn off first: x4, x8)",
             "Inf Skill Points",
             "Durable Weapons and Armor",
-            "Infinite Items"
+            "Infinite Items",
+            "Code"
           ]
         }
       }
@@ -29121,7 +29017,7 @@
       "title": "Rise of the Tomb Raider: 20 Year Celebration",
       "idLower": "cusa05716",
       "titleLower": "rise of the tomb raider: 20 year celebration",
-      "cheatsTotal": 36,
+      "cheatsTotal": 35,
       "creators": [
         "TLH",
         "TLH, Weysincha",
@@ -29154,9 +29050,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 10,
+          "cheatsCount": 9,
           "cheats": [
-            "Health / 1 Hit Kill",
             "Infinite Health",
             "1 Hit Kills",
             "Bottomless Clip",
@@ -29172,7 +29067,6 @@
           "hasFile": true,
           "cheatsCount": 13,
           "cheats": [
-            "Health / 1 Hit Kill",
             "Infinite Health",
             "1 Hit Kills",
             "Bottomless Clip",
@@ -29184,7 +29078,8 @@
             "Expedition Mode: Infinite Multiplier Time",
             "Godmode",
             "Infinite Ammo",
-            "Get Skillpoints For Spending Them"
+            "Get Skillpoints For Spending Them",
+            "Health / 1 Hit Kill"
           ]
         }
       }
@@ -30942,7 +30837,7 @@
       "title": "Need for Speed Payback",
       "idLower": "cusa05986",
       "titleLower": "need for speed payback",
-      "cheatsTotal": 8,
+      "cheatsTotal": 7,
       "creators": [
         "hejran7",
         "Reddevil82_9.00"
@@ -30963,9 +30858,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 5,
+          "cheatsCount": 4,
           "cheats": [
-            "Nitrous MC (Must Be On)",
             "Infinite Cash",
             "Infinite Tokens",
             "Max Inf Nitrous",
@@ -31019,7 +30913,7 @@
       "title": "Tekken 7",
       "idLower": "cusa06014",
       "titleLower": "tekken 7",
-      "cheatsTotal": 22,
+      "cheatsTotal": 21,
       "creators": [
         "Talixme",
         "Talixme, TLH",
@@ -31044,9 +30938,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 6,
+          "cheatsCount": 5,
           "cheats": [
-            "Health",
             "Infinite Money",
             "Player 1: Infinite Health",
             "Player 2: Infinite Health",
@@ -31063,12 +30956,12 @@
             "Player Left  1 hit kill",
             "Player Rigth 1 hit kill",
             "Money x2 Each Use",
-            "Health",
             "Infinite Money",
             "Player 1: Infinite Health",
             "Player 2: Infinite Health",
             "Player 1: 1-Hit K.O.",
-            "Player 2: 1-Hit K.O."
+            "Player 2: 1-Hit K.O.",
+            "Health"
           ]
         }
       }
@@ -31079,7 +30972,7 @@
       "title": "Tekken 7",
       "idLower": "cusa06014",
       "titleLower": "tekken 7",
-      "cheatsTotal": 12,
+      "cheatsTotal": 11,
       "creators": [
         "TLH"
       ],
@@ -31094,9 +30987,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 6,
+          "cheatsCount": 5,
           "cheats": [
-            "Health",
             "Infinite Money",
             "Player 1: Infinite Health",
             "Player 2: Infinite Health",
@@ -31108,12 +31000,12 @@
           "hasFile": true,
           "cheatsCount": 6,
           "cheats": [
-            "Health",
             "Infinite Money",
             "Player 1: Infinite Health",
             "Player 2: Infinite Health",
             "Player 1: 1-Hit K.O.",
-            "Player 2: 1-Hit K.O."
+            "Player 2: 1-Hit K.O.",
+            "Health"
           ]
         }
       }
@@ -31987,7 +31879,7 @@
       "title": "Naruto Shippuden: Ultimate Ninja Storm 4: Road to Boruto",
       "idLower": "cusa06381",
       "titleLower": "naruto shippuden: ultimate ninja storm 4: road to boruto",
-      "cheatsTotal": 12,
+      "cheatsTotal": 11,
       "creators": [
         "TLH, Dante",
         "Weysincha"
@@ -32008,9 +31900,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 6,
+          "cheatsCount": 5,
           "cheats": [
-            "Infite Health \u002B 1 Hit Kills",
             "Infinite Health",
             "1 Hit Kill (Turn off in Boss Battle)",
             "Infinite Chakra",
@@ -33121,7 +33012,7 @@
       "title": "Yakuza Kiwami",
       "idLower": "cusa06997",
       "titleLower": "yakuza kiwami",
-      "cheatsTotal": 60,
+      "cheatsTotal": 58,
       "creators": [
         "TLH"
       ],
@@ -33166,10 +33057,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 31,
+          "cheatsCount": 29,
           "cheats": [
-            "Health / 1 Hit Kills",
-            "MesuKing: Health / 1 Hit Kills",
             "Infinite Health",
             "1 Hit Kills",
             "Infinite Heat Gauge",
@@ -33687,7 +33576,7 @@
       "title": "Nioh",
       "idLower": "cusa07123",
       "titleLower": "nioh",
-      "cheatsTotal": 12,
+      "cheatsTotal": 10,
       "creators": [
         "ShininGami"
       ],
@@ -33697,9 +33586,8 @@
       "formats": {
         "json": {
           "hasFile": true,
-          "cheatsCount": 4,
+          "cheatsCount": 3,
           "cheats": [
-            "Master",
             "God Mode",
             "2 hit kill",
             "infinit Ki"
@@ -33717,9 +33605,8 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 4,
+          "cheatsCount": 3,
           "cheats": [
-            "Default",
             "God Mode",
             "2 hit kill",
             "infinit Ki"
@@ -33733,7 +33620,7 @@
       "title": "Nioh",
       "idLower": "cusa07123",
       "titleLower": "nioh",
-      "cheatsTotal": 21,
+      "cheatsTotal": 19,
       "creators": [
         "gokusuper",
         "gokusuper, ShininGami",
@@ -33747,9 +33634,8 @@
       "formats": {
         "json": {
           "hasFile": true,
-          "cheatsCount": 7,
+          "cheatsCount": 6,
           "cheats": [
-            "Master",
             "Infinte Health",
             "Infinite Stamina",
             "2 Hit Kill",
@@ -33773,10 +33659,9 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 7,
+          "cheatsCount": 6,
           "cheats": [
             "Inf lightning water ninjutsu power",
-            "sup",
             "God Mode",
             "Infinit stamina",
             "2 hit kill",
@@ -33848,7 +33733,7 @@
       "title": "Final Fantasy VII Remake",
       "idLower": "cusa07187",
       "titleLower": "final fantasy vii remake",
-      "cheatsTotal": 17,
+      "cheatsTotal": 16,
       "creators": [
         "hejran7"
       ],
@@ -33863,9 +33748,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 17,
+          "cheatsCount": 16,
           "cheats": [
-            "Cloud\u0027s Dresses MC (Must Be On)",
             "Max Inf HP",
             "One Hit Kill",
             "Max Inf MP",
@@ -35760,7 +35644,7 @@
       "title": "Dark Souls III: The Fire Fades Edition",
       "idLower": "cusa07439",
       "titleLower": "dark souls iii: the fire fades edition",
-      "cheatsTotal": 30,
+      "cheatsTotal": 28,
       "creators": [
         "Shiningami\u002BRizla",
         "Shiningami/Rizla"
@@ -35772,9 +35656,8 @@
       "formats": {
         "json": {
           "hasFile": true,
-          "cheatsCount": 10,
+          "cheatsCount": 9,
           "cheats": [
-            "Master",
             "Infinite Health",
             "Infinite Magic",
             "Infinite Stamina",
@@ -35804,9 +35687,8 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 10,
+          "cheatsCount": 9,
           "cheats": [
-            "Master code",
             "Infinite Health",
             "Infinite Magic",
             "Infinite Stamina",
@@ -35826,7 +35708,7 @@
       "title": "Dark Souls III: The Fire Fades Edition",
       "idLower": "cusa07439",
       "titleLower": "dark souls iii: the fire fades edition",
-      "cheatsTotal": 55,
+      "cheatsTotal": 52,
       "creators": [
         "hejran7",
         "hejran7, Rizla\u002BShiningami",
@@ -35840,9 +35722,8 @@
       "formats": {
         "json": {
           "hasFile": true,
-          "cheatsCount": 9,
+          "cheatsCount": 8,
           "cheats": [
-            "Master",
             "Infinite Health",
             "Infinite Magic",
             "Infinite Stamina",
@@ -35855,10 +35736,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 19,
+          "cheatsCount": 17,
           "cheats": [
-            "HP MC (Must Be On)",
-            "Stamina MC (Must Be On)",
             "Inf HP",
             "1 Hit Kill",
             "Inf Magic",
@@ -35882,8 +35761,6 @@
           "hasFile": true,
           "cheatsCount": 27,
           "cheats": [
-            "Can\u0027t Touch This O.o",
-            "Stamina Master Code",
             "Inf HP",
             "1 Hit Kill",
             "Inf Magic",
@@ -35899,7 +35776,6 @@
             "Reduce Fall Damage",
             "All Resistances Effects",
             "Inf HP Player \u002B Enemy",
-            "Mastercode",
             "Infinite Health",
             "Infinite Magic",
             "Infinite Stamina",
@@ -35908,7 +35784,10 @@
             "No Reload",
             "Infinite Weapon Durability",
             "Infinite Armour Durability",
-            "No Effects"
+            "No Effects",
+            "Can\u0027t Touch This O.o",
+            "Stamina Master Code",
+            "Mastercode"
           ]
         }
       }
@@ -35991,7 +35870,7 @@
       "title": "Yakuza Kiwami",
       "idLower": "cusa07615",
       "titleLower": "yakuza kiwami",
-      "cheatsTotal": 67,
+      "cheatsTotal": 65,
       "creators": [
         "TLH"
       ],
@@ -36012,10 +35891,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 31,
+          "cheatsCount": 29,
           "cheats": [
-            "Health / 1 Hit Kills",
-            "MesuKing: Health / 1 Hit Kills",
             "Infinite Health",
             "1 Hit Kills",
             "Infinite Heat Gauge",
@@ -36051,8 +35928,6 @@
           "hasFile": true,
           "cheatsCount": 31,
           "cheats": [
-            "Health / 1 Hit Kills",
-            "MesuKing: Health / 1 Hit Kills",
             "Infinite Health",
             "1 Hit Kills",
             "Infinite Heat Gauge",
@@ -36081,7 +35956,9 @@
             "Hostess: Max Love-Gauge",
             "Easy Majima Rank",
             "Alcohol: Sober",
-            "Alcohol: Drunk"
+            "Alcohol: Drunk",
+            "Health / 1 Hit Kills",
+            "MesuKing: Health / 1 Hit Kills"
           ]
         }
       }
@@ -37789,7 +37666,7 @@
       "title": "Borderlands 3",
       "idLower": "cusa08025",
       "titleLower": "borderlands 3",
-      "cheatsTotal": 34,
+      "cheatsTotal": 32,
       "creators": [
         "hanakuso",
         "hejran7, hanakuso"
@@ -37813,10 +37690,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 28,
+          "cheatsCount": 26,
           "cheats": [
-            "Money^Eridium MC (Must Be On)",
-            "Speed Hack MC (Must Be On)",
             "Max Inf HP\\Shield",
             "Max Inf Ammo",
             "Inf Ammo No Reload",
@@ -38790,7 +38665,7 @@
       "title": "One Piece: Unlimited World Red: Deluxe Edition",
       "idLower": "cusa08306",
       "titleLower": "one piece: unlimited world red: deluxe edition",
-      "cheatsTotal": 20,
+      "cheatsTotal": 19,
       "creators": [
         "TLH"
       ],
@@ -38805,9 +38680,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 10,
+          "cheatsCount": 9,
           "cheats": [
-            "Health \u002B 1 Hit Kills",
             "Infinite Health",
             "1 Hit Kills",
             "Infinite Gauge",
@@ -38823,7 +38697,6 @@
           "hasFile": true,
           "cheatsCount": 10,
           "cheats": [
-            "Health \u002B 1 Hit Kills",
             "Infinite Health",
             "1 Hit Kills",
             "Infinite Gauge",
@@ -38832,7 +38705,8 @@
             "Infinite Items (Sale)",
             "Max Berry on Get",
             "Infinite Berry",
-            "Max Pirate Points"
+            "Max Pirate Points",
+            "Health \u002B 1 Hit Kills"
           ]
         }
       }
@@ -38843,7 +38717,7 @@
       "title": "Senran Kagura: Peach Beach Splash",
       "idLower": "cusa08343",
       "titleLower": "senran kagura: peach beach splash",
-      "cheatsTotal": 14,
+      "cheatsTotal": 12,
       "creators": [
         "TLH"
       ],
@@ -38858,10 +38732,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 7,
+          "cheatsCount": 5,
           "cheats": [
-            "Pointer",
-            "Health / 1 Hit Kills",
             "Infinite Health",
             "1 Hit Kills",
             "Infinite Water",
@@ -38873,13 +38745,13 @@
           "hasFile": true,
           "cheatsCount": 7,
           "cheats": [
-            "Pointer",
-            "Health / 1 Hit Kills",
             "Infinite Health",
             "1 Hit Kills",
             "Infinite Water",
             "Infinite Lifes",
-            "Infinite Money"
+            "Infinite Money",
+            "Pointer",
+            "Health / 1 Hit Kills"
           ]
         }
       }
@@ -39564,7 +39436,7 @@
       "title": "Dark Souls: Remastered",
       "idLower": "cusa08495",
       "titleLower": "dark souls: remastered",
-      "cheatsTotal": 66,
+      "cheatsTotal": 62,
       "creators": [
         "hejran7"
       ],
@@ -39602,12 +39474,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 22,
+          "cheatsCount": 18,
           "cheats": [
-            "HP MC (Must Be On)",
-            "Stamina MC (Must Be On)",
-            "Speed Hack MC (Must Be On)",
-            "Drop Rate MC (Must Be On)",
             "Player Infinite Health",
             "Player \u002B Enemy Inf HP",
             "Player Only Inf Stamina",
@@ -39632,10 +39500,6 @@
           "hasFile": true,
           "cheatsCount": 22,
           "cheats": [
-            "Inf HP Master Code",
-            "Stamina Master Code",
-            "Speed Hack Master Code",
-            "Drop Rate Master Code",
             "Player Infinite Health",
             "Player \u002B Enemy Inf HP",
             "Player Only Inf Stamina",
@@ -39653,7 +39517,11 @@
             "Speed Hack x1.25",
             "Speed Hack x1.50",
             "Speed Hack x2.00",
-            "100% Drop Rate Press L3\u002BR3"
+            "100% Drop Rate Press L3\u002BR3",
+            "Inf HP Master Code",
+            "Stamina Master Code",
+            "Speed Hack Master Code",
+            "Drop Rate Master Code"
           ]
         }
       }
@@ -39706,10 +39574,6 @@
           "hasFile": true,
           "cheatsCount": 21,
           "cheats": [
-            "Inf HP Master Code",
-            "Stamina Master Code",
-            "Speed Hack Master Code",
-            "Drop Rate Master Code",
             "Player Infinite Health",
             "Player \u002B Enemy Inf HP",
             "Player Only Inf Stamina",
@@ -39726,7 +39590,11 @@
             "Speed Hack x1.25",
             "Speed Hack x1.50",
             "Speed Hack x2.00",
-            "100% Drop Rate Press L3\u002BR3"
+            "100% Drop Rate Press L3\u002BR3",
+            "Inf HP Master Code",
+            "Stamina Master Code",
+            "Speed Hack Master Code",
+            "Drop Rate Master Code"
           ]
         }
       }
@@ -39949,7 +39817,7 @@
       "title": "Red Dead Redemption II",
       "idLower": "cusa08519",
       "titleLower": "red dead redemption ii",
-      "cheatsTotal": 53,
+      "cheatsTotal": 52,
       "creators": [
         "LMN"
       ],
@@ -39959,9 +39827,8 @@
       "formats": {
         "json": {
           "hasFile": true,
-          "cheatsCount": 20,
+          "cheatsCount": 19,
           "cheats": [
-            "Master",
             "God Mode Player/Horse",
             "Infinite Dead Eye",
             "Infinite Stamina (horse/player)",
@@ -40962,7 +40829,7 @@
       "title": "Dishonored: Death of the Outsider",
       "idLower": "cusa08779",
       "titleLower": "dishonored: death of the outsider",
-      "cheatsTotal": 20,
+      "cheatsTotal": 18,
       "creators": [
         "TLH"
       ],
@@ -40977,10 +40844,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 10,
+          "cheatsCount": 8,
           "cheats": [
-            "Health Pointer",
-            "Health / 1 Hit",
             "Infinite Health",
             "1 Hit Kills",
             "Infinite Mana",
@@ -40995,8 +40860,6 @@
           "hasFile": true,
           "cheatsCount": 10,
           "cheats": [
-            "Health Pointer",
-            "Health / 1 Hit",
             "Infinite Health",
             "1 Hit Kills",
             "Infinite Mana",
@@ -41004,7 +40867,9 @@
             "Bottomless Clip",
             "Infinite Ammo/Items",
             "Max Ammo/Items on Get",
-            "Max Money on Get"
+            "Max Money on Get",
+            "Health Pointer",
+            "Health / 1 Hit"
           ]
         }
       }
@@ -41015,7 +40880,7 @@
       "title": "Dishonored: Death of the Outsider",
       "idLower": "cusa08779",
       "titleLower": "dishonored: death of the outsider",
-      "cheatsTotal": 10,
+      "cheatsTotal": 8,
       "creators": [
         "TLH"
       ],
@@ -41030,10 +40895,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 10,
+          "cheatsCount": 8,
           "cheats": [
-            "Health Pointer",
-            "Health / 1 Hit",
             "Infinite Health",
             "1 Hit Kills",
             "Infinite Mana",
@@ -41102,7 +40965,7 @@
       "title": "Darksiders III",
       "idLower": "cusa08798",
       "titleLower": "darksiders iii",
-      "cheatsTotal": 38,
+      "cheatsTotal": 35,
       "creators": [
         "GamerX2 and DanteCalus",
         "GamerX2, DanteClaus and ThankachanSmith",
@@ -41133,10 +40996,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 29,
+          "cheatsCount": 26,
           "cheats": [
-            "HP MC (Must Be On)",
-            "Speed MC (Must Be On)",
             "Inf HP",
             "Easy Kill",
             "Super Jump",
@@ -41155,7 +41016,6 @@
             "Slow Mo Enemy",
             "Super Speed Player",
             "Super Speed Enemy",
-            "Health Master",
             "Infinite Health",
             "Instant Fill Wrath and Havoc",
             "Max Souls on Spend",
@@ -41978,7 +41838,7 @@
       "title": "Resident Evil 2",
       "idLower": "cusa09171",
       "titleLower": "resident evil 2",
-      "cheatsTotal": 101,
+      "cheatsTotal": 100,
       "creators": [
         "KevinTamvan",
         "TLH, hejran7, KevinTamvan"
@@ -42061,9 +41921,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 18,
+          "cheatsCount": 17,
           "cheats": [
-            "SpeedHack Code",
             "Infinite Health",
             "1 Hit Kills",
             "Bottomless Clip",
@@ -42087,7 +41946,6 @@
           "hasFile": true,
           "cheatsCount": 18,
           "cheats": [
-            "SpeedHack Code",
             "Infinite Health",
             "1 Hit Kills",
             "Bottomless Clip",
@@ -42104,7 +41962,8 @@
             "Instant Gun-Focus",
             "Zombies Can\u0027t Grab Player",
             "20 Inventory Slots",
-            "Speed Hack"
+            "Speed Hack",
+            "SpeedHack Code"
           ]
         }
       }
@@ -42822,7 +42681,7 @@
       "title": "Ni no Kuni II: Revenant Kingdom",
       "idLower": "cusa09243",
       "titleLower": "ni no kuni ii: revenant kingdom",
-      "cheatsTotal": 13,
+      "cheatsTotal": 12,
       "creators": [
         "TLH",
         "TLH, Weysincha"
@@ -42839,9 +42698,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 5,
+          "cheatsCount": 4,
           "cheats": [
-            "Health / 1 Hit",
             "Infinite Health",
             "1 Hit Kill",
             "Infinite Items",
@@ -42852,14 +42710,14 @@
           "hasFile": true,
           "cheatsCount": 8,
           "cheats": [
-            "Health / 1 Hit",
             "Infinite Health",
             "1 Hit Kill",
             "Infinite Items",
             "Max Money on Get",
             "In Health",
             "Inf Money",
-            "Inf Skill Gauge"
+            "Inf Skill Gauge",
+            "Health / 1 Hit"
           ]
         }
       }
@@ -44744,7 +44602,7 @@
       "title": "Soulcalibur VI",
       "idLower": "cusa09884",
       "titleLower": "soulcalibur vi",
-      "cheatsTotal": 14,
+      "cheatsTotal": 11,
       "creators": [
         "hejran7"
       ],
@@ -44759,11 +44617,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 14,
+          "cheatsCount": 11,
           "cheats": [
-            "Soul Gauge, Charge MC (Must Be On)",
-            "INF HP 1HK MC (Must Be On)",
-            "Invincibility MC (Must Be On)",
             "P1 Inf HP",
             "P2 Inf HP",
             "One Hit Kill",
@@ -45517,7 +45372,7 @@
       "title": "Sword Art Online: Fatal Bullet",
       "idLower": "cusa10168",
       "titleLower": "sword art online: fatal bullet",
-      "cheatsTotal": 49,
+      "cheatsTotal": 47,
       "creators": [
         "TLH"
       ],
@@ -45562,10 +45417,8 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 25,
+          "cheatsCount": 23,
           "cheats": [
-            "PlayerBase",
-            "Health / 1 Hit Kills",
             "Infinite Health",
             "1 Hit Kills",
             "Bottomless Clip",
@@ -47342,7 +47195,7 @@
       "title": "Rage 2",
       "idLower": "cusa10300",
       "titleLower": "rage 2",
-      "cheatsTotal": 23,
+      "cheatsTotal": 21,
       "creators": [
         "hejran7"
       ],
@@ -47352,9 +47205,8 @@
       "formats": {
         "json": {
           "hasFile": true,
-          "cheatsCount": 9,
+          "cheatsCount": 8,
           "cheats": [
-            "Master",
             "Max Inf HP",
             "One Hit Kill",
             "No Reload",
@@ -47367,9 +47219,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 14,
+          "cheatsCount": 13,
           "cheats": [
-            "HP MC (Must Be On)",
             "Max Player HP",
             "Easy Kill",
             "Inf Ammo",
@@ -47398,7 +47249,7 @@
       "title": "Rage 2",
       "idLower": "cusa10300",
       "titleLower": "rage 2",
-      "cheatsTotal": 21,
+      "cheatsTotal": 20,
       "creators": [
         "ahmad",
         "hejran7, ahmad"
@@ -47419,9 +47270,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 18,
+          "cheatsCount": 17,
           "cheats": [
-            "HP MC (Must Be On)",
             "Max Inf HP",
             "One Hit Kill",
             "Inf Ammo",
@@ -48616,7 +48466,7 @@
       "title": "Shadow of the Tomb Raider",
       "idLower": "cusa10872",
       "titleLower": "shadow of the tomb raider",
-      "cheatsTotal": 27,
+      "cheatsTotal": 25,
       "creators": [
         "AngelDavil88_9.00",
         "TLH"
@@ -48657,15 +48507,13 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 10,
+          "cheatsCount": 8,
           "cheats": [
             "Infinite Health",
             "Infinite Breath",
             "Max Ammo/Items",
             "Bottomless Clip/Infinite Skillpoints",
             "Easy XP",
-            "Health Pointer",
-            "Health / 1 Hit Kill",
             "1 Hit Kill",
             "Bottomless Clip",
             "Easy Challenge"
@@ -50433,7 +50281,7 @@
       "title": "Mortal Kombat 11",
       "idLower": "cusa11379",
       "titleLower": "mortal kombat 11",
-      "cheatsTotal": 15,
+      "cheatsTotal": 13,
       "creators": [
         "hejran7"
       ],
@@ -50455,10 +50303,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 9,
+          "cheatsCount": 7,
           "cheats": [
-            "Inf HP Easy Kill MC (Must Be On)",
-            "Defensive\\Offensive MC (Must Be On)",
             "Inf HP",
             "Easy Kill",
             "Freeze Timer",
@@ -58761,7 +58607,7 @@
       "title": "Sekiro: Shadows Die Twice",
       "idLower": "cusa13801",
       "titleLower": "sekiro: shadows die twice",
-      "cheatsTotal": 24,
+      "cheatsTotal": 22,
       "creators": [
         "hejran7",
         "IMnoob",
@@ -58785,10 +58631,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 20,
+          "cheatsCount": 18,
           "cheats": [
-            "Speed Hack MC (Must Be On)",
-            "Posture MC (Must Be On)",
             "Inf Health",
             "Inf HP \u002B OHK",
             "Undetected",
@@ -60070,7 +59914,7 @@
       "title": "Resident Evil 3",
       "idLower": "cusa14168",
       "titleLower": "resident evil 3",
-      "cheatsTotal": 61,
+      "cheatsTotal": 59,
       "creators": [
         "KevinTamvan",
         "TLH",
@@ -60131,10 +59975,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 20,
+          "cheatsCount": 18,
           "cheats": [
-            "Player Pointer",
-            "Health / 1 Hit",
             "Infinite Health",
             "1 Hit Kill",
             "Bottomless Clip",
@@ -60350,8 +60192,6 @@
           "hasFile": true,
           "cheatsCount": 14,
           "cheats": [
-            "MasterCode For Stamina",
-            "MasterCode",
             "Stamina Left",
             "Stamina Right",
             "Left head",
@@ -60363,7 +60203,9 @@
             "Left Leg",
             "Right leg",
             "Master Code for Right Leg",
-            "Evolution Points"
+            "Evolution Points",
+            "MasterCode For Stamina",
+            "MasterCode"
           ]
         }
       }
@@ -64086,7 +63928,7 @@
       "title": "Yakuza 5 Remastered",
       "idLower": "cusa15363",
       "titleLower": "yakuza 5 remastered",
-      "cheatsTotal": 16,
+      "cheatsTotal": 14,
       "creators": [
         "TLH",
         "Wander FW9.00"
@@ -64107,10 +63949,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 13,
+          "cheatsCount": 11,
           "cheats": [
-            "Pointer",
-            "Health / 1 Hit Kill",
             "Infinite Health",
             "1 Hit Kill",
             "Infinite Heat",
@@ -65677,7 +65517,7 @@
       "title": "Bayonetta",
       "idLower": "cusa16163",
       "titleLower": "bayonetta",
-      "cheatsTotal": 74,
+      "cheatsTotal": 72,
       "creators": [
         "AhmadCH",
         "hejran7"
@@ -65689,9 +65529,8 @@
       "formats": {
         "json": {
           "hasFile": true,
-          "cheatsCount": 39,
+          "cheatsCount": 38,
           "cheats": [
-            "Master",
             "Max Inf HP",
             "Inf NPC HP",
             "One Hit Kill",
@@ -65734,9 +65573,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 35,
+          "cheatsCount": 34,
           "cheats": [
-            "Witch Time MC (Must Be On)",
             "Max Inf HP",
             "Inf NPC HP",
             "One Hit Kill",
@@ -70763,7 +70601,7 @@
       "title": "Resident Evil Village",
       "idLower": "cusa18008",
       "titleLower": "resident evil village",
-      "cheatsTotal": 72,
+      "cheatsTotal": 71,
       "creators": [
         "DeathRGH",
         "Dioniso",
@@ -70824,9 +70662,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 35,
+          "cheatsCount": 34,
           "cheats": [
-            "HP MC (Must Be On)",
             "Max Health",
             "One Hit Kill",
             "Max CP",
@@ -70876,7 +70713,7 @@
       "title": "Resident Evil Village",
       "idLower": "cusa18008",
       "titleLower": "resident evil village",
-      "cheatsTotal": 116,
+      "cheatsTotal": 115,
       "creators": [
         "Dioniso",
         "fbin, LMN \u0026 JustGotenks, merge and trad cheats by Chronoss",
@@ -70950,9 +70787,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 19,
+          "cheatsCount": 18,
           "cheats": [
-            "Ammo_Materials_MC (Must Be On)",
             "Hit Me SM = Story Mode...MM = Mercenary Mode...One Hit Kill when playing as Chris please turn cheat off when marking the 1st target......",
             "Max Health",
             "One Hit Kill",
@@ -77463,7 +77299,7 @@
       "title": "Crash Bandicoot 4: It\u0027s About Time",
       "idLower": "cusa23511",
       "titleLower": "crash bandicoot 4: it\u0027s about time",
-      "cheatsTotal": 14,
+      "cheatsTotal": 13,
       "creators": [
         "hejran7"
       ],
@@ -77478,9 +77314,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 14,
+          "cheatsCount": 13,
           "cheats": [
-            "Speed Hack MC (Must Be On)",
             "Inf Hp",
             "0 Death",
             "Inf Jump",
@@ -86350,7 +86185,7 @@
       "title": "Vagante",
       "idLower": "cusa28409",
       "titleLower": "vagante",
-      "cheatsTotal": 4,
+      "cheatsTotal": 3,
       "creators": [
         "Ali-mk"
       ],
@@ -86365,9 +86200,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 2,
+          "cheatsCount": 1,
           "cheats": [
-            "Inf-Health \u002B MAX-GOLD(MC)",
             "Infinite-Arrow"
           ]
         },
@@ -86375,8 +86209,8 @@
           "hasFile": true,
           "cheatsCount": 2,
           "cheats": [
-            "Inf-Health \u002B MAX-GOLD(MC)",
-            "Infinite-Arrow"
+            "Infinite-Arrow",
+            "Inf-Health \u002B MAX-GOLD(MC)"
           ]
         }
       }
@@ -93929,7 +93763,7 @@
       "title": "Resident Evil 4",
       "idLower": "cusa33388",
       "titleLower": "resident evil 4",
-      "cheatsTotal": 55,
+      "cheatsTotal": 54,
       "creators": [
         "Celogamez",
         "hejran7, LMN",
@@ -93968,9 +93802,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 28,
+          "cheatsCount": 27,
           "cheats": [
-            "HP_Untouchable MC (must be on)",
             "Untouchable",
             "Infinite Health",
             "Untouchable AI",
@@ -94024,7 +93857,7 @@
       "title": "Resident Evil 4",
       "idLower": "cusa33388",
       "titleLower": "resident evil 4",
-      "cheatsTotal": 183,
+      "cheatsTotal": 182,
       "creators": [
         "Dioniso",
         "Dioniso, Celogamez",
@@ -94114,9 +93947,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 26,
+          "cheatsCount": 25,
           "cheats": [
-            "HP_Untouchable MC (must be on)",
             "Untouchable",
             "Infinite Health",
             "Untouchable AI",
@@ -102433,7 +102265,7 @@
       "title": "Prince of Persia: The Lost Crown",
       "idLower": "cusa36582",
       "titleLower": "prince of persia: the lost crown",
-      "cheatsTotal": 27,
+      "cheatsTotal": 26,
       "creators": [
         "Celogamez",
         "Hank"
@@ -102445,9 +102277,8 @@
       "formats": {
         "json": {
           "hasFile": true,
-          "cheatsCount": 17,
+          "cheatsCount": 16,
           "cheats": [
-            "Master",
             "Invincible Mode",
             "Infinite Health",
             "Infinite Dash",
@@ -108124,7 +107955,7 @@
       "title": "The Karate Kid: Street Rumble",
       "idLower": "cusa47364",
       "titleLower": "the karate kid: street rumble",
-      "cheatsTotal": 4,
+      "cheatsTotal": 3,
       "creators": [
         "Ali-mk"
       ],
@@ -108139,9 +107970,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 2,
+          "cheatsCount": 1,
           "cheats": [
-            "Infinite-Health-Master-Code",
             "Infinite-lives"
           ]
         },
@@ -108149,8 +107979,8 @@
           "hasFile": true,
           "cheatsCount": 2,
           "cheats": [
-            "Infinite-Health-Master-Code",
-            "Infinite-lives"
+            "Infinite-lives",
+            "Infinite-Health-Master-Code"
           ]
         }
       }
@@ -108890,7 +108720,7 @@
       "title": "Like a Dragon: Pirate Yakuza in Hawaii",
       "idLower": "cusa49939",
       "titleLower": "like a dragon: pirate yakuza in hawaii",
-      "cheatsTotal": 14,
+      "cheatsTotal": 13,
       "creators": [
         "2pt"
       ],
@@ -108905,9 +108735,8 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 14,
+          "cheatsCount": 13,
           "cheats": [
-            "Money and Rep Mastercode - Must be on before Money or Rep cheat",
             "5 Mil Reputation (on gain or spend)",
             "5 Mil Money (on gain or spend)",
             "Inf Item (on gain or use)",
@@ -120380,6 +120209,45 @@
             "Infi Mastery Points",
             "Super Stats",
             "Infi Air"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA20423",
+      "version": "02.000.000",
+      "title": "Another Crab\u0027s Treasure",
+      "idLower": "ppsa20423",
+      "titleLower": "another crab\u0027s treasure",
+      "cheatsTotal": 7,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 7,
+          "cheats": [
+            "Untouchable",
+            "1 Hit Kill",
+            "Infi Health",
+            "Infi Charge Skill",
+            "Infi Healing Potions",
+            "Max Money",
+            "Max Gems"
           ]
         }
       }

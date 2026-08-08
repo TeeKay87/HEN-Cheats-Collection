@@ -3,33 +3,28 @@
   "id": "CUSA01589",
   "version": "01.02",
   "process": "eboot.bin",
+  "master": {
+    "challenged": "yes",
+    "memory": [
+      {
+        "offset": "2077800",
+        "on": "48891DF9C7B8FD8B8370010000898370010000C5FA1083B4010000C5FA1183B4010000E9835354FE"
+      },
+      {
+        "offset": "5BCBA5",
+        "on": "E956ACAB0190"
+      },
+      {
+        "offset": "2077828",
+        "on": "53BB000000008B98F40000008998F4000000BB000000008B9830FFFFFF8998D0000000BB000000008B98EC0000008998EC0000005B8B80EC000000E90EC754FE"
+      },
+      {
+        "offset": "5C3F70",
+        "on": "E9B338AB0190"
+      }
+    ]
+  },
   "mods": [
-    {
-      "name": "Master",
-      "type": "master",
-      "memory": [
-        {
-          "offset": "2077800",
-          "on": "48891DF9C7B8FD8B8370010000898370010000C5FA1083B4010000C5FA1183B4010000E9835354FE",
-          "off": ""
-        },
-        {
-          "offset": "5BCBA5",
-          "on": "E956ACAB0190",
-          "off": ""
-        },
-        {
-          "offset": "2077828",
-          "on": "53BB000000008B98F40000008998F4000000BB000000008B9830FFFFFF8998D0000000BB000000008B98EC0000008998EC0000005B8B80EC000000E90EC754FE",
-          "off": ""
-        },
-        {
-          "offset": "5C3F70",
-          "on": "E9B338AB0190",
-          "off": ""
-        }
-      ]
-    },
     {
       "name": "God mode",
       "type": "checkbox",

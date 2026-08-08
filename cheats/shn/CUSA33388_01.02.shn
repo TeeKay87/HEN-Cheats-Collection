@@ -3,7 +3,7 @@
   <Genres Name="Horror" />
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="HP_Untouchable MC (must be on)">
+  <StartUP Text="HP_Untouchable MC (must be on)">
     <Cheatline>
       <Offset>FFFFFFFFFFC04000</Offset>
       <Section>0</Section>
@@ -28,7 +28,7 @@
       <ValueOn>E9-DC-D9-2C-05</ValueOn>
       <ValueOff>39-F2-0F-4C-F2</ValueOff>
     </Cheatline>
-  </Cheat>
+  </StartUP>
   <Cheat Text="Untouchable">
     <Cheatline>
       <Offset>FFFFFFFFFFC04007</Offset>

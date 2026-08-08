@@ -2,7 +2,7 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dragon Age: Inquisition" Moder="d01v" Cusa="CUSA00503" Version="01.12" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="MasterCode">
+  <StartUP Text="MasterCode" Description="All Cheats Triggered instantly, if not try equip or unequip any item, or interact by loot, climb etc">
     <Cheatline>
       <Offset>3213800</Offset>
       <Section>0</Section>
@@ -15,7 +15,7 @@
       <ValueOn>E9-1A-9F-87-02</ValueOn>
       <ValueOff>C5-FA-10-46-2C</ValueOff>
     </Cheatline>
-  </Cheat>
+  </StartUP>
   <Cheat Text="Disable Infinite Health" Description="need MC">
     <Cheatline>
       <Offset>3213813</Offset>

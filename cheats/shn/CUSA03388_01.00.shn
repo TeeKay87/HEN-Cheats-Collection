@@ -2,7 +2,7 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dark Souls III" Moder="hejran7" Cusa="CUSA03388" Version="01.00" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="HP MC (Must Be On)">
+  <StartUP Text="HP MC (Must Be On)">
     <Cheatline>
       <Offset>57FB800</Offset>
       <Section>0</Section>
@@ -15,8 +15,8 @@
       <ValueOn>E9-C5-72-75-04</ValueOn>
       <ValueOff>44-29-F8-78-3F</ValueOff>
     </Cheatline>
-  </Cheat>
-  <Cheat Text="Stamina MC (Must Be On)">
+  </StartUP>
+  <StartUP Text="Stamina MC (Must Be On)">
     <Cheatline>
       <Offset>57FB842</Offset>
       <Section>0</Section>
@@ -29,7 +29,7 @@
       <ValueOn>E9-2D-DE-70-04</ValueOn>
       <ValueOff>39-D8-0F-4E-D8</ValueOff>
     </Cheatline>
-  </Cheat>
+  </StartUP>
   <Cheat Text="Inf HP">
     <Cheatline>
       <Offset>57FB807</Offset>

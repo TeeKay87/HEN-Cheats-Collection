@@ -2,20 +2,22 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Like a Dragon: Pirate Yakuza in Hawaii" Moder="2pt" Cusa="CUSA49939" Version="01.10" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Money and Rep Mastercode - Must be on before Money or Rep cheat">
+  <StartUP Text="Money and Rep Mastercode - Must be on before Money or Rep cheat" Description="MasterCode">
     <Cheatline>
+      <PS5Offset>703-executable[0]-5</PS5Offset>
       <Offset>25538FD</Offset>
       <Section>0</Section>
       <ValueOn>9C-49-81-FC-C1-02-00-00-90-90-49-83-FC-01-90-90-4E-89-3C-E2-EB-12-4A-C7-04-E2-00-65-CD-1D-EB-08-4A-C7-04-E2-40-4B-4C-00-9D-48-8B-01-E9-6A-33-19-FE</ValueOn>
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
     <Cheatline>
+      <PS5Offset>1E6D36F-executable[0]-5</PS5Offset>
       <Offset>6E6C91</Offset>
       <Section>0</Section>
       <ValueOn>E9-67-CC-E6-01-90-90</ValueOn>
       <ValueOff>4E-89-3C-E2-48-8B-01</ValueOff>
     </Cheatline>
-  </Cheat>
+  </StartUP>
   <Cheat Text="5 Mil Reputation (on gain or spend)">
     <Cheatline>
       <PS5Offset>6FB-executable[0]-5</PS5Offset>

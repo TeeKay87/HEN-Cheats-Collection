@@ -3,23 +3,20 @@
   "id": "CUSA07439",
   "version": "01.00",
   "process": "eboot.bin",
+  "master": {
+    "challenged": "yes",
+    "memory": [
+      {
+        "offset": "473F800",
+        "on": "534889C348891DF5474CFB5B8B88E40000008988E40000008B88F00000008988F00000008B88D80000008988D8000000488B88D8000000E9B7CD57FC"
+      },
+      {
+        "offset": "CBC5EC",
+        "on": "E90F32A8039090"
+      }
+    ]
+  },
   "mods": [
-    {
-      "name": "Master",
-      "type": "master",
-      "memory": [
-        {
-          "offset": "473F800",
-          "on": "534889C348891DF5474CFB5B8B88E40000008988E40000008B88F00000008988F00000008B88D80000008988D8000000488B88D8000000E9B7CD57FC",
-          "off": ""
-        },
-        {
-          "offset": "CBC5EC",
-          "on": "E90F32A8039090",
-          "off": ""
-        }
-      ]
-    },
     {
       "name": "Infinite Health",
       "type": "checkbox",

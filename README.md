@@ -49,6 +49,7 @@ The website lets you:
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-08-08 | ADDED | PPSA20423 | 02.000.000 | [Another Crab's Treasure](https://hencheats.vercel.app/#PPSA20423-02.000.000) |
 | 2026-08-08 | ADDED | CUSA00113 | 01.03 | [Need for Speed: Rivals](https://hencheats.vercel.app/#CUSA00113-01.03) |
 | 2026-08-08 | ADDED | CUSA00168 | 01.00 | [Need for Speed: Rivals](https://hencheats.vercel.app/#CUSA00168-01.00) |
 | 2026-08-08 | ADDED | CUSA01230 | 01.07 | [Axiom Verge](https://hencheats.vercel.app/#CUSA01230-01.07) |
@@ -648,6 +649,10 @@ The website lets you:
 </details>
 
 ## Notes
+### 2026-08-08
+Fixed some bugs with my parser, merger and exporter that resulted in some files losing data along the way.
+These fixed updated 92 cheat files and hopefully made them work correctly if they didn't before.
+
 ### 2026-07-21
 Big improvements to the website:
 - Sorting options - Sort by A-Z, Z-A, New-Old, Old-New.

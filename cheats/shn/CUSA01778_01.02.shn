@@ -2,7 +2,7 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dead or Alive 5: Last Round" Moder="TLH" Cusa="CUSA01778" Version="01.02" Process="eboot.bin">
   <Genres Name="Fighting" />
   <Items />
-  <Cheat Text="Health">
+  <StartUP Text="Health">
     <Cheatline>
       <Offset>144B800</Offset>
       <Section>0</Section>
@@ -15,7 +15,7 @@
       <ValueOn>E9-8A-78-0E-01</ValueOn>
       <ValueOff>66-41-89-46-2C</ValueOff>
     </Cheatline>
-  </Cheat>
+  </StartUP>
   <Cheat Text="Player 1: Infinite Health">
     <Cheatline>
       <Offset>144B800</Offset>

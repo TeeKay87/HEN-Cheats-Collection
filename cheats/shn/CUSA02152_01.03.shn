@@ -4,7 +4,7 @@
   <Genres Name="Arcade" />
   <Genres Name="Fighting" />
   <Items />
-  <Cheat Text="Health Pointer">
+  <StartUP Text="Health Pointer">
     <Cheatline>
       <Offset>1BA7800</Offset>
       <Section>0</Section>
@@ -17,8 +17,8 @@
       <ValueOn>E9-BA-07-89-01-90-90-90-90</ValueOn>
       <ValueOff>C4-C1-7A-10-87-64-01-00-00</ValueOff>
     </Cheatline>
-  </Cheat>
-  <Cheat Text="Health">
+  </StartUP>
+  <StartUP Text="Health">
     <Cheatline>
       <Offset>1BA782B</Offset>
       <Section>0</Section>
@@ -31,7 +31,7 @@
       <ValueOn>E9-85-2C-89-01</ValueOn>
       <ValueOff>C5-FA-5C-42-50</ValueOff>
     </Cheatline>
-  </Cheat>
+  </StartUP>
   <Cheat Text="Infinite Health">
     <Cheatline>
       <Offset>1BA7800</Offset>

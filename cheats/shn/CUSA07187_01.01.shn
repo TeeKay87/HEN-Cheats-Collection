@@ -2,7 +2,7 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Final Fantasy VII Remake" Moder="hejran7" Cusa="CUSA07187" Version="01.01" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Cloud's Dresses MC (Must Be On)">
+  <StartUP Text="Cloud's Dresses MC (Must Be On)">
     <Cheatline>
       <Offset>52B0038</Offset>
       <Section>0</Section>
@@ -15,7 +15,7 @@
       <ValueOn>E9-66-63-48-04-90</ValueOn>
       <ValueOff>43-89-34-B4-74-67</ValueOff>
     </Cheatline>
-  </Cheat>
+  </StartUP>
   <Cheat Text="Max Inf HP">
     <Cheatline>
       <Offset>52B001A</Offset>

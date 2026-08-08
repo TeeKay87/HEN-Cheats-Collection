@@ -2,7 +2,7 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Resident Evil Village" Moder="hejran7" Cusa="CUSA18008" Version="01.11" Process="eboot.bin">
   <Genres Name="Horror" />
   <Items />
-  <Cheat Text="Ammo_Materials_MC (Must Be On)">
+  <StartUP Text="Ammo_Materials_MC (Must Be On)">
     <Cheatline>
       <Offset>B19F19D</Offset>
       <Section>0</Section>
@@ -15,7 +15,7 @@
       <ValueOn>E9-34-1F-08-08-90</ValueOn>
       <ValueOff>44-29-E1-89-48-4C</ValueOff>
     </Cheatline>
-  </Cheat>
+  </StartUP>
   <Cheat Text="Hit Me SM = Story Mode...MM = Mercenary Mode...One Hit Kill when playing as Chris please turn cheat off when marking the 1st target......">
     <Cheatline>
       <Offset>D1</Offset>

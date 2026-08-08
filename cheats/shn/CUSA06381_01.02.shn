@@ -3,7 +3,7 @@
   <Genres Name="Adventure" />
   <Genres Name="Fighting" />
   <Items />
-  <Cheat Text="Infite Health + 1 Hit Kills">
+  <StartUP Text="Infite Health + 1 Hit Kills">
     <Cheatline>
       <Offset>20BF800</Offset>
       <Section>0</Section>
@@ -16,7 +16,7 @@
       <ValueOn>E9-51-59-7A-01</ValueOn>
       <ValueOff>C5-FA-11-42-38</ValueOff>
     </Cheatline>
-  </Cheat>
+  </StartUP>
   <Cheat Text="Infinite Health">
     <Cheatline>
       <Offset>20BF800</Offset>

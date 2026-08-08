@@ -3,23 +3,20 @@
   "id": "CUSA07123",
   "version": "01.21",
   "process": "eboot.bin",
+  "master": {
+    "challenged": "yes",
+    "memory": [
+      {
+        "offset": "13F7800",
+        "on": "498B46204989462089C15348C7C3004000004C89335BE9F4C12BFF"
+      },
+      {
+        "offset": "6B3A09",
+        "on": "E9F23DD40090"
+      }
+    ]
+  },
   "mods": [
-    {
-      "name": "Master",
-      "type": "master",
-      "memory": [
-        {
-          "offset": "13F7800",
-          "on": "498B46204989462089C15348C7C3004000004C89335BE9F4C12BFF",
-          "off": ""
-        },
-        {
-          "offset": "6B3A09",
-          "on": "E9F23DD40090",
-          "off": ""
-        }
-      ]
-    },
     {
       "name": "Infinte Health",
       "type": "checkbox",

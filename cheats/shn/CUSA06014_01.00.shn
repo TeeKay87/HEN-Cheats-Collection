@@ -2,7 +2,7 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Tekken 7" Moder="TLH" Cusa="CUSA06014" Version="01.00" Process="eboot.bin">
   <Genres Name="Fighting" />
   <Items />
-  <Cheat Text="Health">
+  <StartUP Text="Health">
     <Cheatline>
       <Offset>4EEB81C</Offset>
       <Section>0</Section>
@@ -15,7 +15,7 @@
       <ValueOn>E9-CB-E4-8E-04-90</ValueOn>
       <ValueOff>89-47-04-3B-47-08</ValueOff>
     </Cheatline>
-  </Cheat>
+  </StartUP>
   <Cheat Text="Infinite Money">
     <Cheatline>
       <Offset>4EEB800</Offset>

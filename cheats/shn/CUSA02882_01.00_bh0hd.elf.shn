@@ -7,7 +7,7 @@
   <Genres Name="RPG" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Health / 1 Hit">
+  <StartUP Text="Health / 1 Hit">
     <Cheatline>
       <Offset>AFF800</Offset>
       <Section>0</Section>
@@ -20,7 +20,7 @@
       <ValueOn>E9-7D-73-99-00-90</ValueOn>
       <ValueOff>89-B7-50-13-00-00</ValueOff>
     </Cheatline>
-  </Cheat>
+  </StartUP>
   <Cheat Text="Infinite Health">
     <Cheatline>
       <Offset>AFF800</Offset>

@@ -2,7 +2,7 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Rage 2" Moder="hejran7" Cusa="CUSA10300" Version="01.07" Process="eboot.bin">
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="HP MC (Must Be On)">
+  <StartUP Text="HP MC (Must Be On)">
     <Cheatline>
       <Offset>2CA6B9B</Offset>
       <Section>0</Section>
@@ -15,7 +15,7 @@
       <ValueOn>E9-A9-77-FA-00-90-90</ValueOn>
       <ValueOff>66-89-93-0E-03-00-00</ValueOff>
     </Cheatline>
-  </Cheat>
+  </StartUP>
   <Cheat Text="Max Player HP">
     <Cheatline>
       <Offset>2CA6BA4</Offset>
