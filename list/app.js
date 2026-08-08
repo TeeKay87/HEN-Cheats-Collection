@@ -25,8 +25,8 @@ const DOWNLOADABLE_FORMATS = new Set(['json', 'mc4', 'shn']);
 // Google AdSense configuration.
 // Create one responsive Display ad unit in AdSense and paste its values here.
 // Leave either value empty to disable the in-list ad placements completely.
-const ADSENSE_CLIENT_ID = ''; // Example: 'ca-pub-1234567890123456'
-const ADSENSE_GAME_LIST_SLOT_ID = ''; // Example: '1234567890'
+const ADSENSE_CLIENT_ID = 'ca-pub-1128425528594146';
+const ADSENSE_GAME_LIST_SLOT_ID = ''; // Fill this in after creating a responsive Display ad unit.
 
 // Insert one full-width responsive ad after this many game cards.
 // The ad is only inserted when there are more game results after it.
@@ -542,16 +542,20 @@ function ensureAdSenseScript() {
     return Promise.resolve(false);
   }
 
-  if (window.adsbygoogle && document.querySelector('script[data-hen-adsense="true"]')) {
+  const existingAdSenseScript = document.querySelector(
+    'script[src*="pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"]'
+  );
+
+  if (window.adsbygoogle && existingAdSenseScript) {
     return Promise.resolve(true);
   }
 
   if (!adsenseScriptPromise) {
     adsenseScriptPromise = new Promise((resolve, reject) => {
-      const existing = document.querySelector('script[data-hen-adsense="true"]');
+      const existing = existingAdSenseScript;
 
       if (existing) {
-        if (existing.dataset.loaded === 'true') {
+        if (existing.dataset.loaded === 'true' || window.adsbygoogle) {
           resolve(true);
           return;
         }
