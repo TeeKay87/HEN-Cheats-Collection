@@ -1,0 +1,45 @@
+{
+  "name": "Slender: The Arrival",
+  "id": "CUSA02043",
+  "version": "01.00",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Gain Power Lines Fast ",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1187000",
+          "on": "51488B88F80000008988FC00000059E9D81164FF000000000000000000000000",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "7C81E6",
+          "on": "E915EE9B0090",
+          "off": "8988FC000000"
+        }
+      ]
+    },
+    {
+      "name": "Get Pages Fast",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1187034",
+          "on": "50418B85F8000000418985FC00000058E9325463FF00000000000000",
+          "off": "00000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "7BC474",
+          "on": "E9BBAB9C009090",
+          "off": "418985FC000000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Molly \u0022LLLCCC\u0022"
+  ]
+}

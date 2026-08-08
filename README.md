@@ -49,6 +49,13 @@ The website lets you:
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-08-08 | ADDED | CUSA00113 | 01.03 | [Need for Speed: Rivals](https://hencheats.vercel.app/#CUSA00113-01.03) |
+| 2026-08-08 | ADDED | CUSA00168 | 01.00 | [Need for Speed: Rivals](https://hencheats.vercel.app/#CUSA00168-01.00) |
+| 2026-08-08 | ADDED | CUSA01230 | 01.07 | [Axiom Verge](https://hencheats.vercel.app/#CUSA01230-01.07) |
+| 2026-08-08 | ADDED | CUSA01388 | 01.03 | [Fat Princess Adventures](https://hencheats.vercel.app/#CUSA01388-01.03) |
+| 2026-08-08 | ADDED | CUSA02043 | 01.00 | [Slender: The Arrival](https://hencheats.vercel.app/#CUSA02043-01.00) |
+| 2026-08-08 | ADDED | CUSA02043 | 01.02 | [Slender: The Arrival](https://hencheats.vercel.app/#CUSA02043-01.02) |
+| 2026-08-08 | UPDATE | CUSA00168 | 01.04 | [Need for Speed: Rivals](https://hencheats.vercel.app/#CUSA00168-01.04) |
 | 2026-08-07 | ADDED | PPSA07570 | 01.010.001 | [Mortal Kombat 1](https://hencheats.vercel.app/#PPSA07570-01.010.001) |
 | 2026-08-06 | ADDED | PPSA29343 | 01.000.000 | [Beast of Reincarnation Digital Deluxe Edition](https://hencheats.vercel.app/#PPSA29343-01.000.000) |
 | 2026-08-05 | ADDED | PPSA01746 | 01.016.000 | [Kena: Bridge of Spirits](https://hencheats.vercel.app/#PPSA01746-01.016.000) |

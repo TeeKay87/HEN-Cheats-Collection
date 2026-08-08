@@ -1,0 +1,113 @@
+{
+  "name": "Fat Princess Adventures",
+  "id": "CUSA01388",
+  "version": "01.03",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Edit Amount Of Kills",
+      "description": "The Kill Option Will Work For  Epic Takedows/Killing In The Name Of.../Juice Up And Never Understimated\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "20AB000",
+          "on": "0F84786538FF41BEE803000044897030E9646538FF0000000000000000000000",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1431573",
+          "on": "E9889AC70090",
+          "off": "740944017030"
+        }
+      ]
+    },
+    {
+      "name": "Edit Max Hp",
+      "description": "Once You Put The Amount You Want Get Hit\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "20AB035",
+          "on": "BBF401000041895F24BE04000000E9E2389FFF0000000000000000",
+          "off": "000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1A9E921",
+          "on": "E90FC7600090909090",
+          "off": "418B5F24BE04000000"
+        }
+      ]
+    },
+    {
+      "name": "Max Gems",
+      "description": "Press The Touch Pad Then Go Upgrade Anything That Needs Gems\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "20AB068",
+          "on": "C783040200007F9698008B9304020000E952CEECFE000000",
+          "off": "000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "F77EC9",
+          "on": "E99A31130190",
+          "off": "8B9304020000"
+        }
+      ]
+    },
+    {
+      "name": "Max Money",
+      "description": "Pick Up Some Coins\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "20AB09D",
+          "on": "41BC7F9698004589A700020000E967197DFF00",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "187CA0F",
+          "on": "E989E682009090",
+          "off": "4589A700020000"
+        }
+      ]
+    },
+    {
+      "name": "Max Rank Unlock All Customization Items",
+      "description": "Press The Touch Pad To Take Effect\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "20AB0CF",
+          "on": "C783F40300009F8601008B93F4030000E94ECEECFE000000000000000000000000",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "F77F2C",
+          "on": "E99E31130190",
+          "off": "8B93F4030000"
+        }
+      ]
+    },
+    {
+      "name": "Quick Level Up ",
+      "description": "Beat Any Monsters\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "20AB104",
+          "on": "BB00350C0041899E0C020000E900029FFF0000000000000000000000",
+          "off": "00000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1A9B30E",
+          "on": "E9F1FD60009090",
+          "off": "41899E0C020000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Molly \u0022LLLCCC\u0022"
+  ]
+}

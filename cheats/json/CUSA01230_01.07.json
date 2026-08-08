@@ -1,0 +1,113 @@
+{
+  "name": "Axiom Verge",
+  "id": "CUSA01230",
+  "version": "01.07",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "INF_HP",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2203000",
+          "on": "4D85F60F8451984BFFE9F9974BFF0000",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "16BC7FC",
+          "on": "E9FF67B400909090909090",
+          "off": "2BC14D85F60F8453000000"
+        }
+      ]
+    },
+    {
+      "name": "One_Hit_Kill",
+      "description": "Turn off at last boss\r\nand turn off when making platforms with the flying donuts\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "220302E",
+          "on": "4189467829C04D85F60F84CF194CFFE999194CFF0000000000000000000000000000",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "16C49CE",
+          "on": "E95BE6B3009090909090909090",
+          "off": "418946784D85F60F8431000000"
+        }
+      ]
+    },
+    {
+      "name": "Drone_INF_HP",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2203062",
+          "on": "F2480F2CC8E94A2757FF0000000000000000000000000000000000000000",
+          "off": "000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "17757AF",
+          "on": "E9AED8A8009090",
+          "off": "F2480F2CC82BC1"
+        }
+      ]
+    },
+    {
+      "name": "Quick_Drill",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "220308C",
+          "on": "488B44242029C0E9D9B043FF0000000000000000",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "163E16A",
+          "on": "E91D4FBC009090",
+          "off": "488B4424202BC1"
+        }
+      ]
+    },
+    {
+      "name": "INF_Address_Bombs",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "22030B8",
+          "on": "49638650010000E974984BFF000000000000000000000000",
+          "off": "000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "16BC92D",
+          "on": "E98667B400909090909090",
+          "off": "496386500100002B442408"
+        }
+      ]
+    },
+    {
+      "name": "INF_Air",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "22030E4",
+          "on": "496387C0010000E94BE856FF00000000000000000000000000000000",
+          "off": "00000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1771931",
+          "on": "E9AE17A9009090909090",
+          "off": "496387C001000083E80F"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "jwhy"
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-08-07T09:49:01.4900809Z",
+  "generatedUtc": "2026-08-08T01:57:50.2120109Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -1331,6 +1331,42 @@
       }
     },
     {
+      "id": "CUSA00113",
+      "version": "01.03",
+      "title": "Need for Speed: Rivals",
+      "idLower": "cusa00113",
+      "titleLower": "need for speed: rivals",
+      "cheatsTotal": 4,
+      "creators": [
+        "Molly \u0022LLLCCC\u0022"
+      ],
+      "creatorsLower": [
+        "molly \u0022lllccc\u0022"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Infinite Nitrous",
+            "Infinite Tech",
+            "Max Speed Points",
+            "Never Get Busted"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
       "id": "CUSA00133",
       "version": "01.14",
       "title": "Batman: Arkham Knight",
@@ -1549,22 +1585,64 @@
     },
     {
       "id": "CUSA00168",
+      "version": "01.00",
+      "title": "Need for Speed: Rivals",
+      "idLower": "cusa00168",
+      "titleLower": "need for speed: rivals",
+      "cheatsTotal": 4,
+      "creators": [
+        "Molly \u0022LLLCCC\u0022"
+      ],
+      "creatorsLower": [
+        "molly \u0022lllccc\u0022"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Infinite Nitrous",
+            "Infinite Tech",
+            "Max Money",
+            "Never Get Busted"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
+      "id": "CUSA00168",
       "version": "01.04",
       "title": "Need for Speed: Rivals",
       "idLower": "cusa00168",
       "titleLower": "need for speed: rivals",
-      "cheatsTotal": 3,
+      "cheatsTotal": 7,
       "creators": [
+        "Molly \u0022LLLCCC\u0022",
         "TLH"
       ],
       "creatorsLower": [
+        "molly \u0022lllccc\u0022",
         "tlh"
       ],
       "formats": {
         "json": {
           "hasFile": true,
-          "cheatsCount": 1,
+          "cheatsCount": 5,
           "cheats": [
+            "Infinite Nitrous",
+            "Infinite Tech",
+            "Max Money",
+            "Never Get Busted",
             "Infinite SP"
           ]
         },
@@ -9427,6 +9505,44 @@
       }
     },
     {
+      "id": "CUSA01230",
+      "version": "01.07",
+      "title": "Axiom Verge",
+      "idLower": "cusa01230",
+      "titleLower": "axiom verge",
+      "cheatsTotal": 6,
+      "creators": [
+        "jwhy"
+      ],
+      "creatorsLower": [
+        "jwhy"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 6,
+          "cheats": [
+            "INF_HP",
+            "One_Hit_Kill",
+            "Drone_INF_HP",
+            "Quick_Drill",
+            "INF_Address_Bombs",
+            "INF_Air"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
       "id": "CUSA01244",
       "version": "01.00",
       "title": "Final Fantasy X | X-2: HD Remaster",
@@ -9865,6 +9981,44 @@
             "Objects: No Dec. \u002B Max. (Get/Buy)",
             "Stats/Level Maxed (Buy Once)"
           ]
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
+      "id": "CUSA01388",
+      "version": "01.03",
+      "title": "Fat Princess Adventures",
+      "idLower": "cusa01388",
+      "titleLower": "fat princess adventures",
+      "cheatsTotal": 6,
+      "creators": [
+        "Molly \u0022LLLCCC\u0022"
+      ],
+      "creatorsLower": [
+        "molly \u0022lllccc\u0022"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 6,
+          "cheats": [
+            "Edit Amount Of Kills",
+            "Edit Max Hp",
+            "Max Gems",
+            "Max Money",
+            "Max Rank Unlock All Customization Items",
+            "Quick Level Up"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         },
         "mc4": {
           "hasFile": false,
@@ -12468,6 +12622,74 @@
           "cheatsCount": 1,
           "cheats": [
             "Opponents don\u0027t move"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
+      "id": "CUSA02043",
+      "version": "01.00",
+      "title": "Slender: The Arrival",
+      "idLower": "cusa02043",
+      "titleLower": "slender: the arrival",
+      "cheatsTotal": 2,
+      "creators": [
+        "Molly \u0022LLLCCC\u0022"
+      ],
+      "creatorsLower": [
+        "molly \u0022lllccc\u0022"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Gain Power Lines Fast",
+            "Get Pages Fast"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
+      "id": "CUSA02043",
+      "version": "01.02",
+      "title": "Slender: The Arrival",
+      "idLower": "cusa02043",
+      "titleLower": "slender: the arrival",
+      "cheatsTotal": 2,
+      "creators": [
+        "Molly \u0022LLLCCC\u0022"
+      ],
+      "creatorsLower": [
+        "molly \u0022lllccc\u0022"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Gain Power Lines Fast",
+            "Get Pages Fast"
           ]
         },
         "shn": {
