@@ -286,6 +286,19 @@ img {
   gap: 18px;
 }
 
+.games-ad-slot {
+  grid-column: 1 / -1;
+  width: 100%;
+  min-width: 0;
+  padding: 8px 0;
+  overflow: hidden;
+}
+
+.games-ad-slot .adsbygoogle {
+  display: block;
+  width: 100%;
+}
+
 .game-card {
   position: relative;
   width: 100%;

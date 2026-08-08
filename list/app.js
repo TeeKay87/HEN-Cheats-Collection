@@ -22,6 +22,16 @@ const CHEATS_RAW_BASE_URL =
   `https://raw.githubusercontent.com/TeeKay87/HEN-Cheats-Collection/${CHEATS_REPOSITORY_BRANCH}/cheats`;
 const DOWNLOADABLE_FORMATS = new Set(['json', 'mc4', 'shn']);
 
+// Google AdSense configuration.
+// Create one responsive Display ad unit in AdSense and paste its values here.
+// Leave either value empty to disable the in-list ad placements completely.
+const ADSENSE_CLIENT_ID = ''; // Example: 'ca-pub-1234567890123456'
+const ADSENSE_GAME_LIST_SLOT_ID = ''; // Example: '1234567890'
+
+// Insert one full-width responsive ad after this many game cards.
+// The ad is only inserted when there are more game results after it.
+const ADSENSE_GAME_INTERVAL = 12;
+
 const state = {
   entries: [],
   covers: new Map(),
@@ -101,6 +111,13 @@ const MARKDOWN_ALLOWED_ATTRIBUTES = ['href', 'title'];
 
 function entryKey(entry) {
   return `${entry.id}${HASH_SEPARATOR}${entry.version}`;
+}
+
+// notes.json and pinned.json use ID_VERSION keys.
+// Keep this separate from entryKey() so favorites, URL hashes/deep links,
+// and added.json retain their existing ID-version behavior.
+function metadataEntryKey(entry) {
+  return `${entry.id}_${entry.version}`;
 }
 
 function parseDateOnlyUtc(value) {
@@ -217,7 +234,7 @@ function normalize(value) {
 
 function normalizeSearch(value) {
   return normalize(value)
-    .replace(/['’‘`´]/g, '')
+    .replace(/[.'’‘`´]/g, '')
     .replace(/[^\p{L}\p{N}]+/gu, ' ')
     .replace(/\s+/g, ' ')
     .trim();
@@ -436,8 +453,8 @@ function compareByAddedDate(a, b, newestFirst) {
 
 function sortEntries(entries) {
   return entries.sort((a, b) => {
-    const aPinned = state.pinned.has(entryKey(a));
-    const bPinned = state.pinned.has(entryKey(b));
+    const aPinned = state.pinned.has(metadataEntryKey(a));
+    const bPinned = state.pinned.has(metadataEntryKey(b));
 
     // Pinned entries always come first. Within each group, keep using
     // the sort order selected by the user.
@@ -509,6 +526,116 @@ function createPlaceholderSvg(title) {
   return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
 }
 
+let adsenseScriptPromise = null;
+
+function isAdSenseConfigured() {
+  return (
+    /^ca-pub-\d+$/.test(ADSENSE_CLIENT_ID) &&
+    /^\d+$/.test(ADSENSE_GAME_LIST_SLOT_ID) &&
+    Number.isInteger(ADSENSE_GAME_INTERVAL) &&
+    ADSENSE_GAME_INTERVAL > 0
+  );
+}
+
+function ensureAdSenseScript() {
+  if (!isAdSenseConfigured()) {
+    return Promise.resolve(false);
+  }
+
+  if (window.adsbygoogle && document.querySelector('script[data-hen-adsense="true"]')) {
+    return Promise.resolve(true);
+  }
+
+  if (!adsenseScriptPromise) {
+    adsenseScriptPromise = new Promise((resolve, reject) => {
+      const existing = document.querySelector('script[data-hen-adsense="true"]');
+
+      if (existing) {
+        if (existing.dataset.loaded === 'true') {
+          resolve(true);
+          return;
+        }
+
+        existing.addEventListener('load', () => resolve(true), { once: true });
+        existing.addEventListener(
+          'error',
+          () => reject(new Error('Could not load the Google AdSense script.')),
+          { once: true }
+        );
+        return;
+      }
+
+      const script = document.createElement('script');
+      script.async = true;
+      script.crossOrigin = 'anonymous';
+      script.dataset.henAdsense = 'true';
+      script.src =
+        'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js' +
+        `?client=${encodeURIComponent(ADSENSE_CLIENT_ID)}`;
+
+      script.addEventListener(
+        'load',
+        () => {
+          script.dataset.loaded = 'true';
+          resolve(true);
+        },
+        { once: true }
+      );
+
+      script.addEventListener(
+        'error',
+        () => reject(new Error('Could not load the Google AdSense script.')),
+        { once: true }
+      );
+
+      document.head.append(script);
+    }).catch((error) => {
+      adsenseScriptPromise = null;
+      console.warn(error);
+      return false;
+    });
+  }
+
+  return adsenseScriptPromise;
+}
+
+function buildGameListAdSlot(gameNumber) {
+  if (!isAdSenseConfigured()) return null;
+
+  const wrapper = document.createElement('div');
+  wrapper.className = 'games-ad-slot';
+  wrapper.dataset.afterGame = String(gameNumber);
+  wrapper.setAttribute('role', 'complementary');
+  wrapper.setAttribute('aria-label', 'Advertisement');
+
+  const ad = document.createElement('ins');
+  ad.className = 'adsbygoogle';
+  ad.style.display = 'block';
+  ad.dataset.adClient = ADSENSE_CLIENT_ID;
+  ad.dataset.adSlot = ADSENSE_GAME_LIST_SLOT_ID;
+  ad.dataset.adFormat = 'auto';
+  ad.dataset.fullWidthResponsive = 'true';
+
+  wrapper.append(ad);
+  return wrapper;
+}
+
+function initializeGameListAds(adElements) {
+  if (!adElements.length || !isAdSenseConfigured()) return;
+
+  // The standard AdSense queue also works while the external script is loading.
+  // Loading is started once per page; every newly rendered ad unit is then queued.
+  ensureAdSenseScript();
+
+  adElements.forEach((ad) => {
+    try {
+      (window.adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (error) {
+      console.warn('Could not initialize an AdSense game-list ad:', error);
+    }
+  });
+}
+
 let scrollSentinel = null;
 let scrollObserver = null;
 
@@ -544,6 +671,7 @@ function buildCard(entry) {
   const cheats = clone.querySelector('.card-cheats');
   const cover = clone.querySelector('.card-cover');
   const key = entryKey(entry);
+  const metadataKey = metadataEntryKey(entry);
   const isFavorite = state.favorites.has(key);
   const coverUrl = getCoverUrl(entry);
 
@@ -552,13 +680,13 @@ function buildCard(entry) {
   version.textContent = `v${entry.version}`;
   cheats.textContent = `${entry.cheatsTotal} cheat${entry.cheatsTotal === 1 ? '' : 's'}`;
 
-  if (notesBadge && state.notes.has(key)) {
+  if (notesBadge && state.notes.has(metadataKey)) {
     notesBadge.hidden = false;
     notesBadge.title = 'This entry has notes';
     notesBadge.setAttribute('aria-label', 'This entry has notes');
   }
 
-  if (pinBadge && state.pinned.has(key)) {
+  if (pinBadge && state.pinned.has(metadataKey)) {
     pinBadge.hidden = false;
     pinBadge.title = 'Pinned entry';
     pinBadge.setAttribute('aria-label', 'Pinned entry');
@@ -625,9 +753,28 @@ function renderMore() {
 
   const batch = Math.min(RENDER_BATCH_SIZE, remaining);
   const fragment = document.createDocumentFragment();
+  const adsToInitialize = [];
+
   for (let i = 0; i < batch; i++) {
-    fragment.append(buildCard(state.filteredEntries[state.renderedCount + i]));
+    const entryIndex = state.renderedCount + i;
+    const gameNumber = entryIndex + 1;
+
+    fragment.append(buildCard(state.filteredEntries[entryIndex]));
+
+    const hasMoreGames = gameNumber < state.filteredEntries.length;
+    if (
+      isAdSenseConfigured() &&
+      hasMoreGames &&
+      gameNumber % ADSENSE_GAME_INTERVAL === 0
+    ) {
+      const adSlot = buildGameListAdSlot(gameNumber);
+      if (adSlot) {
+        adsToInitialize.push(adSlot.querySelector('.adsbygoogle'));
+        fragment.append(adSlot);
+      }
+    }
   }
+
   state.renderedCount += batch;
 
   // sentinel must remain at the end to trigger the next batch
@@ -636,6 +783,8 @@ function renderMore() {
   } else {
     elements.cardsGrid.append(fragment);
   }
+
+  initializeGameListAds(adsToInitialize.filter(Boolean));
 
   // remove sentinel once everything is rendered
   if (state.renderedCount >= state.filteredEntries.length) {
@@ -1044,7 +1193,7 @@ function renderModal(entry, { fromNavigation = false } = {}) {
   elements.modalCheatsTotal.textContent = `${entry.cheatsTotal} total cheats`;
   elements.modalCreators.textContent = `By ${creatorsText}`;
 
-  const noteText = state.notes.get(state.activeEntryKey);
+  const noteText = state.notes.get(metadataEntryKey(entry));
   if (typeof noteText === 'string' && noteText.trim()) {
     elements.modalNotesContent.innerHTML = renderBasicMarkdown(noteText);
     elements.modalNotes.hidden = false;
@@ -1306,13 +1455,22 @@ async function loadData() {
   );
 
   state.generatedUtc = parseGeneratedDate(cheatsData.generatedUtc || cheatsData.generatedUTC || coversData.generatedUtc);
-  state.entries = [...(cheatsData.entries || [])].map((entry) => ({
-    ...entry,
-    addedDate: state.addedDates.get(entryKey(entry)) || null,
-    idLower: normalizeSearch(entry.id),
-    titleLower: normalizeSearch(entry.title),
-    searchBlob: [entry.id, entry.title, ...(entry.creators || [])].map(normalizeSearch).join(' | '),
-  }));
+  state.entries = [...(cheatsData.entries || [])].map((entry) => {
+    const noteText = state.notes.get(metadataEntryKey(entry)) || '';
+
+    return {
+      ...entry,
+      addedDate: state.addedDates.get(entryKey(entry)) || null,
+      idLower: normalizeSearch(entry.id),
+      titleLower: normalizeSearch(entry.title),
+      searchBlob: [
+        entry.id,
+        entry.title,
+        ...(entry.creators || []),
+        noteText,
+      ].map(normalizeSearch).join(' | '),
+    };
+  });
 
   state.totalGames = countUniqueGames(state.entries);
   state.covers = new Map(
