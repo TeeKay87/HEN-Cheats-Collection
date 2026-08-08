@@ -26,7 +26,7 @@ const DOWNLOADABLE_FORMATS = new Set(['json', 'mc4', 'shn']);
 // Create one responsive Display ad unit in AdSense and paste its values here.
 // Leave either value empty to disable the in-list ad placements completely.
 const ADSENSE_CLIENT_ID = 'ca-pub-1128425528594146';
-const ADSENSE_GAME_LIST_SLOT_ID = ''; // Fill this in after creating a responsive Display ad unit.
+const ADSENSE_GAME_LIST_SLOT_ID = '1824079485';
 
 // Insert one full-width responsive ad after this many game cards.
 // The ad is only inserted when there are more game results after it.
