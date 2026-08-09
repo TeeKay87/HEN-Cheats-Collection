@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-08-08T09:01:15.8141588Z",
+  "generatedUtc": "2026-08-09T07:00:13.1038017Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -121253,6 +121253,42 @@
           "hasFile": false,
           "cheatsCount": 0,
           "cheats": []
+        }
+      }
+    },
+    {
+      "id": "PPSA24203",
+      "version": "02.000.000",
+      "title": "The House of the Dead 2: Remake",
+      "idLower": "ppsa24203",
+      "titleLower": "the house of the dead 2: remake",
+      "cheatsTotal": 4,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "God Mode \u002B 1 Hit Kill",
+            "Invincible Citizens",
+            "Infi Ammo",
+            "Infi Continue"
+          ]
         }
       }
     },
