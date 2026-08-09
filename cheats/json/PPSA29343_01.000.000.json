@@ -1,0 +1,149 @@
+{
+  "name": "Beast of Reincarnation Digital Deluxe Edition",
+  "id": "PPSA29343",
+  "version": "01.000.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "infinite_Health",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4C9604A",
+          "on": "9090909090",
+          "off": "E89159D5FF"
+        }
+      ]
+    },
+    {
+      "name": "Max_Amber_on_Gain",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6983000",
+          "on": "C740083F420F00E9BFAA69FE00000000",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "501DB5A",
+          "on": "E9A1549601909090",
+          "off": "015808E969FFFFFF"
+        }
+      ]
+    },
+    {
+      "name": "infinite_Bolts",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "698302C",
+          "on": "C740080F000000E943A969FE0000000000000000",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "501DA0A",
+          "on": "E91D569601909090",
+          "off": "895808E969FFFFFF"
+        }
+      ]
+    },
+    {
+      "name": "infinite_skill_points",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6983058",
+          "on": "C787B0000000E7030000E9B5811EFE000000000000000000",
+          "off": "000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4B6B216",
+          "on": "E93D7EE10190",
+          "off": "89B7B0000000"
+        }
+      ]
+    },
+    {
+      "name": "Max_Experience",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6983087",
+          "on": "C783B40700007F969800E99D2426FE00000000000000000000",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4BE552D",
+          "on": "E955DBD90190",
+          "off": "8993B4070000"
+        }
+      ]
+    },
+    {
+      "name": "infinite_Attribute_Points",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "69830B6",
+          "on": "C78748050000C8000000E9392E97FE0000000000000000000000",
+          "off": "0000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "52F5EF7",
+          "on": "E9BAD168019090",
+          "off": "4489A748050000"
+        }
+      ]
+    },
+    {
+      "name": "No_Reload bolts",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4CC9E2A",
+          "on": "909090",
+          "off": "FF481C"
+        }
+      ]
+    },
+    {
+      "name": "infinite_Bow_Arrows",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4624334",
+          "on": "909090909090",
+          "off": "FF8F90070000"
+        }
+      ]
+    },
+    {
+      "name": "Max_items_on_get",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "69830E5",
+          "on": "C7448808E703000085D2E92BC169FE000000000000000000000000",
+          "off": "000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "501F219",
+          "on": "E9C73E960190",
+          "off": "8954880885D2"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Wander"
+  ]
+}

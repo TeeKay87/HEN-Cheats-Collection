@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-08-09T07:00:13.1038017Z",
+  "generatedUtc": "2026-08-09T20:55:08.5682105Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -122491,18 +122491,30 @@
       "title": "Beast of Reincarnation Digital Deluxe Edition",
       "idLower": "ppsa29343",
       "titleLower": "beast of reincarnation digital deluxe edition",
-      "cheatsTotal": 10,
+      "cheatsTotal": 26,
       "creators": [
-        "Yharnam"
+        "Wander",
+        "Wander, Yharnam"
       ],
       "creatorsLower": [
-        "yharnam"
+        "wander",
+        "wander, yharnam"
       ],
       "formats": {
         "json": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 9,
+          "cheats": [
+            "infinite_Health",
+            "Max_Amber_on_Gain",
+            "infinite_Bolts",
+            "infinite_skill_points",
+            "Max_Experience",
+            "infinite_Attribute_Points",
+            "No_Reload bolts",
+            "infinite_Bow_Arrows",
+            "Max_items_on_get"
+          ]
         },
         "shn": {
           "hasFile": false,
@@ -122511,18 +122523,25 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 10,
+          "cheatsCount": 17,
           "cheats": [
+            "infinite_Health",
+            "Max_Amber_on_Gain",
+            "infinite_Bolts",
+            "infinite_skill_points",
+            "Max_Experience",
+            "infinite_Attribute_Points",
+            "No_Reload bolts",
+            "infinite_Bow_Arrows",
+            "Max_items_on_get",
             "Untouchable",
             "Infi Wolf Skill",
             "Infi Medikit",
             "Infi Arrow",
-            "Infi Arrow No reload",
             "Acquire 40K Money Each",
             "Max Skill Points",
             "Max Ability Points",
-            "Untouchable (Wolf)",
-            "Infi Arrows"
+            "Untouchable (Wolf)"
           ]
         }
       }

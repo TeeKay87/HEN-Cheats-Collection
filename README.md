@@ -49,6 +49,8 @@ The website lets you:
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-08-09 | ADDED | PPSA29343 | 01.000.000 | [Beast of Reincarnation Digital Deluxe Edition](https://hencheats.vercel.app/#PPSA29343-01.000.000) |
+| 2026-08-09 | UPDATE | PPSA29343 | 01.000.000 | [Beast of Reincarnation Digital Deluxe Edition](https://hencheats.vercel.app/#PPSA29343-01.000.000) |
 | 2026-08-09 | ADDED | PPSA24203 | 02.000.000 | [The House of the Dead 2: Remake](https://hencheats.vercel.app/#PPSA24203-02.000.000) |
 | 2026-08-08 | ADDED | PPSA20423 | 02.000.000 | [Another Crab's Treasure](https://hencheats.vercel.app/#PPSA20423-02.000.000) |
 | 2026-08-08 | ADDED | CUSA00113 | 01.03 | [Need for Speed: Rivals](https://hencheats.vercel.app/#CUSA00113-01.03) |
