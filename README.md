@@ -49,6 +49,10 @@ The website lets you:
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-08-11 | ADDED | CUSA00021 | 01.05 | [Watch Dogs](https://hencheats.vercel.app/#CUSA00021-01.05) |
+| 2026-08-11 | ADDED | CUSA00223 | 01.07 | [inFamous: Second Son](https://hencheats.vercel.app/#CUSA00223-01.07) |
+| 2026-08-11 | ADDED | CUSA00740 | 01.31 | [Terraria](https://hencheats.vercel.app/#CUSA00740-01.31) |
+| 2026-08-11 | UPDATE | PPSA04930 | 01.048.000 | [SnowRunner](https://hencheats.vercel.app/#PPSA04930-01.048.000) |
 | 2026-08-09 | ADDED | PPSA29343 | 01.000.000 | [Beast of Reincarnation Digital Deluxe Edition](https://hencheats.vercel.app/#PPSA29343-01.000.000) |
 | 2026-08-09 | UPDATE | PPSA29343 | 01.000.000 | [Beast of Reincarnation Digital Deluxe Edition](https://hencheats.vercel.app/#PPSA29343-01.000.000) |
 | 2026-08-09 | ADDED | PPSA24203 | 02.000.000 | [The House of the Dead 2: Remake](https://hencheats.vercel.app/#PPSA24203-02.000.000) |

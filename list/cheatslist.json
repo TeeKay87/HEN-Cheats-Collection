@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-08-09T20:55:08.5682105Z",
+  "generatedUtc": "2026-08-11T03:07:26.7956174Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -504,6 +504,45 @@
             "Max Infinite Skill Points/Cash",
             "Max Infinite Battery",
             "Max Infinite Focus"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
+      "id": "CUSA00021",
+      "version": "01.05",
+      "title": "Watch Dogs",
+      "idLower": "cusa00021",
+      "titleLower": "watch dogs",
+      "cheatsTotal": 7,
+      "creators": [
+        "illusional"
+      ],
+      "creatorsLower": [
+        "illusional"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 7,
+          "cheats": [
+            "Unlimited Ammo",
+            "Unllimited Money (Skill Points)",
+            "Unlimited Resources (Pickup or Buy)",
+            "Max XP (Skill Points)",
+            "Runtime Master Code (MUST STAY ON)",
+            "[DEP] Unlimited Reserve",
+            "[DEP] Unlimited Resources (Crafting)"
           ]
         },
         "shn": {
@@ -2305,6 +2344,42 @@
             "Max Level True Hero",
             "Max Level Infamous"
           ]
+        }
+      }
+    },
+    {
+      "id": "CUSA00223",
+      "version": "01.07",
+      "title": "inFamous: Second Son",
+      "idLower": "cusa00223",
+      "titleLower": "infamous: second son",
+      "cheatsTotal": 4,
+      "creators": [
+        "CompoteShoes"
+      ],
+      "creatorsLower": [
+        "compoteshoes"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Godmode",
+            "Infinite Power",
+            "Infinite Missiles",
+            "PowerShards"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },
@@ -6442,6 +6517,68 @@
             "inf health",
             "Infinite Mana"
           ]
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
+      "id": "CUSA00740",
+      "version": "01.31",
+      "title": "Terraria",
+      "idLower": "cusa00740",
+      "titleLower": "terraria",
+      "cheatsTotal": 30,
+      "creators": [
+        "Molly \u0022LLLCCC\u0022"
+      ],
+      "creatorsLower": [
+        "molly \u0022lllccc\u0022"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 30,
+          "cheats": [
+            "Always show NPCs Health Bar",
+            "Can Not Drown",
+            "Freeze Potion Timer",
+            "Godmode",
+            "Infinite Mana",
+            "Instant Respawn",
+            "One Hit Kill",
+            "Runtime Master Code (MUST STAY ON)",
+            "[DEP] Change Time",
+            "[DEP] Change Time \u2014 Time_Trigger",
+            "[DEP] Change Time \u2014 8 AM",
+            "[DEP] Change Time \u2014 12 PM",
+            "[DEP] Change Time \u2014 4 PM",
+            "[DEP] Change Time \u2014 8 PM",
+            "[DEP] Change Time \u2014 12 AM",
+            "[DEP] Change Time \u2014 4 AM",
+            "[DEP] Edit Character Stats",
+            "[DEP] Fast Forward Time",
+            "[DEP] Fast Forward Time \u2014 Freeze Time",
+            "[DEP] Fast Forward Time \u2014 Normal Time",
+            "[DEP] Fast Forward Time \u2014 Double Time",
+            "[DEP] Fast Forward Time \u2014 Fast time",
+            "[DEP] Fast Forward Time \u2014 Faster Time",
+            "[DEP] Fast Forward Time \u2014 Very Fast Time",
+            "[DEP] Item Editor",
+            "[DEP] Item Editor \u2014 Rod of Discord",
+            "[DEP] Item Editor \u2014 Drill Containment Unit",
+            "[DEP] Item Editor \u2014 Zenith",
+            "[DEP] Item Editor \u2014 Rod of Harmony",
+            "[DEP] Walk On Water"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         },
         "mc4": {
           "hasFile": false,
@@ -115327,20 +115464,28 @@
       "title": "SnowRunner",
       "idLower": "ppsa04930",
       "titleLower": "snowrunner",
-      "cheatsTotal": 4,
+      "cheatsTotal": 8,
       "creators": [
+        "CompoteShoes",
+        "jwhy",
         "Talixme"
       ],
       "creatorsLower": [
+        "compoteshoes",
+        "jwhy",
         "talixme"
       ],
       "formats": {
         "json": {
           "hasFile": true,
-          "cheatsCount": 2,
+          "cheatsCount": 6,
           "cheats": [
             "Inf Fuel",
-            "No Damage"
+            "No Damage",
+            "Infinite Service Repair Parts",
+            "Super Tires",
+            "Engine Power",
+            "Freeze Time"
           ]
         },
         "shn": {

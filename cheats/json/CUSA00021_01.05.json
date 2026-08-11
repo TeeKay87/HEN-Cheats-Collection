@@ -1,0 +1,157 @@
+{
+  "name": "Watch Dogs",
+  "id": "CUSA00021",
+  "version": "01.05",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Unlimited Ammo",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4B67000",
+          "absolute": true,
+          "on": "41C78424900000006400000041FF8C2490000000E9B58DC1FB00000000000000",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "77FDC6",
+          "absolute": true,
+          "on": "E935723E04909090",
+          "off": "41FF8C2490000000"
+        }
+      ]
+    },
+    {
+      "name": "Unllimited Money (Skill Points)",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4B67084",
+          "absolute": true,
+          "on": "41BDFFE0F5054789ACA78C000000E931F30DFC000000000000000000",
+          "off": "00000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "C463C0",
+          "absolute": true,
+          "on": "E9BF0CF203909090",
+          "off": "4729ACA78C000000"
+        }
+      ]
+    },
+    {
+      "name": "Unlimited Resources (Pickup or Buy)",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4B67102",
+          "absolute": true,
+          "on": "41BCFFE0F5054489620CE96CA7BDFBE94FA7BDFB00000000000000000000",
+          "off": "000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "74185F",
+          "absolute": true,
+          "on": "E99E58420490",
+          "off": "4489620CEB18"
+        }
+      ]
+    },
+    {
+      "name": "Max XP (Skill Points)",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4B67136",
+          "absolute": true,
+          "on": "BA0CF20100438994BD8C000000E9ECDD0BFC0000000000000000",
+          "off": "0000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "C24F2C",
+          "absolute": true,
+          "on": "E90522F403909090",
+          "off": "438994BD8C000000"
+        }
+      ]
+    },
+    {
+      "name": "Runtime Master Code (MUST STAY ON)",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4B67039",
+          "absolute": true,
+          "on": "909090909090E98E000000B8FFE0F505909090909090E97E000000",
+          "off": "909090909090E98E000000B8FFE0F505909090909090E97E000000",
+          "expected": "000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4B670B7",
+          "absolute": true,
+          "on": "89420C41B701E9B6A5BDFBB8FFE0F50589420C41B701E9A6A5BDFB",
+          "off": "89420C41B701E9B6A5BDFBB8FFE0F50589420C41B701E9A6A5BDFB",
+          "expected": "000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4B67054",
+          "absolute": true,
+          "on": "E9E0FFFFFF9090909090909090909090",
+          "off": "E9E0FFFFFF9090909090909090909090",
+          "expected": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "4B670D2",
+          "absolute": true,
+          "on": "E9E0FFFFFF9090909090909090909090",
+          "off": "E9E0FFFFFF9090909090909090909090",
+          "expected": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "741672",
+          "absolute": true,
+          "on": "E9DD59420490",
+          "off": "E9DD59420490",
+          "expected": "89420C41B701"
+        }
+      ]
+    },
+    {
+      "name": "[DEP] Unlimited Reserve",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4B67054",
+          "absolute": true,
+          "on": "E9EBFFFFFF9090909090909090909090",
+          "off": "E9E0FFFFFF9090909090909090909090",
+          "expected": "E9E0FFFFFF9090909090909090909090"
+        }
+      ]
+    },
+    {
+      "name": "[DEP] Unlimited Resources (Crafting)",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4B670D2",
+          "absolute": true,
+          "on": "E9EBFFFFFF9090909090909090909090",
+          "off": "E9E0FFFFFF9090909090909090909090",
+          "expected": "E9E0FFFFFF9090909090909090909090"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "illusional"
+  ]
+}
