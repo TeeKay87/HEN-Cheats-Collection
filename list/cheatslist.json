@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-08-11T03:07:26.7956174Z",
+  "generatedUtc": "2026-08-11T12:33:18.8159648Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -6588,6 +6588,69 @@
       }
     },
     {
+      "id": "CUSA00740",
+      "version": "01.35",
+      "title": "Terraria",
+      "idLower": "cusa00740",
+      "titleLower": "terraria",
+      "cheatsTotal": 31,
+      "creators": [
+        "Molly \u0022LLLCCC\u0022"
+      ],
+      "creatorsLower": [
+        "molly \u0022lllccc\u0022"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 31,
+          "cheats": [
+            "Always Show NPCs Health Bar",
+            "Can Not Drown",
+            "Freeze Potion Timer",
+            "Godmode",
+            "Infinite Mana",
+            "Instant Respawn",
+            "One Hit Kill",
+            "Runtime Master Code (MUST STAY ON)",
+            "[DEP] Change Time",
+            "[DEP] Change Time \u2014 Time_Trigger",
+            "[DEP] Change Time \u2014 8 AM",
+            "[DEP] Change Time \u2014 12 PM",
+            "[DEP] Change Time \u2014 4 PM",
+            "[DEP] Change Time \u2014 8 PM",
+            "[DEP] Change Time \u2014 12 AM",
+            "[DEP] Change Time \u2014 4 AM",
+            "[DEP] Edit Character Stats",
+            "[DEP] Fast Forward Time",
+            "[DEP] Fast Forward Time \u2014 Freeze Time",
+            "[DEP] Fast Forward Time \u2014 Normal Time",
+            "[DEP] Fast Forward Time \u2014 Double Time",
+            "[DEP] Fast Forward Time \u2014 Fast time",
+            "[DEP] Fast Forward Time \u2014 Faster Time",
+            "[DEP] Fast Forward Time \u2014 Very Fast Time",
+            "[DEP] Item Editor",
+            "[DEP] Item Editor \u2014 Rod of Discord",
+            "[DEP] Item Editor \u2014 Drill Containment Unit",
+            "[DEP] Item Editor \u2014 Zenith",
+            "[DEP] Item Editor \u2014 Rod of Harmony",
+            "[DEP] Weapon Editing",
+            "[DEP] Weapon Editing \u2014 Purple"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
       "id": "CUSA00743",
       "version": "01.00",
       "title": "Peggle 2",
@@ -8304,6 +8367,40 @@
             "Max\u002BInfinity Ammo",
             "Infinity Nitro Boost for Racing",
             "Infinity Jet Pack"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
+      "id": "CUSA01047",
+      "version": "01.09",
+      "title": "Ratchet \u0026 Clank",
+      "idLower": "cusa01047",
+      "titleLower": "ratchet \u0026 clank",
+      "cheatsTotal": 2,
+      "creators": [
+        "illusional"
+      ],
+      "creatorsLower": [
+        "illusional"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Unlimited Resources",
+            "Unlimited Ammo"
           ]
         },
         "shn": {
@@ -120723,12 +120820,14 @@
       "title": "Withering Rooms",
       "idLower": "ppsa21297",
       "titleLower": "withering rooms",
-      "cheatsTotal": 2,
+      "cheatsTotal": 5,
       "creators": [
-        "Talixme"
+        "Talixme",
+        "Yharnam"
       ],
       "creatorsLower": [
-        "talixme"
+        "talixme",
+        "yharnam"
       ],
       "formats": {
         "json": {
@@ -120745,9 +120844,13 @@
           "cheats": []
         },
         "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Untouchable",
+            "No Item Consumption (When Holding 2\u002B)",
+            "Max Items on Get (2st)"
+          ]
         }
       }
     },

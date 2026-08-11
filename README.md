@@ -49,6 +49,9 @@ The website lets you:
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-08-11 | ADDED | CUSA00740 | 01.35 | [Terraria](https://hencheats.vercel.app/#CUSA00740-01.35) |
+| 2026-08-11 | ADDED | CUSA01047 | 01.09 | [Ratchet & Clank](https://hencheats.vercel.app/#CUSA01047-01.09) |
+| 2026-08-11 | ADDED | PPSA21297 | 01.000.000 | [Withering Rooms](https://hencheats.vercel.app/#PPSA21297-01.000.000) |
 | 2026-08-11 | ADDED | CUSA00021 | 01.05 | [Watch Dogs](https://hencheats.vercel.app/#CUSA00021-01.05) |
 | 2026-08-11 | ADDED | CUSA00223 | 01.07 | [inFamous: Second Son](https://hencheats.vercel.app/#CUSA00223-01.07) |
 | 2026-08-11 | ADDED | CUSA00740 | 01.31 | [Terraria](https://hencheats.vercel.app/#CUSA00740-01.31) |

@@ -1,0 +1,642 @@
+{
+  "name": "Terraria",
+  "id": "CUSA00740",
+  "version": "01.35",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Always Show NPCs Health Bar",
+      "description": "All you have to do is enable\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1A7B000",
+          "on": "8B99A0010000E9F934B67E0000000000",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "805DE4FE",
+          "on": "E9FDCA498190",
+          "off": "8B91A0010000"
+        }
+      ]
+    },
+    {
+      "name": "Can Not Drown",
+      "description": "Just enable the cheat, then go into water.\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1A7B02B",
+          "on": "50418B842460040000418984246404000058E99CE7EB7E0000000000000000000000000000",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "809397D6",
+          "on": "E950181481909090",
+          "off": "4189842464040000"
+        }
+      ]
+    },
+    {
+      "name": "Freeze Potion Timer",
+      "description": "Enable the cheat, then use any potions that affect your buffs.\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1A7B65D",
+          "on": "90E94982E67E00000000000000000000000000",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "808E38A7",
+          "on": "E9B17D1981",
+          "off": "42FF4CA820"
+        }
+      ]
+    },
+    {
+      "name": "Godmode",
+      "description": "Just enable the cheat.\r\n\r\nThis cheat also effects fall,lava,and fire damage.\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1A7B683",
+          "on": "4155458BAC24FC0600004589AC2404070000415DE959FBE67E41C785700400000F27000041C7856C0400000F27000041C785680400000F270000E95C30EA7E0000000000000000000000000000",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "8091E717",
+          "on": "E980CF15819090",
+          "off": "41FF8D04070000"
+        },
+        {
+          "offset": "808EB1ED",
+          "on": "E991041981909090",
+          "off": "4529AC2404070000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Mana",
+      "description": "Just enable the cheat and use any weapon or item that uses magic.\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1A7B6E2",
+          "on": "51418B880C0700004189880807000059E9563CE47E000000000000000000",
+          "off": "000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "808BF346",
+          "on": "E997C31B819090",
+          "off": "41898808070000"
+        }
+      ]
+    },
+    {
+      "name": "Instant Respawn",
+      "description": "Just Enable.\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1A7B717",
+          "on": "B80000000041898638050000E9A946E97E0000000000000000",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "8090FDCA",
+          "on": "E948B916819090",
+          "off": "41898638050000"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill",
+      "description": "Just enable the cheat.\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1A7B8FD",
+          "on": "41C78424A001000000000000E9E746087FC780A001000000000000E93746087F000000",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "80AFFF4E",
+          "on": "E9BBB9F78090",
+          "off": "2990A0010000"
+        },
+        {
+          "offset": "80AFFFED",
+          "on": "E90BB9F780909090",
+          "off": "41298424A0010000"
+        }
+      ]
+    },
+    {
+      "name": "Runtime Master Code (MUST STAY ON)",
+      "description": "Converted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1A7B062",
+          "on": "53488B1DB61B3A00488999B80400005BC5FB1081B80400005348BB0000000000A4C840488999C00400005BC5FB1081C0040000E94A02AB7E53488B1D7E1B3A00488999B80400005BC5FB1081B80400005348C7C300000000488999C00400005BC5FB1081C0040000E91502AB7E53488B1D491B3A00488999B80400005BC5FB10",
+          "off": "53488B1DB61B3A00488999B80400005BC5FB1081B80400005348BB0000000000A4C840488999C00400005BC5FB1081C0040000E94A02AB7E53488B1D7E1B3A00488999B80400005BC5FB1081B80400005348C7C300000000488999C00400005BC5FB1081C0040000E91502AB7E53488B1D491B3A00488999B80400005BC5FB10",
+          "expected": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1A7B0E2",
+          "on": "81B80400005348BB0000000000A4C840488999C00400005BC5FB1081C0040000E9DD01AB7E53488B1D111B3A00488999B80400005BC5FB1081B80400005348BB000000000060DA40488999C00400005BC5FB1081C0040000E9A501AB7E53488B1DD91A3A00488999B80400005BC5FB1081B80400005348BB00000000E037E440",
+          "off": "81B80400005348BB0000000000A4C840488999C00400005BC5FB1081C0040000E9DD01AB7E53488B1D111B3A00488999B80400005BC5FB1081B80400005348BB000000000060DA40488999C00400005BC5FB1081C0040000E9A501AB7E53488B1DD91A3A00488999B80400005BC5FB1081B80400005348BB00000000E037E440",
+          "expected": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1A7B162",
+          "on": "488999C00400005BC5FB1081C0040000E96D01AB7E53488B1DA11A3A00488999B80400005BC5FB1081B80400005348BB0000000000209C40488999C00400005BC5FB1081C0040000E93501AB7E53488B1D691A3A00488999B80400005BC5FB1081B80400005348BB0000000080AECF40488999C00400005BC5FB1081C0040000",
+          "off": "488999C00400005BC5FB1081C0040000E96D01AB7E53488B1DA11A3A00488999B80400005BC5FB1081B80400005348BB0000000000209C40488999C00400005BC5FB1081C0040000E93501AB7E53488B1D691A3A00488999B80400005BC5FB1081B80400005348BB0000000080AECF40488999C00400005BC5FB1081C0040000",
+          "expected": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1A7B1E2",
+          "on": "E9FD00AB7E53488B1D311A3A00488999B80400005BC5FB1081B80400005348BB0000000040E6DD40488999C00400005BC5FB1081C0040000E9C500AB7EC5FB1081C0040000E9B800AB7E9C50803DCB193A00000F84C5000000803DBF193A00007413C605B6193A0000C605C3193A0001E97D000000803DA4193A00007410C605",
+          "off": "E9FD00AB7E53488B1D311A3A00488999B80400005BC5FB1081B80400005348BB0000000040E6DD40488999C00400005BC5FB1081C0040000E9C500AB7EC5FB1081C0040000E9B800AB7E9C50803DCB193A00000F84C5000000803DBF193A00007413C605B6193A0000C605C3193A0001E97D000000803DA4193A00007410C605",
+          "expected": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1A7B262",
+          "on": "9B193A0000C605A7193A0002EB64803D8C193A00007410C60583193A0000C6058E193A0003EB4B803D74193A00007410C6056B193A0000C60575193A0004EB32803D5C193A00007410C60553193A0000C6055C193A0005EB19803D44193A00007410C6053B193A0000C60543193A0006EB000FB6053A193A0083F801745883F8",
+          "off": "9B193A0000C605A7193A0002EB64803D8C193A00007410C60583193A0000C6058E193A0003EB4B803D74193A00007410C6056B193A0000C60575193A0004EB32803D5C193A00007410C60553193A0000C6055C193A0005EB19803D44193A00007410C6053B193A0000C60543193A0006EB000FB6053A193A0083F801745883F8",
+          "expected": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1A7B2E2",
+          "on": "02745A83F803745C83F804745E83F805746083F8067462589DE91FFFFFFFC6050E193A0000C605F3183A0000C605ED183A0000C605E7183A0000C605E1183A0000C605DB183A0000C605D5183A0000589DE9E7FEFFFF589DE990FDFFFF589DE9C1FDFFFF589DE9F2FDFFFF589DE923FEFFFF589DE954FEFFFF589DE985FE",
+          "off": "02745A83F803745C83F804745E83F805746083F8067462589DE91FFFFFFFC6050E193A0000C605F3183A0000C605ED183A0000C605E7183A0000C605E1183A0000C605DB183A0000C605D5183A0000589DE9E7FEFFFF589DE990FDFFFF589DE9C1FDFFFF589DE9F2FDFFFF589DE923FEFFFF589DE954FEFFFF589DE985FE",
+          "expected": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1A7B360",
+          "on": "FFFF0000000000000000000000000000",
+          "off": "FFFF0000000000000000000000000000",
+          "expected": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "1A7B382",
+          "on": "51B9F40100008988FC06000059486380FC060000E98EA6C47F51B9F4010000898B0C070000598B8B0C070000E9AD04EA7E51B964000000898B0C070000598B8B0C070000E99504EA7E51B9640000008988FC06000059486380FC060000E945A6C47F",
+          "off": "51B9F40100008988FC06000059486380FC060000E98EA6C47F51B9F4010000898B0C070000598B8B0C070000E9AD04EA7E51B964000000898B0C070000598B8B0C070000E99504EA7E51B9640000008988FC06000059486380FC060000E945A6C47F",
+          "expected": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1A7B424",
+          "on": "BB01000000899838020000BB0100000089983C020000E918C9A67EBB00000000899838020000BB0000000089983C020000E9FDC8A67EBB00000000899838020000BB0000000089983C020000E9E2C8A67EBB01000000899838020000BB0100000089983C020000E9C7C8A67EBB02000000899838020000BB0200000089983C02",
+          "off": "BB01000000899838020000BB0100000089983C020000E918C9A67EBB00000000899838020000BB0000000089983C020000E9FDC8A67EBB00000000899838020000BB0000000089983C020000E9E2C8A67EBB01000000899838020000BB0100000089983C020000E9C7C8A67EBB02000000899838020000BB0200000089983C02",
+          "expected": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1A7B4A4",
+          "on": "0000E9ACC8A67EBB05000000899838020000BB0500000089983C020000E991C8A67EBB0A000000899838020000BB0A00000089983C020000E976C8A67EBBC8000000899838020000BBC800000089983C020000E95BC8A67E899838020000E950C8A67E9C50803DF7163A00000F84C5000000803DEB163A00007413C605E2163A",
+          "off": "0000E9ACC8A67EBB05000000899838020000BB0500000089983C020000E991C8A67EBB0A000000899838020000BB0A00000089983C020000E976C8A67EBBC8000000899838020000BBC800000089983C020000E95BC8A67E899838020000E950C8A67E9C50803DF7163A00000F84C5000000803DEB163A00007413C605E2163A",
+          "expected": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1A7B524",
+          "on": "0000C605E9163A0001E97D000000803DD0163A00007410C605C7163A0000C605CD163A0002EB64803DB8163A00007410C605AF163A0000C605B4163A0003EB4B803DA0163A00007410C60597163A0000C6059B163A0004EB32803D88163A00007410C6057F163A0000C60582163A0005EB19803D70163A00007410C60567163A",
+          "off": "0000C605E9163A0001E97D000000803DD0163A00007410C605C7163A0000C605CD163A0002EB64803DB8163A00007410C605AF163A0000C605B4163A0003EB4B803DA0163A00007410C60597163A0000C6059B163A0004EB32803D88163A00007410C6057F163A0000C60582163A0005EB19803D70163A00007410C60567163A",
+          "expected": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1A7B5A4",
+          "on": "0000C60569163A0006EB000FB60560163A0083F801745883F802745A83F803745C83F804745E83F805746083F8067462589DE921FFFFFFC60534163A0000C6051F163A0000C60519163A0000C60513163A0000C6050D163A0000C60507163A0000C60501163A0000589DE9E9FEFFFF589DE940FEFFFF589DE954FEFFFF589DE9",
+          "off": "0000C60569163A0006EB000FB60560163A0083F801745883F802745A83F803745C83F804745E83F805746083F8067462589DE921FFFFFFC60534163A0000C6051F163A0000C60519163A0000C60513163A0000C6050D163A0000C60507163A0000C60501163A0000589DE9E9FEFFFF589DE940FEFFFF589DE954FEFFFF589DE9",
+          "expected": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1A7B624",
+          "on": "68FEFFFF589DE97CFEFFFF589DE990FEFFFF589DE9A4FEFFFF000000",
+          "off": "68FEFFFF589DE97CFEFFFF589DE990FEFFFF589DE9A4FEFFFF000000",
+          "expected": "00000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1A7B748",
+          "on": "B801000000418986CC000000B82801000041898698010000E974C8E37EB801000000418986CC000000B80000000041898698010000E957C8E37EB801000000418986CC000000B82E05000041898698010000E93AC8E37EB801000000418986CC000000B8D00A000041898698010000E91DC8E37EB801000000418986CC000000",
+          "off": "B801000000418986CC000000B82801000041898698010000E974C8E37EB801000000418986CC000000B80000000041898698010000E957C8E37EB801000000418986CC000000B82E05000041898698010000E93AC8E37EB801000000418986CC000000B8D00A000041898698010000E91DC8E37EB801000000418986CC000000",
+          "expected": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1A7B7C8",
+          "on": "B85C13000041898698010000E900C8E37EB801000000418986CC000000B8D714000041898698010000E9E3C7E37E410186CC000000E9D7C7E37E9C50803D03143A00000F8486000000803DF7133A00007410C605EE133A0000C605EF133A0001EB4B803DDF133A00007410C605D6133A0000C605D6133A0002EB32803DC7133A",
+          "off": "B85C13000041898698010000E900C8E37EB801000000418986CC000000B8D714000041898698010000E9E3C7E37E410186CC000000E9D7C7E37E9C50803D03143A00000F8486000000803DF7133A00007410C605EE133A0000C605EF133A0001EB4B803DDF133A00007410C605D6133A0000C605D6133A0002EB32803DC7133A",
+          "expected": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1A7B848",
+          "on": "00007410C605BE133A0000C605BD133A0003EB19803DAF133A00007410C605A6133A0000C605A4133A0004EB000FB6059B133A0083F801744083F802744283F803744483F8047446589DE95FFFFFFFC60579133A0000C6056A133A0000C60564133A0000C6055E133A0000C60558133A0000589DE935FFFFFF589DE9BAFEFFFF",
+          "off": "00007410C605BE133A0000C605BD133A0003EB19803DAF133A00007410C605A6133A0000C605A4133A0004EB000FB6059B133A0083F801744083F802744283F803744483F8047446589DE95FFFFFFFC60579133A0000C6056A133A0000C60564133A0000C6055E133A0000C60558133A0000589DE935FFFFFF589DE9BAFEFFFF",
+          "expected": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1A7B8C8",
+          "on": "589DE9D0FEFFFF589DE9E6FEFFFF589DE9FCFEFFFF000000",
+          "off": "589DE9D0FEFFFF589DE9E6FEFFFF589DE9FCFEFFFF000000",
+          "expected": "000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1A7B93D",
+          "on": "3401B005418886F0000000B800008040418986F4000000B8010000004189869C010000B80400000041898618010000B800000000418986A0010000B80B0000004189864C010000B8000000404189865C010000B820000000418986D0000000B807000000418986D4000000B80A000000418986D8000000E949648D7F53BBCDCC",
+          "off": "3401B005418886F0000000B800008040418986F4000000B8010000004189869C010000B80400000041898618010000B800000000418986A0010000B80B0000004189864C010000B8000000404189865C010000B820000000418986D0000000B807000000418986D4000000B80A000000418986D8000000E949648D7F53BBCDCC",
+          "expected": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1A7B9BD",
+          "on": "4C3F89990C0100005BC5FA10810C010000E9504EED7E3401B005418886F0000000B800008040418986F4000000B8010000004189869C010000B80400000041898618010000B800000000418986A0010000B8000000004189864C010000B8000000404189865C010000B820000000418986D0000000B807000000418986D40000",
+          "off": "4C3F89990C0100005BC5FA10810C010000E9504EED7E3401B005418886F0000000B800008040418986F4000000B8010000004189869C010000B80400000041898618010000B800000000418986A0010000B8000000004189864C010000B8000000404189865C010000B820000000418986D0000000B807000000418986D40000",
+          "expected": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1A7BA3D",
+          "on": "00B80A000000418986D8000000E9B3638D7F3401B005418886F0000000B800008040418986F4000000B8010000004189869C010000B80400000041898618010000B800000000418986A0010000B80B0000004189864C010000B8000000404189865C010000B820000000418986D0000000B807000000418986D4000000B80A00",
+          "off": "00B80A000000418986D8000000E9B3638D7F3401B005418886F0000000B800008040418986F4000000B8010000004189869C010000B80400000041898618010000B800000000418986A0010000B80B0000004189864C010000B8000000404189865C010000B820000000418986D0000000B807000000418986D4000000B80A00",
+          "expected": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1A7BABD",
+          "on": "0000418986D8000000E937638D7F53BBCDCC4C3F89990C0100005BC5FA10810C010000E93E4DED7E340141884669E912638D7FC5FA10810C010000E9264DED7E9C50803D0D113A00007429803D05113A00007410C605FC103A0000C605F9103A0001EB000FB605F0103A0083F8017416589DEBB4C605E0103A0000C605D5103A",
+          "off": "0000418986D8000000E937638D7F53BBCDCC4C3F89990C0100005BC5FA10810C010000E93E4DED7E340141884669E912638D7FC5FA10810C010000E9264DED7E9C50803D0D113A00007429803D05113A00007410C605FC103A0000C605F9103A0001EB000FB605F0103A0083F8017416589DEBB4C605E0103A0000C605D5103A",
+          "expected": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1A7BB3D",
+          "on": "0000589DEBA2589DE905FFFFFF9C50803DC0103A0000742C803DB8103A00007410C605AF103A0000C605AC103A0001EB000FB605A3103A0083F801741C589DE96FFFFFFFC60590103A0000C60585103A0000589DE95AFFFFFF589DE92EFFFFFF000000",
+          "off": "0000589DEBA2589DE905FFFFFF9C50803DC0103A0000742C803DB8103A00007410C605AF103A0000C605AC103A0001EB000FB605A3103A0083F801741C589DE96FFFFFFFC60590103A0000C60585103A0000589DE95AFFFFFF589DE92EFFFFFF000000",
+          "expected": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1A7B3E4",
+          "on": "E9E2FFFFFF9090909090909090909090",
+          "off": "E9E2FFFFFF9090909090909090909090",
+          "expected": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "1A7B3F4",
+          "on": "E9BAFFFFFF9090909090909090909090",
+          "off": "E9BAFFFFFF9090909090909090909090",
+          "expected": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "8091B85A",
+          "on": "E995FB158190",
+          "off": "E995FB158190",
+          "expected": "8B8B0C070000"
+        },
+        {
+          "offset": "816C5A22",
+          "on": "E9BD593B809090",
+          "off": "E9BD593B809090",
+          "expected": "486380FC060000"
+        },
+        {
+          "offset": "1E1CC00",
+          "on": "00000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000",
+          "expected": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "808B7FD2",
+          "on": "E92B381C819090",
+          "off": "E92B381C819090",
+          "expected": "410186CC000000"
+        },
+        {
+          "offset": "8095081B",
+          "on": "E92AB31281909090",
+          "off": "E92AB31281909090",
+          "expected": "C5FA10810C010000"
+        },
+        {
+          "offset": "804E7D51",
+          "on": "E9B137598190",
+          "off": "E9B137598190",
+          "expected": "899838020000"
+        },
+        {
+          "offset": "8052B2DC",
+          "on": "E94BFF5481909090",
+          "off": "E94BFF5481909090",
+          "expected": "C5FB1081C0040000"
+        },
+        {
+          "offset": "81351DFC",
+          "on": "E9FC9C728090",
+          "off": "E9FC9C728090",
+          "expected": "340141884669"
+        }
+      ]
+    },
+    {
+      "name": "[DEP] Change Time",
+      "description": "For this cheat, there are some rules that need to be followed.\r\n\n\r\n\n1. If you want to access AM, make sure the trigger for (time_trigger) is red.\r\n\n\n2. If you want to access PM, make sure the trigger for (time_trigger) is green.\r\n3. This One Is A Werid One PM starts after 7:30 pm, so do not enable the trigger for 12, 1, 2, 3, 4, 5, 6, or 7 PM; these are all AM. It starts at 4:30 a.m. Anything Past 8 PM Is PM Up To 5 AM\r\n\r\n\n\nFallow those rules, and you will not have any issues.\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E1CC00",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "1E1CC15",
+          "on": "00",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "[DEP] Change Time \u2014 Time_Trigger",
+      "description": "For this cheat, there are some rules that need to be followed.\r\n\n\r\n\n1. If you want to access AM, make sure the trigger for (time_trigger) is red.\r\n\n\n2. If you want to access PM, make sure the trigger for (time_trigger) is green.\r\n3. This One Is A Werid One PM starts after 7:30 pm, so do not enable the trigger for 12, 1, 2, 3, 4, 5, 6, or 7 PM; these are all AM. It starts at 4:30 a.m. Anything Past 8 PM Is PM Up To 5 AM\r\n\r\n\n\nFallow those rules, and you will not have any issues.\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E1CC20",
+          "on": "0000000000000000",
+          "off": "0100000000000000"
+        }
+      ]
+    },
+    {
+      "name": "[DEP] Change Time \u2014 8 AM",
+      "description": "For this cheat, there are some rules that need to be followed.\r\n\n\r\n\n1. If you want to access AM, make sure the trigger for (time_trigger) is red.\r\n\n\n2. If you want to access PM, make sure the trigger for (time_trigger) is green.\r\n3. This One Is A Werid One PM starts after 7:30 pm, so do not enable the trigger for 12, 1, 2, 3, 4, 5, 6, or 7 PM; these are all AM. It starts at 4:30 a.m. Anything Past 8 PM Is PM Up To 5 AM\r\n\r\n\n\nFallow those rules, and you will not have any issues.\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "1E1CC01",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "[DEP] Change Time \u2014 12 PM",
+      "description": "For this cheat, there are some rules that need to be followed.\r\n\n\r\n\n1. If you want to access AM, make sure the trigger for (time_trigger) is red.\r\n\n\n2. If you want to access PM, make sure the trigger for (time_trigger) is green.\r\n3. This One Is A Werid One PM starts after 7:30 pm, so do not enable the trigger for 12, 1, 2, 3, 4, 5, 6, or 7 PM; these are all AM. It starts at 4:30 a.m. Anything Past 8 PM Is PM Up To 5 AM\r\n\r\n\n\nFallow those rules, and you will not have any issues.\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "1E1CC02",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "[DEP] Change Time \u2014 4 PM",
+      "description": "For this cheat, there are some rules that need to be followed.\r\n\n\r\n\n1. If you want to access AM, make sure the trigger for (time_trigger) is red.\r\n\n\n2. If you want to access PM, make sure the trigger for (time_trigger) is green.\r\n3. This One Is A Werid One PM starts after 7:30 pm, so do not enable the trigger for 12, 1, 2, 3, 4, 5, 6, or 7 PM; these are all AM. It starts at 4:30 a.m. Anything Past 8 PM Is PM Up To 5 AM\r\n\r\n\n\nFallow those rules, and you will not have any issues.\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "1E1CC03",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "[DEP] Change Time \u2014 8 PM",
+      "description": "For this cheat, there are some rules that need to be followed.\r\n\n\r\n\n1. If you want to access AM, make sure the trigger for (time_trigger) is red.\r\n\n\n2. If you want to access PM, make sure the trigger for (time_trigger) is green.\r\n3. This One Is A Werid One PM starts after 7:30 pm, so do not enable the trigger for 12, 1, 2, 3, 4, 5, 6, or 7 PM; these are all AM. It starts at 4:30 a.m. Anything Past 8 PM Is PM Up To 5 AM\r\n\r\n\n\nFallow those rules, and you will not have any issues.\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "1E1CC04",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "[DEP] Change Time \u2014 12 AM",
+      "description": "For this cheat, there are some rules that need to be followed.\r\n\n\r\n\n1. If you want to access AM, make sure the trigger for (time_trigger) is red.\r\n\n\n2. If you want to access PM, make sure the trigger for (time_trigger) is green.\r\n3. This One Is A Werid One PM starts after 7:30 pm, so do not enable the trigger for 12, 1, 2, 3, 4, 5, 6, or 7 PM; these are all AM. It starts at 4:30 a.m. Anything Past 8 PM Is PM Up To 5 AM\r\n\r\n\n\nFallow those rules, and you will not have any issues.\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "1E1CC05",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "[DEP] Change Time \u2014 4 AM",
+      "description": "For this cheat, there are some rules that need to be followed.\r\n\n\r\n\n1. If you want to access AM, make sure the trigger for (time_trigger) is red.\r\n\n\n2. If you want to access PM, make sure the trigger for (time_trigger) is green.\r\n3. This One Is A Werid One PM starts after 7:30 pm, so do not enable the trigger for 12, 1, 2, 3, 4, 5, 6, or 7 PM; these are all AM. It starts at 4:30 a.m. Anything Past 8 PM Is PM Up To 5 AM\r\n\r\n\n\nFallow those rules, and you will not have any issues.\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "1E1CC06",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "[DEP] Edit Character Stats",
+      "description": "Just enable the cheat, then change to the value you want.\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1A7B3E4",
+          "on": "E999FFFFFF9090909090909090909090",
+          "off": "E9E2FFFFFF9090909090909090909090",
+          "expected": "E9E2FFFFFF9090909090909090909090"
+        },
+        {
+          "offset": "1A7B3F4",
+          "on": "E9A2FFFFFF9090909090909090909090",
+          "off": "E9BAFFFFFF9090909090909090909090",
+          "expected": "E9BAFFFFFF9090909090909090909090"
+        }
+      ]
+    },
+    {
+      "name": "[DEP] Fast Forward Time",
+      "description": "All you have to do is enable the cheat. Once enabled, choose what speed you want.\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E1CC07",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "1E1CC16",
+          "on": "00",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "[DEP] Fast Forward Time \u2014 Freeze Time",
+      "description": "All you have to do is enable the cheat. Once enabled, choose what speed you want.\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "1E1CC08",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "[DEP] Fast Forward Time \u2014 Normal Time",
+      "description": "All you have to do is enable the cheat. Once enabled, choose what speed you want.\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "1E1CC09",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "[DEP] Fast Forward Time \u2014 Double Time",
+      "description": "All you have to do is enable the cheat. Once enabled, choose what speed you want.\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "1E1CC0A",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "[DEP] Fast Forward Time \u2014 Fast time",
+      "description": "All you have to do is enable the cheat. Once enabled, choose what speed you want.\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "1E1CC0B",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "[DEP] Fast Forward Time \u2014 Faster Time",
+      "description": "All you have to do is enable the cheat. Once enabled, choose what speed you want.\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "1E1CC0C",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "[DEP] Fast Forward Time \u2014 Very Fast Time",
+      "description": "All you have to do is enable the cheat. Once enabled, choose what speed you want.\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "1E1CC0D",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "[DEP] Item Editor",
+      "description": "To use this cheat, enable it, change the current amount to whatever you want, then choose the item you want to import to the game, gain any item, make sure you gain more than one of the same items to know you have done it correctly, the value of the item will be huge, then you are going to save, exit, and reload your save.\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E1CC0E",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "1E1CC17",
+          "on": "00",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "[DEP] Item Editor \u2014 Rod of Discord",
+      "description": "To use this cheat, enable it, change the current amount to whatever you want, then choose the item you want to import to the game, gain any item, make sure you gain more than one of the same items to know you have done it correctly, the value of the item will be huge, then you are going to save, exit, and reload your save.\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "1E1CC0F",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "[DEP] Item Editor \u2014 Drill Containment Unit",
+      "description": "To use this cheat, enable it, change the current amount to whatever you want, then choose the item you want to import to the game, gain any item, make sure you gain more than one of the same items to know you have done it correctly, the value of the item will be huge, then you are going to save, exit, and reload your save.\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "1E1CC10",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "[DEP] Item Editor \u2014 Zenith",
+      "description": "To use this cheat, enable it, change the current amount to whatever you want, then choose the item you want to import to the game, gain any item, make sure you gain more than one of the same items to know you have done it correctly, the value of the item will be huge, then you are going to save, exit, and reload your save.\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "1E1CC11",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "[DEP] Item Editor \u2014 Rod of Harmony",
+      "description": "To use this cheat, enable it, change the current amount to whatever you want, then choose the item you want to import to the game, gain any item, make sure you gain more than one of the same items to know you have done it correctly, the value of the item will be huge, then you are going to save, exit, and reload your save.\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "1E1CC12",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "[DEP] Weapon Editing",
+      "description": "This cheat, as the name says, is to edit your weapon\u0027s or item\u0027s There are some rules you need to follow.\r\n\r\n1. To use the weapon size cheat Check that the weapon or item is not in a slot that is already highlighted. Any item that is highlighted will change to the value you want. The best way is to go to the weapon or item beside the one you want to mod, then enable the cheat, then highlight the item you want to mod.\r\n\r\n\r\n2. For every other weapon or item, all you have to do is go to the item and favourite it.\r\n\r\n\r\n3. The favorited cheat is just an enabler for favourite.\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E1CC13",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "1E1CC18",
+          "on": "00",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "[DEP] Weapon Editing \u2014 Purple",
+      "description": "This cheat, as the name says, is to edit your weapon\u0027s or item\u0027s There are some rules you need to follow.\r\n\r\n1. To use the weapon size cheat Check that the weapon or item is not in a slot that is already highlighted. Any item that is highlighted will change to the value you want. The best way is to go to the weapon or item beside the one you want to mod, then enable the cheat, then highlight the item you want to mod.\r\n\r\n\r\n2. For every other weapon or item, all you have to do is go to the item and favourite it.\r\n\r\n\r\n3. The favorited cheat is just an enabler for favourite.\r\nConverted from SHNExt by TeeKay87\u0027s Cheat Studio",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "1E1CC14",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Molly \u0022LLLCCC\u0022"
+  ]
+}
