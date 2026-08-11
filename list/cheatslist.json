@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-08-11T12:33:18.8159648Z",
+  "generatedUtc": "2026-08-11T20:19:06.889576Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -504,45 +504,6 @@
             "Max Infinite Skill Points/Cash",
             "Max Infinite Battery",
             "Max Infinite Focus"
-          ]
-        },
-        "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
-        },
-        "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
-        }
-      }
-    },
-    {
-      "id": "CUSA00021",
-      "version": "01.05",
-      "title": "Watch Dogs",
-      "idLower": "cusa00021",
-      "titleLower": "watch dogs",
-      "cheatsTotal": 7,
-      "creators": [
-        "illusional"
-      ],
-      "creatorsLower": [
-        "illusional"
-      ],
-      "formats": {
-        "json": {
-          "hasFile": true,
-          "cheatsCount": 7,
-          "cheats": [
-            "Unlimited Ammo",
-            "Unllimited Money (Skill Points)",
-            "Unlimited Resources (Pickup or Buy)",
-            "Max XP (Skill Points)",
-            "Runtime Master Code (MUST STAY ON)",
-            "[DEP] Unlimited Reserve",
-            "[DEP] Unlimited Resources (Crafting)"
           ]
         },
         "shn": {
@@ -1364,42 +1325,6 @@
       }
     },
     {
-      "id": "CUSA00113",
-      "version": "01.03",
-      "title": "Need for Speed: Rivals",
-      "idLower": "cusa00113",
-      "titleLower": "need for speed: rivals",
-      "cheatsTotal": 4,
-      "creators": [
-        "Molly \u0022LLLCCC\u0022"
-      ],
-      "creatorsLower": [
-        "molly \u0022lllccc\u0022"
-      ],
-      "formats": {
-        "json": {
-          "hasFile": true,
-          "cheatsCount": 4,
-          "cheats": [
-            "Infinite Nitrous",
-            "Infinite Tech",
-            "Max Speed Points",
-            "Never Get Busted"
-          ]
-        },
-        "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
-        },
-        "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
-        }
-      }
-    },
-    {
       "id": "CUSA00133",
       "version": "01.14",
       "title": "Batman: Arkham Knight",
@@ -1618,64 +1543,22 @@
     },
     {
       "id": "CUSA00168",
-      "version": "01.00",
-      "title": "Need for Speed: Rivals",
-      "idLower": "cusa00168",
-      "titleLower": "need for speed: rivals",
-      "cheatsTotal": 4,
-      "creators": [
-        "Molly \u0022LLLCCC\u0022"
-      ],
-      "creatorsLower": [
-        "molly \u0022lllccc\u0022"
-      ],
-      "formats": {
-        "json": {
-          "hasFile": true,
-          "cheatsCount": 4,
-          "cheats": [
-            "Infinite Nitrous",
-            "Infinite Tech",
-            "Max Money",
-            "Never Get Busted"
-          ]
-        },
-        "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
-        },
-        "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
-        }
-      }
-    },
-    {
-      "id": "CUSA00168",
       "version": "01.04",
       "title": "Need for Speed: Rivals",
       "idLower": "cusa00168",
       "titleLower": "need for speed: rivals",
-      "cheatsTotal": 7,
+      "cheatsTotal": 3,
       "creators": [
-        "Molly \u0022LLLCCC\u0022",
         "TLH"
       ],
       "creatorsLower": [
-        "molly \u0022lllccc\u0022",
         "tlh"
       ],
       "formats": {
         "json": {
           "hasFile": true,
-          "cheatsCount": 5,
+          "cheatsCount": 1,
           "cheats": [
-            "Infinite Nitrous",
-            "Infinite Tech",
-            "Max Money",
-            "Never Get Busted",
             "Infinite SP"
           ]
         },
@@ -2348,42 +2231,6 @@
       }
     },
     {
-      "id": "CUSA00223",
-      "version": "01.07",
-      "title": "inFamous: Second Son",
-      "idLower": "cusa00223",
-      "titleLower": "infamous: second son",
-      "cheatsTotal": 4,
-      "creators": [
-        "CompoteShoes"
-      ],
-      "creatorsLower": [
-        "compoteshoes"
-      ],
-      "formats": {
-        "json": {
-          "hasFile": true,
-          "cheatsCount": 4,
-          "cheats": [
-            "Godmode",
-            "Infinite Power",
-            "Infinite Missiles",
-            "PowerShards"
-          ]
-        },
-        "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
-        },
-        "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
-        }
-      }
-    },
-    {
       "id": "CUSA00242",
       "version": "01.00",
       "title": "Diablo III: Reaper of Souls: Ultimate Evil Edition",
@@ -2492,44 +2339,6 @@
             "Magic Find (Legendary Drops / Req level 11)",
             "Max Gold"
           ]
-        }
-      }
-    },
-    {
-      "id": "CUSA00242",
-      "version": "01.47",
-      "title": "Diablo III: Reaper of Souls: Ultimate Evil Edition",
-      "idLower": "cusa00242",
-      "titleLower": "diablo iii: reaper of souls: ultimate evil edition",
-      "cheatsTotal": 6,
-      "creators": [
-        "d01v"
-      ],
-      "creatorsLower": [
-        "d01v"
-      ],
-      "formats": {
-        "json": {
-          "hasFile": true,
-          "cheatsCount": 6,
-          "cheats": [
-            "Infinite_Health",
-            "Infinite_Stamina_Mana",
-            "Max_Gold",
-            "Runtime Master Code (MUST STAY ON)",
-            "[DEP] Player",
-            "[DEP] Level_Up"
-          ]
-        },
-        "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
-        },
-        "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
         }
       }
     },
@@ -6526,131 +6335,6 @@
       }
     },
     {
-      "id": "CUSA00740",
-      "version": "01.31",
-      "title": "Terraria",
-      "idLower": "cusa00740",
-      "titleLower": "terraria",
-      "cheatsTotal": 30,
-      "creators": [
-        "Molly \u0022LLLCCC\u0022"
-      ],
-      "creatorsLower": [
-        "molly \u0022lllccc\u0022"
-      ],
-      "formats": {
-        "json": {
-          "hasFile": true,
-          "cheatsCount": 30,
-          "cheats": [
-            "Always show NPCs Health Bar",
-            "Can Not Drown",
-            "Freeze Potion Timer",
-            "Godmode",
-            "Infinite Mana",
-            "Instant Respawn",
-            "One Hit Kill",
-            "Runtime Master Code (MUST STAY ON)",
-            "[DEP] Change Time",
-            "[DEP] Change Time \u2014 Time_Trigger",
-            "[DEP] Change Time \u2014 8 AM",
-            "[DEP] Change Time \u2014 12 PM",
-            "[DEP] Change Time \u2014 4 PM",
-            "[DEP] Change Time \u2014 8 PM",
-            "[DEP] Change Time \u2014 12 AM",
-            "[DEP] Change Time \u2014 4 AM",
-            "[DEP] Edit Character Stats",
-            "[DEP] Fast Forward Time",
-            "[DEP] Fast Forward Time \u2014 Freeze Time",
-            "[DEP] Fast Forward Time \u2014 Normal Time",
-            "[DEP] Fast Forward Time \u2014 Double Time",
-            "[DEP] Fast Forward Time \u2014 Fast time",
-            "[DEP] Fast Forward Time \u2014 Faster Time",
-            "[DEP] Fast Forward Time \u2014 Very Fast Time",
-            "[DEP] Item Editor",
-            "[DEP] Item Editor \u2014 Rod of Discord",
-            "[DEP] Item Editor \u2014 Drill Containment Unit",
-            "[DEP] Item Editor \u2014 Zenith",
-            "[DEP] Item Editor \u2014 Rod of Harmony",
-            "[DEP] Walk On Water"
-          ]
-        },
-        "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
-        },
-        "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
-        }
-      }
-    },
-    {
-      "id": "CUSA00740",
-      "version": "01.35",
-      "title": "Terraria",
-      "idLower": "cusa00740",
-      "titleLower": "terraria",
-      "cheatsTotal": 31,
-      "creators": [
-        "Molly \u0022LLLCCC\u0022"
-      ],
-      "creatorsLower": [
-        "molly \u0022lllccc\u0022"
-      ],
-      "formats": {
-        "json": {
-          "hasFile": true,
-          "cheatsCount": 31,
-          "cheats": [
-            "Always Show NPCs Health Bar",
-            "Can Not Drown",
-            "Freeze Potion Timer",
-            "Godmode",
-            "Infinite Mana",
-            "Instant Respawn",
-            "One Hit Kill",
-            "Runtime Master Code (MUST STAY ON)",
-            "[DEP] Change Time",
-            "[DEP] Change Time \u2014 Time_Trigger",
-            "[DEP] Change Time \u2014 8 AM",
-            "[DEP] Change Time \u2014 12 PM",
-            "[DEP] Change Time \u2014 4 PM",
-            "[DEP] Change Time \u2014 8 PM",
-            "[DEP] Change Time \u2014 12 AM",
-            "[DEP] Change Time \u2014 4 AM",
-            "[DEP] Edit Character Stats",
-            "[DEP] Fast Forward Time",
-            "[DEP] Fast Forward Time \u2014 Freeze Time",
-            "[DEP] Fast Forward Time \u2014 Normal Time",
-            "[DEP] Fast Forward Time \u2014 Double Time",
-            "[DEP] Fast Forward Time \u2014 Fast time",
-            "[DEP] Fast Forward Time \u2014 Faster Time",
-            "[DEP] Fast Forward Time \u2014 Very Fast Time",
-            "[DEP] Item Editor",
-            "[DEP] Item Editor \u2014 Rod of Discord",
-            "[DEP] Item Editor \u2014 Drill Containment Unit",
-            "[DEP] Item Editor \u2014 Zenith",
-            "[DEP] Item Editor \u2014 Rod of Harmony",
-            "[DEP] Weapon Editing",
-            "[DEP] Weapon Editing \u2014 Purple"
-          ]
-        },
-        "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
-        },
-        "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
-        }
-      }
-    },
-    {
       "id": "CUSA00743",
       "version": "01.00",
       "title": "Peggle 2",
@@ -8382,40 +8066,6 @@
       }
     },
     {
-      "id": "CUSA01047",
-      "version": "01.09",
-      "title": "Ratchet \u0026 Clank",
-      "idLower": "cusa01047",
-      "titleLower": "ratchet \u0026 clank",
-      "cheatsTotal": 2,
-      "creators": [
-        "illusional"
-      ],
-      "creatorsLower": [
-        "illusional"
-      ],
-      "formats": {
-        "json": {
-          "hasFile": true,
-          "cheatsCount": 2,
-          "cheats": [
-            "Unlimited Resources",
-            "Unlimited Ammo"
-          ]
-        },
-        "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
-        },
-        "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
-        }
-      }
-    },
-    {
       "id": "CUSA01064",
       "version": "01.04",
       "title": "inFamous: First Light",
@@ -9699,44 +9349,6 @@
       }
     },
     {
-      "id": "CUSA01230",
-      "version": "01.07",
-      "title": "Axiom Verge",
-      "idLower": "cusa01230",
-      "titleLower": "axiom verge",
-      "cheatsTotal": 6,
-      "creators": [
-        "jwhy"
-      ],
-      "creatorsLower": [
-        "jwhy"
-      ],
-      "formats": {
-        "json": {
-          "hasFile": true,
-          "cheatsCount": 6,
-          "cheats": [
-            "INF_HP",
-            "One_Hit_Kill",
-            "Drone_INF_HP",
-            "Quick_Drill",
-            "INF_Address_Bombs",
-            "INF_Air"
-          ]
-        },
-        "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
-        },
-        "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
-        }
-      }
-    },
-    {
       "id": "CUSA01244",
       "version": "01.00",
       "title": "Final Fantasy X | X-2: HD Remaster",
@@ -10170,44 +9782,6 @@
             "Objects: No Dec. \u002B Max. (Get/Buy)",
             "Stats/Level Maxed (Buy Once)"
           ]
-        },
-        "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
-        }
-      }
-    },
-    {
-      "id": "CUSA01388",
-      "version": "01.03",
-      "title": "Fat Princess Adventures",
-      "idLower": "cusa01388",
-      "titleLower": "fat princess adventures",
-      "cheatsTotal": 6,
-      "creators": [
-        "Molly \u0022LLLCCC\u0022"
-      ],
-      "creatorsLower": [
-        "molly \u0022lllccc\u0022"
-      ],
-      "formats": {
-        "json": {
-          "hasFile": true,
-          "cheatsCount": 6,
-          "cheats": [
-            "Edit Amount Of Kills",
-            "Edit Max Hp",
-            "Max Gems",
-            "Max Money",
-            "Max Rank Unlock All Customization Items",
-            "Quick Level Up"
-          ]
-        },
-        "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
         },
         "mc4": {
           "hasFile": false,
@@ -12787,74 +12361,6 @@
           "cheatsCount": 1,
           "cheats": [
             "Opponents don\u0027t move"
-          ]
-        },
-        "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
-        },
-        "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
-        }
-      }
-    },
-    {
-      "id": "CUSA02043",
-      "version": "01.00",
-      "title": "Slender: The Arrival",
-      "idLower": "cusa02043",
-      "titleLower": "slender: the arrival",
-      "cheatsTotal": 2,
-      "creators": [
-        "Molly \u0022LLLCCC\u0022"
-      ],
-      "creatorsLower": [
-        "molly \u0022lllccc\u0022"
-      ],
-      "formats": {
-        "json": {
-          "hasFile": true,
-          "cheatsCount": 2,
-          "cheats": [
-            "Gain Power Lines Fast",
-            "Get Pages Fast"
-          ]
-        },
-        "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
-        },
-        "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
-        }
-      }
-    },
-    {
-      "id": "CUSA02043",
-      "version": "01.02",
-      "title": "Slender: The Arrival",
-      "idLower": "cusa02043",
-      "titleLower": "slender: the arrival",
-      "cheatsTotal": 2,
-      "creators": [
-        "Molly \u0022LLLCCC\u0022"
-      ],
-      "creatorsLower": [
-        "molly \u0022lllccc\u0022"
-      ],
-      "formats": {
-        "json": {
-          "hasFile": true,
-          "cheatsCount": 2,
-          "cheats": [
-            "Gain Power Lines Fast",
-            "Get Pages Fast"
           ]
         },
         "shn": {
@@ -112269,60 +111775,6 @@
       }
     },
     {
-      "id": "PPSA01746",
-      "version": "01.016.000",
-      "title": "Kena: Bridge of Spirits",
-      "idLower": "ppsa01746",
-      "titleLower": "kena: bridge of spirits",
-      "cheatsTotal": 22,
-      "creators": [
-        "d01v"
-      ],
-      "creatorsLower": [
-        "d01v"
-      ],
-      "formats": {
-        "json": {
-          "hasFile": true,
-          "cheatsCount": 22,
-          "cheats": [
-            "Invsible",
-            "Diamonds wont Reduced from Hat Purchase",
-            "Diamond Added from Spending",
-            "Unlock All Upgrades",
-            "Infinity Shield",
-            "Lock Character Camera Direction",
-            "Forest Tears",
-            "Height Vector",
-            "Character Height",
-            "Brightness",
-            "Fisheye View",
-            "Drone View",
-            "Runtime Master Code (MUST STAY ON)",
-            "[DEP] Health",
-            "[DEP] Character Speed",
-            "[DEP] Max Courage and Karma",
-            "[DEP] Add Damage",
-            "[DEP] Arrow No Decrease and Infinite Bomb",
-            "[DEP] Bomb 0.3 Sec Cool Down and Curse Chest Timer",
-            "[DEP] Dodge Extended",
-            "[DEP] Gravity Jump Double Jump To Land Immediately",
-            "[DEP] Rusu Bow Challenge Timer"
-          ]
-        },
-        "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
-        },
-        "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
-        }
-      }
-    },
-    {
       "id": "PPSA01748",
       "version": "01.007.000",
       "title": "Marvel\u0027s Guardians of the Galaxy",
@@ -112611,66 +112063,6 @@
             "Inf Money",
             "Inf Items",
             "Inf Hab Points"
-          ]
-        },
-        "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
-        },
-        "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
-        }
-      }
-    },
-    {
-      "id": "PPSA01968",
-      "version": "01.004.000",
-      "title": "Death Stranding Director\u0027s Cut",
-      "idLower": "ppsa01968",
-      "titleLower": "death stranding director\u0027s cut",
-      "cheatsTotal": 18,
-      "creators": [
-        "CompoteShoes",
-        "Rizla",
-        "Talixme",
-        "TLH",
-        "Vicodin10",
-        "Wander"
-      ],
-      "creatorsLower": [
-        "compoteshoes",
-        "rizla",
-        "talixme",
-        "tlh",
-        "vicodin10",
-        "wander"
-      ],
-      "formats": {
-        "json": {
-          "hasFile": true,
-          "cheatsCount": 18,
-          "cheats": [
-            "Credits",
-            "Infinite HP",
-            "No Conciousness Drain",
-            "Botomless Blood Bags",
-            "Infinite Stamina",
-            "Super Speed",
-            "Infinite Ammo",
-            "No BB Stress",
-            "Infinite Cargo Durability",
-            "No Carry Weight",
-            "Vehicles - Full Battery",
-            "Power Skeleton - Full Battery",
-            "Max Boots Durability",
-            "Infinite Tools",
-            "Infinite Structures Durability",
-            "Easy Construction Upgrades",
-            "Infinite Chiral Bandwidth",
-            "Infinite Road Durability"
           ]
         },
         "shn": {
@@ -113602,48 +112994,6 @@
       }
     },
     {
-      "id": "PPSA02877",
-      "version": "01.000.000",
-      "title": "The Smurfs: Mission Vileaf",
-      "idLower": "ppsa02877",
-      "titleLower": "the smurfs: mission vileaf",
-      "cheatsTotal": 10,
-      "creators": [
-        "d01v"
-      ],
-      "creatorsLower": [
-        "d01v"
-      ],
-      "formats": {
-        "json": {
-          "hasFile": true,
-          "cheatsCount": 10,
-          "cheats": [
-            "Life",
-            "Auto Full Life When Zero",
-            "Invulnerable",
-            "Infinite Jump",
-            "Remove Air Glide Meter for Infinite Jump",
-            "Infinite Smurf Tools Meter",
-            "Freeze Timer",
-            "Max Nuts",
-            "Runtime Master Code (MUST STAY ON) \u2014 Character Speed",
-            "[DEP] Character Speed"
-          ]
-        },
-        "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
-        },
-        "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
-        }
-      }
-    },
-    {
       "id": "PPSA02985",
       "version": "02.001.000",
       "title": "Fishing: North Atlantic",
@@ -113719,44 +113069,6 @@
             "Infi WebShooter",
             "Max Skill Points \u0026 Resources (On Use)"
           ]
-        }
-      }
-    },
-    {
-      "id": "PPSA03026",
-      "version": "01.000.005",
-      "title": "The Forgotten City",
-      "idLower": "ppsa03026",
-      "titleLower": "the forgotten city",
-      "cheatsTotal": 4,
-      "creators": [
-        "Anonymous",
-        "Wander"
-      ],
-      "creatorsLower": [
-        "anonymous",
-        "wander"
-      ],
-      "formats": {
-        "json": {
-          "hasFile": true,
-          "cheatsCount": 4,
-          "cheats": [
-            "Alot of items on gain",
-            "Infinite Breath",
-            "infinite_Health",
-            "infinite_item_use"
-          ]
-        },
-        "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
-        },
-        "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
         }
       }
     },
@@ -115158,60 +114470,6 @@
       }
     },
     {
-      "id": "PPSA04334",
-      "version": "01.000.004",
-      "title": "Fatal Frame: Maiden of Black Water",
-      "idLower": "ppsa04334",
-      "titleLower": "fatal frame: maiden of black water",
-      "cheatsTotal": 22,
-      "creators": [
-        "d01v"
-      ],
-      "creatorsLower": [
-        "d01v"
-      ],
-      "formats": {
-        "json": {
-          "hasFile": true,
-          "cheatsCount": 22,
-          "cheats": [
-            "Infinite Health",
-            "Refill Health when Grab by Hand",
-            "Infinite Camera Flash",
-            "Infinite Lens Meter",
-            "Max Instant Range Focus",
-            "All Items Inventory",
-            "Plus One Item In Every Use",
-            "Plus One Film In Every Use",
-            "First Person Viewer",
-            "Character Height",
-            "Bounce Tits",
-            "Slide",
-            "Height Vector",
-            "Freeze Time",
-            "Max Points",
-            "Max Score",
-            "Runtime Master Code (MUST STAY ON)",
-            "[DEP] Black Water Meter",
-            "[DEP] Character Speed",
-            "[DEP] Walk Speed",
-            "[DEP] Run Speed",
-            "[DEP] Remove All Character Visual"
-          ]
-        },
-        "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
-        },
-        "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
-        }
-      }
-    },
-    {
       "id": "PPSA04404",
       "version": "01.000.004",
       "title": "RESIDENT EVIL 7 biohazard",
@@ -115561,28 +114819,20 @@
       "title": "SnowRunner",
       "idLower": "ppsa04930",
       "titleLower": "snowrunner",
-      "cheatsTotal": 8,
+      "cheatsTotal": 4,
       "creators": [
-        "CompoteShoes",
-        "jwhy",
         "Talixme"
       ],
       "creatorsLower": [
-        "compoteshoes",
-        "jwhy",
         "talixme"
       ],
       "formats": {
         "json": {
           "hasFile": true,
-          "cheatsCount": 6,
+          "cheatsCount": 2,
           "cheats": [
             "Inf Fuel",
-            "No Damage",
-            "Infinite Service Repair Parts",
-            "Super Tires",
-            "Engine Power",
-            "Freeze Time"
+            "No Damage"
           ]
         },
         "shn": {
@@ -117543,48 +116793,6 @@
       }
     },
     {
-      "id": "PPSA08597",
-      "version": "01.000.000",
-      "title": "Scars Above",
-      "idLower": "ppsa08597",
-      "titleLower": "scars above",
-      "cheatsTotal": 10,
-      "creators": [
-        "Nobunaga-ITA"
-      ],
-      "creatorsLower": [
-        "nobunaga-ita"
-      ],
-      "formats": {
-        "json": {
-          "hasFile": true,
-          "cheatsCount": 10,
-          "cheats": [
-            "GodMode-OHK-Inf stamina-no status altered",
-            "Refill charger when aiming",
-            "Max ability point on use",
-            "Use rapid item slot - refill fiber",
-            "Max item on take",
-            "Inf ammo",
-            "Runtime Master Code (MUST STAY ON) \u2014 Teleport",
-            "[DEP] Load Location",
-            "[DEP] Read Location",
-            "[DEP] Save Location"
-          ]
-        },
-        "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
-        },
-        "mc4": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
-        }
-      }
-    },
-    {
       "id": "PPSA08666",
       "version": "01.040.000",
       "title": "Final Fantasy VII Rebirth",
@@ -119158,6 +118366,43 @@
             "Max Money (Buy)",
             "Infi Horse Dash"
           ]
+        }
+      }
+    },
+    {
+      "id": "PPSA14427",
+      "version": "01.000.008",
+      "title": "Crymachina Digital Deluxe Edition",
+      "idLower": "ppsa14427",
+      "titleLower": "crymachina digital deluxe edition",
+      "cheatsTotal": 5,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "Inf Hp",
+            "Inf Sta",
+            "Inf Ammo",
+            "Inf Exp",
+            "Inf Ego"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         }
       }
     },
@@ -122739,30 +121984,18 @@
       "title": "Beast of Reincarnation Digital Deluxe Edition",
       "idLower": "ppsa29343",
       "titleLower": "beast of reincarnation digital deluxe edition",
-      "cheatsTotal": 26,
+      "cheatsTotal": 10,
       "creators": [
-        "Wander",
-        "Wander, Yharnam"
+        "Yharnam"
       ],
       "creatorsLower": [
-        "wander",
-        "wander, yharnam"
+        "yharnam"
       ],
       "formats": {
         "json": {
-          "hasFile": true,
-          "cheatsCount": 9,
-          "cheats": [
-            "infinite_Health",
-            "Max_Amber_on_Gain",
-            "infinite_Bolts",
-            "infinite_skill_points",
-            "Max_Experience",
-            "infinite_Attribute_Points",
-            "No_Reload bolts",
-            "infinite_Bow_Arrows",
-            "Max_items_on_get"
-          ]
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         },
         "shn": {
           "hasFile": false,
@@ -122771,25 +122004,18 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 17,
+          "cheatsCount": 10,
           "cheats": [
-            "infinite_Health",
-            "Max_Amber_on_Gain",
-            "infinite_Bolts",
-            "infinite_skill_points",
-            "Max_Experience",
-            "infinite_Attribute_Points",
-            "No_Reload bolts",
-            "infinite_Bow_Arrows",
-            "Max_items_on_get",
             "Untouchable",
             "Infi Wolf Skill",
             "Infi Medikit",
             "Infi Arrow",
+            "Infi Arrow No reload",
             "Acquire 40K Money Each",
             "Max Skill Points",
             "Max Ability Points",
-            "Untouchable (Wolf)"
+            "Untouchable (Wolf)",
+            "Infi Arrows"
           ]
         }
       }

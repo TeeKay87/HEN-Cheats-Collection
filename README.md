@@ -49,33 +49,18 @@ The website lets you:
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
-| 2026-08-11 | ADDED | CUSA00740 | 01.35 | [Terraria](https://hencheats.vercel.app/#CUSA00740-01.35) |
-| 2026-08-11 | ADDED | CUSA01047 | 01.09 | [Ratchet & Clank](https://hencheats.vercel.app/#CUSA01047-01.09) |
+| 2026-08-11 | ADDED | PPSA14427 | 01.000.008 | [Crymachina Digital Deluxe Edition](https://hencheats.vercel.app/#PPSA14427-01.000.008) |
 | 2026-08-11 | ADDED | PPSA21297 | 01.000.000 | [Withering Rooms](https://hencheats.vercel.app/#PPSA21297-01.000.000) |
-| 2026-08-11 | ADDED | CUSA00021 | 01.05 | [Watch Dogs](https://hencheats.vercel.app/#CUSA00021-01.05) |
-| 2026-08-11 | ADDED | CUSA00223 | 01.07 | [inFamous: Second Son](https://hencheats.vercel.app/#CUSA00223-01.07) |
-| 2026-08-11 | ADDED | CUSA00740 | 01.31 | [Terraria](https://hencheats.vercel.app/#CUSA00740-01.31) |
 | 2026-08-11 | UPDATE | PPSA04930 | 01.048.000 | [SnowRunner](https://hencheats.vercel.app/#PPSA04930-01.048.000) |
 | 2026-08-09 | ADDED | PPSA29343 | 01.000.000 | [Beast of Reincarnation Digital Deluxe Edition](https://hencheats.vercel.app/#PPSA29343-01.000.000) |
 | 2026-08-09 | UPDATE | PPSA29343 | 01.000.000 | [Beast of Reincarnation Digital Deluxe Edition](https://hencheats.vercel.app/#PPSA29343-01.000.000) |
 | 2026-08-09 | ADDED | PPSA24203 | 02.000.000 | [The House of the Dead 2: Remake](https://hencheats.vercel.app/#PPSA24203-02.000.000) |
 | 2026-08-08 | ADDED | PPSA20423 | 02.000.000 | [Another Crab's Treasure](https://hencheats.vercel.app/#PPSA20423-02.000.000) |
-| 2026-08-08 | ADDED | CUSA00113 | 01.03 | [Need for Speed: Rivals](https://hencheats.vercel.app/#CUSA00113-01.03) |
-| 2026-08-08 | ADDED | CUSA00168 | 01.00 | [Need for Speed: Rivals](https://hencheats.vercel.app/#CUSA00168-01.00) |
-| 2026-08-08 | ADDED | CUSA01230 | 01.07 | [Axiom Verge](https://hencheats.vercel.app/#CUSA01230-01.07) |
-| 2026-08-08 | ADDED | CUSA01388 | 01.03 | [Fat Princess Adventures](https://hencheats.vercel.app/#CUSA01388-01.03) |
-| 2026-08-08 | ADDED | CUSA02043 | 01.00 | [Slender: The Arrival](https://hencheats.vercel.app/#CUSA02043-01.00) |
-| 2026-08-08 | ADDED | CUSA02043 | 01.02 | [Slender: The Arrival](https://hencheats.vercel.app/#CUSA02043-01.02) |
-| 2026-08-08 | UPDATE | CUSA00168 | 01.04 | [Need for Speed: Rivals](https://hencheats.vercel.app/#CUSA00168-01.04) |
 | 2026-08-07 | ADDED | PPSA07570 | 01.010.001 | [Mortal Kombat 1](https://hencheats.vercel.app/#PPSA07570-01.010.001) |
 | 2026-08-06 | ADDED | PPSA29343 | 01.000.000 | [Beast of Reincarnation Digital Deluxe Edition](https://hencheats.vercel.app/#PPSA29343-01.000.000) |
-| 2026-08-05 | ADDED | PPSA01746 | 01.016.000 | [Kena: Bridge of Spirits](https://hencheats.vercel.app/#PPSA01746-01.016.000) |
-| 2026-08-05 | ADDED | PPSA04334 | 01.000.004 | [Fatal Frame: Maiden of Black Water](https://hencheats.vercel.app/#PPSA04334-01.000.004) |
 | 2026-08-05 | ADDED | PPSA28465 | 01.006.000 | [Trails in the Sky 1st Chapter](https://hencheats.vercel.app/#PPSA28465-01.006.000) |
 | 2026-08-05 | ADDED | PPSA10621 | 01.012.000 | [Lies of P](https://hencheats.vercel.app/#PPSA10621-01.012.000) |
-| 2026-08-05 | ADDED | CUSA00242 | 01.47 | [Diablo III: Reaper of Souls: Ultimate Evil Edition](https://hencheats.vercel.app/#CUSA00242-01.47) |
 | 2026-08-05 | ADDED | PPSA04452 | 01.012.002 | [Warhammer 40,000: Space Marine 2](https://hencheats.vercel.app/#PPSA04452-01.012.002) |
-| 2026-08-04 | ADDED | PPSA01968 | 01.004.000 | [Death Stranding Director's Cut](https://hencheats.vercel.app/#PPSA01968-01.004.000) |
 | 2026-08-04 | ADDED | PPSA03388 | 01.005.400 | [Atlas Fallen: Reign of Sand](https://hencheats.vercel.app/#PPSA03388-01.005.400) |
 | 2026-08-04 | UPDATE | CUSA00265 | 02.35 | [Minecraft: PlayStation 4 Edition](https://hencheats.vercel.app/#CUSA00265-02.35) |
 | 2026-08-04 | UPDATE | CUSA00283 | 02.35 | [Minecraft: PlayStation 4 Edition](https://hencheats.vercel.app/#CUSA00283-02.35) |
@@ -102,15 +87,12 @@ The website lets you:
 | 2026-07-31 | ADDED | PPSA11541 | 01.002.000 | [Story of Seasons: A Wonderful Life](https://hencheats.vercel.app/#PPSA11541-01.002.000) |
 | 2026-07-31 | ADDED | PPSA20798 | 01.000.000 | [Ufouria: The Saga 2](https://hencheats.vercel.app/#PPSA20798-01.000.000) |
 | 2026-07-31 | ADDED | PPSA23908 | 01.005.000 | [Code Vein II](https://hencheats.vercel.app/#PPSA23908-01.005.000) |
-| 2026-07-30 | ADDED | PPSA08597 | 01.000.000 | [Scars Above](https://hencheats.vercel.app/#PPSA08597-01.000.000) |
 | 2026-07-30 | ADDED | PPSA32393 | 01.002.002 | [Total Chaos](https://hencheats.vercel.app/#PPSA32393-01.002.002) |
 | 2026-07-30 | ADDED | PPSA01949 | 01.000.004 | [Control: Ultimate Edition](https://hencheats.vercel.app/#PPSA01949-01.000.004) |
-| 2026-07-30 | ADDED | PPSA02877 | 01.000.000 | [The Smurfs: Mission Vileaf](https://hencheats.vercel.app/#PPSA02877-01.000.000) |
 | 2026-07-29 | ADDED | PPSA29629 | 02.002.000 | [Marvel Cosmic Invasion](https://hencheats.vercel.app/#PPSA29629-02.002.000) |
 | 2026-07-29 | ADDED | PPSA02494 | 01.003.000 | [Doraemon Story of Seasons: Friends of the Great Kingdom](https://hencheats.vercel.app/#PPSA02494-01.003.000) |
 | 2026-07-29 | ADDED | PPSA18189 | 01.000.004 | [Pac-Man World 2: Re-Pac](https://hencheats.vercel.app/#PPSA18189-01.000.004) |
 | 2026-07-29 | ADDED | PPSA01687 | 01.026.000 | [Call of Duty: Vanguard](https://hencheats.vercel.app/#PPSA01687-01.026.000) |
-| 2026-07-29 | ADDED | PPSA03026 | 01.000.005 | [The Forgotten City](https://hencheats.vercel.app/#PPSA03026-01.000.005) |
 | 2026-07-29 | ADDED | PPSA19461 | 01.200.000 | [Shinobi: Art of Vengeance](https://hencheats.vercel.app/#PPSA19461-01.200.000) |
 | 2026-07-28 | ADDED | PPSA01932 | 01.000.000 | [In Sound Mind](https://hencheats.vercel.app/#PPSA01932-01.000.000) |
 | 2026-07-28 | ADDED | PPSA04921 | 01.000.009 | [In Sound Mind](https://hencheats.vercel.app/#PPSA04921-01.000.009) |
@@ -368,7 +350,6 @@ The website lets you:
 | 2026-07-01 | ADDED | PPSA01685 | 01.031.000 | [Sniper Elite 5](https://hencheats.vercel.app/#PPSA01685-01.031.000) |
 | 2026-07-01 | ADDED | PPSA01507 | 04.004.000 | [Immortals Fenyx Rising](https://hencheats.vercel.app/#PPSA01507-04.004.000) |
 | 2026-07-01 | ADDED | PPSA01474 | 01.005.003 | [Ratchet & Clank: Rift Apart](https://hencheats.vercel.app/#PPSA01474-01.005.003) |
-| 2026-07-01 | ADDED | PPSA04930 | 01.048.000 | [SnowRunner](https://hencheats.vercel.app/#PPSA04930-01.048.000) |
 | 2026-07-01 | ADDED | PPSA27676 | 01.007.000 | [Painkiller](https://hencheats.vercel.app/#PPSA27676-01.007.000) |
 
 </details>

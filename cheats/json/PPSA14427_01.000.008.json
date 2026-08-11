@@ -1,0 +1,91 @@
+{
+  "name": "Crymachina Digital Deluxe Edition",
+  "id": "PPSA14427",
+  "version": "01.000.008",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5B83000",
+          "on": "4180BF870F00004074094883C408E9535347FB498B7710498977084883C408E9425347FB",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "FF835E",
+          "on": "E99DACB804909090",
+          "off": "498977084883C408"
+        }
+      ]
+    },
+    {
+      "name": "Inf Sta",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5B83044",
+          "on": "C5FA114F5CE9168C58FB",
+          "off": "00000000000000000000"
+        },
+        {
+          "offset": "110BC5F",
+          "on": "E9E073A704",
+          "off": "C5FA11575C"
+        }
+      ]
+    },
+    {
+      "name": "Inf Ammo",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "102831F",
+          "on": "90909090909090",
+          "off": "66FF8BD4000000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Exp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5B8306E",
+          "on": "B99F8601008988F4000000E93ABF57FB",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "10FEFB2",
+          "on": "E9B740A80490",
+          "off": "2988F4000000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Ego",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5B8309E",
+          "on": "6641C786D80000006300E92B033AFB",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "F233D0",
+          "on": "E9C9FCC504909090",
+          "off": "6641899ED8000000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}
