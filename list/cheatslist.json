@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-08-13T09:48:58.2367593Z",
+  "generatedUtc": "2026-08-13T21:32:11.3087128Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -113614,6 +113614,42 @@
       }
     },
     {
+      "id": "PPSA03641",
+      "version": "01.086.000",
+      "title": "Lords of the Fallen",
+      "idLower": "ppsa03641",
+      "titleLower": "lords of the fallen",
+      "cheatsTotal": 4,
+      "creators": [
+        "Yharnam-port"
+      ],
+      "creatorsLower": [
+        "yharnam-port"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Inf Items",
+            "Max Souls (get)",
+            "God Mode (Inf. H/A/S/M)",
+            "No Weight Gain"
+          ]
+        }
+      }
+    },
+    {
       "id": "PPSA03712",
       "version": "01.006.000",
       "title": "Puzzle Bobble 3D: Vacation Odyssey",
@@ -121581,6 +121617,42 @@
             "Inf Money",
             "Inf Items",
             "Inf Items Crafting"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
+      "id": "PPSA27366",
+      "version": "01.000.025",
+      "title": "AI Limit",
+      "idLower": "ppsa27366",
+      "titleLower": "ai limit",
+      "cheatsTotal": 4,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Inf Hp",
+            "Inf Cristals",
+            "Inf Items",
+            "God Mode"
           ]
         },
         "shn": {
