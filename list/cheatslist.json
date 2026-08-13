@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-08-12T22:38:30.403336Z",
+  "generatedUtc": "2026-08-13T09:48:58.2367593Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -122160,6 +122160,43 @@
           "hasFile": false,
           "cheatsCount": 0,
           "cheats": []
+        }
+      }
+    },
+    {
+      "id": "PPSA30223",
+      "version": "01.015.000",
+      "title": "Yakuza Kiwami 3 \u0026 Dark Ties",
+      "idLower": "ppsa30223",
+      "titleLower": "yakuza kiwami 3 \u0026 dark ties",
+      "cheatsTotal": 5,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "Untouchable",
+            "Infi Health",
+            "Max Stamina \u0026 Dragon Boost",
+            "Max Items (get)",
+            "Max Money \u0026 SP"
+          ]
         }
       }
     },
