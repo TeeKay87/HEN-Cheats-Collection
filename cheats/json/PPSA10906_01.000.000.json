@@ -1,0 +1,79 @@
+{
+  "name": "Atelier Marie Remake: The Alchemist of Salburg",
+  "id": "PPSA10906",
+  "version": "01.000.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "EDF000",
+          "on": "8038017414803802740F803803740A6644297006E9DB2D63FF66448B70046644897006E9CC2D63FF",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "511DEF",
+          "on": "E90CD29C00",
+          "off": "6644297006"
+        }
+      ]
+    },
+    {
+      "name": "Inf Mp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "EDF048",
+          "on": "8038017414803802740F803803740A664429700AE96D2E63FF66448B7008664489700AE95E2E63FF",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "511EC9",
+          "on": "E97AD19C00",
+          "off": "664429700A"
+        }
+      ]
+    },
+    {
+      "name": "Inf Money",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "EDF090",
+          "on": "48C7003F420F00488B8B08010000E9A4D55BFF",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "49C63D",
+          "on": "E94E2AA4009090909090",
+          "off": "4C2930488B8B08010000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Items At Use",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "EDF0C3",
+          "on": "66B963006685C90F8E0EE05AFF488D0442FFC9668908E900E05AFF",
+          "off": "000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "48D0D0",
+          "on": "E9EE1FA500909090909090909090",
+          "off": "6685C97E09488D0442FFC9668908"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

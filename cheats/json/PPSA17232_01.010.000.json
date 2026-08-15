@@ -1,0 +1,52 @@
+{
+  "name": "Sniper Elite: Resistance",
+  "id": "PPSA17232",
+  "version": "01.010.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1337000",
+          "on": "83BB9400000000740AC5FA114B60E9D2EC28FFC5FA104B64C5FA114B60E9C3EC28FF",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "5C5CE0",
+          "on": "E91B13D700",
+          "off": "C5FA114B60"
+        }
+      ]
+    },
+    {
+      "name": "Inf Ammo",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "66A515",
+          "on": "90909090",
+          "off": "41897740"
+        }
+      ]
+    },
+    {
+      "name": "Inf Heartrate",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E2DC6",
+          "on": "9090909090",
+          "off": "C5FA584B10"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

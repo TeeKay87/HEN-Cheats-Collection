@@ -1,0 +1,123 @@
+{
+  "name": "Final Fantasy VII Rebirth",
+  "id": "PPSA08666",
+  "version": "01.080.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "96BB000",
+          "on": "E995F59CFB",
+          "off": "0000000000"
+        },
+        {
+          "offset": "508A592",
+          "on": "E9690A6304909090",
+          "off": "4589B41D30040000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Mp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "96BB025",
+          "on": "418B9FAC03000041899FAC030000E99AF89CFB",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "508A8CB",
+          "on": "E9550763049090",
+          "off": "41899FAC030000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Items",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "96BB058",
+          "on": "42C7842874FA040063000000E95E6A95FB",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "96BB089",
+          "on": "41C744240C63000000E962B395FB",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "5011AAB",
+          "on": "E9A8956A049090909090909090909090909090909090909090909090",
+          "off": "428B8C2874FA040029D189CAC1FA1FC4E268F2C942898C2874FA0400"
+        },
+        {
+          "offset": "50163E5",
+          "on": "E99F4C6A04909090909090909090909090909090",
+          "off": "8B400C29D889C1C1F91FC4E270F2C0418944240C"
+        }
+      ]
+    },
+    {
+      "name": "Inf Limit",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "96BB0B7",
+          "on": "C7840A3421000000007A44E95D0DC9F8",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "234BE1B",
+          "on": "E997F2360790909090",
+          "off": "C5FA11840A34210000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Hab",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "96BB0E7",
+          "on": "C7840A3021000000007A45E90D08C9F8",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "234B8FB",
+          "on": "E9E7F7360790909090",
+          "off": "C5FA11840A30210000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Money",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "96BB117",
+          "on": "B87F969800418944240CE90A9F95FB",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "501502B",
+          "on": "E9E7606A04",
+          "off": "418944240C"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

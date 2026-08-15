@@ -49,6 +49,14 @@ The website lets you:
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-08-15 | ADDED | PPSA06438 | 01.001.140 | [Let's Build a Zoo](https://hencheats.vercel.app/#PPSA06438-01.001.140) |
+| 2026-08-15 | ADDED | PPSA08666 | 01.080.000 | [Final Fantasy VII Rebirth](https://hencheats.vercel.app/#PPSA08666-01.080.000) |
+| 2026-08-15 | ADDED | PPSA09384 | 01.000.000 | [The Caligula Effect: Overdose](https://hencheats.vercel.app/#PPSA09384-01.000.000) |
+| 2026-08-15 | ADDED | PPSA10906 | 01.000.000 | [Atelier Marie Remake: The Alchemist of Salburg](https://hencheats.vercel.app/#PPSA10906-01.000.000) |
+| 2026-08-15 | ADDED | PPSA14708 | 01.004.000 | [Commandos: Origins](https://hencheats.vercel.app/#PPSA14708-01.004.000) |
+| 2026-08-15 | ADDED | PPSA17232 | 01.010.000 | [Sniper Elite: Resistance](https://hencheats.vercel.app/#PPSA17232-01.010.000) |
+| 2026-08-15 | ADDED | PPSA22826 | 01.000.002 | [Tales of Berseria Remastered](https://hencheats.vercel.app/#PPSA22826-01.000.002) |
+| 2026-08-15 | ADDED | PPSA21203 | 01.512.105 | [The Elder Scrolls IV: Oblivion Remastered](https://hencheats.vercel.app/#PPSA21203-01.512.105) |
 | 2026-08-13 | ADDED | PPSA27366 | 01.000.025 | [AI Limit](https://hencheats.vercel.app/#PPSA27366-01.000.025) |
 | 2026-08-13 | ADDED | PPSA03641 | 01.086.000 | [Lords of the Fallen](https://hencheats.vercel.app/#PPSA03641-01.086.000) |
 | 2026-08-13 | ADDED | PPSA30223 | 01.015.000 | [Yakuza Kiwami 3 & Dark Ties](https://hencheats.vercel.app/#PPSA30223-01.015.000) |

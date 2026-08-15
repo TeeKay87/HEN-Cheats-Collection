@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-08-13T21:32:11.3087128Z",
+  "generatedUtc": "2026-08-15T19:33:27.7490477Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -39246,79 +39246,6 @@
             "Player \u002B NPC Inf Stamina",
             "Everyone Else 0 Stamina",
             "Max Infinite Spell Uses",
-            "Max Humanity on Use",
-            "Max Infinite Souls",
-            "Dupe Anything (Storage) \u002B Max Items",
-            "Never Lose Humanity when Die",
-            "Never Lose Souls when Die",
-            "Bleed Resistance",
-            "Poison Resistance",
-            "Curse Resistance",
-            "Speed Hack x1.25",
-            "Speed Hack x1.50",
-            "Speed Hack x2.00",
-            "100% Drop Rate Press L3\u002BR3",
-            "Inf HP Master Code",
-            "Stamina Master Code",
-            "Speed Hack Master Code",
-            "Drop Rate Master Code"
-          ]
-        }
-      }
-    },
-    {
-      "id": "CUSA08495",
-      "version": "05.05",
-      "title": "Dark Souls: Remastered",
-      "idLower": "cusa08495",
-      "titleLower": "dark souls: remastered",
-      "cheatsTotal": 40,
-      "creators": [
-        "hejran7"
-      ],
-      "creatorsLower": [
-        "hejran7"
-      ],
-      "formats": {
-        "json": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
-        },
-        "shn": {
-          "hasFile": true,
-          "cheatsCount": 19,
-          "cheats": [
-            "Inf HP Master Code",
-            "Stamina Master Code",
-            "Speed Hack Master Code",
-            "Drop Rate Master Code",
-            "Player Infinite Health",
-            "Player \u002B Enemy Inf HP",
-            "Player Only Inf Stamina",
-            "Player \u002B NPC Inf Stamina",
-            "Everyone Else 0 Stamina",
-            "Max Humanity on Use",
-            "Max Infinite Souls",
-            "Dupe Anything (Storage) \u002B Max Items",
-            "Never Lose Humanity when Die",
-            "Never Lose Souls when Die",
-            "Bleed Resistance",
-            "Poison Resistance",
-            "Curse Resistance",
-            "Speed Hack x1.25",
-            "100% Drop Rate Press L3\u002BR3"
-          ]
-        },
-        "mc4": {
-          "hasFile": true,
-          "cheatsCount": 21,
-          "cheats": [
-            "Player Infinite Health",
-            "Player \u002B Enemy Inf HP",
-            "Player Only Inf Stamina",
-            "Player \u002B NPC Inf Stamina",
-            "Everyone Else 0 Stamina",
             "Max Humanity on Use",
             "Max Infinite Souls",
             "Dupe Anything (Storage) \u002B Max Items",
@@ -115471,6 +115398,40 @@
       }
     },
     {
+      "id": "PPSA06438",
+      "version": "01.001.140",
+      "title": "Let\u0027s Build a Zoo",
+      "idLower": "ppsa06438",
+      "titleLower": "let\u0027s build a zoo",
+      "cheatsTotal": 2,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Inf Money",
+            "Inf Research Points"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
       "id": "PPSA06568",
       "version": "01.000.000",
       "title": "Sword Art Online: Fractured Daydream",
@@ -116887,6 +116848,44 @@
       }
     },
     {
+      "id": "PPSA08666",
+      "version": "01.080.000",
+      "title": "Final Fantasy VII Rebirth",
+      "idLower": "ppsa08666",
+      "titleLower": "final fantasy vii rebirth",
+      "cheatsTotal": 6,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 6,
+          "cheats": [
+            "Inf Hp",
+            "Inf Mp",
+            "Inf Items",
+            "Inf Limit",
+            "Inf Hab",
+            "Inf Money"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
       "id": "PPSA08709",
       "version": "01.000.000",
       "title": "Silent Hill 2",
@@ -117221,6 +117220,43 @@
             "--Inf_Power",
             "--One_hit_kill",
             "Inf Items and Money"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
+      "id": "PPSA09384",
+      "version": "01.000.000",
+      "title": "The Caligula Effect: Overdose",
+      "idLower": "ppsa09384",
+      "titleLower": "the caligula effect: overdose",
+      "cheatsTotal": 5,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "Master Code",
+            "--Inf_Hp",
+            "--Auto_Win",
+            "Inf Mp",
+            "Inf Skill Points"
           ]
         },
         "shn": {
@@ -117942,6 +117978,42 @@
       }
     },
     {
+      "id": "PPSA10906",
+      "version": "01.000.000",
+      "title": "Atelier Marie Remake: The Alchemist of Salburg",
+      "idLower": "ppsa10906",
+      "titleLower": "atelier marie remake: the alchemist of salburg",
+      "cheatsTotal": 4,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Inf Hp",
+            "Inf Mp",
+            "Inf Money",
+            "Inf Items At Use"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
       "id": "PPSA10965",
       "version": "01.007.004",
       "title": "Pacific Drive",
@@ -118462,6 +118534,40 @@
           "cheats": [
             "Inf HP",
             "Inf Pieces"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
+      "id": "PPSA14708",
+      "version": "01.004.000",
+      "title": "Commandos: Origins",
+      "idLower": "ppsa14708",
+      "titleLower": "commandos: origins",
+      "cheatsTotal": 2,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Inf Hp",
+            "Cant Attack You"
           ]
         },
         "shn": {
@@ -119115,6 +119221,41 @@
           "cheats": [
             "Inf Hp",
             "Inf Coins"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
+      "id": "PPSA17232",
+      "version": "01.010.000",
+      "title": "Sniper Elite: Resistance",
+      "idLower": "ppsa17232",
+      "titleLower": "sniper elite: resistance",
+      "cheatsTotal": 3,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Inf Hp",
+            "Inf Ammo",
+            "Inf Heartrate"
           ]
         },
         "shn": {
@@ -120096,6 +120237,45 @@
       }
     },
     {
+      "id": "PPSA21203",
+      "version": "01.512.105",
+      "title": "The Elder Scrolls IV: Oblivion Remastered",
+      "idLower": "ppsa21203",
+      "titleLower": "the elder scrolls iv: oblivion remastered",
+      "cheatsTotal": 7,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 7,
+          "cheats": [
+            "Invincible",
+            "Infi Arrows",
+            "Infi Item Durability",
+            "Zero Weight",
+            "Copy Consumables (2nd, Drop \u0026 Get 999)",
+            "Max EXP \u0026 Max Skill LV",
+            "Max Money (On Sell)"
+          ]
+        }
+      }
+    },
+    {
       "id": "PPSA21297",
       "version": "01.000.000",
       "title": "Withering Rooms",
@@ -120393,6 +120573,43 @@
             "Inf Hp",
             "Inf Fireworks",
             "Have All Tools After Die"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
+      "id": "PPSA22826",
+      "version": "01.000.002",
+      "title": "Tales of Berseria Remastered",
+      "idLower": "ppsa22826",
+      "titleLower": "tales of berseria remastered",
+      "cheatsTotal": 5,
+      "creators": [
+        "Talixme"
+      ],
+      "creatorsLower": [
+        "talixme"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "Inf Hp",
+            "Inf Mp",
+            "Inf Money",
+            "Inf Items",
+            "Inf Exp"
           ]
         },
         "shn": {

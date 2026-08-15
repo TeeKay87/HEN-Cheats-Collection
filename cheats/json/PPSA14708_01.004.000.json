@@ -1,0 +1,45 @@
+{
+  "name": "Commandos: Origins",
+  "id": "PPSA14708",
+  "version": "01.004.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5EBB000",
+          "on": "807F2C170F843F728DFDC5FA114708E935728DFD",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "3792244",
+          "on": "E9B78D7202",
+          "off": "C5FA114708"
+        }
+      ]
+    },
+    {
+      "name": "Cant Attack You",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5EBB034",
+          "on": "C787A800000000000000E9E13942FE",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "42DEA1C",
+          "on": "E913C6BD01909090",
+          "off": "C5FA1187A8000000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}
