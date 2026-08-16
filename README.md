@@ -49,6 +49,7 @@ The website lets you:
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-08-16 | ADDED | PPSA06981 | 01.006.000 | [Naruto x Boruto: Ultimate Ninja Storm Connections](https://hencheats.vercel.app/#PPSA06981-01.006.000) |
 | 2026-08-15 | ADDED | PPSA06438 | 01.001.140 | [Let's Build a Zoo](https://hencheats.vercel.app/#PPSA06438-01.001.140) |
 | 2026-08-15 | ADDED | PPSA08666 | 01.080.000 | [Final Fantasy VII Rebirth](https://hencheats.vercel.app/#PPSA08666-01.080.000) |
 | 2026-08-15 | ADDED | PPSA09384 | 01.000.000 | [The Caligula Effect: Overdose](https://hencheats.vercel.app/#PPSA09384-01.000.000) |

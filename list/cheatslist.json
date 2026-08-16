@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-08-15T19:33:27.7490477Z",
+  "generatedUtc": "2026-08-16T13:10:51.5614701Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -113548,10 +113548,10 @@
       "titleLower": "lords of the fallen",
       "cheatsTotal": 4,
       "creators": [
-        "Yharnam-port"
+        "Shambhala222, Yharnam-port"
       ],
       "creatorsLower": [
-        "yharnam-port"
+        "shambhala222, yharnam-port"
       ],
       "formats": {
         "json": {
@@ -115547,6 +115547,43 @@
             "Inf Medkits",
             "Inf Money",
             "Inf Stamina"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA06981",
+      "version": "01.006.000",
+      "title": "Naruto x Boruto: Ultimate Ninja Storm Connections",
+      "idLower": "ppsa06981",
+      "titleLower": "naruto x boruto: ultimate ninja storm connections",
+      "cheatsTotal": 5,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "1 Hit Kill",
+            "Infi Health",
+            "Infi Chakra Gauge",
+            "Chakra Gauge 0 (Opponent)",
+            "Max Money"
           ]
         }
       }
