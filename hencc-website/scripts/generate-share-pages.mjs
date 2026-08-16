@@ -29,6 +29,7 @@ const readStringConstant = (name) => {
 
 const COVER_DETAIL_SIZE = readNumberConstant('COVER_DETAIL_SIZE')
 const COVER_FALLBACK_URL = readStringConstant('COVER_FALLBACK_URL')
+const PUBLIC_SITE_URL = readStringConstant('PUBLIC_SITE_URL').replace(/\/$/, '')
 
 const buildCoverImageUrl = (coverUrl, size) => {
   const requested = String(coverUrl || '').trim()
@@ -71,6 +72,11 @@ const replaceMeta = (html, attribute, key, content) => {
     : html.replace('</head>', `    ${tag}\n  </head>`)
 }
 
+const removeMeta = (html, attribute, key) => {
+  const expression = new RegExp(`\\s*<meta\\s+${attribute}=["']${escapeRegExp(key)}["'][^>]*>\\s*`, 'i')
+  return html.replace(expression, '\n')
+}
+
 const platformFor = (id) => {
   if (id.startsWith('CUSA')) return 'PlayStation 4'
   if (id.startsWith('PPSA')) return 'PlayStation 5'
@@ -88,6 +94,7 @@ for (const entry of catalog.entries) {
   for (const version of entry.versions) {
     const pageTitle = `${entry.title} v${version.version} | HEN Cheats Collection`
     const description = `${platformFor(entry.id)} cheats for ${entry.title}, version ${version.version}. HEN Cheats Collection.`
+    const pageUrl = `${PUBLIC_SITE_URL}/game/${encodeURIComponent(entry.id)}/${encodeURIComponent(version.version)}/`
 
     let html = replaceTitle(template, pageTitle)
     html = replaceMeta(html, 'name', 'description', description)
@@ -95,6 +102,7 @@ for (const entry of catalog.entries) {
     html = replaceMeta(html, 'property', 'og:description', description)
     html = replaceMeta(html, 'property', 'og:type', 'website')
     html = replaceMeta(html, 'property', 'og:site_name', 'HEN Cheats Collection')
+    html = replaceMeta(html, 'property', 'og:url', pageUrl)
     html = replaceMeta(html, 'name', 'twitter:card', 'summary_large_image')
     html = replaceMeta(html, 'name', 'twitter:title', pageTitle)
     html = replaceMeta(html, 'name', 'twitter:description', description)
@@ -102,7 +110,11 @@ for (const entry of catalog.entries) {
     if (/^https?:\/\//i.test(cover)) {
       html = replaceMeta(html, 'property', 'og:image', cover)
       html = replaceMeta(html, 'property', 'og:image:alt', `${entry.title} cover`)
+      html = removeMeta(html, 'property', 'og:image:width')
+      html = removeMeta(html, 'property', 'og:image:height')
+      html = removeMeta(html, 'property', 'og:image:type')
       html = replaceMeta(html, 'name', 'twitter:image', cover)
+      html = replaceMeta(html, 'name', 'twitter:image:alt', `${entry.title} cover`)
     }
 
     const routeDir = path.join(distRoot, 'game', entry.id, version.version)
