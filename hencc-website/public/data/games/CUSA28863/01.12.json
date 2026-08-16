@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "CUSA28863",
+  "version": "01.12",
+  "files": [
+    {
+      "sourceId": "e587d4eb",
+      "file": "CUSA28863_01.12_e587d4eb.json",
+      "path": "json/CUSA28863_01.12_e587d4eb.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max/Infinite Health",
+        "Max/Infinite Magic",
+        "Max/Infinite Stamina",
+        "Max/Infinite Items/Potions/Arrows",
+        "Max/Infinite Runes On Start"
+      ]
+    },
+    {
+      "sourceId": "ddb2195a",
+      "file": "CUSA28863_01.12_ddb2195a.shn",
+      "path": "shn/CUSA28863_01.12_ddb2195a.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max/Infinite Health",
+        "Max/Infinite Magic",
+        "Max/Infinite Stamina",
+        "Max/Infinite Items/Potions/Arrows",
+        "Max/Infinite Runes On Start"
+      ]
+    }
+  ]
+}

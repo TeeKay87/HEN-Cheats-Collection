@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "id": "CUSA19647",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "791904ca",
+      "file": "CUSA19647_01.01_791904ca.json",
+      "path": "json/CUSA19647_01.01_791904ca.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "d01v"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite HP",
+        "Infinite Sub Weapon",
+        "Infinite Grenade",
+        "All Guns (Dungeon)",
+        "Thunder Breaker (Sub Weapon Press L1)",
+        "Homing Missle (Sub Weapon Press L1)",
+        "Spark Tackle (Sub Weapon Press L1)",
+        "Shield Mine (Sub Weapon Press L1)"
+      ]
+    }
+  ]
+}

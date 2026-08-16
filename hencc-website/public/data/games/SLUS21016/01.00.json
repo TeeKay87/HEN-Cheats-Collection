@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "id": "SLUS21016",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "2452ddb4",
+      "file": "SLUS21016_01.00_2452ddb4.json",
+      "path": "json/SLUS21016_01.00_2452ddb4.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Grenades",
+        "Inf-Ammo-Never-Reload"
+      ]
+    },
+    {
+      "sourceId": "b8e5e336",
+      "file": "SLUS21016_01.00_b8e5e336.shn",
+      "path": "shn/SLUS21016_01.00_b8e5e336.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Grenades",
+        "Inf-Ammo-Never-Reload"
+      ]
+    }
+  ]
+}

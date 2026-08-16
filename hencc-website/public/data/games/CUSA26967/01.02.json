@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "id": "CUSA26967",
+  "version": "01.02",
+  "files": [
+    {
+      "sourceId": "eb895fee",
+      "file": "CUSA26967_01.02_eb895fee.json",
+      "path": "json/CUSA26967_01.02_eb895fee.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Stamina",
+        "Infinite Health/items (turn on and turn off coins cheat)",
+        "Max coins (on gain and turn off right away)"
+      ]
+    }
+  ]
+}

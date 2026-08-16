@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "id": "CUSA07722",
+  "version": "01.05",
+  "files": [
+    {
+      "sourceId": "65bbe3c0",
+      "file": "CUSA07722_01.05_65bbe3c0.mc4",
+      "path": "mc4/CUSA07722_01.05_65bbe3c0.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 - FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Armor",
+        "Max Ammo Clip",
+        "No Reload",
+        "One Hit Kill",
+        "Mastercode Timer ( must be activated for [ MC ] Cheats )",
+        "Reset Timer to 1 [ MC ]",
+        "Freeze Timer [ MC ]"
+      ]
+    },
+    {
+      "sourceId": "f898d849",
+      "file": "CUSA07722_01.05_f898d849.shn",
+      "path": "shn/CUSA07722_01.05_f898d849.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 - FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Armor",
+        "Max Ammo Clip",
+        "No Reload",
+        "One Hit Kill",
+        "Mastercode Timer ( must be activated for [ MC ] Cheats )",
+        "Reset Timer to 1 [ MC ]",
+        "Freeze Timer [ MC ]"
+      ]
+    }
+  ]
+}

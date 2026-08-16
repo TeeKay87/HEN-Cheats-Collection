@@ -1,0 +1,81 @@
+{
+  "schema": 1,
+  "id": "CUSA12605",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "4026d3be",
+      "file": "CUSA12605_01.01_4026d3be.json",
+      "path": "json/CUSA12605_01.01_4026d3be.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "wild31"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Ammo",
+        "Infinite Ammo (sticky gun)",
+        "Infinite health",
+        "run with  (max cargo)",
+        "Infinite (repair spray/ ladder/PCC/climbing anchor )",
+        "Metals Never Decrease",
+        "Resins Never Decrease",
+        "crystals Never Decrease",
+        "Ceramics Never Decrease",
+        "Special alloys Never Decrease",
+        "Chemicals Never Decrease"
+      ]
+    },
+    {
+      "sourceId": "9bca1fe2",
+      "file": "CUSA12605_01.01_9bca1fe2.mc4",
+      "path": "mc4/CUSA12605_01.01_9bca1fe2.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "wild31"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Ammo",
+        "Infinite Ammo (sticky gun)",
+        "Infinite health",
+        "run with  (max cargo)",
+        "Infinite (repair spray/ ladder/PCC/climbing anchor )",
+        "Metals Never Decrease",
+        "Resins Never Decrease",
+        "crystals Never Decrease",
+        "Ceramics Never Decrease",
+        "Special alloys Never Decrease",
+        "Chemicals Never Decrease"
+      ]
+    },
+    {
+      "sourceId": "6336170f",
+      "file": "CUSA12605_01.01_6336170f.shn",
+      "path": "shn/CUSA12605_01.01_6336170f.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "wild31"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Ammo",
+        "Infinite Ammo (sticky gun)",
+        "Infinite health",
+        "run with  (max cargo)",
+        "Metals Never Decrease",
+        "Resins Never Decrease",
+        "crystals Never Decrease",
+        "Ceramics Never Decrease",
+        "Special alloys Never Decrease",
+        "Chemicals Never Decrease"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "CUSA04294",
+  "version": "01.18",
+  "files": [
+    {
+      "sourceId": "905f2806",
+      "file": "CUSA04294_01.18_905f2806.json",
+      "path": "json/CUSA04294_01.18_905f2806.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Botnet",
+        "Infinite Research Points",
+        "No Reload",
+        "Max Money (On Spend)"
+      ]
+    },
+    {
+      "sourceId": "d5516fd8",
+      "file": "CUSA04294_01.18_d5516fd8.json",
+      "path": "json/CUSA04294_01.18_d5516fd8.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health",
+        "Inf Botnet",
+        "Inf Research Points",
+        "No Reload",
+        "Max Money (On Spend)"
+      ]
+    }
+  ]
+}

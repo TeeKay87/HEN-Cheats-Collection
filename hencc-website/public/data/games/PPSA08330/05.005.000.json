@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "id": "PPSA08330",
+  "version": "05.005.000",
+  "files": [
+    {
+      "sourceId": "8bb55acd",
+      "file": "PPSA08330_05.005.000_8bb55acd.mc4",
+      "path": "mc4/PPSA08330_05.005.000_8bb55acd.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Yharnam"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible",
+        "1 Hit Kill",
+        "Infi Arrows & Throwables",
+        "Infi Rage",
+        "Instant Cooldown (Talisman, Relic)",
+        "1 Hit Stun",
+        "No Resource Deduction (XP,HS)",
+        "No Limits (Crafting, Upgrade)"
+      ]
+    }
+  ]
+}

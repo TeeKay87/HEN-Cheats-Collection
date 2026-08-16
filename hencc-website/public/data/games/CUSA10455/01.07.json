@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "id": "CUSA10455",
+  "version": "01.07",
+  "files": [
+    {
+      "sourceId": "76990597",
+      "file": "CUSA10455_01.07_76990597.json",
+      "path": "json/CUSA10455_01.07_76990597.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Master Code",
+        "--Inf_Ammo",
+        "--Inf_Life_and_Ammo",
+        "--Infinite_Life",
+        "No Reload",
+        "Easy Money",
+        "Inf Money Shopping",
+        "Inf Exp Points",
+        "Inf Exp",
+        "--Max exp"
+      ]
+    },
+    {
+      "sourceId": "f3c6c310",
+      "file": "CUSA10455_01.07_f3c6c310.json",
+      "path": "json/CUSA10455_01.07_f3c6c310.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Sondio"
+      ],
+      "notes": null,
+      "cheats": [
+        "Master Code (MC)",
+        "Max Health (Enable MC)",
+        "Max Health Car (Enable MC)",
+        "Max Shield (Enable MC)",
+        "Max Nitro (Enable MC)",
+        "Max XP/Level (Enable MC)",
+        "Max Skill Points",
+        "Max Money",
+        "Unlock Weapons Slots (Enable MC)",
+        "Max Weapon Skill",
+        "Max Weapon Accuracy (Enable MC)",
+        "Max Demage/One Hit Kill (Enable MC)",
+        "Max Ammo (Enable MC)",
+        "No Reload (Enable MC)",
+        "Space in the Backpack x99 (Enable MC)",
+        "Ignored by the Enemy (Enable MC)",
+        "Hyper Run (Enable MC)",
+        "Jump x2 (Enable MC)",
+        "Infinite Golden Keys (Enable MC)"
+      ]
+    }
+  ]
+}

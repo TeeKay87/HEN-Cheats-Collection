@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "id": "CUSA17245",
+  "version": "01.12",
+  "files": [
+    {
+      "sourceId": "54fb78ae",
+      "file": "CUSA17245_01.12_54fb78ae.json",
+      "path": "json/CUSA17245_01.12_54fb78ae.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health (deactivate to destroy boxes)",
+        "Max coins(on gain deactivate health first)",
+        "10 items (on sell)",
+        "Equipment Max Durability",
+        "Infinite Mana",
+        "max Items (on use)",
+        "Instant Fate recharge (after being all used)",
+        "Fate Instant Recharge (on killing enemies)"
+      ]
+    }
+  ]
+}

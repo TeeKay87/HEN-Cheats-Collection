@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "id": "CUSA11100",
+  "version": "01.25",
+  "files": [
+    {
+      "sourceId": "877fc0f8",
+      "file": "CUSA11100_01.25_877fc0f8.json",
+      "path": "json/CUSA11100_01.25_877fc0f8.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "All Client Infinite Ammo",
+        "All Client Godmode",
+        "Infinite Points",
+        "Infinite Specialist / Grenades",
+        "Infinite Shield Durability",
+        "1-Hit Kill",
+        "Draw Lobby Debug",
+        "Remove Dvar Protections",
+        "Spoof Lobby ZM",
+        "Spoof Lobby WZ",
+        "exec wz default settings.cfg",
+        "map wz open skyscrapers",
+        "map wz escape",
+        "sv mapname wz open skyscrapers",
+        "disconnect",
+        "Blackout Step 1",
+        "Blackout Step 2",
+        "Blackout Step 3",
+        "Patch FindXAssetHeader"
+      ]
+    },
+    {
+      "sourceId": "b01d89ff",
+      "file": "CUSA11100_01.25_b01d89ff.json",
+      "path": "json/CUSA11100_01.25_b01d89ff.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "All Client Infinite Ammo",
+        "All Client Godmode",
+        "Infinite Points",
+        "Infinite Specialist / Grenades",
+        "Infinite Shield Durability",
+        "1-Hit Kill",
+        "Draw Lobby Debug",
+        "Remove Dvar Protections",
+        "Spoof Lobby ZM",
+        "Spoof Lobby WZ",
+        "exec wz default settings.cfg",
+        "map wz open skyscrapers",
+        "map wz escape",
+        "sv mapname wz open skyscrapers",
+        "disconnect",
+        "Blackout Step 1",
+        "Blackout Step 2",
+        "Blackout Step 3",
+        "Patch FindXAssetHeader"
+      ]
+    }
+  ]
+}

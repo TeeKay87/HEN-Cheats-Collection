@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "id": "CUSA12605",
+  "version": "01.13",
+  "files": [
+    {
+      "sourceId": "7a25ecd7",
+      "file": "CUSA12605_01.13_7a25ecd7.shn",
+      "path": "shn/CUSA12605_01.13_7a25ecd7.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Jump",
+        "Infinite Breath Holding",
+        "Infinite Running",
+        "Infinite Water walk",
+        "Infinite Boot Durability",
+        "Infinite Spray/Ladder/Anchor/PCC",
+        "Infinite Speed/Power Skeleton use",
+        "Infinite Ammo/No reload",
+        "Infinite Structures Durability",
+        "Infinite Truck Durability (on land)",
+        "Infinite Truck Durability (on water)",
+        "No Cargo Damage 1",
+        "No cargo damage 2 (in case 1 didnt work)",
+        "No clip",
+        "Fast Running",
+        "0.1 Weight Carrying",
+        "Alot of Chiral Crystals (on collect)",
+        "Special Alloy Wont decrease",
+        "Chemicals 900000 (on spend first time)",
+        "Ceramic 900000 (on spend first time)",
+        "Metal 900000 (on spend first time)",
+        "Resins 900000 (on spend first time)"
+      ]
+    }
+  ]
+}

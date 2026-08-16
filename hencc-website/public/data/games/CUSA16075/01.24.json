@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "id": "CUSA16075",
+  "version": "01.24",
+  "files": [
+    {
+      "sourceId": "034db992",
+      "file": "CUSA16075_01.24_034db992.mc4",
+      "path": "mc4/CUSA16075_01.24_034db992.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max/Infinite Health/1 Shot Kills (Master Code)",
+        "Max/Infinite Health (Enable MC)",
+        "1 Shot Kills (Enable MC)",
+        "Infinite Stamina (For Running)",
+        "Infinite Focus",
+        "Max/Infinite Ammo/Items",
+        "No Reload",
+        "Max XP/Levels/Skill Points On Gain (Disable/Restart The Game)"
+      ]
+    },
+    {
+      "sourceId": "82f7883c",
+      "file": "CUSA16075_01.24_82f7883c.shn",
+      "path": "shn/CUSA16075_01.24_82f7883c.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max/Infinite Health/1 Shot Kills (Master Code)",
+        "Max/Infinite Health (Enable MC)",
+        "1 Shot Kills (Enable MC)",
+        "Infinite Stamina (For Running)",
+        "Infinite Focus",
+        "Max/Infinite Ammo/Items",
+        "No Reload",
+        "Max XP/Levels/Skill Points On Gain (Disable/Restart The Game)"
+      ]
+    }
+  ]
+}

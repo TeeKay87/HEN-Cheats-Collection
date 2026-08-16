@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "CUSA18278",
+  "version": "01.05",
+  "files": [
+    {
+      "sourceId": "2e6635a6",
+      "file": "CUSA18278_01.05_2e6635a6.json",
+      "path": "json/CUSA18278_01.05_2e6635a6.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health / Stamina",
+        "Max Money/Ammo/Med Kit/Craft Res",
+        "No Reload",
+        "Infinite Grenades",
+        "Max Character Creation / Attribute / Perks Points"
+      ]
+    },
+    {
+      "sourceId": "743f216c",
+      "file": "CUSA18278_01.05_743f216c.json",
+      "path": "json/CUSA18278_01.05_743f216c.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health / Stamina",
+        "Max Money/Ammo/Med Kit/Craft Res",
+        "Character Building Points (Disable B4 Confirm)",
+        "No Reload",
+        "Max Attribute /Perks Points (Disable After Maxed)"
+      ]
+    }
+  ]
+}

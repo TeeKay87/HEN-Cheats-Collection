@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "id": "CUSA27730",
+  "version": "01.02",
+  "files": [
+    {
+      "sourceId": "e113ebbe",
+      "file": "CUSA27730_01.02_e113ebbe.json",
+      "path": "json/CUSA27730_01.02_e113ebbe.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite MP",
+        "Max Experience (Summoners)",
+        "Fast Level up (Demons)",
+        "Max Yen (on gain)",
+        "Max items (On use)"
+      ]
+    },
+    {
+      "sourceId": "6640df3b",
+      "file": "CUSA27730_01.02_6640df3b.mc4",
+      "path": "mc4/CUSA27730_01.02_6640df3b.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite MP",
+        "Max Experience (Summoners)",
+        "Fast Level up (Demons)",
+        "Max Yen (on gain)",
+        "Max items (On use)"
+      ]
+    },
+    {
+      "sourceId": "fdac5587",
+      "file": "CUSA27730_01.02_fdac5587.shn",
+      "path": "shn/CUSA27730_01.02_fdac5587.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite MP",
+        "Max Experience (Summoners)",
+        "Fast Level up (Demons)",
+        "Max Yen (on gain)",
+        "Max items (On use)"
+      ]
+    }
+  ]
+}

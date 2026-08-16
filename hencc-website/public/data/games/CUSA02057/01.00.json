@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "id": "CUSA02057",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "09bbae04",
+      "file": "CUSA02057_01.00_09bbae04.json",
+      "path": "json/CUSA02057_01.00_09bbae04.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Special"
+      ]
+    },
+    {
+      "sourceId": "35e92b0c",
+      "file": "CUSA02057_01.00_35e92b0c.json",
+      "path": "json/CUSA02057_01.00_35e92b0c.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Special"
+      ]
+    },
+    {
+      "sourceId": "4ce334fa",
+      "file": "CUSA02057_01.00_4ce334fa.mc4",
+      "path": "mc4/CUSA02057_01.00_4ce334fa.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Special"
+      ]
+    },
+    {
+      "sourceId": "afecd26e",
+      "file": "CUSA02057_01.00_afecd26e.shn",
+      "path": "shn/CUSA02057_01.00_afecd26e.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Special"
+      ]
+    }
+  ]
+}

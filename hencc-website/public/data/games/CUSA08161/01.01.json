@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "id": "CUSA08161",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "c1f7bae7",
+      "file": "CUSA08161_01.01_c1f7bae7.json",
+      "path": "json/CUSA08161_01.01_c1f7bae7.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Muhanned"
+      ],
+      "notes": null,
+      "cheats": [
+        "God-Mode",
+        "infinity Arm",
+        "infinity Red Orb"
+      ]
+    },
+    {
+      "sourceId": "d25c5c52",
+      "file": "CUSA08161_01.01_d25c5c52.mc4",
+      "path": "mc4/CUSA08161_01.01_d25c5c52.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Muhanned"
+      ],
+      "notes": null,
+      "cheats": [
+        "God-Mode",
+        "infinity Arm",
+        "infinity Red Orb"
+      ]
+    },
+    {
+      "sourceId": "7df8521c",
+      "file": "CUSA08161_01.01_7df8521c.shn",
+      "path": "shn/CUSA08161_01.01_7df8521c.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Muhanned"
+      ],
+      "notes": null,
+      "cheats": [
+        "God-Mode",
+        "infinity Arm",
+        "infinity Red Orb"
+      ]
+    }
+  ]
+}

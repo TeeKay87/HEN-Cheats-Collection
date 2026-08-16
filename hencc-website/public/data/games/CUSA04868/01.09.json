@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "id": "CUSA04868",
+  "version": "01.09",
+  "files": [
+    {
+      "sourceId": "14389a72",
+      "file": "CUSA04868_01.09_14389a72.json",
+      "path": "json/CUSA04868_01.09_14389a72.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health",
+        "Inf Breath",
+        "Inf Silencer",
+        "Inf Ammo / No Reload",
+        "Inf Throwables",
+        "Max Money",
+        "Max Explosive Parts",
+        "Max Electronics Parts",
+        "Max Mechanical Parts",
+        "Max Bullet Heads",
+        "Max Canisters"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "id": "CUSA26491",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "4a78c08c",
+      "file": "CUSA26491_01.01_4a78c08c.json",
+      "path": "json/CUSA26491_01.01_4a78c08c.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health Seryngs",
+        "Infinite Ammo/No Reload",
+        "Infinite Throwables",
+        "Max Infinite Money [9999]"
+      ]
+    },
+    {
+      "sourceId": "ed637fe0",
+      "file": "CUSA26491_01.01_ed637fe0.json",
+      "path": "json/CUSA26491_01.01_ed637fe0.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health / 1Hit (master Code)",
+        "1 Hit Kill",
+        "Infinite Ammo / No Reload",
+        "Infinite Throwing Knives"
+      ]
+    }
+  ]
+}

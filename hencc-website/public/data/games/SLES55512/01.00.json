@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "id": "SLES55512",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "642ed04a",
+      "file": "SLES55512_01.00_642ed04a.json",
+      "path": "json/SLES55512_01.00_642ed04a.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Sengoku-Inf-lives",
+        "Sengoku-Inf-Energy",
+        "Sengoku-2-Rest-Energy",
+        "Sengoku-2-Inf-lives",
+        "Sengoku-3-Invincible",
+        "Sengoku-3-Inf-lives",
+        "Sengoku-3-Inf-Energy ",
+        "Sengoku-3-Inf-credits",
+        "Sengoku-3-Rest-shurikens"
+      ]
+    }
+  ]
+}

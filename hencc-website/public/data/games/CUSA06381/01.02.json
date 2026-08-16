@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "id": "CUSA06381",
+  "version": "01.02",
+  "files": [
+    {
+      "sourceId": "0dc80947",
+      "file": "CUSA06381_01.02_0dc80947.json",
+      "path": "json/CUSA06381_01.02_0dc80947.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Weysincha"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode Left Player",
+        "Infinite Chakra Left Player",
+        "Infinite Money / Ryo"
+      ]
+    },
+    {
+      "sourceId": "55c6f6fc",
+      "file": "CUSA06381_01.02_55c6f6fc.mc4",
+      "path": "mc4/CUSA06381_01.02_55c6f6fc.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Weysincha"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode Left Player",
+        "Infinite Chakra Left Player",
+        "Infinite Money / Ryo"
+      ]
+    },
+    {
+      "sourceId": "089c3c6c",
+      "file": "CUSA06381_01.02_089c3c6c.shn",
+      "path": "shn/CUSA06381_01.02_089c3c6c.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH, Dante"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infite Health + 1 Hit Kills",
+        "Infinite Health",
+        "1 Hit Kill (Turn off in Boss Battle)",
+        "Infinite Chakra",
+        "infinite Ryo on Gain",
+        "Infinite Items on Spend"
+      ]
+    }
+  ]
+}

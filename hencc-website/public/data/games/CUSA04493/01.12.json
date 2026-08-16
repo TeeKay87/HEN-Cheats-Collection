@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "id": "CUSA04493",
+  "version": "01.12",
+  "files": [
+    {
+      "sourceId": "6d27ccda",
+      "file": "CUSA04493_01.12_6d27ccda.json",
+      "path": "json/CUSA04493_01.12_6d27ccda.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "x99 All Items(gain/use have 2 at least)",
+        "Infinite Ammo / No reload",
+        "Infinite Health"
+      ]
+    }
+  ]
+}

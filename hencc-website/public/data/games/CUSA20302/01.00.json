@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "CUSA20302",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "b1d639f9",
+      "file": "CUSA20302_01.00_b1d639f9.json",
+      "path": "json/CUSA20302_01.00_b1d639f9.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 ",
+        " FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Mastercode Coins/Lives ( must be activated )",
+        "Max Coins ( on gain ) [MC]",
+        "Max Lives [MC]",
+        "Infinite Hearts"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "id": "PPSA20560",
+  "version": "01.009.000",
+  "files": [
+    {
+      "sourceId": "cd8594fc",
+      "file": "PPSA20560_01.009.000_cd8594fc.mc4",
+      "path": "mc4/PPSA20560_01.009.000_cd8594fc.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Yharnam"
+      ],
+      "notes": null,
+      "cheats": [
+        "1 Hit Kill",
+        "Untouchable (Player)",
+        "Untouchable (Mech, Turret)",
+        "Infi Health (Player)",
+        "Infi Health (Mech, Turret)",
+        "Infi Health (Dragon)",
+        "Infi Ammo",
+        "Infi Shield Durability",
+        "Infi Punch",
+        "Infi Gold & Ruby (Use)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "id": "CUSA13034",
+  "version": "01.02",
+  "files": [
+    {
+      "sourceId": "3f8791de",
+      "file": "CUSA13034_01.02_3f8791de.json",
+      "path": "json/CUSA13034_01.02_3f8791de.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health (Don't Use With 1 Hit)",
+        "Inf Health / 1 Hit Kill",
+        "Inf Ammo / No Reload"
+      ]
+    },
+    {
+      "sourceId": "dac3cf7a",
+      "file": "CUSA13034_01.02_dac3cf7a.json",
+      "path": "json/CUSA13034_01.02_dac3cf7a.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health (Dont Use With 1 Hit)",
+        "Inf Health / 1 Hit Kill",
+        "Inf Ammo / No Reload"
+      ]
+    }
+  ]
+}

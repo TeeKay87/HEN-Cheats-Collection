@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "id": "CUSA03698",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "06ab5bcc",
+      "file": "CUSA03698_01.01_06ab5bcc.json",
+      "path": "json/CUSA03698_01.01_06ab5bcc.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-lives",
+        "Infinite-Bomb"
+      ]
+    },
+    {
+      "sourceId": "1c5ff5fa",
+      "file": "CUSA03698_01.01_1c5ff5fa.shn",
+      "path": "shn/CUSA03698_01.01_1c5ff5fa.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-lives",
+        "Infinite-Bomb"
+      ]
+    }
+  ]
+}

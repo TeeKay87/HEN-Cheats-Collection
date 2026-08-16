@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "id": "CUSA04841",
+  "version": "04.42",
+  "files": [
+    {
+      "sourceId": "f88d3143",
+      "file": "CUSA04841_04.42_f88d3143.mc4",
+      "path": "mc4/CUSA04841_04.42_f88d3143.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "VitriolUsurper"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite - Player Sheild",
+        "Infinite - Player Health",
+        "Infinite - StarShip Sheild",
+        "Infinite - StarShip Health",
+        "Max Units - On Gain",
+        "Max Nanites - On Gain",
+        "Max Quicksliver - On Gain",
+        "Frozen - Units",
+        "Frozen - Nanites",
+        "Frozen - Quicksilver",
+        "Frozen - Mining Beam",
+        "Frozen - Terrain Manipulator",
+        "Frozen - Boltcaster Ammo",
+        "Frozen - Plasma Launcher Ammo",
+        "Frozen - Scatter Blaster Ammo",
+        "Frozen - Pulse Spitter Ammo",
+        "Frozen - Geology Cannon Ammo"
+      ]
+    },
+    {
+      "sourceId": "2c6e4d65",
+      "file": "CUSA04841_04.42_2c6e4d65.shn",
+      "path": "shn/CUSA04841_04.42_2c6e4d65.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "VitriolUsurper"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite - Player Sheild",
+        "Infinite - Player Health",
+        "Infinite - StarShip Sheild",
+        "Infinite - StarShip Health",
+        "Max Units - On Gain",
+        "Max Nanites - On Gain",
+        "Max Quicksliver - On Gain",
+        "Frozen - Units",
+        "Frozen - Nanites",
+        "Frozen - Quicksilver",
+        "Frozen - Mining Beam",
+        "Frozen - Terrain Manipulator",
+        "Frozen - Boltcaster Ammo",
+        "Frozen - Plasma Launcher Ammo",
+        "Frozen - Scatter Blaster Ammo"
+      ]
+    }
+  ]
+}

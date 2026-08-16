@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "id": "PPSA01342",
+  "version": "01.005.000",
+  "files": [
+    {
+      "sourceId": "1044638b",
+      "file": "PPSA01342_01.005.000_1044638b.mc4",
+      "path": "mc4/PPSA01342_01.005.000_1044638b.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Yharnam"
+      ],
+      "notes": null,
+      "cheats": [
+        "Untouchable",
+        "MC (Master Code)",
+        "Infi Health (MC Required)",
+        "1 Hit Kill (MC Required)",
+        "Infi MP",
+        "Infi Stamina",
+        "Infi Items",
+        "Infi Weapons & Armor Durability",
+        "Max Souls"
+      ]
+    },
+    {
+      "sourceId": "146290d0",
+      "file": "PPSA01342_01.005.000_146290d0.mc4",
+      "path": "mc4/PPSA01342_01.005.000_146290d0.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Yharnam"
+      ],
+      "notes": null,
+      "cheats": [
+        "Untouchable",
+        "Infi HP",
+        "Infi MP",
+        "Infi Stamina",
+        "Infi Items",
+        "Infi Weapons & Armor Durability",
+        "Max Souls"
+      ]
+    }
+  ]
+}

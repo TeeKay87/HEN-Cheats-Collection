@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "CUSA03185",
+  "version": "01.06",
+  "files": [
+    {
+      "sourceId": "4f951b01",
+      "file": "CUSA03185_01.06_4f951b01.json",
+      "path": "json/CUSA03185_01.06_4f951b01.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Skal"
+      ],
+      "notes": null,
+      "cheats": [
+        "Items Never Decrease",
+        "Max Exp"
+      ]
+    }
+  ]
+}

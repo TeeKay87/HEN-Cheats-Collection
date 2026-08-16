@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "id": "CUSA10007",
+  "version": "01.08",
+  "files": [
+    {
+      "sourceId": "26831835",
+      "file": "CUSA10007_01.08_26831835.mc4",
+      "path": "mc4/CUSA10007_01.08_26831835.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Grim Doe"
+      ],
+      "notes": null,
+      "cheats": [
+        "Knife Keeper",
+        "Unlimited Knifing Time",
+        "Homemade Traps Locked",
+        "Freeze Countdown Timer",
+        "Show Time Use After Time Disappear",
+        "Jason Instent Rage",
+        "Jason Instant All Skills",
+        "Jason Inf Skill Time",
+        "Jason Instent Skill Colldown"
+      ]
+    },
+    {
+      "sourceId": "faecb251",
+      "file": "CUSA10007_01.08_faecb251.shn",
+      "path": "shn/CUSA10007_01.08_faecb251.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "hejran7 and Grim Doe"
+      ],
+      "notes": null,
+      "cheats": [
+        "Knife Keeper",
+        "Unlimited Knifing Time",
+        "Homemade Traps Locked",
+        "Freeze Countdown Timer",
+        "Show Time Use After Time Disappear",
+        "Jason Instent Rage",
+        "Jason Instant All Skills",
+        "Jason Inf Skill Time",
+        "Jason Instent Skill Colldown"
+      ]
+    }
+  ]
+}

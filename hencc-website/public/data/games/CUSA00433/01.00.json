@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "id": "CUSA00433",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "905133b0",
+      "file": "CUSA00433_01.00_905133b0.json",
+      "path": "json/CUSA00433_01.00_905133b0.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "d01v_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Fury",
+        "Infinite Wrath",
+        "Infinite Mana (Wizard)",
+        "Infinite Mana (Necro Mancer)",
+        "Infinite Hatred and Discipline",
+        "Infinite Spirit",
+        "Magic Find (equip any item / single cheat turn off after)"
+      ]
+    }
+  ]
+}

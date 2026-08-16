@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "id": "CUSA16720",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "f997c2f3",
+      "file": "CUSA16720_01.00_f997c2f3.json",
+      "path": "json/CUSA16720_01.00_f997c2f3.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Huron_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode"
+      ]
+    },
+    {
+      "sourceId": "6d0e6a10",
+      "file": "CUSA16720_01.00_6d0e6a10.mc4",
+      "path": "mc4/CUSA16720_01.00_6d0e6a10.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Huron_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode"
+      ]
+    },
+    {
+      "sourceId": "9c7c959c",
+      "file": "CUSA16720_01.00_9c7c959c.shn",
+      "path": "shn/CUSA16720_01.00_9c7c959c.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Huron_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode"
+      ]
+    }
+  ]
+}

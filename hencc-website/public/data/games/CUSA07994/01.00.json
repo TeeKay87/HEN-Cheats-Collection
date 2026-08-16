@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "CUSA07994",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "013e44ad",
+      "file": "CUSA07994_01.00_013e44ad.json",
+      "path": "json/CUSA07994_01.00_013e44ad.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Sean"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Transfer Budget",
+        "x2 Transfer Budget"
+      ]
+    }
+  ]
+}

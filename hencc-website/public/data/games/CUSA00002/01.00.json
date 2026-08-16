@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "id": "CUSA00002",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "c20ae0e8",
+      "file": "CUSA00002_01.00_c20ae0e8.json",
+      "path": "json/CUSA00002_01.00_c20ae0e8.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Ammo",
+        "Infinite Medkits (Slow Time)"
+      ]
+    },
+    {
+      "sourceId": "becba649",
+      "file": "CUSA00002_01.00_becba649.mc4",
+      "path": "mc4/CUSA00002_01.00_becba649.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Ammo",
+        "Infinite Medkits (Slow Time)"
+      ]
+    },
+    {
+      "sourceId": "6a66d76f",
+      "file": "CUSA00002_01.00_6a66d76f.shn",
+      "path": "shn/CUSA00002_01.00_6a66d76f.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Ammo",
+        "Infinite Medkits (Slow Time)"
+      ]
+    }
+  ]
+}

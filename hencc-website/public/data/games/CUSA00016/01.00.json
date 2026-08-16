@@ -1,0 +1,78 @@
+{
+  "schema": 1,
+  "id": "CUSA00016",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "36eb8c62",
+      "file": "CUSA00016_01.00_36eb8c62.json",
+      "path": "json/CUSA00016_01.00_36eb8c62.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "golden"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Ammo",
+        "Infinite Battery"
+      ]
+    },
+    {
+      "sourceId": "e4bf73bd",
+      "file": "CUSA00016_01.00_e4bf73bd.json",
+      "path": "json/CUSA00016_01.00_e4bf73bd.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Arafat"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Ammo/Gadgets",
+        "Bottomless Clip/No Reload",
+        "Max Infinite Ammo/Gadgets",
+        "Infinite Skill Points/Cash",
+        "Earn Skill Points/Cash on Spend",
+        "Max Infinite Skill Points/Cash",
+        "Max Infinite Battery",
+        "Max Infinite Focus"
+      ]
+    },
+    {
+      "sourceId": "a051680c",
+      "file": "CUSA00016_01.00_a051680c.mc4",
+      "path": "mc4/CUSA00016_01.00_a051680c.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "golden"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Ammo",
+        "Infinite Battery"
+      ]
+    },
+    {
+      "sourceId": "55f08f42",
+      "file": "CUSA00016_01.00_55f08f42.shn",
+      "path": "shn/CUSA00016_01.00_55f08f42.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "golden"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Ammo",
+        "Infinite Battery"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "id": "PPSA03396",
+  "version": "01.000.000",
+  "files": [
+    {
+      "sourceId": "b4a1e04b",
+      "file": "PPSA03396_01.000.000_b4a1e04b.mc4",
+      "path": "mc4/PPSA03396_01.000.000_b4a1e04b.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Yanam Guy"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Ammo (No Reload)",
+        "Infinite Weapon Durability",
+        "Infinite Consumables"
+      ]
+    },
+    {
+      "sourceId": "25cde58f",
+      "file": "PPSA03396_01.000.000_25cde58f.shn",
+      "path": "shn/PPSA03396_01.000.000_25cde58f.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Super Death"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health + OHK",
+        "God Mode ",
+        "Infinite Health ",
+        "One Hit Kill",
+        "Infinite Ammo",
+        "Inf Molotov, Consumables, Health Packs, Throwables",
+        "Infinite Air"
+      ]
+    }
+  ]
+}

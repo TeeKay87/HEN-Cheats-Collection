@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "id": "PPSA05621",
+  "version": "01.001.000",
+  "files": [
+    {
+      "sourceId": "702bb09f",
+      "file": "PPSA05621_01.001.000_702bb09f.mc4",
+      "path": "mc4/PPSA05621_01.001.000_702bb09f.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Yharnam"
+      ],
+      "notes": null,
+      "cheats": [
+        "God Mode",
+        "Infi Ammo",
+        "Infi Grenades",
+        "Acquire SP x 5",
+        "Acquire Adrenaline x 10",
+        "Infi Medikit"
+      ]
+    }
+  ]
+}

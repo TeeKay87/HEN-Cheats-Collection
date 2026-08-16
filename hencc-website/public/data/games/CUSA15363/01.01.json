@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "id": "CUSA15363",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "164c11fd",
+      "file": "CUSA15363_01.01_164c11fd.json",
+      "path": "json/CUSA15363_01.01_164c11fd.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Yen (on spend)",
+        "Abilities Points Multiplier(on use)",
+        "Infinite Heat/dragon spirit use (after the first fill)"
+      ]
+    },
+    {
+      "sourceId": "d94838e8",
+      "file": "CUSA15363_01.01_d94838e8.shn",
+      "path": "shn/CUSA15363_01.01_d94838e8.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Pointer",
+        "Health / 1 Hit Kill",
+        "Infinite Health",
+        "1 Hit Kill",
+        "Infinite Heat",
+        "Max Money",
+        "Max Items (Warehouse)",
+        "Infinite Items (Warehouse)",
+        "Infinite Items",
+        "Max XP",
+        "Freeze Skillpoints",
+        "Max Skillpoints",
+        "Ufo Catcher: Infinite Attempts"
+      ]
+    }
+  ]
+}

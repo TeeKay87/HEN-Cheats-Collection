@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "id": "CUSA01867",
+  "version": "01.07",
+  "files": [
+    {
+      "sourceId": "4231c930",
+      "file": "CUSA01867_01.07_4231c930.json",
+      "path": "json/CUSA01867_01.07_4231c930.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Gold",
+        "Inf Life",
+        "Inf Magic"
+      ]
+    },
+    {
+      "sourceId": "893046f9",
+      "file": "CUSA01867_01.07_893046f9.json",
+      "path": "json/CUSA01867_01.07_893046f9.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Gold",
+        "Inf Life",
+        "Inf Magic"
+      ]
+    },
+    {
+      "sourceId": "988343fd",
+      "file": "CUSA01867_01.07_988343fd.shn",
+      "path": "shn/CUSA01867_01.07_988343fd.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Gold",
+        "Inf Life",
+        "Inf Magic"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "id": "CUSA40247",
+  "version": "01.04",
+  "files": [
+    {
+      "sourceId": "cc708559",
+      "file": "CUSA40247_01.04_cc708559.mc4",
+      "path": "mc4/CUSA40247_01.04_cc708559.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Health / Armor / Ammo / Skill Points (Master Code)",
+        "Inf Health / Armor",
+        "Inf Ammo",
+        "Inf Skill Points (On Use)",
+        "Fast Exp / Levels (Master Code)",
+        "x50",
+        "x100",
+        "x200"
+      ]
+    },
+    {
+      "sourceId": "db5559b6",
+      "file": "CUSA40247_01.04_db5559b6.shn",
+      "path": "shn/CUSA40247_01.04_db5559b6.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Health / Armor / Ammo / Skill Points (Master Code)",
+        "Inf Health / Armor",
+        "Inf Ammo",
+        "Inf Skill Points (On Use)",
+        "Fast Exp / Levels (Master Code)",
+        "x50",
+        "x100",
+        "x200"
+      ]
+    }
+  ]
+}

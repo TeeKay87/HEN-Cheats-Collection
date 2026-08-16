@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "CUSA06638",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "c46d4cea",
+      "file": "CUSA06638_01.00_c46d4cea.mc4",
+      "path": "mc4/CUSA06638_01.00_c46d4cea.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Weysincha"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health(Main Character)",
+        "Inf Money",
+        "Inf Exp/ Max Lvl (Main Character)",
+        "Inf SP",
+        "Inf Bullets"
+      ]
+    },
+    {
+      "sourceId": "348a2427",
+      "file": "CUSA06638_01.00_348a2427.shn",
+      "path": "shn/CUSA06638_01.00_348a2427.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Weysincha"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health(Main Character)",
+        "Inf Money",
+        "Inf Exp/ Max Lvl (Main Character)",
+        "Inf SP",
+        "Inf Bullets"
+      ]
+    }
+  ]
+}

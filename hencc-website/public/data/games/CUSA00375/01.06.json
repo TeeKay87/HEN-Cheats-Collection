@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "id": "CUSA00375",
+  "version": "01.06",
+  "files": [
+    {
+      "sourceId": "9cea8476",
+      "file": "CUSA00375_01.06_9cea8476.json",
+      "path": "json/CUSA00375_01.06_9cea8476.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Pointer",
+        "Health / 1 Hit Kills",
+        "Infinite Health",
+        "1 Hit Kills",
+        "Bottomless Clip",
+        "Infinite Ammo",
+        "Infinite Gel",
+        "Infinite Stamina",
+        "Infinite Items"
+      ]
+    }
+  ]
+}

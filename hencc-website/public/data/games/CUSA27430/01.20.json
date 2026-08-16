@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "id": "CUSA27430",
+  "version": "01.20",
+  "files": [
+    {
+      "sourceId": "b61b7e25",
+      "file": "CUSA27430_01.20_b61b7e25.mc4",
+      "path": "mc4/CUSA27430_01.20_b61b7e25.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "No Cooldown",
+        "Infinite Jumps",
+        "Max/Infinite Coins/Crystals/Bones (Disable After Gain)"
+      ]
+    },
+    {
+      "sourceId": "6243bf95",
+      "file": "CUSA27430_01.20_6243bf95.shn",
+      "path": "shn/CUSA27430_01.20_6243bf95.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "No Cooldown",
+        "Infinite Jumps",
+        "Max/Infinite Coins/Crystals/Bones (Disable After Gain)"
+      ]
+    }
+  ]
+}

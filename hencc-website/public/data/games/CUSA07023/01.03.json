@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "id": "CUSA07023",
+  "version": "01.03",
+  "files": [
+    {
+      "sourceId": "4ca2bd27",
+      "file": "CUSA07023_01.03_4ca2bd27.json",
+      "path": "json/CUSA07023_01.03_4ca2bd27.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Rings",
+        "Infinite Lives",
+        "Enable Super Sonic",
+        "Disable Super Sonic",
+        "Super Speed",
+        "All Silver Medals"
+      ]
+    },
+    {
+      "sourceId": "b1a906fe",
+      "file": "CUSA07023_01.03_b1a906fe.json",
+      "path": "json/CUSA07023_01.03_b1a906fe.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Rings",
+        "Infinite Lives",
+        "Enable Super Sonic",
+        "Disable Super Sonic",
+        "Super Speed",
+        "All Silver Medals"
+      ]
+    },
+    {
+      "sourceId": "d7e363b1",
+      "file": "CUSA07023_01.03_d7e363b1.mc4",
+      "path": "mc4/CUSA07023_01.03_d7e363b1.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Rings",
+        "Infinite Lives",
+        "Enable Super Sonic",
+        "Disable Super Sonic",
+        "Super Speed",
+        "All Silver Medals"
+      ]
+    },
+    {
+      "sourceId": "6db998a5",
+      "file": "CUSA07023_01.03_6db998a5.shn",
+      "path": "shn/CUSA07023_01.03_6db998a5.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Rings",
+        "Infinite Lives",
+        "Enable Super Sonic",
+        "Super Speed",
+        "All Silver Medals"
+      ]
+    }
+  ]
+}

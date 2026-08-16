@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "id": "CUSA09421",
+  "version": "01.03",
+  "files": [
+    {
+      "sourceId": "08afc1f8",
+      "file": "CUSA09421_01.03_08afc1f8.json",
+      "path": "json/CUSA09421_01.03_08afc1f8.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Max Stars",
+        "Infinite Shield Timer",
+        "Infinite Shield",
+        "Infinite Mega Bomb",
+        "Infinite Laser"
+      ]
+    },
+    {
+      "sourceId": "e976ef90",
+      "file": "CUSA09421_01.03_e976ef90.json",
+      "path": "json/CUSA09421_01.03_e976ef90.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "hejran7"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinity Resources",
+        "Infinite Laser",
+        "Infinite Shield",
+        "Infinite Mega Bome",
+        "Press R3 to Refill Energy Shield Timer"
+      ]
+    },
+    {
+      "sourceId": "6567747a",
+      "file": "CUSA09421_01.03_6567747a.shn",
+      "path": "shn/CUSA09421_01.03_6567747a.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "hejran7"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinity Resources",
+        "Infinite Laser",
+        "Infinite Shield",
+        "Infinite Mega Bome",
+        "Press R3 to Refill Energy Shield Timer"
+      ]
+    }
+  ]
+}

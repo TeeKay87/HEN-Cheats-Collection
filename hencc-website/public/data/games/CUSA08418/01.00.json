@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "id": "CUSA08418",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "0b7fbc82",
+      "file": "CUSA08418_01.00_0b7fbc82.json",
+      "path": "json/CUSA08418_01.00_0b7fbc82.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Skal"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "1 Hit Kill (Small enemies only)",
+        "Max Yen On Gain",
+        "Max Karma On Gain",
+        "Max Demon Fangs On Gain",
+        "Infinite Double Jump (After It Is Unlocked)"
+      ]
+    },
+    {
+      "sourceId": "4c22e641",
+      "file": "CUSA08418_01.00_4c22e641.json",
+      "path": "json/CUSA08418_01.00_4c22e641.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Skal"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite double jump (After you unlock double jump)"
+      ]
+    },
+    {
+      "sourceId": "a1ba7f03",
+      "file": "CUSA08418_01.00_a1ba7f03.mc4",
+      "path": "mc4/CUSA08418_01.00_a1ba7f03.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Skal"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite jump (After you unlock double jump)",
+        "Max Demon Fangs on gain",
+        "Max karma on gain"
+      ]
+    },
+    {
+      "sourceId": "4e09ff76",
+      "file": "CUSA08418_01.00_4e09ff76.shn",
+      "path": "shn/CUSA08418_01.00_4e09ff76.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Skal"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "1 Hit Kill (Small enemies only)",
+        "Max Yen On Gain",
+        "Max Karma On Gain",
+        "Max Demon Fangs On Gain",
+        "Infinite Double Jump (After It Is Unlocked)"
+      ]
+    }
+  ]
+}

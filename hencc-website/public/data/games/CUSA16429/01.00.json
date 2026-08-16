@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "id": "CUSA16429",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "d33586b5",
+      "file": "CUSA16429_01.00_d33586b5.mc4",
+      "path": "mc4/CUSA16429_01.00_d33586b5.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Q8despair"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Health",
+        "Max Special Guage "
+      ]
+    },
+    {
+      "sourceId": "67577599",
+      "file": "CUSA16429_01.00_67577599.shn",
+      "path": "shn/CUSA16429_01.00_67577599.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Q8despair"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Health",
+        "Max Special Guage "
+      ]
+    }
+  ]
+}

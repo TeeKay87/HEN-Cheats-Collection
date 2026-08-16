@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "id": "CUSA16273",
+  "version": "01.06",
+  "files": [
+    {
+      "sourceId": "226b5b96",
+      "file": "CUSA16273_01.06_226b5b96.json",
+      "path": "json/CUSA16273_01.06_226b5b96.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "JustGotenks"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Stamina",
+        "One-hit Kill",
+        "One-hit Destroy (trees, rocks, etc)",
+        "No Hunger",
+        "No Item Damage",
+        "Max Coins (on get)",
+        "Lock Item (buggy)"
+      ]
+    },
+    {
+      "sourceId": "6b464751",
+      "file": "CUSA16273_01.06_6b464751.mc4",
+      "path": "mc4/CUSA16273_01.06_6b464751.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "JustGotenks"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Stamina",
+        "One-hit Kill",
+        "One-hit Destroy (trees, rocks, etc)",
+        "No Hunger",
+        "No Item Damage",
+        "Max Coins (on get)",
+        "Lock Item (buggy)"
+      ]
+    },
+    {
+      "sourceId": "d409e01b",
+      "file": "CUSA16273_01.06_d409e01b.shn",
+      "path": "shn/CUSA16273_01.06_d409e01b.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "JustGotenks"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Stamina",
+        "One-hit Kill",
+        "One-hit Destroy (trees, rocks, etc)",
+        "No Hunger",
+        "No Item Damage",
+        "Max Coins (on get)",
+        "Lock Item (buggy)"
+      ]
+    }
+  ]
+}

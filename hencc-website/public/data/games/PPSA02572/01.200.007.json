@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "id": "PPSA02572",
+  "version": "01.200.007",
+  "files": [
+    {
+      "sourceId": "06a7d779",
+      "file": "PPSA02572_01.200.007_06a7d779.mc4",
+      "path": "mc4/PPSA02572_01.200.007_06a7d779.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Aigars Uze"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Battery Boost",
+        "Infinite Ammo (No Reload)",
+        "Battery Pack Increase On Spend",
+        "Painkillers Increase On Spend"
+      ]
+    },
+    {
+      "sourceId": "e5b67ed0",
+      "file": "PPSA02572_01.200.007_e5b67ed0.mc4",
+      "path": "mc4/PPSA02572_01.200.007_e5b67ed0.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Yharnam"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infi Health",
+        "Infi Ammo",
+        "Infi Flashlight Focus",
+        "Infi Items"
+      ]
+    }
+  ]
+}

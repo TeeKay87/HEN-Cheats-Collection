@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "id": "CUSA03824",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "9f2e7175",
+      "file": "CUSA03824_01.00_9f2e7175.json",
+      "path": "json/CUSA03824_01.00_9f2e7175.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Vampirexx"
+      ],
+      "notes": null,
+      "cheats": [
+        "God Mode",
+        "Inf Powers",
+        "Gain Money after Shop"
+      ]
+    },
+    {
+      "sourceId": "a270960e",
+      "file": "CUSA03824_01.00_a270960e.mc4",
+      "path": "mc4/CUSA03824_01.00_a270960e.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Vampirexx"
+      ],
+      "notes": null,
+      "cheats": [
+        "God Mode",
+        "Inf Powers",
+        "Gain Money after Shop / Gain Items after Usage",
+        "No Weight Items"
+      ]
+    },
+    {
+      "sourceId": "9d84c6e6",
+      "file": "CUSA03824_01.00_9d84c6e6.shn",
+      "path": "shn/CUSA03824_01.00_9d84c6e6.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Vampirexx"
+      ],
+      "notes": null,
+      "cheats": [
+        "God Mode",
+        "Inf Powers",
+        "Gain Money after Shop / Gain Items after Usage",
+        "No Weight Items"
+      ]
+    }
+  ]
+}

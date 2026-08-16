@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "id": "CUSA04099",
+  "version": "01.15",
+  "files": [
+    {
+      "sourceId": "5521c9e1",
+      "file": "CUSA04099_01.15_5521c9e1.json",
+      "path": "json/CUSA04099_01.15_5521c9e1.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Rizla"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Stamina",
+        "Infinite Focus",
+        "Infinite Ammo/Throwables/Medkits",
+        "No Reload"
+      ]
+    },
+    {
+      "sourceId": "cfc36eb9",
+      "file": "CUSA04099_01.15_cfc36eb9.json",
+      "path": "json/CUSA04099_01.15_cfc36eb9.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Rizla"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Stamina",
+        "Infinite Focus",
+        "Infinite Ammo/Throwables/Medkits",
+        "No Reload"
+      ]
+    },
+    {
+      "sourceId": "54846836",
+      "file": "CUSA04099_01.15_54846836.mc4",
+      "path": "mc4/CUSA04099_01.15_54846836.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Rizla"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Stamina",
+        "Infinite Focus",
+        "Infinite Ammo/Items/Medkits",
+        "No Reload"
+      ]
+    },
+    {
+      "sourceId": "76c0cf76",
+      "file": "CUSA04099_01.15_76c0cf76.shn",
+      "path": "shn/CUSA04099_01.15_76c0cf76.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Rizla"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Stamina",
+        "Infinite Focus",
+        "Infinite Ammo/Items/Medkits",
+        "No Reload"
+      ]
+    }
+  ]
+}

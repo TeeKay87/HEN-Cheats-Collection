@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "id": "CUSA03440",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "1c3a4160",
+      "file": "CUSA03440_01.01_1c3a4160.mc4",
+      "path": "mc4/CUSA03440_01.01_1c3a4160.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health",
+        "Infinite Throwables",
+        "Inf Helix"
+      ]
+    },
+    {
+      "sourceId": "59735945",
+      "file": "CUSA03440_01.01_59735945.shn",
+      "path": "shn/CUSA03440_01.01_59735945.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health",
+        "Infinite Throwables",
+        "Inf Helix"
+      ]
+    }
+  ]
+}

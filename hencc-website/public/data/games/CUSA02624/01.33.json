@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "CUSA02624",
+  "version": "01.33",
+  "files": [
+    {
+      "sourceId": "024c6328",
+      "file": "CUSA02624_01.33_024c6328.json",
+      "path": "json/CUSA02624_01.33_024c6328.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "d01v_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Ammo (no reload)",
+        "Infinite Stack Ammo",
+        "Grenade x99 + Ammo",
+        "Max Score"
+      ]
+    },
+    {
+      "sourceId": "cf3403a1",
+      "file": "CUSA02624_01.33_cf3403a1.json",
+      "path": "json/CUSA02624_01.33_cf3403a1.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "All Client Godmode",
+        "All Client Infinite Ammo",
+        "Super Jump",
+        "FPS Counter",
+        "Lagometer"
+      ]
+    }
+  ]
+}

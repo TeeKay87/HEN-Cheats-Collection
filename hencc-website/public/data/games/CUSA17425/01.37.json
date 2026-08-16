@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "id": "CUSA17425",
+  "version": "01.37",
+  "files": [
+    {
+      "sourceId": "8fe67039",
+      "file": "CUSA17425_01.37_8fe67039.json",
+      "path": "json/CUSA17425_01.37_8fe67039.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 ",
+        " FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Fuel",
+        "No Damage",
+        "Max Repair Points ( on use )",
+        "Freeze Timer"
+      ]
+    },
+    {
+      "sourceId": "9aec319a",
+      "file": "CUSA17425_01.37_9aec319a.mc4",
+      "path": "mc4/CUSA17425_01.37_9aec319a.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 - FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Fuel",
+        "No Damage",
+        "Max Repair Points ( on use )",
+        "Freeze Timer"
+      ]
+    },
+    {
+      "sourceId": "efd71a6f",
+      "file": "CUSA17425_01.37_efd71a6f.shn",
+      "path": "shn/CUSA17425_01.37_efd71a6f.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 - FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Fuel",
+        "No Damage",
+        "Max Repair Points ( on use )",
+        "Freeze Timer"
+      ]
+    }
+  ]
+}

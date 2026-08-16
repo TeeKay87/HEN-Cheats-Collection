@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "id": "SLPM62685",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "3e8824c7",
+      "file": "SLPM62685_01.00_3e8824c7.json",
+      "path": "json/SLPM62685_01.00_3e8824c7.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-lives P1",
+        "Infinite-Bomb P1"
+      ]
+    },
+    {
+      "sourceId": "47f8ba8b",
+      "file": "SLPM62685_01.00_47f8ba8b.shn",
+      "path": "shn/SLPM62685_01.00_47f8ba8b.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-lives P1",
+        "Infinite-Bomb P1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "CUSA08543",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "3e036678",
+      "file": "CUSA08543_01.00_3e036678.json",
+      "path": "json/CUSA08543_01.00_3e036678.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite HP (All Players) / (Master Code)",
+        "Disable (EDDIE) Inf HP",
+        "Disable (MICK) Inf HP",
+        "Disable (REI) Inf HP",
+        "Disable (TELLER) Inf HP",
+        "Infinite Energy",
+        "Inf Weapon Durability"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "id": "SLUS00977",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "77aaa5a3",
+      "file": "SLUS00977_01.00_77aaa5a3.json",
+      "path": "json/SLUS00977_01.00_77aaa5a3.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health"
+      ]
+    },
+    {
+      "sourceId": "8739b303",
+      "file": "SLUS00977_01.00_8739b303.shn",
+      "path": "shn/SLUS00977_01.00_8739b303.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health"
+      ]
+    }
+  ]
+}

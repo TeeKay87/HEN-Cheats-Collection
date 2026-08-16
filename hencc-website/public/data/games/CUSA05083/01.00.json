@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "id": "CUSA05083",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "71830450",
+      "file": "CUSA05083_01.00_71830450.json",
+      "path": "json/CUSA05083_01.00_71830450.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Skal_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Use Cheats on Refined mode",
+        "Max Phozon On Gain",
+        "Max Gold On Buy",
+        "Max Ability Point On Usage",
+        "Max Exp on Gain"
+      ]
+    },
+    {
+      "sourceId": "3b8a32e8",
+      "file": "CUSA05083_01.00_3b8a32e8.mc4",
+      "path": "mc4/CUSA05083_01.00_3b8a32e8.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Weysincha"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Phozons",
+        "Inf Money",
+        "Max Level"
+      ]
+    },
+    {
+      "sourceId": "317506a8",
+      "file": "CUSA05083_01.00_317506a8.shn",
+      "path": "shn/CUSA05083_01.00_317506a8.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Weysincha"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Phozons",
+        "Inf Money",
+        "Max Level"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "id": "CUSA15010",
+  "version": "01.40",
+  "files": [
+    {
+      "sourceId": "106c1a4b",
+      "file": "CUSA15010_01.40_106c1a4b.json",
+      "path": "json/CUSA15010_01.40_106c1a4b.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "EchoStretch"
+      ],
+      "notes": null,
+      "cheats": [
+        "All Client Godmode",
+        "All Client Infinite Ammo",
+        "All Client Infinite Aetherium Crystals",
+        "All Client 1-Hit Kill",
+        "Infinite Health",
+        "Infinite Aetherium Crystals",
+        "Infinite Ammo",
+        "No Recoil",
+        "No Gun Shake",
+        "Rapid Fire"
+      ]
+    }
+  ]
+}

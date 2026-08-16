@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "CUSA25502",
+  "version": "01.07",
+  "files": [
+    {
+      "sourceId": "b6eeb562",
+      "file": "CUSA25502_01.07_b6eeb562.json",
+      "path": "json/CUSA25502_01.07_b6eeb562.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Unlimited Coins (on gain)",
+        "Unlimited Gears (on gain)",
+        "Unlimited Blind Boxes (on gain)",
+        "Infinite Boost"
+      ]
+    }
+  ]
+}

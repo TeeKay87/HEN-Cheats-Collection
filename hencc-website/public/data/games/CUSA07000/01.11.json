@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "CUSA07000",
+  "version": "01.11",
+  "files": [
+    {
+      "sourceId": "d73e763b",
+      "file": "CUSA07000_01.11_d73e763b.json",
+      "path": "json/CUSA07000_01.11_d73e763b.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Crystal Multiplier (on gain have 2)"
+      ]
+    }
+  ]
+}

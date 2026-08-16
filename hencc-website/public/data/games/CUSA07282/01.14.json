@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "id": "CUSA07282",
+  "version": "01.14",
+  "files": [
+    {
+      "sourceId": "a07936c9",
+      "file": "CUSA07282_01.14_a07936c9.json",
+      "path": "json/CUSA07282_01.14_a07936c9.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Health / 1 Hit (Master Code)",
+        "1 Hit Kill",
+        "Stamina",
+        "Shield",
+        "Infinite Finisher (After 1st Use)",
+        "Max Shard"
+      ]
+    }
+  ]
+}

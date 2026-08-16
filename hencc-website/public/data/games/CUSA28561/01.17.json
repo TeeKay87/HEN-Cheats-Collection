@@ -1,0 +1,98 @@
+{
+  "schema": 1,
+  "id": "CUSA28561",
+  "version": "01.17",
+  "files": [
+    {
+      "sourceId": "0feadaf7",
+      "file": "CUSA28561_01.17_0feadaf7.json",
+      "path": "json/CUSA28561_01.17_0feadaf7.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "OneHit Kills",
+        "TwoHit Kills",
+        "Damage x2",
+        "Infinite Aim Focus",
+        "Infinite Breath",
+        "Max Infinite All Items/Resources",
+        "Max Infinite Skill Points"
+      ]
+    },
+    {
+      "sourceId": "b8adffde",
+      "file": "CUSA28561_01.17_b8adffde.json",
+      "path": "json/CUSA28561_01.17_b8adffde.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "FloDoc"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "OneHit Kills",
+        "TwoHit Kills",
+        "Damage x2"
+      ]
+    },
+    {
+      "sourceId": "ba7a438e",
+      "file": "CUSA28561_01.17_ba7a438e.json",
+      "path": "json/CUSA28561_01.17_ba7a438e.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health/1 Hit Kill (Master Code)",
+        "Infinite Health (Need MC)",
+        "1 Hit Kill (Need MC)",
+        "Max/Infinite Boltblast Ammo (Turn Off After Use)",
+        "Max/Infinite All Items/Resources (Turn Off After Use)",
+        "Max/Infinite Valor Surge (Activate Valor First)",
+        "Infinite Weapon Stamina",
+        "Infinite Aim Focus",
+        "Infinite Breath",
+        "Max/Infinite Skill Points"
+      ]
+    },
+    {
+      "sourceId": "a794eaa6",
+      "file": "CUSA28561_01.17_a794eaa6.shn",
+      "path": "shn/CUSA28561_01.17_a794eaa6.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Player Pointer",
+        "Health / 1 Hit Kill",
+        "Infinite Health",
+        "1 Hit Kill",
+        "Infinite Breath",
+        "Infinite Focus",
+        "Instant Focus recovery",
+        "Infinite Items/Ammo",
+        "255 Items on 2nd Get",
+        "Infinite Medical Items",
+        "Max Items Medical Items on Get",
+        "No Effects",
+        "Easy Metal-shards"
+      ]
+    }
+  ]
+}

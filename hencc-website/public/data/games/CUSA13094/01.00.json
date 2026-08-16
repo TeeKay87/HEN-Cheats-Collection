@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "id": "CUSA13094",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "1cacf949",
+      "file": "CUSA13094_01.00_1cacf949.json",
+      "path": "json/CUSA13094_01.00_1cacf949.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Gatot Kaca And k0s0ng"
+      ],
+      "notes": null,
+      "cheats": [
+        "Enemy Armour Easy To Destroy",
+        "Easy Kill Enemy",
+        "God Mode",
+        "Infinite Ammo",
+        "Max Skill Point",
+        "Max Silver Coins",
+        "Undetected By Enemy",
+        "Infinite Cloack",
+        "Infinite Share Lives",
+        "Instant Level Up When Get XP",
+        "Level 30 [Dont Lock]",
+        "Multi Jump",
+        "Gravity ( ON )",
+        "Gravity ( OFF )"
+      ]
+    },
+    {
+      "sourceId": "29874bd8",
+      "file": "CUSA13094_01.00_29874bd8.json",
+      "path": "json/CUSA13094_01.00_29874bd8.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Gatot Kaca And k0s0ng"
+      ],
+      "notes": null,
+      "cheats": [
+        "Enemy Armour Easy To Destroy",
+        "Easy Kill Enemy",
+        "God Mode",
+        "Infinite Ammo",
+        "Max Skill Point",
+        "Max Silver Coins",
+        "Undetected By Enemy",
+        "Infinite Cloack",
+        "Infinite Share Lives",
+        "Instant Level Up When Get XP",
+        "Level 30 [Don't Lock]",
+        "Multi Jump",
+        "Gravity ( ON )",
+        "Gravity ( OFF )"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "CUSA11454",
+  "version": "01.10",
+  "files": [
+    {
+      "sourceId": "6552936b",
+      "file": "CUSA11454_01.10_6552936b.json",
+      "path": "json/CUSA11454_01.10_6552936b.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "hanakuso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Ability Points Never Decrease",
+        "Source Points Increase on Use",
+        "Materials Increase on Use",
+        "Infinite Energy",
+        "Infinite Ammo"
+      ]
+    }
+  ]
+}

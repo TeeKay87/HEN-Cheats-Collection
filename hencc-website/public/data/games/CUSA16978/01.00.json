@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "CUSA16978",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "52d17d93",
+      "file": "CUSA16978_01.00_52d17d93.json",
+      "path": "json/CUSA16978_01.00_52d17d93.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "d01v"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Exp (Finish Training Character)",
+        "Training Points (Turn Off After)",
+        "Infinite HP/Mana/CT",
+        "Unlimited Item (Lucre, Loots disabled)",
+        "All Gears (use item) (raw codes not fully tested)"
+      ]
+    }
+  ]
+}

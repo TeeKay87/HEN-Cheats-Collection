@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "id": "CUSA04853",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "3b541ba4",
+      "file": "CUSA04853_01.00_3b541ba4.json",
+      "path": "json/CUSA04853_01.00_3b541ba4.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Faizzudin"
+      ],
+      "notes": null,
+      "cheats": [
+        "Buy Item Add 1000 Money V2",
+        "Inf Current Sp",
+        "Party Exp Multiplier x 8",
+        "Party Exp Multiplier x 16",
+        "Party Exp Multiplier x 32",
+        "Party Exp Multiplier x 64",
+        "Party Exp Multiplier x 128",
+        "Fang WP Turn 500 Upon Usage"
+      ]
+    }
+  ]
+}

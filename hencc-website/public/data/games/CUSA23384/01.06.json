@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "id": "CUSA23384",
+  "version": "01.06",
+  "files": [
+    {
+      "sourceId": "c8d5a762",
+      "file": "CUSA23384_01.06_c8d5a762.json",
+      "path": "json/CUSA23384_01.06_c8d5a762.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health (1 player)",
+        "99 Items (on get)",
+        "Max Experience"
+      ]
+    },
+    {
+      "sourceId": "f81d70c3",
+      "file": "CUSA23384_01.06_f81d70c3.mc4",
+      "path": "mc4/CUSA23384_01.06_f81d70c3.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health (1 player)",
+        "99 Items (on get)",
+        "Max Experience"
+      ]
+    },
+    {
+      "sourceId": "b90fba09",
+      "file": "CUSA23384_01.06_b90fba09.shn",
+      "path": "shn/CUSA23384_01.06_b90fba09.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health (1 player)",
+        "99 Items (on get)",
+        "Max Experience"
+      ]
+    }
+  ]
+}

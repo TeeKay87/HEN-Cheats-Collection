@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "CUSA16286",
+  "version": "01.03",
+  "files": [
+    {
+      "sourceId": "27d0355d",
+      "file": "CUSA16286_01.03_27d0355d.json",
+      "path": "json/CUSA16286_01.03_27d0355d.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Endurence",
+        "Max Infinite Ammo/No Reload",
+        "Infinite Granades",
+        "Infinite Flashlight Battery"
+      ]
+    }
+  ]
+}

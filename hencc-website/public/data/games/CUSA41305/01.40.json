@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "CUSA41305",
+  "version": "01.40",
+  "files": [
+    {
+      "sourceId": "657c66c4",
+      "file": "CUSA41305_01.40_657c66c4.json",
+      "path": "json/CUSA41305_01.40_657c66c4.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Big_Wadger"
+      ],
+      "notes": null,
+      "cheats": [
+        "Life",
+        "Grenades",
+        "Medical",
+        "No Reload",
+        "Bullets"
+      ]
+    },
+    {
+      "sourceId": "6a956411",
+      "file": "CUSA41305_01.40_6a956411.shn",
+      "path": "shn/CUSA41305_01.40_6a956411.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Big_Wadger"
+      ],
+      "notes": null,
+      "cheats": [
+        "Life",
+        "Grenades",
+        "Medical",
+        "No Reload",
+        "Bullets"
+      ]
+    }
+  ]
+}

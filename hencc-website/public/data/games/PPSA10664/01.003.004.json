@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "id": "PPSA10664",
+  "version": "01.003.004",
+  "files": [
+    {
+      "sourceId": "40fe3797",
+      "file": "PPSA10664_01.003.004_40fe3797.json",
+      "path": "json/PPSA10664_01.003.004_40fe3797.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf HP & One Hit kill",
+        "Inf HP",
+        "Inf Items",
+        "Inf Money"
+      ]
+    },
+    {
+      "sourceId": "809a8728",
+      "file": "PPSA10664_01.003.004_809a8728.mc4",
+      "path": "mc4/PPSA10664_01.003.004_809a8728.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf HP & One Hit kill",
+        "Inf HP",
+        "Inf Items",
+        "Inf Money"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "id": "CUSA42502",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "53e761fc",
+      "file": "CUSA42502_01.01_53e761fc.shn",
+      "path": "shn/CUSA42502_01.01_53e761fc.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "d01v"
+      ],
+      "notes": null,
+      "cheats": [
+        "BackPort 9 - 505 English Mod by CyB1K",
+        "Infinite Battle Turn",
+        "5 Step Ticks Daytime (x3 multiplier)",
+        "Freeze Daytime",
+        "Infinite Hp",
+        "Infinite Mp",
+        "Infinite Magatsuhi Skill",
+        "Master Code Demon ID Modifier",
+        "Increase Demon ID",
+        "Decrease Demon ID",
+        "All Items x99",
+        "Run Speed (x3 multiplier)",
+        "Super Jump (x5 multiplier)",
+        "Super Leap (x5 multiplier)",
+        "Player Stats",
+        "Demon Stats",
+        "Money",
+        "Glory",
+        "Master Code Exp Demon",
+        "multiplier x50",
+        "multiplier x100",
+        "multiplier x1000",
+        "Master Code Exp Player",
+        "multiplier x50",
+        "multiplier x100",
+        "multiplier x1000"
+      ]
+    }
+  ]
+}

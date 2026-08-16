@@ -1,0 +1,66 @@
+{
+  "schema": 1,
+  "id": "CUSA18723",
+  "version": "01.13",
+  "files": [
+    {
+      "sourceId": "d96645c0",
+      "file": "CUSA18723_01.13_d96645c0.json",
+      "path": "json/CUSA18723_01.13_d96645c0.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max/Infinite Heath",
+        "Max/Infinite Health+1 Hit Kill",
+        "Max/Infinite Magic",
+        "Max/Infinite Stamina",
+        "Max/Infinite Items/Potions/Arrows (On Pick Up/x2 To Work)",
+        "Max/Infinite Runes On Start"
+      ]
+    },
+    {
+      "sourceId": "563c87cb",
+      "file": "CUSA18723_01.13_563c87cb.mc4",
+      "path": "mc4/CUSA18723_01.13_563c87cb.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max/Infinite Heath",
+        "Max/Infinite Health+1 Hit Kill",
+        "Max/Infinite Magic",
+        "Max/Infinite Stamina",
+        "Max/Infinite Items/Potions/Arrows (On Pick Up/x2 To Work)",
+        "Max/Infinite Runes On Start"
+      ]
+    },
+    {
+      "sourceId": "f362aa38",
+      "file": "CUSA18723_01.13_f362aa38.shn",
+      "path": "shn/CUSA18723_01.13_f362aa38.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max/Infinite Heath",
+        "Max/Infinite Magic",
+        "Max/Infinite Stamina",
+        "Max/Infinite Items/Potions/Arrows (On Pick Up/x2 To Work)",
+        "Max/Infinite Runes On Start"
+      ]
+    }
+  ]
+}

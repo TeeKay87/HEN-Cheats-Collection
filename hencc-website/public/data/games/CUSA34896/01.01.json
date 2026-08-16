@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "id": "CUSA34896",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "dee1bd21",
+      "file": "CUSA34896_01.01_dee1bd21.json",
+      "path": "json/CUSA34896_01.01_dee1bd21.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Life Ship",
+        "Inf Life",
+        "Inf Money"
+      ]
+    },
+    {
+      "sourceId": "70e0f7bf",
+      "file": "CUSA34896_01.01_70e0f7bf.mc4",
+      "path": "mc4/CUSA34896_01.01_70e0f7bf.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Q8Despair"
+      ],
+      "notes": null,
+      "cheats": [
+        "Items increase on consume",
+        "Money doesn't decrease"
+      ]
+    },
+    {
+      "sourceId": "6e4aee23",
+      "file": "CUSA34896_01.01_6e4aee23.shn",
+      "path": "shn/CUSA34896_01.01_6e4aee23.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Q8Despair"
+      ],
+      "notes": null,
+      "cheats": [
+        "Items increase on consume",
+        "Money doesn't decrease"
+      ]
+    }
+  ]
+}

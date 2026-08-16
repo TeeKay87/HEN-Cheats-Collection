@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "id": "CUSA20469",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "e1fa46bf",
+      "file": "CUSA20469_01.01_e1fa46bf.json",
+      "path": "json/CUSA20469_01.01_e1fa46bf.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf HP",
+        "Inf Extra Special (On Use)",
+        "Inf Plane Extra Special (On Use)",
+        "Max Gold (Enter The Store To Activate)"
+      ]
+    },
+    {
+      "sourceId": "ecd03ade",
+      "file": "CUSA20469_01.01_ecd03ade.json",
+      "path": "json/CUSA20469_01.01_ecd03ade.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Mrpc85"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health"
+      ]
+    },
+    {
+      "sourceId": "05f6bd9e",
+      "file": "CUSA20469_01.01_05f6bd9e.mc4",
+      "path": "mc4/CUSA20469_01.01_05f6bd9e.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "B2"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite health",
+        "Infinite Special",
+        "Infinite Gold"
+      ]
+    },
+    {
+      "sourceId": "abde396c",
+      "file": "CUSA20469_01.01_abde396c.mc4",
+      "path": "mc4/CUSA20469_01.01_abde396c.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf HP",
+        "Inf Extra Special (On Use)",
+        "Inf Plane Extra Special (On Use)",
+        "Max Gold (Enter The Store To Activate)"
+      ]
+    },
+    {
+      "sourceId": "e61ce8cd",
+      "file": "CUSA20469_01.01_e61ce8cd.shn",
+      "path": "shn/CUSA20469_01.01_e61ce8cd.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "B2"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite health",
+        "Infinite Special",
+        "Infinite Gold",
+        "Inf HP",
+        "Inf Extra Special (On Use)",
+        "Inf Plane Extra Special (On Use)",
+        "Max Gold (Enter The Store To Activate)"
+      ]
+    }
+  ]
+}

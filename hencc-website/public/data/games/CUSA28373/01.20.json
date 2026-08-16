@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "id": "CUSA28373",
+  "version": "01.20",
+  "files": [
+    {
+      "sourceId": "a60e9b2b",
+      "file": "CUSA28373_01.20_a60e9b2b.json",
+      "path": "json/CUSA28373_01.20_a60e9b2b.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 ",
+        " FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible",
+        "Infinite Health",
+        "One Hit Kill",
+        "Infinite SP",
+        "Infinite EP",
+        "Max Money",
+        "Max Data Disk",
+        "Max Plant Seeds",
+        "Multi Jump"
+      ]
+    },
+    {
+      "sourceId": "d1e1c343",
+      "file": "CUSA28373_01.20_d1e1c343.mc4",
+      "path": "mc4/CUSA28373_01.20_d1e1c343.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 - FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible",
+        "Infinite Health",
+        "One Hit Kill",
+        "Infinite SP",
+        "Infinite EP",
+        "Max Money",
+        "Max Data Disk",
+        "Max Plant Seeds",
+        "Multi Jump"
+      ]
+    },
+    {
+      "sourceId": "eac0d2ca",
+      "file": "CUSA28373_01.20_eac0d2ca.shn",
+      "path": "shn/CUSA28373_01.20_eac0d2ca.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 - FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible",
+        "Infinite Health",
+        "One Hit Kill",
+        "Infinite SP",
+        "Infinite EP",
+        "Max Money",
+        "Max Data Disk",
+        "Max Plant Seeds",
+        "Multi Jump"
+      ]
+    }
+  ]
+}

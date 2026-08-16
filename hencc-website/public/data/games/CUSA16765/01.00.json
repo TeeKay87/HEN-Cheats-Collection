@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "id": "CUSA16765",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "09f9a5bd",
+      "file": "CUSA16765_01.00_09f9a5bd.json",
+      "path": "json/CUSA16765_01.00_09f9a5bd.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 ",
+        " FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible",
+        "Deactivate Invincible",
+        "Infinite HP",
+        "Max Lives",
+        "One Hit Kill Boss",
+        "Mega Shoots",
+        "Power Up ( Square Button )",
+        "Activate Board Equipment",
+        "Activate Angel Equipment",
+        "Activate Devil Equipment",
+        "Max Score ( Level )",
+        "Max Score"
+      ]
+    }
+  ]
+}

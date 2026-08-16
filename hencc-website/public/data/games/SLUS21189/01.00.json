@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "SLUS21189",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "bee4d507",
+      "file": "SLUS21189_01.00_bee4d507.shn",
+      "path": "shn/SLUS21189_01.00_bee4d507.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf-AMMO-ShotGun",
+        "Inf-Ammo-Gun-Cdt-1911/No-Reloads"
+      ]
+    }
+  ]
+}

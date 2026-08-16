@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "id": "CUSA04027",
+  "version": "01.13",
+  "files": [
+    {
+      "sourceId": "be80987d",
+      "file": "CUSA04027_01.13_be80987d.json",
+      "path": "json/CUSA04027_01.13_be80987d.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Fullcodes������ԭ���"
+      ],
+      "notes": null,
+      "cheats": [
+        "No Reload and Infinite Grenade",
+        "Infinite AMMO",
+        "Skill No Cooldown",
+        "Infinite Health",
+        "Infinite Jump",
+        "Infintie Titan Thrust",
+        "Enemy 1 Hit Kill //Unlock Before Boss Battle"
+      ]
+    },
+    {
+      "sourceId": "9a2f2b15",
+      "file": "CUSA04027_01.13_9a2f2b15.mc4",
+      "path": "mc4/CUSA04027_01.13_9a2f2b15.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Fullcodes������ԭ����"
+      ],
+      "notes": null,
+      "cheats": [
+        "No Reload and Infinite Grenade",
+        "Infinite AMMO",
+        "Skill No Cooldown",
+        "Infinite Health",
+        "Infinite Jump",
+        "Infintie Titan Thrust",
+        "Enemy 1 Hit Kill //Unlock Before Boss Battle"
+      ]
+    },
+    {
+      "sourceId": "e7452968",
+      "file": "CUSA04027_01.13_e7452968.shn",
+      "path": "shn/CUSA04027_01.13_e7452968.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Fullcodes������ԭ����"
+      ],
+      "notes": null,
+      "cheats": [
+        "No Reload and Infinite Grenade",
+        "Infinite AMMO",
+        "Skill No Cooldown",
+        "Infinite Health",
+        "Infinite Jump",
+        "Infintie Titan Thrust",
+        "Enemy 1 Hit Kill //Unlock Before Boss Battle"
+      ]
+    }
+  ]
+}

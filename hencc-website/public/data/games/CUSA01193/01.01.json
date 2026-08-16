@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "id": "CUSA01193",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "d7bd8ad1",
+      "file": "CUSA01193_01.01_d7bd8ad1.mc4",
+      "path": "mc4/CUSA01193_01.01_d7bd8ad1.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Battery",
+        "No Coodown"
+      ]
+    },
+    {
+      "sourceId": "217e7652",
+      "file": "CUSA01193_01.01_217e7652.shn",
+      "path": "shn/CUSA01193_01.01_217e7652.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Battery",
+        "No Coodown"
+      ]
+    }
+  ]
+}

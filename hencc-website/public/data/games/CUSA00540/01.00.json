@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "id": "CUSA00540",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "bd571e0b",
+      "file": "CUSA00540_01.00_bd571e0b.json",
+      "path": "json/CUSA00540_01.00_bd571e0b.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Get Money For Buying",
+        "Get Medals For Buying"
+      ]
+    },
+    {
+      "sourceId": "bdcd556a",
+      "file": "CUSA00540_01.00_bdcd556a.json",
+      "path": "json/CUSA00540_01.00_bdcd556a.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Get Money For Buying",
+        "Get Medals For Buying"
+      ]
+    },
+    {
+      "sourceId": "e57db95e",
+      "file": "CUSA00540_01.00_e57db95e.mc4",
+      "path": "mc4/CUSA00540_01.00_e57db95e.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Get Money For Buying",
+        "Get Medals For Buying"
+      ]
+    },
+    {
+      "sourceId": "1e2d41a9",
+      "file": "CUSA00540_01.00_1e2d41a9.shn",
+      "path": "shn/CUSA00540_01.00_1e2d41a9.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Get Money For Buying",
+        "Get Medals For Buying"
+      ]
+    }
+  ]
+}

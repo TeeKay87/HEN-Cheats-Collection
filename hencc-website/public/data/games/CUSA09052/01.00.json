@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "CUSA09052",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "6bf530ef",
+      "file": "CUSA09052_01.00_6bf530ef.mc4",
+      "path": "mc4/CUSA09052_01.00_6bf530ef.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Vampirexx-"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Inf Brave Power Meter",
+        "Inf PA Orbs",
+        "Inf Gold",
+        "Inf Health Potions"
+      ]
+    },
+    {
+      "sourceId": "c1944472",
+      "file": "CUSA09052_01.00_c1944472.shn",
+      "path": "shn/CUSA09052_01.00_c1944472.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Vampirexx-"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Inf Brave Power Meter",
+        "Inf PA Orbs",
+        "Inf Gold",
+        "Inf Health Potions"
+      ]
+    }
+  ]
+}

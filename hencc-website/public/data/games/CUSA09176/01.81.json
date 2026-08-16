@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "id": "CUSA09176",
+  "version": "01.81",
+  "files": [
+    {
+      "sourceId": "439db0c2",
+      "file": "CUSA09176_01.81_439db0c2.json",
+      "path": "json/CUSA09176_01.81_439db0c2.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Pharaoh2k"
+      ],
+      "notes": null,
+      "cheats": [
+        "MASTER CODE For Infinite Life and 1 Hit Kill",
+        "Infinite Life. MUST enable Master Code first",
+        "1 Hit Kill. MUST enable Master Code first. Must disable on chases",
+        "Infinite Ammo",
+        "Infinite Stamina",
+        "Infinite fuel",
+        "Infinite motorbike durability",
+        "Infinite Nitrous",
+        "Infinite Motorbike Durability excluding enemies",
+        "Dont subtract items when selling",
+        "No skill points reduction",
+        "Infinite Weapon Durability"
+      ]
+    }
+  ]
+}

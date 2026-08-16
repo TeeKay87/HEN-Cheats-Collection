@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "CUSA17806",
+  "version": "01.21",
+  "files": [
+    {
+      "sourceId": "498d5efd",
+      "file": "CUSA17806_01.21_498d5efd.json",
+      "path": "json/CUSA17806_01.21_498d5efd.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Health / 1 Hit (Master Code)",
+        "1 Hit Kill (MC)",
+        "Infinite Energy",
+        "Infinite Stamina",
+        "Max Axions (On Get)"
+      ]
+    }
+  ]
+}

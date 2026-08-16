@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "id": "CUSA50688",
+  "version": "01.02",
+  "files": [
+    {
+      "sourceId": "aa5e49cd",
+      "file": "CUSA50688_01.02_aa5e49cd.json",
+      "path": "json/CUSA50688_01.02_aa5e49cd.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf life",
+        "Inf Healer"
+      ]
+    },
+    {
+      "sourceId": "1236acba",
+      "file": "CUSA50688_01.02_1236acba.mc4",
+      "path": "mc4/CUSA50688_01.02_1236acba.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible",
+        "Infinite-Health",
+        "Inf-SkillS-Points",
+        "Infinite-money",
+        "Inf-Life-Recovery",
+        "Inf-Full-control-POWER"
+      ]
+    },
+    {
+      "sourceId": "b5ae984e",
+      "file": "CUSA50688_01.02_b5ae984e.mc4",
+      "path": "mc4/CUSA50688_01.02_b5ae984e.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible",
+        "Infinite-Health",
+        "Inf-SkillS-Points",
+        "Infinite-money",
+        "Inf-Life-Recovery",
+        "Inf-Full-control-POWER"
+      ]
+    },
+    {
+      "sourceId": "fccb8979",
+      "file": "CUSA50688_01.02_fccb8979.shn",
+      "path": "shn/CUSA50688_01.02_fccb8979.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible",
+        "Infinite-Health",
+        "Inf-SkillS-Points",
+        "Infinite-money",
+        "Inf-Life-Recovery",
+        "Inf-Full-control-POWER"
+      ]
+    }
+  ]
+}

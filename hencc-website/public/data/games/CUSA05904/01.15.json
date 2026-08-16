@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "id": "CUSA05904",
+  "version": "01.15",
+  "files": [
+    {
+      "sourceId": "13741b0e",
+      "file": "CUSA05904_01.15_13741b0e.json",
+      "path": "json/CUSA05904_01.15_13741b0e.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander",
+        "ADI FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Ammo/items (on use/spend)",
+        "Infinite Gun clip/No reload",
+        "Alot of money (on sell can effect items on gain)",
+        "Infinite Rockets usage (planes/helicopters)",
+        "Max Infinite Perks Points (Enable Only In Perks Screen)",
+        "Infinite potions bar",
+        "Infinite potions duration time (activate with potion bar)",
+        "No cool down Hires and specials (turn on and off to take effect)"
+      ]
+    },
+    {
+      "sourceId": "8551151d",
+      "file": "CUSA05904_01.15_8551151d.json",
+      "path": "json/CUSA05904_01.15_8551151d.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Invincibility",
+        "Infinite Endurance",
+        "Infinite Breath",
+        "Max/Infinite Ammo/Money/Throwables",
+        "No Reload",
+        "Infinite Skill Points"
+      ]
+    },
+    {
+      "sourceId": "3927fd90",
+      "file": "CUSA05904_01.15_3927fd90.mc4",
+      "path": "mc4/CUSA05904_01.15_3927fd90.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Invincibility",
+        "Infinite Endurance",
+        "Infinite Breath",
+        "Max/Infinite Ammo/Money/Throwables",
+        "No Reload",
+        "Infinite Skill Points"
+      ]
+    },
+    {
+      "sourceId": "a50f0bdd",
+      "file": "CUSA05904_01.15_a50f0bdd.shn",
+      "path": "shn/CUSA05904_01.15_a50f0bdd.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Invincibility",
+        "Infinite Endurance",
+        "Infinite Breath",
+        "Max/Infinite Ammo/Money/Throwables",
+        "No Reload",
+        "Infinite Skill Points"
+      ]
+    }
+  ]
+}

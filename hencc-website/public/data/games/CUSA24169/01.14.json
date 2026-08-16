@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "id": "CUSA24169",
+  "version": "01.14",
+  "files": [
+    {
+      "sourceId": "370e8445",
+      "file": "CUSA24169_01.14_370e8445.json",
+      "path": "json/CUSA24169_01.14_370e8445.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DJFlameDat"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf HP (Don't use with Focus or Time Cheat, Also Don't work with DLC)",
+        "Inf Focus Regen (Press PS4 pad once then exit and deactivate cheat after if use HP cheat)",
+        "Inf Time (Use in Kill Run Mode)",
+        "Inf Shuriken Time (Till Run out of Shurikens)",
+        "Inf Time (Jump Till You Jump)",
+        "Stealth (Enemies Don't Attack)",
+        "OHK Commander Bakunin (Use Surge)"
+      ]
+    },
+    {
+      "sourceId": "f734a117",
+      "file": "CUSA24169_01.14_f734a117.json",
+      "path": "json/CUSA24169_01.14_f734a117.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DJFlameDat"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf HP (Don't Work with DLC)",
+        "Inf Focus Regen (Press PS4 Pad Once Then Exit)",
+        "Inf Jump Time (Till You Jump)",
+        "Inf Shuriken Time (Till Run out of Shurikens)",
+        "Stealth (Enemies Don't Attack)",
+        "Inf Time (Use in Kill Run Mode)",
+        "OHK Commander Bakunin (Use Surge)"
+      ]
+    }
+  ]
+}

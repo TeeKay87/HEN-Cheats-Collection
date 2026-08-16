@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "CUSA16596",
+  "version": "01.31",
+  "files": [
+    {
+      "sourceId": "a176118c",
+      "file": "CUSA16596_01.31_a176118c.json",
+      "path": "json/CUSA16596_01.31_a176118c.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health / Stamina",
+        "Max Money/Ammo/Med Kit/Craft Res",
+        "No Reload",
+        "Max Attribute / Perks Points / CB-Points (On Spend)",
+        "Infinite Throwables (Get Them First)"
+      ]
+    }
+  ]
+}

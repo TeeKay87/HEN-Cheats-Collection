@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "id": "CUSA10161",
+  "version": "01.17",
+  "files": [
+    {
+      "sourceId": "f2423a25",
+      "file": "CUSA10161_01.17_f2423a25.json",
+      "path": "json/CUSA10161_01.17_f2423a25.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Health / All (Master Code)",
+        "Ammo / Stamina / Energy / Consumable (MC)"
+      ]
+    },
+    {
+      "sourceId": "7e6c59be",
+      "file": "CUSA10161_01.17_7e6c59be.mc4",
+      "path": "mc4/CUSA10161_01.17_7e6c59be.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Health / All (Master Code)",
+        "Ammo / Stamina / Energy / Consumable (MC)"
+      ]
+    },
+    {
+      "sourceId": "87301f2b",
+      "file": "CUSA10161_01.17_87301f2b.shn",
+      "path": "shn/CUSA10161_01.17_87301f2b.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Health / All (Master Code)",
+        "Ammo / Stamina / Energy / Consumable (MC)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "CUSA11456",
+  "version": "02.13",
+  "files": [
+    {
+      "sourceId": "d1c8d2c3",
+      "file": "CUSA11456_02.13_d1c8d2c3.json",
+      "path": "json/CUSA11456_02.13_d1c8d2c3.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Resolve",
+        "Max Resource (On Get)",
+        "Infinite Tech Points (Enable After Earn 1 point)"
+      ]
+    }
+  ]
+}

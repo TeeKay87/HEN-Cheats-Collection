@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "CUSA10872",
+  "version": "02.00",
+  "files": [
+    {
+      "sourceId": "396619e8",
+      "file": "CUSA10872_02.00_396619e8.json",
+      "path": "json/CUSA10872_02.00_396619e8.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "AngelDavil88_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Breath",
+        "Max Infinite Ammo/Items/Gold Coins (On Gain/Use)",
+        "Max Infinite Skillpoints (On Use)"
+      ]
+    }
+  ]
+}

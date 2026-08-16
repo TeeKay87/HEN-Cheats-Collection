@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "id": "CUSA11560",
+  "version": "01.03",
+  "files": [
+    {
+      "sourceId": "a884d9b8",
+      "file": "CUSA11560_01.03_ac3_engine_orbis_fn.elf_a884d9b8.json",
+      "path": "json/CUSA11560_01.03_ac3_engine_orbis_fn.elf_a884d9b8.json",
+      "format": "json",
+      "process": "ac3_engine_orbis_fn.elf",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health",
+        "Inf Resorces"
+      ]
+    },
+    {
+      "sourceId": "ba0a2397",
+      "file": "CUSA11560_01.03_ba0a2397.json",
+      "path": "json/CUSA11560_01.03_ba0a2397.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health",
+        "Inf Resorces"
+      ]
+    }
+  ]
+}

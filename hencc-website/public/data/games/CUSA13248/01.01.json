@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "id": "CUSA13248",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "bfbf1480",
+      "file": "CUSA13248_01.01_bfbf1480.json",
+      "path": "json/CUSA13248_01.01_bfbf1480.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Stamina",
+        "Infinite Energy",
+        "Infinite Health",
+        "Infinite Broken bones Protection",
+        "Infinite Cold  Protection",
+        "Infinite Food Poisoning/ Venom Protection",
+        "Infinite Bleeding Protection",
+        "Minimum negative effect "
+      ]
+    }
+  ]
+}

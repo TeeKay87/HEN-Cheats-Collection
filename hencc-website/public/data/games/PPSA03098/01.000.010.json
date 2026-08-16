@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "id": "PPSA03098",
+  "version": "01.000.010",
+  "files": [
+    {
+      "sourceId": "7ded8856",
+      "file": "PPSA03098_01.000.010_7ded8856.mc4",
+      "path": "mc4/PPSA03098_01.000.010_7ded8856.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Yharnam"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infi Health",
+        "No Damage (Fall, Fire, Poison, Frozen)",
+        "1 Hit Kill",
+        "Infi Ammo",
+        "Infi Stamina",
+        "Infi Fury",
+        "Infi Weapon Durability",
+        "Max Money (Get)",
+        "Max Items (Get)",
+        "Max Exp"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "id": "CUSA10249",
+  "version": "01.07",
+  "files": [
+    {
+      "sourceId": "4c8bd1e6",
+      "file": "CUSA10249_01.07_4c8bd1e6.json",
+      "path": "json/CUSA10249_01.07_4c8bd1e6.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "illusion + Ahmad"
+      ],
+      "notes": null,
+      "cheats": [
+        "Enable Dev Menu",
+        "Infinite Silencer Ammo",
+        "Infinite Items"
+      ]
+    },
+    {
+      "sourceId": "36b3eb99",
+      "file": "CUSA10249_01.07_36b3eb99.shn",
+      "path": "shn/CUSA10249_01.07_36b3eb99.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "illusion"
+      ],
+      "notes": null,
+      "cheats": [
+        "Enable Dev Menu"
+      ]
+    },
+    {
+      "sourceId": "66b11f3f",
+      "file": "CUSA10249_01.07_66b11f3f.shn",
+      "path": "shn/CUSA10249_01.07_66b11f3f.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "hejran7"
+      ],
+      "notes": null,
+      "cheats": [
+        "Dev Menu Hold L3",
+        "Show All Dev Menu Details",
+        "Hide All Dev Menu Details",
+        "Infinite Silencer Ammo",
+        "Enable Dev Menu"
+      ]
+    },
+    {
+      "sourceId": "f82824e6",
+      "file": "CUSA10249_01.07_f82824e6.shn",
+      "path": "shn/CUSA10249_01.07_f82824e6.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "hejran7"
+      ],
+      "notes": null,
+      "cheats": [
+        "Dev Menu Hold L3",
+        "Show All Dev Menu Details",
+        "Hide All Dev Menu Details",
+        "Infinite Silencer Ammo"
+      ]
+    }
+  ]
+}

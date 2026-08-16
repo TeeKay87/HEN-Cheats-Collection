@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "id": "PPSA06215",
+  "version": "01.007.000",
+  "files": [
+    {
+      "sourceId": "f6d3b843",
+      "file": "PPSA06215_01.007.000_f6d3b843.mc4",
+      "path": "mc4/PPSA06215_01.007.000_f6d3b843.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "wander"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Stamina Attack",
+        "Infinite Weapon/Food/Armor",
+        "Infinite Stamina Run",
+        "Max Stamina do not decrease",
+        "Max Health do not decrease",
+        "Max Silver When Buying",
+        "0 Weight For Silver",
+        "0 Weight for items",
+        "No sleep",
+        "no drink",
+        "no food"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "schema": 1,
+  "id": "CUSA16289",
+  "version": "01.02",
+  "files": [
+    {
+      "sourceId": "0ad23c6f",
+      "file": "CUSA16289_01.02_0ad23c6f.json",
+      "path": "json/CUSA16289_01.02_0ad23c6f.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "2B"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf HP",
+        "1HK",
+        "Inf Mony (on get)",
+        "Inf Fire Skill Points (on Spend)",
+        "Inf Bushido Points (on spend)",
+        "Inf Throwable",
+        "Inf Weapon Durability"
+      ]
+    },
+    {
+      "sourceId": "59859275",
+      "file": "CUSA16289_01.02_59859275.mc4",
+      "path": "mc4/CUSA16289_01.02_59859275.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "2B"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf HP",
+        "1HK",
+        "Inf Mony (on get)",
+        "Inf Fire Skill Points (on Spend)",
+        "Inf Bushido Points (on spend)",
+        "Inf Throwable",
+        "Inf Weapon Durability"
+      ]
+    },
+    {
+      "sourceId": "64eb80f6",
+      "file": "CUSA16289_01.02_64eb80f6.mc4",
+      "path": "mc4/CUSA16289_01.02_64eb80f6.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "2B"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf HP",
+        "1HK",
+        "Inf Mony (on get)",
+        "Inf Fire Skill Points (on Spend)",
+        "Inf Bushido Points (on spend)",
+        "Inf Throwable",
+        "Inf Weapon Durability"
+      ]
+    },
+    {
+      "sourceId": "c11ac34c",
+      "file": "CUSA16289_01.02_c11ac34c.shn",
+      "path": "shn/CUSA16289_01.02_c11ac34c.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "2B"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf HP",
+        "1HK",
+        "Inf Mony (on get)",
+        "Inf Fire Skill Points (on Spend)",
+        "Inf Bushido Points (on spend)",
+        "Inf Throwable",
+        "Inf Weapon Durability"
+      ]
+    }
+  ]
+}

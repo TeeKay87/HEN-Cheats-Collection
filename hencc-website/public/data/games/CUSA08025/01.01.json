@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "id": "CUSA08025",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "6a0c5c71",
+      "file": "CUSA08025_01.01_6a0c5c71.json",
+      "path": "json/CUSA08025_01.01_6a0c5c71.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Mogu"
+      ],
+      "notes": null,
+      "cheats": [
+        "money never decrease"
+      ]
+    }
+  ]
+}

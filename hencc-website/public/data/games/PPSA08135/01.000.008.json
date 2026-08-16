@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "id": "PPSA08135",
+  "version": "01.000.008",
+  "files": [
+    {
+      "sourceId": "4bbed784",
+      "file": "PPSA08135_01.000.008_4bbed784.json",
+      "path": "json/PPSA08135_01.000.008_4bbed784.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Ammo INF (No reload)",
+        "Inf Items (even Keys)"
+      ]
+    },
+    {
+      "sourceId": "a28603ef",
+      "file": "PPSA08135_01.000.008_a28603ef.mc4",
+      "path": "mc4/PPSA08135_01.000.008_a28603ef.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Yharnam"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infi Health",
+        "Infi Ammo"
+      ]
+    }
+  ]
+}

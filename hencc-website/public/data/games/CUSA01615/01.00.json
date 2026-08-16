@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "id": "CUSA01615",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "9d3c0a56",
+      "file": "CUSA01615_01.00_9d3c0a56.json",
+      "path": "json/CUSA01615_01.00_9d3c0a56.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Weysincha"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite MP",
+        "Infinite FP/AP",
+        "Infinite Money/Gil",
+        "Exp "
+      ]
+    },
+    {
+      "sourceId": "b81903c4",
+      "file": "CUSA01615_01.00_b81903c4.json",
+      "path": "json/CUSA01615_01.00_b81903c4.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Weysincha"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite MP",
+        "Infinite FP/AP",
+        "Infinite Money/Gil",
+        "Exp "
+      ]
+    },
+    {
+      "sourceId": "8fe3ee2a",
+      "file": "CUSA01615_01.00_8fe3ee2a.mc4",
+      "path": "mc4/CUSA01615_01.00_8fe3ee2a.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Weysincha"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite MP",
+        "Infinite FP/AP",
+        "Infinite Money/Gil",
+        "Exp "
+      ]
+    },
+    {
+      "sourceId": "4511df12",
+      "file": "CUSA01615_01.00_4511df12.shn",
+      "path": "shn/CUSA01615_01.00_4511df12.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Weysincha"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite MP",
+        "Infinite FP/AP",
+        "Infinite Money/Gil",
+        "Exp "
+      ]
+    }
+  ]
+}

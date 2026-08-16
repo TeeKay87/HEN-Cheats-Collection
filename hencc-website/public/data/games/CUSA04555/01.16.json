@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "id": "CUSA04555",
+  "version": "01.16",
+  "files": [
+    {
+      "sourceId": "3a0c5139",
+      "file": "CUSA04555_01.16_3a0c5139.json",
+      "path": "json/CUSA04555_01.16_3a0c5139.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Money",
+        "Max XP"
+      ]
+    },
+    {
+      "sourceId": "373c3a62",
+      "file": "CUSA04555_01.16_373c3a62.mc4",
+      "path": "mc4/CUSA04555_01.16_373c3a62.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Money",
+        "Max XP"
+      ]
+    },
+    {
+      "sourceId": "c8b9b28d",
+      "file": "CUSA04555_01.16_c8b9b28d.mc4",
+      "path": "mc4/CUSA04555_01.16_c8b9b28d.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Money",
+        "Max XP"
+      ]
+    },
+    {
+      "sourceId": "56e3eb98",
+      "file": "CUSA04555_01.16_56e3eb98.shn",
+      "path": "shn/CUSA04555_01.16_56e3eb98.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Money",
+        "Max XP"
+      ]
+    }
+  ]
+}

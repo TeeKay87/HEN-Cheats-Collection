@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "id": "CUSA02290",
+  "version": "01.26",
+  "files": [
+    {
+      "sourceId": "861e26cc",
+      "file": "CUSA02290_01.26_861e26cc.json",
+      "path": "json/CUSA02290_01.26_861e26cc.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health",
+        "Max Money",
+        "Inf Ammo No Reload"
+      ]
+    }
+  ]
+}

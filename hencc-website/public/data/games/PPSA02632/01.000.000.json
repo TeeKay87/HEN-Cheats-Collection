@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "PPSA02632",
+  "version": "01.000.000",
+  "files": [
+    {
+      "sourceId": "f518a0ab",
+      "file": "PPSA02632_01.000.000_f518a0ab.mc4",
+      "path": "mc4/PPSA02632_01.000.000_f518a0ab.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Yharnam"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf P1 Health",
+        "Inf P2 Health",
+        "Max Money (Buy)",
+        "Max Money (Sell)"
+      ]
+    }
+  ]
+}

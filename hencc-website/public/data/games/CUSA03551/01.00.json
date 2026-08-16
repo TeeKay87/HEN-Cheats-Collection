@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "id": "CUSA03551",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "3d7f54f7",
+      "file": "CUSA03551_01.00_3d7f54f7.json",
+      "path": "json/CUSA03551_01.00_3d7f54f7.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode"
+      ]
+    },
+    {
+      "sourceId": "bdcf1a94",
+      "file": "CUSA03551_01.00_bdcf1a94.json",
+      "path": "json/CUSA03551_01.00_bdcf1a94.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode"
+      ]
+    }
+  ]
+}

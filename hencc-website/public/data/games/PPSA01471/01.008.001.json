@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "PPSA01471",
+  "version": "01.008.001",
+  "files": [
+    {
+      "sourceId": "a152ac0a",
+      "file": "PPSA01471_01.008.001_a152ac0a.mc4",
+      "path": "mc4/PPSA01471_01.008.001_a152ac0a.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Yharnam"
+      ],
+      "notes": null,
+      "cheats": [
+        "Untouchable",
+        "1 Hit Kill",
+        "Infi Health",
+        "Infi Focus Bar",
+        "Infi Web",
+        "Infi Skill Points (On Use)",
+        "Max Resources (On Use)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "id": "CUSA00856",
+  "version": "01.04",
+  "files": [
+    {
+      "sourceId": "4823e9a1",
+      "file": "CUSA00856_01.04_4823e9a1.mc4",
+      "path": "mc4/CUSA00856_01.04_4823e9a1.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf HP / Ammo / Max Money (Master Code)",
+        "Inf Ammo / Max Money (MC)"
+      ]
+    },
+    {
+      "sourceId": "6abb9220",
+      "file": "CUSA00856_01.04_6abb9220.shn",
+      "path": "shn/CUSA00856_01.04_6abb9220.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf HP / Ammo / Max Money (Master Code)",
+        "Inf Ammo / Max Money (MC)"
+      ]
+    }
+  ]
+}

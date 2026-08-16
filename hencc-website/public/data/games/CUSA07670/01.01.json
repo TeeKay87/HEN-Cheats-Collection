@@ -1,0 +1,92 @@
+{
+  "schema": 1,
+  "id": "CUSA07670",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "567916b1",
+      "file": "CUSA07670_01.01_567916b1.json",
+      "path": "json/CUSA07670_01.01_567916b1.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health / Relic Energy (Master Code)",
+        "Inf Relic Energy On Spend (MC)",
+        "Inf Super Crystal Gauge"
+      ]
+    },
+    {
+      "sourceId": "4a0ebe39",
+      "file": "CUSA07670_01.01_game.elf_4a0ebe39.json",
+      "path": "json/CUSA07670_01.01_game.elf_4a0ebe39.json",
+      "format": "json",
+      "process": "game.elf",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health / Relic Energy (Master Code)",
+        "Inf Relic Energy On Spend (MC)",
+        "Inf Super Crystal Gauge"
+      ]
+    },
+    {
+      "sourceId": "bfefee3b",
+      "file": "CUSA07670_01.01_game.elf_bfefee3b.mc4",
+      "path": "mc4/CUSA07670_01.01_game.elf_bfefee3b.mc4",
+      "format": "mc4",
+      "process": "game.elf",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health / Relic Energy (Master Code)",
+        "Inf Relic Energy On Spend (MC)",
+        "Inf Super Crystal Gauge"
+      ]
+    },
+    {
+      "sourceId": "5674240c",
+      "file": "CUSA07670_01.01_5674240c.shn",
+      "path": "shn/CUSA07670_01.01_5674240c.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health / Relic Energy (Master Code)",
+        "Inf Relic Energy On Spend (MC)",
+        "Inf Super Crystal Gauge"
+      ]
+    },
+    {
+      "sourceId": "a570f681",
+      "file": "CUSA07670_01.01_game.elf_a570f681.shn",
+      "path": "shn/CUSA07670_01.01_game.elf_a570f681.shn",
+      "format": "shn",
+      "process": "game.elf",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health / Relic Energy (Master Code)",
+        "Inf Relic Energy On Spend (MC)",
+        "Inf Super Crystal Gauge"
+      ]
+    }
+  ]
+}

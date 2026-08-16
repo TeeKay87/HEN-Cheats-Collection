@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "id": "CUSA18449",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "2c2cf7be",
+      "file": "CUSA18449_01.00_2c2cf7be.json",
+      "path": "json/CUSA18449_01.00_2c2cf7be.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite weapon Durability",
+        "Infinite Stamina",
+        "Infinite Breath",
+        "Infinite Thirst",
+        "Infinite Hunger",
+        "Infinite Health"
+      ]
+    }
+  ]
+}

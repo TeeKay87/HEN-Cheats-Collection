@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "id": "CUSA00416",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "0ee22608",
+      "file": "CUSA00416_01.00_0ee22608.mc4",
+      "path": "mc4/CUSA00416_01.00_0ee22608.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Oxygen",
+        "Max Money/Ammo/Consumables/Ship Ammo (On Use)",
+        "No Reload",
+        "Infinite Ship Health",
+        "Max Swivel Ammo",
+        "Max Cargo (On Spend)"
+      ]
+    },
+    {
+      "sourceId": "11177a23",
+      "file": "CUSA00416_01.00_11177a23.shn",
+      "path": "shn/CUSA00416_01.00_11177a23.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Oxygen",
+        "Max Money/Ammo/Consumables/Ship Ammo (On Use)",
+        "No Reload",
+        "Infinite Ship Health",
+        "Max Swivel Ammo",
+        "Max Cargo (On Spend)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "id": "PPSA14251",
+  "version": "01.006.000",
+  "files": [
+    {
+      "sourceId": "0692674d",
+      "file": "PPSA14251_01.006.000_0692674d.mc4",
+      "path": "mc4/PPSA14251_01.006.000_0692674d.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Yharnam"
+      ],
+      "notes": null,
+      "cheats": [
+        "Master Code (Must Be Activated First)",
+        "Infi Health",
+        "Infi Ammo",
+        "Infi Knife Durability",
+        "Max Money (Buy)",
+        "Infi Horse Dash"
+      ]
+    },
+    {
+      "sourceId": "75256403",
+      "file": "PPSA14251_01.006.000_75256403.mc4",
+      "path": "mc4/PPSA14251_01.006.000_75256403.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Health / Stamina / Damage  (Master Code)",
+        "Damage X2 (MC)",
+        "Inf Stamina (MC)",
+        "Max Dinari (999999)",
+        "Inf Horse Sprint"
+      ]
+    }
+  ]
+}

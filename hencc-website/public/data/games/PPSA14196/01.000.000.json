@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "PPSA14196",
+  "version": "01.000.000",
+  "files": [
+    {
+      "sourceId": "62c9d190",
+      "file": "PPSA14196_01.000.000_62c9d190.json",
+      "path": "json/PPSA14196_01.000.000_62c9d190.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Master Code",
+        "--Inf_Hp",
+        "--One_Hit_Kill",
+        "Inf Ammo",
+        "No Reload",
+        "Inf Money",
+        "Inf Wishes"
+      ]
+    }
+  ]
+}

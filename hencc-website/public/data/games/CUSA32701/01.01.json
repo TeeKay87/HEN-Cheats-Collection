@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "id": "CUSA32701",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "5a485a2c",
+      "file": "CUSA32701_01.01_5a485a2c.json",
+      "path": "json/CUSA32701_01.01_5a485a2c.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 ",
+        " FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Guard Gauge",
+        "Max Medi Packs ( on use )",
+        "Max Ammo",
+        "Max Ammo Clip",
+        "Max Grenades"
+      ]
+    },
+    {
+      "sourceId": "f0a62c8d",
+      "file": "CUSA32701_01.01_f0a62c8d.mc4",
+      "path": "mc4/CUSA32701_01.01_f0a62c8d.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 - FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Guard Gauge",
+        "Max Medi Packs ( on use )",
+        "Max Ammo",
+        "Max Ammo Clip",
+        "Max Grenades"
+      ]
+    },
+    {
+      "sourceId": "d94a348d",
+      "file": "CUSA32701_01.01_d94a348d.shn",
+      "path": "shn/CUSA32701_01.01_d94a348d.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 - FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Guard Gauge",
+        "Max Medi Packs ( on use )",
+        "Max Ammo",
+        "Max Ammo Clip",
+        "Max Grenades"
+      ]
+    }
+  ]
+}

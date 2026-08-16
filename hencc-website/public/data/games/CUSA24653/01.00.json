@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "CUSA24653",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "a63e9d93",
+      "file": "CUSA24653_01.00_a63e9d93.json",
+      "path": "json/CUSA24653_01.00_a63e9d93.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Stamina",
+        "Infinite Ammo / No Reload",
+        "Shutgun No Reload",
+        "Infinite Flashlight Energy",
+        "Infinite Batteries",
+        "Infinite Flare"
+      ]
+    }
+  ]
+}

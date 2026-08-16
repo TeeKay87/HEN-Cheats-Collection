@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "id": "SLPS03354",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "1f9a20a5",
+      "file": "SLPS03354_01.00_1f9a20a5.json",
+      "path": "json/SLPS03354_01.00_1f9a20a5.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible",
+        "Infinite-lives"
+      ]
+    },
+    {
+      "sourceId": "2ab87fba",
+      "file": "SLPS03354_01.00_2ab87fba.shn",
+      "path": "shn/SLPS03354_01.00_2ab87fba.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible",
+        "Infinite-lives"
+      ]
+    }
+  ]
+}

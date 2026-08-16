@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "id": "CUSA34390",
+  "version": "03.01",
+  "files": [
+    {
+      "sourceId": "94523da2",
+      "file": "CUSA34390_03.01_94523da2.json",
+      "path": "json/CUSA34390_03.01_94523da2.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "JustGotenks"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Rage",
+        "Instant R3",
+        "No Cooldown",
+        "Infinite Projectiles",
+        "Resources up (on craft/sell)",
+        "Damage Multiplier (default 2x)",
+        "0.5x damage",
+        "5x damage",
+        "10x damage",
+        "25x damage",
+        "XP/HS/Resources Multiplier (default 2x)",
+        "10x resources",
+        "50x resources",
+        "100x resources"
+      ]
+    }
+  ]
+}

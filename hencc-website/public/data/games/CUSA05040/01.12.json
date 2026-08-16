@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "id": "CUSA05040",
+  "version": "01.12",
+  "files": [
+    {
+      "sourceId": "d5cb73a6",
+      "file": "CUSA05040_01.12_d5cb73a6.json",
+      "path": "json/CUSA05040_01.12_d5cb73a6.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "nolberto82"
+      ],
+      "notes": null,
+      "cheats": [
+        "Make Most Shots Hold Left Dpad",
+        "1.25x Game Clock And Shot Clock"
+      ]
+    },
+    {
+      "sourceId": "ba9bdd1e",
+      "file": "CUSA05040_01.12_ba9bdd1e.mc4",
+      "path": "mc4/CUSA05040_01.12_ba9bdd1e.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "nolberto82"
+      ],
+      "notes": null,
+      "cheats": [
+        "Make Most Shots Hold Left Dpad",
+        "1.25x Game Clock And Shot Clock"
+      ]
+    },
+    {
+      "sourceId": "0cd35d2d",
+      "file": "CUSA05040_01.12_0cd35d2d.shn",
+      "path": "shn/CUSA05040_01.12_0cd35d2d.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "nolberto82"
+      ],
+      "notes": null,
+      "cheats": [
+        "Make Most Shots Hold Left Dpad",
+        "1.25x Game Clock And Shot Clock"
+      ]
+    }
+  ]
+}

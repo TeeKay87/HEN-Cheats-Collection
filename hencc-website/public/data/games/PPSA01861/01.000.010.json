@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "PPSA01861",
+  "version": "01.000.010",
+  "files": [
+    {
+      "sourceId": "e2eb33be",
+      "file": "PPSA01861_01.000.010_e2eb33be.shn",
+      "path": "shn/PPSA01861_01.000.010_e2eb33be.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Oxygen",
+        "Max Fats",
+        "Max Protein",
+        "Max Mineral",
+        "Max Mutagens",
+        "2X Experience Points"
+      ]
+    }
+  ]
+}

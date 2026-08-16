@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "CUSA03653",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "35a94289",
+      "file": "CUSA03653_01.00_35a94289.mc4",
+      "path": "mc4/CUSA03653_01.00_35a94289.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Molly"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Wing Energy",
+        "Max Ammo + Rapid Fire",
+        "Max Armor Upgrades [Have to open each classes Armor screen]",
+        "Max All Weapon Star Level"
+      ]
+    },
+    {
+      "sourceId": "65a9fb49",
+      "file": "CUSA03653_01.00_65a9fb49.shn",
+      "path": "shn/CUSA03653_01.00_65a9fb49.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Molly"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Wing Energy",
+        "Max Ammo + Rapid Fire",
+        "Max Armor Upgrades [Have to open each classes Armor screen]",
+        "Max All Weapon Star Level"
+      ]
+    }
+  ]
+}

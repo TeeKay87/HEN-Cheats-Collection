@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "id": "CUSA18797",
+  "version": "01.20",
+  "files": [
+    {
+      "sourceId": "af2bbc31",
+      "file": "CUSA18797_01.20_af2bbc31.json",
+      "path": "json/CUSA18797_01.20_af2bbc31.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TylerMods+Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Arrows",
+        "Infinite Emeralds",
+        "Level 183 on kill",
+        "Level 1,833 on kill",
+        "Level 0 on kill"
+      ]
+    }
+  ]
+}

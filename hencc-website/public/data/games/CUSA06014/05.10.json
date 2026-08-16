@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "CUSA06014",
+  "version": "05.10",
+  "files": [
+    {
+      "sourceId": "29ca2979",
+      "file": "CUSA06014_05.10_29ca2979.json",
+      "path": "json/CUSA06014_05.10_29ca2979.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Player 1: Max Health",
+        "Player 1: Min Health",
+        "Player 2: Max Health",
+        "Player 2: Min Health",
+        "Health"
+      ]
+    },
+    {
+      "sourceId": "f309edea",
+      "file": "CUSA06014_05.10_f309edea.shn",
+      "path": "shn/CUSA06014_05.10_f309edea.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Player 1: Max Health",
+        "Player 1: Min Health",
+        "Player 2: Max Health",
+        "Player 2: Min Health",
+        "Health"
+      ]
+    }
+  ]
+}

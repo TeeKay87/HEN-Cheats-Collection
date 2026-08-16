@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "id": "CUSA13537",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "70bebc94",
+      "file": "CUSA13537_01.00_70bebc94.json",
+      "path": "json/CUSA13537_01.00_70bebc94.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander+d01v_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Units Point Multiplier (upgrade/add soldier)",
+        "Skill points x999 (will take effect after the fight)",
+        "Infinite Health/Sphere"
+      ]
+    }
+  ]
+}

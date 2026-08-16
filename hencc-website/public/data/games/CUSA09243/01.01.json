@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "CUSA09243",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "629f9a9b",
+      "file": "CUSA09243_01.01_629f9a9b.json",
+      "path": "json/CUSA09243_01.01_629f9a9b.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "d01v"
+      ],
+      "notes": null,
+      "cheats": [
+        "99M exp after lvl up",
+        "Max HP 9999 (turn off after)",
+        "gold",
+        "+99 discard item",
+        "loot 999",
+        "Max KingsGuilder",
+        "100m Influence"
+      ]
+    }
+  ]
+}

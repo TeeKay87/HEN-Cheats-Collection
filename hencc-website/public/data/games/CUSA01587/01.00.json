@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "id": "CUSA01587",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "bbd8c22c",
+      "file": "CUSA01587_01.00_bbd8c22c.mc4",
+      "path": "mc4/CUSA01587_01.00_bbd8c22c.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible",
+        "MAX-money"
+      ]
+    },
+    {
+      "sourceId": "db1f9236",
+      "file": "CUSA01587_01.00_db1f9236.mc4",
+      "path": "mc4/CUSA01587_01.00_db1f9236.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible",
+        "MAX-money"
+      ]
+    },
+    {
+      "sourceId": "f0ecc3e9",
+      "file": "CUSA01587_01.00_f0ecc3e9.shn",
+      "path": "shn/CUSA01587_01.00_f0ecc3e9.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible",
+        "MAX-money"
+      ]
+    }
+  ]
+}

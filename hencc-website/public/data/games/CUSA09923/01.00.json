@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "id": "CUSA09923",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "a83c407e",
+      "file": "CUSA09923_01.00_a83c407e.json",
+      "path": "json/CUSA09923_01.00_a83c407e.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander"
+      ],
+      "notes": null,
+      "cheats": [
+        "Yen x9999999 (on buy)",
+        "Items x50 (on sell/use)",
+        "Max Experience"
+      ]
+    }
+  ]
+}

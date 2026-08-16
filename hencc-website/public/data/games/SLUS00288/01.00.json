@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "id": "SLUS00288",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "48d413ff",
+      "file": "SLUS00288_01.00_48d413ff.json",
+      "path": "json/SLUS00288_01.00_48d413ff.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "infinite lives",
+        "Invincible P1"
+      ]
+    },
+    {
+      "sourceId": "7d74015c",
+      "file": "SLUS00288_01.00_7d74015c.shn",
+      "path": "shn/SLUS00288_01.00_7d74015c.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "infinite lives",
+        "Invincible P1"
+      ]
+    }
+  ]
+}

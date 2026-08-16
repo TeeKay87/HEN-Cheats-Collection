@@ -1,0 +1,94 @@
+{
+  "schema": 1,
+  "id": "CUSA36582",
+  "version": "01.11",
+  "files": [
+    {
+      "sourceId": "1ff9f71e",
+      "file": "CUSA36582_01.11_1ff9f71e.json",
+      "path": "json/CUSA36582_01.11_1ff9f71e.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Hank"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible Mode",
+        "Infinite Health",
+        "Infinite Dash",
+        "Infinite Athra Surges",
+        "Infinite Healing Potion",
+        "Infinite Memory Shard",
+        "Infinite Arrows",
+        "Half Screen Arrow Attack",
+        "Full Screen Arrow Attack",
+        "One Hit Kill",
+        "Moon Jump",
+        "Infinite Double Jumps",
+        "Full Screen Collection",
+        "Unlock Six Powers",
+        "All Amulets Can Be Equip",
+        "Ignore Buy & Upgrades Requirements"
+      ]
+    },
+    {
+      "sourceId": "1df3e1c5",
+      "file": "CUSA36582_01.11_1df3e1c5.mc4",
+      "path": "mc4/CUSA36582_01.11_1df3e1c5.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Arrows/Potions (On Use)",
+        "Max Athra surge charge (1 Hit)",
+        "No Athra surge Cooldown",
+        "Max Currencies (on get)"
+      ]
+    },
+    {
+      "sourceId": "59b46daf",
+      "file": "CUSA36582_01.11_59b46daf.mc4",
+      "path": "mc4/CUSA36582_01.11_59b46daf.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Arrows/Potions (On Use)",
+        "Max Athra surge charge (1 Hit)",
+        "No Athra surge Cooldown",
+        "Max Currencies (on get)"
+      ]
+    },
+    {
+      "sourceId": "10d1755b",
+      "file": "CUSA36582_01.11_10d1755b.shn",
+      "path": "shn/CUSA36582_01.11_10d1755b.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Arrows/Potions (On Use)",
+        "Max Athra surge charge (1 Hit)",
+        "No Athra surge Cooldown",
+        "Max Currencies (on get)"
+      ]
+    }
+  ]
+}

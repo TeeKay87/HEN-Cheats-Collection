@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "id": "CUSA17672",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "46745304",
+      "file": "CUSA17672_01.01_46745304.mc4",
+      "path": "mc4/CUSA17672_01.01_46745304.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible-(MC)",
+        "Infinite-Health",
+        "Inf-Stamina-Weapon",
+        "one-Hit-Kill",
+        "Infinite-Materials",
+        "MAX-All-items-(9999)"
+      ]
+    },
+    {
+      "sourceId": "b3b506b6",
+      "file": "CUSA17672_01.01_b3b506b6.mc4",
+      "path": "mc4/CUSA17672_01.01_b3b506b6.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "fbin"
+      ],
+      "notes": null,
+      "cheats": [
+        "Vida Infinita",
+        "Arma Infinita",
+        "Idolo Infinito",
+        "Metal de Sangue e Sangue de Valfaris Infinito"
+      ]
+    },
+    {
+      "sourceId": "2a9cddc2",
+      "file": "CUSA17672_01.01_2a9cddc2.shn",
+      "path": "shn/CUSA17672_01.01_2a9cddc2.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible-(MC)",
+        "Infinite-Health",
+        "Inf-Stamina-Weapon",
+        "one-Hit-Kill",
+        "Infinite-Materials",
+        "MAX-All-items-(9999)"
+      ]
+    },
+    {
+      "sourceId": "a8bb5540",
+      "file": "CUSA17672_01.01_a8bb5540.shn",
+      "path": "shn/CUSA17672_01.01_a8bb5540.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "fbin"
+      ],
+      "notes": null,
+      "cheats": [
+        "Vida Infinita",
+        "Arma Infinita",
+        "Idolo Infinito",
+        "Metal de Sangue e Sangue de Valfaris Infinito"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "id": "CUSA05847",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "3f3a9c46",
+      "file": "CUSA05847_01.00_3f3a9c46.json",
+      "path": "json/CUSA05847_01.00_3f3a9c46.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Arafat"
+      ],
+      "notes": null,
+      "cheats": [
+        "Bottomless Clip",
+        "Infinite Resources/Medkits/Throwables/Ammo(reloadable)",
+        "Earn Skill Points On Spend"
+      ]
+    }
+  ]
+}

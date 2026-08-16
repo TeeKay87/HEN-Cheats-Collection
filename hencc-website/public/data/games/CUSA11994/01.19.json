@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "id": "CUSA11994",
+  "version": "01.19",
+  "files": [
+    {
+      "sourceId": "39f8597f",
+      "file": "CUSA11994_01.19_39f8597f.json",
+      "path": "json/CUSA11994_01.19_39f8597f.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 ",
+        " FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Mastercode ( must be activate for [ MC ] Cheats )",
+        "Infinite Health [ MC ]",
+        "Max Health [ MC ]",
+        "Infinite Focus",
+        "Stealth Mode",
+        "Max XP ( on gain )",
+        "Max Skillpoints",
+        "Max Combo",
+        "Max Ressources + Shoots",
+        "Save Position [ MC ]",
+        "Load Position [ MC ]",
+        "Max Benchmarks",
+        "Max Score ( on gain )",
+        "Max Timer"
+      ]
+    }
+  ]
+}

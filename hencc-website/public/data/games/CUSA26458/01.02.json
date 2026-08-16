@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "id": "CUSA26458",
+  "version": "01.02",
+  "files": [
+    {
+      "sourceId": "bafadddc",
+      "file": "CUSA26458_01.02_bafadddc.json",
+      "path": "json/CUSA26458_01.02_bafadddc.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Master Code [MC]",
+        "Infinite Health (Activate MC)",
+        "1Hit kill (Activate MC)",
+        "Infinite Ammo (needs bullets)",
+        "Max Cash/Experience (on gain from killing)",
+        "Infinite Car Nitro"
+      ]
+    }
+  ]
+}

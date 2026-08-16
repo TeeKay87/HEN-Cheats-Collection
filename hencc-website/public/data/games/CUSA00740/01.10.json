@@ -1,0 +1,105 @@
+{
+  "schema": 1,
+  "id": "CUSA00740",
+  "version": "01.10",
+  "files": [
+    {
+      "sourceId": "c88dbb50",
+      "file": "CUSA00740_01.10_c88dbb50.json",
+      "path": "json/CUSA00740_01.10_c88dbb50.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Molly & hejran7"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible",
+        "Infinite HP",
+        "Infinite Mana",
+        "Infinite Oxygen",
+        "One Hit Kill",
+        "Craft Anything",
+        "INV-Take one for Max",
+        "Big Weapon After Take and Place",
+        "50% Brightness",
+        "Freeze Timer",
+        "Fast Forward Time",
+        "Switch to Day Time 7:00 AM",
+        "Switch to Night Time 7:00 PM"
+      ]
+    },
+    {
+      "sourceId": "881e92f9",
+      "file": "CUSA00740_01.10_881e92f9.mc4",
+      "path": "mc4/CUSA00740_01.10_881e92f9.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "hejran7+Molly "
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible cant be hit",
+        "Godmode",
+        "Max Items",
+        "One Hit Kill",
+        "Max Breath",
+        "Always Have Max Mana",
+        "Have Adamantite Waraxe \"On item move\"",
+        "Item Size ~3x bigger~"
+      ]
+    },
+    {
+      "sourceId": "ff95d48e",
+      "file": "CUSA00740_01.10_ff95d48e.mc4",
+      "path": "mc4/CUSA00740_01.10_ff95d48e.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "hejran7+Molly "
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible cant be hit",
+        "Godmode",
+        "Max Items",
+        "One Hit Kill",
+        "Max Breath",
+        "Always Have Max Mana",
+        "Have Adamantite Waraxev On item move",
+        "Item Size ~3x bigger~"
+      ]
+    },
+    {
+      "sourceId": "675b265e",
+      "file": "CUSA00740_01.10_675b265e.shn",
+      "path": "shn/CUSA00740_01.10_675b265e.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "hejran7"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible",
+        "Infinite HP",
+        "Infinite Mana",
+        "Infinite Oxygen",
+        "One Hit Kill",
+        "Craft Anything",
+        "INV-Take one for Max",
+        "Big Weapon After Take and Place",
+        "50% Brightness",
+        "Freeze Timer",
+        "Fast Forward Time",
+        "Switch to Day Time 7:00 AM",
+        "Switch to Night Time 7:00 PM"
+      ]
+    }
+  ]
+}

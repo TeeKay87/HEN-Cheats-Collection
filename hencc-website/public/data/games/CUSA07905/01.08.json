@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "CUSA07905",
+  "version": "01.08",
+  "files": [
+    {
+      "sourceId": "961f6fbd",
+      "file": "CUSA07905_01.08_961f6fbd.json",
+      "path": "json/CUSA07905_01.08_961f6fbd.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TylerMods | Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health / 1 Hit Kill",
+        "Infinite Ammo (No Reload)",
+        "4,700,000 Gold on Gain",
+        "No cooldown on equipment",
+        "Infinite Ability"
+      ]
+    }
+  ]
+}

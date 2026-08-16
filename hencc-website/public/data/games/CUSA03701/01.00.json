@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "id": "CUSA03701",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "9d02af10",
+      "file": "CUSA03701_01.00_9d02af10.mc4",
+      "path": "mc4/CUSA03701_01.00_9d02af10.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "cjwine1"
+      ],
+      "notes": null,
+      "cheats": [
+        "skill inf",
+        "max level(god mode)when u get xp",
+        "inf ammo",
+        "no height",
+        "speed run x3",
+        "all item money 99999"
+      ]
+    },
+    {
+      "sourceId": "9ff31254",
+      "file": "CUSA03701_01.00_9ff31254.mc4",
+      "path": "mc4/CUSA03701_01.00_9ff31254.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "cjwine"
+      ],
+      "notes": null,
+      "cheats": [
+        "skill inf",
+        "max level(god mode)when u get xp",
+        "inf ammo",
+        "x999999 item each use and deactivate",
+        "x2 Item Each use (Use and deactivate)"
+      ]
+    },
+    {
+      "sourceId": "e2334a78",
+      "file": "CUSA03701_01.00_e2334a78.shn",
+      "path": "shn/CUSA03701_01.00_e2334a78.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "cjwine"
+      ],
+      "notes": null,
+      "cheats": [
+        "skill inf",
+        "max level(god mode)when u get xp",
+        "inf ammo",
+        "x999999 item each use and deactivate",
+        "x2 Item Each use (Use and deactivate)",
+        "no height",
+        "speed run x3",
+        "all item money 99999"
+      ]
+    }
+  ]
+}

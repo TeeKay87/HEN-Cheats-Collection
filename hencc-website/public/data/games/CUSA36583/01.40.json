@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "id": "CUSA36583",
+  "version": "01.40",
+  "files": [
+    {
+      "sourceId": "bbd9e1ac",
+      "file": "CUSA36583_01.40_bbd9e1ac.shn",
+      "path": "shn/CUSA36583_01.40_bbd9e1ac.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Max Currencies (on get)",
+        "Infinite Arrows/Potions(on Shoot/Consume)",
+        "Instant Athra surge charge",
+        "No Athra surge Cooldown"
+      ]
+    },
+    {
+      "sourceId": "faebdf10",
+      "file": "CUSA36583_01.40_faebdf10.shn",
+      "path": "shn/CUSA36583_01.40_faebdf10.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Health",
+        "Inf-Arrow + Elixir-healing + Crystals-of-time"
+      ]
+    }
+  ]
+}

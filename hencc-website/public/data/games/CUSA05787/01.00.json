@@ -1,0 +1,152 @@
+{
+  "schema": 1,
+  "id": "CUSA05787",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "8bdf41f8",
+      "file": "CUSA05787_01.00_8bdf41f8.json",
+      "path": "json/CUSA05787_01.00_8bdf41f8.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Weysincha"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Money",
+        "Infinite Max Sora / Riku Exp",
+        "Infinite Max Pet Exp "
+      ]
+    },
+    {
+      "sourceId": "7ce9ddfc",
+      "file": "CUSA05787_01.00_kh02.elf_7ce9ddfc.json",
+      "path": "json/CUSA05787_01.00_kh02.elf_7ce9ddfc.json",
+      "format": "json",
+      "process": "kh02.elf",
+      "hidden": false,
+      "creators": [
+        "cristi993"
+      ],
+      "notes": null,
+      "cheats": [
+        "No MP reload",
+        "Max XP",
+        "Infinite Focus"
+      ]
+    },
+    {
+      "sourceId": "753fd0c1",
+      "file": "CUSA05787_01.00_kh3d.elf_753fd0c1.json",
+      "path": "json/CUSA05787_01.00_kh3d.elf_753fd0c1.json",
+      "format": "json",
+      "process": "kh3d.elf",
+      "hidden": false,
+      "creators": [
+        "Weysincha"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Money",
+        "Infinite Max Sora / Riku Exp",
+        "Infinite Max Pet Exp "
+      ]
+    },
+    {
+      "sourceId": "b81f529f",
+      "file": "CUSA05787_01.00_b81f529f.mc4",
+      "path": "mc4/CUSA05787_01.00_b81f529f.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Weysincha"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf HP",
+        "Inf Money",
+        "Inf Pet Link Gauge",
+        "Inf Ability Links",
+        "Level/Exp fpr Player and Pet",
+        "No Comandos Cooldown",
+        "Freeze Dive Timer",
+        "One Hit Kill"
+      ]
+    },
+    {
+      "sourceId": "f82fec4c",
+      "file": "CUSA05787_01.00_kh3d.elf_f82fec4c.mc4",
+      "path": "mc4/CUSA05787_01.00_kh3d.elf_f82fec4c.mc4",
+      "format": "mc4",
+      "process": "kh3d.elf",
+      "hidden": false,
+      "creators": [
+        "Weysincha"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf HP",
+        "Inf Money",
+        "Inf Pet Link Gauge",
+        "Inf Ability Links",
+        "Level/Exp fpr Player and Pet",
+        "No Comandos Cooldown",
+        "Freeze Dive Timer",
+        "One Hit Kill"
+      ]
+    },
+    {
+      "sourceId": "9cef59c8",
+      "file": "CUSA05787_01.00_9cef59c8.shn",
+      "path": "shn/CUSA05787_01.00_9cef59c8.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Molly"
+      ],
+      "notes": null,
+      "cheats": [
+        "9999 Ability Link ~Use 1 Point~",
+        "Max Munny~Buy Anything~",
+        "Have All Item ~Buy 1 Potion~",
+        "Have All Training Toys~Buy 1 Toy~",
+        "Have All Dream Pieces ~Buy 1 Dream Piece~",
+        "Have All Recipes ~But 1 Dream Piece~",
+        "All Flick Rush Tournaments Completed~Finish Or Lose~",
+        "Unlock All Keyblades~Gain 1 Keyblade~",
+        "Quick Level Up~Leave Area Go Back~",
+        "Max Affinity/Stats - All Spirits~Bond With Spirit~"
+      ]
+    },
+    {
+      "sourceId": "8f436955",
+      "file": "CUSA05787_01.00_kh3d.elf_8f436955.shn",
+      "path": "shn/CUSA05787_01.00_kh3d.elf_8f436955.shn",
+      "format": "shn",
+      "process": "kh3d.elf",
+      "hidden": false,
+      "creators": [
+        "Molly"
+      ],
+      "notes": null,
+      "cheats": [
+        "9999 Ability Link ~Use 1 Point~",
+        "Max Munny~Buy Anything~",
+        "Have All Item ~Buy 1 Potion~",
+        "Have All Training Toys~Buy 1 Toy~",
+        "Have All Dream Pieces ~Buy 1 Dream Piece~",
+        "Have All Recipes ~But 1 Dream Piece~",
+        "All Flick Rush Tournaments Completed~Finish Or Lose~",
+        "Unlock All Keyblades~Gain 1 Keyblade~",
+        "Quick Level Up~Leave Area Go Back~",
+        "Max Affinity/Stats - All Spirits~Bond With Spirit~"
+      ]
+    }
+  ]
+}

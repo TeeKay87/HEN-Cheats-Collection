@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "id": "CUSA15090",
+  "version": "01.07",
+  "files": [
+    {
+      "sourceId": "41e23636",
+      "file": "CUSA15090_01.07_41e23636.json",
+      "path": "json/CUSA15090_01.07_41e23636.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "d01v_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Unlock All Cars",
+        "Max Money",
+        "No Damage (not working on cops)",
+        "Disable Garage Teleport when Busted (single cheat)",
+        "Disable Reset Damage (Make Impact to cops / Single Cheat)",
+        "Health 9999 (Enter Garage and exit, finish loading turn off cheat)",
+        "Infinite Nitro (Press Nitro Button)"
+      ]
+    },
+    {
+      "sourceId": "c63a1421",
+      "file": "CUSA15090_01.07_c63a1421.json",
+      "path": "json/CUSA15090_01.07_c63a1421.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Money (after 1st buy)",
+        "Max Rep Level (Unlock Cars/Items/Races)",
+        "Unlimited Gas Station Repair"
+      ]
+    },
+    {
+      "sourceId": "0388ef13",
+      "file": "CUSA15090_01.07_0388ef13.shn",
+      "path": "shn/CUSA15090_01.07_0388ef13.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "hejran7"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Inf Cash",
+        "Nitro Instant Refill "
+      ]
+    }
+  ]
+}

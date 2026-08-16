@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "id": "CUSA10299",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "e513ae61",
+      "file": "CUSA10299_01.00_e513ae61.mc4",
+      "path": "mc4/CUSA10299_01.00_e513ae61.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Weysincha"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Color Points",
+        "Max Color Score",
+        "Freeze Time"
+      ]
+    },
+    {
+      "sourceId": "2adbc853",
+      "file": "CUSA10299_01.00_2adbc853.shn",
+      "path": "shn/CUSA10299_01.00_2adbc853.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Weysincha"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Color Points",
+        "Max Color Score",
+        "Freeze Time"
+      ]
+    }
+  ]
+}

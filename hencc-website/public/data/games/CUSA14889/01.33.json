@@ -1,0 +1,69 @@
+{
+  "schema": 1,
+  "id": "CUSA14889",
+  "version": "01.33",
+  "files": [
+    {
+      "sourceId": "c3fe5b43",
+      "file": "CUSA14889_01.33_c3fe5b43.json",
+      "path": "json/CUSA14889_01.33_c3fe5b43.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 ",
+        " FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Money Points ( on gain )",
+        "Max Player Skill Points",
+        "Mastercode Player: V - Zone ( must be activated )",
+        "Infinite V-Zone Player 1 [MC]",
+        "Infinite V-Zone Player 2 [MC]",
+        "Disable V-Zone Player 1 [MC]",
+        "Disable V-Zone Player 2 [MC]"
+      ]
+    },
+    {
+      "sourceId": "6114e26c",
+      "file": "CUSA14889_01.33_6114e26c.mc4",
+      "path": "mc4/CUSA14889_01.33_6114e26c.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 - FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Money Points ( on gain )",
+        "Max Player Skill Points",
+        "Mastercode Player: V - Zone ( must be activated )",
+        "Infinite V-Zone Player 1 [MC]",
+        "Infinite V-Zone Player 2 [MC]",
+        "Disable V-Zone Player 1 [MC]",
+        "Disable V-Zone Player 2 [MC]"
+      ]
+    },
+    {
+      "sourceId": "bf4a818e",
+      "file": "CUSA14889_01.33_bf4a818e.shn",
+      "path": "shn/CUSA14889_01.33_bf4a818e.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 - FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Money Points ( on gain )",
+        "Max Player Skill Points",
+        "Mastercode Player: V - Zone ( must be activated )",
+        "Infinite V-Zone Player 1 [MC]",
+        "Infinite V-Zone Player 2 [MC]"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "id": "CUSA18534",
+  "version": "05.00",
+  "files": [
+    {
+      "sourceId": "4333631e",
+      "file": "CUSA18534_05.00_4333631e.json",
+      "path": "json/CUSA18534_05.00_4333631e.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Stamina Instant Refill",
+        "Max Resources/ Arrows (On Spend)",
+        "Max Skill Points (On Spend)",
+        "Infinite Abilites Bar (Enable only after unlock Ablities)"
+      ]
+    },
+    {
+      "sourceId": "c0eb67d5",
+      "file": "CUSA18534_05.00_c0eb67d5.json",
+      "path": "json/CUSA18534_05.00_c0eb67d5.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Savas"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Silver",
+        "Infinite Resources",
+        "Infinite Adrenaline Bar"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "id": "CUSA17776",
+  "version": "01.14",
+  "files": [
+    {
+      "sourceId": "8cc5e119",
+      "file": "CUSA17776_01.14_8cc5e119.mc4",
+      "path": "mc4/CUSA17776_01.14_8cc5e119.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Venom (after 1st charge activate only after defeating Rhino)",
+        "Infinite Gadget use",
+        "Max Experience (activate once)",
+        "Max skill points (on spend have 2)",
+        "Max infinite Resources (on spend on gadget and suits activate after the toturial)"
+      ]
+    },
+    {
+      "sourceId": "f9fa1652",
+      "file": "CUSA17776_01.14_f9fa1652.shn",
+      "path": "shn/CUSA17776_01.14_f9fa1652.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Venom (after 1st charge activate only after defeating Rhino)",
+        "Infinite Gadget use",
+        "Max Experience (activate once)",
+        "Max skill points (on spend have 2)",
+        "Max infinite Resources (on spend on gadget and suits activate after the toturial)"
+      ]
+    }
+  ]
+}

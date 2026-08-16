@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "CUSA13034",
+  "version": "01.24",
+  "files": [
+    {
+      "sourceId": "8923e644",
+      "file": "CUSA13034_01.24_8923e644.shn",
+      "path": "shn/CUSA13034_01.24_8923e644.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "WanderFW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Ammo",
+        "Max Money (on Spend)",
+        "Max Tech Points (on Spend)"
+      ]
+    }
+  ]
+}

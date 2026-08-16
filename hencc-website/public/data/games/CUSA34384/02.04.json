@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "id": "CUSA34384",
+  "version": "02.04",
+  "files": [
+    {
+      "sourceId": "7f6ff75c",
+      "file": "CUSA34384_02.04_7f6ff75c.json",
+      "path": "json/CUSA34384_02.04_7f6ff75c.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "JustGotenks"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Rage",
+        "Instant R3",
+        "No Cooldown",
+        "Infinite Projectiles",
+        "Resources up (on craft/sell)",
+        "XP/HS/Resource Multiplier (on get) (default: 2x)",
+        "5x",
+        "10x",
+        "25x",
+        "Damage Multiplier (default: 2x)",
+        "* 0.5x",
+        "* 3x",
+        "* 5x"
+      ]
+    },
+    {
+      "sourceId": "dac6e417",
+      "file": "CUSA34384_02.04_dac6e417.json",
+      "path": "json/CUSA34384_02.04_dac6e417.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "JustGotenks, edit by Chronoss"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Rage",
+        "Instant R3 Kill",
+        "No Cooldown (no cooldown for weapons use with combo L1 + *)",
+        "Infinite Arrows",
+        "Resources up (on craft/sell)",
+        "XP/HS/Resource Multiplier (on get) (default: 2x)",
+        "XP/HS/Resource Multiplier (on get) (default: 5x)",
+        "XP/HS/Resource Multiplier (on get) (default: 10x)",
+        "XP/HS/Resource Multiplier (on get) (default: 25x)",
+        "Damage Multiplier (default: 2x)",
+        "Damage Multiplier x0.5",
+        "Damage Multiplier x3",
+        "Damage Multiplier x5"
+      ]
+    }
+  ]
+}

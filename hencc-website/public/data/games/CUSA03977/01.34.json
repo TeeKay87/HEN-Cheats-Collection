@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "id": "CUSA03977",
+  "version": "01.34",
+  "files": [
+    {
+      "sourceId": "4fb1eeff",
+      "file": "CUSA03977_01.34_4fb1eeff.json",
+      "path": "json/CUSA03977_01.34_4fb1eeff.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Endurance (For Fight)",
+        "Infinite Breathe (For Run)",
+        "Infinite/Dupe Items (Need 2/Disable after you have enough)",
+        "Max/Infinite Items (Disable B4 Buy/Create Weapons)",
+        "Infinite Ammo/No Reload/Arrows/Throwables",
+        "Infinite Melee Durability",
+        "Infinite UV Flashlight",
+        "Infinite Grappling Hook Stamina",
+        "Infinite Camouflage",
+        "Max Level All Skill Points On Gain",
+        "Max/Infinite Money On Gain Or Buy"
+      ]
+    }
+  ]
+}

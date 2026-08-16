@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "CUSA07254",
+  "version": "01.52",
+  "files": [
+    {
+      "sourceId": "e04c363f",
+      "file": "CUSA07254_01.52_e04c363f.json",
+      "path": "json/CUSA07254_01.52_e04c363f.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "d01v_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Stellaris Backport 5.05 Game Version 01.52",
+        "Infinite Resources"
+      ]
+    }
+  ]
+}

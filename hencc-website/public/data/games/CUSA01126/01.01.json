@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "id": "CUSA01126",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "ccad0616",
+      "file": "CUSA01126_01.01_ccad0616.mc4",
+      "path": "mc4/CUSA01126_01.01_ccad0616.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Health",
+        "MAX-Skill-Points",
+        "Infinite-Breath)"
+      ]
+    },
+    {
+      "sourceId": "eef33489",
+      "file": "CUSA01126_01.01_eef33489.mc4",
+      "path": "mc4/CUSA01126_01.01_eef33489.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Health",
+        "MAX-Skill-Points",
+        "Infinite-Breath)"
+      ]
+    },
+    {
+      "sourceId": "1bc86684",
+      "file": "CUSA01126_01.01_1bc86684.shn",
+      "path": "shn/CUSA01126_01.01_1bc86684.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Health",
+        "MAX-Skill-Points",
+        "Infinite-Breath)"
+      ]
+    }
+  ]
+}

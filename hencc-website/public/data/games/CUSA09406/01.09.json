@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "id": "CUSA09406",
+  "version": "01.09",
+  "files": [
+    {
+      "sourceId": "41f0cb4f",
+      "file": "CUSA09406_01.09_41f0cb4f.json",
+      "path": "json/CUSA09406_01.09_41f0cb4f.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DJFlameDat"
+      ],
+      "notes": null,
+      "cheats": [
+        "Unlimited HP",
+        "Unlimited Weight",
+        "Unlimted Items (on consume)",
+        "Unlimited Items (on drop need 2)",
+        "Unlimited Money (on buy)",
+        "Unlimited Weapon Durability",
+        "Unlimited Stam, Joy, Fatigue, Hunger and Thirst"
+      ]
+    },
+    {
+      "sourceId": "10b6c8cd",
+      "file": "CUSA09406_01.09_10b6c8cd.mc4",
+      "path": "mc4/CUSA09406_01.09_10b6c8cd.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DJFlameDat"
+      ],
+      "notes": null,
+      "cheats": [
+        "Unlimited HP",
+        "Unlimited Weight",
+        "Unlimted Items (on consume)",
+        "Unlimited Items (on drop need 2)",
+        "Unlimited Money (on buy)",
+        "Unlimited Weapon Durability",
+        "Unlimited Stam, Joy, Fatigue, Hunger and Thirst"
+      ]
+    },
+    {
+      "sourceId": "2700682e",
+      "file": "CUSA09406_01.09_2700682e.shn",
+      "path": "shn/CUSA09406_01.09_2700682e.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DJFlameDat"
+      ],
+      "notes": null,
+      "cheats": [
+        "Unlimited HP",
+        "Unlimited Weight",
+        "Unlimted Items (on consume)",
+        "Unlimited Items (on drop need 2)",
+        "Unlimited Money (on buy)",
+        "Unlimited Weapon Durability",
+        "Unlimited Stam, Joy, Fatigue, Hunger and Thirst"
+      ]
+    }
+  ]
+}

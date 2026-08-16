@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "id": "CUSA11112",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "f2254386",
+      "file": "CUSA11112_01.01_f2254386.json",
+      "path": "json/CUSA11112_01.01_f2254386.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health",
+        "Inf Ammo (Use Only With Dynamite)",
+        "Inf Ammo (McCoy/Hector/Kate/Isabelle)"
+      ]
+    }
+  ]
+}

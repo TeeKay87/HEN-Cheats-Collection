@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "id": "CUSA09643",
+  "version": "01.05",
+  "files": [
+    {
+      "sourceId": "0329d610",
+      "file": "CUSA09643_01.05_0329d610.json",
+      "path": "json/CUSA09643_01.05_0329d610.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Items",
+        "No Reload",
+        "Infinite Throwables (Not A Hero)",
+        "Infinite Oxigen (Not A Hero)",
+        "Max/Infinite Scrap On Use (Nightmare)",
+        "Stop Time (BedRoom)"
+      ]
+    },
+    {
+      "sourceId": "8c245fd6",
+      "file": "CUSA09643_01.05_8c245fd6.mc4",
+      "path": "mc4/CUSA09643_01.05_8c245fd6.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Items",
+        "No Reload",
+        "Infinite Throwables (Not A Hero)",
+        "Infinite Oxigen (Not A Hero)",
+        "Max/Infinite Scrap On Use (Nightmare)",
+        "Stop Time (BedRoom)"
+      ]
+    },
+    {
+      "sourceId": "d408572c",
+      "file": "CUSA09643_01.05_d408572c.shn",
+      "path": "shn/CUSA09643_01.05_d408572c.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Items",
+        "No Reload",
+        "Infinite Throwables (Not A Hero)",
+        "Infinite Oxigen (Not A Hero)",
+        "Max/Infinite Scrap On Use (Nightmare)",
+        "Stop Time (BedRoom)"
+      ]
+    }
+  ]
+}

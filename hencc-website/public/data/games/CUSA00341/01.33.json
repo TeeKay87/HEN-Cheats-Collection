@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "id": "CUSA00341",
+  "version": "01.33",
+  "files": [
+    {
+      "sourceId": "0aad1d5d",
+      "file": "CUSA00341_01.33_0aad1d5d.json",
+      "path": "json/CUSA00341_01.33_0aad1d5d.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Enable Dev Menu"
+      ]
+    },
+    {
+      "sourceId": "747ca319",
+      "file": "CUSA00341_01.33_747ca319.shn",
+      "path": "shn/CUSA00341_01.33_747ca319.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "hejran7"
+      ],
+      "notes": null,
+      "cheats": [
+        "Dev Menu (L3 + Upper L or R Touch Pad)"
+      ]
+    }
+  ]
+}

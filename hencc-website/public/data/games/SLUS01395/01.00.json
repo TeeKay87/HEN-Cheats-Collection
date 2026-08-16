@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "SLUS01395",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "d6d419df",
+      "file": "SLUS01395_01.00_d6d419df.json",
+      "path": "json/SLUS01395_01.00_d6d419df.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Have All Weapons",
+        "Infinite-All-Weapon",
+        "Infinite Health",
+        "Infinite Lives",
+        "Invincible"
+      ]
+    },
+    {
+      "sourceId": "b9a81dc5",
+      "file": "SLUS01395_01.00_b9a81dc5.shn",
+      "path": "shn/SLUS01395_01.00_b9a81dc5.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Have All Weapons",
+        "Infinite-All-Weapon",
+        "Infinite Health",
+        "Infinite Lives",
+        "Invincible"
+      ]
+    }
+  ]
+}

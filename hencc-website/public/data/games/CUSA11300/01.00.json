@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "id": "CUSA11300",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "1b8c172c",
+      "file": "CUSA11300_01.00_1b8c172c.mc4",
+      "path": "mc4/CUSA11300_01.00_1b8c172c.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Health",
+        "Infinite-All-MAGIC",
+        "MAX-money",
+        "MAX-Souls"
+      ]
+    },
+    {
+      "sourceId": "ddc37811",
+      "file": "CUSA11300_01.00_ddc37811.mc4",
+      "path": "mc4/CUSA11300_01.00_ddc37811.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Health",
+        "Infinite-All-MAGIC",
+        "MAX-money",
+        "MAX-Souls"
+      ]
+    },
+    {
+      "sourceId": "18f1c08e",
+      "file": "CUSA11300_01.00_18f1c08e.shn",
+      "path": "shn/CUSA11300_01.00_18f1c08e.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Health",
+        "Infinite-All-MAGIC",
+        "MAX-money",
+        "MAX-Souls"
+      ]
+    }
+  ]
+}

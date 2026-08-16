@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "id": "CUSA02976",
+  "version": "01.32",
+  "files": [
+    {
+      "sourceId": "0b797f97",
+      "file": "CUSA02976_01.32_0b797f97.json",
+      "path": "json/CUSA02976_01.32_0b797f97.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Stealth",
+        "Bottomless Clip",
+        "Infinite Ammo",
+        "Enemys dont Attack"
+      ]
+    },
+    {
+      "sourceId": "607601e9",
+      "file": "CUSA02976_01.32_607601e9.mc4",
+      "path": "mc4/CUSA02976_01.32_607601e9.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Stealth",
+        "Bottomless Clip",
+        "Infinite Ammo",
+        "Enemys dont Attack"
+      ]
+    },
+    {
+      "sourceId": "dfa26e3f",
+      "file": "CUSA02976_01.32_dfa26e3f.mc4",
+      "path": "mc4/CUSA02976_01.32_dfa26e3f.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Stealth",
+        "Bottomless Clip",
+        "Infinite Ammo",
+        "Enemys dont Attack"
+      ]
+    },
+    {
+      "sourceId": "2df3e627",
+      "file": "CUSA02976_01.32_2df3e627.shn",
+      "path": "shn/CUSA02976_01.32_2df3e627.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Stealth",
+        "Bottomless Clip",
+        "Infinite Ammo",
+        "Enemys dont Attack"
+      ]
+    }
+  ]
+}

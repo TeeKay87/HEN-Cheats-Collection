@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "CUSA13967",
+  "version": "04.13",
+  "files": [
+    {
+      "sourceId": "3f4ab834",
+      "file": "CUSA13967_04.13_3f4ab834.json",
+      "path": "json/CUSA13967_04.13_3f4ab834.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Energy",
+        "Infinite Coins",
+        "Infinite Inventory Items",
+        "Instant Level Up"
+      ]
+    }
+  ]
+}

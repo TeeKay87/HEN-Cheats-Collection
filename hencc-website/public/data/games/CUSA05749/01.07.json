@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "id": "CUSA05749",
+  "version": "01.07",
+  "files": [
+    {
+      "sourceId": "68d0aa5e",
+      "file": "CUSA05749_01.07_68d0aa5e.json",
+      "path": "json/CUSA05749_01.07_68d0aa5e.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Ammo / No overheat"
+      ]
+    },
+    {
+      "sourceId": "b66be3ad",
+      "file": "CUSA05749_01.07_b66be3ad.json",
+      "path": "json/CUSA05749_01.07_b66be3ad.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Ammo / No overheat"
+      ]
+    },
+    {
+      "sourceId": "3c8659cb",
+      "file": "CUSA05749_01.07_3c8659cb.mc4",
+      "path": "mc4/CUSA05749_01.07_3c8659cb.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Ammo / No overheat"
+      ]
+    },
+    {
+      "sourceId": "1fcca2bc",
+      "file": "CUSA05749_01.07_1fcca2bc.shn",
+      "path": "shn/CUSA05749_01.07_1fcca2bc.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Ammo / No overheat"
+      ]
+    }
+  ]
+}

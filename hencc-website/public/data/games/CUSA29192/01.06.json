@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "CUSA29192",
+  "version": "01.06",
+  "files": [
+    {
+      "sourceId": "c43b10e8",
+      "file": "CUSA29192_01.06_c43b10e8.json",
+      "path": "json/CUSA29192_01.06_c43b10e8.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Life",
+        "Inf Stamina",
+        "Inf Ammo",
+        "No Reload",
+        "Inf Focus",
+        "Inf Items",
+        "Inf Skill Points"
+      ]
+    }
+  ]
+}

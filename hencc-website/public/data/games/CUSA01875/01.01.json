@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "id": "CUSA01875",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "39bd23cd",
+      "file": "CUSA01875_01.01_39bd23cd.mc4",
+      "path": "mc4/CUSA01875_01.01_39bd23cd.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Molly"
+      ],
+      "notes": null,
+      "cheats": [
+        "Quick Level Up",
+        "Max Ap ~After Battle~",
+        "Max Money ~After Buy or Sell~",
+        "Max Items/Accessories ~Buy 1 Potion~ ~Do Not Use With Have All Weapons~",
+        "Have All Weapons ~Buy 1 Potion~ ~Do Not Use With Max Items~",
+        "Save Anytime ~Leave Any Area~",
+        "Have Sephiroth In Slot 3 ~Swap Character From Slot 2 To Slot 3~",
+        "Max Stats ~After Level Up~",
+        "Max Hp//MP ~After Level Up~",
+        "Unlock Limit Breaks ~Select Limit Level Go Into Battle To Unlock~ ~2 battles~",
+        "Always Have Limit break ~In Battle~",
+        "Have All Materia ~Buy One Materia~"
+      ]
+    },
+    {
+      "sourceId": "d7e1ba1c",
+      "file": "CUSA01875_01.01_d7e1ba1c.shn",
+      "path": "shn/CUSA01875_01.01_d7e1ba1c.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Molly"
+      ],
+      "notes": null,
+      "cheats": [
+        "Quick Level Up",
+        "Max Ap ~After Battle~",
+        "Max Money ~After Buy or Sell~",
+        "Max Items/Accessories ~Buy 1 Potion~ ~Do Not Use With Have All Weapons~",
+        "Save Anytime ~Leave Any Area~",
+        "Have Sephiroth In Slot 3 ~Swap Character From Slot 2 To Slot 3~",
+        "Max Stats ~After Level Up~",
+        "Max Hp//MP ~After Level Up~",
+        "Unlock Limit Breaks ~Select Limit Level Go Into Battle To Unlock~ ~2 battles~",
+        "Always Have Limit break ~In Battle~",
+        "Have All Materia ~Buy One Materia~"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "id": "CUSA13801",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "91f866da",
+      "file": "CUSA13801_01.01_91f866da.json",
+      "path": "json/CUSA13801_01.01_91f866da.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "God Mode",
+        "Infinite Money",
+        "Inf Items"
+      ]
+    },
+    {
+      "sourceId": "e60bd4b2",
+      "file": "CUSA13801_01.01_e60bd4b2.mc4",
+      "path": "mc4/CUSA13801_01.01_e60bd4b2.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "God Mode",
+        "Infinite Money",
+        "Inf Items"
+      ]
+    },
+    {
+      "sourceId": "41c80017",
+      "file": "CUSA13801_01.01_41c80017.shn",
+      "path": "shn/CUSA13801_01.01_41c80017.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "God Mode",
+        "Infinite Money",
+        "Inf Items"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "CUSA15010",
+  "version": "01.39",
+  "files": [
+    {
+      "sourceId": "475756d7",
+      "file": "CUSA15010_01.39_475756d7.json",
+      "path": "json/CUSA15010_01.39_475756d7.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "EchoStretch"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Money",
+        "Infinite Ammo"
+      ]
+    },
+    {
+      "sourceId": "97896f03",
+      "file": "CUSA15010_01.39_97896f03.json",
+      "path": "json/CUSA15010_01.39_97896f03.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "EchoStretch"
+      ],
+      "notes": null,
+      "cheats": [
+        "All Client Godmode",
+        "All Client Infinite Ammo",
+        "All Client Infinite Points",
+        "All Client 1-Hit Kill",
+        "Infinite Health",
+        "Infinite Money",
+        "Infinite Ammo"
+      ]
+    }
+  ]
+}

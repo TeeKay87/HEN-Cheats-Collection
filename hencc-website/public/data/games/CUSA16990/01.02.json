@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "id": "CUSA16990",
+  "version": "01.02",
+  "files": [
+    {
+      "sourceId": "d719ed20",
+      "file": "CUSA16990_01.02_d719ed20.json",
+      "path": "json/CUSA16990_01.02_d719ed20.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Health Master Code (Enable First)",
+        "Inf Health",
+        "Inf Money",
+        "Inf Ammo",
+        "No Reload",
+        "Freez Timer"
+      ]
+    }
+  ]
+}

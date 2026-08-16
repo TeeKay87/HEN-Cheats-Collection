@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "id": "CUSA40975",
+  "version": "01.07",
+  "files": [
+    {
+      "sourceId": "5642c273",
+      "file": "CUSA40975_01.07_5642c273.json",
+      "path": "json/CUSA40975_01.07_5642c273.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Stamina",
+        "Infinite Oxygen",
+        "Mount Stamina",
+        "(99)  Skill Points / Level (On Spend)",
+        "(9999) Resources (On Use)"
+      ]
+    },
+    {
+      "sourceId": "9ac3e667",
+      "file": "CUSA40975_01.07_9ac3e667.shn",
+      "path": "shn/CUSA40975_01.07_9ac3e667.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Stamina",
+        "Infinite Oxygen",
+        "Mount Stamina",
+        "(99)  Skill Points / Level (On Spend)",
+        "(9999) Resources (On Use)"
+      ]
+    }
+  ]
+}

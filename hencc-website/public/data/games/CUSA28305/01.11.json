@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "CUSA28305",
+  "version": "01.11",
+  "files": [
+    {
+      "sourceId": "a41b8bbd",
+      "file": "CUSA28305_01.11_a41b8bbd.json",
+      "path": "json/CUSA28305_01.11_a41b8bbd.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "d01v_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health (hero lvl 2)",
+        "Infinite Mana (hero lvl 2)",
+        "Speed (turn off after)",
+        "Infinite Stamina"
+      ]
+    }
+  ]
+}

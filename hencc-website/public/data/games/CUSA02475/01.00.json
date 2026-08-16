@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "CUSA02475",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "a1ff423e",
+      "file": "CUSA02475_01.00_a1ff423e.mc4",
+      "path": "mc4/CUSA02475_01.00_a1ff423e.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Vampirexx"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Score after 1 Kill (Do not use with other cheats)",
+        "Godmode",
+        "Max Overcharge on Pickup",
+        "Inf Overcharge Keep Pressin UP to deplete",
+        "Inf Special Weapons"
+      ]
+    },
+    {
+      "sourceId": "6ef7fbc0",
+      "file": "CUSA02475_01.00_6ef7fbc0.shn",
+      "path": "shn/CUSA02475_01.00_6ef7fbc0.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Vampirexx"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Score after 1 Kill (Do not use with other cheats)",
+        "Godmode",
+        "Max Overcharge on Pickup",
+        "Inf Overcharge Keep Pressin UP to deplete",
+        "Inf Special Weapons"
+      ]
+    }
+  ]
+}

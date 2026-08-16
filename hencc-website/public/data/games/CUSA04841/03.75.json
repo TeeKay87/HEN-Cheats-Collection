@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "id": "CUSA04841",
+  "version": "03.75",
+  "files": [
+    {
+      "sourceId": "1cf90a53",
+      "file": "CUSA04841_03.75_1cf90a53.json",
+      "path": "json/CUSA04841_03.75_1cf90a53.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "999 Minerals (on gain)",
+        "999 Minerals (on use)",
+        "999 (on consume for food deactivate to discard items)",
+        "999 Salvaged Data (on spend)",
+        "Infinite jetpack",
+        "Infinite Sprint",
+        "999999999 Units (on gain)",
+        "999999999 Nanites (on gain",
+        "Infinte Ammo",
+        "Infinite Pet Sprint",
+        "Infinite ExoMech Jetpack",
+        "999999999 Quicksilver (on spend)"
+      ]
+    }
+  ]
+}

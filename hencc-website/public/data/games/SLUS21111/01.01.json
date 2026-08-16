@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "id": "SLUS21111",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "396b297b",
+      "file": "SLUS21111_01.01_396b297b.json",
+      "path": "json/SLUS21111_01.01_396b297b.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Ammo"
+      ]
+    },
+    {
+      "sourceId": "abf4a277",
+      "file": "SLUS21111_01.01_abf4a277.shn",
+      "path": "shn/SLUS21111_01.01_abf4a277.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Ammo"
+      ]
+    }
+  ]
+}

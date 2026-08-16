@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "id": "CUSA02769",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "1c11bc12",
+      "file": "CUSA02769_01.01_1c11bc12.mc4",
+      "path": "mc4/CUSA02769_01.01_1c11bc12.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Weysincha"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Lvl/Exp",
+        "Inf MP",
+        "Inf Gold"
+      ]
+    },
+    {
+      "sourceId": "52c85260",
+      "file": "CUSA02769_01.01_52c85260.shn",
+      "path": "shn/CUSA02769_01.01_52c85260.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Weysincha"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Lvl/Exp",
+        "Inf MP",
+        "Inf Gold"
+      ]
+    }
+  ]
+}

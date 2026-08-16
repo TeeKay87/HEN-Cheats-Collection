@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "CUSA05105",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "b3777853",
+      "file": "CUSA05105_01.00_b3777853.mc4",
+      "path": "mc4/CUSA05105_01.00_b3777853.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Weysincha"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health",
+        "Inf SG",
+        "Inf  Money on buy",
+        "Get MAX Level (200) after two battles",
+        "Inf Essence"
+      ]
+    },
+    {
+      "sourceId": "d48da853",
+      "file": "CUSA05105_01.00_d48da853.shn",
+      "path": "shn/CUSA05105_01.00_d48da853.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Weysincha"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health",
+        "Inf SG",
+        "Inf  Money on buy",
+        "Get MAX Level (200) after two battles",
+        "Inf Essence"
+      ]
+    }
+  ]
+}

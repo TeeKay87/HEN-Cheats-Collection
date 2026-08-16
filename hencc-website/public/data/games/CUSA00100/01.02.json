@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "id": "CUSA00100",
+  "version": "01.02",
+  "files": [
+    {
+      "sourceId": "e631623a",
+      "file": "CUSA00100_01.02_e631623a.json",
+      "path": "json/CUSA00100_01.02_e631623a.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Fullcodes������ԭ���"
+      ],
+      "notes": null,
+      "cheats": [
+        "No Reload",
+        "Infinite AMMO Usage",
+        "Infinite Grenade Usage",
+        "Black Sight Aways Available",
+        "Infinite Player Health",
+        "Enemy 1 Hit Kill"
+      ]
+    }
+  ]
+}

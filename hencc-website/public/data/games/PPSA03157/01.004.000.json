@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "id": "PPSA03157",
+  "version": "01.004.000",
+  "files": [
+    {
+      "sourceId": "71975b72",
+      "file": "PPSA03157_01.004.000_71975b72.json",
+      "path": "json/PPSA03157_01.004.000_71975b72.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Hp",
+        "Inf Ammo"
+      ]
+    },
+    {
+      "sourceId": "5bc2389f",
+      "file": "PPSA03157_01.004.000_5bc2389f.mc4",
+      "path": "mc4/PPSA03157_01.004.000_5bc2389f.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Hp",
+        "Inf Ammo"
+      ]
+    }
+  ]
+}

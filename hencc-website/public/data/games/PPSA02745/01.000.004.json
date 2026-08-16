@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "id": "PPSA02745",
+  "version": "01.000.004",
+  "files": [
+    {
+      "sourceId": "89923d0b",
+      "file": "PPSA02745_01.000.004_89923d0b.shn",
+      "path": "shn/PPSA02745_01.000.004_89923d0b.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Super Death"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health + OHK",
+        "Infinite Health ",
+        "One Hit Kill",
+        "Infinite Gald",
+        "Infinite Experience ",
+        "Infinite CP",
+        "Infinite SP",
+        "Infinite Items"
+      ]
+    },
+    {
+      "sourceId": "c0191360",
+      "file": "PPSA02745_01.000.004_c0191360.shn",
+      "path": "shn/PPSA02745_01.000.004_c0191360.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Super Death"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Gald",
+        "Infinite Experience ",
+        "Infinite CP",
+        "Infinite SP",
+        "Infinite Items"
+      ]
+    }
+  ]
+}

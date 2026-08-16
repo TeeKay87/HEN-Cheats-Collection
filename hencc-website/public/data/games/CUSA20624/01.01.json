@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "id": "CUSA20624",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "6fbc4db6",
+      "file": "CUSA20624_01.01_6fbc4db6.json",
+      "path": "json/CUSA20624_01.01_6fbc4db6.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Mana",
+        "Max Gold"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "id": "PPSA03984",
+  "version": "01.020.000",
+  "files": [
+    {
+      "sourceId": "6a96cc5c",
+      "file": "PPSA03984_01.020.000_6a96cc5c.json",
+      "path": "json/PPSA03984_01.020.000_6a96cc5c.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf HP Onehitkill",
+        "Inf HP",
+        "Inf Items",
+        "Inf Skill Points",
+        "No Cooldown"
+      ]
+    },
+    {
+      "sourceId": "5b523f74",
+      "file": "PPSA03984_01.020.000_5b523f74.mc4",
+      "path": "mc4/PPSA03984_01.020.000_5b523f74.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf HP Onehitkill",
+        "Inf HP",
+        "Inf Items",
+        "Inf Skill Points",
+        "No Cooldown"
+      ]
+    },
+    {
+      "sourceId": "de0be330",
+      "file": "PPSA03984_01.020.000_de0be330.mc4",
+      "path": "mc4/PPSA03984_01.020.000_de0be330.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Stamina",
+        "Max Resources/Potions",
+        "Max Level",
+        "9999 Magic Points"
+      ]
+    }
+  ]
+}

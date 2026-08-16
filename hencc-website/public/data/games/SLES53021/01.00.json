@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "SLES53021",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "04aee53a",
+      "file": "SLES53021_01.00_04aee53a.shn",
+      "path": "shn/SLES53021_01.00_04aee53a.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf-lives-Gunbird-Special-Edition=1",
+        "Inf-Bomb-Gunbird-Special-Edition=1",
+        "Inf-lives-Gunbird Special Edition=2",
+        "Inf-Bomb-Gunbird Special Edition=2"
+      ]
+    }
+  ]
+}

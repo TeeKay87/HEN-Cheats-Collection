@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "CUSA09264",
+  "version": "01.31",
+  "files": [
+    {
+      "sourceId": "876f1240",
+      "file": "CUSA09264_01.31_876f1240.json",
+      "path": "json/CUSA09264_01.31_876f1240.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "sili"
+      ],
+      "notes": null,
+      "cheats": [
+        "inf. health",
+        "inf. secondary fire"
+      ]
+    }
+  ]
+}

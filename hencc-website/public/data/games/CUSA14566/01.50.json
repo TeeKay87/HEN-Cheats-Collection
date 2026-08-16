@@ -1,0 +1,65 @@
+{
+  "schema": 1,
+  "id": "CUSA14566",
+  "version": "01.50",
+  "files": [
+    {
+      "sourceId": "aca4fd98",
+      "file": "CUSA14566_01.50_aca4fd98.json",
+      "path": "json/CUSA14566_01.50_aca4fd98.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 ",
+        " FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Money",
+        "Max XP Level",
+        "No Costs in Shop ( only Delivery )",
+        "No Delivery Cost",
+        "Max Star Rating"
+      ]
+    },
+    {
+      "sourceId": "56c827c0",
+      "file": "CUSA14566_01.50_56c827c0.mc4",
+      "path": "mc4/CUSA14566_01.50_56c827c0.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 - FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Money",
+        "Max XP Level",
+        "No Costs in Shop ( only Delivery )",
+        "No Delivery Cost",
+        "Max Star Rating"
+      ]
+    },
+    {
+      "sourceId": "bc66d39d",
+      "file": "CUSA14566_01.50_bc66d39d.shn",
+      "path": "shn/CUSA14566_01.50_bc66d39d.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 - FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Money",
+        "Max XP Level",
+        "No Costs in Shop ( only Delivery )",
+        "No Delivery Cost",
+        "Max Star Rating"
+      ]
+    }
+  ]
+}

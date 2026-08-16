@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "id": "CUSA99900",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "1b5a3899",
+      "file": "CUSA99900_01.00_1b5a3899.shn",
+      "path": "shn/CUSA99900_01.00_1b5a3899.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Health",
+        "Infinite-Lives"
+      ]
+    },
+    {
+      "sourceId": "c5064a4e",
+      "file": "CUSA99900_01.00_c5064a4e.shn",
+      "path": "shn/CUSA99900_01.00_c5064a4e.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Health",
+        "Infinite-Lives"
+      ]
+    }
+  ]
+}

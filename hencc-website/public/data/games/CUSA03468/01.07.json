@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "CUSA03468",
+  "version": "01.07",
+  "files": [
+    {
+      "sourceId": "63f5be09",
+      "file": "CUSA03468_01.07_63f5be09.json",
+      "path": "json/CUSA03468_01.07_63f5be09.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "ADI"
+      ],
+      "notes": null,
+      "cheats": [
+        "All Items Max/ On Sell",
+        "No Stamina Consume",
+        "Blood Never Decrease ",
+        "Lots Of Money/On Pickup",
+        "Ammo Never Decrease+No Reload"
+      ]
+    }
+  ]
+}

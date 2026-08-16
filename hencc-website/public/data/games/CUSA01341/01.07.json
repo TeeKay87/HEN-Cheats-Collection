@@ -1,0 +1,99 @@
+{
+  "schema": 1,
+  "id": "CUSA01341",
+  "version": "01.07",
+  "files": [
+    {
+      "sourceId": "65df0735",
+      "file": "CUSA01341_01.07_65df0735.json",
+      "path": "json/CUSA01341_01.07_65df0735.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Rizla"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Zeni on Buy/Sell",
+        "Max Points on Spend",
+        "Max LVL/EXP on Gain",
+        "Max Items on Buy When Refreshed",
+        "Infinite Health",
+        "Infinite Ki",
+        "Max Stamina When Gained",
+        "Freeze Timer"
+      ]
+    },
+    {
+      "sourceId": "65ff0db8",
+      "file": "CUSA01341_01.07_65ff0db8.json",
+      "path": "json/CUSA01341_01.07_65ff0db8.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Rizla"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Zeni on Buy/Sell",
+        "Max Points on Spend",
+        "Max LVL/EXP on Gain",
+        "Max Items on Buy When Refreshed",
+        "Infinite Health",
+        "Infinite Ki",
+        "Max Stamina When Gained",
+        "Freeze Timer"
+      ]
+    },
+    {
+      "sourceId": "3339fad3",
+      "file": "CUSA01341_01.07_3339fad3.mc4",
+      "path": "mc4/CUSA01341_01.07_3339fad3.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Rizla"
+      ],
+      "notes": null,
+      "cheats": [
+        "MasterCode1",
+        "MasterCode2",
+        "Max Zeni on Buy/Sell",
+        "Max Points on Spend",
+        "Max LVL/EXP on Gain",
+        "Max Items on Buy When Refreshed",
+        "Infinite Health",
+        "Infinite KI",
+        "Infinite Stamina",
+        "Freeze Timer"
+      ]
+    },
+    {
+      "sourceId": "206d884f",
+      "file": "CUSA01341_01.07_206d884f.shn",
+      "path": "shn/CUSA01341_01.07_206d884f.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Rizla"
+      ],
+      "notes": null,
+      "cheats": [
+        "MasterCode1",
+        "MasterCode2",
+        "Max Zeni on Buy/Sell",
+        "Max Points on Spend",
+        "Max LVL/EXP on Gain",
+        "Max Items on Buy When Refreshed",
+        "Infinite Health",
+        "Infinite KI",
+        "Infinite Stamina",
+        "Freeze Timer"
+      ]
+    }
+  ]
+}

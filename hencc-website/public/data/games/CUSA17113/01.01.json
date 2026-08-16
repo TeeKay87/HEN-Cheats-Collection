@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "id": "CUSA17113",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "7f480252",
+      "file": "CUSA17113_01.01_7f480252.mc4",
+      "path": "mc4/CUSA17113_01.01_7f480252.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Molly"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Money",
+        "Unlock All Items",
+        "Max Hp",
+        "Quick Level Up",
+        "No Equipment Weight",
+        "High Star Amount",
+        "Clear All Difficulties ~Load Save~"
+      ]
+    },
+    {
+      "sourceId": "edaed01b",
+      "file": "CUSA17113_01.01_edaed01b.shn",
+      "path": "shn/CUSA17113_01.01_edaed01b.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Molly"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Money",
+        "Unlock All Items",
+        "Max Hp",
+        "Quick Level Up",
+        "No Equipment Weight",
+        "High Star Amount",
+        "Clear All Difficulties ~Load Save~"
+      ]
+    }
+  ]
+}

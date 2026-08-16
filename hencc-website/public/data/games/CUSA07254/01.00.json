@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "id": "CUSA07254",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "20f87290",
+      "file": "CUSA07254_01.00_20f87290.json",
+      "path": "json/CUSA07254_01.00_20f87290.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "d01v_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max All Resources"
+      ]
+    },
+    {
+      "sourceId": "cd90ad7f",
+      "file": "CUSA07254_01.00_cd90ad7f.json",
+      "path": "json/CUSA07254_01.00_cd90ad7f.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "d01v_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Stellaris Game Version 04.02",
+        "Infinite Resources"
+      ]
+    }
+  ]
+}

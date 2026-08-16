@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "id": "SLUS42112",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "d35cb7ff",
+      "file": "SLUS42112_01.00_d35cb7ff.shn",
+      "path": "shn/SLUS42112_01.00_d35cb7ff.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Health",
+        "Infinite-lives-99",
+        "Infinite-credits"
+      ]
+    }
+  ]
+}

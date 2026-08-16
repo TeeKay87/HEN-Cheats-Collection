@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "id": "CUSA40652",
+  "version": "01.10",
+  "files": [
+    {
+      "sourceId": "9a791867",
+      "file": "CUSA40652_01.10_9a791867.json",
+      "path": "json/CUSA40652_01.10_9a791867.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health/1 Hit Kill (MASTERCODE/MUST BE ON)",
+        "Infinite Health",
+        "1 Hit Kill",
+        "Infinite MP",
+        "Max BP On Gain",
+        "Infinite SP On Use",
+        "Infinite Items/Craft/Baits",
+        "Infinite Fol",
+        "Max XP (Win Battle)"
+      ]
+    },
+    {
+      "sourceId": "f06d9cf8",
+      "file": "CUSA40652_01.10_f06d9cf8.shn",
+      "path": "shn/CUSA40652_01.10_f06d9cf8.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health/1 Hit Kill (MASTERCODE/MUST BE ON)",
+        "Infinite Health",
+        "1 Hit Kill",
+        "Infinite MP",
+        "Max BP On Gain",
+        "Infinite SP On Use",
+        "Infinite Items/Craft/Baits",
+        "Infinite Fol",
+        "Max XP (Win Battle)"
+      ]
+    }
+  ]
+}

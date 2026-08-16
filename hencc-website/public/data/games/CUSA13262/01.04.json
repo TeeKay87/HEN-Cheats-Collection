@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "CUSA13262",
+  "version": "01.04",
+  "files": [
+    {
+      "sourceId": "25b4ea50",
+      "file": "CUSA13262_01.04_25b4ea50.json",
+      "path": "json/CUSA13262_01.04_25b4ea50.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Easy Kill",
+        "Max Gold / Consumables (On Get / Spend)",
+        "Super Jump",
+        "Super Extra Jump",
+        "Default Jump (Use With Super Jump)",
+        "Default Extra Jump (Use With Super Extra Jump)"
+      ]
+    }
+  ]
+}

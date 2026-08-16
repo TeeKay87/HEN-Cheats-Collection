@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "CUSA10812",
+  "version": "01.09",
+  "files": [
+    {
+      "sourceId": "015e5c49",
+      "file": "CUSA10812_01.09_015e5c49.json",
+      "path": "json/CUSA10812_01.09_015e5c49.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 ",
+        " FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Items / Ammo ( does not deduct any value )",
+        "Infinite Items / Ammo ( added after use )",
+        "Stealth Mode ( not in sequences )"
+      ]
+    }
+  ]
+}

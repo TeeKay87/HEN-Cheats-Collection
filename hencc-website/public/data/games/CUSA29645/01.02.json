@@ -1,0 +1,92 @@
+{
+  "schema": 1,
+  "id": "CUSA29645",
+  "version": "01.02",
+  "files": [
+    {
+      "sourceId": "08323998",
+      "file": "CUSA29645_01.02_08323998.json",
+      "path": "json/CUSA29645_01.02_08323998.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health",
+        "Inf Ammo",
+        "Inf Shield",
+        "Max Super",
+        "Enemies Instant Death",
+        "Inf Grenades",
+        "Inf Dash",
+        "Max Currency"
+      ]
+    },
+    {
+      "sourceId": "f7b40ed4",
+      "file": "CUSA29645_01.02_f7b40ed4.json",
+      "path": "json/CUSA29645_01.02_f7b40ed4.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max/Infinite Health",
+        "Infinite Ammo",
+        "Infinite Granades",
+        "Max/Infinite Armor",
+        "Instant Max/Infinite Super",
+        "Infinite Dash",
+        "Max/Infinite Bones"
+      ]
+    },
+    {
+      "sourceId": "1f8d27f8",
+      "file": "CUSA29645_01.02_1f8d27f8.mc4",
+      "path": "mc4/CUSA29645_01.02_1f8d27f8.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max/Infinite Health",
+        "Infinite Ammo",
+        "Infinite Granades",
+        "Max/Infinite Armor",
+        "Instant Max/Infinite Super",
+        "Infinite Dash",
+        "Max/Infinite Bones"
+      ]
+    },
+    {
+      "sourceId": "9b3fe4fc",
+      "file": "CUSA29645_01.02_9b3fe4fc.shn",
+      "path": "shn/CUSA29645_01.02_9b3fe4fc.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max/Infinite Health",
+        "Infinite Ammo",
+        "Infinite Granades",
+        "Max/Infinite Armor",
+        "Instant Max/Infinite Super",
+        "Infinite Dash",
+        "Max/Infinite Bones"
+      ]
+    }
+  ]
+}

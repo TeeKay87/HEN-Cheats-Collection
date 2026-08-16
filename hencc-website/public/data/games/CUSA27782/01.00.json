@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "id": "CUSA27782",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "6fc75cc7",
+      "file": "CUSA27782_01.00_6fc75cc7.json",
+      "path": "json/CUSA27782_01.00_6fc75cc7.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health (5 hearts)",
+        "Max Coins (on gain)",
+        "Infinite Shield",
+        "Infinite Gliding",
+        "No Fall Damage",
+        "Infinite Club Smash",
+        "Infinite Dash",
+        "Infinite Bow shots"
+      ]
+    }
+  ]
+}

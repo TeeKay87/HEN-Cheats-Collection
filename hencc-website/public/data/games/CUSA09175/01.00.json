@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "CUSA09175",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "2323cf18",
+      "file": "CUSA09175_01.00_2323cf18.json",
+      "path": "json/CUSA09175_01.00_2323cf18.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "x3shakir"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Stamina",
+        "Infinite Ammo",
+        "Infinite Items",
+        "Infinite Fuel",
+        "Infinite Nitrogen",
+        "Infinite Silencer",
+        "Infinite Bandages"
+      ]
+    }
+  ]
+}

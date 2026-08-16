@@ -1,0 +1,66 @@
+{
+  "schema": 1,
+  "id": "CUSA07188",
+  "version": "01.04",
+  "files": [
+    {
+      "sourceId": "65b98629",
+      "file": "CUSA07188_01.04_65b98629.json",
+      "path": "json/CUSA07188_01.04_65b98629.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Life And Exp",
+        "No Reload",
+        "Inf Ammo"
+      ]
+    },
+    {
+      "sourceId": "3defb22d",
+      "file": "CUSA07188_01.04_3defb22d.mc4",
+      "path": "mc4/CUSA07188_01.04_3defb22d.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health/Max SP On Spend (Mastercode/Must Be On)",
+        "Infinite Health",
+        "Max/Infinite SP On Spend",
+        "Infinite Ammo",
+        "No Reload",
+        "Infinite Thumper",
+        "No Damage To The Train"
+      ]
+    },
+    {
+      "sourceId": "b74904f7",
+      "file": "CUSA07188_01.04_b74904f7.shn",
+      "path": "shn/CUSA07188_01.04_b74904f7.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health/Max SP On Spend (Mastercode/Must Be On)",
+        "Infinite Health",
+        "Max/Infinite SP On Spend",
+        "Infinite Ammo",
+        "No Reload",
+        "Infinite Thumper",
+        "No Damage To The Train"
+      ]
+    }
+  ]
+}

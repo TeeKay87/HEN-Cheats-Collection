@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "CUSA14910",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "50264a57",
+      "file": "CUSA14910_01.01_50264a57.json",
+      "path": "json/CUSA14910_01.01_50264a57.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Dardan"
+      ],
+      "notes": null,
+      "cheats": [
+        "Fast replenish life",
+        "Immediately replenish life",
+        "Infinity Lightning Ammo",
+        "Infinity Bullet Ammo",
+        "One Hit Kill",
+        "Infinity Jetpack",
+        "Buy without lose Money/Money collect off"
+      ]
+    }
+  ]
+}

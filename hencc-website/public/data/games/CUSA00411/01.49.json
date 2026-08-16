@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "id": "CUSA00411",
+  "version": "01.49",
+  "files": [
+    {
+      "sourceId": "e975d518",
+      "file": "CUSA00411_01.49_e975d518.json",
+      "path": "json/CUSA00411_01.49_e975d518.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "k0s0ng & Rizla & FLiNG"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health | 无限生命",
+        "Infinite Ammo | 无限弹药",
+        "No Reload | 无需装弹",
+        "Infinite Stamina | 无限耐力",
+        "Infinite Oxygen | 无限氧气",
+        "Infinite Special Ability | 无限特殊能力",
+        "Infinite Vehicle Durable | 无限载具耐久度",
+        "Super Jump | 超级跳",
+        "Invincible Mode (On) | 无敌模式 (开)",
+        "Invincible Mode (Off) | 无敌模式 (关)",
+        "Reset Wanted Star Level | 重置通缉星级",
+        "Remove Noise On Wanted | 消除通缉噪音",
+        "Swim Speed Multiply 2 | 游泳速度 2 倍",
+        "Swim Speed Multiply 3 | 游泳速度 3 倍",
+        "Money 999999999 | 金钱 999999999"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "id": "SLUS01279",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "3e743070",
+      "file": "SLUS01279_01.00_3e743070.json",
+      "path": "json/SLUS01279_01.00_3e743070.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite-All-Weapon",
+        "Max-Points"
+      ]
+    },
+    {
+      "sourceId": "809b45f3",
+      "file": "SLUS01279_01.00_809b45f3.shn",
+      "path": "shn/SLUS01279_01.00_809b45f3.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite-All-Weapon",
+        "Max-Points"
+      ]
+    }
+  ]
+}

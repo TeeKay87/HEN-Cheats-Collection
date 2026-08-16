@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "id": "CUSA14212",
+  "version": "01.11",
+  "files": [
+    {
+      "sourceId": "f7bd20e8",
+      "file": "CUSA14212_01.11_f7bd20e8.json",
+      "path": "json/CUSA14212_01.11_f7bd20e8.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "GamerX2"
+      ],
+      "notes": null,
+      "cheats": [
+        "Bottomless Clip"
+      ]
+    },
+    {
+      "sourceId": "8d8403b4",
+      "file": "CUSA14212_01.11_8d8403b4.shn",
+      "path": "shn/CUSA14212_01.11_8d8403b4.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "GamerX2"
+      ],
+      "notes": null,
+      "cheats": [
+        "Bottomless Clip"
+      ]
+    }
+  ]
+}

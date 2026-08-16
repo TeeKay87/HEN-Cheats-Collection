@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "id": "CUSA02396",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "2a65ed18",
+      "file": "CUSA02396_01.01_2a65ed18.json",
+      "path": "json/CUSA02396_01.01_2a65ed18.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Score Multiplier",
+        "Infinite Moves",
+        "Infinite Hearts"
+      ]
+    },
+    {
+      "sourceId": "fdbe839e",
+      "file": "CUSA02396_01.01_fdbe839e.json",
+      "path": "json/CUSA02396_01.01_fdbe839e.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Score Multiplier",
+        "Infinite Moves",
+        "Infinite Hearts"
+      ]
+    },
+    {
+      "sourceId": "f4acf0ca",
+      "file": "CUSA02396_01.01_f4acf0ca.mc4",
+      "path": "mc4/CUSA02396_01.01_f4acf0ca.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Score Multiplier",
+        "Infinite Moves",
+        "Infinite Hearts"
+      ]
+    },
+    {
+      "sourceId": "d3ac9796",
+      "file": "CUSA02396_01.01_d3ac9796.shn",
+      "path": "shn/CUSA02396_01.01_d3ac9796.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Score Multiplier",
+        "Infinite Moves",
+        "Infinite Hearts"
+      ]
+    }
+  ]
+}

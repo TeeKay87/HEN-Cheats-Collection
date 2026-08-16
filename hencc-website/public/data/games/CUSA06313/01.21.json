@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "id": "CUSA06313",
+  "version": "01.21",
+  "files": [
+    {
+      "sourceId": "171a9a68",
+      "file": "CUSA06313_01.21_171a9a68.json",
+      "path": "json/CUSA06313_01.21_171a9a68.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "AngelDavil88_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite lives",
+        "Max score (Each gray orb is worth 1000)",
+        "Each golden orb doubles the total (Deactivate after reaching a large sum)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "id": "CUSA05625",
+  "version": "01.41",
+  "files": [
+    {
+      "sourceId": "1bd0aedf",
+      "file": "CUSA05625_01.41_1bd0aedf.json",
+      "path": "json/CUSA05625_01.41_1bd0aedf.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme",
+        "Weysincha"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Arrows",
+        "21 Skillpoints / Kill",
+        "Max Money"
+      ]
+    },
+    {
+      "sourceId": "aa847135",
+      "file": "CUSA05625_01.41_aa847135.mc4",
+      "path": "mc4/CUSA05625_01.41_aa847135.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme/Weysincha"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Arrows",
+        "21 Skillpoints / Kill",
+        "Max Money"
+      ]
+    },
+    {
+      "sourceId": "aa21ceca",
+      "file": "CUSA05625_01.41_aa21ceca.shn",
+      "path": "shn/CUSA05625_01.41_aa21ceca.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "1 Hit Kill",
+        "Infinite Arrows",
+        "21 Skillpoints / Kill",
+        "Max Money"
+      ]
+    }
+  ]
+}

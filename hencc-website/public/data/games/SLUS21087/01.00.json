@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "SLUS21087",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "d34979c4",
+      "file": "SLUS21087_01.00_d34979c4.json",
+      "path": "json/SLUS21087_01.00_d34979c4.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Energy",
+        "Infinite-EXP"
+      ]
+    }
+  ]
+}

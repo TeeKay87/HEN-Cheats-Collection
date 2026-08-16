@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "id": "PPSA08427",
+  "version": "02.006.000",
+  "files": [
+    {
+      "sourceId": "00c61d17",
+      "file": "PPSA08427_02.006.000_00c61d17.json",
+      "path": "json/PPSA08427_02.006.000_00c61d17.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Hp  Items",
+        "Inf Armor",
+        "Inf Money"
+      ]
+    },
+    {
+      "sourceId": "5f93acc7",
+      "file": "PPSA08427_02.006.000_5f93acc7.mc4",
+      "path": "mc4/PPSA08427_02.006.000_5f93acc7.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Hp Items",
+        "Inf Armor",
+        "Inf Money"
+      ]
+    }
+  ]
+}

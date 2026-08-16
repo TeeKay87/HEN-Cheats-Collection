@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "id": "CUSA19120",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "6b9b2f85",
+      "file": "CUSA19120_01.00_6b9b2f85.json",
+      "path": "json/CUSA19120_01.00_6b9b2f85.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "KoKyi"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Inf. Gold Coins",
+        "Inf. Item Usage",
+        "Max. Skill Points"
+      ]
+    },
+    {
+      "sourceId": "a5761d46",
+      "file": "CUSA19120_01.00_a5761d46.json",
+      "path": "json/CUSA19120_01.00_a5761d46.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "KoKyi"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Infinite Gold Coins",
+        "Infinite Item Usage",
+        "Max Skill Points"
+      ]
+    },
+    {
+      "sourceId": "1442b4e6",
+      "file": "CUSA19120_01.00_1442b4e6.shn",
+      "path": "shn/CUSA19120_01.00_1442b4e6.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "KoKyi"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Inf. Gold Coins",
+        "Inf. Item Usage",
+        "Max. Skill Points"
+      ]
+    }
+  ]
+}

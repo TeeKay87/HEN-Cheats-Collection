@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "id": "CUSA02823",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "4c8fe74e",
+      "file": "CUSA02823_01.00_4c8fe74e.mc4",
+      "path": "mc4/CUSA02823_01.00_4c8fe74e.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Yuld",
+        "Infinite AP",
+        "Infinite Stamina",
+        "Infinite Items",
+        "Instant Max XP",
+        "Infinite Health"
+      ]
+    },
+    {
+      "sourceId": "5a3fdebf",
+      "file": "CUSA02823_01.00_5a3fdebf.shn",
+      "path": "shn/CUSA02823_01.00_5a3fdebf.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "1 Hit Kill",
+        "Infinite AP",
+        "Infinite Stamina",
+        "Infinite Yuld",
+        "Max Yuld",
+        "Infinite Items",
+        "Instant Max XP",
+        "Infinite Union Gauge",
+        "Max Union Gauge",
+        "Max Skills via Menu"
+      ]
+    }
+  ]
+}

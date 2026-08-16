@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "id": "CUSA03219",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "69c63c28",
+      "file": "CUSA03219_01.00_69c63c28.mc4",
+      "path": "mc4/CUSA03219_01.00_69c63c28.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Molly"
+      ],
+      "notes": null,
+      "cheats": [
+        "Have All Usable Items \"After Buy Or Sell\"",
+        "Have All Food \"After Buy Or Sell\"",
+        "Have All  Materials \"After Buy Or Sell\"",
+        "Quick Level Up",
+        "Max Stats \"After Level Up\"",
+        "Max Money  \"After Buy\"",
+        "Max SP \"After Gain\""
+      ]
+    },
+    {
+      "sourceId": "293369b6",
+      "file": "CUSA03219_01.00_293369b6.shn",
+      "path": "shn/CUSA03219_01.00_293369b6.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Molly"
+      ],
+      "notes": null,
+      "cheats": [
+        "Have All Usable Items \"After Buy Or Sell\"",
+        "Quick Level Up",
+        "Max Stats \"After Level Up\"",
+        "Max Money  \"After Buy\"",
+        "Max SP \"After Gain\""
+      ]
+    }
+  ]
+}

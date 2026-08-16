@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "CUSA06636",
+  "version": "01.02",
+  "files": [
+    {
+      "sourceId": "02283181",
+      "file": "CUSA06636_01.02_02283181.mc4",
+      "path": "mc4/CUSA06636_01.02_02283181.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Vampirexx"
+      ],
+      "notes": null,
+      "cheats": [
+        "God Mode",
+        "Inf Stamina",
+        "Inf Ammo Gun",
+        "Inf Ammo ShotGun",
+        "Inf Ammo Bazooka"
+      ]
+    },
+    {
+      "sourceId": "42f42495",
+      "file": "CUSA06636_01.02_42f42495.shn",
+      "path": "shn/CUSA06636_01.02_42f42495.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Vampirexx"
+      ],
+      "notes": null,
+      "cheats": [
+        "God Mode",
+        "Inf Stamina",
+        "Inf Ammo Gun",
+        "Inf Ammo ShotGun",
+        "Inf Ammo Bazooka"
+      ]
+    }
+  ]
+}

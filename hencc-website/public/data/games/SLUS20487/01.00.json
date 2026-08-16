@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "SLUS20487",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "941dc398",
+      "file": "SLUS20487_01.00_941dc398.json",
+      "path": "json/SLUS20487_01.00_941dc398.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Health",
+        "Infinite-lives"
+      ]
+    }
+  ]
+}

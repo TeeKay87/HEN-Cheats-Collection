@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "id": "CUSA33533",
+  "version": "01.03",
+  "files": [
+    {
+      "sourceId": "e6370c91",
+      "file": "CUSA33533_01.03_e6370c91.json",
+      "path": "json/CUSA33533_01.03_e6370c91.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Stamina",
+        "Infinite Energy",
+        "Max/Infinite Nanogel"
+      ]
+    },
+    {
+      "sourceId": "1b6c6129",
+      "file": "CUSA33533_01.03_1b6c6129.mc4",
+      "path": "mc4/CUSA33533_01.03_1b6c6129.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Stamina",
+        "Infinite Energy",
+        "Max/Infinite Nanogel"
+      ]
+    },
+    {
+      "sourceId": "b585dab6",
+      "file": "CUSA33533_01.03_b585dab6.shn",
+      "path": "shn/CUSA33533_01.03_b585dab6.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Stamina",
+        "Infinite Energy",
+        "Max/Infinite Nanogel"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "id": "CUSA25931",
+  "version": "01.07",
+  "files": [
+    {
+      "sourceId": "666e3946",
+      "file": "CUSA25931_01.07_666e3946.json",
+      "path": "json/CUSA25931_01.07_666e3946.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 ",
+        " FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Lives",
+        "Invincibility ( Spikes )",
+        "Max Money ( on gain )",
+        "Infinite Air under Water"
+      ]
+    },
+    {
+      "sourceId": "b1400a3a",
+      "file": "CUSA25931_01.07_b1400a3a.mc4",
+      "path": "mc4/CUSA25931_01.07_b1400a3a.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 - FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Lives",
+        "Invincibility ( Spikes )",
+        "Max Money ( on gain )",
+        "Infinite Air under Water"
+      ]
+    },
+    {
+      "sourceId": "c3263c37",
+      "file": "CUSA25931_01.07_c3263c37.shn",
+      "path": "shn/CUSA25931_01.07_c3263c37.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 - FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Lives",
+        "Invincibility ( Spikes )",
+        "Max Money ( on gain )",
+        "Infinite Air under Water"
+      ]
+    }
+  ]
+}

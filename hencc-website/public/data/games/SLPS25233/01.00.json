@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "id": "SLPS25233",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "b0d43d45",
+      "file": "SLPS25233_01.00_b0d43d45.json",
+      "path": "json/SLPS25233_01.00_b0d43d45.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible-DO NOT-USE-BOMB",
+        "Infinite Lives P1",
+        "Infinite-bomb P1"
+      ]
+    },
+    {
+      "sourceId": "08d3314c",
+      "file": "SLPS25233_01.00_08d3314c.shn",
+      "path": "shn/SLPS25233_01.00_08d3314c.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible-DO NOT-USE-BOMB",
+        "Infinite Lives P1",
+        "Infinite-bomb P1"
+      ]
+    }
+  ]
+}

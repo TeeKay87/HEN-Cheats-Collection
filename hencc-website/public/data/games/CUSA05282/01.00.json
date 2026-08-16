@@ -1,0 +1,133 @@
+{
+  "schema": 1,
+  "id": "CUSA05282",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "07b695a3",
+      "file": "CUSA05282_01.00_07b695a3.json",
+      "path": "json/CUSA05282_01.00_07b695a3.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "All Client Infinite Ammo",
+        "All Client Godmode",
+        "Infinite Jetpack",
+        "Enable Exo Movement (Player 1)",
+        "Enable Exo Movement (Player 2)",
+        "Enable Exo Movement (Player 3)",
+        "Enable Exo Movement (Player 4)"
+      ]
+    },
+    {
+      "sourceId": "21e44946",
+      "file": "CUSA05282_01.00_default.elf_21e44946.json",
+      "path": "json/CUSA05282_01.00_default.elf_21e44946.json",
+      "format": "json",
+      "process": "default.elf",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "All Client Infinite Ammo",
+        "All Client Godmode",
+        "Infinite Jetpack",
+        "Enable Exo Movement (Player 1)",
+        "Enable Exo Movement (Player 2)",
+        "Enable Exo Movement (Player 3)",
+        "Enable Exo Movement (Player 4)"
+      ]
+    },
+    {
+      "sourceId": "f84eda5b",
+      "file": "CUSA05282_01.00_default.elf_f84eda5b.json",
+      "path": "json/CUSA05282_01.00_default.elf_f84eda5b.json",
+      "format": "json",
+      "process": "default.elf",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "All Client Infinite Ammo",
+        "All Client Godmode",
+        "Infinite Jetpack",
+        "Enable Exo Movement (Player 1)",
+        "Enable Exo Movement (Player 2)",
+        "Enable Exo Movement (Player 3)",
+        "Enable Exo Movement (Player 4)"
+      ]
+    },
+    {
+      "sourceId": "b57b9eeb",
+      "file": "CUSA05282_01.00_default.elf_b57b9eeb.mc4",
+      "path": "mc4/CUSA05282_01.00_default.elf_b57b9eeb.mc4",
+      "format": "mc4",
+      "process": "default.elf",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "All Client Infinite Ammo",
+        "All Client Godmode",
+        "Infinite Jetpack",
+        "Enable Exo Movement (Player 1)",
+        "Enable Exo Movement (Player 2)",
+        "Enable Exo Movement (Player 3)",
+        "Enable Exo Movement (Player 4)"
+      ]
+    },
+    {
+      "sourceId": "d405a1c5",
+      "file": "CUSA05282_01.00_default.elf_d405a1c5.shn",
+      "path": "shn/CUSA05282_01.00_default.elf_d405a1c5.shn",
+      "format": "shn",
+      "process": "default.elf",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "All Client Infinite Ammo",
+        "All Client Godmode",
+        "Infinite Jetpack",
+        "Enable Exo Movement (Player 1)",
+        "Enable Exo Movement (Player 2)",
+        "Enable Exo Movement (Player 3)",
+        "Enable Exo Movement (Player 4)"
+      ]
+    },
+    {
+      "sourceId": "f99f4b40",
+      "file": "CUSA05282_01.00_f99f4b40.shn",
+      "path": "shn/CUSA05282_01.00_f99f4b40.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "All Client Infinite Ammo",
+        "All Client Godmode",
+        "Infinite Jetpack",
+        "Enable Exo Movement (Player 1)",
+        "Enable Exo Movement (Player 2)",
+        "Enable Exo Movement (Player 3)",
+        "Enable Exo Movement (Player 4)"
+      ]
+    }
+  ]
+}

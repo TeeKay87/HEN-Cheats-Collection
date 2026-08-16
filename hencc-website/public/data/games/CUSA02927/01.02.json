@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "CUSA02927",
+  "version": "01.02",
+  "files": [
+    {
+      "sourceId": "b6087bc0",
+      "file": "CUSA02927_01.02_b6087bc0.json",
+      "path": "json/CUSA02927_01.02_b6087bc0.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Fule",
+        "Inf Bomb",
+        "Inf Missile",
+        "Hi Score",
+        "Ultra Hi Score"
+      ]
+    }
+  ]
+}

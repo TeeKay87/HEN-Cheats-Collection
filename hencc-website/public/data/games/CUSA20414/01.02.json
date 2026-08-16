@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "CUSA20414",
+  "version": "01.02",
+  "files": [
+    {
+      "sourceId": "234a4f7c",
+      "file": "CUSA20414_01.02_234a4f7c.json",
+      "path": "json/CUSA20414_01.02_234a4f7c.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander"
+      ],
+      "notes": null,
+      "cheats": [
+        "Items Multiply On Sell(sell 1)",
+        "Money Multiplier When Fighting Monsters"
+      ]
+    }
+  ]
+}

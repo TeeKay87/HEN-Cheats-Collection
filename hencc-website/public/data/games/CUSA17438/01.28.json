@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "id": "CUSA17438",
+  "version": "01.28",
+  "files": [
+    {
+      "sourceId": "1df4fceb",
+      "file": "CUSA17438_01.28_1df4fceb.json",
+      "path": "json/CUSA17438_01.28_1df4fceb.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "OGD38"
+      ],
+      "notes": null,
+      "cheats": [
+        "Unlimited Fuel",
+        "No Engine Damage"
+      ]
+    },
+    {
+      "sourceId": "dddf47e9",
+      "file": "CUSA17438_01.28_dddf47e9.json",
+      "path": "json/CUSA17438_01.28_dddf47e9.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "OGD38"
+      ],
+      "notes": null,
+      "cheats": [
+        "Unlimited Fuel",
+        "No Engine Damage",
+        "Unknown"
+      ]
+    }
+  ]
+}

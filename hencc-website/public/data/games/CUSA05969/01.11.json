@@ -1,0 +1,179 @@
+{
+  "schema": 1,
+  "id": "CUSA05969",
+  "version": "01.11",
+  "files": [
+    {
+      "sourceId": "99bb0739",
+      "file": "CUSA05969_01.11_99bb0739.json",
+      "path": "json/CUSA05969_01.11_99bb0739.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH",
+        "Rizla"
+      ],
+      "notes": null,
+      "cheats": [
+        "All Client Infinite Ammo",
+        "All Client Godmode",
+        "Infinite Specialist (Zombies)",
+        "God Mode",
+        "Infinite Ammo",
+        "No Reload",
+        "Infinite Throwables",
+        "Infinite Medkits",
+        "Infinite AA Gun Health"
+      ]
+    },
+    {
+      "sourceId": "060fa01b",
+      "file": "CUSA05969_01.11_default.elf_060fa01b.json",
+      "path": "json/CUSA05969_01.11_default.elf_060fa01b.json",
+      "format": "json",
+      "process": "default.elf",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Ammo",
+        "Laser"
+      ]
+    },
+    {
+      "sourceId": "7e757f54",
+      "file": "CUSA05969_01.11_default.elf_7e757f54.json",
+      "path": "json/CUSA05969_01.11_default.elf_7e757f54.json",
+      "format": "json",
+      "process": "default.elf",
+      "hidden": false,
+      "creators": [
+        "Rizla"
+      ],
+      "notes": null,
+      "cheats": [
+        "God Mode",
+        "Infinite Ammo",
+        "No Reload",
+        "Infinite Throwables",
+        "Infinite Medkits",
+        "Infinite AA Gun Health"
+      ]
+    },
+    {
+      "sourceId": "166fd130",
+      "file": "CUSA05969_01.11_default_mp.elf_166fd130.json",
+      "path": "json/CUSA05969_01.11_default_mp.elf_166fd130.json",
+      "format": "json",
+      "process": "default_mp.elf",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "All Client Infinite Ammo",
+        "All Client Godmode",
+        "Infinite Specialist (Zombies)"
+      ]
+    },
+    {
+      "sourceId": "a302448d",
+      "file": "CUSA05969_01.11_default_mp.elf_a302448d.json",
+      "path": "json/CUSA05969_01.11_default_mp.elf_a302448d.json",
+      "format": "json",
+      "process": "default_mp.elf",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "All Client Infinite Ammo",
+        "All Client Godmode",
+        "Infinite Specialist (Zombies)"
+      ]
+    },
+    {
+      "sourceId": "2508034c",
+      "file": "CUSA05969_01.11_default.elf_2508034c.mc4",
+      "path": "mc4/CUSA05969_01.11_default.elf_2508034c.mc4",
+      "format": "mc4",
+      "process": "default.elf",
+      "hidden": false,
+      "creators": [
+        "Rizla"
+      ],
+      "notes": null,
+      "cheats": [
+        "God Mode",
+        "Infinite Ammo",
+        "No Reload",
+        "Infinite Throwables",
+        "Infinite Medkits",
+        "Infinite AA Gun Health"
+      ]
+    },
+    {
+      "sourceId": "823f7059",
+      "file": "CUSA05969_01.11_default_mp.elf_823f7059.mc4",
+      "path": "mc4/CUSA05969_01.11_default_mp.elf_823f7059.mc4",
+      "format": "mc4",
+      "process": "default_mp.elf",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "All Client Infinite Ammo",
+        "All Client Godmode",
+        "Infinite Specialist (Zombies)"
+      ]
+    },
+    {
+      "sourceId": "7af81665",
+      "file": "CUSA05969_01.11_7af81665.shn",
+      "path": "shn/CUSA05969_01.11_7af81665.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "All Client Infinite Ammo",
+        "All Client Godmode",
+        "Infinite Specialist (Zombies)",
+        "God Mode",
+        "Infinite Ammo",
+        "No Reload",
+        "Infinite Throwables",
+        "Infinite Medkits",
+        "Infinite AA Gun Health"
+      ]
+    },
+    {
+      "sourceId": "e59ef39d",
+      "file": "CUSA05969_01.11_default_mp.elf_e59ef39d.shn",
+      "path": "shn/CUSA05969_01.11_default_mp.elf_e59ef39d.shn",
+      "format": "shn",
+      "process": "default_mp.elf",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "All Client Infinite Ammo",
+        "All Client Godmode",
+        "Infinite Specialist (Zombies)"
+      ]
+    }
+  ]
+}

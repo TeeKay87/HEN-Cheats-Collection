@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "id": "CUSA00021",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "6f4cc71b",
+      "file": "CUSA00021_01.00_6f4cc71b.json",
+      "path": "json/CUSA00021_01.00_6f4cc71b.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Arafat"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Ammo/Gadgets",
+        "Bottomless Clip/No Reload",
+        "Max Infinite Ammo/Gadgets",
+        "Infinite Skill Points/Cash",
+        "Earn Skill Points/Cash on Spend",
+        "Max Infinite Skill Points/Cash",
+        "Max Infinite Battery",
+        "Max Infinite Focus"
+      ]
+    }
+  ]
+}

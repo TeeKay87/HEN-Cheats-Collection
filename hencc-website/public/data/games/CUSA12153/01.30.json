@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "CUSA12153",
+  "version": "01.30",
+  "files": [
+    {
+      "sourceId": "80992bf2",
+      "file": "CUSA12153_01.30_80992bf2.json",
+      "path": "json/CUSA12153_01.30_80992bf2.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "aran"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Super Bar Both Player",
+        "Inf Health Player 1",
+        "Inf Super Bar Player 2, Turn off player 1",
+        "Infinite Super Bar Player 1, Turn off player 2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "PPSA01687",
+  "version": "01.026.000",
+  "files": [
+    {
+      "sourceId": "df7ac990",
+      "file": "PPSA01687_01.026.000_df7ac990.mc4",
+      "path": "mc4/PPSA01687_01.026.000_df7ac990.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Aigars Uze"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Ammo, Grenades, No Reload (also works in zombie mode)",
+        "Infinite Health Campaign Mode",
+        "Infinite Health And One Hit Kill In Campaign Mode (dont use with Infinite Health)",
+        "Infinite Health Zombie Mode"
+      ]
+    }
+  ]
+}

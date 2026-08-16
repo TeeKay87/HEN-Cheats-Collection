@@ -1,0 +1,101 @@
+{
+  "schema": 1,
+  "id": "CUSA27043",
+  "version": "01.10",
+  "files": [
+    {
+      "sourceId": "a6412567",
+      "file": "CUSA27043_01.10_a6412567.json",
+      "path": "json/CUSA27043_01.10_a6412567.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Sondio"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Health (MC)",
+        "1 Hit Kill (Enable MC)",
+        "Max XP",
+        "Max Items/Money",
+        "Max Stamina",
+        "Max Weapons Health",
+        "Max Ammo/No Reload",
+        "Max Fury"
+      ]
+    },
+    {
+      "sourceId": "69e8e1b2",
+      "file": "CUSA27043_01.10_69e8e1b2.mc4",
+      "path": "mc4/CUSA27043_01.10_69e8e1b2.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health/1 Hit kill (Master Code/Must Be On)",
+        "1 Hit Kill (Activate After Killing The First Zombie)",
+        "Medkits Don't Decrease",
+        "Infinite Ammo",
+        "No Reload",
+        "Infinite Weapons Durability",
+        "Max Items On Gain (x2 To Work)",
+        "Max Money On Sell (Sell N Disable)",
+        "Infinite Fury On Kill",
+        "Max XP/Levels"
+      ]
+    },
+    {
+      "sourceId": "959c0965",
+      "file": "CUSA27043_01.10_959c0965.mc4",
+      "path": "mc4/CUSA27043_01.10_959c0965.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health/1 Hit kill (Master Code/Must Be On)",
+        "1 Hit Kill (Activate After Killing The First Zombie)",
+        "Medkits Don't Decrease",
+        "Infinite Ammo",
+        "No Reload",
+        "Infinite Weapons Durability",
+        "Max Items On Gain (x2 To Work)",
+        "Max Money On Sell (Sell N Disable)",
+        "Infinite Fury On Kill",
+        "Max XP/Levels"
+      ]
+    },
+    {
+      "sourceId": "19bc2a27",
+      "file": "CUSA27043_01.10_19bc2a27.shn",
+      "path": "shn/CUSA27043_01.10_19bc2a27.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health/1 Hit kill (Master Code/Must Be On)",
+        "1 Hit Kill (Activate After Killing The First Zombie)",
+        "Medkits Don't Decrease",
+        "Infinite Ammo",
+        "No Reload",
+        "Infinite Weapons Durability",
+        "Max Items On Gain (x2 To Work)",
+        "Max Money On Sell (Sell N Disable)",
+        "Infinite Fury On Kill",
+        "Max XP/Levels"
+      ]
+    }
+  ]
+}

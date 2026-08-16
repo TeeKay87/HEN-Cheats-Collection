@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "id": "CUSA08519",
+  "version": "01.13",
+  "files": [
+    {
+      "sourceId": "494c6b42",
+      "file": "CUSA08519_01.13_494c6b42.json",
+      "path": "json/CUSA08519_01.13_494c6b42.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "E A Z Y and drakaz and IMnoob"
+      ],
+      "notes": null,
+      "cheats": [
+        "Player/Horse Infinite Health/Stamina/Deadeye",
+        "Infinite Ammo",
+        "No Reload",
+        "Infinite Money",
+        "Max Money",
+        "Max Item",
+        "Infinite Items",
+        "Infinite Max Objects",
+        "Extra horse affinity gain"
+      ]
+    },
+    {
+      "sourceId": "03c18854",
+      "file": "CUSA08519_01.13_03c18854.mc4",
+      "path": "mc4/CUSA08519_01.13_03c18854.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Ammo",
+        "Bottomless Clip"
+      ]
+    },
+    {
+      "sourceId": "d3694937",
+      "file": "CUSA08519_01.13_d3694937.mc4",
+      "path": "mc4/CUSA08519_01.13_d3694937.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Ammo",
+        "Bottomless Clip"
+      ]
+    },
+    {
+      "sourceId": "15cd4075",
+      "file": "CUSA08519_01.13_15cd4075.shn",
+      "path": "shn/CUSA08519_01.13_15cd4075.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Ammo",
+        "Bottomless Clip"
+      ]
+    },
+    {
+      "sourceId": "dc479186",
+      "file": "CUSA08519_01.13_dc479186.shn",
+      "path": "shn/CUSA08519_01.13_dc479186.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "hejran7"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Money need to be fix"
+      ]
+    }
+  ]
+}

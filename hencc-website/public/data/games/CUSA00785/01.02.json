@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "id": "CUSA00785",
+  "version": "01.02",
+  "files": [
+    {
+      "sourceId": "b259f4fa",
+      "file": "CUSA00785_01.02_b259f4fa.json",
+      "path": "json/CUSA00785_01.02_b259f4fa.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Ammo/No reload",
+        "Infinite Throwables"
+      ]
+    }
+  ]
+}

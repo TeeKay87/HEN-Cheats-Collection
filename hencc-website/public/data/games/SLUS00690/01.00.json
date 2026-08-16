@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "id": "SLUS00690",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "527fc6cc",
+      "file": "SLUS00690_01.00_527fc6cc.json",
+      "path": "json/SLUS00690_01.00_527fc6cc.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-lives",
+        "Invincible",
+        "Infinite-credits",
+        "Inf-Capture-Ball"
+      ]
+    },
+    {
+      "sourceId": "1912dafc",
+      "file": "SLUS00690_01.00_1912dafc.shn",
+      "path": "shn/SLUS00690_01.00_1912dafc.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-lives",
+        "Invincible",
+        "Infinite-credits",
+        "Inf-Capture-Ball"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "schema": 1,
+  "id": "CUSA24216",
+  "version": "01.04",
+  "files": [
+    {
+      "sourceId": "895d1167",
+      "file": "CUSA24216_01.04_895d1167.json",
+      "path": "json/CUSA24216_01.04_895d1167.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite HP (Ranged Damage)",
+        "Infinite HP (close damage)",
+        "Infinite SP Shuriken",
+        "Infinite SP Rising fire",
+        "Infinite SP Airstrike",
+        "Infinite SP Sprint Attack"
+      ]
+    },
+    {
+      "sourceId": "5f9a43b4",
+      "file": "CUSA24216_01.04_5f9a43b4.mc4",
+      "path": "mc4/CUSA24216_01.04_5f9a43b4.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "invisible to all things (MC)",
+        "Max-Coins",
+        "Inf-All-Weapon-SP",
+        "Infinite-Health to all things (MC)"
+      ]
+    },
+    {
+      "sourceId": "81a88b5e",
+      "file": "CUSA24216_01.04_81a88b5e.mc4",
+      "path": "mc4/CUSA24216_01.04_81a88b5e.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "invisible to all things (MC)",
+        "Max-Coins",
+        "Inf-All-Weapon-SP",
+        "Infinite-Health to all things (MC)"
+      ]
+    },
+    {
+      "sourceId": "2796a4f2",
+      "file": "CUSA24216_01.04_2796a4f2.shn",
+      "path": "shn/CUSA24216_01.04_2796a4f2.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "invisible to all things (MC)",
+        "Max-Coins",
+        "Inf-All-Weapon-SP",
+        "Infinite-Health to all things (MC)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "schema": 1,
+  "id": "CUSA06339",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "05ae611a",
+      "file": "CUSA06339_01.01_05ae611a.json",
+      "path": "json/CUSA06339_01.01_05ae611a.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 ",
+        " FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Level Unlocker",
+        "Infinite Energy",
+        "Freeze Timer",
+        "Reset Timer"
+      ]
+    },
+    {
+      "sourceId": "a89db0e6",
+      "file": "CUSA06339_01.01_a89db0e6.json",
+      "path": "json/CUSA06339_01.01_a89db0e6.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 ",
+        " FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Level Unlocker",
+        "Infinite Energy",
+        "Freeze Timer",
+        "Reset Timer"
+      ]
+    },
+    {
+      "sourceId": "23007cc5",
+      "file": "CUSA06339_01.01_23007cc5.mc4",
+      "path": "mc4/CUSA06339_01.01_23007cc5.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 - FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Level Unlocker",
+        "Infinite Energy",
+        "Freeze Timer",
+        "Reset Timer"
+      ]
+    },
+    {
+      "sourceId": "8157434a",
+      "file": "CUSA06339_01.01_8157434a.shn",
+      "path": "shn/CUSA06339_01.01_8157434a.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 - FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Level Unlocker",
+        "Infinite Energy",
+        "Freeze Timer",
+        "Reset Timer"
+      ]
+    }
+  ]
+}

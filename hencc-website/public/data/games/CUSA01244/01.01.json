@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "id": "CUSA01244",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "781ef87c",
+      "file": "CUSA01244_01.01_781ef87c.json",
+      "path": "json/CUSA01244_01.01_781ef87c.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "d01v_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "--Final Fantasy X--",
+        "Infinite Health",
+        "Infinite Mana",
+        "Infinite Overdrive",
+        "Infinite AP",
+        "Infinite Gil",
+        "Items x99 (auto sort item)",
+        "4 slot Equips (open item equip list)",
+        "Blitzball Arena Max Stat (need breakthrough/enemies)",
+        "Blitzball Time 5:00",
+        "Disabled Battle Encounter",
+        "Encounter Battle",
+        "200 Lightning Dodge (dodge 1)",
+        "Chocobo Training Timer 0",
+        "Increase Time Butterfly Catch (turn off when done / wait)",
+        "--Final Fantasy X-2--",
+        "Infinite Health (master code)",
+        "Infinite MP (need MC)",
+        "Max Gil buy / sell",
+        "All Items 99 (auto sort)"
+      ]
+    },
+    {
+      "sourceId": "e2bffbbc",
+      "file": "CUSA01244_01.01_ffx_phyreApp.elf_e2bffbbc.json",
+      "path": "json/CUSA01244_01.01_ffx_phyreApp.elf_e2bffbbc.json",
+      "format": "json",
+      "process": "ffx_phyreApp.elf",
+      "hidden": false,
+      "creators": [
+        "d01v_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "--Final Fantasy X--",
+        "Infinite Health",
+        "Infinite Mana",
+        "Infinite Overdrive",
+        "Infinite AP",
+        "Infinite Gil",
+        "Items x99 (auto sort item)",
+        "4 slot Equips (open item equip list)",
+        "Blitzball Arena Max Stat (need breakthrough/enemies)",
+        "Blitzball Time 5:00",
+        "Disabled Battle Encounter",
+        "Encounter Battle",
+        "200 Lightning Dodge (dodge 1)",
+        "Chocobo Training Timer 0",
+        "Increase Time Butterfly Catch (turn off when done / wait)",
+        "--Final Fantasy X-2--",
+        "Infinite Health (master code)",
+        "Infinite MP (need MC)",
+        "Max Gil buy / sell",
+        "All Items 99 (auto sort)"
+      ]
+    }
+  ]
+}

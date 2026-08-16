@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "id": "CUSA11275",
+  "version": "02.60",
+  "files": [
+    {
+      "sourceId": "bfdd8ff4",
+      "file": "CUSA11275_02.60_bfdd8ff4.mc4",
+      "path": "mc4/CUSA11275_02.60_bfdd8ff4.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Fuel",
+        "Infinite Nitro Turbo"
+      ]
+    },
+    {
+      "sourceId": "887c48b9",
+      "file": "CUSA11275_02.60_887c48b9.shn",
+      "path": "shn/CUSA11275_02.60_887c48b9.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Fuel",
+        "Infinite Nitro Turbo"
+      ]
+    }
+  ]
+}

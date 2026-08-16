@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "id": "CUSA13323",
+  "version": "01.12",
+  "files": [
+    {
+      "sourceId": "e46184fa",
+      "file": "CUSA13323_01.12_e46184fa.json",
+      "path": "json/CUSA13323_01.12_e46184fa.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health",
+        "Inf Resolve",
+        "Inf Resources",
+        "Inf Tech Points (Enable After Earn 1 point)"
+      ]
+    },
+    {
+      "sourceId": "162c2e7b",
+      "file": "CUSA13323_01.12_162c2e7b.shn",
+      "path": "shn/CUSA13323_01.12_162c2e7b.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Weysincha^hejran7^Deathmetalkiwi666"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf HP",
+        "Inf Ammo",
+        "Inf Ressources",
+        "Inf Resolv",
+        "Inf Ghost mode",
+        "Max Inf Skills Points",
+        "Buy Skills W\\O Skill Points",
+        "Skillpoint Never Decrease"
+      ]
+    }
+  ]
+}

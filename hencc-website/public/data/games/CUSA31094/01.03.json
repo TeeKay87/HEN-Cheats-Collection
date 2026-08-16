@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "id": "CUSA31094",
+  "version": "01.03",
+  "files": [
+    {
+      "sourceId": "88be3c4e",
+      "file": "CUSA31094_01.03_88be3c4e.json",
+      "path": "json/CUSA31094_01.03_88be3c4e.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Health",
+        "MAX-GOLD"
+      ]
+    },
+    {
+      "sourceId": "810ed9b6",
+      "file": "CUSA31094_01.03_810ed9b6.mc4",
+      "path": "mc4/CUSA31094_01.03_810ed9b6.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Health",
+        "MAX-GOLD"
+      ]
+    },
+    {
+      "sourceId": "8c67bb0a",
+      "file": "CUSA31094_01.03_8c67bb0a.mc4",
+      "path": "mc4/CUSA31094_01.03_8c67bb0a.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Health",
+        "MAX-GOLD"
+      ]
+    },
+    {
+      "sourceId": "0ce9be7b",
+      "file": "CUSA31094_01.03_0ce9be7b.shn",
+      "path": "shn/CUSA31094_01.03_0ce9be7b.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Health",
+        "MAX-GOLD"
+      ]
+    }
+  ]
+}

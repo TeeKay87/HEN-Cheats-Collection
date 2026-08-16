@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "id": "CUSA17195",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "72906d17",
+      "file": "CUSA17195_01.00_72906d17.json",
+      "path": "json/CUSA17195_01.00_72906d17.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "d01v"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Exp",
+        "Exp x32",
+        "Infinite AG",
+        "Refill HP by equiping",
+        "Max Stats by equiping",
+        "SP",
+        "99 item (use, drop, pick, cook, refine, buy / sell)",
+        "Gald",
+        "Arte Max Count",
+        "No Cooldown Boost Attack"
+      ]
+    }
+  ]
+}

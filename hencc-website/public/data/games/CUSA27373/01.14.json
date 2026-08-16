@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "CUSA27373",
+  "version": "01.14",
+  "files": [
+    {
+      "sourceId": "6d986540",
+      "file": "CUSA27373_01.14_6d986540.mc4",
+      "path": "mc4/CUSA27373_01.14_6d986540.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max/Infinite Health",
+        "1 Hit Kill",
+        "No Reload",
+        "Max/Infinite GRP",
+        "Max/Infinite Callisto Credits"
+      ]
+    },
+    {
+      "sourceId": "52b66584",
+      "file": "CUSA27373_01.14_52b66584.shn",
+      "path": "shn/CUSA27373_01.14_52b66584.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max/Infinite Health",
+        "1 Hit Kill",
+        "No Reload",
+        "Max/Infinite GRP",
+        "Max/Infinite Callisto Credits"
+      ]
+    }
+  ]
+}

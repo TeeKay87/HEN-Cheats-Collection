@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "id": "CUSA12562",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "a0ebabbc",
+      "file": "CUSA12562_01.01_a0ebabbc.json",
+      "path": "json/CUSA12562_01.01_a0ebabbc.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible+power=no-Weapon",
+        "Infinite-Health",
+        "Infinite-lives"
+      ]
+    },
+    {
+      "sourceId": "2106acb6",
+      "file": "CUSA12562_01.01_2106acb6.mc4",
+      "path": "mc4/CUSA12562_01.01_2106acb6.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible+power=no-Weapon",
+        "Infinite-Health",
+        "Infinite-lives"
+      ]
+    },
+    {
+      "sourceId": "ca06c1e1",
+      "file": "CUSA12562_01.01_ca06c1e1.mc4",
+      "path": "mc4/CUSA12562_01.01_ca06c1e1.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible+power=no-Weapon",
+        "Infinite-Health",
+        "Infinite-lives"
+      ]
+    },
+    {
+      "sourceId": "f159c679",
+      "file": "CUSA12562_01.01_f159c679.shn",
+      "path": "shn/CUSA12562_01.01_f159c679.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible+power=no-Weapon",
+        "Infinite-Health",
+        "Infinite-lives"
+      ]
+    }
+  ]
+}

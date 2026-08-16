@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "id": "SLPM66405",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "adafb3c9",
+      "file": "SLPM66405_01.00_adafb3c9.json",
+      "path": "json/SLPM66405_01.00_adafb3c9.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Energy",
+        "Infinite-credits"
+      ]
+    },
+    {
+      "sourceId": "76d192d8",
+      "file": "SLPM66405_01.00_76d192d8.shn",
+      "path": "shn/SLPM66405_01.00_76d192d8.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Energy",
+        "Infinite-credits"
+      ]
+    }
+  ]
+}

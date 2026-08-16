@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "id": "CUSA02966",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "8093d28d",
+      "file": "CUSA02966_01.00_8093d28d.mc4",
+      "path": "mc4/CUSA02966_01.00_8093d28d.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Molly"
+      ],
+      "notes": null,
+      "cheats": [
+        "Quick Rank Up \"After Gained\"",
+        "Max Zen \"After Gained\"",
+        "Quick Level Up",
+        "Max Hp \"After Level Up\"",
+        "Max Sp \"After Level Up\"",
+        "Max ATK \"After Level Up\"",
+        "Max DEF \"After Level Up\"",
+        "Max INT \"After Level Up\"",
+        "Max SPD \"After Level Up\"",
+        "Max ABI \"After Digivolve Or De-Digivolve\"",
+        "Max CAM \"After Battle\"",
+        "Item \"After Used\" ",
+        "Quick DigiConvert"
+      ]
+    },
+    {
+      "sourceId": "26a8c2c2",
+      "file": "CUSA02966_01.00_26a8c2c2.shn",
+      "path": "shn/CUSA02966_01.00_26a8c2c2.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Molly"
+      ],
+      "notes": null,
+      "cheats": [
+        "Quick Rank Up \"After Gained\"",
+        "Max Zen \"After Gained\"",
+        "Quick Level Up",
+        "Max Hp \"After Level Up\"",
+        "Max Sp \"After Level Up\"",
+        "Max ATK \"After Level Up\"",
+        "Max DEF \"After Level Up\"",
+        "Max INT \"After Level Up\"",
+        "Max SPD \"After Level Up\"",
+        "Max ABI \"After Digivolve Or De-Digivolve\"",
+        "Max CAM \"After Battle\"",
+        "Item \"After Used\" ",
+        "Quick DigiConvert"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "CUSA26616",
+  "version": "01.04",
+  "files": [
+    {
+      "sourceId": "5ecb86e0",
+      "file": "CUSA26616_01.04_5ecb86e0.json",
+      "path": "json/CUSA26616_01.04_5ecb86e0.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "AngelDavil88_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health (WIP/Experimental)",
+        "Infinite Armor",
+        "Infinite Ammo/No Reload",
+        "Max Money Instantly",
+        "No Wanted Level (You Must Have 0 Stars)"
+      ]
+    }
+  ]
+}

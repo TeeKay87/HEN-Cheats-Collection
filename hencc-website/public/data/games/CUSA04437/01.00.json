@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "CUSA04437",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "6dbdafe1",
+      "file": "CUSA04437_01.00_6dbdafe1.json",
+      "path": "json/CUSA04437_01.00_6dbdafe1.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TylerMods"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Mercenaries Time",
+        "Infinite Ammo",
+        "Infinite Money"
+      ]
+    }
+  ]
+}

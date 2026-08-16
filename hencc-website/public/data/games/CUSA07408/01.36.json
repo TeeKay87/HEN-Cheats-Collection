@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "id": "CUSA07408",
+  "version": "01.36",
+  "files": [
+    {
+      "sourceId": "5d99fbce",
+      "file": "CUSA07408_01.36_5d99fbce.mc4",
+      "path": "mc4/CUSA07408_01.36_5d99fbce.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health/Rage/Arrows (Master Code/Must Be On)",
+        "Infinite Health",
+        "Infinite Rage",
+        "Infinite Arrows",
+        "No Cooldown",
+        "Max XP/Hacksilver/Resources"
+      ]
+    },
+    {
+      "sourceId": "c80d1dfc",
+      "file": "CUSA07408_01.36_c80d1dfc.shn",
+      "path": "shn/CUSA07408_01.36_c80d1dfc.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health/Rage/Arrows (Master Code/Must Be On)",
+        "Infinite Health",
+        "Infinite Rage",
+        "Infinite Arrows",
+        "No Cooldown",
+        "Max XP/Hacksilver/Resources"
+      ]
+    }
+  ]
+}

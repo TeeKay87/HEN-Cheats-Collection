@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "id": "CUSA01796",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "72657d85",
+      "file": "CUSA01796_01.01_72657d85.json",
+      "path": "json/CUSA01796_01.01_72657d85.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max/Infinite Health",
+        "Infinite Focus",
+        "Max/Infinite Ammo",
+        "Max/Infinite Items/No Reload",
+        "Max Xp/level On Gain"
+      ]
+    },
+    {
+      "sourceId": "decfd962",
+      "file": "CUSA01796_01.01_decfd962.mc4",
+      "path": "mc4/CUSA01796_01.01_decfd962.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max/Infinite Health",
+        "Infinite Focus",
+        "Max/Infinite Ammo",
+        "Max/Infinite Items/No Reload",
+        "Max Xp/level On Gain"
+      ]
+    },
+    {
+      "sourceId": "016b6e10",
+      "file": "CUSA01796_01.01_016b6e10.shn",
+      "path": "shn/CUSA01796_01.01_016b6e10.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max/Infinite Health",
+        "Infinite Focus",
+        "Max/Infinite Ammo",
+        "Max/Infinite Items/No Reload",
+        "Max Xp/level On Gain"
+      ]
+    }
+  ]
+}

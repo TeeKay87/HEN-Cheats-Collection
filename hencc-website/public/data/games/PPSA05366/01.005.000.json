@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "id": "PPSA05366",
+  "version": "01.005.000",
+  "files": [
+    {
+      "sourceId": "cd47e43c",
+      "file": "PPSA05366_01.005.000_cd47e43c.json",
+      "path": "json/PPSA05366_01.005.000_cd47e43c.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Items"
+      ]
+    },
+    {
+      "sourceId": "1dc7120e",
+      "file": "PPSA05366_01.005.000_1dc7120e.mc4",
+      "path": "mc4/PPSA05366_01.005.000_1dc7120e.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Items"
+      ]
+    },
+    {
+      "sourceId": "30238f0f",
+      "file": "PPSA05366_01.005.000_30238f0f.mc4",
+      "path": "mc4/PPSA05366_01.005.000_30238f0f.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Items"
+      ]
+    },
+    {
+      "sourceId": "44a6a11c",
+      "file": "PPSA05366_01.005.000_44a6a11c.shn",
+      "path": "shn/PPSA05366_01.005.000_44a6a11c.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Weysincha"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Throwable/ Equipped / Craftable Items on using"
+      ]
+    },
+    {
+      "sourceId": "f5d5dbbe",
+      "file": "PPSA05366_01.005.000_f5d5dbbe.shn",
+      "path": "shn/PPSA05366_01.005.000_f5d5dbbe.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Weysincha"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Throwable/ Equipped / Craftable Items on using"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "id": "CUSA15225",
+  "version": "01.03",
+  "files": [
+    {
+      "sourceId": "52ab4c2c",
+      "file": "CUSA15225_01.03_52ab4c2c.json",
+      "path": "json/CUSA15225_01.03_52ab4c2c.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Mana",
+        "Infinite Katarina/Player skill  points",
+        "Infinite Katarina/Player Ability points",
+        "Max Coins (on get/buy/sell)",
+        "Max Experience"
+      ]
+    },
+    {
+      "sourceId": "08ddf43f",
+      "file": "CUSA15225_01.03_08ddf43f.mc4",
+      "path": "mc4/CUSA15225_01.03_08ddf43f.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Mana",
+        "Infinite Katarina/Player skill  points",
+        "Infinite Katarina/Player Ability points",
+        "Max Coins (on get/buy/sell)",
+        "Max Experience"
+      ]
+    },
+    {
+      "sourceId": "7060c057",
+      "file": "CUSA15225_01.03_7060c057.shn",
+      "path": "shn/CUSA15225_01.03_7060c057.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Mana",
+        "Infinite Katarina/Player skill  points",
+        "Infinite Katarina/Player Ability points",
+        "Max Coins (on get/buy/sell)",
+        "Max Experience"
+      ]
+    }
+  ]
+}

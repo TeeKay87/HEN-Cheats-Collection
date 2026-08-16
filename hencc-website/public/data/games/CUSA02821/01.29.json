@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "id": "CUSA02821",
+  "version": "01.29",
+  "files": [
+    {
+      "sourceId": "149b0c88",
+      "file": "CUSA02821_01.29_149b0c88.json",
+      "path": "json/CUSA02821_01.29_149b0c88.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "KevinTamvan"
+      ],
+      "notes": null,
+      "cheats": [
+        "Stealth Master Code",
+        "Infinite Health Player",
+        "No Blood On Screen",
+        "Stealth (Player Only)",
+        "Infinite Clip Ammo",
+        "Infinite Throwable",
+        "Infinite Skill Points",
+        "Extra Suply [Suply Raid Mission]",
+        "Unlock Tier One (On 1st Gain XP)"
+      ]
+    }
+  ]
+}
