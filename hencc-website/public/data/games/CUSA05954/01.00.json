@@ -10,6 +10,7 @@
       "format": "json",
       "process": "harry1.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "PS4Guru",
         "Molly"
@@ -26,6 +27,7 @@
       "format": "json",
       "process": "harry2.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "PS4Guru",
         "Molly"

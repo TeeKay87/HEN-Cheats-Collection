@@ -10,6 +10,7 @@
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Wander",
         "ADI FW9.00"
@@ -33,6 +34,7 @@
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Celogamez"
       ],
@@ -54,6 +56,7 @@
       "format": "mc4",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Celogamez"
       ],
@@ -75,6 +78,7 @@
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Celogamez"
       ],

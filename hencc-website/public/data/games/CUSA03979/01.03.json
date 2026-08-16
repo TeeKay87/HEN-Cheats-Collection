@@ -10,6 +10,7 @@
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "JustGotenks"
       ],
@@ -32,6 +33,7 @@
       "format": "json",
       "process": "LaunchOrbis.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "JustGotenks"
       ],
@@ -54,6 +56,7 @@
       "format": "shn",
       "process": "LaunchOrbis.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "JustGotenks"
       ],
@@ -76,6 +79,7 @@
       "format": "shn",
       "process": "LaunchOrbis.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "JustGotenks"
       ],

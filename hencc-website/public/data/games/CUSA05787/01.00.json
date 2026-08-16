@@ -10,6 +10,7 @@
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Weysincha"
       ],
@@ -28,6 +29,7 @@
       "format": "json",
       "process": "kh02.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "cristi993"
       ],
@@ -45,6 +47,7 @@
       "format": "json",
       "process": "kh3d.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Weysincha"
       ],
@@ -63,6 +66,7 @@
       "format": "mc4",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Weysincha"
       ],
@@ -85,6 +89,7 @@
       "format": "mc4",
       "process": "kh3d.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Weysincha"
       ],
@@ -107,6 +112,7 @@
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Molly"
       ],
@@ -131,6 +137,7 @@
       "format": "shn",
       "process": "kh3d.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Molly"
       ],

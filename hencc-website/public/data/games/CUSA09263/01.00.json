@@ -10,6 +10,7 @@
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "haxso"
       ],
@@ -26,6 +27,7 @@
       "format": "json",
       "process": "dmc2.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "haxso"
       ],

@@ -10,6 +10,7 @@
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "GameX2 & DanteClaus"
       ],

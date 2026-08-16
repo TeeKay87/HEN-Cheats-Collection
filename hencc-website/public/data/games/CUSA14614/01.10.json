@@ -10,6 +10,7 @@
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Ibraheem"
       ],
@@ -29,6 +30,7 @@
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "ابراهيم"
       ],
@@ -48,6 +50,7 @@
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "ابراهيم"
       ],

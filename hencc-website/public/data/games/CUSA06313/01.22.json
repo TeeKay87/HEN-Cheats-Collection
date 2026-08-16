@@ -10,6 +10,7 @@
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "AngelDavil88_9.00 Fix 1.22 by Talixme"
       ],

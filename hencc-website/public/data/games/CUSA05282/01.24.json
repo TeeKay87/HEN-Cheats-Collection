@@ -10,6 +10,7 @@
       "format": "mc4",
       "process": "default.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Rizla"
       ],
@@ -29,6 +30,7 @@
       "format": "mc4",
       "process": "default.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Rizla"
       ],
@@ -49,6 +51,7 @@
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Rizla"
       ],
@@ -71,6 +74,7 @@
       "format": "shn",
       "process": "default.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Rizla"
       ],

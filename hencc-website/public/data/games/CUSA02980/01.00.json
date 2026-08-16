@@ -10,6 +10,7 @@
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "DeathRGH"
       ],
@@ -26,6 +27,7 @@
       "format": "json",
       "process": "ARBUTUS.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "DeathRGH"
       ],
@@ -42,6 +44,7 @@
       "format": "json",
       "process": "ARBUTUS.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "DeathRGH"
       ],
@@ -58,6 +61,7 @@
       "format": "json",
       "process": "MAGNOLIA.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "DeathRGH"
       ],
@@ -75,6 +79,7 @@
       "format": "mc4",
       "process": "ARBUTUS.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "DeathRGH"
       ],
@@ -91,6 +96,7 @@
       "format": "mc4",
       "process": "MAGNOLIA.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "DeathRGH"
       ],
@@ -107,6 +113,7 @@
       "format": "mc4",
       "process": "MAGNOLIA.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "hejran7"
       ],
@@ -127,6 +134,7 @@
       "format": "mc4",
       "process": "MAGNOLIA.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "DeathRGH"
       ],
@@ -143,6 +151,7 @@
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "hejran7"
       ],
@@ -163,6 +172,7 @@
       "format": "shn",
       "process": "MAGNOLIA.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "hejran7"
       ],

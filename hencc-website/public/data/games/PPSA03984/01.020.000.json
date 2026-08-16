@@ -10,6 +10,7 @@
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Talixme"
       ],
@@ -29,6 +30,7 @@
       "format": "mc4",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Talixme"
       ],
@@ -48,6 +50,7 @@
       "format": "mc4",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Wander"
       ],

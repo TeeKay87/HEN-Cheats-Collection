@@ -10,6 +10,7 @@
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "WanderFW9.00"
       ],
@@ -27,6 +28,7 @@
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Saso_9.00"
       ],
@@ -45,6 +47,7 @@
       "format": "mc4",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Saso_9.00"
       ],

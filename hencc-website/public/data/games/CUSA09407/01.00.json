@@ -10,6 +10,7 @@
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Celogamez"
       ],
@@ -35,6 +36,7 @@
       "format": "json",
       "process": "dmc1.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Celogamez"
       ],
@@ -52,6 +54,7 @@
       "format": "json",
       "process": "dmc2.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Celogamez"
       ],
@@ -69,6 +72,7 @@
       "format": "json",
       "process": "dmc3.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Celogamez"
       ],

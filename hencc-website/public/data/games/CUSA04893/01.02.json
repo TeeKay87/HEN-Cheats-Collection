@@ -10,6 +10,7 @@
       "format": "mc4",
       "process": "ScimitarAC2.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Saso_9.00"
       ],
@@ -30,6 +31,7 @@
       "format": "mc4",
       "process": "ScimitarAC2.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "TLH"
       ],
@@ -46,6 +48,7 @@
       "format": "mc4",
       "process": "ScimitarACB.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Saso_9.00"
       ],
@@ -65,6 +68,7 @@
       "format": "mc4",
       "process": "ScimitarACB.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "TLH"
       ],
@@ -81,6 +85,7 @@
       "format": "mc4",
       "process": "ScimitarACR.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "TLH"
       ],
@@ -97,6 +102,7 @@
       "format": "mc4",
       "process": "ScimitarACR.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "TLH"
       ],
@@ -113,6 +119,7 @@
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "TLH"
       ],
@@ -134,6 +141,7 @@
       "format": "shn",
       "process": "ScimitarAC2.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "TLH"
       ],
@@ -151,6 +159,7 @@
       "format": "shn",
       "process": "ScimitarACB.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "TLH"
       ],
@@ -167,6 +176,7 @@
       "format": "shn",
       "process": "ScimitarACR.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "TLH"
       ],

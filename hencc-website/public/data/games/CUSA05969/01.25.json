@@ -10,6 +10,7 @@
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "M3hdi PS",
         "M3hdi PS_9.00"
@@ -30,6 +31,7 @@
       "format": "json",
       "process": "default.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "M3hdi PS_9.00"
       ],
@@ -47,6 +49,7 @@
       "format": "json",
       "process": "default.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "M3hdi PS"
       ],
@@ -64,6 +67,7 @@
       "format": "json",
       "process": "default_mp.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "M3hdi PS_9.00"
       ],

@@ -10,6 +10,7 @@
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Weysincha"
       ],
@@ -27,6 +28,7 @@
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "TLH"
       ],
@@ -51,6 +53,7 @@
       "format": "mc4",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "TLH"
       ],
@@ -77,6 +80,7 @@
       "format": "mc4",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Weysincha"
       ],
@@ -94,6 +98,7 @@
       "format": "mc4",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "TLH"
       ],
@@ -118,6 +123,7 @@
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "TLH"
       ],

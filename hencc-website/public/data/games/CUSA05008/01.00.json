@@ -10,6 +10,7 @@
       "format": "json",
       "process": "ScimitarAC2.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "TLH"
       ],
@@ -26,6 +27,7 @@
       "format": "json",
       "process": "ScimitarACB.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "TLH"
       ],
@@ -42,6 +44,7 @@
       "format": "json",
       "process": "ScimitarACR.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "TLH"
       ],

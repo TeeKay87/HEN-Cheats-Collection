@@ -10,6 +10,7 @@
       "format": "json",
       "process": "default_mp.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "DeathRGH"
       ],
@@ -26,6 +27,7 @@
       "format": "json",
       "process": "default_mp.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "DeathRGH"
       ],

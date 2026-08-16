@@ -10,6 +10,7 @@
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "TylerMods"
       ],
@@ -25,6 +26,7 @@
       "format": "json",
       "process": "kingdom1.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "TylerMods"
       ],
@@ -40,6 +42,7 @@
       "format": "json",
       "process": "kingdom1.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "d01v"
       ],
@@ -62,6 +65,7 @@
       "format": "json",
       "process": "kingdom2.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "d01v"
       ],
@@ -86,6 +90,7 @@
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "2pt"
       ],

@@ -10,6 +10,7 @@
       "format": "mc4",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Reddevil82 - FW 9.00"
       ],
@@ -35,6 +36,7 @@
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Reddevil82 - FW 9.00"
       ],

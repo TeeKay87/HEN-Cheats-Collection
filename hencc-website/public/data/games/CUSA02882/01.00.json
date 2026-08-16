@@ -10,6 +10,7 @@
       "format": "json",
       "process": "bh0hd.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Talixme"
       ],
@@ -27,6 +28,7 @@
       "format": "json",
       "process": "bh0hd.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "TLH"
       ],
@@ -49,6 +51,7 @@
       "format": "json",
       "process": "bh1hd.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "TLH, Molly"
       ],
@@ -73,6 +76,7 @@
       "format": "json",
       "process": "bh1hd.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Talixme"
       ],
@@ -90,6 +94,7 @@
       "format": "json",
       "process": "bh1hd.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Talixme"
       ],
@@ -107,6 +112,7 @@
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "TLH",
         "TLH, Molly",
@@ -144,6 +150,7 @@
       "format": "mc4",
       "process": "bh0hd.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "TLH"
       ],
@@ -166,6 +173,7 @@
       "format": "mc4",
       "process": "bh0hd.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Talixme"
       ],
@@ -183,6 +191,7 @@
       "format": "mc4",
       "process": "bh0hd.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Talixme"
       ],
@@ -200,6 +209,7 @@
       "format": "mc4",
       "process": "bh1hd.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Talixme"
       ],
@@ -217,6 +227,7 @@
       "format": "mc4",
       "process": "bh1hd.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "TLH, Molly"
       ],
@@ -241,6 +252,7 @@
       "format": "mc4",
       "process": "bh1hd.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Talixme"
       ],
@@ -258,6 +270,7 @@
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "TLH, Molly"
       ],
@@ -290,6 +303,7 @@
       "format": "shn",
       "process": "bh0hd.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "TLH"
       ],
@@ -312,6 +326,7 @@
       "format": "shn",
       "process": "bh1hd.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "TLH, Molly"
       ],

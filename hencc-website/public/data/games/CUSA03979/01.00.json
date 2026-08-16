@@ -10,6 +10,7 @@
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Talixme"
       ],
@@ -30,6 +31,7 @@
       "format": "json",
       "process": "LaunchOrbis.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Talixme"
       ],
@@ -50,6 +52,7 @@
       "format": "json",
       "process": "LaunchOrbis.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Talixme"
       ],
@@ -70,6 +73,7 @@
       "format": "mc4",
       "process": "LaunchOrbis.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Talixme"
       ],
@@ -90,6 +94,7 @@
       "format": "mc4",
       "process": "LaunchOrbis.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Talixme"
       ],
@@ -110,6 +115,7 @@
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Talixme"
       ],
@@ -136,6 +142,7 @@
       "format": "shn",
       "process": "LaunchOrbis.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Talixme"
       ],

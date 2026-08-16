@@ -10,6 +10,7 @@
       "format": "mc4",
       "process": "default.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "GamerX2"
       ],
@@ -26,6 +27,7 @@
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "GamerX2"
       ],
@@ -42,6 +44,7 @@
       "format": "shn",
       "process": "default.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "GamerX2"
       ],

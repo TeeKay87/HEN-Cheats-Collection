@@ -10,6 +10,7 @@
       "format": "json",
       "process": "LTCG-BioGame.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Pharaoh2k"
       ],
@@ -66,6 +67,7 @@
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Pharaoh2k"
       ],
@@ -122,6 +124,7 @@
       "format": "shn",
       "process": "LTCG-BioGame.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Pharaoh2k"
       ],

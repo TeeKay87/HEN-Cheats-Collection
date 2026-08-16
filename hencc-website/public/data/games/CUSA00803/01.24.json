@@ -10,6 +10,7 @@
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Celogamez"
       ],
@@ -30,6 +31,7 @@
       "format": "json",
       "process": "default.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Celogamez"
       ],
@@ -50,6 +52,7 @@
       "format": "mc4",
       "process": "default.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Celogamez"
       ],
@@ -70,6 +73,7 @@
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Celogamez"
       ],
@@ -90,6 +94,7 @@
       "format": "shn",
       "process": "default.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "Celogamez"
       ],

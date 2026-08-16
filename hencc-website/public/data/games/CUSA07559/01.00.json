@@ -10,6 +10,7 @@
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
+      "issue": false,
       "creators": [
         "EvilGoku",
         "as"
@@ -30,6 +31,7 @@
       "format": "json",
       "process": "hackGU_vol2.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "EvilGoku"
       ],
@@ -49,6 +51,7 @@
       "format": "json",
       "process": "hackGU_vol2.elf",
       "hidden": false,
+      "issue": false,
       "creators": [
         "as"
       ],
