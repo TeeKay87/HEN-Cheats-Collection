@@ -4,9 +4,9 @@
   "version": "01.04",
   "files": [
     {
-      "sourceId": "b713e0f5",
-      "file": "CUSA05786_01.04_b713e0f5.json",
-      "path": "json/CUSA05786_01.04_b713e0f5.json",
+      "sourceId": "eff6c903",
+      "file": "CUSA05786_01.04_eff6c903.json",
+      "path": "json/CUSA05786_01.04_eff6c903.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -76,31 +76,6 @@
       ]
     },
     {
-      "sourceId": "40f138b5",
-      "file": "CUSA05786_01.04_kingdom2.elf_40f138b5.json",
-      "path": "json/CUSA05786_01.04_kingdom2.elf_40f138b5.json",
-      "format": "json",
-      "process": "kingdom2.elf",
-      "hidden": false,
-      "creators": [
-        "d01v"
-      ],
-      "notes": null,
-      "cheats": [
-        "Kingdom Hearts 2 HD undub 1.04",
-        "Infinite Health",
-        "Infinite MP",
-        "All Keyblades (buy item on shop)",
-        "99 Discard Items",
-        "Max Exp",
-        "Max Munny",
-        "Max Drive",
-        "Infinite Drive Cooldown",
-        "All Materials (synthesis shop)",
-        "99 Items on Sell (Shop)"
-      ]
-    },
-    {
       "sourceId": "54800f09",
       "file": "CUSA05786_01.04_kingdom2.elf_54800f09.json",
       "path": "json/CUSA05786_01.04_kingdom2.elf_54800f09.json",
@@ -125,9 +100,34 @@
       ]
     },
     {
-      "sourceId": "824c852f",
-      "file": "CUSA05786_01.04_824c852f.shn",
-      "path": "shn/CUSA05786_01.04_824c852f.shn",
+      "sourceId": "fd7c097e",
+      "file": "CUSA05786_01.04_kingdom2.elf_fd7c097e.json",
+      "path": "json/CUSA05786_01.04_kingdom2.elf_fd7c097e.json",
+      "format": "json",
+      "process": "kingdom2.elf",
+      "hidden": false,
+      "creators": [
+        "d01v"
+      ],
+      "notes": null,
+      "cheats": [
+        "Kingdom Hearts 2 HD undub 1.04",
+        "Infinite Health",
+        "Infinite MP",
+        "All Keyblades (buy item on shop)",
+        "99 Discard Items",
+        "Max Exp",
+        "Max Munny",
+        "Max Drive",
+        "Infinite Drive Cooldown",
+        "All Materials (synthesis shop)",
+        "99 Items on Sell (Shop)"
+      ]
+    },
+    {
+      "sourceId": "f4ac5e33",
+      "file": "CUSA05786_01.04_f4ac5e33.shn",
+      "path": "shn/CUSA05786_01.04_f4ac5e33.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,

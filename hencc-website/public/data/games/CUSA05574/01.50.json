@@ -4,9 +4,9 @@
   "version": "01.50",
   "files": [
     {
-      "sourceId": "d4df31ed",
-      "file": "CUSA05574_01.50_d4df31ed.json",
-      "path": "json/CUSA05574_01.50_d4df31ed.json",
+      "sourceId": "560f6ae1",
+      "file": "CUSA05574_01.50_560f6ae1.json",
+      "path": "json/CUSA05574_01.50_560f6ae1.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -64,35 +64,6 @@
       ]
     },
     {
-      "sourceId": "766cc0cd",
-      "file": "CUSA05574_01.50_766cc0cd.mc4",
-      "path": "mc4/CUSA05574_01.50_766cc0cd.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Cosmaty"
-      ],
-      "notes": null,
-      "cheats": [
-        "Code",
-        "God Mode",
-        "Easy Kill",
-        "Inf Stamina",
-        "No Toxic",
-        "Inf Adrenaline",
-        "Inf Oxygen",
-        "Inf Horse Run",
-        "Min Horse Panic",
-        "Inf Money 999999",
-        "Max Waight 999999",
-        "XP x4 (Turn off first: x8, x16)",
-        "Inf Skill Points",
-        "Durable Weapons and Armor",
-        "Infinite Items"
-      ]
-    },
-    {
       "sourceId": "b4279536",
       "file": "CUSA05574_01.50_b4279536.mc4",
       "path": "mc4/CUSA05574_01.50_b4279536.mc4",
@@ -120,6 +91,35 @@
         "XP x16 (Turn off first: x4, x8)",
         "Inf Skill Points",
         "Durable Weapons and Armor"
+      ]
+    },
+    {
+      "sourceId": "e7af4ae9",
+      "file": "CUSA05574_01.50_e7af4ae9.mc4",
+      "path": "mc4/CUSA05574_01.50_e7af4ae9.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Cosmaty"
+      ],
+      "notes": null,
+      "cheats": [
+        "Code",
+        "God Mode",
+        "Easy Kill",
+        "Inf Stamina",
+        "No Toxic",
+        "Inf Adrenaline",
+        "Inf Oxygen",
+        "Inf Horse Run",
+        "Min Horse Panic",
+        "Inf Money 999999",
+        "Max Waight 999999",
+        "XP x4 (Turn off first: x8, x16)",
+        "Inf Skill Points",
+        "Durable Weapons and Armor",
+        "Infinite Items"
       ]
     },
     {

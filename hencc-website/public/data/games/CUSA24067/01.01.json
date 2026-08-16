@@ -4,6 +4,21 @@
   "version": "01.01",
   "files": [
     {
+      "sourceId": "038104e5",
+      "file": "CUSA24067_01.01_038104e5.mc4",
+      "path": "mc4/CUSA24067_01.01_038104e5.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Health"
+      ]
+    },
+    {
       "sourceId": "0d5a8cdd",
       "file": "CUSA24067_01.01_0d5a8cdd.mc4",
       "path": "mc4/CUSA24067_01.01_0d5a8cdd.mc4",
@@ -17,21 +32,6 @@
       "cheats": [
         "Infinite-Health",
         "Inf-Ammo-Never-Reload"
-      ]
-    },
-    {
-      "sourceId": "30acd867",
-      "file": "CUSA24067_01.01_30acd867.mc4",
-      "path": "mc4/CUSA24067_01.01_30acd867.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Ali-mk"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite-Health"
       ]
     },
     {

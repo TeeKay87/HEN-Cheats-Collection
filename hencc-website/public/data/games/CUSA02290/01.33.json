@@ -4,6 +4,21 @@
   "version": "01.33",
   "files": [
     {
+      "sourceId": "15b92f19",
+      "file": "CUSA02290_01.33_15b92f19.json",
+      "path": "json/CUSA02290_01.33_15b92f19.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Skal"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode (Zombies mode)"
+      ]
+    },
+    {
       "sourceId": "72f3935f",
       "file": "CUSA02290_01.33_72f3935f.json",
       "path": "json/CUSA02290_01.33_72f3935f.json",
@@ -18,21 +33,6 @@
         "Inf Health",
         "Inf Money",
         "Inf Ammo"
-      ]
-    },
-    {
-      "sourceId": "b3b3cea3",
-      "file": "CUSA02290_01.33_b3b3cea3.json",
-      "path": "json/CUSA02290_01.33_b3b3cea3.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Skal"
-      ],
-      "notes": null,
-      "cheats": [
-        "Godmode (Zombies mode)"
       ]
     },
     {

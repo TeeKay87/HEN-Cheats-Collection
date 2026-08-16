@@ -4,32 +4,6 @@
   "version": "01.27",
   "files": [
     {
-      "sourceId": "02b0fa3c",
-      "file": "CUSA13275_01.27_02b0fa3c.mc4",
-      "path": "mc4/CUSA13275_01.27_02b0fa3c.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Celogamez"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite Health/Shield",
-        "Max/Infinite Lives",
-        "Infinite Ammo/Fuel",
-        "Infinite Dash",
-        "Infinite Radiation/Dive Suit",
-        "Infinite Grenades",
-        "Infinite Flame Belch",
-        "Infinite Blood Punch",
-        "Infinite Crucible Sword",
-        "Infinite Sentinel Hammer",
-        "Infinite Jumps",
-        "Max/Inf Weapons/Praetorian Points/Mastery Tokens/Sentinel Batteries"
-      ]
-    },
-    {
       "sourceId": "3c81fc4f",
       "file": "CUSA13275_01.27_3c81fc4f.mc4",
       "path": "mc4/CUSA13275_01.27_3c81fc4f.mc4",
@@ -56,9 +30,35 @@
       ]
     },
     {
-      "sourceId": "0c6c08a7",
-      "file": "CUSA13275_01.27_0c6c08a7.shn",
-      "path": "shn/CUSA13275_01.27_0c6c08a7.shn",
+      "sourceId": "5a848bae",
+      "file": "CUSA13275_01.27_5a848bae.mc4",
+      "path": "mc4/CUSA13275_01.27_5a848bae.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health/Shield",
+        "Max/Infinite Lives",
+        "Infinite Ammo/Fuel",
+        "Infinite Dash",
+        "Infinite Radiation/Dive Suit",
+        "Infinite Grenades",
+        "Infinite Flame Belch",
+        "Infinite Blood Punch",
+        "Infinite Crucible Sword",
+        "Infinite Sentinel Hammer",
+        "Infinite Jumps",
+        "Max/Inf Weapons/Praetorian Points/Mastery Tokens/Sentinel Batteries"
+      ]
+    },
+    {
+      "sourceId": "fa73573d",
+      "file": "CUSA13275_01.27_fa73573d.shn",
+      "path": "shn/CUSA13275_01.27_fa73573d.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,

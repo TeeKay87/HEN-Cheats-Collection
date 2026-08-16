@@ -4,106 +4,9 @@
   "version": "01.00",
   "files": [
     {
-      "sourceId": "4360ca2e",
-      "file": "CUSA02882_01.00_bh0hd.elf_4360ca2e.json",
-      "path": "json/CUSA02882_01.00_bh0hd.elf_4360ca2e.json",
-      "format": "json",
-      "process": "bh0hd.elf",
-      "hidden": false,
-      "creators": [
-        "Talixme"
-      ],
-      "notes": null,
-      "cheats": [
-        "Godmode",
-        "Infinite Pistol Ammo",
-        "Infinite Tapes"
-      ]
-    },
-    {
-      "sourceId": "d6bfc482",
-      "file": "CUSA02882_01.00_bh0hd.elf_d6bfc482.json",
-      "path": "json/CUSA02882_01.00_bh0hd.elf_d6bfc482.json",
-      "format": "json",
-      "process": "bh0hd.elf",
-      "hidden": false,
-      "creators": [
-        "TLH"
-      ],
-      "notes": null,
-      "cheats": [
-        "Health / 1 Hit Mastercode",
-        "Infinite Health",
-        "1 Hit Kills",
-        "Infinite Tapes / Save w/o Tapes",
-        "Bottomless Clip",
-        "Infinite Ammo",
-        "Freeze SaveCounter",
-        "Infinite Items"
-      ]
-    },
-    {
-      "sourceId": "8003a773",
-      "file": "CUSA02882_01.00_bh1hd.elf_8003a773.json",
-      "path": "json/CUSA02882_01.00_bh1hd.elf_8003a773.json",
-      "format": "json",
-      "process": "bh1hd.elf",
-      "hidden": false,
-      "creators": [
-        "TLH, Molly"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite Health",
-        "1 Hit Kills",
-        "Bottomless Clip",
-        "Infinite Items/Ammo",
-        "Infinite Selfdefense Weapons",
-        "Infinite Tapes / Save w/o Tapes",
-        "Freeze SaveCounter",
-        "Doors open w/o Keys",
-        "Doors open w/o Old-Keys",
-        "Have All Item\\'s In Chest ~Swap Any Item From Inventory To Chest"
-      ]
-    },
-    {
-      "sourceId": "8dc4cf30",
-      "file": "CUSA02882_01.00_bh1hd.elf_8dc4cf30.json",
-      "path": "json/CUSA02882_01.00_bh1hd.elf_8dc4cf30.json",
-      "format": "json",
-      "process": "bh1hd.elf",
-      "hidden": false,
-      "creators": [
-        "Talixme"
-      ],
-      "notes": null,
-      "cheats": [
-        "Godmode",
-        "Infinite Pistol Ammo",
-        "Infinite Tapes"
-      ]
-    },
-    {
-      "sourceId": "c12b0dc0",
-      "file": "CUSA02882_01.00_bh1hd.elf_c12b0dc0.json",
-      "path": "json/CUSA02882_01.00_bh1hd.elf_c12b0dc0.json",
-      "format": "json",
-      "process": "bh1hd.elf",
-      "hidden": false,
-      "creators": [
-        "Talixme"
-      ],
-      "notes": null,
-      "cheats": [
-        "Godmode",
-        "Infinite Pistol Ammo",
-        "Infinite Tapes"
-      ]
-    },
-    {
-      "sourceId": "e5312358",
-      "file": "CUSA02882_01.00_e5312358.json",
-      "path": "json/CUSA02882_01.00_e5312358.json",
+      "sourceId": "68087a67",
+      "file": "CUSA02882_01.00_68087a67.json",
+      "path": "json/CUSA02882_01.00_68087a67.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -132,6 +35,120 @@
         "Doors open w/o Keys",
         "Doors open w/o Old-Keys",
         "Have All Item\\'s In Chest ~Swap Any Item From Inventory To Chest",
+        "Godmode",
+        "Infinite Pistol Ammo",
+        "Infinite Tapes"
+      ]
+    },
+    {
+      "sourceId": "4360ca2e",
+      "file": "CUSA02882_01.00_bh0hd.elf_4360ca2e.json",
+      "path": "json/CUSA02882_01.00_bh0hd.elf_4360ca2e.json",
+      "format": "json",
+      "process": "bh0hd.elf",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Pistol Ammo",
+        "Infinite Tapes"
+      ]
+    },
+    {
+      "sourceId": "96d0ef19",
+      "file": "CUSA02882_01.00_bh0hd.elf_96d0ef19.json",
+      "path": "json/CUSA02882_01.00_bh0hd.elf_96d0ef19.json",
+      "format": "json",
+      "process": "bh0hd.elf",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Health / 1 Hit Mastercode",
+        "Infinite Health",
+        "1 Hit Kills",
+        "Infinite Tapes / Save w/o Tapes",
+        "Bottomless Clip",
+        "Infinite Ammo",
+        "Freeze SaveCounter",
+        "Infinite Items"
+      ]
+    },
+    {
+      "sourceId": "169bedac",
+      "file": "CUSA02882_01.00_bh1hd.elf_169bedac.json",
+      "path": "json/CUSA02882_01.00_bh1hd.elf_169bedac.json",
+      "format": "json",
+      "process": "bh1hd.elf",
+      "hidden": false,
+      "creators": [
+        "TLH, Molly"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "1 Hit Kills",
+        "Bottomless Clip",
+        "Infinite Items/Ammo",
+        "Infinite Selfdefense Weapons",
+        "Infinite Tapes / Save w/o Tapes",
+        "Freeze SaveCounter",
+        "Doors open w/o Keys",
+        "Doors open w/o Old-Keys",
+        "Have All Item\\'s In Chest ~Swap Any Item From Inventory To Chest"
+      ]
+    },
+    {
+      "sourceId": "2d2327e9",
+      "file": "CUSA02882_01.00_bh1hd.elf_2d2327e9.json",
+      "path": "json/CUSA02882_01.00_bh1hd.elf_2d2327e9.json",
+      "format": "json",
+      "process": "bh1hd.elf",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Pistol Ammo",
+        "Infinite Tapes"
+      ]
+    },
+    {
+      "sourceId": "8dc4cf30",
+      "file": "CUSA02882_01.00_bh1hd.elf_8dc4cf30.json",
+      "path": "json/CUSA02882_01.00_bh1hd.elf_8dc4cf30.json",
+      "format": "json",
+      "process": "bh1hd.elf",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Pistol Ammo",
+        "Infinite Tapes"
+      ]
+    },
+    {
+      "sourceId": "3f8bf18a",
+      "file": "CUSA02882_01.00_bh0hd.elf_3f8bf18a.mc4",
+      "path": "mc4/CUSA02882_01.00_bh0hd.elf_3f8bf18a.mc4",
+      "format": "mc4",
+      "process": "bh0hd.elf",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
         "Godmode",
         "Infinite Pistol Ammo",
         "Infinite Tapes"
@@ -177,11 +194,11 @@
       ]
     },
     {
-      "sourceId": "a82d26c4",
-      "file": "CUSA02882_01.00_bh0hd.elf_a82d26c4.mc4",
-      "path": "mc4/CUSA02882_01.00_bh0hd.elf_a82d26c4.mc4",
+      "sourceId": "6090054d",
+      "file": "CUSA02882_01.00_bh1hd.elf_6090054d.mc4",
+      "path": "mc4/CUSA02882_01.00_bh1hd.elf_6090054d.mc4",
       "format": "mc4",
-      "process": "bh0hd.elf",
+      "process": "bh1hd.elf",
       "hidden": false,
       "creators": [
         "Talixme"
@@ -194,9 +211,9 @@
       ]
     },
     {
-      "sourceId": "6090054d",
-      "file": "CUSA02882_01.00_bh1hd.elf_6090054d.mc4",
-      "path": "mc4/CUSA02882_01.00_bh1hd.elf_6090054d.mc4",
+      "sourceId": "75b2a961",
+      "file": "CUSA02882_01.00_bh1hd.elf_75b2a961.mc4",
+      "path": "mc4/CUSA02882_01.00_bh1hd.elf_75b2a961.mc4",
       "format": "mc4",
       "process": "bh1hd.elf",
       "hidden": false,
@@ -235,26 +252,9 @@
       ]
     },
     {
-      "sourceId": "9b430362",
-      "file": "CUSA02882_01.00_bh1hd.elf_9b430362.mc4",
-      "path": "mc4/CUSA02882_01.00_bh1hd.elf_9b430362.mc4",
-      "format": "mc4",
-      "process": "bh1hd.elf",
-      "hidden": false,
-      "creators": [
-        "Talixme"
-      ],
-      "notes": null,
-      "cheats": [
-        "Godmode",
-        "Infinite Pistol Ammo",
-        "Infinite Tapes"
-      ]
-    },
-    {
-      "sourceId": "ba21ac41",
-      "file": "CUSA02882_01.00_ba21ac41.shn",
-      "path": "shn/CUSA02882_01.00_ba21ac41.shn",
+      "sourceId": "2d4021d6",
+      "file": "CUSA02882_01.00_2d4021d6.shn",
+      "path": "shn/CUSA02882_01.00_2d4021d6.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,

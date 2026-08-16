@@ -4,37 +4,6 @@
   "version": "01.00",
   "files": [
     {
-      "sourceId": "b061e185",
-      "file": "CUSA08966_01.00_b061e185.mc4",
-      "path": "mc4/CUSA08966_01.00_b061e185.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Celogamez"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite Health/1 Hit Kill (MASTERCODE/MUST BE ON)",
-        "Infinite Health",
-        "1 Hit Kill",
-        "Infinite Stamina/Focus",
-        "Infinite Throwables",
-        "Infinite Resources",
-        "Infinite Materials",
-        "No Reload",
-        "No Recoil",
-        "Infinite Suppressor",
-        "Infinite Weapon Durability",
-        "Infinite Bike Durability (Disable On Chase Bike Missions)",
-        "Infinite Bike Fuel",
-        "Infinite Nitro Turbo ",
-        "Infinite Skill Points",
-        "Max LevelUp/XP On Gain",
-        "Max/Infinite Money/Buy Or Sell"
-      ]
-    },
-    {
       "sourceId": "b8446ea9",
       "file": "CUSA08966_01.00_b8446ea9.mc4",
       "path": "mc4/CUSA08966_01.00_b8446ea9.mc4",
@@ -66,9 +35,40 @@
       ]
     },
     {
-      "sourceId": "2bab79a5",
-      "file": "CUSA08966_01.00_2bab79a5.shn",
-      "path": "shn/CUSA08966_01.00_2bab79a5.shn",
+      "sourceId": "c84d0eac",
+      "file": "CUSA08966_01.00_c84d0eac.mc4",
+      "path": "mc4/CUSA08966_01.00_c84d0eac.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health/1 Hit Kill (MASTERCODE/MUST BE ON)",
+        "Infinite Health",
+        "1 Hit Kill",
+        "Infinite Stamina/Focus",
+        "Infinite Throwables",
+        "Infinite Resources",
+        "Infinite Materials",
+        "No Reload",
+        "No Recoil",
+        "Infinite Suppressor",
+        "Infinite Weapon Durability",
+        "Infinite Bike Durability (Disable On Chase Bike Missions)",
+        "Infinite Bike Fuel",
+        "Infinite Nitro Turbo ",
+        "Infinite Skill Points",
+        "Max LevelUp/XP On Gain",
+        "Max/Infinite Money/Buy Or Sell"
+      ]
+    },
+    {
+      "sourceId": "b67171a2",
+      "file": "CUSA08966_01.00_b67171a2.shn",
+      "path": "shn/CUSA08966_01.00_b67171a2.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,

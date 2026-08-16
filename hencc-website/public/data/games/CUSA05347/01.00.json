@@ -4,27 +4,6 @@
   "version": "01.00",
   "files": [
     {
-      "sourceId": "271e1667",
-      "file": "CUSA05347_01.00_271e1667.json",
-      "path": "json/CUSA05347_01.00_271e1667.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Vampirexx"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite Health",
-        "1 Hit Max Wrath",
-        "Inf Wrath Usage",
-        "Instant Chaos Form after Usage",
-        "1 Hit Refill Chaos Form",
-        "Gain Souls after Shop",
-        "Inf Horse Bursts"
-      ]
-    },
-    {
       "sourceId": "8ba546e0",
       "file": "CUSA05347_01.00_8ba546e0.json",
       "path": "json/CUSA05347_01.00_8ba546e0.json",
@@ -42,6 +21,27 @@
         "Refill Chaos On 1 Hit",
         "Infinite Horse Burst",
         "Get Souls For Spending Them"
+      ]
+    },
+    {
+      "sourceId": "aa77e774",
+      "file": "CUSA05347_01.00_aa77e774.json",
+      "path": "json/CUSA05347_01.00_aa77e774.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Vampirexx"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "1 Hit Max Wrath",
+        "Inf Wrath Usage",
+        "Instant Chaos Form after Usage",
+        "1 Hit Refill Chaos Form",
+        "Gain Souls after Shop",
+        "Inf Horse Bursts"
       ]
     },
     {
@@ -64,9 +64,9 @@
       ]
     },
     {
-      "sourceId": "304af4ac",
-      "file": "CUSA05347_01.00_304af4ac.shn",
-      "path": "shn/CUSA05347_01.00_304af4ac.shn",
+      "sourceId": "ee97a310",
+      "file": "CUSA05347_01.00_ee97a310.shn",
+      "path": "shn/CUSA05347_01.00_ee97a310.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,

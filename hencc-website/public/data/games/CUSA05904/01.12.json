@@ -4,23 +4,6 @@
   "version": "01.12",
   "files": [
     {
-      "sourceId": "1aef08e4",
-      "file": "CUSA05904_01.12_1aef08e4.json",
-      "path": "json/CUSA05904_01.12_1aef08e4.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "ADI"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite ammo + No Reload",
-        "Max Infinite All usable Item's",
-        "Max Infinite Perks Points (Enable Only In Perks Screen"
-      ]
-    },
-    {
       "sourceId": "2c6120a5",
       "file": "CUSA05904_01.12_2c6120a5.json",
       "path": "json/CUSA05904_01.12_2c6120a5.json",
@@ -34,6 +17,23 @@
       "cheats": [
         "Infinite ammo + No Reload",
         "Max Infinite All usable Items",
+        "Max Infinite Perks Points (Enable Only In Perks Screen"
+      ]
+    },
+    {
+      "sourceId": "93da083a",
+      "file": "CUSA05904_01.12_93da083a.json",
+      "path": "json/CUSA05904_01.12_93da083a.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "ADI"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite ammo + No Reload",
+        "Max Infinite All usable Item's",
         "Max Infinite Perks Points (Enable Only In Perks Screen"
       ]
     }

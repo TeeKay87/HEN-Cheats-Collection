@@ -4,9 +4,9 @@
   "version": "01.02",
   "files": [
     {
-      "sourceId": "d4212d43",
-      "file": "CUSA03522_01.02_default.elf_d4212d43.json",
-      "path": "json/CUSA03522_01.02_default.elf_d4212d43.json",
+      "sourceId": "a0cbcd74",
+      "file": "CUSA03522_01.02_default.elf_a0cbcd74.json",
+      "path": "json/CUSA03522_01.02_default.elf_a0cbcd74.json",
       "format": "json",
       "process": "default.elf",
       "hidden": false,
@@ -15,30 +15,6 @@
       ],
       "notes": null,
       "cheats": [
-        "Infinite Health/1 Hit Kill (Master Code/Must Be On)",
-        "Infinite Health (Enable MC)",
-        "1 Hit Kill (Enable MC)",
-        "Infinite Ammo",
-        "NoReload/InfGrenades"
-      ]
-    },
-    {
-      "sourceId": "95d2909f",
-      "file": "CUSA03522_01.02_95d2909f.shn",
-      "path": "shn/CUSA03522_01.02_95d2909f.shn",
-      "format": "shn",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "x3shakir"
-      ],
-      "notes": null,
-      "cheats": [
-        "Godmode Client 1",
-        "All Client Godmode",
-        "All Client Infinite Ammo",
-        "Infinite Grenades",
-        "No Reload",
         "Infinite Health/1 Hit Kill (Master Code/Must Be On)",
         "Infinite Health (Enable MC)",
         "1 Hit Kill (Enable MC)",
@@ -82,6 +58,30 @@
         "All Client Infinite Ammo",
         "Infinite Grenades",
         "No Reload"
+      ]
+    },
+    {
+      "sourceId": "e74353db",
+      "file": "CUSA03522_01.02_e74353db.shn",
+      "path": "shn/CUSA03522_01.02_e74353db.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "x3shakir"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode Client 1",
+        "All Client Godmode",
+        "All Client Infinite Ammo",
+        "Infinite Grenades",
+        "No Reload",
+        "Infinite Health/1 Hit Kill (Master Code/Must Be On)",
+        "Infinite Health (Enable MC)",
+        "1 Hit Kill (Enable MC)",
+        "Infinite Ammo",
+        "NoReload/InfGrenades"
       ]
     }
   ]

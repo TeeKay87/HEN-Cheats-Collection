@@ -4,27 +4,9 @@
   "version": "01.00",
   "files": [
     {
-      "sourceId": "17523fcb",
-      "file": "CUSA01067_01.00_17523fcb.json",
-      "path": "json/CUSA01067_01.00_17523fcb.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Karo"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite Health",
-        "1 Hit Kills",
-        "Infinite Ammo",
-        "Infinite Tapes"
-      ]
-    },
-    {
-      "sourceId": "1c29acc4",
-      "file": "CUSA01067_01.00_1c29acc4.json",
-      "path": "json/CUSA01067_01.00_1c29acc4.json",
+      "sourceId": "0dd31820",
+      "file": "CUSA01067_01.00_0dd31820.json",
+      "path": "json/CUSA01067_01.00_0dd31820.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -53,6 +35,42 @@
         "Infinite Rocket Launcher (Activate/Enter/Deactivate)",
         "Rocket Launcher (Activate/Enter/Deactivate)",
         "Barry's 44 Magnum (Activate/Enter/Deactivate)"
+      ]
+    },
+    {
+      "sourceId": "1017c54f",
+      "file": "CUSA01067_01.00_1017c54f.json",
+      "path": "json/CUSA01067_01.00_1017c54f.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Karo_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "1 Hit Kills",
+        "Infinite Ammo",
+        "Infinite Tapes"
+      ]
+    },
+    {
+      "sourceId": "17523fcb",
+      "file": "CUSA01067_01.00_17523fcb.json",
+      "path": "json/CUSA01067_01.00_17523fcb.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Karo"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "1 Hit Kills",
+        "Infinite Ammo",
+        "Infinite Tapes"
       ]
     },
     {
@@ -86,27 +104,9 @@
       ]
     },
     {
-      "sourceId": "6e97fbfb",
-      "file": "CUSA01067_01.00_6e97fbfb.json",
-      "path": "json/CUSA01067_01.00_6e97fbfb.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Karo_9.00"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite Health",
-        "1 Hit Kills",
-        "Infinite Ammo",
-        "Infinite Tapes"
-      ]
-    },
-    {
-      "sourceId": "b702f49d",
-      "file": "CUSA01067_01.00_b702f49d.json",
-      "path": "json/CUSA01067_01.00_b702f49d.json",
+      "sourceId": "becb8522",
+      "file": "CUSA01067_01.00_becb8522.json",
+      "path": "json/CUSA01067_01.00_becb8522.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -164,9 +164,9 @@
       ]
     },
     {
-      "sourceId": "7787d475",
-      "file": "CUSA01067_01.00_7787d475.shn",
-      "path": "shn/CUSA01067_01.00_7787d475.shn",
+      "sourceId": "837754ba",
+      "file": "CUSA01067_01.00_837754ba.shn",
+      "path": "shn/CUSA01067_01.00_837754ba.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,

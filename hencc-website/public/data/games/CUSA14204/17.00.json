@@ -4,6 +4,31 @@
   "version": "17.00",
   "files": [
     {
+      "sourceId": "59ec8b12",
+      "file": "CUSA14204_17.00_59ec8b12.mc4",
+      "path": "mc4/CUSA14204_17.00_59ec8b12.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "d01v"
+      ],
+      "notes": null,
+      "cheats": [
+        "MasterCode For Stamina",
+        "MasterCode",
+        "Stamina Left",
+        "Left head",
+        "Master Code for Body",
+        "Left Body",
+        "Master Code for Left Leg",
+        "Left Leg",
+        "Master Code for Right Leg",
+        "Left Leg",
+        "Evolution Points"
+      ]
+    },
+    {
       "sourceId": "8784b3f9",
       "file": "CUSA14204_17.00_8784b3f9.mc4",
       "path": "mc4/CUSA14204_17.00_8784b3f9.mc4",
@@ -34,34 +59,9 @@
       ]
     },
     {
-      "sourceId": "8b6bf8f7",
-      "file": "CUSA14204_17.00_8b6bf8f7.mc4",
-      "path": "mc4/CUSA14204_17.00_8b6bf8f7.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "d01v"
-      ],
-      "notes": null,
-      "cheats": [
-        "MasterCode For Stamina",
-        "MasterCode",
-        "Stamina Left",
-        "Left head",
-        "Master Code for Body",
-        "Left Body",
-        "Master Code for Left Leg",
-        "Left Leg",
-        "Master Code for Right Leg",
-        "Left Leg",
-        "Evolution Points"
-      ]
-    },
-    {
-      "sourceId": "6d17d3fa",
-      "file": "CUSA14204_17.00_6d17d3fa.shn",
-      "path": "shn/CUSA14204_17.00_6d17d3fa.shn",
+      "sourceId": "71c607e0",
+      "file": "CUSA14204_17.00_71c607e0.shn",
+      "path": "shn/CUSA14204_17.00_71c607e0.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,

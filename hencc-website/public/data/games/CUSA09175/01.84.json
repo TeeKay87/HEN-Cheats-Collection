@@ -4,6 +4,33 @@
   "version": "01.84",
   "files": [
     {
+      "sourceId": "9741a08c",
+      "file": "CUSA09175_01.84_9741a08c.mc4",
+      "path": "mc4/CUSA09175_01.84_9741a08c.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "fbin"
+      ],
+      "notes": null,
+      "cheats": [
+        "Sa?de infinita",
+        "Resist?ncia Infinita/Foco",
+        "Itens infinitos (n?o use itens m?ximos)",
+        "M?ximo de Itens (Pegue os Itens Primeiro/Recarregue o Jogo)",
+        "Sem recarga",
+        "Supressor Infinito",
+        "Durabilidade infinita da arma",
+        "Durabilidade infinita da bicicleta (desativar nas miss?es de persegui??o de bicicleta)",
+        "Combust?vel de bicicleta infinito",
+        "Infinito Nitro Turbo",
+        "Infinitos pontos de habilidade",
+        "Nivel maximo Up/XP On Gain",
+        "Dinheiro Infinito (comprar ou vender) desligue antes do novo acampamento"
+      ]
+    },
+    {
       "sourceId": "a3882c92",
       "file": "CUSA09175_01.84_a3882c92.mc4",
       "path": "mc4/CUSA09175_01.84_a3882c92.mc4",
@@ -31,36 +58,9 @@
       ]
     },
     {
-      "sourceId": "af51ffbc",
-      "file": "CUSA09175_01.84_af51ffbc.mc4",
-      "path": "mc4/CUSA09175_01.84_af51ffbc.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "fbin"
-      ],
-      "notes": null,
-      "cheats": [
-        "Sa?de infinita",
-        "Resist?ncia Infinita/Foco",
-        "Itens infinitos (n?o use itens m?ximos)",
-        "M?ximo de Itens (Pegue os Itens Primeiro/Recarregue o Jogo)",
-        "Sem recarga",
-        "Supressor Infinito",
-        "Durabilidade infinita da arma",
-        "Durabilidade infinita da bicicleta (desativar nas miss?es de persegui??o de bicicleta)",
-        "Combust?vel de bicicleta infinito",
-        "Infinito Nitro Turbo",
-        "Infinitos pontos de habilidade",
-        "Nivel maximo Up/XP On Gain",
-        "Dinheiro Infinito (comprar ou vender) desligue antes do novo acampamento"
-      ]
-    },
-    {
-      "sourceId": "b0116662",
-      "file": "CUSA09175_01.84_b0116662.shn",
-      "path": "shn/CUSA09175_01.84_b0116662.shn",
+      "sourceId": "7397ca0f",
+      "file": "CUSA09175_01.84_7397ca0f.shn",
+      "path": "shn/CUSA09175_01.84_7397ca0f.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,

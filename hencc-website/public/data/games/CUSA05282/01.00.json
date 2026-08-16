@@ -4,9 +4,9 @@
   "version": "01.00",
   "files": [
     {
-      "sourceId": "07b695a3",
-      "file": "CUSA05282_01.00_07b695a3.json",
-      "path": "json/CUSA05282_01.00_07b695a3.json",
+      "sourceId": "8163923f",
+      "file": "CUSA05282_01.00_8163923f.json",
+      "path": "json/CUSA05282_01.00_8163923f.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -46,9 +46,9 @@
       ]
     },
     {
-      "sourceId": "f84eda5b",
-      "file": "CUSA05282_01.00_default.elf_f84eda5b.json",
-      "path": "json/CUSA05282_01.00_default.elf_f84eda5b.json",
+      "sourceId": "c86f1f13",
+      "file": "CUSA05282_01.00_default.elf_c86f1f13.json",
+      "path": "json/CUSA05282_01.00_default.elf_c86f1f13.json",
       "format": "json",
       "process": "default.elf",
       "hidden": false,
@@ -88,11 +88,11 @@
       ]
     },
     {
-      "sourceId": "d405a1c5",
-      "file": "CUSA05282_01.00_default.elf_d405a1c5.shn",
-      "path": "shn/CUSA05282_01.00_default.elf_d405a1c5.shn",
+      "sourceId": "2d261378",
+      "file": "CUSA05282_01.00_2d261378.shn",
+      "path": "shn/CUSA05282_01.00_2d261378.shn",
       "format": "shn",
-      "process": "default.elf",
+      "process": "eboot.bin",
       "hidden": false,
       "creators": [
         "DeathRGH"
@@ -109,11 +109,11 @@
       ]
     },
     {
-      "sourceId": "f99f4b40",
-      "file": "CUSA05282_01.00_f99f4b40.shn",
-      "path": "shn/CUSA05282_01.00_f99f4b40.shn",
+      "sourceId": "fb8b0aec",
+      "file": "CUSA05282_01.00_default.elf_fb8b0aec.shn",
+      "path": "shn/CUSA05282_01.00_default.elf_fb8b0aec.shn",
       "format": "shn",
-      "process": "eboot.bin",
+      "process": "default.elf",
       "hidden": false,
       "creators": [
         "DeathRGH"

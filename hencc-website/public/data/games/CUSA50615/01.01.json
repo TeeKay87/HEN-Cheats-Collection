@@ -41,10 +41,40 @@
       ]
     },
     {
-      "sourceId": "583ee41d",
-      "file": "CUSA50615_01.01_583ee41d.json",
-      "path": "json/CUSA50615_01.01_583ee41d.json",
+      "sourceId": "b335db3e",
+      "file": "CUSA50615_01.01_b335db3e.json",
+      "path": "json/CUSA50615_01.01_b335db3e.json",
       "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Pharaoh2k"
+      ],
+      "notes": null,
+      "cheats": [
+        "TRAINER INFO (read only)",
+        "Master Code (Must be enabled first and all the time)",
+        "God Mode",
+        "One Hit Kill",
+        "Inf+Max Health",
+        "Inf+Max FP",
+        "Inf+Max Stamina",
+        "Inf+Max Consumables",
+        "Inf+Max Runes",
+        "Runes Retained On Death",
+        "Inf+Max Murks",
+        "Player No Dead 1.01-1.02",
+        "Infinite Ultimate Art",
+        "--No Skill Cooldown",
+        "--Enemy Speed x0",
+        "--Player Speed x1"
+      ]
+    },
+    {
+      "sourceId": "3c0e9e78",
+      "file": "CUSA50615_01.01_3c0e9e78.shn",
+      "path": "shn/CUSA50615_01.01_3c0e9e78.shn",
+      "format": "shn",
       "process": "eboot.bin",
       "hidden": false,
       "creators": [
@@ -105,36 +135,6 @@
         "--Player Speed x3",
         "--Player Speed x4",
         "--Player Speed x5"
-      ]
-    },
-    {
-      "sourceId": "fe765200",
-      "file": "CUSA50615_01.01_fe765200.shn",
-      "path": "shn/CUSA50615_01.01_fe765200.shn",
-      "format": "shn",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Pharaoh2k"
-      ],
-      "notes": null,
-      "cheats": [
-        "TRAINER INFO (read only)",
-        "Master Code (Must be enabled first and all the time)",
-        "God Mode",
-        "One Hit Kill",
-        "Inf+Max Health",
-        "Inf+Max FP",
-        "Inf+Max Stamina",
-        "Inf+Max Consumables",
-        "Inf+Max Runes",
-        "Runes Retained On Death",
-        "Inf+Max Murks",
-        "Player No Dead 1.01-1.02",
-        "Infinite Ultimate Art",
-        "--No Skill Cooldown",
-        "--Enemy Speed x0",
-        "--Player Speed x1"
       ]
     }
   ]

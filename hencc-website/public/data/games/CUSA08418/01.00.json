@@ -4,9 +4,24 @@
   "version": "01.00",
   "files": [
     {
-      "sourceId": "0b7fbc82",
-      "file": "CUSA08418_01.00_0b7fbc82.json",
-      "path": "json/CUSA08418_01.00_0b7fbc82.json",
+      "sourceId": "1b08130d",
+      "file": "CUSA08418_01.00_1b08130d.json",
+      "path": "json/CUSA08418_01.00_1b08130d.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Skal"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite double jump (After you unlock double jump)"
+      ]
+    },
+    {
+      "sourceId": "ffc54ba3",
+      "file": "CUSA08418_01.00_ffc54ba3.json",
+      "path": "json/CUSA08418_01.00_ffc54ba3.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -21,21 +36,6 @@
         "Max Karma On Gain",
         "Max Demon Fangs On Gain",
         "Infinite Double Jump (After It Is Unlocked)"
-      ]
-    },
-    {
-      "sourceId": "4c22e641",
-      "file": "CUSA08418_01.00_4c22e641.json",
-      "path": "json/CUSA08418_01.00_4c22e641.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Skal"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite double jump (After you unlock double jump)"
       ]
     },
     {

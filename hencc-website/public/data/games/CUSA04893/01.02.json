@@ -75,6 +75,22 @@
       ]
     },
     {
+      "sourceId": "27fc742b",
+      "file": "CUSA04893_01.02_ScimitarACR.elf_27fc742b.mc4",
+      "path": "mc4/CUSA04893_01.02_ScimitarACR.elf_27fc742b.mc4",
+      "format": "mc4",
+      "process": "ScimitarACR.elf",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Money/Items"
+      ]
+    },
+    {
       "sourceId": "554ca6f7",
       "file": "CUSA04893_01.02_ScimitarACR.elf_554ca6f7.mc4",
       "path": "mc4/CUSA04893_01.02_ScimitarACR.elf_554ca6f7.mc4",
@@ -91,25 +107,9 @@
       ]
     },
     {
-      "sourceId": "d23cf01f",
-      "file": "CUSA04893_01.02_ScimitarACR.elf_d23cf01f.mc4",
-      "path": "mc4/CUSA04893_01.02_ScimitarACR.elf_d23cf01f.mc4",
-      "format": "mc4",
-      "process": "ScimitarACR.elf",
-      "hidden": false,
-      "creators": [
-        "TLH"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite Health",
-        "Infinite Money/Items"
-      ]
-    },
-    {
-      "sourceId": "fbabc48f",
-      "file": "CUSA04893_01.02_fbabc48f.shn",
-      "path": "shn/CUSA04893_01.02_fbabc48f.shn",
+      "sourceId": "013491e0",
+      "file": "CUSA04893_01.02_013491e0.shn",
+      "path": "shn/CUSA04893_01.02_013491e0.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,

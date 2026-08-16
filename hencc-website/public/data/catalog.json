@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-08-16T00:09:03Z",
+  "generatedUtc": "2026-08-16T13:19:00Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -12497,16 +12497,6 @@
             "mc4",
             "shn"
           ]
-        },
-        {
-          "version": "05.05",
-          "creators": [
-            "hejran7"
-          ],
-          "formats": [
-            "mc4",
-            "shn"
-          ]
         }
       ]
     },
@@ -16036,7 +16026,7 @@
     },
     {
       "id": "CUSA11846",
-      "title": "The Last Remnant Remastered",
+      "title": "THE LAST REMNANT Remastered",
       "pinned": false,
       "hidden": false,
       "versions": [
@@ -31643,6 +31633,7 @@
             "Pharaoh2k"
           ],
           "formats": [
+            "json",
             "shn"
           ]
         }
@@ -32372,7 +32363,7 @@
     },
     {
       "id": "CUSA42556",
-      "title": "Grounded",
+      "title": "Maine",
       "pinned": false,
       "hidden": false,
       "versions": [
@@ -35081,6 +35072,7 @@
         {
           "version": "01.086.000",
           "creators": [
+            "Shambhala222",
             "Yharnam-port"
           ],
           "formats": [
@@ -35826,6 +35818,23 @@
       ]
     },
     {
+      "id": "PPSA06438",
+      "title": "Let's Build a Zoo",
+      "pinned": false,
+      "hidden": false,
+      "versions": [
+        {
+          "version": "01.001.140",
+          "creators": [
+            "Talixme"
+          ],
+          "formats": [
+            "json"
+          ]
+        }
+      ]
+    },
+    {
       "id": "PPSA06568",
       "title": "Sword Art Online: Fractured Daydream",
       "pinned": false,
@@ -35872,6 +35881,23 @@
           ],
           "formats": [
             "json",
+            "mc4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PPSA06981",
+      "title": "Naruto x Boruto: Ultimate Ninja Storm Connections",
+      "pinned": false,
+      "hidden": false,
+      "versions": [
+        {
+          "version": "01.006.000",
+          "creators": [
+            "Yharnam"
+          ],
+          "formats": [
             "mc4"
           ]
         }
@@ -36396,6 +36422,15 @@
           "formats": [
             "shn"
           ]
+        },
+        {
+          "version": "01.080.000",
+          "creators": [
+            "Talixme"
+          ],
+          "formats": [
+            "json"
+          ]
         }
       ]
     },
@@ -36532,6 +36567,23 @@
       "versions": [
         {
           "version": "08.000.000",
+          "creators": [
+            "Talixme"
+          ],
+          "formats": [
+            "json"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PPSA09384",
+      "title": "The Caligula Effect: Overdose",
+      "pinned": false,
+      "hidden": false,
+      "versions": [
+        {
+          "version": "01.000.000",
           "creators": [
             "Talixme"
           ],
@@ -36828,6 +36880,23 @@
       ]
     },
     {
+      "id": "PPSA10906",
+      "title": "Atelier Marie Remake: The Alchemist of Salburg",
+      "pinned": false,
+      "hidden": false,
+      "versions": [
+        {
+          "version": "01.000.000",
+          "creators": [
+            "Talixme"
+          ],
+          "formats": [
+            "json"
+          ]
+        }
+      ]
+    },
+    {
       "id": "PPSA10965",
       "title": "Pacific Drive",
       "pinned": false,
@@ -37059,6 +37128,23 @@
       "versions": [
         {
           "version": "01.000.000",
+          "creators": [
+            "Talixme"
+          ],
+          "formats": [
+            "json"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PPSA14708",
+      "title": "Commandos: Origins",
+      "pinned": false,
+      "hidden": false,
+      "versions": [
+        {
+          "version": "01.004.000",
           "creators": [
             "Talixme"
           ],
@@ -37344,6 +37430,23 @@
       "versions": [
         {
           "version": "01.000.001",
+          "creators": [
+            "Talixme"
+          ],
+          "formats": [
+            "json"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PPSA17232",
+      "title": "Sniper Elite: Resistance",
+      "pinned": false,
+      "hidden": false,
+      "versions": [
+        {
+          "version": "01.010.000",
           "creators": [
             "Talixme"
           ],
@@ -37909,6 +38012,23 @@
       "versions": [
         {
           "version": "01.000.011",
+          "creators": [
+            "Talixme"
+          ],
+          "formats": [
+            "json"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PPSA22826",
+      "title": "Tales of Berseria Remastered",
+      "pinned": false,
+      "hidden": false,
+      "versions": [
+        {
+          "version": "01.000.002",
           "creators": [
             "Talixme"
           ],

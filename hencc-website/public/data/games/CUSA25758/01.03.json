@@ -24,6 +24,26 @@
       ]
     },
     {
+      "sourceId": "3cf8478b",
+      "file": "CUSA25758_01.03_3cf8478b.mc4",
+      "path": "mc4/CUSA25758_01.03_3cf8478b.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite EP",
+        "Infinite Items On Use",
+        "Max Ancestral Amulets (Disable after use)",
+        "Max Money On Get (Disable after use)",
+        "Max XP/Levels"
+      ]
+    },
+    {
       "sourceId": "e96756f1",
       "file": "CUSA25758_01.03_e96756f1.mc4",
       "path": "mc4/CUSA25758_01.03_e96756f1.mc4",
@@ -44,29 +64,9 @@
       ]
     },
     {
-      "sourceId": "ec5fb9cc",
-      "file": "CUSA25758_01.03_ec5fb9cc.mc4",
-      "path": "mc4/CUSA25758_01.03_ec5fb9cc.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Celogamez"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite Health",
-        "Infinite EP",
-        "Infinite Items On Use",
-        "Max Ancestral Amulets (Disable after use)",
-        "Max Money On Get (Disable after use)",
-        "Max XP/Levels"
-      ]
-    },
-    {
-      "sourceId": "736acf4b",
-      "file": "CUSA25758_01.03_736acf4b.shn",
-      "path": "shn/CUSA25758_01.03_736acf4b.shn",
+      "sourceId": "f74a902f",
+      "file": "CUSA25758_01.03_f74a902f.shn",
+      "path": "shn/CUSA25758_01.03_f74a902f.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,

@@ -4,9 +4,27 @@
   "version": "01.24",
   "files": [
     {
-      "sourceId": "f58d6230",
-      "file": "CUSA15284_01.24_f58d6230.json",
-      "path": "json/CUSA15284_01.24_f58d6230.json",
+      "sourceId": "4fc50089",
+      "file": "CUSA15284_01.24_4fc50089.json",
+      "path": "json/CUSA15284_01.24_4fc50089.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso_900"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf HP / Easy Win (Master Code)",
+        "Easy Win (MC)",
+        "Inf Super (Master Code)",
+        "Enemy Super 0 (MC)"
+      ]
+    },
+    {
+      "sourceId": "ef0c6ac4",
+      "file": "CUSA15284_01.24_ef0c6ac4.json",
+      "path": "json/CUSA15284_01.24_ef0c6ac4.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -20,24 +38,6 @@
         "Ultra/ Super Instant Refill  (Master Code)",
         "Enemy Super 0 (MC)",
         "Enemy Ultra 0 (MC)"
-      ]
-    },
-    {
-      "sourceId": "fa93e09d",
-      "file": "CUSA15284_01.24_fa93e09d.json",
-      "path": "json/CUSA15284_01.24_fa93e09d.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Saso_900"
-      ],
-      "notes": null,
-      "cheats": [
-        "Inf HP / Easy Win (Master Code)",
-        "Easy Win (MC)",
-        "Inf Super (Master Code)",
-        "Enemy Super 0 (MC)"
       ]
     },
     {
@@ -60,9 +60,9 @@
       ]
     },
     {
-      "sourceId": "b60aacb3",
-      "file": "CUSA15284_01.24_b60aacb3.shn",
-      "path": "shn/CUSA15284_01.24_b60aacb3.shn",
+      "sourceId": "032f7bfe",
+      "file": "CUSA15284_01.24_032f7bfe.shn",
+      "path": "shn/CUSA15284_01.24_032f7bfe.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,

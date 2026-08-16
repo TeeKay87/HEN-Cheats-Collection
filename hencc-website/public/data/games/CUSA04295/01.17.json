@@ -4,9 +4,9 @@
   "version": "01.17",
   "files": [
     {
-      "sourceId": "7fc273c6",
-      "file": "CUSA04295_01.17_7fc273c6.json",
-      "path": "json/CUSA04295_01.17_7fc273c6.json",
+      "sourceId": "7ce76026",
+      "file": "CUSA04295_01.17_7ce76026.json",
+      "path": "json/CUSA04295_01.17_7ce76026.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -15,35 +15,6 @@
       ],
       "notes": null,
       "cheats": [
-        "Infinite Ammo/Throwables",
-        "No Reload",
-        "Infinite Hack",
-        "Earn Money on Spend",
-        "Max Money on Gain/Use",
-        "Max Followers on 2nd Gain"
-      ]
-    },
-    {
-      "sourceId": "1bd9689d",
-      "file": "CUSA04295_01.17_1bd9689d.mc4",
-      "path": "mc4/CUSA04295_01.17_1bd9689d.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Rizla, TLH"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite Health",
-        "Infinite Botnet",
-        "Bottomless Clip",
-        "Infinite Ammo",
-        "Never Wanted",
-        "Stealth",
-        "Max Money on Gain/Use",
-        "Max Followers on 2nd Gain",
-        "Max Followers After Missions",
         "Infinite Ammo/Throwables",
         "No Reload",
         "Infinite Hack",
@@ -115,6 +86,35 @@
         "Max Money on Gain/Use",
         "Max Followers on 2nd Gain",
         "Max Followers After Missions"
+      ]
+    },
+    {
+      "sourceId": "e66e1d41",
+      "file": "CUSA04295_01.17_e66e1d41.mc4",
+      "path": "mc4/CUSA04295_01.17_e66e1d41.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Rizla, TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Botnet",
+        "Bottomless Clip",
+        "Infinite Ammo",
+        "Never Wanted",
+        "Stealth",
+        "Max Money on Gain/Use",
+        "Max Followers on 2nd Gain",
+        "Max Followers After Missions",
+        "Infinite Ammo/Throwables",
+        "No Reload",
+        "Infinite Hack",
+        "Earn Money on Spend",
+        "Max Money on Gain/Use",
+        "Max Followers on 2nd Gain"
       ]
     },
     {

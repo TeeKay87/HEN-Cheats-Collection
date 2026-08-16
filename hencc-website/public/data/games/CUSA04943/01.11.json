@@ -21,9 +21,9 @@
       ]
     },
     {
-      "sourceId": "9822cc45",
-      "file": "CUSA04943_01.11_9822cc45.json",
-      "path": "json/CUSA04943_01.11_9822cc45.json",
+      "sourceId": "404c28a1",
+      "file": "CUSA04943_01.11_404c28a1.json",
+      "path": "json/CUSA04943_01.11_404c28a1.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -35,6 +35,23 @@
         "Infinite Gravity Power",
         "Max Gems [on gain]",
         "Infinite Health"
+      ]
+    },
+    {
+      "sourceId": "551ca32b",
+      "file": "CUSA04943_01.11_551ca32b.json",
+      "path": "json/CUSA04943_01.11_551ca32b.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "illusion_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Unlock All Costumes",
+        "Infinite Gravity Energy",
+        "Most attacks does not hurt player"
       ]
     },
     {
@@ -50,23 +67,6 @@
       "notes": null,
       "cheats": [
         "Allow gestures in episodes 22, 24 and 27"
-      ]
-    },
-    {
-      "sourceId": "dd01feb1",
-      "file": "CUSA04943_01.11_dd01feb1.json",
-      "path": "json/CUSA04943_01.11_dd01feb1.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "illusion_9.00"
-      ],
-      "notes": null,
-      "cheats": [
-        "Unlock All Costumes",
-        "Infinite Gravity Energy",
-        "Most attacks does not hurt player"
       ]
     }
   ]

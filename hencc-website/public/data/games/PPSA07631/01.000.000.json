@@ -4,6 +4,27 @@
   "version": "01.000.000",
   "files": [
     {
+      "sourceId": "c8cfef51",
+      "file": "PPSA07631_01.000.000_c8cfef51.mc4",
+      "path": "mc4/PPSA07631_01.000.000_c8cfef51.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Yharnam"
+      ],
+      "notes": null,
+      "cheats": [
+        "God Mode",
+        "Infi Health",
+        "1 Hit Kill",
+        "Infi Ammo",
+        "Infi Shield",
+        "Max Lucenite & Halcyon (On Get)",
+        "Max Keys (On Get)"
+      ]
+    },
+    {
       "sourceId": "eb0ee751",
       "file": "PPSA07631_01.000.000_eb0ee751.mc4",
       "path": "mc4/PPSA07631_01.000.000_eb0ee751.mc4",
@@ -23,27 +44,6 @@
         "No Dash Cooldown",
         "Infinite Jumps",
         "Max Lucenite/Keys/Halcyon"
-      ]
-    },
-    {
-      "sourceId": "fd1ce6ec",
-      "file": "PPSA07631_01.000.000_fd1ce6ec.mc4",
-      "path": "mc4/PPSA07631_01.000.000_fd1ce6ec.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Yharnam"
-      ],
-      "notes": null,
-      "cheats": [
-        "God Mode",
-        "Infi Health",
-        "1 Hit Kill",
-        "Infi Ammo",
-        "Infi Shield",
-        "Max Lucenite & Halcyon (On Get)",
-        "Max Keys (On Get)"
       ]
     }
   ]

@@ -4,36 +4,6 @@
   "version": "01.05",
   "files": [
     {
-      "sourceId": "3ace5f70",
-      "file": "CUSA35422_01.05_3ace5f70.json",
-      "path": "json/CUSA35422_01.05_3ace5f70.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Dioniso"
-      ],
-      "notes": null,
-      "cheats": [
-        "[00][Master Code] Always ON!",
-        "[01][Health] Immunity",
-        "[02][Health] Infinite",
-        "[03][Health] 1 Hit Kill +Explode",
-        "[04][Unlock] All Items +Infinite",
-        "[05][Unlock] All Weapons +666 Ammo",
-        "[06][Unlock] All Keys",
-        "[07a][Speed] Player x2",
-        "[08][Weapon] Rapidfire",
-        "[09][Ammo] Infinite",
-        "[10][Enemy] No Attack",
-        "[11a][Jump] x1",
-        "[12a][RGB] Red = 1",
-        "[13a][RGB] Green = 1",
-        "[14a][RGB] Blue = 1",
-        "[15] No HUD"
-      ]
-    },
-    {
       "sourceId": "da263543",
       "file": "CUSA35422_01.05_da263543.json",
       "path": "json/CUSA35422_01.05_da263543.json",
@@ -68,6 +38,36 @@
         "[13b][RGB] Green = 8",
         "[14a][RGB] Blue = 1",
         "[14b][RGB] Blue = 8",
+        "[15] No HUD"
+      ]
+    },
+    {
+      "sourceId": "ef9c0b6a",
+      "file": "CUSA35422_01.05_ef9c0b6a.json",
+      "path": "json/CUSA35422_01.05_ef9c0b6a.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Dioniso"
+      ],
+      "notes": null,
+      "cheats": [
+        "[00][Master Code] Always ON!",
+        "[01][Health] Immunity",
+        "[02][Health] Infinite",
+        "[03][Health] 1 Hit Kill +Explode",
+        "[04][Unlock] All Items +Infinite",
+        "[05][Unlock] All Weapons +666 Ammo",
+        "[06][Unlock] All Keys",
+        "[07a][Speed] Player x2",
+        "[08][Weapon] Rapidfire",
+        "[09][Ammo] Infinite",
+        "[10][Enemy] No Attack",
+        "[11a][Jump] x1",
+        "[12a][RGB] Red = 1",
+        "[13a][RGB] Green = 1",
+        "[14a][RGB] Blue = 1",
         "[15] No HUD"
       ]
     },

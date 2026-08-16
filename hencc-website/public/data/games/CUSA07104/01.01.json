@@ -4,6 +4,24 @@
   "version": "01.01",
   "files": [
     {
+      "sourceId": "6edfb004",
+      "file": "CUSA07104_01.01_6edfb004.mc4",
+      "path": "mc4/CUSA07104_01.01_6edfb004.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Health",
+        "rocket-Launeher",
+        "Infinite-Linear-Launeher",
+        "Infinite-Magnum"
+      ]
+    },
+    {
       "sourceId": "7626f5a4",
       "file": "CUSA07104_01.01_7626f5a4.mc4",
       "path": "mc4/CUSA07104_01.01_7626f5a4.mc4",
@@ -21,24 +39,6 @@
         "Lnk-Ribbon",
         "Grenade-Launcher",
         "Infinite-Shotgun",
-        "Infinite-Magnum"
-      ]
-    },
-    {
-      "sourceId": "89072016",
-      "file": "CUSA07104_01.01_89072016.mc4",
-      "path": "mc4/CUSA07104_01.01_89072016.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Ali-mk"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite-Health",
-        "rocket-Launeher",
-        "Infinite-Linear-Launeher",
         "Infinite-Magnum"
       ]
     },

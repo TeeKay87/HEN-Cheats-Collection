@@ -4,21 +4,19 @@
   "version": "01.05",
   "files": [
     {
-      "sourceId": "247f0736",
-      "file": "CUSA13801_01.05_247f0736.json",
-      "path": "json/CUSA13801_01.05_247f0736.json",
+      "sourceId": "2872bbc6",
+      "file": "CUSA13801_01.05_2872bbc6.json",
+      "path": "json/CUSA13801_01.05_2872bbc6.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
       "creators": [
-        "Celogamez_9.00"
+        "leon99"
       ],
       "notes": null,
       "cheats": [
-        "Infinite Health",
-        "Max Infinite All Items (Need 2 To Work)",
-        "Max Infinite Money On Start",
-        "Max Infinite Skill Points (Kill N Turn Off)"
+        "Infinite Items",
+        "Infinite Money"
       ]
     },
     {
@@ -42,6 +40,24 @@
       ]
     },
     {
+      "sourceId": "6051ebf5",
+      "file": "CUSA13801_01.05_6051ebf5.json",
+      "path": "json/CUSA13801_01.05_6051ebf5.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Max Infinite All Items (Need 2 To Work)",
+        "Max Infinite Money On Start",
+        "Max Infinite Skill Points (Kill N Turn Off)"
+      ]
+    },
+    {
       "sourceId": "a965f3d1",
       "file": "CUSA13801_01.05_a965f3d1.json",
       "path": "json/CUSA13801_01.05_a965f3d1.json",
@@ -55,22 +71,6 @@
       "cheats": [
         "INF HP",
         "INF Item & Skill Point"
-      ]
-    },
-    {
-      "sourceId": "f7735112",
-      "file": "CUSA13801_01.05_f7735112.json",
-      "path": "json/CUSA13801_01.05_f7735112.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "leon99"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite Items",
-        "Infinite Money"
       ]
     }
   ]

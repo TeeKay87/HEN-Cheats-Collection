@@ -4,33 +4,6 @@
   "version": "01.01",
   "files": [
     {
-      "sourceId": "1268b965",
-      "file": "CUSA00320_01.01_1268b965.mc4",
-      "path": "mc4/CUSA00320_01.01_1268b965.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "TLH"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite Health",
-        "Infinite Health OverCharge",
-        "Instant Health Regeneration",
-        "Infinite Vehicle Health",
-        "Bottomless Clip",
-        "Infinite Ammo",
-        "Infinite Armor",
-        "Easy Perks",
-        "Set Perk Conditions to Max",
-        "Infinite Health",
-        "Infinite Gold Health",
-        "Infinite Shield",
-        "Infinite Ammo/No Reload/Grenades"
-      ]
-    },
-    {
       "sourceId": "3211744d",
       "file": "CUSA00320_01.01_3211744d.mc4",
       "path": "mc4/CUSA00320_01.01_3211744d.mc4",
@@ -65,6 +38,33 @@
       ],
       "notes": null,
       "cheats": [
+        "Infinite Health",
+        "Infinite Gold Health",
+        "Infinite Shield",
+        "Infinite Ammo/No Reload/Grenades"
+      ]
+    },
+    {
+      "sourceId": "7a3db129",
+      "file": "CUSA00320_01.01_7a3db129.mc4",
+      "path": "mc4/CUSA00320_01.01_7a3db129.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Health OverCharge",
+        "Instant Health Regeneration",
+        "Infinite Vehicle Health",
+        "Bottomless Clip",
+        "Infinite Ammo",
+        "Infinite Armor",
+        "Easy Perks",
+        "Set Perk Conditions to Max",
         "Infinite Health",
         "Infinite Gold Health",
         "Infinite Shield",

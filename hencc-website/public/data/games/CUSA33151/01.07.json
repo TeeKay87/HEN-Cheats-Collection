@@ -4,9 +4,9 @@
   "version": "01.07",
   "files": [
     {
-      "sourceId": "f5536255",
-      "file": "CUSA33151_01.07_f5536255.json",
-      "path": "json/CUSA33151_01.07_f5536255.json",
+      "sourceId": "42de5a6d",
+      "file": "CUSA33151_01.07_42de5a6d.json",
+      "path": "json/CUSA33151_01.07_42de5a6d.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -47,29 +47,6 @@
       ]
     },
     {
-      "sourceId": "5247eb89",
-      "file": "CUSA33151_01.07_5247eb89.mc4",
-      "path": "mc4/CUSA33151_01.07_5247eb89.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Celogamez"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite Health",
-        "1 Hit Kill",
-        "Infinite Stamina",
-        "Infinite Focus",
-        "Infinite Breath",
-        "Infinite Consumables On Use/Dirham On Buy",
-        "Infinite Stamina For Mount",
-        "Max Resources/Consumables/Upgrade Materials/Trade Goods (On Get)",
-        "Max Skill Points On Gain"
-      ]
-    },
-    {
       "sourceId": "8e4bddbc",
       "file": "CUSA33151_01.07_8e4bddbc.mc4",
       "path": "mc4/CUSA33151_01.07_8e4bddbc.mc4",
@@ -87,6 +64,29 @@
         "Mount Stamina",
         "(99)  Skill Points / Level (On Spend)",
         "(9999) Resources (On Use)"
+      ]
+    },
+    {
+      "sourceId": "fcc593e0",
+      "file": "CUSA33151_01.07_fcc593e0.mc4",
+      "path": "mc4/CUSA33151_01.07_fcc593e0.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "1 Hit Kill",
+        "Infinite Stamina",
+        "Infinite Focus",
+        "Infinite Breath",
+        "Infinite Consumables On Use/Dirham On Buy",
+        "Infinite Stamina For Mount",
+        "Max Resources/Consumables/Upgrade Materials/Trade Goods (On Get)",
+        "Max Skill Points On Gain"
       ]
     },
     {

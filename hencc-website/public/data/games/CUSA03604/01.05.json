@@ -4,6 +4,24 @@
   "version": "01.05",
   "files": [
     {
+      "sourceId": "0b620d75",
+      "file": "CUSA03604_01.05_0b620d75.json",
+      "path": "json/CUSA03604_01.05_0b620d75.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Mana",
+        "Infinite Items/Bullets/Runes (on use)",
+        "Infinite Breeath",
+        "Max Money(on grab disable before leaving places)"
+      ]
+    },
+    {
       "sourceId": "338976de",
       "file": "CUSA03604_01.05_338976de.json",
       "path": "json/CUSA03604_01.05_338976de.json",
@@ -19,24 +37,6 @@
         "Infinite Items/bullets/runes (on use)",
         "Infinite Breeath",
         "max money(on grab disable before leaving places)"
-      ]
-    },
-    {
-      "sourceId": "c7ce7512",
-      "file": "CUSA03604_01.05_c7ce7512.json",
-      "path": "json/CUSA03604_01.05_c7ce7512.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Wander_9.00"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite Mana",
-        "Infinite Items/Bullets/Runes (on use)",
-        "Infinite Breeath",
-        "Max Money(on grab disable before leaving places)"
       ]
     },
     {
@@ -56,9 +56,9 @@
       ]
     },
     {
-      "sourceId": "2b984c54",
-      "file": "CUSA03604_01.05_2b984c54.shn",
-      "path": "shn/CUSA03604_01.05_2b984c54.shn",
+      "sourceId": "37ce83e2",
+      "file": "CUSA03604_01.05_37ce83e2.shn",
+      "path": "shn/CUSA03604_01.05_37ce83e2.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,

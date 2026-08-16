@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "PPSA22826",
+  "version": "01.000.002",
+  "files": [
+    {
+      "sourceId": "16626101",
+      "file": "PPSA22826_01.000.002_16626101.json",
+      "path": "json/PPSA22826_01.000.002_16626101.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Hp",
+        "Inf Mp",
+        "Inf Money",
+        "Inf Items",
+        "Inf Exp"
+      ]
+    }
+  ]
+}

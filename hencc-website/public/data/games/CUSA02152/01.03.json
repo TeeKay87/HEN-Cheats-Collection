@@ -4,27 +4,9 @@
   "version": "01.03",
   "files": [
     {
-      "sourceId": "44daf445",
-      "file": "CUSA02152_01.03_44daf445.json",
-      "path": "json/CUSA02152_01.03_44daf445.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Weysincha",
-        "Shiningami"
-      ],
-      "notes": null,
-      "cheats": [
-        "Godmode",
-        "Infinite Arrows",
-        "Infinite Focus"
-      ]
-    },
-    {
-      "sourceId": "f17f0888",
-      "file": "CUSA02152_01.03_f17f0888.json",
-      "path": "json/CUSA02152_01.03_f17f0888.json",
+      "sourceId": "338a0595",
+      "file": "CUSA02152_01.03_338a0595.json",
+      "path": "json/CUSA02152_01.03_338a0595.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -44,27 +26,21 @@
       ]
     },
     {
-      "sourceId": "5ea5fd6f",
-      "file": "CUSA02152_01.03_5ea5fd6f.mc4",
-      "path": "mc4/CUSA02152_01.03_5ea5fd6f.mc4",
-      "format": "mc4",
+      "sourceId": "44daf445",
+      "file": "CUSA02152_01.03_44daf445.json",
+      "path": "json/CUSA02152_01.03_44daf445.json",
+      "format": "json",
       "process": "eboot.bin",
       "hidden": false,
       "creators": [
-        "TLH"
+        "Weysincha",
+        "Shiningami"
       ],
       "notes": null,
       "cheats": [
-        "Health Pointer",
-        "Health",
-        "Infinite Health",
-        "1-Hit Kills",
-        "Infinite Focus",
-        "Max Arrows",
-        "Instant Max Level",
-        "Instant Max Power",
         "Godmode",
-        "Infinite Arrows"
+        "Infinite Arrows",
+        "Infinite Focus"
       ]
     },
     {
@@ -87,6 +63,30 @@
         "Max Arrows",
         "Instant Max Level",
         "Instant Max Power"
+      ]
+    },
+    {
+      "sourceId": "8320d516",
+      "file": "CUSA02152_01.03_8320d516.mc4",
+      "path": "mc4/CUSA02152_01.03_8320d516.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Health Pointer",
+        "Health",
+        "Infinite Health",
+        "1-Hit Kills",
+        "Infinite Focus",
+        "Max Arrows",
+        "Instant Max Level",
+        "Instant Max Power",
+        "Godmode",
+        "Infinite Arrows"
       ]
     },
     {

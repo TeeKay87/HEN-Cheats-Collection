@@ -24,23 +24,6 @@
       ]
     },
     {
-      "sourceId": "ae8bc4b4",
-      "file": "CUSA16446_01.04_ae8bc4b4.mc4",
-      "path": "mc4/CUSA16446_01.04_ae8bc4b4.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Ali-mk"
-      ],
-      "notes": null,
-      "cheats": [
-        "Inf-Health + Bullits(MC)",
-        "Inf-All-Weapon + Bullits-Jumps",
-        "MAX + Inf-CREDITS"
-      ]
-    },
-    {
       "sourceId": "b9a55a63",
       "file": "CUSA16446_01.04_b9a55a63.mc4",
       "path": "mc4/CUSA16446_01.04_b9a55a63.mc4",
@@ -58,9 +41,26 @@
       ]
     },
     {
-      "sourceId": "302c27d8",
-      "file": "CUSA16446_01.04_302c27d8.shn",
-      "path": "shn/CUSA16446_01.04_302c27d8.shn",
+      "sourceId": "d2b76ecb",
+      "file": "CUSA16446_01.04_d2b76ecb.mc4",
+      "path": "mc4/CUSA16446_01.04_d2b76ecb.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf-Health + Bullits(MC)",
+        "Inf-All-Weapon + Bullits-Jumps",
+        "MAX + Inf-CREDITS"
+      ]
+    },
+    {
+      "sourceId": "5a53d1a5",
+      "file": "CUSA16446_01.04_5a53d1a5.shn",
+      "path": "shn/CUSA16446_01.04_5a53d1a5.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,

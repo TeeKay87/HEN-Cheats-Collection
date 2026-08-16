@@ -4,35 +4,9 @@
   "version": "01.01",
   "files": [
     {
-      "sourceId": "012a89d6",
-      "file": "CUSA07211_01.01_012a89d6.json",
-      "path": "json/CUSA07211_01.01_012a89d6.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "GameX2 & DanteClaus"
-      ],
-      "notes": null,
-      "cheats": [
-        "Quick Level Up",
-        "Max Level After Battle",
-        "Infinite HP",
-        "Infinite MP",
-        "Infinite ATB",
-        "Full+Infinte ATB",
-        "Infinite Gil",
-        "Infinite Items On Sell | Works on Key Items",
-        "Gain Items on Sell | Works on Key Items",
-        "Infinite Moogle Medals | Turn Off When You're Done",
-        "Doubles Moogle Medals On Spend | Turn Off When You're Done",
-        "Max Moogle Medals On Spend | Turn Off When You're Done "
-      ]
-    },
-    {
-      "sourceId": "970362d9",
-      "file": "CUSA07211_01.01_970362d9.json",
-      "path": "json/CUSA07211_01.01_970362d9.json",
+      "sourceId": "4351d634",
+      "file": "CUSA07211_01.01_4351d634.json",
+      "path": "json/CUSA07211_01.01_4351d634.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -90,6 +64,32 @@
         "INF MANA",
         "INF ATB",
         "INF LIMIT BREAK"
+      ]
+    },
+    {
+      "sourceId": "f87f3d6b",
+      "file": "CUSA07211_01.01_f87f3d6b.json",
+      "path": "json/CUSA07211_01.01_f87f3d6b.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "GameX2 & DanteClaus"
+      ],
+      "notes": null,
+      "cheats": [
+        "Quick Level Up",
+        "Max Level After Battle",
+        "Infinite HP",
+        "Infinite MP",
+        "Infinite ATB",
+        "Full+Infinte ATB",
+        "Infinite Gil",
+        "Infinite Items On Sell | Works on Key Items",
+        "Gain Items on Sell | Works on Key Items",
+        "Infinite Moogle Medals | Turn Off When You're Done",
+        "Doubles Moogle Medals On Spend | Turn Off When You're Done",
+        "Max Moogle Medals On Spend | Turn Off When You're Done "
       ]
     },
     {

@@ -4,9 +4,9 @@
   "version": "01.01",
   "files": [
     {
-      "sourceId": "4a19f0de",
-      "file": "CUSA16345_01.01_4a19f0de.json",
-      "path": "json/CUSA16345_01.01_4a19f0de.json",
+      "sourceId": "503362df",
+      "file": "CUSA16345_01.01_503362df.json",
+      "path": "json/CUSA16345_01.01_503362df.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -36,25 +36,6 @@
       ]
     },
     {
-      "sourceId": "5c65340a",
-      "file": "CUSA16345_01.01_5c65340a.json",
-      "path": "json/CUSA16345_01.01_5c65340a.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "GamerX2 _ B2"
-      ],
-      "notes": null,
-      "cheats": [
-        "Max + Inf HP | On Hit",
-        "Infinite Stamina",
-        "1 Hit Kill",
-        "Infinite Items |Consumables",
-        "Max+ Inf Shards/Items/Arrow On Spend"
-      ]
-    },
-    {
       "sourceId": "705ce6f4",
       "file": "CUSA16345_01.01_705ce6f4.json",
       "path": "json/CUSA16345_01.01_705ce6f4.json",
@@ -69,6 +50,25 @@
         "Inf Health",
         "Inf Stamina",
         "Inf Resources On Use"
+      ]
+    },
+    {
+      "sourceId": "95bb10bd",
+      "file": "CUSA16345_01.01_95bb10bd.json",
+      "path": "json/CUSA16345_01.01_95bb10bd.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "GamerX2 _ B2"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max + Inf HP | On Hit",
+        "Infinite Stamina",
+        "1 Hit Kill",
+        "Infinite Items |Consumables",
+        "Max+ Inf Shards/Items/Arrow On Spend"
       ]
     },
     {

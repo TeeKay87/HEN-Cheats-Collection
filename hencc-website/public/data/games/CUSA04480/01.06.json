@@ -4,9 +4,9 @@
   "version": "01.06",
   "files": [
     {
-      "sourceId": "70f8ce08",
-      "file": "CUSA04480_01.06_70f8ce08.json",
-      "path": "json/CUSA04480_01.06_70f8ce08.json",
+      "sourceId": "07dcaf0f",
+      "file": "CUSA04480_01.06_07dcaf0f.json",
+      "path": "json/CUSA04480_01.06_07dcaf0f.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -16,6 +16,24 @@
       "notes": null,
       "cheats": [
         "Infinite jump"
+      ]
+    },
+    {
+      "sourceId": "2292daea",
+      "file": "CUSA04480_01.06_2292daea.json",
+      "path": "json/CUSA04480_01.06_2292daea.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Max Funds ( On Spend )",
+        "Instant Lvl 99",
+        "Max Items (On Pick)"
       ]
     },
     {
@@ -34,24 +52,6 @@
         "Money",
         "Max Level",
         "Infinite jump"
-      ]
-    },
-    {
-      "sourceId": "fcb6c316",
-      "file": "CUSA04480_01.06_fcb6c316.json",
-      "path": "json/CUSA04480_01.06_fcb6c316.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Saso"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite Health",
-        "Max Funds ( On Spend )",
-        "Instant Lvl 99",
-        "Max Items (On Pick)"
       ]
     },
     {
@@ -89,9 +89,9 @@
       ]
     },
     {
-      "sourceId": "9abe8515",
-      "file": "CUSA04480_01.06_9abe8515.shn",
-      "path": "shn/CUSA04480_01.06_9abe8515.shn",
+      "sourceId": "0095cb10",
+      "file": "CUSA04480_01.06_0095cb10.shn",
+      "path": "shn/CUSA04480_01.06_0095cb10.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,

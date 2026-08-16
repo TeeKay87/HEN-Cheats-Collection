@@ -4,9 +4,9 @@
   "version": "01.00",
   "files": [
     {
-      "sourceId": "b4228dc1",
-      "file": "CUSA00025_01.00_b4228dc1.json",
-      "path": "json/CUSA00025_01.00_b4228dc1.json",
+      "sourceId": "bdcdaed0",
+      "file": "CUSA00025_01.00_bdcdaed0.json",
+      "path": "json/CUSA00025_01.00_bdcdaed0.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -52,9 +52,9 @@
       ]
     },
     {
-      "sourceId": "4b3c2caa",
-      "file": "CUSA00025_01.00_4b3c2caa.shn",
-      "path": "shn/CUSA00025_01.00_4b3c2caa.shn",
+      "sourceId": "04b77324",
+      "file": "CUSA00025_01.00_04b77324.shn",
+      "path": "shn/CUSA00025_01.00_04b77324.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,
@@ -68,9 +68,9 @@
       ]
     },
     {
-      "sourceId": "1753d1b9",
-      "file": "CUSA00025_01.00_default_mp.elf_1753d1b9.shn",
-      "path": "shn/CUSA00025_01.00_default_mp.elf_1753d1b9.shn",
+      "sourceId": "123854e1",
+      "file": "CUSA00025_01.00_default_mp.elf_123854e1.shn",
+      "path": "shn/CUSA00025_01.00_default_mp.elf_123854e1.shn",
       "format": "shn",
       "process": "default_mp.elf",
       "hidden": false,

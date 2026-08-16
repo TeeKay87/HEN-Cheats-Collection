@@ -4,22 +4,6 @@
   "version": "01.06",
   "files": [
     {
-      "sourceId": "6e8cd86e",
-      "file": "CUSA15778_01.06_6e8cd86e.json",
-      "path": "json/CUSA15778_01.06_6e8cd86e.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Aran"
-      ],
-      "notes": null,
-      "cheats": [
-        "Full Ammo (On Weapon change)",
-        "Infinite item on use/sell (Heal/Ammo/Materials)"
-      ]
-    },
-    {
       "sourceId": "d0e01323",
       "file": "CUSA15778_01.06_d0e01323.json",
       "path": "json/CUSA15778_01.06_d0e01323.json",
@@ -35,6 +19,22 @@
         "Inf Hp",
         "Never Dec Items",
         "Yaran Pesos/Items 9999999"
+      ]
+    },
+    {
+      "sourceId": "dbaf36e1",
+      "file": "CUSA15778_01.06_dbaf36e1.json",
+      "path": "json/CUSA15778_01.06_dbaf36e1.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Aran"
+      ],
+      "notes": null,
+      "cheats": [
+        "Full Ammo (On Weapon change)",
+        "Infinite item on use/sell (Heal/Ammo/Materials)"
       ]
     },
     {

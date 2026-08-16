@@ -4,6 +4,27 @@
   "version": "05.005.000",
   "files": [
     {
+      "sourceId": "008a756f",
+      "file": "PPSA08332_05.005.000_008a756f.mc4",
+      "path": "mc4/PPSA08332_05.005.000_008a756f.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Yharnam"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible",
+        "1 Hit Kill",
+        "Infi Arrows & Throwables",
+        "Instant Cooldown (Talisman, Relic)",
+        "1 Hit Stun",
+        "No Resource Deduction (XP,HS)",
+        "No Limits (Crafting, Upgrade)"
+      ]
+    },
+    {
       "sourceId": "08ce1158",
       "file": "PPSA08332_05.005.000_08ce1158.mc4",
       "path": "mc4/PPSA08332_05.005.000_08ce1158.mc4",
@@ -19,27 +40,6 @@
         "1 Hit Kill",
         "Infi Arrows & Throwables",
         "Infi Rage",
-        "Instant Cooldown (Talisman, Relic)",
-        "1 Hit Stun",
-        "No Resource Deduction (XP,HS)",
-        "No Limits (Crafting, Upgrade)"
-      ]
-    },
-    {
-      "sourceId": "2e415eac",
-      "file": "PPSA08332_05.005.000_2e415eac.mc4",
-      "path": "mc4/PPSA08332_05.005.000_2e415eac.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Yharnam"
-      ],
-      "notes": null,
-      "cheats": [
-        "Invincible",
-        "1 Hit Kill",
-        "Infi Arrows & Throwables",
         "Instant Cooldown (Talisman, Relic)",
         "1 Hit Stun",
         "No Resource Deduction (XP,HS)",

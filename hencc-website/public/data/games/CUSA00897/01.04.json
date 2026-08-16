@@ -4,25 +4,6 @@
   "version": "01.04",
   "files": [
     {
-      "sourceId": "02280729",
-      "file": "CUSA00897_01.04_02280729.json",
-      "path": "json/CUSA00897_01.04_02280729.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Weysincha"
-      ],
-      "notes": null,
-      "cheats": [
-        "Godmode",
-        "Infinite Energy",
-        "Infinite Special Skill",
-        "Infinite Skill points",
-        "Infinite Melee Finisher"
-      ]
-    },
-    {
       "sourceId": "0795e8c8",
       "file": "CUSA00897_01.04_0795e8c8.json",
       "path": "json/CUSA00897_01.04_0795e8c8.json",
@@ -60,9 +41,9 @@
       ]
     },
     {
-      "sourceId": "7ffd2642",
-      "file": "CUSA00897_01.04_7ffd2642.json",
-      "path": "json/CUSA00897_01.04_7ffd2642.json",
+      "sourceId": "35c0dc4c",
+      "file": "CUSA00897_01.04_35c0dc4c.json",
+      "path": "json/CUSA00897_01.04_35c0dc4c.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -79,9 +60,28 @@
       ]
     },
     {
-      "sourceId": "4f2d9ded",
-      "file": "CUSA00897_01.04_4f2d9ded.mc4",
-      "path": "mc4/CUSA00897_01.04_4f2d9ded.mc4",
+      "sourceId": "cfcd31c0",
+      "file": "CUSA00897_01.04_cfcd31c0.json",
+      "path": "json/CUSA00897_01.04_cfcd31c0.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Weysincha"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Energy",
+        "Infinite Special Skill",
+        "Infinite Skill points",
+        "Infinite Melee Finisher"
+      ]
+    },
+    {
+      "sourceId": "0de29af6",
+      "file": "CUSA00897_01.04_0de29af6.mc4",
+      "path": "mc4/CUSA00897_01.04_0de29af6.mc4",
       "format": "mc4",
       "process": "eboot.bin",
       "hidden": false,

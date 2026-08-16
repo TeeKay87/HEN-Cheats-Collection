@@ -4,25 +4,9 @@
   "version": "02.03",
   "files": [
     {
-      "sourceId": "6747789f",
-      "file": "CUSA35771_02.03_6747789f.mc4",
-      "path": "mc4/CUSA35771_02.03_6747789f.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Saso_9.00"
-      ],
-      "notes": null,
-      "cheats": [
-        "Health / Ammo / Frost (Master Code)",
-        "Inf Ammo / No Reload / Frost (MC)"
-      ]
-    },
-    {
-      "sourceId": "c4b9c6dd",
-      "file": "CUSA35771_02.03_c4b9c6dd.mc4",
-      "path": "mc4/CUSA35771_02.03_c4b9c6dd.mc4",
+      "sourceId": "230340d0",
+      "file": "CUSA35771_02.03_230340d0.mc4",
+      "path": "mc4/CUSA35771_02.03_230340d0.mc4",
       "format": "mc4",
       "process": "eboot.bin",
       "hidden": false,
@@ -51,6 +35,22 @@
         "[12b][Speed] Enemy x0,25",
         "[12c][Speed] Enemy x0,5",
         "[12d][Speed] Enemy x1"
+      ]
+    },
+    {
+      "sourceId": "6747789f",
+      "file": "CUSA35771_02.03_6747789f.mc4",
+      "path": "mc4/CUSA35771_02.03_6747789f.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Health / Ammo / Frost (Master Code)",
+        "Inf Ammo / No Reload / Frost (MC)"
       ]
     },
     {

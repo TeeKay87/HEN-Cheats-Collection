@@ -4,6 +4,26 @@
   "version": "01.26",
   "files": [
     {
+      "sourceId": "04578c58",
+      "file": "CUSA02624_01.26_04578c58.json",
+      "path": "json/CUSA02624_01.26_04578c58.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "All Client Infinite Ammo",
+        "All Client Godmode",
+        "Give Points (Player 1)",
+        "Give Points (Player 2)",
+        "Give Points (Player 3)",
+        "Give Points (Player 4)"
+      ]
+    },
+    {
       "sourceId": "3c9d63cb",
       "file": "CUSA02624_01.26_3c9d63cb.json",
       "path": "json/CUSA02624_01.26_3c9d63cb.json",
@@ -25,26 +45,6 @@
         "Player 2 Give Points (Zombies)",
         "Player 3 Give Points (Zombies)",
         "Player 4 Give Points (Zombies)"
-      ]
-    },
-    {
-      "sourceId": "7a3b34db",
-      "file": "CUSA02624_01.26_7a3b34db.json",
-      "path": "json/CUSA02624_01.26_7a3b34db.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "DeathRGH"
-      ],
-      "notes": null,
-      "cheats": [
-        "All Client Infinite Ammo",
-        "All Client Godmode",
-        "Give Points (Player 1)",
-        "Give Points (Player 2)",
-        "Give Points (Player 3)",
-        "Give Points (Player 4)"
       ]
     },
     {
@@ -78,9 +78,9 @@
       ]
     },
     {
-      "sourceId": "47bf935d",
-      "file": "CUSA02624_01.26_47bf935d.shn",
-      "path": "shn/CUSA02624_01.26_47bf935d.shn",
+      "sourceId": "4b9d4197",
+      "file": "CUSA02624_01.26_4b9d4197.shn",
+      "path": "shn/CUSA02624_01.26_4b9d4197.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,

@@ -4,9 +4,26 @@
   "version": "01.00",
   "files": [
     {
-      "sourceId": "cbc48546",
-      "file": "CUSA02320_01.00_big2-ps4_Shipping.elf_cbc48546.json",
-      "path": "json/CUSA02320_01.00_big2-ps4_Shipping.elf_cbc48546.json",
+      "sourceId": "19408ca9",
+      "file": "CUSA02320_01.00_19408ca9.json",
+      "path": "json/CUSA02320_01.00_19408ca9.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "hejran7"
+      ],
+      "notes": null,
+      "cheats": [
+        "L3 + Upper L or Upper R Touch Pad",
+        "Enable FPS View - Hold L3",
+        "Enable Task View - Hold L3"
+      ]
+    },
+    {
+      "sourceId": "0f4d0c1c",
+      "file": "CUSA02320_01.00_big2-ps4_Shipping.elf_0f4d0c1c.json",
+      "path": "json/CUSA02320_01.00_big2-ps4_Shipping.elf_0f4d0c1c.json",
       "format": "json",
       "process": "big2-ps4_Shipping.elf",
       "hidden": false,
@@ -21,9 +38,9 @@
       ]
     },
     {
-      "sourceId": "4cc127a0",
-      "file": "CUSA02320_01.00_big3-ps4_Shipping.elf_4cc127a0.json",
-      "path": "json/CUSA02320_01.00_big3-ps4_Shipping.elf_4cc127a0.json",
+      "sourceId": "2f158e8d",
+      "file": "CUSA02320_01.00_big3-ps4_Shipping.elf_2f158e8d.json",
+      "path": "json/CUSA02320_01.00_big3-ps4_Shipping.elf_2f158e8d.json",
       "format": "json",
       "process": "big3-ps4_Shipping.elf",
       "hidden": false,
@@ -32,46 +49,6 @@
       ],
       "notes": null,
       "cheats": [
-        "L3 + Upper L or Upper R Touch Pad",
-        "Enable FPS View - Hold L3",
-        "Enable Task View - Hold L3"
-      ]
-    },
-    {
-      "sourceId": "d5cebdbe",
-      "file": "CUSA02320_01.00_d5cebdbe.json",
-      "path": "json/CUSA02320_01.00_d5cebdbe.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "hejran7"
-      ],
-      "notes": null,
-      "cheats": [
-        "L3 + Upper L or Upper R Touch Pad",
-        "Enable FPS View - Hold L3",
-        "Enable Task View - Hold L3"
-      ]
-    },
-    {
-      "sourceId": "b7c4773d",
-      "file": "CUSA02320_01.00_b7c4773d.mc4",
-      "path": "mc4/CUSA02320_01.00_b7c4773d.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "hejran7"
-      ],
-      "notes": null,
-      "cheats": [
-        "Dev Menu L3+Upper L or R Touch Pad",
-        "Enable FPS View - Hold L3",
-        "Enable Task View - Hold L3",
-        "Dev Menu L3+Upper L or R Touch Pad",
-        "Enable FPS View - Hold L3",
-        "Enable Task View - Hold L3",
         "L3 + Upper L or Upper R Touch Pad",
         "Enable FPS View - Hold L3",
         "Enable Task View - Hold L3"
@@ -124,6 +101,29 @@
       "notes": null,
       "cheats": [
         "Dev Menu L3+Upper L or R Touch Pad",
+        "Enable FPS View - Hold L3",
+        "Enable Task View - Hold L3"
+      ]
+    },
+    {
+      "sourceId": "d790514e",
+      "file": "CUSA02320_01.00_d790514e.mc4",
+      "path": "mc4/CUSA02320_01.00_d790514e.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "hejran7"
+      ],
+      "notes": null,
+      "cheats": [
+        "Dev Menu L3+Upper L or R Touch Pad",
+        "Enable FPS View - Hold L3",
+        "Enable Task View - Hold L3",
+        "Dev Menu L3+Upper L or R Touch Pad",
+        "Enable FPS View - Hold L3",
+        "Enable Task View - Hold L3",
+        "L3 + Upper L or Upper R Touch Pad",
         "Enable FPS View - Hold L3",
         "Enable Task View - Hold L3"
       ]

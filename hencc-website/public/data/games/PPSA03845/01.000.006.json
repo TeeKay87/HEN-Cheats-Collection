@@ -4,25 +4,6 @@
   "version": "01.000.006",
   "files": [
     {
-      "sourceId": "2f9e0b5d",
-      "file": "PPSA03845_01.000.006_2f9e0b5d.mc4",
-      "path": "mc4/PPSA03845_01.000.006_2f9e0b5d.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Yharnam"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infi HP",
-        "1 Hit Kill",
-        "Infi Air",
-        "Infi Ammo & Stasis",
-        "No Reduction (Money,Node,Etc)"
-      ]
-    },
-    {
       "sourceId": "309b2493",
       "file": "PPSA03845_01.000.006_309b2493.mc4",
       "path": "mc4/PPSA03845_01.000.006_309b2493.mc4",
@@ -44,9 +25,9 @@
       ]
     },
     {
-      "sourceId": "b2d3711b",
-      "file": "PPSA03845_01.000.006_b2d3711b.mc4",
-      "path": "mc4/PPSA03845_01.000.006_b2d3711b.mc4",
+      "sourceId": "a6dfcbc5",
+      "file": "PPSA03845_01.000.006_a6dfcbc5.mc4",
+      "path": "mc4/PPSA03845_01.000.006_a6dfcbc5.mc4",
       "format": "mc4",
       "process": "eboot.bin",
       "hidden": false,
@@ -57,7 +38,9 @@
       "cheats": [
         "Infi HP",
         "1 Hit Kill",
-        "No Reduction (Money,Node, Etc)"
+        "Infi Air",
+        "Infi Ammo & Stasis",
+        "No Reduction (Money,Node,Etc)"
       ]
     }
   ]

@@ -4,27 +4,6 @@
   "version": "01.22",
   "files": [
     {
-      "sourceId": "60f62654",
-      "file": "CUSA15280_01.22_default.elf_60f62654.mc4",
-      "path": "mc4/CUSA15280_01.22_default.elf_60f62654.mc4",
-      "format": "mc4",
-      "process": "default.elf",
-      "hidden": false,
-      "creators": [
-        "Celogamez"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite Health (Campaign)",
-        "Infinite Health (Multiplayer/Local Co-op)",
-        "Infinite Ammo",
-        "No Reload",
-        "Infinite Grenades",
-        "Infinite Grenades (Local Co-op)",
-        "No Recoil"
-      ]
-    },
-    {
       "sourceId": "d2b8eb22",
       "file": "CUSA15280_01.22_default.elf_d2b8eb22.mc4",
       "path": "mc4/CUSA15280_01.22_default.elf_d2b8eb22.mc4",
@@ -46,9 +25,30 @@
       ]
     },
     {
-      "sourceId": "c3d5a627",
-      "file": "CUSA15280_01.22_c3d5a627.shn",
-      "path": "shn/CUSA15280_01.22_c3d5a627.shn",
+      "sourceId": "db8088fc",
+      "file": "CUSA15280_01.22_default.elf_db8088fc.mc4",
+      "path": "mc4/CUSA15280_01.22_default.elf_db8088fc.mc4",
+      "format": "mc4",
+      "process": "default.elf",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health (Campaign)",
+        "Infinite Health (Multiplayer/Local Co-op)",
+        "Infinite Ammo",
+        "No Reload",
+        "Infinite Grenades",
+        "Infinite Grenades (Local Co-op)",
+        "No Recoil"
+      ]
+    },
+    {
+      "sourceId": "26c074b8",
+      "file": "CUSA15280_01.22_26c074b8.shn",
+      "path": "shn/CUSA15280_01.22_26c074b8.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,

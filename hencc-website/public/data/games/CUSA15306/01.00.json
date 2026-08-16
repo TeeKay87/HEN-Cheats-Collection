@@ -4,25 +4,9 @@
   "version": "01.00",
   "files": [
     {
-      "sourceId": "d85e3405",
-      "file": "CUSA15306_01.00_d85e3405.json",
-      "path": "json/CUSA15306_01.00_d85e3405.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "DeathRGH"
-      ],
-      "notes": null,
-      "cheats": [
-        "Godmode",
-        "Infinite Ammo"
-      ]
-    },
-    {
-      "sourceId": "f6ed8317",
-      "file": "CUSA15306_01.00_f6ed8317.json",
-      "path": "json/CUSA15306_01.00_f6ed8317.json",
+      "sourceId": "b741fb6e",
+      "file": "CUSA15306_01.00_b741fb6e.json",
+      "path": "json/CUSA15306_01.00_b741fb6e.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -36,6 +20,22 @@
         "Infinite Ammo/No Reload (Use Infinite Items)",
         "Max XP On Kill",
         "Infinite Skill Points"
+      ]
+    },
+    {
+      "sourceId": "d85e3405",
+      "file": "CUSA15306_01.00_d85e3405.json",
+      "path": "json/CUSA15306_01.00_d85e3405.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Ammo"
       ]
     }
   ]

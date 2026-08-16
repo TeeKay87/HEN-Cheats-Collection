@@ -4,27 +4,10 @@
   "version": "01.05",
   "files": [
     {
-      "sourceId": "98e63fd7",
-      "file": "CUSA08409_01.05_98e63fd7.json",
-      "path": "json/CUSA08409_01.05_98e63fd7.json",
+      "sourceId": "1a118f71",
+      "file": "CUSA08409_01.05_1a118f71.json",
+      "path": "json/CUSA08409_01.05_1a118f71.json",
       "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Ali-mk"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite-Health",
-        "Infinite-All-Weapon",
-        "Infinite-Grenades"
-      ]
-    },
-    {
-      "sourceId": "a3a67f73",
-      "file": "CUSA08409_01.05_a3a67f73.mc4",
-      "path": "mc4/CUSA08409_01.05_a3a67f73.mc4",
-      "format": "mc4",
       "process": "eboot.bin",
       "hidden": false,
       "creators": [
@@ -41,6 +24,23 @@
       "sourceId": "b0cb8ef1",
       "file": "CUSA08409_01.05_b0cb8ef1.mc4",
       "path": "mc4/CUSA08409_01.05_b0cb8ef1.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Health",
+        "Infinite-All-Weapon",
+        "Infinite-Grenades"
+      ]
+    },
+    {
+      "sourceId": "dda26a7a",
+      "file": "CUSA08409_01.05_dda26a7a.mc4",
+      "path": "mc4/CUSA08409_01.05_dda26a7a.mc4",
       "format": "mc4",
       "process": "eboot.bin",
       "hidden": false,

@@ -4,9 +4,28 @@
   "version": "01.03",
   "files": [
     {
-      "sourceId": "a4dedbec",
-      "file": "CUSA04647_01.03_a4dedbec.json",
-      "path": "json/CUSA04647_01.03_a4dedbec.json",
+      "sourceId": "b0815e7f",
+      "file": "CUSA04647_01.03_b0815e7f.json",
+      "path": "json/CUSA04647_01.03_b0815e7f.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "GamerX2"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Money",
+        "Max Money on Buy/Sell",
+        "Infinite Items",
+        "Max Items on Use/Sell| Turn Off When Done ",
+        "Infinite Items | Battle "
+      ]
+    },
+    {
+      "sourceId": "b239cdd5",
+      "file": "CUSA04647_01.03_b239cdd5.json",
+      "path": "json/CUSA04647_01.03_b239cdd5.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -21,25 +40,6 @@
         "Max Items on Use/Sell| Turn Off When Done ",
         "Infinite Items | Battle ",
         "Max SP On Spend"
-      ]
-    },
-    {
-      "sourceId": "fa1b8100",
-      "file": "CUSA04647_01.03_fa1b8100.json",
-      "path": "json/CUSA04647_01.03_fa1b8100.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "GamerX2"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite Money",
-        "Max Money on Buy/Sell",
-        "Infinite Items",
-        "Max Items on Use/Sell| Turn Off When Done ",
-        "Infinite Items | Battle "
       ]
     },
     {

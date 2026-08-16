@@ -4,37 +4,6 @@
   "version": "01.08",
   "files": [
     {
-      "sourceId": "79ba101d",
-      "file": "CUSA00462_01.08_79ba101d.mc4",
-      "path": "mc4/CUSA00462_01.08_79ba101d.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Celogamez"
-      ],
-      "notes": null,
-      "cheats": [
-        "God Mode",
-        "Infinite Health",
-        "Infinite Health Syringes (x2 To Work)",
-        "Infinite Oxygen (Underwater)",
-        "Infinite Endurance (To Run)",
-        "Infinite Ammo",
-        "No Reload",
-        "Infinite Throwables",
-        "Infinite Oxygen Mask",
-        "Max/Infinite Money On Buy",
-        "Infinite Skill Points on Spend",
-        "Max XP On Gain",
-        "Lot Of KP On Gain",
-        "High Jump",
-        "Super Jump",
-        "Mega Jump",
-        "Super Mega Jump"
-      ]
-    },
-    {
       "sourceId": "88e3e551",
       "file": "CUSA00462_01.08_88e3e551.mc4",
       "path": "mc4/CUSA00462_01.08_88e3e551.mc4",
@@ -66,9 +35,40 @@
       ]
     },
     {
-      "sourceId": "58f9a504",
-      "file": "CUSA00462_01.08_58f9a504.shn",
-      "path": "shn/CUSA00462_01.08_58f9a504.shn",
+      "sourceId": "ba62894b",
+      "file": "CUSA00462_01.08_ba62894b.mc4",
+      "path": "mc4/CUSA00462_01.08_ba62894b.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "God Mode",
+        "Infinite Health",
+        "Infinite Health Syringes (x2 To Work)",
+        "Infinite Oxygen (Underwater)",
+        "Infinite Endurance (To Run)",
+        "Infinite Ammo",
+        "No Reload",
+        "Infinite Throwables",
+        "Infinite Oxygen Mask",
+        "Max/Infinite Money On Buy",
+        "Infinite Skill Points on Spend",
+        "Max XP On Gain",
+        "Lot Of KP On Gain",
+        "High Jump",
+        "Super Jump",
+        "Mega Jump",
+        "Super Mega Jump"
+      ]
+    },
+    {
+      "sourceId": "a34e2e59",
+      "file": "CUSA00462_01.08_a34e2e59.shn",
+      "path": "shn/CUSA00462_01.08_a34e2e59.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,

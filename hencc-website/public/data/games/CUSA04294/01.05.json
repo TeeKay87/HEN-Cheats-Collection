@@ -21,26 +21,6 @@
       ]
     },
     {
-      "sourceId": "dfb031dd",
-      "file": "CUSA04294_01.05_dfb031dd.mc4",
-      "path": "mc4/CUSA04294_01.05_dfb031dd.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "TLH"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite Health",
-        "Infinite Botnet",
-        "Bottomless Clip",
-        "Infinite Ammo",
-        "Infinite Money -Duplicate x2-",
-        "Max Follower"
-      ]
-    },
-    {
       "sourceId": "e673affd",
       "file": "CUSA04294_01.05_e673affd.mc4",
       "path": "mc4/CUSA04294_01.05_e673affd.mc4",
@@ -61,9 +41,29 @@
       ]
     },
     {
-      "sourceId": "edba930f",
-      "file": "CUSA04294_01.05_edba930f.shn",
-      "path": "shn/CUSA04294_01.05_edba930f.shn",
+      "sourceId": "fce19844",
+      "file": "CUSA04294_01.05_fce19844.mc4",
+      "path": "mc4/CUSA04294_01.05_fce19844.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Botnet",
+        "Bottomless Clip",
+        "Infinite Ammo",
+        "Infinite Money -Duplicate x2-",
+        "Max Follower"
+      ]
+    },
+    {
+      "sourceId": "c71032bd",
+      "file": "CUSA04294_01.05_c71032bd.shn",
+      "path": "shn/CUSA04294_01.05_c71032bd.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,

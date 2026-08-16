@@ -4,14 +4,15 @@
   "version": "01.35",
   "files": [
     {
-      "sourceId": "6740b161",
-      "file": "CUSA13483_01.35_6740b161.json",
-      "path": "json/CUSA13483_01.35_6740b161.json",
+      "sourceId": "66fb644b",
+      "file": "CUSA13483_01.35_66fb644b.json",
+      "path": "json/CUSA13483_01.35_66fb644b.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
       "creators": [
         "Reddevil82 ",
+        " 2B ",
         " FW 9.00"
       ],
       "notes": null,
@@ -24,15 +25,14 @@
       ]
     },
     {
-      "sourceId": "8421bb9a",
-      "file": "CUSA13483_01.35_8421bb9a.json",
-      "path": "json/CUSA13483_01.35_8421bb9a.json",
+      "sourceId": "6740b161",
+      "file": "CUSA13483_01.35_6740b161.json",
+      "path": "json/CUSA13483_01.35_6740b161.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
       "creators": [
         "Reddevil82 ",
-        " 2B ",
         " FW 9.00"
       ],
       "notes": null,
@@ -64,9 +64,9 @@
       ]
     },
     {
-      "sourceId": "545ed05e",
-      "file": "CUSA13483_01.35_545ed05e.shn",
-      "path": "shn/CUSA13483_01.35_545ed05e.shn",
+      "sourceId": "d13210cf",
+      "file": "CUSA13483_01.35_d13210cf.shn",
+      "path": "shn/CUSA13483_01.35_d13210cf.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,

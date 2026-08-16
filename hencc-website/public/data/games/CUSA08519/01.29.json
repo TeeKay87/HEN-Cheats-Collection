@@ -4,9 +4,9 @@
   "version": "01.29",
   "files": [
     {
-      "sourceId": "03e4f810",
-      "file": "CUSA08519_01.29_03e4f810.json",
-      "path": "json/CUSA08519_01.29_03e4f810.json",
+      "sourceId": "bf44b52f",
+      "file": "CUSA08519_01.29_bf44b52f.json",
+      "path": "json/CUSA08519_01.29_bf44b52f.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -32,39 +32,10 @@
       ]
     },
     {
-      "sourceId": "581c88db",
-      "file": "CUSA08519_01.29_581c88db.json",
-      "path": "json/CUSA08519_01.29_581c88db.json",
+      "sourceId": "e1abe82b",
+      "file": "CUSA08519_01.29_e1abe82b.json",
+      "path": "json/CUSA08519_01.29_e1abe82b.json",
       "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "LMN"
-      ],
-      "notes": null,
-      "cheats": [
-        "MASTER CODE for god mode and honor always max",
-        "God Mode (player and horse)",
-        "infinite dead eye",
-        "infinite stamina (horse/player)",
-        "never wanted and zero bounty",
-        "Infinite items and consumables(disable during unique mission items like bounty posters...)",
-        "HONOR always maxed",
-        "MAX Honor updated(set honor to max one time, do an honor related task to see the difference)",
-        "add 30 pelts(enable after skinning pelt disable after putting on horse!)",
-        "infinite ammo (in game cheat)",
-        "no reload",
-        "fast shooting (no bullet loading , skips the animation of loading bullets)",
-        "weapons always clean",
-        "infinite ammo ,throwables ,arrows ,no reload ,weapons stay clean",
-        "freeze all(ammo,throwables,money,items,trapper and pearson stock)disable during unique mission items like bounty posters..."
-      ]
-    },
-    {
-      "sourceId": "12483ea5",
-      "file": "CUSA08519_01.29_12483ea5.mc4",
-      "path": "mc4/CUSA08519_01.29_12483ea5.mc4",
-      "format": "mc4",
       "process": "eboot.bin",
       "hidden": false,
       "creators": [
@@ -93,6 +64,35 @@
       "sourceId": "34c44a55",
       "file": "CUSA08519_01.29_34c44a55.mc4",
       "path": "mc4/CUSA08519_01.29_34c44a55.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "LMN"
+      ],
+      "notes": null,
+      "cheats": [
+        "MASTER CODE for god mode and honor always max",
+        "God Mode (player and horse)",
+        "infinite dead eye",
+        "infinite stamina (horse/player)",
+        "never wanted and zero bounty",
+        "Infinite items and consumables(disable during unique mission items like bounty posters...)",
+        "HONOR always maxed",
+        "MAX Honor updated(set honor to max one time, do an honor related task to see the difference)",
+        "add 30 pelts(enable after skinning pelt disable after putting on horse!)",
+        "infinite ammo (in game cheat)",
+        "no reload",
+        "fast shooting (no bullet loading , skips the animation of loading bullets)",
+        "weapons always clean",
+        "infinite ammo ,throwables ,arrows ,no reload ,weapons stay clean",
+        "freeze all(ammo,throwables,money,items,trapper and pearson stock)disable during unique mission items like bounty posters..."
+      ]
+    },
+    {
+      "sourceId": "983724e4",
+      "file": "CUSA08519_01.29_983724e4.mc4",
+      "path": "mc4/CUSA08519_01.29_983724e4.mc4",
       "format": "mc4",
       "process": "eboot.bin",
       "hidden": false,

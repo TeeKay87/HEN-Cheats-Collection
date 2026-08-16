@@ -4,26 +4,9 @@
   "version": "01.05",
   "files": [
     {
-      "sourceId": "c08ae1ef",
-      "file": "CUSA01493_01.05_c08ae1ef.json",
-      "path": "json/CUSA01493_01.05_c08ae1ef.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Talixme"
-      ],
-      "notes": null,
-      "cheats": [
-        "Godmode",
-        "Infinite Ammo",
-        "No Reload"
-      ]
-    },
-    {
-      "sourceId": "d4215877",
-      "file": "CUSA01493_01.05_d4215877.json",
-      "path": "json/CUSA01493_01.05_d4215877.json",
+      "sourceId": "b6020d89",
+      "file": "CUSA01493_01.05_b6020d89.json",
+      "path": "json/CUSA01493_01.05_b6020d89.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -37,6 +20,23 @@
         "No Reload",
         "Infinite Grenades",
         "Infinite Time Challenges"
+      ]
+    },
+    {
+      "sourceId": "d828e359",
+      "file": "CUSA01493_01.05_d828e359.json",
+      "path": "json/CUSA01493_01.05_d828e359.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Ammo",
+        "No Reload"
       ]
     },
     {
@@ -62,9 +62,9 @@
       ]
     },
     {
-      "sourceId": "125e7cd8",
-      "file": "CUSA01493_01.05_125e7cd8.mc4",
-      "path": "mc4/CUSA01493_01.05_125e7cd8.mc4",
+      "sourceId": "69f9dfc7",
+      "file": "CUSA01493_01.05_69f9dfc7.mc4",
+      "path": "mc4/CUSA01493_01.05_69f9dfc7.mc4",
       "format": "mc4",
       "process": "eboot.bin",
       "hidden": false,
@@ -96,9 +96,9 @@
       ]
     },
     {
-      "sourceId": "88137222",
-      "file": "CUSA01493_01.05_88137222.shn",
-      "path": "shn/CUSA01493_01.05_88137222.shn",
+      "sourceId": "0346a5de",
+      "file": "CUSA01493_01.05_0346a5de.shn",
+      "path": "shn/CUSA01493_01.05_0346a5de.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,

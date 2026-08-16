@@ -4,32 +4,6 @@
   "version": "01.06",
   "files": [
     {
-      "sourceId": "99bb5cd0",
-      "file": "CUSA02703_01.06_99bb5cd0.mc4",
-      "path": "mc4/CUSA02703_01.06_99bb5cd0.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Celogamez"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite Health",
-        "1 Hit Kill",
-        "Infinite Fury",
-        "No Reload",
-        "Max Griffa Tokens On Gain**",
-        "Stop Time Death Run**",
-        "No Damage To The Car**",
-        "Infinite Nitro Turbo",
-        "Max/Infinite Scraps",
-        "Infinite Canteen/Fuel (MASTERCODE/MUST BE ON)",
-        "Infinite Canteen",
-        "Infinite Fuel"
-      ]
-    },
-    {
       "sourceId": "b77cf616",
       "file": "CUSA02703_01.06_b77cf616.mc4",
       "path": "mc4/CUSA02703_01.06_b77cf616.mc4",
@@ -56,9 +30,35 @@
       ]
     },
     {
-      "sourceId": "e2e131b3",
-      "file": "CUSA02703_01.06_e2e131b3.shn",
-      "path": "shn/CUSA02703_01.06_e2e131b3.shn",
+      "sourceId": "bdd264c7",
+      "file": "CUSA02703_01.06_bdd264c7.mc4",
+      "path": "mc4/CUSA02703_01.06_bdd264c7.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "1 Hit Kill",
+        "Infinite Fury",
+        "No Reload",
+        "Max Griffa Tokens On Gain**",
+        "Stop Time Death Run**",
+        "No Damage To The Car**",
+        "Infinite Nitro Turbo",
+        "Max/Infinite Scraps",
+        "Infinite Canteen/Fuel (MASTERCODE/MUST BE ON)",
+        "Infinite Canteen",
+        "Infinite Fuel"
+      ]
+    },
+    {
+      "sourceId": "493790db",
+      "file": "CUSA02703_01.06_493790db.shn",
+      "path": "shn/CUSA02703_01.06_493790db.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,

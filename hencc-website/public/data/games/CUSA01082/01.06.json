@@ -4,33 +4,10 @@
   "version": "01.06",
   "files": [
     {
-      "sourceId": "babee600",
-      "file": "CUSA01082_01.06_babee600.json",
-      "path": "json/CUSA01082_01.06_babee600.json",
+      "sourceId": "7adf5486",
+      "file": "CUSA01082_01.06_7adf5486.json",
+      "path": "json/CUSA01082_01.06_7adf5486.json",
       "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "TLH"
-      ],
-      "notes": null,
-      "cheats": [
-        "Pointer",
-        "Health / 1 Hit Kills",
-        "Infinite Health",
-        "1 Hit Kills",
-        "Bottomless Clip",
-        "Infinite Ammo",
-        "Infinite Gel",
-        "Infinite Stamina",
-        "Infinite Items"
-      ]
-    },
-    {
-      "sourceId": "9f719acf",
-      "file": "CUSA01082_01.06_9f719acf.mc4",
-      "path": "mc4/CUSA01082_01.06_9f719acf.mc4",
-      "format": "mc4",
       "process": "eboot.bin",
       "hidden": false,
       "creators": [
@@ -53,6 +30,29 @@
       "sourceId": "cbd1df6a",
       "file": "CUSA01082_01.06_cbd1df6a.mc4",
       "path": "mc4/CUSA01082_01.06_cbd1df6a.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Pointer",
+        "Health / 1 Hit Kills",
+        "Infinite Health",
+        "1 Hit Kills",
+        "Bottomless Clip",
+        "Infinite Ammo",
+        "Infinite Gel",
+        "Infinite Stamina",
+        "Infinite Items"
+      ]
+    },
+    {
+      "sourceId": "d495db17",
+      "file": "CUSA01082_01.06_d495db17.mc4",
+      "path": "mc4/CUSA01082_01.06_d495db17.mc4",
       "format": "mc4",
       "process": "eboot.bin",
       "hidden": false,
