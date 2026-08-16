@@ -27,9 +27,9 @@
       ]
     },
     {
-      "sourceId": "66bd8590",
-      "file": "PPSA04610_01.017.000_66bd8590.mc4",
-      "path": "mc4/PPSA04610_01.017.000_66bd8590.mc4",
+      "sourceId": "36009401",
+      "file": "PPSA04610_01.017.000_36009401.mc4",
+      "path": "mc4/PPSA04610_01.017.000_36009401.mc4",
       "format": "mc4",
       "process": "eboot.bin",
       "hidden": false,
@@ -45,6 +45,24 @@
         "Inf Stamina",
         "Inf FP",
         "Max Items (Get, Use)",
+        "Max Runes"
+      ]
+    },
+    {
+      "sourceId": "4c8c4513",
+      "file": "PPSA04610_01.017.000_4c8c4513.mc4",
+      "path": "mc4/PPSA04610_01.017.000_4c8c4513.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Yharnam"
+      ],
+      "notes": null,
+      "cheats": [
+        "Untouchable",
+        "Inf Health",
+        "Inf Stamina",
         "Max Runes"
       ]
     }

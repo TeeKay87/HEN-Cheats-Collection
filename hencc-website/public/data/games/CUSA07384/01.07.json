@@ -4,26 +4,6 @@
   "version": "01.07",
   "files": [
     {
-      "sourceId": "38b210ed",
-      "file": "CUSA07384_01.07_38b210ed.json",
-      "path": "json/CUSA07384_01.07_38b210ed.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Dioniso"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite Health",
-        "Infinite Shield",
-        "Infinite Bullets",
-        "Infinite Laser + Granades + Hatchets (100)",
-        "Infinite Upgrade Kits + Enigma Codes (99)",
-        "Enemy Doesn't Shoot (except Uebersoldaten)"
-      ]
-    },
-    {
       "sourceId": "72299238",
       "file": "CUSA07384_01.07_72299238.json",
       "path": "json/CUSA07384_01.07_72299238.json",
@@ -41,6 +21,26 @@
         "Infinite Laser + Granades + Hatchets (100)",
         "Infinite Upgrade Kits + Enigma Codes (99)",
         "Enemy Doesnt Shoot (except Uebersoldaten)"
+      ]
+    },
+    {
+      "sourceId": "a4df39ea",
+      "file": "CUSA07384_01.07_a4df39ea.json",
+      "path": "json/CUSA07384_01.07_a4df39ea.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Dioniso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Shield",
+        "Infinite Bullets",
+        "Infinite Laser + Granades + Hatchets (100)",
+        "Infinite Upgrade Kits + Enigma Codes (99)",
+        "Enemy Doesn't Shoot (except Uebersoldaten)"
       ]
     },
     {
@@ -64,9 +64,9 @@
       ]
     },
     {
-      "sourceId": "73aef5f6",
-      "file": "CUSA07384_01.07_73aef5f6.shn",
-      "path": "shn/CUSA07384_01.07_73aef5f6.shn",
+      "sourceId": "07cb0750",
+      "file": "CUSA07384_01.07_07cb0750.shn",
+      "path": "shn/CUSA07384_01.07_07cb0750.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,

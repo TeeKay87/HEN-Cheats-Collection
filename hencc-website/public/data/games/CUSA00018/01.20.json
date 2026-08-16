@@ -20,11 +20,11 @@
       ]
     },
     {
-      "sourceId": "2270d610",
-      "file": "CUSA00018_01.20_default.elf_2270d610.shn",
-      "path": "shn/CUSA00018_01.20_default.elf_2270d610.shn",
+      "sourceId": "61f7eb5c",
+      "file": "CUSA00018_01.20_61f7eb5c.shn",
+      "path": "shn/CUSA00018_01.20_61f7eb5c.shn",
       "format": "shn",
-      "process": "default.elf",
+      "process": "eboot.bin",
       "hidden": false,
       "creators": [
         "GamerX2"
@@ -36,11 +36,11 @@
       ]
     },
     {
-      "sourceId": "e530b1b6",
-      "file": "CUSA00018_01.20_e530b1b6.shn",
-      "path": "shn/CUSA00018_01.20_e530b1b6.shn",
+      "sourceId": "1b972540",
+      "file": "CUSA00018_01.20_default.elf_1b972540.shn",
+      "path": "shn/CUSA00018_01.20_default.elf_1b972540.shn",
       "format": "shn",
-      "process": "eboot.bin",
+      "process": "default.elf",
       "hidden": false,
       "creators": [
         "GamerX2"

@@ -4,10 +4,25 @@
   "version": "01.00",
   "files": [
     {
-      "sourceId": "e41fbc52",
-      "file": "CUSA00341_01.00_e41fbc52.json",
-      "path": "json/CUSA00341_01.00_e41fbc52.json",
+      "sourceId": "20a20528",
+      "file": "CUSA00341_01.00_20a20528.json",
+      "path": "json/CUSA00341_01.00_20a20528.json",
       "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "hejran7"
+      ],
+      "notes": null,
+      "cheats": [
+        "L3 + Upper L or Upper R Touch Pad"
+      ]
+    },
+    {
+      "sourceId": "0b7c309c",
+      "file": "CUSA00341_01.00_0b7c309c.mc4",
+      "path": "mc4/CUSA00341_01.00_0b7c309c.mc4",
+      "format": "mc4",
       "process": "eboot.bin",
       "hidden": false,
       "creators": [
@@ -22,21 +37,6 @@
       "sourceId": "2ab684e5",
       "file": "CUSA00341_01.00_2ab684e5.mc4",
       "path": "mc4/CUSA00341_01.00_2ab684e5.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "hejran7"
-      ],
-      "notes": null,
-      "cheats": [
-        "L3 + Upper L or Upper R Touch Pad"
-      ]
-    },
-    {
-      "sourceId": "ab6f1a4c",
-      "file": "CUSA00341_01.00_ab6f1a4c.mc4",
-      "path": "mc4/CUSA00341_01.00_ab6f1a4c.mc4",
       "format": "mc4",
       "process": "eboot.bin",
       "hidden": false,

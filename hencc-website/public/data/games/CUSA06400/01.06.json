@@ -4,6 +4,24 @@
   "version": "01.06",
   "files": [
     {
+      "sourceId": "18ff4082",
+      "file": "CUSA06400_01.06_18ff4082.json",
+      "path": "json/CUSA06400_01.06_18ff4082.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DJFlameDat"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf HP (USE CHEATS ONE AT A TIME OR CRASH)",
+        "Inf Super",
+        "Inf Stone Meter (Hit enemy once with it)",
+        "Inf Time"
+      ]
+    },
+    {
       "sourceId": "194d5e1a",
       "file": "CUSA06400_01.06_194d5e1a.json",
       "path": "json/CUSA06400_01.06_194d5e1a.json",
@@ -19,24 +37,6 @@
         "Inf Super (On Gain)",
         "Inf Stone Meter (On Gain)",
         "Inf Timer"
-      ]
-    },
-    {
-      "sourceId": "ef64dda2",
-      "file": "CUSA06400_01.06_ef64dda2.json",
-      "path": "json/CUSA06400_01.06_ef64dda2.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "DJFlameDat"
-      ],
-      "notes": null,
-      "cheats": [
-        "Inf HP (USE CHEATS ONE AT A TIME OR CRASH)",
-        "Inf Super",
-        "Inf Stone Meter (Hit enemy once with it)",
-        "Inf Time"
       ]
     }
   ]

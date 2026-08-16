@@ -4,6 +4,25 @@
   "version": "01.00",
   "files": [
     {
+      "sourceId": "64982f4e",
+      "file": "CUSA05597_01.00_64982f4e.json",
+      "path": "json/CUSA05597_01.00_64982f4e.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TylerMods"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Ammo",
+        "Infinite Suppressor",
+        "Infinite GMP",
+        "No Bullet Spread(Hip Fire)"
+      ]
+    },
+    {
       "sourceId": "c23aecff",
       "file": "CUSA05597_01.00_c23aecff.json",
       "path": "json/CUSA05597_01.00_c23aecff.json",
@@ -19,25 +38,6 @@
         "Infinite Ammo",
         "Infinite Suppressor",
         "Max Money"
-      ]
-    },
-    {
-      "sourceId": "dc87b024",
-      "file": "CUSA05597_01.00_dc87b024.json",
-      "path": "json/CUSA05597_01.00_dc87b024.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "TylerMods"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite Health",
-        "Infinite Ammo",
-        "Infinite Suppressor",
-        "Infinite GMP",
-        "No Bullet Spread(Hip Fire)"
       ]
     },
     {
@@ -59,9 +59,9 @@
       ]
     },
     {
-      "sourceId": "9f1bda9e",
-      "file": "CUSA05597_01.00_9f1bda9e.shn",
-      "path": "shn/CUSA05597_01.00_9f1bda9e.shn",
+      "sourceId": "519bd339",
+      "file": "CUSA05597_01.00_519bd339.shn",
+      "path": "shn/CUSA05597_01.00_519bd339.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,

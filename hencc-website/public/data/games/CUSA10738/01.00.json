@@ -31,25 +31,9 @@
       ]
     },
     {
-      "sourceId": "b63c736e",
-      "file": "CUSA10738_01.00_b63c736e.json",
-      "path": "json/CUSA10738_01.00_b63c736e.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "d01v"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite Bolt",
-        "9 Lives + item / support no decrease"
-      ]
-    },
-    {
-      "sourceId": "eecd55e2",
-      "file": "CUSA10738_01.00_eecd55e2.json",
-      "path": "json/CUSA10738_01.00_eecd55e2.json",
+      "sourceId": "8e4be6ac",
+      "file": "CUSA10738_01.00_8e4be6ac.json",
+      "path": "json/CUSA10738_01.00_8e4be6ac.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -68,6 +52,22 @@
         "Stop Timer in Challenge",
         "Max Points in Challenge",
         "Pacifist 0 Points Challenge"
+      ]
+    },
+    {
+      "sourceId": "b63c736e",
+      "file": "CUSA10738_01.00_b63c736e.json",
+      "path": "json/CUSA10738_01.00_b63c736e.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "d01v"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Bolt",
+        "9 Lives + item / support no decrease"
       ]
     }
   ]

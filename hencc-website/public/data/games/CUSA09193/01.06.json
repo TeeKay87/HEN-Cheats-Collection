@@ -42,9 +42,27 @@
       ]
     },
     {
-      "sourceId": "2c05e545",
-      "file": "CUSA09193_01.06_2c05e545.mc4",
-      "path": "mc4/CUSA09193_01.06_2c05e545.mc4",
+      "sourceId": "9d29338f",
+      "file": "CUSA09193_01.06_9d29338f.mc4",
+      "path": "mc4/CUSA09193_01.06_9d29338f.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "JustGotenks"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "One-hit Kill",
+        "No Reload",
+        "Max Item Count (on use/combine/reload)"
+      ]
+    },
+    {
+      "sourceId": "ffd7ed2c",
+      "file": "CUSA09193_01.06_ffd7ed2c.mc4",
+      "path": "mc4/CUSA09193_01.06_ffd7ed2c.mc4",
       "format": "mc4",
       "process": "eboot.bin",
       "hidden": false,
@@ -66,27 +84,9 @@
       ]
     },
     {
-      "sourceId": "9d29338f",
-      "file": "CUSA09193_01.06_9d29338f.mc4",
-      "path": "mc4/CUSA09193_01.06_9d29338f.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "JustGotenks"
-      ],
-      "notes": null,
-      "cheats": [
-        "Godmode",
-        "One-hit Kill",
-        "No Reload",
-        "Max Item Count (on use/combine/reload)"
-      ]
-    },
-    {
-      "sourceId": "7efbf708",
-      "file": "CUSA09193_01.06_7efbf708.shn",
-      "path": "shn/CUSA09193_01.06_7efbf708.shn",
+      "sourceId": "16134269",
+      "file": "CUSA09193_01.06_16134269.shn",
+      "path": "shn/CUSA09193_01.06_16134269.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,

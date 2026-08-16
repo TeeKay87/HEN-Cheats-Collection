@@ -4,9 +4,24 @@
   "version": "01.10",
   "files": [
     {
-      "sourceId": "35aa4137",
-      "file": "CUSA08798_01.10_35aa4137.json",
-      "path": "json/CUSA08798_01.10_35aa4137.json",
+      "sourceId": "058d1678",
+      "file": "CUSA08798_01.10_058d1678.json",
+      "path": "json/CUSA08798_01.10_058d1678.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Hot8884"
+      ],
+      "notes": null,
+      "cheats": [
+        "ifi soul"
+      ]
+    },
+    {
+      "sourceId": "4f41d01a",
+      "file": "CUSA08798_01.10_4f41d01a.json",
+      "path": "json/CUSA08798_01.10_4f41d01a.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -25,9 +40,9 @@
       ]
     },
     {
-      "sourceId": "79ff0ab8",
-      "file": "CUSA08798_01.10_79ff0ab8.json",
-      "path": "json/CUSA08798_01.10_79ff0ab8.json",
+      "sourceId": "da6c74d8",
+      "file": "CUSA08798_01.10_da6c74d8.json",
+      "path": "json/CUSA08798_01.10_da6c74d8.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -45,21 +60,6 @@
         "Infinite Souls and Crystals (Turn off Max cheat before use)",
         "Infinite Consumables (Turn off Max cheat before use)",
         "Infinite Ingredients (Turn off Max cheat before use)"
-      ]
-    },
-    {
-      "sourceId": "d72fe6f6",
-      "file": "CUSA08798_01.10_d72fe6f6.json",
-      "path": "json/CUSA08798_01.10_d72fe6f6.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Hot8884"
-      ],
-      "notes": null,
-      "cheats": [
-        "ifi soul"
       ]
     },
     {

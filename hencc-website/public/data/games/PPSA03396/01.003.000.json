@@ -4,6 +4,23 @@
   "version": "01.003.000",
   "files": [
     {
+      "sourceId": "47db6eef",
+      "file": "PPSA03396_01.003.000_47db6eef.mc4",
+      "path": "mc4/PPSA03396_01.003.000_47db6eef.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Yharnam"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infi Health",
+        "Infi Ammo & Items",
+        "Infi Weapon Durability"
+      ]
+    },
+    {
       "sourceId": "518fe237",
       "file": "PPSA03396_01.003.000_518fe237.mc4",
       "path": "mc4/PPSA03396_01.003.000_518fe237.mc4",
@@ -19,23 +36,6 @@
         "Infinite Ammo (No Reload)",
         "Infinite Weapon Durability",
         "Infinite Consumables"
-      ]
-    },
-    {
-      "sourceId": "5a7d144f",
-      "file": "PPSA03396_01.003.000_5a7d144f.mc4",
-      "path": "mc4/PPSA03396_01.003.000_5a7d144f.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Yharnam"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infi Health",
-        "Infi Ammo & Items",
-        "Infi Weapon Durability"
       ]
     },
     {

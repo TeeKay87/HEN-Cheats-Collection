@@ -1,0 +1,229 @@
+{
+  "name": "Naruto x Boruto: Ultimate Ninja Storm Connections",
+  "id": "PPSA06981",
+  "version": "01.006.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Master Code",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "242BF00",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF00",
+          "section": 6,
+          "sectionOffset": "25BF00"
+        },
+        {
+          "offset": "242BF01",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF01",
+          "section": 6,
+          "sectionOffset": "25BF01"
+        },
+        {
+          "offset": "242BF02",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF02",
+          "section": 6,
+          "sectionOffset": "25BF02"
+        },
+        {
+          "offset": "242BF03",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF03",
+          "section": 6,
+          "sectionOffset": "25BF03"
+        },
+        {
+          "offset": "242BF04",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF04",
+          "section": 6,
+          "sectionOffset": "25BF04"
+        },
+        {
+          "offset": "242BF05",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF05",
+          "section": 6,
+          "sectionOffset": "25BF05"
+        },
+        {
+          "offset": "182F000",
+          "on": "81FB58FF2504740A81FBF0FF25047416EB39803DE7CEBF0001741F803DE1CEBF0001741BEB25803DD4CEBF0001740B803DCCCEBF00017407EB11E999521CFFC7403800000000E98D521CFFC5EA5CC0C5F82EC1C5FA114038E97B521CFF",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "182F07D",
+          "on": "81F940A13B04740A81F9E0A13B04740DEB1B803D6ECEBF0001740DEB10803D64CEBF00017402EB05E9EE581CFFC5EA5CC0C5F82EC1C5FA114040E9DC581CFF",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "9F42CB",
+          "on": "E930ADE3009090909090909090",
+          "off": "C5EA5CC0C5F82EC1C5FA114038"
+        },
+        {
+          "offset": "9F498B",
+          "on": "E9EDA6E3009090909090909090",
+          "off": "C5EA5CC0C5F82EC1C5FA114040"
+        }
+      ]
+    },
+    {
+      "name": "--Inf_Hp_P1",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "242BF00",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF00",
+          "section": 6,
+          "sectionOffset": "25BF00"
+        }
+      ]
+    },
+    {
+      "name": "--Inf_Hp_P2",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "242BF01",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF01",
+          "section": 6,
+          "sectionOffset": "25BF01"
+        }
+      ]
+    },
+    {
+      "name": "--One_Hit_Kill_P1",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "242BF02",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF02",
+          "section": 6,
+          "sectionOffset": "25BF02"
+        }
+      ]
+    },
+    {
+      "name": "--One_Hit_Kill_P2",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "242BF03",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF03",
+          "section": 6,
+          "sectionOffset": "25BF03"
+        }
+      ]
+    },
+    {
+      "name": "--Inf_Magic_P1",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "242BF04",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF04",
+          "section": 6,
+          "sectionOffset": "25BF04"
+        }
+      ]
+    },
+    {
+      "name": "--Inf_Magic_P2",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "242BF05",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF05",
+          "section": 6,
+          "sectionOffset": "25BF05"
+        }
+      ]
+    },
+    {
+      "name": "No Cooldown",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "9F6103",
+          "on": "9090909090909090",
+          "off": "C744C70C00000000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Money",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "182F0DC",
+          "on": "BAFFC99A3B89534889C2E959D238FF",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "BBC33F",
+          "on": "E9982DC700",
+          "off": "89534889C2"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

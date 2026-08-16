@@ -4,6 +4,30 @@
   "version": "01.08",
   "files": [
     {
+      "sourceId": "26f69069",
+      "file": "CUSA36848_01.08_26f69069.mc4",
+      "path": "mc4/CUSA36848_01.08_26f69069.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "1 Hit Kill",
+        "Infinite Stamina",
+        "Infinite Fable",
+        "Infinite Legion",
+        "Max Items On Pick Up (x2 To Work)",
+        "Max Items On Use",
+        "Infinite Weapon Sharpness Durability",
+        "No Carry Weight",
+        "Max Ergo"
+      ]
+    },
+    {
       "sourceId": "a6767f89",
       "file": "CUSA36848_01.08_a6767f89.mc4",
       "path": "mc4/CUSA36848_01.08_a6767f89.mc4",
@@ -29,33 +53,9 @@
       ]
     },
     {
-      "sourceId": "c5d06af2",
-      "file": "CUSA36848_01.08_c5d06af2.mc4",
-      "path": "mc4/CUSA36848_01.08_c5d06af2.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Celogamez"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite Health",
-        "1 Hit Kill",
-        "Infinite Stamina",
-        "Infinite Fable",
-        "Infinite Legion",
-        "Max Items On Pick Up (x2 To Work)",
-        "Max Items On Use",
-        "Infinite Weapon Sharpness Durability",
-        "No Carry Weight",
-        "Max Ergo"
-      ]
-    },
-    {
-      "sourceId": "271368e3",
-      "file": "CUSA36848_01.08_271368e3.shn",
-      "path": "shn/CUSA36848_01.08_271368e3.shn",
+      "sourceId": "190f254d",
+      "file": "CUSA36848_01.08_190f254d.shn",
+      "path": "shn/CUSA36848_01.08_190f254d.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,

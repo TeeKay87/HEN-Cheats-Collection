@@ -21,23 +21,6 @@
       ]
     },
     {
-      "sourceId": "4e2ae5c4",
-      "file": "CUSA00049_01.24_4e2ae5c4.mc4",
-      "path": "mc4/CUSA00049_01.24_4e2ae5c4.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Fullcodes"
-      ],
-      "notes": null,
-      "cheats": [
-        "No Reload",
-        "Infinite Ammo and Grenade Usage",
-        "Infinite Player Health"
-      ]
-    },
-    {
       "sourceId": "71794f1f",
       "file": "CUSA00049_01.24_71794f1f.mc4",
       "path": "mc4/CUSA00049_01.24_71794f1f.mc4",
@@ -55,9 +38,26 @@
       ]
     },
     {
-      "sourceId": "634ca5e3",
-      "file": "CUSA00049_01.24_634ca5e3.shn",
-      "path": "shn/CUSA00049_01.24_634ca5e3.shn",
+      "sourceId": "99a32b74",
+      "file": "CUSA00049_01.24_99a32b74.mc4",
+      "path": "mc4/CUSA00049_01.24_99a32b74.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Fullcodes"
+      ],
+      "notes": null,
+      "cheats": [
+        "No Reload",
+        "Infinite Ammo and Grenade Usage",
+        "Infinite Player Health"
+      ]
+    },
+    {
+      "sourceId": "3e52c9b1",
+      "file": "CUSA00049_01.24_3e52c9b1.shn",
+      "path": "shn/CUSA00049_01.24_3e52c9b1.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,

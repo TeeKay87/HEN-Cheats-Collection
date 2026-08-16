@@ -4,9 +4,9 @@
   "version": "01.03",
   "files": [
     {
-      "sourceId": "df321614",
-      "file": "CUSA08413_01.03_df321614.json",
-      "path": "json/CUSA08413_01.03_df321614.json",
+      "sourceId": "69a66b3c",
+      "file": "CUSA08413_01.03_69a66b3c.json",
+      "path": "json/CUSA08413_01.03_69a66b3c.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -32,6 +32,31 @@
       ],
       "notes": null,
       "cheats": [
+        "Infinite-Health-(mc)",
+        "Infinite-All-Weapon-(MC)",
+        "One-Hit-Kill"
+      ]
+    },
+    {
+      "sourceId": "9107fe1c",
+      "file": "CUSA08413_01.03_9107fe1c.mc4",
+      "path": "mc4/CUSA08413_01.03_9107fe1c.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible",
+        "Infinite-All-Weapon",
+        "All-Weapon-Rapid-Fire",
+        "Infinite-Health",
+        "Max/Infinite Health",
+        "Max/Infinite Health+1 Hit Kill",
+        "Infinite Ammo",
+        "No Reload (Enable Infinite Ammo)",
         "Infinite-Health-(mc)",
         "Infinite-All-Weapon-(MC)",
         "One-Hit-Kill"
@@ -71,31 +96,6 @@
         "Max/Infinite Health+1 Hit Kill",
         "Infinite Ammo",
         "No Reload (Enable Infinite Ammo)"
-      ]
-    },
-    {
-      "sourceId": "f5f411b3",
-      "file": "CUSA08413_01.03_f5f411b3.mc4",
-      "path": "mc4/CUSA08413_01.03_f5f411b3.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Ali-mk"
-      ],
-      "notes": null,
-      "cheats": [
-        "Invincible",
-        "Infinite-All-Weapon",
-        "All-Weapon-Rapid-Fire",
-        "Infinite-Health",
-        "Max/Infinite Health",
-        "Max/Infinite Health+1 Hit Kill",
-        "Infinite Ammo",
-        "No Reload (Enable Infinite Ammo)",
-        "Infinite-Health-(mc)",
-        "Infinite-All-Weapon-(MC)",
-        "One-Hit-Kill"
       ]
     },
     {

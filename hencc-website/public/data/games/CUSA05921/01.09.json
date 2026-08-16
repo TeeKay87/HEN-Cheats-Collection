@@ -4,6 +4,21 @@
   "version": "01.09",
   "files": [
     {
+      "sourceId": "2011f4c1",
+      "file": "CUSA05921_01.09_2011f4c1.mc4",
+      "path": "mc4/CUSA05921_01.09_2011f4c1.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ceogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Money/Tokens"
+      ]
+    },
+    {
       "sourceId": "e1df607e",
       "file": "CUSA05921_01.09_e1df607e.mc4",
       "path": "mc4/CUSA05921_01.09_e1df607e.mc4",
@@ -19,24 +34,9 @@
       ]
     },
     {
-      "sourceId": "e4297439",
-      "file": "CUSA05921_01.09_e4297439.mc4",
-      "path": "mc4/CUSA05921_01.09_e4297439.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Ceogamez"
-      ],
-      "notes": null,
-      "cheats": [
-        "Max Money/Tokens"
-      ]
-    },
-    {
-      "sourceId": "f7c1d1a8",
-      "file": "CUSA05921_01.09_f7c1d1a8.shn",
-      "path": "shn/CUSA05921_01.09_f7c1d1a8.shn",
+      "sourceId": "c11d2197",
+      "file": "CUSA05921_01.09_c11d2197.shn",
+      "path": "shn/CUSA05921_01.09_c11d2197.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,

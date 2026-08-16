@@ -4,30 +4,9 @@
   "version": "01.08",
   "files": [
     {
-      "sourceId": "0b464e62",
-      "file": "CUSA15526_01.08_0b464e62.json",
-      "path": "json/CUSA15526_01.08_0b464e62.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "guk"
-      ],
-      "notes": null,
-      "cheats": [
-        "itme",
-        "ki recoerty speed",
-        "inf guardian spirit",
-        "Infinite HP",
-        "Infinite Ki",
-        "Max 99 All Usable Items",
-        "Max 99 All Green Usable Items"
-      ]
-    },
-    {
-      "sourceId": "7fd27ec4",
-      "file": "CUSA15526_01.08_7fd27ec4.json",
-      "path": "json/CUSA15526_01.08_7fd27ec4.json",
+      "sourceId": "42032d1e",
+      "file": "CUSA15526_01.08_42032d1e.json",
+      "path": "json/CUSA15526_01.08_42032d1e.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -54,9 +33,30 @@
       ]
     },
     {
-      "sourceId": "b04e0c10",
-      "file": "CUSA15526_01.08_b04e0c10.json",
-      "path": "json/CUSA15526_01.08_b04e0c10.json",
+      "sourceId": "9c8181c2",
+      "file": "CUSA15526_01.08_9c8181c2.json",
+      "path": "json/CUSA15526_01.08_9c8181c2.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "guk"
+      ],
+      "notes": null,
+      "cheats": [
+        "itme",
+        "ki recoerty speed",
+        "inf guardian spirit",
+        "Infinite HP",
+        "Infinite Ki",
+        "Max 99 All Usable Items",
+        "Max 99 All Green Usable Items"
+      ]
+    },
+    {
+      "sourceId": "e99760c5",
+      "file": "CUSA15526_01.08_e99760c5.json",
+      "path": "json/CUSA15526_01.08_e99760c5.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,

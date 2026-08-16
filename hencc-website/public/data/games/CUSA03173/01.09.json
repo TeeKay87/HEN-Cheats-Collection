@@ -4,9 +4,37 @@
   "version": "01.09",
   "files": [
     {
-      "sourceId": "21e0c648",
-      "file": "CUSA03173_01.09_21e0c648.json",
-      "path": "json/CUSA03173_01.09_21e0c648.json",
+      "sourceId": "0ac74fe8",
+      "file": "CUSA03173_01.09_0ac74fe8.json",
+      "path": "json/CUSA03173_01.09_0ac74fe8.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Dioniso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Start Speed (Always Enable)",
+        "Player's Offsets HP (Always Enable)",
+        "Infinite Health",
+        "1 Hit Kill -Bosses",
+        "Infinite Stamina",
+        "Player's Speed x2",
+        "Speed Attack R1/R2 x8",
+        "SD Hunter",
+        "Enemies Don't Move",
+        "Infinite Echoes",
+        "Lucidity: No Dec. + Max (Get)",
+        "Lucidity: No Dec. + Max (Buy)",
+        "Objects: No Dec. + Max. (Get/Buy)",
+        "Stats/Level Maxed (Buy Once)"
+      ]
+    },
+    {
+      "sourceId": "7477a21c",
+      "file": "CUSA03173_01.09_7477a21c.json",
+      "path": "json/CUSA03173_01.09_7477a21c.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -50,34 +78,6 @@
       ]
     },
     {
-      "sourceId": "eb3199cc",
-      "file": "CUSA03173_01.09_eb3199cc.json",
-      "path": "json/CUSA03173_01.09_eb3199cc.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Dioniso"
-      ],
-      "notes": null,
-      "cheats": [
-        "Start Speed (Always Enable)",
-        "Player's Offsets HP (Always Enable)",
-        "Infinite Health",
-        "1 Hit Kill -Bosses",
-        "Infinite Stamina",
-        "Player's Speed x2",
-        "Speed Attack R1/R2 x8",
-        "SD Hunter",
-        "Enemies Don't Move",
-        "Infinite Echoes",
-        "Lucidity: No Dec. + Max (Get)",
-        "Lucidity: No Dec. + Max (Buy)",
-        "Objects: No Dec. + Max. (Get/Buy)",
-        "Stats/Level Maxed (Buy Once)"
-      ]
-    },
-    {
       "sourceId": "07510c22",
       "file": "CUSA03173_01.09_07510c22.mc4",
       "path": "mc4/CUSA03173_01.09_07510c22.mc4",
@@ -104,34 +104,9 @@
       ]
     },
     {
-      "sourceId": "7d27d8e8",
-      "file": "CUSA03173_01.09_7d27d8e8.mc4",
-      "path": "mc4/CUSA03173_01.09_7d27d8e8.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "hejran7"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinity HP",
-        "One Hit Kill",
-        "Inf HP + OHK",
-        "Poison Resistance",
-        "Inf Stamina",
-        "Inf Blood Echoes On Spend",
-        "Never Lose Blood Echoes",
-        "Inf Insight On Spend",
-        "Inf Items On Use",
-        "Dupe Anything In Storage Box",
-        "Inf Weapon Durability"
-      ]
-    },
-    {
-      "sourceId": "b3b17d7b",
-      "file": "CUSA03173_01.09_b3b17d7b.mc4",
-      "path": "mc4/CUSA03173_01.09_b3b17d7b.mc4",
+      "sourceId": "4e75df42",
+      "file": "CUSA03173_01.09_4e75df42.mc4",
+      "path": "mc4/CUSA03173_01.09_4e75df42.mc4",
       "format": "mc4",
       "process": "eboot.bin",
       "hidden": false,
@@ -167,6 +142,31 @@
         "God Mode",
         "infinit Stamina",
         "Infinit items"
+      ]
+    },
+    {
+      "sourceId": "7d27d8e8",
+      "file": "CUSA03173_01.09_7d27d8e8.mc4",
+      "path": "mc4/CUSA03173_01.09_7d27d8e8.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "hejran7"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinity HP",
+        "One Hit Kill",
+        "Inf HP + OHK",
+        "Poison Resistance",
+        "Inf Stamina",
+        "Inf Blood Echoes On Spend",
+        "Never Lose Blood Echoes",
+        "Inf Insight On Spend",
+        "Inf Items On Use",
+        "Dupe Anything In Storage Box",
+        "Inf Weapon Durability"
       ]
     },
     {

@@ -4,9 +4,32 @@
   "version": "01.006.000",
   "files": [
     {
-      "sourceId": "92779835",
-      "file": "PPSA06981_01.006.000_92779835.mc4",
-      "path": "mc4/PPSA06981_01.006.000_92779835.mc4",
+      "sourceId": "88e418d4",
+      "file": "PPSA06981_01.006.000_88e418d4.json",
+      "path": "json/PPSA06981_01.006.000_88e418d4.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Master Code",
+        "--Inf_Hp_P1",
+        "--Inf_Hp_P2",
+        "--One_Hit_Kill_P1",
+        "--One_Hit_Kill_P2",
+        "--Inf_Magic_P1",
+        "--Inf_Magic_P2",
+        "No Cooldown",
+        "Inf Money"
+      ]
+    },
+    {
+      "sourceId": "0722ddbf",
+      "file": "PPSA06981_01.006.000_0722ddbf.mc4",
+      "path": "mc4/PPSA06981_01.006.000_0722ddbf.mc4",
       "format": "mc4",
       "process": "eboot.bin",
       "hidden": false,

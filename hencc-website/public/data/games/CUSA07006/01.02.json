@@ -27,22 +27,6 @@
       ]
     },
     {
-      "sourceId": "39f303b6",
-      "file": "CUSA07006_01.02_39f303b6.json",
-      "path": "json/CUSA07006_01.02_39f303b6.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "LMN"
-      ],
-      "notes": null,
-      "cheats": [
-        "infinite item & ammo usage (need more than one item)",
-        "inf experience points usage"
-      ]
-    },
-    {
       "sourceId": "889003b8",
       "file": "CUSA07006_01.02_889003b8.json",
       "path": "json/CUSA07006_01.02_889003b8.json",
@@ -55,6 +39,22 @@
       "notes": null,
       "cheats": [
         "infinite item &amp; ammo usage (need more than one item)",
+        "inf experience points usage"
+      ]
+    },
+    {
+      "sourceId": "fdbf2519",
+      "file": "CUSA07006_01.02_fdbf2519.json",
+      "path": "json/CUSA07006_01.02_fdbf2519.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "LMN"
+      ],
+      "notes": null,
+      "cheats": [
+        "infinite item & ammo usage (need more than one item)",
         "inf experience points usage"
       ]
     }

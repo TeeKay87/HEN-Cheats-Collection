@@ -37,10 +37,32 @@
       ]
     },
     {
-      "sourceId": "cbc6ee00",
-      "file": "CUSA34384_05.05_cbc6ee00.mc4",
-      "path": "mc4/CUSA34384_05.05_cbc6ee00.mc4",
+      "sourceId": "c5f2c510",
+      "file": "CUSA34384_05.05_c5f2c510.mc4",
+      "path": "mc4/CUSA34384_05.05_c5f2c510.mc4",
       "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez-JustGotenks"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Rage",
+        "Infinite Arrows",
+        "Instant R3",
+        "No Cooldown",
+        "Max/Infinite HS/Resources/Fleeting Echoes/Mastery Seal/Spirit Seal/Divine Triunph",
+        "Max XP",
+        "Crystalline Fragment (100/Use Only For It)"
+      ]
+    },
+    {
+      "sourceId": "2b6e3c18",
+      "file": "CUSA34384_05.05_2b6e3c18.shn",
+      "path": "shn/CUSA34384_05.05_2b6e3c18.shn",
+      "format": "shn",
       "process": "eboot.bin",
       "hidden": false,
       "creators": [
@@ -89,28 +111,6 @@
         "Infinite Max Shield Charge",
         "No Talisman and Relic Cooldown",
         "Infinite Weapon Charge (L1+Triangle)"
-      ]
-    },
-    {
-      "sourceId": "936b557b",
-      "file": "CUSA34384_05.05_936b557b.shn",
-      "path": "shn/CUSA34384_05.05_936b557b.shn",
-      "format": "shn",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Celogamez-JustGotenks"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite Health",
-        "Infinite Rage",
-        "Infinite Arrows",
-        "Instant R3",
-        "No Cooldown",
-        "Max/Infinite HS/Resources/Fleeting Echoes/Mastery Seal/Spirit Seal/Divine Triunph",
-        "Max XP",
-        "Crystalline Fragment (100/Use Only For It)"
       ]
     }
   ]

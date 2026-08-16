@@ -1,0 +1,81 @@
+{
+  "name": "Immortals Fenyx Rising",
+  "id": "CUSA16345",
+  "version": "01.01",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Max + Inf HP | On Hit",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "32045E2",
+          "on": "898738010000",
+          "off": "898F38010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6D1A800",
+          "on": "C4C17A1085B8010000C4C17A1185B8010000E9F8E84EFC",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "3209106",
+          "on": "E9F516B10390909090",
+          "off": "C4C17A1185B8010000"
+        }
+      ]
+    },
+    {
+      "name": "1 Hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6D1A490",
+          "on": "BE0000000089B738010000E9D0134DFC",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "31EB86A",
+          "on": "E921ECB20390",
+          "off": "89B738010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Items |Consumables",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "37CAABE",
+          "on": "9090909090",
+          "off": "41894424F8"
+        }
+      ]
+    },
+    {
+      "name": "Max+ Inf Shards/Items/Arrow On Spend",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6D1A400",
+          "on": "B850C3000041894424F8E9B406ABFC",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "37CAABE",
+          "on": "E93DF95403",
+          "off": "41894424F8"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "GamerX2 _ B2"
+  ]
+}

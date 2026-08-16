@@ -4,21 +4,6 @@
   "version": "01.00",
   "files": [
     {
-      "sourceId": "24165d5e",
-      "file": "CUSA02343_01.00_24165d5e.json",
-      "path": "json/CUSA02343_01.00_24165d5e.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "DeathRGH"
-      ],
-      "notes": null,
-      "cheats": [
-        "Enable Debug Menu"
-      ]
-    },
-    {
       "sourceId": "be5426d7",
       "file": "CUSA02343_01.00_be5426d7.json",
       "path": "json/CUSA02343_01.00_be5426d7.json",
@@ -49,9 +34,9 @@
       ]
     },
     {
-      "sourceId": "d8066f54",
-      "file": "CUSA02343_01.00_big2-ps4_Shipping.elf_d8066f54.json",
-      "path": "json/CUSA02343_01.00_big2-ps4_Shipping.elf_d8066f54.json",
+      "sourceId": "a16c7389",
+      "file": "CUSA02343_01.00_big2-ps4_Shipping.elf_a16c7389.json",
+      "path": "json/CUSA02343_01.00_big2-ps4_Shipping.elf_a16c7389.json",
       "format": "json",
       "process": "big2-ps4_Shipping.elf",
       "hidden": false,
@@ -79,11 +64,26 @@
       ]
     },
     {
-      "sourceId": "b9c1d036",
-      "file": "CUSA02343_01.00_big3-ps4_Shipping.elf_b9c1d036.json",
-      "path": "json/CUSA02343_01.00_big3-ps4_Shipping.elf_b9c1d036.json",
+      "sourceId": "e9acc7ca",
+      "file": "CUSA02343_01.00_big3-ps4_Shipping.elf_e9acc7ca.json",
+      "path": "json/CUSA02343_01.00_big3-ps4_Shipping.elf_e9acc7ca.json",
       "format": "json",
       "process": "big3-ps4_Shipping.elf",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Enable Debug Menu"
+      ]
+    },
+    {
+      "sourceId": "d0f1cd34",
+      "file": "CUSA02343_01.00_d0f1cd34.json",
+      "path": "json/CUSA02343_01.00_d0f1cd34.json",
+      "format": "json",
+      "process": "eboot.bin",
       "hidden": false,
       "creators": [
         "DeathRGH"
@@ -154,9 +154,9 @@
       ]
     },
     {
-      "sourceId": "126ea8c9",
-      "file": "CUSA02343_01.00_126ea8c9.shn",
-      "path": "shn/CUSA02343_01.00_126ea8c9.shn",
+      "sourceId": "9ebdc343",
+      "file": "CUSA02343_01.00_9ebdc343.shn",
+      "path": "shn/CUSA02343_01.00_9ebdc343.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,
@@ -171,9 +171,9 @@
       ]
     },
     {
-      "sourceId": "ed7489e1",
-      "file": "CUSA02343_01.00_big2-ps4_Shipping.elf_ed7489e1.shn",
-      "path": "shn/CUSA02343_01.00_big2-ps4_Shipping.elf_ed7489e1.shn",
+      "sourceId": "c3ac8598",
+      "file": "CUSA02343_01.00_big2-ps4_Shipping.elf_c3ac8598.shn",
+      "path": "shn/CUSA02343_01.00_big2-ps4_Shipping.elf_c3ac8598.shn",
       "format": "shn",
       "process": "big2-ps4_Shipping.elf",
       "hidden": false,
@@ -186,9 +186,9 @@
       ]
     },
     {
-      "sourceId": "d4636e50",
-      "file": "CUSA02343_01.00_big3-ps4_Shipping.elf_d4636e50.shn",
-      "path": "shn/CUSA02343_01.00_big3-ps4_Shipping.elf_d4636e50.shn",
+      "sourceId": "aa6d44c6",
+      "file": "CUSA02343_01.00_big3-ps4_Shipping.elf_aa6d44c6.shn",
+      "path": "shn/CUSA02343_01.00_big3-ps4_Shipping.elf_aa6d44c6.shn",
       "format": "shn",
       "process": "big3-ps4_Shipping.elf",
       "hidden": false,

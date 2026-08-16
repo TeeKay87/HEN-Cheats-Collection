@@ -4,30 +4,9 @@
   "version": "01.019.076",
   "files": [
     {
-      "sourceId": "b3495722",
-      "file": "PPSA20397_01.019.076_b3495722.mc4",
-      "path": "mc4/PPSA20397_01.019.076_b3495722.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Yharnam"
-      ],
-      "notes": null,
-      "cheats": [
-        "Untouchable",
-        "1 Hit Kill",
-        "Infi Health",
-        "Infi Adrenaline",
-        "Infi Consumables (No Decrease)",
-        "Infi Scouting",
-        "Infi Mastery Points"
-      ]
-    },
-    {
-      "sourceId": "bb167a53",
-      "file": "PPSA20397_01.019.076_bb167a53.mc4",
-      "path": "mc4/PPSA20397_01.019.076_bb167a53.mc4",
+      "sourceId": "21725c32",
+      "file": "PPSA20397_01.019.076_21725c32.mc4",
+      "path": "mc4/PPSA20397_01.019.076_21725c32.mc4",
       "format": "mc4",
       "process": "eboot.bin",
       "hidden": false,
@@ -44,6 +23,47 @@
         "Infi Consumables (No Decrease)",
         "Infi Scouting",
         "Infi Air",
+        "Infi Mastery Points"
+      ]
+    },
+    {
+      "sourceId": "259923e2",
+      "file": "PPSA20397_01.019.076_259923e2.mc4",
+      "path": "mc4/PPSA20397_01.019.076_259923e2.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Yharnam"
+      ],
+      "notes": null,
+      "cheats": [
+        "Untouchable",
+        "1 Hit Kill",
+        "Infi Health",
+        "Infi Adrenaline",
+        "Infi Consumables (No Decrease)",
+        "Infi Mastery Points"
+      ]
+    },
+    {
+      "sourceId": "ea87501a",
+      "file": "PPSA20397_01.019.076_ea87501a.mc4",
+      "path": "mc4/PPSA20397_01.019.076_ea87501a.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Yharnam"
+      ],
+      "notes": null,
+      "cheats": [
+        "Untouchable",
+        "1 Hit Kill",
+        "Infi Health",
+        "Infi Adrenaline",
+        "Infi Consumables (No Decrease)",
+        "Infi Scouting",
         "Infi Mastery Points"
       ]
     }

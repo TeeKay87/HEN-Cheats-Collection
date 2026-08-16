@@ -1,0 +1,121 @@
+{
+  "name": "Hi-Fi Rush",
+  "id": "PPSA17168",
+  "version": "01.004.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "AF87F00",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "39FF00",
+          "section": 6,
+          "sectionOffset": "387F00"
+        },
+        {
+          "offset": "AF87F01",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "39FF01",
+          "section": 6,
+          "sectionOffset": "387F01"
+        },
+        {
+          "offset": "7D57000",
+          "on": "664183BF08010000017417803DEF0E230301743CC4C17A119798010000E940866CFA803DD70E230301740EC4C17A119798010000E929866CFAC4C17A109790010000C4C17A119798010000E912866CFA41C7879801000000000000E902866CFA",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "241F659",
+          "on": "E9A279930590909090",
+          "off": "C4C17A119798010000"
+        }
+      ]
+    },
+    {
+      "name": "--Inf_Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "AF87F00",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "39FF00",
+          "section": 6,
+          "sectionOffset": "387F00"
+        }
+      ]
+    },
+    {
+      "name": "--One_Hit_Kill",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "AF87F01",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "39FF01",
+          "section": 6,
+          "sectionOffset": "387F01"
+        }
+      ]
+    },
+    {
+      "name": "Inf Super",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7D57080",
+          "on": "C7800C01000000004843E95F8E16FB",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "2EBFB7F",
+          "on": "90909090",
+          "off": "C5FA1100"
+        },
+        {
+          "offset": "2EBFEE6",
+          "on": "E99571E904909090",
+          "off": "C5FA11800C010000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Junk",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7D570AF",
+          "on": "49C7C47F9698004589A728040000E9FF8EFEFA",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "2D3FFBA",
+          "on": "E9F07001059090",
+          "off": "4589A728040000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

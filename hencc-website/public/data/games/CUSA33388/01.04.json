@@ -4,9 +4,34 @@
   "version": "01.04",
   "files": [
     {
-      "sourceId": "3ba56ae5",
-      "file": "CUSA33388_01.04_3ba56ae5.json",
-      "path": "json/CUSA33388_01.04_3ba56ae5.json",
+      "sourceId": "c4a92e6c",
+      "file": "CUSA33388_01.04_c4a92e6c.json",
+      "path": "json/CUSA33388_01.04_c4a92e6c.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Ammo",
+        "Infinite Items (on craft)",
+        "Infinite Knife Durability",
+        "Infinite Ptas (on get)",
+        "Max Spinel (on Spend have 2)",
+        "Infinite Shoot range coins (on spend)",
+        "Max Score at Shoot range ",
+        "Max CP (on spend)",
+        "Infinite Health (Mercenaries)",
+        "Infinite timer (Mercenaries)"
+      ]
+    },
+    {
+      "sourceId": "cf7f72da",
+      "file": "CUSA33388_01.04_cf7f72da.json",
+      "path": "json/CUSA33388_01.04_cf7f72da.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -72,31 +97,6 @@
         "[45a] NME`s Size x0.5",
         "[45b] NME`s Size x1",
         "[45c] NME`s Size x2"
-      ]
-    },
-    {
-      "sourceId": "c4a92e6c",
-      "file": "CUSA33388_01.04_c4a92e6c.json",
-      "path": "json/CUSA33388_01.04_c4a92e6c.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Wander FW9.00"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite Health",
-        "Infinite Ammo",
-        "Infinite Items (on craft)",
-        "Infinite Knife Durability",
-        "Infinite Ptas (on get)",
-        "Max Spinel (on Spend have 2)",
-        "Infinite Shoot range coins (on spend)",
-        "Max Score at Shoot range ",
-        "Max CP (on spend)",
-        "Infinite Health (Mercenaries)",
-        "Infinite timer (Mercenaries)"
       ]
     },
     {
@@ -198,9 +198,9 @@
       ]
     },
     {
-      "sourceId": "80cbc18c",
-      "file": "CUSA33388_01.04_80cbc18c.mc4",
-      "path": "mc4/CUSA33388_01.04_80cbc18c.mc4",
+      "sourceId": "84caca3f",
+      "file": "CUSA33388_01.04_84caca3f.mc4",
+      "path": "mc4/CUSA33388_01.04_84caca3f.mc4",
       "format": "mc4",
       "process": "eboot.bin",
       "hidden": false,
@@ -286,9 +286,9 @@
       ]
     },
     {
-      "sourceId": "84caca3f",
-      "file": "CUSA33388_01.04_84caca3f.mc4",
-      "path": "mc4/CUSA33388_01.04_84caca3f.mc4",
+      "sourceId": "b6c2af43",
+      "file": "CUSA33388_01.04_b6c2af43.mc4",
+      "path": "mc4/CUSA33388_01.04_b6c2af43.mc4",
       "format": "mc4",
       "process": "eboot.bin",
       "hidden": false,

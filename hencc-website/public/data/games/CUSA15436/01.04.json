@@ -4,24 +4,6 @@
   "version": "01.04",
   "files": [
     {
-      "sourceId": "1b5c6b57",
-      "file": "CUSA15436_01.04_1b5c6b57.json",
-      "path": "json/CUSA15436_01.04_1b5c6b57.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "TylerMods | Saso"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite Health (Bleeding Kill You)",
-        "Infinite Stamina",
-        "Infinite Nourishment",
-        "Infinite Energy"
-      ]
-    },
-    {
       "sourceId": "458189eb",
       "file": "CUSA15436_01.04_458189eb.json",
       "path": "json/CUSA15436_01.04_458189eb.json",
@@ -41,6 +23,24 @@
         "99 items",
         "Groschen 9m",
         "Bleed Disabled"
+      ]
+    },
+    {
+      "sourceId": "d3efa305",
+      "file": "CUSA15436_01.04_d3efa305.json",
+      "path": "json/CUSA15436_01.04_d3efa305.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TylerMods | Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health (Bleeding Kill You)",
+        "Infinite Stamina",
+        "Infinite Nourishment",
+        "Infinite Energy"
       ]
     }
   ]

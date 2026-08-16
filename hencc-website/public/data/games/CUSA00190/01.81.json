@@ -4,6 +4,27 @@
   "version": "01.81",
   "files": [
     {
+      "sourceId": "06de9c20",
+      "file": "CUSA00190_01.81_06de9c20.mc4",
+      "path": "mc4/CUSA00190_01.81_06de9c20.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health/1 Hit Kill/Drone (MASTERCODE/MUST BE ON)",
+        "Infinite Health",
+        "1 Hit Kill",
+        "No Waiting Time For Use Drone",
+        "Infinite Ammo",
+        "No Reload/Infinite Grenades",
+        "Infinite Number Of Adrenaline (Health Regeneration)"
+      ]
+    },
+    {
       "sourceId": "21dd9735",
       "file": "CUSA00190_01.81_21dd9735.mc4",
       "path": "mc4/CUSA00190_01.81_21dd9735.mc4",
@@ -25,30 +46,9 @@
       ]
     },
     {
-      "sourceId": "a7609748",
-      "file": "CUSA00190_01.81_a7609748.mc4",
-      "path": "mc4/CUSA00190_01.81_a7609748.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Celogamez"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite Health/1 Hit Kill/Drone (MASTERCODE/MUST BE ON)",
-        "Infinite Health",
-        "1 Hit Kill",
-        "No Waiting Time For Use Drone",
-        "Infinite Ammo",
-        "No Reload/Infinite Grenades",
-        "Infinite Number Of Adrenaline (Health Regeneration)"
-      ]
-    },
-    {
-      "sourceId": "7b7d7e6f",
-      "file": "CUSA00190_01.81_7b7d7e6f.shn",
-      "path": "shn/CUSA00190_01.81_7b7d7e6f.shn",
+      "sourceId": "b8ab6814",
+      "file": "CUSA00190_01.81_b8ab6814.shn",
+      "path": "shn/CUSA00190_01.81_b8ab6814.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,

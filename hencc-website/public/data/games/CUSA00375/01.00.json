@@ -4,9 +4,9 @@
   "version": "01.00",
   "files": [
     {
-      "sourceId": "3299e5c4",
-      "file": "CUSA00375_01.00_3299e5c4.json",
-      "path": "json/CUSA00375_01.00_3299e5c4.json",
+      "sourceId": "1e7b8022",
+      "file": "CUSA00375_01.00_1e7b8022.json",
+      "path": "json/CUSA00375_01.00_1e7b8022.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -40,24 +40,6 @@
       ]
     },
     {
-      "sourceId": "0ab4f2d5",
-      "file": "CUSA00375_01.00_0ab4f2d5.mc4",
-      "path": "mc4/CUSA00375_01.00_0ab4f2d5.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Talixme"
-      ],
-      "notes": null,
-      "cheats": [
-        "Godmode",
-        "Infinite Ammo",
-        "Infinite Gel",
-        "Infinite Items"
-      ]
-    },
-    {
       "sourceId": "14b159f1",
       "file": "CUSA00375_01.00_14b159f1.mc4",
       "path": "mc4/CUSA00375_01.00_14b159f1.mc4",
@@ -76,9 +58,27 @@
       ]
     },
     {
-      "sourceId": "fdc1fa6f",
-      "file": "CUSA00375_01.00_fdc1fa6f.shn",
-      "path": "shn/CUSA00375_01.00_fdc1fa6f.shn",
+      "sourceId": "361dd20f",
+      "file": "CUSA00375_01.00_361dd20f.mc4",
+      "path": "mc4/CUSA00375_01.00_361dd20f.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Ammo",
+        "Infinite Gel",
+        "Infinite Items"
+      ]
+    },
+    {
+      "sourceId": "2a246033",
+      "file": "CUSA00375_01.00_2a246033.shn",
+      "path": "shn/CUSA00375_01.00_2a246033.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,

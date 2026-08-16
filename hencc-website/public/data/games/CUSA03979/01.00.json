@@ -4,9 +4,9 @@
   "version": "01.00",
   "files": [
     {
-      "sourceId": "8ccdf55c",
-      "file": "CUSA03979_01.00_8ccdf55c.json",
-      "path": "json/CUSA03979_01.00_8ccdf55c.json",
+      "sourceId": "caf9b843",
+      "file": "CUSA03979_01.00_caf9b843.json",
+      "path": "json/CUSA03979_01.00_caf9b843.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -44,9 +44,9 @@
       ]
     },
     {
-      "sourceId": "76150280",
-      "file": "CUSA03979_01.00_LaunchOrbis.elf_76150280.json",
-      "path": "json/CUSA03979_01.00_LaunchOrbis.elf_76150280.json",
+      "sourceId": "41d5b714",
+      "file": "CUSA03979_01.00_LaunchOrbis.elf_41d5b714.json",
+      "path": "json/CUSA03979_01.00_LaunchOrbis.elf_41d5b714.json",
       "format": "json",
       "process": "LaunchOrbis.elf",
       "hidden": false,
@@ -104,9 +104,9 @@
       ]
     },
     {
-      "sourceId": "9d20b210",
-      "file": "CUSA03979_01.00_9d20b210.shn",
-      "path": "shn/CUSA03979_01.00_9d20b210.shn",
+      "sourceId": "8765621f",
+      "file": "CUSA03979_01.00_8765621f.shn",
+      "path": "shn/CUSA03979_01.00_8765621f.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,
@@ -130,9 +130,9 @@
       ]
     },
     {
-      "sourceId": "c7610084",
-      "file": "CUSA03979_01.00_LaunchOrbis.elf_c7610084.shn",
-      "path": "shn/CUSA03979_01.00_LaunchOrbis.elf_c7610084.shn",
+      "sourceId": "86221505",
+      "file": "CUSA03979_01.00_LaunchOrbis.elf_86221505.shn",
+      "path": "shn/CUSA03979_01.00_LaunchOrbis.elf_86221505.shn",
       "format": "shn",
       "process": "LaunchOrbis.elf",
       "hidden": false,

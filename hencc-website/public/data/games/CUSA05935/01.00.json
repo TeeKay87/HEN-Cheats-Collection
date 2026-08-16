@@ -4,9 +4,9 @@
   "version": "01.00",
   "files": [
     {
-      "sourceId": "817cabbc",
-      "file": "CUSA05935_01.00_817cabbc.json",
-      "path": "json/CUSA05935_01.00_817cabbc.json",
+      "sourceId": "69217d1e",
+      "file": "CUSA05935_01.00_69217d1e.json",
+      "path": "json/CUSA05935_01.00_69217d1e.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -18,6 +18,23 @@
       "cheats": [
         "Godmode",
         "Double Studs On Pick Up",
+        "Godmode",
+        "Double Studs On Pick Up"
+      ]
+    },
+    {
+      "sourceId": "0b516548",
+      "file": "CUSA05935_01.00_harry1.elf_0b516548.json",
+      "path": "json/CUSA05935_01.00_harry1.elf_0b516548.json",
+      "format": "json",
+      "process": "harry1.elf",
+      "hidden": false,
+      "creators": [
+        "PS4Guru",
+        "Molly"
+      ],
+      "notes": null,
+      "cheats": [
         "Godmode",
         "Double Studs On Pick Up"
       ]
@@ -39,11 +56,11 @@
       ]
     },
     {
-      "sourceId": "b494a183",
-      "file": "CUSA05935_01.00_harry1.elf_b494a183.json",
-      "path": "json/CUSA05935_01.00_harry1.elf_b494a183.json",
+      "sourceId": "0537389d",
+      "file": "CUSA05935_01.00_harry2.elf_0537389d.json",
+      "path": "json/CUSA05935_01.00_harry2.elf_0537389d.json",
       "format": "json",
-      "process": "harry1.elf",
+      "process": "harry2.elf",
       "hidden": false,
       "creators": [
         "PS4Guru",
@@ -69,23 +86,6 @@
       "notes": null,
       "cheats": [
         "Godmode"
-      ]
-    },
-    {
-      "sourceId": "bebbbefe",
-      "file": "CUSA05935_01.00_harry2.elf_bebbbefe.json",
-      "path": "json/CUSA05935_01.00_harry2.elf_bebbbefe.json",
-      "format": "json",
-      "process": "harry2.elf",
-      "hidden": false,
-      "creators": [
-        "PS4Guru",
-        "Molly"
-      ],
-      "notes": null,
-      "cheats": [
-        "Godmode",
-        "Double Studs On Pick Up"
       ]
     }
   ]

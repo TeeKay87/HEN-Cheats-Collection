@@ -4,28 +4,9 @@
   "version": "01.00",
   "files": [
     {
-      "sourceId": "5a3ee7e0",
-      "file": "CUSA09243_01.00_5a3ee7e0.mc4",
-      "path": "mc4/CUSA09243_01.00_5a3ee7e0.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "TLH"
-      ],
-      "notes": null,
-      "cheats": [
-        "Health / 1 Hit",
-        "Infinite Health",
-        "1 Hit Kill",
-        "Infinite Items",
-        "Max Money on Get"
-      ]
-    },
-    {
-      "sourceId": "98d3ff08",
-      "file": "CUSA09243_01.00_98d3ff08.mc4",
-      "path": "mc4/CUSA09243_01.00_98d3ff08.mc4",
+      "sourceId": "17823304",
+      "file": "CUSA09243_01.00_17823304.mc4",
+      "path": "mc4/CUSA09243_01.00_17823304.mc4",
       "format": "mc4",
       "process": "eboot.bin",
       "hidden": false,
@@ -42,6 +23,25 @@
         "In Health",
         "Inf Money",
         "Inf Skill Gauge"
+      ]
+    },
+    {
+      "sourceId": "5a3ee7e0",
+      "file": "CUSA09243_01.00_5a3ee7e0.mc4",
+      "path": "mc4/CUSA09243_01.00_5a3ee7e0.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Health / 1 Hit",
+        "Infinite Health",
+        "1 Hit Kill",
+        "Infinite Items",
+        "Max Money on Get"
       ]
     },
     {

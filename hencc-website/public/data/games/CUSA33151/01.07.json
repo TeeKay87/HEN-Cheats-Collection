@@ -4,9 +4,9 @@
   "version": "01.07",
   "files": [
     {
-      "sourceId": "42de5a6d",
-      "file": "CUSA33151_01.07_42de5a6d.json",
-      "path": "json/CUSA33151_01.07_42de5a6d.json",
+      "sourceId": "f5536255",
+      "file": "CUSA33151_01.07_f5536255.json",
+      "path": "json/CUSA33151_01.07_f5536255.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -47,29 +47,9 @@
       ]
     },
     {
-      "sourceId": "8e4bddbc",
-      "file": "CUSA33151_01.07_8e4bddbc.mc4",
-      "path": "mc4/CUSA33151_01.07_8e4bddbc.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Saso"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite Health",
-        "Infinite Stamina",
-        "Infinite Oxygen",
-        "Mount Stamina",
-        "(99)  Skill Points / Level (On Spend)",
-        "(9999) Resources (On Use)"
-      ]
-    },
-    {
-      "sourceId": "fcc593e0",
-      "file": "CUSA33151_01.07_fcc593e0.mc4",
-      "path": "mc4/CUSA33151_01.07_fcc593e0.mc4",
+      "sourceId": "5247eb89",
+      "file": "CUSA33151_01.07_5247eb89.mc4",
+      "path": "mc4/CUSA33151_01.07_5247eb89.mc4",
       "format": "mc4",
       "process": "eboot.bin",
       "hidden": false,
@@ -87,6 +67,26 @@
         "Infinite Stamina For Mount",
         "Max Resources/Consumables/Upgrade Materials/Trade Goods (On Get)",
         "Max Skill Points On Gain"
+      ]
+    },
+    {
+      "sourceId": "8e4bddbc",
+      "file": "CUSA33151_01.07_8e4bddbc.mc4",
+      "path": "mc4/CUSA33151_01.07_8e4bddbc.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Stamina",
+        "Infinite Oxygen",
+        "Mount Stamina",
+        "(99)  Skill Points / Level (On Spend)",
+        "(9999) Resources (On Use)"
       ]
     },
     {

@@ -4,6 +4,43 @@
   "version": "01.400.000",
   "files": [
     {
+      "sourceId": "201e2361",
+      "file": "PPSA17599_01.400.000_201e2361.mc4",
+      "path": "mc4/PPSA17599_01.400.000_201e2361.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Yharnam"
+      ],
+      "notes": null,
+      "cheats": [
+        "Master Code (Must be Activated First)",
+        "Infi Health",
+        "1 Hit Kill",
+        "Exp Max (Applied After the 2nd Battle)",
+        "Max Money",
+        "All Stat 99 (Upgrade Only 1 Stat)"
+      ]
+    },
+    {
+      "sourceId": "2d29a821",
+      "file": "PPSA17599_01.400.000_2d29a821.mc4",
+      "path": "mc4/PPSA17599_01.400.000_2d29a821.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Yharnam"
+      ],
+      "notes": null,
+      "cheats": [
+        "Master Code (Must be Activated First)",
+        "Exp Max (Applied After the 2nd Battle)",
+        "Max Money"
+      ]
+    },
+    {
       "sourceId": "7567dda3",
       "file": "PPSA17599_01.400.000_7567dda3.mc4",
       "path": "mc4/PPSA17599_01.400.000_7567dda3.mc4",
@@ -21,6 +58,24 @@
         "Exp Max (Applied After the 2nd Battle)",
         "Max Money",
         "Infi Stat Resets",
+        "All Stat 99 (Upgrade Only 1 Stat)"
+      ]
+    },
+    {
+      "sourceId": "b090809e",
+      "file": "PPSA17599_01.400.000_b090809e.mc4",
+      "path": "mc4/PPSA17599_01.400.000_b090809e.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Yharnam"
+      ],
+      "notes": null,
+      "cheats": [
+        "Master Code (Must be Activated First)",
+        "Exp Max (Applied After the 2nd Battle)",
+        "Max Money",
         "All Stat 99 (Upgrade Only 1 Stat)"
       ]
     }

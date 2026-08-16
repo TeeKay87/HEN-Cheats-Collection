@@ -4,24 +4,6 @@
   "version": "01.001.030",
   "files": [
     {
-      "sourceId": "09425d4a",
-      "file": "PPSA15508_01.001.030_09425d4a.mc4",
-      "path": "mc4/PPSA15508_01.001.030_09425d4a.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Yharnam"
-      ],
-      "notes": null,
-      "cheats": [
-        "Inf Health",
-        "Invincible Mode",
-        "Inf Ammo & Items",
-        "Inf Weapon Durability"
-      ]
-    },
-    {
       "sourceId": "613b8968",
       "file": "PPSA15508_01.001.030_613b8968.mc4",
       "path": "mc4/PPSA15508_01.001.030_613b8968.mc4",
@@ -42,6 +24,24 @@
         "Infinite Silencer Ammo",
         "Infinite Focus Time",
         "Infinite Weapons Durability"
+      ]
+    },
+    {
+      "sourceId": "9d3d3f1b",
+      "file": "PPSA15508_01.001.030_9d3d3f1b.mc4",
+      "path": "mc4/PPSA15508_01.001.030_9d3d3f1b.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Yharnam"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health",
+        "Invincible Mode",
+        "Inf Ammo & Items",
+        "Inf Weapon Durability"
       ]
     }
   ]

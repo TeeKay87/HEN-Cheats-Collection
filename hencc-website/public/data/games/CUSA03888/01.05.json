@@ -4,24 +4,6 @@
   "version": "01.05",
   "files": [
     {
-      "sourceId": "7d320862",
-      "file": "CUSA03888_01.05_7d320862.mc4",
-      "path": "mc4/CUSA03888_01.05_7d320862.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Ali-mk"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite-Health",
-        "Infinite-Amber-energy",
-        "MAX + All-Items + Inf-(999)",
-        "MAX-Skills-points"
-      ]
-    },
-    {
       "sourceId": "94baaa8a",
       "file": "CUSA03888_01.05_94baaa8a.mc4",
       "path": "mc4/CUSA03888_01.05_94baaa8a.mc4",
@@ -40,9 +22,27 @@
       ]
     },
     {
-      "sourceId": "bb6b9960",
-      "file": "CUSA03888_01.05_bb6b9960.shn",
-      "path": "shn/CUSA03888_01.05_bb6b9960.shn",
+      "sourceId": "c3a3a9da",
+      "file": "CUSA03888_01.05_c3a3a9da.mc4",
+      "path": "mc4/CUSA03888_01.05_c3a3a9da.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Health",
+        "Infinite-Amber-energy",
+        "MAX + All-Items + Inf-(999)",
+        "MAX-Skills-points"
+      ]
+    },
+    {
+      "sourceId": "74dc5b05",
+      "file": "CUSA03888_01.05_74dc5b05.shn",
+      "path": "shn/CUSA03888_01.05_74dc5b05.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,

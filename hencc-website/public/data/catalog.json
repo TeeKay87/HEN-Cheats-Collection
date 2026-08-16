@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-08-16T13:53:17Z",
+  "generatedUtc": "2026-08-16T16:28:06Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -12494,6 +12494,16 @@
           ],
           "formats": [
             "json",
+            "mc4",
+            "shn"
+          ]
+        },
+        {
+          "version": "05.05",
+          "creators": [
+            "hejran7"
+          ],
+          "formats": [
             "mc4",
             "shn"
           ]
@@ -31633,7 +31643,6 @@
             "Pharaoh2k"
           ],
           "formats": [
-            "json",
             "shn"
           ]
         }
@@ -35895,9 +35904,11 @@
         {
           "version": "01.006.000",
           "creators": [
+            "Talixme",
             "Yharnam"
           ],
           "formats": [
+            "json",
             "mc4"
           ]
         }
@@ -37413,6 +37424,23 @@
       "versions": [
         {
           "version": "01.000.002",
+          "creators": [
+            "Talixme"
+          ],
+          "formats": [
+            "json"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PPSA17168",
+      "title": "Hi-Fi Rush",
+      "pinned": false,
+      "hidden": false,
+      "versions": [
+        {
+          "version": "01.004.000",
           "creators": [
             "Talixme"
           ],

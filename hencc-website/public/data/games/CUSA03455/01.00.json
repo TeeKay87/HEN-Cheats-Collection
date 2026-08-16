@@ -4,9 +4,9 @@
   "version": "01.00",
   "files": [
     {
-      "sourceId": "636be97d",
-      "file": "CUSA03455_01.00_636be97d.json",
-      "path": "json/CUSA03455_01.00_636be97d.json",
+      "sourceId": "7a8cb8ce",
+      "file": "CUSA03455_01.00_7a8cb8ce.json",
+      "path": "json/CUSA03455_01.00_7a8cb8ce.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -18,22 +18,6 @@
         "Godmode",
         "Get Skillpoints For Spending Them",
         "Infinite Health / Stamina"
-      ]
-    },
-    {
-      "sourceId": "8bde7f7f",
-      "file": "CUSA03455_01.00_8bde7f7f.json",
-      "path": "json/CUSA03455_01.00_8bde7f7f.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "DeathRGH"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite Health / Stamina",
-        "Get Skillpoints For Spending Them"
       ]
     },
     {
@@ -54,6 +38,22 @@
       ]
     },
     {
+      "sourceId": "c8339da9",
+      "file": "CUSA03455_01.00_c8339da9.json",
+      "path": "json/CUSA03455_01.00_c8339da9.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health / Stamina",
+        "Get Skillpoints For Spending Them"
+      ]
+    },
+    {
       "sourceId": "b238505e",
       "file": "CUSA03455_01.00_b238505e.mc4",
       "path": "mc4/CUSA03455_01.00_b238505e.mc4",
@@ -70,9 +70,9 @@
       ]
     },
     {
-      "sourceId": "9c2a8a90",
-      "file": "CUSA03455_01.00_9c2a8a90.shn",
-      "path": "shn/CUSA03455_01.00_9c2a8a90.shn",
+      "sourceId": "3aa4acf9",
+      "file": "CUSA03455_01.00_3aa4acf9.shn",
+      "path": "shn/CUSA03455_01.00_3aa4acf9.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,

@@ -4,30 +4,6 @@
   "version": "06.00",
   "files": [
     {
-      "sourceId": "22478964",
-      "file": "CUSA34384_06.00_22478964.mc4",
-      "path": "mc4/CUSA34384_06.00_22478964.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Celogamez"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite Health/Rage/Stum/Arrows/Throwables/Weapon Charge (MASTERCODE/MUST BE ON)",
-        "Infinite Health",
-        "Infinite Rage",
-        "1 Hit Stum",
-        "Infinite Arrows/Throwables",
-        "Infinite Weapon Charge (L1+Triangle)",
-        "No Cooldown",
-        "Max/Infinite HS/Resources/Fleeting Echoes/Mastery Seal/Spirit Seal/Divine Triunph",
-        "Max XP (Do Not Use In Valhalla)",
-        "Crystalline Fragment (100/Use Only For It)"
-      ]
-    },
-    {
       "sourceId": "a0616596",
       "file": "CUSA34384_06.00_a0616596.mc4",
       "path": "mc4/CUSA34384_06.00_a0616596.mc4",
@@ -52,9 +28,33 @@
       ]
     },
     {
-      "sourceId": "48a4b738",
-      "file": "CUSA34384_06.00_48a4b738.shn",
-      "path": "shn/CUSA34384_06.00_48a4b738.shn",
+      "sourceId": "a5a15ebf",
+      "file": "CUSA34384_06.00_a5a15ebf.mc4",
+      "path": "mc4/CUSA34384_06.00_a5a15ebf.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health/Rage/Stum/Arrows/Throwables/Weapon Charge (MASTERCODE/MUST BE ON)",
+        "Infinite Health",
+        "Infinite Rage",
+        "1 Hit Stum",
+        "Infinite Arrows/Throwables",
+        "Infinite Weapon Charge (L1+Triangle)",
+        "No Cooldown",
+        "Max/Infinite HS/Resources/Fleeting Echoes/Mastery Seal/Spirit Seal/Divine Triunph",
+        "Max XP (Do Not Use In Valhalla)",
+        "Crystalline Fragment (100/Use Only For It)"
+      ]
+    },
+    {
+      "sourceId": "f7cab985",
+      "file": "CUSA34384_06.00_f7cab985.shn",
+      "path": "shn/CUSA34384_06.00_f7cab985.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,

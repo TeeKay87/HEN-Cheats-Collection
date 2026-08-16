@@ -19,9 +19,9 @@
       ]
     },
     {
-      "sourceId": "418f5aee",
-      "file": "CUSA03173_01.00_418f5aee.json",
-      "path": "json/CUSA03173_01.00_418f5aee.json",
+      "sourceId": "f17f00bf",
+      "file": "CUSA03173_01.00_f17f00bf.json",
+      "path": "json/CUSA03173_01.00_f17f00bf.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -60,9 +60,25 @@
       ]
     },
     {
-      "sourceId": "70b32c25",
-      "file": "CUSA03173_01.00_70b32c25.mc4",
-      "path": "mc4/CUSA03173_01.00_70b32c25.mc4",
+      "sourceId": "9f564a02",
+      "file": "CUSA03173_01.00_9f564a02.mc4",
+      "path": "mc4/CUSA03173_01.00_9f564a02.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Stamina"
+      ]
+    },
+    {
+      "sourceId": "a51bcc61",
+      "file": "CUSA03173_01.00_a51bcc61.mc4",
+      "path": "mc4/CUSA03173_01.00_a51bcc61.mc4",
       "format": "mc4",
       "process": "eboot.bin",
       "hidden": false,
@@ -80,22 +96,6 @@
         "Inf Items On Use",
         "Dupe Anything In Storage Box",
         "Inf Weapon Durability",
-        "Godmode",
-        "Infinite Stamina"
-      ]
-    },
-    {
-      "sourceId": "9f564a02",
-      "file": "CUSA03173_01.00_9f564a02.mc4",
-      "path": "mc4/CUSA03173_01.00_9f564a02.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "DeathRGH"
-      ],
-      "notes": null,
-      "cheats": [
         "Godmode",
         "Infinite Stamina"
       ]

@@ -4,6 +4,23 @@
   "version": "01.33",
   "files": [
     {
+      "sourceId": "1d0339f0",
+      "file": "CUSA23827_01.33_sp23-cod.elf_1d0339f0.mc4",
+      "path": "mc4/CUSA23827_01.33_sp23-cod.elf_1d0339f0.mc4",
+      "format": "mc4",
+      "process": "sp23-cod.elf",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health",
+        "Inf Armor ",
+        "Inf Ammo / Grenade / No Reload"
+      ]
+    },
+    {
       "sourceId": "1e6a10f5",
       "file": "CUSA23827_01.33_sp23-cod.elf_1e6a10f5.mc4",
       "path": "mc4/CUSA23827_01.33_sp23-cod.elf_1e6a10f5.mc4",
@@ -21,26 +38,9 @@
       ]
     },
     {
-      "sourceId": "7891ea8b",
-      "file": "CUSA23827_01.33_sp23-cod.elf_7891ea8b.mc4",
-      "path": "mc4/CUSA23827_01.33_sp23-cod.elf_7891ea8b.mc4",
-      "format": "mc4",
-      "process": "sp23-cod.elf",
-      "hidden": false,
-      "creators": [
-        "Saso_9.00"
-      ],
-      "notes": null,
-      "cheats": [
-        "Inf Health",
-        "Inf Armor ",
-        "Inf Ammo / Grenade / No Reload"
-      ]
-    },
-    {
-      "sourceId": "e8b0c75b",
-      "file": "CUSA23827_01.33_sp23-cod.elf_e8b0c75b.mc4",
-      "path": "mc4/CUSA23827_01.33_sp23-cod.elf_e8b0c75b.mc4",
+      "sourceId": "db6d6c01",
+      "file": "CUSA23827_01.33_sp23-cod.elf_db6d6c01.mc4",
+      "path": "mc4/CUSA23827_01.33_sp23-cod.elf_db6d6c01.mc4",
       "format": "mc4",
       "process": "sp23-cod.elf",
       "hidden": false,

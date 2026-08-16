@@ -4,25 +4,6 @@
   "version": "01.01",
   "files": [
     {
-      "sourceId": "07ef91f7",
-      "file": "CUSA15306_01.01_07ef91f7.json",
-      "path": "json/CUSA15306_01.01_07ef91f7.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Celogamez_9.00"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite Health",
-        "Infinite Items",
-        "Infinite Ammo/No Reload (Use Infinite Items)",
-        "Max XP On Kill",
-        "Infinite Skill Points"
-      ]
-    },
-    {
       "sourceId": "2c5bb929",
       "file": "CUSA15306_01.01_2c5bb929.json",
       "path": "json/CUSA15306_01.01_2c5bb929.json",
@@ -36,6 +17,25 @@
       "cheats": [
         "Inf Health",
         "Inf Ammo"
+      ]
+    },
+    {
+      "sourceId": "e032a3bf",
+      "file": "CUSA15306_01.01_e032a3bf.json",
+      "path": "json/CUSA15306_01.01_e032a3bf.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Items",
+        "Infinite Ammo/No Reload (Use Infinite Items)",
+        "Max XP On Kill",
+        "Infinite Skill Points"
       ]
     }
   ]

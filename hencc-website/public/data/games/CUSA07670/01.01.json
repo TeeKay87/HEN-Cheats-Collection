@@ -4,9 +4,9 @@
   "version": "01.01",
   "files": [
     {
-      "sourceId": "d0589e9b",
-      "file": "CUSA07670_01.01_d0589e9b.json",
-      "path": "json/CUSA07670_01.01_d0589e9b.json",
+      "sourceId": "567916b1",
+      "file": "CUSA07670_01.01_567916b1.json",
+      "path": "json/CUSA07670_01.01_567916b1.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -55,9 +55,9 @@
       ]
     },
     {
-      "sourceId": "4c63920a",
-      "file": "CUSA07670_01.01_4c63920a.shn",
-      "path": "shn/CUSA07670_01.01_4c63920a.shn",
+      "sourceId": "5674240c",
+      "file": "CUSA07670_01.01_5674240c.shn",
+      "path": "shn/CUSA07670_01.01_5674240c.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,
@@ -72,9 +72,9 @@
       ]
     },
     {
-      "sourceId": "8c5a6e56",
-      "file": "CUSA07670_01.01_game.elf_8c5a6e56.shn",
-      "path": "shn/CUSA07670_01.01_game.elf_8c5a6e56.shn",
+      "sourceId": "a570f681",
+      "file": "CUSA07670_01.01_game.elf_a570f681.shn",
+      "path": "shn/CUSA07670_01.01_game.elf_a570f681.shn",
       "format": "shn",
       "process": "game.elf",
       "hidden": false,

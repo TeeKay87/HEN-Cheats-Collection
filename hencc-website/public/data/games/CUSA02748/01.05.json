@@ -4,6 +4,26 @@
   "version": "01.05",
   "files": [
     {
+      "sourceId": "1118c842",
+      "file": "CUSA02748_01.05_1118c842.json",
+      "path": "json/CUSA02748_01.05_1118c842.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TylerMods & CrazyMind"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health/Stamina/Magic",
+        "Infinite Ammo",
+        "No Reload",
+        "No Weapon Spread(Hip Fire)",
+        "No One Can Shoot",
+        "Wingsuit Infinite Boost (nop)"
+      ]
+    },
+    {
       "sourceId": "259eb76b",
       "file": "CUSA02748_01.05_259eb76b.json",
       "path": "json/CUSA02748_01.05_259eb76b.json",
@@ -26,26 +46,6 @@
       ]
     },
     {
-      "sourceId": "93a65409",
-      "file": "CUSA02748_01.05_93a65409.json",
-      "path": "json/CUSA02748_01.05_93a65409.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "TylerMods & CrazyMind"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite Health/Stamina/Magic",
-        "Infinite Ammo",
-        "No Reload",
-        "No Weapon Spread(Hip Fire)",
-        "No One Can Shoot",
-        "Wingsuit Infinite Boost (nop)"
-      ]
-    },
-    {
       "sourceId": "ffa8a677",
       "file": "CUSA02748_01.05_ffa8a677.mc4",
       "path": "mc4/CUSA02748_01.05_ffa8a677.mc4",
@@ -64,9 +64,9 @@
       ]
     },
     {
-      "sourceId": "868c243b",
-      "file": "CUSA02748_01.05_868c243b.shn",
-      "path": "shn/CUSA02748_01.05_868c243b.shn",
+      "sourceId": "dd77de34",
+      "file": "CUSA02748_01.05_dd77de34.shn",
+      "path": "shn/CUSA02748_01.05_dd77de34.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,

@@ -4,11 +4,11 @@
   "version": "01.25",
   "files": [
     {
-      "sourceId": "ff06f6ae",
-      "file": "CUSA04762_01.25_default.elf_ff06f6ae.json",
-      "path": "json/CUSA04762_01.25_default.elf_ff06f6ae.json",
+      "sourceId": "5984722c",
+      "file": "CUSA04762_01.25_5984722c.json",
+      "path": "json/CUSA04762_01.25_5984722c.json",
       "format": "json",
-      "process": "default.elf",
+      "process": "eboot.bin",
       "hidden": false,
       "creators": [
         "Celogamez"
@@ -25,11 +25,11 @@
       ]
     },
     {
-      "sourceId": "face77e2",
-      "file": "CUSA04762_01.25_face77e2.json",
-      "path": "json/CUSA04762_01.25_face77e2.json",
+      "sourceId": "ff06f6ae",
+      "file": "CUSA04762_01.25_default.elf_ff06f6ae.json",
+      "path": "json/CUSA04762_01.25_default.elf_ff06f6ae.json",
       "format": "json",
-      "process": "eboot.bin",
+      "process": "default.elf",
       "hidden": false,
       "creators": [
         "Celogamez"
@@ -89,9 +89,9 @@
       ]
     },
     {
-      "sourceId": "40f5bc36",
-      "file": "CUSA04762_01.25_40f5bc36.shn",
-      "path": "shn/CUSA04762_01.25_40f5bc36.shn",
+      "sourceId": "cf19c24d",
+      "file": "CUSA04762_01.25_cf19c24d.shn",
+      "path": "shn/CUSA04762_01.25_cf19c24d.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,
@@ -110,9 +110,9 @@
       ]
     },
     {
-      "sourceId": "18273266",
-      "file": "CUSA04762_01.25_default.elf_18273266.shn",
-      "path": "shn/CUSA04762_01.25_default.elf_18273266.shn",
+      "sourceId": "9845262f",
+      "file": "CUSA04762_01.25_default.elf_9845262f.shn",
+      "path": "shn/CUSA04762_01.25_default.elf_9845262f.shn",
       "format": "shn",
       "process": "default.elf",
       "hidden": false,

@@ -4,26 +4,6 @@
   "version": "01.005.000",
   "files": [
     {
-      "sourceId": "0af6e035",
-      "file": "PPSA02372_01.005.000_0af6e035.mc4",
-      "path": "mc4/PPSA02372_01.005.000_0af6e035.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Yharnam"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infi Health (Master Code)",
-        "1 Hit Kill (MC Required)",
-        "Infi Shield (MC Required)",
-        "Infi Ammo",
-        "Max Energy Charge",
-        "Max Gold (On Spend)"
-      ]
-    },
-    {
       "sourceId": "149a7f96",
       "file": "PPSA02372_01.005.000_149a7f96.mc4",
       "path": "mc4/PPSA02372_01.005.000_149a7f96.mc4",
@@ -42,6 +22,26 @@
         "Infinite Ammo",
         "Max Money (On Pick)",
         "Max XP/Levels/Perks (Enable After Level 3)"
+      ]
+    },
+    {
+      "sourceId": "68992beb",
+      "file": "PPSA02372_01.005.000_68992beb.mc4",
+      "path": "mc4/PPSA02372_01.005.000_68992beb.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Yharnam"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infi Health (Master Code)",
+        "1 Hit Kill (MC Required)",
+        "Infi Shield (MC Required)",
+        "Infi Ammo",
+        "Max Energy Charge",
+        "Max Gold (On Spend)"
       ]
     }
   ]

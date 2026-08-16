@@ -24,29 +24,6 @@
       ]
     },
     {
-      "sourceId": "49c3224b",
-      "file": "CUSA03980_01.02_49c3224b.mc4",
-      "path": "mc4/CUSA03980_01.02_49c3224b.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Celogamez"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite Shield",
-        "Infinite Health/1 Hit Kill (MASTERCODE/MUST BE ON)",
-        "Infinite Health",
-        "1 Hit Kill",
-        "Infinite Ammo",
-        "No Reload",
-        "Infinite Salt",
-        "Max/Infinite Money On Buy (Don't Take More Money)",
-        "Max/Infinite Lockpicks On Use"
-      ]
-    },
-    {
       "sourceId": "73ee3ce7",
       "file": "CUSA03980_01.02_73ee3ce7.mc4",
       "path": "mc4/CUSA03980_01.02_73ee3ce7.mc4",
@@ -70,9 +47,32 @@
       ]
     },
     {
-      "sourceId": "449f648e",
-      "file": "CUSA03980_01.02_449f648e.shn",
-      "path": "shn/CUSA03980_01.02_449f648e.shn",
+      "sourceId": "f00af4cf",
+      "file": "CUSA03980_01.02_f00af4cf.mc4",
+      "path": "mc4/CUSA03980_01.02_f00af4cf.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Shield",
+        "Infinite Health/1 Hit Kill (MASTERCODE/MUST BE ON)",
+        "Infinite Health",
+        "1 Hit Kill",
+        "Infinite Ammo",
+        "No Reload",
+        "Infinite Salt",
+        "Max/Infinite Money On Buy (Don't Take More Money)",
+        "Max/Infinite Lockpicks On Use"
+      ]
+    },
+    {
+      "sourceId": "6035f03e",
+      "file": "CUSA03980_01.02_6035f03e.shn",
+      "path": "shn/CUSA03980_01.02_6035f03e.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,

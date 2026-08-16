@@ -26,9 +26,29 @@
       ]
     },
     {
-      "sourceId": "8406eaf9",
-      "file": "CUSA00369_01.03_8406eaf9.json",
-      "path": "json/CUSA00369_01.03_8406eaf9.json",
+      "sourceId": "e416a66c",
+      "file": "CUSA00369_01.03_e416a66c.json",
+      "path": "json/CUSA00369_01.03_e416a66c.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Stamina",
+        "Infinite Magic ",
+        "Infinite Attribute Points (on spend)",
+        "Infinite Potions/Runes (on use)",
+        "Infinite Spell points (on spend)",
+        "Alot of Experience (on spend)"
+      ]
+    },
+    {
+      "sourceId": "efb60221",
+      "file": "CUSA00369_01.03_efb60221.json",
+      "path": "json/CUSA00369_01.03_efb60221.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -39,26 +59,6 @@
       "cheats": [
         "Max/Infinite Health",
         "Infinite Health+1 Hit Kill",
-        "Infinite Stamina",
-        "Infinite Magic ",
-        "Infinite Attribute Points (on spend)",
-        "Infinite Potions/Runes (on use)",
-        "Infinite Spell points (on spend)",
-        "Alot of Experience (on spend)"
-      ]
-    },
-    {
-      "sourceId": "8622534f",
-      "file": "CUSA00369_01.03_8622534f.json",
-      "path": "json/CUSA00369_01.03_8622534f.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Wander FW9.00"
-      ],
-      "notes": null,
-      "cheats": [
         "Infinite Stamina",
         "Infinite Magic ",
         "Infinite Attribute Points (on spend)",
@@ -99,9 +99,9 @@
       ]
     },
     {
-      "sourceId": "13ca89b1",
-      "file": "CUSA00369_01.03_13ca89b1.shn",
-      "path": "shn/CUSA00369_01.03_13ca89b1.shn",
+      "sourceId": "7bc4796f",
+      "file": "CUSA00369_01.03_7bc4796f.shn",
+      "path": "shn/CUSA00369_01.03_7bc4796f.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,

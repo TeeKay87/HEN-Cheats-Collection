@@ -4,32 +4,11 @@
   "version": "01.03",
   "files": [
     {
-      "sourceId": "c2008cf3",
-      "file": "CUSA19515_01.03_c2008cf3.json",
-      "path": "json/CUSA19515_01.03_c2008cf3.json",
+      "sourceId": "72d30b59",
+      "file": "CUSA19515_01.03_72d30b59.json",
+      "path": "json/CUSA19515_01.03_72d30b59.json",
       "format": "json",
       "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "TylerMods_9.00"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite Health(Your health will decrease, but refill)",
-        "Faster XP",
-        "Infinite Grenades",
-        "Infinite Ammo",
-        "No one can shoot",
-        "x2 Credits(Enable before gain, disable after gain)",
-        "Max Resources(Fuel,Credits,Platinum,Probes, etc)"
-      ]
-    },
-    {
-      "sourceId": "6b04a78c",
-      "file": "CUSA19515_01.03_LTCG-BioGame.elf_6b04a78c.json",
-      "path": "json/CUSA19515_01.03_LTCG-BioGame.elf_6b04a78c.json",
-      "format": "json",
-      "process": "LTCG-BioGame.elf",
       "hidden": false,
       "creators": [
         "TylerMods_9.00"
@@ -102,9 +81,26 @@
       ]
     },
     {
-      "sourceId": "8fac6a5f",
-      "file": "CUSA19515_01.03_LTCG-BioGame.elf_8fac6a5f.json",
-      "path": "json/CUSA19515_01.03_LTCG-BioGame.elf_8fac6a5f.json",
+      "sourceId": "b336b70f",
+      "file": "CUSA19515_01.03_LTCG-BioGame.elf_b336b70f.json",
+      "path": "json/CUSA19515_01.03_LTCG-BioGame.elf_b336b70f.json",
+      "format": "json",
+      "process": "LTCG-BioGame.elf",
+      "hidden": false,
+      "creators": [
+        "TylerMods_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health(Your health will decrease, but refill)",
+        "Faster XP",
+        "Infinite Grenades"
+      ]
+    },
+    {
+      "sourceId": "d62257a9",
+      "file": "CUSA19515_01.03_LTCG-BioGame.elf_d62257a9.json",
+      "path": "json/CUSA19515_01.03_LTCG-BioGame.elf_d62257a9.json",
       "format": "json",
       "process": "LTCG-BioGame.elf",
       "hidden": false,
@@ -120,9 +116,9 @@
       ]
     },
     {
-      "sourceId": "e6b7fa51",
-      "file": "CUSA19515_01.03_LTCG-BioGame.elf_e6b7fa51.json",
-      "path": "json/CUSA19515_01.03_LTCG-BioGame.elf_e6b7fa51.json",
+      "sourceId": "e5d4de11",
+      "file": "CUSA19515_01.03_LTCG-BioGame.elf_e5d4de11.json",
+      "path": "json/CUSA19515_01.03_LTCG-BioGame.elf_e5d4de11.json",
       "format": "json",
       "process": "LTCG-BioGame.elf",
       "hidden": false,
@@ -133,13 +129,17 @@
       "cheats": [
         "Infinite Health(Your health will decrease, but refill)",
         "Faster XP",
-        "Infinite Grenades"
+        "Infinite Grenades",
+        "Infinite Ammo",
+        "No one can shoot",
+        "x2 Credits(Enable before gain, disable after gain)",
+        "Max Resources(Fuel,Credits,Platinum,Probes, etc)"
       ]
     },
     {
-      "sourceId": "56d7394e",
-      "file": "CUSA19515_01.03_56d7394e.shn",
-      "path": "shn/CUSA19515_01.03_56d7394e.shn",
+      "sourceId": "c2041c15",
+      "file": "CUSA19515_01.03_c2041c15.shn",
+      "path": "shn/CUSA19515_01.03_c2041c15.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,

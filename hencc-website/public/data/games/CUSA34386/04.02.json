@@ -4,39 +4,9 @@
   "version": "04.02",
   "files": [
     {
-      "sourceId": "7f7f7c20",
-      "file": "CUSA34386_04.02_7f7f7c20.json",
-      "path": "json/CUSA34386_04.02_7f7f7c20.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Pharaoh2k"
-      ],
-      "notes": null,
-      "cheats": [
-        "God Mode (Untouchable+No Effects)",
-        "No Damage Taken",
-        "No XP,HS, Resources subtracted",
-        "No Crafting And Upgrade Limits",
-        "Infinite Arrows & Throwables",
-        "Infinite Rage",
-        "Damage Multiplier(Master Code)",
-        "5x damage",
-        "10x damage",
-        "20x damage",
-        "30x damage",
-        "40x damage",
-        "50x damage",
-        "One Hit Stun",
-        "No Talisman and Relic Cooldown",
-        "Infinite Weapon Charge (L1+Triangle)"
-      ]
-    },
-    {
-      "sourceId": "b829a99f",
-      "file": "CUSA34386_04.02_b829a99f.json",
-      "path": "json/CUSA34386_04.02_b829a99f.json",
+      "sourceId": "37c33be2",
+      "file": "CUSA34386_04.02_37c33be2.json",
+      "path": "json/CUSA34386_04.02_37c33be2.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -89,24 +59,33 @@
       ]
     },
     {
-      "sourceId": "6e8d27d7",
-      "file": "CUSA34386_04.02_6e8d27d7.mc4",
-      "path": "mc4/CUSA34386_04.02_6e8d27d7.mc4",
-      "format": "mc4",
+      "sourceId": "e70995ec",
+      "file": "CUSA34386_04.02_e70995ec.json",
+      "path": "json/CUSA34386_04.02_e70995ec.json",
+      "format": "json",
       "process": "eboot.bin",
       "hidden": false,
       "creators": [
-        "Celogamez"
+        "Pharaoh2k"
       ],
       "notes": null,
       "cheats": [
-        "(Kratos)Infinite Health/Rage (Disable Health Atreus)",
-        "(Atreus) Infinite Health/Arrows/Rage (Disable Health Kratos)",
-        "Instant Infinite Rage On First Hit Kratos/Atreus (Disable Health Both)",
-        "Infinite Throwables/Arrows",
-        "Max/Infinite XP/HS/Resources On Pick Up/Buy/Sell",
-        "Crystalline Fragment (100/Use Only For It)",
-        "No Cooldown"
+        "God Mode (Untouchable+No Effects)",
+        "No Damage Taken",
+        "No XP,HS, Resources subtracted",
+        "No Crafting And Upgrade Limits",
+        "Infinite Arrows & Throwables",
+        "Infinite Rage",
+        "Damage Multiplier(Master Code)",
+        "5x damage",
+        "10x damage",
+        "20x damage",
+        "30x damage",
+        "40x damage",
+        "50x damage",
+        "One Hit Stun",
+        "No Talisman and Relic Cooldown",
+        "Infinite Weapon Charge (L1+Triangle)"
       ]
     },
     {
@@ -124,6 +103,27 @@
         "(Kratos)Infinite Health/Rage (Disable Health Atreus)",
         "(Atreus) Infinite Health/Arrows/Rage (Disable Health Kratos)",
         "Instant Infinite Rage On First Hit Kratos/Atreus (Disable Health Both)",
+        "Max/Infinite XP/HS/Resources On Pick Up/Buy/Sell",
+        "Crystalline Fragment (100/Use Only For It)",
+        "No Cooldown"
+      ]
+    },
+    {
+      "sourceId": "eb7cb025",
+      "file": "CUSA34386_04.02_eb7cb025.mc4",
+      "path": "mc4/CUSA34386_04.02_eb7cb025.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "(Kratos)Infinite Health/Rage (Disable Health Atreus)",
+        "(Atreus) Infinite Health/Arrows/Rage (Disable Health Kratos)",
+        "Instant Infinite Rage On First Hit Kratos/Atreus (Disable Health Both)",
+        "Infinite Throwables/Arrows",
         "Max/Infinite XP/HS/Resources On Pick Up/Buy/Sell",
         "Crystalline Fragment (100/Use Only For It)",
         "No Cooldown"

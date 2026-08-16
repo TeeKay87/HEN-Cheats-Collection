@@ -4,6 +4,34 @@
   "version": "01.15",
   "files": [
     {
+      "sourceId": "c9af733d",
+      "file": "CUSA12398_01.15_c9af733d.json",
+      "path": "json/CUSA12398_01.15_c9af733d.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "No Hunger",
+        "No Thirst",
+        "Infinite Stamina",
+        "Infinite Items",
+        "Infinite Logs On Shoulder",
+        "Instant Build",
+        "Instant Kill",
+        "Super Jump",
+        "Super Speed",
+        "Infinite Jump/Fly",
+        "0 Days Survived",
+        "100 Days Survived",
+        "9999 Days Survived"
+      ]
+    },
+    {
       "sourceId": "e24429d1",
       "file": "CUSA12398_01.15_e24429d1.json",
       "path": "json/CUSA12398_01.15_e24429d1.json",
@@ -31,34 +59,6 @@
         "9999 Days Survived",
         "Disable Grass",
         "No Under Water Blur"
-      ]
-    },
-    {
-      "sourceId": "e6fd3839",
-      "file": "CUSA12398_01.15_e6fd3839.json",
-      "path": "json/CUSA12398_01.15_e6fd3839.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "DeathRGH"
-      ],
-      "notes": null,
-      "cheats": [
-        "Godmode",
-        "No Hunger",
-        "No Thirst",
-        "Infinite Stamina",
-        "Infinite Items",
-        "Infinite Logs On Shoulder",
-        "Instant Build",
-        "Instant Kill",
-        "Super Jump",
-        "Super Speed",
-        "Infinite Jump/Fly",
-        "0 Days Survived",
-        "100 Days Survived",
-        "9999 Days Survived"
       ]
     }
   ]

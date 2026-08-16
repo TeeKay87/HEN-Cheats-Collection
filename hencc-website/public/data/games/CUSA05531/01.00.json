@@ -4,9 +4,26 @@
   "version": "01.00",
   "files": [
     {
-      "sourceId": "0a89e6f3",
-      "file": "CUSA05531_01.00_0a89e6f3.json",
-      "path": "json/CUSA05531_01.00_0a89e6f3.json",
+      "sourceId": "1846f1b9",
+      "file": "CUSA05531_01.00_1846f1b9.json",
+      "path": "json/CUSA05531_01.00_1846f1b9.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "GamerX"
+      ],
+      "notes": null,
+      "cheats": [
+        "99999999 GIL",
+        "99999 HP For All Characters",
+        "Max Van XP"
+      ]
+    },
+    {
+      "sourceId": "b9a55b02",
+      "file": "CUSA05531_01.00_b9a55b02.json",
+      "path": "json/CUSA05531_01.00_b9a55b02.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -24,26 +41,9 @@
       ]
     },
     {
-      "sourceId": "ac753d80",
-      "file": "CUSA05531_01.00_ac753d80.json",
-      "path": "json/CUSA05531_01.00_ac753d80.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "GamerX"
-      ],
-      "notes": null,
-      "cheats": [
-        "99999999 GIL",
-        "99999 HP For All Characters",
-        "Max Van XP"
-      ]
-    },
-    {
-      "sourceId": "bc75d317",
-      "file": "CUSA05531_01.00_bc75d317.json",
-      "path": "json/CUSA05531_01.00_bc75d317.json",
+      "sourceId": "c7ff4f96",
+      "file": "CUSA05531_01.00_c7ff4f96.json",
+      "path": "json/CUSA05531_01.00_c7ff4f96.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,

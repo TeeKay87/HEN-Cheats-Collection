@@ -4,32 +4,9 @@
   "version": "01.00",
   "files": [
     {
-      "sourceId": "05435e2e",
-      "file": "CUSA04885_01.00_05435e2e.json",
-      "path": "json/CUSA04885_01.00_05435e2e.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "TLH"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite Health: Leon/Ada",
-        "Infinite Health: Ashley/Louis",
-        "Bottomless Clip",
-        "Infinite Ammo",
-        "Infinite PTAS",
-        "999.999 PTAS on Pick",
-        "Freeze Save-Counter",
-        "Freeze Retry-Counter",
-        "Easy Shooting Range"
-      ]
-    },
-    {
-      "sourceId": "39aca67e",
-      "file": "CUSA04885_01.00_39aca67e.json",
-      "path": "json/CUSA04885_01.00_39aca67e.json",
+      "sourceId": "3a93514a",
+      "file": "CUSA04885_01.00_3a93514a.json",
+      "path": "json/CUSA04885_01.00_3a93514a.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -46,9 +23,9 @@
       ]
     },
     {
-      "sourceId": "af8cb175",
-      "file": "CUSA04885_01.00_af8cb175.json",
-      "path": "json/CUSA04885_01.00_af8cb175.json",
+      "sourceId": "c33e69e0",
+      "file": "CUSA04885_01.00_c33e69e0.json",
+      "path": "json/CUSA04885_01.00_c33e69e0.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -101,6 +78,29 @@
       ]
     },
     {
+      "sourceId": "c71f1d1c",
+      "file": "CUSA04885_01.00_c71f1d1c.json",
+      "path": "json/CUSA04885_01.00_c71f1d1c.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health: Leon/Ada",
+        "Infinite Health: Ashley/Louis",
+        "Bottomless Clip",
+        "Infinite Ammo",
+        "Infinite PTAS",
+        "999.999 PTAS on Pick",
+        "Freeze Save-Counter",
+        "Freeze Retry-Counter",
+        "Easy Shooting Range"
+      ]
+    },
+    {
       "sourceId": "cd85f7de",
       "file": "CUSA04885_01.00_cd85f7de.json",
       "path": "json/CUSA04885_01.00_cd85f7de.json",
@@ -117,9 +117,9 @@
       ]
     },
     {
-      "sourceId": "2b641bd5",
-      "file": "CUSA04885_01.00_2b641bd5.mc4",
-      "path": "mc4/CUSA04885_01.00_2b641bd5.mc4",
+      "sourceId": "52d6adb5",
+      "file": "CUSA04885_01.00_52d6adb5.mc4",
+      "path": "mc4/CUSA04885_01.00_52d6adb5.mc4",
       "format": "mc4",
       "process": "eboot.bin",
       "hidden": false,
@@ -140,9 +140,9 @@
       ]
     },
     {
-      "sourceId": "52d6adb5",
-      "file": "CUSA04885_01.00_52d6adb5.mc4",
-      "path": "mc4/CUSA04885_01.00_52d6adb5.mc4",
+      "sourceId": "f032f26a",
+      "file": "CUSA04885_01.00_f032f26a.mc4",
+      "path": "mc4/CUSA04885_01.00_f032f26a.mc4",
       "format": "mc4",
       "process": "eboot.bin",
       "hidden": false,

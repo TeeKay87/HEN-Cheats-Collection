@@ -4,9 +4,9 @@
   "version": "01.00",
   "files": [
     {
-      "sourceId": "8f5e6eff",
-      "file": "CUSA06014_01.00_8f5e6eff.json",
-      "path": "json/CUSA06014_01.00_8f5e6eff.json",
+      "sourceId": "d2cc6d52",
+      "file": "CUSA06014_01.00_d2cc6d52.json",
+      "path": "json/CUSA06014_01.00_d2cc6d52.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -23,9 +23,9 @@
       ]
     },
     {
-      "sourceId": "d2cc6d52",
-      "file": "CUSA06014_01.00_d2cc6d52.json",
-      "path": "json/CUSA06014_01.00_d2cc6d52.json",
+      "sourceId": "ffaa7f08",
+      "file": "CUSA06014_01.00_ffaa7f08.json",
+      "path": "json/CUSA06014_01.00_ffaa7f08.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -61,6 +61,27 @@
       ]
     },
     {
+      "sourceId": "0b08a587",
+      "file": "CUSA06014_01.00_0b08a587.mc4",
+      "path": "mc4/CUSA06014_01.00_0b08a587.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode Player Left",
+        "Godmode Player Right",
+        "Money x2 Each Use",
+        "Health",
+        "Infinite Money",
+        "Player 1: Infinite Health",
+        "Player 1: 1-Hit K.O."
+      ]
+    },
+    {
       "sourceId": "9c9819c7",
       "file": "CUSA06014_01.00_9c9819c7.mc4",
       "path": "mc4/CUSA06014_01.00_9c9819c7.mc4",
@@ -78,27 +99,6 @@
         "Player 2: Infinite Health",
         "Player 1: 1-Hit K.O.",
         "Player 2: 1-Hit K.O."
-      ]
-    },
-    {
-      "sourceId": "eafd31d9",
-      "file": "CUSA06014_01.00_eafd31d9.mc4",
-      "path": "mc4/CUSA06014_01.00_eafd31d9.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Talixme"
-      ],
-      "notes": null,
-      "cheats": [
-        "Godmode Player Left",
-        "Godmode Player Right",
-        "Money x2 Each Use",
-        "Health",
-        "Infinite Money",
-        "Player 1: Infinite Health",
-        "Player 1: 1-Hit K.O."
       ]
     },
     {

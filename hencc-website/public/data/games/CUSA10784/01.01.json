@@ -4,6 +4,27 @@
   "version": "01.01",
   "files": [
     {
+      "sourceId": "6860f793",
+      "file": "CUSA10784_01.01_6860f793.mc4",
+      "path": "mc4/CUSA10784_01.01_6860f793.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible",
+        "Infinite-Health",
+        "Jump-In-Midair-Store-x",
+        "Infinite-lives",
+        "Inf-Weapons-Energy",
+        "MAX-Bolts",
+        "one-Hit-Kill"
+      ]
+    },
+    {
       "sourceId": "aa86ceb9",
       "file": "CUSA10784_01.01_aa86ceb9.mc4",
       "path": "mc4/CUSA10784_01.01_aa86ceb9.mc4",
@@ -25,30 +46,9 @@
       ]
     },
     {
-      "sourceId": "b45f063b",
-      "file": "CUSA10784_01.01_b45f063b.mc4",
-      "path": "mc4/CUSA10784_01.01_b45f063b.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Ali-mk"
-      ],
-      "notes": null,
-      "cheats": [
-        "Invincible",
-        "Infinite-Health",
-        "Jump-In-Midair-Store-x",
-        "Infinite-lives",
-        "Inf-Weapons-Energy",
-        "MAX-Bolts",
-        "one-Hit-Kill"
-      ]
-    },
-    {
-      "sourceId": "b15bd9c1",
-      "file": "CUSA10784_01.01_b15bd9c1.shn",
-      "path": "shn/CUSA10784_01.01_b15bd9c1.shn",
+      "sourceId": "22f644e8",
+      "file": "CUSA10784_01.01_22f644e8.shn",
+      "path": "shn/CUSA10784_01.01_22f644e8.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,

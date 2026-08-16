@@ -4,9 +4,9 @@
   "version": "01.05",
   "files": [
     {
-      "sourceId": "5f9c8437",
-      "file": "CUSA05662_01.05_5f9c8437.json",
-      "path": "json/CUSA05662_01.05_5f9c8437.json",
+      "sourceId": "b4e757d9",
+      "file": "CUSA05662_01.05_b4e757d9.json",
+      "path": "json/CUSA05662_01.05_b4e757d9.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -64,9 +64,9 @@
       ]
     },
     {
-      "sourceId": "da1b36e3",
-      "file": "CUSA05662_01.05_da1b36e3.shn",
-      "path": "shn/CUSA05662_01.05_da1b36e3.shn",
+      "sourceId": "fa88146d",
+      "file": "CUSA05662_01.05_fa88146d.shn",
+      "path": "shn/CUSA05662_01.05_fa88146d.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,
@@ -84,9 +84,9 @@
       ]
     },
     {
-      "sourceId": "ec8a953a",
-      "file": "CUSA05662_01.05_gz.elf_ec8a953a.shn",
-      "path": "shn/CUSA05662_01.05_gz.elf_ec8a953a.shn",
+      "sourceId": "3a77c9d1",
+      "file": "CUSA05662_01.05_gz.elf_3a77c9d1.shn",
+      "path": "shn/CUSA05662_01.05_gz.elf_3a77c9d1.shn",
       "format": "shn",
       "process": "gz.elf",
       "hidden": false,

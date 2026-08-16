@@ -4,26 +4,6 @@
   "version": "01.05",
   "files": [
     {
-      "sourceId": "160c72c4",
-      "file": "CUSA02747_01.05_160c72c4.json",
-      "path": "json/CUSA02747_01.05_160c72c4.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "TylerMods+CrazyMind"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite Health/Stamina/Magic",
-        "Infinite Ammo",
-        "No Reload",
-        "No Weapon Spread(Hip Fire)",
-        "No One Can Shoot",
-        "Wingsuit Infinite Boost (nop)"
-      ]
-    },
-    {
       "sourceId": "8db186d9",
       "file": "CUSA02747_01.05_8db186d9.json",
       "path": "json/CUSA02747_01.05_8db186d9.json",
@@ -43,6 +23,26 @@
         "No Reload",
         "Infinite Grenades",
         "Infinite Time Challenges"
+      ]
+    },
+    {
+      "sourceId": "ab3cfac1",
+      "file": "CUSA02747_01.05_ab3cfac1.json",
+      "path": "json/CUSA02747_01.05_ab3cfac1.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TylerMods+CrazyMind"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health/Stamina/Magic",
+        "Infinite Ammo",
+        "No Reload",
+        "No Weapon Spread(Hip Fire)",
+        "No One Can Shoot",
+        "Wingsuit Infinite Boost (nop)"
       ]
     }
   ]

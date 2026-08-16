@@ -4,27 +4,9 @@
   "version": "01.11",
   "files": [
     {
-      "sourceId": "0107751d",
-      "file": "CUSA18017_01.11_0107751d.json",
-      "path": "json/CUSA18017_01.11_0107751d.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "LMN"
-      ],
-      "notes": null,
-      "cheats": [
-        "Inf ammo",
-        "Inf crafting matirials",
-        "Inf white flower and First Aid Med usage ",
-        "Inf Pipe Bombs"
-      ]
-    },
-    {
-      "sourceId": "8b167e65",
-      "file": "CUSA18017_01.11_8b167e65.json",
-      "path": "json/CUSA18017_01.11_8b167e65.json",
+      "sourceId": "4053336c",
+      "file": "CUSA18017_01.11_4053336c.json",
+      "path": "json/CUSA18017_01.11_4053336c.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -40,6 +22,24 @@
         "Rapid Fire",
         "Max Lei (1 million)",
         "Max Crafting Items (on craft)"
+      ]
+    },
+    {
+      "sourceId": "ea4fd4b7",
+      "file": "CUSA18017_01.11_ea4fd4b7.json",
+      "path": "json/CUSA18017_01.11_ea4fd4b7.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "LMN"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf ammo",
+        "Inf crafting matirials",
+        "Inf white flower and First Aid Med usage ",
+        "Inf Pipe Bombs"
       ]
     },
     {

@@ -4,26 +4,9 @@
   "version": "01.02",
   "files": [
     {
-      "sourceId": "1dd61927",
-      "file": "CUSA02320_01.02_1dd61927.json",
-      "path": "json/CUSA02320_01.02_1dd61927.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Celogamez_9.00"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite Ammo/No Reload",
-        "Enable Dev Menu",
-        "No FPS On Screen"
-      ]
-    },
-    {
-      "sourceId": "4ecb8827",
-      "file": "CUSA02320_01.02_4ecb8827.json",
-      "path": "json/CUSA02320_01.02_4ecb8827.json",
+      "sourceId": "0b2d3ef5",
+      "file": "CUSA02320_01.02_0b2d3ef5.json",
+      "path": "json/CUSA02320_01.02_0b2d3ef5.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -39,9 +22,25 @@
       ]
     },
     {
-      "sourceId": "69f5fff9",
-      "file": "CUSA02320_01.02_big2-ps4_Shipping.elf_69f5fff9.json",
-      "path": "json/CUSA02320_01.02_big2-ps4_Shipping.elf_69f5fff9.json",
+      "sourceId": "9ef9af57",
+      "file": "CUSA02320_01.02_big2-ps4_Shipping.elf_9ef9af57.json",
+      "path": "json/CUSA02320_01.02_big2-ps4_Shipping.elf_9ef9af57.json",
+      "format": "json",
+      "process": "big2-ps4_Shipping.elf",
+      "hidden": false,
+      "creators": [
+        "Celogamez_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Enable Dev Menu",
+        "No FPS On Screen"
+      ]
+    },
+    {
+      "sourceId": "e82060e2",
+      "file": "CUSA02320_01.02_big2-ps4_Shipping.elf_e82060e2.json",
+      "path": "json/CUSA02320_01.02_big2-ps4_Shipping.elf_e82060e2.json",
       "format": "json",
       "process": "big2-ps4_Shipping.elf",
       "hidden": false,
@@ -56,25 +55,9 @@
       ]
     },
     {
-      "sourceId": "aa2232da",
-      "file": "CUSA02320_01.02_big2-ps4_Shipping.elf_aa2232da.json",
-      "path": "json/CUSA02320_01.02_big2-ps4_Shipping.elf_aa2232da.json",
-      "format": "json",
-      "process": "big2-ps4_Shipping.elf",
-      "hidden": false,
-      "creators": [
-        "Celogamez_9.00"
-      ],
-      "notes": null,
-      "cheats": [
-        "Enable Dev Menu",
-        "No FPS On Screen"
-      ]
-    },
-    {
-      "sourceId": "1648aa9f",
-      "file": "CUSA02320_01.02_big3-ps4_Shipping.elf_1648aa9f.json",
-      "path": "json/CUSA02320_01.02_big3-ps4_Shipping.elf_1648aa9f.json",
+      "sourceId": "8cdb3fb4",
+      "file": "CUSA02320_01.02_big3-ps4_Shipping.elf_8cdb3fb4.json",
+      "path": "json/CUSA02320_01.02_big3-ps4_Shipping.elf_8cdb3fb4.json",
       "format": "json",
       "process": "big3-ps4_Shipping.elf",
       "hidden": false,
@@ -88,9 +71,9 @@
       ]
     },
     {
-      "sourceId": "ab10fc2d",
-      "file": "CUSA02320_01.02_big3-ps4_Shipping.elf_ab10fc2d.json",
-      "path": "json/CUSA02320_01.02_big3-ps4_Shipping.elf_ab10fc2d.json",
+      "sourceId": "eb9fdb7e",
+      "file": "CUSA02320_01.02_big3-ps4_Shipping.elf_eb9fdb7e.json",
+      "path": "json/CUSA02320_01.02_big3-ps4_Shipping.elf_eb9fdb7e.json",
       "format": "json",
       "process": "big3-ps4_Shipping.elf",
       "hidden": false,
@@ -105,28 +88,20 @@
       ]
     },
     {
-      "sourceId": "39f417e9",
-      "file": "CUSA02320_01.02_39f417e9.mc4",
-      "path": "mc4/CUSA02320_01.02_39f417e9.mc4",
-      "format": "mc4",
+      "sourceId": "f482c6b8",
+      "file": "CUSA02320_01.02_f482c6b8.json",
+      "path": "json/CUSA02320_01.02_f482c6b8.json",
+      "format": "json",
       "process": "eboot.bin",
       "hidden": false,
       "creators": [
-        "hejran7"
+        "Celogamez_9.00"
       ],
       "notes": null,
       "cheats": [
-        "L3 + Upper L or Upper R Touch Pad",
-        "Enable FPS View - Hold L3",
-        "Enable Task View - Hold L3",
-        "No Reload",
-        "Inf Ammo",
-        "L3 + Upper L or Upper R Touch Pad",
-        "Enable FPS View - Hold L3",
-        "Enable Task View - Hold L3",
-        "L3 + Upper L or Upper R Touch Pad",
-        "Enable FPS View - Hold L3",
-        "Enable Task View - Hold L3"
+        "Infinite Ammo/No Reload",
+        "Enable Dev Menu",
+        "No FPS On Screen"
       ]
     },
     {
@@ -177,6 +152,31 @@
       ],
       "notes": null,
       "cheats": [
+        "L3 + Upper L or Upper R Touch Pad",
+        "Enable FPS View - Hold L3",
+        "Enable Task View - Hold L3"
+      ]
+    },
+    {
+      "sourceId": "f2ed21bf",
+      "file": "CUSA02320_01.02_f2ed21bf.mc4",
+      "path": "mc4/CUSA02320_01.02_f2ed21bf.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "hejran7"
+      ],
+      "notes": null,
+      "cheats": [
+        "L3 + Upper L or Upper R Touch Pad",
+        "Enable FPS View - Hold L3",
+        "Enable Task View - Hold L3",
+        "No Reload",
+        "Inf Ammo",
+        "L3 + Upper L or Upper R Touch Pad",
+        "Enable FPS View - Hold L3",
+        "Enable Task View - Hold L3",
         "L3 + Upper L or Upper R Touch Pad",
         "Enable FPS View - Hold L3",
         "Enable Task View - Hold L3"

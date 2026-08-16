@@ -4,28 +4,6 @@
   "version": "01.22",
   "files": [
     {
-      "sourceId": "0d6c08ab",
-      "file": "CUSA42503_01.22_0d6c08ab.mc4",
-      "path": "mc4/CUSA42503_01.22_0d6c08ab.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Ali-mk"
-      ],
-      "notes": null,
-      "cheats": [
-        "Invincible",
-        "Infinite-Health",
-        "Inf-Ammo-Never-Reload",
-        "MAX-SkillS-Points",
-        "MAX-All-Items",
-        "Infinite-Ammo",
-        "Rapid-Fire",
-        "one-Hit-Kill"
-      ]
-    },
-    {
       "sourceId": "75658206",
       "file": "CUSA42503_01.22_75658206.mc4",
       "path": "mc4/CUSA42503_01.22_75658206.mc4",
@@ -48,9 +26,31 @@
       ]
     },
     {
-      "sourceId": "0af58ed9",
-      "file": "CUSA42503_01.22_0af58ed9.shn",
-      "path": "shn/CUSA42503_01.22_0af58ed9.shn",
+      "sourceId": "c9134e7e",
+      "file": "CUSA42503_01.22_c9134e7e.mc4",
+      "path": "mc4/CUSA42503_01.22_c9134e7e.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible",
+        "Infinite-Health",
+        "Inf-Ammo-Never-Reload",
+        "MAX-SkillS-Points",
+        "MAX-All-Items",
+        "Infinite-Ammo",
+        "Rapid-Fire",
+        "one-Hit-Kill"
+      ]
+    },
+    {
+      "sourceId": "b0cffc56",
+      "file": "CUSA42503_01.22_b0cffc56.shn",
+      "path": "shn/CUSA42503_01.22_b0cffc56.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,

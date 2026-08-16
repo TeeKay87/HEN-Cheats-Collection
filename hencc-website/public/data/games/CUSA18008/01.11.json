@@ -4,35 +4,9 @@
   "version": "01.11",
   "files": [
     {
-      "sourceId": "a16a2d61",
-      "file": "CUSA18008_01.11_a16a2d61.json",
-      "path": "json/CUSA18008_01.11_a16a2d61.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "fbin, LMN & JustGotenks, merge and trad cheats by Chronoss"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite Health",
-        "Infinite Ammo",
-        "Infinite money",
-        "infinite items",
-        "Rose - Infinite Magic",
-        "Rose - Infinite Plants",
-        "Info crafting materials by LMN",
-        "Inf white flower and First Aid Med usage by LMN",
-        "Inf Pipe Bombs by LMN",
-        "Godmode by JustGotenks",
-        "One-hit Kill by JustGotenks",
-        "No Reload by JustGotenks"
-      ]
-    },
-    {
-      "sourceId": "d65f9f3e",
-      "file": "CUSA18008_01.11_d65f9f3e.json",
-      "path": "json/CUSA18008_01.11_d65f9f3e.json",
+      "sourceId": "079a0e5b",
+      "file": "CUSA18008_01.11_079a0e5b.json",
+      "path": "json/CUSA18008_01.11_079a0e5b.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -83,6 +57,32 @@
         "[38][3] Alcina's Insects Swarm Power = 30k",
         "[39][3] Alcina's Hand Power = 30k",
         "[40][3] Alcina's Ornate Vanity Power = 30k"
+      ]
+    },
+    {
+      "sourceId": "a16a2d61",
+      "file": "CUSA18008_01.11_a16a2d61.json",
+      "path": "json/CUSA18008_01.11_a16a2d61.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "fbin, LMN & JustGotenks, merge and trad cheats by Chronoss"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Ammo",
+        "Infinite money",
+        "infinite items",
+        "Rose - Infinite Magic",
+        "Rose - Infinite Plants",
+        "Info crafting materials by LMN",
+        "Inf white flower and First Aid Med usage by LMN",
+        "Inf Pipe Bombs by LMN",
+        "Godmode by JustGotenks",
+        "One-hit Kill by JustGotenks",
+        "No Reload by JustGotenks"
       ]
     },
     {
@@ -200,9 +200,9 @@
       ]
     },
     {
-      "sourceId": "8ff96e81",
-      "file": "CUSA18008_01.11_8ff96e81.mc4",
-      "path": "mc4/CUSA18008_01.11_8ff96e81.mc4",
+      "sourceId": "de0463d5",
+      "file": "CUSA18008_01.11_de0463d5.mc4",
+      "path": "mc4/CUSA18008_01.11_de0463d5.mc4",
       "format": "mc4",
       "process": "eboot.bin",
       "hidden": false,

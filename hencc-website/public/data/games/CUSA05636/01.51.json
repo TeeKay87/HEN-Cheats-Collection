@@ -4,9 +4,24 @@
   "version": "01.51",
   "files": [
     {
-      "sourceId": "220d0bfa",
-      "file": "CUSA05636_01.51_220d0bfa.json",
-      "path": "json/CUSA05636_01.51_220d0bfa.json",
+      "sourceId": "21ceb484",
+      "file": "CUSA05636_01.51_21ceb484.json",
+      "path": "json/CUSA05636_01.51_21ceb484.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TylerMods"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Ammo"
+      ]
+    },
+    {
+      "sourceId": "ce868cbb",
+      "file": "CUSA05636_01.51_ce868cbb.json",
+      "path": "json/CUSA05636_01.51_ce868cbb.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -17,21 +32,6 @@
       "cheats": [
         "Infinite Missile and Special Weapons",
         "Dont lose MRP on spend"
-      ]
-    },
-    {
-      "sourceId": "cd97bff9",
-      "file": "CUSA05636_01.51_cd97bff9.json",
-      "path": "json/CUSA05636_01.51_cd97bff9.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "TylerMods"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite Ammo"
       ]
     },
     {

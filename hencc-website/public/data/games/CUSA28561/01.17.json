@@ -26,9 +26,27 @@
       ]
     },
     {
-      "sourceId": "438bd9f2",
-      "file": "CUSA28561_01.17_438bd9f2.json",
-      "path": "json/CUSA28561_01.17_438bd9f2.json",
+      "sourceId": "b8adffde",
+      "file": "CUSA28561_01.17_b8adffde.json",
+      "path": "json/CUSA28561_01.17_b8adffde.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "FloDoc"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "OneHit Kills",
+        "TwoHit Kills",
+        "Damage x2"
+      ]
+    },
+    {
+      "sourceId": "ba7a438e",
+      "file": "CUSA28561_01.17_ba7a438e.json",
+      "path": "json/CUSA28561_01.17_ba7a438e.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -47,24 +65,6 @@
         "Infinite Aim Focus",
         "Infinite Breath",
         "Max/Infinite Skill Points"
-      ]
-    },
-    {
-      "sourceId": "b8adffde",
-      "file": "CUSA28561_01.17_b8adffde.json",
-      "path": "json/CUSA28561_01.17_b8adffde.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "FloDoc"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite Health",
-        "OneHit Kills",
-        "TwoHit Kills",
-        "Damage x2"
       ]
     },
     {

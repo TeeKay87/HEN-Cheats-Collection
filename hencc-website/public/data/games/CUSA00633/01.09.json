@@ -4,6 +4,25 @@
   "version": "01.09",
   "files": [
     {
+      "sourceId": "3ec773ab",
+      "file": "CUSA00633_01.09_3ec773ab.mc4",
+      "path": "mc4/CUSA00633_01.09_3ec773ab.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible",
+        "Infinite-Health",
+        "Inf-Ammo-NO-Reload",
+        "Infinite-Ammo",
+        "MAX + In-Ammo-999"
+      ]
+    },
+    {
       "sourceId": "5dae2ce4",
       "file": "CUSA00633_01.09_5dae2ce4.mc4",
       "path": "mc4/CUSA00633_01.09_5dae2ce4.mc4",
@@ -23,28 +42,9 @@
       ]
     },
     {
-      "sourceId": "ceec14d0",
-      "file": "CUSA00633_01.09_ceec14d0.mc4",
-      "path": "mc4/CUSA00633_01.09_ceec14d0.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Ali-mk"
-      ],
-      "notes": null,
-      "cheats": [
-        "Invincible",
-        "Infinite-Health",
-        "Inf-Ammo-NO-Reload",
-        "Infinite-Ammo",
-        "MAX + In-Ammo-999"
-      ]
-    },
-    {
-      "sourceId": "2abb3bbd",
-      "file": "CUSA00633_01.09_2abb3bbd.shn",
-      "path": "shn/CUSA00633_01.09_2abb3bbd.shn",
+      "sourceId": "76ebe9be",
+      "file": "CUSA00633_01.09_76ebe9be.shn",
+      "path": "shn/CUSA00633_01.09_76ebe9be.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,

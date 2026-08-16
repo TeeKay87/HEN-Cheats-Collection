@@ -30,9 +30,9 @@
       ]
     },
     {
-      "sourceId": "8b957a58",
-      "file": "CUSA15717_01.09_8b957a58.json",
-      "path": "json/CUSA15717_01.09_8b957a58.json",
+      "sourceId": "f97c5a61",
+      "file": "CUSA15717_01.09_f97c5a61.json",
+      "path": "json/CUSA15717_01.09_f97c5a61.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -76,6 +76,30 @@
       ]
     },
     {
+      "sourceId": "0e464611",
+      "file": "CUSA15717_01.09_0e464611.shn",
+      "path": "shn/CUSA15717_01.09_0e464611.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "JustGotenks"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode/Sprint/Underwater",
+        "Infinite Ammo/Throwables",
+        "One-hit Kill",
+        "No Reload",
+        "No Supressor Overheat",
+        "No Recoil",
+        "Super Accuracy",
+        "Teleport to space",
+        "Wanted Activator",
+        "Never Wanted"
+      ]
+    },
+    {
       "sourceId": "0ee7cc11",
       "file": "CUSA15717_01.09_0ee7cc11.shn",
       "path": "shn/CUSA15717_01.09_0ee7cc11.shn",
@@ -99,30 +123,6 @@
         "Teleport to sky",
         "Never Wanted",
         "Always Wanted"
-      ]
-    },
-    {
-      "sourceId": "a8819183",
-      "file": "CUSA15717_01.09_a8819183.shn",
-      "path": "shn/CUSA15717_01.09_a8819183.shn",
-      "format": "shn",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "JustGotenks"
-      ],
-      "notes": null,
-      "cheats": [
-        "Godmode/Sprint/Underwater",
-        "Infinite Ammo/Throwables",
-        "One-hit Kill",
-        "No Reload",
-        "No Supressor Overheat",
-        "No Recoil",
-        "Super Accuracy",
-        "Teleport to space",
-        "Wanted Activator",
-        "Never Wanted"
       ]
     }
   ]

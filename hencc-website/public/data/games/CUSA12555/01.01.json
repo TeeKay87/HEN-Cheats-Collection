@@ -28,29 +28,6 @@
       ]
     },
     {
-      "sourceId": "30dc8ce9",
-      "file": "CUSA12555_01.01_30dc8ce9.mc4",
-      "path": "mc4/CUSA12555_01.01_30dc8ce9.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Ali-mk"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite-Health",
-        "Infinite-Stamina",
-        "Invincible",
-        "Inf-scrap-metal",
-        "Inf-gold-coin",
-        "max-gold-(mc)",
-        "One-Hit-Kill",
-        "Infinite-Immunity",
-        "Freeze-Daytime"
-      ]
-    },
-    {
       "sourceId": "666f5b12",
       "file": "CUSA12555_01.01_666f5b12.mc4",
       "path": "mc4/CUSA12555_01.01_666f5b12.mc4",
@@ -74,9 +51,32 @@
       ]
     },
     {
-      "sourceId": "c63f8ed4",
-      "file": "CUSA12555_01.01_c63f8ed4.shn",
-      "path": "shn/CUSA12555_01.01_c63f8ed4.shn",
+      "sourceId": "b5220806",
+      "file": "CUSA12555_01.01_b5220806.mc4",
+      "path": "mc4/CUSA12555_01.01_b5220806.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Health",
+        "Infinite-Stamina",
+        "Invincible",
+        "Inf-scrap-metal",
+        "Inf-gold-coin",
+        "max-gold-(mc)",
+        "One-Hit-Kill",
+        "Infinite-Immunity",
+        "Freeze-Daytime"
+      ]
+    },
+    {
+      "sourceId": "52f12c74",
+      "file": "CUSA12555_01.01_52f12c74.shn",
+      "path": "shn/CUSA12555_01.01_52f12c74.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,

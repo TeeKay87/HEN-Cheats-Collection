@@ -4,28 +4,6 @@
   "version": "01.19",
   "files": [
     {
-      "sourceId": "98154a11",
-      "file": "CUSA05904_01.19_98154a11.mc4",
-      "path": "mc4/CUSA05904_01.19_98154a11.mc4",
-      "format": "mc4",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Celogamez"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite Health",
-        "Invincibility",
-        "Infinite Stamina",
-        "Infinite Breath",
-        "Infinite Ammo",
-        "No Reload",
-        "Max/Ammo/Money/Throwables (on get)",
-        "Infinite Skill Points"
-      ]
-    },
-    {
       "sourceId": "b620c018",
       "file": "CUSA05904_01.19_b620c018.mc4",
       "path": "mc4/CUSA05904_01.19_b620c018.mc4",
@@ -48,9 +26,31 @@
       ]
     },
     {
-      "sourceId": "f3500579",
-      "file": "CUSA05904_01.19_f3500579.shn",
-      "path": "shn/CUSA05904_01.19_f3500579.shn",
+      "sourceId": "c2338a5e",
+      "file": "CUSA05904_01.19_c2338a5e.mc4",
+      "path": "mc4/CUSA05904_01.19_c2338a5e.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Invincibility",
+        "Infinite Stamina",
+        "Infinite Breath",
+        "Infinite Ammo",
+        "No Reload",
+        "Max/Ammo/Money/Throwables (on get)",
+        "Infinite Skill Points"
+      ]
+    },
+    {
+      "sourceId": "59b1c44b",
+      "file": "CUSA05904_01.19_59b1c44b.shn",
+      "path": "shn/CUSA05904_01.19_59b1c44b.shn",
       "format": "shn",
       "process": "eboot.bin",
       "hidden": false,

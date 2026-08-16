@@ -4,30 +4,9 @@
   "version": "01.02",
   "files": [
     {
-      "sourceId": "bf0fd1f2",
-      "file": "CUSA13115_01.02_bf0fd1f2.json",
-      "path": "json/CUSA13115_01.02_bf0fd1f2.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "ADI"
-      ],
-      "notes": null,
-      "cheats": [
-        "God Mod",
-        "Infinite Ammo",
-        "No Reload",
-        "Money increase on Spend",
-        "Max Tech Points on Spend",
-        "Infinite Hack",
-        "No Gadget Cooldown"
-      ]
-    },
-    {
-      "sourceId": "c894d760",
-      "file": "CUSA13115_01.02_c894d760.json",
-      "path": "json/CUSA13115_01.02_c894d760.json",
+      "sourceId": "2128f383",
+      "file": "CUSA13115_01.02_2128f383.json",
+      "path": "json/CUSA13115_01.02_2128f383.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -55,6 +34,27 @@
         "Speed [1.875]",
         "Speed [1.95]",
         "Speed [2.15]"
+      ]
+    },
+    {
+      "sourceId": "bf0fd1f2",
+      "file": "CUSA13115_01.02_bf0fd1f2.json",
+      "path": "json/CUSA13115_01.02_bf0fd1f2.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "ADI"
+      ],
+      "notes": null,
+      "cheats": [
+        "God Mod",
+        "Infinite Ammo",
+        "No Reload",
+        "Money increase on Spend",
+        "Max Tech Points on Spend",
+        "Infinite Hack",
+        "No Gadget Cooldown"
       ]
     },
     {

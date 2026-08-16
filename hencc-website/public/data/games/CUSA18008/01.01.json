@@ -4,6 +4,26 @@
   "version": "01.01",
   "files": [
     {
+      "sourceId": "09dd1253",
+      "file": "CUSA18008_01.01_09dd1253.json",
+      "path": "json/CUSA18008_01.01_09dd1253.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health / Easy Kill (Master Code)",
+        "Easy Kill",
+        "999 Ammo (On Reload) /  Items",
+        "Infinite Throwables / Lock Pick (on Use)",
+        "Max Lei",
+        "Tank Canon No Cooldown"
+      ]
+    },
+    {
       "sourceId": "1d9551a6",
       "file": "CUSA18008_01.01_1d9551a6.json",
       "path": "json/CUSA18008_01.01_1d9551a6.json",
@@ -24,47 +44,9 @@
       ]
     },
     {
-      "sourceId": "2c907c7d",
-      "file": "CUSA18008_01.01_2c907c7d.json",
-      "path": "json/CUSA18008_01.01_2c907c7d.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "Saso"
-      ],
-      "notes": null,
-      "cheats": [
-        "Infinite Health / Easy Kill (Master Code)",
-        "Easy Kill",
-        "999 Ammo (On Reload) /  Items",
-        "Infinite Throwables / Lock Pick (on Use)",
-        "Max Lei",
-        "Tank Canon No Cooldown"
-      ]
-    },
-    {
-      "sourceId": "a0309914",
-      "file": "CUSA18008_01.01_a0309914.json",
-      "path": "json/CUSA18008_01.01_a0309914.json",
-      "format": "json",
-      "process": "eboot.bin",
-      "hidden": false,
-      "creators": [
-        "DeathRGH"
-      ],
-      "notes": null,
-      "cheats": [
-        "Godmode",
-        "Infinite Ammo",
-        "Infinite Lei (Money)",
-        "Infinite Crafting Items"
-      ]
-    },
-    {
-      "sourceId": "a7f3a9e9",
-      "file": "CUSA18008_01.01_a7f3a9e9.json",
-      "path": "json/CUSA18008_01.01_a7f3a9e9.json",
+      "sourceId": "507bc033",
+      "file": "CUSA18008_01.01_507bc033.json",
+      "path": "json/CUSA18008_01.01_507bc033.json",
       "format": "json",
       "process": "eboot.bin",
       "hidden": false,
@@ -95,6 +77,24 @@
         "[18c] Torchlight Intensity x8",
         "[19a] [Game Mode] Darker",
         "[19b] [Game Mode] Ultrashine"
+      ]
+    },
+    {
+      "sourceId": "a0309914",
+      "file": "CUSA18008_01.01_a0309914.json",
+      "path": "json/CUSA18008_01.01_a0309914.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Ammo",
+        "Infinite Lei (Money)",
+        "Infinite Crafting Items"
       ]
     },
     {
