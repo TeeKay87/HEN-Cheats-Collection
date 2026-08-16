@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "id": "CUSA00556",
+  "version": "01.09",
+  "files": [
+    {
+      "sourceId": "681a6591",
+      "file": "CUSA00556_01.09_681a6591.json",
+      "path": "json/CUSA00556_01.09_681a6591.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Debug Menu (Enable)",
+        "Debug Menu (Enable, No Overlay)",
+        "Debug Menu (Disable)"
+      ]
+    },
+    {
+      "sourceId": "0afcb21a",
+      "file": "CUSA00556_01.09_0afcb21a.mc4",
+      "path": "mc4/CUSA00556_01.09_0afcb21a.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Debug Menu (Enable)",
+        "Debug Menu (Enable, No Overlay)",
+        "Debug Menu (Disable)"
+      ]
+    },
+    {
+      "sourceId": "329cda7d",
+      "file": "CUSA00556_01.09_329cda7d.mc4",
+      "path": "mc4/CUSA00556_01.09_329cda7d.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Debug Menu (Enable)",
+        "Debug Menu (Disable)"
+      ]
+    },
+    {
+      "sourceId": "409ebfbf",
+      "file": "CUSA00556_01.09_409ebfbf.shn",
+      "path": "shn/CUSA00556_01.09_409ebfbf.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Debug Menu (Enable)",
+        "Debug Menu (Enable, No Overlay)",
+        "Debug Menu (Disable)"
+      ]
+    }
+  ]
+}

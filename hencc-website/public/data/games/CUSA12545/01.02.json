@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "id": "CUSA12545",
+  "version": "01.02",
+  "files": [
+    {
+      "sourceId": "a5023af4",
+      "file": "CUSA12545_01.02_a5023af4.json",
+      "path": "json/CUSA12545_01.02_a5023af4.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Molly"
+      ],
+      "notes": null,
+      "cheats": [
+        "Unlock All Ingredients",
+        "Dragons Hp"
+      ]
+    },
+    {
+      "sourceId": "f63bd2b8",
+      "file": "CUSA12545_01.02_f63bd2b8.shn",
+      "path": "shn/CUSA12545_01.02_f63bd2b8.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Molly"
+      ],
+      "notes": null,
+      "cheats": [
+        "Unlock All Ingredients",
+        "Dragons Hp"
+      ]
+    }
+  ]
+}

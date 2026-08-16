@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "CUSA34073",
+  "version": "01.09",
+  "files": [
+    {
+      "sourceId": "1178963c",
+      "file": "CUSA34073_01.09_1178963c.json",
+      "path": "json/CUSA34073_01.09_1178963c.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite AP use",
+        "infinite items (use/spend)",
+        "Infinite Stamina",
+        "Max Stardust ",
+        "Max Ability points",
+        "Max level "
+      ]
+    }
+  ]
+}

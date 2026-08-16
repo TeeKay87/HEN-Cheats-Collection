@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "CUSA28863",
+  "version": "01.10",
+  "files": [
+    {
+      "sourceId": "229b4a8e",
+      "file": "CUSA28863_01.10_229b4a8e.json",
+      "path": "json/CUSA28863_01.10_229b4a8e.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max/Infinite Health",
+        "Max/Infinite Magic",
+        "Max/Infinite Endurance",
+        "Max/Infinite Items/Potions/Arrows",
+        "Max/Infinite Runes On Start"
+      ]
+    }
+  ]
+}

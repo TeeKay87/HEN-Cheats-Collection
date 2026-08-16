@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "CUSA17812",
+  "version": "01.02",
+  "files": [
+    {
+      "sourceId": "79f7e38f",
+      "file": "CUSA17812_01.02_79f7e38f.json",
+      "path": "json/CUSA17812_01.02_79f7e38f.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Items",
+        "Infinite Ammo/No Reload (Use Infinite Items)",
+        "Max XP On 2° Kill",
+        "Infinite Skill Points"
+      ]
+    },
+    {
+      "sourceId": "a0d083c3",
+      "file": "CUSA17812_01.02_a0d083c3.shn",
+      "path": "shn/CUSA17812_01.02_a0d083c3.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Items",
+        "Infinite Ammo/No Reload (Use Infinite Items)",
+        "Max XP On 2° Kill",
+        "Infinite Skill Points"
+      ]
+    }
+  ]
+}

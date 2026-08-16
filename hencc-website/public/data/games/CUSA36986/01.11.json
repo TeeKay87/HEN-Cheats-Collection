@@ -1,0 +1,103 @@
+{
+  "schema": 1,
+  "id": "CUSA36986",
+  "version": "01.11",
+  "files": [
+    {
+      "sourceId": "f0f0f151",
+      "file": "CUSA36986_01.11_f0f0f151.json",
+      "path": "json/CUSA36986_01.11_f0f0f151.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Pharaoh2k"
+      ],
+      "notes": null,
+      "cheats": [
+        "Master Code (Must always be enabled)",
+        "Ghost Mode",
+        "God Mode",
+        "Infinite Health",
+        "Max Morale",
+        "One Hit Kill",
+        "Max Spirit",
+        "Max Genuine Qi",
+        "Infinite Buff Duration",
+        "World Speed (Master-Code)",
+        "---x0.5 Speed",
+        "---x2 Speed",
+        "---x3 Speed",
+        "---x4 Speed",
+        "Max Accolades (On Buy)",
+        "99 Dragon Cure Potions (On use)",
+        "Infinite Copper",
+        "Infinite Wizardry Spells (On use)",
+        "Infinite Throwables (On use)",
+        "Instant Beast Power Charge",
+        "Infinite Tiger Beast Duration"
+      ]
+    },
+    {
+      "sourceId": "6eabc19a",
+      "file": "CUSA36986_01.11_6eabc19a.mc4",
+      "path": "mc4/CUSA36986_01.11_6eabc19a.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Max/Infinite Dragon Cure Potion",
+        "Infinite Throwables/Items",
+        "Instant Infinite Divine Beast Gauge (Hit Enemy)",
+        "Infinite Tiger Beast Gauge",
+        "Infinite Wizardry Spell",
+        "Infinite Wizardry Spell Points",
+        "Max Moral",
+        "Infinite Buffs",
+        "Max/Infinite Accolades On Buy",
+        "Max/Infinite Coppers",
+        "Max/Infinite Genuine Qi (Gain/Use)"
+      ]
+    },
+    {
+      "sourceId": "d0581103",
+      "file": "CUSA36986_01.11_d0581103.shn",
+      "path": "shn/CUSA36986_01.11_d0581103.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Pharaoh2k"
+      ],
+      "notes": null,
+      "cheats": [
+        "Master Code (Must always be enabled)",
+        "Ghost Mode",
+        "God Mode",
+        "Infinite Health",
+        "Max Morale",
+        "One Hit Kill",
+        "Max Spirit",
+        "Max Genuine Qi",
+        "Infinite Buff Duration",
+        "World Speed (Master-Code)",
+        "---x0.5 Speed",
+        "---x2 Speed",
+        "---x3 Speed",
+        "---x4 Speed",
+        "Max Accolades (On Buy)",
+        "99 Dragon Cure Potions (On use)",
+        "Infinite Copper",
+        "Infinite Wizardry Spells (On use)",
+        "Infinite Throwables (On use)",
+        "Instant Beast Power Charge",
+        "Infinite Tiger Beast Duration"
+      ]
+    }
+  ]
+}

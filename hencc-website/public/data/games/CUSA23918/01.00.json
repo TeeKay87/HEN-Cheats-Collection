@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "id": "CUSA23918",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "a947fabc",
+      "file": "CUSA23918_01.00_a947fabc.json",
+      "path": "json/CUSA23918_01.00_a947fabc.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Health",
+        "Infinite-Lives"
+      ]
+    },
+    {
+      "sourceId": "04db7e73",
+      "file": "CUSA23918_01.00_04db7e73.shn",
+      "path": "shn/CUSA23918_01.00_04db7e73.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Health",
+        "Infinite-Lives"
+      ]
+    }
+  ]
+}

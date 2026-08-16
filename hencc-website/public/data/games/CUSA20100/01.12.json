@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "id": "CUSA20100",
+  "version": "01.12",
+  "files": [
+    {
+      "sourceId": "f25cea52",
+      "file": "CUSA20100_01.12_f25cea52.json",
+      "path": "json/CUSA20100_01.12_f25cea52.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 ",
+        " FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Money ( on gain )"
+      ]
+    },
+    {
+      "sourceId": "dfc8f479",
+      "file": "CUSA20100_01.12_dfc8f479.mc4",
+      "path": "mc4/CUSA20100_01.12_dfc8f479.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 - FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Money ( on gain )"
+      ]
+    },
+    {
+      "sourceId": "7eb8d24d",
+      "file": "CUSA20100_01.12_7eb8d24d.shn",
+      "path": "shn/CUSA20100_01.12_7eb8d24d.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 - FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Money ( on gain )"
+      ]
+    }
+  ]
+}

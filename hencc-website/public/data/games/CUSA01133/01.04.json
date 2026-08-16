@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "id": "CUSA01133",
+  "version": "01.04",
+  "files": [
+    {
+      "sourceId": "2c3460ba",
+      "file": "CUSA01133_01.04_2c3460ba.json",
+      "path": "json/CUSA01133_01.04_2c3460ba.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Bottomless Clip",
+        "Infinite Ammo",
+        "Infinite Money (Raid)",
+        "Infinite BP",
+        "Infinite Items",
+        "Infinite Health"
+      ]
+    },
+    {
+      "sourceId": "7e1b8451",
+      "file": "CUSA01133_01.04_7e1b8451.mc4",
+      "path": "mc4/CUSA01133_01.04_7e1b8451.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Bottomless Clip",
+        "Infinite Ammo",
+        "Infinite Money (Raid)",
+        "Infinite BP",
+        "Infinite Items",
+        "Infinite Health"
+      ]
+    },
+    {
+      "sourceId": "cb8d3ae4",
+      "file": "CUSA01133_01.04_cb8d3ae4.shn",
+      "path": "shn/CUSA01133_01.04_cb8d3ae4.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Bottomless Clip",
+        "Infinite Ammo",
+        "Infinite Money (Raid)",
+        "Infinite BP",
+        "Infinite Items",
+        "Infinite Health"
+      ]
+    }
+  ]
+}

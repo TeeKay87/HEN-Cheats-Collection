@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "id": "CUSA06387",
+  "version": "01.03",
+  "files": [
+    {
+      "sourceId": "7f5c6cea",
+      "file": "CUSA06387_01.03_7f5c6cea.json",
+      "path": "json/CUSA06387_01.03_7f5c6cea.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "nolberto82"
+      ],
+      "notes": null,
+      "cheats": [
+        "Hold Right-Dpad To Hit Homerun"
+      ]
+    },
+    {
+      "sourceId": "68362d03",
+      "file": "CUSA06387_01.03_68362d03.mc4",
+      "path": "mc4/CUSA06387_01.03_68362d03.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "nolberto82"
+      ],
+      "notes": null,
+      "cheats": [
+        "Hold Right-Dpad To Hit Homerun"
+      ]
+    },
+    {
+      "sourceId": "2efbc4cf",
+      "file": "CUSA06387_01.03_2efbc4cf.shn",
+      "path": "shn/CUSA06387_01.03_2efbc4cf.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "nolberto82"
+      ],
+      "notes": null,
+      "cheats": [
+        "Hold Right-Dpad To Hit Homerun"
+      ]
+    }
+  ]
+}

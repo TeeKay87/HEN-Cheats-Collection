@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "id": "CUSA07123",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "5f4dca74",
+      "file": "CUSA07123_01.00_5f4dca74.json",
+      "path": "json/CUSA07123_01.00_5f4dca74.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "ShininGami"
+      ],
+      "notes": null,
+      "cheats": [
+        "God Mode",
+        "2 hit kill",
+        "infinit Ki"
+      ]
+    },
+    {
+      "sourceId": "1650ec62",
+      "file": "CUSA07123_01.00_1650ec62.mc4",
+      "path": "mc4/CUSA07123_01.00_1650ec62.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "ShininGami"
+      ],
+      "notes": null,
+      "cheats": [
+        "Default",
+        "God Mode",
+        "2 hit kill",
+        "infinit Ki"
+      ]
+    },
+    {
+      "sourceId": "bbecc5c7",
+      "file": "CUSA07123_01.00_bbecc5c7.shn",
+      "path": "shn/CUSA07123_01.00_bbecc5c7.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "ShininGami"
+      ],
+      "notes": null,
+      "cheats": [
+        "Default",
+        "God Mode",
+        "2 hit kill",
+        "infinit Ki"
+      ]
+    }
+  ]
+}

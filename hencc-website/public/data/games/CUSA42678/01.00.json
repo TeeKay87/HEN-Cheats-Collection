@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "id": "CUSA42678",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "6ec70143",
+      "file": "CUSA42678_01.00_6ec70143.mc4",
+      "path": "mc4/CUSA42678_01.00_6ec70143.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Hearts/Health",
+        "Infinite Fishing Stamina",
+        "99 Water (while watering)",
+        "Max Coins (On sell)",
+        "90 Items (On pick up)",
+        "Instant growth 3 days plants (turn off other ones)",
+        "Instant growth 4 days plants (turn off other ones)",
+        "Instant growth 5 days plants (turn off other ones)",
+        "Instant growth 6 days plants (turn off other ones)",
+        "Instant growth for plants +6 days (turn off other ones)"
+      ]
+    },
+    {
+      "sourceId": "e7524e8a",
+      "file": "CUSA42678_01.00_e7524e8a.mc4",
+      "path": "mc4/CUSA42678_01.00_e7524e8a.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Hearts/Health",
+        "99 Water (while watering)",
+        "Max Coins (On sell)",
+        "Skip a day (effect on each time being activated)",
+        "90 Items (On pick up)"
+      ]
+    },
+    {
+      "sourceId": "7e4d1de3",
+      "file": "CUSA42678_01.00_7e4d1de3.shn",
+      "path": "shn/CUSA42678_01.00_7e4d1de3.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Hearts/Health",
+        "99 Water (while watering)",
+        "Max Coins (On sell)",
+        "Skip a day (effect on each time being activated)",
+        "90 Items (On pick up)",
+        "Infinite Fishing Stamina",
+        "Instant growth 3 days plants (turn off other ones)"
+      ]
+    }
+  ]
+}

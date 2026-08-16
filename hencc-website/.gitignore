@@ -1,0 +1,71 @@
+# Dependencies
+node_modules/
+
+# Production / Vite build output
+dist/
+dist-ssr/
+.vite/
+
+# Generated site data
+# Recreated automatically by `npm run stats` before dev/build.
+public/data/stats.json
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# Test / coverage output
+coverage/
+.nyc_output/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Local environment overrides
+# .env itself is intentionally tracked because HENCC only stores public VITE_* configuration there.
+.env.local
+.env.*.local
+
+# Vercel CLI local project data
+.vercel/
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Operating-system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Temporary / backup files
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*~
+
+# Misc caches
+.cache/
+.eslintcache
+.stylelintcache
+
+# Other
+*.bat
+README.md

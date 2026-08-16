@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "id": "CUSA02871",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "6449e900",
+      "file": "CUSA02871_01.00_6449e900.json",
+      "path": "json/CUSA02871_01.00_6449e900.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Togaman Rizla"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health",
+        "Inf Blood",
+        "Inf Wrath of Aarbron",
+        "Inf Mana (Enable only in Wisdom of Shadows)",
+        "Inf Elixir",
+        "Inf Shadow Stones"
+      ]
+    },
+    {
+      "sourceId": "2a8eae1d",
+      "file": "CUSA02871_01.00_2a8eae1d.mc4",
+      "path": "mc4/CUSA02871_01.00_2a8eae1d.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Togaman Rizla"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health",
+        "Inf Blood",
+        "Inf Wrath of Aarbron",
+        "Inf Mana (Enable only in Wisdom of Shadows)",
+        "Inf Elixir",
+        "Inf Shadow Stone"
+      ]
+    },
+    {
+      "sourceId": "59d9fee7",
+      "file": "CUSA02871_01.00_59d9fee7.shn",
+      "path": "shn/CUSA02871_01.00_59d9fee7.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Togaman Rizla"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health",
+        "Inf Blood",
+        "Inf Wrath of Aarbron",
+        "Inf Mana (Enable only in Wisdom of Shadows)",
+        "Inf Elixir",
+        "Inf Shadow Stone"
+      ]
+    }
+  ]
+}

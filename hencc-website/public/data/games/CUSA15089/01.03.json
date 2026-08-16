@@ -1,0 +1,59 @@
+{
+  "schema": 1,
+  "id": "CUSA15089",
+  "version": "01.03",
+  "files": [
+    {
+      "sourceId": "49395d0f",
+      "file": "CUSA15089_01.03_49395d0f.json",
+      "path": "json/CUSA15089_01.03_49395d0f.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 ",
+        "  FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Energy / Ammo",
+        "Max Missiles / Warheads ( you need 1 )"
+      ]
+    },
+    {
+      "sourceId": "14a1505a",
+      "file": "CUSA15089_01.03_14a1505a.mc4",
+      "path": "mc4/CUSA15089_01.03_14a1505a.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 -  FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Energy / Ammo",
+        "Max Missiles / Warheads ( you need 1 )"
+      ]
+    },
+    {
+      "sourceId": "696c08fd",
+      "file": "CUSA15089_01.03_696c08fd.shn",
+      "path": "shn/CUSA15089_01.03_696c08fd.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 -  FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Energy / Ammo",
+        "Max Missiles / Warheads ( you need 1 )"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "CUSA03309",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "97a33925",
+      "file": "CUSA03309_01.00_97a33925.json",
+      "path": "json/CUSA03309_01.00_97a33925.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Arafat"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Arrows/Clubs/spears",
+        "Infinite Throwables (use after crafting throwables)",
+        "Earn Skills On Spend",
+        "Max Skill Points (999)"
+      ]
+    }
+  ]
+}

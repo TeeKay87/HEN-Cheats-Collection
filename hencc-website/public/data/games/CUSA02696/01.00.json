@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "id": "CUSA02696",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "3cc2dc86",
+      "file": "CUSA02696_01.00_3cc2dc86.json",
+      "path": "json/CUSA02696_01.00_3cc2dc86.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Vampirex Hejran"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Items Backpack",
+        "Inf Ammo and Items Consumables",
+        "Day never increased (Use after Day1)"
+      ]
+    },
+    {
+      "sourceId": "5cc63d79",
+      "file": "CUSA02696_01.00_5cc63d79.mc4",
+      "path": "mc4/CUSA02696_01.00_5cc63d79.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Vampirex+hejran"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Items Backpack",
+        "Inf Ammo and Items Consumables",
+        "Day never increased (Use after Day1)"
+      ]
+    },
+    {
+      "sourceId": "9043e4ee",
+      "file": "CUSA02696_01.00_9043e4ee.mc4",
+      "path": "mc4/CUSA02696_01.00_9043e4ee.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Vampirex+hejran"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Items Backpack",
+        "Inf Ammo and Items Consumables",
+        "Day never increased (Use after Day1)"
+      ]
+    },
+    {
+      "sourceId": "8d09be23",
+      "file": "CUSA02696_01.00_8d09be23.shn",
+      "path": "shn/CUSA02696_01.00_8d09be23.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Vampirex+Hejran"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Items Backpack",
+        "Inf Ammo and Items Consumables",
+        "Day never increased (Use after Day1)"
+      ]
+    }
+  ]
+}

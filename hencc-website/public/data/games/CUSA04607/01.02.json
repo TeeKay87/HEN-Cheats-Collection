@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "id": "CUSA04607",
+  "version": "01.02",
+  "files": [
+    {
+      "sourceId": "0702efa3",
+      "file": "CUSA04607_01.02_0702efa3.mc4",
+      "path": "mc4/CUSA04607_01.02_0702efa3.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health / Armor / 1 Hit Kill (Master Code)",
+        "1 Hit Kill (MC)",
+        "Upgrade Points (On Use)",
+        "Freez (Bomb Timer)"
+      ]
+    },
+    {
+      "sourceId": "2036fcda",
+      "file": "CUSA04607_01.02_2036fcda.shn",
+      "path": "shn/CUSA04607_01.02_2036fcda.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health / Armor / 1 Hit Kill (Master Code)",
+        "1 Hit Kill (MC)",
+        "Upgrade Points (On Use)",
+        "Freez (Bomb Timer)"
+      ]
+    }
+  ]
+}

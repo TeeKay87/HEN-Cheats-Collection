@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "id": "CUSA02437",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "88672d5e",
+      "file": "CUSA02437_01.00_88672d5e.json",
+      "path": "json/CUSA02437_01.00_88672d5e.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Vampirexx"
+      ],
+      "notes": null,
+      "cheats": [
+        "God Mode 1P",
+        "Inf Cosmo 1P",
+        "Max Inf 7th Sense 1P",
+        "Inf Money"
+      ]
+    },
+    {
+      "sourceId": "056a0c7b",
+      "file": "CUSA02437_01.00_056a0c7b.mc4",
+      "path": "mc4/CUSA02437_01.00_056a0c7b.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Vampirexx"
+      ],
+      "notes": null,
+      "cheats": [
+        "God Mode 1P",
+        "Inf Cosmo 1P",
+        "Max Inf 7th Sense 1P",
+        "Inf Money"
+      ]
+    },
+    {
+      "sourceId": "5c9546b3",
+      "file": "CUSA02437_01.00_5c9546b3.shn",
+      "path": "shn/CUSA02437_01.00_5c9546b3.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Vampirexx"
+      ],
+      "notes": null,
+      "cheats": [
+        "God Mode 1P",
+        "Inf Cosmo 1P",
+        "Max Inf 7th Sense 1P",
+        "Inf Money"
+      ]
+    }
+  ]
+}

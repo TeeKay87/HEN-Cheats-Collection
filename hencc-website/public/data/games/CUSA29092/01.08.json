@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "id": "CUSA29092",
+  "version": "01.08",
+  "files": [
+    {
+      "sourceId": "dfc32715",
+      "file": "CUSA29092_01.08_dfc32715.json",
+      "path": "json/CUSA29092_01.08_dfc32715.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health (Campaign Mode)",
+        "Infinite Health (Zombies Mode)",
+        "Infinite Ammo / No Reload",
+        "Infinite Armor / Max Salvage (9999)",
+        "Max Money (99999)"
+      ]
+    },
+    {
+      "sourceId": "c79f597d",
+      "file": "CUSA29092_01.08_c79f597d.shn",
+      "path": "shn/CUSA29092_01.08_c79f597d.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "hejran7"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health (Zombie Mode)",
+        "Inf Ammo",
+        "No Reload",
+        "Max Cash"
+      ]
+    }
+  ]
+}

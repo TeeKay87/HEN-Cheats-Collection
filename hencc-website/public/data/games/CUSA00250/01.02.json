@@ -1,0 +1,117 @@
+{
+  "schema": 1,
+  "id": "CUSA00250",
+  "version": "01.02",
+  "files": [
+    {
+      "sourceId": "01427562",
+      "file": "CUSA00250_01.02_01427562.json",
+      "path": "json/CUSA00250_01.02_01427562.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander ",
+        " Reddevil82 ",
+        " FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Stealth Mode ( Dont touch Enemy )",
+        "Infinite Focus",
+        "Max Money ( on gain )",
+        "Infinite Items ( on gain )",
+        "One Hit Kill"
+      ]
+    },
+    {
+      "sourceId": "3a328081",
+      "file": "CUSA00250_01.02_3a328081.mc4",
+      "path": "mc4/CUSA00250_01.02_3a328081.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Stealth",
+        "Max Gold",
+        "Infinite Chainmultiplier Time",
+        "Infinite Time",
+        "Max ChainCounter",
+        "Infinite Items",
+        "Max Items",
+        "Infinite Eye"
+      ]
+    },
+    {
+      "sourceId": "a2d2dfec",
+      "file": "CUSA00250_01.02_a2d2dfec.mc4",
+      "path": "mc4/CUSA00250_01.02_a2d2dfec.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Stealth",
+        "Max Gold",
+        "Infinite Chainmultiplier Time",
+        "Infinite Time",
+        "Max ChainCounter",
+        "Infinite Items",
+        "Infinite Eye"
+      ]
+    },
+    {
+      "sourceId": "e6dd3479",
+      "file": "CUSA00250_01.02_e6dd3479.shn",
+      "path": "shn/CUSA00250_01.02_e6dd3479.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander / Reddevil82 - FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Stealth Mode ( Dont touch Enemy )",
+        "Infinite Focus",
+        "Max Money ( on gain )",
+        "Infinite Items ( on gain )",
+        "One Hit Kill"
+      ]
+    },
+    {
+      "sourceId": "eed033e4",
+      "file": "CUSA00250_01.02_eed033e4.shn",
+      "path": "shn/CUSA00250_01.02_eed033e4.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Stealth",
+        "Max Gold",
+        "Infinite Chainmultiplier Time",
+        "Infinite Time",
+        "Max ChainCounter",
+        "Infinite Items",
+        "Max Items",
+        "Infinite Eye"
+      ]
+    }
+  ]
+}

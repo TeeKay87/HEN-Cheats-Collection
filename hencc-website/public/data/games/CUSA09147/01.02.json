@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "id": "CUSA09147",
+  "version": "01.02",
+  "files": [
+    {
+      "sourceId": "26d18062",
+      "file": "CUSA09147_01.02_26d18062.json",
+      "path": "json/CUSA09147_01.02_26d18062.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Health",
+        "Infinite-All-Weapon"
+      ]
+    },
+    {
+      "sourceId": "d58380c0",
+      "file": "CUSA09147_01.02_d58380c0.shn",
+      "path": "shn/CUSA09147_01.02_d58380c0.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Health",
+        "Infinite-All-Weapon"
+      ]
+    }
+  ]
+}

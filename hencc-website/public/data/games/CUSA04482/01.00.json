@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "id": "CUSA04482",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "e742386b",
+      "file": "CUSA04482_01.00_e742386b.json",
+      "path": "json/CUSA04482_01.00_e742386b.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Weysincha"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Ammo"
+      ]
+    },
+    {
+      "sourceId": "1e0cdf24",
+      "file": "CUSA04482_01.00_1e0cdf24.mc4",
+      "path": "mc4/CUSA04482_01.00_1e0cdf24.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Weysincha"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Ammo"
+      ]
+    },
+    {
+      "sourceId": "3c6b9cec",
+      "file": "CUSA04482_01.00_3c6b9cec.mc4",
+      "path": "mc4/CUSA04482_01.00_3c6b9cec.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Armor",
+        "Infinite PSI",
+        "Infinite Stamina",
+        "Infinite Flashlight",
+        "Bottomless Clip",
+        "Infinite Items",
+        "Infinite Hack-Time",
+        "Infinite Floating",
+        "Keycard Doors always open",
+        "Instant Scan",
+        "Easy Scan Completition",
+        "No Cooldown"
+      ]
+    },
+    {
+      "sourceId": "eac74c6f",
+      "file": "CUSA04482_01.00_eac74c6f.shn",
+      "path": "shn/CUSA04482_01.00_eac74c6f.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Armor",
+        "Infinite PSI",
+        "Infinite Stamina",
+        "Infinite Flashlight",
+        "Bottomless Clip",
+        "Infinite Items",
+        "Infinite Hack-Time",
+        "Infinite Floating",
+        "Keycard Doors always open",
+        "Instant Scan",
+        "Easy Scan Completition",
+        "No Cooldown"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "id": "SLES54186",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "e5a1e905",
+      "file": "SLES54186_01.00_e5a1e905.json",
+      "path": "json/SLES54186_01.00_e5a1e905.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Health",
+        "Max-Red-Orbs-(999999)"
+      ]
+    },
+    {
+      "sourceId": "b1550bd5",
+      "file": "SLES54186_01.00_b1550bd5.shn",
+      "path": "shn/SLES54186_01.00_b1550bd5.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Health",
+        "Max-Red-Orbs-(999999)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "CUSA23090",
+  "version": "03.10",
+  "files": [
+    {
+      "sourceId": "7498461f",
+      "file": "CUSA23090_03.10_7498461f.json",
+      "path": "json/CUSA23090_03.10_7498461f.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Money Balance (on spend)",
+        "Skill points Multiplier (on spend)"
+      ]
+    }
+  ]
+}

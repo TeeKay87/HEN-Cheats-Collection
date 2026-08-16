@@ -1,0 +1,113 @@
+{
+  "schema": 1,
+  "id": "CUSA05597",
+  "version": "01.05",
+  "files": [
+    {
+      "sourceId": "89db87b1",
+      "file": "CUSA05597_01.05_89db87b1.json",
+      "path": "json/CUSA05597_01.05_89db87b1.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "hejran7"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Resources",
+        "No Reload",
+        "Steady Aim - No Recoil"
+      ]
+    },
+    {
+      "sourceId": "1bc391bd",
+      "file": "CUSA05597_01.05_gz.elf_1bc391bd.json",
+      "path": "json/CUSA05597_01.05_gz.elf_1bc391bd.json",
+      "format": "json",
+      "process": "gz.elf",
+      "hidden": false,
+      "creators": [
+        "haxso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infnite Ammo",
+        "Infinite Ammo For Silent Pistol",
+        "Infinite Silencer For Gun"
+      ]
+    },
+    {
+      "sourceId": "0daeeec2",
+      "file": "CUSA05597_01.05_0daeeec2.mc4",
+      "path": "mc4/CUSA05597_01.05_0daeeec2.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Antrax"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max GMP",
+        "Unlimited Ammo"
+      ]
+    },
+    {
+      "sourceId": "995c38b8",
+      "file": "CUSA05597_01.05_995c38b8.mc4",
+      "path": "mc4/CUSA05597_01.05_995c38b8.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Rizla"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Ammo",
+        "No Reload",
+        "Infinite Supressor",
+        "Infinite Night Vision",
+        "Max GMP on Spend",
+        "Max Resources on Sell",
+        "Max Heroism on Gain"
+      ]
+    },
+    {
+      "sourceId": "d145c2ab",
+      "file": "CUSA05597_01.05_d145c2ab.mc4",
+      "path": "mc4/CUSA05597_01.05_d145c2ab.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "hejran7"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Resources",
+        "No Reload",
+        "Steady Aim - No Recoil"
+      ]
+    },
+    {
+      "sourceId": "e1798b42",
+      "file": "CUSA05597_01.05_e1798b42.shn",
+      "path": "shn/CUSA05597_01.05_e1798b42.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "hejran7"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Resources",
+        "No Reload",
+        "Steady Aim - No Recoil"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "id": "CUSA00552",
+  "version": "01.11",
+  "files": [
+    {
+      "sourceId": "8a2325ab",
+      "file": "CUSA00552_01.11_8a2325ab.json",
+      "path": "json/CUSA00552_01.11_8a2325ab.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Parts, Skills, Items On Use (x999)",
+        "Tools Level 5 On Gain",
+        "Flashlight Does Not Turn Off",
+        "Enable Dev Menu"
+      ]
+    },
+    {
+      "sourceId": "71a5cc3a",
+      "file": "CUSA00552_01.11_71a5cc3a.mc4",
+      "path": "mc4/CUSA00552_01.11_71a5cc3a.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Parts, Skills, Items On Use (x999)",
+        "Tools Level 5 On Gain",
+        "Flashlight Does Not Turn Off",
+        "Enable Dev Menu"
+      ]
+    },
+    {
+      "sourceId": "ab0e94d4",
+      "file": "CUSA00552_01.11_ab0e94d4.mc4",
+      "path": "mc4/CUSA00552_01.11_ab0e94d4.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Parts, Skills, Items On Use (x999)",
+        "Tools Level 5 On Gain",
+        "Flashlight Does Not Turn Off",
+        "Enable Dev Menu"
+      ]
+    },
+    {
+      "sourceId": "bd60fae4",
+      "file": "CUSA00552_01.11_bd60fae4.shn",
+      "path": "shn/CUSA00552_01.11_bd60fae4.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "hejran7_illusion"
+      ],
+      "notes": null,
+      "cheats": [
+        "Dev Menu (L3 + Upper L or R Touch Pad)",
+        "Hide FPS Counter",
+        "Hide on Screen Details",
+        "Game Speed",
+        "Infinite Parts, Pills",
+        "Flashlight Never Dies",
+        "All Tools Pickup Level 5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "id": "CUSA08779",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "8185f11d",
+      "file": "CUSA08779_01.00_8185f11d.json",
+      "path": "json/CUSA08779_01.00_8185f11d.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Money",
+        "Infinite Mana",
+        "Infinite Items/Ammo"
+      ]
+    },
+    {
+      "sourceId": "9ed6f63c",
+      "file": "CUSA08779_01.00_9ed6f63c.mc4",
+      "path": "mc4/CUSA08779_01.00_9ed6f63c.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Money",
+        "Infinite Mana",
+        "Infinite Items/Ammo"
+      ]
+    },
+    {
+      "sourceId": "af35853a",
+      "file": "CUSA08779_01.00_af35853a.mc4",
+      "path": "mc4/CUSA08779_01.00_af35853a.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Money",
+        "Infinite Mana",
+        "Infinite Items/Ammo"
+      ]
+    },
+    {
+      "sourceId": "7f84dbfd",
+      "file": "CUSA08779_01.00_7f84dbfd.shn",
+      "path": "shn/CUSA08779_01.00_7f84dbfd.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Money",
+        "Infinite Mana",
+        "Infinite Items/Ammo"
+      ]
+    }
+  ]
+}

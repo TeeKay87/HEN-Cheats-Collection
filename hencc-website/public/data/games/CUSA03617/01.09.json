@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "id": "CUSA03617",
+  "version": "01.09",
+  "files": [
+    {
+      "sourceId": "ef4c0e98",
+      "file": "CUSA03617_01.09_ef4c0e98.json",
+      "path": "json/CUSA03617_01.09_ef4c0e98.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Rizla"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Armour on Gain",
+        "Infinite Ammo",
+        "No Reload",
+        "Infinite Throwables",
+        "Infinite Adrenaline",
+        "Max Wiretaps/MarkersOnUse",
+        "Earn Money on Spend",
+        "Max Current Money on Use",
+        "Max Total Money on Use"
+      ]
+    },
+    {
+      "sourceId": "1f5fce5c",
+      "file": "CUSA03617_01.09_1f5fce5c.mc4",
+      "path": "mc4/CUSA03617_01.09_1f5fce5c.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Rizla"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Armour on Gain",
+        "Infinite Ammo",
+        "No Reload",
+        "Infinite Throwables",
+        "Infinite Adrenaline",
+        "Max Wiretaps/MarkersOnUse",
+        "Earn Money on Spend",
+        "Max Current Money on Use",
+        "Max Total Money on Use"
+      ]
+    },
+    {
+      "sourceId": "5e5a2944",
+      "file": "CUSA03617_01.09_5e5a2944.shn",
+      "path": "shn/CUSA03617_01.09_5e5a2944.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Rizla"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Armour on Gain",
+        "Infinite Ammo",
+        "No Reload",
+        "Infinite Throwables",
+        "Infinite Adrenaline",
+        "Max Wiretaps/MarkersOnUse",
+        "Earn Money on Spend",
+        "Max Current Money on Use",
+        "Max Total Money on Use"
+      ]
+    }
+  ]
+}

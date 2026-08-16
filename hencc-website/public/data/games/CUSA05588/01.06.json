@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "CUSA05588",
+  "version": "01.06",
+  "files": [
+    {
+      "sourceId": "fc8cba50",
+      "file": "CUSA05588_01.06_fc8cba50.json",
+      "path": "json/CUSA05588_01.06_fc8cba50.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Lives",
+        "Infinite Dash"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "id": "CUSA02092",
+  "version": "01.11",
+  "files": [
+    {
+      "sourceId": "49de46c9",
+      "file": "CUSA02092_01.11_49de46c9.json",
+      "path": "json/CUSA02092_01.11_49de46c9.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Dioniso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health + Shield",
+        "1 Hit Kill",
+        "Infinite Ammo",
+        "Infinite Grenades (Frag+Holograms+Siphon)",
+        "Infinite Praetor Points (Need Buy Once)",
+        "Infinite Weapon Points (Need Buy Once)",
+        "Infinite Jump (Need Delta V Jump-Boots)",
+        "Infinite Rune Trial Time"
+      ]
+    },
+    {
+      "sourceId": "0a510ba7",
+      "file": "CUSA02092_01.11_0a510ba7.mc4",
+      "path": "mc4/CUSA02092_01.11_0a510ba7.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health/Shield",
+        "Infinite Ammo"
+      ]
+    },
+    {
+      "sourceId": "135b154c",
+      "file": "CUSA02092_01.11_135b154c.mc4",
+      "path": "mc4/CUSA02092_01.11_135b154c.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health/Shield",
+        "Infinite Ammo"
+      ]
+    },
+    {
+      "sourceId": "8e1f0cab",
+      "file": "CUSA02092_01.11_8e1f0cab.shn",
+      "path": "shn/CUSA02092_01.11_8e1f0cab.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health/Shield",
+        "Infinite Ammo"
+      ]
+    }
+  ]
+}

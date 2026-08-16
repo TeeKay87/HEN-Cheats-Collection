@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "id": "CUSA00419",
+  "version": "01.27",
+  "files": [
+    {
+      "sourceId": "cf669cb8",
+      "file": "CUSA00419_01.27_cf669cb8.json",
+      "path": "json/CUSA00419_01.27_cf669cb8.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Rizla"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Armour",
+        "Infinite Special Ability",
+        "Infinite Underwater Breath",
+        "Infinite Ammo",
+        "No Reload",
+        "Never Wanted",
+        "Infinite Vehicle Engine",
+        "One Hit Kill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "id": "CUSA06052",
+  "version": "01.03",
+  "files": [
+    {
+      "sourceId": "0e9b6928",
+      "file": "CUSA06052_01.03_0e9b6928.json",
+      "path": "json/CUSA06052_01.03_0e9b6928.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health (Disable At The End of The Stage) ",
+        "Max/Infinite Coins",
+        "Max/Infinite Special Hability",
+        "Infinite Secondary Weapons",
+        "Infinite Weapons Durability",
+        "Level Up On gain XP"
+      ]
+    },
+    {
+      "sourceId": "53f6870d",
+      "file": "CUSA06052_01.03_53f6870d.mc4",
+      "path": "mc4/CUSA06052_01.03_53f6870d.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health (Disable At The End of The Stage) ",
+        "Max/Infinite Coins",
+        "Max/Infinite Special Hability",
+        "Infinite Secondary Weapons",
+        "Infinite Weapons Durability",
+        "Level Up On gain XP"
+      ]
+    },
+    {
+      "sourceId": "bd397840",
+      "file": "CUSA06052_01.03_bd397840.shn",
+      "path": "shn/CUSA06052_01.03_bd397840.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health (Disable At The End of The Stage) ",
+        "Max/Infinite Coins",
+        "Max/Infinite Special Hability",
+        "Infinite Secondary Weapons",
+        "Infinite Weapons Durability",
+        "Level Up On gain XP"
+      ]
+    }
+  ]
+}

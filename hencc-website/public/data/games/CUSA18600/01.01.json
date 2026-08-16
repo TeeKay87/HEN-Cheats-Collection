@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "id": "CUSA18600",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "00b7661e",
+      "file": "CUSA18600_01.01_00b7661e.json",
+      "path": "json/CUSA18600_01.01_00b7661e.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite health",
+        "Infinite MP",
+        "Infinite Gold",
+        "Infinite skill points",
+        "Max level (after 2nd fight)",
+        "999 items in bag (On use/discard)"
+      ]
+    },
+    {
+      "sourceId": "6193aed8",
+      "file": "CUSA18600_01.01_6193aed8.mc4",
+      "path": "mc4/CUSA18600_01.01_6193aed8.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite health",
+        "Infinite MP",
+        "Infinite Gold",
+        "Infinite skill points",
+        "Max level (after 2nd fight)",
+        "999 items in bag (On use/discard)"
+      ]
+    },
+    {
+      "sourceId": "a4797708",
+      "file": "CUSA18600_01.01_a4797708.shn",
+      "path": "shn/CUSA18600_01.01_a4797708.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite health",
+        "Infinite MP",
+        "Infinite Gold",
+        "Infinite skill points",
+        "Max level (after 2nd fight)",
+        "999 items in bag (On use/discard)"
+      ]
+    }
+  ]
+}

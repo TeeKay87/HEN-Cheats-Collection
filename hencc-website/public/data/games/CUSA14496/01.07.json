@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "id": "CUSA14496",
+  "version": "01.07",
+  "files": [
+    {
+      "sourceId": "8be3a51e",
+      "file": "CUSA14496_01.07_8be3a51e.mc4",
+      "path": "mc4/CUSA14496_01.07_8be3a51e.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "GamerX2"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max+Infinite Ammo",
+        "Infinite Items",
+        "Max Resources On Gain"
+      ]
+    },
+    {
+      "sourceId": "96187b83",
+      "file": "CUSA14496_01.07_96187b83.shn",
+      "path": "shn/CUSA14496_01.07_96187b83.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "GamerX2"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max+Infinite Ammo",
+        "Infinite Items",
+        "Max Resources On Gain"
+      ]
+    }
+  ]
+}

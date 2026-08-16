@@ -1,0 +1,107 @@
+{
+  "schema": 1,
+  "id": "CUSA09171",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "9d525347",
+      "file": "CUSA09171_01.00_9d525347.json",
+      "path": "json/CUSA09171_01.00_9d525347.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Bottomless Clip",
+        "Infinite Ammo",
+        "Max Ammo",
+        "Max Clip Ammo",
+        "Infinite (Stackable-)Items",
+        "Max Items on Move (Storage)",
+        "Max Items on get",
+        "Short Animationtime for Aiming",
+        "Instant Gun-Focus",
+        "Max Items on Use"
+      ]
+    },
+    {
+      "sourceId": "1337782f",
+      "file": "CUSA09171_01.00_1337782f.mc4",
+      "path": "mc4/CUSA09171_01.00_1337782f.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Bottomless Clip",
+        "Infinite Ammo",
+        "Max Ammo",
+        "Max Clip Ammo",
+        "Infinite (Stackable-)Items",
+        "Max Items on Move (Storage)",
+        "Max Items on get",
+        "Short Animationtime for Aiming",
+        "Instant Gun-Focus",
+        "Max Items on Use"
+      ]
+    },
+    {
+      "sourceId": "ae20c5d2",
+      "file": "CUSA09171_01.00_ae20c5d2.mc4",
+      "path": "mc4/CUSA09171_01.00_ae20c5d2.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Bottomless Clip",
+        "Infinite Ammo",
+        "Max Ammo",
+        "Max Clip Ammo",
+        "Infinite (Stackable-)Items",
+        "Max Items on Move (Storage)",
+        "Max Items on get",
+        "Short Animationtime for Aiming",
+        "Instant Gun-Focus",
+        "Max Items on Use"
+      ]
+    },
+    {
+      "sourceId": "9da3bc17",
+      "file": "CUSA09171_01.00_9da3bc17.shn",
+      "path": "shn/CUSA09171_01.00_9da3bc17.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Bottomless Clip",
+        "Infinite Ammo",
+        "Max Ammo",
+        "Max Clip Ammo",
+        "Infinite (Stackable-)Items",
+        "Max Items on Move (Storage)",
+        "Max Items on get",
+        "Short Animationtime for Aiming",
+        "Instant Gun-Focus",
+        "Max Items on Use"
+      ]
+    }
+  ]
+}

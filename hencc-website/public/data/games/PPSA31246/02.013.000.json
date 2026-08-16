@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "PPSA31246",
+  "version": "02.013.000",
+  "files": [
+    {
+      "sourceId": "d471e4d7",
+      "file": "PPSA31246_02.013.000_d471e4d7.mc4",
+      "path": "mc4/PPSA31246_02.013.000_d471e4d7.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Yharnam"
+      ],
+      "notes": null,
+      "cheats": [
+        "Untouchable",
+        "Infi Health",
+        "1 Hit Kill",
+        "Infi Ammo",
+        "Infi Items",
+        "Max CP (Buy)",
+        "Save count always 1"
+      ]
+    }
+  ]
+}

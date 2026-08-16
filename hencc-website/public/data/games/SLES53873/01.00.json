@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "id": "SLES53873",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "30b0ed3b",
+      "file": "SLES53873_01.00_30b0ed3b.json",
+      "path": "json/SLES53873_01.00_30b0ed3b.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Health",
+        "Infinite-MAGIC"
+      ]
+    },
+    {
+      "sourceId": "96f59f78",
+      "file": "SLES53873_01.00_96f59f78.shn",
+      "path": "shn/SLES53873_01.00_96f59f78.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Health",
+        "Infinite-MAGIC"
+      ]
+    }
+  ]
+}

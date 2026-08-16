@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "id": "CUSA33822",
+  "version": "01.02",
+  "files": [
+    {
+      "sourceId": "09b9a35d",
+      "file": "CUSA33822_01.02_09b9a35d.json",
+      "path": "json/CUSA33822_01.02_09b9a35d.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf HP",
+        "Inf MP",
+        "Inf Money",
+        "Inf Items"
+      ]
+    },
+    {
+      "sourceId": "39d86dd6",
+      "file": "CUSA33822_01.02_39d86dd6.json",
+      "path": "json/CUSA33822_01.02_39d86dd6.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf HP",
+        "Inf MP",
+        "Inf Money",
+        "Inf Items"
+      ]
+    }
+  ]
+}

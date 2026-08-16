@@ -1,0 +1,111 @@
+{
+  "schema": 1,
+  "id": "CUSA09193",
+  "version": "01.06",
+  "files": [
+    {
+      "sourceId": "ede346fa",
+      "file": "CUSA09193_01.06_ede346fa.json",
+      "path": "json/CUSA09193_01.06_ede346fa.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "JustGotenks"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "One-hit Kill",
+        "No Reload",
+        "Max Item Count (on use/combine/reload)"
+      ]
+    },
+    {
+      "sourceId": "07f1ab7a",
+      "file": "CUSA09193_01.06_07f1ab7a.mc4",
+      "path": "mc4/CUSA09193_01.06_07f1ab7a.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "No Reload",
+        "20 Inventory Slot",
+        "Max Items (Don't Decrease)",
+        "Dup Ammo When Store On Storage",
+        "Save Always 0"
+      ]
+    },
+    {
+      "sourceId": "9d29338f",
+      "file": "CUSA09193_01.06_9d29338f.mc4",
+      "path": "mc4/CUSA09193_01.06_9d29338f.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "JustGotenks"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "One-hit Kill",
+        "No Reload",
+        "Max Item Count (on use/combine/reload)"
+      ]
+    },
+    {
+      "sourceId": "ffd7ed2c",
+      "file": "CUSA09193_01.06_ffd7ed2c.mc4",
+      "path": "mc4/CUSA09193_01.06_ffd7ed2c.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "No Reload",
+        "20 Inventory Slot",
+        "Max Items (Don't Decrease)",
+        "Dup Ammo When Store On Storage",
+        "Save Always 0",
+        "Godmode",
+        "One-hit Kill",
+        "No Reload",
+        "Max Item Count (on use/combine/reload)"
+      ]
+    },
+    {
+      "sourceId": "16134269",
+      "file": "CUSA09193_01.06_16134269.shn",
+      "path": "shn/CUSA09193_01.06_16134269.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "No Reload",
+        "20 Inventory Slot",
+        "Max Items (Don't Decrease)",
+        "Dup Ammo When Store On Storage",
+        "Save Always 0",
+        "Godmode",
+        "One-hit Kill",
+        "No Reload",
+        "Max Item Count (on use/combine/reload)"
+      ]
+    }
+  ]
+}

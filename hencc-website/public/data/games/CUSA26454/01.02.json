@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "id": "CUSA26454",
+  "version": "01.02",
+  "files": [
+    {
+      "sourceId": "9d28f182",
+      "file": "CUSA26454_01.02_9d28f182.json",
+      "path": "json/CUSA26454_01.02_9d28f182.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 ",
+        " FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Mastercode Health ( must be activated )",
+        "Godmode",
+        "Infinite Health [MC]",
+        "One Hit Kill [MC] ( Disable Anesthetize )",
+        "Enemies only Anesthetize [MC] ( Disable One Hit Kill )",
+        "Infinite Stamina",
+        "Infinite Ammo",
+        "No Reload ( Weapon )",
+        "Freeze Enemies"
+      ]
+    },
+    {
+      "sourceId": "e3c4b807",
+      "file": "CUSA26454_01.02_e3c4b807.mc4",
+      "path": "mc4/CUSA26454_01.02_e3c4b807.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 - FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Mastercode Health ( must be activated )",
+        "Godmode",
+        "Infinite Health [MC]",
+        "One Hit Kill [MC] ( Disable Anesthetize )",
+        "Enemies only Anesthetize [MC] ( Disable One Hit Kill )",
+        "Infinite Stamina",
+        "Infinite Ammo",
+        "No Reload ( Weapon )",
+        "Freeze Enemies"
+      ]
+    },
+    {
+      "sourceId": "e35400ff",
+      "file": "CUSA26454_01.02_e35400ff.shn",
+      "path": "shn/CUSA26454_01.02_e35400ff.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 - FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Mastercode Health ( must be activated )",
+        "Godmode",
+        "Infinite Health [MC]",
+        "One Hit Kill [MC] ( Disable Anesthetize )",
+        "Infinite Stamina",
+        "Infinite Ammo",
+        "No Reload ( Weapon )",
+        "Freeze Enemies"
+      ]
+    }
+  ]
+}

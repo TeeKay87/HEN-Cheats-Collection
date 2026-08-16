@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "id": "CUSA25761",
+  "version": "01.16",
+  "files": [
+    {
+      "sourceId": "0c9279ca",
+      "file": "CUSA25761_01.16_0c9279ca.json",
+      "path": "json/CUSA25761_01.16_0c9279ca.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite health",
+        "Max Experience/Score (on the second fight Turn off after)"
+      ]
+    },
+    {
+      "sourceId": "923f80ae",
+      "file": "CUSA25761_01.16_923f80ae.mc4",
+      "path": "mc4/CUSA25761_01.16_923f80ae.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite health",
+        "Max Experience/Score (on the second fight Turn off after)"
+      ]
+    },
+    {
+      "sourceId": "e5892ef2",
+      "file": "CUSA25761_01.16_e5892ef2.shn",
+      "path": "shn/CUSA25761_01.16_e5892ef2.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite health",
+        "Max Experience/Score (on the second fight Turn off after)"
+      ]
+    }
+  ]
+}

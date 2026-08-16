@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "id": "CUSA13338",
+  "version": "01.02",
+  "files": [
+    {
+      "sourceId": "00a7c29c",
+      "file": "CUSA13338_01.02_00a7c29c.json",
+      "path": "json/CUSA13338_01.02_00a7c29c.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "GamerX2 | hanakuso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Ammo+Fuel"
+      ]
+    },
+    {
+      "sourceId": "135b19ec",
+      "file": "CUSA13338_01.02_135b19ec.mc4",
+      "path": "mc4/CUSA13338_01.02_135b19ec.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "GamerX2"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Ammo+Fuel"
+      ]
+    },
+    {
+      "sourceId": "afaa31b3",
+      "file": "CUSA13338_01.02_afaa31b3.shn",
+      "path": "shn/CUSA13338_01.02_afaa31b3.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "GamerX2"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Ammo+Fuel"
+      ]
+    }
+  ]
+}

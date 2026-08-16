@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "PPSA15186",
+  "version": "01.000.003",
+  "files": [
+    {
+      "sourceId": "748c804b",
+      "file": "PPSA15186_01.000.003_748c804b.mc4",
+      "path": "mc4/PPSA15186_01.000.003_748c804b.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Aigars Uze"
+      ],
+      "notes": null,
+      "cheats": [
+        "Sets ability points and poitions to 999 on use",
+        "Infinite Health"
+      ]
+    }
+  ]
+}

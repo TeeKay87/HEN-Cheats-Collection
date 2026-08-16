@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "id": "SCUS94467",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "2cec802f",
+      "file": "SCUS94467_01.00_2cec802f.json",
+      "path": "json/SCUS94467_01.00_2cec802f.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Skal"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Lives",
+        "Max gems",
+        "Max eggs"
+      ]
+    },
+    {
+      "sourceId": "7c9ef4c8",
+      "file": "SCUS94467_01.00_7c9ef4c8.json",
+      "path": "json/SCUS94467_01.00_7c9ef4c8.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Health",
+        "Infinite-lives"
+      ]
+    },
+    {
+      "sourceId": "9d0ffaee",
+      "file": "SCUS94467_01.00_9d0ffaee.shn",
+      "path": "shn/SCUS94467_01.00_9d0ffaee.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Health",
+        "Infinite-lives"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "id": "CUSA08368",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "3c9aec2c",
+      "file": "CUSA08368_01.00_3c9aec2c.mc4",
+      "path": "mc4/CUSA08368_01.00_3c9aec2c.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Rizla"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Ammo",
+        "No Reload",
+        "HeartRate Always Calm",
+        "No Visability",
+        "Silent Footsteps",
+        "No Background Noise",
+        "Max XP on Gain (Get XP Twice for Unlocks)",
+        "Max Skill Points on Spend",
+        "x2 Skill Points on Spend",
+        "Max SP/PP when Reset",
+        "x2 Perk Points on Spend",
+        "Max Money on Gain",
+        "x2 Money on Spend",
+        "No Skill Cooldown",
+        "Freeze Backpack Weight",
+        "No Bow Fatigue",
+        "Inf Glowing Animals Once Spotted",
+        "Max Rifle Score (Get Rifle Kill)",
+        "Max Handgun Score (Get Handgun Kill)",
+        "Max Shotgun Score (Get Shotgun Kill)",
+        "Max Arrow Score (Get Arrow Kill)"
+      ]
+    },
+    {
+      "sourceId": "adc5d80a",
+      "file": "CUSA08368_01.00_adc5d80a.shn",
+      "path": "shn/CUSA08368_01.00_adc5d80a.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Rizla"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Ammo",
+        "No Reload",
+        "HeartRate Always Calm",
+        "No Visability",
+        "Silent Footsteps",
+        "No Background Noise",
+        "Max XP on Gain (Get XP Twice for Unlocks)",
+        "Max Skill Points on Spend",
+        "x2 Skill Points on Spend",
+        "Max SP/PP when Reset",
+        "x2 Perk Points on Spend",
+        "Max Money on Gain",
+        "x2 Money on Spend",
+        "No Skill Cooldown",
+        "Freeze Backpack Weight",
+        "No Bow Fatigue",
+        "Inf Glowing Animals Once Spotted",
+        "Max Rifle Score (Get Rifle Kill)",
+        "Max Handgun Score (Get Handgun Kill)",
+        "Max Shotgun Score (Get Shotgun Kill)",
+        "Max Arrow Score (Get Arrow Kill)"
+      ]
+    }
+  ]
+}

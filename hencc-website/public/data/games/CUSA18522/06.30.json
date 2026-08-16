@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "id": "CUSA18522",
+  "version": "06.30",
+  "files": [
+    {
+      "sourceId": "12ee6500",
+      "file": "CUSA18522_06.30_12ee6500.json",
+      "path": "json/CUSA18522_06.30_12ee6500.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite health",
+        "Infinite Stamina",
+        "All Ressource/Arrows/money(on use/buy)"
+      ]
+    }
+  ]
+}

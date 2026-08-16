@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "id": "CUSA04126",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "08c00a89",
+      "file": "CUSA04126_01.00_08c00a89.mc4",
+      "path": "mc4/CUSA04126_01.00_08c00a89.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Molly"
+      ],
+      "notes": null,
+      "cheats": [
+        "No Moves"
+      ]
+    },
+    {
+      "sourceId": "c484ef8d",
+      "file": "CUSA04126_01.00_c484ef8d.shn",
+      "path": "shn/CUSA04126_01.00_c484ef8d.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Molly"
+      ],
+      "notes": null,
+      "cheats": [
+        "No Moves"
+      ]
+    }
+  ]
+}

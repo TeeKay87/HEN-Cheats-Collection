@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "id": "PPSA10053",
+  "version": "01.005.000",
+  "files": [
+    {
+      "sourceId": "29c1c0ba",
+      "file": "PPSA10053_01.005.000_29c1c0ba.json",
+      "path": "json/PPSA10053_01.005.000_29c1c0ba.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Items",
+        "Inf Medkit",
+        "Inf Super"
+      ]
+    },
+    {
+      "sourceId": "10fd6692",
+      "file": "PPSA10053_01.005.000_10fd6692.mc4",
+      "path": "mc4/PPSA10053_01.005.000_10fd6692.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Yharnam"
+      ],
+      "notes": null,
+      "cheats": [
+        "Untouchable",
+        "Max Items & Money",
+        "Infi Healing Potion",
+        "Infi Skill Gauge"
+      ]
+    },
+    {
+      "sourceId": "46b04b2e",
+      "file": "PPSA10053_01.005.000_46b04b2e.mc4",
+      "path": "mc4/PPSA10053_01.005.000_46b04b2e.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Yharnam"
+      ],
+      "notes": null,
+      "cheats": [
+        "God Mode",
+        "Infi Rifle (No Reload)",
+        "Max Items & Money & Skill Point",
+        "Infi Healing Potion",
+        "Infi Skill Gauge"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "schema": 1,
+  "id": "CUSA06014",
+  "version": "01.12",
+  "files": [
+    {
+      "sourceId": "4e4d2cac",
+      "file": "CUSA06014_01.12_4e4d2cac.mc4",
+      "path": "mc4/CUSA06014_01.12_4e4d2cac.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Health",
+        "Infinite Money",
+        "Player 1: Infinite Health",
+        "Player 1: 1-Hit K.O."
+      ]
+    },
+    {
+      "sourceId": "ad1bf87d",
+      "file": "CUSA06014_01.12_ad1bf87d.mc4",
+      "path": "mc4/CUSA06014_01.12_ad1bf87d.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Health",
+        "Infinite Money",
+        "Player 1: Infinite Health",
+        "Player 2: Infinite Health",
+        "Player 1: 1-Hit K.O.",
+        "Player 2: 1-Hit K.O."
+      ]
+    },
+    {
+      "sourceId": "c5554639",
+      "file": "CUSA06014_01.12_c5554639.shn",
+      "path": "shn/CUSA06014_01.12_c5554639.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Health",
+        "Infinite Money",
+        "Player 1: Infinite Health",
+        "Player 2: Infinite Health",
+        "Player 1: 1-Hit K.O.",
+        "Player 2: 1-Hit K.O."
+      ]
+    }
+  ]
+}

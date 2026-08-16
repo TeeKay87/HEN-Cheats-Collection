@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "id": "CUSA17195",
+  "version": "01.04",
+  "files": [
+    {
+      "sourceId": "7df59952",
+      "file": "CUSA17195_01.04_7df59952.json",
+      "path": "json/CUSA17195_01.04_7df59952.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "aaa"
+      ],
+      "notes": null,
+      "cheats": [
+        "inf Items Use",
+        "Inf Attack"
+      ]
+    },
+    {
+      "sourceId": "aa3ff961",
+      "file": "CUSA17195_01.04_aa3ff961.json",
+      "path": "json/CUSA17195_01.04_aa3ff961.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "d01v"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Exp",
+        "Exp x32",
+        "Infinite AG",
+        "Refill HP by equiping",
+        "Max Stats by equiping",
+        "99 item (use, drop, pick, cook, refine, buy / sell)",
+        "Gald",
+        "Arte Max Count",
+        "SP",
+        "No Cooldown Boost Attack"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "id": "PPSA27625",
+  "version": "01.000.000",
+  "files": [
+    {
+      "sourceId": "eea69831",
+      "file": "PPSA27625_01.000.000_eea69831.json",
+      "path": "json/PPSA27625_01.000.000_eea69831.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Master Code",
+        "--In_Hp",
+        "--One_Hit_Kill",
+        "Inf Stamina",
+        "Inf Items At Use",
+        "Inf Money",
+        "Max Exp",
+        "Inf Items At Pick"
+      ]
+    }
+  ]
+}

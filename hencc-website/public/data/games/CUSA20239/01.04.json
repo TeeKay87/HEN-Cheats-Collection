@@ -1,0 +1,111 @@
+{
+  "schema": 1,
+  "id": "CUSA20239",
+  "version": "01.04",
+  "files": [
+    {
+      "sourceId": "06e4f04a",
+      "file": "CUSA20239_01.04_06e4f04a.json",
+      "path": "json/CUSA20239_01.04_06e4f04a.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 ",
+        " FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible Mode 1",
+        "Invincible Mode 2",
+        "Max Live ( on gain / lose )",
+        "Max Money ( on gain )",
+        "One Hit Kill ( Boss )",
+        "Max Score in Retro Game ( on gain )"
+      ]
+    },
+    {
+      "sourceId": "e01b429b",
+      "file": "CUSA20239_01.04_e01b429b.json",
+      "path": "json/CUSA20239_01.04_e01b429b.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Money ( 9999 )",
+        "Infinite Lives"
+      ]
+    },
+    {
+      "sourceId": "c1b401ab",
+      "file": "CUSA20239_01.04_c1b401ab.mc4",
+      "path": "mc4/CUSA20239_01.04_c1b401ab.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 - FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible Mode 1",
+        "Invincible Mode 2",
+        "Max Live ( on gain / lose )",
+        "Max Money ( on gain )",
+        "One Hit Kill ( Boss )",
+        "Max Score in Retro Game ( on gain )"
+      ]
+    },
+    {
+      "sourceId": "dc3d2641",
+      "file": "CUSA20239_01.04_dc3d2641.mc4",
+      "path": "mc4/CUSA20239_01.04_dc3d2641.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 + d01v ( Jump Cheat ) - FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible Mode 1",
+        "Invincible Mode 2",
+        "Max Live ( on gain / lose )",
+        "Max Money ( on gain )",
+        "One Hit Kill ( Boss )",
+        "Max Score in Retro Game ( on gain )",
+        "Jump Master Code",
+        "Jump Height Reset MC",
+        "Jump Height x1",
+        "Jump Height x2",
+        "Jump Height x3"
+      ]
+    },
+    {
+      "sourceId": "7e97405a",
+      "file": "CUSA20239_01.04_7e97405a.shn",
+      "path": "shn/CUSA20239_01.04_7e97405a.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 + d01v ( Jump Cheat ) - FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible Mode 1",
+        "Invincible Mode 2",
+        "Max Live ( on gain / lose )",
+        "Max Money ( on gain )",
+        "One Hit Kill ( Boss )",
+        "Max Score in Retro Game ( on gain )",
+        "Jump Master Code",
+        "Jump Height Reset MC"
+      ]
+    }
+  ]
+}

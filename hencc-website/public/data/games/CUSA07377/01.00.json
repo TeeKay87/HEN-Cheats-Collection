@@ -1,0 +1,94 @@
+{
+  "schema": 1,
+  "id": "CUSA07377",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "8a39afc2",
+      "file": "CUSA07377_01.00_8a39afc2.json",
+      "path": "json/CUSA07377_01.00_8a39afc2.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Ammo",
+        "No Reload / Enemies Don't Shoot"
+      ]
+    },
+    {
+      "sourceId": "db040d09",
+      "file": "CUSA07377_01.00_db040d09.json",
+      "path": "json/CUSA07377_01.00_db040d09.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Ammo",
+        "No Reload / Enemies Don\t Shoot"
+      ]
+    },
+    {
+      "sourceId": "4d491a85",
+      "file": "CUSA07377_01.00_4d491a85.mc4",
+      "path": "mc4/CUSA07377_01.00_4d491a85.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "cjwine"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Ammo",
+        "No Reload / Enemies Don't Shoot",
+        "inf reload"
+      ]
+    },
+    {
+      "sourceId": "6a6833f5",
+      "file": "CUSA07377_01.00_6a6833f5.mc4",
+      "path": "mc4/CUSA07377_01.00_6a6833f5.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Ammo",
+        "No Reload / Enemies Don't Shoot"
+      ]
+    },
+    {
+      "sourceId": "8ddbabec",
+      "file": "CUSA07377_01.00_8ddbabec.shn",
+      "path": "shn/CUSA07377_01.00_8ddbabec.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Ammo",
+        "No Reload / Enemies Don't Shoot",
+        "inf reload"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "id": "CUSA25892",
+  "version": "01.02",
+  "files": [
+    {
+      "sourceId": "cdcd3828",
+      "file": "CUSA25892_01.02_cdcd3828.json",
+      "path": "json/CUSA25892_01.02_cdcd3828.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health / 1 Hit (Master Code)",
+        "1 Hit Kill (MC)",
+        "Infinite Ninpo Attacks",
+        "Max Money  (On Get)"
+      ]
+    },
+    {
+      "sourceId": "d0e7604b",
+      "file": "CUSA25892_01.02_d0e7604b.json",
+      "path": "json/CUSA25892_01.02_d0e7604b.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health / 1 Hit (Master Code)",
+        "1 Hit Kill (MC)",
+        "Inf Ninpo Attacks",
+        "Max Money  (On Get)"
+      ]
+    }
+  ]
+}

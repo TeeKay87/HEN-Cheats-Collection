@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "id": "CUSA10688",
+  "version": "01.04",
+  "files": [
+    {
+      "sourceId": "907810b1",
+      "file": "CUSA10688_01.04_907810b1.json",
+      "path": "json/CUSA10688_01.04_907810b1.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 ",
+        " FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Mastercode ( must be activated )",
+        "Infinite Health Player 1 [ MC ]",
+        "Instant Death Player 1 [ MC ]",
+        "Infinite Health Player 2 [ MC ]",
+        "Instant Death Player 2 [ MC ]",
+        "Infinite Supermeter Player 1 [ MC ]",
+        "Zero Supermeter Player 1 [ MC ]",
+        "Infinite Supermeter Player 2 [ MC ]",
+        "Zero Supermeter Player 2 [ MC ]",
+        "Set Timer [ 999 ]",
+        "Freeze Timer"
+      ]
+    },
+    {
+      "sourceId": "00d0cc1b",
+      "file": "CUSA10688_01.04_00d0cc1b.mc4",
+      "path": "mc4/CUSA10688_01.04_00d0cc1b.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 - FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Mastercode ( must be activated )",
+        "Infinite Health Player 1 [ MC ]",
+        "Instant Death Player 1 [ MC ]",
+        "Infinite Health Player 2 [ MC ]",
+        "Instant Death Player 2 [ MC ]",
+        "Infinite Supermeter Player 1 [ MC ]",
+        "Zero Supermeter Player 1 [ MC ]",
+        "Infinite Supermeter Player 2 [ MC ]",
+        "Zero Supermeter Player 2 [ MC ]",
+        "Set Timer [ 999 ]",
+        "Freeze Timer"
+      ]
+    },
+    {
+      "sourceId": "cc98b8c2",
+      "file": "CUSA10688_01.04_cc98b8c2.shn",
+      "path": "shn/CUSA10688_01.04_cc98b8c2.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 - FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Mastercode ( must be activated )",
+        "Infinite Health Player 1 [ MC ]",
+        "Infinite Health Player 2 [ MC ]",
+        "Infinite Supermeter Player 1 [ MC ]",
+        "Infinite Supermeter Player 2 [ MC ]",
+        "Set Timer [ 999 ]",
+        "Freeze Timer"
+      ]
+    }
+  ]
+}

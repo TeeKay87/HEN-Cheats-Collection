@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "PPSA26354",
+  "version": "01.001.000",
+  "files": [
+    {
+      "sourceId": "fe048764",
+      "file": "PPSA26354_01.001.000_fe048764.json",
+      "path": "json/PPSA26354_01.001.000_fe048764.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Master Code",
+        "--Inf_Hp",
+        "--One_Hit_Kill",
+        "Inf Items At Use",
+        "Inf Exp",
+        "Inf Money",
+        "Inf Items"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "id": "CUSA37615",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "75be1008",
+      "file": "CUSA37615_01.01_75be1008.mc4",
+      "path": "mc4/CUSA37615_01.01_75be1008.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "max-money + max-lives",
+        "Infinite-lives"
+      ]
+    },
+    {
+      "sourceId": "eddd6283",
+      "file": "CUSA37615_01.01_eddd6283.mc4",
+      "path": "mc4/CUSA37615_01.01_eddd6283.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "max-money + max-lives",
+        "Infinite-lives"
+      ]
+    },
+    {
+      "sourceId": "b96ac234",
+      "file": "CUSA37615_01.01_b96ac234.shn",
+      "path": "shn/CUSA37615_01.01_b96ac234.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "max-money",
+        "Infinite-lives"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "id": "CUSA14939",
+  "version": "01.09",
+  "files": [
+    {
+      "sourceId": "ed76acee",
+      "file": "CUSA14939_01.09_ed76acee.mc4",
+      "path": "mc4/CUSA14939_01.09_ed76acee.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 - FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Location Save - Load Mastercode ( must be activate )",
+        "Godmode",
+        "Infinite Health",
+        "Max Health",
+        "Infinite Breath",
+        "Max Breath",
+        "No Cough",
+        "Max Items / Ammo",
+        "No Reload",
+        "Save Location [ MC ]",
+        "Load Location [ MC ]",
+        "Freeze Timer",
+        "Reset Timer"
+      ]
+    },
+    {
+      "sourceId": "debcb129",
+      "file": "CUSA14939_01.09_debcb129.shn",
+      "path": "shn/CUSA14939_01.09_debcb129.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 - FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Location Save - Load Mastercode ( must be activate )",
+        "Godmode",
+        "Infinite Health",
+        "Max Health",
+        "Infinite Breath",
+        "Max Breath",
+        "No Cough",
+        "Max Items / Ammo",
+        "No Reload",
+        "Save Location [ MC ]",
+        "Load Location [ MC ]",
+        "Freeze Timer",
+        "Reset Timer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "id": "CUSA12648",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "e48d3bea",
+      "file": "CUSA12648_01.01_e48d3bea.json",
+      "path": "json/CUSA12648_01.01_e48d3bea.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Money (on buy)",
+        "Items x99 (on use)",
+        "Items x99 (on gain)",
+        "AP x999 (on spent)",
+        "Max Experience",
+        "Max Experience Noctis"
+      ]
+    }
+  ]
+}

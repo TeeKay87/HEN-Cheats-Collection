@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "id": "CUSA05969",
+  "version": "01.25",
+  "files": [
+    {
+      "sourceId": "6dc78a8a",
+      "file": "CUSA05969_01.25_6dc78a8a.json",
+      "path": "json/CUSA05969_01.25_6dc78a8a.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "M3hdi PS",
+        "M3hdi PS_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "INF Throwable",
+        "INF Ammo",
+        "INF MedKit",
+        "Infinite Ammo / Throwables",
+        "Infinite HP"
+      ]
+    },
+    {
+      "sourceId": "6c60b49b",
+      "file": "CUSA05969_01.25_default.elf_6c60b49b.json",
+      "path": "json/CUSA05969_01.25_default.elf_6c60b49b.json",
+      "format": "json",
+      "process": "default.elf",
+      "hidden": false,
+      "creators": [
+        "M3hdi PS_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Throwable",
+        "Infinite Ammo",
+        "Infinite MedKit"
+      ]
+    },
+    {
+      "sourceId": "e89bd40e",
+      "file": "CUSA05969_01.25_default.elf_e89bd40e.json",
+      "path": "json/CUSA05969_01.25_default.elf_e89bd40e.json",
+      "format": "json",
+      "process": "default.elf",
+      "hidden": false,
+      "creators": [
+        "M3hdi PS"
+      ],
+      "notes": null,
+      "cheats": [
+        "INF Throwable",
+        "INF Ammo",
+        "INF MedKit"
+      ]
+    },
+    {
+      "sourceId": "4eac941d",
+      "file": "CUSA05969_01.25_default_mp.elf_4eac941d.json",
+      "path": "json/CUSA05969_01.25_default_mp.elf_4eac941d.json",
+      "format": "json",
+      "process": "default_mp.elf",
+      "hidden": false,
+      "creators": [
+        "M3hdi PS_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Ammo / Throwables",
+        "Infinite HP"
+      ]
+    }
+  ]
+}

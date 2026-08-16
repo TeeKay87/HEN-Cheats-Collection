@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "CUSA01004",
+  "version": "01.02",
+  "files": [
+    {
+      "sourceId": "2906b68b",
+      "file": "CUSA01004_01.02_2906b68b.json",
+      "path": "json/CUSA01004_01.02_2906b68b.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "JustGotenks"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "One-hit kill",
+        "Max Cash (on get)",
+        "No reload (full clip)",
+        "Full ammo"
+      ]
+    }
+  ]
+}

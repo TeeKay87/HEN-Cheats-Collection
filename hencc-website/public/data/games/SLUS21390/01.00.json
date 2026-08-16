@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "id": "SLUS21390",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "d9f6f432",
+      "file": "SLUS21390_01.00_d9f6f432.json",
+      "path": "json/SLUS21390_01.00_d9f6f432.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Health",
+        "Infinite-Ammo"
+      ]
+    },
+    {
+      "sourceId": "9243b091",
+      "file": "SLUS21390_01.00_9243b091.shn",
+      "path": "shn/SLUS21390_01.00_9243b091.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Health",
+        "Infinite-Ammo"
+      ]
+    }
+  ]
+}

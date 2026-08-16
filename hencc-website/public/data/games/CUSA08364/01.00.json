@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "id": "CUSA08364",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "9c28b082",
+      "file": "CUSA08364_01.00_9c28b082.mc4",
+      "path": "mc4/CUSA08364_01.00_9c28b082.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Vampirexx"
+      ],
+      "notes": null,
+      "cheats": [
+        "INF HEALTH",
+        "INF INK",
+        "NEVER LOSE INK POWER",
+        "INF UPGRADE POINTS",
+        "MAX COINS ON PICKUP / SHOP",
+        "MAX DEMON FANGS ON PICK UP"
+      ]
+    },
+    {
+      "sourceId": "3f4ced6e",
+      "file": "CUSA08364_01.00_3f4ced6e.shn",
+      "path": "shn/CUSA08364_01.00_3f4ced6e.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Vampirexx"
+      ],
+      "notes": null,
+      "cheats": [
+        "INF HEALTH",
+        "INF INK",
+        "NEVER LOSE INK POWER",
+        "INF UPGRADE POINTS",
+        "MAX COINS ON PICKUP / SHOP",
+        "MAX DEMON FANGS ON PICK UP"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "id": "CUSA00220",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "63782561",
+      "file": "CUSA00220_01.00_63782561.json",
+      "path": "json/CUSA00220_01.00_63782561.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "d01v"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite (HP,Stamina,Stats,Skill Points) (unbind)",
+        "Item Max (use/sell/discard x2)",
+        "Max Gold on Sell (Craft Mats and Valuables only)"
+      ]
+    }
+  ]
+}

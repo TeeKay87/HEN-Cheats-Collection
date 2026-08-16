@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "CUSA18201",
+  "version": "01.13",
+  "files": [
+    {
+      "sourceId": "84c02146",
+      "file": "CUSA18201_01.13_84c02146.json",
+      "path": "json/CUSA18201_01.13_84c02146.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW 5.05+"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Ammo"
+      ]
+    }
+  ]
+}

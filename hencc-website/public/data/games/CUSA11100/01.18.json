@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "id": "CUSA11100",
+  "version": "01.18",
+  "files": [
+    {
+      "sourceId": "70b3e5fb",
+      "file": "CUSA11100_01.18_70b3e5fb.json",
+      "path": "json/CUSA11100_01.18_70b3e5fb.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "All Client Infinite Ammo",
+        "All Client Godmode",
+        "Infinite Points",
+        "Infinite Specialist / Grenades"
+      ]
+    },
+    {
+      "sourceId": "cf65d68f",
+      "file": "CUSA11100_01.18_cf65d68f.json",
+      "path": "json/CUSA11100_01.18_cf65d68f.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "All Client Infinite Ammo",
+        "All Client Godmode",
+        "Infinite Points",
+        "Infinite Specialist / Grenades"
+      ]
+    }
+  ]
+}

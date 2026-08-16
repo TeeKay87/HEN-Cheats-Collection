@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "id": "CUSA02419",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "7009b5c1",
+      "file": "CUSA02419_01.00_7009b5c1.json",
+      "path": "json/CUSA02419_01.00_7009b5c1.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Rage",
+        "Infinite Skill Points"
+      ]
+    },
+    {
+      "sourceId": "ca6ebe1a",
+      "file": "CUSA02419_01.00_ca6ebe1a.json",
+      "path": "json/CUSA02419_01.00_ca6ebe1a.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Rage",
+        "Infinite Skill Points"
+      ]
+    },
+    {
+      "sourceId": "2bf0378d",
+      "file": "CUSA02419_01.00_2bf0378d.mc4",
+      "path": "mc4/CUSA02419_01.00_2bf0378d.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Rage",
+        "Infinite Skill Points"
+      ]
+    },
+    {
+      "sourceId": "e6c28bd0",
+      "file": "CUSA02419_01.00_e6c28bd0.shn",
+      "path": "shn/CUSA02419_01.00_e6c28bd0.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Rage",
+        "Infinite Skill Points"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "CUSA25882",
+  "version": "01.15",
+  "files": [
+    {
+      "sourceId": "9ee3ddd3",
+      "file": "CUSA25882_01.15_9ee3ddd3.json",
+      "path": "json/CUSA25882_01.15_9ee3ddd3.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Attribute points(on use)"
+      ]
+    }
+  ]
+}

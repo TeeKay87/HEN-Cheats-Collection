@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "id": "PPSA02387",
+  "version": "01.000.000",
+  "files": [
+    {
+      "sourceId": "a614eafd",
+      "file": "PPSA02387_01.000.000_a614eafd.json",
+      "path": "json/PPSA02387_01.000.000_a614eafd.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Cant Hear You",
+        "Inf Items"
+      ]
+    },
+    {
+      "sourceId": "9e1da806",
+      "file": "PPSA02387_01.000.000_9e1da806.mc4",
+      "path": "mc4/PPSA02387_01.000.000_9e1da806.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Cant Hear You",
+        "Inf Items"
+      ]
+    }
+  ]
+}

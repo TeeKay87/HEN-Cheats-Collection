@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "CUSA29578",
+  "version": "01.12",
+  "files": [
+    {
+      "sourceId": "f69e78f8",
+      "file": "CUSA29578_01.12_f69e78f8.json",
+      "path": "json/CUSA29578_01.12_f69e78f8.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "d01v"
+      ],
+      "notes": null,
+      "cheats": [
+        "STRANGER OF PARADISE Backport 5.05",
+        "Infinite Health",
+        "Infinite Magic + Max",
+        "Disable Enemy Gauge",
+        "Job points 99 use / level up"
+      ]
+    },
+    {
+      "sourceId": "03abeb90",
+      "file": "CUSA29578_01.12_03abeb90.shn",
+      "path": "shn/CUSA29578_01.12_03abeb90.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "d01v"
+      ],
+      "notes": null,
+      "cheats": [
+        "STRANGER OF PARADISE Backport 5.05",
+        "Infinite Health",
+        "Infinite Magic + Max",
+        "Disable Enemy Gauge",
+        "Job points 99 use / level up"
+      ]
+    }
+  ]
+}

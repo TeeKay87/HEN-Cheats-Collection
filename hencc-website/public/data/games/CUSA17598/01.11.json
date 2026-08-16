@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "CUSA17598",
+  "version": "01.11",
+  "files": [
+    {
+      "sourceId": "13fa67c9",
+      "file": "CUSA17598_01.11_13fa67c9.json",
+      "path": "json/CUSA17598_01.11_13fa67c9.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "aloneknight_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "No Reload (nop)",
+        "Infinite AP (nop)",
+        "Infinite HP (nop) might affect enemies",
+        "Infinite Durability",
+        "Infinite Item (nop)"
+      ]
+    }
+  ]
+}

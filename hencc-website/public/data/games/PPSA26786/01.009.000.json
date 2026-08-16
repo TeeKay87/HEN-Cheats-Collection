@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "id": "PPSA26786",
+  "version": "01.009.000",
+  "files": [
+    {
+      "sourceId": "351b7549",
+      "file": "PPSA26786_01.009.000_351b7549.mc4",
+      "path": "mc4/PPSA26786_01.009.000_351b7549.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "wander"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Running Stamina",
+        "Infinite Punch/Whip Stamina",
+        "999999 Adventure points and Money",
+        "infinite Food",
+        "Infinite Ammo",
+        "Infinite Weapon Durability",
+        "Infinite Bandages",
+        "999 Medicine when buying books"
+      ]
+    },
+    {
+      "sourceId": "4e857a0a",
+      "file": "PPSA26786_01.009.000_4e857a0a.mc4",
+      "path": "mc4/PPSA26786_01.009.000_4e857a0a.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Yharnam"
+      ],
+      "notes": null,
+      "cheats": [
+        "1 Hit Kill",
+        "Infi Health",
+        "Infi Stamina",
+        "Infi Money & Points (Get)"
+      ]
+    }
+  ]
+}

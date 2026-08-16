@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "id": "CUSA01589",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "aa3d92c1",
+      "file": "CUSA01589_01.00_aa3d92c1.json",
+      "path": "json/CUSA01589_01.00_aa3d92c1.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Skal_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Souls"
+      ]
+    },
+    {
+      "sourceId": "82979b39",
+      "file": "CUSA01589_01.00_82979b39.shn",
+      "path": "shn/CUSA01589_01.00_82979b39.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "hejran7"
+      ],
+      "notes": null,
+      "cheats": [
+        "HP MC (Must Be On)",
+        "Invincible MC (Must Be On)",
+        "Speed MC (Must Be On)",
+        "Pass Through Any Door MC (Must Be On)",
+        "Invincible",
+        "Inf Health",
+        "One Hit Kill",
+        "Inf Stamina",
+        "Inf Spells",
+        "Inf Items",
+        "Inf Shop Items",
+        "Inf Durability",
+        "Inf Souls",
+        "Pass Through Any Door",
+        "No Souls loss Upon Death",
+        "Freeze Memory Souls",
+        "Reset Memory Souls to 125",
+        "Speed Hack 1.25",
+        "Speed Hack 1.50",
+        "Speed Hack 2.00"
+      ]
+    }
+  ]
+}

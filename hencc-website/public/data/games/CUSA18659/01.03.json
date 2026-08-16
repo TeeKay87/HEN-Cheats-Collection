@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "CUSA18659",
+  "version": "01.03",
+  "files": [
+    {
+      "sourceId": "089e1759",
+      "file": "CUSA18659_01.03_089e1759.json",
+      "path": "json/CUSA18659_01.03_089e1759.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Energy",
+        "Infinite Ammo",
+        "No Reload"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "schema": 1,
+  "id": "CUSA29456",
+  "version": "01.03",
+  "files": [
+    {
+      "sourceId": "9443029c",
+      "file": "CUSA29456_01.03_9443029c.json",
+      "path": "json/CUSA29456_01.03_9443029c.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health / Stamina /Ammo (Master Code)",
+        "Ammo(No reload) / Grenades / Explosive (MC)",
+        "Player Speed (Master Code)",
+        "x2 Speed (MC)",
+        "Rabbit Speed (MC)",
+        "Normal Speed (MC)"
+      ]
+    },
+    {
+      "sourceId": "f6005732",
+      "file": "CUSA29456_01.03_f6005732.mc4",
+      "path": "mc4/CUSA29456_01.03_f6005732.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health / Stamina /Ammo (Master Code)",
+        "Ammo(No reload) / Grenades / Explosive (MC)",
+        "Player Speed (Master Code)",
+        "x2 Speed (MC)",
+        "Rabbit Speed (MC)",
+        "Normal Speed (MC)"
+      ]
+    },
+    {
+      "sourceId": "27b679ea",
+      "file": "CUSA29456_01.03_27b679ea.shn",
+      "path": "shn/CUSA29456_01.03_27b679ea.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health / Stamina /Ammo (Master Code)",
+        "Ammo(No reload) / Grenades / Explosive (MC)",
+        "Player Speed (Master Code)",
+        "x2 Speed (MC)",
+        "Normal Speed (MC)"
+      ]
+    }
+  ]
+}

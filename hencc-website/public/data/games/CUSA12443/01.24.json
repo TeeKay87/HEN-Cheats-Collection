@@ -1,0 +1,103 @@
+{
+  "schema": 1,
+  "id": "CUSA12443",
+  "version": "01.24",
+  "files": [
+    {
+      "sourceId": "54b1f038",
+      "file": "CUSA12443_01.24_54b1f038.json",
+      "path": "json/CUSA12443_01.24_54b1f038.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "All Client Infinite Ammo",
+        "All Client Godmode",
+        "Infinite Points",
+        "Infinite Specialist / Grenades",
+        "Infinite Shield Durability",
+        "1-Hit Kill",
+        "Draw Lobby Debug"
+      ]
+    },
+    {
+      "sourceId": "ce255d99",
+      "file": "CUSA12443_01.24_ce255d99.json",
+      "path": "json/CUSA12443_01.24_ce255d99.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Rizla"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Armour",
+        "One Hit Kill",
+        "Infinite Spectral Shield Health",
+        "No Reload",
+        "Max/Infinite Grenades/Specialist",
+        "Max Points on Gain/Spend",
+        "No Spread",
+        "Rapid Fire",
+        "Full Auto Semis",
+        "Max Kills on 2nd Kill"
+      ]
+    },
+    {
+      "sourceId": "c76c79bb",
+      "file": "CUSA12443_01.24_c76c79bb.mc4",
+      "path": "mc4/CUSA12443_01.24_c76c79bb.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Rizla"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Armour",
+        "One Hit Kill",
+        "Infinite Spectral Shield Health",
+        "No Reload",
+        "Max/Infinite Grenades/Specialist",
+        "Max Points on Gain/Spend",
+        "No Spread",
+        "Rapid Fire",
+        "Full Auto Semis",
+        "Max Kills on 2nd Kill"
+      ]
+    },
+    {
+      "sourceId": "77a17104",
+      "file": "CUSA12443_01.24_77a17104.shn",
+      "path": "shn/CUSA12443_01.24_77a17104.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Rizla"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Armour",
+        "One Hit Kill",
+        "Infinite Spectral Shield Health",
+        "No Reload",
+        "Max/Infinite Grenades/Specialist",
+        "Max Points on Gain/Spend",
+        "No Spread",
+        "Rapid Fire",
+        "Full Auto Semis",
+        "Max Kills on 2nd Kill"
+      ]
+    }
+  ]
+}

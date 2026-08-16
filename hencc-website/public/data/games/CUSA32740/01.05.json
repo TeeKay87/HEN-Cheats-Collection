@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "id": "CUSA32740",
+  "version": "01.05",
+  "files": [
+    {
+      "sourceId": "f60e34af",
+      "file": "CUSA32740_01.05_f60e34af.mc4",
+      "path": "mc4/CUSA32740_01.05_f60e34af.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "wander fw9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Rings on hit",
+        "Infinite Time Freeze (story mode/Time Attack mode)",
+        "Max Medals at the end of the act "
+      ]
+    },
+    {
+      "sourceId": "00b69936",
+      "file": "CUSA32740_01.05_00b69936.shn",
+      "path": "shn/CUSA32740_01.05_00b69936.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "wander fw9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Rings on hit",
+        "Infinite Time Freeze (story mode/Time Attack mode)",
+        "Max Medals at the end of the act "
+      ]
+    }
+  ]
+}

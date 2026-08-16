@@ -1,0 +1,111 @@
+{
+  "schema": 1,
+  "id": "CUSA05486",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "3f7be050",
+      "file": "CUSA05486_01.00_3f7be050.json",
+      "path": "json/CUSA05486_01.00_3f7be050.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Mrpc85"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health/Stamina/Magic",
+        "Infinite Money",
+        "Duplicate Money When Used",
+        "Buy To Earn Money"
+      ]
+    },
+    {
+      "sourceId": "d64aad19",
+      "file": "CUSA05486_01.00_d64aad19.mc4",
+      "path": "mc4/CUSA05486_01.00_d64aad19.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Health/Magic/Stamina",
+        "Infinite Health",
+        "Infinite Magic",
+        "Infinite Stamina",
+        "Enemy Infinite Health",
+        "1 Hit Kills",
+        "No Enemy Magic",
+        "No Enemy Stamina",
+        "Max Stats",
+        "Max Talentpoints",
+        "Max Legendary",
+        "Max Level",
+        "Max Items",
+        "Infinite Items",
+        "Max Items on Move"
+      ]
+    },
+    {
+      "sourceId": "d8bd1ff7",
+      "file": "CUSA05486_01.00_d8bd1ff7.mc4",
+      "path": "mc4/CUSA05486_01.00_d8bd1ff7.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Health/Magic/Stamina",
+        "Infinite Health",
+        "Infinite Magic",
+        "Infinite Stamina",
+        "Enemy Infinite Health",
+        "No Enemy Magic",
+        "No Enemy Stamina",
+        "Max Stats",
+        "Max Talentpoints",
+        "Max Legendary",
+        "Max Level",
+        "Max Items",
+        "Infinite Items",
+        "Max Items on Move"
+      ]
+    },
+    {
+      "sourceId": "d56d4b2e",
+      "file": "CUSA05486_01.00_d56d4b2e.shn",
+      "path": "shn/CUSA05486_01.00_d56d4b2e.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Health/Magic/Stamina",
+        "Infinite Health",
+        "Infinite Magic",
+        "Infinite Stamina",
+        "Enemy Infinite Health",
+        "1 Hit Kills",
+        "No Enemy Magic",
+        "No Enemy Stamina",
+        "Max Stats",
+        "Max Talentpoints",
+        "Max Legendary",
+        "Max Level",
+        "Max Items",
+        "Infinite Items",
+        "Max Items on Move"
+      ]
+    }
+  ]
+}

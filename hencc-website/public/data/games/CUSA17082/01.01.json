@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "id": "CUSA17082",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "de113663",
+      "file": "CUSA17082_01.01_de113663.json",
+      "path": "json/CUSA17082_01.01_de113663.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Health / Stamina / Ammo"
+      ]
+    }
+  ]
+}

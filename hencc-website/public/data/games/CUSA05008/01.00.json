@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "id": "CUSA05008",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "2482647a",
+      "file": "CUSA05008_01.00_ScimitarAC2.elf_2482647a.json",
+      "path": "json/CUSA05008_01.00_ScimitarAC2.elf_2482647a.json",
+      "format": "json",
+      "process": "ScimitarAC2.elf",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Money / Items"
+      ]
+    },
+    {
+      "sourceId": "14b3ad92",
+      "file": "CUSA05008_01.00_ScimitarACB.elf_14b3ad92.json",
+      "path": "json/CUSA05008_01.00_ScimitarACB.elf_14b3ad92.json",
+      "format": "json",
+      "process": "ScimitarACB.elf",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Money / Items"
+      ]
+    },
+    {
+      "sourceId": "35db109a",
+      "file": "CUSA05008_01.00_ScimitarACR.elf_35db109a.json",
+      "path": "json/CUSA05008_01.00_ScimitarACR.elf_35db109a.json",
+      "format": "json",
+      "process": "ScimitarACR.elf",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Money, Items"
+      ]
+    }
+  ]
+}

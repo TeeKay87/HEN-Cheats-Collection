@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "id": "CUSA10667",
+  "version": "01.04",
+  "files": [
+    {
+      "sourceId": "12baedd5",
+      "file": "CUSA10667_01.04_12baedd5.json",
+      "path": "json/CUSA10667_01.04_12baedd5.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Lives (Turn Off Max Gold)",
+        "Max Gold On Buy [999999999]"
+      ]
+    },
+    {
+      "sourceId": "b05787d3",
+      "file": "CUSA10667_01.04_b05787d3.mc4",
+      "path": "mc4/CUSA10667_01.04_b05787d3.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Dante"
+      ],
+      "notes": null,
+      "cheats": [
+        "inf money on spend"
+      ]
+    },
+    {
+      "sourceId": "2dd9c87f",
+      "file": "CUSA10667_01.04_2dd9c87f.shn",
+      "path": "shn/CUSA10667_01.04_2dd9c87f.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Dante"
+      ],
+      "notes": null,
+      "cheats": [
+        "inf money on spend"
+      ]
+    }
+  ]
+}

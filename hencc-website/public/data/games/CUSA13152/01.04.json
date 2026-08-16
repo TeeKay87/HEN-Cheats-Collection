@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "CUSA13152",
+  "version": "01.04",
+  "files": [
+    {
+      "sourceId": "d677e0d5",
+      "file": "CUSA13152_01.04_d677e0d5.json",
+      "path": "json/CUSA13152_01.04_d677e0d5.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "d01v_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Minds Eye",
+        "Ammo (99)",
+        "Craft Materials (99)",
+        "Item Gadget (99)",
+        "Experience 99k (on get)",
+        "Knowledge Points (50)"
+      ]
+    }
+  ]
+}

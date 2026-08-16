@@ -1,0 +1,85 @@
+{
+  "schema": 1,
+  "id": "CUSA02431",
+  "version": "01.03",
+  "files": [
+    {
+      "sourceId": "afaa46cd",
+      "file": "CUSA02431_01.03_afaa46cd.json",
+      "path": "json/CUSA02431_01.03_afaa46cd.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Items x20 (on use)",
+        "Infinite AP While Moving",
+        "Infinite Ammo",
+        "Infinite AP While Shooting",
+        "Infinite AP While Loading",
+        "Infinite AP while using items",
+        "Infinite Water on the Map (turn off scrap cheat)",
+        "Max Experience (at the end of battle)",
+        "Infinite Skill points after Commiting points",
+        "Infinite Perk points",
+        "Infinite Attribute points after Commiting points",
+        "Max Scrap on buy (turn off water cheat)"
+      ]
+    },
+    {
+      "sourceId": "aa7ad52a",
+      "file": "CUSA02431_01.03_aa7ad52a.mc4",
+      "path": "mc4/CUSA02431_01.03_aa7ad52a.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "wander fw9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Items x20 (on use)",
+        "Infinite AP While Moving",
+        "Infinite Ammo",
+        "Infinite AP While Shooting",
+        "Infinite AP While Loading",
+        "Infinite AP while using items",
+        "Infinite Water on the Map (turn off scrap cheat)",
+        "Max Experience (at the end of battle)",
+        "Infinite Skill points after Commiting points",
+        "Infinite Perk points",
+        "Infinite Attribute points after Commiting points",
+        "Max Scrap on buy (turn off water cheat)"
+      ]
+    },
+    {
+      "sourceId": "5865118f",
+      "file": "CUSA02431_01.03_5865118f.shn",
+      "path": "shn/CUSA02431_01.03_5865118f.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "wander fw9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Items x20 (on use)",
+        "Infinite AP While Moving",
+        "Infinite Ammo",
+        "Infinite AP While Shooting",
+        "Infinite AP While Loading",
+        "Infinite AP while using items",
+        "Infinite Water on the Map (turn off scrap cheat)",
+        "Max Experience (at the end of battle)",
+        "Infinite Skill points after Commiting points",
+        "Infinite Perk points",
+        "Infinite Attribute points after Commiting points",
+        "Max Scrap on buy (turn off water cheat)"
+      ]
+    }
+  ]
+}

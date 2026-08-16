@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "PPSA04921",
+  "version": "01.000.009",
+  "files": [
+    {
+      "sourceId": "f57fa160",
+      "file": "PPSA04921_01.000.009_f57fa160.json",
+      "path": "json/PPSA04921_01.000.009_f57fa160.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Hp",
+        "Inf Stamina",
+        "Inf Battery",
+        "Inf Ammo"
+      ]
+    }
+  ]
+}

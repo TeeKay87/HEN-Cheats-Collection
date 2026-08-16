@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "id": "CUSA03818",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "66b33892",
+      "file": "CUSA03818_01.01_66b33892.json",
+      "path": "json/CUSA03818_01.01_66b33892.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Health / 1 Hit Kill (Master Code)",
+        "1 Hit Kill (MC)",
+        "Ammo No Reload / Throwables"
+      ]
+    },
+    {
+      "sourceId": "045ae1d5",
+      "file": "CUSA03818_01.01_045ae1d5.mc4",
+      "path": "mc4/CUSA03818_01.01_045ae1d5.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible-full",
+        "Infinite-All-Weapon"
+      ]
+    },
+    {
+      "sourceId": "757fdc81",
+      "file": "CUSA03818_01.01_757fdc81.mc4",
+      "path": "mc4/CUSA03818_01.01_757fdc81.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Health / 1 Hit Kill (Master Code)",
+        "1 Hit Kill (MC)",
+        "Ammo No Reload / Throwables"
+      ]
+    },
+    {
+      "sourceId": "95fb4552",
+      "file": "CUSA03818_01.01_95fb4552.shn",
+      "path": "shn/CUSA03818_01.01_95fb4552.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible-full",
+        "Infinite-All-Weapon",
+        "Health / 1 Hit Kill (Master Code)",
+        "1 Hit Kill (MC)",
+        "Ammo No Reload / Throwables"
+      ]
+    }
+  ]
+}

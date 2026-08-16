@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "id": "CUSA11379",
+  "version": "01.11",
+  "files": [
+    {
+      "sourceId": "fe8ee66e",
+      "file": "CUSA11379_01.11_fe8ee66e.json",
+      "path": "json/CUSA11379_01.11_fe8ee66e.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "hejran7"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf HP",
+        "Easy Kill",
+        "P1 Full Defensive Meter",
+        "P1 Full Offensive Meter",
+        "P2 No Defensive Meter",
+        "P2 No Offensive Meter"
+      ]
+    },
+    {
+      "sourceId": "022f9769",
+      "file": "CUSA11379_01.11_022f9769.shn",
+      "path": "shn/CUSA11379_01.11_022f9769.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "hejran7"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf HP Easy Kill MC (Must Be On)",
+        "Defensive\\Offensive MC (Must Be On)",
+        "Inf HP",
+        "Easy Kill",
+        "Freeze Timer",
+        "P1 Full Defensive Meter",
+        "P1 Full Offensive Meter",
+        "P2 No Defensive Meter",
+        "P2 No Offensive Meter"
+      ]
+    }
+  ]
+}

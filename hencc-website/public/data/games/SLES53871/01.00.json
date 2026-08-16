@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "id": "SLES53871",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "9c3beebc",
+      "file": "SLES53871_01.00_9c3beebc.json",
+      "path": "json/SLES53871_01.00_9c3beebc.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-lives P1",
+        "Infinite-Bomb P1",
+        "Invincible P1"
+      ]
+    },
+    {
+      "sourceId": "42d68270",
+      "file": "SLES53871_01.00_42d68270.shn",
+      "path": "shn/SLES53871_01.00_42d68270.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-lives P1",
+        "Infinite-Bomb P1",
+        "Invincible P1"
+      ]
+    }
+  ]
+}

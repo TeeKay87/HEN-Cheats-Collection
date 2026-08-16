@@ -1,0 +1,80 @@
+{
+  "schema": 1,
+  "id": "CUSA16221",
+  "version": "01.06",
+  "files": [
+    {
+      "sourceId": "5682dec0",
+      "file": "CUSA16221_01.06_5682dec0.json",
+      "path": "json/CUSA16221_01.06_5682dec0.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali Pashaei"
+      ],
+      "notes": null,
+      "cheats": [
+        "No Decreased Star",
+        "Infinite Lives For All Players"
+      ]
+    },
+    {
+      "sourceId": "58b70b9f",
+      "file": "CUSA16221_01.06_58b70b9f.json",
+      "path": "json/CUSA16221_01.06_58b70b9f.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health / 1 Hit (Master Code)",
+        "1 Hit Kill (MC)",
+        "Max Stars"
+      ]
+    },
+    {
+      "sourceId": "c91abc0a",
+      "file": "CUSA16221_01.06_c91abc0a.mc4",
+      "path": "mc4/CUSA16221_01.06_c91abc0a.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health/Special Attack/1 Hit Kill (Master Code)",
+        "Infinite Health/Special Attack (Need MC)",
+        "1 Hit Kill (Need MC)",
+        "Max/Infinite Lives",
+        "Max/Infinite Stars",
+        "Max Score On 1 Hit"
+      ]
+    },
+    {
+      "sourceId": "9b78ddac",
+      "file": "CUSA16221_01.06_9b78ddac.shn",
+      "path": "shn/CUSA16221_01.06_9b78ddac.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health/Special Attack/1 Hit Kill (Master Code)",
+        "Infinite Health/Special Attack (Need MC)",
+        "1 Hit Kill (Need MC)",
+        "Max/Infinite Lives",
+        "Max/Infinite Stars",
+        "Max Score On 1 Hit"
+      ]
+    }
+  ]
+}

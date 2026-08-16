@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "id": "CUSA08948",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "3f7590d3",
+      "file": "CUSA08948_01.00_3f7590d3.json",
+      "path": "json/CUSA08948_01.00_3f7590d3.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Weysincha"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Gas",
+        "Infinite Blade Bar",
+        "Infinite Money",
+        "Infinite Usage Items",
+        "Always 99 Titan Kills"
+      ]
+    },
+    {
+      "sourceId": "f2eb2d0c",
+      "file": "CUSA08948_01.00_f2eb2d0c.mc4",
+      "path": "mc4/CUSA08948_01.00_f2eb2d0c.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Weysincha"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Gas",
+        "Infinite Blade Bar",
+        "Infinite Money",
+        "Infinite Usage Items",
+        "Always 99 Titan Kills"
+      ]
+    },
+    {
+      "sourceId": "9ea39ddd",
+      "file": "CUSA08948_01.00_9ea39ddd.shn",
+      "path": "shn/CUSA08948_01.00_9ea39ddd.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Weysincha"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Gas",
+        "Infinite Blade Bar",
+        "Infinite Money",
+        "Infinite Usage Items",
+        "Always 99 Titan Kills"
+      ]
+    }
+  ]
+}

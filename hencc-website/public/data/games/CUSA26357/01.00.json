@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "id": "CUSA26357",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "f46a7eab",
+      "file": "CUSA26357_01.00_f46a7eab.json",
+      "path": "json/CUSA26357_01.00_f46a7eab.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health / Ammo / 1 Hit Kill (Master Code)",
+        "1 Hit Kill (MC)",
+        "Inf Ammo / No Reload (MC)",
+        "Inf Finisher Gauge / Max Orbs (Master Code)",
+        "Max Orbs (999) On Spend"
+      ]
+    },
+    {
+      "sourceId": "273d7702",
+      "file": "CUSA26357_01.00_273d7702.mc4",
+      "path": "mc4/CUSA26357_01.00_273d7702.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health / Ammo / 1 Hit Kill (Master Code)",
+        "1 Hit Kill (MC)",
+        "Inf Ammo / No Reload (MC)",
+        "Inf Finisher Gauge / Max Orbs (Master Code)",
+        "Max Orbs (999) On Spend"
+      ]
+    },
+    {
+      "sourceId": "fe5cfb87",
+      "file": "CUSA26357_01.00_fe5cfb87.shn",
+      "path": "shn/CUSA26357_01.00_fe5cfb87.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health / Ammo / 1 Hit Kill (Master Code)",
+        "1 Hit Kill (MC)",
+        "Inf Ammo / No Reload (MC)",
+        "Inf Finisher Gauge / Max Orbs (Master Code)",
+        "Max Orbs (999) On Spend"
+      ]
+    }
+  ]
+}

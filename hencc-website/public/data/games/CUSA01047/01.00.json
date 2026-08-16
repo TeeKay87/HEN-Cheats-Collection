@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "id": "CUSA01047",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "1ffaa83b",
+      "file": "CUSA01047_01.00_1ffaa83b.json",
+      "path": "json/CUSA01047_01.00_1ffaa83b.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Ammo",
+        "Max Bolts / Raritanium / Gold Bolts On Pickup"
+      ]
+    },
+    {
+      "sourceId": "250e79a7",
+      "file": "CUSA01047_01.00_250e79a7.json",
+      "path": "json/CUSA01047_01.00_250e79a7.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Ammo",
+        "Max Bolts / Raritanium / Gold Bolts On Pickup"
+      ]
+    },
+    {
+      "sourceId": "965476c0",
+      "file": "CUSA01047_01.00_965476c0.mc4",
+      "path": "mc4/CUSA01047_01.00_965476c0.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Ammo",
+        "Max Bolts / Raritanium / Gold Bolts On Pickup"
+      ]
+    },
+    {
+      "sourceId": "2da9bad0",
+      "file": "CUSA01047_01.00_2da9bad0.shn",
+      "path": "shn/CUSA01047_01.00_2da9bad0.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Ammo",
+        "Max Bolts / Raritanium / Gold Bolts On Pickup"
+      ]
+    }
+  ]
+}

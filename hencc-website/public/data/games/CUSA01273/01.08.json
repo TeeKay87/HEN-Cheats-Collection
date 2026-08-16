@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "CUSA01273",
+  "version": "01.08",
+  "files": [
+    {
+      "sourceId": "72dad235",
+      "file": "CUSA01273_01.08_72dad235.json",
+      "path": "json/CUSA01273_01.08_72dad235.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Max (Iron/Apple) 99",
+        "Max Gold (9999) Turn Off To Collect More",
+        "XP Multiplier (x15)"
+      ]
+    }
+  ]
+}

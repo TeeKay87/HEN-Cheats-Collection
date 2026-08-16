@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "id": "CUSA05904",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "8c8b984a",
+      "file": "CUSA05904_01.00_8c8b984a.json",
+      "path": "json/CUSA05904_01.00_8c8b984a.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Ammo",
+        "No Recoil",
+        "Get Perk Points For Spending Them",
+        "Max Money / Items On Pickup"
+      ]
+    },
+    {
+      "sourceId": "4fa75b9c",
+      "file": "CUSA05904_01.00_4fa75b9c.mc4",
+      "path": "mc4/CUSA05904_01.00_4fa75b9c.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Ammo",
+        "No Recoil",
+        "Get Perk Points For Spending Them",
+        "Max Money / Items On Pickup"
+      ]
+    },
+    {
+      "sourceId": "bb55b1ba",
+      "file": "CUSA05904_01.00_bb55b1ba.shn",
+      "path": "shn/CUSA05904_01.00_bb55b1ba.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Ammo",
+        "No Recoil",
+        "Get Perk Points For Spending Them",
+        "Max Money / Items On Pickup"
+      ]
+    }
+  ]
+}

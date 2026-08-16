@@ -1,0 +1,94 @@
+{
+  "schema": 1,
+  "id": "CUSA11407",
+  "version": "01.08",
+  "files": [
+    {
+      "sourceId": "e4d69747",
+      "file": "CUSA11407_01.08_e4d69747.json",
+      "path": "json/CUSA11407_01.08_e4d69747.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Dioniso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "1 Hit Kill (-Bosses)",
+        "Infinite Mask Filter",
+        "Infinite Ammo",
+        "Infinite Pressure (Air Gun / Flamethrower)",
+        "No Weapon Jam",
+        "Infinite Bombs",
+        "Infinite Molotovs",
+        "Infinite Knives",
+        "Infinite Cans",
+        "Infinite Resources (Pick Up)",
+        "No Decrease: Medkits",
+        "Infinite Batteries x1 (Goggles, Torch)",
+        "Infinite Batteries x2 Intensity",
+        "Infinite Batteries x4 Intensity",
+        "Infinite Batteries x8 Intensity"
+      ]
+    },
+    {
+      "sourceId": "e202705f",
+      "file": "CUSA11407_01.08_e202705f.mc4",
+      "path": "mc4/CUSA11407_01.08_e202705f.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Dioniso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "1 Hit Kill (-Bosses)",
+        "Infinite Mask Filter",
+        "Infinite Ammo",
+        "Infinite Pressure (Air Gun / Flamethrower)",
+        "No Weapon Jam",
+        "Infinite Bombs",
+        "Infinite Molotovs",
+        "Infinite Knives",
+        "Infinite Cans",
+        "Infinite Resources (Pick Up)",
+        "No Decrease: Medkits",
+        "Infinite Batteries x1 (Goggles, Torch)",
+        "Infinite Batteries x2 Intensity",
+        "Infinite Batteries x4 Intensity",
+        "Infinite Batteries x8 Intensity"
+      ]
+    },
+    {
+      "sourceId": "a659ce62",
+      "file": "CUSA11407_01.08_a659ce62.shn",
+      "path": "shn/CUSA11407_01.08_a659ce62.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Dioniso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "1 Hit Kill (-Bosses)",
+        "Infinite Mask Filter",
+        "Infinite Ammo",
+        "Infinite Pressure (Air Gun / Flamethrower)",
+        "No Weapon Jam",
+        "Infinite Bombs",
+        "Infinite Molotovs",
+        "Infinite Knives",
+        "Infinite Cans",
+        "Infinite Resources (Pick Up)",
+        "No Decrease: Medkits",
+        "Infinite Batteries x1 (Goggles, Torch)"
+      ]
+    }
+  ]
+}

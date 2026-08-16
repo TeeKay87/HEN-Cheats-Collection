@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "id": "SCES01762",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "956074d6",
+      "file": "SCES01762_01.00_956074d6.json",
+      "path": "json/SCES01762_01.00_956074d6.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincibility=STEGE=1",
+        "Invincibility=STEGE=2",
+        "Invincibility=STEGE=3",
+        "Invincibility=STEGE=4",
+        "Invincibility=STEGE=5",
+        "Invincibility=STEGE=6",
+        "Invincibility=STEGE=7"
+      ]
+    },
+    {
+      "sourceId": "f91a3bde",
+      "file": "SCES01762_01.00_f91a3bde.shn",
+      "path": "shn/SCES01762_01.00_f91a3bde.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincibility=STEGE=1",
+        "Invincibility=STEGE=2",
+        "Invincibility=STEGE=3",
+        "Invincibility=STEGE=4",
+        "Invincibility=STEGE=5",
+        "Invincibility=STEGE=6",
+        "Invincibility=STEGE=7"
+      ]
+    }
+  ]
+}

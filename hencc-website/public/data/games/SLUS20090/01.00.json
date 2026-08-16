@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "id": "SLUS20090",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "b4298c5f",
+      "file": "SLUS20090_01.00_b4298c5f.json",
+      "path": "json/SLUS20090_01.00_b4298c5f.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf-Health-Ninja Gaiden-1",
+        "Invincible-Ninja Gaiden-1",
+        "Inf-lives-Ninja Gaiden-1",
+        "shurikens-Ninja Gaiden-1",
+        "Inf-Health-Shinobi-III",
+        "Inf-lives-Shinobi-III",
+        "shurikens-Shinobi-III",
+        "Inf-MAGIC-Shinobi-III"
+      ]
+    }
+  ]
+}

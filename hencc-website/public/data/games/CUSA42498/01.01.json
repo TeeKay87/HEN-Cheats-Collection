@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "id": "CUSA42498",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "5e0952cf",
+      "file": "CUSA42498_01.01_5e0952cf.mc4",
+      "path": "mc4/CUSA42498_01.01_5e0952cf.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Music Notes",
+        "Reset Timer",
+        "Freeze Timer",
+        "Finish Race directly"
+      ]
+    },
+    {
+      "sourceId": "adc5e46e",
+      "file": "CUSA42498_01.01_adc5e46e.shn",
+      "path": "shn/CUSA42498_01.01_adc5e46e.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Music Notes",
+        "Reset Timer",
+        "Freeze Timer",
+        "Finish Race directly"
+      ]
+    }
+  ]
+}

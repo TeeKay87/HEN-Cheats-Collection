@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "CUSA29102",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "f944d8d8",
+      "file": "CUSA29102_01.01_f944d8d8.json",
+      "path": "json/CUSA29102_01.01_f944d8d8.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite MP",
+        "Max Gald after Battle",
+        "Max Items {after using have 2)",
+        "Max experience"
+      ]
+    }
+  ]
+}

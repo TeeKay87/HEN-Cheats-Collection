@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "CUSA31579",
+  "version": "01.09",
+  "files": [
+    {
+      "sourceId": "df9718ce",
+      "file": "CUSA31579_01.09_df9718ce.json",
+      "path": "json/CUSA31579_01.09_df9718ce.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Hp",
+        "Inf Mp",
+        "Inf Money (Dont decrease)",
+        "Inf Items (At least 2)",
+        "Inf Combo"
+      ]
+    },
+    {
+      "sourceId": "ef388697",
+      "file": "CUSA31579_01.09_ef388697.json",
+      "path": "json/CUSA31579_01.09_ef388697.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Hp",
+        "Inf Mp",
+        "Inf Money (Dont decrease)",
+        "Inf Items (At least 2)",
+        "Inf Combo"
+      ]
+    }
+  ]
+}

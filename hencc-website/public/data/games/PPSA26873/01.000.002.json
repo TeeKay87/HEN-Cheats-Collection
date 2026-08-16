@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "id": "PPSA26873",
+  "version": "01.000.002",
+  "files": [
+    {
+      "sourceId": "31281eb8",
+      "file": "PPSA26873_01.000.002_31281eb8.mc4",
+      "path": "mc4/PPSA26873_01.000.002_31281eb8.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Yharnam"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infi Health",
+        "1 Hit Kill",
+        "Infi Stamina",
+        "Infi Items",
+        "Instantly Mount Monsters (During Combat)",
+        "Max Points (Gold, Silver, Bronze)",
+        "Max Level"
+      ]
+    },
+    {
+      "sourceId": "5778026e",
+      "file": "PPSA26873_01.000.002_5778026e.mc4",
+      "path": "mc4/PPSA26873_01.000.002_5778026e.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander"
+      ],
+      "notes": null,
+      "cheats": [
+        "alot of Bronze,Silver,Gold Points",
+        "999 ITEMS",
+        "Max level Riders",
+        "Max lvl Monstie 1",
+        "Max lvl Monstie 2",
+        "Max lvl Monstie 3",
+        "Max lvl Monstie 4",
+        "Max lvl Monstie 5",
+        "99 Battle items",
+        "Instant Ride Bar "
+      ]
+    }
+  ]
+}

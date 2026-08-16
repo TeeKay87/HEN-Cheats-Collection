@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "CUSA18507",
+  "version": "01.04",
+  "files": [
+    {
+      "sourceId": "40895c2f",
+      "file": "CUSA18507_01.04_40895c2f.json",
+      "path": "json/CUSA18507_01.04_40895c2f.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Shield"
+      ]
+    }
+  ]
+}

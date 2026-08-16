@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "SLES50306",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "170473e2",
+      "file": "SLES50306_01.00_170473e2.json",
+      "path": "json/SLES50306_01.00_170473e2.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Magnum",
+        "rocket-Launeher",
+        "Infinite-Shotgun",
+        "Infinite-Health",
+        "Grenade-Launcher",
+        "Inf-Enhanced-Handgun",
+        "Inf-Assault-Rifle"
+      ]
+    }
+  ]
+}

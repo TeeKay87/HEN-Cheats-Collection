@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "id": "CUSA29199",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "b144ab6f",
+      "file": "CUSA29199_01.00_b144ab6f.json",
+      "path": "json/CUSA29199_01.00_b144ab6f.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Ammo/ No Reload",
+        "Nails x99 [On Reload]",
+        "Morphine / Save Record x5 [On Use]"
+      ]
+    }
+  ]
+}

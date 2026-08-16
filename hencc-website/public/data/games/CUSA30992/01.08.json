@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "id": "CUSA30992",
+  "version": "01.08",
+  "files": [
+    {
+      "sourceId": "254dab6d",
+      "file": "CUSA30992_01.08_254dab6d.shn",
+      "path": "shn/CUSA30992_01.08_254dab6d.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible-1-DEAD",
+        "Infinite-lives"
+      ]
+    },
+    {
+      "sourceId": "9f152240",
+      "file": "CUSA30992_01.08_9f152240.shn",
+      "path": "shn/CUSA30992_01.08_9f152240.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "d01v"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "credits 99",
+        "Infinite Super Atack"
+      ]
+    }
+  ]
+}

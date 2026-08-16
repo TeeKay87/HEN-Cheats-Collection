@@ -1,0 +1,65 @@
+{
+  "schema": 1,
+  "id": "CUSA42371",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "aa824c9c",
+      "file": "CUSA42371_01.01_aa824c9c.mc4",
+      "path": "mc4/CUSA42371_01.01_aa824c9c.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Health",
+        "Inf-All-Items-MAG-Frozen",
+        "Infinite-Gold",
+        "Max-Gold-99999999"
+      ]
+    },
+    {
+      "sourceId": "c9688760",
+      "file": "CUSA42371_01.01_c9688760.mc4",
+      "path": "mc4/CUSA42371_01.01_c9688760.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Magic",
+        "Max Gold(on get)",
+        "Max Iron Bars (on get)",
+        "Max Blood (on get)",
+        "Max Souls (on get)"
+      ]
+    },
+    {
+      "sourceId": "93eacf75",
+      "file": "CUSA42371_01.01_93eacf75.shn",
+      "path": "shn/CUSA42371_01.01_93eacf75.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Magic",
+        "Max Gold(on get)",
+        "Max Iron Bars (on get)",
+        "Max Blood (on get)",
+        "Max Souls (on get)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "id": "SCUS94228",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "9d5647eb",
+      "file": "SCUS94228_01.00_9d5647eb.json",
+      "path": "json/SCUS94228_01.00_9d5647eb.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Lives",
+        "Infinite Health"
+      ]
+    },
+    {
+      "sourceId": "8e04512f",
+      "file": "SCUS94228_01.00_8e04512f.shn",
+      "path": "shn/SCUS94228_01.00_8e04512f.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Lives",
+        "Infinite Health"
+      ]
+    }
+  ]
+}

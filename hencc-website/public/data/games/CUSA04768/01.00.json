@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "id": "CUSA04768",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "1f0cded6",
+      "file": "CUSA04768_01.00_1f0cded6.json",
+      "path": "json/CUSA04768_01.00_1f0cded6.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Weysincha"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Money",
+        "Godmode Test",
+        "Godmode Test 2"
+      ]
+    },
+    {
+      "sourceId": "599c6092",
+      "file": "CUSA04768_01.00_599c6092.mc4",
+      "path": "mc4/CUSA04768_01.00_599c6092.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Weysincha"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Money",
+        "Godmode Test",
+        "Godmode Test 2"
+      ]
+    },
+    {
+      "sourceId": "e9d56042",
+      "file": "CUSA04768_01.00_e9d56042.mc4",
+      "path": "mc4/CUSA04768_01.00_e9d56042.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Molly"
+      ],
+      "notes": null,
+      "cheats": [
+        "Quick Level Up",
+        "Max Items \"After Buy/Use/Sell\"",
+        "Max Ability Points",
+        "Max Perks",
+        "Max Money"
+      ]
+    },
+    {
+      "sourceId": "b15187e5",
+      "file": "CUSA04768_01.00_b15187e5.shn",
+      "path": "shn/CUSA04768_01.00_b15187e5.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Molly"
+      ],
+      "notes": null,
+      "cheats": [
+        "Quick Level Up",
+        "Max Items \"After Buy/Use/Sell\"",
+        "Max Ability Points",
+        "Max Perks",
+        "Max Money",
+        "Infinite Money",
+        "Godmode Test",
+        "Godmode Test 2"
+      ]
+    }
+  ]
+}

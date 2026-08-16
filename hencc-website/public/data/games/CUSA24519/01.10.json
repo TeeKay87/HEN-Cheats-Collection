@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "id": "CUSA24519",
+  "version": "01.10",
+  "files": [
+    {
+      "sourceId": "f0458ce3",
+      "file": "CUSA24519_01.10_f0458ce3.json",
+      "path": "json/CUSA24519_01.10_f0458ce3.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 ",
+        " FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Lucre",
+        "Max Items ( after buy )",
+        "Max Character Level",
+        "Max HP"
+      ]
+    },
+    {
+      "sourceId": "c40034ee",
+      "file": "CUSA24519_01.10_c40034ee.mc4",
+      "path": "mc4/CUSA24519_01.10_c40034ee.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 - FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Lucre",
+        "Max Items ( after buy )",
+        "Max Character Level",
+        "Max HP"
+      ]
+    },
+    {
+      "sourceId": "4a33e06a",
+      "file": "CUSA24519_01.10_4a33e06a.shn",
+      "path": "shn/CUSA24519_01.10_4a33e06a.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 - FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Lucre",
+        "Max Items ( after buy )",
+        "Max Character Level",
+        "Max HP"
+      ]
+    }
+  ]
+}

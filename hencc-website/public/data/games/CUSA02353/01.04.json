@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "id": "CUSA02353",
+  "version": "01.04",
+  "files": [
+    {
+      "sourceId": "6bd468c8",
+      "file": "CUSA02353_01.04_6bd468c8.mc4",
+      "path": "mc4/CUSA02353_01.04_6bd468c8.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Vampirexx"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Stamina",
+        "Inf Focus",
+        "Max Salt on Pickup",
+        "Max Money on Pickup",
+        "Inf Items and Weapons (L3 Pressed while save to avoid freeze)",
+        "Inf Upgrade Points",
+        "God Mode"
+      ]
+    },
+    {
+      "sourceId": "214d7016",
+      "file": "CUSA02353_01.04_214d7016.shn",
+      "path": "shn/CUSA02353_01.04_214d7016.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Vampirexx"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Stamina",
+        "Inf Focus",
+        "Max Salt on Pickup",
+        "Max Money on Pickup",
+        "Inf Items and Weapons (L3 Pressed while save to avoid freeze)",
+        "Inf Upgrade Points",
+        "God Mode"
+      ]
+    }
+  ]
+}

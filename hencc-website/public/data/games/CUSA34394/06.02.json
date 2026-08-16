@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "CUSA34394",
+  "version": "06.02",
+  "files": [
+    {
+      "sourceId": "9f7329ef",
+      "file": "CUSA34394_06.02_9f7329ef.json",
+      "path": "json/CUSA34394_06.02_9f7329ef.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Pharaoh2k"
+      ],
+      "notes": null,
+      "cheats": [
+        "TRAINER INFO (read only)",
+        "Health Master Code (must be enabled)",
+        "--Enemy_Infinite_HP",
+        "--One_Hit_Kill",
+        "--Player_Infinite_HP"
+      ]
+    },
+    {
+      "sourceId": "c9e6b19f",
+      "file": "CUSA34394_06.02_c9e6b19f.shn",
+      "path": "shn/CUSA34394_06.02_c9e6b19f.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Pharaoh2k"
+      ],
+      "notes": null,
+      "cheats": [
+        "TRAINER INFO (read only)",
+        "Health Master Code (must be enabled)",
+        "--Enemy_Infinite_HP",
+        "--One_Hit_Kill",
+        "--Player_Infinite_HP"
+      ]
+    }
+  ]
+}

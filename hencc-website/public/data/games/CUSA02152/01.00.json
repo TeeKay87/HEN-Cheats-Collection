@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "id": "CUSA02152",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "495ab620",
+      "file": "CUSA02152_01.00_495ab620.json",
+      "path": "json/CUSA02152_01.00_495ab620.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Focus",
+        "Infinite Arrows"
+      ]
+    },
+    {
+      "sourceId": "6481eae2",
+      "file": "CUSA02152_01.00_6481eae2.mc4",
+      "path": "mc4/CUSA02152_01.00_6481eae2.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Focus",
+        "Infinite Arrows"
+      ]
+    },
+    {
+      "sourceId": "32a476f4",
+      "file": "CUSA02152_01.00_32a476f4.shn",
+      "path": "shn/CUSA02152_01.00_32a476f4.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Focus",
+        "Infinite Arrows"
+      ]
+    }
+  ]
+}

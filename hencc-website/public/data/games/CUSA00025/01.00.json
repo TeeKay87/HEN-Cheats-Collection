@@ -1,0 +1,87 @@
+{
+  "schema": 1,
+  "id": "CUSA00025",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "b4228dc1",
+      "file": "CUSA00025_01.00_b4228dc1.json",
+      "path": "json/CUSA00025_01.00_b4228dc1.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "All Client Infinite Ammo",
+        "All Client Godmode"
+      ]
+    },
+    {
+      "sourceId": "79875a06",
+      "file": "CUSA00025_01.00_default_mp.elf_79875a06.json",
+      "path": "json/CUSA00025_01.00_default_mp.elf_79875a06.json",
+      "format": "json",
+      "process": "default_mp.elf",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "All Client Infinite Ammo",
+        "All Client Godmode"
+      ]
+    },
+    {
+      "sourceId": "30c0d468",
+      "file": "CUSA00025_01.00_default_mp.elf_30c0d468.mc4",
+      "path": "mc4/CUSA00025_01.00_default_mp.elf_30c0d468.mc4",
+      "format": "mc4",
+      "process": "default_mp.elf",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "All Client Infinite Ammo",
+        "All Client Godmode"
+      ]
+    },
+    {
+      "sourceId": "4b3c2caa",
+      "file": "CUSA00025_01.00_4b3c2caa.shn",
+      "path": "shn/CUSA00025_01.00_4b3c2caa.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "All Client Infinite Ammo",
+        "All Client Godmode"
+      ]
+    },
+    {
+      "sourceId": "1753d1b9",
+      "file": "CUSA00025_01.00_default_mp.elf_1753d1b9.shn",
+      "path": "shn/CUSA00025_01.00_default_mp.elf_1753d1b9.shn",
+      "format": "shn",
+      "process": "default_mp.elf",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "All Client Infinite Ammo",
+        "All Client Godmode"
+      ]
+    }
+  ]
+}

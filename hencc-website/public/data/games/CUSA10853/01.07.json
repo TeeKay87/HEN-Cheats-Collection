@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "id": "CUSA10853",
+  "version": "01.07",
+  "files": [
+    {
+      "sourceId": "545d9738",
+      "file": "CUSA10853_01.07_545d9738.json",
+      "path": "json/CUSA10853_01.07_545d9738.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health(100)",
+        "Max Health (100)",
+        "Infinite Stamina (100)",
+        "Max Stamina (100)",
+        "Infinite Mana (200)",
+        "Max Durability (Armor/weapons/food)",
+        "No Hunger",
+        "No Thirst",
+        "No Sleep",
+        "2000 Coins (on buy needs 50 Capacity )",
+        "4000 Coins (On buy Needs 50 Capacity Bag)",
+        "9000 Coins on Buy (Needs 100 Capacity bag)",
+        "1 weight (doesnt work on silver coins)",
+        "No Cooldown (Skills/Spells)",
+        "Infinite Ammo/items except food(turn off when removing traps or tents)"
+      ]
+    },
+    {
+      "sourceId": "7d37e7e6",
+      "file": "CUSA10853_01.07_7d37e7e6.json",
+      "path": "json/CUSA10853_01.07_7d37e7e6.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "coins",
+        "weight",
+        "max weight",
+        "maxxx",
+        "maxi",
+        "maaaaax",
+        "mamax",
+        "stm",
+        "wronf thirst",
+        "Thirst ",
+        "Sleep",
+        "Hunger",
+        "hp",
+        "hp1",
+        "health",
+        "health 2",
+        "COINS",
+        "coins on sell",
+        "max stm",
+        "max stm2",
+        "HPPPPP1",
+        "hpppp2",
+        "max hp2",
+        "inf hpp",
+        "durability",
+        "NoCool down",
+        "Tempetar",
+        "Mana",
+        "ammo"
+      ]
+    }
+  ]
+}

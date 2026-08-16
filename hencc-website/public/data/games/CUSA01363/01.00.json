@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "id": "CUSA01363",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "11e2014d",
+      "file": "CUSA01363_01.00_11e2014d.json",
+      "path": "json/CUSA01363_01.00_11e2014d.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Stamina"
+      ]
+    },
+    {
+      "sourceId": "f92acfcc",
+      "file": "CUSA01363_01.00_f92acfcc.shn",
+      "path": "shn/CUSA01363_01.00_f92acfcc.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "hejran7"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinity HP",
+        "One Hit Kill",
+        "Inf HP + OHK",
+        "Poison Resistance",
+        "Inf Stamina",
+        "Inf Blood Echoes On Spend",
+        "Never Lose Blood Echoes",
+        "Inf Insight On Spend",
+        "Inf Items On Use",
+        "Dupe Anything In Storage Box",
+        "Inf Weapon Durability"
+      ]
+    }
+  ]
+}

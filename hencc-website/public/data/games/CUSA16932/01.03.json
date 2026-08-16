@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "id": "CUSA16932",
+  "version": "01.03",
+  "files": [
+    {
+      "sourceId": "577f754a",
+      "file": "CUSA16932_01.03_577f754a.mc4",
+      "path": "mc4/CUSA16932_01.03_577f754a.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Stamina",
+        "Infinite Weapon Durability",
+        "99 Items (on use/get have 2 at least)",
+        "Max character level",
+        "Max Sword level",
+        "Max Safe saving when depositing"
+      ]
+    },
+    {
+      "sourceId": "91c05ca7",
+      "file": "CUSA16932_01.03_91c05ca7.shn",
+      "path": "shn/CUSA16932_01.03_91c05ca7.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Stamina",
+        "Infinite Weapon Durability",
+        "99 Items (on use/get have 2 at least)",
+        "Max character level",
+        "Max Sword level",
+        "Max Safe saving when depositing"
+      ]
+    }
+  ]
+}

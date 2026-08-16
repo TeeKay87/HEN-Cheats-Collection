@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "id": "CUSA05986",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "8b8c4b96",
+      "file": "CUSA05986_01.00_8b8c4b96.json",
+      "path": "json/CUSA05986_01.00_8b8c4b96.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "x3shakir"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Money",
+        "Max Tokens",
+        "Max Rep Points",
+        "Inf Nitro"
+      ]
+    },
+    {
+      "sourceId": "4c80b0a4",
+      "file": "CUSA05986_01.00_4c80b0a4.shn",
+      "path": "shn/CUSA05986_01.00_4c80b0a4.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "x3shakir"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Money",
+        "Max Tokens",
+        "Max Rep Points",
+        "Inf Nitro"
+      ]
+    }
+  ]
+}

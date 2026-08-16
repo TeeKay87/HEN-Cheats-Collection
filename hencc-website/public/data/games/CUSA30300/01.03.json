@@ -1,0 +1,102 @@
+{
+  "schema": 1,
+  "id": "CUSA30300",
+  "version": "01.03",
+  "files": [
+    {
+      "sourceId": "73995639",
+      "file": "CUSA30300_01.03_73995639.json",
+      "path": "json/CUSA30300_01.03_73995639.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Land Heavy Attack",
+        "Infinite Super Form",
+        "Infinite Arial Heavy Attacks",
+        "Alot of Rubies (on gain)"
+      ]
+    },
+    {
+      "sourceId": "007230d0",
+      "file": "CUSA30300_01.03_007230d0.mc4",
+      "path": "mc4/CUSA30300_01.03_007230d0.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Max SP",
+        "Infinite SP",
+        "Max Crystals",
+        "Infinite lives"
+      ]
+    },
+    {
+      "sourceId": "c8d755b8",
+      "file": "CUSA30300_01.03_c8d755b8.mc4",
+      "path": "mc4/CUSA30300_01.03_c8d755b8.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Max SP",
+        "Infinite SP",
+        "Max Crystals",
+        "Infinite lives"
+      ]
+    },
+    {
+      "sourceId": "78f0fdfd",
+      "file": "CUSA30300_01.03_78f0fdfd.shn",
+      "path": "shn/CUSA30300_01.03_78f0fdfd.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Max SP",
+        "Infinite SP",
+        "Max Crystals",
+        "Infinite lives"
+      ]
+    },
+    {
+      "sourceId": "bb5e7a35",
+      "file": "CUSA30300_01.03_bb5e7a35.shn",
+      "path": "shn/CUSA30300_01.03_bb5e7a35.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Max SP",
+        "Infinite SP",
+        "Max Crystals",
+        "Infinite lives"
+      ]
+    }
+  ]
+}

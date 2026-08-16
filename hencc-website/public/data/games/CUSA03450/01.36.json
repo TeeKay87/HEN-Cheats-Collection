@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "id": "CUSA03450",
+  "version": "01.36",
+  "files": [
+    {
+      "sourceId": "14930834",
+      "file": "CUSA03450_01.36_14930834.shn",
+      "path": "shn/CUSA03450_01.36_14930834.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "2B"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf HP+Stamina (HP will decrease a little)",
+        "Max Item+Ammo  (on use)",
+        "no Reload"
+      ]
+    }
+  ]
+}

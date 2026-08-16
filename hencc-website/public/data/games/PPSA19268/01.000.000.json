@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "id": "PPSA19268",
+  "version": "01.000.000",
+  "files": [
+    {
+      "sourceId": "3312ab7d",
+      "file": "PPSA19268_01.000.000_3312ab7d.json",
+      "path": "json/PPSA19268_01.000.000_3312ab7d.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Hp",
+        "Inf Ammo",
+        "Inf Coins"
+      ]
+    },
+    {
+      "sourceId": "3b2dec2a",
+      "file": "PPSA19268_01.000.000_3b2dec2a.mc4",
+      "path": "mc4/PPSA19268_01.000.000_3b2dec2a.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Hp",
+        "Inf Ammo",
+        "Inf Coins"
+      ]
+    }
+  ]
+}

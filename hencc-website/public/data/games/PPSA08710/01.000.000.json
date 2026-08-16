@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "id": "PPSA08710",
+  "version": "01.000.000",
+  "files": [
+    {
+      "sourceId": "49bd38de",
+      "file": "PPSA08710_01.000.000_49bd38de.mc4",
+      "path": "mc4/PPSA08710_01.000.000_49bd38de.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Yharnam"
+      ],
+      "notes": null,
+      "cheats": [
+        "Untouchable",
+        "Infi HP",
+        "1 Hit Kill",
+        "Infi Ammo (No Reload)",
+        "Infi Items"
+      ]
+    },
+    {
+      "sourceId": "0d0f88dd",
+      "file": "PPSA08710_01.000.000_0d0f88dd.shn",
+      "path": "shn/PPSA08710_01.000.000_0d0f88dd.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Super Death"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health ",
+        "One Hit Kill",
+        "Infinite Items and Ammo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "id": "CUSA12567",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "ab484d9c",
+      "file": "CUSA12567_01.01_ab484d9c.json",
+      "path": "json/CUSA12567_01.01_ab484d9c.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health (Don't Use With 1 Hit)",
+        "Inf Health / 1 Hit Kill",
+        "Inf Stamina",
+        "Inf Energy",
+        "Inf Res / Drone Ammo",
+        "Inf Tech Scrap"
+      ]
+    },
+    {
+      "sourceId": "dbadbf86",
+      "file": "CUSA12567_01.01_dbadbf86.json",
+      "path": "json/CUSA12567_01.01_dbadbf86.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health (Dont Use With 1 Hit)",
+        "Inf Health / 1 Hit Kill",
+        "Inf Stamina",
+        "Inf Energy",
+        "Inf Res / Drone Ammo",
+        "Inf Tech Scrap"
+      ]
+    }
+  ]
+}

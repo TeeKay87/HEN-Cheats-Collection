@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "id": "PPSA19461",
+  "version": "01.200.000",
+  "files": [
+    {
+      "sourceId": "a9b6e236",
+      "file": "PPSA19461_01.200.000_a9b6e236.json",
+      "path": "json/PPSA19461_01.200.000_a9b6e236.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Hp",
+        "Inf Mp",
+        "Inf Kunai",
+        "Inf Coins",
+        "Inf Rage",
+        "Inf Hp Wolf"
+      ]
+    }
+  ]
+}

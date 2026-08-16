@@ -1,0 +1,116 @@
+{
+  "schema": 1,
+  "id": "CUSA31349",
+  "version": "01.03",
+  "files": [
+    {
+      "sourceId": "b16c67af",
+      "file": "CUSA31349_01.03_b16c67af.json",
+      "path": "json/CUSA31349_01.03_b16c67af.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "WanderFW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite MP",
+        "Infinite AP",
+        "Infinite Items (when use)",
+        "Max Gil (when Buying)",
+        "Max SP (after first battle)",
+        "Fast Leveling up (after 2nd or 3rd fight)"
+      ]
+    },
+    {
+      "sourceId": "7e3bd0d3",
+      "file": "CUSA31349_01.03_7e3bd0d3.mc4",
+      "path": "mc4/CUSA31349_01.03_7e3bd0d3.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max/Infinite HP",
+        "Max/Infinite MP",
+        "Max/Infinite AP",
+        "Infinite Items On Use",
+        "Max SP",
+        "Level UP",
+        "Max Gil On Buy",
+        "Infinite Health",
+        "Max Gil (when Buying)"
+      ]
+    },
+    {
+      "sourceId": "8d3faadc",
+      "file": "CUSA31349_01.03_8d3faadc.mc4",
+      "path": "mc4/CUSA31349_01.03_8d3faadc.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max/Infinite HP",
+        "Max/Infinite MP",
+        "Max/Infinite AP",
+        "Infinite Items On Use",
+        "Max SP",
+        "Level UP",
+        "Max Gil On Buy"
+      ]
+    },
+    {
+      "sourceId": "95df27c3",
+      "file": "CUSA31349_01.03_95df27c3.mc4",
+      "path": "mc4/CUSA31349_01.03_95df27c3.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "WanderFW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite MP",
+        "Infinite AP",
+        "Infinite Items (when use)",
+        "Max Gil (when Buying)",
+        "Max SP (after first battle)",
+        "Fast Leveling up (after 2nd or 3rd fight)"
+      ]
+    },
+    {
+      "sourceId": "87c94c19",
+      "file": "CUSA31349_01.03_87c94c19.shn",
+      "path": "shn/CUSA31349_01.03_87c94c19.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max/Infinite HP",
+        "Max/Infinite MP",
+        "Max/Infinite AP",
+        "Infinite Items On Use",
+        "Max SP",
+        "Level UP",
+        "Max Gil On Buy",
+        "Infinite Health",
+        "Max Gil (when Buying)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "id": "CUSA19640",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "cec4e8b5",
+      "file": "CUSA19640_01.00_cec4e8b5.json",
+      "path": "json/CUSA19640_01.00_cec4e8b5.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "SunRise01(Creator), kemalsanli(Tester and Editor)"
+      ],
+      "notes": null,
+      "cheats": [
+        "Unlimited PP",
+        "Unlimited Bond Point",
+        "Unlimited SP",
+        "HP(seems not working but worth to try)",
+        "Unlimited Items",
+        "Max Money (buy something and go to menu)"
+      ]
+    }
+  ]
+}

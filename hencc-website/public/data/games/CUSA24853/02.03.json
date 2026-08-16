@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "id": "CUSA24853",
+  "version": "02.03",
+  "files": [
+    {
+      "sourceId": "c3ccd309",
+      "file": "CUSA24853_02.03_c3ccd309.json",
+      "path": "json/CUSA24853_02.03_c3ccd309.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "fqzx123"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible",
+        "OneHitKill",
+        "InfRotPower",
+        "InfShield",
+        "InfRotShape",
+        "InfCrystal",
+        "InfArrow"
+      ]
+    },
+    {
+      "sourceId": "3ab23ae3",
+      "file": "CUSA24853_02.03_3ab23ae3.shn",
+      "path": "shn/CUSA24853_02.03_3ab23ae3.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "fqzx123"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible",
+        "OneHitKill",
+        "InfRotPower",
+        "InfShield",
+        "InfRotShape",
+        "InfCrystal",
+        "InfArrow"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "schema": 1,
+  "id": "CUSA03290",
+  "version": "01.03",
+  "files": [
+    {
+      "sourceId": "6b248c93",
+      "file": "CUSA03290_01.03_6b248c93.json",
+      "path": "json/CUSA03290_01.03_6b248c93.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Ammo",
+        "Infinite Stamina",
+        "Infinite Rage",
+        "Infinite Weapon Durability",
+        "Get Money For Spending It",
+        "Get Max XP For 1 Kill"
+      ]
+    },
+    {
+      "sourceId": "b3ac3baa",
+      "file": "CUSA03290_01.03_b3ac3baa.json",
+      "path": "json/CUSA03290_01.03_b3ac3baa.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Ammo",
+        "Infinite Stamina",
+        "Infinite Rage",
+        "Infinite Weapon Durability",
+        "Get Money For Spending It",
+        "Get Max XP For 1 Kill"
+      ]
+    },
+    {
+      "sourceId": "0ae173b6",
+      "file": "CUSA03290_01.03_0ae173b6.mc4",
+      "path": "mc4/CUSA03290_01.03_0ae173b6.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max/Infinite Health",
+        "1 Hit Kill",
+        "Infinite Stamina",
+        "Infinite Ammo",
+        "No Reload",
+        "Infinite Items On Use/Buy/sell (2 To Work)",
+        "Infinite Weapons Durability",
+        "Infinite Flashlight",
+        "Instant Max Fury On Kill",
+        "Max/Infinite Fury On Use",
+        "Max XP/Levels",
+        "Max/Infinite Money On Pick"
+      ]
+    },
+    {
+      "sourceId": "2dc77dd8",
+      "file": "CUSA03290_01.03_2dc77dd8.shn",
+      "path": "shn/CUSA03290_01.03_2dc77dd8.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max/Infinite Health",
+        "1 Hit Kill",
+        "Infinite Stamina",
+        "Infinite Ammo",
+        "No Reload",
+        "Infinite Items On Use/Buy/sell (2 To Work)",
+        "Infinite Weapons Durability",
+        "Infinite Flashlight",
+        "Instant Max Fury On Kill",
+        "Max/Infinite Fury On Use",
+        "Max XP/Levels",
+        "Max/Infinite Money On Pick"
+      ]
+    }
+  ]
+}

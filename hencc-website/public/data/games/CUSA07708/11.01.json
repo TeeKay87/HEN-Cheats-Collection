@@ -1,0 +1,59 @@
+{
+  "schema": 1,
+  "id": "CUSA07708",
+  "version": "11.01",
+  "files": [
+    {
+      "sourceId": "c99c1edb",
+      "file": "CUSA07708_11.01_c99c1edb.json",
+      "path": "json/CUSA07708_11.01_c99c1edb.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Muhanned"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite HP",
+        "Inf stamina",
+        "Inf Item in use",
+        "Inf Pts",
+        "Max Money on buy",
+        "matrials increaseing on crafting",
+        "Max matrials and items on sell",
+        "item max when move from box to pouch",
+        "item max when move from pouch to box",
+        "Money Incress on purchase 2",
+        "items incress when get ",
+        "matrials change when move it in sell box"
+      ]
+    },
+    {
+      "sourceId": "8c7ad477",
+      "file": "CUSA07708_11.01_8c7ad477.shn",
+      "path": "shn/CUSA07708_11.01_8c7ad477.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Muhanned"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite HP",
+        "Inf stamina",
+        "Inf Item in use",
+        "Inf Pts",
+        "Max Money on buy",
+        "matrials increaseing on crafting",
+        "Max matrials and items on sell",
+        "item max when move from box to pouch",
+        "item max when move from pouch to box",
+        "Money Incress on purchase 2",
+        "items incress when get ",
+        "matrials change when move it in sell box"
+      ]
+    }
+  ]
+}

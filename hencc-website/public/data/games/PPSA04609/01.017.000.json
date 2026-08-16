@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "id": "PPSA04609",
+  "version": "01.017.000",
+  "files": [
+    {
+      "sourceId": "bbc84b7a",
+      "file": "PPSA04609_01.017.000_bbc84b7a.mc4",
+      "path": "mc4/PPSA04609_01.017.000_bbc84b7a.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Yharnam"
+      ],
+      "notes": null,
+      "cheats": [
+        "No Enemy Attacks",
+        "Stealth Mode",
+        "Untouchable",
+        "1 Hit Kill",
+        "Inf Health",
+        "Inf Stamina",
+        "Inf FP",
+        "Max Items (Get, Use)",
+        "Max Runes"
+      ]
+    }
+  ]
+}

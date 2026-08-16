@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "CUSA11379",
+  "version": "01.28",
+  "files": [
+    {
+      "sourceId": "7418b6cf",
+      "file": "CUSA11379_01.28_7418b6cf.json",
+      "path": "json/CUSA11379_01.28_7418b6cf.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health / Easy Win (Master Code)",
+        "1-Easy Win (MC) Opponent Health (15%)",
+        "2-Easy Win (MC) Opponent Health (1%)",
+        "Infinite Super Meter",
+        "Opponent Super Meter (No Refill)"
+      ]
+    },
+    {
+      "sourceId": "a67ff1c6",
+      "file": "CUSA11379_01.28_a67ff1c6.json",
+      "path": "json/CUSA11379_01.28_a67ff1c6.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health / Easy Win (Master Code)",
+        "1-Easy Win (MC) Opponent Health (15%)",
+        "2-Easy Win (MC) Opponent Health (1%)",
+        "Inf Super Meter",
+        "Opponent Super Meter (No Refill)"
+      ]
+    }
+  ]
+}

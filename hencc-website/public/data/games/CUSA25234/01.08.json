@@ -1,0 +1,95 @@
+{
+  "schema": 1,
+  "id": "CUSA25234",
+  "version": "01.08",
+  "files": [
+    {
+      "sourceId": "2a0ea3a4",
+      "file": "CUSA25234_01.08_2a0ea3a4.json",
+      "path": "json/CUSA25234_01.08_2a0ea3a4.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health / Stamina (Master Code)",
+        "Ability / Easy Kill (Master Code)",
+        "Max Resorce (On Spend)",
+        "Max Fate Points"
+      ]
+    },
+    {
+      "sourceId": "7eba5a36",
+      "file": "CUSA25234_01.08_7eba5a36.json",
+      "path": "json/CUSA25234_01.08_7eba5a36.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "wander"
+      ],
+      "notes": null,
+      "cheats": [
+        "Skill Points (On Spend)",
+        "Infinite Feat Points"
+      ]
+    },
+    {
+      "sourceId": "eff059c8",
+      "file": "CUSA25234_01.08_eff059c8.json",
+      "path": "json/CUSA25234_01.08_eff059c8.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "EvilGoku"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf HP and 1 Hit Kill",
+        "999999 Money _crystal _inf item use (buy or sell or pickup or upgrade)  ",
+        "Never Decrease Attribute Points",
+        "Never Decrease Points  for Upgrade"
+      ]
+    },
+    {
+      "sourceId": "513e4c2c",
+      "file": "CUSA25234_01.08_513e4c2c.shn",
+      "path": "shn/CUSA25234_01.08_513e4c2c.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "EvilGoku"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf HP and 1 Hit Kill",
+        "999999 Money _crystal _inf item use (buy or sell or pickup or upgrade)  ",
+        "Never Decrease Attribute Points",
+        "Never Decrease Points  for Upgrade"
+      ]
+    },
+    {
+      "sourceId": "8567213a",
+      "file": "CUSA25234_01.08_8567213a.shn",
+      "path": "shn/CUSA25234_01.08_8567213a.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "EvilGoku"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf HP and 1 Hit Kill",
+        "999999 Money _crystal _inf item use (buy or sell or pickup or upgrade)  ",
+        "Never Decrease Attribute Points",
+        "Never Decrease Points  for Upgrade"
+      ]
+    }
+  ]
+}

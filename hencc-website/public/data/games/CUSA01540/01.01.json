@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "CUSA01540",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "146ba71f",
+      "file": "CUSA01540_01.01_146ba71f.json",
+      "path": "json/CUSA01540_01.01_146ba71f.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Gold Health",
+        "Infinite Armor",
+        "Infinite Ammo/Granades/No Reload",
+        "Infinite Knife"
+      ]
+    }
+  ]
+}

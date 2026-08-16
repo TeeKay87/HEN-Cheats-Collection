@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "CUSA45404",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "da673a15",
+      "file": "CUSA45404_01.01_da673a15.mc4",
+      "path": "mc4/CUSA45404_01.01_da673a15.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health",
+        "Inf Shield Timer",
+        "Freez Timer",
+        "Inf Jump",
+        "Max Gold"
+      ]
+    },
+    {
+      "sourceId": "6755005b",
+      "file": "CUSA45404_01.01_6755005b.shn",
+      "path": "shn/CUSA45404_01.01_6755005b.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health",
+        "Inf Shield Timer",
+        "Freez Timer",
+        "Inf Jump",
+        "Max Gold"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "CUSA16523",
+  "version": "01.03",
+  "files": [
+    {
+      "sourceId": "79ba0d4e",
+      "file": "CUSA16523_01.03_79ba0d4e.json",
+      "path": "json/CUSA16523_01.03_79ba0d4e.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Stamina",
+        "Max Bones (on spend/gain)",
+        "Max Coins (on sell/buy)",
+        "Max items (on use/sell)",
+        "Minimum Bad luck"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "id": "CUSA20373",
+  "version": "01.05",
+  "files": [
+    {
+      "sourceId": "469a66af",
+      "file": "CUSA20373_01.05_469a66af.json",
+      "path": "json/CUSA20373_01.05_469a66af.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Money (on spend)",
+        "Infinite Throwable(disable when swapping)",
+        "Infinite Thermal Vision Battery",
+        "Infinite Ammo",
+        "Infinite Healing/Boosters",
+        "Skill points (do not decrease)",
+        "Intel points (do not decrease)"
+      ]
+    },
+    {
+      "sourceId": "52b5af62",
+      "file": "CUSA20373_01.05_52b5af62.json",
+      "path": "json/CUSA20373_01.05_52b5af62.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander",
+        "FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Money (on spend)",
+        "Infinite throwable(disable when swapping)",
+        "Infinite thermal vision battery",
+        "Infinite Ammo",
+        "Infinite Healing/Boosters",
+        "Skill points (do not decrease)",
+        "Intel points (do not decrease)"
+      ]
+    }
+  ]
+}

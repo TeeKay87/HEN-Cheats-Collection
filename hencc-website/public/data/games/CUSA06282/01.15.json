@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "id": "CUSA06282",
+  "version": "01.15",
+  "files": [
+    {
+      "sourceId": "7545cd5f",
+      "file": "CUSA06282_01.15_7545cd5f.mc4",
+      "path": "mc4/CUSA06282_01.15_7545cd5f.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Vampirexx"
+      ],
+      "notes": null,
+      "cheats": [
+        "GodMode"
+      ]
+    },
+    {
+      "sourceId": "2910fdd6",
+      "file": "CUSA06282_01.15_2910fdd6.shn",
+      "path": "shn/CUSA06282_01.15_2910fdd6.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Vampirexx"
+      ],
+      "notes": null,
+      "cheats": [
+        "GodMode"
+      ]
+    }
+  ]
+}

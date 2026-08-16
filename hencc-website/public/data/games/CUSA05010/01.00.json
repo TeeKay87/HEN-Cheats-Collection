@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "id": "CUSA05010",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "0673df53",
+      "file": "CUSA05010_01.00_0673df53.mc4",
+      "path": "mc4/CUSA05010_01.00_0673df53.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Weysincha"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health (need at least 1 hearts)",
+        "Inf Exp/Gold/Max Lvl"
+      ]
+    },
+    {
+      "sourceId": "2a00af56",
+      "file": "CUSA05010_01.00_2a00af56.shn",
+      "path": "shn/CUSA05010_01.00_2a00af56.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Weysincha"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health (need at least 1 hearts)",
+        "Inf Exp/Gold/Max Lvl"
+      ]
+    }
+  ]
+}

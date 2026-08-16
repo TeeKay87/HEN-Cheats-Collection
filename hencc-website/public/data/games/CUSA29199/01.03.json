@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "CUSA29199",
+  "version": "01.03",
+  "files": [
+    {
+      "sourceId": "4bab35bb",
+      "file": "CUSA29199_01.03_4bab35bb.mc4",
+      "path": "mc4/CUSA29199_01.03_4bab35bb.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible",
+        "Infinite-Health",
+        "Infinite-Ammo",
+        "Infinite-items",
+        "one-Hit-Kill"
+      ]
+    },
+    {
+      "sourceId": "eb04a730",
+      "file": "CUSA29199_01.03_eb04a730.shn",
+      "path": "shn/CUSA29199_01.03_eb04a730.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible",
+        "Infinite-Health",
+        "Infinite-Ammo",
+        "Infinite-items",
+        "one-Hit-Kill"
+      ]
+    }
+  ]
+}

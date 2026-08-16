@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "id": "CUSA35014",
+  "version": "01.04",
+  "files": [
+    {
+      "sourceId": "f47e0577",
+      "file": "CUSA35014_01.04_f47e0577.json",
+      "path": "json/CUSA35014_01.04_f47e0577.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Health / 1 Hit Kill (Master Code)",
+        "1 Hit Kill (MC)",
+        "Max Gold",
+        "Inf Points",
+        "X2 Speed",
+        "Rabbit Speed",
+        "Ghost Speed",
+        "Normal Speed"
+      ]
+    },
+    {
+      "sourceId": "e6628d63",
+      "file": "CUSA35014_01.04_e6628d63.mc4",
+      "path": "mc4/CUSA35014_01.04_e6628d63.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Health / 1 Hit Kill (Master Code)",
+        "1 Hit Kill (MC)",
+        "Max Gold",
+        "Inf Points",
+        "X2 Speed",
+        "Rabbit Speed",
+        "Ghost Speed",
+        "Normal Speed"
+      ]
+    },
+    {
+      "sourceId": "27eeb521",
+      "file": "CUSA35014_01.04_27eeb521.shn",
+      "path": "shn/CUSA35014_01.04_27eeb521.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Health / 1 Hit Kill (Master Code)",
+        "1 Hit Kill (MC)",
+        "Max Gold",
+        "Inf Points",
+        "X2 Speed"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "id": "CUSA11100",
+  "version": "01.26",
+  "files": [
+    {
+      "sourceId": "c3e56396",
+      "file": "CUSA11100_01.26_c3e56396.json",
+      "path": "json/CUSA11100_01.26_c3e56396.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max/Infinite Health",
+        "1 Hit Kill",
+        "Infinite Ammo",
+        "No Reload",
+        "Max/Infinite Grenades/Scepter Of Ra (Zombies)",
+        "Max Score (Zombies)"
+      ]
+    },
+    {
+      "sourceId": "1a4b7fee",
+      "file": "CUSA11100_01.26_1a4b7fee.mc4",
+      "path": "mc4/CUSA11100_01.26_1a4b7fee.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max/Infinite Health",
+        "1 Hit Kill",
+        "Infinite Ammo",
+        "No Reload",
+        "Max/Infinite Grenades/Scepter Of Ra (Zombies)",
+        "Max Score (Zombies)"
+      ]
+    },
+    {
+      "sourceId": "1cfc7e16",
+      "file": "CUSA11100_01.26_1cfc7e16.shn",
+      "path": "shn/CUSA11100_01.26_1cfc7e16.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max/Infinite Health",
+        "1 Hit Kill",
+        "Infinite Ammo",
+        "No Reload",
+        "Max/Infinite Grenades/Scepter Of Ra (Zombies)",
+        "Max Score (Zombies)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "id": "CUSA29772",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "c7e322a2",
+      "file": "CUSA29772_01.01_c7e322a2.mc4",
+      "path": "mc4/CUSA29772_01.01_c7e322a2.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf HP / 1 Hit Kill (Master Code)",
+        "Kunio (MC)",
+        "Riki (MC)",
+        "Misako (MC)",
+        "Kyoko (MC)",
+        "1 Hit Kill (MC)"
+      ]
+    },
+    {
+      "sourceId": "4bd2e6fb",
+      "file": "CUSA29772_01.01_4bd2e6fb.shn",
+      "path": "shn/CUSA29772_01.01_4bd2e6fb.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf HP / 1 Hit Kill (Master Code)",
+        "Kunio (MC)",
+        "Riki (MC)",
+        "Misako (MC)",
+        "Kyoko (MC)",
+        "1 Hit Kill (MC)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "id": "CUSA16968",
+  "version": "01.04",
+  "files": [
+    {
+      "sourceId": "ea8d8830",
+      "file": "CUSA16968_01.04_ea8d8830.json",
+      "path": "json/CUSA16968_01.04_ea8d8830.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "(Aladdin) - (The Jungle Book)",
+        "HP/ Lives / Fruit / ",
+        "(Lion King)",
+        "HP / Lives / Roar "
+      ]
+    },
+    {
+      "sourceId": "7c1c2187",
+      "file": "CUSA16968_01.04_7c1c2187.mc4",
+      "path": "mc4/CUSA16968_01.04_7c1c2187.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "(Aladdin) - (The Jungle Book)",
+        "HP/ Lives / Fruit / ",
+        "(Lion King)",
+        "HP / Lives / Roar "
+      ]
+    },
+    {
+      "sourceId": "ab2519c1",
+      "file": "CUSA16968_01.04_ab2519c1.shn",
+      "path": "shn/CUSA16968_01.04_ab2519c1.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "(Aladdin) - (The Jungle Book)",
+        "HP/ Lives / Fruit / ",
+        "HP / Lives / Roar "
+      ]
+    }
+  ]
+}

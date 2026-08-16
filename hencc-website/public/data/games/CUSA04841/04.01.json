@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "id": "CUSA04841",
+  "version": "04.01",
+  "files": [
+    {
+      "sourceId": "937f560c",
+      "file": "CUSA04841_04.01_937f560c.json",
+      "path": "json/CUSA04841_04.01_937f560c.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Sprint",
+        "Infinite Jetpack",
+        "Infinite Pet Sprint",
+        "Infinite Gun Ammo",
+        "Minotaur Infinite Jetpack",
+        "Max Quicksilver (on spend)",
+        "Max Nanite Clusters (on gain)",
+        "Max Unites (on spend)",
+        "999 Salvaged Data (on spend)",
+        "999 Minerals (on gain)",
+        "999 Minerals (on use)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "id": "PPSA03831",
+  "version": "01.041.000",
+  "files": [
+    {
+      "sourceId": "cbdc02fa",
+      "file": "PPSA03831_01.041.000_cbdc02fa.json",
+      "path": "json/PPSA03831_01.041.000_cbdc02fa.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Rings",
+        "Inf Turbo",
+        "Inf O2",
+        "Stop Timers",
+        "Inf Exp",
+        "Inf Memories Coins",
+        "Inf Small Items",
+        "Inf Blue Coins",
+        "Inf Seeds",
+        "Inf Fishing Coins",
+        "Inf Fishing Golden Tickets",
+        "Inf Gears and Keys (Activate after 1-2 Level)",
+        "Easy points on Minigames",
+        "Inf Jumps"
+      ]
+    },
+    {
+      "sourceId": "78665a8a",
+      "file": "PPSA03831_01.041.000_78665a8a.mc4",
+      "path": "mc4/PPSA03831_01.041.000_78665a8a.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Rings",
+        "Inf Turbo",
+        "Inf O2",
+        "Stop Timers",
+        "Inf Exp",
+        "Inf Memories Coins",
+        "Inf Small Items",
+        "Inf Blue Coins",
+        "Inf Seeds",
+        "Inf Fishing Coins",
+        "Inf Fishing Golden Tickets",
+        "Inf Gears and Keys (Activate after 1-2 Level)",
+        "Easy points on Minigames",
+        "Inf Jumps"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "id": "CUSA19177",
+  "version": "01.13",
+  "files": [
+    {
+      "sourceId": "d937f287",
+      "file": "CUSA19177_01.13_d937f287.json",
+      "path": "json/CUSA19177_01.13_d937f287.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 ",
+        " FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Fuel",
+        "Perfect Vehicle Condition",
+        "Max Money",
+        "Max XP ( on gain )"
+      ]
+    },
+    {
+      "sourceId": "6ccff507",
+      "file": "CUSA19177_01.13_6ccff507.mc4",
+      "path": "mc4/CUSA19177_01.13_6ccff507.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 - FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Fuel",
+        "Perfect Vehicle Condition",
+        "Max Money",
+        "Max XP ( on gain )"
+      ]
+    },
+    {
+      "sourceId": "a303c666",
+      "file": "CUSA19177_01.13_a303c666.shn",
+      "path": "shn/CUSA19177_01.13_a303c666.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 - FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Fuel",
+        "Perfect Vehicle Condition",
+        "Max Money",
+        "Max XP ( on gain )"
+      ]
+    }
+  ]
+}

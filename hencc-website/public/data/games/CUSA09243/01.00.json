@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "id": "CUSA09243",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "17823304",
+      "file": "CUSA09243_01.00_17823304.mc4",
+      "path": "mc4/CUSA09243_01.00_17823304.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Health / 1 Hit",
+        "Infinite Health",
+        "1 Hit Kill",
+        "Infinite Items",
+        "Max Money on Get",
+        "In Health",
+        "Inf Money",
+        "Inf Skill Gauge"
+      ]
+    },
+    {
+      "sourceId": "5a3ee7e0",
+      "file": "CUSA09243_01.00_5a3ee7e0.mc4",
+      "path": "mc4/CUSA09243_01.00_5a3ee7e0.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Health / 1 Hit",
+        "Infinite Health",
+        "1 Hit Kill",
+        "Infinite Items",
+        "Max Money on Get"
+      ]
+    },
+    {
+      "sourceId": "9f52b6bd",
+      "file": "CUSA09243_01.00_9f52b6bd.mc4",
+      "path": "mc4/CUSA09243_01.00_9f52b6bd.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Weysincha"
+      ],
+      "notes": null,
+      "cheats": [
+        "In Health",
+        "Inf Money",
+        "Inf Skill Gauge"
+      ]
+    },
+    {
+      "sourceId": "1a175b8b",
+      "file": "CUSA09243_01.00_1a175b8b.shn",
+      "path": "shn/CUSA09243_01.00_1a175b8b.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Health / 1 Hit",
+        "Infinite Health",
+        "1 Hit Kill",
+        "Infinite Items",
+        "Max Money on Get"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "id": "CUSA16296",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "59df355b",
+      "file": "CUSA16296_01.01_59df355b.json",
+      "path": "json/CUSA16296_01.01_59df355b.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Dioniso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "1 Hit Kill",
+        "Infinite Armor",
+        "All Weapons",
+        "Infinite Ammo",
+        "No Reload",
+        "3 Keycards",
+        "3 Skull Keys",
+        "3 Demon Keys",
+        "Enemies Don't Move (-MAP 28)",
+        "Turbo Speed"
+      ]
+    },
+    {
+      "sourceId": "e782c26a",
+      "file": "CUSA16296_01.01_e782c26a.json",
+      "path": "json/CUSA16296_01.01_e782c26a.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Dioniso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "1 Hit Kill",
+        "Infinite Armor",
+        "All Weapons",
+        "Infinite Ammo",
+        "No Reload",
+        "3 Keycards",
+        "3 Skull Keys",
+        "3 Demon Keys",
+        "Enemies Dont Move (-MAP 28)",
+        "Turbo Speed"
+      ]
+    }
+  ]
+}

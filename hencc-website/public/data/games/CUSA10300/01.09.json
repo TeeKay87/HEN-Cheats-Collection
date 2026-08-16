@@ -1,0 +1,87 @@
+{
+  "schema": 1,
+  "id": "CUSA10300",
+  "version": "01.09",
+  "files": [
+    {
+      "sourceId": "7b2af2ba",
+      "file": "CUSA10300_01.09_7b2af2ba.json",
+      "path": "json/CUSA10300_01.09_7b2af2ba.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "ahmad"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Ammo",
+        "Infinite Items",
+        "Infinite Throwables"
+      ]
+    },
+    {
+      "sourceId": "8e6af0ae",
+      "file": "CUSA10300_01.09_8e6af0ae.json",
+      "path": "json/CUSA10300_01.09_8e6af0ae.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "ahmad"
+      ],
+      "notes": null,
+      "cheats": [
+        "infi ammo",
+        "inif items",
+        "infi Throwables"
+      ]
+    },
+    {
+      "sourceId": "3d442d17",
+      "file": "CUSA10300_01.09_3d442d17.shn",
+      "path": "shn/CUSA10300_01.09_3d442d17.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "ahmad"
+      ],
+      "notes": null,
+      "cheats": [
+        "infi ammo",
+        "inif items",
+        "infi Throwables"
+      ]
+    },
+    {
+      "sourceId": "aace5a6f",
+      "file": "CUSA10300_01.09_aace5a6f.shn",
+      "path": "shn/CUSA10300_01.09_aace5a6f.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "hejran7"
+      ],
+      "notes": null,
+      "cheats": [
+        "HP MC (Must Be On)",
+        "Max Inf HP",
+        "One Hit Kill",
+        "Inf Ammo",
+        "No Reload",
+        "Max Inf OverDirve",
+        "Inf Items (Shop)",
+        "Max Inf Cash",
+        "Inf Items\\Throwables",
+        "Inf Items\\Throwables v2",
+        "Max Inf Project Points",
+        "Vehicle Inf Boost",
+        "Vehicle Inf Ammo",
+        "Vehicle Inf Health",
+        "Vehicle Machine Gun No Overheat"
+      ]
+    }
+  ]
+}

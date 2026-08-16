@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "id": "CUSA26882",
+  "version": "01.03",
+  "files": [
+    {
+      "sourceId": "ec62a8c3",
+      "file": "CUSA26882_01.03_ec62a8c3.mc4",
+      "path": "mc4/CUSA26882_01.03_ec62a8c3.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82"
+      ],
+      "notes": null,
+      "cheats": [
+        "Mastercode ( must be enable for MC Cheats )",
+        "Infinite Health",
+        "Infinite Stamina",
+        "Max Eat [ MC ]",
+        "Max First Aid [ MC ]",
+        "Max Ammo [ MC ]",
+        "MaxBatteries [ MC ]"
+      ]
+    },
+    {
+      "sourceId": "b1fae4e9",
+      "file": "CUSA26882_01.03_b1fae4e9.shn",
+      "path": "shn/CUSA26882_01.03_b1fae4e9.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82"
+      ],
+      "notes": null,
+      "cheats": [
+        "Mastercode ( must be enable for MC Cheats )",
+        "Infinite Health",
+        "Infinite Stamina",
+        "Max Eat [ MC ]",
+        "Max First Aid [ MC ]",
+        "Max Ammo [ MC ]",
+        "MaxBatteries [ MC ]"
+      ]
+    }
+  ]
+}

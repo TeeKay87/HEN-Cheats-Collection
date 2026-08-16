@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "id": "CUSA39420",
+  "version": "01.02",
+  "files": [
+    {
+      "sourceId": "82a00795",
+      "file": "CUSA39420_01.02_82a00795.mc4",
+      "path": "mc4/CUSA39420_01.02_82a00795.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "WANDER FW 900"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Max Shards on get",
+        "Max Silk on hit"
+      ]
+    },
+    {
+      "sourceId": "7e7b769c",
+      "file": "CUSA39420_01.02_7e7b769c.shn",
+      "path": "shn/CUSA39420_01.02_7e7b769c.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "2pt - Contact on ps4 reaper discord if you have issues"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Shell Shards - On Pick Up",
+        "Inf Health",
+        "Max Rosary Beads - On Pickup",
+        "Fly - Press DPAD UP"
+      ]
+    },
+    {
+      "sourceId": "f256d937",
+      "file": "CUSA39420_01.02_f256d937.shn",
+      "path": "shn/CUSA39420_01.02_f256d937.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Super Death"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health ",
+        "No hit Detection",
+        "One Hit Kill",
+        "Infinite Silk",
+        "Infinite Prayer Beads",
+        "Infinite Shell Shards",
+        "Infinite Tool Use",
+        "Infinite Consumables"
+      ]
+    }
+  ]
+}

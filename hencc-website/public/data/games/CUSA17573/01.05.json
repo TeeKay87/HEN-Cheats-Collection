@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "CUSA17573",
+  "version": "01.05",
+  "files": [
+    {
+      "sourceId": "d7831f13",
+      "file": "CUSA17573_01.05_d7831f13.json",
+      "path": "json/CUSA17573_01.05_d7831f13.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander_d01v_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite HP / MP/1Hit",
+        "Max Money (on gain)",
+        "All Item x999 (on gain have 1 at least)",
+        "Max Rank points (on spend)",
+        "Max Experience"
+      ]
+    }
+  ]
+}

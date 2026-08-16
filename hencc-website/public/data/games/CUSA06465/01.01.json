@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "id": "CUSA06465",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "9a9e300a",
+      "file": "CUSA06465_01.01_9a9e300a.mc4",
+      "path": "mc4/CUSA06465_01.01_9a9e300a.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "fbin"
+      ],
+      "notes": null,
+      "cheats": [
+        "Vida Infinita",
+        "Magia Infinita"
+      ]
+    },
+    {
+      "sourceId": "9e785249",
+      "file": "CUSA06465_01.01_9e785249.mc4",
+      "path": "mc4/CUSA06465_01.01_9e785249.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible",
+        "Inf-Health-One-Hit-Kill-(mc)",
+        "Infinite-Web-MAGIC"
+      ]
+    },
+    {
+      "sourceId": "56d20f4f",
+      "file": "CUSA06465_01.01_56d20f4f.shn",
+      "path": "shn/CUSA06465_01.01_56d20f4f.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible",
+        "Inf-Health-One-Hit-Kill-(mc)",
+        "Infinite-Web-MAGIC"
+      ]
+    }
+  ]
+}

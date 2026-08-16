@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "CUSA00309",
+  "version": "01.07",
+  "files": [
+    {
+      "sourceId": "e68e76b0",
+      "file": "CUSA00309_01.07_e68e76b0.json",
+      "path": "json/CUSA00309_01.07_e68e76b0.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "x3shakir"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health",
+        "Inf Energy",
+        "Inf Ammo Capacity",
+        "Get Max Shards x99",
+        "Karmic Streak Always Available"
+      ]
+    },
+    {
+      "sourceId": "e4df3b57",
+      "file": "CUSA00309_01.07_e4df3b57.shn",
+      "path": "shn/CUSA00309_01.07_e4df3b57.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "x3shakir"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health",
+        "Inf Energy",
+        "Inf Ammo Capacity",
+        "Get Max Shards x99",
+        "Karmic Streak Always Available"
+      ]
+    }
+  ]
+}

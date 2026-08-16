@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "id": "CUSA50981",
+  "version": "01.03",
+  "files": [
+    {
+      "sourceId": "db2bb1db",
+      "file": "CUSA50981_01.03_db2bb1db.mc4",
+      "path": "mc4/CUSA50981_01.03_db2bb1db.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible",
+        "Inf-Super+Stamina"
+      ]
+    },
+    {
+      "sourceId": "71d16525",
+      "file": "CUSA50981_01.03_71d16525.shn",
+      "path": "shn/CUSA50981_01.03_71d16525.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible",
+        "Inf-Super+Stamina"
+      ]
+    }
+  ]
+}

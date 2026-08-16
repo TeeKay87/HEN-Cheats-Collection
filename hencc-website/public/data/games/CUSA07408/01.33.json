@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "id": "CUSA07408",
+  "version": "01.33",
+  "files": [
+    {
+      "sourceId": "b3c80aab",
+      "file": "CUSA07408_01.33_b3c80aab.json",
+      "path": "json/CUSA07408_01.33_b3c80aab.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "ThankachanSmith"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "One Hit Kill",
+        "Max and Infinite XP,HS,Crafting Materials When Get",
+        "Instant Rage Meter Fill When Get Hit (Turn Off God Mode Before Use)",
+        "No Cooldown",
+        "Infinite Crafting Materials at Shops (Turn off after use)",
+        "Infinite Arrows (Turn off when out of combat)"
+      ]
+    },
+    {
+      "sourceId": "fa3e767d",
+      "file": "CUSA07408_01.33_fa3e767d.shn",
+      "path": "shn/CUSA07408_01.33_fa3e767d.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "ThankachanSmith"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "One Hit Kill",
+        "Max and Infinite XP,HS,Crafting Materials When Get",
+        "Instant Rage Meter Fill When Get Hit (Turn Off God Mode Before Use)",
+        "No Cooldown",
+        "Infinite Crafting Materials at Shops (Turn off after use)",
+        "Infinite Arrows (Turn off when out of combat)"
+      ]
+    }
+  ]
+}

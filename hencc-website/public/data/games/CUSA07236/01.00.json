@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "id": "CUSA07236",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "6bbc98d2",
+      "file": "CUSA07236_01.00_6bbc98d2.mc4",
+      "path": "mc4/CUSA07236_01.00_6bbc98d2.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Weysincha"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health",
+        "Inf Lives"
+      ]
+    },
+    {
+      "sourceId": "e8d88b65",
+      "file": "CUSA07236_01.00_e8d88b65.shn",
+      "path": "shn/CUSA07236_01.00_e8d88b65.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Weysincha"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health",
+        "Inf Lives"
+      ]
+    }
+  ]
+}

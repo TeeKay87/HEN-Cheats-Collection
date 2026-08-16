@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "PPSA25428",
+  "version": "01.007.000",
+  "files": [
+    {
+      "sourceId": "b08ca055",
+      "file": "PPSA25428_01.007.000_b08ca055.json",
+      "path": "json/PPSA25428_01.007.000_b08ca055.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Hp",
+        "Ing Magic",
+        "Inf Support Gauge",
+        "Inf Money",
+        "Stop Timer"
+      ]
+    }
+  ]
+}

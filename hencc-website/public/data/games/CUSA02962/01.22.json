@@ -1,0 +1,89 @@
+{
+  "schema": 1,
+  "id": "CUSA02962",
+  "version": "01.22",
+  "files": [
+    {
+      "sourceId": "4a9b5032",
+      "file": "CUSA02962_01.22_4a9b5032.json",
+      "path": "json/CUSA02962_01.22_4a9b5032.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "1 weight",
+        "Infinite Ammo",
+        "Max Experiences",
+        "Caps / All Items Multiplier",
+        "All Items / Caps (do not decrease)"
+      ]
+    },
+    {
+      "sourceId": "522b261c",
+      "file": "CUSA02962_01.22_522b261c.mc4",
+      "path": "mc4/CUSA02962_01.22_522b261c.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Bottomless Clip",
+        "Infinite Weight",
+        "Infinite Perkpoints",
+        "Ignore Perkpoints",
+        "Infinite Ammo/Items",
+        "Max Items on Use",
+        "Infinite HP, Stamina_shared"
+      ]
+    },
+    {
+      "sourceId": "e024265a",
+      "file": "CUSA02962_01.22_e024265a.mc4",
+      "path": "mc4/CUSA02962_01.22_e024265a.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Bottomless Clip",
+        "Infinite Weight",
+        "Infinite Perkpoints",
+        "Ignore Perkpoints",
+        "Infinite Ammo/Items",
+        "Max Items on Use",
+        "Infinite HP, Stamina_shared"
+      ]
+    },
+    {
+      "sourceId": "faed3809",
+      "file": "CUSA02962_01.22_faed3809.shn",
+      "path": "shn/CUSA02962_01.22_faed3809.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TLH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Bottomless Clip",
+        "Infinite Weight",
+        "Infinite Perkpoints",
+        "Ignore Perkpoints",
+        "Infinite Ammo/Items",
+        "Max Items on Use",
+        "Infinite HP, Stamina_shared"
+      ]
+    }
+  ]
+}

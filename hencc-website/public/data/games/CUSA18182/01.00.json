@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "id": "CUSA18182",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "023ef650",
+      "file": "CUSA18182_01.00_023ef650.json",
+      "path": "json/CUSA18182_01.00_023ef650.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DementedAI"
+      ],
+      "notes": null,
+      "cheats": [
+        "add skill points 120"
+      ]
+    }
+  ]
+}

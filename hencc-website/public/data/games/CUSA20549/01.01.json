@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "id": "CUSA20549",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "8fc52c23",
+      "file": "CUSA20549_01.01_8fc52c23.mc4",
+      "path": "mc4/CUSA20549_01.01_8fc52c23.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 - FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Max Health",
+        "Infinite Special",
+        "Max Special",
+        "Max Lives ( after Die )",
+        "Infinite Ammo - Grenades",
+        "Max Ammo",
+        "Max Grenades",
+        "Max Protein",
+        "Zero Fat",
+        "Max XP ( on gain )",
+        "Max Level ( on gain )",
+        "Max Skillpoints"
+      ]
+    },
+    {
+      "sourceId": "8a8556b7",
+      "file": "CUSA20549_01.01_8a8556b7.shn",
+      "path": "shn/CUSA20549_01.01_8a8556b7.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 - FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Max Health",
+        "Infinite Special",
+        "Max Special",
+        "Max Lives ( after Die )",
+        "Infinite Ammo - Grenades",
+        "Max Ammo",
+        "Max Grenades",
+        "Max Protein",
+        "Zero Fat",
+        "Max XP ( on gain )",
+        "Max Level ( on gain )",
+        "Max Skillpoints"
+      ]
+    }
+  ]
+}

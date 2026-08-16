@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "id": "CUSA09171",
+  "version": "01.07",
+  "files": [
+    {
+      "sourceId": "5a012117",
+      "file": "CUSA09171_01.07_5a012117.mc4",
+      "path": "mc4/CUSA09171_01.07_5a012117.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Health",
+        "Inf-Ammo-All-Weapon-Never-Reload"
+      ]
+    },
+    {
+      "sourceId": "c63879a5",
+      "file": "CUSA09171_01.07_c63879a5.mc4",
+      "path": "mc4/CUSA09171_01.07_c63879a5.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Health",
+        "Inf-Ammo-All-Weapon-Never-Reload"
+      ]
+    },
+    {
+      "sourceId": "ff789626",
+      "file": "CUSA09171_01.07_ff789626.shn",
+      "path": "shn/CUSA09171_01.07_ff789626.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Health",
+        "Inf-Ammo-All-Weapon-Never-Reload"
+      ]
+    }
+  ]
+}

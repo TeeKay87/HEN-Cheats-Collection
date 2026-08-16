@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "id": "CUSA51101",
+  "version": "01.02",
+  "files": [
+    {
+      "sourceId": "5c51ee80",
+      "file": "CUSA51101_01.02_5c51ee80.mc4",
+      "path": "mc4/CUSA51101_01.02_5c51ee80.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Untouchables",
+        "Inf Health",
+        "Inf Grenades",
+        "One Hit Kill",
+        "Inf Special Weapons",
+        "Inf Continues",
+        "Inf  Mission Time",
+        "Inf Vehicle HP"
+      ]
+    },
+    {
+      "sourceId": "d485df0c",
+      "file": "CUSA51101_01.02_d485df0c.mc4",
+      "path": "mc4/CUSA51101_01.02_d485df0c.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible",
+        "Infinite-Health",
+        "one-Hit-Kill",
+        "Infinite-Grenades",
+        "Infinite-All-Weapon",
+        "Infinite-Time"
+      ]
+    },
+    {
+      "sourceId": "4e8b0126",
+      "file": "CUSA51101_01.02_4e8b0126.shn",
+      "path": "shn/CUSA51101_01.02_4e8b0126.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible",
+        "Infinite-Health",
+        "one-Hit-Kill",
+        "Infinite-Grenades",
+        "Infinite-All-Weapon",
+        "Infinite-Time",
+        "Untouchables",
+        "Inf Health",
+        "Inf Grenades",
+        "One Hit Kill",
+        "Inf Special Weapons",
+        "Inf Continues",
+        "Inf  Mission Time",
+        "Inf Vehicle HP"
+      ]
+    }
+  ]
+}

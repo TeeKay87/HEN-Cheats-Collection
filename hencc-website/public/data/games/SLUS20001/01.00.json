@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "id": "SLUS20001",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "4d84a535",
+      "file": "SLUS20001_01.00_4d84a535.json",
+      "path": "json/SLUS20001_01.00_4d84a535.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Health-P1",
+        "Unlock-Characters"
+      ]
+    },
+    {
+      "sourceId": "02b45b15",
+      "file": "SLUS20001_01.00_02b45b15.shn",
+      "path": "shn/SLUS20001_01.00_02b45b15.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Health-P1",
+        "Unlock-Characters"
+      ]
+    }
+  ]
+}

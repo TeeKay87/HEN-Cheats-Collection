@@ -1,0 +1,95 @@
+{
+  "schema": 1,
+  "id": "CUSA34386",
+  "version": "05.04",
+  "files": [
+    {
+      "sourceId": "2b60979e",
+      "file": "CUSA34386_05.04_2b60979e.json",
+      "path": "json/CUSA34386_05.04_2b60979e.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Pharaoh2k"
+      ],
+      "notes": null,
+      "cheats": [
+        "TRAINER INFO (read only)",
+        "God Mode (Untouchable+No Effects) [DO NOT USE IN VALHALLA]",
+        "No Damage Taken",
+        "No XP,HS, Resources subtracted when used",
+        "No Crafting And Upgrade Limits",
+        "Infinite Arrows and Throwables [DO NOT USE IN VALHALLA]",
+        "Infinite Rage (incl. Kratos and Atreus)",
+        "Damage Multiplier(Master Code) [DO NOT USE IN VALHALLA]",
+        "--5x damage",
+        "--10x damage",
+        "--20x damage",
+        "--30x damage",
+        "--40x damage",
+        "--50x damage",
+        "--100x damage (one hit kill)",
+        "One Hit Stun [DO NOT USE IN VALHALLA]",
+        "Infinite Max Shield Charge",
+        "No Talisman and Relic Cooldown",
+        "Infinite Weapon Charge (L1+Triangle)"
+      ]
+    },
+    {
+      "sourceId": "5edfef1c",
+      "file": "CUSA34386_05.04_5edfef1c.mc4",
+      "path": "mc4/CUSA34386_05.04_5edfef1c.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez-JustGotenks"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Rage",
+        "Infinite Arrows",
+        "Instant R3",
+        "No Cooldown",
+        "Max/Infinite HS/Resources/Fleeting Echoes/Mastery Seal/Spirit Seal/Divine Triunph",
+        "Max XP",
+        "Crystalline Fragment (100/Use Only For It)"
+      ]
+    },
+    {
+      "sourceId": "eafb6210",
+      "file": "CUSA34386_05.04_eafb6210.shn",
+      "path": "shn/CUSA34386_05.04_eafb6210.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Pharaoh2k"
+      ],
+      "notes": null,
+      "cheats": [
+        "TRAINER INFO (read only)",
+        "God Mode (Untouchable+No Effects) [DO NOT USE IN VALHALLA]",
+        "No Damage Taken",
+        "No XP,HS, Resources subtracted when used",
+        "No Crafting And Upgrade Limits",
+        "Infinite Arrows and Throwables [DO NOT USE IN VALHALLA]",
+        "Infinite Rage (incl. Kratos and Atreus)",
+        "Damage Multiplier(Master Code) [DO NOT USE IN VALHALLA]",
+        "--5x damage",
+        "--10x damage",
+        "--20x damage",
+        "--30x damage",
+        "--40x damage",
+        "--50x damage",
+        "--100x damage (one hit kill)",
+        "One Hit Stun [DO NOT USE IN VALHALLA]",
+        "Infinite Max Shield Charge",
+        "No Talisman and Relic Cooldown",
+        "Infinite Weapon Charge (L1+Triangle)"
+      ]
+    }
+  ]
+}

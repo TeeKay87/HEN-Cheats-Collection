@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "id": "CUSA35744",
+  "version": "01.02",
+  "files": [
+    {
+      "sourceId": "baf03997",
+      "file": "CUSA35744_01.02_baf03997.json",
+      "path": "json/CUSA35744_01.02_baf03997.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Q8Despair"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite health",
+        "Max Meomry Ambers/Mote",
+        "Infinite Consumables(must have 2)"
+      ]
+    },
+    {
+      "sourceId": "02975ee2",
+      "file": "CUSA35744_01.02_02975ee2.shn",
+      "path": "shn/CUSA35744_01.02_02975ee2.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Q8Despair"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite health",
+        "Max Meomry Ambers/Mote",
+        "Infinite Consumables(must have 2)"
+      ]
+    }
+  ]
+}

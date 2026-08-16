@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "CUSA08724",
+  "version": "01.33",
+  "files": [
+    {
+      "sourceId": "df50ca95",
+      "file": "CUSA08724_01.33_df50ca95.json",
+      "path": "json/CUSA08724_01.33_df50ca95.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Ammo/Grenades"
+      ]
+    }
+  ]
+}

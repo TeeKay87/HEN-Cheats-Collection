@@ -1,0 +1,69 @@
+{
+  "schema": 1,
+  "id": "CUSA13917",
+  "version": "01.06",
+  "files": [
+    {
+      "sourceId": "7e4d34a5",
+      "file": "CUSA13917_01.06_7e4d34a5.json",
+      "path": "json/CUSA13917_01.06_7e4d34a5.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Endurance",
+        "Infinite Breath",
+        "Max/Infinite Ammo/Medkits/Resources/Ethanol On Use",
+        "No Reload",
+        "Lot Of Perk Points On Use"
+      ]
+    },
+    {
+      "sourceId": "bb4b5a84",
+      "file": "CUSA13917_01.06_bb4b5a84.mc4",
+      "path": "mc4/CUSA13917_01.06_bb4b5a84.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Invincibility",
+        "Infinite Endurance",
+        "Infinite Breath",
+        "Max/Infinite Ammo/Medkits/Resources/Ethanol On Use",
+        "No Reload",
+        "Lot Of Perk Points On Use"
+      ]
+    },
+    {
+      "sourceId": "b935c6f4",
+      "file": "CUSA13917_01.06_b935c6f4.shn",
+      "path": "shn/CUSA13917_01.06_b935c6f4.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Invincibility",
+        "Infinite Endurance",
+        "Infinite Breath",
+        "Max/Infinite Ammo/Medkits/Resources/Ethanol On Use",
+        "No Reload",
+        "Lot Of Perk Points On Use"
+      ]
+    }
+  ]
+}

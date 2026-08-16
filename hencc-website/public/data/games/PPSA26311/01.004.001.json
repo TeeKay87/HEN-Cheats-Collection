@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "id": "PPSA26311",
+  "version": "01.004.001",
+  "files": [
+    {
+      "sourceId": "b4bcf8b7",
+      "file": "PPSA26311_01.004.001_b4bcf8b7.json",
+      "path": "json/PPSA26311_01.004.001_b4bcf8b7.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Master Code",
+        "--Inf_Hp",
+        "--Inf_Stamina",
+        "--One_Hit_Kill",
+        "Inf Materials and Items",
+        "Inf Weapons Durability"
+      ]
+    }
+  ]
+}

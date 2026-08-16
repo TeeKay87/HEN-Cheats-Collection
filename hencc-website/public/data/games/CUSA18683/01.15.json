@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "CUSA18683",
+  "version": "01.15",
+  "files": [
+    {
+      "sourceId": "02eb8ee1",
+      "file": "CUSA18683_01.15_02eb8ee1.json",
+      "path": "json/CUSA18683_01.15_02eb8ee1.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Boost",
+        "Max EX Filll (on hit)",
+        "Max GP (on spend)",
+        "Infinite Ranged attack 1 (might not work for certain Gundams)",
+        "Infinite Ranged attack 2 (might not work for certain Gundams)",
+        "Infinite Ranged attack 3 (might not work for certain Gundams)"
+      ]
+    }
+  ]
+}

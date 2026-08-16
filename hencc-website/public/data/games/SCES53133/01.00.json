@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "id": "SCES53133",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "8223e2d4",
+      "file": "SCES53133_01.00_8223e2d4.json",
+      "path": "json/SCES53133_01.00_8223e2d4.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf-Health-On Easy",
+        "Max-Orbs",
+        "Infinite Magic",
+        "Inf-Health-On-Normal",
+        "Inf-Health-On-Hard",
+        "Inf-Health-On-God-Mode"
+      ]
+    }
+  ]
+}

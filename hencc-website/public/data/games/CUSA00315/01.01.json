@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "id": "CUSA00315",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "2fd0da54",
+      "file": "CUSA00315_01.01_2fd0da54.json",
+      "path": "json/CUSA00315_01.01_2fd0da54.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Clones"
+      ]
+    },
+    {
+      "sourceId": "6877e334",
+      "file": "CUSA00315_01.01_6877e334.json",
+      "path": "json/CUSA00315_01.01_6877e334.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Clones"
+      ]
+    },
+    {
+      "sourceId": "23ad1ced",
+      "file": "CUSA00315_01.01_23ad1ced.mc4",
+      "path": "mc4/CUSA00315_01.01_23ad1ced.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Clones"
+      ]
+    },
+    {
+      "sourceId": "af598496",
+      "file": "CUSA00315_01.01_af598496.shn",
+      "path": "shn/CUSA00315_01.01_af598496.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "DeathRGH"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Clones"
+      ]
+    }
+  ]
+}

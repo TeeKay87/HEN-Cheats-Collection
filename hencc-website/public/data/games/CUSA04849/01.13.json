@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "id": "CUSA04849",
+  "version": "01.13",
+  "files": [
+    {
+      "sourceId": "f992ab57",
+      "file": "CUSA04849_01.13_f992ab57.json",
+      "path": "json/CUSA04849_01.13_f992ab57.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Rizla"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Stamina",
+        "Infinite Energy",
+        "Inf Scrap on Gain/Use",
+        "Max Vital Injections",
+        "Max Consumables on Gain/Use",
+        "Max Items on Gain/Use",
+        "Max Proficiency LVL on Gain"
+      ]
+    },
+    {
+      "sourceId": "69fbe387",
+      "file": "CUSA04849_01.13_69fbe387.mc4",
+      "path": "mc4/CUSA04849_01.13_69fbe387.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Rizla"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Stamina",
+        "Infinite Energy",
+        "Inf Scrap on Gain/Use",
+        "Max Vital Injections",
+        "Max Consumables on Gain/Use",
+        "Max Items on Gain/Use",
+        "Max Proficiency LVL on Gain"
+      ]
+    },
+    {
+      "sourceId": "09f0fe7e",
+      "file": "CUSA04849_01.13_09f0fe7e.shn",
+      "path": "shn/CUSA04849_01.13_09f0fe7e.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Rizla"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Stamina",
+        "Infinite Energy",
+        "Inf Scrap on Gain/Use",
+        "Max Vital Injections",
+        "Max Consumables on Gain/Use",
+        "Max Items on Gain/Use",
+        "Max Proficiency LVL on Gain"
+      ]
+    }
+  ]
+}

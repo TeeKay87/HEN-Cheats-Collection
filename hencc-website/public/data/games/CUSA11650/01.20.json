@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "CUSA11650",
+  "version": "01.20",
+  "files": [
+    {
+      "sourceId": "82848d1f",
+      "file": "CUSA11650_01.20_82848d1f.json",
+      "path": "json/CUSA11650_01.20_82848d1f.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Coins (on gain)",
+        "Infinite Stamina",
+        "Infinite Health",
+        "All items x30 (on spend)",
+        "Keys x99 (on use)"
+      ]
+    }
+  ]
+}

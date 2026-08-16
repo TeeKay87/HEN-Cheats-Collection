@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "CUSA13020",
+  "version": "01.04",
+  "files": [
+    {
+      "sourceId": "0cf84272",
+      "file": "CUSA13020_01.04_0cf84272.json",
+      "path": "json/CUSA13020_01.04_0cf84272.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Savas"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Nitro",
+        "Infinite Ammo/Grenades/Bombs",
+        "Money Freeze (Only use in Shop)",
+        "XP Freeze (Only use in XP-Shop)"
+      ]
+    }
+  ]
+}

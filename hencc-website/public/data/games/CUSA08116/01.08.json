@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "id": "CUSA08116",
+  "version": "01.08",
+  "files": [
+    {
+      "sourceId": "37fe1357",
+      "file": "CUSA08116_01.08_37fe1357.json",
+      "path": "json/CUSA08116_01.08_37fe1357.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        " Fullcodes（PLAYSTATION/PC修改讨论群:1167084913）"
+      ],
+      "notes": null,
+      "cheats": [
+        "Gil 99999999 所持金99999999",
+        "Infinite Item 无限道具",
+        "EXP Multi 10 on Gain 经验值10倍获得",
+        "LP 9999999 on Gain LP获得时9999999",
+        "Infinite HP 无限HP",
+        "Infinite MP 无限MP",
+        "Always Action 一直可以行动",
+        "EXP Max on Gain 经验值最大获得",
+        "One Hit Kill"
+      ]
+    }
+  ]
+}

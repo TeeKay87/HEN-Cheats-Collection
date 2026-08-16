@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "CUSA01766",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "dae0e1fd",
+      "file": "CUSA01766_01.00_dae0e1fd.shn",
+      "path": "shn/CUSA01766_01.00_dae0e1fd.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health/1 Hit Kill (Mastercode/Must Be On)",
+        "Infinite Health",
+        "1 Hit Kill",
+        "Infinite Ammo/No Reload",
+        "Max/Infinite EP (On Gain)"
+      ]
+    }
+  ]
+}

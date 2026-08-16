@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "id": "CUSA08413",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "2f0e10cd",
+      "file": "CUSA08413_01.00_2f0e10cd.json",
+      "path": "json/CUSA08413_01.00_2f0e10cd.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health / 1Hit Kill",
+        "Inf Ammo(1) No Reload (Default Pistol)",
+        "inf Ammo(2) Enable (1) First"
+      ]
+    }
+  ]
+}

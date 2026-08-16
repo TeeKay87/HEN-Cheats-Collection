@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "id": "SLES51704",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "46d9e64e",
+      "file": "SLES51704_01.00_46d9e64e.json",
+      "path": "json/SLES51704_01.00_46d9e64e.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-lives",
+        "Infinite-Bomb"
+      ]
+    },
+    {
+      "sourceId": "f018a9f5",
+      "file": "SLES51704_01.00_f018a9f5.shn",
+      "path": "shn/SLES51704_01.00_f018a9f5.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-lives",
+        "Infinite-Bomb"
+      ]
+    }
+  ]
+}

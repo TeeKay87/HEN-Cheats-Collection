@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "id": "CUSA40325",
+  "version": "01.03",
+  "files": [
+    {
+      "sourceId": "c12de5b0",
+      "file": "CUSA40325_01.03_c12de5b0.mc4",
+      "path": "mc4/CUSA40325_01.03_c12de5b0.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Budget When buying Player"
+      ]
+    },
+    {
+      "sourceId": "6d3b1a64",
+      "file": "CUSA40325_01.03_6d3b1a64.shn",
+      "path": "shn/CUSA40325_01.03_6d3b1a64.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Budget When buying Player"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "id": "CUSA00049",
+  "version": "01.24",
+  "files": [
+    {
+      "sourceId": "65ff825b",
+      "file": "CUSA00049_01.24_65ff825b.json",
+      "path": "json/CUSA00049_01.24_65ff825b.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Fullcodes������ԭ���"
+      ],
+      "notes": null,
+      "cheats": [
+        "No Reload",
+        "Infinite Ammo and Grenade Usage",
+        "Infinite Player Health"
+      ]
+    },
+    {
+      "sourceId": "71794f1f",
+      "file": "CUSA00049_01.24_71794f1f.mc4",
+      "path": "mc4/CUSA00049_01.24_71794f1f.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Fullcodes"
+      ],
+      "notes": null,
+      "cheats": [
+        "No Reload",
+        "Infinite Ammo and Grenade Usage",
+        "Infinite Player Health"
+      ]
+    },
+    {
+      "sourceId": "99a32b74",
+      "file": "CUSA00049_01.24_99a32b74.mc4",
+      "path": "mc4/CUSA00049_01.24_99a32b74.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Fullcodes"
+      ],
+      "notes": null,
+      "cheats": [
+        "No Reload",
+        "Infinite Ammo and Grenade Usage",
+        "Infinite Player Health"
+      ]
+    },
+    {
+      "sourceId": "3e52c9b1",
+      "file": "CUSA00049_01.24_3e52c9b1.shn",
+      "path": "shn/CUSA00049_01.24_3e52c9b1.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Fullcodes"
+      ],
+      "notes": null,
+      "cheats": [
+        "No Reload",
+        "Infinite Ammo and Grenade Usage",
+        "Infinite Player Health",
+        "Infinite Player Health"
+      ]
+    }
+  ]
+}

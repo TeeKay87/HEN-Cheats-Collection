@@ -1,0 +1,85 @@
+{
+  "schema": 1,
+  "id": "CUSA02748",
+  "version": "01.05",
+  "files": [
+    {
+      "sourceId": "1118c842",
+      "file": "CUSA02748_01.05_1118c842.json",
+      "path": "json/CUSA02748_01.05_1118c842.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "TylerMods & CrazyMind"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health/Stamina/Magic",
+        "Infinite Ammo",
+        "No Reload",
+        "No Weapon Spread(Hip Fire)",
+        "No One Can Shoot",
+        "Wingsuit Infinite Boost (nop)"
+      ]
+    },
+    {
+      "sourceId": "259eb76b",
+      "file": "CUSA02748_01.05_259eb76b.json",
+      "path": "json/CUSA02748_01.05_259eb76b.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme & Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Godmode",
+        "Infinite Ammo",
+        "No Reload",
+        "Infinite Health",
+        "Infinite Ammo",
+        "No Reload",
+        "Infinite Grenades",
+        "Infinite Time Challenges"
+      ]
+    },
+    {
+      "sourceId": "ffa8a677",
+      "file": "CUSA02748_01.05_ffa8a677.mc4",
+      "path": "mc4/CUSA02748_01.05_ffa8a677.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Weysincha"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health",
+        "Inf Ammo",
+        "No Reload",
+        "Inf Wingsuit Boost"
+      ]
+    },
+    {
+      "sourceId": "dd77de34",
+      "file": "CUSA02748_01.05_dd77de34.shn",
+      "path": "shn/CUSA02748_01.05_dd77de34.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Weysincha"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health",
+        "Inf Ammo",
+        "No Reload",
+        "Inf Wingsuit Boost"
+      ]
+    }
+  ]
+}

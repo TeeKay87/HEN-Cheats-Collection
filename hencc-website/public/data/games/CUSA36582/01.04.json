@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "id": "CUSA36582",
+  "version": "01.04",
+  "files": [
+    {
+      "sourceId": "83102585",
+      "file": "CUSA36582_01.04_83102585.json",
+      "path": "json/CUSA36582_01.04_83102585.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Pharaoh2k"
+      ],
+      "notes": null,
+      "cheats": [
+        "TRAINER INFO (read only)",
+        "Infinite Currencies, Arrows and Consumables",
+        "No Purchase and Upgrade Limits",
+        "God Mode (Untouchable)",
+        "Infinite Health",
+        "Infinite Jumps",
+        "Instant Athra Surge Charge",
+        "No Athra Surge Cooldown",
+        "Damage Multiplier (Master Code)",
+        "--Damage x5",
+        "--Damage x10",
+        "--Damage x20",
+        "--Damage x50",
+        "--Damage x100",
+        "Jump Height Multiplier (Master Code)",
+        "--Jump x2",
+        "--Jump x3",
+        "--Jump x4",
+        "--Jump x5"
+      ]
+    },
+    {
+      "sourceId": "0afcbe60",
+      "file": "CUSA36582_01.04_0afcbe60.shn",
+      "path": "shn/CUSA36582_01.04_0afcbe60.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Pharaoh2k"
+      ],
+      "notes": null,
+      "cheats": [
+        "TRAINER INFO (read only)",
+        "Infinite Currencies, Arrows and Consumables",
+        "No Purchase and Upgrade Limits",
+        "God Mode (Untouchable)",
+        "Infinite Health",
+        "Infinite Jumps",
+        "Instant Athra Surge Charge",
+        "No Athra Surge Cooldown",
+        "Damage Multiplier (Master Code)",
+        "--Damage x5",
+        "--Damage x10",
+        "--Damage x20",
+        "--Damage x50",
+        "--Damage x100",
+        "Jump Height Multiplier (Master Code)",
+        "--Jump x2",
+        "--Jump x3",
+        "--Jump x4",
+        "--Jump x5"
+      ]
+    }
+  ]
+}

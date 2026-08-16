@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "id": "PPSA10662",
+  "version": "01.001.030",
+  "files": [
+    {
+      "sourceId": "05d92b01",
+      "file": "PPSA10662_01.001.030_05d92b01.json",
+      "path": "json/PPSA10662_01.001.030_05d92b01.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "pedrazadixon"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health",
+        "Invincible Mode",
+        "Inf Ammo and Items",
+        "Inf Weapon Durability"
+      ]
+    },
+    {
+      "sourceId": "0e6cf328",
+      "file": "PPSA10662_01.001.030_0e6cf328.mc4",
+      "path": "mc4/PPSA10662_01.001.030_0e6cf328.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Yharnam"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health",
+        "Inf Ammo",
+        "Inf Weapon Durability",
+        "Inf Items"
+      ]
+    },
+    {
+      "sourceId": "348d9a55",
+      "file": "PPSA10662_01.001.030_348d9a55.mc4",
+      "path": "mc4/PPSA10662_01.001.030_348d9a55.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Yharnam"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Health",
+        "Invincible Mode",
+        "Inf Ammo & Items",
+        "Inf Weapon Durability"
+      ]
+    },
+    {
+      "sourceId": "9fa5b1fc",
+      "file": "PPSA10662_01.001.030_9fa5b1fc.mc4",
+      "path": "mc4/PPSA10662_01.001.030_9fa5b1fc.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "God Mode",
+        "Infinite Health",
+        "1 Hit Kill",
+        "Infinite Breath (UnderWater)",
+        "Infinite Ammo/Items/Craft",
+        "No Reload",
+        "Infinite Silencer Ammo",
+        "Infinite Focus Time",
+        "Infinite Weapons Durability"
+      ]
+    }
+  ]
+}

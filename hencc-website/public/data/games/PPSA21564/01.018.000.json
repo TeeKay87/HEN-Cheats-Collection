@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "id": "PPSA21564",
+  "version": "01.018.000",
+  "files": [
+    {
+      "sourceId": "5408ba0c",
+      "file": "PPSA21564_01.018.000_5408ba0c.json",
+      "path": "json/PPSA21564_01.018.000_5408ba0c.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Coins",
+        "Inf Jumps"
+      ]
+    },
+    {
+      "sourceId": "e5f5f272",
+      "file": "PPSA21564_01.018.000_e5f5f272.mc4",
+      "path": "mc4/PPSA21564_01.018.000_e5f5f272.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Coins",
+        "Inf Jumps"
+      ]
+    }
+  ]
+}

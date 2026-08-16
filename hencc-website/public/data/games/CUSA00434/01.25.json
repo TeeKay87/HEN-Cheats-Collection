@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "id": "CUSA00434",
+  "version": "01.25",
+  "files": [
+    {
+      "sourceId": "3f70b830",
+      "file": "CUSA00434_01.25_3f70b830.json",
+      "path": "json/CUSA00434_01.25_3f70b830.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Cosmaty"
+      ],
+      "notes": null,
+      "cheats": [
+        "God Mode",
+        "Inf Mana",
+        "Inf Money"
+      ]
+    },
+    {
+      "sourceId": "c64f87d5",
+      "file": "CUSA00434_01.25_c64f87d5.mc4",
+      "path": "mc4/CUSA00434_01.25_c64f87d5.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Cosmaty"
+      ],
+      "notes": null,
+      "cheats": [
+        "Code",
+        "God Mode",
+        "Inf Mana",
+        "Inf Money"
+      ]
+    },
+    {
+      "sourceId": "0f75c7cc",
+      "file": "CUSA00434_01.25_0f75c7cc.shn",
+      "path": "shn/CUSA00434_01.25_0f75c7cc.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Cosmaty"
+      ],
+      "notes": null,
+      "cheats": [
+        "Code",
+        "God Mode",
+        "Inf Mana",
+        "Inf Money"
+      ]
+    }
+  ]
+}

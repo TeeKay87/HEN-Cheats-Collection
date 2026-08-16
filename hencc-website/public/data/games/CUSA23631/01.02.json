@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "id": "CUSA23631",
+  "version": "01.02",
+  "files": [
+    {
+      "sourceId": "7fa40409",
+      "file": "CUSA23631_01.02_7fa40409.json",
+      "path": "json/CUSA23631_01.02_7fa40409.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "d01v"
+      ],
+      "notes": null,
+      "cheats": [
+        "Backport by CyB1K 505 - 9",
+        "Walkthrough Walls",
+        "Walkthrough Walls Fixed",
+        "Freeze Enemy from Orignal Posistion",
+        "Invulnerable",
+        "Run Speed",
+        "Master Code Archetype ID Modifier",
+        "Increase Archetype ID",
+        "Decrease Archetype ID",
+        "Infinite HP",
+        "Infinite MP",
+        "Infinite Turn",
+        "Max Exp",
+        "Max Exp Rank Archetype",
+        "Max Archetype Bonus Stats",
+        "Max PlayerStats",
+        "All Consumable and Exchange Items",
+        "All Key and Information Items",
+        "All Weapons",
+        "All Armours",
+        "All Gears",
+        "All Accessories",
+        "Max Money",
+        "Max MAG"
+      ]
+    },
+    {
+      "sourceId": "3623d57d",
+      "file": "CUSA23631_01.02_3623d57d.shn",
+      "path": "shn/CUSA23631_01.02_3623d57d.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "d01v"
+      ],
+      "notes": null,
+      "cheats": [
+        "Backport by CyB1K 505 - 9",
+        "Walkthrough Walls",
+        "Walkthrough Walls Fixed",
+        "Freeze Enemy from Orignal Posistion",
+        "Invulnerable",
+        "Run Speed",
+        "Master Code Archetype ID Modifier",
+        "Increase Archetype ID",
+        "Decrease Archetype ID",
+        "Infinite HP",
+        "Infinite MP",
+        "Infinite Turn",
+        "Max Exp",
+        "Max Exp Rank Archetype",
+        "Max Archetype Bonus Stats",
+        "Max PlayerStats",
+        "All Consumable and Exchange Items",
+        "All Key and Information Items",
+        "All Weapons",
+        "All Armours",
+        "All Gears",
+        "All Accessories",
+        "Max Money",
+        "Max MAG"
+      ]
+    }
+  ]
+}

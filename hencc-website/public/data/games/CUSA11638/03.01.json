@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "id": "CUSA11638",
+  "version": "03.01",
+  "files": [
+    {
+      "sourceId": "1ba897bd",
+      "file": "CUSA11638_03.01_1ba897bd.json",
+      "path": "json/CUSA11638_03.01_1ba897bd.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 ",
+        " FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Mastercode ( must be activated ) ",
+        "Infinite Health [MC]",
+        "One Hit Kill [MC]",
+        "Infinite Charge [MC]",
+        "No Charge Enemies [MC]",
+        "Infinite Awakening [MC]",
+        "No Awakening Enemies [MC]",
+        "Infinite Stamina [MC]",
+        "No Stamina Enemies [MC]",
+        "Max Money ( on gain )",
+        "Max Items ( on buy )",
+        "Freeze Timer"
+      ]
+    },
+    {
+      "sourceId": "b71740c6",
+      "file": "CUSA11638_03.01_b71740c6.mc4",
+      "path": "mc4/CUSA11638_03.01_b71740c6.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 - FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Mastercode ( must be activated ) ",
+        "Infinite Health [MC]",
+        "One Hit Kill [MC]",
+        "Infinite Charge [MC]",
+        "No Charge Enemies [MC]",
+        "Infinite Awakening [MC]",
+        "No Awakening Enemies [MC]",
+        "Infinite Stamina [MC]",
+        "No Stamina Enemies [MC]",
+        "Max Money ( on gain )",
+        "Max Items ( on buy )",
+        "Freeze Timer"
+      ]
+    },
+    {
+      "sourceId": "b8af51b0",
+      "file": "CUSA11638_03.01_b8af51b0.shn",
+      "path": "shn/CUSA11638_03.01_b8af51b0.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 - FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Mastercode ( must be activated ) ",
+        "Infinite Health [MC]",
+        "One Hit Kill [MC]",
+        "Infinite Charge [MC]",
+        "No Charge Enemies [MC]",
+        "Infinite Awakening [MC]",
+        "No Awakening Enemies [MC]",
+        "Infinite Stamina [MC]",
+        "No Stamina Enemies [MC]",
+        "Max Money ( on gain )",
+        "Max Items ( on buy )",
+        "Freeze Timer"
+      ]
+    }
+  ]
+}

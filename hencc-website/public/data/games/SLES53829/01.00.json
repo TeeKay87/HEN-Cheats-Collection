@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "SLES53829",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "b66fbb3f",
+      "file": "SLES53829_01.00_b66fbb3f.json",
+      "path": "json/SLES53829_01.00_b66fbb3f.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-lives",
+        "Infinite-Bomb"
+      ]
+    }
+  ]
+}

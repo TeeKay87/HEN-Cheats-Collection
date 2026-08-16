@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "id": "CUSA11586",
+  "version": "01.02",
+  "files": [
+    {
+      "sourceId": "1f3e4ab5",
+      "file": "CUSA11586_01.02_1f3e4ab5.mc4",
+      "path": "mc4/CUSA11586_01.02_1f3e4ab5.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "d01v"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health (MC)",
+        "Dead / Invincible (MC)",
+        "Money (MC1)",
+        "Hyper Speed (must fill / get money 1st / MC1)",
+        "Revolver 357 (force glitch / MC wep)",
+        "ShotGun (force glitch / MC wep)",
+        "Machine Gun (force glitch / MC wep)"
+      ]
+    },
+    {
+      "sourceId": "d5f09b53",
+      "file": "CUSA11586_01.02_d5f09b53.shn",
+      "path": "shn/CUSA11586_01.02_d5f09b53.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "d01v"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health (MC)",
+        "Dead / Invincible (MC)",
+        "Money (MC1)",
+        "Hyper Speed (must fill / get money 1st / MC1)",
+        "Revolver 357 (force glitch / MC wep)",
+        "ShotGun (force glitch / MC wep)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "schema": 1,
+  "id": "CUSA42391",
+  "version": "01.11",
+  "files": [
+    {
+      "sourceId": "d91c8e17",
+      "file": "CUSA42391_01.11_d91c8e17.json",
+      "path": "json/CUSA42391_01.11_d91c8e17.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "WDRfw9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Ammo",
+        "Infinite Fuel",
+        "Max Pesos/warp Crystals (on gain)"
+      ]
+    },
+    {
+      "sourceId": "3875b085",
+      "file": "CUSA42391_01.11_3875b085.mc4",
+      "path": "mc4/CUSA42391_01.11_3875b085.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Q8Despair"
+      ],
+      "notes": null,
+      "cheats": [
+        "Guns No Reload ",
+        "Infinite Health",
+        "Infinite Dashes"
+      ]
+    },
+    {
+      "sourceId": "5dc5e7ee",
+      "file": "CUSA42391_01.11_5dc5e7ee.mc4",
+      "path": "mc4/CUSA42391_01.11_5dc5e7ee.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health/Easy Kill (MASTERCODE/MUST BE ON)",
+        "Infinite Heath",
+        "Easy kill (Don't Use Against Bosses)",
+        "No Reload",
+        "Infinite Fuel",
+        "Max Pesos/Cristals"
+      ]
+    },
+    {
+      "sourceId": "933a73cc",
+      "file": "CUSA42391_01.11_933a73cc.mc4",
+      "path": "mc4/CUSA42391_01.11_933a73cc.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health/Easy Kill (MASTERCODE/MUST BE ON)",
+        "Infinite Heath",
+        "Easy kill (Don't Use Against Bosses)",
+        "No Reload",
+        "Infinite Fuel",
+        "Max Pesos/Cristals"
+      ]
+    },
+    {
+      "sourceId": "76f0f485",
+      "file": "CUSA42391_01.11_76f0f485.shn",
+      "path": "shn/CUSA42391_01.11_76f0f485.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "2B, Q8Despair"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf HP",
+        "Inf Fuel",
+        "no Reload",
+        "Inf Pesos (on gain)"
+      ]
+    },
+    {
+      "sourceId": "a2df3caf",
+      "file": "CUSA42391_01.11_a2df3caf.shn",
+      "path": "shn/CUSA42391_01.11_a2df3caf.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Q8Despair"
+      ],
+      "notes": null,
+      "cheats": [
+        "Guns No Reload ",
+        "Infinite Health",
+        "Infinite Dashes"
+      ]
+    }
+  ]
+}

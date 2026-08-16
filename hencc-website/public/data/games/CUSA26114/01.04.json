@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "id": "CUSA26114",
+  "version": "01.04",
+  "files": [
+    {
+      "sourceId": "a32932bc",
+      "file": "CUSA26114_01.04_a32932bc.json",
+      "path": "json/CUSA26114_01.04_a32932bc.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander & Gatot Kaca_9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinte Jump ON",
+        "Infinte Jump OFF",
+        "Infinite Prayers Use",
+        "Instant Level Up",
+        "Infinite Health/1 Hit kill"
+      ]
+    },
+    {
+      "sourceId": "16878fab",
+      "file": "CUSA26114_01.04_16878fab.mc4",
+      "path": "mc4/CUSA26114_01.04_16878fab.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Health"
+      ]
+    },
+    {
+      "sourceId": "9e69d0a4",
+      "file": "CUSA26114_01.04_9e69d0a4.mc4",
+      "path": "mc4/CUSA26114_01.04_9e69d0a4.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Health"
+      ]
+    },
+    {
+      "sourceId": "06ef2e80",
+      "file": "CUSA26114_01.04_06ef2e80.shn",
+      "path": "shn/CUSA26114_01.04_06ef2e80.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Ali-mk"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite-Health"
+      ]
+    }
+  ]
+}

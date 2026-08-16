@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "id": "CUSA31498",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "c12eeb4a",
+      "file": "CUSA31498_01.01_c12eeb4a.json",
+      "path": "json/CUSA31498_01.01_c12eeb4a.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Master_s9"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite money"
+      ]
+    },
+    {
+      "sourceId": "44447f8b",
+      "file": "CUSA31498_01.01_44447f8b.shn",
+      "path": "shn/CUSA31498_01.01_44447f8b.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Master_s9"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite money"
+      ]
+    }
+  ]
+}

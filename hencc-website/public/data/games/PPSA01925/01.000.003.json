@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "id": "PPSA01925",
+  "version": "01.000.003",
+  "files": [
+    {
+      "sourceId": "514cc576",
+      "file": "PPSA01925_01.000.003_514cc576.shn",
+      "path": "shn/PPSA01925_01.000.003_514cc576.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Stamina",
+        "Infinite Flashlight Energy",
+        "Infinite Batteries",
+        "Infinite Ammo",
+        "No Reload",
+        "Infinite Flare / Flashbang",
+        "Infinite Car Battery"
+      ]
+    }
+  ]
+}

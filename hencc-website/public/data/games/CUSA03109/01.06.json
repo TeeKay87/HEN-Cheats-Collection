@@ -1,0 +1,59 @@
+{
+  "schema": 1,
+  "id": "CUSA03109",
+  "version": "01.06",
+  "files": [
+    {
+      "sourceId": "73740117",
+      "file": "CUSA03109_01.06_73740117.json",
+      "path": "json/CUSA03109_01.06_73740117.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 ",
+        " FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Ammo",
+        "No Reload ( Ammo )",
+        "Max Grenades"
+      ]
+    },
+    {
+      "sourceId": "9a2033e2",
+      "file": "CUSA03109_01.06_9a2033e2.mc4",
+      "path": "mc4/CUSA03109_01.06_9a2033e2.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 - FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Ammo",
+        "No Reload ( Ammo )",
+        "Max Grenades"
+      ]
+    },
+    {
+      "sourceId": "0df34b00",
+      "file": "CUSA03109_01.06_0df34b00.shn",
+      "path": "shn/CUSA03109_01.06_0df34b00.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82 - FW 9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Ammo",
+        "No Reload ( Ammo )",
+        "Max Grenades"
+      ]
+    }
+  ]
+}

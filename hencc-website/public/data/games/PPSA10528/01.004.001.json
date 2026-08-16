@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "PPSA10528",
+  "version": "01.004.001",
+  "files": [
+    {
+      "sourceId": "0ad808db",
+      "file": "PPSA10528_01.004.001_0ad808db.mc4",
+      "path": "mc4/PPSA10528_01.004.001_0ad808db.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Easy Kill",
+        "Max Athra surge charge (1 Hit)",
+        "No Athra surge Cooldown",
+        "Infinite Arrows/Potions (On Use)",
+        "Max/Infinite Time Crystals/Xerxes/Lingots (x2/Disable After Max)",
+        "Infinite Jumps"
+      ]
+    }
+  ]
+}

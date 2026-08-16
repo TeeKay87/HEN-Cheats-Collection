@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "id": "CUSA18934",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "49c3dbe1",
+      "file": "CUSA18934_01.01_49c3dbe1.mc4",
+      "path": "mc4/CUSA18934_01.01_49c3dbe1.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Shield",
+        "Infinite Stamina",
+        "Max Ammo Riffle",
+        "Max Ammo Clip Riffle",
+        "Max Ammo Pistol",
+        "Max Ammo Pistol Clip",
+        "Max Liquid Nitrogen",
+        "Max EM Coil",
+        "Max Energy Cell",
+        "Max Skillpoints",
+        "Max Level",
+        "Walk Speed Multiplier Mastercode",
+        "Walk Multiplier x 1 [ MC ]",
+        "Walk Multiplier x 2 [ MC ]",
+        "Walk Multiplier x 3 [ MC ]",
+        "Walk Multiplier x 4 [ MC ]",
+        "Walk Multiplier x 5 [ MC ]"
+      ]
+    },
+    {
+      "sourceId": "e813c99a",
+      "file": "CUSA18934_01.01_e813c99a.shn",
+      "path": "shn/CUSA18934_01.01_e813c99a.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Reddevil82"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Shield",
+        "Infinite Stamina",
+        "Max Ammo Riffle",
+        "Max Ammo Clip Riffle",
+        "Max Ammo Pistol",
+        "Max Ammo Pistol Clip",
+        "Max Liquid Nitrogen",
+        "Max EM Coil",
+        "Max Energy Cell",
+        "Max Skillpoints",
+        "Max Level",
+        "Walk Speed Multiplier Mastercode",
+        "Walk Multiplier x 1 [ MC ]"
+      ]
+    }
+  ]
+}

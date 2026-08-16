@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "id": "CUSA27462",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "b15992b3",
+      "file": "CUSA27462_01.00_b15992b3.json",
+      "path": "json/CUSA27462_01.00_b15992b3.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health (Player Only) / Master Code",
+        "1 Hit Kill (MC)",
+        "Max Ammo / No Reload",
+        "Max Currency (9999999)"
+      ]
+    },
+    {
+      "sourceId": "faa4f51f",
+      "file": "CUSA27462_01.00_faa4f51f.json",
+      "path": "json/CUSA27462_01.00_faa4f51f.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Ammo",
+        "Infinite Clip",
+        "Requisition Credits Multiply",
+        "Rep Scrip Multiply",
+        "Infinite first Aid kit"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "id": "CUSA03535",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "557ad826",
+      "file": "CUSA03535_01.00_557ad826.json",
+      "path": "json/CUSA03535_01.00_557ad826.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Flashlight",
+        "Infinite Ammo (on reload inside the backpack)",
+        "Infinite Ammo (inside the clip)",
+        "Infinite Ammo (while shooting)",
+        "Infinite Turret Ammo"
+      ]
+    }
+  ]
+}

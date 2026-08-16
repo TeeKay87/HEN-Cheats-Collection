@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "CUSA43228",
+  "version": "01.10",
+  "files": [
+    {
+      "sourceId": "06604139",
+      "file": "CUSA43228_01.10_06604139.mc4",
+      "path": "mc4/CUSA43228_01.10_06604139.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Q8Despair"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max All currency (Yen/Akame/Circuit)",
+        "Circuit car max Gauge",
+        "Max Health",
+        "Items x99",
+        "Heat instant Charge"
+      ]
+    },
+    {
+      "sourceId": "2e119051",
+      "file": "CUSA43228_01.10_2e119051.shn",
+      "path": "shn/CUSA43228_01.10_2e119051.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Q8Despair"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max All currency (Yen/Akame/Circuit)",
+        "Circuit car max Gauge",
+        "Max Health",
+        "Items x99",
+        "Heat instant Charge"
+      ]
+    }
+  ]
+}

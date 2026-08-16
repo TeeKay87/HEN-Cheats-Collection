@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "id": "CUSA34697",
+  "version": "01.03",
+  "files": [
+    {
+      "sourceId": "6429ded8",
+      "file": "CUSA34697_01.03_6429ded8.json",
+      "path": "json/CUSA34697_01.03_6429ded8.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Q8Despair"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Health",
+        "XP x2",
+        "Money x2",
+        "Items x99"
+      ]
+    },
+    {
+      "sourceId": "0d35ef7a",
+      "file": "CUSA34697_01.03_0d35ef7a.shn",
+      "path": "shn/CUSA34697_01.03_0d35ef7a.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Q8Despair"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Health",
+        "XP x2",
+        "Money x2",
+        "Items x99"
+      ]
+    }
+  ]
+}

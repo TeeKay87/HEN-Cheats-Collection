@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "id": "PPSA02801",
+  "version": "01.000.003",
+  "files": [
+    {
+      "sourceId": "a0ad9613",
+      "file": "PPSA02801_01.000.003_a0ad9613.json",
+      "path": "json/PPSA02801_01.000.003_a0ad9613.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Easy Score",
+        "Inf Hp",
+        "Inf Lives",
+        "Inf Time Energy"
+      ]
+    },
+    {
+      "sourceId": "58378ab8",
+      "file": "PPSA02801_01.000.003_58378ab8.mc4",
+      "path": "mc4/PPSA02801_01.000.003_58378ab8.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Easy Score",
+        "Inf Hp",
+        "Inf Lives",
+        "Inf Time Energy"
+      ]
+    }
+  ]
+}

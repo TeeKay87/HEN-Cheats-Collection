@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "id": "CUSA20177",
+  "version": "01.09",
+  "files": [
+    {
+      "sourceId": "b27d0ea8",
+      "file": "CUSA20177_01.09_b27d0ea8.json",
+      "path": "json/CUSA20177_01.09_b27d0ea8.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Wander FW9.00"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite health",
+        "Infinite Venom power (after first charge)",
+        "Infinite Gadget use",
+        "Max Experience (activate once)",
+        "Max skill points (on spend have 2)",
+        "Max infinite Resources (on spend on gadget and suits)"
+      ]
+    }
+  ]
+}

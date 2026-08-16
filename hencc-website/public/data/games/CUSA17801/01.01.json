@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "id": "CUSA17801",
+  "version": "01.01",
+  "files": [
+    {
+      "sourceId": "e13ab03f",
+      "file": "CUSA17801_01.01_e13ab03f.json",
+      "path": "json/CUSA17801_01.01_e13ab03f.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Saso"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Health / 1 Hit Kill",
+        "Infinite Stamina",
+        "Infinite Energy",
+        "Max Axions (On Get)",
+        "Max Axions (On Spend)"
+      ]
+    }
+  ]
+}

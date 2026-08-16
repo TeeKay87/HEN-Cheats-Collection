@@ -1,0 +1,95 @@
+{
+  "schema": 1,
+  "id": "CUSA03309",
+  "version": "01.03",
+  "files": [
+    {
+      "sourceId": "8709a702",
+      "file": "CUSA03309_01.03_8709a702.json",
+      "path": "json/CUSA03309_01.03_8709a702.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "KevinTamvan"
+      ],
+      "notes": null,
+      "cheats": [
+        "Movement Faster MasterCode",
+        "Run/Swim Faster MasterCode",
+        "Gravity MasterCode",
+        "Super Jump MasterCode",
+        "Reduce Slipp. MasterCode",
+        "Forward Day Time MasterCode",
+        "Infinite Health Player",
+        "Infinite Ammo",
+        "Infinite Skill Points",
+        "Movement Faster",
+        "Run/Swim Faster (Press L3)",
+        "Low Gravity",
+        "Super Jump",
+        "Easy Climb (Reduce Slipp.)",
+        "No Cooldown Owl",
+        "Forward Day Time",
+        "Floating/Fly [Multi Tap X (Jump)]",
+        "Stealth"
+      ]
+    },
+    {
+      "sourceId": "d0496670",
+      "file": "CUSA03309_01.03_d0496670.json",
+      "path": "json/CUSA03309_01.03_d0496670.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "M3hdi PS"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Arrows/Clubs/spears",
+        "Infinite Throwables",
+        "Earn Skills On Spend",
+        "Infinite Skill Points"
+      ]
+    },
+    {
+      "sourceId": "87b45efe",
+      "file": "CUSA03309_01.03_87b45efe.mc4",
+      "path": "mc4/CUSA03309_01.03_87b45efe.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Rizla + Weysincha"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Arrows ",
+        "Inf Skillpoints (On use)",
+        "Stash resources Don't Decrease",
+        "Freeze Bait/Throwables (Earn/Craft 1st)",
+        "No Owl Cooldown",
+        "Unlimited Hunter Vision"
+      ]
+    },
+    {
+      "sourceId": "3b8c68e2",
+      "file": "CUSA03309_01.03_3b8c68e2.shn",
+      "path": "shn/CUSA03309_01.03_3b8c68e2.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "M3hdi PS"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Arrows/Clubs/spears",
+        "Infinite Throwables",
+        "Earn Skills On Spend",
+        "Infinite Skill Points"
+      ]
+    }
+  ]
+}

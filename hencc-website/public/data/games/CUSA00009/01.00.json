@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "CUSA00009",
+  "version": "01.00",
+  "files": [
+    {
+      "sourceId": "967a49bc",
+      "file": "CUSA00009_01.00_967a49bc.json",
+      "path": "json/CUSA00009_01.00_967a49bc.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "creators": [
+        "Arafat+Aran"
+      ],
+      "notes": null,
+      "cheats": [
+        "Max Ship Health",
+        "Infinite Reals/Ammo/Smoke bombs/Darts/heavy shot/Mortars",
+        "Max Infinite Reals/Ammo/Smoke bombs/Darts/heavy shot/Mortars",
+        "Infinite Breath",
+        "Infinite Swivel Ammo"
+      ]
+    }
+  ]
+}
