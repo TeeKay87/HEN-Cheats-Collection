@@ -1,0 +1,40 @@
+{
+  "name": "Little Big Adventure – Twinsen’s Quest",
+  "id": "PPSA23885",
+  "version": "01.000.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Lives",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80102B7A",
+          "on": "909090",
+          "off": "FF4844"
+        }
+      ]
+    },
+    {
+      "name": "Inf Coins",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FD17000",
+          "on": "BB0F270000895838498B3EE988CE3E00",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "80103E92",
+          "on": "E96931C1FF90",
+          "off": "015838498B3E"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

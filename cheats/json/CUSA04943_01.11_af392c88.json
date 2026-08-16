@@ -1,0 +1,24 @@
+{
+  "name": "Gravity Rush 2",
+  "id": "CUSA04943",
+  "version": "01.11",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Allow gestures in episodes 22, 24 and 27",
+      "description": "Allows you to use your unlocked gestures in episodes 22, 24 and 27, and in Delvool Trench Mine when playing as the unlockable character. Note that when playing as said character food items in food-related gestures will not appear and gestures will play without sounds or voicelines. In order for the cheat to work properly you need to play as Kat first and then play the relevant episode or select it from the Replay Missions menu. Does not work in the DLC.",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "15D8362",
+          "on": "909090909090",
+          "off": "0F8441010000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "ax9880"
+  ]
+}

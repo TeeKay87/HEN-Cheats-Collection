@@ -1,0 +1,23 @@
+{
+  "name": "Uncharted: The Lost Legacy",
+  "id": "CUSA09564",
+  "version": "01.00",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Enable Debug Menu",
+      "hint": null,
+      "type": "button",
+      "memory": [
+        {
+          "offset": "1104B1AEF9",
+          "on": "01",
+          "off": "01"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "DeathRGH"
+  ]
+}

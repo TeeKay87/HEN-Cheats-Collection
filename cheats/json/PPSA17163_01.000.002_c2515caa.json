@@ -1,0 +1,108 @@
+{
+  "name": "Jets'n'Guns 2",
+  "id": "PPSA17163",
+  "version": "01.000.002",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Master Code",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3683F00",
+          "on": "00",
+          "off": "00"
+        },
+        {
+          "offset": "3683F01",
+          "on": "00",
+          "off": "00"
+        },
+        {
+          "offset": "2443000",
+          "on": "81BB20030000C0792F08740B803DEE0E2401017412EB1F803DE20E2401017402EB14E943B1E7FDC7836001000000000000E934B1E7FDC5FA108360010000C5FA5C45B8C5F057C9C5F82EC8C5FA118360010000E912B1E7FD",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "2BE14D",
+          "on": "E9AE4E1802909090909090909090909090909090909090909090909090",
+          "off": "C5FA108360010000C5FA5C45B8C5F057C9C5F82EC8C5FA118360010000"
+        }
+      ]
+    },
+    {
+      "name": "--In_Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3683F00",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "--One_Hit_Kill",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3683F01",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Inf Bombs",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2443078",
+          "on": "C5FA1080B8010000C5FA1180B8010000E90A64FBFD",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "3F948F",
+          "on": "E9E49B0402909090",
+          "off": "C5FA1180B8010000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Super",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2F094F",
+          "on": "90909090",
+          "off": "C5EA5CD0"
+        }
+      ]
+    },
+    {
+      "name": "Easy Score",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "24430AD",
+          "on": "C5FA5945B0C57A2CE041BC3F420F00E9BAC1E7FD",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "2BF272",
+          "on": "E9363E180290909090",
+          "off": "C5FA5945B0C57A2CE0"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

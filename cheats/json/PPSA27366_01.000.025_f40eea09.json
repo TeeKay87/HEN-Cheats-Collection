@@ -1,0 +1,129 @@
+{
+  "name": "AI Limit",
+  "id": "PPSA27366",
+  "version": "01.000.025",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "84033000",
+          "on": "0F57C0554889E54157E9E803C4FE",
+          "off": "0000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "4283000",
+          "section": 16,
+          "sectionOffset": "4283000"
+        },
+        {
+          "offset": "82C733F0",
+          "on": "E90BFC3B0190",
+          "off": "554889E54157",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "2EC33F0",
+          "section": 16,
+          "sectionOffset": "2EC33F0"
+        }
+      ]
+    },
+    {
+      "name": "Inf Cristals",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8403302E",
+          "on": "C7401C7F969800488B4318E91952BEFE",
+          "off": "00000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "428302E",
+          "section": 16,
+          "sectionOffset": "428302E"
+        },
+        {
+          "offset": "82C1824F",
+          "on": "E9DAAD4101909090",
+          "off": "4401701C488B4318",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "2E6824F",
+          "section": 16,
+          "sectionOffset": "2E6824F"
+        }
+      ]
+    },
+    {
+      "name": "Inf Items",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8403305E",
+          "on": "4183C56344896B14E9B0CBDBFE",
+          "off": "00000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "428305E",
+          "section": 16,
+          "sectionOffset": "428305E"
+        },
+        {
+          "offset": "82DF17E0",
+          "on": "909090",
+          "off": "4429F9",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "30417E0",
+          "section": 16,
+          "sectionOffset": "30417E0"
+        },
+        {
+          "offset": "82DEFC13",
+          "on": "E946342401909090",
+          "off": "44036B1444896B14",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "303FC13",
+          "section": 16,
+          "sectionOffset": "303FC13"
+        }
+      ]
+    },
+    {
+      "name": "God Mode",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8403308B",
+          "on": "B001C3554889E553E9BDF0C3FE",
+          "off": "00000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "428308B",
+          "section": 16,
+          "sectionOffset": "428308B"
+        },
+        {
+          "offset": "82C72150",
+          "on": "E9360F3C01",
+          "off": "554889E553",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "2EC2150",
+          "section": 16,
+          "sectionOffset": "2EC2150"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

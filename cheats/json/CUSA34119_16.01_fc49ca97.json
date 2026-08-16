@@ -1,0 +1,43 @@
+{
+  "name": "Monster Hunter Rise",
+  "id": "CUSA34119",
+  "version": "16.01",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Item 10x On Use",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "848B800",
+          "on": "C740140A000000488B01E9EE5606F9",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "14F0EF7",
+          "on": "E904A9F90690",
+          "off": "897814488B01"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "848B811",
+          "on": "C7402400A00C46E995275AFA",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "2A2DFAD",
+          "on": "E95FD8A505",
+          "off": "C5FA114024"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Jesca"
+  ]
+}

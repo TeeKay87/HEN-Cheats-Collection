@@ -1,0 +1,40 @@
+{
+  "name": "Terminator: Resistance",
+  "id": "CUSA15306",
+  "version": "01.00",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Godmode",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "9B9A62",
+          "on": "41C78634010000000096439090",
+          "off": "C5F25FC0C4C17A118634010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "953B10",
+          "on": "C68380070000FF",
+          "off": "4489BB80070000"
+        },
+        {
+          "offset": "B7B6F3",
+          "on": "90909090909090",
+          "off": "41FF8E80070000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "DeathRGH"
+  ]
+}

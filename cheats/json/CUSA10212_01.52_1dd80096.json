@@ -1,0 +1,82 @@
+{
+  "name": "Horizon Zero Dawn: Complete Edition",
+  "id": "CUSA10212",
+  "version": "01.52",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Godmode",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "E38B42",
+          "on": "E919320F01",
+          "off": "C5FA114364"
+        },
+        {
+          "offset": "1F2BD60",
+          "on": "837B50020F8505000000E9D8CDF0FEC5FA114364E9CECDF0FE",
+          "off": "00000000000000000000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "1 Hit Kill",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "E38B47",
+          "on": "E92D320F019090",
+          "off": "488BB0D8000000"
+        },
+        {
+          "offset": "1F2BD79",
+          "on": "488BB0D8000000837B50020F8505000000E9BFCDF0FEC7436400000000E9B3CDF0FE",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "x2 Skill Points Each Use",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "19D7324",
+          "on": "4101",
+          "off": "4129"
+        }
+      ]
+    },
+    {
+      "name": "x2 Items Each Use",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "132F020",
+          "on": "4401",
+          "off": "4429"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Items",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "132F020",
+          "on": "909090",
+          "off": "4429F0"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Shiningami ",
+    "Talixme"
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "name": "Elden Ring Nightreign",
+  "id": "CUSA50617",
+  "version": "01.21",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "God Mode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3B77820",
+          "on": "807F70FF750B898750010000E98542FCFD44898750010000E97942FCFD90",
+          "off": "000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1B3BAAF",
+          "on": "E96CBD03029090",
+          "off": "44898750010000"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3B77840",
+          "on": "807F70FF750B8B8754010000E94542FCFD4489C0E93D42FCFD90",
+          "off": "0000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1B3BA90",
+          "on": "E9ABBD030290",
+          "off": "8B8754010000"
+        }
+      ]
+    },
+    {
+      "name": "Max+Inf Runes",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3B777D0",
+          "on": "C7436CFFC99A3B8B4B6C488DBDC0FEFFFFE9C2379CFE",
+          "off": "00000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "253AF9E",
+          "on": "E92DC863019090909090",
+          "off": "8B4B6C488DBDC0FEFFFF"
+        }
+      ]
+    },
+    {
+      "name": "Max+Inf Consumables",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3B777F0",
+          "on": "43C744880814000000BA14000000E9932754FE90",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "20B9F91",
+          "on": "E95AD8AB01",
+          "off": "438B548808"
+        }
+      ]
+    },
+    {
+      "name": "Max+Inf Merks",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3B77810",
+          "on": "C781D0000000FFC99A3BE9D1FD41FE90",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "1F975EA",
+          "on": "E92102BE0190",
+          "off": "8B81D0000000"
+        }
+      ]
+    },
+    {
+      "name": "Enemies Dont Attack",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1906C29",
+          "on": "909090909090909090909090",
+          "off": "0FB68388050000C0E8042401"
+        },
+        {
+          "offset": "1A66303",
+          "on": "4885DB9090909090909090909090",
+          "off": "488B83A8000000F6808805000010"
+        }
+      ]
+    },
+    {
+      "name": "Player No Dead 1.21",
+      "description": "Player can take damage but never die.",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1B3BD0B",
+          "on": "90909090909090",
+          "off": "803D96AB970200"
+        }
+      ]
+    },
+    {
+      "name": "Inf+Max FP",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1B3D369",
+          "on": "8B8B64010000",
+          "off": "8B8B60010000"
+        }
+      ]
+    },
+    {
+      "name": "Inf+Max Stamina",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3B77900",
+          "on": "8B8E70010000898E6C010000E959FA41FE90",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "1F97364",
+          "on": "E99705BE0190",
+          "off": "8B8E6C010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ultimate Art",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1DF94E0",
+          "on": "C5FA114F14",
+          "off": "C5FA114714"
+        }
+      ]
+    },
+    {
+      "name": "Multi Jump And Levitate",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "26B8067",
+          "on": "90909090909090909090909090909090",
+          "off": "41C687920000000041C687E501000000"
+        }
+      ]
+    },
+    {
+      "name": "Inf+Max Level (15)",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3B77920",
+          "on": "BF100000004189F689F8E965F343FE90",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "1FB6C8f",
+          "on": "E98C0CBC01",
+          "off": "4189F689F8"
+        }
+      ]
+    },
+    {
+      "name": "Stop Night Growth",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3B77930",
+          "on": "31D2C68330010000000FB6B344010000E9F5952BFE90",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1E30F33",
+          "on": "E9F869D4019090",
+          "off": "0FB6B344010000"
+        }
+      ]
+    },
+    {
+      "name": "Disable Idle Timer",
+      "description": "This disables the annoying timer that sign you out of the game if you remain idle for some time.",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3B77950",
+          "on": "0F57C0C5FA1183C8010000E948EDF0FD",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "1A866A3",
+          "on": "E9A8120F02909090",
+          "off": "C5FA1183C8010000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Zade_Playzz BDG, Pharoah2k"
+  ]
+}

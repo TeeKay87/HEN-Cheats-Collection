@@ -1,0 +1,83 @@
+{
+  "name": "Darksiders: Warmastered Edition",
+  "id": "CUSA05347",
+  "version": "01.00",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Godmode",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "AB7B38",
+          "on": "C5FA58C1",
+          "off": "C5FA5CC1"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Wrath",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5F9478",
+          "on": "9090909090",
+          "off": "C5FA114304"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Chaos",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5F96C6",
+          "on": "0F44CA",
+          "off": "0F4CCA"
+        }
+      ]
+    },
+    {
+      "name": "Refill Chaos On 1 Hit",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5F9AFE",
+          "on": "C5FA115308",
+          "off": "C5FA114B08"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Horse Burst",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "73F0A9",
+          "on": "909090909090",
+          "off": "89835C060000"
+        }
+      ]
+    },
+    {
+      "name": "Get Souls For Spending Them",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "AD8817",
+          "on": "C5F258C0",
+          "off": "C5F25CC0"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Vampirexx"
+  ]
+}

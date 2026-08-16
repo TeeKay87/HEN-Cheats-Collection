@@ -1,0 +1,88 @@
+{
+  "name": "BioShock: The Collection",
+  "id": "CUSA03979",
+  "version": "01.00",
+  "process": "LaunchOrbis.elf",
+  "mods": [
+    {
+      "name": "Godmode",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4B0FAD",
+          "on": "E93E94D401909090",
+          "off": "C5FA118BD0060000"
+        },
+        {
+          "offset": "21FA3F0",
+          "on": "813B48C544020F8505000000E9B46B2BFEC5FA118BD0060000E9A76B2BFE",
+          "off": "000000000000000000000000000000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Eve",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4C3CB8",
+          "on": "9090909090909090",
+          "off": "C5FA118B680D0000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "584200",
+          "on": "909090909090",
+          "off": "89B080000000"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "130D1D6",
+          "on": "909090",
+          "off": "418907"
+        }
+      ]
+    },
+    {
+      "name": "2x Money After Spend",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4C408A",
+          "on": "01",
+          "off": "89"
+        }
+      ]
+    },
+    {
+      "name": "2x Adam After Spend",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4C4442",
+          "on": "4101",
+          "off": "4189"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

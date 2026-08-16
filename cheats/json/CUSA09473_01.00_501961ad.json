@@ -1,0 +1,64 @@
+{
+  "name": "Resident Evil 7: Biohazard: Gold Edition",
+  "id": "CUSA09473",
+  "version": "01.00",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Godmode",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4B81CC2",
+          "on": "E909AAD803",
+          "off": "C5FA115024"
+        },
+        {
+          "offset": "890C6D0",
+          "on": "81782000007A440F8505000000E9E55527FCC5FA115024E9DB5527FC",
+          "off": "00000000000000000000000000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Items",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "59461E8",
+          "on": "909090909090",
+          "off": "898688000000"
+        }
+      ]
+    },
+    {
+      "name": "x2 Items After Use",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "59461E8",
+          "on": "018688000000",
+          "off": "898688000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5946139",
+          "on": "909090909090",
+          "off": "898688000000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

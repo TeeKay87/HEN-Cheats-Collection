@@ -1,0 +1,108 @@
+{
+  "name": "Far Cry 6",
+  "id": "CUSA15717",
+  "version": "01.09",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7CD7DB0",
+          "on": "C5FA1145A490E9FBABB5FB",
+          "off": "0000000000000000000000"
+        },
+        {
+          "offset": "38329AE",
+          "on": "E9FD534A04909090",
+          "off": "C5FA1145A4FF5040"
+        }
+      ]
+    },
+    {
+      "name": "Invincibility",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7CD7DE0",
+          "on": "90E9BE10B7FB",
+          "off": "000000000000"
+        },
+        {
+          "offset": "3848E9F",
+          "on": "E93CEF4804",
+          "off": "E8CC05FFFF"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Endurance",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7CD7E10",
+          "on": "C5FA5FC190E95F65B5FB",
+          "off": "00000000000000000000"
+        },
+        {
+          "offset": "382E372",
+          "on": "E9999A4A049090",
+          "off": "C5FA5FC1FF5040"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Breath",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7CD7E30",
+          "on": "31D290E97467B5FB",
+          "off": "0000000000000000"
+        },
+        {
+          "offset": "382E5A7",
+          "on": "E984984A04",
+          "off": "31D2FF5040"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo/Medkits/Throwables",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "133B1F6",
+          "on": "8B4354",
+          "off": "8B4354"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4C4F703",
+          "on": "6689837C010000",
+          "off": "4489B37C010000"
+        }
+      ]
+    },
+    {
+      "name": "Max/Infinite Pesos/Materials/Resources/Uranium",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "133B179",
+          "on": "894354",
+          "off": "894B54"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Celogamez"
+  ]
+}

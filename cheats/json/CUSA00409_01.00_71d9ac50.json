@@ -1,0 +1,45 @@
+{
+  "name": "Outlast",
+  "id": "CUSA00409",
+  "version": "01.00",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Godmode",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "211BC1A",
+          "on": "51B9003C1C46660F6EC959C4C17A118FEC310000E935DCC5FE",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "D7985F",
+          "on": "E9B6233A0190909090",
+          "off": "C4C17A118FEC310000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Battery Life",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "211BC47",
+          "on": "51B90000803F660F6EC959C4C17A118F2C320000E93AA3C4FE",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "D65F91",
+          "on": "E9B15C3B0190909090",
+          "off": "C4C17A118F2C320000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "DeathRGH"
+  ]
+}

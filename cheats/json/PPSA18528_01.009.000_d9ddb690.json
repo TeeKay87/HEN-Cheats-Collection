@@ -1,0 +1,91 @@
+{
+  "name": "Mighty Morphin Power Rangers: Rita's Rewind",
+  "id": "PPSA18528",
+  "version": "01.009.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "85EB0",
+          "on": "90909090909090909090",
+          "off": "C4A17A119430F4000000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Super",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "593000",
+          "on": "C5FA108C08F8000000C5FA118C08F8000000E9D92FAFFF",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "85FE7",
+          "on": "E914D0500090909090",
+          "off": "C5FA118C08F8000000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Lives",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "593037",
+          "on": "8B1889184883C408E98929AFFF",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "859C7",
+          "on": "E96BD6500090",
+          "off": "89184883C408"
+        }
+      ]
+    },
+    {
+      "name": "inf Missile",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "593064",
+          "on": "C5FA100498C5FA110498E90C17B7FF",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "10477A",
+          "on": "E9E5E84800",
+          "off": "C5FA110498"
+        }
+      ]
+    },
+    {
+      "name": "Max Score",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "593093",
+          "on": "BB3F420F00019C08F0000000019C08DC000000E92831AFFF",
+          "off": "000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "861C5",
+          "on": "E9C9CE5000909090909090909090",
+          "off": "019C08F0000000019C08DC000000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

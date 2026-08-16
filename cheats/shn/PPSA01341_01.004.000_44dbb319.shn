@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Demon's Souls" Moder="hejran7" Cusa="PPSA01341" Version="01.004.000" Process="eboot.bin">
+  <Genres Name="Adventure" />
+  <Items />
+  <Cheat Text="Infinity Health" Description="">
+    <Cheatline>
+      <Offset>1FF7E6C</Offset>
+      <Section>0</Section>
+      <ValueOn>66-41-81-FB-50-EF-0F-84-5B-52-35-FE-66-41-81-FB-90-EF-0F-84-4F-52-35-FE-66-41-81-FB-A0-EF-0F-84-43-52-35-FE-41-8B-B6-30-07-00-00-E9-2D-52-35-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>34D0C2</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-A5-AD-CA-01-90-90</ValueOn>
+      <ValueOff>41-8B-B6-30-07-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="One Hit Kill" Description="">
+    <Cheatline>
+      <Offset>1FF7E9C</Offset>
+      <Section>0</Section>
+      <ValueOn>66-41-81-FB-50-EF-74-1B-66-41-81-FB-90-EF-74-13-66-41-81-FB-A0-EF-74-0B-41-C7-86-30-07-00-00-00-00-00-00-41-8B-86-30-07-00-00-E9-C3-51-35-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>34D087</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-10-AE-CA-01-90-90</ValueOn>
+      <ValueOff>41-8B-86-30-07-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinity Stamina" Description="">
+    <Cheatline>
+      <Offset>34A996</Offset>
+      <Section>0</Section>
+      <ValueOn>45-89-75-00</ValueOn>
+      <ValueOff>45-89-7D-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinity Magic Power" Description="">
+    <Cheatline>
+      <Offset>34A7C0</Offset>
+      <Section>0</Section>
+      <ValueOn>44-89-BB-3C-07-00-00</ValueOn>
+      <ValueOff>44-89-AB-3C-07-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinity Weapon Durability" Description="">
+    <Cheatline>
+      <Offset>4702EA</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90</ValueOn>
+      <ValueOff>89-3A</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinity Souls" Description="">
+    <Cheatline>
+      <Offset>D2A87</Offset>
+      <Section>0</Section>
+      <ValueOn>89-98-80-00-00-00</ValueOn>
+      <ValueOff>8B-80-80-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="No Souls loss Upon Death" Description="">
+    <Cheatline>
+      <Offset>21D982</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>41-89-8D-80-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max Items (On Use, Move)" Description="">
+    <Cheatline>
+      <Offset>469CFB</Offset>
+      <Section>0</Section>
+      <ValueOn>89-01-90</ValueOn>
+      <ValueOff>44-89-29</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Duplicate Items (On Use, Drop)" Description="">
+    <Cheatline>
+      <Offset>469C9F</Offset>
+      <Section>0</Section>
+      <ValueOn>41-89-C5</ValueOn>
+      <ValueOff>45-01-E5</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="All Infinity Health (for training)" Description="">
+    <Cheatline>
+      <Offset>344870</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>44-89-B3-30-07-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+</Trainer>

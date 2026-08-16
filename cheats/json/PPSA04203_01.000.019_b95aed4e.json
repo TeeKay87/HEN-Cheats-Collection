@@ -1,0 +1,45 @@
+{
+  "name": "Sid Meier's Civilization VII",
+  "id": "PPSA04203",
+  "version": "01.000.019",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Rosources",
+      "description": "Disable after Use",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "44AF000",
+          "on": "B8009F8601418906498B07E9E07F70FC",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "BB6FEA",
+          "on": "E911808F0390",
+          "off": "418906498B07"
+        }
+      ]
+    },
+    {
+      "name": "Inf Leadership Attributes",
+      "description": "Disable after Use",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "44AF030",
+          "on": "478D3C2641BF0063000044897B10E9C89702FD",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "14D8803",
+          "on": "E92868FD02909090",
+          "off": "478D3C2644897B10"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

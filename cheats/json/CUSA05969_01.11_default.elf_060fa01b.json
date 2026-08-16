@@ -1,0 +1,52 @@
+{
+  "name": "Call of Duty: WWII",
+  "id": "CUSA05969",
+  "version": "01.11",
+  "process": "default.elf",
+  "mods": [
+    {
+      "name": "Godmode",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "BFC006C",
+          "on": "7FFFFFFF",
+          "off": "64"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "D261D7",
+          "on": "9090909090",
+          "off": "4429648810"
+        },
+        {
+          "offset": "CFFFFC",
+          "on": "909090",
+          "off": "FF4810"
+        }
+      ]
+    },
+    {
+      "name": "Laser",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "C5215A6",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "DeathRGH"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Mad Max",
+  "id": "CUSA00054",
+  "version": "01.04",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Godmode",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "9CC779",
+          "on": "9090909090",
+          "off": "C5FA11571C"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

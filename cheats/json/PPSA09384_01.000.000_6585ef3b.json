@@ -1,0 +1,116 @@
+{
+  "name": "The Caligula Effect: Overdose",
+  "id": "PPSA09384",
+  "version": "01.000.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Master Code",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80C7F00",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "4D7F00",
+          "section": 6,
+          "sectionOffset": "4BFF00"
+        },
+        {
+          "offset": "80C7F01",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "4D7F01",
+          "section": 6,
+          "sectionOffset": "4BFF01"
+        },
+        {
+          "offset": "580B000",
+          "on": "41807F2C01740941807F2C02740DEB3B803DE9CE8B0201740DEB30803DDFCE8B02017415EB25B83F420F0041894764C5FA2C458CE91AEB67FB41C7476400000000C5FA2C458CE908EB67FB41894764C5FA2C458CE9FAEA67FB",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "E89B4A",
+          "on": "E9B114980490909090",
+          "off": "41894764C5FA2C458C"
+        }
+      ]
+    },
+    {
+      "name": "--Inf_Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80C7F00",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "4D7F00",
+          "section": 6,
+          "sectionOffset": "4BFF00"
+        }
+      ]
+    },
+    {
+      "name": "--Auto_Win",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80C7F01",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "4D7F01",
+          "section": 6,
+          "sectionOffset": "4BFF01"
+        }
+      ]
+    },
+    {
+      "name": "Inf Mp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "580B079",
+          "on": "B80F2700004189476841807F2D00E9DAEA67FB",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "E89B5D",
+          "on": "E91715980490909090",
+          "off": "4189476841807F2D00"
+        }
+      ]
+    },
+    {
+      "name": "Inf Skill Points",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "580B0AC",
+          "on": "C74754E7030000E9565267FB",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "E80304",
+          "on": "E9A3AD98049090909090",
+          "off": "8B475429F07803894754"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

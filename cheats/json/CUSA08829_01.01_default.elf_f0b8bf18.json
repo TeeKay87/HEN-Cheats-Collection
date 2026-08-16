@@ -1,0 +1,83 @@
+{
+  "name": "Call of Duty: Modern Warfare",
+  "id": "CUSA08829",
+  "version": "01.01",
+  "process": "default.elf",
+  "mods": [
+    {
+      "name": "Infinite Ammo",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "BE9675",
+          "on": "909090",
+          "off": "4429F1"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Reload Ammo",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "C16C7A",
+          "on": "9090",
+          "off": "8908"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Grenades",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "BE4D7B",
+          "on": "909090",
+          "off": "894850"
+        }
+      ]
+    },
+    {
+      "name": "Godmode",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "CEABCC",
+          "on": "90909090909090",
+          "off": "412986B8010000"
+        }
+      ]
+    },
+    {
+      "name": "Death-Barrier Godmode",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "CEB1E0",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "No Recoil",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "C00D00",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "DeathRGH"
+  ]
+}

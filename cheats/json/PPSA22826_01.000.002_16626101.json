@@ -1,0 +1,146 @@
+{
+  "name": "Tales of Berseria Remastered",
+  "id": "PPSA22826",
+  "version": "01.000.002",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "81A2B25E",
+          "on": "C4E270F2CE807804010F8451914CFF89480CE949914CFF",
+          "off": "0000000000000000000000000000000000000000000000",
+          "sectionName": "TLSampleViewerTO12.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "CDB25E",
+          "section": 21,
+          "sectionOffset": "CDB25E"
+        },
+        {
+          "offset": "80EF43B6",
+          "on": "E9A36EB300909090",
+          "off": "C4E270F2CE89480C",
+          "sectionName": "TLSampleViewerTO12.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "1A43B6",
+          "section": 21,
+          "sectionOffset": "1A43B6"
+        }
+      ]
+    },
+    {
+      "name": "Inf Mp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "81A2B295",
+          "on": "C5FA115010E9CE914CFF",
+          "off": "00000000000000000000",
+          "sectionName": "TLSampleViewerTO12.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "CDB295",
+          "section": 21,
+          "sectionOffset": "CDB295"
+        },
+        {
+          "offset": "80EF4468",
+          "on": "E9286EB300",
+          "off": "C5FA114010",
+          "sectionName": "TLSampleViewerTO12.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "1A4468",
+          "section": 21,
+          "sectionOffset": "1A4468"
+        }
+      ]
+    },
+    {
+      "name": "Inf Money",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "81A2B2BF",
+          "on": "442B308908E938AD4BFF",
+          "off": "00000000000000000000",
+          "sectionName": "TLSampleViewerTO12.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "CDB2BF",
+          "section": 21,
+          "sectionOffset": "CDB2BF"
+        },
+        {
+          "offset": "80EE5FFC",
+          "on": "E9BE52B400",
+          "off": "442B308908",
+          "sectionName": "TLSampleViewerTO12.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "195FFC",
+          "section": 21,
+          "sectionOffset": "195FFC"
+        }
+      ]
+    },
+    {
+      "name": "Inf Items",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "81A2B2E9",
+          "on": "B86300000041BF6300000046893CA9E927F24AFF",
+          "off": "0000000000000000000000000000000000000000",
+          "sectionName": "TLSampleViewerTO12.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "CDB2E9",
+          "section": 21,
+          "sectionOffset": "CDB2E9"
+        },
+        {
+          "offset": "80EDA51C",
+          "on": "E9C80DB500909090",
+          "off": "428B04A946893CA9",
+          "sectionName": "TLSampleViewerTO12.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "18A51C",
+          "section": 21,
+          "sectionOffset": "18A51C"
+        }
+      ]
+    },
+    {
+      "name": "Inf Exp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "81A2B31D",
+          "on": "41890E41BFFFC99A3B4489781CE91D9A4CFF",
+          "off": "000000000000000000000000000000000000",
+          "sectionName": "TLSampleViewerTO12.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "CDB31D",
+          "section": 21,
+          "sectionOffset": "CDB31D"
+        },
+        {
+          "offset": "80EF4D45",
+          "on": "E9D365B3009090",
+          "off": "41890E4489781C",
+          "sectionName": "TLSampleViewerTO12.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "1A4D45",
+          "section": 21,
+          "sectionOffset": "1A4D45"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

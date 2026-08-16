@@ -1,0 +1,52 @@
+{
+  "name": "Resident Evil: Origins Collection",
+  "id": "CUSA02882",
+  "version": "01.00",
+  "process": "bh0hd.elf",
+  "mods": [
+    {
+      "name": "Godmode",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "568480",
+          "on": "E97B7A990090",
+          "off": "89B750130000"
+        },
+        {
+          "offset": "EFFF00",
+          "on": "66817F0113F10F8505000000E9758566FF89B750130000E96A8566FF",
+          "off": "00000000000000000000000000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Pistol Ammo",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5112D2",
+          "on": "9090909090",
+          "off": "478974FC08"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Tapes",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5109B9",
+          "on": "9090",
+          "off": "8902"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

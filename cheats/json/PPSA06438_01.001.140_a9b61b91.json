@@ -1,0 +1,65 @@
+{
+  "name": "Let's Build a Zoo",
+  "id": "PPSA06438",
+  "version": "01.001.140",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Money",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "816C7000",
+          "on": "48C7C37F96980049895F30480F44CBE9BB7A56FF",
+          "off": "0000000000000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "199B000",
+          "section": 14,
+          "sectionOffset": "199B000"
+        },
+        {
+          "offset": "80C2EAC7",
+          "on": "E93485A900909090",
+          "off": "49895F30480F44CB",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "F02AC7",
+          "section": 14,
+          "sectionOffset": "F02AC7"
+        }
+      ]
+    },
+    {
+      "name": "Inf Research Points",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "816C7034",
+          "on": "B8E7030000C3554889E54156E9C1DD0DFF",
+          "off": "0000000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "199B034",
+          "section": 14,
+          "sectionOffset": "199B034"
+        },
+        {
+          "offset": "807A4E00",
+          "on": "E92F22F20090",
+          "off": "554889E54156",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "A78E00",
+          "section": 14,
+          "sectionOffset": "A78E00"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

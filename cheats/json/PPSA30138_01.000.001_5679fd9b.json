@@ -1,0 +1,47 @@
+{
+  "name": "Fast & Furious: Arcade Edition",
+  "id": "PPSA30138",
+  "version": "01.000.001",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Stop Timer",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80303DDD",
+          "on": "9090909090",
+          "off": "C5FA114334"
+        }
+      ]
+    },
+    {
+      "name": "Inf Nitro",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80682A9F",
+          "on": "9090",
+          "off": "FFC8"
+        }
+      ]
+    },
+    {
+      "name": "Allways Win 1º Place",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "807E63D9",
+          "on": "9090",
+          "off": "75DC"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

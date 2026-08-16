@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dead Space" Moder="Super Death" Cusa="PPSA03845" Version="01.000.004" Process="eboot.bin">
+  <Genres Name="Action" />
+  <Items />
+  <Cheat Text="100 Million Credits" Description="Buy or sell something and turn off the cheat. DO NOT move items into or out of storage. Doing this may crash your game and/or console. Do so at your own risk.">
+    <Cheatline>
+      <PS5Offset>800-executable[0]-5</PS5Offset>
+      <Section>0</Section>
+      <Offset>5EBF800</Offset>
+      <ValueOn>EB-FE</ValueOn>
+      <ValueOff>00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <PS5Offset>51116C0-executable[0]-5</PS5Offset>
+      <Section>0</Section>
+      <Offset>DAE940</Offset>
+      <ValueOn>E9-BB-0E-11-05</ValueOn>
+      <ValueOff>89-77-1C-C3-CC</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <PS5Offset>7FC-executable[0]-5</PS5Offset>
+      <Section>0</Section>
+      <Offset>5EBF804</Offset>
+      <ValueOn>BE-00-E1-F5-05-89-77-1C-C3-CC-E9-32-F1-EE-FA</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <PS5Offset>800-executable[0]-5</PS5Offset>
+      <Section>0</Section>
+      <Offset>5EBF800</Offset>
+      <ValueOn>EB-02-90</ValueOn>
+      <ValueOff>EB-FE-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+</Trainer>

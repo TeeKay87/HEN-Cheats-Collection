@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Aliens: Dark Descent" Moder="Evil Goku" Cusa="CUSA34370" Version="01.08" Process="eboot.bin">
+  <Genres Name="Action" />
+  <Items />
+  <Cheat Text="Inf HP Shield _One Hit Kill ">
+   <Cheatline>
+      <Section>0</Section>
+      <Offset>83A788D</Offset>
+      <ValueOn>48-8B-B8-20-01-00-00-83-B8-44-01-00-00-00-7F-0F-C7-80-08-01-00-00-00-00-00-00-E9-4E-85-1A-FA-83-B8-CC-00-00-00-00-74-E8-C7-80-40-01-00-00-00-00-C8-42-C7-80-08-01-00-00-00-00-C8-42-C7-80-0C-01-00-00-00-00-C8-42-C7-80-10-01-00-00-00-00-C8-42-E9-18-85-1A-FA</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>254FDF3</Offset>
+      <ValueOn>E9-95-7A-E5-05-90-90</ValueOn>
+      <ValueOff>48-8B-B8-20-01-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>83A78E4</Offset>
+      <ValueOn>C5-FA-11-83-08-01-00-00-83-BB-44-01-00-00-00-7F-0F-C7-83-08-01-00-00-00-00-00-00-E9-CF-83-1A-FA-83-BB-CC-00-00-00-00-74-E8-C7-83-10-01-00-00-00-00-C8-42-C7-83-08-01-00-00-00-00-C8-42-C7-83-0C-01-00-00-00-00-C8-42-C7-83-40-01-00-00-00-00-C8-42-E9-99-83-1A-FA</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>254FCCB</Offset>
+      <ValueOn>E9-14-7C-E5-05-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-83-08-01-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Inf Ammo">
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>83A7857</Offset>
+      <ValueOn>41-C7-86-D8-03-00-00-64-00-00-00-E9-59-D7-9E-FA</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>2D94FB9</Offset>
+      <ValueOn>E9-99-28-61-05-90-90</ValueOn>
+      <ValueOff>41-89-86-D8-03-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Inf Medic Use ">
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>23181F8</Offset>
+      <ValueOn>90-90</ValueOn>
+      <ValueOff>FF-C1</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Inf Items use on Mission">
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>83A7869</Offset>
+      <ValueOn>C7-44-F0-08-09-00-00-00-0F-84-92-32-21-FA-E9-66-32-21-FA</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>25BAADC</Offset>
+      <ValueOn>E9-88-CD-DE-05-90</ValueOn>
+      <ValueOff>89-74-F0-08-74-27</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max Materials _ Xenosample on spend">
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>83A787E</Offset>
+      <ValueOn>C7-44-83-08-9F-86-01-00-E9-C3-FD-F5-F9</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>2307649</Offset>
+      <ValueOn>E9-30-02-0A-06</ValueOn>
+      <ValueOff>44-89-44-83-08</ValueOff>
+    </Cheatline>
+  </Cheat>
+</Trainer>

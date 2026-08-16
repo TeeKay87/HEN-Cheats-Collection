@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Super Cyborg" Moder="Ali-mk" Cusa="CUSA32065" Version="01.01" Process="eboot.bin">
+  <Genres Name="Action" />
+  <Items />
+  <Cheat Text="Invincible">
+    <Cheatline>
+      <Offset>81094B0E</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90</ValueOn>
+      <ValueOff>E8-0D-2E-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+    <Cheat Text="Infinite-lives">
+    <Cheatline>
+      <Offset>8109A80D</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90</ValueOn>
+      <ValueOff>FF-48-40</ValueOff>
+    </Cheatline>
+  </Cheat>
+</Trainer>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dying Light" Moder="Ali-mk" Cusa="CUSA02010" Version="01.47" Process="eboot.bin">
+  <Genres Name="Action" />
+  <Items />
+    <Cheat Text="Invincible">
+    <Cheatline>
+      <Offset>34FFB3</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90</ValueOn>
+      <ValueOff>E8-A8-24-FA-FF</ValueOff>
+    </Cheatline>
+	<Cheatline>
+      <Offset>2F5864</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90</ValueOn>
+      <ValueOff>FF-90-A8-00-00-00</ValueOff>
+    </Cheatline>
+	<Cheatline>
+      <Offset>FBB852</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90</ValueOn>
+      <ValueOff>FF-90-A8-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite-Health">
+    <Cheatline>
+      <Offset>C5695F</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-83-34-12-00-00</ValueOff>
+    </Cheatline>
+	<Cheatline>
+      <Offset>C4DA6B</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90</ValueOn>
+      <ValueOff>FF-90-B8-0D-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+    <Cheat Text="Inf-Weapon-no-broken">
+    <Cheatline>
+      <Offset>7604BB</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-4B-04</ValueOff>
+    </Cheatline>
+  </Cheat>
+    <Cheat Text="Inf-Stamina-Weapon">
+    <Cheatline>
+      <Offset>D92F2F</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-43-10</ValueOff>
+    </Cheatline>
+  </Cheat>
+    <Cheat Text="Infinite-Arrow">
+    <Cheatline>
+      <Offset>D73E66</Offset>
+      <Section>0</Section>
+      <ValueOn>44-89-31</ValueOn>
+      <ValueOff>44-89-39</ValueOff>
+    </Cheatline>
+  </Cheat>
+    <Cheat Text="one-Hit-Kill">
+    <Cheatline>
+      <Offset>2D59E8</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90</ValueOn>
+      <ValueOff>C4-C1-7A-10-45-6C</ValueOff>
+    </Cheatline>
+  </Cheat>
+    <Cheat Text="MAX-CASH-money">
+    <Cheatline>
+      <Offset>2D59E8</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90</ValueOn>
+      <ValueOff>C4-C1-7A-10-45-6C</ValueOff>
+    </Cheatline>
+  </Cheat>
+</Trainer>

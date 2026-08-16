@@ -1,0 +1,52 @@
+{
+  "name": "Middle-Earth: Shadow of War",
+  "id": "CUSA04402",
+  "version": "01.11",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Godmode",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "324700A",
+          "on": "C5FA5D8318050000C5F057C9837B44020F85A3E3F7FDE9A6E3F7FD",
+          "off": "000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "11C53B7",
+          "on": "E94E1C080290909090909090",
+          "off": "C5FA5D8318050000C5F057C9"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Arrows",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "146975F",
+          "on": "90909090909090",
+          "off": "41899E98000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Focus",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "125EC2F",
+          "on": "9090909090909090",
+          "off": "C5FA11833C020000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Weysincha"
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "name": "Marvel's Spider-Man: Miles Morales",
+  "id": "PPSA01461",
+  "version": "01.013.002",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB000",
+          "on": "81BBCC0000000000C842740DC5FA119388000000E9BFEC2082C783880000000000C842E9B0EC2082",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1ED9CD0",
+          "on": "E92B13DF7D909090",
+          "off": "C5FA119388000000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Ammo",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F0D437",
+          "on": "9090",
+          "off": "29D8"
+        }
+      ]
+    },
+    {
+      "name": "Inf Exp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB048",
+          "on": "41BF9F8601004401FB41899EF0B90000E9332FED80",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "B9DF86",
+          "on": "E9BDD0127F9090909090",
+          "off": "4401FB41899EF0B90000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Hab Points",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB07D",
+          "on": "C781F8B9000063000000E9120AED80",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "B9BA92",
+          "on": "E9E6F5127F90909090909090",
+          "off": "8B8568FFFFFF2981F8B90000"
+        }
+      ]
+    },
+    {
+      "name": "Easy Combo",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FCCB0AC",
+          "on": "41C746500F0000004C89F7E92A28AC80",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "78D8DF",
+          "on": "E9C8D7537F9090",
+          "off": "41FF46504C89F7"
+        }
+      ]
+    },
+    {
+      "name": "Inf Items",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F1BD61",
+          "on": "90909090",
+          "off": "44396038"
+        },
+        {
+          "offset": "7FCCB0DC",
+          "on": "4889DFC74038E7030000E99B0C2582",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "1F1BD73",
+          "on": "E964F3DA7D9090909090909090909090909090",
+          "off": "448B68384889DF4529E5E84E5CFFFF44896838"
+        }
+      ]
+    },
+    {
+      "name": "Inf Venon",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E0F0A",
+          "on": "90909090",
+          "off": "C5DA5CE3"
+        }
+      ]
+    },
+    {
+      "name": "God Mode",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1EE4810",
+          "on": "9090909090",
+          "off": "E85B5CFFFF"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme",
+    "Wander"
+  ]
+}

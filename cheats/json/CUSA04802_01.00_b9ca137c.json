@@ -1,0 +1,35 @@
+{
+  "name": "2Dark",
+  "id": "CUSA04802",
+  "version": "01.00",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Ammo",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "571D96",
+          "on": "9090909090909090",
+          "off": "41FF8C2400040000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Flashlight",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "54F6CB",
+          "on": "9090909090909090",
+          "off": "4189942400040000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "DeathRGH"
+  ]
+}
