@@ -23,11 +23,28 @@ type AppData = {
 const baseUrl = import.meta.env.BASE_URL
 const PAGE_SIZE = 48
 const FAVORITES_KEY = 'hencc:favorites:v2'
+const SEARCH_PARAM = 'q'
+const SEARCH_URL_DEBOUNCE_MS = 1000
+
+const searchQueryFromLocation = () => {
+  // Game URLs intentionally stay clean. The catalog query belongs to the
+  // previous history entry and is restored when the user navigates back.
+  if (parseGamePath(window.location.pathname, baseUrl)) return ''
+  return new URLSearchParams(window.location.search).get(SEARCH_PARAM) ?? ''
+}
+
+const makeSearchPath = (query: string) => {
+  const params = new URLSearchParams()
+  const trimmedQuery = query.trim()
+  if (trimmedQuery) params.set(SEARCH_PARAM, trimmedQuery)
+  const search = params.toString()
+  return `${baseUrl}${search ? `?${search}` : ''}`
+}
 
 function App() {
   const [data, setData] = useState<AppData | null>(null)
   const [loadError, setLoadError] = useState<string | null>(null)
-  const [query, setQuery] = useState('')
+  const [query, setQuery] = useState(searchQueryFromLocation)
   const [view, setView] = useState<ViewMode>('all')
   const [platform, setPlatform] = useState<PlatformFilter>('All')
   const [format, setFormat] = useState('All')
@@ -44,6 +61,54 @@ function App() {
   })
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false)
   const loadMoreSentinelRef = useRef<HTMLDivElement | null>(null)
+  const pendingSearchUrlTimerRef = useRef<number | null>(null)
+  const latestQueryRef = useRef(query)
+
+  const cancelPendingSearchUrl = useCallback(() => {
+    if (pendingSearchUrlTimerRef.current !== null) {
+      window.clearTimeout(pendingSearchUrlTimerRef.current)
+      pendingSearchUrlTimerRef.current = null
+    }
+  }, [])
+
+  const replaceCatalogSearchUrl = useCallback((nextQuery: string) => {
+    if (parseGamePath(window.location.pathname, baseUrl)) return
+
+    const nextPath = makeSearchPath(nextQuery)
+    const currentPath = `${window.location.pathname}${window.location.search}`
+
+    // Avoid even a replaceState call when the address is already correct.
+    // This is especially useful in Firefox, which may retain replaced URLs
+    // in its global history even though they are not Back/Forward entries.
+    if (currentPath === nextPath) return
+
+    history.replaceState(history.state, document.title, nextPath)
+  }, [])
+
+  const flushSearchUrl = useCallback((nextQuery = latestQueryRef.current) => {
+    cancelPendingSearchUrl()
+    replaceCatalogSearchUrl(nextQuery)
+  }, [cancelPendingSearchUrl, replaceCatalogSearchUrl])
+
+  const updateQuery = useCallback((nextQuery: string, immediateUrl = false) => {
+    latestQueryRef.current = nextQuery
+    setQuery(nextQuery)
+    cancelPendingSearchUrl()
+
+    if (parseGamePath(window.location.pathname, baseUrl)) return
+
+    if (immediateUrl) {
+      replaceCatalogSearchUrl(nextQuery)
+      return
+    }
+
+    // Results update immediately, but the shareable URL waits until typing
+    // has settled. This prevents Firefox from collecting ?q=a, ?q=as, etc.
+    pendingSearchUrlTimerRef.current = window.setTimeout(() => {
+      pendingSearchUrlTimerRef.current = null
+      replaceCatalogSearchUrl(latestQueryRef.current)
+    }, SEARCH_URL_DEBOUNCE_MS)
+  }, [cancelPendingSearchUrl, replaceCatalogSearchUrl])
 
   useEffect(() => {
     const controller = new AbortController()
@@ -154,7 +219,10 @@ function App() {
     const parsed = route ?? legacyHash
 
     if (!parsed) {
+      const restoredQuery = searchQueryFromLocation()
+      latestQueryRef.current = restoredQuery
       setSelected(null)
+      setQuery(restoredQuery)
       return
     }
 
@@ -171,19 +239,26 @@ function App() {
     setSelected({ entry, version: requestedVersion })
 
     if (legacyHash && requestedVersion) {
-      history.replaceState('', document.title, makeGamePath(entry.id, requestedVersion, baseUrl))
+      history.replaceState(history.state, document.title, makeGamePath(entry.id, requestedVersion, baseUrl))
     }
   }, [data, findEntry])
 
   useEffect(() => {
-    syncFromLocation()
-    window.addEventListener('popstate', syncFromLocation)
-    window.addEventListener('hashchange', syncFromLocation)
-    return () => {
-      window.removeEventListener('popstate', syncFromLocation)
-      window.removeEventListener('hashchange', syncFromLocation)
+    const handleLocationChange = () => {
+      // A delayed URL write must never overwrite a Back/Forward navigation.
+      cancelPendingSearchUrl()
+      syncFromLocation()
     }
-  }, [syncFromLocation])
+
+    syncFromLocation()
+    window.addEventListener('popstate', handleLocationChange)
+    window.addEventListener('hashchange', handleLocationChange)
+    return () => {
+      cancelPendingSearchUrl()
+      window.removeEventListener('popstate', handleLocationChange)
+      window.removeEventListener('hashchange', handleLocationChange)
+    }
+  }, [cancelPendingSearchUrl, syncFromLocation])
 
   useEffect(() => {
     const defaultTitle = 'HEN Cheats Collection'
@@ -237,19 +312,43 @@ function App() {
   const openEntry = (entry: CatalogEntry) => {
     const version = [...entry.versions].sort((a, b) => compareVersions(b.version, a.version))[0]?.version
     if (!version) return
+
+    // Commit the current catalog search before pushing the clean game URL.
+    // Back then restores the exact ?q= search the user opened the game from.
+    flushSearchUrl()
     setSelected({ entry, version })
-    history.pushState('', document.title, makeGamePath(entry.id, version, baseUrl))
+    history.pushState(
+      { henccDetailFromCatalog: true },
+      document.title,
+      makeGamePath(entry.id, version, baseUrl),
+    )
   }
 
   const closeDetails = useCallback(() => {
+    if (
+      history.state
+      && typeof history.state === 'object'
+      && history.state.henccDetailFromCatalog === true
+    ) {
+      // This returns to the exact catalog URL that was present before the
+      // game was opened, including its ?q= search parameter.
+      history.back()
+      return
+    }
+
+    // A directly opened/shared game has no HENCC catalog entry behind it.
+    // Closing it therefore goes to the catalog without manufacturing a
+    // browser-history Back target.
     setSelected(null)
-    history.pushState('', document.title, baseUrl)
+    history.pushState(null, document.title, makeSearchPath(''))
   }, [])
 
   const selectVersion = (version: string) => {
     if (!selected) return
     setSelected({ ...selected, version })
-    history.replaceState('', document.title, makeGamePath(selected.entry.id, version, baseUrl))
+    // Preserve the "opened from catalog" marker so Close/Back still restores
+    // the search even after the user switches game version.
+    history.replaceState(history.state, document.title, makeGamePath(selected.entry.id, version, baseUrl))
   }
 
   const toggleFavorite = (id: string) => {
@@ -275,7 +374,7 @@ function App() {
   const hasFilters = Boolean(query) || view === 'favorites' || activeFilterCount > 0
 
   const clearFilters = () => {
-    setQuery('')
+    updateQuery('', true)
     setView('all')
     setPlatform('All')
     setFormat('All')
@@ -310,11 +409,15 @@ function App() {
               <input
                 type="search"
                 value={query}
-                onChange={(event: ChangeEvent<HTMLInputElement>) => setQuery(event.target.value)}
+                onChange={(event: ChangeEvent<HTMLInputElement>) => updateQuery(event.target.value)}
+                onBlur={() => flushSearchUrl()}
+                onKeyDown={(event) => {
+                  if (event.key === 'Enter') flushSearchUrl()
+                }}
                 placeholder="Search by game, Title ID, creator…"
                 aria-label="Search catalog"
               />
-              {query && <button type="button" className="search-clear" onClick={() => setQuery('')} aria-label="Clear search"><Icon name="x" /></button>}
+              {query && <button type="button" className="search-clear" onClick={() => updateQuery('', true)} aria-label="Clear search"><Icon name="x" /></button>}
               <kbd>/</kbd>
             </div>
             {catalogStats && (
