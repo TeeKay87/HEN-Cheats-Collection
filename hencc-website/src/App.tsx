@@ -41,6 +41,28 @@ const makeSearchPath = (query: string) => {
   return `${baseUrl}${search ? `?${search}` : ''}`
 }
 
+
+const syncShareablePageUrl = (urlLike: string | URL = window.location.href) => {
+  const absoluteUrl = urlLike instanceof URL ? urlLike : new URL(urlLike, window.location.origin)
+  const canonicalUrl = absoluteUrl.href
+
+  let canonical = document.head.querySelector<HTMLLinkElement>('link[rel="canonical"]')
+  if (!canonical) {
+    canonical = document.createElement('link')
+    canonical.rel = 'canonical'
+    document.head.appendChild(canonical)
+  }
+  canonical.href = canonicalUrl
+
+  let openGraphUrl = document.head.querySelector<HTMLMetaElement>('meta[property="og:url"]')
+  if (!openGraphUrl) {
+    openGraphUrl = document.createElement('meta')
+    openGraphUrl.setAttribute('property', 'og:url')
+    document.head.appendChild(openGraphUrl)
+  }
+  openGraphUrl.content = canonicalUrl
+}
+
 function App() {
   const [data, setData] = useState<AppData | null>(null)
   const [loadError, setLoadError] = useState<string | null>(null)
@@ -75,14 +97,20 @@ function App() {
     if (parseGamePath(window.location.pathname, baseUrl)) return
 
     const nextPath = makeSearchPath(nextQuery)
+    const nextUrl = new URL(nextPath, window.location.origin)
     const currentPath = `${window.location.pathname}${window.location.search}`
 
-    // Avoid even a replaceState call when the address is already correct.
-    // This is especially useful in Firefox, which may retain replaced URLs
-    // in its global history even though they are not Back/Forward entries.
-    if (currentPath === nextPath) return
+    // Keep canonical/og:url in sync even when the page was initially opened
+    // with ?q= and no History API write is required. Chrome on Android can
+    // consult the canonical URL when sharing/copying a page.
+    if (currentPath === nextPath) {
+      syncShareablePageUrl(nextUrl)
+      return
+    }
 
-    history.replaceState(history.state, document.title, nextPath)
+    // Use an absolute same-origin URL for maximum browser compatibility.
+    history.replaceState(history.state, document.title, nextUrl.href)
+    syncShareablePageUrl(nextUrl)
   }, [])
 
   const flushSearchUrl = useCallback((nextQuery = latestQueryRef.current) => {
@@ -214,6 +242,7 @@ function App() {
   const syncFromLocation = useCallback(() => {
     if (!data) return
 
+    syncShareablePageUrl()
     const route = parseGamePath(window.location.pathname, baseUrl)
     const legacyHash = route ? null : parseHash(window.location.hash)
     const parsed = route ?? legacyHash
@@ -239,7 +268,9 @@ function App() {
     setSelected({ entry, version: requestedVersion })
 
     if (legacyHash && requestedVersion) {
-      history.replaceState(history.state, document.title, makeGamePath(entry.id, requestedVersion, baseUrl))
+      const gameUrl = new URL(makeGamePath(entry.id, requestedVersion, baseUrl), window.location.origin)
+      history.replaceState(history.state, document.title, gameUrl.href)
+      syncShareablePageUrl(gameUrl)
     }
   }, [data, findEntry])
 
@@ -317,11 +348,13 @@ function App() {
     // Back then restores the exact ?q= search the user opened the game from.
     flushSearchUrl()
     setSelected({ entry, version })
+    const gameUrl = new URL(makeGamePath(entry.id, version, baseUrl), window.location.origin)
     history.pushState(
       { henccDetailFromCatalog: true },
       document.title,
-      makeGamePath(entry.id, version, baseUrl),
+      gameUrl.href,
     )
+    syncShareablePageUrl(gameUrl)
   }
 
   const closeDetails = useCallback(() => {
@@ -340,7 +373,9 @@ function App() {
     // Closing it therefore goes to the catalog without manufacturing a
     // browser-history Back target.
     setSelected(null)
-    history.pushState(null, document.title, makeSearchPath(''))
+    const catalogUrl = new URL(makeSearchPath(''), window.location.origin)
+    history.pushState(null, document.title, catalogUrl.href)
+    syncShareablePageUrl(catalogUrl)
   }, [])
 
   const selectVersion = (version: string) => {
@@ -348,7 +383,9 @@ function App() {
     setSelected({ ...selected, version })
     // Preserve the "opened from catalog" marker so Close/Back still restores
     // the search even after the user switches game version.
-    history.replaceState(history.state, document.title, makeGamePath(selected.entry.id, version, baseUrl))
+    const gameUrl = new URL(makeGamePath(selected.entry.id, version, baseUrl), window.location.origin)
+    history.replaceState(history.state, document.title, gameUrl.href)
+    syncShareablePageUrl(gameUrl)
   }
 
   const toggleFavorite = (id: string) => {
