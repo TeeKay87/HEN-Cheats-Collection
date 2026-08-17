@@ -114,6 +114,17 @@ export function DetailsPanel({ entry, coverUrl, selectedVersion, addedDates, upd
 
   const downloadedKey = (file: SourceFile) => `${entry.id}:${activeVersion ?? ''}:${file.sourceId}`
 
+  const downloadFilename = (file: SourceFile) => {
+    const sourceSuffix = `_${file.sourceId}`
+    const extensionIndex = file.file.lastIndexOf('.')
+    if (extensionIndex < 0) return file.file.endsWith(sourceSuffix) ? file.file.slice(0, -sourceSuffix.length) : file.file
+
+    const stem = file.file.slice(0, extensionIndex)
+    return stem.endsWith(sourceSuffix)
+      ? `${stem.slice(0, -sourceSuffix.length)}${file.file.slice(extensionIndex)}`
+      : file.file
+  }
+
   const markDownloaded = (file: SourceFile) => {
     const key = downloadedKey(file)
     setDownloadedFiles((current) => {
@@ -176,7 +187,7 @@ export function DetailsPanel({ entry, coverUrl, selectedVersion, addedDates, upd
       const objectUrl = URL.createObjectURL(blob)
       const anchor = document.createElement('a')
       anchor.href = objectUrl
-      anchor.download = file.file
+      anchor.download = downloadFilename(file)
       document.body.appendChild(anchor)
       anchor.click()
       anchor.remove()
@@ -283,7 +294,7 @@ export function DetailsPanel({ entry, coverUrl, selectedVersion, addedDates, upd
                         {file.issue === true && (
                           <div className="file-issue-warning">
                             <strong className="file-issue-warning-label">Warning</strong>
-                            <p>This file has been reported as having issues. Some cheats may not work as expected, or the game may crash.</p>
+                            <p>This file has been reported to have issues. Some cheats may not work as expected, or the game may crash.</p>
                           </div>
                         )}
                         <ol className="cheat-list">
