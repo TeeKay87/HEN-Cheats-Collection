@@ -72,6 +72,14 @@ const replaceMeta = (html, attribute, key, content) => {
     : html.replace('</head>', `    ${tag}\n  </head>`)
 }
 
+const replaceLink = (html, rel, href) => {
+  const expression = new RegExp(`<link\\s+[^>]*rel=["']${escapeRegExp(rel)}["'][^>]*>`, 'i')
+  const tag = `<link rel="${escapeHtml(rel)}" href="${escapeHtml(href)}" />`
+  return expression.test(html)
+    ? html.replace(expression, tag)
+    : html.replace('</head>', `    ${tag}\n  </head>`)
+}
+
 const removeMeta = (html, attribute, key) => {
   const expression = new RegExp(`\\s*<meta\\s+${attribute}=["']${escapeRegExp(key)}["'][^>]*>\\s*`, 'i')
   return html.replace(expression, '\n')
@@ -103,6 +111,7 @@ for (const entry of catalog.entries) {
     html = replaceMeta(html, 'property', 'og:type', 'website')
     html = replaceMeta(html, 'property', 'og:site_name', 'HEN Cheats Collection')
     html = replaceMeta(html, 'property', 'og:url', pageUrl)
+    html = replaceLink(html, 'canonical', pageUrl)
     html = replaceMeta(html, 'name', 'twitter:card', 'summary_large_image')
     html = replaceMeta(html, 'name', 'twitter:title', pageTitle)
     html = replaceMeta(html, 'name', 'twitter:description', description)
