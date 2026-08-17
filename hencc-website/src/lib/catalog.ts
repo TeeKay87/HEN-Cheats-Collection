@@ -1,5 +1,12 @@
 import type { CatalogEntry, Platform } from '../types/catalog'
 
+type Hideable = {
+  hidden?: boolean
+  hide?: boolean
+}
+
+export const isHidden = (value: Hideable) => value.hidden === true || value.hide === true
+
 const SEARCH_STOP_WORDS = new Set([
   'a',
   'an',

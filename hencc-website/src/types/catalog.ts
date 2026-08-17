@@ -11,7 +11,8 @@ export interface CatalogEntry {
   id: string
   title: string
   pinned: boolean
-  hidden: boolean
+  hidden?: boolean
+  hide?: boolean
   versions: CatalogVersion[]
 }
 
@@ -27,6 +28,7 @@ export interface CoversResponse {
 }
 
 export type AddedResponse = Record<string, string>
+export type UpdatedResponse = Record<string, string>
 
 export interface SourceFile {
   sourceId: string
@@ -34,9 +36,11 @@ export interface SourceFile {
   path: string
   format: Format
   process: string
-  hidden: boolean
+  hidden?: boolean
+  hide?: boolean
+  issue?: boolean
   creators: string[]
-  notes: string | null
+  notes?: string | null
   cheats: string[]
 }
 

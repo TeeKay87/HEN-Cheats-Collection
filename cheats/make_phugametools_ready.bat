@@ -1,21 +1,6 @@
 @echo off
 setlocal EnableExtensions DisableDelayedExpansion
 
-rem ============================================================
-rem Kopierar ENDAST filer direkt fran rotmapparna:
-rem   json
-rem   mc4
-rem   shn
-rem
-rem Mappen data och allt innehall i den anvands aldrig som kalla.
-rem Sokningen ar inte rekursiv: undermappar ignoreras.
-rem Alla filandelser tillats.
-rem
-rem Destinationer:
-rem   Filnamn som borjar med PPSA -> data\PHU\cheats\PS5
-rem   Alla andra filer           -> data\PHU\cheats\PS4
-rem ============================================================
-
 set "ROOT=%~dp0"
 set "DEST=%ROOT%data\PHU\cheats"
 set "DEST_PS4=%DEST%\PS4"
@@ -23,6 +8,8 @@ set "DEST_PS5=%DEST%\PS5"
 
 set /a COPIED_PS4=0
 set /a COPIED_PS5=0
+set /a RENAMED=0
+set /a COLLISIONS=0
 set /a FAILED=0
 set /a MISSING_FOLDERS=0
 
@@ -39,7 +26,8 @@ echo The data folder is ignored as a source.
 echo Subfolders are ignored.
 echo All file extensions are included.
 echo Files beginning with PPSA go to PS5; all others go to PS4.
-echo Existing destination files with the same name will be overwritten.
+echo Hash suffixes _xxxxxxxx are removed while copying.
+echo Existing destination files are kept; duplicates get _1, _2, _3, etc.
 echo.
 
 call :ProcessFolder "%ROOT%json"
@@ -50,19 +38,19 @@ echo.
 echo Done.
 echo Copied to PS4:   %COPIED_PS4%
 echo Copied to PS5:   %COPIED_PS5%
+echo Hash renamed:    %RENAMED%
+echo Name conflicts:  %COLLISIONS%
 echo Failed:          %FAILED%
 echo Missing folders: %MISSING_FOLDERS%
 echo.
 pause
 exit /b
 
-
 :CreateFolder
 if not exist "%~1\" (
     mkdir "%~1"
 )
 exit /b
-
 
 :ProcessFolder
 set "SOURCE_FOLDER=%~1"
@@ -73,19 +61,17 @@ if not exist "%SOURCE_FOLDER%\" (
     exit /b
 )
 
-rem DIR /B /A-D listar endast filer direkt i mappen, utan rekursion.
 for /f "eol=| delims=" %%F in ('dir /b /a-d "%SOURCE_FOLDER%\*" 2^>nul') do (
     call :CopyOne "%SOURCE_FOLDER%\%%F"
 )
 
 exit /b
 
-
 :CopyOne
 set "SRC=%~1"
-set "NAME=%~nx1"
+set "ORIGINAL_NAME=%~nx1"
 
-if /I "%NAME:~0,4%"=="PPSA" (
+if /I "%ORIGINAL_NAME:~0,4%"=="PPSA" (
     set "TARGET_FOLDER=%DEST_PS5%"
     set "GROUP=PS5"
 ) else (
@@ -93,13 +79,21 @@ if /I "%NAME:~0,4%"=="PPSA" (
     set "GROUP=PS4"
 )
 
-copy /Y "%SRC%" "%TARGET_FOLDER%\%NAME%" >nul
+call :MakeCleanName "%SRC%"
+
+if /I not "%ORIGINAL_NAME%"=="%CLEAN_STEM%%EXT%" (
+    set /a RENAMED+=1
+)
+
+call :BuildUniqueTarget "%TARGET_FOLDER%" "%CLEAN_STEM%" "%EXT%"
+
+copy /Y "%SRC%" "%TARGET%" >nul
 
 if errorlevel 1 (
     echo FAILED: "%SRC%"
     set /a FAILED+=1
 ) else (
-    echo Copied to %GROUP%: "%SRC%"
+    echo Copied to %GROUP%: "%SRC%" ^> "%TARGET%"
     if "%GROUP%"=="PS5" (
         set /a COPIED_PS5+=1
     ) else (
@@ -108,3 +102,41 @@ if errorlevel 1 (
 )
 
 exit /b
+
+:MakeCleanName
+
+set "STEM=%~n1"
+set "EXT=%~x1"
+set "CLEAN_STEM=%STEM%"
+
+set "SEP=%STEM:~-9,1%"
+if not "%SEP%"=="_" exit /b
+
+set "TAIL=%STEM:~-8%"
+set "NONHEX="
+
+for /f "delims=0123456789abcdefABCDEF" %%H in ("%TAIL%") do set "NONHEX=%%H"
+
+if defined NONHEX exit /b
+
+set "CLEAN_STEM=%STEM:~0,-9%"
+exit /b
+
+:BuildUniqueTarget
+
+set "TARGET_FOLDER=%~1"
+set "TARGET_STEM=%~2"
+set "TARGET_EXT=%~3"
+
+set "TARGET=%TARGET_FOLDER%\%TARGET_STEM%%TARGET_EXT%"
+if not exist "%TARGET%" exit /b
+
+set /a COLLISIONS+=1
+set /a INDEX=1
+
+:FindUniqueTarget
+set "TARGET=%TARGET_FOLDER%\%TARGET_STEM%_%INDEX%%TARGET_EXT%"
+if not exist "%TARGET%" exit /b
+
+set /a INDEX+=1
+goto FindUniqueTarget

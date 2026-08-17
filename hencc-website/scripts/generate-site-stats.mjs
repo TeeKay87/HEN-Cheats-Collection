@@ -12,14 +12,14 @@ let filesWithCheats = 0
 let rows = 0
 
 for (const entry of catalog.entries ?? []) {
-  if (entry.hidden) continue
+  if (entry.hidden === true || entry.hide === true) continue
 
   for (const version of entry.versions ?? []) {
     const detailPath = path.join(dataRoot, 'games', entry.id, `${version.version}.json`)
     const detail = JSON.parse(await readFile(detailPath, 'utf8'))
 
     for (const file of detail.files ?? []) {
-      if (file.hidden || !Array.isArray(file.cheats) || file.cheats.length === 0) continue
+      if (file.hidden === true || file.hide === true || !Array.isArray(file.cheats) || file.cheats.length === 0) continue
       filesWithCheats += 1
       rows += file.cheats.length
     }

@@ -6,8 +6,8 @@ import { DetailsPanel } from './components/DetailsPanel'
 import { GameCard } from './components/GameCard'
 import { Icon } from './components/Icon'
 import { ADSENSE_CATALOG_INTERVAL, ADSENSE_ENABLED, buildCoverImageUrl, COVER_DETAIL_SIZE, COVER_FALLBACK_URL } from './config'
-import { catalogSearchScore, compareVersions, makeGamePath, normalizeSearch, parseGamePath, parseHash, platformFor } from './lib/catalog'
-import type { AddedResponse, CatalogEntry, CatalogResponse, CoversResponse, Platform, SiteStatsResponse } from './types/catalog'
+import { catalogSearchScore, compareVersions, isHidden, makeGamePath, normalizeSearch, parseGamePath, parseHash, platformFor } from './lib/catalog'
+import type { AddedResponse, CatalogEntry, CatalogResponse, CoversResponse, Platform, SiteStatsResponse, UpdatedResponse } from './types/catalog'
 
 type ViewMode = 'all' | 'favorites'
 type SortMode = 'featured' | 'title' | 'newest' | 'versions'
@@ -17,6 +17,7 @@ type AppData = {
   catalog: CatalogResponse
   covers: CoversResponse
   added: AddedResponse
+  updated: UpdatedResponse
   stats: SiteStatsResponse
 }
 
@@ -25,6 +26,19 @@ const PAGE_SIZE = 48
 const FAVORITES_KEY = 'hencc:favorites:v2'
 const SEARCH_PARAM = 'q'
 const SEARCH_URL_DEBOUNCE_MS = 1000
+const HOME_TITLE = 'HEN Cheats Collection'
+const HOME_DESCRIPTION = 'Browse the largest collection of cheats for the PlayStation 4 and PlayStation 5. Play Your Way. | HEN Cheats Collection'
+const HOME_SOCIAL_TITLE = 'PlayStation 4 and PlayStation 5 cheats | HEN Cheats Collection'
+const HOME_SOCIAL_DESCRIPTION = 'Browse the largest collection of cheats for the PlayStation 4 and PlayStation 5. Play Your Way.'
+const HOME_SOCIAL_IMAGE = 'https://hencheats.vercel.app/meta-image.png?v=2'
+const HOME_SOCIAL_IMAGE_ALT = 'HEN Cheats Collection banner'
+
+const platformNameForSocial = (id: string) => {
+  const value = platformFor(id)
+  if (value === 'PS4') return 'PlayStation 4'
+  if (value === 'PS5') return 'PlayStation 5'
+  return 'PlayStation'
+}
 
 const searchQueryFromLocation = () => {
   // Game URLs intentionally stay clean. The catalog query belongs to the
@@ -41,6 +55,21 @@ const makeSearchPath = (query: string) => {
   return `${baseUrl}${search ? `?${search}` : ''}`
 }
 
+
+const fetchOptionalDateMap = async (url: string, signal: AbortSignal) => {
+  try {
+    const response = await fetch(url, { signal })
+    if (!response.ok) {
+      if (response.status !== 404) console.warn(`Optional date data could not be loaded: ${url} (${response.status})`)
+      return {}
+    }
+    return await response.json() as Record<string, string>
+  } catch (error) {
+    if (error instanceof DOMException && error.name === 'AbortError') throw error
+    console.warn(`Optional date data could not be loaded: ${url}`, error)
+    return {}
+  }
+}
 
 const syncShareablePageUrl = (urlLike: string | URL = window.location.href) => {
   const absoluteUrl = urlLike instanceof URL ? urlLike : new URL(urlLike, window.location.origin)
@@ -149,16 +178,14 @@ function App() {
         if (!response.ok) throw new Error(`covers ${response.status}`)
         return response.json() as Promise<CoversResponse>
       }),
-      fetch(`${baseUrl}data/added.json`, { signal: controller.signal }).then((response) => {
-        if (!response.ok) throw new Error(`added ${response.status}`)
-        return response.json() as Promise<AddedResponse>
-      }),
+      fetchOptionalDateMap(`${baseUrl}data/added.json`, controller.signal) as Promise<AddedResponse>,
+      fetchOptionalDateMap(`${baseUrl}data/updated.json`, controller.signal) as Promise<UpdatedResponse>,
       fetch(`${baseUrl}data/stats.json`, { signal: controller.signal }).then((response) => {
         if (!response.ok) throw new Error(`stats ${response.status}`)
         return response.json() as Promise<SiteStatsResponse>
       }),
     ])
-      .then(([catalog, covers, added, stats]) => setData({ catalog, covers, added, stats }))
+      .then(([catalog, covers, added, updated, stats]) => setData({ catalog, covers, added, updated, stats }))
       .catch((reason: unknown) => {
         if (reason instanceof DOMException && reason.name === 'AbortError') return
         setLoadError('The catalog data could not be loaded.')
@@ -181,7 +208,7 @@ function App() {
     if (!data) return []
     const normalizedQuery = normalizeSearch(query)
     const scoredEntries = data.catalog.entries.flatMap((entry) => {
-      if (entry.hidden) return []
+      if (isHidden(entry)) return []
       if (view === 'favorites' && !favorites.has(entry.id)) return []
       if (platform !== 'All' && platformFor(entry.id) !== platform) return []
       if (format !== 'All' && !entry.versions.some((version) => version.formats.includes(format))) return []
@@ -256,7 +283,7 @@ function App() {
     }
 
     const entry = findEntry(parsed.id)
-    if (!entry || entry.hidden) {
+    if (!entry || isHidden(entry)) {
       setSelected(null)
       return
     }
@@ -292,9 +319,6 @@ function App() {
   }, [cancelPendingSearchUrl, syncFromLocation])
 
   useEffect(() => {
-    const defaultTitle = 'HEN Cheats Collection'
-    const defaultDescription = 'The largest collection of PlayStation 4 and PlayStation 5 cheats. Play Your Way.'
-
     const setMeta = (selector: string, attribute: 'name' | 'property', key: string, content: string) => {
       let element = document.head.querySelector<HTMLMetaElement>(selector)
       if (!element) {
@@ -308,36 +332,42 @@ function App() {
     const removeMeta = (selector: string) => document.head.querySelector(selector)?.remove()
 
     if (!selected) {
-      document.title = defaultTitle
-      setMeta('meta[name="description"]', 'name', 'description', defaultDescription)
-      setMeta('meta[property="og:title"]', 'property', 'og:title', defaultTitle)
-      setMeta('meta[property="og:description"]', 'property', 'og:description', defaultDescription)
-      setMeta('meta[name="twitter:title"]', 'name', 'twitter:title', defaultTitle)
-      setMeta('meta[name="twitter:description"]', 'name', 'twitter:description', defaultDescription)
-      removeMeta('meta[property="og:image"]')
-      removeMeta('meta[name="twitter:image"]')
+      document.title = HOME_TITLE
+      setMeta('meta[name="description"]', 'name', 'description', HOME_DESCRIPTION)
+      setMeta('meta[property="og:title"]', 'property', 'og:title', HOME_SOCIAL_TITLE)
+      setMeta('meta[property="og:description"]', 'property', 'og:description', HOME_SOCIAL_DESCRIPTION)
+      setMeta('meta[property="og:image"]', 'property', 'og:image', HOME_SOCIAL_IMAGE)
+      setMeta('meta[property="og:image:width"]', 'property', 'og:image:width', '1200')
+      setMeta('meta[property="og:image:height"]', 'property', 'og:image:height', '630')
+      setMeta('meta[property="og:image:type"]', 'property', 'og:image:type', 'image/png')
+      setMeta('meta[property="og:image:alt"]', 'property', 'og:image:alt', HOME_SOCIAL_IMAGE_ALT)
+      setMeta('meta[name="twitter:title"]', 'name', 'twitter:title', HOME_SOCIAL_TITLE)
+      setMeta('meta[name="twitter:description"]', 'name', 'twitter:description', HOME_SOCIAL_DESCRIPTION)
+      setMeta('meta[name="twitter:image"]', 'name', 'twitter:image', HOME_SOCIAL_IMAGE)
+      setMeta('meta[name="twitter:image:alt"]', 'name', 'twitter:image:alt', HOME_SOCIAL_IMAGE_ALT)
       return
     }
 
     const versionLabel = selected.version ? ` v${selected.version}` : ''
     const pageTitle = `${selected.entry.title}${versionLabel} | HEN Cheats Collection`
-    const description = `${platformFor(selected.entry.id)} cheats for ${selected.entry.title}${selected.version ? `, version ${selected.version}` : ''}. HEN Cheats Collection.`
-    const cover = buildCoverImageUrl(coverFor(selected.entry), COVER_DETAIL_SIZE)
+    const description = `${platformNameForSocial(selected.entry.id)} cheats for ${selected.entry.title}${selected.version ? `, version ${selected.version}` : ''}. HEN Cheats Collection.`
+    const coverCandidate = buildCoverImageUrl(coverFor(selected.entry), COVER_DETAIL_SIZE)
+    const cover = /^https?:\/\//i.test(coverCandidate) ? coverCandidate : COVER_FALLBACK_URL
+    const coverAlt = `${selected.entry.title} cover`
 
     document.title = pageTitle
     setMeta('meta[name="description"]', 'name', 'description', description)
     setMeta('meta[property="og:title"]', 'property', 'og:title', pageTitle)
     setMeta('meta[property="og:description"]', 'property', 'og:description', description)
+    setMeta('meta[property="og:image"]', 'property', 'og:image', cover)
+    setMeta('meta[property="og:image:alt"]', 'property', 'og:image:alt', coverAlt)
     setMeta('meta[name="twitter:title"]', 'name', 'twitter:title', pageTitle)
     setMeta('meta[name="twitter:description"]', 'name', 'twitter:description', description)
-
-    if (/^https?:\/\//i.test(cover)) {
-      setMeta('meta[property="og:image"]', 'property', 'og:image', cover)
-      setMeta('meta[name="twitter:image"]', 'name', 'twitter:image', cover)
-    } else {
-      removeMeta('meta[property="og:image"]')
-      removeMeta('meta[name="twitter:image"]')
-    }
+    setMeta('meta[name="twitter:image"]', 'name', 'twitter:image', cover)
+    setMeta('meta[name="twitter:image:alt"]', 'name', 'twitter:image:alt', coverAlt)
+    removeMeta('meta[property="og:image:width"]')
+    removeMeta('meta[property="og:image:height"]')
+    removeMeta('meta[property="og:image:type"]')
   }, [selected, data])
 
   const openEntry = (entry: CatalogEntry) => {
@@ -402,7 +432,7 @@ function App() {
 
   const catalogStats = useMemo(() => {
     if (!data) return null
-    const entries = data.catalog.entries.filter((entry) => !entry.hidden)
+    const entries = data.catalog.entries.filter((entry) => !isHidden(entry))
     const versionCount = entries.reduce((sum, entry) => sum + entry.versions.length, 0)
     return { games: entries.length, versions: versionCount, files: data.stats.filesWithCheats }
   }, [data])
@@ -585,6 +615,7 @@ function App() {
           coverUrl={coverFor(selected.entry)}
           selectedVersion={selected.version}
           addedDates={data.added}
+          updatedDates={data.updated}
           favorite={favorites.has(selected.entry.id)}
           onClose={closeDetails}
           onSelectVersion={selectVersion}

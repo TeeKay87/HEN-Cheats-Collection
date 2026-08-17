@@ -21,6 +21,7 @@ type IconName =
   | 'external'
   | 'menu'
   | 'alertTriangle'
+  | 'note'
 
 interface IconProps extends SVGProps<SVGSVGElement> {
   name: IconName
@@ -47,6 +48,7 @@ const paths: Record<IconName, React.ReactNode> = {
   external: <><path d="M15 3h6v6"/><path d="m10 14 11-11"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></>,
   menu: <><path d="M4 7h16M4 12h16M4 17h16"/></>,
   alertTriangle: <><path d="M10.3 2.9 1.8 17a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 2.9a2 2 0 0 0-3.4 0Z"/><path d="M12 9v4"/><path d="M12 17h.01"/></>,
+  note: <><path d="M6 3h12a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Z"/><path d="M8 8h8M8 12h8M8 16h5"/></>,
 }
 
 export function Icon({ name, ...props }: IconProps) {

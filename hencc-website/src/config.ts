@@ -4,7 +4,7 @@ export const PUBLIC_SITE_URL = 'https://hencheats.vercel.app'
 
 // Central cover-image configuration.
 // Change these values here to adjust image sizes across the whole website.
-export const COVER_LIST_SIZE = 384
+export const COVER_LIST_SIZE = 256
 export const COVER_DETAIL_SIZE = 1024
 export const COVER_FALLBACK_URL = 'https://upload.wikimedia.org/wikipedia/commons/9/99/Playstation_logo_colour2.svg'
 

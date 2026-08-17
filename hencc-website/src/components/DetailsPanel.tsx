@@ -1,8 +1,9 @@
 import { useEffect, useMemo, useState } from 'react'
+import Markdown from 'markdown-to-jsx/react'
 import type { MouseEvent } from 'react'
 import { Icon } from './Icon'
 import { buildCoverImageUrl, CHEAT_DOWNLOAD_BASE_URL, CHEAT_NEW_ISSUE_URL, COVER_DETAIL_SIZE, PUBLIC_SITE_URL } from '../config'
-import { compareVersions, displayDate, formatLabel, makeGamePath, platformFor } from '../lib/catalog'
+import { compareVersions, displayDate, formatLabel, isHidden, makeGamePath, platformFor } from '../lib/catalog'
 import type { CatalogEntry, GameVersionResponse, SourceFile } from '../types/catalog'
 
 interface DetailsPanelProps {
@@ -10,6 +11,7 @@ interface DetailsPanelProps {
   coverUrl: string
   selectedVersion?: string
   addedDates: Record<string, string>
+  updatedDates: Record<string, string>
   favorite: boolean
   onClose: () => void
   onSelectVersion: (version: string) => void
@@ -28,7 +30,7 @@ const loadDownloadedFiles = () => {
   }
 }
 
-export function DetailsPanel({ entry, coverUrl, selectedVersion, addedDates, favorite, onClose, onSelectVersion, onToggleFavorite }: DetailsPanelProps) {
+export function DetailsPanel({ entry, coverUrl, selectedVersion, addedDates, updatedDates, favorite, onClose, onSelectVersion, onToggleFavorite }: DetailsPanelProps) {
   const versions = useMemo(
     () => [...entry.versions].sort((a, b) => compareVersions(b.version, a.version)),
     [entry.versions],
@@ -186,8 +188,8 @@ export function DetailsPanel({ entry, coverUrl, selectedVersion, addedDates, fav
   }
 
   const added = activeVersion ? addedDates[`${entry.id}-${activeVersion}`] : undefined
-  const visibleFiles = detail?.files.filter((file) => !file.hidden) ?? []
-  const totalCheats = visibleFiles.reduce((sum, file) => sum + file.cheats.length, 0)
+  const updated = activeVersion ? updatedDates[`${entry.id}-${activeVersion}`] : undefined
+  const visibleFiles = detail?.files.filter((file) => !isHidden(file)) ?? []
 
   return (
     <div className="detail-backdrop" onMouseDown={(event: MouseEvent<HTMLDivElement>) => { if (event.target === event.currentTarget) onClose() }}>
@@ -233,9 +235,9 @@ export function DetailsPanel({ entry, coverUrl, selectedVersion, addedDates, fav
           </div>
 
           <div className="detail-summary-grid">
-            <div className="summary-card"><Icon name="file" /><div><strong>{visibleFiles.length || '—'}</strong><span>Source files</span></div></div>
-            <div className="summary-card"><Icon name="code" /><div><strong>{loading ? '—' : totalCheats}</strong><span>Rows</span></div></div>
+            <div className="summary-card"><Icon name="file" /><div><strong>{loading || error ? '—' : visibleFiles.length}</strong><span>Files</span></div></div>
             <div className="summary-card"><Icon name="calendar" /><div><strong>{displayDate(added) ?? '—'}</strong><span>Added</span></div></div>
+            <div className="summary-card"><Icon name="calendar" /><div><strong>{displayDate(updated) ?? '—'}</strong><span>Updated</span></div></div>
           </div>
 
           {downloadError && <div className="notice warning">{downloadError}</div>}
@@ -247,15 +249,18 @@ export function DetailsPanel({ entry, coverUrl, selectedVersion, addedDates, fav
               {visibleFiles.map((file) => {
                 const expanded = expandedFiles.has(file.sourceId)
                 const downloaded = downloadedFiles.has(downloadedKey(file))
+                const notes = typeof file.notes === 'string' && file.notes.trim().length > 0 ? file.notes : null
                 return (
-                  <article className={`source-card ${expanded ? 'expanded' : ''}`} key={file.sourceId}>
+                  <article className={`source-card ${expanded ? 'expanded' : ''} ${file.issue === true ? 'has-issue' : ''}`} key={file.sourceId}>
                     <div className="source-main" onClick={() => toggleFile(file.sourceId)}>
                       <div className={`file-icon format-bg-${file.format}`}><Icon name="file" /></div>
                       <div className="source-info">
                         <div className="source-title-row">
                           <h3>{file.creators.length ? file.creators.join(', ') : 'Unknown creator'}</h3>
                           <span className={`format format-${file.format}`}>{formatLabel(file.format)}</span>
+                          {file.issue === true && <span className="source-issue-badge" title="Known issue">Issue</span>}
                           {downloaded && <span className="format format-downloaded">Downloaded</span>}
+                          {notes && <span className="source-note-indicator" title="Notes available" aria-label="Notes available"><Icon name="note" /></span>}
                         </div>
                         <p>{file.cheats.length} {file.cheats.length === 1 ? 'row' : 'rows'}</p>
                         <code>{file.file}</code>
@@ -269,7 +274,18 @@ export function DetailsPanel({ entry, coverUrl, selectedVersion, addedDates, fav
                     </div>
                     {expanded && (
                       <div className="source-expanded">
-                        {file.notes && <div className="file-notes"><strong>Notes</strong><p>{file.notes}</p></div>}
+                        {notes && (
+                          <div className="file-notes">
+                            <strong className="file-notes-label">Notes</strong>
+                            <Markdown options={{ disableParsingRawHTML: true }}>{notes}</Markdown>
+                          </div>
+                        )}
+                        {file.issue === true && (
+                          <div className="file-issue-warning">
+                            <strong className="file-issue-warning-label">Warning</strong>
+                            <p>This file has been reported as having issues. Some cheats may not work as expected, or the game may crash.</p>
+                          </div>
+                        )}
                         <ol className="cheat-list">
                           {file.cheats.map((cheat, index) => <li key={`${file.sourceId}-${index}`}><span>{cheat}</span></li>)}
                         </ol>

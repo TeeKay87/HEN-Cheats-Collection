@@ -93,11 +93,12 @@ const platformFor = (id) => {
 
 let generated = 0
 for (const entry of catalog.entries) {
-  if (entry.hidden) continue
-  const cover = buildCoverImageUrl(
+  if (entry.hidden === true || entry.hide === true) continue
+  const coverCandidate = buildCoverImageUrl(
     covers.titles[entry.title.trim().toLowerCase()] ?? COVER_FALLBACK_URL,
     COVER_DETAIL_SIZE,
   )
+  const cover = /^https?:\/\//i.test(coverCandidate) ? coverCandidate : COVER_FALLBACK_URL
 
   for (const version of entry.versions) {
     const pageTitle = `${entry.title} v${version.version} | HEN Cheats Collection`
@@ -116,15 +117,13 @@ for (const entry of catalog.entries) {
     html = replaceMeta(html, 'name', 'twitter:title', pageTitle)
     html = replaceMeta(html, 'name', 'twitter:description', description)
 
-    if (/^https?:\/\//i.test(cover)) {
-      html = replaceMeta(html, 'property', 'og:image', cover)
-      html = replaceMeta(html, 'property', 'og:image:alt', `${entry.title} cover`)
-      html = removeMeta(html, 'property', 'og:image:width')
-      html = removeMeta(html, 'property', 'og:image:height')
-      html = removeMeta(html, 'property', 'og:image:type')
-      html = replaceMeta(html, 'name', 'twitter:image', cover)
-      html = replaceMeta(html, 'name', 'twitter:image:alt', `${entry.title} cover`)
-    }
+    html = replaceMeta(html, 'property', 'og:image', cover)
+    html = replaceMeta(html, 'property', 'og:image:alt', `${entry.title} cover`)
+    html = removeMeta(html, 'property', 'og:image:width')
+    html = removeMeta(html, 'property', 'og:image:height')
+    html = removeMeta(html, 'property', 'og:image:type')
+    html = replaceMeta(html, 'name', 'twitter:image', cover)
+    html = replaceMeta(html, 'name', 'twitter:image:alt', `${entry.title} cover`)
 
     const routeDir = path.join(distRoot, 'game', entry.id, version.version)
     await mkdir(routeDir, { recursive: true })

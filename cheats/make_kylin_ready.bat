@@ -1,16 +1,12 @@
 @echo off
-setlocal EnableExtensions
-
-rem ============================================================
-rem Kopierar ENDAST filer fran mapparna json, mc4 och shn.
-rem Mappen data och allt innehall i den anvands aldrig som kalla.
-rem Sokningen ar inte rekursiv: undermappar i kallmapparna ignoreras.
-rem ============================================================
+setlocal EnableExtensions DisableDelayedExpansion
 
 set "ROOT=%~dp0"
 set "DEST=%ROOT%data\kylin\cheats"
 
 set /a COPIED=0
+set /a RENAMED=0
+set /a COLLISIONS=0
 set /a FAILED=0
 set /a MISSING_FOLDERS=0
 
@@ -18,7 +14,7 @@ echo Creating output folder:
 echo "%DEST%"
 echo.
 
-if not exist "%DEST%" (
+if not exist "%DEST%\" (
     mkdir "%DEST%"
 )
 
@@ -28,7 +24,8 @@ echo "%ROOT%mc4"
 echo "%ROOT%shn"
 echo.
 echo The data folder is ignored as a source.
-echo Existing destination files with the same name will be overwritten.
+echo Hash suffixes _xxxxxxxx are removed while copying.
+echo Existing destination files are kept; duplicates get _1, _2, _3, etc.
 echo.
 
 call :CopyFiles "%ROOT%json" "*.json"
@@ -38,12 +35,13 @@ call :CopyFiles "%ROOT%shn" "*.shn"
 echo.
 echo Done.
 echo Copied:          %COPIED%
+echo Hash renamed:    %RENAMED%
+echo Name conflicts:  %COLLISIONS%
 echo Failed:          %FAILED%
 echo Missing folders: %MISSING_FOLDERS%
 echo.
 pause
 exit /b
-
 
 :CopyFiles
 set "SOURCE_FOLDER=%~1"
@@ -55,7 +53,6 @@ if not exist "%SOURCE_FOLDER%\" (
     exit /b
 )
 
-rem /D anvands inte, sa bara filer i den angivna mappen behandlas.
 for %%F in ("%SOURCE_FOLDER%\%PATTERN%") do (
     if exist "%%~fF" (
         call :CopyOne "%%~fF"
@@ -64,11 +61,17 @@ for %%F in ("%SOURCE_FOLDER%\%PATTERN%") do (
 
 exit /b
 
-
 :CopyOne
 set "SRC=%~1"
-set "NAME=%~nx1"
-set "TARGET=%DEST%\%NAME%"
+set "ORIGINAL_NAME=%~nx1"
+
+call :MakeCleanName "%SRC%"
+
+if /I not "%ORIGINAL_NAME%"=="%CLEAN_STEM%%EXT%" (
+    set /a RENAMED+=1
+)
+
+call :BuildUniqueTarget "%DEST%" "%CLEAN_STEM%" "%EXT%"
 
 copy /Y "%SRC%" "%TARGET%" >nul
 
@@ -81,3 +84,41 @@ if errorlevel 1 (
 )
 
 exit /b
+
+:MakeCleanName
+
+set "STEM=%~n1"
+set "EXT=%~x1"
+set "CLEAN_STEM=%STEM%"
+
+set "SEP=%STEM:~-9,1%"
+if not "%SEP%"=="_" exit /b
+
+set "TAIL=%STEM:~-8%"
+set "NONHEX="
+
+for /f "delims=0123456789abcdefABCDEF" %%H in ("%TAIL%") do set "NONHEX=%%H"
+
+if defined NONHEX exit /b
+
+set "CLEAN_STEM=%STEM:~0,-9%"
+exit /b
+
+:BuildUniqueTarget
+
+set "TARGET_FOLDER=%~1"
+set "TARGET_STEM=%~2"
+set "TARGET_EXT=%~3"
+
+set "TARGET=%TARGET_FOLDER%\%TARGET_STEM%%TARGET_EXT%"
+if not exist "%TARGET%" exit /b
+
+set /a COLLISIONS+=1
+set /a INDEX=1
+
+:FindUniqueTarget
+set "TARGET=%TARGET_FOLDER%\%TARGET_STEM%_%INDEX%%TARGET_EXT%"
+if not exist "%TARGET%" exit /b
+
+set /a INDEX+=1
+goto FindUniqueTarget
