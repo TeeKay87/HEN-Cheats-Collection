@@ -49,6 +49,9 @@ The website lets you:
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-08-18 | ADDED | PPSA02484 | 01.023.001 | [Nioh Remastered - The Complete Edition](https://hencheats.vercel.app/game/PPSA02484/01.023.001) |
+| 2026-08-18 | ADDED | PPSA02487 | 01.027.001 | [Nioh 2 Remastered - The Complete Edition](https://hencheats.vercel.app/game/PPSA02487/01.027.001) |
+| 2026-08-18 | ADDED | PPSA03098 | 01.000.011 | [Dead Island 2](https://hencheats.vercel.app/game/PPSA03098/01.000.011) |
 | 2026-08-16 | ADDED | PPSA06981 | 01.006.000 | [Naruto x Boruto: Ultimate Ninja Storm Connections](https://hencheats.vercel.app/#PPSA06981-01.006.000) |
 | 2026-08-15 | ADDED | PPSA06438 | 01.001.140 | [Let's Build a Zoo](https://hencheats.vercel.app/#PPSA06438-01.001.140) |
 | 2026-08-15 | ADDED | PPSA08666 | 01.080.000 | [Final Fantasy VII Rebirth](https://hencheats.vercel.app/#PPSA08666-01.080.000) |

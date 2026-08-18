@@ -200,6 +200,8 @@ export function DetailsPanel({ entry, coverUrl, selectedVersion, addedDates, upd
 
   const added = activeVersion ? addedDates[`${entry.id}-${activeVersion}`] : undefined
   const updated = activeVersion ? updatedDates[`${entry.id}-${activeVersion}`] : undefined
+  const addedDisplayDate = displayDate(added)
+  const updatedDisplayDate = displayDate(updated)
   const visibleFiles = detail?.files.filter((file) => !isHidden(file)) ?? []
 
   return (
@@ -247,8 +249,8 @@ export function DetailsPanel({ entry, coverUrl, selectedVersion, addedDates, upd
 
           <div className="detail-summary-grid">
             <div className="summary-card"><Icon name="file" /><div><strong>{loading || error ? '—' : visibleFiles.length}</strong><span>Files</span></div></div>
-            <div className="summary-card"><Icon name="calendar" /><div><strong>{displayDate(added) ?? '—'}</strong><span>Added</span></div></div>
-            <div className="summary-card"><Icon name="calendar" /><div><strong>{displayDate(updated) ?? '—'}</strong><span>Updated</span></div></div>
+            <div className="summary-card"><Icon name="calendar" /><div><strong>{addedDisplayDate ?? '—'}</strong><span>Added</span></div></div>
+            <div className="summary-card"><Icon name="calendar" /><div><strong>{updatedDisplayDate && updatedDisplayDate !== addedDisplayDate ? updatedDisplayDate : '—'}</strong><span>Updated</span></div></div>
           </div>
 
           {downloadError && <div className="notice warning">{downloadError}</div>}
