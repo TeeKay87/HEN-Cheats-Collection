@@ -16,7 +16,7 @@ interface GameCardProps {
 export function GameCard({ entry, coverUrl, favorite, latestAdded, onOpen, onToggleFavorite }: GameCardProps) {
   const platform = platformFor(entry.id)
   const formatSet = Array.from(new Set(entry.versions.flatMap((version) => version.formats)))
-  const creatorSet = Array.from(new Set(entry.versions.flatMap((version) => version.creators)))
+  const creatorSet = Array.from(new Set([...entry.versions].reverse().flatMap((version) => version.creators)))
   const newestVersion = entry.versions.at(-1)?.version
 
   return (
