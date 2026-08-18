@@ -1,0 +1,132 @@
+{
+  "name": "Marvel's Spider-Man: Miles Morales",
+  "id": "PPSA01460",
+  "version": "01.015.001",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Ammo",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F0F217",
+          "on": "9090",
+          "off": "29D8",
+          "expected": "29D8"
+        }
+      ]
+    },
+    {
+      "name": "Inf Venon",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E0FDA",
+          "on": "90909090",
+          "off": "C5DA5CE3",
+          "expected": "C5DA5CE3"
+        }
+      ]
+    },
+    {
+      "name": "God Mode",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1EE65F0",
+          "on": "9090909090",
+          "off": "E85B5CFFFF",
+          "expected": "E85B5CFFFF"
+        }
+      ]
+    },
+    {
+      "name": "Inf Exp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "503B1",
+          "on": "41bf9f8601004401fb41899ef0b90000e99adcb400CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+          "expected": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "B9E056",
+          "on": "E956234BFF9090909090",
+          "off": "4401FB41899EF0B90000",
+          "expected": "4401FB41899EF0B90000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Hab Points",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "65C21",
+          "on": "c781f8b9000063000000e93e5fb300CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+          "expected": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "B9BB62",
+          "on": "E9BAA04CFF90909090909090",
+          "off": "8B8568FFFFFF2981F8B90000",
+          "expected": "8B8568FFFFFF2981F8B90000"
+        }
+      ]
+    },
+    {
+      "name": "Easy Combo",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B15D1",
+          "on": "41c746500f0000004c89f7e9d5c36d00CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+          "expected": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "78D9AF",
+          "on": "E91D3C92FF9090",
+          "off": "41FF46504C89F7",
+          "expected": "41FF46504C89F7"
+        }
+      ]
+    },
+    {
+      "name": "Inf Items",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F1DB41",
+          "on": "90909090",
+          "off": "44396038",
+          "expected": "44396038"
+        },
+        {
+          "offset": "C33200",
+          "on": "4889DFC74038E7030000E957A92E01CC",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+          "expected": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "1F1DB53",
+          "on": "E9A856D1FE9090909090909090909090909090",
+          "off": "448B68384889DF4529E5E84E5CFFFF44896838",
+          "expected": "448B68384889DF4529E5E84E5CFFFF44896838"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "JASimancas"
+  ]
+}

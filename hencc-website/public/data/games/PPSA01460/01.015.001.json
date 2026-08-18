@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "id": "PPSA01460",
+  "version": "01.015.001",
+  "files": [
+    {
+      "sourceId": "4eed96b4",
+      "file": "PPSA01460_01.015.001_4eed96b4.json",
+      "path": "json/PPSA01460_01.015.001_4eed96b4.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "issue": false,
+      "creators": [
+        "JASimancas"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Ammo",
+        "Inf Venon",
+        "God Mode",
+        "Inf Exp",
+        "Inf Hab Points",
+        "Easy Combo",
+        "Inf Items"
+      ]
+    }
+  ]
+}

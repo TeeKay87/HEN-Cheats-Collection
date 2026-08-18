@@ -49,6 +49,9 @@ The website lets you:
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-08-19 | ADDED | PPSA01460 | 01.015.001 | [Marvel's Spider-Man: Miles Morales](https://hencheats.vercel.app/game/PPSA01460/01.015.001) |
+| 2026-08-19 | UPDATE | PPSA13195 | 01.014.001 | [Stellar Blade](https://hencheats.vercel.app/game/PPSA13195/01.014.001) |
+| 2026-08-19 | UPDATE | PPSA21203 | 01.512.105 | [The Elder Scrolls IV: Oblivion Remastered](https://hencheats.vercel.app/game/PPSA21203/01.512.105) |
 | 2026-08-18 | ADDED | PPSA02484 | 01.023.001 | [Nioh Remastered - The Complete Edition](https://hencheats.vercel.app/game/PPSA02484/01.023.001) |
 | 2026-08-18 | ADDED | PPSA02487 | 01.027.001 | [Nioh 2 Remastered - The Complete Edition](https://hencheats.vercel.app/game/PPSA02487/01.027.001) |
 | 2026-08-18 | ADDED | PPSA03098 | 01.000.011 | [Dead Island 2](https://hencheats.vercel.app/game/PPSA03098/01.000.011) |

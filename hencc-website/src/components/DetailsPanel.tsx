@@ -142,29 +142,24 @@ export function DetailsPanel({ entry, coverUrl, selectedVersion, addedDates, upd
 
   const buildReportIssueUrl = (file: SourceFile) => {
     const version = activeVersion ?? detail?.version ?? ''
-    const format = formatLabel(file.format)
-    const creators = file.creators.length ? file.creators.join(', ') : 'Unknown creator'
-    const gameUrl = new URL(makeGamePath(entry.id, version, baseUrl), PUBLIC_SITE_URL).toString()
-    const issueTitle = `Cheat Issue: ${entry.id} | ${version} | ${format} | ${entry.title}`
+    const creators = file.creators.join(', ')
+    const gameUrl = new URL(makeGamePath(entry.id, version, baseUrl), PUBLIC_SITE_URL).toString().replace(/\/$/, '')
+    const issueTitle = `Cheat Issue: ${entry.id} | ${version} | ${file.sourceId} | ${entry.title}`
     const issueBody = `## Cheat information
 
 - **Game:** ${entry.title}
-- **ID:** ${entry.id}
-- **Version:** ${version}
-- **Format:** ${format}
-- **Creator:** ${creators}
-- **File:** ${file.file}
-- **Firmware:** 
-- **Cheat Engine:** 
+- **File:** \`${file.file}\`
+- **Creator(s):** ${creators}
+- **Link:** [${gameUrl}](${gameUrl})
 
-[Open this cheat on HEN Cheats Collection](${gameUrl})
+<!-- HENCC: ${entry.id}/${version}/source:${file.sourceId} -->
 
-## Problem description
+## Problem
+
+**Which cheat(s) have problems?**
 
 
-
-## Expected behavior
-
+**What happens when the cheat is enabled?**
 
 
 ## Additional information

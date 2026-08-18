@@ -111,6 +111,8 @@ function App() {
     }
   })
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false)
+  const [showHeaderSearch, setShowHeaderSearch] = useState(false)
+  const heroSearchRef = useRef<HTMLDivElement | null>(null)
   const loadMoreSentinelRef = useRef<HTMLDivElement | null>(null)
   const pendingSearchUrlTimerRef = useRef<number | null>(null)
   const latestQueryRef = useRef(query)
@@ -166,6 +168,29 @@ function App() {
       replaceCatalogSearchUrl(latestQueryRef.current)
     }, SEARCH_URL_DEBOUNCE_MS)
   }, [cancelPendingSearchUrl, replaceCatalogSearchUrl])
+
+  useEffect(() => {
+    let animationFrame = 0
+
+    const updateHeaderSearchVisibility = () => {
+      if (animationFrame) window.cancelAnimationFrame(animationFrame)
+      animationFrame = window.requestAnimationFrame(() => {
+        animationFrame = 0
+        const searchBounds = heroSearchRef.current?.getBoundingClientRect()
+        const shouldShow = Boolean(searchBounds && searchBounds.bottom <= 0)
+        setShowHeaderSearch((current) => current === shouldShow ? current : shouldShow)
+      })
+    }
+
+    updateHeaderSearchVisibility()
+    window.addEventListener('scroll', updateHeaderSearchVisibility, { passive: true })
+    window.addEventListener('resize', updateHeaderSearchVisibility)
+    return () => {
+      if (animationFrame) window.cancelAnimationFrame(animationFrame)
+      window.removeEventListener('scroll', updateHeaderSearchVisibility)
+      window.removeEventListener('resize', updateHeaderSearchVisibility)
+    }
+  }, [])
 
   useEffect(() => {
     const controller = new AbortController()
@@ -450,7 +475,7 @@ function App() {
 
   return (
     <div className="app-shell">
-      <header className="site-header">
+      <header className={`site-header${showHeaderSearch ? ' has-header-search' : ''}`}>
         <div className="header-inner">
           <button className="brand" type="button" onClick={clearFilters} aria-label="HEN Cheats Collection home">
             <span className="brand-mark">H</span>
@@ -460,6 +485,23 @@ function App() {
             <button className={view === 'all' ? 'active' : ''} type="button" onClick={() => setView('all')}>Browse</button>
             <button className={view === 'favorites' ? 'active' : ''} type="button" onClick={() => setView('favorites')}><Icon name="heart" /> Favorites <span className="nav-count">{favorites.size}</span></button>
           </nav>
+          {showHeaderSearch && (
+            <div className="header-search-wrap">
+              <Icon name="search" />
+              <input
+                type="search"
+                value={query}
+                onChange={(event: ChangeEvent<HTMLInputElement>) => updateQuery(event.target.value)}
+                onBlur={() => flushSearchUrl()}
+                onKeyDown={(event) => {
+                  if (event.key === 'Enter') flushSearchUrl()
+                }}
+                placeholder="Search…"
+                aria-label="Search catalog from header"
+              />
+              {query && <button type="button" className="header-search-clear" onClick={() => updateQuery('', true)} aria-label="Clear search"><Icon name="x" /></button>}
+            </div>
+          )}
           <a className="github-link" href="https://github.com/TeeKay87/HEN-Cheats-Collection" target="_blank" rel="noreferrer"><Icon name="github" /><span>GitHub</span></a>
         </div>
       </header>
@@ -469,9 +511,9 @@ function App() {
           <div className="hero-glow hero-glow-one" />
           <div className="hero-glow hero-glow-two" />
           <div className="hero-inner">
-            <h1>HEN Cheats Collection</h1>
+            <h1><span className="hero-title-full">HEN Cheats Collection</span><span className="hero-title-compact">HEN Cheats</span></h1>
             <p>The largest collection of PlayStation 4 and PlayStation 5 cheats. Play Your Way.</p>
-            <div className="hero-search-wrap">
+            <div className="hero-search-wrap" ref={heroSearchRef}>
               <Icon name="search" />
               <input
                 type="search"
@@ -601,7 +643,22 @@ function App() {
 
       <footer className="site-footer">
         <div className="footer-inner">
-          <div className="footer-brand"><span className="brand-mark small">H</span><div><strong>HEN Cheats Collection</strong><p>A community-maintained PlayStation cheat archive.</p></div></div>
+          <nav className="footer-links desktop-footer-links" aria-label="Footer">
+            <span className="footer-placeholder">About</span>
+            <span className="footer-placeholder">Getting Started</span>
+            <span className="footer-placeholder">File Formats</span>
+            <span className="footer-placeholder">IDs &amp; Versions</span>
+            <span className="footer-placeholder">Troubleshooting</span>
+            <span className="footer-placeholder">FAQ</span>
+            <span className="footer-placeholder">Privacy Policy</span>
+            <span className="footer-placeholder">Contact</span>
+          </nav>
+          <nav className="footer-links mobile-footer-links" aria-label="Footer">
+            <span className="footer-placeholder">About</span>
+            <span className="footer-placeholder">Guides</span>
+            <span className="footer-placeholder">Privacy</span>
+            <span className="footer-placeholder">Contact</span>
+          </nav>
           <div className="footer-meta">
             {data && <span>Data generated {new Date(data.catalog.generatedUtc).toLocaleDateString('en', { year: 'numeric', month: 'short', day: 'numeric' })}</span>}
             <a href="https://github.com/TeeKay87/HEN-Cheats-Collection" target="_blank" rel="noreferrer"><Icon name="github" /> GitHub <Icon name="external" /></a>

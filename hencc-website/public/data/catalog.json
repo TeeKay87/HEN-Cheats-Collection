@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-08-18T00:09:44Z",
+  "generatedUtc": "2026-08-18T23:34:15Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -33950,6 +33950,23 @@
       ]
     },
     {
+      "id": "PPSA01460",
+      "title": "Marvel's Spider-Man: Miles Morales",
+      "pinned": false,
+      "hidden": false,
+      "versions": [
+        {
+          "version": "01.015.001",
+          "creators": [
+            "JASimancas"
+          ],
+          "formats": [
+            "json"
+          ]
+        }
+      ]
+    },
+    {
       "id": "PPSA01461",
       "title": "Marvel's Spider-Man: Miles Morales",
       "pinned": false,
@@ -36975,10 +36992,12 @@
         {
           "version": "01.014.001",
           "creators": [
-            "Yharnam"
+            "Yharnam",
+            "Yharnam & baobao8888汉化"
           ],
           "formats": [
-            "mc4"
+            "mc4",
+            "shn"
           ]
         }
       ]
