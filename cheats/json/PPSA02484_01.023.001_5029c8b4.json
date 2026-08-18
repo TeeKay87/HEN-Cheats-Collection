@@ -1,0 +1,197 @@
+{
+  "name": "Nioh Remastered - The Complete Edition",
+  "id": "PPSA02484",
+  "version": "01.023.001",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2C8BF00",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "15C7F00",
+          "section": 6,
+          "sectionOffset": "15C3F00"
+        },
+        {
+          "offset": "2C8BF01",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "15C7F01",
+          "section": 6,
+          "sectionOffset": "15C3F01"
+        },
+        {
+          "offset": "1197000",
+          "on": "80BB2401000001740B803DF14EAF0101741DEB2E803DE54EAF01017402EB23488B4B0848894B104839C8E9773408FF48C7C10000000048894B104839C8E9643408FF48894B104839C8E9583408FF",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "21A49F",
+          "on": "E95CCBF7009090",
+          "off": "48894B104839C8"
+        }
+      ]
+    },
+    {
+      "name": "--Inf_Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2C8BF00",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "15C7F00",
+          "section": 6,
+          "sectionOffset": "15C3F00"
+        }
+      ]
+    },
+    {
+      "name": "--One_Hit_Kill",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2C8BF01",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "15C7F01",
+          "section": 6,
+          "sectionOffset": "15C3F01"
+        }
+      ]
+    },
+    {
+      "name": "Inf Ki",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "119706E",
+          "on": "C4C17A104704C4C17A1107E9861EFEFE",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "178EFF",
+          "on": "E96AE10101",
+          "off": "C4C17A1107"
+        }
+      ]
+    },
+    {
+      "name": "Inf Items",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "119709E",
+          "on": "66B86300664289842E180200006685C0E9A58D1FFF",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "11970D3",
+          "on": "0FB7490866B9630066010EE92E6A1FFF",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "38FE4F",
+          "on": "E94A72E00090909090",
+          "off": "664289842E18020000"
+        },
+        {
+          "offset": "38DB0A",
+          "on": "E9C495E0009090",
+          "off": "0FB7490866010E"
+        }
+      ]
+    },
+    {
+      "name": "Inf Stamina",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1197103",
+          "on": "C4C17A104704C4C17A1107E94F1BFEFE",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "1197133",
+          "on": "C5FA104244C5FA114240E9C26BFBFE",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "178C5D",
+          "on": "E9A1E40101",
+          "off": "C4C17A1107"
+        },
+        {
+          "offset": "14DCFF",
+          "on": "E92F940401",
+          "off": "C5FA114240"
+        }
+      ]
+    },
+    {
+      "name": "Inf Souls",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1197162",
+          "on": "41807C247A0048C7C0FFC99A3B49894608E906BC81FF",
+          "off": "00000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1197198",
+          "on": "48C7C0FFC99A3B48894308C60301E9294F5EFF",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "9B2D74",
+          "on": "E9E9437E009090909090",
+          "off": "41807C247A0049894608"
+        },
+        {
+          "offset": "77C0CD",
+          "on": "E9C6B0A1009090",
+          "off": "48894308C60301"
+        }
+      ]
+    },
+    {
+      "name": "Inf Money",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "11971CB",
+          "on": "C4E2F0F2C048C7C07F96980048894310E93F4C81FF",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "9ABE16",
+          "on": "E9B0B37E0090909090",
+          "off": "C4E2F0F2C048894310"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

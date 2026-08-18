@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "id": "PPSA02484",
+  "version": "01.023.001",
+  "files": [
+    {
+      "sourceId": "5029c8b4",
+      "file": "PPSA02484_01.023.001_5029c8b4.json",
+      "path": "json/PPSA02484_01.023.001_5029c8b4.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "issue": false,
+      "creators": [
+        "Talixme"
+      ],
+      "notes": null,
+      "cheats": [
+        "Inf Hp",
+        "--Inf_Hp",
+        "--One_Hit_Kill",
+        "Inf Ki",
+        "Inf Items",
+        "Inf Stamina",
+        "Inf Souls",
+        "Inf Money"
+      ]
+    }
+  ]
+}

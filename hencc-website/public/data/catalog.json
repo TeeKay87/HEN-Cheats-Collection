@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-08-17T23:42:25Z",
+  "generatedUtc": "2026-08-18T00:09:44Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -34602,6 +34602,40 @@
       ]
     },
     {
+      "id": "PPSA02484",
+      "title": "Nioh Remastered - The Complete Edition",
+      "pinned": false,
+      "hidden": false,
+      "versions": [
+        {
+          "version": "01.023.001",
+          "creators": [
+            "Talixme"
+          ],
+          "formats": [
+            "json"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PPSA02487",
+      "title": "Nioh 2 Remastered - The Complete Edition",
+      "pinned": false,
+      "hidden": false,
+      "versions": [
+        {
+          "version": "01.027.001",
+          "creators": [
+            "Talixme"
+          ],
+          "formats": [
+            "json"
+          ]
+        }
+      ]
+    },
+    {
       "id": "PPSA02494",
       "title": "Doraemon Story of Seasons: Friends of the Great Kingdom",
       "pinned": false,
@@ -34890,6 +34924,15 @@
           "version": "01.000.010",
           "creators": [
             "Yharnam"
+          ],
+          "formats": [
+            "mc4"
+          ]
+        },
+        {
+          "version": "01.000.011",
+          "creators": [
+            "Celogamez"
           ],
           "formats": [
             "mc4"

@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "id": "PPSA03098",
+  "version": "01.000.011",
+  "files": [
+    {
+      "sourceId": "79bd29a3",
+      "file": "PPSA03098_01.000.011_79bd29a3.mc4",
+      "path": "mc4/PPSA03098_01.000.011_79bd29a3.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "issue": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health/1 Hit kill (MasterCode/Must Be On)",
+        "Infinite Health",
+        "1 Hit Kill",
+        "Infinite Stamina",
+        "Infinite Ammo",
+        "No Reload",
+        "Max Items/Money On Get (Mastecode/Must Be On)",
+        "Max Items On Get",
+        "Max Money On Get",
+        "Medkits Don't Decrease",
+        "Infinite Weapons Durability",
+        "Max/Infinite Fury On Kill",
+        "Max XP/Levels"
+      ]
+    }
+  ]
+}

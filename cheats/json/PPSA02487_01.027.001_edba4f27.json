@@ -1,0 +1,138 @@
+{
+  "name": "Nioh 2 Remastered - The Complete Edition",
+  "id": "PPSA02487",
+  "version": "01.027.001",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Master Code",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3C2BF00",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "1657F00",
+          "section": 6,
+          "sectionOffset": "164FF00"
+        },
+        {
+          "offset": "3C2BF01",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "1657F01",
+          "section": 6,
+          "sectionOffset": "164FF01"
+        },
+        {
+          "offset": "1E5B07E",
+          "on": "480F42F080BFC003000001740B803D6F0EDD0101741AEB28803D630EDD01017402EB1D488B770848897710E9D49B66FE48C7C60000000048897710E9C49B66FE48897710E9BB9B66FE",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4C4C7A",
+          "on": "E9FF639901909090",
+          "off": "480F42F048897710"
+        }
+      ]
+    },
+    {
+      "name": "--Inf_Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3C2BF00",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "1657F00",
+          "section": 6,
+          "sectionOffset": "164FF00"
+        }
+      ]
+    },
+    {
+      "name": "--One_Hit_Kill",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3C2BF01",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "1657F01",
+          "section": 6,
+          "sectionOffset": "164FF01"
+        }
+      ]
+    },
+    {
+      "name": "Inf Ki",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "519764",
+          "on": "C5FA114F08",
+          "off": "C5FA115F08"
+        }
+      ]
+    },
+    {
+      "name": "Inf Money And Souls",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E5B0E7",
+          "on": "49C706FFC99A3B498B06498907493906E90C889BFE",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "8138FF",
+          "on": "E9E377640190909090",
+          "off": "498B06498907493906"
+        }
+      ]
+    },
+    {
+      "name": "Inf Items",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E5B11C",
+          "on": "66BB630066899C06745D10006685DBE981B69FFE",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1E5B150",
+          "on": "BE6300000001F266895104E97C6C9FFE",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "8567A9",
+          "on": "E96E496001909090",
+          "off": "66899C06745D1000"
+        },
+        {
+          "offset": "851DD6",
+          "on": "E97593600190",
+          "off": "01F266895104"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}
