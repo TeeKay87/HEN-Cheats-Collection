@@ -45,7 +45,7 @@ The website lets you:
 
 ## Version History
 
-### July 2026
+### August 2026
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
