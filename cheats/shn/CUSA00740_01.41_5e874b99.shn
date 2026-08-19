@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Terraria" Moder="hejran7" Cusa="CUSA00740" Version="01.41" Process="eboot.bin">
+  <Genres Name="Action" />
+  <Items />
+  <Cheat Text="Max Health" Description="">
+    <Cheatline>
+      <Offset>7EC00438</Offset>
+      <Section>0</Section>
+      <ValueOn>8B-83-BC-07-00-00-89-83-C0-07-00-00-E9-84-1C-F4-01</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>80B420C7</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-6C-E3-0B-FE-90</ValueOn>
+      <ValueOff>29-83-C0-07-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Untouchables" Description="Cant be hurt">
+    <Cheatline>
+      <Offset>80B1CC48</Offset>
+      <Section>0</Section>
+      <ValueOn>C6-83-70-07-00-00-01</ValueOn>
+      <ValueOff>C6-83-70-07-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="One Hit Kill" Description="NPC + Boss">
+    <Cheatline>
+      <Offset>6CB2AC</Offset>
+      <Section>14</Section>
+      <ValueOn>B8-3F-42-0F-00</ValueOn>
+      <ValueOff>C5-FB-2C-45-C0</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>6CB202</Offset>
+      <Section>14</Section>
+      <ValueOn>BA-3F-42-0F-00</ValueOn>
+      <ValueOff>C5-FB-2C-55-C0</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Mana" Description="">
+    <Cheatline>
+      <Offset>8492C0</Offset>
+      <Section>14</Section>
+      <ValueOn>83-E8-00</ValueOn>
+      <ValueOff>44-29-E8</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max Breath" Description="">
+    <Cheatline>
+      <Offset>80B8F21A</Offset>
+      <Section>0</Section>
+      <ValueOn>8B-83-A0-04-00-00-FF-C8</ValueOn>
+      <ValueOff>8B-83-A4-04-00-00-FF-C8</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Walk On Watter" Description="">
+    <Cheatline>
+      <Offset>85C6F7</Offset>
+      <Section>14</Section>
+      <ValueOn>66-C7-83-7D-0B-00-00-01-01</ValueOn>
+      <ValueOff>66-C7-83-7D-0B-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Float In Water" Description="">
+    <Cheatline>
+      <Offset>85C60A</Offset>
+      <Section>14</Section>
+      <ValueOn>C6-83-FC-0A-00-00-01</ValueOn>
+      <ValueOff>C6-83-FC-0A-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Auto Jump" Description="Auto jump while holding jump button">
+    <Cheatline>
+      <Offset>80B1CC34</Offset>
+      <Section>0</Section>
+      <ValueOn>66-C7-83-EC-0A-00-00-01-00</ValueOn>
+      <ValueOff>66-C7-83-EC-0A-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Super Jump" Description="">
+    <Cheatline>
+      <Offset>80B1CC3D</Offset>
+      <Section>0</Section>
+      <ValueOn>48-C7-83-F0-0A-00-00-00-00-A0-41</ValueOn>
+      <ValueOff>48-C7-83-F0-0A-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Infinite Double Jump" Description="Craft (cloud in balloon) and equip it">
+    <Cheatline>
+      <Offset>8BD9C6</Offset>
+      <Section>14</Section>
+      <ValueOn>C6-83-D1-0A-00-00-01</ValueOn>
+      <ValueOff>C6-83-D1-0A-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Journey Menu" Description="unlock Journey Menu any world any player">
+    <Cheatline>
+      <Offset>7EC003D1</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-80-B4-00-00-00-03-00-00-00-83-B8-B4-00-00-00-03-E9-69-DF-DC-02</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>819CE349</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-83-20-23-FD-90-90</ValueOn>
+      <ValueOff>83-B8-B0-00-00-00-03</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>811DDC17</Offset>
+      <Section>0</Section>
+      <ValueOn>83-B8-B4-00-00-00-03</ValueOn>
+      <ValueOff>83-B8-B0-00-00-00-03</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>819A694D</Offset>
+      <Section>0</Section>
+      <ValueOn>83-B8-B4-00-00-00-03</ValueOn>
+      <ValueOff>83-B8-B0-00-00-00-03</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>819CC01E</Offset>
+      <Section>0</Section>
+      <ValueOn>83-B8-B4-00-00-00-03</ValueOn>
+      <ValueOff>83-B8-B0-00-00-00-03</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>819A6C97</Offset>
+      <Section>0</Section>
+      <ValueOn>83-B8-B4-00-00-00-03</ValueOn>
+      <ValueOff>83-B8-B0-00-00-00-03</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Craft Anything" Description="Bypasses = Crafting materials, Near crafting stations, Near environment">
+    <Cheatline>
+      <Offset>822F6010</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90</ValueOn>
+      <ValueOff>0F-8E-CC-FE-FF-FF</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>822F5F5C</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90</ValueOn>
+      <ValueOff>74-84</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>822F5F80</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90</ValueOn>
+      <ValueOff>0F-84-5C-FF-FF-FF</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Top Brightness" Description="">
+    <Cheatline>
+      <Offset>7EC00222</Offset>
+      <Section>0</Section>
+      <ValueOn>48-8B-55-A0-C5-F8-13-32-C5-F8-13-72-04-C5-F8-13-72-08-E9-77-0D-2E-04</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>82EE0FA8</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-75-F2-D1-FB-90-90-90</ValueOn>
+      <ValueOff>48-8B-55-A0-C5-F8-13-02</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Full  Brightness" Description="">
+    <Cheatline>
+      <Offset>7EC0025F</Offset>
+      <Section>0</Section>
+      <ValueOn>C4-C1-7A-11-30-C4-C1-7A-11-70-04-C4-C1-7A-11-70-08-C4-C1-7A-10-60-F8-E9-C4-68-26-05</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>83E66B39</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-21-97-D9-FA-90</ValueOn>
+      <ValueOff>C4-C1-7A-10-60-FC</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Find Treasure" Description="">
+    <Cheatline>
+      <Offset>B6E33B</Offset>
+      <Section>14</Section>
+      <ValueOn>90-90-90-90-90-90</ValueOn>
+      <ValueOff>0F-84-BF-03-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Detect Creature" Description="">
+    <Cheatline>
+      <Offset>82D207</Offset>
+      <Section>14</Section>
+      <ValueOn>90-90</ValueOn>
+      <ValueOff>74-4B</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Max Infinite Items" Description="Max item when used, Infinite Items when take">
+    <Cheatline>
+      <Offset>8F8788</Offset>
+      <Section>14</Section>
+      <ValueOn>41-8B-44-24-64</ValueOn>
+      <ValueOff>41-8B-44-24-60</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>13C52CC</Offset>
+      <Section>14</Section>
+      <ValueOn>EB-08</ValueOn>
+      <ValueOff>74-08</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="No Fall Damage" Description="">
+    <Cheatline>
+      <Offset>1BDACF2</Offset>
+      <Section>14</Section>
+      <ValueOn>E9-D5-00-00-00-90</ValueOn>
+      <ValueOff>0F-85-D4-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Melee Speed x3" Description="">
+    <Cheatline>
+      <Offset>1BDCECC</Offset>
+      <Section>14</Section>
+      <ValueOn>C5-FA-58-05-A0-AA-18-01</ValueOn>
+      <ValueOff>C5-FA-58-05-7C-AA-18-01</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Move Speed x5" Description="">
+    <Cheatline>
+      <Offset>85C677</Offset>
+      <Section>14</Section>
+      <ValueOn>C7-83-84-09-00-00-00-00-A0-40</ValueOn>
+      <ValueOff>C7-83-84-09-00-00-00-00-80-3F</ValueOff>
+    </Cheatline>
+  </Cheat>
+</Trainer>

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-08-19T08:46:56Z",
+  "generatedUtc": "2026-08-19T20:51:34Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -2012,6 +2012,15 @@
           ],
           "formats": [
             "json",
+            "shn"
+          ]
+        },
+        {
+          "version": "01.41",
+          "creators": [
+            "hejran7"
+          ],
+          "formats": [
             "shn"
           ]
         }
