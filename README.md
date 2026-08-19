@@ -49,6 +49,7 @@ The website lets you:
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-08-19 | ADDED | PPSA21837 | 01.017.001 | [Lollipop Chainsaw RePOP](https://hencheats.vercel.app/game/PPSA21837/01.017.001) |
 | 2026-08-19 | ADDED | PPSA01460 | 01.015.001 | [Marvel's Spider-Man: Miles Morales](https://hencheats.vercel.app/game/PPSA01460/01.015.001) |
 | 2026-08-19 | UPDATE | PPSA13195 | 01.014.001 | [Stellar Blade](https://hencheats.vercel.app/game/PPSA13195/01.014.001) |
 | 2026-08-19 | UPDATE | PPSA21203 | 01.512.105 | [The Elder Scrolls IV: Oblivion Remastered](https://hencheats.vercel.app/game/PPSA21203/01.512.105) |

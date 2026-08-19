@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "PPSA21837",
+  "version": "01.017.001",
+  "files": [
+    {
+      "sourceId": "e09d6757",
+      "file": "PPSA21837_01.017.001_e09d6757.mc4",
+      "path": "mc4/PPSA21837_01.017.001_e09d6757.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "issue": false,
+      "creators": [
+        "Yharnam"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infi Health",
+        "Infi Star Gauge (No Decrease)",
+        "Infi Blaster Bullet",
+        "Max Score",
+        "Max Platinum Medals (On Get)",
+        "Max Gold Medals (On Get)"
+      ]
+    }
+  ]
+}

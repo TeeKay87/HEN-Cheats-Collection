@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-08-18T23:34:15Z",
+  "generatedUtc": "2026-08-19T08:46:56Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -38031,6 +38031,23 @@
       "versions": [
         {
           "version": "01.041.000",
+          "creators": [
+            "Yharnam"
+          ],
+          "formats": [
+            "mc4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PPSA21837",
+      "title": "Lollipop Chainsaw RePOP",
+      "pinned": false,
+      "hidden": false,
+      "versions": [
+        {
+          "version": "01.017.001",
           "creators": [
             "Yharnam"
           ],
