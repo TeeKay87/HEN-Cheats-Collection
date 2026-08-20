@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-08-20T17:39:31Z",
+  "generatedUtc": "2026-08-20T22:31:05Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -39030,6 +39030,15 @@
       "hidden": false,
       "versions": [
         {
+          "version": "01.200.000",
+          "creators": [
+            "Celogamez"
+          ],
+          "formats": [
+            "mc4"
+          ]
+        },
+        {
           "version": "02.013.000",
           "creators": [
             "Yharnam"
@@ -39047,9 +39056,35 @@
       "hidden": false,
       "versions": [
         {
+          "version": "01.200.000",
+          "creators": [
+            "Celogamez"
+          ],
+          "formats": [
+            "mc4"
+          ]
+        },
+        {
           "version": "02.013.000",
           "creators": [
             "Yharnam"
+          ],
+          "formats": [
+            "mc4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PPSA31327",
+      "title": "Yakuza 0 Director's Cut",
+      "pinned": false,
+      "hidden": false,
+      "versions": [
+        {
+          "version": "01.015.000",
+          "creators": [
+            "Aigars Uze"
           ],
           "formats": [
             "mc4"

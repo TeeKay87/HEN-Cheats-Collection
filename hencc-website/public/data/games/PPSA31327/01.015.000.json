@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "id": "PPSA31327",
+  "version": "01.015.000",
+  "files": [
+    {
+      "sourceId": "817013bd",
+      "file": "PPSA31327_01.015.000_817013bd.mc4",
+      "path": "mc4/PPSA31327_01.015.000_817013bd.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "issue": false,
+      "creators": [
+        "Aigars Uze"
+      ],
+      "notes": null,
+      "cheats": [
+        "Untouchable",
+        "Infinite Health",
+        "Infinite Health and Fast Enemy Kill (dont use with infinite health)",
+        "Max Infinite Money",
+        "Heat Gauge Always On Max"
+      ]
+    }
+  ]
+}

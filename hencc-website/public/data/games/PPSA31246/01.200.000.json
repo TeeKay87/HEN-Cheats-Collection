@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "id": "PPSA31246",
+  "version": "01.200.000",
+  "files": [
+    {
+      "sourceId": "ef4d3664",
+      "file": "PPSA31246_01.200.000_ef4d3664.mc4",
+      "path": "mc4/PPSA31246_01.200.000_ef4d3664.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "issue": false,
+      "creators": [
+        "Celogamez"
+      ],
+      "notes": null,
+      "cheats": [
+        "God Mode",
+        "Infinite Health/1 Hit Kill (Mastercode/Must Be On)",
+        "Infinite Health",
+        "1 Hit Kill",
+        "Infinite Items",
+        "No Reload/Melee Durability",
+        "Save Always 0",
+        "Max CP On Buy",
+        "Max Credits On Buy"
+      ]
+    }
+  ]
+}
