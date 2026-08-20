@@ -1,47 +1,120 @@
-## How to download
-1. Click the big, green **Code**-button.
-2. Click `Download ZIP` (or click [here](https://github.com/TeeKay87/HEN-Cheats-Collection/archive/refs/heads/master.zip))
+<div align="center">
 
-## How to use
-#### Depending of which cheat engine you are using, the following steps may differ.
+# HEN Cheats Collection
 
-- Download the entire repository by following the steps above.
-- The `Cheats-folder` in downloaded zip is ready for `etaHEN`.
-- In the `Cheats-folder` are three `.bat` files to convert the collection for other cheat engines.
+### The largest collection of PlayStation 4 and PlayStation 5 cheats.
 
-#### Use with GoldHEN/etaHEN
-1. FTP into your PlayStation.
-2. Delete, rename or backup the `cheats` folder from `/data/etaHEN/` *(PS5)* or `/user/data/GoldHEN/` *(PS4)*.
-3. Place the `cheats` folder from my collection in its place.
+**Search by game, Title ID or creator. Find the exact version you need. Download only the cheat file you want.**
 
-#### Use with another cheat engine
-1. Run the `.bat` that matches your choice of cheat engine.
-2. This creates a `data-folder` and copies all the cheat-files into the correct folders.
-3. FTP into your PlayStation.
-4. **`IMPORTANT! DO NOT DELETE THE DATA FOLDER FROM YOUR PLAYSTAION`**
-5. Drop the newly created `data-folder` in the same place as the one on your PlayStation.
-6. Overwrite any old cheats with the new ones.
+<br>
 
-**`IMPORTANT!` Restart and re-jb the PlayStation. Enjoy your brand new cheats**.
+<a href="https://hencheats.vercel.app/">
+  <img src="https://img.shields.io/badge/BROWSE%20%26%20DOWNLOAD-HEN%20CHEATS%20COLLECTION-1f6feb?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Browse the HEN Cheats Collection website">
+</a>
 
-## Find compatible cheats
+<br><br>
 
-Visit the [**HEN Cheats Collection website**](https://hencheats.vercel.app/) to browse and search all cheats included in this repository.
+<a href="https://hencheats.vercel.app/">
+  <img src="HENCC-web.jpg" alt="HEN Cheats Collection website preview">
+</a>
 
-The website lets you:
+<sub><b>Click the preview to open the HEN Cheats Collection website.</b></sub>
 
-- Search by game `ID`
-- Search by game `Title`
-- Search by `cheat creator`
-- View available game versions and cheat formats
-- Read notes for supported entries
-- Download individual cheat files
-- Mark games as favorites
-- Filter the list to show only your favorite games
+<br><br>
 
-> Play your way.
+[![PS4](https://img.shields.io/badge/PlayStation-4-003791?style=flat-square&logo=playstation&logoColor=white)](https://hencheats.vercel.app/)
+[![PS5](https://img.shields.io/badge/PlayStation-5-003791?style=flat-square&logo=playstation&logoColor=white)](https://hencheats.vercel.app/)
+[![Formats](https://img.shields.io/badge/Formats-JSON%20%7C%20MC4%20%7C%20SHN-24292f?style=flat-square)](https://hencheats.vercel.app/)
+[![Website](https://img.shields.io/badge/Website-Live-238636?style=flat-square)](https://hencheats.vercel.app/)
 
-![HEN Cheats Page](HENCheatsPage.jpg)
+> **Play Your Way.**
+
+</div>
+
+---
+
+## Looking for cheats for a game?
+
+### Use the website first
+
+If you only need cheats for one game, you do **not** need to download the entire repository.
+
+**[Open HEN Cheats Collection →](https://hencheats.vercel.app/)**
+
+On the website you can:
+
+- Search by **game title**, **Title ID** or **cheat creator**
+- Filter by **PS4**, **PS5** or other supported platforms
+- Filter by **JSON**, **MC4** and **SHN**
+- Sort by **Featured**, **Recently added**, **Title A–Z** or **Most versions**
+- See every available version for a game
+- See the creator and format of each cheat file
+- Read file-specific **notes** and **issue warnings**
+- Download **individual cheat files** directly
+- Save games to your **Favorites**
+- Report a problem with a specific cheat file
+
+The website is the fastest way to find out whether the collection contains cheats for the **exact game ID and version** you are running.
+
+<p align="center">
+  <a href="https://hencheats.vercel.app/"><b>Browse the cheat database at hencheats.vercel.app</b></a>
+</p>
+
+---
+
+## Want the entire collection?
+
+Download the full repository when you want the complete collection for your console or cheat engine.
+
+1. Click the green **Code** button at the top of this repository.
+2. Choose **Download ZIP**.
+
+**[Download the complete collection as ZIP](https://github.com/TeeKay87/HEN-Cheats-Collection/archive/refs/heads/master.zip)**
+
+The downloaded `cheats` folder is ready for **etaHEN**. It also contains `.bat` files that prepare the collection for other supported cheat engines.
+
+---
+
+## Installation
+
+> [!IMPORTANT]
+> Back up or rename your existing cheat folder before replacing files, especially if you have personal or manually edited cheats.
+
+### GoldHEN / etaHEN
+
+1. Download the full collection using the instructions above.
+2. FTP into your PlayStation.
+3. Back up, rename or remove your existing cheat folder:
+   - **PS5 / etaHEN:** `/data/etaHEN/cheats`
+   - **PS4 / GoldHEN:** `/user/data/GoldHEN/cheats`
+4. Copy the `cheats` folder from this collection into the corresponding location.
+5. Restart and re-jailbreak your PlayStation.
+
+### Other cheat engines
+
+1. Download and extract the full collection.
+2. Run the `.bat` file that matches the cheat engine you want to use.
+3. The script creates a `data` folder and places the cheat files in the required structure.
+4. FTP into your PlayStation.
+5. Copy the generated `data` folder to the same location as the existing `data` folder on your console.
+6. Allow matching cheat files to be overwritten.
+
+> [!CAUTION]
+> **Do not delete the existing `data` folder from your PlayStation.** Merge the generated folder into it and overwrite only the matching files.
+
+Restart and re-jailbreak the PlayStation after installing the cheats.
+
+---
+
+## Website or GitHub?
+
+**Use the website** when you want to search the collection, compare versions, read notes, save favorites or download a specific cheat file.
+
+**Use GitHub** when you want the complete collection, the repository history, installation files or the latest project changes.
+
+### → [Browse HEN Cheats Collection](https://hencheats.vercel.app/)
+
+---
 
 ## Version History
 
