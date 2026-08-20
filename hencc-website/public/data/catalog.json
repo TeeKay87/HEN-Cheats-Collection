@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-08-19T20:51:34Z",
+  "generatedUtc": "2026-08-20T10:15:26Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -37721,6 +37721,23 @@
           ],
           "formats": [
             "json"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PPSA19534",
+      "title": "Battlefield 6",
+      "pinned": false,
+      "hidden": false,
+      "versions": [
+        {
+          "version": "01.000.016",
+          "creators": [
+            "Yharnam"
+          ],
+          "formats": [
+            "mc4"
           ]
         }
       ]
