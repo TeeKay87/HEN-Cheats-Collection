@@ -122,6 +122,7 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-08-20 | UPDATE | PPSA19534 | 01.000.016 | [Battlefield 6](https://hencheats.vercel.app/game/PPSA19534/01.000.016) |
 | 2026-08-20 | ADDED | PPSA19534 | 01.000.016 | [Battlefield 6](https://hencheats.vercel.app/game/PPSA19534/01.000.016) |
 | 2026-08-19 | ADDED | CUSA00740 | 01.41 | [Terraria](https://hencheats.vercel.app/game/CUSA00740/01.41) |
 | 2026-08-19 | ADDED | PPSA21837 | 01.017.001 | [Lollipop Chainsaw RePOP](https://hencheats.vercel.app/game/PPSA21837/01.017.001) |
