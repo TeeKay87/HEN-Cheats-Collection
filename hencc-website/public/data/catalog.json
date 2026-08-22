@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-08-21T23:56:48Z",
+  "generatedUtc": "2026-08-22T08:38:54Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -37624,6 +37624,15 @@
       "versions": [
         {
           "version": "01.400.000",
+          "creators": [
+            "Yharnam"
+          ],
+          "formats": [
+            "mc4"
+          ]
+        },
+        {
+          "version": "01.500.300",
           "creators": [
             "Yharnam"
           ],
