@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-08-21T23:28:18Z",
+  "generatedUtc": "2026-08-21T23:56:48Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -34358,10 +34358,12 @@
         {
           "version": "01.000.013",
           "creators": [
-            "Aigars Uze"
+            "Aigars Uze",
+            "zer0day"
           ],
           "formats": [
-            "mc4"
+            "mc4",
+            "shn"
           ]
         }
       ]
@@ -36723,6 +36725,23 @@
           ],
           "formats": [
             "mc4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PPSA09790",
+      "title": "Dragon Ball FighterZ",
+      "pinned": false,
+      "hidden": false,
+      "versions": [
+        {
+          "version": "01.010.000",
+          "creators": [
+            "Zer0day"
+          ],
+          "formats": [
+            "json"
           ]
         }
       ]

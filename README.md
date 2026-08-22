@@ -122,6 +122,9 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-08-22 | ADDED | PPSA09790 | 01.010.000 | [Dragon Ball FighterZ](https://hencheats.vercel.app/game/PPSA09790/01.010.000) |
+| 2026-08-22 | UPDATE | PPSA01870 | 01.000.013 | [Far Cry 6](https://hencheats.vercel.app/game/PPSA01870/01.000.013) |
+| 2026-08-22 | UPDATE | PPSA15210 | 02.013.000 | [Dragon Ball: Sparking! ZERO](https://hencheats.vercel.app/game/PPSA15210/02.013.000) |
 | 2026-08-22 | ADDED | PPSA15210 | 02.013.000 | [Dragon Ball: Sparking! ZERO](https://hencheats.vercel.app/game/PPSA15210/02.013.000) |
 | 2026-08-21 | ADDED | PPSA30803 | 01.200.000 | [Resident Evil Requiem](https://hencheats.vercel.app/game/PPSA30803/01.200.000) |
 | 2026-08-21 | ADDED | PPSA31246 | 01.200.000 | [Resident Evil Requiem](https://hencheats.vercel.app/game/PPSA31246/01.200.000) |

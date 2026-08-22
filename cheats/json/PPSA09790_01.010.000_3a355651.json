@@ -1,0 +1,135 @@
+{
+  "name": "Dragon Ball FighterZ",
+  "id": "PPSA09790",
+  "version": "01.010.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "GOD MODE",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2AF040",
+          "on": "837F4C0075068BB7040B00008B87040B000089F1C1F91FC4E270F2CE39F00F4CC8898F000B0000C39090909090909090",
+          "off": "554889E58B87040B000089F1C1F91FC4E270F2CE39F00F4CC8898F000B00005DC3CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        }
+      ]
+    },
+    {
+      "name": "INFINITE KI",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1FCCC0",
+          "on": "837F08007506B870110100C38B4724C3",
+          "off": "554889E58B47245DC3CCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "1F2880",
+          "on": "837F08007505BE70110100897724C390",
+          "off": "554889E58977245DC3CCCCCCCCCCCCCC"
+        }
+      ]
+    },
+    {
+      "name": "INFINITE SPARKING",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1FCCD0",
+          "on": "B802000000837F080074038B4728C390",
+          "off": "554889E58B47285DC3CCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "1FCCE0",
+          "on": "837F08007505BE0200000083FE02B8020000000F4CC689472889472CC3909090",
+          "off": "554889E583FE02B8020000000F4CC689472889472C5DC3CCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "202C80",
+          "on": "837F080074128B472829F089C1C1F91FC4E270F2C0894728C390909090909090",
+          "off": "554889E58B472829F089C1C1F91FC4E270F2C08947285DC3CCCCCCCCCCCCCCCC"
+        }
+      ]
+    },
+    {
+      "name": "INFINITE TIME",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E0DF0",
+          "on": "B801000000C390909090",
+          "off": "554889E50FB6470E5DC3"
+        }
+      ]
+    },
+    {
+      "name": "MAX PREMIUM Z COINS",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "403880",
+          "on": "554889E5C787185A00009F8601005DC3",
+          "off": "554889E5488D05915AD705803800742F"
+        }
+      ]
+    },
+    {
+      "name": "MAX ZENI",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "403720",
+          "on": "C787105A0000FFC99A3BC39090909090",
+          "off": "554889E541574156415453488D05EA5B"
+        }
+      ]
+    },
+    {
+      "name": "ALL ITEMS",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "409640",
+          "on": "B801000000C390909090909090909090",
+          "off": "554889E589F089D6488D0440488DBCC7"
+        }
+      ]
+    },
+    {
+      "name": "INFINITE ASSIST",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "26F190",
+          "on": "66C787163B03000000C6871C3B030000C3909090909090909090909090909090",
+          "off": "554889E54156534889FBE881F5FEFF4889C7E899FFF5FF4889C7E8C1F4FAFF0F"
+        },
+        {
+          "offset": "26F240",
+          "on": "66C7871A3B03000000C6871C3B030000C3909090909090909090909090909090",
+          "off": "554889E553506683BF1A3B0300014889FB751C4084F6741066C7831A3B030000"
+        }
+      ]
+    },
+    {
+      "name": "ONE HIT KILL",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "28B7E3",
+          "on": "807F4C00740231F6E950380200",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "28B672",
+          "on": "E86C010000",
+          "off": "E8C9390200"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Zer0day"
+  ]
+}

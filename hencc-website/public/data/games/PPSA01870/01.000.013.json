@@ -20,6 +20,30 @@
         "Infinite Health",
         "Add Resolver Materials On Spend And Healing Syringe No Cooldown"
       ]
+    },
+    {
+      "sourceId": "04a93312",
+      "file": "PPSA01870_01.000.013_04a93312.shn",
+      "path": "shn/PPSA01870_01.000.013_04a93312.shn",
+      "format": "shn",
+      "process": "eboot.bin",
+      "hidden": false,
+      "issue": false,
+      "creators": [
+        "zer0day"
+      ],
+      "notes": null,
+      "cheats": [
+        "XP Multiplier x100",
+        "Unlimited Stamina",
+        "Fast Stamina Recovery",
+        "Unlimited Oxygen",
+        "Cannot Die / God Mode",
+        "Unlimited Ammo - No Magazine Decrease",
+        "Stackable Currency/Resources = 999 Frozen",
+        "Unlimited Exterminador / Supremo",
+        "Instant Supremo Recharge"
+      ]
     }
   ]
 }
