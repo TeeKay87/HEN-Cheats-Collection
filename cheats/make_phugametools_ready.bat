@@ -27,7 +27,7 @@ echo Subfolders are ignored.
 echo All file extensions are included.
 echo Files beginning with PPSA go to PS5; all others go to PS4.
 echo Hash suffixes _xxxxxxxx are removed while copying.
-echo Existing destination files are kept; duplicates get _1, _2, _3, etc.
+echo On name conflicts, only the largest file is kept.
 echo.
 
 call :ProcessFolder "%ROOT%json"
@@ -86,6 +86,7 @@ if /I not "%ORIGINAL_NAME%"=="%CLEAN_STEM%%EXT%" (
 )
 
 call :BuildUniqueTarget "%TARGET_FOLDER%" "%CLEAN_STEM%" "%EXT%"
+if "%SHOULD_COPY%"=="0" exit /b
 
 copy /Y "%SRC%" "%TARGET%" >nul
 
@@ -129,14 +130,18 @@ set "TARGET_STEM=%~2"
 set "TARGET_EXT=%~3"
 
 set "TARGET=%TARGET_FOLDER%\%TARGET_STEM%%TARGET_EXT%"
+set "SHOULD_COPY=1"
 if not exist "%TARGET%" exit /b
 
 set /a COLLISIONS+=1
-set /a INDEX=1
 
-:FindUniqueTarget
-set "TARGET=%TARGET_FOLDER%\%TARGET_STEM%_%INDEX%%TARGET_EXT%"
-if not exist "%TARGET%" exit /b
+for %%S in ("%SRC%") do set "SRC_SIZE=%%~zS"
+for %%T in ("%TARGET%") do set "TARGET_SIZE=%%~zT"
 
-set /a INDEX+=1
-goto FindUniqueTarget
+call :ChooseLargest
+exit /b
+
+:ChooseLargest
+if %SRC_SIZE% GTR %TARGET_SIZE% exit /b
+set "SHOULD_COPY=0"
+exit /b
