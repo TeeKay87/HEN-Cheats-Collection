@@ -29,7 +29,7 @@ body:
     attributes:
       label: Which cheat(s) have problems?
       description: Enter the name of the cheat or cheats that are not working correctly.
-      placeholder: Example: Infinite Health
+      placeholder: "Example: Infinite Health"
     validations:
       required: true
 
