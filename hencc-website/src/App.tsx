@@ -1,16 +1,14 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import type { ChangeEvent } from 'react'
-import './App.css'
 import { AdSenseSlot } from './components/AdSenseSlot'
-import { DetailsPanel } from './components/DetailsPanel'
 import { GameCard } from './components/GameCard'
-import { ContentPage } from './components/ContentPage'
 import { SiteFooter } from './components/SiteFooter'
 import { Icon } from './components/Icon'
 import { ADSENSE_CATALOG_INTERVAL, ADSENSE_ENABLED, buildCoverImageUrl, COVER_DETAIL_SIZE, COVER_FALLBACK_URL, PUBLIC_SITE_URL } from './config'
 import { catalogSearchScore, compareVersions, isHidden, makeGamePath, normalizeSearch, parseGamePath, parseHash, platformFor } from './lib/catalog'
-import { getContentPageByPath } from './content/pages'
-import type { AddedResponse, CatalogEntry, CatalogResponse, CoversResponse, Platform, SiteStatsResponse, UpdatedResponse } from './types/catalog'
+import { fetchJsonCached, fetchOptionalJsonCached } from './lib/dataClient'
+import { HOME_DESCRIPTION, HOME_SOCIAL_DESCRIPTION, HOME_SOCIAL_IMAGE, HOME_SOCIAL_IMAGE_ALT, HOME_SOCIAL_TITLE, HOME_TITLE, platformNameForSocial, removeMeta, setMeta, syncPageUrls, syncRobotsMeta, syncStructuredData } from './lib/seo'
+import type { AddedResponse, CatalogEntry, CatalogResponse, CoversResponse, Platform, SiteStatsResponse } from './types/catalog'
 
 type ViewMode = 'all' | 'favorites'
 type SortMode = 'featured' | 'title' | 'newest' | 'versions'
@@ -20,7 +18,6 @@ type AppData = {
   catalog: CatalogResponse
   covers: CoversResponse
   added: AddedResponse
-  updated: UpdatedResponse
   stats: SiteStatsResponse
 }
 
@@ -29,20 +26,6 @@ const PAGE_SIZE = 48
 const FAVORITES_KEY = 'hencc:favorites:v2'
 const SEARCH_PARAM = 'q'
 const SEARCH_URL_DEBOUNCE_MS = 1000
-const HOME_TITLE = 'HEN Cheats Collection'
-const HOME_DESCRIPTION = 'Browse the largest collection of cheats for the PlayStation 4 and PlayStation 5. Play Your Way. | HEN Cheats Collection'
-const HOME_SOCIAL_TITLE = 'PlayStation 4 and PlayStation 5 cheats | HEN Cheats Collection'
-const HOME_SOCIAL_DESCRIPTION = 'Browse the largest collection of cheats for the PlayStation 4 and PlayStation 5. Play Your Way.'
-const HOME_SOCIAL_IMAGE = 'https://hencheats.vercel.app/meta-image.png?v=2'
-const HOME_SOCIAL_IMAGE_ALT = 'HEN Cheats Collection banner'
-
-const platformNameForSocial = (id: string) => {
-  const value = platformFor(id)
-  if (value === 'PS4') return 'PlayStation 4'
-  if (value === 'PS5') return 'PlayStation 5'
-  return 'PlayStation'
-}
-
 const searchQueryFromLocation = () => {
   // Game URLs intentionally stay clean. The catalog query belongs to the
   // previous history entry and is restored when the user navigates back.
@@ -59,66 +42,54 @@ const makeSearchPath = (query: string) => {
 }
 
 
-const fetchOptionalDateMap = async (url: string, signal: AbortSignal) => {
-  try {
-    const response = await fetch(url, { signal })
-    if (!response.ok) {
-      if (response.status !== 404) console.warn(`Optional date data could not be loaded: ${url} (${response.status})`)
-      return {}
+
+const loadDetailsPanel = () => import('./components/DetailsPanel')
+const DetailsPanel = lazy(async () => ({ default: (await loadDetailsPanel()).DetailsPanel }))
+
+interface DetailsPanelLoadingFallbackProps {
+  entry: CatalogEntry
+  coverUrl: string
+  onClose: () => void
+}
+
+function DetailsPanelLoadingFallback({ entry, coverUrl, onClose }: DetailsPanelLoadingFallbackProps) {
+  useEffect(() => {
+    const onKey = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') onClose()
     }
-    return await response.json() as Record<string, string>
-  } catch (error) {
-    if (error instanceof DOMException && error.name === 'AbortError') throw error
-    console.warn(`Optional date data could not be loaded: ${url}`, error)
-    return {}
-  }
-}
+    document.addEventListener('keydown', onKey)
+    document.body.classList.add('modal-open')
+    return () => {
+      document.removeEventListener('keydown', onKey)
+      document.body.classList.remove('modal-open')
+    }
+  }, [onClose])
 
-const syncPageUrls = (shareUrlLike: string | URL = window.location.href, canonicalUrlLike: string | URL = shareUrlLike) => {
-  const shareUrl = shareUrlLike instanceof URL ? shareUrlLike : new URL(shareUrlLike, window.location.origin)
-  const canonicalUrl = canonicalUrlLike instanceof URL ? canonicalUrlLike : new URL(canonicalUrlLike, window.location.origin)
-
-  let canonical = document.head.querySelector<HTMLLinkElement>('link[rel="canonical"]')
-  if (!canonical) {
-    canonical = document.createElement('link')
-    canonical.rel = 'canonical'
-    document.head.appendChild(canonical)
-  }
-  canonical.href = canonicalUrl.href
-
-  let openGraphUrl = document.head.querySelector<HTMLMetaElement>('meta[property="og:url"]')
-  if (!openGraphUrl) {
-    openGraphUrl = document.createElement('meta')
-    openGraphUrl.setAttribute('property', 'og:url')
-    document.head.appendChild(openGraphUrl)
-  }
-  openGraphUrl.content = shareUrl.href
-}
-
-const syncRobotsMeta = (content: 'index,follow' | 'noindex,follow') => {
-  let robots = document.head.querySelector<HTMLMetaElement>('meta[name="robots"]')
-  if (!robots) {
-    robots = document.createElement('meta')
-    robots.name = 'robots'
-    document.head.appendChild(robots)
-  }
-  robots.content = content
-}
-
-const syncStructuredData = (data: Record<string, unknown>) => {
-  const id = 'hencc-structured-data'
-  let script = document.head.querySelector<HTMLScriptElement>(`script#${id}`)
-  if (!script) {
-    script = document.createElement('script')
-    script.id = id
-    script.type = 'application/ld+json'
-    document.head.appendChild(script)
-  }
-  script.textContent = JSON.stringify(data)
+  return (
+    <div className="detail-backdrop" onMouseDown={(event) => { if (event.target === event.currentTarget) onClose() }}>
+      <section className="detail-panel" role="dialog" aria-modal="true" aria-label={`${entry.title} details`}>
+        <button className="detail-close" type="button" onClick={onClose} aria-label="Close details"><Icon name="x" /></button>
+        <div className="detail-hero">
+          <img src={buildCoverImageUrl(coverUrl, COVER_DETAIL_SIZE)} alt="" className="detail-cover" />
+          <div className="detail-hero-gradient" />
+          <div className="detail-hero-content">
+            <div className="detail-kicker-row">
+              <span className={`platform-badge platform-${platformFor(entry.id).toLowerCase()}`}>{platformFor(entry.id)}</span>
+              <span className="detail-id">{entry.id}</span>
+              {entry.pinned && <span className="detail-featured"><Icon name="star" /> Featured</span>}
+            </div>
+            <h1>{entry.title}</h1>
+          </div>
+        </div>
+        <div className="detail-content">
+          <div className="detail-loading"><span className="spinner" /> Loading version data…</div>
+        </div>
+      </section>
+    </div>
+  )
 }
 
 function App() {
-  const contentPage = getContentPageByPath(window.location.pathname, baseUrl)
   const [data, setData] = useState<AppData | null>(null)
   const [loadError, setLoadError] = useState<string | null>(null)
   const [query, setQuery] = useState(searchQueryFromLocation)
@@ -221,32 +192,26 @@ function App() {
   }, [])
 
   useEffect(() => {
-    if (contentPage) return
-
     const controller = new AbortController()
     Promise.all([
-      fetch(`${baseUrl}data/catalog.json`, { signal: controller.signal }).then((response) => {
-        if (!response.ok) throw new Error(`catalog ${response.status}`)
-        return response.json() as Promise<CatalogResponse>
-      }),
-      fetch(`${baseUrl}data/covers.json`, { signal: controller.signal }).then((response) => {
-        if (!response.ok) throw new Error(`covers ${response.status}`)
-        return response.json() as Promise<CoversResponse>
-      }),
-      fetchOptionalDateMap(`${baseUrl}data/added.json`, controller.signal) as Promise<AddedResponse>,
-      fetchOptionalDateMap(`${baseUrl}data/updated.json`, controller.signal) as Promise<UpdatedResponse>,
-      fetch(`${baseUrl}data/stats.json`, { signal: controller.signal }).then((response) => {
-        if (!response.ok) throw new Error(`stats ${response.status}`)
-        return response.json() as Promise<SiteStatsResponse>
-      }),
+      fetchJsonCached<CatalogResponse>(`${baseUrl}data/catalog.json`, controller.signal),
+      fetchJsonCached<CoversResponse>(`${baseUrl}data/covers.json`, controller.signal),
+      fetchOptionalJsonCached<AddedResponse>(`${baseUrl}data/added.json`, {}, controller.signal),
+      fetchJsonCached<SiteStatsResponse>(`${baseUrl}data/stats.json`, controller.signal),
     ])
-      .then(([catalog, covers, added, updated, stats]) => setData({ catalog, covers, added, updated, stats }))
+      .then(([catalog, covers, added, stats]) => setData({ catalog, covers, added, stats }))
       .catch((reason: unknown) => {
         if (reason instanceof DOMException && reason.name === 'AbortError') return
         setLoadError('The catalog data could not be loaded.')
       })
     return () => controller.abort()
   }, [])
+
+  useEffect(() => {
+    if (!data) return
+    const timer = window.setTimeout(() => { void loadDetailsPanel() }, 1500)
+    return () => window.clearTimeout(timer)
+  }, [data])
 
   const latestAddedByGame = useMemo(() => {
     if (!data) return new Map<string, string>()
@@ -380,47 +345,6 @@ function App() {
   }, [cancelPendingSearchUrl, syncFromLocation])
 
   useEffect(() => {
-    const setMeta = (selector: string, attribute: 'name' | 'property', key: string, content: string) => {
-      let element = document.head.querySelector<HTMLMetaElement>(selector)
-      if (!element) {
-        element = document.createElement('meta')
-        element.setAttribute(attribute, key)
-        document.head.appendChild(element)
-      }
-      element.content = content
-    }
-
-    const removeMeta = (selector: string) => document.head.querySelector(selector)?.remove()
-
-    if (contentPage) {
-      const pageTitle = contentPage.seoTitle
-      syncPageUrls(new URL(contentPage.path, window.location.origin))
-      syncRobotsMeta('index,follow')
-      document.title = pageTitle
-      setMeta('meta[name="description"]', 'name', 'description', contentPage.description)
-      setMeta('meta[property="og:title"]', 'property', 'og:title', pageTitle)
-      setMeta('meta[property="og:description"]', 'property', 'og:description', contentPage.description)
-      setMeta('meta[property="og:image"]', 'property', 'og:image', HOME_SOCIAL_IMAGE)
-      setMeta('meta[property="og:image:width"]', 'property', 'og:image:width', '1200')
-      setMeta('meta[property="og:image:height"]', 'property', 'og:image:height', '630')
-      setMeta('meta[property="og:image:type"]', 'property', 'og:image:type', 'image/png')
-      setMeta('meta[property="og:image:alt"]', 'property', 'og:image:alt', HOME_SOCIAL_IMAGE_ALT)
-      setMeta('meta[name="twitter:title"]', 'name', 'twitter:title', pageTitle)
-      setMeta('meta[name="twitter:description"]', 'name', 'twitter:description', contentPage.description)
-      setMeta('meta[name="twitter:image"]', 'name', 'twitter:image', HOME_SOCIAL_IMAGE)
-      setMeta('meta[name="twitter:image:alt"]', 'name', 'twitter:image:alt', HOME_SOCIAL_IMAGE_ALT)
-      syncStructuredData({
-        '@context': 'https://schema.org',
-        '@type': 'WebPage',
-        name: contentPage.title,
-        description: contentPage.description,
-        url: new URL(contentPage.path, PUBLIC_SITE_URL).toString(),
-        isPartOf: { '@type': 'WebSite', name: 'HEN Cheats Collection', url: `${PUBLIC_SITE_URL}/` },
-        author: { '@type': 'Person', name: 'TeeKay87' },
-      })
-      return
-    }
-
     if (!selected) {
       document.title = HOME_TITLE
       setMeta('meta[name="description"]', 'name', 'description', HOME_DESCRIPTION)
@@ -483,7 +407,7 @@ function App() {
       },
       image: cover,
     })
-  }, [selected, data, contentPage, query])
+  }, [selected, data, query])
 
   const openEntry = (entry: CatalogEntry) => {
     const version = [...entry.versions].sort((a, b) => compareVersions(b.version, a.version))[0]?.version
@@ -565,7 +489,6 @@ function App() {
     setSort('featured')
   }
 
-  if (contentPage) return <ContentPage page={contentPage} />
 
   return (
     <div className="app-shell">
@@ -740,17 +663,17 @@ function App() {
       <SiteFooter generatedUtc={data?.catalog.generatedUtc} />
 
       {selected && data && (
-        <DetailsPanel
-          entry={selected.entry}
-          coverUrl={coverFor(selected.entry)}
-          selectedVersion={selected.version}
-          addedDates={data.added}
-          updatedDates={data.updated}
-          favorite={favorites.has(selected.entry.id)}
-          onClose={closeDetails}
-          onSelectVersion={selectVersion}
-          onToggleFavorite={toggleFavorite}
-        />
+        <Suspense fallback={<DetailsPanelLoadingFallback entry={selected.entry} coverUrl={coverFor(selected.entry)} onClose={closeDetails} />}>
+          <DetailsPanel
+            entry={selected.entry}
+            coverUrl={coverFor(selected.entry)}
+            selectedVersion={selected.version}
+            favorite={favorites.has(selected.entry.id)}
+            onClose={closeDetails}
+            onSelectVersion={selectVersion}
+            onToggleFavorite={toggleFavorite}
+          />
+        </Suspense>
       )}
     </div>
   )

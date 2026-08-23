@@ -4,11 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "validate:data": "node scripts/validate-public-data.mjs",
     "stats": "node scripts/generate-site-stats.mjs",
-    "predev": "npm run stats",
+    "prepare:data": "npm run validate:data && npm run stats",
+    "predev": "npm run prepare:data",
     "dev": "vite --host",
-    "prebuild": "npm run stats",
-    "build": "tsc -b && vite build && node scripts/generate-share-pages.mjs",
+    "prebuild": "npm run prepare:data",
+    "build": "tsc -b && vite build && node scripts/generate-share-pages.mjs && node scripts/verify-build.mjs",
+    "verify:build": "node scripts/verify-build.mjs",
     "lint": "oxlint",
     "preview": "vite preview --host"
   },

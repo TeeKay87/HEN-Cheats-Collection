@@ -51,6 +51,18 @@ export interface GameVersionResponse {
   files: SourceFile[]
 }
 
+export interface GameSummary {
+  filesTotal: number
+  added: string | null
+  updated: string | null
+}
+
+export interface GameSummariesResponse {
+  schema: number
+  generatedUtc: string
+  games: Record<string, GameSummary>
+}
+
 export interface SiteStatsResponse {
   schema: number
   generatedUtc: string

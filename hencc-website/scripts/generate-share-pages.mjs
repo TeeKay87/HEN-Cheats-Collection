@@ -1,36 +1,31 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import path from 'node:path'
+import {
+  dataRoot,
+  dateOnlyFromTimestamp,
+  distRoot,
+  gameDetailPath,
+  isHidden,
+  readJson,
+  readOptionalJson,
+} from './lib/build-utils.mjs'
 
 const projectRoot = process.cwd()
-const distRoot = path.join(projectRoot, 'dist')
-const dataRoot = path.join(projectRoot, 'public', 'data')
 const catalogPath = path.join(dataRoot, 'catalog.json')
 const coversPath = path.join(dataRoot, 'covers.json')
-const addedPath = path.join(dataRoot, 'added.json')
-const updatedPath = path.join(dataRoot, 'updated.json')
 const statsPath = path.join(dataRoot, 'stats.json')
+const gameSummariesPath = path.join(dataRoot, 'game-summaries.json')
 const templatePath = path.join(distRoot, 'index.html')
 const configPath = path.join(projectRoot, 'src', 'config.ts')
 const homepageContentPath = path.join(projectRoot, 'src', 'content', 'homepage.json')
 const contentManifestPath = path.join(projectRoot, 'src', 'content', 'pages.json')
 const contentPagesRoot = path.join(projectRoot, 'src', 'content', 'pages')
 
-const readJson = (filePath) => readFile(filePath, 'utf8').then(JSON.parse)
-const readOptionalJson = async (filePath, fallback = {}) => {
-  try {
-    return await readJson(filePath)
-  } catch (error) {
-    if (error && error.code === 'ENOENT') return fallback
-    throw error
-  }
-}
-
-const [catalog, covers, added, updated, stats, template, configSource, homepageContent, contentManifest] = await Promise.all([
+const [catalog, covers, stats, gameSummaries, template, configSource, homepageContent, contentManifest] = await Promise.all([
   readJson(catalogPath),
   readJson(coversPath),
-  readOptionalJson(addedPath),
-  readOptionalJson(updatedPath),
   readOptionalJson(statsPath, { filesWithCheats: 0, rows: 0 }),
+  readJson(gameSummariesPath),
   readFile(templatePath, 'utf8'),
   readFile(configPath, 'utf8'),
   readJson(homepageContentPath),
@@ -52,8 +47,6 @@ const readStringConstant = (name) => {
 const COVER_DETAIL_SIZE = readNumberConstant('COVER_DETAIL_SIZE')
 const COVER_FALLBACK_URL = readStringConstant('COVER_FALLBACK_URL')
 const PUBLIC_SITE_URL = readStringConstant('PUBLIC_SITE_URL').replace(/\/$/, '')
-
-const isHidden = (value) => value?.hidden === true || value?.hide === true
 
 const buildCoverImageUrl = (coverUrl, size) => {
   const requested = String(coverUrl || '').trim()
@@ -110,6 +103,13 @@ const removeMeta = (html, attribute, key) => {
   return html.replace(expression, '\n')
 }
 
+const removeLink = (html, rel) => {
+  const expression = new RegExp(`\\s*<link\\s+[^>]*rel=["']${escapeRegExp(rel)}["'][^>]*>\\s*`, 'i')
+  return html.replace(expression, '\n')
+}
+
+const stripScripts = (html) => html.replace(/\s*<script\b[^>]*>[\s\S]*?<\/script>\s*/gi, '\n')
+
 const replaceStructuredData = (html, data) => {
   const tag = `<script id="hencc-structured-data" type="application/ld+json">${JSON.stringify(data).replaceAll('<', '\\u003c')}</script>`
   const expression = /<script\s+id=["']hencc-structured-data["'][^>]*>[\s\S]*?<\/script>/i
@@ -125,7 +125,7 @@ const escapeXml = (value) => String(value ?? '')
   .replaceAll('"', '&quot;')
   .replaceAll("'", '&apos;')
 
-const renderSitemap = (urls) => `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((url) => `  <url><loc>${escapeXml(url)}</loc></url>`).join('\n')}\n</urlset>\n`
+const renderSitemap = (items) => `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${items.map(({ loc, lastmod }) => `  <url><loc>${escapeXml(loc)}</loc>${lastmod ? `<lastmod>${escapeXml(lastmod)}</lastmod>` : ''}</url>`).join('\n')}\n</urlset>\n`
 
 const replaceRootContent = (html, content) => {
   // Vite 8 may move the generated module script into <head>, so the React
@@ -144,18 +144,6 @@ const platformFor = (id) => {
 }
 
 const formatDate = (value) => value ? escapeHtml(value) : 'No Record'
-
-const dateForGame = (dates, id, mode) => {
-  const prefix = `${id}-`
-  let selected
-
-  for (const [key, date] of Object.entries(dates ?? {})) {
-    if (!key.startsWith(prefix)) continue
-    if (!selected || (mode === 'earliest' ? date < selected : date > selected)) selected = date
-  }
-
-  return selected
-}
 
 const renderHomepageStaticContent = () => {
   const visibleEntries = (catalog.entries ?? []).filter((entry) => !isHidden(entry))
@@ -206,7 +194,7 @@ const renderSource = (file) => {
     ? `<h3>Cheats</h3><ul>${cheats.map((cheat) => `<li>${escapeHtml(cheat)}</li>`).join('')}</ul>`
     : '<p>No cheat rows are listed for this source file.</p>'
 
-  return `<article class="static-source">
+  return `<article class="static-source" data-source-id="${escapeHtml(file.sourceId)}">
     <h3>${escapeHtml(file.file)}</h3>
     <ul class="static-meta">
       <li><strong>Format:</strong> ${escapeHtml(String(file.format ?? '').toUpperCase())}</li>
@@ -240,7 +228,7 @@ const renderGameStaticContent = ({ entry, version, visibleFiles, pageUrl, gameSu
               <li><strong>Title ID:</strong> ${escapeHtml(entry.id)}</li>
               <li><strong>Version:</strong> ${escapeHtml(version.version)}</li>
               <li><strong>Files Total:</strong> ${gameSummary.filesTotal.toLocaleString('en-US')}</li>
-              <li><strong>Updated:</strong> ${gameSummary.updated && gameSummary.updated !== gameSummary.added ? formatDate(gameSummary.updated) : 'No Record'}</li>
+              <li><strong>Updated:</strong> ${formatDate(gameSummary.updated)}</li>
               <li><strong>Added:</strong> ${formatDate(gameSummary.added)}</li>
               <li><strong>Rows:</strong> ${rows.toLocaleString('en-US')}</li>
               <li><strong>Formats:</strong> ${escapeHtml(formats.join(', ') || 'None')}</li>
@@ -341,6 +329,18 @@ const renderEditorialMarkdown = (markdown) => {
   return output.join('')
 }
 
+const renderNotFoundStaticContent = () => `
+  <div class="static-fallback" data-prerendered-content="not-found">
+    <div class="static-fallback-inner">
+      <div class="static-brand"><a href="/">HEN Cheats Collection</a></div>
+      <main>
+        <h1>Page not found</h1>
+        <p class="static-lead">The requested HEN Cheats Collection page does not exist.</p>
+        <p><a href="/">Browse the collection</a></p>
+      </main>
+    </div>
+  </div>`
+
 const renderContentStaticContent = (page, renderedMarkdown) => `
   <div class="app-shell content-app-shell" data-prerendered-content="editorial-page">
     <header class="site-header content-site-header">
@@ -426,7 +426,24 @@ homepageHtml = replaceStructuredData(homepageHtml, {
 homepageHtml = replaceRootContent(homepageHtml, renderHomepageStaticContent())
 await writeFile(templatePath, homepageHtml, 'utf8')
 
-const sitemapUrls = [`${PUBLIC_SITE_URL}/`, ...contentManifest.map((page) => `${PUBLIC_SITE_URL}${page.path}`)]
+let notFoundHtml = replaceTitle(template, 'Page Not Found | HEN Cheats Collection')
+notFoundHtml = replaceMeta(notFoundHtml, 'name', 'description', 'The requested HEN Cheats Collection page does not exist.')
+notFoundHtml = replaceMeta(notFoundHtml, 'name', 'robots', 'noindex,follow')
+notFoundHtml = replaceMeta(notFoundHtml, 'property', 'og:title', 'Page Not Found | HEN Cheats Collection')
+notFoundHtml = replaceMeta(notFoundHtml, 'property', 'og:description', 'The requested HEN Cheats Collection page does not exist.')
+notFoundHtml = replaceMeta(notFoundHtml, 'name', 'twitter:title', 'Page Not Found | HEN Cheats Collection')
+notFoundHtml = replaceMeta(notFoundHtml, 'name', 'twitter:description', 'The requested HEN Cheats Collection page does not exist.')
+notFoundHtml = removeMeta(notFoundHtml, 'property', 'og:url')
+notFoundHtml = removeLink(notFoundHtml, 'canonical')
+notFoundHtml = replaceRootContent(notFoundHtml, renderNotFoundStaticContent())
+notFoundHtml = stripScripts(notFoundHtml)
+await writeFile(path.join(distRoot, '404.html'), notFoundHtml, 'utf8')
+
+const homepageLastmod = dateOnlyFromTimestamp(catalog.generatedUtc)
+const sitemapItems = [
+  { loc: `${PUBLIC_SITE_URL}/`, lastmod: homepageLastmod },
+  ...contentManifest.map((page) => ({ loc: `${PUBLIC_SITE_URL}${page.path}`, lastmod: null })),
+]
 
 let generated = 0
 let noindexPages = 0
@@ -439,16 +456,12 @@ for (const entry of catalog.entries ?? []) {
   const cover = /^https?:\/\//i.test(coverCandidate) ? coverCandidate : COVER_FALLBACK_URL
 
   const versionDetails = await Promise.all((entry.versions ?? []).map(async (version) => {
-    const detailPath = path.join(dataRoot, 'games', entry.id, `${version.version}.json`)
-    const detail = await readJson(detailPath)
+    const detail = await readJson(gameDetailPath(entry, version))
     const visibleFiles = (detail.files ?? []).filter((file) => !isHidden(file))
     return { version, visibleFiles }
   }))
-  const gameSummary = {
-    filesTotal: versionDetails.reduce((sum, item) => sum + item.visibleFiles.length, 0),
-    added: dateForGame(added, entry.id, 'earliest'),
-    updated: dateForGame(updated, entry.id, 'latest'),
-  }
+  const gameSummary = gameSummaries.games?.[entry.id]
+  if (!gameSummary) throw new Error(`Missing generated game summary for visible game ${entry.id}.`)
 
   for (const { version, visibleFiles } of versionDetails) {
     const hasSubstantiveContent = visibleFiles.some((file) => Array.isArray(file.cheats) && file.cheats.length > 0)
@@ -493,12 +506,12 @@ for (const entry of catalog.entries ?? []) {
     await mkdir(routeDir, { recursive: true })
     await writeFile(path.join(routeDir, 'index.html'), html, 'utf8')
     generated += 1
-    if (hasSubstantiveContent) sitemapUrls.push(pageUrl)
+    if (hasSubstantiveContent) sitemapItems.push({ loc: pageUrl, lastmod: gameSummary.updated ?? gameSummary.added ?? null })
     else noindexPages += 1
   }
 }
 
-await writeFile(path.join(distRoot, 'sitemap.xml'), renderSitemap(sitemapUrls), 'utf8')
+await writeFile(path.join(distRoot, 'sitemap.xml'), renderSitemap(sitemapItems), 'utf8')
 
 console.log(`Generated ${generatedEditorialPages.toLocaleString('en-US')} static editorial pages and ${generated.toLocaleString('en-US')} static game/version pages with crawlable content (${noindexPages.toLocaleString('en-US')} noindex dead-end pages).`)
-console.log(`Generated sitemap.xml with ${sitemapUrls.length.toLocaleString('en-US')} indexable URLs.`)
+console.log(`Generated sitemap.xml with ${sitemapItems.length.toLocaleString('en-US')} indexable URLs (${sitemapItems.filter((item) => item.lastmod).length.toLocaleString('en-US')} with authoritative lastmod).`)

@@ -4,14 +4,13 @@ import type { MouseEvent } from 'react'
 import { Icon } from './Icon'
 import { buildCoverImageUrl, CHEAT_DOWNLOAD_BASE_URL, CHEAT_NEW_ISSUE_URL, COVER_DETAIL_SIZE, PUBLIC_SITE_URL } from '../config'
 import { compareVersions, displayDate, formatLabel, isHidden, makeGamePath, platformFor } from '../lib/catalog'
-import type { CatalogEntry, GameVersionResponse, SourceFile } from '../types/catalog'
+import { fetchJsonCached } from '../lib/dataClient'
+import type { CatalogEntry, GameSummariesResponse, GameSummary, GameVersionResponse, SourceFile } from '../types/catalog'
 
 interface DetailsPanelProps {
   entry: CatalogEntry
   coverUrl: string
   selectedVersion?: string
-  addedDates: Record<string, string>
-  updatedDates: Record<string, string>
   favorite: boolean
   onClose: () => void
   onSelectVersion: (version: string) => void
@@ -20,18 +19,6 @@ interface DetailsPanelProps {
 
 const baseUrl = import.meta.env.BASE_URL
 const DOWNLOADED_STORAGE_KEY = 'hencc:downloaded:v1'
-
-const dateForGame = (dates: Record<string, string>, id: string, mode: 'earliest' | 'latest') => {
-  const prefix = `${id}-`
-  let selected: string | undefined
-
-  for (const [key, date] of Object.entries(dates)) {
-    if (!key.startsWith(prefix)) continue
-    if (!selected || (mode === 'earliest' ? date < selected : date > selected)) selected = date
-  }
-
-  return selected
-}
 
 const loadDownloadedFiles = () => {
   try {
@@ -42,7 +29,7 @@ const loadDownloadedFiles = () => {
   }
 }
 
-export function DetailsPanel({ entry, coverUrl, selectedVersion, addedDates, updatedDates, favorite, onClose, onSelectVersion, onToggleFavorite }: DetailsPanelProps) {
+export function DetailsPanel({ entry, coverUrl, selectedVersion, favorite, onClose, onSelectVersion, onToggleFavorite }: DetailsPanelProps) {
   const versions = useMemo(
     () => [...entry.versions].sort((a, b) => compareVersions(b.version, a.version)),
     [entry.versions],
@@ -57,41 +44,29 @@ export function DetailsPanel({ entry, coverUrl, selectedVersion, addedDates, upd
   const [expandedFiles, setExpandedFiles] = useState<Set<string>>(new Set())
   const [downloadError, setDownloadError] = useState<string | null>(null)
   const [downloadedFiles, setDownloadedFiles] = useState<Set<string>>(loadDownloadedFiles)
-  const [filesTotal, setFilesTotal] = useState<number | null>(null)
+  const [gameSummary, setGameSummary] = useState<GameSummary | null>(null)
 
   useEffect(() => {
     const controller = new AbortController()
     let current = true
-    setFilesTotal(null)
+    setGameSummary(null)
 
-    Promise.all(
-      entry.versions.map((version) =>
-        fetch(`${baseUrl}data/games/${encodeURIComponent(entry.id)}/${encodeURIComponent(version.version)}.json`, { signal: controller.signal })
-          .then((response) => {
-            if (!response.ok) throw new Error(`HTTP ${response.status}`)
-            return response.json() as Promise<GameVersionResponse>
-          }),
-      ),
-    )
-      .then((details) => {
+    fetchJsonCached<GameSummariesResponse>(`${baseUrl}data/game-summaries.json`, controller.signal)
+      .then((summaries) => {
         if (!current) return
-        const total = details.reduce(
-          (sum, gameVersion) => sum + (gameVersion.files ?? []).filter((file) => !isHidden(file)).length,
-          0,
-        )
-        setFilesTotal(total)
+        setGameSummary(summaries.games[entry.id] ?? null)
       })
       .catch((reason: unknown) => {
         if (!current || (reason instanceof DOMException && reason.name === 'AbortError')) return
-        console.warn(`Could not load ID-level file total for ${entry.id}.`, reason)
-        setFilesTotal(null)
+        console.warn(`Could not load ID-level summary for ${entry.id}.`, reason)
+        setGameSummary(null)
       })
 
     return () => {
       current = false
       controller.abort()
     }
-  }, [entry.id, entry.versions])
+  }, [entry.id])
 
   useEffect(() => {
     if (!activeVersion) return
@@ -102,11 +77,7 @@ export function DetailsPanel({ entry, coverUrl, selectedVersion, addedDates, upd
     setDownloadError(null)
     setDetail(null)
     setExpandedFiles(new Set())
-    fetch(`${baseUrl}data/games/${encodeURIComponent(entry.id)}/${encodeURIComponent(activeVersion)}.json`, { signal: controller.signal })
-      .then((response) => {
-        if (!response.ok) throw new Error(`HTTP ${response.status}`)
-        return response.json() as Promise<GameVersionResponse>
-      })
+    fetchJsonCached<GameVersionResponse>(`${baseUrl}data/games/${encodeURIComponent(entry.id)}/${encodeURIComponent(activeVersion)}.json`, controller.signal)
       .then((data) => { if (current) setDetail(data) })
       .catch((reason: unknown) => {
         if (!current || (reason instanceof DOMException && reason.name === 'AbortError')) return
@@ -240,16 +211,8 @@ export function DetailsPanel({ entry, coverUrl, selectedVersion, addedDates, upd
     }
   }
 
-  const addedDate = useMemo(
-    () => dateForGame(addedDates, entry.id, 'earliest'),
-    [addedDates, entry.id],
-  )
-  const updatedDate = useMemo(
-    () => dateForGame(updatedDates, entry.id, 'latest'),
-    [entry.id, updatedDates],
-  )
-  const addedDisplayDate = displayDate(addedDate)
-  const updatedDisplayDate = updatedDate && updatedDate !== addedDate ? displayDate(updatedDate) : null
+  const addedDisplayDate = displayDate(gameSummary?.added ?? undefined)
+  const updatedDisplayDate = displayDate(gameSummary?.updated ?? undefined)
   const visibleFiles = detail?.files.filter((file) => !isHidden(file)) ?? []
 
   return (
@@ -296,7 +259,7 @@ export function DetailsPanel({ entry, coverUrl, selectedVersion, addedDates, upd
           </div>
 
           <div className="detail-summary-grid">
-            <div className="summary-card"><Icon name="file" /><div><strong>{filesTotal ?? '—'}</strong><span>Files Total</span></div></div>
+            <div className="summary-card"><Icon name="file" /><div><strong>{gameSummary?.filesTotal ?? '—'}</strong><span>Files Total</span></div></div>
             <div className="summary-card"><Icon name="calendar" /><div><strong>{updatedDisplayDate ?? '—'}</strong><span>Updated</span></div></div>
             <div className="summary-card"><Icon name="calendar" /><div><strong>{addedDisplayDate ?? '—'}</strong><span>Added</span></div></div>
           </div>
