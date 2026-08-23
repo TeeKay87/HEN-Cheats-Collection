@@ -34,5 +34,5 @@ export const buildCoverImageUrl = (coverUrl: string | null | undefined, size: nu
 export const ADSENSE_ENABLED = import.meta.env.VITE_ADSENSE_ENABLED === 'true'
 export const ADSENSE_CLIENT_ID = import.meta.env.VITE_ADSENSE_CLIENT_ID ?? ''
 export const ADSENSE_CATALOG_SLOT_ID = import.meta.env.VITE_ADSENSE_CATALOG_SLOT_ID ?? ''
-export const ADSENSE_CATALOG_INTERVAL = Math.max(1, Number.parseInt(import.meta.env.VITE_ADSENSE_CATALOG_INTERVAL ?? '24', 10) || 24)
+export const ADSENSE_CATALOG_INTERVAL = Math.max(1, Number.parseInt(import.meta.env.VITE_ADSENSE_CATALOG_INTERVAL ?? '36', 10) || 36)
 

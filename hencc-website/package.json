@@ -10,7 +10,7 @@
     "prebuild": "npm run stats",
     "build": "tsc -b && vite build && node scripts/generate-share-pages.mjs",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview --host"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",

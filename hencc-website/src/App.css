@@ -50,6 +50,33 @@
 .hero-stats > div { min-width: 70px; display: grid; gap: 1px; }
 .hero-stats strong { color: #eef1f4; font-size: 16px; line-height: 1.3; font-variant-numeric: tabular-nums; }
 .hero-stats span:not(.stat-divider) { color: #697483; font-size: 10px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
+
+
+.static-fallback { min-height: 100vh; padding: 48px 24px 84px; background: #0b0e13; color: #dfe5ec; }
+.static-fallback-inner { width: min(1040px, 100%); margin: 0 auto; }
+.static-fallback .static-brand { margin: 0 0 34px; color: #f6f7f9; font-size: 15px; font-weight: 750; letter-spacing: .01em; }
+.static-fallback h1 { margin: 0; color: #f7f8fa; font-size: clamp(34px, 6vw, 56px); line-height: 1.05; letter-spacing: -.045em; }
+.static-fallback .static-lead { max-width: 760px; margin: 14px 0 0; color: #98a3b2; font-size: 16px; line-height: 1.7; }
+.static-fallback section { margin-top: 32px; padding: 24px; border: 1px solid #232a34; border-radius: 16px; background: #10141b; }
+.static-fallback h2 { margin: 0 0 12px; color: #eef1f4; font-size: 20px; }
+.static-fallback h3 { margin: 24px 0 8px; color: #e9edf2; font-size: 16px; }
+.static-fallback p, .static-fallback li { color: #98a3b2; font-size: 14px; line-height: 1.72; }
+.static-fallback ul { margin: 12px 0 0; padding-left: 22px; }
+.static-fallback a { color: #ffad3d; text-decoration: none; }
+.static-fallback a:hover { text-decoration: underline; }
+.static-fallback .static-stats { display: flex; flex-wrap: wrap; gap: 10px 24px; margin-top: 18px; color: #c8d0da; font-size: 13px; }
+.static-fallback .static-game-links { columns: 2; column-gap: 32px; }
+.static-fallback .static-game-links li { break-inside: avoid; margin: 5px 0; }
+.static-fallback .static-meta { display: flex; flex-wrap: wrap; gap: 8px 18px; margin: 10px 0 0; padding: 0; list-style: none; }
+.static-fallback .static-source { margin-top: 18px; padding-top: 18px; border-top: 1px solid #232a34; }
+.static-fallback .static-source:first-of-type { border-top: 0; padding-top: 0; }
+.static-fallback .static-note, .static-fallback .static-issue { margin: 10px 0; padding: 10px 12px; border-radius: 9px; background: #151b24; }
+.static-fallback .static-issue { border: 1px solid rgba(255, 99, 99, .25); }
+@media (max-width: 700px) {
+  .static-fallback { padding: 32px 16px 72px; }
+  .static-fallback section { padding: 18px; }
+  .static-fallback .static-game-links { columns: 1; }
+}
 .stat-divider { width: 1px; height: 26px; background: #282f39; }
 
 .catalog-section { max-width: 1440px; min-height: 580px; margin: 0 auto; padding: 34px 34px 72px; }
@@ -140,7 +167,6 @@
 .footer-links { min-width: 0; display: flex; align-items: center; gap: 16px; overflow-x: auto; white-space: nowrap; scrollbar-width: none; }
 .mobile-footer-links { display: none; }
 .footer-links::-webkit-scrollbar { display: none; }
-.footer-placeholder { flex: 0 0 auto; color: #828c99; font-size: 9px; }
 .footer-meta { flex: 0 0 auto; display: flex; align-items: center; gap: 18px; color: #59636f; font-size: 9px; }
 .footer-meta a { display: inline-flex; align-items: center; gap: 5px; color: #828c99; text-decoration: none; }
 .footer-meta a:hover { color: #d4d9df; }
@@ -355,4 +381,41 @@
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}
+
+/* Editorial/content pages */
+.content-app-shell { overflow: visible; }
+.content-site-header .brand { color: inherit; text-decoration: none; }
+.content-header-nav { display: flex; align-items: center; gap: 8px; }
+.content-header-nav a { padding: 8px 10px; border-radius: 8px; color: #8f99a6; font-size: 12px; font-weight: 650; text-decoration: none; }
+.content-header-nav a:hover { color: #fff; background: rgba(255,255,255,.04); }
+.content-main { min-height: calc(100vh - 122px); background: radial-gradient(circle at 50% -20%, rgba(255,161,56,.06), transparent 35%), #0b0e13; }
+.content-page { width: min(900px, calc(100% - 48px)); margin: 0 auto; padding: 54px 0 92px; }
+.content-page-heading { margin-bottom: 26px; padding-bottom: 22px; border-bottom: 1px solid var(--line-soft); }
+.content-page-heading > span { display: inline-flex; align-items: center; min-height: 24px; padding: 0 9px; border: 1px solid rgba(255,173,61,.18); border-radius: 999px; color: #d7ad70; background: rgba(255,173,61,.055); font-size: 9px; font-weight: 800; letter-spacing: .09em; text-transform: uppercase; }
+.content-page-heading > p { max-width: 760px; margin: 12px 0 0; color: #7f8997; font-size: 13px; line-height: 1.7; }
+.content-markdown { color: #9ba5b2; font-size: 14px; line-height: 1.78; }
+.content-markdown > :first-child { margin-top: 0; }
+.content-markdown h1 { margin: 0 0 20px; color: #f4f6f8; font-size: clamp(34px, 5vw, 48px); line-height: 1.08; letter-spacing: -.045em; }
+.content-markdown h2 { margin: 34px 0 12px; color: #e8ecf0; font-size: 21px; line-height: 1.3; letter-spacing: -.02em; }
+.content-markdown h3 { margin: 26px 0 9px; color: #dce1e7; font-size: 16px; line-height: 1.4; }
+.content-markdown p { margin: 0 0 15px; }
+.content-markdown strong { color: #dce1e6; }
+.content-markdown a, .footer-links a { color: #d3a565; text-decoration: none; }
+.content-markdown a:hover, .footer-links a:hover { color: #ffc46e; text-decoration: underline; text-underline-offset: 3px; }
+.content-markdown ul, .content-markdown ol { margin: 10px 0 18px; padding-left: 24px; }
+.content-markdown li { margin: 5px 0; }
+.content-markdown code { padding: 2px 5px; border: 1px solid rgba(255,255,255,.06); border-radius: 5px; color: #d9c3a2; background: #121820; font: .9em/1.5 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+.content-markdown blockquote { margin: 18px 0; padding: 4px 0 4px 16px; border-left: 3px solid rgba(255,173,61,.38); color: #a28e72; }
+.content-markdown hr { margin: 32px 0; border: 0; border-top: 1px solid var(--line-soft); }
+.content-markdown input[type="checkbox"] { margin-right: 7px; accent-color: var(--accent); }
+.footer-links a { flex: 0 0 auto; color: #828c99; font-size: 9px; }
+
+@media (max-width: 800px) {
+  .content-header-nav { display: none; }
+  .content-page { width: min(100% - 32px, 900px); padding: 38px 0 82px; }
+  .content-page-heading { margin-bottom: 22px; }
+  .content-markdown { font-size: 13px; line-height: 1.72; }
+  .content-markdown h1 { font-size: clamp(31px, 10vw, 42px); }
+  .content-markdown h2 { margin-top: 30px; font-size: 19px; }
 }

@@ -4,9 +4,12 @@ import './App.css'
 import { AdSenseSlot } from './components/AdSenseSlot'
 import { DetailsPanel } from './components/DetailsPanel'
 import { GameCard } from './components/GameCard'
+import { ContentPage } from './components/ContentPage'
+import { SiteFooter } from './components/SiteFooter'
 import { Icon } from './components/Icon'
-import { ADSENSE_CATALOG_INTERVAL, ADSENSE_ENABLED, buildCoverImageUrl, COVER_DETAIL_SIZE, COVER_FALLBACK_URL } from './config'
+import { ADSENSE_CATALOG_INTERVAL, ADSENSE_ENABLED, buildCoverImageUrl, COVER_DETAIL_SIZE, COVER_FALLBACK_URL, PUBLIC_SITE_URL } from './config'
 import { catalogSearchScore, compareVersions, isHidden, makeGamePath, normalizeSearch, parseGamePath, parseHash, platformFor } from './lib/catalog'
+import { getContentPageByPath } from './content/pages'
 import type { AddedResponse, CatalogEntry, CatalogResponse, CoversResponse, Platform, SiteStatsResponse, UpdatedResponse } from './types/catalog'
 
 type ViewMode = 'all' | 'favorites'
@@ -71,9 +74,9 @@ const fetchOptionalDateMap = async (url: string, signal: AbortSignal) => {
   }
 }
 
-const syncShareablePageUrl = (urlLike: string | URL = window.location.href) => {
-  const absoluteUrl = urlLike instanceof URL ? urlLike : new URL(urlLike, window.location.origin)
-  const canonicalUrl = absoluteUrl.href
+const syncPageUrls = (shareUrlLike: string | URL = window.location.href, canonicalUrlLike: string | URL = shareUrlLike) => {
+  const shareUrl = shareUrlLike instanceof URL ? shareUrlLike : new URL(shareUrlLike, window.location.origin)
+  const canonicalUrl = canonicalUrlLike instanceof URL ? canonicalUrlLike : new URL(canonicalUrlLike, window.location.origin)
 
   let canonical = document.head.querySelector<HTMLLinkElement>('link[rel="canonical"]')
   if (!canonical) {
@@ -81,7 +84,7 @@ const syncShareablePageUrl = (urlLike: string | URL = window.location.href) => {
     canonical.rel = 'canonical'
     document.head.appendChild(canonical)
   }
-  canonical.href = canonicalUrl
+  canonical.href = canonicalUrl.href
 
   let openGraphUrl = document.head.querySelector<HTMLMetaElement>('meta[property="og:url"]')
   if (!openGraphUrl) {
@@ -89,10 +92,33 @@ const syncShareablePageUrl = (urlLike: string | URL = window.location.href) => {
     openGraphUrl.setAttribute('property', 'og:url')
     document.head.appendChild(openGraphUrl)
   }
-  openGraphUrl.content = canonicalUrl
+  openGraphUrl.content = shareUrl.href
+}
+
+const syncRobotsMeta = (content: 'index,follow' | 'noindex,follow') => {
+  let robots = document.head.querySelector<HTMLMetaElement>('meta[name="robots"]')
+  if (!robots) {
+    robots = document.createElement('meta')
+    robots.name = 'robots'
+    document.head.appendChild(robots)
+  }
+  robots.content = content
+}
+
+const syncStructuredData = (data: Record<string, unknown>) => {
+  const id = 'hencc-structured-data'
+  let script = document.head.querySelector<HTMLScriptElement>(`script#${id}`)
+  if (!script) {
+    script = document.createElement('script')
+    script.id = id
+    script.type = 'application/ld+json'
+    document.head.appendChild(script)
+  }
+  script.textContent = JSON.stringify(data)
 }
 
 function App() {
+  const contentPage = getContentPageByPath(window.location.pathname, baseUrl)
   const [data, setData] = useState<AppData | null>(null)
   const [loadError, setLoadError] = useState<string | null>(null)
   const [query, setQuery] = useState(searchQueryFromLocation)
@@ -131,17 +157,19 @@ function App() {
     const nextUrl = new URL(nextPath, window.location.origin)
     const currentPath = `${window.location.pathname}${window.location.search}`
 
-    // Keep canonical/og:url in sync even when the page was initially opened
-    // with ?q= and no History API write is required. Chrome on Android can
-    // consult the canonical URL when sharing/copying a page.
+    // Search URLs stay shareable, but search-result permutations are not
+    // separate canonical pages. Keep og:url on the shareable ?q= URL while
+    // canonical stays on the root catalog.
     if (currentPath === nextPath) {
-      syncShareablePageUrl(nextUrl)
+      syncPageUrls(nextUrl, new URL(baseUrl, window.location.origin))
+      syncRobotsMeta(nextQuery.trim() ? 'noindex,follow' : 'index,follow')
       return
     }
 
     // Use an absolute same-origin URL for maximum browser compatibility.
     history.replaceState(history.state, document.title, nextUrl.href)
-    syncShareablePageUrl(nextUrl)
+    syncPageUrls(nextUrl, new URL(baseUrl, window.location.origin))
+    syncRobotsMeta(nextQuery.trim() ? 'noindex,follow' : 'index,follow')
   }, [])
 
   const flushSearchUrl = useCallback((nextQuery = latestQueryRef.current) => {
@@ -193,6 +221,8 @@ function App() {
   }, [])
 
   useEffect(() => {
+    if (contentPage) return
+
     const controller = new AbortController()
     Promise.all([
       fetch(`${baseUrl}data/catalog.json`, { signal: controller.signal }).then((response) => {
@@ -294,8 +324,14 @@ function App() {
   const syncFromLocation = useCallback(() => {
     if (!data) return
 
-    syncShareablePageUrl()
     const route = parseGamePath(window.location.pathname, baseUrl)
+    if (route) {
+      syncPageUrls()
+      syncRobotsMeta('index,follow')
+    } else {
+      syncPageUrls(window.location.href, new URL(baseUrl, window.location.origin))
+      syncRobotsMeta(searchQueryFromLocation().trim() ? 'noindex,follow' : 'index,follow')
+    }
     const legacyHash = route ? null : parseHash(window.location.hash)
     const parsed = route ?? legacyHash
 
@@ -322,7 +358,7 @@ function App() {
     if (legacyHash && requestedVersion) {
       const gameUrl = new URL(makeGamePath(entry.id, requestedVersion, baseUrl), window.location.origin)
       history.replaceState(history.state, document.title, gameUrl.href)
-      syncShareablePageUrl(gameUrl)
+      syncPageUrls(gameUrl)
     }
   }, [data, findEntry])
 
@@ -356,6 +392,35 @@ function App() {
 
     const removeMeta = (selector: string) => document.head.querySelector(selector)?.remove()
 
+    if (contentPage) {
+      const pageTitle = contentPage.seoTitle
+      syncPageUrls(new URL(contentPage.path, window.location.origin))
+      syncRobotsMeta('index,follow')
+      document.title = pageTitle
+      setMeta('meta[name="description"]', 'name', 'description', contentPage.description)
+      setMeta('meta[property="og:title"]', 'property', 'og:title', pageTitle)
+      setMeta('meta[property="og:description"]', 'property', 'og:description', contentPage.description)
+      setMeta('meta[property="og:image"]', 'property', 'og:image', HOME_SOCIAL_IMAGE)
+      setMeta('meta[property="og:image:width"]', 'property', 'og:image:width', '1200')
+      setMeta('meta[property="og:image:height"]', 'property', 'og:image:height', '630')
+      setMeta('meta[property="og:image:type"]', 'property', 'og:image:type', 'image/png')
+      setMeta('meta[property="og:image:alt"]', 'property', 'og:image:alt', HOME_SOCIAL_IMAGE_ALT)
+      setMeta('meta[name="twitter:title"]', 'name', 'twitter:title', pageTitle)
+      setMeta('meta[name="twitter:description"]', 'name', 'twitter:description', contentPage.description)
+      setMeta('meta[name="twitter:image"]', 'name', 'twitter:image', HOME_SOCIAL_IMAGE)
+      setMeta('meta[name="twitter:image:alt"]', 'name', 'twitter:image:alt', HOME_SOCIAL_IMAGE_ALT)
+      syncStructuredData({
+        '@context': 'https://schema.org',
+        '@type': 'WebPage',
+        name: contentPage.title,
+        description: contentPage.description,
+        url: new URL(contentPage.path, PUBLIC_SITE_URL).toString(),
+        isPartOf: { '@type': 'WebSite', name: 'HEN Cheats Collection', url: `${PUBLIC_SITE_URL}/` },
+        author: { '@type': 'Person', name: 'TeeKay87' },
+      })
+      return
+    }
+
     if (!selected) {
       document.title = HOME_TITLE
       setMeta('meta[name="description"]', 'name', 'description', HOME_DESCRIPTION)
@@ -370,6 +435,15 @@ function App() {
       setMeta('meta[name="twitter:description"]', 'name', 'twitter:description', HOME_SOCIAL_DESCRIPTION)
       setMeta('meta[name="twitter:image"]', 'name', 'twitter:image', HOME_SOCIAL_IMAGE)
       setMeta('meta[name="twitter:image:alt"]', 'name', 'twitter:image:alt', HOME_SOCIAL_IMAGE_ALT)
+      syncStructuredData({
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: 'HEN Cheats Collection',
+        url: `${PUBLIC_SITE_URL}/`,
+        description: HOME_SOCIAL_DESCRIPTION,
+        creator: { '@type': 'Person', name: 'TeeKay87' },
+      })
+      syncRobotsMeta(query.trim() ? 'noindex,follow' : 'index,follow')
       return
     }
 
@@ -393,7 +467,23 @@ function App() {
     removeMeta('meta[property="og:image:width"]')
     removeMeta('meta[property="og:image:height"]')
     removeMeta('meta[property="og:image:type"]')
-  }, [selected, data])
+    syncRobotsMeta('index,follow')
+    const gameUrl = new URL(makeGamePath(selected.entry.id, selected.version ?? '', baseUrl), PUBLIC_SITE_URL).toString()
+    syncStructuredData({
+      '@context': 'https://schema.org',
+      '@type': 'WebPage',
+      name: pageTitle,
+      description,
+      url: gameUrl,
+      isPartOf: { '@type': 'WebSite', name: 'HEN Cheats Collection', url: `${PUBLIC_SITE_URL}/` },
+      about: {
+        '@type': 'VideoGame',
+        name: selected.entry.title,
+        gamePlatform: platformNameForSocial(selected.entry.id),
+      },
+      image: cover,
+    })
+  }, [selected, data, contentPage, query])
 
   const openEntry = (entry: CatalogEntry) => {
     const version = [...entry.versions].sort((a, b) => compareVersions(b.version, a.version))[0]?.version
@@ -409,7 +499,7 @@ function App() {
       document.title,
       gameUrl.href,
     )
-    syncShareablePageUrl(gameUrl)
+    syncPageUrls(gameUrl)
   }
 
   const closeDetails = useCallback(() => {
@@ -430,7 +520,8 @@ function App() {
     setSelected(null)
     const catalogUrl = new URL(makeSearchPath(''), window.location.origin)
     history.pushState(null, document.title, catalogUrl.href)
-    syncShareablePageUrl(catalogUrl)
+    syncPageUrls(catalogUrl, new URL(baseUrl, window.location.origin))
+    syncRobotsMeta('index,follow')
   }, [])
 
   const selectVersion = (version: string) => {
@@ -440,7 +531,7 @@ function App() {
     // the search even after the user switches game version.
     const gameUrl = new URL(makeGamePath(selected.entry.id, version, baseUrl), window.location.origin)
     history.replaceState(history.state, document.title, gameUrl.href)
-    syncShareablePageUrl(gameUrl)
+    syncPageUrls(gameUrl)
   }
 
   const toggleFavorite = (id: string) => {
@@ -464,6 +555,7 @@ function App() {
 
   const activeFilterCount = (platform !== 'All' ? 1 : 0) + (format !== 'All' ? 1 : 0)
   const hasFilters = Boolean(query) || view === 'favorites' || activeFilterCount > 0
+  const adsAllowedOnCurrentCatalogView = view === 'all' && !query.trim() && platform === 'All' && format === 'All'
 
   const clearFilters = () => {
     updateQuery('', true)
@@ -472,6 +564,8 @@ function App() {
     setFormat('All')
     setSort('featured')
   }
+
+  if (contentPage) return <ContentPage page={contentPage} />
 
   return (
     <div className="app-shell">
@@ -540,6 +634,7 @@ function App() {
             )}
           </div>
         </section>
+
 
         <section className="catalog-section">
           <div className="catalog-toolbar">
@@ -615,6 +710,7 @@ function App() {
 
                   if (
                     ADSENSE_ENABLED
+                    && adsAllowedOnCurrentCatalogView
                     && gameNumber % ADSENSE_CATALOG_INTERVAL === 0
                     && gameNumber < visibleEntries.length
                   ) {
@@ -641,30 +737,7 @@ function App() {
         </section>
       </main>
 
-      <footer className="site-footer">
-        <div className="footer-inner">
-          <nav className="footer-links desktop-footer-links" aria-label="Footer">
-            <span className="footer-placeholder">About</span>
-            <span className="footer-placeholder">Getting Started</span>
-            <span className="footer-placeholder">File Formats</span>
-            <span className="footer-placeholder">IDs &amp; Versions</span>
-            <span className="footer-placeholder">Troubleshooting</span>
-            <span className="footer-placeholder">FAQ</span>
-            <span className="footer-placeholder">Privacy Policy</span>
-            <span className="footer-placeholder">Contact</span>
-          </nav>
-          <nav className="footer-links mobile-footer-links" aria-label="Footer">
-            <span className="footer-placeholder">About</span>
-            <span className="footer-placeholder">Guides</span>
-            <span className="footer-placeholder">Privacy</span>
-            <span className="footer-placeholder">Contact</span>
-          </nav>
-          <div className="footer-meta">
-            {data && <span>Data generated {new Date(data.catalog.generatedUtc).toLocaleDateString('en', { year: 'numeric', month: 'short', day: 'numeric' })}</span>}
-            <a href="https://github.com/TeeKay87/HEN-Cheats-Collection" target="_blank" rel="noreferrer"><Icon name="github" /> GitHub <Icon name="external" /></a>
-          </div>
-        </div>
-      </footer>
+      <SiteFooter generatedUtc={data?.catalog.generatedUtc} />
 
       {selected && data && (
         <DetailsPanel
