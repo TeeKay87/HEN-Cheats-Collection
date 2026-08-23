@@ -143,7 +143,7 @@ const platformFor = (id) => {
   return 'PlayStation'
 }
 
-const formatDate = (value) => value ? escapeHtml(value) : 'Not recorded'
+const formatDate = (value) => value ? escapeHtml(value) : 'No Record'
 
 const dateForGame = (dates, id, mode) => {
   const prefix = `${id}-`
@@ -240,11 +240,11 @@ const renderGameStaticContent = ({ entry, version, visibleFiles, pageUrl, gameSu
               <li><strong>Title ID:</strong> ${escapeHtml(entry.id)}</li>
               <li><strong>Version:</strong> ${escapeHtml(version.version)}</li>
               <li><strong>Files Total:</strong> ${gameSummary.filesTotal.toLocaleString('en-US')}</li>
+              <li><strong>Updated:</strong> ${gameSummary.updated && gameSummary.updated !== gameSummary.added ? formatDate(gameSummary.updated) : 'No Record'}</li>
+              <li><strong>Added:</strong> ${formatDate(gameSummary.added)}</li>
               <li><strong>Rows:</strong> ${rows.toLocaleString('en-US')}</li>
               <li><strong>Formats:</strong> ${escapeHtml(formats.join(', ') || 'None')}</li>
               <li><strong>Creator(s):</strong> ${escapeHtml(creators.join(', ') || 'Unknown creator')}</li>
-              <li><strong>Added:</strong> ${formatDate(gameSummary.added)}</li>
-              <li><strong>Updated:</strong> ${formatDate(gameSummary.updated)}</li>
             </ul>
             <p>This page is a static representation of the same collection data used by the interactive HEN Cheats Collection interface. Verify the Title ID and game version before choosing an entry.</p>
             <p><a href="${escapeHtml(pageUrl)}">Canonical game/version link</a> · <a href="/">Browse all games</a></p>

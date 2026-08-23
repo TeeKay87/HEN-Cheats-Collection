@@ -240,14 +240,16 @@ export function DetailsPanel({ entry, coverUrl, selectedVersion, addedDates, upd
     }
   }
 
-  const addedDisplayDate = useMemo(
-    () => displayDate(dateForGame(addedDates, entry.id, 'earliest')),
+  const addedDate = useMemo(
+    () => dateForGame(addedDates, entry.id, 'earliest'),
     [addedDates, entry.id],
   )
-  const updatedDisplayDate = useMemo(
-    () => displayDate(dateForGame(updatedDates, entry.id, 'latest')),
+  const updatedDate = useMemo(
+    () => dateForGame(updatedDates, entry.id, 'latest'),
     [entry.id, updatedDates],
   )
+  const addedDisplayDate = displayDate(addedDate)
+  const updatedDisplayDate = updatedDate && updatedDate !== addedDate ? displayDate(updatedDate) : null
   const visibleFiles = detail?.files.filter((file) => !isHidden(file)) ?? []
 
   return (
@@ -295,8 +297,8 @@ export function DetailsPanel({ entry, coverUrl, selectedVersion, addedDates, upd
 
           <div className="detail-summary-grid">
             <div className="summary-card"><Icon name="file" /><div><strong>{filesTotal ?? '—'}</strong><span>Files Total</span></div></div>
-            <div className="summary-card"><Icon name="calendar" /><div><strong>{addedDisplayDate ?? '—'}</strong><span>Added</span></div></div>
             <div className="summary-card"><Icon name="calendar" /><div><strong>{updatedDisplayDate ?? '—'}</strong><span>Updated</span></div></div>
+            <div className="summary-card"><Icon name="calendar" /><div><strong>{addedDisplayDate ?? '—'}</strong><span>Added</span></div></div>
           </div>
 
           {downloadError && <div className="notice warning">{downloadError}</div>}

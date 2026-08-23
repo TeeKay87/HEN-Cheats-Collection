@@ -30,15 +30,15 @@ Before choosing a file, confirm that the version you selected is the version you
 
 For a deeper explanation, read [Title IDs and Game Versions](/guides/title-ids-and-versions/).
 
-## 4. Read the version summary
+## 4. Read the game summary
 
-The detail page can show:
+The detail page shows ID-level summary information:
 
-- the number of visible source files;
-- the date the game/version was added when that date is recorded;
-- the date it was updated when that date is recorded.
+- **Files Total**, the number of visible source files across all versions of the Title ID;
+- **Updated**, the latest recorded update date for the Title ID when it differs from Added;
+- **Added**, the earliest recorded date for the Title ID.
 
-A dash or “not recorded” state means HENCC does not currently have that date in its optional public date metadata. It is not an error in the game entry.
+In the interactive view, a dash means the date is not recorded. For Updated, a dash can also mean the latest Updated date is the same as Added, so there is no separate update date to show. This is not an error in the game entry.
 
 ## 5. Inspect the individual source files
 

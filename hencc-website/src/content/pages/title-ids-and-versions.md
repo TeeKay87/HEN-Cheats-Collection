@@ -63,7 +63,7 @@ Switching versions changes the version-specific source data and updates the clea
 
 ## What if Added or Updated is blank?
 
-HENCC can display Added and Updated dates from optional public metadata. If a date is shown as a dash or “not recorded”, the date is simply not present in the corresponding public date map. It does not change the Title ID/version match.
+HENCC derives these summary dates per Title ID from optional public metadata. Added is the earliest recorded date for the ID. Updated is the latest recorded update date, but the interactive summary shows a dash when Updated is missing or when it is identical to Added because there is no separate update date to present. This does not change the Title ID/version match.
 
 ## How to choose an entry
 

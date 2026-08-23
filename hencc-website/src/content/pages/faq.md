@@ -54,7 +54,7 @@ Creator names are attached to the source files represented by the exported metad
 
 ## What if Added or Updated shows a dash?
 
-Those dates come from optional public date maps. A dash means that HENCC does not currently have a date recorded for that game/version in the corresponding map. The source files can still be present and valid collection entries.
+The detail summary uses ID-level dates from optional public date maps. Added shows the earliest recorded date for the Title ID. Updated shows the latest recorded update date only when it differs from Added. A dash therefore means either that the corresponding date is not recorded, or—in the Updated card—that the latest Updated date is the same as Added and there is no separate update date to show. The source files can still be present and valid collection entries.
 
 ## Does HENCC guarantee every cheat works?
 
