@@ -51,7 +51,7 @@ HENCC's local Downloaded marker does not contain the contents of the downloaded 
 
 ## Report Issue links
 
-The Report Issue action opens GitHub with a pre-filled issue template for the selected game/version/source. No issue is submitted merely by opening the link. If you choose to submit the issue, the information you submit is handled by GitHub and becomes subject to GitHub's account/privacy behavior and the visibility of the repository's issue tracker.
+The Report Issue action opens GitHub with the repository's `cheat_issue.yml` Issue Form selected and its Cheat information field pre-filled for the selected game/version/source. No issue is submitted merely by opening the link. If you choose to submit the issue, the information you submit is handled by GitHub and becomes subject to GitHub's account/privacy behavior and the visibility of the repository's issue tracker.
 
 Review the issue text before submitting it and avoid including personal information that is not necessary to describe the collection problem.
 

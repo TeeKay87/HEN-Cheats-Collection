@@ -4,7 +4,7 @@ HEN Cheats Collection is an independent project created, curated and maintained 
 
 ## Report a problem with a cheat source
 
-For a problem tied to a specific game/version/source file, use the **Report Issue** action inside that source's expanded detail view. HENCC generates a GitHub issue with the game ID, version and source identification already included.
+For a problem tied to a specific game/version/source file, use the **Report Issue** action inside that source's expanded detail view. HENCC opens a pre-filled GitHub Cheat issue form with the game ID, version, internal file, creator information, exact game link and source identification already included. You complete the affected cheat(s), observed behavior and any additional information on GitHub.
 
 That workflow is preferred because it reduces ambiguity and links the report back to the exact collection entry.
 

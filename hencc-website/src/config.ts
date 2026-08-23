@@ -1,5 +1,6 @@
 export const CHEAT_DOWNLOAD_BASE_URL = 'https://raw.githubusercontent.com/TeeKay87/HEN-Cheats-Collection/master/cheats'
 export const CHEAT_NEW_ISSUE_URL = 'https://github.com/TeeKay87/HEN-Cheats-Collection/issues/new'
+export const CHEAT_ISSUE_TEMPLATE = 'cheat_issue.yml'
 export const PUBLIC_SITE_URL = 'https://hencheats.vercel.app'
 
 // Central cover-image configuration.

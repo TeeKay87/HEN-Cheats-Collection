@@ -80,7 +80,7 @@ Both can be reported, but describing which category you observed helps maintenan
 
 ## 12. Report the exact source
 
-Use the Report Issue action on the expanded source whenever possible. HENCC generates a pre-filled report containing:
+Use the Report Issue action on the expanded source whenever possible. HENCC opens the GitHub Cheat issue form and pre-fills its Cheat information with:
 
 - game ID;
 - version;

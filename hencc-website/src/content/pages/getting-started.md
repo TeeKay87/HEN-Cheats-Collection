@@ -89,9 +89,9 @@ If you are discussing a problem with someone else, share the direct game/version
 
 ## 11. Report a problem with a source
 
-Expanded sources provide a **Report Issue** workflow that opens a pre-filled GitHub issue for the exact game, version and source file. The generated report includes identifying information so TeeKay87 can tell which source you mean.
+Expanded sources provide a **Report Issue** workflow that opens the repository's pre-filled GitHub Cheat issue form for the exact game, version and source file. HENCC supplies the identifying metadata, while you fill in the affected cheat(s), what happens and any optional additional information.
 
-Before reporting, check the existing Issue state, Notes, Title ID and version. If the problem remains, describe what happened as clearly as possible without removing the generated identifying information from the report.
+Before reporting, check the existing Issue state, Notes, Title ID and version. If the problem remains, describe what happened as clearly as possible and leave the automatically generated Cheat information intact.
 
 ## Recommended workflow
 

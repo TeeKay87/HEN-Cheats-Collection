@@ -195,6 +195,7 @@ const runVerification = async () => {
     readFile(path.join(projectRoot, 'index.html'), 'utf8'),
   ])
   const PUBLIC_SITE_URL = readStringConstant(configSource, 'PUBLIC_SITE_URL').replace(/\/$/, '')
+  const CHEAT_ISSUE_TEMPLATE = readStringConstant(configSource, 'CHEAT_ISSUE_TEMPLATE')
   const COVER_DETAIL_SIZE = readNumberConstant(configSource, 'COVER_DETAIL_SIZE')
   const COVER_FALLBACK_URL = readStringConstant(configSource, 'COVER_FALLBACK_URL')
 
@@ -497,6 +498,16 @@ const runVerification = async () => {
   check(detailsPanelSource.includes('data/game-summaries.json'), 'DetailsPanel must consume the generated ID-level summary contract.')
   check(!detailsPanelSource.includes('addedDates') && !detailsPanelSource.includes('updatedDates'), 'DetailsPanel must not regress to per-version date-map props.')
   check(detailsPanelSource.indexOf('<span>Files Total</span>') < detailsPanelSource.indexOf('<span>Updated</span>') && detailsPanelSource.indexOf('<span>Updated</span>') < detailsPanelSource.indexOf('<span>Added</span>'), 'Interactive summary order must remain Files Total, Updated, Added.')
+  const reportIssueParams = detailsPanelSource.match(/const params = new URLSearchParams\(\{([\s\S]*?)\}\)/)?.[1] ?? ''
+  check(CHEAT_ISSUE_TEMPLATE === 'cheat_issue.yml', 'GitHub cheat reporting must target the supported cheat_issue.yml Issue Form.')
+  check(detailsPanelSource.includes('const issueTitle = `Cheat Issue: ${entry.id} | ${version} | ${file.sourceId} | ${entry.title}`'), 'Report Issue title must retain GameID, version, SourceID and GameTitle in the established order.')
+  check(reportIssueParams.includes('template: CHEAT_ISSUE_TEMPLATE'), 'Report Issue must explicitly select the configured GitHub Issue Form template.')
+  check(reportIssueParams.includes('title: issueTitle'), 'Report Issue must prefill the established source-specific issue title.')
+  check(reportIssueParams.includes('cheat_information: cheatInformation'), 'Report Issue must prefill the cheat_information Issue Form field.')
+  check(!/\b(?:body|affected_cheats|problem|additional_information)\s*:/.test(reportIssueParams), 'Report Issue must not send the legacy body or prefill reporter-owned Issue Form response fields.')
+  check(!detailsPanelSource.includes('const issueBody ='), 'Report Issue must not regress to the legacy free-text issue-body builder.')
+  check(detailsPanelSource.includes('- **Game:** ${entry.title}') && detailsPanelSource.includes('- **File:** \`${file.file}\`') && detailsPanelSource.includes('- **Creator(s):** ${creators}') && detailsPanelSource.includes('- **Link:** [${gameUrl}](${gameUrl})'), 'Report Issue cheat information must retain Game, internal File, Creator(s) and the exact-version Markdown link.')
+  check(detailsPanelSource.includes('<!-- HENCC: ${entry.id}/${version}/source:${file.sourceId} -->'), 'Report Issue cheat information must retain the hidden HENCC source identity marker.')
 
   check(vercelConfig.outputDirectory === 'dist', 'vercel.json outputDirectory must be dist.')
   check(!('rewrites' in vercelConfig) && !('routes' in vercelConfig), 'vercel.json must not add a SPA catch-all that would turn invalid routes into soft 200 pages.')

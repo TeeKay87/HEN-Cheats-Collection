@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import Markdown from 'markdown-to-jsx/react'
 import type { MouseEvent } from 'react'
 import { Icon } from './Icon'
-import { buildCoverImageUrl, CHEAT_DOWNLOAD_BASE_URL, CHEAT_NEW_ISSUE_URL, COVER_DETAIL_SIZE, PUBLIC_SITE_URL } from '../config'
+import { buildCoverImageUrl, CHEAT_DOWNLOAD_BASE_URL, CHEAT_ISSUE_TEMPLATE, CHEAT_NEW_ISSUE_URL, COVER_DETAIL_SIZE, PUBLIC_SITE_URL } from '../config'
 import { compareVersions, displayDate, formatLabel, isHidden, makeGamePath, platformFor } from '../lib/catalog'
 import { fetchJsonCached } from '../lib/dataClient'
 import type { CatalogEntry, GameSummariesResponse, GameSummary, GameVersionResponse, SourceFile } from '../types/catalog'
@@ -163,29 +163,18 @@ export function DetailsPanel({ entry, coverUrl, selectedVersion, favorite, onClo
     const creators = file.creators.join(', ')
     const gameUrl = new URL(makeGamePath(entry.id, version, baseUrl), PUBLIC_SITE_URL).toString().replace(/\/$/, '')
     const issueTitle = `Cheat Issue: ${entry.id} | ${version} | ${file.sourceId} | ${entry.title}`
-    const issueBody = `## Cheat information
-
-- **Game:** ${entry.title}
+    const cheatInformation = `- **Game:** ${entry.title}
 - **File:** \`${file.file}\`
 - **Creator(s):** ${creators}
 - **Link:** [${gameUrl}](${gameUrl})
 
-<!-- HENCC: ${entry.id}/${version}/source:${file.sourceId} -->
+<!-- HENCC: ${entry.id}/${version}/source:${file.sourceId} -->`
 
-## Problem
-
-**Which cheat(s) have problems?**
-
-
-**What happens when the cheat is enabled?**
-
-
-## Additional information
-
-
-`
-
-    const params = new URLSearchParams({ title: issueTitle, body: issueBody })
+    const params = new URLSearchParams({
+      template: CHEAT_ISSUE_TEMPLATE,
+      title: issueTitle,
+      cheat_information: cheatInformation,
+    })
     return `${CHEAT_NEW_ISSUE_URL}?${params.toString()}`
   }
 

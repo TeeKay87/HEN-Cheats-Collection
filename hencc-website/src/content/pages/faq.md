@@ -62,7 +62,7 @@ No. Presence in the catalog is not a guarantee of universal compatibility. Title
 
 ## How do I report a problem?
 
-Open the game/version, expand the affected source and use its Report Issue action. The generated GitHub issue includes identifying information for the game, version and source so TeeKay87 can tell exactly which file you mean.
+Open the game/version, expand the affected source and use its Report Issue action. The pre-filled GitHub Cheat issue form includes identifying information for the game, version and source so TeeKay87 can tell exactly which file you mean. You then fill in which cheat(s) are affected and what happens.
 
 ## Does HENCC explain how to jailbreak a PS4 or PS5?
 
