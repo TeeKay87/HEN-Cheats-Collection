@@ -145,6 +145,18 @@ const platformFor = (id) => {
 
 const formatDate = (value) => value ? escapeHtml(value) : 'Not recorded'
 
+const dateForGame = (dates, id, mode) => {
+  const prefix = `${id}-`
+  let selected
+
+  for (const [key, date] of Object.entries(dates ?? {})) {
+    if (!key.startsWith(prefix)) continue
+    if (!selected || (mode === 'earliest' ? date < selected : date > selected)) selected = date
+  }
+
+  return selected
+}
+
 const renderHomepageStaticContent = () => {
   const visibleEntries = (catalog.entries ?? []).filter((entry) => !isHidden(entry))
   const games = visibleEntries.length
@@ -208,8 +220,7 @@ const renderSource = (file) => {
   </article>`
 }
 
-const renderGameStaticContent = ({ entry, version, visibleFiles, pageUrl }) => {
-  const key = `${entry.id}-${version.version}`
+const renderGameStaticContent = ({ entry, version, visibleFiles, pageUrl, gameSummary }) => {
   const creators = Array.from(new Set(visibleFiles.flatMap((file) => Array.isArray(file.creators) ? file.creators : []).filter(Boolean)))
   const formats = Array.from(new Set(visibleFiles.map((file) => String(file.format ?? '').toUpperCase()).filter(Boolean)))
   const rows = visibleFiles.reduce((sum, file) => sum + (Array.isArray(file.cheats) ? file.cheats.length : 0), 0)
@@ -228,12 +239,12 @@ const renderGameStaticContent = ({ entry, version, visibleFiles, pageUrl }) => {
               <li><strong>Platform:</strong> ${escapeHtml(platformFor(entry.id))}</li>
               <li><strong>Title ID:</strong> ${escapeHtml(entry.id)}</li>
               <li><strong>Version:</strong> ${escapeHtml(version.version)}</li>
-              <li><strong>Files:</strong> ${visibleFiles.length.toLocaleString('en-US')}</li>
+              <li><strong>Files Total:</strong> ${gameSummary.filesTotal.toLocaleString('en-US')}</li>
               <li><strong>Rows:</strong> ${rows.toLocaleString('en-US')}</li>
               <li><strong>Formats:</strong> ${escapeHtml(formats.join(', ') || 'None')}</li>
               <li><strong>Creator(s):</strong> ${escapeHtml(creators.join(', ') || 'Unknown creator')}</li>
-              <li><strong>Added:</strong> ${formatDate(added[key])}</li>
-              <li><strong>Updated:</strong> ${formatDate(updated[key])}</li>
+              <li><strong>Added:</strong> ${formatDate(gameSummary.added)}</li>
+              <li><strong>Updated:</strong> ${formatDate(gameSummary.updated)}</li>
             </ul>
             <p>This page is a static representation of the same collection data used by the interactive HEN Cheats Collection interface. Verify the Title ID and game version before choosing an entry.</p>
             <p><a href="${escapeHtml(pageUrl)}">Canonical game/version link</a> · <a href="/">Browse all games</a></p>
@@ -427,10 +438,19 @@ for (const entry of catalog.entries ?? []) {
   )
   const cover = /^https?:\/\//i.test(coverCandidate) ? coverCandidate : COVER_FALLBACK_URL
 
-  for (const version of entry.versions ?? []) {
+  const versionDetails = await Promise.all((entry.versions ?? []).map(async (version) => {
     const detailPath = path.join(dataRoot, 'games', entry.id, `${version.version}.json`)
     const detail = await readJson(detailPath)
     const visibleFiles = (detail.files ?? []).filter((file) => !isHidden(file))
+    return { version, visibleFiles }
+  }))
+  const gameSummary = {
+    filesTotal: versionDetails.reduce((sum, item) => sum + item.visibleFiles.length, 0),
+    added: dateForGame(added, entry.id, 'earliest'),
+    updated: dateForGame(updated, entry.id, 'latest'),
+  }
+
+  for (const { version, visibleFiles } of versionDetails) {
     const hasSubstantiveContent = visibleFiles.some((file) => Array.isArray(file.cheats) && file.cheats.length > 0)
 
     const pageTitle = `${entry.title} v${version.version} | HEN Cheats Collection`
@@ -467,7 +487,7 @@ for (const entry of catalog.entries ?? []) {
       about: { '@type': 'VideoGame', name: entry.title, gamePlatform: platformFor(entry.id) },
       image: cover,
     })
-    html = replaceRootContent(html, renderGameStaticContent({ entry, version, visibleFiles, pageUrl }))
+    html = replaceRootContent(html, renderGameStaticContent({ entry, version, visibleFiles, pageUrl, gameSummary }))
 
     const routeDir = path.join(distRoot, 'game', entry.id, version.version)
     await mkdir(routeDir, { recursive: true })

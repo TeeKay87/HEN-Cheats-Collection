@@ -21,6 +21,18 @@ interface DetailsPanelProps {
 const baseUrl = import.meta.env.BASE_URL
 const DOWNLOADED_STORAGE_KEY = 'hencc:downloaded:v1'
 
+const dateForGame = (dates: Record<string, string>, id: string, mode: 'earliest' | 'latest') => {
+  const prefix = `${id}-`
+  let selected: string | undefined
+
+  for (const [key, date] of Object.entries(dates)) {
+    if (!key.startsWith(prefix)) continue
+    if (!selected || (mode === 'earliest' ? date < selected : date > selected)) selected = date
+  }
+
+  return selected
+}
+
 const loadDownloadedFiles = () => {
   try {
     const stored = JSON.parse(localStorage.getItem(DOWNLOADED_STORAGE_KEY) ?? '[]') as string[]
@@ -45,6 +57,41 @@ export function DetailsPanel({ entry, coverUrl, selectedVersion, addedDates, upd
   const [expandedFiles, setExpandedFiles] = useState<Set<string>>(new Set())
   const [downloadError, setDownloadError] = useState<string | null>(null)
   const [downloadedFiles, setDownloadedFiles] = useState<Set<string>>(loadDownloadedFiles)
+  const [filesTotal, setFilesTotal] = useState<number | null>(null)
+
+  useEffect(() => {
+    const controller = new AbortController()
+    let current = true
+    setFilesTotal(null)
+
+    Promise.all(
+      entry.versions.map((version) =>
+        fetch(`${baseUrl}data/games/${encodeURIComponent(entry.id)}/${encodeURIComponent(version.version)}.json`, { signal: controller.signal })
+          .then((response) => {
+            if (!response.ok) throw new Error(`HTTP ${response.status}`)
+            return response.json() as Promise<GameVersionResponse>
+          }),
+      ),
+    )
+      .then((details) => {
+        if (!current) return
+        const total = details.reduce(
+          (sum, gameVersion) => sum + (gameVersion.files ?? []).filter((file) => !isHidden(file)).length,
+          0,
+        )
+        setFilesTotal(total)
+      })
+      .catch((reason: unknown) => {
+        if (!current || (reason instanceof DOMException && reason.name === 'AbortError')) return
+        console.warn(`Could not load ID-level file total for ${entry.id}.`, reason)
+        setFilesTotal(null)
+      })
+
+    return () => {
+      current = false
+      controller.abort()
+    }
+  }, [entry.id, entry.versions])
 
   useEffect(() => {
     if (!activeVersion) return
@@ -193,10 +240,14 @@ export function DetailsPanel({ entry, coverUrl, selectedVersion, addedDates, upd
     }
   }
 
-  const added = activeVersion ? addedDates[`${entry.id}-${activeVersion}`] : undefined
-  const updated = activeVersion ? updatedDates[`${entry.id}-${activeVersion}`] : undefined
-  const addedDisplayDate = displayDate(added)
-  const updatedDisplayDate = displayDate(updated)
+  const addedDisplayDate = useMemo(
+    () => displayDate(dateForGame(addedDates, entry.id, 'earliest')),
+    [addedDates, entry.id],
+  )
+  const updatedDisplayDate = useMemo(
+    () => displayDate(dateForGame(updatedDates, entry.id, 'latest')),
+    [entry.id, updatedDates],
+  )
   const visibleFiles = detail?.files.filter((file) => !isHidden(file)) ?? []
 
   return (
@@ -243,9 +294,9 @@ export function DetailsPanel({ entry, coverUrl, selectedVersion, addedDates, upd
           </div>
 
           <div className="detail-summary-grid">
-            <div className="summary-card"><Icon name="file" /><div><strong>{loading || error ? '—' : visibleFiles.length}</strong><span>Files</span></div></div>
+            <div className="summary-card"><Icon name="file" /><div><strong>{filesTotal ?? '—'}</strong><span>Files Total</span></div></div>
             <div className="summary-card"><Icon name="calendar" /><div><strong>{addedDisplayDate ?? '—'}</strong><span>Added</span></div></div>
-            <div className="summary-card"><Icon name="calendar" /><div><strong>{updatedDisplayDate && updatedDisplayDate !== addedDisplayDate ? updatedDisplayDate : '—'}</strong><span>Updated</span></div></div>
+            <div className="summary-card"><Icon name="calendar" /><div><strong>{updatedDisplayDate ?? '—'}</strong><span>Updated</span></div></div>
           </div>
 
           {downloadError && <div className="notice warning">{downloadError}</div>}
