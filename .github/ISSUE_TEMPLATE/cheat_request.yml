@@ -1,0 +1,71 @@
+name: Cheat Request
+description: Cheat requests are not accepted
+title: "[Cheat Request] "
+labels: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Cheat requests are not accepted
+
+        **I am not a cheat developer and I do not create cheats on request.**
+
+        HEN Cheats Collection is a collection and catalog of cheat files created by their respective creators. I maintain the collection, website, metadata, and organization, but I do not develop cheats for requested games.
+
+        **Submitting a cheat request here will not make the requested cheat get created or added. Cheat requests may be ignored, closed without further response, or removed.**
+
+        If you are reporting a problem with a cheat file that already exists in HEN Cheats Collection, use the **Cheat Issue** form instead.
+
+  - type: checkboxes
+    id: acknowledgement
+    attributes:
+      label: Before submitting
+      options:
+        - label: I understand that TeeKay87 is not a cheat developer and does not take cheat requests.
+          required: true
+        - label: I understand that this request may be ignored, closed without further response, or removed.
+          required: true
+
+  - type: input
+    id: game
+    attributes:
+      label: Game
+      placeholder: Game title
+    validations:
+      required: true
+
+  - type: input
+    id: title_id
+    attributes:
+      label: Title ID
+      description: Enter the Title ID if you know it.
+      placeholder: CUSA00000 / PPSA00000
+    validations:
+      required: false
+
+  - type: input
+    id: version
+    attributes:
+      label: Game version
+      description: Enter the game/update version if you know it.
+      placeholder: "01.00"
+    validations:
+      required: false
+
+  - type: textarea
+    id: request
+    attributes:
+      label: Request
+      description: Describe the cheat you are requesting.
+      placeholder: Describe the requested cheat.
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_information
+    attributes:
+      label: Additional information
+      description: Optional additional context.
+    validations:
+      required: false

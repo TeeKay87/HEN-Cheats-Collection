@@ -1,0 +1,56 @@
+name: Cheat issue
+description: Report a problem with a cheat in HEN Cheats Collection
+title: "Cheat Issue: "
+labels: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The cheat information below is filled in automatically by HEN Cheats Collection.
+        Please do not change it.
+
+  - type: textarea
+    id: cheat_information
+    attributes:
+      label: Cheat information
+      description: Automatically filled by hencheats.vercel.app. Please do not edit this information.
+      placeholder: Cheat information should be filled automatically when this form is opened from HEN Cheats Collection.
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Problem
+
+  - type: textarea
+    id: affected_cheats
+    attributes:
+      label: Which cheat(s) have problems?
+      description: Enter the name of the cheat or cheats that are not working correctly.
+      placeholder: Example: Infinite Health
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happens when the cheat is enabled?
+      description: Describe what happens when you enable the affected cheat.
+      placeholder: Describe the problem as clearly as possible.
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Additional information
+
+  - type: textarea
+    id: additional_information
+    attributes:
+      label: Additional information
+      description: Add anything else that may help identify the problem. Screenshots can also be attached here.
+    validations:
+      required: false

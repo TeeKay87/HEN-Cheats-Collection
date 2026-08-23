@@ -1,0 +1,56 @@
+name: Contact
+description: Contact the maintainer of HEN Cheats Collection
+title: "[Contact] "
+labels: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for general questions or other matters related to HEN Cheats Collection.
+
+        **GitHub issues are public. Do not include passwords, private account information, personal addresses, or other sensitive information.**
+
+        If you are reporting a problem with a specific cheat file, please use the **Cheat Issue** form instead.
+
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Topic
+      description: What is your message about?
+      options:
+        - General question
+        - Website
+        - Collection data
+        - Creator credit / attribution
+        - Copyright / removal request
+        - Collaboration
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: subject
+    attributes:
+      label: Subject
+      description: Give your message a short descriptive subject.
+      placeholder: Short description of what you want to contact me about
+    validations:
+      required: true
+
+  - type: textarea
+    id: message
+    attributes:
+      label: Message
+      description: Describe what you want to contact me about.
+      placeholder: Write your message here.
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_information
+    attributes:
+      label: Additional information
+      description: Add links, screenshots, references, or anything else that may be relevant.
+    validations:
+      required: false
