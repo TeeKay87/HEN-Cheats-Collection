@@ -506,7 +506,7 @@ const runVerification = async () => {
   check(reportIssueParams.includes('cheat_information: cheatInformation'), 'Report Issue must prefill the cheat_information Issue Form field.')
   check(!/\b(?:body|affected_cheats|problem|additional_information)\s*:/.test(reportIssueParams), 'Report Issue must not send the legacy body or prefill reporter-owned Issue Form response fields.')
   check(!detailsPanelSource.includes('const issueBody ='), 'Report Issue must not regress to the legacy free-text issue-body builder.')
-  check(detailsPanelSource.includes('- **Game:** ${entry.title}') && detailsPanelSource.includes('- **File:** \`${file.file}\`') && detailsPanelSource.includes('- **Creator(s):** ${creators}') && detailsPanelSource.includes('- **Link:** [${gameUrl}](${gameUrl})'), 'Report Issue cheat information must retain Game, internal File, Creator(s) and the exact-version Markdown link.')
+  check(detailsPanelSource.includes('- **Game:** ${entry.title}') && detailsPanelSource.includes('- **File:** \\`${file.file}\\`') && detailsPanelSource.includes('- **Creator(s):** ${creators}') && detailsPanelSource.includes('- **Link:** [${gameUrl}](${gameUrl})'), 'Report Issue cheat information must retain Game, internal File, Creator(s) and the exact-version Markdown link.')
   check(detailsPanelSource.includes('<!-- HENCC: ${entry.id}/${version}/source:${file.sourceId} -->'), 'Report Issue cheat information must retain the hidden HENCC source identity marker.')
 
   check(vercelConfig.outputDirectory === 'dist', 'vercel.json outputDirectory must be dist.')
