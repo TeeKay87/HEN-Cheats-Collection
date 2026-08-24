@@ -495,6 +495,25 @@ const runVerification = async () => {
   check(mainSource.includes("import('./EditorialApp')") && mainSource.includes("import('./App')"), 'main.tsx must route to split editorial/catalog entry chunks.')
   check(appSource.includes('lazy(async () =>') && appSource.includes("import('./components/DetailsPanel')"), 'Catalog app must lazy-load DetailsPanel.')
   check(appSource.includes('<DetailsPanelLoadingFallback') && !appSource.includes('<Suspense fallback={null}>'), 'Lazy DetailsPanel must provide an immediate modal loading fallback instead of a blank Suspense state.')
+  const sortSelectSource = appSource.match(/<label className="select-wrap sort-select">([\s\S]*?)<\/label>/)?.[1] ?? ''
+  const sortOptions = [...sortSelectSource.matchAll(/<option value="([^"]+)">([^<]+)<\/option>/g)].map((match) => [match[1], match[2]])
+  check(
+    JSON.stringify(sortOptions) === JSON.stringify([
+      ['featured', 'Featured'],
+      ['newest', 'Recently added'],
+      ['updated', 'Recently updated'],
+      ['title', 'Title A–Z'],
+      ['title-desc', 'Title Z–A'],
+      ['versions', 'Most versions'],
+      ['files', 'Most files'],
+    ]),
+    'Catalog Sort dropdown must retain the seven supported options in the established order.',
+  )
+  check(appSource.includes('fetchJsonCached<GameSummariesResponse>') && appSource.includes('Could not load catalog summary data for Updated/Files sorting.'), 'Catalog app must background-load the generated ID-summary contract without making catalog startup depend on it.')
+  check(appSource.includes("if (sort === 'updated')") && appSource.includes('summaries?.games[a.id]?.updated') && appSource.includes('summaries?.games[b.id]?.updated'), 'Recently updated must sort by generated ID-level Updated values.')
+  check(appSource.includes("if (sort === 'files')") && appSource.includes('summaries?.games[a.id]?.filesTotal') && appSource.includes('summaries?.games[b.id]?.filesTotal'), 'Most files must sort by generated ID-level Files Total values.')
+  check(appSource.includes("if (sort === 'title-desc') return compareTitles(b, a)"), 'Title Z–A must reverse the same title comparator used for Title A–Z.')
+  check(appSource.includes('if (a.pinned !== b.pinned) return a.pinned ? -1 : 1'), 'Featured sort must continue to place pinned games before non-pinned games.')
   check(detailsPanelSource.includes('data/game-summaries.json'), 'DetailsPanel must consume the generated ID-level summary contract.')
   check(!detailsPanelSource.includes('addedDates') && !detailsPanelSource.includes('updatedDates'), 'DetailsPanel must not regress to per-version date-map props.')
   check(detailsPanelSource.indexOf('<span>Files Total</span>') < detailsPanelSource.indexOf('<span>Updated</span>') && detailsPanelSource.indexOf('<span>Updated</span>') < detailsPanelSource.indexOf('<span>Added</span>'), 'Interactive summary order must remain Files Total, Updated, Added.')

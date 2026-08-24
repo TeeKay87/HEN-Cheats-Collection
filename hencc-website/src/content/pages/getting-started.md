@@ -8,7 +8,7 @@ The main search field accepts game titles, Title IDs and creator names. Search i
 
 Examples of useful searches include a game name, a `CUSA` or `PPSA` identifier, or the name of a creator whose files you want to find. Results update while you type, while the shareable `?q=` URL is updated after typing settles so the browser history is not filled with one entry per keystroke.
 
-You can also narrow results with the platform and format filters, then sort the catalog by featured order, recently added date, title or number of versions.
+You can also narrow results with the platform and format filters, then sort the catalog by Featured, Recently added, Recently updated, Title A–Z, Title Z–A, Most versions or Most files.
 
 ## 2. Open the correct game
 

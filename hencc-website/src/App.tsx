@@ -8,10 +8,10 @@ import { ADSENSE_CATALOG_INTERVAL, ADSENSE_ENABLED, buildCoverImageUrl, COVER_DE
 import { catalogSearchScore, compareVersions, isHidden, makeGamePath, normalizeSearch, parseGamePath, parseHash, platformFor } from './lib/catalog'
 import { fetchJsonCached, fetchOptionalJsonCached } from './lib/dataClient'
 import { HOME_DESCRIPTION, HOME_SOCIAL_DESCRIPTION, HOME_SOCIAL_IMAGE, HOME_SOCIAL_IMAGE_ALT, HOME_SOCIAL_TITLE, HOME_TITLE, platformNameForSocial, removeMeta, setMeta, syncPageUrls, syncRobotsMeta, syncStructuredData } from './lib/seo'
-import type { AddedResponse, CatalogEntry, CatalogResponse, CoversResponse, Platform, SiteStatsResponse } from './types/catalog'
+import type { AddedResponse, CatalogEntry, CatalogResponse, CoversResponse, GameSummariesResponse, Platform, SiteStatsResponse } from './types/catalog'
 
 type ViewMode = 'all' | 'favorites'
-type SortMode = 'featured' | 'title' | 'newest' | 'versions'
+type SortMode = 'featured' | 'newest' | 'updated' | 'title' | 'title-desc' | 'versions' | 'files'
 type PlatformFilter = 'All' | Platform
 
 type AppData = {
@@ -97,6 +97,7 @@ function App() {
   const [platform, setPlatform] = useState<PlatformFilter>('All')
   const [format, setFormat] = useState('All')
   const [sort, setSort] = useState<SortMode>('featured')
+  const [summaries, setSummaries] = useState<GameSummariesResponse | null>(null)
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE)
   const [selected, setSelected] = useState<{ entry: CatalogEntry; version?: string } | null>(null)
   const [favorites, setFavorites] = useState<Set<string>>(() => {
@@ -208,6 +209,18 @@ function App() {
   }, [])
 
   useEffect(() => {
+    if (!data || summaries) return
+    const controller = new AbortController()
+    fetchJsonCached<GameSummariesResponse>(`${baseUrl}data/game-summaries.json`, controller.signal)
+      .then(setSummaries)
+      .catch((reason: unknown) => {
+        if (reason instanceof DOMException && reason.name === 'AbortError') return
+        console.warn('Could not load catalog summary data for Updated/Files sorting.', reason)
+      })
+    return () => controller.abort()
+  }, [data, sort, summaries])
+
+  useEffect(() => {
     if (!data) return
     const timer = window.setTimeout(() => { void loadDetailsPanel() }, 1500)
     return () => window.clearTimeout(timer)
@@ -239,18 +252,31 @@ function App() {
       return [{ entry, searchScore }]
     })
 
+    const compareTitles = (a: CatalogEntry, b: CatalogEntry) => a.title.localeCompare(b.title, undefined, { sensitivity: 'base' })
+    const compareFallbackTitles = (a: CatalogEntry, b: CatalogEntry) => a.title.localeCompare(b.title)
     const compareBySelectedSort = (a: CatalogEntry, b: CatalogEntry) => {
-      if (sort === 'title') return a.title.localeCompare(b.title, undefined, { sensitivity: 'base' })
+      if (sort === 'title') return compareTitles(a, b)
+      if (sort === 'title-desc') return compareTitles(b, a)
       if (sort === 'newest') {
         const aa = latestAddedByGame.get(a.id) ?? ''
         const bb = latestAddedByGame.get(b.id) ?? ''
-        return bb.localeCompare(aa) || a.title.localeCompare(b.title)
+        return bb.localeCompare(aa) || compareFallbackTitles(a, b)
       }
-      if (sort === 'versions') return b.versions.length - a.versions.length || a.title.localeCompare(b.title)
+      if (sort === 'updated') {
+        const aa = summaries?.games[a.id]?.updated ?? ''
+        const bb = summaries?.games[b.id]?.updated ?? ''
+        return bb.localeCompare(aa) || compareFallbackTitles(a, b)
+      }
+      if (sort === 'versions') return b.versions.length - a.versions.length || compareFallbackTitles(a, b)
+      if (sort === 'files') {
+        const aa = summaries?.games[a.id]?.filesTotal ?? 0
+        const bb = summaries?.games[b.id]?.filesTotal ?? 0
+        return bb - aa || compareFallbackTitles(a, b)
+      }
       if (a.pinned !== b.pinned) return a.pinned ? -1 : 1
       const aa = latestAddedByGame.get(a.id) ?? ''
       const bb = latestAddedByGame.get(b.id) ?? ''
-      return bb.localeCompare(aa) || a.title.localeCompare(b.title)
+      return bb.localeCompare(aa) || compareFallbackTitles(a, b)
     }
 
     scoredEntries.sort((a, b) => {
@@ -263,7 +289,7 @@ function App() {
     })
 
     return scoredEntries.map(({ entry }) => entry)
-  }, [data, favorites, format, latestAddedByGame, platform, query, sort, view])
+  }, [data, favorites, format, latestAddedByGame, platform, query, sort, summaries, view])
 
   useEffect(() => setVisibleCount(PAGE_SIZE), [query, view, platform, format, sort])
 
@@ -588,8 +614,11 @@ function App() {
                 <select value={sort} onChange={(event: ChangeEvent<HTMLSelectElement>) => setSort(event.target.value as SortMode)}>
                   <option value="featured">Featured</option>
                   <option value="newest">Recently added</option>
+                  <option value="updated">Recently updated</option>
                   <option value="title">Title A–Z</option>
+                  <option value="title-desc">Title Z–A</option>
                   <option value="versions">Most versions</option>
+                  <option value="files">Most files</option>
                 </select>
                 <Icon name="chevronDown" />
               </label>
