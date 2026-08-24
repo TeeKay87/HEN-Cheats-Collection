@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-08-22T08:38:54Z",
+  "generatedUtc": "2026-08-24T09:03:36Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -37889,6 +37889,15 @@
       "versions": [
         {
           "version": "01.000.020",
+          "creators": [
+            "Celogamez"
+          ],
+          "formats": [
+            "mc4"
+          ]
+        },
+        {
+          "version": "01.021.003",
           "creators": [
             "Celogamez"
           ],

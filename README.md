@@ -122,6 +122,7 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-08-24 | ADDED | PPSA20447 | 01.021.003 | [The First Berserker: Khazan](https://hencheats.vercel.app/game/PPSA20447/01.021.003) |
 | 2026-08-22 | ADDED | PPSA17599 | 01.500.300 | [Clair Obscur: Expedition 33](https://hencheats.vercel.app/game/PPSA17599/01.500.300) |
 | 2026-08-22 | ADDED | PPSA09790 | 01.010.000 | [Dragon Ball FighterZ](https://hencheats.vercel.app/game/PPSA09790/01.010.000) |
 | 2026-08-22 | UPDATE | PPSA01870 | 01.000.013 | [Far Cry 6](https://hencheats.vercel.app/game/PPSA01870/01.000.013) |
