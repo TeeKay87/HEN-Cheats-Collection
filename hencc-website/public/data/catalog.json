@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-08-24T09:03:36Z",
+  "generatedUtc": "2026-08-25T14:34:01Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -37650,6 +37650,40 @@
       "versions": [
         {
           "version": "01.030.000",
+          "creators": [
+            "Yharnam"
+          ],
+          "formats": [
+            "mc4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PPSA17942",
+      "title": "Dragon Quest VII Reimagined",
+      "pinned": false,
+      "hidden": false,
+      "versions": [
+        {
+          "version": "01.001.000",
+          "creators": [
+            "Yharnam"
+          ],
+          "formats": [
+            "mc4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PPSA17943",
+      "title": "Dragon Quest VII Reimagined",
+      "pinned": false,
+      "hidden": false,
+      "versions": [
+        {
+          "version": "01.001.000",
           "creators": [
             "Yharnam"
           ],

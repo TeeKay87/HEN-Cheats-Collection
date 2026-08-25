@@ -122,6 +122,13 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-08-25 | ADDED | PPSA17942 | 01.001.000 | [Dragon Quest VII Reimagined](https://hencheats.vercel.app/game/PPSA17942/01.001.000) |
+| 2026-08-25 | ADDED | PPSA17943 | 01.001.000 | [Dragon Quest VII Reimagined](https://hencheats.vercel.app/game/PPSA17943/01.001.000) |
+| 2026-08-25 | UPDATE | PPSA03977 | 04.000.000 | [The Witcher 3: Wild Hunt: Complete Edition](https://hencheats.vercel.app/game/PPSA03977/04.000.000) |
+| 2026-08-25 | UPDATE | PPSA07411 | 01.100.000 | [Resident Evil 4](https://hencheats.vercel.app/game/PPSA07411/01.100.000) |
+| 2026-08-25 | UPDATE | PPSA07412 | 01.000.000 | [Resident Evil 4](https://hencheats.vercel.app/game/PPSA07412/01.000.000) |
+| 2026-08-25 | UPDATE | PPSA08260 | 01.003.001 | [Star Wars Outlaws](https://hencheats.vercel.app/game/PPSA08260/01.003.001) |
+| 2026-08-25 | UPDATE | PPSA20612 | 01.000.000 | [Dragon Quest III HD-2D Remake](https://hencheats.vercel.app/game/PPSA20612/01.000.000) |
 | 2026-08-24 | UPDATE | PPSA03977 | 04.000.000 | [The Witcher 3: Wild Hunt: Complete Edition](https://hencheats.vercel.app/game/PPSA03977/04.000.000) |
 | 2026-08-24 | UPDATE | PPSA07411 | 01.100.000 | [Resident Evil 4](https://hencheats.vercel.app/game/PPSA07411/01.100.000) |
 | 2026-08-24 | UPDATE | PPSA07412 | 01.000.000 | [Resident Evil 4](https://hencheats.vercel.app/game/PPSA07412/01.000.000) |
