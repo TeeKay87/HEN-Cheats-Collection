@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "id": "PPSA14251",
+  "version": "01.008.000",
+  "files": [
+    {
+      "sourceId": "aa804b82",
+      "file": "PPSA14251_01.008.000_aa804b82.mc4",
+      "path": "mc4/PPSA14251_01.008.000_aa804b82.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "issue": false,
+      "creators": [
+        "Aigars Uze"
+      ],
+      "notes": null,
+      "cheats": [
+        "Master Code",
+        "Add 1000000 Dinari On Buy (Master Code Must Be On)",
+        "Infinite Ammo (Master Code Must Be On)",
+        "Infinite Health",
+        "Infinite Horse Dash"
+      ]
+    }
+  ]
+}

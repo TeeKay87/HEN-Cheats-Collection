@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-08-25T14:34:01Z",
+  "generatedUtc": "2026-08-25T22:06:26Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -37145,6 +37145,15 @@
           "creators": [
             "Saso",
             "Yharnam"
+          ],
+          "formats": [
+            "mc4"
+          ]
+        },
+        {
+          "version": "01.008.000",
+          "creators": [
+            "Aigars Uze"
           ],
           "formats": [
             "mc4"

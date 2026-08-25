@@ -122,6 +122,8 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-08-26 | ADDED | PPSA14251 | 01.008.000 | [Mafia: The Old Country](https://hencheats.vercel.app/game/PPSA14251/01.008.000) |
+| 2026-08-26 | UPDATE | PPSA20447 | 01.021.003 | [The First Berserker: Khazan](https://hencheats.vercel.app/game/PPSA20447/01.021.003) |
 | 2026-08-25 | ADDED | PPSA17942 | 01.001.000 | [Dragon Quest VII Reimagined](https://hencheats.vercel.app/game/PPSA17942/01.001.000) |
 | 2026-08-25 | ADDED | PPSA17943 | 01.001.000 | [Dragon Quest VII Reimagined](https://hencheats.vercel.app/game/PPSA17943/01.001.000) |
 | 2026-08-25 | UPDATE | PPSA03977 | 04.000.000 | [The Witcher 3: Wild Hunt: Complete Edition](https://hencheats.vercel.app/game/PPSA03977/04.000.000) |
