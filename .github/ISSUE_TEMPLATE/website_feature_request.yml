@@ -1,0 +1,52 @@
+name: Website Feature Request
+description: Suggest a new feature or improvement for the HEN Cheats Collection website
+title: "[Website Feature Request] "
+labels: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to suggest a new feature or improvement for the HEN Cheats Collection website.
+
+        If something on the website is not working correctly, please use the **Website Issue** form instead.
+
+  - type: textarea
+    id: feature
+    attributes:
+      label: What feature or improvement would you like?
+      description: Describe the feature or change you would like to see on the website.
+      placeholder: Describe your idea as clearly as possible.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why would this be useful?
+      description: Explain what this would improve or what problem it would solve.
+      placeholder: Explain how this feature would make the website more useful or easier to use.
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggested_behavior
+    attributes:
+      label: How should it work?
+      description: If you have an idea of how the feature should behave, describe it here.
+      placeholder: Describe how you imagine the feature working.
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Additional information
+
+  - type: textarea
+    id: additional_information
+    attributes:
+      label: Additional information
+      description: Add anything else that may help explain your suggestion. Screenshots, mockups, examples, or links can also be attached here.
+    validations:
+      required: false
