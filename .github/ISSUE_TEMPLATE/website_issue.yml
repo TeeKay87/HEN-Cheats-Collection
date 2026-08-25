@@ -1,0 +1,105 @@
+name: Website Issue
+description: Report a problem with the HEN Cheats Collection website
+title: "[Website Issue] "
+labels: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to report problems with the HEN Cheats Collection website.
+
+        If the problem is with a cheat itself, please use the **Cheat Issue** form instead.
+
+  - type: dropdown
+    id: problem_type
+    attributes:
+      label: What kind of problem are you experiencing?
+      options:
+        - Page or content does not load
+        - Search or filters
+        - Game page or game information
+        - Download
+        - Favorites or Downloaded status
+        - Layout or visual problem
+        - Mobile or responsive layout
+        - Link or navigation
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Page URL
+      description: Enter the URL of the page where the problem occurs.
+      placeholder: "https://hencheats.vercel.app/..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is the problem?
+      description: Describe what is not working or what looks incorrect.
+      placeholder: Describe the problem as clearly as possible.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Describe the steps that cause the problem.
+      placeholder: |
+        1. Open ...
+        2. Click ...
+        3. Search for ...
+        4. The problem appears
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen?
+      placeholder: Describe what should have happened instead.
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Device and browser
+
+  - type: input
+    id: device
+    attributes:
+      label: Device
+      description: Enter the device or computer you are using.
+      placeholder: "Example: Samsung Galaxy S25, iPhone 17, Windows 11 PC"
+    validations:
+      required: true
+
+  - type: input
+    id: browser
+    attributes:
+      label: Browser
+      description: Enter the browser you are using and version if known.
+      placeholder: "Example: Chrome 140, Firefox 142, Safari"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Additional information
+
+  - type: textarea
+    id: additional_information
+    attributes:
+      label: Additional information
+      description: Add anything else that may help identify the problem. Screenshots or screen recordings can also be attached here.
+    validations:
+      required: false
