@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "PPSA09232",
+  "version": "01.005.000",
+  "files": [
+    {
+      "sourceId": "cecf9eda",
+      "file": "PPSA09232_01.005.000_cecf9eda.json",
+      "path": "json/PPSA09232_01.005.000_cecf9eda.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "issue": false,
+      "creators": [
+        "TeeKay87"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite Energy",
+        "Infinite Stamina",
+        "Max NanoGel (On gain)",
+        "No Overheat",
+        "No Power Usage"
+      ]
+    }
+  ]
+}

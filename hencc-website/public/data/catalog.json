@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-08-26T13:09:24Z",
+  "generatedUtc": "2026-08-26T21:49:56Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -36616,6 +36616,23 @@
           "version": "01.000.000",
           "creators": [
             "Talixme"
+          ],
+          "formats": [
+            "json"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PPSA09232",
+      "title": "Ghost Song",
+      "pinned": false,
+      "hidden": false,
+      "versions": [
+        {
+          "version": "01.005.000",
+          "creators": [
+            "TeeKay87"
           ],
           "formats": [
             "json"

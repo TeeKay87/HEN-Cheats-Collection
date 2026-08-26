@@ -1,0 +1,93 @@
+{
+  "name": "Ghost Song",
+  "id": "PPSA09232",
+  "version": "01.005.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Health",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "800080E1",
+          "on": "B900C07944488B80B800000089888400000090",
+          "off": "C5F054C0488B80B8000000C5FA118084000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Energy",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80007D55",
+          "on": "50B800C07944C5F96EC058C5FA118188000000",
+          "off": "C5F2C2CA05C4E3694AC010C5FA118188000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Stamina",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "800083EF",
+          "on": "50B800C07944C5F96EC058C5F82EC8C5FA1183E8020000",
+          "off": "C5FAC2C205C4E3694AC300C5F82EC8C5FA1183E8020000"
+        }
+      ]
+    },
+    {
+      "name": "Max NanoGel (On gain)",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80782626",
+          "on": "C7802C0300007F969800",
+          "off": "488B435001902C030000"
+        }
+      ]
+    },
+    {
+      "name": "No Overheat",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "808DC024",
+          "on": "83A0900000000090",
+          "off": "C5FA118090000000"
+        }
+      ]
+    },
+    {
+      "name": "No Power Usage",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8122F15A",
+          "on": "31C99090",
+          "off": "418B4E54"
+        },
+        {
+          "offset": "8122F15E",
+          "on": "89885C030000",
+          "off": "01885C030000"
+        },
+        {
+          "offset": "8122EECB",
+          "on": "418B4E545131C989885C03000059",
+          "off": "418B4E5429885C030000498B0424"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "TeeKay87"
+  ]
+}
