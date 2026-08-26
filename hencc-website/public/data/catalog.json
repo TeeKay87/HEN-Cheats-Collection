@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-08-25T22:06:26Z",
+  "generatedUtc": "2026-08-26T13:09:24Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -35328,6 +35328,23 @@
           ],
           "formats": [
             "mc4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PPSA04132",
+      "title": "Samurai Maiden",
+      "pinned": false,
+      "hidden": false,
+      "versions": [
+        {
+          "version": "01.060.000",
+          "creators": [
+            "TeeKay87"
+          ],
+          "formats": [
+            "json"
           ]
         }
       ]
