@@ -110,6 +110,16 @@ const removeLink = (html, rel) => {
 
 const stripScripts = (html) => html.replace(/\s*<script\b[^>]*>[\s\S]*?<\/script>\s*/gi, '\n')
 
+const stripAdSense = (html) => html
+  .replace(
+    /\s*<script\b(?=[^>]*\bsrc=["']https:\/\/pagead2\.googlesyndication\.com\/pagead\/js\/adsbygoogle\.js(?:\?[^"']*)?["'])[^>]*>[\s\S]*?<\/script>\s*/gi,
+    '\n',
+  )
+  .replace(
+    /\s*<meta\b(?=[^>]*\bname=["']google-adsense-account["'])[^>]*>\s*/gi,
+    '\n',
+  )
+
 const replaceStructuredData = (html, data) => {
   const tag = `<script id="hencc-structured-data" type="application/ld+json">${JSON.stringify(data).replaceAll('<', '\\u003c')}</script>`
   const expression = /<script\s+id=["']hencc-structured-data["'][^>]*>[\s\S]*?<\/script>/i
@@ -404,6 +414,7 @@ for (const page of contentManifest) {
     author: { '@type': 'Person', name: 'TeeKay87' },
   })
   html = replaceRootContent(html, renderContentStaticContent(page, renderEditorialMarkdown(markdown)))
+  if (page.path === '/privacy/') html = stripAdSense(html)
 
   const relativePath = page.path.replace(/^\/+|\/+$/g, '')
   const routeDir = path.join(distRoot, ...relativePath.split('/'))

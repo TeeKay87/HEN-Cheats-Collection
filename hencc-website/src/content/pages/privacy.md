@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last updated: August 23, 2026**
+**Last updated: August 27, 2026**
 
 This page describes the privacy-relevant behavior of the HEN Cheats Collection website. HENCC is an independent project created, curated and maintained by TeeKay87 and does not provide user accounts on this website.
 
@@ -26,7 +26,7 @@ HENCC uses these integrations to understand website traffic and performance rath
 
 ## Google AdSense
 
-The website includes Google AdSense publisher configuration and the Google AdSense script. Advertising may not be active at all times. When Google advertising is enabled and served, Google and its advertising partners may use cookies, local storage or similar technologies for advertising, measurement, fraud prevention and related purposes according to Google's policies and the consent choices applicable to the visitor.
+Normal HENCC site pages include Google AdSense publisher configuration and the Google AdSense script. The generated Privacy Policy page itself is intentionally published without the AdSense loader script or `google-adsense-account` metadata so the disclosure URL remains separate from the AdSense tag. Advertising may not be active at all times. When Google advertising is enabled and served elsewhere on HENCC, Google and its advertising partners may use cookies, local storage or similar technologies for advertising, measurement, fraud prevention and related purposes according to Google's policies and the consent choices applicable to the visitor.
 
 HENCC does not control the data practices of Google or other third-party advertising providers. For visitors in regions where Google requires consent management for personalized advertising, production ad serving must use a Google-certified Consent Management Platform (CMP) integrated with the IAB Transparency and Consent Framework (TCF). HENCC's intended production configuration is Google's AdSense Privacy & messaging CMP. The website source cannot by itself prove that the account-side message is enabled, so that setting must be verified in the AdSense account before a new review or applicable ad serving.
 

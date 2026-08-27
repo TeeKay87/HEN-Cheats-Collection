@@ -33,6 +33,8 @@ const check = (condition, message) => {
   if (!condition) errors.push(message)
 }
 
+const ADSENSE_SCRIPT_PATTERN = /pagead2\.googlesyndication\.com\/pagead\/js\/adsbygoogle\.js/i
+
 const errorMessage = (error) => error instanceof Error ? error.message : String(error)
 const escapeHtml = (value) => String(value ?? '')
   .replaceAll('&', '&amp;')
@@ -462,6 +464,18 @@ const runVerification = async () => {
       const html = await readFile(routeFile(url), 'utf8')
       verifySeoPage(html, expected.seo)
       verifiedSeoUrls.add(url)
+    }
+
+    if (url === homeUrl) {
+      const homepageHtml = await readFile(routeFile(url), 'utf8')
+      check(ADSENSE_SCRIPT_PATTERN.test(homepageHtml), `${url}: homepage must retain the base AdSense loader script.`)
+      check(metaValues(homepageHtml, 'name', 'google-adsense-account').length === 1, `${url}: homepage must retain one google-adsense-account metadata tag.`)
+    }
+
+    if (url === `${PUBLIC_SITE_URL}/privacy/`) {
+      const privacyHtml = await readFile(routeFile(url), 'utf8')
+      check(!ADSENSE_SCRIPT_PATTERN.test(privacyHtml), `${url}: Privacy Policy must not include the AdSense loader script.`)
+      check(metaValues(privacyHtml, 'name', 'google-adsense-account').length === 0, `${url}: Privacy Policy must not include google-adsense-account metadata.`)
     }
   }
   check(sitemapByUrl.size === expectedIndexable.size, `sitemap.xml URL count must equal expected indexable URL count (${expectedIndexable.size}).`)
