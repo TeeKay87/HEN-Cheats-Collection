@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last updated: August 27, 2026**
+**Last updated: August 28, 2026**
 
 This page describes the privacy-relevant behavior of the HEN Cheats Collection website. HENCC is an independent project created, curated and maintained by TeeKay87 and does not provide user accounts on this website.
 
@@ -18,11 +18,11 @@ When the website initiates a cheat-file download, it stores a local marker for t
 
 You can remove this local state using your browser's site-data/storage controls. Clearing browser storage can reset Favorites and Downloaded markers.
 
-## Vercel hosting and performance services
+## Vercel hosting and analytics
 
-The website is hosted on Vercel. The application also includes **Vercel Web Analytics** and **Vercel Speed Insights** components. These services can process technical request, usage and performance information according to Vercel's own service behavior and privacy terms.
+The website is hosted on Vercel. The application includes **Vercel Web Analytics**, which can process technical request and usage information according to Vercel's own service behavior and privacy terms.
 
-HENCC uses these integrations to understand website traffic and performance rather than to create user accounts or personalized HENCC profiles.
+HENCC uses this integration to understand website traffic rather than to create user accounts or personalized HENCC profiles.
 
 ## Google AdSense
 
