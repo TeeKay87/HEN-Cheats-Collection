@@ -122,6 +122,19 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-08-28 | ADDED | PPSA01417 | 01.013.002 | [Marvel's Spider-Man: Miles Morales](https://hencheats.vercel.app/game/PPSA01417/01.013.002) |
+| 2026-08-28 | ADDED | PPSA15304 | 01.002.004 | [METAL GEAR SOLID Δ: SNAKE EATER](https://hencheats.vercel.app/game/PPSA15304/01.002.004) |
+| 2026-08-28 | ADDED | PPSA24096 | 01.010.000 | [Cronos: The New Dawn](https://hencheats.vercel.app/game/PPSA24096/01.010.000) |
+| 2026-08-28 | UPDATE | PPSA02530 | 01.200.000 | [Pragmata](https://hencheats.vercel.app/game/PPSA02530/01.200.000) |
+| 2026-08-28 | UPDATE | PPSA07230 | 01.012.000 | [Assassin's Creed Mirage](https://hencheats.vercel.app/game/PPSA07230/01.012.000) |
+| 2026-08-28 | UPDATE | PPSA07631 | 01.000.000 | [SAROS](https://hencheats.vercel.app/game/PPSA07631/01.000.000) |
+| 2026-08-28 | UPDATE | PPSA08236 | 01.006.004 | [Immortals of Aveum](https://hencheats.vercel.app/game/PPSA08236/01.006.004) |
+| 2026-08-28 | UPDATE | PPSA10664 | 01.003.004 | [Final Fantasy XVI](https://hencheats.vercel.app/game/PPSA10664/01.003.004) |
+| 2026-08-28 | UPDATE | PPSA10872 | 01.008.000 | [Persona 3 Reload](https://hencheats.vercel.app/game/PPSA10872/01.008.000) |
+| 2026-08-28 | UPDATE | PPSA20396 | 01.019.076 | [Assassin's Creed Shadows](https://hencheats.vercel.app/game/PPSA20396/01.019.076) |
+| 2026-08-28 | UPDATE | PPSA25286 | 01.000.151 | [Crimson Desert](https://hencheats.vercel.app/game/PPSA25286/01.000.151) |
+| 2026-08-28 | UPDATE | PPSA28336 | 01.009.000 | [S.T.A.L.K.E.R. 2: Heart of Chornobyl](https://hencheats.vercel.app/game/PPSA28336/01.009.000) |
+| 2026-08-28 | UPDATE | PPSA31246 | 01.200.000 | [Resident Evil Requiem](https://hencheats.vercel.app/game/PPSA31246/01.200.000) |
 | 2026-08-27 | UPDATE | PPSA09232 | 01.005.000 | [Ghost Song](https://hencheats.vercel.app/game/PPSA09232/01.005.000) |
 | 2026-08-26 | ADDED | PPSA09232 | 01.005.000 | [Ghost Song](https://hencheats.vercel.app/game/PPSA09232/01.005.000) |
 | 2026-08-26 | ADDED | PPSA04132 | 01.060.000 | [Samurai Maiden](https://hencheats.vercel.app/game/PPSA04132/01.060.000) |

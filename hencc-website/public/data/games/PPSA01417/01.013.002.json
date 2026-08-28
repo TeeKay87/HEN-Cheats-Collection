@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "id": "PPSA01417",
+  "version": "01.013.002",
+  "files": [
+    {
+      "sourceId": "9f37ad8d",
+      "file": "PPSA01417_01.013.002_9f37ad8d.json",
+      "path": "json/PPSA01417_01.013.002_9f37ad8d.json",
+      "format": "json",
+      "process": "eboot.bin",
+      "hidden": false,
+      "issue": false,
+      "creators": [
+        "zer0day"
+      ],
+      "notes": null,
+      "cheats": [
+        "Invincible / God Mode P1",
+        "Infinite Ammo",
+        "Infinite Finishers",
+        "Infinite Mission Timer",
+        "One Hit Kill",
+        "Infinite Venom",
+        "All Suits + Gear + Gadgets Unlocked & Purchasable",
+        "Max Player Level 30",
+        "Unlock All Skills / Abilities",
+        "Max Skill Points 99",
+        "All Resources 9999 + Freeze"
+      ]
+    }
+  ]
+}

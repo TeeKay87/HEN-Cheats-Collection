@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "PPSA24096",
+  "version": "01.010.000",
+  "files": [
+    {
+      "sourceId": "fc294cb4",
+      "file": "PPSA24096_01.010.000_fc294cb4.mc4",
+      "path": "mc4/PPSA24096_01.010.000_fc294cb4.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "issue": false,
+      "creators": [
+        "Yharnam"
+      ],
+      "notes": null,
+      "cheats": [
+        "Untouchable",
+        "1 Hit Kill",
+        "Infi Health",
+        "Infi Ammo",
+        "Infi Items (No Reduction)",
+        "Infi Money"
+      ]
+    }
+  ]
+}

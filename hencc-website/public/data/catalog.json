@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-08-26T21:49:56Z",
+  "generatedUtc": "2026-08-28T20:26:24Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -33907,6 +33907,23 @@
       ]
     },
     {
+      "id": "PPSA01417",
+      "title": "Marvel's Spider-Man: Miles Morales",
+      "pinned": false,
+      "hidden": false,
+      "versions": [
+        {
+          "version": "01.013.002",
+          "creators": [
+            "zer0day"
+          ],
+          "formats": [
+            "json"
+          ]
+        }
+      ]
+    },
+    {
       "id": "PPSA01442",
       "title": "Devil May Cry 5: Special Edition",
       "pinned": false,
@@ -34723,6 +34740,7 @@
         {
           "version": "01.200.000",
           "creators": [
+            "Aigars Uze",
             "Talixme",
             "Yharnam"
           ],
@@ -36169,6 +36187,7 @@
         {
           "version": "01.000.000",
           "creators": [
+            "Aigars Uze",
             "Celogamez",
             "Yharnam"
           ],
@@ -36951,6 +36970,7 @@
         {
           "version": "01.003.004",
           "creators": [
+            "Aigars Uze",
             "Talixme"
           ],
           "formats": [
@@ -37350,6 +37370,15 @@
       "versions": [
         {
           "version": "01.001.004",
+          "creators": [
+            "Yharnam"
+          ],
+          "formats": [
+            "mc4"
+          ]
+        },
+        {
+          "version": "01.002.004",
           "creators": [
             "Yharnam"
           ],
@@ -37916,6 +37945,7 @@
         {
           "version": "01.019.076",
           "creators": [
+            "Aigars Uze",
             "Yharnam"
           ],
           "formats": [
@@ -38400,6 +38430,15 @@
           "formats": [
             "mc4"
           ]
+        },
+        {
+          "version": "01.010.000",
+          "creators": [
+            "Yharnam"
+          ],
+          "formats": [
+            "mc4"
+          ]
         }
       ]
     },
@@ -38535,6 +38574,7 @@
         {
           "version": "01.000.151",
           "creators": [
+            "Aigars Uze",
             "Yharnam"
           ],
           "formats": [
@@ -38934,6 +38974,7 @@
         {
           "version": "01.009.000",
           "creators": [
+            "Aigars Uze",
             "Yharnam"
           ],
           "formats": [
@@ -39181,6 +39222,7 @@
         {
           "version": "01.200.000",
           "creators": [
+            "Aigars Uze",
             "Celogamez"
           ],
           "formats": [

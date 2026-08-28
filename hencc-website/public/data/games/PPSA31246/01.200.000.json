@@ -26,6 +26,24 @@
         "Max CP On Buy",
         "Max Credits On Buy"
       ]
+    },
+    {
+      "sourceId": "f70deeb5",
+      "file": "PPSA31246_01.200.000_f70deeb5.mc4",
+      "path": "mc4/PPSA31246_01.200.000_f70deeb5.mc4",
+      "format": "mc4",
+      "process": "eboot.bin",
+      "hidden": false,
+      "issue": false,
+      "creators": [
+        "Aigars Uze"
+      ],
+      "notes": null,
+      "cheats": [
+        "Infinite Health",
+        "Infinite ammo",
+        "No Reload (Clip Freeze)"
+      ]
     }
   ]
 }

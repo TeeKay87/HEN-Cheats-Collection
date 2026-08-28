@@ -1,0 +1,332 @@
+{
+  "name": "Marvel's Spider-Man: Miles Morales",
+  "id": "PPSA01417",
+  "version": "01.013.002",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Invincible / God Mode P1",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01EE4810",
+          "on": "9090909090",
+          "off": "E85B5CFFFF"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "073E903C",
+          "on": "01000000",
+          "off": "00000000"
+        },
+        {
+          "offset": "023D17B2",
+          "on": "01000000",
+          "off": "00000000"
+        },
+        {
+          "offset": "023D17D2",
+          "on": "01000000",
+          "off": "00000000"
+        },
+        {
+          "offset": "023D180B",
+          "on": "C7470401000000",
+          "off": "C7470400000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Finishers",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0078D77F",
+          "on": "E9CCD9537F909090",
+          "off": "44036B1C45396E60"
+        },
+        {
+          "offset": "7FCCB150",
+          "on": "44036B1C45896E6045396E60E92626AC80",
+          "off": "0000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Mission Timer",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "005C0893",
+          "on": "9090909090",
+          "off": "C5FA114364"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01EDA2BE",
+          "on": "E94D0EDF7D909090",
+          "off": "C5FA108F88000000"
+        },
+        {
+          "offset": "7FCCB110",
+          "on": "488B07B950FA27054839C874148B864401000085C07E0AC786440100007F96184BC5FA108F88000000E988F12082",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Venom",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "007E0F0A",
+          "on": "90909090",
+          "off": "C5DA5CE3"
+        }
+      ]
+    },
+    {
+      "name": "All Suits + Gear + Gadgets Unlocked & Purchasable",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0060E3D0",
+          "on": "B101",
+          "off": "08D9"
+        },
+        {
+          "offset": "0060E747",
+          "on": "B00190",
+          "off": "4420E0"
+        },
+        {
+          "offset": "0060FC80",
+          "on": "B001C3",
+          "off": "554889"
+        },
+        {
+          "offset": "00607550",
+          "on": "B001C3",
+          "off": "554889"
+        },
+        {
+          "offset": "00607670",
+          "on": "B001C3",
+          "off": "554889"
+        },
+        {
+          "offset": "00607400",
+          "on": "B001C3",
+          "off": "554889"
+        },
+        {
+          "offset": "00B9A5B0",
+          "on": "B001C3",
+          "off": "554889"
+        },
+        {
+          "offset": "00B9AA9E",
+          "on": "909090909090",
+          "off": "0F8FC2010000"
+        },
+        {
+          "offset": "00B9AAB9",
+          "on": "909090909090",
+          "off": "0F8400020000"
+        },
+        {
+          "offset": "00B9F606",
+          "on": "C6403500",
+          "off": "C6403501"
+        },
+        {
+          "offset": "00B9AEF9",
+          "on": "EB07",
+          "off": "7507"
+        },
+        {
+          "offset": "0060FFC4",
+          "on": "E9D7B06B7F9090",
+          "off": "84C07429488B1B"
+        },
+        {
+          "offset": "7FCCB0A0",
+          "on": "488B4308C640040180480504B001488B1BE9154F9480",
+          "off": "00000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "00608A8F",
+          "on": "E924266C7F90",
+          "off": "488B034889DF"
+        },
+        {
+          "offset": "7FCCB0B8",
+          "on": "488B4308C640040180480504488B034889DFE9C6D99380",
+          "off": "0000000000000000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "Max Player Level 30",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "00B9DE13",
+          "on": "909090",
+          "off": "2B5F70"
+        },
+        {
+          "offset": "00B9DF28",
+          "on": "90909090",
+          "off": "442B6070"
+        },
+        {
+          "offset": "7FCCB048",
+          "on": "41BF9F8601004401FB41899EF0B90000E9332FED80",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "00B9DF86",
+          "on": "E9BDD0127F9090909090",
+          "off": "4401FB41899EF0B90000"
+        }
+      ]
+    },
+    {
+      "name": "Unlock All Skills / Abilities",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0061ECDD",
+          "on": "B201",
+          "off": "89C2"
+        },
+        {
+          "offset": "0061F59B",
+          "on": "C68590FEFFFF01",
+          "off": "0F9D8590FEFFFF"
+        },
+        {
+          "offset": "0061F25F",
+          "on": "B001909090",
+          "off": "E80CB85700"
+        },
+        {
+          "offset": "0061FD4F",
+          "on": "B001909090",
+          "off": "E81CAD5700"
+        }
+      ]
+    },
+    {
+      "name": "Max Skill Points 99",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "00BA2880",
+          "on": "C787F8B9000063000000C3",
+          "off": "554889E5534883EC2880BF"
+        }
+      ]
+    },
+    {
+      "name": "All Resources 9999 + Freeze",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01F17BF1",
+          "on": "E9E634DB7D90909090",
+          "off": "E8DA9DFFFF44897838"
+        },
+        {
+          "offset": "7FCCB0DC",
+          "on": "E8EF682482C740380F270000E90DCB2482",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "01F1B6C7",
+          "on": "E924FADA7D9090",
+          "off": "440360384C89F7"
+        },
+        {
+          "offset": "7FCCB0F0",
+          "on": "41BC0F2700004C89F7E9D0052582",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "01F1B776",
+          "on": "EBD8",
+          "off": "7DD8"
+        },
+        {
+          "offset": "01F1B93F",
+          "on": "EB0E",
+          "off": "7D0E"
+        },
+        {
+          "offset": "01F1BCC0",
+          "on": "EB1F",
+          "off": "7D1F"
+        },
+        {
+          "offset": "01F1BD65",
+          "on": "9090",
+          "off": "7E44"
+        },
+        {
+          "offset": "01F1B7CC",
+          "on": "C740380F270000",
+          "off": "C7403800000000"
+        },
+        {
+          "offset": "01F1BA0C",
+          "on": "C740380F270000",
+          "off": "C7403800000000"
+        },
+        {
+          "offset": "01F1BBF3",
+          "on": "C740380F270000",
+          "off": "C7403800000000"
+        },
+        {
+          "offset": "01F1BDD1",
+          "on": "C740380F270000",
+          "off": "C7403800000000"
+        },
+        {
+          "offset": "01F1BE96",
+          "on": "C740380F270000",
+          "off": "C7403800000000"
+        },
+        {
+          "offset": "01F1B86E",
+          "on": "BB0F2700004C89F79090",
+          "off": "8B58384C89F7422B1CB9"
+        },
+        {
+          "offset": "01F1BA69",
+          "on": "41BD0F2700004889DF909090",
+          "off": "8B40384889DF4429E84189C5"
+        },
+        {
+          "offset": "01F1BD73",
+          "on": "41BD0F2700004889DF90",
+          "off": "448B68384889DF4529E5"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "zer0day"
+  ]
+}
