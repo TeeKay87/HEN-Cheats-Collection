@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import Markdown from 'markdown-to-jsx/react'
-import type { MouseEvent } from 'react'
+import type { AnchorHTMLAttributes, CSSProperties, ImgHTMLAttributes, MouseEvent } from 'react'
 import { Icon } from './Icon'
 import { buildCoverImageUrl, CHEAT_DOWNLOAD_BASE_URL, CHEAT_ISSUE_TEMPLATE, CHEAT_NEW_ISSUE_URL, COVER_DETAIL_SIZE, PUBLIC_SITE_URL } from '../config'
 import { compareVersions, displayDate, formatLabel, isHidden, makeGamePath, platformFor } from '../lib/catalog'
@@ -19,6 +19,61 @@ interface DetailsPanelProps {
 
 const baseUrl = import.meta.env.BASE_URL
 const DOWNLOADED_STORAGE_KEY = 'hencc:downloaded:v1'
+
+const NOTES_IMAGE_SIZE_DIRECTIVE = /^(max-width|max-height)\s*=\s*((?:\d+(?:\.\d+)?|\.\d+)(?:px|rem|em|%|vw|vh|vmin|vmax))$/i
+
+const parseNotesImageTitle = (title?: string) => {
+  if (!title) return { displayTitle: undefined, maxWidth: undefined, maxHeight: undefined }
+
+  let maxWidth: string | undefined
+  let maxHeight: string | undefined
+  const displayTitleParts: string[] = []
+
+  for (const part of title.split(';').map((value) => value.trim()).filter(Boolean)) {
+    const match = part.match(NOTES_IMAGE_SIZE_DIRECTIVE)
+    if (!match) {
+      displayTitleParts.push(part)
+      continue
+    }
+
+    const [, directive, value] = match
+    if (Number.parseFloat(value) <= 0) {
+      displayTitleParts.push(part)
+      continue
+    }
+
+    if (directive.toLowerCase() === 'max-width') maxWidth = value
+    else maxHeight = value
+  }
+
+  return {
+    displayTitle: displayTitleParts.length ? displayTitleParts.join('; ') : undefined,
+    maxWidth,
+    maxHeight,
+  }
+}
+
+function NotesImage({ title, style, ...props }: ImgHTMLAttributes<HTMLImageElement>) {
+  const { displayTitle, maxWidth, maxHeight } = parseNotesImageTitle(title)
+  const constrainedStyle: CSSProperties = {
+    ...style,
+    width: 'auto',
+    height: 'auto',
+  }
+
+  if (maxWidth) constrainedStyle.maxWidth = `min(${maxWidth}, calc(100% - 8px))`
+  if (maxHeight) constrainedStyle.maxHeight = maxHeight
+
+  return <img {...props} title={displayTitle} style={constrainedStyle} />
+}
+
+function NotesLink({ children, ...props }: AnchorHTMLAttributes<HTMLAnchorElement>) {
+  return (
+    <a {...props} target="_blank" rel="noopener noreferrer">
+      {children}
+    </a>
+  )
+}
 
 const loadDownloadedFiles = () => {
   try {
@@ -290,7 +345,14 @@ export function DetailsPanel({ entry, coverUrl, selectedVersion, favorite, onClo
                         {notes && (
                           <div className="file-notes">
                             <strong className="file-notes-label">Notes</strong>
-                            <Markdown options={{ disableParsingRawHTML: true }}>{notes}</Markdown>
+                            <Markdown
+                              options={{
+                                disableParsingRawHTML: true,
+                                overrides: { a: { component: NotesLink }, img: { component: NotesImage } },
+                              }}
+                            >
+                              {notes}
+                            </Markdown>
                           </div>
                         )}
                         {file.issue === true && (

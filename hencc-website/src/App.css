@@ -249,7 +249,7 @@
 .file-notes h2 { font-size: 14px; }
 .file-notes h3 { font-size: 13px; }
 .file-notes h4, .file-notes h5, .file-notes h6 { font-size: 12px; }
-.file-notes p { margin: 5px 0; color: #a9977d; }
+.file-notes p { margin: 10px 0; color: #a9977d; }
 .file-notes ul, .file-notes ol { margin: 6px 0; padding-left: 20px; }
 .file-notes li { margin: 2px 0; }
 .file-notes a { color: #e0b66f; text-decoration: underline; text-underline-offset: 2px; }
@@ -257,6 +257,8 @@
 .file-notes code { padding: 1px 4px; border: 1px solid rgba(255,255,255,.06); border-radius: 4px; color: #d4c5ad; background: rgba(0,0,0,.18); font: 9px/1.5 ui-monospace, monospace; }
 .file-notes pre { margin: 7px 0; padding: 8px 9px; overflow-x: auto; border: 1px solid rgba(255,255,255,.06); border-radius: 6px; background: rgba(0,0,0,.2); }
 .file-notes pre code { padding: 0; border: 0; background: none; }
+.file-notes img { display: block; width: auto; height: auto; max-width: calc(100% - 8px); margin: 10px 4px; }
+.file-notes a > img { display: inline-block; margin: 10px 4px; vertical-align: top; }
 .file-notes blockquote { margin: 7px 0; padding: 2px 0 2px 9px; border-left: 2px solid rgba(255,173,61,.35); color: #9a8b75; }
 .file-notes blockquote p { color: inherit; }
 .file-notes table { width: 100%; margin: 7px 0; border-collapse: collapse; }
