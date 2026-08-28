@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-08-28T20:26:24Z",
+  "generatedUtc": "2026-08-28T21:52:50Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -3449,6 +3449,15 @@
           ],
           "formats": [
             "json"
+          ]
+        },
+        {
+          "version": "01.30",
+          "creators": [
+            "Aigars Uze"
+          ],
+          "formats": [
+            "mc4"
           ]
         }
       ]

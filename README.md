@@ -122,6 +122,7 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-08-28 | ADDED | CUSA01615 | 01.30 | [Final Fantasy XV](https://hencheats.vercel.app/game/CUSA01615/01.30) |
 | 2026-08-28 | ADDED | PPSA01417 | 01.013.002 | [Marvel's Spider-Man: Miles Morales](https://hencheats.vercel.app/game/PPSA01417/01.013.002) |
 | 2026-08-28 | ADDED | PPSA15304 | 01.002.004 | [METAL GEAR SOLID Δ: SNAKE EATER](https://hencheats.vercel.app/game/PPSA15304/01.002.004) |
 | 2026-08-28 | ADDED | PPSA24096 | 01.010.000 | [Cronos: The New Dawn](https://hencheats.vercel.app/game/PPSA24096/01.010.000) |
