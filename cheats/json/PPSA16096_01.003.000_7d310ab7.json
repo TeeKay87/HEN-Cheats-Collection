@@ -1,0 +1,46 @@
+{
+  "name": "Visions of Mana",
+  "id": "PPSA16096",
+  "version": "01.003.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite low Health",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "803B000",
+          "on": "83BF38010000000F852C7467F9C5FA114708E9227467F9",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "16B2434",
+          "on": "E9C78B9806",
+          "off": "C5FA114708"
+        }
+      ]
+    },
+    {
+      "name": "Max Level",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "803B037",
+          "on": "81FC004CFFEE741041890C06488B8578F4FFFFE95AFA9EFA4180BC06F4000000000F854BFA9EFAB9FFC99A3B41890C06488B8578F4FFFFE936FA9EFA",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "2A2AA9E",
+          "on": "E994056105909090909090",
+          "off": "41890C06488B8578F4FFFF"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme",
+    "Wander"
+  ]
+}
