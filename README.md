@@ -122,6 +122,7 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-08-30 | ADDED | PPSA07783 | 01.000.013 | [Star Wars Jedi: Survivor](https://hencheats.vercel.app/game/PPSA07783/01.000.013) |
 | 2026-08-29 | ADDED | PPSA26344 | 01.512.000 | [Ghost of Yotei](https://hencheats.vercel.app/game/PPSA26344/01.512.000) |
 | 2026-08-28 | ADDED | CUSA01615 | 01.30 | [Final Fantasy XV](https://hencheats.vercel.app/game/CUSA01615/01.30) |
 | 2026-08-28 | ADDED | PPSA01417 | 01.013.002 | [Marvel's Spider-Man: Miles Morales](https://hencheats.vercel.app/game/PPSA01417/01.013.002) |
