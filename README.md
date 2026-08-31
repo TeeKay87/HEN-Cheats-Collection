@@ -122,6 +122,7 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-08-31 | ADDED | PPSA05063 | 01.006.000 | [Steelrising](https://hencheats.vercel.app/game/PPSA05063/01.006.000) |
 | 2026-08-30 | ADDED | PPSA16096 | 01.003.000 | [Visions of Mana](https://hencheats.vercel.app/game/PPSA16096/01.003.000) |
 | 2026-08-30 | ADDED | PPSA07783 | 01.000.013 | [Star Wars Jedi: Survivor](https://hencheats.vercel.app/game/PPSA07783/01.000.013) |
 | 2026-08-29 | ADDED | PPSA26344 | 01.512.000 | [Ghost of Yotei](https://hencheats.vercel.app/game/PPSA26344/01.512.000) |
