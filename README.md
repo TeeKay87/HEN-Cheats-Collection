@@ -118,7 +118,14 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 ## Version History
 
-### August 2026
+### September 2026
+
+| Date | Status | ID | Version | Title |
+|-|-|-|-|-|
+| 2026-09-01 | ADDED | PPSA03351 | 01.033.000 | [The Callisto Protocol](https://hencheats.vercel.app/game/PPSA03351/01.033.000) |
+
+<details>
+<summary><b>August 2026</b></summary>
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
@@ -216,6 +223,8 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 | 2026-08-02 | ADDED | PPSA22520 | 01.000.011 | [Animal Well](https://hencheats.vercel.app/#PPSA22520-01.000.011) |
 | 2026-08-02 | ADDED | PPSA27625 | 01.000.000 | [FANTASY LIFE i: The Girl Who Steals Time](https://hencheats.vercel.app/#PPSA27625-01.000.000) |
 | 2026-08-01 | ADDED | PPSA30568 | 01.000.000 | [Invincible VS](https://hencheats.vercel.app/#PPSA30568-01.000.000) |
+
+</details>
 
 <details>
 <summary><b>July 2026</b></summary>
