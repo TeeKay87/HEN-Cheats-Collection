@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Resident Evil 5" Moder="EXED3STROY" Cusa="CUSA04284" Version="01.01" Process="eboot.bin">
+  <Genres Name="Action" />
+  <Items />
+  <Cheat Text="infHealth" Description="Youre player cant take damage">
+    <Cheatline>
+      <PS5Offset>BDDE4C-executable[0]-5</PS5Offset>
+      <Section>0</Section>
+      <Offset>6161B4</Offset>
+      <ValueOn>90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>66-89-8B-68-1E-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="infHealth(Vehicle)+OneHitKill" Description="You cant take damage while in a vehicle and every enemy dies with one hit (except elGigante)">
+    <Cheatline>
+      <PS5Offset>800-executable[0]-5</PS5Offset>
+      <Section>0</Section>
+      <Offset>11F3800</Offset>
+      <ValueOn>48-39-DF-75-0C-3D-AC-0D-00-00-75-05-E9-BF-8F-BA-FF-29-C9-E9-B8-8F-BA-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <PS5Offset>457835-executable[0]-5</PS5Offset>
+      <Section>0</Section>
+      <Offset>D9C7CB</Offset>
+      <ValueOn>E9-30-70-45-00</ValueOn>
+      <ValueOff>29-F1-66-39-F0</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="infAmmo(noReload)" Description="You can shoot weapons without limmits">
+    <Cheatline>
+      <PS5Offset>ABBE1B-executable[0]-5</PS5Offset>
+      <Section>0</Section>
+      <Offset>7381E5</Offset>
+      <ValueOn>90-90-90</ValueOn>
+      <ValueOff>29-56-0C</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="infMoney(onSell)" Description="gives you unlimited money by selling something">
+    <Cheatline>
+      <PS5Offset>9E8DFF-executable[0]-5</PS5Offset>
+      <Section>0</Section>
+      <Offset>80B201</Offset>
+      <ValueOn>90-90-90</ValueOn>
+      <ValueOff>0F-46-C6</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="infBonusPoints(onPlaying)" Description="Gives you unlimited Bonus points by completing a chapter">
+    <Cheatline>
+      <PS5Offset>9E8DBF-executable[0]-5</PS5Offset>
+      <Section>0</Section>
+      <Offset>80B241</Offset>
+      <ValueOn>90-90-90</ValueOn>
+      <ValueOff>0F-46-C6</ValueOff>
+    </Cheatline>
+  </Cheat>
+</Trainer>
