@@ -1,0 +1,57 @@
+{
+  "name": "Alone in the Dark",
+  "id": "PPSA08135",
+  "version": "01.000.008",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "infinite_Ammo",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "661B000",
+          "on": "41C7850004000005000000E93D061FFB",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "180B646",
+          "on": "E9B5F9E0049090",
+          "off": "41898D00040000"
+        }
+      ]
+    },
+    {
+      "name": "infinite_Drink",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "661B030",
+          "on": "C7422802000000488B7DA8E9E65B35FB",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "1970C1E",
+          "on": "E90DA4CA04909090",
+          "off": "44296228488B7DA8"
+        }
+      ]
+    },
+    {
+      "name": "infinite_Health",
+      "description": "no damage taken from enemies",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5AA9C5",
+          "on": "909090909090",
+          "off": "FF9320060000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Wander"
+  ]
+}
