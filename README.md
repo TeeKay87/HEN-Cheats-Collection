@@ -122,6 +122,7 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-09-04 | ADDED | PPSA06927 | 01.007.000 | [Warhammer Age of Sigmar: Realms of Ruin](https://hencheats.vercel.app/game/PPSA06927/01.007.000) |
 | 2026-09-03 | UPDATE | PPSA08135 | 01.000.008 | [Alone in the Dark](https://hencheats.vercel.app/game/PPSA08135/01.000.008) |
 | 2026-09-02 | ADDED | CUSA04284 | 01.01 | [Resident Evil 5](https://hencheats.vercel.app/game/CUSA04284/01.01) |
 | 2026-09-01 | ADDED | PPSA01494 | 01.050.000 | [Borderlands 4](https://hencheats.vercel.app/game/PPSA01494/01.050.000) |
