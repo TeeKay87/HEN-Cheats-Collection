@@ -122,6 +122,7 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-09-12 | UPDATE | PPSA07230 | 01.012.000 | [Assassin's Creed Mirage](https://hencheats.vercel.app/game/PPSA07230/01.012.000) |
 | 2026-09-08 | UPDATE | PPSA01981 | 01.011.000 | [Doom Eternal](https://hencheats.vercel.app/game/PPSA01981/01.011.000) |
 | 2026-09-04 | ADDED | PPSA06927 | 01.007.000 | [Warhammer Age of Sigmar: Realms of Ruin](https://hencheats.vercel.app/game/PPSA06927/01.007.000) |
 | 2026-09-03 | UPDATE | PPSA08135 | 01.000.008 | [Alone in the Dark](https://hencheats.vercel.app/game/PPSA08135/01.000.008) |
