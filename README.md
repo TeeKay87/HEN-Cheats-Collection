@@ -122,6 +122,7 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-09-17 | ADDED | PPSA02199 | 01.003.000 | [Star Wars Jedi: Fallen Order](https://hencheats.vercel.app/game/PPSA02199/01.003.000) |
 | 2026-09-16 | ADDED | PPSA10665 | 01.003.004 | [Final Fantasy XVI](https://hencheats.vercel.app/game/PPSA10665/01.003.004) |
 | 2026-09-16 | UPDATE | PPSA04404 | 01.000.004 | [RESIDENT EVIL 7 biohazard](https://hencheats.vercel.app/game/PPSA04404/01.000.004) |
 | 2026-09-12 | UPDATE | PPSA07230 | 01.012.000 | [Assassin's Creed Mirage](https://hencheats.vercel.app/game/PPSA07230/01.012.000) |
