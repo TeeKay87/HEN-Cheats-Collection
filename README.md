@@ -122,6 +122,8 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-09-18 | ADDED | PPSA01575 | 01.020.000 | [Avatar: Frontiers of Pandora](https://hencheats.vercel.app/game/PPSA01575/01.020.000) |
+| 2026-09-18 | ADDED | PPSA01576 | 01.020.000 | [Avatar: Frontiers of Pandora](https://hencheats.vercel.app/game/PPSA01576/01.020.000) |
 | 2026-09-18 | UPDATE | PPSA25286 | 01.000.151 | [Crimson Desert](https://hencheats.vercel.app/game/PPSA25286/01.000.151) |
 | 2026-09-17 | ADDED | PPSA02199 | 01.003.000 | [Star Wars Jedi: Fallen Order](https://hencheats.vercel.app/game/PPSA02199/01.003.000) |
 | 2026-09-16 | ADDED | PPSA10665 | 01.003.004 | [Final Fantasy XVI](https://hencheats.vercel.app/game/PPSA10665/01.003.004) |
