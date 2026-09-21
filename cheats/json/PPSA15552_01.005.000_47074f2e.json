@@ -1,0 +1,88 @@
+{
+  "name": "Dead Cells",
+  "id": "PPSA15552",
+  "version": "01.005.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Invincible",
+      "description": "Prevents player damage. Standalone mod: use it independently of One Hit Kill.",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "15F017",
+          "on": "9090909090",
+          "off": "E81482F4FF",
+          "expected": "E81482F4FF",
+          "absolute": false
+        }
+      ]
+    },
+    {
+      "name": "Max Money 99,999,999",
+      "description": "Sets money to 99,999,999 on the next normal money gain.",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "14B396",
+          "on": "BEFFE0F50590",
+          "off": "8B70484401FE",
+          "expected": "8B70484401FE",
+          "absolute": false
+        }
+      ]
+    },
+    {
+      "name": "999999 Cells",
+      "description": "Sets the Cells spend path to 999999 and prevents the value from being reduced.",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "14C556",
+          "on": "BE3F420F009090",
+          "off": "418BB684040000",
+          "expected": "418BB684040000",
+          "absolute": false
+        },
+        {
+          "offset": "14C564",
+          "on": "909090",
+          "off": "4429FE",
+          "expected": "4429FE",
+          "absolute": false
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo",
+      "description": "Prevents ammunition from decreasing.",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "130915",
+          "on": "909090",
+          "off": "41FFCF",
+          "expected": "41FFCF",
+          "absolute": false
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill",
+      "description": "Defeats enemies with a single hit. Standalone mod: use it independently of Invincible.",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "A7674",
+          "on": "31C0",
+          "off": "29D8",
+          "expected": "29D8",
+          "absolute": false
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "prey33"
+  ]
+}
