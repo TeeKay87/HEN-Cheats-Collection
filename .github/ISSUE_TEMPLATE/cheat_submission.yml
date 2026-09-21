@@ -1,0 +1,29 @@
+name: Submit Cheat Files
+description: Submit new cheat files for inclusion in HEN Cheats Collection
+title: "[Cheat Submission] "
+labels: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to submit new cheat files for possible inclusion in HEN Cheats Collection.
+
+        Please only submit cheats that you created yourself.
+
+  - type: checkboxes
+    id: ownership_confirmation
+    attributes:
+      label: Ownership confirmation
+      options:
+        - label: I confirm that all cheat files I am submitting are my own original work and are not ported, copied, or taken from another cheat creator.
+          required: true
+
+  - type: textarea
+    id: cheat_files
+    attributes:
+      label: Cheat files
+      description: Drag and drop all cheat files you want to submit here. If GitHub does not accept the file type, place the files in a ZIP archive and attach that instead.
+      placeholder: Drag and drop your cheat files here.
+    validations:
+      required: true
