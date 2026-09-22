@@ -122,6 +122,7 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-09-22 | ADDED | PPSA21607 | 01.002.000 | [The Smurfs: Dreams](https://hencheats.vercel.app/game/PPSA21607/01.002.000) |
 | 2026-09-21 | ADDED | PPSA02633 | 01.000.028 | [Street Fighter 6](https://hencheats.vercel.app/game/PPSA02633/01.000.028) |
 | 2026-09-21 | ADDED | PPSA15552 | 01.005.000 | [Dead Cells](https://hencheats.vercel.app/game/PPSA15552/01.005.000) |
 | 2026-09-18 | ADDED | PPSA01575 | 01.020.000 | [Avatar: Frontiers of Pandora](https://hencheats.vercel.app/game/PPSA01575/01.020.000) |
