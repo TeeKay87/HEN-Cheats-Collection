@@ -1,0 +1,70 @@
+{
+  "name": "Deliver At All Costs",
+  "id": "PPSA25661",
+  "version": "01.000.002",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Car Health",
+      "description": "Player car health stays at max, no damage",
+      "type": "checkbox",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "E7037D",
+          "on": "C5FA10433C",
+          "off": "E8FEFCFFFF",
+          "expected": "E8FEFCFFFF",
+          "absolute": false
+        }
+      ]
+    },
+    {
+      "name": "Invulnerable Parcels",
+      "description": "Prevents integrity damage to standard BasicParcel deliveries. Does not affect multi-object cargo such as fruits or other special delivery items",
+      "type": "checkbox",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "1A52781",
+          "on": "EB1C",
+          "off": "751C",
+          "expected": "751C",
+          "absolute": false
+        }
+      ]
+    },
+    {
+      "name": "Free Store Purchases",
+      "description": "Store items don't cost money",
+      "type": "checkbox",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "D351A8",
+          "on": "9090",
+          "off": "7C2E",
+          "expected": "7C2E",
+          "absolute": false
+        },
+        {
+          "offset": "D351C0",
+          "on": "9090",
+          "off": "7C25",
+          "expected": "7C25",
+          "absolute": false
+        },
+        {
+          "offset": "D353D8",
+          "on": "0F1F440000",
+          "off": "E8A3B0EDFF",
+          "expected": "E8A3B0EDFF",
+          "absolute": false
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "prey33"
+  ]
+}
