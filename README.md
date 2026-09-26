@@ -122,6 +122,9 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-09-26 | ADDED | CUSA03467 | 01.01 | [Earth Defense Force 4.1: The Shadow of New Despair](https://hencheats.vercel.app/game/CUSA03467/01.01) |
+| 2026-09-26 | ADDED | CUSA57547 | 01.08 | [Call of Duty: Black Ops](https://hencheats.vercel.app/game/CUSA57547/01.08) |
+| 2026-09-26 | UPDATE | CUSA26613 | 01.04 | [Grand Theft Auto III - The Definitive Edition](https://hencheats.vercel.app/game/CUSA26613/01.04) |
 | 2026-09-25 | ADDED | PPSA25661 | 01.000.002 | [Deliver At All Costs](https://hencheats.vercel.app/game/PPSA25661/01.000.002) |
 | 2026-09-22 | ADDED | PPSA21607 | 01.002.000 | [The Smurfs: Dreams](https://hencheats.vercel.app/game/PPSA21607/01.002.000) |
 | 2026-09-21 | ADDED | PPSA02633 | 01.000.028 | [Street Fighter 6](https://hencheats.vercel.app/game/PPSA02633/01.000.028) |

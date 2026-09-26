@@ -1,0 +1,308 @@
+{
+  "name": "Grand Theft Auto III - The Definitive Edition",
+  "id": "CUSA26613",
+  "version": "01.04",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Health (WIP/Experimental)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "10F1775",
+          "on": "9090909090909090",
+          "off": "C5FA119320040000"
+        }
+      ]
+    },
+    {
+      "name": "Infinte Armour",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "10F1624",
+          "on": "9090909090909090",
+          "off": "C5FA119324040000"
+        }
+      ]
+    },
+    {
+      "name": "Infinte Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "11976BF",
+          "on": "90909090",
+          "off": "41894D0C"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "11976A5",
+          "on": "90909090",
+          "off": "41894508"
+        }
+      ]
+    },
+    {
+      "name": "Get $99.999.999 (Upon Mission Completion)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "57CFEC0",
+          "on": "C78410D8000000FFE0F505E981607DFB",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "FA5F4A",
+          "on": "E9719F82049090",
+          "off": "018C10D8000000"
+        }
+      ]
+    },
+    {
+      "name": "Freeze Money (for Pay N Spray/Ammu-Nation)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "F85F16",
+          "on": "909090909090",
+          "off": "89155CE52D05"
+        },
+        {
+          "offset": "F94E7D",
+          "on": "9090",
+          "off": "29D1"
+        }
+      ]
+    },
+    {
+      "name": "Free PainSpray",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "F85EF1",
+          "on": "0F81",
+          "off": "0F82"
+        }
+      ]
+    },
+    {
+      "name": "Disable all incoming damage",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "10F098A",
+          "on": "0F81",
+          "off": "0F82"
+        }
+      ]
+    },
+    {
+      "name": "Disable vehicle incoming damage",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "118A1AC",
+          "on": "909090909090909090",
+          "off": "C4C17A118720030000"
+        }
+      ]
+    },
+    {
+      "name": "Disable insta vehicle blowup",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "118A19A",
+          "on": "0F80",
+          "off": "0F86"
+        }
+      ]
+    },
+    {
+      "name": "Disable wanted level up",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "10751C2",
+          "on": "9090",
+          "off": "FF0E"
+        }
+      ]
+    },
+    {
+      "name": "Set max wanted 0",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6015F28",
+          "on": "00",
+          "off": "06"
+        },
+        {
+          "offset": "6015F2C",
+          "on": "0000",
+          "off": "0019"
+        }
+      ]
+    },
+    {
+      "name": "Set max wanted 1",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6015F28",
+          "on": "01",
+          "off": "06"
+        },
+        {
+          "offset": "6015F2C",
+          "on": "3C00",
+          "off": "0019"
+        }
+      ]
+    },
+    {
+      "name": "Set max wanted 2",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6015F28",
+          "on": "02",
+          "off": "06"
+        },
+        {
+          "offset": "6015F2C",
+          "on": "DC00",
+          "off": "0019"
+        }
+      ]
+    },
+    {
+      "name": "Set max wanted 3",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6015F28",
+          "on": "03",
+          "off": "06"
+        },
+        {
+          "offset": "6015F2C",
+          "on": "A401",
+          "off": "0019"
+        }
+      ]
+    },
+    {
+      "name": "Set max wanted 4",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6015F28",
+          "on": "04",
+          "off": "06"
+        },
+        {
+          "offset": "6015F2C",
+          "on": "3403",
+          "off": "0019"
+        }
+      ]
+    },
+    {
+      "name": "Set max wanted 5",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6015F28",
+          "on": "05",
+          "off": "06"
+        },
+        {
+          "offset": "6015F2C",
+          "on": "5406",
+          "off": "0019"
+        }
+      ]
+    },
+    {
+      "name": "Set max wanted 6",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6015F28",
+          "on": "06",
+          "off": "06"
+        },
+        {
+          "offset": "6015F2C",
+          "on": "0019",
+          "off": "0019"
+        }
+      ]
+    },
+    {
+      "name": "All vehicles could be repaired (include special vehicles)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "F82A74",
+          "on": "0F81",
+          "off": "0F87"
+        }
+      ]
+    },
+    {
+      "name": "Player car is damage proof (enter car after activation)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "108A7BD",
+          "on": "25FFFFBFFF",
+          "off": "0D00004000"
+        }
+      ]
+    },
+    {
+      "name": "Player vehicle blowup all cars (use with damage proof cheat)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "114EFE0",
+          "on": "0F81",
+          "off": "0F84"
+        },
+        {
+          "offset": "11507BA",
+          "on": "F687170300004090909090909075C7",
+          "off": "F7C10000100075CE66837F787A74C7"
+        }
+      ]
+    },
+    {
+      "name": "Keep weapons after wasted/arrest",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "F7D11E",
+          "on": "70",
+          "off": "74"
+        },
+        {
+          "offset": "F7E018",
+          "on": "70",
+          "off": "74"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "AngelDavil88_9.00/2pt/Zubastic"
+  ]
+}
