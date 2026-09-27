@@ -122,6 +122,7 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-09-27 | ADDED | PPSA15972 | 01.008.000 | [Dynasty Warriors: Origins](https://hencheats.vercel.app/game/PPSA15972/01.008.000) |
 | 2026-09-26 | ADDED | CUSA03467 | 01.01 | [Earth Defense Force 4.1: The Shadow of New Despair](https://hencheats.vercel.app/game/CUSA03467/01.01) |
 | 2026-09-26 | ADDED | CUSA57547 | 01.08 | [Call of Duty: Black Ops](https://hencheats.vercel.app/game/CUSA57547/01.08) |
 | 2026-09-26 | UPDATE | CUSA26613 | 01.04 | [Grand Theft Auto III - The Definitive Edition](https://hencheats.vercel.app/game/CUSA26613/01.04) |
