@@ -118,7 +118,14 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 ## Version History
 
-### September 2026
+### October 2026
+
+| Date | Status | ID | Version | Title |
+|-|-|-|-|-|
+| 2026-10-01 | ADDED | PPSA27836 | 01.000.001 | [Onimusha: Way of the Sword](https://hencheats.vercel.app/game/PPSA27836/01.000.001) |
+
+<details>
+<summary><b>September 2026</b></summary>
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
@@ -146,6 +153,8 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 | 2026-09-01 | ADDED | PPSA01494 | 01.050.000 | [Borderlands 4](https://hencheats.vercel.app/game/PPSA01494/01.050.000) |
 | 2026-09-01 | ADDED | PPSA08260 | 01.007.000 | [Star Wars Outlaws](https://hencheats.vercel.app/game/PPSA08260/01.007.000) |
 | 2026-09-01 | ADDED | PPSA03351 | 01.033.000 | [The Callisto Protocol](https://hencheats.vercel.app/game/PPSA03351/01.033.000) |
+
+</details>
 
 <details>
 <summary><b>August 2026</b></summary>
