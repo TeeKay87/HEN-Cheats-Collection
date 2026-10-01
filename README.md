@@ -122,6 +122,7 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-10-01 | ADDED | PPSA11386 | 01.018.000 | [007 First Light](https://hencheats.vercel.app/game/PPSA11386/01.018.000) |
 | 2026-10-01 | ADDED | PPSA27836 | 01.000.001 | [Onimusha: Way of the Sword](https://hencheats.vercel.app/game/PPSA27836/01.000.001) |
 
 <details>
