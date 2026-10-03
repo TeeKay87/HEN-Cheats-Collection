@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Final Fantasy VII Rebirth" Moder="danboy" Cusa="PPSA08668" Version="01.080.000" Process="eboot.bin">
+  <Genres Name="RPG" />
+  <Items />
+
+  <Cheat Text="Inf. HP">
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>508A592</Offset>
+      <ValueOn>E9-B9-E9-62-04-90-90-90</ValueOn>
+      <ValueOff>45-89-B4-1D-30-04-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>96B8F50</Offset>
+      <ValueOn>45-8B-B4-1D-1C-01-00-00-45-89-B4-1D-30-04-00-00-E9-35-16-9D-FB</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+
+  <Cheat Text="Inf. MP">
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>508A8CB</Offset>
+      <ValueOn>E9-95-E6-62-04-90-90</ValueOn>
+      <ValueOff>41-89-9F-AC-03-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>96B8F65</Offset>
+      <ValueOn>41-8B-9F-98-00-00-00-41-89-9F-AC-03-00-00-E9-57-19-9D-FB</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+
+  <Cheat Text="Inf. Limit Break">
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>35AFFD3</Offset>
+      <ValueOn>E9-A8-92-10-06-90-90-90-90</ValueOn>
+      <ValueOff>C5-FA-10-84-0A-34-21-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>96B9280</Offset>
+      <ValueOn>50-B8-00-00-7A-44-C5-F9-6E-C0-58-C5-FA-11-84-0A-34-21-00-00-E9-43-6D-EF-F9</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+
+  <Cheat Text="Fast ATB Full">
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>234B8FB</Offset>
+      <ValueOn>E9-91-D6-36-07-90-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-84-0A-30-21-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>96B8F91</Offset>
+      <ValueOn>C5-FA-10-9C-0A-30-21-00-00-C5-F8-2E-C3-76-22-C5-FA-5C-E3-B8-00-00-A0-41-C5-F9-6E-E8-C5-DA-59-E5-C5-E2-58-C4-B8-00-80-3B-45-C5-F9-6E-E8-C5-FA-5D-C5-C5-FA-11-84-0A-30-21-00-00-E9-34-29-C9-F8</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+
+  <Cheat Text="1-Hit Stagger">
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>20373D8</Offset>
+      <ValueOn>E9-C3-1D-68-07-90-90-90-90-90</ValueOn>
+      <ValueOff>C5-FA-58-48-08-C5-FA-11-48-08</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>96B91A0</Offset>
+      <ValueOn>C5-FA-10-4B-0C-C5-FA-11-4B-08-E9-33-E2-97-F8</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+
+  <Cheat Text="Fast Heat &amp; Stagger (8x)">
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>20373D8</Offset>
+      <ValueOn>E9-E3-1D-68-07-90-90-90-90-90</ValueOn>
+      <ValueOff>C5-FA-58-48-08-C5-FA-11-48-08</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>96B91C0</Offset>
+      <ValueOn>C5-FA-58-C0-C5-FA-58-C0-C5-FA-58-C0-C5-FA-58-4B-08-C5-FA-11-4B-08-E9-07-E2-97-F8</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+
+  <Cheat Text="Materia AP">
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>5092915</Offset>
+      <ValueOn>E9-E6-66-62-04-90</ValueOn>
+      <ValueOff>41-89-C1-45-31-C0</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>96B9000</Offset>
+      <ValueOn>53-43-8B-9C-27-70-FA-0B-00-29-D8-7E-03-6B-C0-64-01-D8-41-89-C1-BF-9F-86-01-00-5B-45-31-C0-E9-F8-98-9D-FB</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+
+  <Cheat Text="10x. EXP">
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>507432C</Offset>
+      <ValueOn>E9-CF-4B-64-04-90-90-90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>41-8B-46-48-48-8D-0D-81-26-DB-06-41-89-DD</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>96B8F00</Offset>
+      <ValueOn>41-8B-46-48-41-2B-84-24-88-00-00-00-6B-C0-0A-41-03-84-24-88-00-00-00-48-B9-B8-69-22-0C-00-00-00-00-41-89-DD-E9-11-B4-9B-FB</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+
+  <Cheat Text="10x. Gold">
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>5015018</Offset>
+      <ValueOn>E9-0C-3F-6A-04-90-90-90-90-90-90</ValueOn>
+      <ValueOff>41-8B-44-24-0C-8B-89-3C-01-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>96B8F29</Offset>
+      <ValueOn>41-8B-44-24-0C-8B-89-3C-01-00-00-44-6B-C6-0A-41-03-C6-E9-E3-C0-95-FB</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+
+  <Cheat Text="Inf. Items">
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>50163F4</Offset>
+      <ValueOn>E9-F7-2B-6A-04</ValueOn>
+      <ValueOff>41-89-44-24-0C</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>96B8FF0</Offset>
+      <ValueOn>41-8B-44-24-0C-41-89-44-24-0C-E9-FA-D3-95-FB</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+
+  <Cheat Text="Inf. MOG">
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>50163E5</Offset>
+      <ValueOn>E9-56-2B-6A-04</ValueOn>
+      <ValueOff>8B-40-0C-29-D8</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>96B8F40</Offset>
+      <ValueOn>B8-0F-27-00-00-41-89-44-24-0C-E9-9B-D4-95-FB-90</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+
+  <Cheat Text="Inf. GoldenPlume">
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>501502B</Offset>
+      <ValueOn>E9-48-3F-6A-04</ValueOn>
+      <ValueOff>41-89-44-24-0C</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>96B8F78</Offset>
+      <ValueOn>81-7C-24-10-66-02-00-00-75-05-B8-63-00-00-00-41-89-44-24-0C-E9-9F-BF-95-FB</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+
+  <Cheat Text="Inf. Golden Points">
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>50163F4</Offset>
+      <ValueOn>E9-D7-2B-6A-04</ValueOn>
+      <ValueOff>41-89-44-24-0C</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>96B8FD0</Offset>
+      <ValueOn>41-8B-4C-24-10-81-F9-B0-0A-00-00-75-05-B8-0F-27-00-00-41-89-44-24-0C-E9-0D-D4-95-FB</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+
+  <Cheat Text="Piano Score (S Rank)">
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>417BDC2</Offset>
+      <ValueOn>E9-79-D2-53-05-90</ValueOn>
+      <ValueOff>41-0F-4F-D6-89-11</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>96B9040</Offset>
+      <ValueOn>41-0F-4F-D6-81-FA-A8-61-00-00-7D-05-BA-A8-61-00-00-89-11-E9-70-2D-AC-FA</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+
+  <Cheat Text="10x. Pirate Rampage Score">
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>42C7335</Offset>
+      <ValueOn>E9-86-1D-3F-05-90-90</ValueOn>
+      <ValueOff>41-01-B7-4C-02-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>96B90C0</Offset>
+      <ValueOn>6B-F6-0A-41-01-B7-4C-02-00-00-E9-6D-E2-C0-FA</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+
+  <Cheat Text="Sit-ups 99">
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>4119A31</Offset>
+      <ValueOn>E9-9A-F6-59-05-90</ValueOn>
+      <ValueOff>FF-47-44-8B-47-14</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>96B90D0</Offset>
+      <ValueOn>83-FA-01-75-09-C7-47-44-63-00-00-00-EB-03-FF-47-44-8B-47-14-E9-4E-09-A6-FA</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+
+  <Cheat Text="100x. Cactuar Score">
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>3E6B79C</Offset>
+      <ValueOn>E9-BF-D8-84-05-90</ValueOn>
+      <ValueOff>C4-C3-71-22-CE-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>96B9060</Offset>
+      <ValueOn>44-89-F0-6B-C0-64-C4-E3-71-22-C8-00-E9-31-27-7B-FA</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+
+  <Cheat Text="Inf. Chocobo Dash">
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>4233DF0</Offset>
+      <ValueOn>E9-8B-52-48-05-90</ValueOn>
+      <ValueOff>8B-B7-E4-01-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>96B9080</Offset>
+      <ValueOn>BE-02-00-00-00-89-87-E4-01-00-00-E9-66-AD-B7-FA</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+
+  <Cheat Text="Inf. Chocobo Skill">
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>41D002A</Offset>
+      <ValueOn>E9-71-90-4E-05-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-83-EC-01-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>96B90A0</Offset>
+      <ValueOn>C7-83-EC-01-00-00-00-00-C8-42-C5-FA-10-83-EC-01-00-00-E9-7B-6F-B1-FA</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+
+  <Cheat Text="Chocobo Gliding Score (12000)">
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>3F33A29</Offset>
+      <ValueOn>E9-32-57-78-05-90-90</ValueOn>
+      <ValueOff>41-89-B0-D8-01-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>96B9160</Offset>
+      <ValueOn>BE-E0-2E-00-00-41-89-B0-D8-01-00-00-E9-BF-A8-87-FA</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  
+  <Cheat Text="Queen's Blood Auto Win">
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>3EAE965</Offset>
+      <ValueOn>E9-96-A7-80-05-90-90-90-90-90-90-90-90-90-90-90-90-90-90-90-90-90-90-90-90-90-90-90-90-90-90-90-90-90-90-90-90-90-90-90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>41-8B-86-9C-00-00-00-41-89-84-24-C0-01-00-00-41-89-84-24-C4-01-00-00-41-8B-86-84-02-00-00-41-89-84-24-C8-01-00-00-41-89-84-24-CC-01-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>96B9100</Offset>
+      <ValueOn>41-C7-86-9C-00-00-00-63-00-00-00-41-C7-84-24-C0-01-00-00-63-00-00-00-41-C7-84-24-C4-01-00-00-63-00-00-00-41-C7-86-84-02-00-00-00-00-00-00-41-C7-84-24-C8-01-00-00-00-00-00-00-41-C7-84-24-CC-01-00-00-00-00-00-00-E9-48-58-7F-FA</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+
+  <Cheat Text="Dolphin Sprint 0s (Rank S)">
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>3FDF3B5</Offset>
+      <ValueOn>E9-C6-9D-6D-05-90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>C5-FA-58-C1-C5-FA-11-83-F8-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>96B9180</Offset>
+      <ValueOn>C5-F8-57-C0-C5-FA-11-83-F8-00-00-00-E9-30-62-92-FA</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+
+  <Cheat Text="Gears and Gambits Max ATB (50)">
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>409B43F</Offset>
+      <ValueOn>E9-9C-DD-61-05-90-90-90-90-90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>C5-FA-10-88-08-02-00-00-C5-FA-11-88-0C-02-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>96B91E0</Offset>
+      <ValueOn>50-B8-00-00-48-42-C5-F9-6E-C8-58-C5-FA-11-8B-08-02-00-00-C5-FA-11-8B-0C-02-00-00-E9-4F-22-9E-FA</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+
+  <Cheat Text="2x. G-Bike Total Score (Rank S)">
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>3E11928</Offset>
+      <ValueOn>E9-D3-78-8A-05-90-90</ValueOn>
+      <ValueOff>5B-41-5C-41-5E-41-5F</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>96B9200</Offset>
+      <ValueOn>D1-E0-5B-41-5C-41-5E-41-5F-E9-21-87-75-FA</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+
+  <Cheat Text="Galactic Saviors 10x Score; Inf. Heals (9)">
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>29AC97B</Offset>
+      <ValueOn>E9-A0-C8-D0-06-90</ValueOn>
+      <ValueOff>01-81-4C-0C-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>96B9220</Offset>
+      <ValueOn>6B-C0-0A-01-81-4C-0C-00-00-E9-53-37-2F-F9</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>2999AD6</Offset>
+      <ValueOn>E9-65-F7-D1-06-90</ValueOn>
+      <ValueOff>FF-8B-C4-01-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>96B9240</Offset>
+      <ValueOn>C7-83-C4-01-00-00-09-00-00-00-E9-8D-08-2E-F9</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  
+  <Cheat Text="3D Brawler Instant Limit Break (Round Start)">
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>3E45F56</Offset>
+      <ValueOn>E9-05-33-87-05-90-90-90</ValueOn>
+      <ValueOff>C5-F8-11-87-9C-02-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Section>0</Section>
+      <Offset>96B9260</Offset>
+      <ValueOn>C5-F8-11-87-9C-02-00-00-C7-87-A4-02-00-00-00-00-C8-42-E9-E7-CC-78-FA</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+
+</Trainer>
