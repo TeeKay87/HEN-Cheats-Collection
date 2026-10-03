@@ -1,0 +1,72 @@
+{
+  "name": "Marvel's Wolverine",
+  "id": "PPSA03671",
+  "version": "01.001.005",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "God Mode P1 - HeroHealth Runtime",
+      "hint": "Activate God Mode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01BAD908",
+          "on": "909090909090909090",
+          "off": "C4E2719D8FF0010000"
+        },
+        {
+          "offset": "01BAD911",
+          "on": "C5F828C1",
+          "off": "C5F25DC0"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill - BotHealth runtime",
+      "hint": "Activate One Hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "048038A1",
+          "on": "4C8D1D908F87044C39D8E941000000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "048038F1",
+          "on": "0F845CFFFFFFC5F25CC0E9A2020000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04803853",
+          "on": "C5F857C0E946030000",
+          "off": "CCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04803BA2",
+          "on": "C5FA114DF4E921FDFFFF",
+          "off": "CCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "048038C4",
+          "on": "E9D8FFFFFF90909090",
+          "off": "C5F25CC0C5FA114DF4"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo - ItemComponentAmmo Consumption Block",
+      "hint": "Activate Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "04C4F486",
+          "on": "E9C600000090909090",
+          "off": "8B4748483D00001000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "zer0day"
+  ]
+}
