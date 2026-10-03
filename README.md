@@ -122,6 +122,7 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-10-04 | ADDED | CUSA01222 | 03.10 | [Street Fighter V](https://hencheats.vercel.app/game/CUSA01222/03.10) |
 | 2026-10-03 | UPDATE | PPSA03671 | 01.001.005 | [Marvel's Wolverine](https://hencheats.vercel.app/game/PPSA03671/01.001.005) |
 | 2026-10-03 | ADDED | PPSA15554 | 01.007.000 | [Dead Cells](https://hencheats.vercel.app/game/PPSA15554/01.007.000) |
 | 2026-10-03 | ADDED | PPSA03671 | 01.001.005 | [Marvel's Wolverine](https://hencheats.vercel.app/game/PPSA03671/01.001.005) |
