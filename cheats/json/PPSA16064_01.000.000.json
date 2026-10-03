@@ -629,7 +629,7 @@
       ]
     },
     {
-      "name": "Immortal (no Master Code needed)",
+      "name": "Immortal (standalone)",
       "type": "checkbox",
       "memory": [
         {
@@ -641,22 +641,6 @@
           "offset": "51BA1AD",
           "on": "E94E1D9402909090",
           "off": "84C07516488B4308"
-        }
-      ]
-    },
-    {
-      "name": "Debug Menu (Settings Screen)",
-      "type": "checkbox",
-      "memory": [
-        {
-          "offset": "5A4371A",
-          "on": "C60301",
-          "off": "C60300"
-        },
-        {
-          "offset": "5A43745",
-          "on": "B001",
-          "off": "31C0"
         }
       ]
     },
