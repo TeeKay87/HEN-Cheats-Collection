@@ -122,6 +122,7 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-10-04 | UPDATE | PPSA03671 | 01.001.005 | [Marvel's Wolverine](https://hencheats.vercel.app/game/PPSA03671/01.001.005) |
 | 2026-10-04 | ADDED | CUSA44317 | 01.05 | [Blasphemous 2](https://hencheats.vercel.app/game/CUSA44317/01.05) |
 | 2026-10-04 | ADDED | PPSA08668 | 01.080.000 | [Final Fantasy VII Rebirth](https://hencheats.vercel.app/game/PPSA08668/01.080.000) |
 | 2026-10-04 | UPDATE | PPSA08666 | 01.080.000 | [Final Fantasy VII Rebirth](https://hencheats.vercel.app/game/PPSA08666/01.080.000) |
