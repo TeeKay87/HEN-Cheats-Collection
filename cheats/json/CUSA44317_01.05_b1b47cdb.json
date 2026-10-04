@@ -1,0 +1,109 @@
+{
+  "name": "Blasphemous 2",
+  "id": "CUSA44317",
+  "version": "01.05",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "TRAINER INFO (read only)",
+      "description": "thanks to TLH and Pharao",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8501AFFF",
+          "on": "00",
+          "off": "00",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "4D5AFFF",
+          "section": 16,
+          "sectionOffset": "4D5AFFF"
+        }
+      ]
+    },
+    {
+      "name": "Invincible",
+      "description": "untouchable\r\nspikes,fall,nothing will kill the player. if you fall dow,  inactivate it and hope it kills the player. othervise use Mirabras of the Return.. or exit to menu and loose the progress since last save.. (save often)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8501B000",
+          "on": "837F1006750BB801000000C3E915412FFC554889E54157E90A412FFC",
+          "off": "00000000000000000000000000000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "4D5B000",
+          "section": 16,
+          "sectionOffset": "4D5B000"
+        },
+        {
+          "offset": "8130F120",
+          "on": "E9DBBED00390",
+          "off": "554889E54157",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "104F120",
+          "section": 16,
+          "sectionOffset": "104F120"
+        }
+      ]
+    },
+    {
+      "name": "One_Hit_Kill",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8501B03C",
+          "on": "42C7443808FFFF0000468B643808E95E5287FD",
+          "off": "00000000000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "4D5B03C",
+          "section": 16,
+          "sectionOffset": "4D5B03C"
+        },
+        {
+          "offset": "828902A8",
+          "on": "E98FAD7802",
+          "off": "468B643808",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "25D02A8",
+          "section": 16,
+          "sectionOffset": "25D02A8"
+        }
+      ]
+    },
+    {
+      "name": "inf_quick_verses",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8501B06F",
+          "on": "4889DF4C89F689C2E901FBF2FC",
+          "off": "00000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "4D5B06F",
+          "section": 16,
+          "sectionOffset": "4D5B06F"
+        },
+        {
+          "offset": "81F4AB72",
+          "on": "E9F8040D03909090909090",
+          "off": "4429E84889DF4C89F689C2",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "1C8AB72",
+          "section": 16,
+          "sectionOffset": "1C8AB72"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "jwhy"
+  ]
+}
