@@ -122,6 +122,7 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-10-07 | UPDATE | CUSA44317 | 01.05 | [Blasphemous 2](https://hencheats.vercel.app/game/CUSA44317/01.05) |
 | 2026-10-05 | ADDED | PPSA16064 | 01.000.000 | [Minecraft Dungeons II](https://hencheats.vercel.app/game/PPSA16064/01.000.000) |
 | 2026-10-05 | UPDATE | PPSA14251 | 01.006.000 | [Mafia: The Old Country](https://hencheats.vercel.app/game/PPSA14251/01.006.000) |
 | 2026-10-05 | ADDED | PPSA28183 | 01.006.038 | [Assassin's Creed Black Flag Resynced](https://hencheats.vercel.app/game/PPSA28183/01.006.038) |
