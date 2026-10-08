@@ -1,0 +1,138 @@
+{
+  "name": "La-Mulana 2",
+  "id": "CUSA15038",
+  "version": "01.05",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite HP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8478FF24",
+          "on": "B880890000418986E4000000E97AC4ECFB",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "8065C3A8",
+          "on": "E9773B13049090",
+          "off": "418986E4000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Money",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8478FF00",
+          "on": "B8D0070000418986EC000000E9FDBCECFB",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "8065BC07",
+          "on": "E9F44213049090",
+          "off": "418986EC000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammos",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8478FF14",
+          "on": "B86400000041894500E9BFEDECFB",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "8065ECD9",
+          "on": "E936121304909090",
+          "off": "0344241041894500"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Jump *Feather Is Required*",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80BB15C4",
+          "on": "9090909090909090",
+          "off": "41C6879E03000000"
+        }
+      ]
+    },
+    {
+      "name": "Fall Control",
+      "description": "You can control your character by opening and closing the pause menu while falling.",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8478FF38",
+          "on": "B805000000418986AC070000E9FAEC45FC",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "80BEEC3C",
+          "on": "E9F712BA039090",
+          "off": "418986AC070000"
+        }
+      ]
+    },
+    {
+      "name": "All Weapons *DON'T ENABLE THIS CHEAT ALONG WITH OTHER CHEATS*",
+      "description": "*IMPORTANT* Enable this when the seconds portion of the in-game time is 0, disable this 3 seconds later, and then save and load in the game. If the minutes or hours portion of the in-game time change while this cheat is active, the game will crash and your save data will be corrupted.",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8478FD00",
+          "on": "6689482066B901004805F008010066890866894850668988A0000000668988F0000000668988400100006689889001000066C780E001000003004805C02D000066C700030066894850668988A0000000668988F00000006689884001000066898890010000668988E0010000482DB0360100668B4820B801000000E96658E0FB",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "805955DD",
+          "on": "E91EA71F0490909090",
+          "off": "66894820B801000000"
+        }
+      ]
+    },
+    {
+      "name": "All Equips *DON'T ENABLE THIS CHEAT ALONG WITH OTHER CHEATS*",
+      "description": "*IMPORTANT* Enable this when the seconds portion of the in-game time is 0, disable this 3 seconds later, and then save and load in the game. If the minutes or hours portion of the in-game time change while this cheat is active, the game will crash and your save data will be corrupted.",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8478FE00",
+          "on": "6689482066B901004805800F0100668908668988A000000066898890010000668988E00100006689883002000066898880020000668988C0030000668988100400006689886004000066898850050000668988A0050000668988F0050000668988400600006689883007000066898880070000668988D007000066898820080000668988C0080000482D800F0100668B4820B801000000E94A57E0FB",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "805955DD",
+          "on": "E91EA81F0490909090",
+          "off": "66894820B801000000"
+        }
+      ]
+    },
+    {
+      "name": "All Apps *DON'T ENABLE THIS CHEAT ALONG WITH OTHER CHEATS*",
+      "description": "*IMPORTANT* Enable this when the seconds portion of the in-game time is 0, disable this 3 seconds later, and then save and load in the game. If the minutes or hours portion of the in-game time change while this cheat is active, the game will crash and your save data will be corrupted.",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8478FC00",
+          "on": "6689482066B901004805E02E010066890866894850668988A0000000668988F00000006689884001000066898890010000668988E00100006689883002000066898880020000668988D00200006689882003000066898870030000668988C00300006689881004000066898860040000668988B00400006689880005000066898850050000668988A0050000668988F00500006689884006000066898890060000668988E006000066898830070000482DE02E0100668B4820B801000000E92359E0FB",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "805955DD",
+          "on": "E91EA61F0490909090",
+          "off": "66894820B801000000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "DS02252"
+  ]
+}
