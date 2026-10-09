@@ -1,0 +1,1475 @@
+{
+  "name": "Assassin's Creed Black Flag Resynced",
+  "id": "PPSA28183",
+  "version": "01.006.038",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "God Mode / Invincible - Edward",
+      "type": "checkbox",
+      "hint": "God Mode",
+      "memory": [
+        {
+          "offset": "041B4CD6",
+          "on": "514885F6741D488B8EA80000004885C97411483BB1C00D00007508488B4C241080090159585EC3",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0187AF41",
+          "on": "56E8E9A0DDFE504C89F6E9869D9302",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "01881321",
+          "on": "56E8093DDDFE504889DEE9A6399302",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "018779BA",
+          "on": "E882350000",
+          "off": "E871D6DDFE"
+        },
+        {
+          "offset": "01CA7DDF",
+          "on": "E85D31BDFF",
+          "off": "E84CD29AFE"
+        },
+        {
+          "offset": "00E4898D",
+          "on": "E88F89A300",
+          "off": "E89EC680FF"
+        },
+        {
+          "offset": "01CA7199",
+          "on": "E883A1BDFF",
+          "off": "E892DE9AFE"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill",
+      "hint": "One Hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "041BA656",
+          "on": "5152488B87F80100004885C00F848982A9FE488B80880100004885C00F844992A8FEE9E3D60000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "02C528F1",
+          "on": "488D8780010000E963545701",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041C7D60",
+          "on": "0F2E40180F8A57BBA7FE0F8351BBA7FE0F57C9E9262A0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041CA79E",
+          "on": "0F2E48180F8A1991A7FE0F831391A7FE488B87880100004885C0E9D4AF95FE",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "02B25791",
+          "on": "0F842AE11100E9D5AD0700",
+          "off": "CCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "02BA0571",
+          "on": "488B90500200004885D2E9B13F0300",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "02BD4531",
+          "on": "0F848AF30600E9B54C0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "02BD91F1",
+          "on": "488B82A80000004885C0E9018C0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "02BE1E01",
+          "on": "0F84BA1A0600E9250E0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "02BE2C31",
+          "on": "488B80C00D0000E9A43FF8FF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "02B66BE1",
+          "on": "4885C00F84D7CC0D00E9621FFCFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "02B28B51",
+          "on": "4839D0E908D60000",
+          "off": "CCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "02B36161",
+          "on": "0F845AD71000E9355D0100",
+          "off": "CCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "02B4BEA1",
+          "on": "B8000080BFE926E6FDFF",
+          "off": "CCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "02B2A4D1",
+          "on": "660F6EC8E96719FEFF",
+          "off": "CCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "02B0BE41",
+          "on": "F30F10C1E9777A1300",
+          "off": "CCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "02C438C1",
+          "on": "5A59554889E55350E938E4F1FF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "02B61D00",
+          "on": "E95189650190",
+          "off": "554889E55350"
+        }
+      ]
+    },
+    {
+      "name": "Stealth - Local Player Perception Immunity",
+      "hint": "Never Wanted",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "016BE8F0",
+          "on": "4885FF7459488B87A80000004885C07409483BB8C00D0000743E4883EC08E85D6875014883C4084885C074320FB70D13F2360A488B90CC00000089CEC1EE058B14B20FA3CA0F92C1F78038030000FF3F00000F95C020C8C3B801000000C331C0C39090909090909090",
+          "off": "4885FF74600FB68764010000483DFF0000007451488B8F38010000488B04C14885C07441488B40384885C07438488B80980100004885C0742C0FB70D06F2360A488B90CC00000089CEC1EE058B14B20FA3CA0F92C1F78038030000FF3F00000F95C020C8C331C0EBFB"
+        },
+        {
+          "offset": "002D8235",
+          "on": "56574C89FFE8B1663E015F5E84C00F85F01A0000E94A0000009090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090",
+          "off": "410FB68764010000483DFF0000007453498B8F38010000488B04C14885C07443488B40384885C0743A488B80980100004885C0742E0FB70DC558750B488B90CC00000089CEC1EE058B14B20FA3CA73138B8038030000B9FF3F000021C80F85A11A0000"
+        },
+        {
+          "offset": "002D8845",
+          "on": "56574889CFE8A1603E015F5E84C00F85D6140000E94900000090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090",
+          "off": "0FB68164010000483DFF0000007453488B8938010000488B04C14885C07443488B40384885C0743A488B80980100004885C0742E0FB70DB652750B488B90CC00000089CEC1EE058B14B20FA3CA73138B8038030000B9FF3F000021C80F8588140000"
+        },
+        {
+          "offset": "002D9285",
+          "on": "56574889CFE861563E015F5E84C00F858C0A0000E94900000090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090",
+          "off": "0FB68164010000483DFF0000007453488B8938010000488B04C14885C07443488B40384885C0743A488B80980100004885C0742E0FB70D7648750B488B90CC00000089CEC1EE058B14B20FA3CA73138B8038030000B9FF3F000021C80F853E0A0000"
+        },
+        {
+          "offset": "002D98A5",
+          "on": "56574889CFE841503E015F5E84C00F8562040000E94900000090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090",
+          "off": "0FB68164010000483DFF0000007453488B8938010000488B04C14885C07443488B40384885C0743A488B80980100004885C0742E0FB70D5642750B488B90CC00000089CEC1EE058B14B20FA3CA73138B8038030000B9FF3F000021C80F8514040000"
+        },
+        {
+          "offset": "0516224E",
+          "on": "56574C89E7E898C655FC5F5E84C00F8552010000E94C00000090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090",
+          "off": "410FB6842464010000483DFF0000007454498B8C2438010000488B04C14885C07443488B40384885C0743A488B80980100004885C0742E0FB70DAAB88C06488B90CC00000089CEC1EE058B14B20FA3CA73138B8038030000B9FF3F000021C80F8501010000"
+        },
+        {
+          "offset": "008872C0",
+          "on": "4883EC08E82776E3004883C4083401C390909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090",
+          "off": "B0014885FF74600FB68F640100004881F9FF0000007450488B9738010000488B0CCA4885C97440488B49384885C97437488B89980100004885C9742B0FB70533681A0B488B91CC00000089C6C1EE058B14B20FA3C20F93C2F78138030000FF3F00000F94C008D0C3"
+        },
+        {
+          "offset": "00653225",
+          "on": "505256574150514C89EFE8BCB606018804245941585F5E5A58E912000000909090909090909090909090909090909090",
+          "off": "0FB7350AA93D0B488BB9CC0000004189F041C1E805428B3C870FA3F7400F92C6F78138030000FF3F00000F95C14020F1"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Oxygen - P1 native oxygen reserve",
+      "type": "checkbox",
+      "hint": "Infinite Oxygen",
+      "memory": [
+        {
+          "offset": "04193EE3",
+          "on": "505152488D05532EF5064839030F85D8E50100E9E8BE0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0419FDE3",
+          "on": "488B43384885C00F84DE260100488B48584885C9E9AFB1FEFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0418AFAB",
+          "on": "0F841D750200488B91A80000004885D2E9D2509DFE",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "02B60092",
+          "on": "0F8436246501E92EE16401",
+          "off": "CCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041AE1CB",
+          "on": "483B8AC00D00000F85F6420000E96EAD0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041B8F4B",
+          "on": "C5FA1083AC000000C5FA1183B8000000E96D660000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041BF5CD",
+          "on": "5A5958E9081180FE",
+          "off": "CCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041B24CE",
+          "on": "5A5958C5FA1083B8000000E930E180FE",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "029C0606",
+          "on": "E9D8387D01909090",
+          "off": "C5FA1083B8000000"
+        }
+      ]
+    },
+    {
+      "name": "Reales - 99,999,999",
+      "type": "checkbox",
+      "hint": "Reales - 99,999,999",
+      "memory": [
+        {
+          "offset": "01807081",
+          "on": "9C51524885FFE995010000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "01807221",
+          "on": "0F849A470100E925080000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "01807A51",
+          "on": "488B0D9045FF0A4885C9E9310F0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "01808991",
+          "on": "0F842A300100E9D5100000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "01809A71",
+          "on": "488B89980000004885C9E971040000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "01809EF1",
+          "on": "0F84CA1A0100F6410B80E981030000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0180A281",
+          "on": "0F843A17010048833900E9B1140000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0180B741",
+          "on": "0F847A020100488B17E9C20D0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0180C511",
+          "on": "4885D20F84A7F40000E9225A0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "01811F41",
+          "on": "F6420B800F84769A0000E9B11A0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "01813A01",
+          "on": "488B124885D2E9C50F0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "018149D1",
+          "on": "0F84EA6F000048394A70E991010000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "01814B71",
+          "on": "0F854A6E0000E925070000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "018152A1",
+          "on": "C74710FFE0F505E9F4660000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0181B9A1",
+          "on": "B801000000E918000000",
+          "off": "CCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0181B9C1",
+          "on": "31C05A599DC3",
+          "off": "CCCCCCCCCCCC"
+        },
+        {
+          "offset": "0181BBB1",
+          "on": "440F43F1448970105057E941780000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "01823401",
+          "on": "4889C7E8783CFEFF5F58E941060000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "01823A51",
+          "on": "E9B74EE0FF",
+          "off": "CCCCCCCCCC"
+        },
+        {
+          "offset": "01823F21",
+          "on": "0F43D18950105057E9C3320000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "018271F1",
+          "on": "4889C7E888FEFDFF5F58E981190000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "01828B81",
+          "on": "E983FEDFFF",
+          "off": "CCCCCCCCCC"
+        },
+        {
+          "offset": "01829E71",
+          "on": "C74010010000005057E942020000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0182A0C1",
+          "on": "4889C7E8B8CFFDFF5F58E9511C0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0182BD21",
+          "on": "E94C8D1300",
+          "off": "CCCCCCCCCC"
+        },
+        {
+          "offset": "0182C151",
+          "on": "C74310010000005057E922AC0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "01836D81",
+          "on": "4889DFE8F802FDFF5F58E9610E0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "01837BF1",
+          "on": "E951E91200",
+          "off": "CCCCCCCCCC"
+        },
+        {
+          "offset": "01838F11",
+          "on": "0F43D98958105057E9830E0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "01839DA1",
+          "on": "4889C7E8D8D2FCFF5F58E9A17F0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "01841D51",
+          "on": "E9FA491200",
+          "off": "CCCCCCCCCC"
+        },
+        {
+          "offset": "01842081",
+          "on": "0F43C841894F105057E9F2020000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "01842381",
+          "on": "4C89FFE8F84CFCFF5F58E981040000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "01842811",
+          "on": "E91B401200",
+          "off": "CCCCCCCCCC"
+        },
+        {
+          "offset": "01843601",
+          "on": "0F43C841894E105057E9020C0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "01844211",
+          "on": "4C89F7E8682EFCFF5F58E971090000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "01844B91",
+          "on": "E9231F1200",
+          "off": "CCCCCCCCCC"
+        },
+        {
+          "offset": "01849811",
+          "on": "440F43F9448978105057E901640000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0184FC21",
+          "on": "4889C7E85874FBFF5F58E9B1260000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "018522E1",
+          "on": "E97F491100",
+          "off": "CCCCCCCCCC"
+        },
+        {
+          "offset": "01852F11",
+          "on": "0F43F18970105057E963230000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "01855281",
+          "on": "4889C7E8F81DFBFF5F58E911000000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "018552A1",
+          "on": "E9FF1A1100",
+          "off": "CCCCCCCCCC"
+        },
+        {
+          "offset": "01855701",
+          "on": "0F43C841894F105057E992200000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "018577A1",
+          "on": "4C89FFE8D8F8FAFF5F58E941030000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "01857AF1",
+          "on": "E99E091100",
+          "off": "CCCCCCCCCC"
+        },
+        {
+          "offset": "0185AE01",
+          "on": "0F43F08977105057E9430C0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0185BA51",
+          "on": "4889FFE828B6FAFF5F58E9011D0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0185D761",
+          "on": "E9AEED1000",
+          "off": "CCCCCCCCCC"
+        },
+        {
+          "offset": "0185E6D1",
+          "on": "0F43D18950105057E9C31D0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "018604A1",
+          "on": "4889C7E8D86BFAFF5F58E9113B0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "01863FC1",
+          "on": "E99F6B5500",
+          "off": "CCCCCCCCCC"
+        },
+        {
+          "offset": "018653E1",
+          "on": "0F43D18950105057E9738A0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0186DE61",
+          "on": "4889C7E81892F9FF5F58E991160000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0186F501",
+          "on": "E9FDDD5400",
+          "off": "CCCCCCCCCC"
+        },
+        {
+          "offset": "0186F5F1",
+          "on": "0F43D18950105057E963170000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "01870D61",
+          "on": "4889C7E81863F9FF5F58E9514B0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "018758C1",
+          "on": "E9F8D9A203",
+          "off": "CCCCCCCCCC"
+        },
+        {
+          "offset": "01884E41",
+          "on": "50574889C7E83622F8FFE9B1380000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "01888701",
+          "on": "5F58488B7B404885FFE9B2B80000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "01893FC1",
+          "on": "E9D6A65200",
+          "off": "CCCCCCCCCC"
+        },
+        {
+          "offset": "01897B71",
+          "on": "4C89F050574889C7E9D3060000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "01898251",
+          "on": "E82BEEF6FF5F58E9D48B0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "018A0E31",
+          "on": "4883C428E940620C00",
+          "off": "CCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "018A1AE1",
+          "on": "8B471039F0E9369F0000",
+          "off": "CCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "018ABA21",
+          "on": "0F833A6A0000897710E9326A0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "018B2461",
+          "on": "39F00F92C050E9F52C0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "018B5161",
+          "on": "E81B1FF5FF58C3",
+          "off": "CCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "01964A6B",
+          "on": "E90154ECFF9090",
+          "off": "C7401001000000"
+        },
+        {
+          "offset": "01966540",
+          "on": "E90C5CECFF9090",
+          "off": "C7431001000000"
+        },
+        {
+          "offset": "01DBE695",
+          "on": "E9A767ACFF9090",
+          "off": "488B7B404885FF"
+        },
+        {
+          "offset": "01967073",
+          "on": "E9F90AF3FF9090",
+          "off": "4C89F04883C428"
+        },
+        {
+          "offset": "05294770",
+          "on": "E96CD360FC",
+          "off": "8B471039F0"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ship Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "033CC3E2",
+          "on": "9C81781C00009644E9C3FDFFFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "033CC1B2",
+          "on": "0F850A9D0000E925940000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "033D55E2",
+          "on": "C740180080BB459DE942B0FFFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "033D5EC2",
+          "on": "9DC5FA114018E964A7FFFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "033D062C",
+          "on": "E9B1BDFFFF",
+          "off": "C5FA114018"
+        }
+      ],
+      "hint": "Infinite Ship Health"
+    },
+    {
+      "name": "Ammo / Bombs / Stackables - 9,999,999",
+      "type": "checkbox",
+      "hint": "Ammo / Bombs / Stackables - 9,999,999",
+      "memory": [
+        {
+          "offset": "041D0266",
+          "on": "51524885FFE9D5990000",
+          "off": "CCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041D9C45",
+          "on": "0F844B761700E9F1A3FFFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041D4041",
+          "on": "488B0DA07F62084885C9E9A55C0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041D9CF5",
+          "on": "0F849B751700E9D1BAFFFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041D57D1",
+          "on": "488B89980000004885C9E911150000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041D6CF1",
+          "on": "0F849FA51700F6410B80E931BE0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041E2B31",
+          "on": "0F845FE7160048833900E9C2DEFEFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041D0A02",
+          "on": "0F848E081800488B17E9120E0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041D1822",
+          "on": "4885D20F846BFA1700E9A11C0100",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041E34D1",
+          "on": "F6420B800F84BBDD1600E9F581FFFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041DB6D5",
+          "on": "488B124885D2E981220100",
+          "off": "CCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041ED961",
+          "on": "0F842F39160048394A70E935EFFEFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041DC8A5",
+          "on": "0F84EB491700E906F00200",
+          "off": "CCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0420B8B6",
+          "on": "B8010000005A59C3",
+          "off": "CCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04351296",
+          "on": "31C05A59C3",
+          "off": "CCCCCCCCCC"
+        },
+        {
+          "offset": "041D0214",
+          "on": "4139CE440F43F1E9D39F0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041DA1F3",
+          "on": "488D6424809C5057E9F3530000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041DF5F3",
+          "on": "4889C7E86B0CFFFFE9D3340000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041E2AD3",
+          "on": "85C00F84EBA60200E9B3010000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041E2C93",
+          "on": "5F5841BE7F969800E97227FFFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041D5412",
+          "on": "9D488DA42480000000E9F6900200",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041FE516",
+          "on": "44897010E9EEA342FD",
+          "off": "CCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0420D1C6",
+          "on": "5F589DE9255BFDFF",
+          "off": "CCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041E2CF3",
+          "on": "488DA42480000000E916B80100",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041D18E6",
+          "on": "39CA0F43D1E933190100",
+          "off": "CCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041E3223",
+          "on": "488D6424809C5057E9C37F0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041EB1F3",
+          "on": "4889C7E86B50FEFFE9C31B0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041ECDC3",
+          "on": "85C00F847B100300E9E470FFFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041E3EB4",
+          "on": "5F58BA7F969800E9825EFFFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041D9D42",
+          "on": "9D488DA42480000000E9861A0400",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0421B7D6",
+          "on": "895010E92BD240FD",
+          "off": "CCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0421DE46",
+          "on": "5F589DE90551FDFF",
+          "off": "CCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041F2F53",
+          "on": "488DA42480000000E976880200",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041D6AB6",
+          "on": "39CB0F43D9E943F00100",
+          "off": "CCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041F5B03",
+          "on": "488D6424809C5057E9A3A60000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "042001B3",
+          "on": "4889C7E8AB00FDFFE9A3210000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04202363",
+          "on": "85C00F845B930200E9C4CBFFFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041FEF34",
+          "on": "5F58BB7F969800E992C1FDFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041DB0D2",
+          "on": "9D488DA42480000000E906C00400",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "042270E6",
+          "on": "895810E962F673FD",
+          "off": "CCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0422B6C6",
+          "on": "5F589DE955A7FDFF",
+          "off": "CCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04205E23",
+          "on": "488DA42480000000E9B6120200",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041D9B16",
+          "on": "39C10F43C8E963D60200",
+          "off": "CCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04207183",
+          "on": "488D6424809C5057E9C33A0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0420AC53",
+          "on": "4C89FFE80B56FCFFE913670000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04211373",
+          "on": "85C00F845BE60300E9B41BFFFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04202F34",
+          "on": "5F58B97F969800E912FBFDFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041E2A52",
+          "on": "9D488DA42480000000E9E6C30100",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041FEE46",
+          "on": "41894F10E9E27976FD",
+          "off": "CCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0424F9D6",
+          "on": "5F589DE94546FCFF",
+          "off": "CCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04214023",
+          "on": "488DA42480000000E916AEFEFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041E06B6",
+          "on": "39C10F43C8E9D3390300",
+          "off": "CCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04214093",
+          "on": "488D6424809C5057E923040000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "042144C3",
+          "on": "4C89F7E89BBDFBFFE9D31D0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "042162A3",
+          "on": "85C00F84EBC90300E9F402FFFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "042065A4",
+          "on": "5F58B97F969800E962E5FDFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041E4B12",
+          "on": "9D488DA42480000000E986F10100",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04203CA6",
+          "on": "41894E10E90A2E76FD",
+          "off": "CCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04252C96",
+          "on": "5F589DE9153CFCFF",
+          "off": "CCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "042168B3",
+          "on": "488DA42480000000E9E6D3FEFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0420AA44",
+          "on": "4139CF440F43F9E9F3F00000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04219B43",
+          "on": "488D6424809C5057E913000000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04219B63",
+          "on": "4889C7E8FB66FBFFE993160000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0421B203",
+          "on": "85C00F842BB10300E983BD0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04226F93",
+          "on": "5F5841BF7F969800E9723EFCFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041EAE12",
+          "on": "9D488DA42480000000E976BB0100",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04206996",
+          "on": "44897810E9C60276FD",
+          "off": "CCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04256336",
+          "on": "5F589DE9458FFFFF",
+          "off": "CCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0424F283",
+          "on": "488DA42480000000E90677FBFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041E3E76",
+          "on": "39CE0F43F1E9D34C0700",
+          "off": "CCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04258B53",
+          "on": "488D6424809C5057E9B3B20000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04263E13",
+          "on": "4889C7E84BC4F6FFE9A3E80000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "042726C3",
+          "on": "85C00F84CB64FEFFE9E4CFF9FF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0420F6B4",
+          "on": "5F58BE7F969800E912E6FDFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041EDCD2",
+          "on": "9D488DA42480000000E9E6AD0600",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04258AC6",
+          "on": "897010E9D7E270FD",
+          "off": "CCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04258B96",
+          "on": "5F589DE985770200",
+          "off": "CCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04280323",
+          "on": "488DA42480000000E99687FDFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041E40B6",
+          "on": "39C10F43C8E943E20C00",
+          "off": "CCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "042B2303",
+          "on": "488D6424809C5057E983000000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "042B2393",
+          "on": "4C89FFE8CBDEF1FFE9D3390000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "042B5D73",
+          "on": "85C00F844B4BFBFFE9849BF5FF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0420F904",
+          "on": "5F58B97F969800E912EEFDFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041EE722",
+          "on": "9D488DA42480000000E916930100",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04207A46",
+          "on": "41894F10E9450A76FD",
+          "off": "CCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0426A8C6",
+          "on": "5F589DE9C5DD0500",
+          "off": "CCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "042C8693",
+          "on": "488DA42480000000E9A6F3F3FF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041EE4D6",
+          "on": "39C60F43F0E933F80D00",
+          "off": "CCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "042CDD13",
+          "on": "488D6424809C5057E903D70400",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0431B423",
+          "on": "4889FFE83B4EEBFFE9E3310000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0431E613",
+          "on": "85C00F84AB0CF6FFE96426EFFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04210C84",
+          "on": "5F58BE7F969800E9D2E9FDFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041EF662",
+          "on": "9D488DA42480000000E906C40700",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0426BA76",
+          "on": "897710E9960A70FD",
+          "off": "CCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0427F2C6",
+          "on": "5F589DE915990A00",
+          "off": "CCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04328BE3",
+          "on": "488DA42480000000E9862EF4FF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041F3A76",
+          "on": "39CA0F43D1E983541300",
+          "off": "CCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04328F03",
+          "on": "488D6424809C5057E933630000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0432F243",
+          "on": "4889C7E81B10EAFFE9E32B0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04331E33",
+          "on": "85C00F84CB35F5FFE9347CEEFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04219A74",
+          "on": "5F58BA7F969800E9625FFDFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041EF9E2",
+          "on": "9D488DA42480000000E936FE0800",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0427F826",
+          "on": "895010E937B3B3FD",
+          "off": "CCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04285406",
+          "on": "5F589DE985490B00",
+          "off": "CCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04339D93",
+          "on": "488DA42480000000E9865AF4FF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041F44B6",
+          "on": "39CA0F43D1E943891400",
+          "off": "CCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0433CE03",
+          "on": "488D6424809C5057E9F3B20000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04348103",
+          "on": "4889C7E85B81E8FFE923860000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04350733",
+          "on": "85C00F84CB1CF6FFE9C493ECFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04219B04",
+          "on": "5F58BA7F969800E9826DFDFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041F0892",
+          "on": "9D488DA42480000000E9964E0900",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04285736",
+          "on": "895010E9C57BB3FD",
+          "off": "CCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "042B2406",
+          "on": "5F589DE995EB0900",
+          "off": "CCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04350FA3",
+          "on": "488DA42480000000E98647F3FF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041F8496",
+          "on": "39CA0F43D1E9A3D61500",
+          "off": "CCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04355B43",
+          "on": "488D6424809C5057E913020000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04355D63",
+          "on": "4889C7E8FBA4E7FFE9B3AC0100",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04370A23",
+          "on": "85C00F847B8DF4FFE9E490EAFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04219B14",
+          "on": "5F58BA7F969800E9B26EFDFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041F09D2",
+          "on": "9D488DA42480000000E926460C00",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "042B5006",
+          "on": "895010E9B0E2FE00",
+          "off": "CCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "042B97A6",
+          "on": "5F589DE9F5870B00",
+          "off": "CCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04371FA3",
+          "on": "488DA42480000000E95630F4FF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041FBFA6",
+          "on": "39CA0F43D1E903611700",
+          "off": "CCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "043720B3",
+          "on": "488D6424809C5057E9030D0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04372DC3",
+          "on": "4889C7E89BD4E5FFE9A3330000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04376173",
+          "on": "85C00F846B28FBFFE9A439EAFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04219B24",
+          "on": "5F58BA7F969800E92271FDFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041F0C52",
+          "on": "9D488DA42480000000E9E6EF1200",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0431FC46",
+          "on": "895010E92C6564FD",
+          "off": "CCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "043289E6",
+          "on": "5F589DE975A30500",
+          "off": "CCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04382D63",
+          "on": "488DA42480000000E9D6CEF9FF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04385E33",
+          "on": "488D6424809C5057E9B2E1E6FF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041F3FF2",
+          "on": "4A8D3C3AE86BC2FDFFE923261900",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04386623",
+          "on": "85C00F841B64FBFFE9C632FAFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "043298F6",
+          "on": "5F589DE925D70500",
+          "off": "CCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04387023",
+          "on": "488DA42480000000E99171E6FF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041EE1C1",
+          "on": "B97F96980039C80F43C1E924BB0200",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04219CF4",
+          "on": "29C1B97F969800E9D64046FE",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0433CA46",
+          "on": "5F589DE925C50500",
+          "off": "CCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04398F73",
+          "on": "488DA42480000000E9B40DE8FF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04219D34",
+          "on": "39C80F43C129C1E9964046FE",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0439D193",
+          "on": "488D6424809C5057E923000000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0439D1C3",
+          "on": "4C89F7E89B30E3FFE923200000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0439F1F3",
+          "on": "85C00F843B18FBFFE993030000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0439F593",
+          "on": "41C746107F969800E99614FBFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04350A36",
+          "on": "5F589DE9D5010500",
+          "off": "CCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "043A0C13",
+          "on": "488DA42480000000E9B1E8E4FF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041EF4D1",
+          "on": "483B45D00F85F67D77FDE9937B77FD",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "01628902",
+          "on": "E90D79BA02909090909090",
+          "off": "4139CE440F43F144897010"
+        },
+        {
+          "offset": "01628A01",
+          "on": "E9E08EBA02909090",
+          "off": "39CA0F43D1895010"
+        },
+        {
+          "offset": "01966748",
+          "on": "E969038702909090",
+          "off": "39CB0F43D9895810"
+        },
+        {
+          "offset": "01966828",
+          "on": "E9E932870290909090",
+          "off": "39C10F43C841894F10"
+        },
+        {
+          "offset": "01966AB0",
+          "on": "E9019C870290909090",
+          "off": "39C10F43C841894E10"
+        },
+        {
+          "offset": "01966C5A",
+          "on": "E9E53D8A02909090909090",
+          "off": "4139CF440F43F944897810"
+        },
+        {
+          "offset": "01966D9D",
+          "on": "E9D4D08702909090",
+          "off": "39CE0F43F1897010"
+        },
+        {
+          "offset": "0196848B",
+          "on": "E926BC870290909090",
+          "off": "39C10F43C841894F10"
+        },
+        {
+          "offset": "0196C50C",
+          "on": "E9C51F8802909090",
+          "off": "39C60F43F0897710"
+        },
+        {
+          "offset": "01DBAB5D",
+          "on": "E9148F4302909090",
+          "off": "39CA0F43D1895010"
+        },
+        {
+          "offset": "01DBD2FB",
+          "on": "E9B6714302909090",
+          "off": "39CA0F43D1895010"
+        },
+        {
+          "offset": "052A32B6",
+          "on": "E9DB51F5FE909090",
+          "off": "39CA0F43D1895010"
+        },
+        {
+          "offset": "01966172",
+          "on": "E92F5E8902909090",
+          "off": "39CA0F43D1895010"
+        },
+        {
+          "offset": "01967069",
+          "on": "E92561A3029090909090",
+          "off": "483B45D00F855E020000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "zer0day"
+  ]
+}
