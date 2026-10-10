@@ -1,0 +1,120 @@
+{
+  "name": "Vampire Survivors",
+  "id": "PPSA21703",
+  "version": "01.016.107",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "No Damage",
+      "description": "The player takes no damage. Healing still works, and a shorter health bar after a +Max HP upgrade is normal game behaviour.",
+      "type": "checkbox",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "74B97C2",
+          "on": "C5FA108340020000",
+          "off": "488BBBA800000031",
+          "expected": "488BBBA800000031",
+          "absolute": false
+        },
+        {
+          "offset": "74B97CA",
+          "on": "C5FA5C45CC",
+          "off": "F6E8F0AC01",
+          "expected": "F6E8F0AC01",
+          "absolute": false
+        },
+        {
+          "offset": "74B97CF",
+          "on": "C5FA5F8340020000",
+          "off": "FBC5FA1083400200",
+          "expected": "FBC5FA1083400200",
+          "absolute": false
+        },
+        {
+          "offset": "74B97D7",
+          "on": "C5FA118340020000",
+          "off": "0084C0740DC5FA5C",
+          "expected": "0084C0740DC5FA5C",
+          "absolute": false
+        },
+        {
+          "offset": "74B97DF",
+          "on": "90909090909090909090",
+          "off": "45CCC5FA118340020000",
+          "expected": "45CCC5FA118340020000",
+          "absolute": false
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill",
+      "description": "Enemies die from a single hit. Standalone mod: use it independently of No Damage.",
+      "type": "checkbox",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "75A1BC8",
+          "on": "C5F857C0",
+          "off": "C5F25CC0",
+          "expected": "C5F25CC0",
+          "absolute": false
+        }
+      ]
+    },
+    {
+      "name": "Max Gold 9,999,999",
+      "description": "Picking up any gold sets your coin total to 9,999,999, the highest amount the game can display. Use it once and turn it off; the gold stays in your save like normally earned gold. Do not enable together with Reset Gold.",
+      "type": "checkbox",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "6EDABFF",
+          "on": "C5FA580D250A2802",
+          "off": "C5FA588B94000000",
+          "expected": "C5FA588B94000000",
+          "absolute": false
+        },
+        {
+          "offset": "6EDEAD8",
+          "on": "C5FA58054CCB2702",
+          "off": "C5FA588194000000",
+          "expected": "C5FA588194000000",
+          "absolute": false
+        },
+        {
+          "offset": "6EDEB79",
+          "on": "C5FA5805ABCA2702",
+          "off": "C5FA588198000000",
+          "expected": "C5FA588198000000",
+          "absolute": false
+        }
+      ]
+    },
+    {
+      "name": "Reset Gold",
+      "description": "Sets your coin balance back to almost zero the next time you collect gold. Enable it, pick up one coin, then turn it off. Do not enable together with Max Gold 9,999,999.",
+      "type": "checkbox",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "6EDABFF",
+          "on": "C5FA580D2D002802",
+          "off": "C5FA588B94000000",
+          "expected": "C5FA588B94000000",
+          "absolute": false
+        },
+        {
+          "offset": "6EDEAD8",
+          "on": "C5FA580554C12702",
+          "off": "C5FA588194000000",
+          "expected": "C5FA588194000000",
+          "absolute": false
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "prey33"
+  ]
+}

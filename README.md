@@ -122,6 +122,10 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-10-10 | ADDED | PPSA21703 | 01.016.107 | [Vampire Survivors](https://hencheats.vercel.app/game/PPSA21703/01.016.107) |
+| 2026-10-10 | UPDATE | PPSA01340 | 01.005.000 | [Demon's Souls](https://hencheats.vercel.app/game/PPSA01340/01.005.000) |
+| 2026-10-10 | UPDATE | PPSA01341 | 01.005.000 | [Demon's Souls](https://hencheats.vercel.app/game/PPSA01341/01.005.000) |
+| 2026-10-10 | UPDATE | PPSA01342 | 01.005.000 | [Demon's Souls](https://hencheats.vercel.app/game/PPSA01342/01.005.000) |
 | 2026-10-10 | UPDATE | PPSA28183 | 01.006.038 | [Assassin's Creed Black Flag Resynced](https://hencheats.vercel.app/game/PPSA28183/01.006.038) |
 | 2026-10-09 | ADDED | PPSA30601 | 01.002.000 | [Resonance: A Plague Tale Legacy](https://hencheats.vercel.app/game/PPSA30601/01.002.000) |
 | 2026-10-08 | ADDED | CUSA15038 | 01.05 | [La-Mulana 2](https://hencheats.vercel.app/game/CUSA15038/01.05) |
