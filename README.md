@@ -122,6 +122,7 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-10-14 | ADDED | PPSA08755 | 01.035.000 | [Pinball FX](https://hencheats.vercel.app/game/PPSA08755/01.035.000) |
 | 2026-10-13 | ADDED | PPSA24003 | 01.007.002 | [Dying Light: The Beast](https://hencheats.vercel.app/game/PPSA24003/01.007.002) |
 | 2026-10-12 | ADDED | PPSA16387 | 01.038.000 | [Hitman: World of Assassination](https://hencheats.vercel.app/game/PPSA16387/01.038.000) |
 | 2026-10-12 | ADDED | PPSA26344 | 02.002.000 | [Ghost of Yotei](https://hencheats.vercel.app/game/PPSA26344/02.002.000) |

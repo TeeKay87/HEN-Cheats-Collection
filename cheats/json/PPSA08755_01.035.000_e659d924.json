@@ -1,0 +1,116 @@
+{
+  "name": "Pinball FX",
+  "id": "PPSA08755",
+  "version": "01.035.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Score Multiplier x10",
+      "description": "Every score you earn is multiplied by 10. Same patch slot as the other multipliers: enable only ONE multiplier at a time (switch the old one off first).",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1878190",
+          "on": "EB1B",
+          "off": "751B",
+          "expected": "751B",
+          "absolute": false
+        },
+        {
+          "offset": "18781BA",
+          "on": "C4E1FA2CC0486BC00A90909090",
+          "off": "C5FA58056608F705C4E1FA2CC0",
+          "expected": "C5FA58056608F705C4E1FA2CC0",
+          "absolute": false
+        },
+        {
+          "offset": "18780FD",
+          "on": "909090909090",
+          "off": "0F84F4050000",
+          "expected": "0F84F4050000",
+          "absolute": false
+        }
+      ]
+    },
+    {
+      "name": "Score Multiplier x100",
+      "description": "Every score you earn is multiplied by 100. Same patch slot as the other multipliers: enable only ONE multiplier at a time (switch the old one off first).",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1878190",
+          "on": "EB1B",
+          "off": "751B",
+          "expected": "751B",
+          "absolute": false
+        },
+        {
+          "offset": "18781BA",
+          "on": "C4E1FA2CC0486BC06490909090",
+          "off": "C5FA58056608F705C4E1FA2CC0",
+          "expected": "C5FA58056608F705C4E1FA2CC0",
+          "absolute": false
+        },
+        {
+          "offset": "18780FD",
+          "on": "909090909090",
+          "off": "0F84F4050000",
+          "expected": "0F84F4050000",
+          "absolute": false
+        }
+      ]
+    },
+    {
+      "name": "Score Multiplier x1000",
+      "description": "Every score you earn is multiplied by 1000. Same patch slot as the other multipliers: enable only ONE multiplier at a time (switch the old one off first).",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1878190",
+          "on": "EB1B",
+          "off": "751B",
+          "expected": "751B",
+          "absolute": false
+        },
+        {
+          "offset": "18781BA",
+          "on": "C4E1FA2CC04869C0E803000090",
+          "off": "C5FA58056608F705C4E1FA2CC0",
+          "expected": "C5FA58056608F705C4E1FA2CC0",
+          "absolute": false
+        },
+        {
+          "offset": "18780FD",
+          "on": "909090909090",
+          "off": "0F84F4050000",
+          "expected": "0F84F4050000",
+          "absolute": false
+        }
+      ]
+    },
+    {
+      "name": "Infinite Balls",
+      "description": "You never run out of balls.",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "17C2B37",
+          "on": "90909090",
+          "off": "41FF4E64",
+          "expected": "41FF4E64",
+          "absolute": false
+        },
+        {
+          "offset": "17C2D12",
+          "on": "9090",
+          "off": "FFC9",
+          "expected": "FFC9",
+          "absolute": false
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "prey33"
+  ]
+}
