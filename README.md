@@ -122,6 +122,8 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-10-14 | ADDED | PPSA24003 | 01.007.001 | [Dying Light: The Beast](https://hencheats.vercel.app/game/PPSA24003/01.007.001) |
+| 2026-10-14 | REMOVED | PPSA24003 | 01.007.002 | [Dying Light: The Beast](https://hencheats.vercel.app/game/PPSA24003/01.007.002) |
 | 2026-10-14 | ADDED | CUSA37321 | 01.31 | [Atomic Heart](https://hencheats.vercel.app/game/CUSA37321/01.31) |
 | 2026-10-14 | ADDED | PPSA25642 | 01.005.000 | [Clive Barker's Hellraiser: Revival](https://hencheats.vercel.app/game/PPSA25642/01.005.000) |
 | 2026-10-14 | ADDED | PPSA33286 | 02.003.001 | [Silent Hill: Townfall](https://hencheats.vercel.app/game/PPSA33286/02.003.001) |
