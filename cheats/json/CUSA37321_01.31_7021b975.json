@@ -1,0 +1,108 @@
+{
+  "name": "Atomic Heart",
+  "id": "CUSA37321",
+  "version": "01.31",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Health Player Only (Base + All DLCs)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5DFB3A3",
+          "on": "817F28CDCC4C3E744F817F280000704274464180F88874404180F848743A81BFC80000000000803F742E817F3800007A437425817F2C0000803F741C817F280000C8427413817F1C00000040740AC5FA114708E95EF92AFAC5FA104748C5FA114708E94FF92AFA",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "AAD54",
+          "on": "E94A06D505",
+          "off": "C5FA114708"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo / No Reload (Base + All DLCs)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4A49E47",
+          "on": "909090909090",
+          "off": "FF8B40050000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo Extra Slot 1 (All DLCs)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F3EBAE",
+          "on": "909090909090",
+          "off": "FF8B44050000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo Extra Slot 2 (All DLCs)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1DF10E9",
+          "on": "909090909090",
+          "off": "FF8B00040000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Neuropolymer / Resources (Pick Up) - All DLCs",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5DFB423",
+          "on": "B83F420F00418900E9631C78FB0000000000000000000000000000000000000000000000000000000000000000000000",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "157D08D",
+          "on": "E991E3870490",
+          "off": "4584C9418900"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Neuropolymer (Upgrade / Craft / On Use) - All DLCs",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5DFB453",
+          "on": "C743303F420F008B4B30E980F67BFB000000000000000000000000000000000000000000000000000000000000000000",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "15BAADD",
+          "on": "E971098404",
+          "off": "756D8B4B30"
+        }
+      ]
+    },
+    {
+      "name": "DLC Limbo - Max Apples/Coins",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5DFB483",
+          "on": "BA0F270000418916E9C5C66AFE000000000000000000000000000000000000000000000000000000",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "44A7B4F",
+          "on": "E92F39950190",
+          "off": "0F4CD1418916"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "TheRealOne"
+  ]
+}

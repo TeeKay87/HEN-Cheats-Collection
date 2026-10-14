@@ -1,0 +1,22 @@
+{
+  "name": "Clive Barker's Hellraiser: Revival",
+  "id": "PPSA25642",
+  "version": "01.005.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Munizioni infinite",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4FA738B",
+          "on": "909090909090",
+          "off": "01B7AC000000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Ial3x92"
+  ]
+}

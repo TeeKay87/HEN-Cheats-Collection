@@ -1,0 +1,78 @@
+{
+  "name": "Castlevania: Belmont's Curse",
+  "id": "PPSA35399",
+  "version": "01.000.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Invincible",
+      "description": "The player takes no damage.",
+      "type": "checkbox",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "62A7A0",
+          "on": "31c0c390",
+          "off": "554889e5",
+          "expected": "554889e5",
+          "absolute": false
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill",
+      "description": "Normal enemies die from a single hit. Bosses with their own hit logic are not affected.",
+      "type": "checkbox",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "629F90",
+          "on": "b83f420f00c3",
+          "off": "554889e54157",
+          "expected": "554889e54157",
+          "absolute": false
+        }
+      ]
+    },
+    {
+      "name": "Free Spells",
+      "description": "Spells cost no mana.",
+      "type": "checkbox",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "488740",
+          "on": "31c0c390",
+          "off": "554889e5",
+          "expected": "554889e5",
+          "absolute": false
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health Potions",
+      "description": "Using a normal health potion does not reduce the remaining amount.",
+      "type": "checkbox",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "3aa22c0",
+          "on": "4d85e40f847e37e5fc498b7f104885ff0f847137e5fc4889de31d2e8d015b8fc413b47287d0f498b7f10418b772831d2e84b18b8fce9f935e5fc",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "expected": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "absolute": false
+        },
+        {
+          "offset": "8f58ea",
+          "on": "e9d1c91a0390909090",
+          "off": "4d85e40f8454010000",
+          "expected": "4d85e40f8454010000",
+          "absolute": false
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "prey33"
+  ]
+}

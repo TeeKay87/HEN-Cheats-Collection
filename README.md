@@ -122,6 +122,10 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-10-14 | ADDED | CUSA37321 | 01.31 | [Atomic Heart](https://hencheats.vercel.app/game/CUSA37321/01.31) |
+| 2026-10-14 | ADDED | PPSA25642 | 01.005.000 | [Clive Barker's Hellraiser: Revival](https://hencheats.vercel.app/game/PPSA25642/01.005.000) |
+| 2026-10-14 | ADDED | PPSA33286 | 02.003.001 | [Silent Hill: Townfall](https://hencheats.vercel.app/game/PPSA33286/02.003.001) |
+| 2026-10-14 | ADDED | PPSA35399 | 01.000.000 | [Castlevania: Belmont's Curse](https://hencheats.vercel.app/game/PPSA35399/01.000.000) |
 | 2026-10-14 | ADDED | PPSA25286 | 01.000.568 | [Crimson Desert](https://hencheats.vercel.app/game/PPSA25286/01.000.568) |
 | 2026-10-14 | ADDED | PPSA01913 | 01.600.000 | [The Persistence Enhanced](https://hencheats.vercel.app/game/PPSA01913/01.600.000) |
 | 2026-10-14 | ADDED | PPSA08755 | 01.035.000 | [Pinball FX](https://hencheats.vercel.app/game/PPSA08755/01.035.000) |
