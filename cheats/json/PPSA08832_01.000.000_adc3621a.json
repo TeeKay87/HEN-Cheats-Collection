@@ -1,0 +1,23 @@
+{
+  "name": "Raiden IV × MIKADO Remix",
+  "id": "PPSA08832",
+  "version": "01.000.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Bombs",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8FE68",
+          "on": "90909090909090",
+          "off": "41FF8FC8000000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "TeeKay87"
+  ]
+}
