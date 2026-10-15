@@ -5,6 +5,18 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "Infinite Lives",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8C9BF",
+          "on": "9090",
+          "off": "8901"
+        }
+      ]
+    },
+    {
       "name": "Infinite Bombs",
       "description": "",
       "type": "checkbox",

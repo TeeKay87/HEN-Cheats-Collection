@@ -122,6 +122,8 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-10-16 | ADDED | PPSA34547 | 01.300.300 | [Control Resonant](https://hencheats.vercel.app/game/PPSA34547/01.300.300) |
+| 2026-10-16 | UPDATE | PPSA08832 | 01.000.000 | [Raiden IV × MIKADO Remix](https://hencheats.vercel.app/game/PPSA08832/01.000.000) |
 | 2026-10-15 | ADDED | PPSA08832 | 01.000.000 | [Raiden IV × MIKADO Remix](https://hencheats.vercel.app/game/PPSA08832/01.000.000) |
 | 2026-10-15 | UPDATE | PPSA25642 | 01.005.000 | [Clive Barker's Hellraiser: Revival](https://hencheats.vercel.app/game/PPSA25642/01.005.000) |
 | 2026-10-14 | ADDED | PPSA24003 | 01.007.001 | [Dying Light: The Beast](https://hencheats.vercel.app/game/PPSA24003/01.007.001) |
