@@ -1,0 +1,106 @@
+{
+  "name": "Ghost of Tsushima",
+  "id": "PPSA03210",
+  "version": "02.024.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Health/1-Hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "112BDB0",
+          "on": "83BF000300000CEB15C5FA108730190000C5FA118734190000E94558D4FF4883FA03EB0C4C898734190000E93358D4FF4883FA04EBDB4C898734190000E92158D4FF",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "E7160B",
+          "on": "E9A0A72B00909090",
+          "off": "C5FA118734190000"
+        },
+        {
+          "offset": "112BDB7",
+          "on": "7515",
+          "off": "EB15"
+        },
+        {
+          "offset": "112BDD2",
+          "on": "750C",
+          "off": "EB0C"
+        },
+        {
+          "offset": "112BDE4",
+          "on": "75DB",
+          "off": "EBDB"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ghost Stance",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "112BB70",
+          "on": "480F44C8C70107000000E975FB52FF",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "65B6EE",
+          "on": "E97D04AD0090",
+          "off": "480F44C88939"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Resources",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "112B600",
+          "on": "42C744A8080F270000E9C9435EFF",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "70F9D2",
+          "on": "E929BCA100",
+          "off": "42895CA808"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Resolve",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "112B660",
+          "on": "C7875443000000002041E9F4D063FF",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "76875B",
+          "on": "E9002F9C00909090",
+          "off": "C5FA118754430000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Technique Points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "112B4B0",
+          "on": "42C644005800E91C6F5EFF",
+          "off": "00000000000000000000000"
+        },
+        {
+          "offset": "7123D2",
+          "on": "E9D990A100",
+          "off": "4201740058"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Ial3x92"
+  ]
+}

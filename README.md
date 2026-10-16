@@ -122,6 +122,14 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-10-16 | ADDED | PPSA03210 | 02.024.000 | [Ghost of Tsushima](https://hencheats.vercel.app/game/PPSA03210/02.024.000) |
+| 2026-10-16 | ADDED | PPSA18193 | 01.004.003 | [Metal Gear Solid 4: Guns of the Patriots](https://hencheats.vercel.app/game/PPSA18193/01.004.003) |
+| 2026-10-16 | ADDED | PPSA18194 | 01.004.003 | [Metal Gear Solid 4: Guns of the Patriots](https://hencheats.vercel.app/game/PPSA18194/01.004.003) |
+| 2026-10-16 | ADDED | PPSA29264 | 01.006.000 | [Duskfade](https://hencheats.vercel.app/game/PPSA29264/01.006.000) |
+| 2026-10-16 | UPDATE | PPSA17163 | 01.000.002 | [Jets'n'Guns 2](https://hencheats.vercel.app/game/PPSA17163/01.000.002) |
+| 2026-10-16 | UPDATE | PPSA25642 | 01.005.000 | [Clive Barker's Hellraiser: Revival](https://hencheats.vercel.app/game/PPSA25642/01.005.000) |
+| 2026-10-16 | UPDATE | PPSA34547 | 01.300.300 | [Control Resonant](https://hencheats.vercel.app/game/PPSA34547/01.300.300) |
+| 2026-10-16 | UPDATE | PPSA35399 | 01.000.000 | [Castlevania: Belmont's Curse](https://hencheats.vercel.app/game/PPSA35399/01.000.000) |
 | 2026-10-16 | ADDED | PPSA34547 | 01.300.300 | [Control Resonant](https://hencheats.vercel.app/game/PPSA34547/01.300.300) |
 | 2026-10-16 | UPDATE | PPSA08832 | 01.000.000 | [Raiden IV × MIKADO Remix](https://hencheats.vercel.app/game/PPSA08832/01.000.000) |
 | 2026-10-15 | ADDED | PPSA08832 | 01.000.000 | [Raiden IV × MIKADO Remix](https://hencheats.vercel.app/game/PPSA08832/01.000.000) |

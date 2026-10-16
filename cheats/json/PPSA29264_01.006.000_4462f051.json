@@ -1,0 +1,207 @@
+{
+  "name": "Duskfade",
+  "id": "PPSA29264",
+  "version": "01.006.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Master Code",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "84F3F00",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "337F00",
+          "section": 6,
+          "sectionOffset": "307F00"
+        },
+        {
+          "offset": "84F3F01",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "337F01",
+          "section": 6,
+          "sectionOffset": "307F01"
+        },
+        {
+          "offset": "84F3F02",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "337F02",
+          "section": 6,
+          "sectionOffset": "307F02"
+        },
+        {
+          "offset": "84F3F03",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "337F03",
+          "section": 6,
+          "sectionOffset": "307F03"
+        },
+        {
+          "offset": "84F3F04",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "337F04",
+          "section": 6,
+          "sectionOffset": "307F04"
+        },
+        {
+          "offset": "84F3F05",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "337F05",
+          "section": 6,
+          "sectionOffset": "307F05"
+        },
+        {
+          "offset": "679B000",
+          "on": "554889E541579C50515248A1A0108308000000004885C00F84E6000000488B80280200004885C00F84D6000000837840000F8ECC000000488B40384885C00F84BF000000488B004885C00F84B3000000488B40304885C00F84A6000000488B80E80200004885C00F8496000000803D8E8ED50101750AC780A80B00009F860100803D7C8ED50101750AC780341500009F860100803D6A8ED50101750AC7802C1500009F860100803D538ED50101751848BA0000000000405F40488990A80F0000488990B00F0000803D338ED50101751148BA0000000000405F40488990D00F00004889C1488B89300300004885C97413803D0E8ED50101750AC78178020000804FC3475A59589DE94AA2CBF9",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "455350",
+          "on": "E9AB5C340690",
+          "off": "554889E54157"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "84F3F00",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "337F00",
+          "section": 6,
+          "sectionOffset": "307F00"
+        }
+      ]
+    },
+    {
+      "name": "--Max Mana",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "84F3F01",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "337F01",
+          "section": 6,
+          "sectionOffset": "307F01"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Crystals",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "84F3F02",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "337F02",
+          "section": 6,
+          "sectionOffset": "307F02"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Gacha Coins",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "84F3F03",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "337F03",
+          "section": 6,
+          "sectionOffset": "307F03"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Gears Coins",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "84F3F04",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "337F04",
+          "section": 6,
+          "sectionOffset": "307F04"
+        }
+      ]
+    },
+    {
+      "name": "--Max Speed",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "84F3F05",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "337F05",
+          "section": 6,
+          "sectionOffset": "307F05"
+        }
+      ]
+    },
+    {
+      "name": "Inf Mana",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "679B12C",
+          "on": "81FC909AFFEE740BC4C17A114710E984929BFC41C747100000803FE977929BFC",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "31543BD",
+          "on": "E96A6D640390",
+          "off": "C4C17A114710"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

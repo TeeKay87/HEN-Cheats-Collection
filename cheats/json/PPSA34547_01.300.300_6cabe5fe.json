@@ -1,0 +1,111 @@
+{
+  "name": "Control Resonant",
+  "id": "PPSA34547",
+  "version": "01.300.300",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Master Code",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5A5BF00",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "42FF00",
+          "section": 6,
+          "sectionOffset": "40FF00"
+        },
+        {
+          "offset": "5A5BF01",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "42FF01",
+          "section": 6,
+          "sectionOffset": "40FF01"
+        },
+        {
+          "offset": "401F000",
+          "on": "4180BC245801000001740B803DEFCEA301017426EB3D803DE3CEA301017402EB3241C704240000803FC4C17A101C24C4C17A111C24E9D3ED4EFE41C7042400000000C4C17A101C24C4C17A111C24E9BAED4EFEC4C17A111C24E9AFED4EFE",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "250DE07",
+          "on": "E9F411B10190",
+          "off": "C4C17A111C24"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5A5BF00",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "42FF00",
+          "section": 6,
+          "sectionOffset": "40FF00"
+        }
+      ]
+    },
+    {
+      "name": "--One Hit Kill",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5A5BF01",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "42FF01",
+          "section": 6,
+          "sectionOffset": "40FF01"
+        }
+      ]
+    },
+    {
+      "name": "Inf Energy",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "28C9ECF",
+          "on": "909090909090",
+          "off": "C4C17A114F0C"
+        }
+      ]
+    },
+    {
+      "name": "Inf All Resources",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "401F07E",
+          "on": "48B8000000007F842E4148894128E91E1719FE",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "21B07AA",
+          "on": "E9CFE8E601",
+          "off": "C5FB114128"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}
