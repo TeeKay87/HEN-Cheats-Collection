@@ -122,6 +122,9 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-10-17 | ADDED | CUSA18723 | 01.24 | [Elden Ring](https://hencheats.vercel.app/game/CUSA18723/01.24) |
+| 2026-10-17 | ADDED | PPSA08394 | 01.000.009 | [R-Type Final 3 Evolved](https://hencheats.vercel.app/game/PPSA08394/01.000.009) |
+| 2026-10-17 | UPDATE | PPSA25642 | 01.005.000 | [Clive Barker's Hellraiser: Revival](https://hencheats.vercel.app/game/PPSA25642/01.005.000) |
 | 2026-10-16 | ADDED | PPSA03210 | 02.024.000 | [Ghost of Tsushima](https://hencheats.vercel.app/game/PPSA03210/02.024.000) |
 | 2026-10-16 | ADDED | PPSA18193 | 01.004.003 | [Metal Gear Solid 4: Guns of the Patriots](https://hencheats.vercel.app/game/PPSA18193/01.004.003) |
 | 2026-10-16 | ADDED | PPSA18194 | 01.004.003 | [Metal Gear Solid 4: Guns of the Patriots](https://hencheats.vercel.app/game/PPSA18194/01.004.003) |

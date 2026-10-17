@@ -1,0 +1,123 @@
+{
+  "name": "R-Type Final 3 Evolved",
+  "id": "PPSA08394",
+  "version": "01.000.009",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Invincible(God mode)",
+      "description": "Special thanks to Pharaoh2k and TLH",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5267000",
+          "on": "B001C3554889E54156E95800E3FC",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "2097060",
+          "on": "E99BFF1C0390",
+          "off": "554889E54156"
+        }
+      ]
+    },
+    {
+      "name": "Instant_HighBeam",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "526702E",
+          "on": "415241BACAF24971C4C1796EEAC5EA58D5415AE985F1E4FC",
+          "off": "000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "20B61C3",
+          "on": "E9660E1B03909090",
+          "off": "C5FA59EBC5EA58D5"
+        }
+      ]
+    },
+    {
+      "name": "Unlock_All_Ships",
+      "description": "Unlocks all ships in the museum, need to atcitvate it and enter the museum",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5267066",
+          "on": "5756B880F10D02FFD05E5FB860AB0E02FFD0E98BCEA9FC",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "526709D",
+          "on": "5756B880F10D02FFD05E5FB860AB0E02FFD0E97472ABFC",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1D03F03",
+          "on": "E95E315603",
+          "off": "E8586CFEFF"
+        },
+        {
+          "offset": "1D1E323",
+          "on": "E9758D5403",
+          "off": "E838C8FCFF"
+        }
+      ]
+    },
+    {
+      "name": "MAX_RPt",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "52670D4",
+          "on": "5757BEFFC99A3BB8F0688A01FFD05F5FB8C05D8A01FFD0E96D62A9FC",
+          "off": "00000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1CFD358",
+          "on": "E9779D5603",
+          "off": "E8638A7AFF"
+        }
+      ]
+    },
+    {
+      "name": "Max_Resources_and_Tickets",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5267110",
+          "on": "5757BEFFC99A3BB8F0688A01FFD05F5FE89BEC23FCE9172CAAFC",
+          "off": "0000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1D09D3C",
+          "on": "E9CFD35503",
+          "off": "E87FC079FF"
+        }
+      ]
+    },
+    {
+      "name": "DOSE_Full",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "526714A",
+          "on": "4889E5C5FA1087900B0000C5FA11878C0B0000C5FA10878C0B0000C5F82E87900B0000E9C234A5FC",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1CBA621",
+          "on": "E924CB5A039090909090909090909090909090",
+          "off": "4889E5C5FA10878C0B0000C5F82E87900B0000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "jwhy"
+  ]
+}
