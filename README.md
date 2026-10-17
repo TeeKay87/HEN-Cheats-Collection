@@ -122,6 +122,8 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-10-17 | ADDED | PPSA34008 | 01.000.010 | [Mortal Shell II](https://hencheats.vercel.app/game/PPSA34008/01.000.010) |
+| 2026-10-17 | UPDATE | CUSA18723 | 01.24 | [Elden Ring](https://hencheats.vercel.app/game/CUSA18723/01.24) |
 | 2026-10-17 | ADDED | CUSA18723 | 01.24 | [Elden Ring](https://hencheats.vercel.app/game/CUSA18723/01.24) |
 | 2026-10-17 | ADDED | PPSA08394 | 01.000.009 | [R-Type Final 3 Evolved](https://hencheats.vercel.app/game/PPSA08394/01.000.009) |
 | 2026-10-17 | UPDATE | PPSA25642 | 01.005.000 | [Clive Barker's Hellraiser: Revival](https://hencheats.vercel.app/game/PPSA25642/01.005.000) |
