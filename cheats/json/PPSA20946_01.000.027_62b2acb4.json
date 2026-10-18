@@ -1,0 +1,75 @@
+{
+  "name": "The Relic: First Guardian",
+  "id": "PPSA20946",
+  "version": "01.000.027",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Health + Stamina (player only)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "801AFFA0",
+          "on": "488D64248050418B8798000000C1E8102D8041000083F84058488DA42480000000730C4983FD1C74124983FD54740CC4817A11442F0CE9E7F9E483E9E2F9E483",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "3FFF9BB",
+          "on": "E9E0051B7C9090",
+          "off": "C4817A11442F0C"
+        }
+      ]
+    },
+    {
+      "name": "Gold 999999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "801AFFE0",
+          "on": "C787A80400003F420F00E99BC01484",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "42FC084",
+          "on": "E9573FEB7B90",
+          "off": "01B7A8040000"
+        }
+      ]
+    },
+    {
+      "name": "Max Material Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "801AFFF0",
+          "on": "B9E70300000188AC000000E9EC643784",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "45264E6",
+          "on": "E9059BC87B90",
+          "off": "0188AC000000"
+        }
+      ]
+    },
+    {
+      "name": "Max Relic Magic",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "801AFF90",
+          "on": "B93F420F00898FAC040000E976C11484",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "42FC110",
+          "on": "E97B3EEB7B90",
+          "off": "898FAC040000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "allexander-xv&Stoned"
+  ]
+}
