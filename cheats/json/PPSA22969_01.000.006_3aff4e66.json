@@ -1,0 +1,148 @@
+{
+  "name": "Echoes of Aincrad",
+  "id": "PPSA22969",
+  "version": "01.000.006",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Free Shopping, Smith & Synthesis (Col)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "03EF69E2",
+          "on": "909090909090",
+          "off": "8987E8080000"
+        },
+        {
+          "offset": "03EF76FD",
+          "on": "9090909090909090",
+          "off": "41898424E8080000"
+        },
+        {
+          "offset": "03EF06E0",
+          "on": "9090909090909090",
+          "off": "41898424E8080000"
+        },
+        {
+          "offset": "03EF07FC",
+          "on": "9090909090909090",
+          "off": "41898424E8080000"
+        },
+        {
+          "offset": "03EF0922",
+          "on": "9090909090909090",
+          "off": "41898424E8080000"
+        },
+        {
+          "offset": "03EF72A4",
+          "on": "9090909090909090",
+          "off": "41898424E8080000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite LP & SP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0025BF08",
+          "on": "488D570CEB04488D570848817FB0B8025106741748817FD0302C57067513488B47F048813888465A067506C5F82E027204C5FA1102C3",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0325C650",
+          "on": "E9B3F8FFFC",
+          "off": "554889E5C5"
+        },
+        {
+          "offset": "0325C65C",
+          "on": "E9ADF8FFFC",
+          "off": "554889E5C5"
+        }
+      ]
+    },
+    {
+      "name": "No Special Cooldown",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "06108268",
+          "on": "10024C0000000000",
+          "off": "BABC380400000000"
+        },
+        {
+          "offset": "06108868",
+          "on": "10024C0000000000",
+          "off": "BABC380400000000"
+        },
+        {
+          "offset": "06108E38",
+          "on": "10024C0000000000",
+          "off": "BABC380400000000"
+        },
+        {
+          "offset": "06109408",
+          "on": "10024C0000000000",
+          "off": "BABC380400000000"
+        },
+        {
+          "offset": "061099D8",
+          "on": "10024C0000000000",
+          "off": "BABC380400000000"
+        },
+        {
+          "offset": "061BFD08",
+          "on": "10024C0000000000",
+          "off": "BABC380400000000"
+        }
+      ]
+    },
+    {
+      "name": "EP x100 (combat)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "040297BF",
+          "on": "C5FA5945D4C5FA58053CCB2E01C5FA2DF06BF6640F1F00",
+          "off": "C5FA58C0C5FA5945D4C5FA580538CB2E01C5FA2DF0D1FE"
+        }
+      ]
+    },
+    {
+      "name": "Weapon Mastery x100",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0402BA57",
+          "on": "416BF764535F",
+          "off": "4889DF4489FE"
+        }
+      ]
+    },
+    {
+      "name": "No Material Use (Smith Crafting)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "03EF698C",
+          "on": "0F1F440000",
+          "off": "E8B542EBFF"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Growth Points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0405E26E",
+          "on": "0F1F00",
+          "off": "89483C"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Rion-Kaneshiro"
+  ]
+}

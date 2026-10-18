@@ -122,6 +122,10 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-10-18 | UPDATE | PPSA34008 | 01.000.010 | [Mortal Shell II](https://hencheats.vercel.app/game/PPSA34008/01.000.010) |
+| 2026-10-18 | ADDED | PPSA21704 | 01.056.000 | [Kingdom Come: Deliverance II](https://hencheats.vercel.app/game/PPSA21704/01.056.000) |
+| 2026-10-18 | ADDED | PPSA22969 | 01.000.006 | [Echoes of Aincrad](https://hencheats.vercel.app/game/PPSA22969/01.000.006) |
+| 2026-10-18 | UPDATE | PPSA33286 | 02.003.001 | [Silent Hill: Townfall](https://hencheats.vercel.app/game/PPSA33286/02.003.001) |
 | 2026-10-17 | ADDED | CUSA00434 | 01.47 | [Diablo III: Reaper of Souls: Ultimate Evil Edition](https://hencheats.vercel.app/game/CUSA00434/01.47) |
 | 2026-10-17 | ADDED | PPSA34008 | 01.000.010 | [Mortal Shell II](https://hencheats.vercel.app/game/PPSA34008/01.000.010) |
 | 2026-10-17 | UPDATE | CUSA18723 | 01.24 | [Elden Ring](https://hencheats.vercel.app/game/CUSA18723/01.24) |
