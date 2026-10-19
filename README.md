@@ -122,6 +122,8 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-10-19 | ADDED | PPSA20437 | 01.000.002 | [Shadow of the Ninja - Reborn](https://hencheats.vercel.app/game/PPSA20437/01.000.002) |
+| 2026-10-19 | UPDATE | PPSA28183 | 01.006.038 | [Assassin's Creed Black Flag Resynced](https://hencheats.vercel.app/game/PPSA28183/01.006.038) |
 | 2026-10-19 | ADDED | PPSA28038 | 17.661.002 | [Halo: Campaign Evolved](https://hencheats.vercel.app/game/PPSA28038/17.661.002) |
 | 2026-10-18 | ADDED | PPSA20946 | 01.000.027 | [The Relic: First Guardian](https://hencheats.vercel.app/game/PPSA20946/01.000.027) |
 | 2026-10-18 | UPDATE | PPSA34008 | 01.000.010 | [Mortal Shell II](https://hencheats.vercel.app/game/PPSA34008/01.000.010) |
