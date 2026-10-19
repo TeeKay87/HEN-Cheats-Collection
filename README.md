@@ -122,6 +122,10 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-10-20 | ADDED | CUSA00242 | 01.47 | [Diablo III: Reaper of Souls: Ultimate Evil Edition](https://hencheats.vercel.app/game/CUSA00242/01.47) |
+| 2026-10-20 | ADDED | PPSA17330 | 01.002.000 | [RollerCoaster Tycoon Adventures: Deluxe](https://hencheats.vercel.app/game/PPSA17330/01.002.000) |
+| 2026-10-20 | ADDED | PPSA29802 | 01.510.000 | [Plants vs. Zombies: Replanted](https://hencheats.vercel.app/game/PPSA29802/01.510.000) |
+| 2026-10-20 | ADDED | PPSA33286 | 02.003.000 | [Silent Hill: Townfall](https://hencheats.vercel.app/game/PPSA33286/02.003.000) |
 | 2026-10-19 | ADDED | PPSA20437 | 01.000.002 | [Shadow of the Ninja - Reborn](https://hencheats.vercel.app/game/PPSA20437/01.000.002) |
 | 2026-10-19 | UPDATE | PPSA28183 | 01.006.038 | [Assassin's Creed Black Flag Resynced](https://hencheats.vercel.app/game/PPSA28183/01.006.038) |
 | 2026-10-19 | ADDED | PPSA28038 | 17.661.002 | [Halo: Campaign Evolved](https://hencheats.vercel.app/game/PPSA28038/17.661.002) |

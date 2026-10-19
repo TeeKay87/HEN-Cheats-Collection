@@ -1,0 +1,121 @@
+{
+  "name": "Diablo III: Reaper of Souls: Ultimate Evil Edition",
+  "id": "CUSA00242",
+  "version": "01.47",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "God Mode (always full health)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1387000",
+          "on": "83BF4C01000007750AC7875001000020BCBE4CC5FA108750010000C3",
+          "off": "00000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4F4720",
+          "on": "E9DB28E900909090",
+          "off": "C5FA108750010000"
+        }
+      ]
+    },
+    {
+      "name": "Max Crafting Materials, Blood Shards & Gold",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "58CD48",
+          "on": "90909090",
+          "off": "480F4FC3"
+        },
+        {
+          "offset": "58CF35",
+          "on": "90909090",
+          "off": "480F4FC3"
+        },
+        {
+          "offset": "58CF46",
+          "on": "9090",
+          "off": "7417"
+        },
+        {
+          "offset": "1387030",
+          "on": "31DBBA9F860100B8FFC99A3B85DB0F44D04C89E789DEE8855D20FF4C89E7BE0100000089DA4489F1E8832F17FFFFC383FB167CCEE95B2F17FF",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4F9FB3",
+          "on": "E978D0E800909090909090909090909090",
+          "off": "4C89E74489EE4489FA4489F1E81C000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Combat Resource (Mana/Fury/Spirit/etc.)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4F4AA0",
+          "on": "90909090909090909090909090",
+          "off": "C5FA5DC1C5F2C2CA01C5F055C0"
+        },
+        {
+          "offset": "4F4E8D",
+          "on": "BF99000000",
+          "off": "BF96000000"
+        },
+        {
+          "offset": "4F4EBA",
+          "on": "90909090909090909090",
+          "off": "0F8732010000C5FA5CC1"
+        }
+      ]
+    },
+    {
+      "name": "Guaranteed Legendary & Set Drops",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1387090",
+          "on": "89857CFEFFFFC78558FEFFFFFFFFFFFF89C7E8C9F71FFF85C0741B48C78524FFFFFFFFFFFFFF83BD70FEFFFFFF400F95C7E952D364FFE9E9D764FF",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "9D4261",
+          "on": "E92A2E9B009090909090909090909090",
+          "off": "89857CFEFFFFC78558FEFFFFFFFFFFFF"
+        },
+        {
+          "offset": "9D490A",
+          "on": "83F8029090900F84EB000000",
+          "off": "8D48FD83F9020F83EB000000"
+        },
+        {
+          "offset": "9D495F",
+          "on": "0F849C000000",
+          "off": "0F848E020000"
+        }
+      ]
+    },
+    {
+      "name": "Instant Level Up (Normal + Paragon)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1387200",
+          "on": "817A082AF0FFFF7409817A082CF0FFFF7507C7420C010000004C8B0A4D85C9E9A6323EFF",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "76A4C4",
+          "on": "E937CDC10090",
+          "off": "4C8B0A4D85C9"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "k4k0gh0st"
+  ]
+}

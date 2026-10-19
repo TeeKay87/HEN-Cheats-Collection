@@ -1,0 +1,55 @@
+{
+  "name": "Silent Hill: Townfall",
+  "id": "PPSA33286",
+  "version": "02.003.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Health (player only)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "46B82FE",
+          "on": "9090909090",
+          "off": "E8DDE0FDFF"
+        }
+      ]
+    },
+    {
+      "name": "One-Hit Kill (use with Infinite Health)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4695D04",
+          "on": "0F57C09090909090",
+          "off": "C5FA5C85DCFCFFFF"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "46A846A",
+          "on": "909090",
+          "off": "894314"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "46A8975",
+          "on": "9090909090",
+          "off": "4129442410"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "k4k0gh0st"
+  ]
+}

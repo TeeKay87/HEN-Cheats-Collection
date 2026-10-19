@@ -1,0 +1,33 @@
+{
+  "name": "RollerCoaster Tycoon Adventures: Deluxe",
+  "id": "PPSA17330",
+  "version": "01.002.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Max Money (99,999,999 on spend)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "807B1695",
+          "on": "B8FFE0F5054863DB85C0",
+          "off": "498B46184863DB4839D8"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Money (spending does not subtract)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "807B16CF",
+          "on": "909090",
+          "off": "4829D8"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "k4k0gh0st"
+  ]
+}
