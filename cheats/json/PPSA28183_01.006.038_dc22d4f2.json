@@ -347,6 +347,18 @@
           "off": "C5FA118798010000"
         }
       ]
+    },
+    {
+      "name": "Fidelity 60 FPS Target",
+      "type": "checkbox",
+      "hint": "patch 60 fps",
+      "memory": [
+        {
+          "offset": "0304000A",
+          "on": "C5FA5F05F24A9707",
+          "off": "C5FA5F05EEDFA007"
+        }
+      ]
     }
   ],
   "credits": [
