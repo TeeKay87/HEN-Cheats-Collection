@@ -122,6 +122,9 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-10-21 | ADDED | CUSA28986 | 01.03 | [Fatal Frame: Maiden of Black Water](https://hencheats.vercel.app/game/CUSA28986/01.03) |
+| 2026-10-21 | ADDED | CUSA28986 | 01.04 | [Fatal Frame: Maiden of Black Water](https://hencheats.vercel.app/game/CUSA28986/01.04) |
+| 2026-10-21 | ADDED | PPSA28997 | 01.008.001 | [God of War Sons of Sparta](https://hencheats.vercel.app/game/PPSA28997/01.008.001) |
 | 2026-10-21 | ADDED | PPSA18605 | 01.001.008 | [Ready or Not](https://hencheats.vercel.app/game/PPSA18605/01.001.008) |
 | 2026-10-21 | UPDATE | PPSA28183 | 01.006.038 | [Assassin's Creed Black Flag Resynced](https://hencheats.vercel.app/game/PPSA28183/01.006.038) |
 | 2026-10-20 | UPDATE | CUSA55613 | 01.10 | [Plants vs. Zombies: Replanted](https://hencheats.vercel.app/game/CUSA55613/01.10) |
