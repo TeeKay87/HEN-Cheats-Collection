@@ -1,0 +1,77 @@
+{
+  "name": "Avowed",
+  "id": "PPSA26136",
+  "version": "02.001.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf. Health, Stamina & Essence",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3648B08",
+          "on": "80798AF07407EB0A6A0C58EB0EC5FA5F0407C5FA110407C36A08584889F96681E100F880C505EBD8",
+          "off": "CCCCCCCCCCCCCCCC554889E5C5FA11470C5DC3CCCCCCCCCC554889E5C5FA1147085DC3CCCCCCCCCC"
+        }
+      ]
+    },
+    {
+      "name": "Unlimited Skill Points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4301170",
+          "on": "B8E7030000C3",
+          "off": "554889E54157"
+        }
+      ]
+    },
+    {
+      "name": "infinity Carry Weight",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "61C0630",
+          "on": "00247449",
+          "off": "00007A44"
+        }
+      ]
+    },
+    {
+      "name": "Max Experience (use it once get 999,999)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "44D4B16",
+          "on": "41BE3F420F0090",
+          "off": "448BB3A40F0000"
+        }
+      ]
+    },
+    {
+      "name": "Max Money (spend or earn to get 999,999)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "442BE86",
+          "on": "41BF3F420F006690",
+          "off": "468BBCB300020000"
+        }
+      ]
+    },
+    {
+      "name": "Unlimited Items & Materials (desactive when pickup)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3A27A82",
+          "on": "0F1F4000",
+          "off": "41294500"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "allexander.xv"
+  ]
+}
