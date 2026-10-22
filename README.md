@@ -122,6 +122,7 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-10-22 | UPDATE | PPSA19461 | 01.200.000 | [Shinobi: Art of Vengeance](https://hencheats.vercel.app/game/PPSA19461/01.200.000) |
 | 2026-10-21 | ADDED | PPSA08330 | 06.006.000 | [God of War: Ragnarok](https://hencheats.vercel.app/game/PPSA08330/06.006.000) |
 | 2026-10-21 | ADDED | CUSA28986 | 01.03 | [Fatal Frame: Maiden of Black Water](https://hencheats.vercel.app/game/CUSA28986/01.03) |
 | 2026-10-21 | ADDED | CUSA28986 | 01.04 | [Fatal Frame: Maiden of Black Water](https://hencheats.vercel.app/game/CUSA28986/01.04) |
