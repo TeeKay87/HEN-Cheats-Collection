@@ -122,6 +122,7 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-10-22 | UPDATE | PPSA03671 | 01.001.005 | [Marvel's Wolverine](https://hencheats.vercel.app/game/PPSA03671/01.001.005) |
 | 2026-10-22 | ADDED | PPSA14299 | 01.011.000 | [Mafia: The Old Country](https://hencheats.vercel.app/game/PPSA14299/01.011.000) |
 | 2026-10-22 | ADDED | PPSA18543 | 01.000.003 | [The Sinking City 2](https://hencheats.vercel.app/game/PPSA18543/01.000.003) |
 | 2026-10-22 | ADDED | PPSA21568 | 01.019.000 | [Astro Bot](https://hencheats.vercel.app/game/PPSA21568/01.019.000) |

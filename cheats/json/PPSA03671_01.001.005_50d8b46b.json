@@ -5,6 +5,38 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "60 FPS (60 Hz)",
+      "hint": "60FPS",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "09B7C0C8",
+          "on": "00007042",
+          "off": "0000F041"
+        },
+        {
+          "offset": "0BEAAFF0",
+          "on": "00000000",
+          "off": "00000000"
+        },
+        {
+          "offset": "03F773C0",
+          "on": "75",
+          "off": "75"
+        },
+        {
+          "offset": "03F846FC",
+          "on": "75",
+          "off": "75"
+        },
+        {
+          "offset": "03F84B56",
+          "on": "75",
+          "off": "75"
+        }
+      ]
+    },
+    {
       "name": "God Mode",
       "hint": "Wolverine takes no normal damage.",
       "type": "checkbox",
@@ -18,6 +50,38 @@
           "offset": "01BAD911",
           "on": "C5F828C1",
           "off": "C5F25DC0"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill - BotHealth runtime",
+      "hint": "Activate One Hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "048038A1",
+          "on": "4C8D1D908F87044C39D8E941000000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "048038F1",
+          "on": "0F845CFFFFFFC5F25CC0E9A2020000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04803853",
+          "on": "C5F857C0E946030000",
+          "off": "CCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "04803BA2",
+          "on": "C5FA114DF4E921FDFFFF",
+          "off": "CCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "048038C4",
+          "on": "E9D8FFFFFF90909090",
+          "off": "C5F25CC0C5FA114DF4"
         }
       ]
     },
@@ -216,6 +280,48 @@
           "offset": "01F8429A",
           "on": "C5F057C99090909090",
           "off": "C5FA104DACC5F25CC8"
+        }
+      ]
+    },
+    {
+      "name": "Unlock All Suits",
+      "hint": "UNLOCK ALL SUITS",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01A4BB16",
+          "on": "B801000000",
+          "off": "E875C05200"
+        },
+        {
+          "offset": "01A4BB32",
+          "on": "48B80103030303050403",
+          "off": "48B80102020202050403"
+        },
+        {
+          "offset": "01A4BB56",
+          "on": "C6433803",
+          "off": "C6433802"
+        },
+        {
+          "offset": "01A7656C",
+          "on": "48B80103030303050403",
+          "off": "48B80102020202050403"
+        },
+        {
+          "offset": "0223F1C5",
+          "on": "9090",
+          "off": "7434"
+        },
+        {
+          "offset": "0223F1E1",
+          "on": "9090",
+          "off": "741C"
+        },
+        {
+          "offset": "0223F1D5",
+          "on": "9090",
+          "off": "7428"
         }
       ]
     }
