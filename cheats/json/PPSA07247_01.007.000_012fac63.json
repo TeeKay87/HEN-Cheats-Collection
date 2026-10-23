@@ -1,0 +1,260 @@
+{
+  "name": "Warhammer 40,000: Boltgun",
+  "id": "PPSA07247",
+  "version": "01.007.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Master Code",
+      "description": "GWorld -> GameInstance -> LocalPlayers[0] -> PlayerController -> Pawn",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7D0FF00",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "333F00",
+          "section": 6,
+          "sectionOffset": "31FF00"
+        },
+        {
+          "offset": "7D0FF01",
+          "on": "00C07944",
+          "off": "00C07944",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "333F01",
+          "section": 6,
+          "sectionOffset": "31FF01"
+        },
+        {
+          "offset": "7D0FF05",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "333F05",
+          "section": 6,
+          "sectionOffset": "31FF05"
+        },
+        {
+          "offset": "7D0FF06",
+          "on": "00C07944",
+          "off": "00C07944",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "333F06",
+          "section": 6,
+          "sectionOffset": "31FF06"
+        },
+        {
+          "offset": "7D0FF0A",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "333F0A",
+          "section": 6,
+          "sectionOffset": "31FF0A"
+        },
+        {
+          "offset": "7D0FF0B",
+          "on": "003C1C46",
+          "off": "003C1C46",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "333F0B",
+          "section": 6,
+          "sectionOffset": "31FF0B"
+        },
+        {
+          "offset": "7D0FF0F",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "333F0F",
+          "section": 6,
+          "sectionOffset": "31FF0F"
+        },
+        {
+          "offset": "7D0FF10",
+          "on": "00004040",
+          "off": "00004040",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "333F10",
+          "section": 6,
+          "sectionOffset": "31FF10"
+        },
+        {
+          "offset": "7D0FF14",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "333F14",
+          "section": 6,
+          "sectionOffset": "31FF14"
+        },
+        {
+          "offset": "7D0FF15",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "333F15",
+          "section": 6,
+          "sectionOffset": "31FF15"
+        },
+        {
+          "offset": "7D0FF16",
+          "on": "19000000",
+          "off": "19000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "333F16",
+          "section": 6,
+          "sectionOffset": "31FF16"
+        },
+        {
+          "offset": "55EF000",
+          "on": "9C505152488B057DA46B024885C00F8414010000488B80800100004885C00F8404010000837840000F8EFA000000488B40384885C00F84ED000000488B004885",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "55EF040",
+          "on": "C00F84E1000000488B40304885C00F84D4000000488B80500200004885C00F84C4000000803D950E720201750C8B158E0E7202899024060000803D850E720201",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "55EF080",
+          "on": "750C8B157E0E7202899028060000803D750E72020175274889C1488B89080600004885C97418488B89700100004885C9740C8B15530E72028991B4050000803D",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "55EF0C0",
+          "on": "4A0E720201750C8B15430E72028990B0080000803D3A0E72020175164889C1488B89100600004885C97407C6811001000001803D1C0E720201752D4889C183B9",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "55EF100",
+          "on": "28010000017E21488B89200100004885C97415488B49084885C9740C8B15F40D720289911C0400005A59589D554889E54157E9AF6309FC",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "16854E0",
+          "on": "E91B9BF60390",
+          "off": "554889E54157"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7D0FF00",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "333F00",
+          "section": 6,
+          "sectionOffset": "31FF00"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Faith",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7D0FF05",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "333F05",
+          "section": 6,
+          "sectionOffset": "31FF05"
+        }
+      ]
+    },
+    {
+      "name": "--Damage x100",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7D0FF0A",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "333F0A",
+          "section": 6,
+          "sectionOffset": "31FF0A"
+        }
+      ]
+    },
+    {
+      "name": "--No Charge CooldownTime",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7D0FF0F",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "333F0F",
+          "section": 6,
+          "sectionOffset": "31FF0F"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Ammo",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7D0FF14",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "333F14",
+          "section": 6,
+          "sectionOffset": "31FF14"
+        }
+      ]
+    },
+    {
+      "name": "--No reload",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7D0FF15",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "333F15",
+          "section": 6,
+          "sectionOffset": "31FF15"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

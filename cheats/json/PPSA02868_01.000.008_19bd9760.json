@@ -1,0 +1,527 @@
+{
+  "name": "Mortal Shell: Enhanced Edition",
+  "id": "PPSA02868",
+  "version": "01.000.008",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Master Code",
+      "description": "GWorld -> GameInstance -> LocalPlayers[0] -> PlayerController -> Pawn",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "682BF00",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F00",
+          "section": 6,
+          "sectionOffset": "343F00"
+        },
+        {
+          "offset": "682BF01",
+          "on": "00007A44",
+          "off": "00007A44",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F01",
+          "section": 6,
+          "sectionOffset": "343F01"
+        },
+        {
+          "offset": "682BF05",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F05",
+          "section": 6,
+          "sectionOffset": "343F05"
+        },
+        {
+          "offset": "682BF06",
+          "on": "E8030000",
+          "off": "E8030000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F06",
+          "section": 6,
+          "sectionOffset": "343F06"
+        },
+        {
+          "offset": "682BF0A",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F0A",
+          "section": 6,
+          "sectionOffset": "343F0A"
+        },
+        {
+          "offset": "682BF0B",
+          "on": "00007A44",
+          "off": "00007A44",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F0B",
+          "section": 6,
+          "sectionOffset": "343F0B"
+        },
+        {
+          "offset": "682BF0F",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F0F",
+          "section": 6,
+          "sectionOffset": "343F0F"
+        },
+        {
+          "offset": "682BF10",
+          "on": "00007A44",
+          "off": "00007A44",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F10",
+          "section": 6,
+          "sectionOffset": "343F10"
+        },
+        {
+          "offset": "682BF14",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F14",
+          "section": 6,
+          "sectionOffset": "343F14"
+        },
+        {
+          "offset": "682BF15",
+          "on": "00C07944",
+          "off": "00C07944",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F15",
+          "section": 6,
+          "sectionOffset": "343F15"
+        },
+        {
+          "offset": "682BF19",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F19",
+          "section": 6,
+          "sectionOffset": "343F19"
+        },
+        {
+          "offset": "682BF1A",
+          "on": "00409C45",
+          "off": "00409C45",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F1A",
+          "section": 6,
+          "sectionOffset": "343F1A"
+        },
+        {
+          "offset": "682BF1E",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F1E",
+          "section": 6,
+          "sectionOffset": "343F1E"
+        },
+        {
+          "offset": "682BF1F",
+          "on": "E7030000",
+          "off": "E7030000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F1F",
+          "section": 6,
+          "sectionOffset": "343F1F"
+        },
+        {
+          "offset": "682BF23",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F23",
+          "section": 6,
+          "sectionOffset": "343F23"
+        },
+        {
+          "offset": "682BF24",
+          "on": "E7030000",
+          "off": "E7030000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F24",
+          "section": 6,
+          "sectionOffset": "343F24"
+        },
+        {
+          "offset": "682BF28",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F28",
+          "section": 6,
+          "sectionOffset": "343F28"
+        },
+        {
+          "offset": "682BF29",
+          "on": "E7030000",
+          "off": "E7030000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F29",
+          "section": 6,
+          "sectionOffset": "343F29"
+        },
+        {
+          "offset": "682BF2D",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F2D",
+          "section": 6,
+          "sectionOffset": "343F2D"
+        },
+        {
+          "offset": "682BF2E",
+          "on": "E7030000",
+          "off": "E7030000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F2E",
+          "section": 6,
+          "sectionOffset": "343F2E"
+        },
+        {
+          "offset": "682BF32",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F32",
+          "section": 6,
+          "sectionOffset": "343F32"
+        },
+        {
+          "offset": "682BF33",
+          "on": "E7030000",
+          "off": "E7030000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F33",
+          "section": 6,
+          "sectionOffset": "343F33"
+        },
+        {
+          "offset": "682BF37",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F37",
+          "section": 6,
+          "sectionOffset": "343F37"
+        },
+        {
+          "offset": "682BF38",
+          "on": "E7030000",
+          "off": "E7030000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F38",
+          "section": 6,
+          "sectionOffset": "343F38"
+        },
+        {
+          "offset": "46D7000",
+          "on": "9C505152488B05E5140F024885C00F84A2020000488B80880100004885C00F8492020000837840000F8E88020000488B40384885C00F847B020000488B004885",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "46D7040",
+          "on": "C00F846F020000488B40304885C00F8462020000488B80500200004885C00F8452020000803D954E150201751B4889C1488B89581A00004885C9740C8B157F4E",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "46D7080",
+          "on": "1502899168060000803D764E150201751B4889C1488B89581A00004885C9740C8B15604E150289916C060000803D574E150201750C8B15504E15028990041800",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "46D70C0",
+          "on": "00803D474E150201750C8B15404E1502899000180000803D374E150201750C8B15304E15028990981E0000803D274E150201750C8B15204E150289902C180000",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "46D7100",
+          "on": "803D174E15020175404889C1488B89581A00004885C97431488B89980500004885C9742583B9C00000000E7E1C488B89B80000004885C974104881C110110000",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "46D7140",
+          "on": "8B15D94D150289512C803DD34D15020175404889C1488B89581A00004885C97431488B89980500004885C9742583B9C00000000F7E1C488B89B80000004885C9",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "46D7180",
+          "on": "74104881C1481200008B15954D150289512C803D8F4D15020175404889C1488B89581A00004885C97431488B89980500004885C9742583B9C0000000107E1C48",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "46D71C0",
+          "on": "8B89B80000004885C974104881C1801300008B15514D150289512C803D4B4D15020175404889C1488B89581A00004885C97431488B89980500004885C9742583",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "46D7200",
+          "on": "B9C0000000117E1C488B89B80000004885C974104881C1B81400008B150D4D150289512C803D074D15020175404889C1488B89581A00004885C97431488B8998",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "46D7240",
+          "on": "0500004885C9742583B9C0000000127E1C488B89B80000004885C974104881C1F01500008B15C94C150289512C803DC34C15020175404889C1488B89581A0000",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "46D7280",
+          "on": "4885C97431488B89980500004885C9742583B9C0000000137E1C488B89B80000004885C974104881C1281700008B15854C150289512C5A59589D554889E54157",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "46D72C0",
+          "on": "E9A19980FC",
+          "off": "0000000000"
+        },
+        {
+          "offset": "EE0C60",
+          "on": "E99B637F0390",
+          "off": "554889E54157"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Health",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "682BF00",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F00",
+          "section": 6,
+          "sectionOffset": "343F00"
+        }
+      ]
+    },
+    {
+      "name": "--Max Health",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "682BF05",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F05",
+          "section": 6,
+          "sectionOffset": "343F05"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Stamina",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "682BF0A",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F0A",
+          "section": 6,
+          "sectionOffset": "343F0A"
+        }
+      ]
+    },
+    {
+      "name": "--Max Stamina",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "682BF0F",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F0F",
+          "section": 6,
+          "sectionOffset": "343F0F"
+        }
+      ]
+    },
+    {
+      "name": "--Damage Multiplier",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "682BF14",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F14",
+          "section": 6,
+          "sectionOffset": "343F14"
+        }
+      ]
+    },
+    {
+      "name": "--Max Sprint Speed",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "682BF19",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F19",
+          "section": 6,
+          "sectionOffset": "343F19"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Item 1",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "682BF1E",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F1E",
+          "section": 6,
+          "sectionOffset": "343F1E"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Item 2",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "682BF23",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F23",
+          "section": 6,
+          "sectionOffset": "343F23"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Item 3",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "682BF28",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F28",
+          "section": 6,
+          "sectionOffset": "343F28"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Item 4",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "682BF2D",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F2D",
+          "section": 6,
+          "sectionOffset": "343F2D"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Item 5",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "682BF32",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F32",
+          "section": 6,
+          "sectionOffset": "343F32"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Item 6",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "682BF37",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F37",
+          "section": 6,
+          "sectionOffset": "343F37"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}
