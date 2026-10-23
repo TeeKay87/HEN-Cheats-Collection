@@ -122,6 +122,11 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-10-23 | ADDED | CUSA00038 | 01.10 | [Resogun](https://hencheats.vercel.app/game/CUSA00038/01.10) |
+| 2026-10-23 | ADDED | CUSA00068 | 01.10 | [Knack](https://hencheats.vercel.app/game/CUSA00068/01.10) |
+| 2026-10-23 | ADDED | PPSA01494 | 01.100.002 | [Borderlands 4](https://hencheats.vercel.app/game/PPSA01494/01.100.002) |
+| 2026-10-23 | UPDATE | CUSA57547 | 01.08 | [Call of Duty: Black Ops](https://hencheats.vercel.app/game/CUSA57547/01.08) |
+| 2026-10-23 | UPDATE | PPSA34008 | 01.000.010 | [Mortal Shell II](https://hencheats.vercel.app/game/PPSA34008/01.000.010) |
 | 2026-10-22 | ADDED | PPSA26136 | 02.001.000 | [Avowed](https://hencheats.vercel.app/game/PPSA26136/02.001.000) |
 | 2026-10-22 | UPDATE | PPSA03671 | 01.001.005 | [Marvel's Wolverine](https://hencheats.vercel.app/game/PPSA03671/01.001.005) |
 | 2026-10-22 | ADDED | PPSA14299 | 01.011.000 | [Mafia: The Old Country](https://hencheats.vercel.app/game/PPSA14299/01.011.000) |

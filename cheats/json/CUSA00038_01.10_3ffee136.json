@@ -1,0 +1,69 @@
+{
+  "name": "Resogun",
+  "id": "CUSA00038",
+  "version": "01.10",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Lives (made by Weysincha)",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "675A6D",
+          "on": "B863000000",
+          "off": "FFC80F48C1"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Bombs (made by Weysincha)",
+      "hint": null,
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "67607E",
+          "on": "B863000000909090",
+          "off": "B9000000000F48C1"
+        }
+      ]
+    },
+    {
+      "name": "Unlimited Boost (Turbo) (made by Web Xx)",
+      "hint": "Boost meter stays full and never drains",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "244D78",
+          "on": "9090",
+          "off": "7408"
+        }
+      ]
+    },
+    {
+      "name": "Unlimited Overdrive + GodMode (made by Web Xx)",
+      "hint": "Overdrive starts automatically, restarts when it ends, and never runs out",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "24988A",
+          "on": "EB25",
+          "off": "7525"
+        },
+        {
+          "offset": "24A7F5",
+          "on": "9090",
+          "off": "7404"
+        },
+        {
+          "offset": "24A867",
+          "on": "4183CC01",
+          "off": "4183E401"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Weysincha & Web Xx"
+  ]
+}
