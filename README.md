@@ -122,6 +122,11 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-10-23 | ADDED | CUSA57548 | 01.10 | [Call of Duty: Black Ops II](https://hencheats.vercel.app/game/CUSA57548/01.10) |
+| 2026-10-23 | UPDATE | PPSA03210 | 02.024.000 | [Ghost of Tsushima](https://hencheats.vercel.app/game/PPSA03210/02.024.000) |
+| 2026-10-23 | UPDATE | PPSA08330 | 06.006.000 | [God of War: Ragnarok](https://hencheats.vercel.app/game/PPSA08330/06.006.000) |
+| 2026-10-23 | UPDATE | PPSA14299 | 01.011.000 | [Mafia: The Old Country](https://hencheats.vercel.app/game/PPSA14299/01.011.000) |
+| 2026-10-23 | UPDATE | PPSA25642 | 01.005.000 | [Clive Barker's Hellraiser: Revival](https://hencheats.vercel.app/game/PPSA25642/01.005.000) |
 | 2026-10-23 | ADDED | CUSA00038 | 01.10 | [Resogun](https://hencheats.vercel.app/game/CUSA00038/01.10) |
 | 2026-10-23 | ADDED | CUSA00068 | 01.10 | [Knack](https://hencheats.vercel.app/game/CUSA00068/01.10) |
 | 2026-10-23 | ADDED | PPSA01494 | 01.100.002 | [Borderlands 4](https://hencheats.vercel.app/game/PPSA01494/01.100.002) |
