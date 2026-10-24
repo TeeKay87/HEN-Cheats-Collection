@@ -1,0 +1,235 @@
+{
+  "name": "Code Violet",
+  "id": "PPSA26528",
+  "version": "01.000.028",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Master Code",
+      "description": "GWorld -> GameInstance -> LocalPlayers[0] -> PlayerController -> Pawn",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8023F00",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "333F00",
+          "section": 6,
+          "sectionOffset": "303F00"
+        },
+        {
+          "offset": "8023F01",
+          "on": "0000000000005940",
+          "off": "0000000000005940",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "333F01",
+          "section": 6,
+          "sectionOffset": "303F01"
+        },
+        {
+          "offset": "8023F09",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "333F09",
+          "section": 6,
+          "sectionOffset": "303F09"
+        },
+        {
+          "offset": "8023F0A",
+          "on": "0000000000005940",
+          "off": "0000000000005940",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "333F0A",
+          "section": 6,
+          "sectionOffset": "303F0A"
+        },
+        {
+          "offset": "8023F12",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "333F12",
+          "section": 6,
+          "sectionOffset": "303F12"
+        },
+        {
+          "offset": "8023F13",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "333F13",
+          "section": 6,
+          "sectionOffset": "303F13"
+        },
+        {
+          "offset": "8023F14",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "333F14",
+          "section": 6,
+          "sectionOffset": "303F14"
+        },
+        {
+          "offset": "8023F15",
+          "on": "0A000000",
+          "off": "0A000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "333F15",
+          "section": 6,
+          "sectionOffset": "303F15"
+        },
+        {
+          "offset": "8023F19",
+          "on": "00",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "333F19",
+          "section": 6,
+          "sectionOffset": "303F19"
+        },
+        {
+          "offset": "631F000",
+          "on": "9C505152488B05555CC4014885C00F84B8000000488B80280200004885C00F84A8000000837840000F8E9E000000488B40384885C00F8491000000488B004885",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "631F040",
+          "on": "C00F8485000000488B40304885C0747C488B80E80200004885C07470803D9D4ED00101750E488B15954ED001488990E00E0000803D8F4ED00101750E488B1587",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "631F080",
+          "on": "4ED001488990E80E0000803D814ED001017507C680E817000001803D724ED00101750480605AFB803D664ED00101750C8B155F4ED0018990BC0D0000803D564E",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "631F0C0",
+          "on": "D001017507C680C90D0000015A59589D554889E54157E90B0D13FA",
+          "off": "000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "44FDE0",
+          "on": "E91BF2EC0590",
+          "off": "554889E54157"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8023F00",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "333F00",
+          "section": 6,
+          "sectionOffset": "303F00"
+        }
+      ]
+    },
+    {
+      "name": "--Max Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8023F09",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "333F09",
+          "section": 6,
+          "sectionOffset": "303F09"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Ammo",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8023F12",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "333F12",
+          "section": 6,
+          "sectionOffset": "303F12"
+        }
+      ]
+    },
+    {
+      "name": "--God Mode",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8023F13",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "333F13",
+          "section": 6,
+          "sectionOffset": "303F13"
+        }
+      ]
+    },
+    {
+      "name": "--Super weapon",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8023F14",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "333F14",
+          "section": 6,
+          "sectionOffset": "303F14"
+        }
+      ]
+    },
+    {
+      "name": "--Add Silencer",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8023F19",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "333F19",
+          "section": 6,
+          "sectionOffset": "303F19"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

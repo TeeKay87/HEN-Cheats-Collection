@@ -1,0 +1,43 @@
+{
+  "name": "Funko Fusion",
+  "id": "CUSA47781",
+  "version": "02.63",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0x2B20E2",
+          "on": "4983BFB0020000000F85AED70804488D7D80C5F857C0E9A0CE0804",
+          "off": "909090909090909090909090909090909090909090909090909090"
+        },
+        {
+          "offset": "0x433EF95",
+          "on": "E94831F7FB909090",
+          "off": "488D7D80C5F857C0"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Vinyl / Mega Vinyl / Funkoins",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0x44941F0",
+          "on": "C3488B8578FFFFFF488B40204885C0743E4883B8B0020000007434488B43104885C0742B483B05DD6F7A04741B483B05E46F7A047412483B05C3397A047510C745C400002041EB07C745C4003C1C468A058B135D044C8D6310E954F173FF",
+          "off": "554889E5415741564154534883EC504C8B256A152B04498B0424488945D88B4708A810752B4C8B77204D85F6742289F3E88B4CC2FF498B4E10486350383B51387F0E488B49304883C030483904D1741B498B0424483B45D80F8556010000"
+        },
+        {
+          "offset": "0x3BD3398",
+          "on": "E9540E8C009090909090",
+          "off": "8A053222E9044C8D6310"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Made by Web Xx"
+  ]
+}
