@@ -1,0 +1,319 @@
+{
+  "name": "RuneScape: Dragonwilds",
+  "id": "PPSA34114",
+  "version": "01.000.005",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Master Code",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "DE07F01",
+          "on": "0000C842",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "3A7F01",
+          "section": 6,
+          "sectionOffset": "37BF01"
+        },
+        {
+          "offset": "DE07F06",
+          "on": "0000C842",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "3A7F06",
+          "section": 6,
+          "sectionOffset": "37BF06"
+        },
+        {
+          "offset": "DE07F0B",
+          "on": "0000C842",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "3A7F0B",
+          "section": 6,
+          "sectionOffset": "37BF0B"
+        },
+        {
+          "offset": "DE07F10",
+          "on": "0000C842",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "3A7F10",
+          "section": 6,
+          "sectionOffset": "37BF10"
+        },
+        {
+          "offset": "DE07F15",
+          "on": "0000C842",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "3A7F15",
+          "section": 6,
+          "sectionOffset": "37BF15"
+        },
+        {
+          "offset": "DE07F1A",
+          "on": "0000C842",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "3A7F1A",
+          "section": 6,
+          "sectionOffset": "37BF1A"
+        },
+        {
+          "offset": "DE07F1F",
+          "on": "0000C842",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "3A7F1F",
+          "section": 6,
+          "sectionOffset": "37BF1F"
+        },
+        {
+          "offset": "DE07F24",
+          "on": "00409C45",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "3A7F24",
+          "section": 6,
+          "sectionOffset": "37BF24"
+        },
+        {
+          "offset": "801AC04E",
+          "on": "9C505152488B0587BCB28D4885C00F84DB010000488B80280200004885C00F84CB010000837840000F8EC1010000488B40384885C00F84B4010000488B004885",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "40C04E",
+          "section": 12,
+          "sectionOffset": "40C04E"
+        },
+        {
+          "offset": "801AC08E",
+          "on": "C00F84A8010000488B40304885C00F849B010000488B80000300004885C00F848B010000803D47BEC58D0175354889C1488B89E01900004885C9742683B9E800",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "40C08E",
+          "section": 12,
+          "sectionOffset": "40C08E"
+        },
+        {
+          "offset": "801AC0CE",
+          "on": "0000007E1D488B89E00000004885C97411488B094885C974098B1514BEC58D895138803D0EBEC58D0175364889C1488B89E01900004885C9742783B9E8000000",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "40C0CE",
+          "section": 12,
+          "sectionOffset": "40C0CE"
+        },
+        {
+          "offset": "801AC10E",
+          "on": "017E1E488B89E00000004885C97412488B49084885C974098B15DABDC58D895138803DD4BDC58D0175364889C1488B89E01900004885C9742783B9D800000003",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "40C10E",
+          "section": 12,
+          "sectionOffset": "40C10E"
+        },
+        {
+          "offset": "801AC14E",
+          "on": "7E1E488B89D00000004885C97412488B49184885C974098B15A0BDC58D895138803D9ABDC58D0175364889C1488B89E01900004885C9742783B9D8000000047E",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "40C14E",
+          "section": 12,
+          "sectionOffset": "40C14E"
+        },
+        {
+          "offset": "801AC18E",
+          "on": "1E488B89D00000004885C97412488B49204885C974098B1566BDC58D895138803D60BDC58D01751B4889C1488B89D01800004885C9740C8B154ABDC58D899130",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "40C18E",
+          "section": 12,
+          "sectionOffset": "40C18E"
+        },
+        {
+          "offset": "801AC1CE",
+          "on": "010000803D41BDC58D01751B4889C1488B89D81800004885C9740C8B152BBDC58D899130010000803D22BDC58D01751B4889C1488B89E81800004885C9740C8B",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "40C1CE",
+          "section": 12,
+          "sectionOffset": "40C1CE"
+        },
+        {
+          "offset": "801AC20E",
+          "on": "150CBDC58D899130010000803D03BDC58D01751B4889C1488B89480300004885C9740C8B15EDBCC58D8991880200005A59589D554889E54157E96ACCC480",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "40C20E",
+          "section": 12,
+          "sectionOffset": "40C20E"
+        },
+        {
+          "offset": "DF8EB0",
+          "on": "E999313B7F90",
+          "off": "554889E54157"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "DE07F00",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "3A7F00",
+          "section": 6,
+          "sectionOffset": "37BF00"
+        }
+      ]
+    },
+    {
+      "name": "--Max Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "DE07F05",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "3A7F05",
+          "section": 6,
+          "sectionOffset": "37BF05"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Stamina",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "DE07F0A",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "3A7F0A",
+          "section": 6,
+          "sectionOffset": "37BF0A"
+        }
+      ]
+    },
+    {
+      "name": "--Max Stamina",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "DE07F0F",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "3A7F0F",
+          "section": 6,
+          "sectionOffset": "37BF0F"
+        }
+      ]
+    },
+    {
+      "name": "--No water",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "DE07F14",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "3A7F14",
+          "section": 6,
+          "sectionOffset": "37BF14"
+        }
+      ]
+    },
+    {
+      "name": "--No food",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "DE07F19",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "3A7F19",
+          "section": 6,
+          "sectionOffset": "37BF19"
+        }
+      ]
+    },
+    {
+      "name": "--No Endurance",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "DE07F1E",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "3A7F1E",
+          "section": 6,
+          "sectionOffset": "37BF1E"
+        }
+      ]
+    },
+    {
+      "name": "--Walk Speed",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "DE07F23",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "3A7F23",
+          "section": 6,
+          "sectionOffset": "37BF23"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

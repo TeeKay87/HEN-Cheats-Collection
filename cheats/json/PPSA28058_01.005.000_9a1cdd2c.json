@@ -1,0 +1,151 @@
+{
+  "name": "Finding Frankie",
+  "id": "PPSA28058",
+  "version": "01.005.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Master Code",
+      "description": "GWorld -> GameInstance -> LocalPlayers[0] -> PlayerController -> Pawn",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6C5BF01",
+          "on": "0000FA44",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "2F7F01",
+          "section": 6,
+          "sectionOffset": "2CFF01"
+        },
+        {
+          "offset": "6C5BF06",
+          "on": "0000000000C08240",
+          "off": "0000000000000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "2F7F06",
+          "section": 6,
+          "sectionOffset": "2CFF06"
+        },
+        {
+          "offset": "6C5BF0F",
+          "on": "0000000000409F40",
+          "off": "0000000000000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "2F7F0F",
+          "section": 6,
+          "sectionOffset": "2CFF0F"
+        },
+        {
+          "offset": "6C5BF18",
+          "on": "000000000070B740",
+          "off": "0000000000000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "2F7F18",
+          "section": 6,
+          "sectionOffset": "2CFF18"
+        },
+        {
+          "offset": "551B000",
+          "on": "9C505152488B05ED5F69014885C00F84AD000000488B80D80100004885C00F849D000000837840000F8E93000000488B40384885C00F8486000000488B004885",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "551B040",
+          "on": "C0747E488B40304885C07475488B80D00200004885C07469803DA10E740101751B4889C1488B89200300004885C9740C8B158B0E7401899178010000803D820E",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "551B080",
+          "on": "740101750E488B157A0E7401488990D8090000803D740E740101750E488B156C0E7401488990D8090000803D660E740101750E488B155E0E7401488990D80900",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "551B0C0",
+          "on": "005A59589D554889E54157E9965BF1FA",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "430C60",
+          "on": "E99BA30E0590",
+          "off": "554889E54157"
+        }
+      ]
+    },
+    {
+      "name": "--Super Jump",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6C5BF00",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "2F7F00",
+          "section": 6,
+          "sectionOffset": "2CFF00"
+        }
+      ]
+    },
+    {
+      "name": "--Run Speed Normal",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6C5BF05",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "2F7F05",
+          "section": 6,
+          "sectionOffset": "2CFF05"
+        }
+      ]
+    },
+    {
+      "name": "--Run Speed Fast",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6C5BF0E",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "2F7F0E",
+          "section": 6,
+          "sectionOffset": "2CFF0E"
+        }
+      ]
+    },
+    {
+      "name": "--Run Speed Super Fast",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6C5BF17",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "2F7F17",
+          "section": 6,
+          "sectionOffset": "2CFF17"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

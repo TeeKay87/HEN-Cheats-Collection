@@ -122,9 +122,18 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-10-24 | ADDED | PPSA15065 | 01.004.008 | [Cat Quest III](https://hencheats.vercel.app/game/PPSA15065/01.004.008) |
+| 2026-10-24 | ADDED | PPSA28058 | 01.005.000 | [Finding Frankie](https://hencheats.vercel.app/game/PPSA28058/01.005.000) |
+| 2026-10-24 | ADDED | PPSA28155 | 01.006.000 | [The Rogue Prince of Persia](https://hencheats.vercel.app/game/PPSA28155/01.006.000) |
+| 2026-10-24 | ADDED | PPSA34114 | 01.000.005 | [RuneScape: Dragonwilds](https://hencheats.vercel.app/game/PPSA34114/01.000.005) |
+| 2026-10-24 | UPDATE | CUSA00038 | 01.10 | [Resogun](https://hencheats.vercel.app/game/CUSA00038/01.10) |
+| 2026-10-24 | UPDATE | CUSA00068 | 01.10 | [Knack](https://hencheats.vercel.app/game/CUSA00068/01.10) |
+| 2026-10-24 | UPDATE | CUSA00236 | 01.03 | [Dead Nation: Apocalypse Edition](https://hencheats.vercel.app/game/CUSA00236/01.03) |
+| 2026-10-24 | UPDATE | CUSA47781 | 02.63 | [Funko Fusion](https://hencheats.vercel.app/game/CUSA47781/02.63) |
+| 2026-10-24 | UPDATE | CUSA57547 | 01.08 | [Call of Duty: Black Ops](https://hencheats.vercel.app/game/CUSA57547/01.08) |
+| 2026-10-24 | UPDATE | PPSA28002 | 01.006.000 | [Ninja Gaiden: Ragebound](https://hencheats.vercel.app/game/PPSA28002/01.006.000) |
 | 2026-10-24 | ADDED | CUSA00236 | 01.03 | [Dead Nation: Apocalypse Edition](https://hencheats.vercel.app/game/CUSA00236/01.03) |
 | 2026-10-24 | ADDED | CUSA47781 | 02.63 | [Funko Fusion](https://hencheats.vercel.app/game/CUSA47781/02.63) |
-| 2026-10-24 | UPDATE | CUSA57547 | 01.08 | [Call of Duty: Black Ops](https://hencheats.vercel.app/game/CUSA57547/01.08) |
 | 2026-10-24 | UPDATE | PPSA26528 | 01.000.028 | [Code Violet](https://hencheats.vercel.app/game/PPSA26528/01.000.028) |
 | 2026-10-23 | ADDED | PPSA07247 | 01.007.000 | [Warhammer 40,000: Boltgun](https://hencheats.vercel.app/game/PPSA07247/01.007.000) |
 | 2026-10-23 | ADDED | PPSA15065 | 01.000.001 | [Cat Quest III](https://hencheats.vercel.app/game/PPSA15065/01.000.001) |
