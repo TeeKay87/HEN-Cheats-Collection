@@ -1,0 +1,33 @@
+{
+  "name": "007 First Light",
+  "id": "PPSA11386",
+  "version": "01.018.001",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "60fps",
+      "type": "checkbox",
+      "hint": "60fps",
+      "memory": [
+        {
+          "offset": "043F72F4",
+          "on": "3C000000",
+          "off": "1E000000"
+        },
+        {
+          "offset": "015A758C",
+          "on": "31F690",
+          "off": "4489F6"
+        },
+        {
+          "offset": "0490EC10",
+          "on": "FFFFFFFF",
+          "off": "FFFFFFFF"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "by zer0day"
+  ]
+}

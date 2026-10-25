@@ -122,6 +122,8 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-10-25 | ADDED | CUSA05284 | 01.25 | [Call of Duty: Infinite Warfare](https://hencheats.vercel.app/game/CUSA05284/01.25) |
+| 2026-10-25 | ADDED | PPSA11386 | 01.018.001 | [007 First Light](https://hencheats.vercel.app/game/PPSA11386/01.018.001) |
 | 2026-10-24 | ADDED | PPSA15065 | 01.004.008 | [Cat Quest III](https://hencheats.vercel.app/game/PPSA15065/01.004.008) |
 | 2026-10-24 | ADDED | PPSA28058 | 01.005.000 | [Finding Frankie](https://hencheats.vercel.app/game/PPSA28058/01.005.000) |
 | 2026-10-24 | ADDED | PPSA28155 | 01.006.000 | [The Rogue Prince of Persia](https://hencheats.vercel.app/game/PPSA28155/01.006.000) |
