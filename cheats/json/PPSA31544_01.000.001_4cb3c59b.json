@@ -1,0 +1,342 @@
+{
+  "name": "Final Fantasy Resonance",
+  "id": "PPSA31544",
+  "version": "01.000.001",
+  "process": "eboot.bin",
+  "credits": [
+    "k4k0gh0st"
+  ],
+  "mods": [
+    {
+      "name": "Damage Dealt Multiplier x2",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "669FA00",
+          "on": "B900000040C5F96EC9C5F259401CE9C51010FE",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "47A0AD3",
+          "on": "E928EFEF01",
+          "off": "C5FA10401C"
+        }
+      ]
+    },
+    {
+      "name": "Damage Dealt Multiplier x5",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "669FA20",
+          "on": "B90000A040C5F96EC9C5F259401CE9A51010FE",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "47A0AD3",
+          "on": "E948EFEF01",
+          "off": "C5FA10401C"
+        }
+      ]
+    },
+    {
+      "name": "Damage Dealt Multiplier x10",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "669FA40",
+          "on": "B900002041C5F96EC9C5F259401CE9851010FE",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "47A0AD3",
+          "on": "E968EFEF01",
+          "off": "C5FA10401C"
+        }
+      ]
+    },
+    {
+      "name": "Damage Dealt Multiplier x100",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "669FA60",
+          "on": "B90000C842C5F96EC9C5F259401CE9651010FE",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "47A0AD3",
+          "on": "E988EFEF01",
+          "off": "C5FA10401C"
+        }
+      ]
+    },
+    {
+      "name": "EXP Multiplier x2",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "669FA80",
+          "on": "B900000040C5F96EC9C5F2594020E9F51010FE",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "47A0B83",
+          "on": "E9F8EEEF01",
+          "off": "C5FA104020"
+        }
+      ]
+    },
+    {
+      "name": "EXP Multiplier x5",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "669FAA0",
+          "on": "B90000A040C5F96EC9C5F2594020E9D51010FE",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "47A0B83",
+          "on": "E918EFEF01",
+          "off": "C5FA104020"
+        }
+      ]
+    },
+    {
+      "name": "EXP Multiplier x10",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "669FAC0",
+          "on": "B900002041C5F96EC9C5F2594020E9B51010FE",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "47A0B83",
+          "on": "E938EFEF01",
+          "off": "C5FA104020"
+        }
+      ]
+    },
+    {
+      "name": "EXP Multiplier x100",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "669FC40",
+          "on": "B90000C842C5F96EC9C5F2594020E9350F10FE",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "47A0B83",
+          "on": "E9B8F0EF01",
+          "off": "C5FA104020"
+        }
+      ]
+    },
+    {
+      "name": "MRP Multiplier x2",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "669FAE0",
+          "on": "B900000040C5F96EC9C5F2594028E9F51110FE",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "47A0CE3",
+          "on": "E9F8EDEF01",
+          "off": "C5FA104028"
+        }
+      ]
+    },
+    {
+      "name": "MRP Multiplier x5",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "669FB00",
+          "on": "B90000A040C5F96EC9C5F2594028E9D51110FE",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "47A0CE3",
+          "on": "E918EEEF01",
+          "off": "C5FA104028"
+        }
+      ]
+    },
+    {
+      "name": "MRP Multiplier x10",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "669FB20",
+          "on": "B900002041C5F96EC9C5F2594028E9B51110FE",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "47A0CE3",
+          "on": "E938EEEF01",
+          "off": "C5FA104028"
+        }
+      ]
+    },
+    {
+      "name": "Gil Multiplier x2",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "669FB40",
+          "on": "B900000040C5F96EC9C5F2594024E9E51010FE",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "47A0C33",
+          "on": "E908EFEF01",
+          "off": "C5FA104024"
+        }
+      ]
+    },
+    {
+      "name": "Gil Multiplier x5",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "669FB60",
+          "on": "B90000A040C5F96EC9C5F2594024E9C51010FE",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "47A0C33",
+          "on": "E928EFEF01",
+          "off": "C5FA104024"
+        }
+      ]
+    },
+    {
+      "name": "Gil Multiplier x10",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "669FB80",
+          "on": "B900002041C5F96EC9C5F2594024E9A51010FE",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "47A0C33",
+          "on": "E948EFEF01",
+          "off": "C5FA104024"
+        }
+      ]
+    },
+    {
+      "name": "Infinite HP (Party)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "669F800",
+          "on": "5050498B064C89F7FF90F00200003C015858740539C30F4CC3E90D8323FE",
+          "off": "000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "48D7B26",
+          "on": "E9D57CDC01",
+          "off": "39C30F4CC3"
+        }
+      ]
+    },
+    {
+      "name": "Infinite MP / No MP Cost (Party)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "669F880",
+          "on": "C5FA2CC05050498B04244C89E7FF90F00200003C015858750231C0E9CBD612FE",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "47CCF50",
+          "on": "E92B29ED0190",
+          "off": "C5FA2CC0EB15"
+        }
+      ]
+    },
+    {
+      "name": "Max Stats 9999 - HP/MP/ATK/DEF/INT/MND/AGI (Party)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "669F900",
+          "on": "4139CD440F4DE98B45CC83F81F7722BAE60300000FA3C273185151488B7DC0488B07FF90F00200003C01595975034189CDE92C8723FE",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "48D805B",
+          "on": "E9A078DC019090",
+          "off": "4139CD440F4DE9"
+        }
+      ]
+    },
+    {
+      "name": "Limit Burst Gauge Always Full",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "48D7B7A",
+          "on": "0F1F4000",
+          "off": "410F4CC6"
+        },
+        {
+          "offset": "48D7C96",
+          "on": "0F1F00",
+          "off": "0F4CD6"
+        }
+      ]
+    },
+    {
+      "name": "Instant Break (Enemies)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "669F980",
+          "on": "4139C7440F4DF84585F67E134889DF488B03FF90F00200003C0275034531FFE9183CF3FD",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "45D35B5",
+          "on": "E9C6C30C029090",
+          "off": "4139C7440F4DF8"
+        }
+      ]
+    },
+    {
+      "name": "Max Gil 99,999,999 (on any Gil change)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "478FB32",
+          "on": "0F1F4000",
+          "off": "410F42C7"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Items (consumables never decrease)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "669FC00",
+          "on": "89DFE8A911FDFD3C04740F89DFE8BE310FFE4139C57D034189C54183FD63B863000000E9DE320FFE",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4792EFD",
+          "on": "E9FECCF00190909090",
+          "off": "4183FD63B863000000"
+        }
+      ]
+    }
+  ]
+}

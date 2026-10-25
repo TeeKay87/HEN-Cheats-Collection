@@ -122,6 +122,7 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-10-25 | ADDED | PPSA31544 | 01.000.001 | [Final Fantasy Resonance](https://hencheats.vercel.app/game/PPSA31544/01.000.001) |
 | 2026-10-25 | UPDATE | PPSA15304 | 01.001.004 | [Metal Gear Solid Δ: Snake Eater](https://hencheats.vercel.app/game/PPSA15304/01.001.004) |
 | 2026-10-25 | UPDATE | PPSA15304 | 01.002.004 | [Metal Gear Solid Δ: Snake Eater](https://hencheats.vercel.app/game/PPSA15304/01.002.004) |
 | 2026-10-25 | UPDATE | PPSA18193 | 01.004.003 | [Metal Gear Solid 4: Guns of the Patriots - Master Collection Version](https://hencheats.vercel.app/game/PPSA18193/01.004.003) |
