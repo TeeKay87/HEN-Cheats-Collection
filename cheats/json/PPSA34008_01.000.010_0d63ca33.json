@@ -30,16 +30,6 @@
           "sectionOffset": "34FF8A"
         },
         {
-          "offset": "A013F8E",
-          "on": "00",
-          "off": "00",
-          "sectionName": "executable",
-          "sectionProtection": 3,
-          "logicalOffset": "387F8E",
-          "section": 6,
-          "sectionOffset": "34FF8E"
-        },
-        {
           "offset": "A013F8F",
           "on": "00409C45",
           "off": "00409C45",
@@ -48,16 +38,6 @@
           "logicalOffset": "387F8F",
           "section": 6,
           "sectionOffset": "34FF8F"
-        },
-        {
-          "offset": "A013F93",
-          "on": "00",
-          "off": "00",
-          "sectionName": "executable",
-          "sectionProtection": 3,
-          "logicalOffset": "387F93",
-          "section": 6,
-          "sectionOffset": "34FF93"
         },
         {
           "offset": "A013F94",
@@ -70,16 +50,6 @@
           "sectionOffset": "34FF94"
         },
         {
-          "offset": "A013F98",
-          "on": "00",
-          "off": "00",
-          "sectionName": "executable",
-          "sectionProtection": 3,
-          "logicalOffset": "387F98",
-          "section": 6,
-          "sectionOffset": "34FF98"
-        },
-        {
           "offset": "A013F99",
           "on": "003C1C46",
           "off": "003C1C46",
@@ -88,16 +58,6 @@
           "logicalOffset": "387F99",
           "section": 6,
           "sectionOffset": "34FF99"
-        },
-        {
-          "offset": "A013F9D",
-          "on": "00",
-          "off": "00",
-          "sectionName": "executable",
-          "sectionProtection": 3,
-          "logicalOffset": "387F9D",
-          "section": 6,
-          "sectionOffset": "34FF9D"
         },
         {
           "offset": "A013F9E",
@@ -110,16 +70,6 @@
           "sectionOffset": "34FF9E"
         },
         {
-          "offset": "A013FA2",
-          "on": "00",
-          "off": "00",
-          "sectionName": "executable",
-          "sectionProtection": 3,
-          "logicalOffset": "387FA2",
-          "section": 6,
-          "sectionOffset": "34FFA2"
-        },
-        {
           "offset": "A013FA3",
           "on": "00009642",
           "off": "00009642",
@@ -128,16 +78,6 @@
           "logicalOffset": "387FA3",
           "section": 6,
           "sectionOffset": "34FFA3"
-        },
-        {
-          "offset": "A013FA7",
-          "on": "00",
-          "off": "00",
-          "sectionName": "executable",
-          "sectionProtection": 3,
-          "logicalOffset": "387FA7",
-          "section": 6,
-          "sectionOffset": "34FFA7"
         },
         {
           "offset": "A013FA8",
@@ -150,16 +90,6 @@
           "sectionOffset": "34FFA8"
         },
         {
-          "offset": "A013FAC",
-          "on": "00",
-          "off": "00",
-          "sectionName": "executable",
-          "sectionProtection": 3,
-          "logicalOffset": "387FAC",
-          "section": 6,
-          "sectionOffset": "34FFAC"
-        },
-        {
           "offset": "A013FAD",
           "on": "0000C842",
           "off": "0000C842",
@@ -170,16 +100,6 @@
           "sectionOffset": "34FFAD"
         },
         {
-          "offset": "A013FB1",
-          "on": "00",
-          "off": "00",
-          "sectionName": "executable",
-          "sectionProtection": 3,
-          "logicalOffset": "387FB1",
-          "section": 6,
-          "sectionOffset": "34FFB1"
-        },
-        {
           "offset": "A013FB2",
           "on": "0000A040",
           "off": "0000A040",
@@ -188,16 +108,6 @@
           "logicalOffset": "387FB2",
           "section": 6,
           "sectionOffset": "34FFB2"
-        },
-        {
-          "offset": "A013FB6",
-          "on": "00",
-          "off": "00",
-          "sectionName": "executable",
-          "sectionProtection": 3,
-          "logicalOffset": "387FB6",
-          "section": 6,
-          "sectionOffset": "34FFB6"
         },
         {
           "offset": "A013FB7",

@@ -10,16 +10,6 @@
       "type": "checkbox",
       "memory": [
         {
-          "offset": "7D0FF00",
-          "on": "00",
-          "off": "00",
-          "sectionName": "executable",
-          "sectionProtection": 3,
-          "logicalOffset": "333F00",
-          "section": 6,
-          "sectionOffset": "31FF00"
-        },
-        {
           "offset": "7D0FF01",
           "on": "00C07944",
           "off": "00C07944",
@@ -28,16 +18,6 @@
           "logicalOffset": "333F01",
           "section": 6,
           "sectionOffset": "31FF01"
-        },
-        {
-          "offset": "7D0FF05",
-          "on": "00",
-          "off": "00",
-          "sectionName": "executable",
-          "sectionProtection": 3,
-          "logicalOffset": "333F05",
-          "section": 6,
-          "sectionOffset": "31FF05"
         },
         {
           "offset": "7D0FF06",
@@ -50,16 +30,6 @@
           "sectionOffset": "31FF06"
         },
         {
-          "offset": "7D0FF0A",
-          "on": "00",
-          "off": "00",
-          "sectionName": "executable",
-          "sectionProtection": 3,
-          "logicalOffset": "333F0A",
-          "section": 6,
-          "sectionOffset": "31FF0A"
-        },
-        {
           "offset": "7D0FF0B",
           "on": "003C1C46",
           "off": "003C1C46",
@@ -70,16 +40,6 @@
           "sectionOffset": "31FF0B"
         },
         {
-          "offset": "7D0FF0F",
-          "on": "00",
-          "off": "00",
-          "sectionName": "executable",
-          "sectionProtection": 3,
-          "logicalOffset": "333F0F",
-          "section": 6,
-          "sectionOffset": "31FF0F"
-        },
-        {
           "offset": "7D0FF10",
           "on": "00004040",
           "off": "00004040",
@@ -88,26 +48,6 @@
           "logicalOffset": "333F10",
           "section": 6,
           "sectionOffset": "31FF10"
-        },
-        {
-          "offset": "7D0FF14",
-          "on": "00",
-          "off": "00",
-          "sectionName": "executable",
-          "sectionProtection": 3,
-          "logicalOffset": "333F14",
-          "section": 6,
-          "sectionOffset": "31FF14"
-        },
-        {
-          "offset": "7D0FF15",
-          "on": "00",
-          "off": "00",
-          "sectionName": "executable",
-          "sectionProtection": 3,
-          "logicalOffset": "333F15",
-          "section": 6,
-          "sectionOffset": "31FF15"
         },
         {
           "offset": "7D0FF16",

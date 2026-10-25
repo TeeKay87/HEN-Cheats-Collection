@@ -10,16 +10,6 @@
       "type": "checkbox",
       "memory": [
         {
-          "offset": "9BBFF46",
-          "on": "00",
-          "off": "00",
-          "sectionName": "executable",
-          "sectionProtection": 3,
-          "logicalOffset": "407F46",
-          "section": 6,
-          "sectionOffset": "3B7F46"
-        },
-        {
           "offset": "9BBFF47",
           "on": "00007A44",
           "off": "00007A44",
@@ -28,16 +18,6 @@
           "logicalOffset": "407F47",
           "section": 6,
           "sectionOffset": "3B7F47"
-        },
-        {
-          "offset": "9BBFF4B",
-          "on": "00",
-          "off": "00",
-          "sectionName": "executable",
-          "sectionProtection": 3,
-          "logicalOffset": "407F4B",
-          "section": 6,
-          "sectionOffset": "3B7F4B"
         },
         {
           "offset": "9BBFF4C",
@@ -50,16 +30,6 @@
           "sectionOffset": "3B7F4C"
         },
         {
-          "offset": "9BBFF50",
-          "on": "00",
-          "off": "00",
-          "sectionName": "executable",
-          "sectionProtection": 3,
-          "logicalOffset": "407F50",
-          "section": 6,
-          "sectionOffset": "3B7F50"
-        },
-        {
           "offset": "9BBFF51",
           "on": "00007A44",
           "off": "00007A44",
@@ -68,16 +38,6 @@
           "logicalOffset": "407F51",
           "section": 6,
           "sectionOffset": "3B7F51"
-        },
-        {
-          "offset": "9BBFF55",
-          "on": "00",
-          "off": "00",
-          "sectionName": "executable",
-          "sectionProtection": 3,
-          "logicalOffset": "407F55",
-          "section": 6,
-          "sectionOffset": "3B7F55"
         },
         {
           "offset": "9BBFF56",
@@ -90,16 +50,6 @@
           "sectionOffset": "3B7F56"
         },
         {
-          "offset": "9BBFF5A",
-          "on": "00",
-          "off": "00",
-          "sectionName": "executable",
-          "sectionProtection": 3,
-          "logicalOffset": "407F5A",
-          "section": 6,
-          "sectionOffset": "3B7F5A"
-        },
-        {
           "offset": "9BBFF5B",
           "on": "00007A44",
           "off": "00007A44",
@@ -108,16 +58,6 @@
           "logicalOffset": "407F5B",
           "section": 6,
           "sectionOffset": "3B7F5B"
-        },
-        {
-          "offset": "9BBFF5F",
-          "on": "00",
-          "off": "00",
-          "sectionName": "executable",
-          "sectionProtection": 3,
-          "logicalOffset": "407F5F",
-          "section": 6,
-          "sectionOffset": "3B7F5F"
         },
         {
           "offset": "9BBFF60",
@@ -130,16 +70,6 @@
           "sectionOffset": "3B7F60"
         },
         {
-          "offset": "9BBFF64",
-          "on": "00",
-          "off": "00",
-          "sectionName": "executable",
-          "sectionProtection": 3,
-          "logicalOffset": "407F64",
-          "section": 6,
-          "sectionOffset": "3B7F64"
-        },
-        {
           "offset": "9BBFF65",
           "on": "804FC347",
           "off": "804FC347",
@@ -148,16 +78,6 @@
           "logicalOffset": "407F65",
           "section": 6,
           "sectionOffset": "3B7F65"
-        },
-        {
-          "offset": "9BBFF69",
-          "on": "00",
-          "off": "00",
-          "sectionName": "executable",
-          "sectionProtection": 3,
-          "logicalOffset": "407F69",
-          "section": 6,
-          "sectionOffset": "3B7F69"
         },
         {
           "offset": "9BBFF6A",
@@ -170,16 +90,6 @@
           "sectionOffset": "3B7F6A"
         },
         {
-          "offset": "9BBFF6E",
-          "on": "00",
-          "off": "00",
-          "sectionName": "executable",
-          "sectionProtection": 3,
-          "logicalOffset": "407F6E",
-          "section": 6,
-          "sectionOffset": "3B7F6E"
-        },
-        {
           "offset": "9BBFF6F",
           "on": "00000000",
           "off": "00000000",
@@ -188,16 +98,6 @@
           "logicalOffset": "407F6F",
           "section": 6,
           "sectionOffset": "3B7F6F"
-        },
-        {
-          "offset": "9BBFF73",
-          "on": "00",
-          "off": "00",
-          "sectionName": "executable",
-          "sectionProtection": 3,
-          "logicalOffset": "407F73",
-          "section": 6,
-          "sectionOffset": "3B7F73"
         },
         {
           "offset": "9BBFF74",
@@ -210,16 +110,6 @@
           "sectionOffset": "3B7F74"
         },
         {
-          "offset": "9BBFF78",
-          "on": "00",
-          "off": "00",
-          "sectionName": "executable",
-          "sectionProtection": 3,
-          "logicalOffset": "407F78",
-          "section": 6,
-          "sectionOffset": "3B7F78"
-        },
-        {
           "offset": "9BBFF79",
           "on": "00007A44",
           "off": "00007A44",
@@ -230,16 +120,6 @@
           "sectionOffset": "3B7F79"
         },
         {
-          "offset": "9BBFF7D",
-          "on": "00",
-          "off": "00",
-          "sectionName": "executable",
-          "sectionProtection": 3,
-          "logicalOffset": "407F7D",
-          "section": 6,
-          "sectionOffset": "3B7F7D"
-        },
-        {
           "offset": "9BBFF7E",
           "on": "0000C843",
           "off": "0000C843",
@@ -248,16 +128,6 @@
           "logicalOffset": "407F7E",
           "section": 6,
           "sectionOffset": "3B7F7E"
-        },
-        {
-          "offset": "9BBFF82",
-          "on": "00",
-          "off": "00",
-          "sectionName": "executable",
-          "sectionProtection": 3,
-          "logicalOffset": "407F82",
-          "section": 6,
-          "sectionOffset": "3B7F82"
         },
         {
           "offset": "9BBFF83",
