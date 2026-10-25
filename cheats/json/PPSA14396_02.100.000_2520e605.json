@@ -1,0 +1,572 @@
+{
+  "name": "Metal Gear Solid 2: Sons of Liberty - Master Collection Version",
+  "id": "PPSA14396",
+  "version": "02.100.000",
+  "process": "eboot.bin",
+  "credits": [
+    "k4k0gh0st"
+  ],
+  "mods": [
+    {
+      "name": "[Weapons] Unlock All Possible Weapons",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8C8080",
+          "on": "83F9010F85830000005351524831D24889C148FFC148FFC148FFC2668B99B00000006683FB01752A668B59486681FB0F27740F6683FB0174096683FB00740E66891948FFC248FFC148FFC1EBDB5A595BEB3A66833C500074F466833C50FF7504FFC2EBEEBA01000000668B594883FA0274106681FB0F2774096683FB0074CE668919FFC248FFC148FFC1EBDD0FBF0448C3",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1889EA",
+          "on": "E991F67300",
+          "off": "0FBF0448C3"
+        }
+      ],
+      "description": "Libera todas as armas possíveis no capítulo. Raiden precisa pegar alguma arma antes. A espada só funciona depois de encontrar o Snake, perto do fim."
+    },
+    {
+      "name": "[Weapons] Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8C8120",
+          "on": "668B74514889F066893451E920088CFF",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "18894A",
+          "on": "E9D1F7730090",
+          "off": "89F066893451"
+        },
+        {
+          "offset": "6EFAA7",
+          "on": "8B0190908901",
+          "off": "8B01FFC88901"
+        }
+      ],
+      "description": "A munição volta ao máximo a cada tiro, e o contador do pente não desce."
+    },
+    {
+      "name": "[Items] Unlock All Possible Items (+Card Key Lv9)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8C8140",
+          "on": "83F912750666C70448090083F9010F856C020000535166837822010F85DD00000048C7C101000000E85802000048C7C104000000E84C02000048C7C105000000E84002000048C7C107000000E83402000048C7C108000000E82802000048C7C109000000E81C02000048C7C10A000000E81002000048C7C10B000000E80402000048C7C10D000000E8F801000048C7C10E000000E8EC01000048C7C110000000E8E001000048C7C113000000E8D401000048C7C114000000E8C801000048C7C118000000E8BC01000048C7C120000000E8B001000048C7C122000000E8A401000048C7C123000000E89801000048C7C112000000E896010000E98001000048C7C101000000E87B01000048C7C103000000E86F01000048C7C104000000E86301000048C7C105000000E85701000048C7C107000000E84B01000048C7C108000000E83F01000048C7C109000000E83301000048C7C10A000000E82701000048C7C10B000000E81B01000048C7C10C000000E80F01000048C7C10D000000E80301000048C7C10E000000E8F700000048C7C10F000000E8EB00000048C7C110000000E8DF00000048C7C113000000E8D300000048C7C114000000E8C700000048C7C116000000E8BB00000048C7C117000000E8AF00000048C7C118000000E8A300000048C7C119000000E89700000048C7C11A000000E88B00000048C7C11B000000E87F00000048C7C11D000000E87300000048C7C11E000000E86700000048C7C122000000E85B00000048C7C123000000E84F00000048C7C124000000E84300000048C7C125000000E83700000048C7C126000000E82B00000048C7C127000000E81F00000048C7C128000000E81300000048C7C112000000E811000000595B0FBF0448C3668B5C486066891C48C366C704480900C3",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1889FA",
+          "on": "E941F77300",
+          "off": "0FBF0448C3"
+        }
+      ],
+      "description": "Dá todos os itens possíveis do personagem atual (Snake ou Raiden), com o cartão nível 9. Não ligue junto com \"Card Key Level 9\"."
+    },
+    {
+      "name": "[Items] Card Key Level 9",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8C83E0",
+          "on": "83F912750666C7044809000FBF0448C3",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "1889FA",
+          "on": "E9E1F97300",
+          "off": "0FBF0448C3"
+        }
+      ],
+      "description": "Deixa o cartão de acesso no nível 9. Não ligue junto com \"Unlock All Possible Items\"."
+    },
+    {
+      "name": "[Items] Infinite Consumable Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8C8400",
+          "on": "668B74486066893448E96E058CFF",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "188975",
+          "on": "E986FA73009090",
+          "off": "0F49F266893448"
+        }
+      ],
+      "description": "Itens consumíveis (Ração, Curativo, Pentazemin...) voltam ao máximo ao usar."
+    },
+    {
+      "name": "[Health] Player Immunity",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8C8410",
+          "on": "418B4F0850488B05E4FB31014805D00700004939C758750231C9F7C100000800E99BF48CFF",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1978C6",
+          "on": "E9450B73009090909090",
+          "off": "418B4F08F7C100000800"
+        },
+        {
+          "offset": "8C8440",
+          "on": "488B0DD94A35000FB789FC0000006641898C24D2080000E9C5D5E3FF",
+          "off": "00000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "705A18",
+          "on": "E9232A1C0090909090",
+          "off": "6641898C24D2080000"
+        },
+        {
+          "offset": "8C8460",
+          "on": "4C8B3599FB31014981C6D00700004939C674104939F6740B8B47084989F6E94E0F8DFF5B415C415E415F5DC3",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1993CB",
+          "on": "E990F0720090",
+          "off": "8B47084989F6"
+        }
+      ],
+      "description": "Jogador imune a dano, com a vida sempre no máximo."
+    },
+    {
+      "name": "[Health] No Alarm When Touched",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8C8490",
+          "on": "807D8880750B807D8C807505E901048DFFE81A0F8DFFE9F7038DFF",
+          "off": "000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "19889D",
+          "on": "E9EEFB7200",
+          "off": "E81E0B0000"
+        }
+      ],
+      "description": "Encostar nos inimigos não dispara alarme. Funciona melhor com os cheats de [Alarm] e a Stealth ligados. Se algo parar de receber golpes, desligue."
+    },
+    {
+      "name": "[Health] Infinite O2",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8C84B0",
+          "on": "668B8100010000668981FE000000E99691DFFF",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "6C1652",
+          "on": "E9596E20009090",
+          "off": "668981FE000000"
+        }
+      ],
+      "description": "Oxigênio infinito embaixo d'água."
+    },
+    {
+      "name": "[Health] Infinite Grip",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8C84D0",
+          "on": "66448BB31A040000664489B318040000E99023E5FF",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "71A86D",
+          "on": "E95EDC1A00909090",
+          "off": "664489B318040000"
+        }
+      ],
+      "description": "Barra de grip infinita (pendurado em grades e parapeitos)."
+    },
+    {
+      "name": "[Coop] Snake Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8C84F0",
+          "on": "6641C7473E5802E9234A94FF",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "20CF19",
+          "on": "E9D2B56B0090",
+          "off": "664183473ED8"
+        },
+        {
+          "offset": "8C8500",
+          "on": "66C7461E5802E90A4694FF",
+          "off": "0000000000000000000000"
+        },
+        {
+          "offset": "20CB10",
+          "on": "E9EBB96B00",
+          "off": "6683461ED8"
+        },
+        {
+          "offset": "8C8510",
+          "on": "66B858026689461E6685C0E9BE4594FF",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "20CAD7",
+          "on": "E934BA6B009090",
+          "off": "6689461E6685C0"
+        }
+      ],
+      "description": "Vida infinita do Snake (Iroquois Pliskin) quando ele luta junto com o Raiden."
+    },
+    {
+      "name": "[Coop] Kasatka Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8C8530",
+          "on": "66C74178B40048B800000000EE020000E9B9E2C4FF",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "5167F0",
+          "on": "E93B1D3B00909090909090909090",
+          "off": "6629417848B800000000EE020000"
+        }
+      ],
+      "description": "Vida infinita do helicóptero Kasatka."
+    },
+    {
+      "name": "[Coop] Emma Infinite Health + Immunity",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8C8550",
+          "on": "488B87E00000004885C0741066C780DEFCFFFF6400C7400800000000488B87E0000000E9327CA0FF",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "2D01A3",
+          "on": "E9A8835F009090",
+          "off": "488B87E0000000"
+        },
+        {
+          "offset": "8C8580",
+          "on": "66B864006641898424A8090000E98432E0FF",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "6CB80D",
+          "on": "E96ECD1F0090909090",
+          "off": "6641898424A8090000"
+        }
+      ],
+      "description": "Emma com vida infinita e imune a dano. Não protege embaixo d'água sem O2: use junto com \"Emma Infinite O2\"."
+    },
+    {
+      "name": "[Coop] Emma Infinite O2",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8C85A0",
+          "on": "41C78424380F00000000AF44C4C17A108424380F0000E9EC3BE0FF",
+          "off": "000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "6CC19D",
+          "on": "E9FEC31F009090909090",
+          "off": "C4C17A118424380F0000"
+        }
+      ],
+      "description": "Oxigênio infinito da Emma embaixo d'água."
+    },
+    {
+      "name": "[Alarm] Unseen By Soldiers",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "266F4C",
+          "on": "909090909090",
+          "off": "66C7432A0100"
+        },
+        {
+          "offset": "266F8E",
+          "on": "909090909090",
+          "off": "66C7432A0200"
+        },
+        {
+          "offset": "266DE1",
+          "on": "909090909090",
+          "off": "66C7432A0300"
+        }
+      ],
+      "description": "Os soldados não te veem, mas câmeras e explosões ainda podem te denunciar."
+    },
+    {
+      "name": "[Alarm] Red Alarm Fast Countdown",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8C85C0",
+          "on": "6641C7863C0300000000E9F2349AFF",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "26BAB8",
+          "on": "E903CB650090909090",
+          "off": "664183863C030000FC"
+        }
+      ],
+      "description": "A contagem do alarme vermelho zera na hora."
+    },
+    {
+      "name": "[Alarm] No Orange Alarm",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8C85D0",
+          "on": "31C041894754498B4500E9CEABE8FF",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "7531A5",
+          "on": "E926541700909090",
+          "off": "41894754498B4500"
+        }
+      ],
+      "description": "Desativa o estado de alerta laranja (evasion)."
+    },
+    {
+      "name": "[Alarm] No Green Alarm",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8C85E0",
+          "on": "66C7801A010000030031C0E967BE99FF",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "264448",
+          "on": "E99341660090909090",
+          "off": "66C7801A0100000300"
+        },
+        {
+          "offset": "8C8600",
+          "on": "31C031C9E9EABF99FF",
+          "off": "000000000000000000"
+        },
+        {
+          "offset": "2645EE",
+          "on": "E90D406600",
+          "off": "85C00F49C8"
+        }
+      ],
+      "description": "Desativa o estado de alerta verde (caution)."
+    },
+    {
+      "name": "[1HK] Olga Gurlukovich",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8C8610",
+          "on": "66B9000066898B2C140000E9073BB2FF",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "3EC120",
+          "on": "E9EBC44D009090",
+          "off": "66898B2C140000"
+        }
+      ],
+      "description": "Mata a Olga com um golpe."
+    },
+    {
+      "name": "[1HK] Vamp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8C8630",
+          "on": "6683A36012000000E9600BCEFF",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "5A9196",
+          "on": "E995F431009090",
+          "off": "66298B60120000"
+        },
+        {
+          "offset": "8C8640",
+          "on": "6683A78E03000000E9EA59B3FF",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "3FE030",
+          "on": "E90BA64C009090",
+          "off": "6629B78E030000"
+        }
+      ],
+      "description": "Mata o Vamp com um golpe."
+    },
+    {
+      "name": "[1HK] Harrier Jet",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8C8650",
+          "on": "66B800006641894578E91418C6FF",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "529E6D",
+          "on": "E9DEE73900",
+          "off": "6641894578"
+        }
+      ],
+      "description": "Derruba o Harrier com um golpe."
+    },
+    {
+      "name": "[1HK] Fatman",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8C8660",
+          "on": "31C9898B30230000E9B4CCBFFF",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "4C531B",
+          "on": "E94033400090",
+          "off": "898B30230000"
+        }
+      ],
+      "description": "Mata o Fatman com um golpe (bombas)."
+    },
+    {
+      "name": "[1HK] Solidus Snake",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8C8670",
+          "on": "89C801C029C16641898FA8030000E99DBAE6FF",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "734116",
+          "on": "E9554519009090909090",
+          "off": "29C16641898FA8030000"
+        }
+      ],
+      "description": "Mata o Solidus com um golpe."
+    },
+    {
+      "name": "[Stun] One Hit ZZZ",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8C8690",
+          "on": "6641C786521300000000E92F259CFF",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "28ABC4",
+          "on": "E9C7DA63009090909090",
+          "off": "66418186521300000CFE"
+        }
+      ],
+      "description": "Um tiro tranquilizante já faz o inimigo dormir."
+    },
+    {
+      "name": "[Stun] Instant Sleep (all enemies)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8C86A0",
+          "on": "6641C7865A13000000486641C786611300000100664189965A130000E9B15D9AFF",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "26E46A",
+          "on": "E931A26500909090",
+          "off": "664189965A130000"
+        }
+      ],
+      "description": "Todos os inimigos ficam com sono. Ligue só um dos três cheats de Sleep."
+    },
+    {
+      "name": "[Stun] Sleep Forever",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8C86D0",
+          "on": "664183BE5A130000000F85935D9AFF664189965A130000E9865D9AFF",
+          "off": "00000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "26E46A",
+          "on": "E961A26500909090",
+          "off": "664189965A130000"
+        }
+      ],
+      "description": "Inimigos adormecidos não acordam mais. Ligue só um dos três cheats de Sleep."
+    },
+    {
+      "name": "[Stun] Instant Sleep + Sleep Forever",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8C86F0",
+          "on": "6641C7865A13000000486641C786611300000100E9695D9AFF",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "26E46A",
+          "on": "E981A26500909090",
+          "off": "664189965A130000"
+        }
+      ],
+      "description": "Os dois efeitos juntos. Ligue só um dos três cheats de Sleep."
+    },
+    {
+      "name": "[Timer] Main Game Timer Reset To Zero",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8C8710",
+          "on": "31C9018838010000E9F8D58BFF",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "185D0F",
+          "on": "E9FC29740090",
+          "off": "018838010000"
+        },
+        {
+          "offset": "8C8720",
+          "on": "31C989883001000089883401000089883801000089883C0100000FBF8836010000E9BBAE96FF",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "2335FA",
+          "on": "E9215169009090",
+          "off": "0FBF8836010000"
+        }
+      ],
+      "description": "Zera o tempo total de jogo (para o ranking)."
+    },
+    {
+      "name": "[Timer] Countdown Timers Stopped",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1858A9",
+          "on": "9090",
+          "off": "FFC8"
+        }
+      ],
+      "description": "Para os cronômetros regressivos do jogo. Experimental: teste antes, com save de backup."
+    }
+  ]
+}

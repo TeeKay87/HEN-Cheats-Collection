@@ -122,6 +122,8 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-10-25 | ADDED | PPSA14396 | 02.100.000 | [Metal Gear Solid 2: Sons of Liberty - Master Collection Version](https://hencheats.vercel.app/game/PPSA14396/02.100.000) |
+| 2026-10-25 | REMOVED | PPSA15065 | 01.000.001 | [Cat Quest III](https://hencheats.vercel.app/game/PPSA15065/01.000.001) |
 | 2026-10-25 | ADDED | CUSA05284 | 01.25 | [Call of Duty: Infinite Warfare](https://hencheats.vercel.app/game/CUSA05284/01.25) |
 | 2026-10-25 | ADDED | PPSA11386 | 01.018.001 | [007 First Light](https://hencheats.vercel.app/game/PPSA11386/01.018.001) |
 | 2026-10-24 | ADDED | PPSA15065 | 01.004.008 | [Cat Quest III](https://hencheats.vercel.app/game/PPSA15065/01.004.008) |
