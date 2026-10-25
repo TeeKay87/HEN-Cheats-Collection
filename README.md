@@ -122,6 +122,7 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-10-25 | REMOVED | PPSA15065 | 01.000.001 | [Cat Quest III](https://hencheats.vercel.app/game/PPSA15065/01.000.001) |
 | 2026-10-25 | ADDED | PPSA15065 | 01.000.001 | [Cat Quest III](https://hencheats.vercel.app/game/PPSA15065/01.000.001) |
 | 2026-10-25 | ADDED | PPSA18216 | 01.301.001 | [Metal Gear Solid: Peace Walker - Master Collection Version](https://hencheats.vercel.app/game/PPSA18216/01.301.001) |
 | 2026-10-25 | ADDED | PPSA33965 | 01.000.007 | [Moss: The Forgotten Relic](https://hencheats.vercel.app/game/PPSA33965/01.000.007) |
@@ -139,7 +140,6 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 | 2026-10-25 | UPDATE | PPSA34114 | 01.000.005 | [RuneScape: Dragonwilds](https://hencheats.vercel.app/game/PPSA34114/01.000.005) |
 | 2026-10-25 | UPDATE | PPSA35399 | 01.000.000 | [Castlevania: Belmont's Curse](https://hencheats.vercel.app/game/PPSA35399/01.000.000) |
 | 2026-10-25 | ADDED | PPSA14396 | 02.100.000 | [Metal Gear Solid 2: Sons of Liberty - Master Collection Version](https://hencheats.vercel.app/game/PPSA14396/02.100.000) |
-| 2026-10-25 | REMOVED | PPSA15065 | 01.000.001 | [Cat Quest III](https://hencheats.vercel.app/game/PPSA15065/01.000.001) |
 | 2026-10-25 | ADDED | CUSA05284 | 01.25 | [Call of Duty: Infinite Warfare](https://hencheats.vercel.app/game/CUSA05284/01.25) |
 | 2026-10-25 | ADDED | PPSA11386 | 01.018.001 | [007 First Light](https://hencheats.vercel.app/game/PPSA11386/01.018.001) |
 | 2026-10-24 | ADDED | PPSA15065 | 01.004.008 | [Cat Quest III](https://hencheats.vercel.app/game/PPSA15065/01.004.008) |
