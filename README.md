@@ -122,6 +122,9 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-10-26 | ADDED | CUSA01127 | 01.00 | [P.T.](https://hencheats.vercel.app/game/CUSA01127/01.00) |
+| 2026-10-26 | ADDED | PPSA28000 | 01.005.001 | [The Blood of Dawnwalker](https://hencheats.vercel.app/game/PPSA28000/01.005.001) |
+| 2026-10-26 | UPDATE | CUSA57547 | 01.08 | [Call of Duty: Black Ops](https://hencheats.vercel.app/game/CUSA57547/01.08) |
 | 2026-10-25 | ADDED | PPSA31544 | 01.000.001 | [Final Fantasy Resonance](https://hencheats.vercel.app/game/PPSA31544/01.000.001) |
 | 2026-10-25 | UPDATE | PPSA15304 | 01.001.004 | [Metal Gear Solid Δ: Snake Eater](https://hencheats.vercel.app/game/PPSA15304/01.001.004) |
 | 2026-10-25 | UPDATE | PPSA15304 | 01.002.004 | [Metal Gear Solid Δ: Snake Eater](https://hencheats.vercel.app/game/PPSA15304/01.002.004) |

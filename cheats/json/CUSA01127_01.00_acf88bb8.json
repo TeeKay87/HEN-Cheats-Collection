@@ -1,0 +1,87 @@
+{
+  "name": "P.T.",
+  "id": "CUSA01127",
+  "version": "01.00",
+  "process": "eboot.bin",
+  "credits": [
+    "Claude"
+  ],
+  "mods": [
+    {
+      "name": "Fly Mode (R1 up / L1 down, through walls & floors)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0x6FDDD8",
+          "on": "E91B030000C5E857D2488B0548BD19014885C07423488B004885C0741B8B4018A8A07408C5EA5815B8828F00A8507408C5EA581534CA9500C3909090909090909090909090909090",
+          "off": "488B85E0F2FFFFC5FA109880010000C5FA1025092A9400C5F82EE3772B488B85E0F2FFFFC5E25C9888010000C5F82E1DF02994007312C5F82E0DEA2994000F87DC0200000F1F4000"
+        },
+        {
+          "offset": "0x6FDE20",
+          "on": "C4E279180D9B068F00C5F0594F50C5F858C1C3C4E279180D88068F00C5C859F1C5C858F0C5F829B570FFFFFFC3",
+          "off": "C4637904C001418B85B002000085C0C578288DF0F2FFFF7E57C5FA105B2CC5E0572DFA2A9400C5D857E4C5F82E"
+        },
+        {
+          "offset": "0x70318D",
+          "on": "E9FE03000090909090909090909090909090909090909090909090",
+          "off": "0FB74F0CF6C1080F84C6000000C5782E053AD793000F87B8000000"
+        },
+        {
+          "offset": "0x6FF045",
+          "on": "E9A001000090",
+          "off": "0F839F010000"
+        },
+        {
+          "offset": "0xEAD51C",
+          "on": "E99900000090",
+          "off": "0F8498000000"
+        },
+        {
+          "offset": "0xEAD5C2",
+          "on": "EB",
+          "off": "74"
+        },
+        {
+          "offset": "0x6FFF57",
+          "on": "6690",
+          "off": "7448"
+        },
+        {
+          "offset": "0x6FFF61",
+          "on": "E877DEFFFF909090",
+          "off": "C5FA5997B0010000"
+        },
+        {
+          "offset": "0x6FFF74",
+          "on": "0F1F4000",
+          "off": "C5E25CD2"
+        },
+        {
+          "offset": "0x6FFF9B",
+          "on": "E980DEFFFF90",
+          "off": "C5F8584750C3"
+        },
+        {
+          "offset": "0x7004C2",
+          "on": "6690",
+          "off": "7456"
+        },
+        {
+          "offset": "0x7004CC",
+          "on": "E80CD9FFFF9090909090",
+          "off": "C4C17A599424B0010000"
+        },
+        {
+          "offset": "0x7004E3",
+          "on": "0F1F4000",
+          "off": "C5E25CD2"
+        },
+        {
+          "offset": "0x70050C",
+          "on": "E822D9FFFF90909090909090",
+          "off": "C5C858F0C5F829B570FFFFFF"
+        }
+      ]
+    }
+  ]
+}
