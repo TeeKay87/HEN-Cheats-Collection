@@ -122,6 +122,7 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-10-26 | UPDATE | PPSA36082 | 01.006.000 | [Hades II](https://hencheats.vercel.app/game/PPSA36082/01.006.000) |
 | 2026-10-26 | ADDED | CUSA01127 | 01.00 | [P.T.](https://hencheats.vercel.app/game/CUSA01127/01.00) |
 | 2026-10-26 | ADDED | PPSA28000 | 01.005.001 | [The Blood of Dawnwalker](https://hencheats.vercel.app/game/PPSA28000/01.005.001) |
 | 2026-10-26 | UPDATE | CUSA57547 | 01.08 | [Call of Duty: Black Ops](https://hencheats.vercel.app/game/CUSA57547/01.08) |
