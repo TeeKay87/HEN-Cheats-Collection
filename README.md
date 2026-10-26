@@ -122,6 +122,7 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-10-26 | ADDED | PPSA24643 | 01.000.000 | [The Messenger](https://hencheats.vercel.app/game/PPSA24643/01.000.000) |
 | 2026-10-26 | ADDED | PPSA05975 | 01.001.000 | [BloodRayne 2: ReVamped](https://hencheats.vercel.app/game/PPSA05975/01.001.000) |
 | 2026-10-26 | UPDATE | PPSA36082 | 01.006.000 | [Hades II](https://hencheats.vercel.app/game/PPSA36082/01.006.000) |
 | 2026-10-26 | ADDED | CUSA01127 | 01.00 | [P.T.](https://hencheats.vercel.app/game/CUSA01127/01.00) |
