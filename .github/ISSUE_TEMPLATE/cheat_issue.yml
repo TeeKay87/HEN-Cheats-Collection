@@ -1,7 +1,7 @@
 name: Cheat issue
 description: Report a problem with a cheat in HEN Cheats Collection
 title: "Cheat Issue: "
-labels: []
+labels: ["Cheat Issue"]
 
 body:
   - type: markdown

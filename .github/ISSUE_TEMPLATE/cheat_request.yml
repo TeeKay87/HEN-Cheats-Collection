@@ -1,7 +1,7 @@
 name: Cheat Request
 description: Cheat requests are not accepted
 title: "[Cheat Request] "
-labels: []
+labels: ["Cheat Request"]
 
 body:
   - type: markdown
