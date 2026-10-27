@@ -27,6 +27,28 @@
       ]
     },
     {
+      "name": "Unlimited Attribute Points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "44D5190",
+          "on": "B8E7030000C3",
+          "off": "554889E54157"
+        }
+      ]
+    },
+    {
+      "name": "No Cooldown (abilities always ready)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "40F17B0",
+          "on": "B001C3",
+          "off": "554889"
+        }
+      ]
+    },
+    {
       "name": "infinity Carry Weight",
       "type": "checkbox",
       "memory": [

@@ -1,0 +1,279 @@
+{
+  "name": "Secret of Mana",
+  "id": "CUSA09565",
+  "version": "01.03",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Character EXP Gain x2",
+      "hint": "Applies to Randi, Primm, and Popoi. Preserves the normal level/EXP cap. Enable only one Character EXP multiplier at a time.",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "399FC7",
+          "on": "B97F9698006BC00203863401000039C80F4CC8898E34010000",
+          "off": "B97F9698000386340100003D809698000F4CC8898E34010000"
+        },
+        {
+          "offset": "39A00C",
+          "on": "B97F9698006BC00203864403000039C80F4CC8898E44030000",
+          "off": "B97F9698000386440300003D809698000F4CC8898E44030000"
+        },
+        {
+          "offset": "39A051",
+          "on": "B97F9698006BC00203865405000039C80F4CC8898E54050000",
+          "off": "B97F9698000386540500003D809698000F4CC8898E54050000"
+        }
+      ]
+    },
+    {
+      "name": "Character EXP Gain x10",
+      "hint": "Applies to Randi, Primm, and Popoi. Preserves the normal level/EXP cap. Enable only one Character EXP multiplier at a time.",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "399FC7",
+          "on": "B97F9698006BC00A03863401000039C80F4CC8898E34010000",
+          "off": "B97F9698000386340100003D809698000F4CC8898E34010000"
+        },
+        {
+          "offset": "39A00C",
+          "on": "B97F9698006BC00A03864403000039C80F4CC8898E44030000",
+          "off": "B97F9698000386440300003D809698000F4CC8898E44030000"
+        },
+        {
+          "offset": "39A051",
+          "on": "B97F9698006BC00A03865405000039C80F4CC8898E54050000",
+          "off": "B97F9698000386540500003D809698000F4CC8898E54050000"
+        }
+      ]
+    },
+    {
+      "name": "Character EXP Gain x50",
+      "hint": "Applies to Randi, Primm, and Popoi. Preserves the normal level/EXP cap. Enable only one Character EXP multiplier at a time.",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "399FC7",
+          "on": "B97F9698006BC03203863401000039C80F4CC8898E34010000",
+          "off": "B97F9698000386340100003D809698000F4CC8898E34010000"
+        },
+        {
+          "offset": "39A00C",
+          "on": "B97F9698006BC03203864403000039C80F4CC8898E44030000",
+          "off": "B97F9698000386440300003D809698000F4CC8898E44030000"
+        },
+        {
+          "offset": "39A051",
+          "on": "B97F9698006BC03203865405000039C80F4CC8898E54050000",
+          "off": "B97F9698000386540500003D809698000F4CC8898E54050000"
+        }
+      ]
+    },
+    {
+      "name": "Character EXP Gain x100",
+      "hint": "Applies to Randi, Primm, and Popoi. Preserves the normal level/EXP cap. Enable only one Character EXP multiplier at a time.",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "399FC7",
+          "on": "B97F9698006BC06403863401000039C80F4CC8898E34010000",
+          "off": "B97F9698000386340100003D809698000F4CC8898E34010000"
+        },
+        {
+          "offset": "39A00C",
+          "on": "B97F9698006BC06403864403000039C80F4CC8898E44030000",
+          "off": "B97F9698000386440300003D809698000F4CC8898E44030000"
+        },
+        {
+          "offset": "39A051",
+          "on": "B97F9698006BC06403865405000039C80F4CC8898E54050000",
+          "off": "B97F9698000386540500003D809698000F4CC8898E54050000"
+        }
+      ]
+    },
+    {
+      "name": "Weapon Power Always 100%",
+      "hint": "Normal and charged attacks reset weapon power directly to 100% instead of 0%.",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "14F77D",
+          "on": "C7840830010000E8030000",
+          "off": "C784083001000000000000"
+        },
+        {
+          "offset": "14FDA4",
+          "on": "C7840830010000E8030000",
+          "off": "C784083001000000000000"
+        }
+      ]
+    },
+    {
+      "name": "Weapon Proficiency Gain x2",
+      "hint": "Preserves the normal weapon-orb level cap. Enable only one Weapon Proficiency multiplier at a time.",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "39A13E",
+          "on": "6BD20241BDF01100004531F641B8830300004889BD08FFFFFF899510FFFFFF4C032D6C65870089D0D1F8898514FFFFFF9090",
+          "off": "41BDF011000089D04531F641B8830300004889BD08FFFFFF899510FFFFFF4C032D6D658700C1E81F01D0D1F8898514FFFFFF"
+        }
+      ]
+    },
+    {
+      "name": "Weapon Proficiency Gain x10",
+      "hint": "Preserves the normal weapon-orb level cap. Enable only one Weapon Proficiency multiplier at a time.",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "39A13E",
+          "on": "6BD20A41BDF01100004531F641B8830300004889BD08FFFFFF899510FFFFFF4C032D6C65870089D0D1F8898514FFFFFF9090",
+          "off": "41BDF011000089D04531F641B8830300004889BD08FFFFFF899510FFFFFF4C032D6D658700C1E81F01D0D1F8898514FFFFFF"
+        }
+      ]
+    },
+    {
+      "name": "Weapon Proficiency Gain x50",
+      "hint": "Preserves the normal weapon-orb level cap. Enable only one Weapon Proficiency multiplier at a time.",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "39A13E",
+          "on": "6BD23241BDF01100004531F641B8830300004889BD08FFFFFF899510FFFFFF4C032D6C65870089D0D1F8898514FFFFFF9090",
+          "off": "41BDF011000089D04531F641B8830300004889BD08FFFFFF899510FFFFFF4C032D6D658700C1E81F01D0D1F8898514FFFFFF"
+        }
+      ]
+    },
+    {
+      "name": "Weapon Proficiency Gain x100",
+      "hint": "Preserves the normal weapon-orb level cap. Enable only one Weapon Proficiency multiplier at a time.",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "39A13E",
+          "on": "6BD26441BDF01100004531F641B8830300004889BD08FFFFFF899510FFFFFF4C032D6C65870089D0D1F8898514FFFFFF9090",
+          "off": "41BDF011000089D04531F641B8830300004889BD08FFFFFF899510FFFFFF4C032D6D658700C1E81F01D0D1F8898514FFFFFF"
+        }
+      ]
+    },
+    {
+      "name": "Magic Proficiency Gain x2",
+      "hint": "Applies when Primm or Popoi casts a spell and preserves the current Mana Seed/story cap. Enable only one Magic Proficiency multiplier at a time.",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "21A656",
+          "on": "B9090000004A8D84A35C0100004429F180BAC90D0000007502D1F96BC9020308909090909090",
+          "off": "B9090000004A8D84A35C0100004429F180BAC90D000000750B89CAC1EA1F01CAD1FA89D10308"
+        }
+      ]
+    },
+    {
+      "name": "Magic Proficiency Gain x10",
+      "hint": "Applies when Primm or Popoi casts a spell and preserves the current Mana Seed/story cap. Enable only one Magic Proficiency multiplier at a time.",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "21A656",
+          "on": "B9090000004A8D84A35C0100004429F180BAC90D0000007502D1F96BC90A0308909090909090",
+          "off": "B9090000004A8D84A35C0100004429F180BAC90D000000750B89CAC1EA1F01CAD1FA89D10308"
+        }
+      ]
+    },
+    {
+      "name": "Magic Proficiency Gain x50",
+      "hint": "Applies when Primm or Popoi casts a spell and preserves the current Mana Seed/story cap. Enable only one Magic Proficiency multiplier at a time.",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "21A656",
+          "on": "B9090000004A8D84A35C0100004429F180BAC90D0000007502D1F96BC9320308909090909090",
+          "off": "B9090000004A8D84A35C0100004429F180BAC90D000000750B89CAC1EA1F01CAD1FA89D10308"
+        }
+      ]
+    },
+    {
+      "name": "Magic Proficiency Gain x100",
+      "hint": "Applies when Primm or Popoi casts a spell and preserves the current Mana Seed/story cap. Enable only one Magic Proficiency multiplier at a time.",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "21A656",
+          "on": "B9090000004A8D84A35C0100004429F180BAC90D0000007502D1F96BC9640308909090909090",
+          "off": "B9090000004A8D84A35C0100004429F180BAC90D000000750B89CAC1EA1F01CAD1FA89D10308"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Items",
+      "hint": "Using an item no longer reduces its quantity. Does not grant missing items; do not enable together with All Items Available (Session).",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "33950F",
+          "on": "9090909090909090",
+          "off": "42FF8CA808100000"
+        }
+      ]
+    },
+    {
+      "name": "All Items Available (Session)",
+      "hint": "Makes all 11 item types available at 99 while enabled, including progression items. RAM-only, but avoid saving or triggering story events while active. Do not combine with Infinite Items.",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "32D7A9",
+          "on": "909090909090",
+          "off": "0F8EFA000000"
+        },
+        {
+          "offset": "32DC89",
+          "on": "909090909090",
+          "off": "0F8E0A010000"
+        },
+        {
+          "offset": "33A8AC",
+          "on": "41BC630000009090",
+          "off": "448BA48208100000"
+        },
+        {
+          "offset": "33950F",
+          "on": "9090909090909090",
+          "off": "42FF8CA808100000"
+        }
+      ]
+    },
+    {
+      "name": "All Spell Sets Available (Session)",
+      "hint": "Exposes all spell sets for Primm and Popoi without changing saved spirit flags. RAM-only; spell levels remain subject to the Mana Seed/story cap. Avoid saving early-game progression while active.",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "32E397",
+          "on": "909090909090",
+          "off": "0F8409010000"
+        },
+        {
+          "offset": "32E527",
+          "on": "909090909090",
+          "off": "0F84F9000000"
+        },
+        {
+          "offset": "3326CA",
+          "on": "BA01000000",
+          "off": "0F94C2FFC2"
+        },
+        {
+          "offset": "334867",
+          "on": "BE0100000090",
+          "off": "400F94C6FFC6"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "brecc",
+    "Codex"
+  ]
+}

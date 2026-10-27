@@ -1,0 +1,284 @@
+{
+  "name": "Tales of Graces f Remastered",
+  "id": "CUSA46341",
+  "version": "00.06",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "module_name": "GameNative.prx",
+      "memory": [
+        {
+          "offset": "101794",
+          "on": "E909010000",
+          "off": "4529FC4489"
+        },
+        {
+          "offset": "1018A2",
+          "on": "807B300074034529FCE996FEFFFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "101746",
+          "on": "4489E0EB4F",
+          "off": "CCCCCCCCCC"
+        }
+      ]
+    },
+    {
+      "name": "2x Experience",
+      "type": "checkbox",
+      "module_name": "GameNative.prx",
+      "memory": [
+        {
+          "offset": "1027F8",
+          "on": "E9640200009090",
+          "off": "4401B980080000"
+        },
+        {
+          "offset": "102A61",
+          "on": "4501FF4401B980080000E98FFDFFFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "102B3C",
+          "on": "E9400000009090",
+          "off": "4401B980080000"
+        },
+        {
+          "offset": "102B81",
+          "on": "4501FF4401B980080000E9B3FFFFFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        }
+      ]
+    },
+    {
+      "name": "4x SP",
+      "type": "checkbox",
+      "module_name": "GameNative.prx",
+      "memory": [
+        {
+          "offset": "10282A",
+          "on": "E95302000090",
+          "off": "018184080000"
+        },
+        {
+          "offset": "102A82",
+          "on": "C1E002018184080000E9A0FDFFFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "102B6E",
+          "on": "E9EE01000090",
+          "off": "018184080000"
+        },
+        {
+          "offset": "102D61",
+          "on": "C1E002018184080000E905FEFFFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Items",
+      "type": "checkbox",
+      "module_name": "GameNative.prx",
+      "memory": [
+        {
+          "offset": "3A39CD",
+          "on": "9090",
+          "off": "FE08"
+        },
+        {
+          "offset": "3A3B45",
+          "on": "9090",
+          "off": "FE08"
+        },
+        {
+          "offset": "3A3D3D",
+          "on": "9090",
+          "off": "FE08"
+        },
+        {
+          "offset": "13A2",
+          "on": "8A0800D172020010C3",
+          "off": "CCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "3A0AA9",
+          "on": "E9F408C6FF",
+          "off": "0010C3CCCC"
+        },
+        {
+          "offset": "3A09D8",
+          "on": "0F87CC09C6FF",
+          "off": "0F87CD000000"
+        },
+        {
+          "offset": "1422",
+          "on": "664585E4E9AEFE3900",
+          "off": "CCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "1251",
+          "on": "8A084400E17203440020E9C2010000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "3A12D2",
+          "on": "E97AFFC5FF",
+          "off": "4400206645"
+        },
+        {
+          "offset": "3A11A1",
+          "on": "0F877B02C6FF",
+          "off": "0F872E010000"
+        },
+        {
+          "offset": "1465",
+          "on": "664585E4E94B023A00",
+          "off": "CCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "1501",
+          "on": "8A084400E17203440020E955FFFFFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "3A16B2",
+          "on": "E94AFEC5FF",
+          "off": "4400206645"
+        },
+        {
+          "offset": "3A1581",
+          "on": "0F87DEFEC5FF",
+          "off": "0F872E010000"
+        },
+        {
+          "offset": "14F4",
+          "on": "664585FFE9B8053A00",
+          "off": "CCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "16E1",
+          "on": "8A084400F97203440038E904FEFFFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "3A1AAE",
+          "on": "E92EFCC5FF",
+          "off": "4400386645"
+        },
+        {
+          "offset": "3A1973",
+          "on": "0F877BFBC5FF",
+          "off": "0F8738010000"
+        },
+        {
+          "offset": "1517",
+          "on": "664585E4E9380A3A00",
+          "off": "CCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "1D71",
+          "on": "8A084400E17203440020E997F7FFFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "3A1F51",
+          "on": "E91BFEC5FF",
+          "off": "4400206645"
+        },
+        {
+          "offset": "3A1E14",
+          "on": "0F87FDF6C5FF",
+          "off": "0F873A010000"
+        },
+        {
+          "offset": "1587",
+          "on": "664585E4E9080F3A00",
+          "off": "CCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "3D11",
+          "on": "8A084400E17203440020E967D8FFFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "3A2491",
+          "on": "E97B18C6FF",
+          "off": "4400206645"
+        },
+        {
+          "offset": "3A2354",
+          "on": "0F872DF2C5FF",
+          "off": "0F873A010000"
+        },
+        {
+          "offset": "1607",
+          "on": "4D85FFE9A9133A00",
+          "off": "CCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "3DE1",
+          "on": "8A084400E17203440020E917D8FFFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "3A29B2",
+          "on": "E92A14C6FF",
+          "off": "4400204D85"
+        },
+        {
+          "offset": "3A2885",
+          "on": "0F877CEDC5FF",
+          "off": "0F872A010000"
+        },
+        {
+          "offset": "1617",
+          "on": "664585E4E9E91F3A00",
+          "off": "CCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "3E21",
+          "on": "8A084400E17203440020E9E7D7FFFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "3A3602",
+          "on": "E91A08C6FF",
+          "off": "4400206645"
+        },
+        {
+          "offset": "3A34D1",
+          "on": "0F8740E1C5FF",
+          "off": "0F872E010000"
+        },
+        {
+          "offset": "1627",
+          "on": "6685D2E9D11B3A00",
+          "off": "CCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "4291",
+          "on": "8A0800D172020010E989D3FFFFCCCC",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "3A31FB",
+          "on": "E99110C6FF",
+          "off": "00106685D2"
+        },
+        {
+          "offset": "3A2D7A",
+          "on": "0F85A7E8C5FF",
+          "off": "0F857D040000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Parz"
+  ]
+}
