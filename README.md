@@ -122,6 +122,8 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-10-28 | ADDED | CUSA04601 | 01.00 | [Batman: Return to Arkham](https://hencheats.vercel.app/game/CUSA04601/01.00) |
+| 2026-10-28 | UPDATE | CUSA01127 | 01.00 | [P.T.](https://hencheats.vercel.app/game/CUSA01127/01.00) |
 | 2026-10-28 | ADDED | PPSA07058 | 01.002.000 | [Final Vendetta](https://hencheats.vercel.app/game/PPSA07058/01.002.000) |
 | 2026-10-28 | ADDED | PPSA22453 | 01.000.004 | [Tomb Raider: Legend](https://hencheats.vercel.app/game/PPSA22453/01.000.004) |
 | 2026-10-27 | ADDED | CUSA46341 | 00.06 | [Tales of Graces f Remastered](https://hencheats.vercel.app/game/CUSA46341/00.06) |
