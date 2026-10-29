@@ -1,0 +1,244 @@
+{
+  "name": "Stupid Never Dies",
+  "id": "PPSA28050",
+  "version": "01.002.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Master Code",
+      "description": "GWorld -> GameInstance -> LocalPlayers[0] -> PlayerController -> Pawn",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "941BF01",
+          "on": "28230000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "377F01",
+          "section": 6,
+          "sectionOffset": "343F01"
+        },
+        {
+          "offset": "941BF06",
+          "on": "00000000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "377F06",
+          "section": 6,
+          "sectionOffset": "343F06"
+        },
+        {
+          "offset": "941BF0B",
+          "on": "7F969800",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "377F0B",
+          "section": 6,
+          "sectionOffset": "343F0B"
+        },
+        {
+          "offset": "941BF10",
+          "on": "00000000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "377F10",
+          "section": 6,
+          "sectionOffset": "343F10"
+        },
+        {
+          "offset": "941BF15",
+          "on": "0080BB45",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "377F15",
+          "section": 6,
+          "sectionOffset": "343F15"
+        },
+        {
+          "offset": "704F39C",
+          "on": "9C505152488B05F12C2C024885C00F84DD010000488B80D80100004885C00F84CD010000837840000F8EC3010000488B40384885C00F84B6010000488B004885",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "704F3DC",
+          "on": "C00F84AA010000488B40304885C00F849D010000488B80D00200004885C00F848D010000803DF9CA3C0201754A48A9070000007542488B50104885D27439817A",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "704F41C",
+          "on": "58880600007C304889C1488B89800600004885C9742148F7C1070000007518488B51104885D2740F837A58307C098B15B1CA3C0289512C803DABCA3C02017550",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "704F45C",
+          "on": "48A9070000007548488B50104885D2743F817A58880600007C364889C1488B89800600004885C9742748F7C107000000751E488B51104885D27415817A58DC00",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "704F49C",
+          "on": "00007C0C8B1560CA3C028991D8000000803D57CA3C0201755048A9070000007548488B50104885D2743F817A58880600007C364889C1488B89800600004885C9",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "704F4DC",
+          "on": "742748F7C107000000751E488B51104885D27415817A58B40000007C0C8B150CCA3C028991B0000000803D03CA3C0201752648A907000000751E488B50104885",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "704F51C",
+          "on": "D27415817A58740D00007C0C8B15E2C93C028990700D0000803DD9C93C0201755048A9070000007548488B50104885D2743F817A58201300007C364889C1488B",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "704F55C",
+          "on": "89181300004885C9742748F7C107000000751E488B51104885D27415817A58500200007C0C8B158EC93C0289914C0200005A59589D554889E54157E97AD939F9",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "3ECF10",
+          "on": "E98724C60690",
+          "off": "554889E54157"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "941BF00",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "377F00",
+          "section": 6,
+          "sectionOffset": "343F00"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Skills",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "941BF05",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "377F05",
+          "section": 6,
+          "sectionOffset": "343F05"
+        }
+      ]
+    },
+    {
+      "name": "--Easy Level",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "941BF0A",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "377F0A",
+          "section": 6,
+          "sectionOffset": "343F0A"
+        }
+      ]
+    },
+    {
+      "name": "--No damage",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "941BF0F",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "377F0F",
+          "section": 6,
+          "sectionOffset": "343F0F"
+        }
+      ]
+    },
+    {
+      "name": "--Long Jumps",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "941BF14",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "377F14",
+          "section": 6,
+          "sectionOffset": "343F14"
+        }
+      ]
+    },
+    {
+      "name": "No CoolDown",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "704F5BC",
+          "on": "C7837C16000000000000E98DEF94FD",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "499E550",
+          "on": "E967106B02909090",
+          "off": "C5FA11837C160000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Items",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "704F5EB",
+          "on": "41BF9F86010044893A498B0424E982A3D6FD",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4DB9978",
+          "on": "E96E5C29029090",
+          "off": "44893A498B0424"
+        }
+      ]
+    },
+    {
+      "name": "Stop Timer",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4C5CDEA",
+          "on": "9090909090909090",
+          "off": "C5FA118B38020000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

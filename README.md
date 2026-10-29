@@ -122,6 +122,9 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-10-29 | ADDED | CUSA23981 | 01.06 | [Life is Strange: Before the Storm Remastered](https://hencheats.vercel.app/game/CUSA23981/01.06) |
+| 2026-10-29 | ADDED | PPSA03999 | 01.000.000 | [Tails of Iron](https://hencheats.vercel.app/game/PPSA03999/01.000.000) |
+| 2026-10-29 | ADDED | PPSA28050 | 01.002.000 | [Stupid Never Dies](https://hencheats.vercel.app/game/PPSA28050/01.002.000) |
 | 2026-10-29 | UPDATE | PPSA20397 | 01.019.076 | [Assassin's Creed Shadows](https://hencheats.vercel.app/game/PPSA20397/01.019.076) |
 | 2026-10-28 | ADDED | CUSA04601 | 01.00 | [Batman: Return to Arkham](https://hencheats.vercel.app/game/CUSA04601/01.00) |
 | 2026-10-28 | UPDATE | CUSA01127 | 01.00 | [P.T.](https://hencheats.vercel.app/game/CUSA01127/01.00) |

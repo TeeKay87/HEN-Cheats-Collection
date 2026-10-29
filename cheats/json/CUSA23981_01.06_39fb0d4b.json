@@ -1,0 +1,22 @@
+{
+  "name": "Life is Strange: Before the Storm Remastered",
+  "id": "CUSA23981",
+  "version": "01.06",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Unlock framerate (60 FPS)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "E30914",
+          "on": "0F1F4000",
+          "off": "400F95C6"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Kris"
+  ]
+}
