@@ -122,6 +122,7 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-10-29 | UPDATE | PPSA20397 | 01.019.076 | [Assassin's Creed Shadows](https://hencheats.vercel.app/game/PPSA20397/01.019.076) |
 | 2026-10-28 | ADDED | CUSA04601 | 01.00 | [Batman: Return to Arkham](https://hencheats.vercel.app/game/CUSA04601/01.00) |
 | 2026-10-28 | UPDATE | CUSA01127 | 01.00 | [P.T.](https://hencheats.vercel.app/game/CUSA01127/01.00) |
 | 2026-10-28 | ADDED | PPSA07058 | 01.002.000 | [Final Vendetta](https://hencheats.vercel.app/game/PPSA07058/01.002.000) |

@@ -1,0 +1,28 @@
+{
+  "name": "Assassin's Creed Shadows",
+  "id": "PPSA20397",
+  "version": "01.019.076",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Quality FPS",
+      "hint": "Quality FPS",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "03B883B0",
+          "on": "BC48C805",
+          "off": "D080C805"
+        },
+        {
+          "offset": "02A24805",
+          "on": "6784DE06",
+          "off": "7BBCDE06"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "zer0day"
+  ]
+}
