@@ -1,0 +1,65 @@
+{
+  "name": "SteamWorld Build",
+  "id": "PPSA06485",
+  "version": "01.000.013",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Money And Resources",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "82DB3000",
+          "on": "41C786A400000020BCBE4CE98F2290FE",
+          "off": "00000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "3087000",
+          "section": 16,
+          "sectionOffset": "3087000"
+        },
+        {
+          "offset": "816B5296",
+          "on": "E965DD6F0190909090",
+          "off": "C4C17A118EA4000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "1989296",
+          "section": 16,
+          "sectionOffset": "1989296"
+        }
+      ]
+    },
+    {
+      "name": "Time Next Train 0",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "82DB3030",
+          "on": "41C7477800000000E9128DA1FE",
+          "off": "00000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "3087030",
+          "section": 16,
+          "sectionOffset": "3087030"
+        },
+        {
+          "offset": "817CBD49",
+          "on": "E9E2725E0190",
+          "off": "C4C17A114F78",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "1A9FD49",
+          "section": 16,
+          "sectionOffset": "1A9FD49"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

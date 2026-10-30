@@ -122,6 +122,9 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-10-30 | ADDED | PPSA03446 | 02.000.000 | [Pumpkin Jack](https://hencheats.vercel.app/game/PPSA03446/02.000.000) |
+| 2026-10-30 | ADDED | PPSA06485 | 01.000.013 | [SteamWorld Build](https://hencheats.vercel.app/game/PPSA06485/01.000.013) |
+| 2026-10-30 | UPDATE | CUSA00503 | 01.12 | [Dragon Age: Inquisition](https://hencheats.vercel.app/game/CUSA00503/01.12) |
 | 2026-10-29 | ADDED | CUSA23981 | 01.06 | [Life is Strange: Before the Storm Remastered](https://hencheats.vercel.app/game/CUSA23981/01.06) |
 | 2026-10-29 | ADDED | PPSA03999 | 01.000.000 | [Tails of Iron](https://hencheats.vercel.app/game/PPSA03999/01.000.000) |
 | 2026-10-29 | ADDED | PPSA28050 | 01.002.000 | [Stupid Never Dies](https://hencheats.vercel.app/game/PPSA28050/01.002.000) |
