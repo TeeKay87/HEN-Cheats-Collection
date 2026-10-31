@@ -122,6 +122,9 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-10-31 | ADDED | PPSA02530 | 01.300.000 | [Pragmata](https://hencheats.vercel.app/game/PPSA02530/01.300.000) |
+| 2026-10-31 | ADDED | PPSA07631 | 01.005.002 | [SAROS](https://hencheats.vercel.app/game/PPSA07631/01.005.002) |
+| 2026-10-31 | UPDATE | CUSA00503 | 01.12 | [Dragon Age: Inquisition](https://hencheats.vercel.app/game/CUSA00503/01.12) |
 | 2026-10-30 | ADDED | PPSA03446 | 02.000.000 | [Pumpkin Jack](https://hencheats.vercel.app/game/PPSA03446/02.000.000) |
 | 2026-10-30 | ADDED | PPSA06485 | 01.000.013 | [SteamWorld Build](https://hencheats.vercel.app/game/PPSA06485/01.000.013) |
 | 2026-10-30 | UPDATE | CUSA00503 | 01.12 | [Dragon Age: Inquisition](https://hencheats.vercel.app/game/CUSA00503/01.12) |
