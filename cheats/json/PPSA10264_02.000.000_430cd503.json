@@ -1,0 +1,198 @@
+{
+  "name": "Jusant",
+  "id": "PPSA10264",
+  "version": "02.000.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Master Code",
+      "description": "GWorld -> GameInstance -> LocalPlayers[0] -> PlayerController -> Pawn",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "989BF01",
+          "on": "0000000000008940",
+          "off": "0000000000000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "2FFF01",
+          "section": 6,
+          "sectionOffset": "2E7F01"
+        },
+        {
+          "offset": "989BF0A",
+          "on": "0000000000008940",
+          "off": "0000000000000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "2FFF0A",
+          "section": 6,
+          "sectionOffset": "2E7F0A"
+        },
+        {
+          "offset": "989BF13",
+          "on": "00409C45",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "2FFF13",
+          "section": 6,
+          "sectionOffset": "2E7F13"
+        },
+        {
+          "offset": "989BF18",
+          "on": "0000000000408F40",
+          "off": "0000000000000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "2FFF18",
+          "section": 6,
+          "sectionOffset": "2E7F18"
+        },
+        {
+          "offset": "989BF21",
+          "on": "000000000070A740",
+          "off": "0000000000000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "2FFF21",
+          "section": 6,
+          "sectionOffset": "2E7F21"
+        },
+        {
+          "offset": "719F000",
+          "on": "9C505152488B05BD036E024885C00F84C1010000488B80B80100004885C00F84B1010000837840000F8EA7010000488B40384885C00F849A010000488B004885",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "719F040",
+          "on": "C00F848E010000488B40304885C00F8481010000488B80D00200004885C00F8471010000803DA7CE6F0201755048A9070000007548488B50104885D2743F817A",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "719F080",
+          "on": "58280300007C364889C1488B89200300004885C9742748F7C107000000751E488B51104885D27415817A58EC0100007C0C8B155CCE6F028991E8010000803D3C",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "719F0C0",
+          "on": "CE6F0201755248A907000000754A488B50104885D27441817A58580C00007C384889C1488B89500C00004885C9742948F7C1070000007520488B51104885D274",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "719F100",
+          "on": "17817A58B00000007C0E488B15F0CD6F02488991A8000000803DEACD6F0201755248A907000000754A488B50104885D27441817A58580C00007C384889C1488B",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "719F140",
+          "on": "89500C00004885C9742948F7C1070000007520488B51104885D27417817A58B80000007C0E488B159ECD6F02488991B0000000803D9DCD6F0201752848A90700",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "719F180",
+          "on": "00007520488B50104885D27417817A58E00C00007C0E488B157BCD6F02488990D80C0000803D75CD6F0201752848A9070000007520488B50104885D27417817A",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "719F1C0",
+          "on": "58E00C00007C0E488B1553CD6F02488990D80C00005A59589D554889E54157E982CE0BFC",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "325C060",
+          "on": "E99B2FF40390",
+          "off": "554889E54157"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Stamina",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "989BF00",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "2FFF00",
+          "section": 6,
+          "sectionOffset": "2E7F00"
+        }
+      ]
+    },
+    {
+      "name": "--Max Stamina",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "989BF09",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "2FFF09",
+          "section": 6,
+          "sectionOffset": "2E7F09"
+        }
+      ]
+    },
+    {
+      "name": "--Super Walk Speed",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "989BF12",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "2FFF12",
+          "section": 6,
+          "sectionOffset": "2E7F12"
+        }
+      ]
+    },
+    {
+      "name": "--Super Jump",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "989BF17",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "2FFF17",
+          "section": 6,
+          "sectionOffset": "2E7F17"
+        }
+      ]
+    },
+    {
+      "name": "--Mega Jump",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "989BF20",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "2FFF20",
+          "section": 6,
+          "sectionOffset": "2E7F20"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

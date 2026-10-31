@@ -122,6 +122,9 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-10-31 | ADDED | PPSA10264 | 02.000.000 | [Jusant](https://hencheats.vercel.app/game/PPSA10264/02.000.000) |
+| 2026-10-31 | ADDED | PPSA19450 | 01.010.000 | [Planet of Lana](https://hencheats.vercel.app/game/PPSA19450/01.010.000) |
+| 2026-10-31 | ADDED | PPSA38474 | 01.002.000 | [Samson - A Tyndalston Story](https://hencheats.vercel.app/game/PPSA38474/01.002.000) |
 | 2026-10-31 | ADDED | PPSA02530 | 01.300.000 | [Pragmata](https://hencheats.vercel.app/game/PPSA02530/01.300.000) |
 | 2026-10-31 | ADDED | PPSA07631 | 01.005.002 | [SAROS](https://hencheats.vercel.app/game/PPSA07631/01.005.002) |
 | 2026-10-31 | UPDATE | CUSA00503 | 01.12 | [Dragon Age: Inquisition](https://hencheats.vercel.app/game/CUSA00503/01.12) |
