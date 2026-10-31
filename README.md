@@ -122,6 +122,8 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-10-31 | ADDED | PPSA18697 | 01.000.026 | [The Bearer & The Last Flame](https://hencheats.vercel.app/game/PPSA18697/01.000.026) |
+| 2026-10-31 | ADDED | PPSA28824 | 01.000.015 | [Valheim](https://hencheats.vercel.app/game/PPSA28824/01.000.015) |
 | 2026-10-31 | ADDED | PPSA10264 | 02.000.000 | [Jusant](https://hencheats.vercel.app/game/PPSA10264/02.000.000) |
 | 2026-10-31 | ADDED | PPSA19450 | 01.010.000 | [Planet of Lana](https://hencheats.vercel.app/game/PPSA19450/01.010.000) |
 | 2026-10-31 | ADDED | PPSA38474 | 01.002.000 | [Samson - A Tyndalston Story](https://hencheats.vercel.app/game/PPSA38474/01.002.000) |
