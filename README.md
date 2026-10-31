@@ -118,7 +118,15 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 ## Version History
 
-### October 2026
+### November 2026
+
+| Date | Status | ID | Version | Title |
+|-|-|-|-|-|
+| 2026-11-01 | ADDED | PPSA02306 | 01.000.000 | [Spirit of the North: Enhanced Edition](https://hencheats.vercel.app/game/PPSA02306/01.000.000) |
+| 2026-11-01 | ADDED | PPSA28617 | 01.000.002 | [Spirit of the North 2](https://hencheats.vercel.app/game/PPSA28617/01.000.002) |
+
+<details>
+<summary><b>October 2026</b></summary>
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
@@ -285,6 +293,8 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 | 2026-10-03 | ADDED | PPSA03671 | 01.001.005 | [Marvel's Wolverine](https://hencheats.vercel.app/game/PPSA03671/01.001.005) |
 | 2026-10-01 | ADDED | PPSA11386 | 01.018.000 | [007 First Light](https://hencheats.vercel.app/game/PPSA11386/01.018.000) |
 | 2026-10-01 | ADDED | PPSA27836 | 01.000.001 | [Onimusha: Way of the Sword](https://hencheats.vercel.app/game/PPSA27836/01.000.001) |
+
+</details>
 
 <details>
 <summary><b>September 2026</b></summary>

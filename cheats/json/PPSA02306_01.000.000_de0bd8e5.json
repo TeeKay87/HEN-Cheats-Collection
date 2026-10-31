@@ -1,0 +1,188 @@
+{
+  "name": "Spirit of the North: Enhanced Edition",
+  "id": "PPSA02306",
+  "version": "01.000.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Master Code",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6F63F01",
+          "on": "00E02B45",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "2AFF01",
+          "section": 6,
+          "sectionOffset": "28FF01"
+        },
+        {
+          "offset": "6F63F06",
+          "on": "00E02B45",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "2AFF06",
+          "section": 6,
+          "sectionOffset": "28FF06"
+        },
+        {
+          "offset": "6F63F0B",
+          "on": "00A08C45",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "2AFF0B",
+          "section": 6,
+          "sectionOffset": "28FF0B"
+        },
+        {
+          "offset": "6F63F10",
+          "on": "00A08C45",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "2AFF10",
+          "section": 6,
+          "sectionOffset": "28FF10"
+        },
+        {
+          "offset": "6F63F15",
+          "on": "00802244",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "2AFF15",
+          "section": 6,
+          "sectionOffset": "28FF15"
+        },
+        {
+          "offset": "4F6FA0C",
+          "on": "9C505152488B05015EFA014885C00F843B010000488B80800100004885C00F842B010000837840000F8E21010000488B40384885C00F8414010000488B004885",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4F6FA4C",
+          "on": "C00F8408010000488B40304885C00F84FB000000488B80500200004885C00F84EB000000803D8944FF0101752648A907000000751E488B50104885D27415817A",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4F6FA8C",
+          "on": "58300800007C0C8B156844FF0189902C080000803D5F44FF0101752648A907000000751E488B50104885D27415817A58E80D00007C0C8B153E44FF018990E40D",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4F6FACC",
+          "on": "0000803D3544FF0101752648A907000000751E488B50104885D27415817A582C0800007C0C8B151444FF01899028080000803D0B44FF0101752648A907000000",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4F6FB0C",
+          "on": "751E488B50104885D27415817A58EC0D00007C0C8B15EA43FF018990E80D0000803DE143FF0101752648A907000000751E488B50104885D27415817A58FC0D00",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4F6FB4C",
+          "on": "007C0C8B15C043FF018990F80D00005A59589D554889E54157E92C98F9FB",
+          "off": "000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "F09390",
+          "on": "E97766060490",
+          "off": "554889E54157"
+        }
+      ]
+    },
+    {
+      "name": "--Walk Speed",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6F63F00",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "2AFF00",
+          "section": 6,
+          "sectionOffset": "28FF00"
+        }
+      ]
+    },
+    {
+      "name": "--Walk Speed Snow",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6F63F05",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "2AFF05",
+          "section": 6,
+          "sectionOffset": "28FF05"
+        }
+      ]
+    },
+    {
+      "name": "--Sprint Speed",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6F63F0A",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "2AFF0A",
+          "section": 6,
+          "sectionOffset": "28FF0A"
+        }
+      ]
+    },
+    {
+      "name": "--Sprint Speed Snow",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6F63F0F",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "2AFF0F",
+          "section": 6,
+          "sectionOffset": "28FF0F"
+        }
+      ]
+    },
+    {
+      "name": "--Injured Walk Speed",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6F63F14",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "2AFF14",
+          "section": 6,
+          "sectionOffset": "28FF14"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

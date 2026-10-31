@@ -1,0 +1,355 @@
+{
+  "name": "Spirit of the North 2",
+  "id": "PPSA28617",
+  "version": "01.000.002",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Master Code",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7627F03",
+          "on": "64000000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "34BF03",
+          "section": 6,
+          "sectionOffset": "31BF03"
+        },
+        {
+          "offset": "7627F08",
+          "on": "09000000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "34BF08",
+          "section": 6,
+          "sectionOffset": "31BF08"
+        },
+        {
+          "offset": "7627F0D",
+          "on": "09000000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "34BF0D",
+          "section": 6,
+          "sectionOffset": "31BF0D"
+        },
+        {
+          "offset": "7627F12",
+          "on": "0F270000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "34BF12",
+          "section": 6,
+          "sectionOffset": "31BF12"
+        },
+        {
+          "offset": "7627F17",
+          "on": "0F270000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "34BF17",
+          "section": 6,
+          "sectionOffset": "31BF17"
+        },
+        {
+          "offset": "7627F1C",
+          "on": "E7030000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "34BF1C",
+          "section": 6,
+          "sectionOffset": "31BF1C"
+        },
+        {
+          "offset": "7627F21",
+          "on": "000000008087C340",
+          "off": "0000000000000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "34BF21",
+          "section": 6,
+          "sectionOffset": "31BF21"
+        },
+        {
+          "offset": "7627F2A",
+          "on": "000000000088B340",
+          "off": "0000000000000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "34BF2A",
+          "section": 6,
+          "sectionOffset": "31BF2A"
+        },
+        {
+          "offset": "7627F33",
+          "on": "000000000018B540",
+          "off": "0000000000000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "34BF33",
+          "section": 6,
+          "sectionOffset": "31BF33"
+        },
+        {
+          "offset": "5B1B93C",
+          "on": "9C505152488B05897BA2014885C00F848C020000488B80D80100004885C00F847C020000837840000F8E72020000488B40384885C00F8465020000488B004885",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "5B1B97C",
+          "on": "C00F8459020000488B40304885C00F844C020000488B80D00200004885C00F843C020000803D59C5B00101752148A9070000007519488B50104885D27410817A",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "5B1B9BC",
+          "on": "58321500007C07C6803115000001803D30C5B00101752148A9070000007519488B50104885D27410817A583B1200007C07C6803A12000000803D07C5B0010175",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "5B1B9FC",
+          "on": "2648A907000000751E488B50104885D27415817A58740400007C0C8B15E6C4B001899070040000803DDDC4B00101752D48A9070000007525488B50104885D274",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "5B1BA3C",
+          "on": "1C817A585C0B00007C134889C14881C1200B00008B15B2C4B001895138803DACC4B00101752D48A9070000007525488B50104885D2741C817A58600B00007C13",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "5B1BA7C",
+          "on": "4889C14881C1200B00008B1581C4B00189513C803D7BC4B00101752D48A9070000007525488B50104885D2741C817A58540B00007C134889C14881C1200B0000",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "5B1BABC",
+          "on": "8B1550C4B001895130803D4AC4B00101752D48A9070000007525488B50104885D2741C817A58580B00007C134889C14881C1200B00008B151FC4B00189513480",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "5B1BAFC",
+          "on": "3D19C4B00101752D48A9070000007525488B50104885D2741C817A58640B00007C134889C14881C1200B00008B15EEC3B001895140803DE8C3B00101752F48A9",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "5B1BB3C",
+          "on": "070000007527488B50104885D2741E817A58F00B00007C154889C14881C1700B0000488B15BCC3B00148895178803DB9C3B00101753248A907000000752A488B",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "5B1BB7C",
+          "on": "50104885D27421817A58000C00007C184889C14881C1700B0000488B158DC3B00148899188000000803D87C3B00101752F48A9070000007527488B50104885D2",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "5B1BBBC",
+          "on": "741E817A58900B00007C154889C14881C1700B0000488B155BC3B001488951185A59589D554889E54157E92BA28CFA",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "3E5E10",
+          "on": "E9275B730590",
+          "off": "554889E54157"
+        }
+      ]
+    },
+    {
+      "name": "--GodMode",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7627F00",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "34BF00",
+          "section": 6,
+          "sectionOffset": "31BF00"
+        }
+      ]
+    },
+    {
+      "name": "--Disable Fall Damage",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7627F01",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "34BF01",
+          "section": 6,
+          "sectionOffset": "31BF01"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Jumps",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7627F02",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "34BF02",
+          "section": 6,
+          "sectionOffset": "31BF02"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Wisps",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7627F07",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "34BF07",
+          "section": 6,
+          "sectionOffset": "31BF07"
+        }
+      ]
+    },
+    {
+      "name": "--Max Wisps",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7627F0C",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "34BF0C",
+          "section": 6,
+          "sectionOffset": "31BF0C"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Wealth",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7627F11",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "34BF11",
+          "section": 6,
+          "sectionOffset": "31BF11"
+        }
+      ]
+    },
+    {
+      "name": "--Max Wealth",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7627F16",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "34BF16",
+          "section": 6,
+          "sectionOffset": "31BF16"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Perk Points",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7627F1B",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "34BF1B",
+          "section": 6,
+          "sectionOffset": "31BF1B"
+        }
+      ]
+    },
+    {
+      "name": "--Max Melee Damage",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7627F20",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "34BF20",
+          "section": 6,
+          "sectionOffset": "31BF20"
+        }
+      ]
+    },
+    {
+      "name": "--Super Spirit  Speed",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7627F29",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "34BF29",
+          "section": 6,
+          "sectionOffset": "31BF29"
+        }
+      ]
+    },
+    {
+      "name": "--Super Sprint Speed",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7627F32",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "34BF32",
+          "section": 6,
+          "sectionOffset": "31BF32"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}
