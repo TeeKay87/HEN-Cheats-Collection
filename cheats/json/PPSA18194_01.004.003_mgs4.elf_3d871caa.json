@@ -1,0 +1,211 @@
+{
+  "name": "Metal Gear Solid 4: Guns of the Patriots - Master Collection Version",
+  "id": "PPSA18194",
+  "version": "01.004.003",
+  "process": "mgs4.elf",
+  "mods": [
+    {
+      "name": "Invulnerable",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "100846C",
+          "on": "9090909090",
+          "off": "E8AF000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1009156",
+          "on": "480F4FD1",
+          "off": "480F4CD1"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Armor",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1008ADB",
+          "on": "480F4FD0",
+          "off": "480F4CD0"
+        }
+      ]
+    },
+    {
+      "name": "Freeze Stress",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "100B357",
+          "on": "480F4CF1",
+          "off": "480F4FF1"
+        }
+      ]
+    },
+    {
+      "name": "All Items Unlock",
+      "description": "will increase all items upon opening inventory items / Infinite Items should be turned off",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "58ED8F",
+          "on": "66FF401490",
+          "off": "6683781400"
+        }
+      ]
+    },
+    {
+      "name": "All Weapons Unlock (id lock)",
+      "description": "open inventory Weapons / Unlock All Weapon ID should be turned off",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "584B5A",
+          "on": "C6402A0190",
+          "off": "6683782A00"
+        }
+      ]
+    },
+    {
+      "name": "Unlock All Weapon ID",
+      "description": "open inventory Weapons / All Weapons Unlock (id lock) should be turned off",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "584B5A",
+          "on": "C6402A0290",
+          "off": "6683782A00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Items",
+      "description": "open item inventory / All items Unlock should be turned off",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "58ED8F",
+          "on": "C640146390",
+          "off": "6683781400"
+        }
+      ]
+    },
+    {
+      "name": "All Inifinity Ammo",
+      "description": "open Weapon Inventory / Weapon Infinity Ammo (Manual / Press R1 from weapon slot) should be turned off",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1613000",
+          "on": "C74040030000008B584090E91F8800FF",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "61B829",
+          "on": "E9D277FF0090",
+          "off": "8B584083E301"
+        }
+      ]
+    },
+    {
+      "name": "Weapon Infinity Ammo (Manual / Press R1 from weapon slot)",
+      "description": "All Infinity ammo should be turn off",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1613030",
+          "on": "488B8300010000C6404003E9F4FEFCFE",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "5E2F29",
+          "on": "E902010301909090909090",
+          "off": "488B8300010000F6404001"
+        }
+      ]
+    },
+    {
+      "name": "Ignore Alert",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "13CA874",
+          "on": "9090909090",
+          "off": "E867470000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Battery",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "10FAB13",
+          "on": "480F4ECA",
+          "off": "480F4DCA"
+        },
+        {
+          "offset": "1018C7A",
+          "on": "0FBF88540B0000",
+          "off": "0FBF88520B0000"
+        }
+      ]
+    },
+    {
+      "name": "Character Speed",
+      "description": "if camera doesnt move upon exit or entering stage, turn off this cheat and re enter the stage",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1613060",
+          "on": "41BE0A0000004589B72C010000458BB72C010000E933539FFF",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "10083A5",
+          "on": "E9B6AC60009090",
+          "off": "458BB72C010000"
+        }
+      ]
+    },
+    {
+      "name": "Game Speed",
+      "description": "if camera doesnt move upon exit or entering stage, turn off this cheat and re enter the stage",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "C2D394",
+          "on": "C4E279180D639E1901",
+          "off": "C4E279180D5F9F1901"
+        }
+      ]
+    },
+    {
+      "name": "Random DP",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "573CE9",
+          "on": "C4E27D400562DA3A01",
+          "off": "C4E27D40054EDA3A01"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "d01v"
+  ]
+}

@@ -122,6 +122,7 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-11-02 | UPDATE | PPSA18194 | 01.004.003 | [Metal Gear Solid 4: Guns of the Patriots - Master Collection Version](https://hencheats.vercel.app/game/PPSA18194/01.004.003) |
 | 2026-11-01 | UPDATE | PPSA25872 | 01.002.000 | [Terminator 2D: No Fate](https://hencheats.vercel.app/game/PPSA25872/01.002.000) |
 | 2026-11-01 | ADDED | PPSA03311 | 01.000.000 | [The Binding of Isaac: Repentance](https://hencheats.vercel.app/game/PPSA03311/01.000.000) |
 | 2026-11-01 | ADDED | PPSA02306 | 01.000.000 | [Spirit of the North: Enhanced Edition](https://hencheats.vercel.app/game/PPSA02306/01.000.000) |
