@@ -122,6 +122,9 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-11-02 | ADDED | PPSA02262 | 01.090.000 | [Dying Light 2: Stay Human](https://hencheats.vercel.app/game/PPSA02262/01.090.000) |
+| 2026-11-02 | ADDED | PPSA26578 | 02.002.002 | [MOUSE: P.I. For Hire](https://hencheats.vercel.app/game/PPSA26578/02.002.002) |
+| 2026-11-02 | ADDED | PPSA29043 | 01.000.000 | [Anger Foot](https://hencheats.vercel.app/game/PPSA29043/01.000.000) |
 | 2026-11-02 | ADDED | CUSA10870 | 01.00 | [Overcooked 2](https://hencheats.vercel.app/game/CUSA10870/01.00) |
 | 2026-11-02 | ADDED | CUSA10870 | 01.13 | [Overcooked 2](https://hencheats.vercel.app/game/CUSA10870/01.13) |
 | 2026-11-02 | ADDED | CUSA32137 | 01.20 | [Like a Dragon: Infinite Wealth](https://hencheats.vercel.app/game/CUSA32137/01.20) |
