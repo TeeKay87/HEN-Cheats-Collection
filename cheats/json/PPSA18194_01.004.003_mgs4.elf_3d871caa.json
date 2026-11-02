@@ -2,7 +2,7 @@
   "name": "Metal Gear Solid 4: Guns of the Patriots - Master Collection Version",
   "id": "PPSA18194",
   "version": "01.004.003",
-  "process": "mgs4.elf",
+  "process": "mgs4/mgs4.elf",
   "mods": [
     {
       "name": "Invulnerable",
