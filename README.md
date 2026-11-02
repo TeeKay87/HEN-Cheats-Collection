@@ -122,6 +122,17 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-11-02 | ADDED | CUSA10870 | 01.00 | [Overcooked 2](https://hencheats.vercel.app/game/CUSA10870/01.00) |
+| 2026-11-02 | ADDED | CUSA10870 | 01.13 | [Overcooked 2](https://hencheats.vercel.app/game/CUSA10870/01.13) |
+| 2026-11-02 | ADDED | CUSA32137 | 01.20 | [Like a Dragon: Infinite Wealth](https://hencheats.vercel.app/game/CUSA32137/01.20) |
+| 2026-11-02 | ADDED | PPSA01340 | 01.007.000 | [Demon's Souls](https://hencheats.vercel.app/game/PPSA01340/01.007.000) |
+| 2026-11-02 | ADDED | PPSA01341 | 01.007.000 | [Demon's Souls](https://hencheats.vercel.app/game/PPSA01341/01.007.000) |
+| 2026-11-02 | ADDED | PPSA01342 | 01.007.000 | [Demon's Souls](https://hencheats.vercel.app/game/PPSA01342/01.007.000) |
+| 2026-11-02 | ADDED | PPSA06094 | 01.092.000 | [GigaBash](https://hencheats.vercel.app/game/PPSA06094/01.092.000) |
+| 2026-11-02 | ADDED | PPSA12544 | 01.000.010 | [Hollow Knight: Silksong](https://hencheats.vercel.app/game/PPSA12544/01.000.010) |
+| 2026-11-02 | ADDED | PPSA28000 | 01.005.000 | [The Blood of Dawnwalker](https://hencheats.vercel.app/game/PPSA28000/01.005.000) |
+| 2026-11-02 | ADDED | PPSA28010 | 01.004.000 | [Dead of Darkness](https://hencheats.vercel.app/game/PPSA28010/01.004.000) |
+| 2026-11-02 | REMOVED | PPSA28000 | 01.005.001 | [The Blood of Dawnwalker](https://hencheats.vercel.app/game/PPSA28000/01.005.001) |
 | 2026-11-02 | UPDATE | PPSA18193 | 01.004.003 | [Metal Gear Solid 4: Guns of the Patriots - Master Collection Version](https://hencheats.vercel.app/game/PPSA18193/01.004.003) |
 | 2026-11-02 | UPDATE | PPSA18194 | 01.004.003 | [Metal Gear Solid 4: Guns of the Patriots - Master Collection Version](https://hencheats.vercel.app/game/PPSA18194/01.004.003) |
 | 2026-11-01 | UPDATE | PPSA25872 | 01.002.000 | [Terminator 2D: No Fate](https://hencheats.vercel.app/game/PPSA25872/01.002.000) |

@@ -1,0 +1,47 @@
+{
+  "name": "Dead of Darkness",
+  "id": "PPSA28010",
+  "version": "01.004.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Hp And Mind",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "20ECD1",
+          "on": "9090909090",
+          "off": "E81A0D0000"
+        }
+      ]
+    },
+    {
+      "name": "Inf Ammo",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "108E300",
+          "on": "9090909090",
+          "off": "E8EBA6F4FF"
+        }
+      ]
+    },
+    {
+      "name": "Inf Items",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "FD83BB",
+          "on": "909090",
+          "off": "498906"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

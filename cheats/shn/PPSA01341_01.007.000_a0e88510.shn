@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Demon's Souls" Moder="Wander" Cusa="PPSA01341" Version="01.007.000" Process="eboot.bin">
+  <Genres Name="Action" />
+  <Items />
+  <Cheat Text="Infinite Health">
+    <Cheatline>
+      <PS5Offset>4B0-executable[0]-5</PS5Offset>
+      <Section>0</Section>
+      <Offset>1E7BB50</Offset>
+      <ValueOn>80-BB-84-00-00-00-00-75-0F-C7-83-10-07-00-00-0F-27-00-00-E9-E8-9D-4A-FE-44-89-AB-10-07-00-00-E9-DC-9D-4A-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <PS5Offset>1B566B7-executable[0]-5</PS5Offset>
+      <Section>0</Section>
+      <Offset>325949</Offset>
+      <ValueOn>E9-02-62-B5-01-90-90</ValueOn>
+      <ValueOff>44-89-AB-10-07-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="9999999 Souls On Gain">
+    <Cheatline>
+      <PS5Offset>5B0-executable[0]-5</PS5Offset>
+      <Section>0</Section>
+      <Offset>1E7BA50</Offset>
+      <ValueOn>C7-87-80-00-00-00-7F-96-98-00-E9-B1-A7-5D-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <PS5Offset>1A25DF6-executable[0]-5</PS5Offset>
+      <Section>0</Section>
+      <Offset>45620A</Offset>
+      <ValueOn>E9-41-58-A2-01-90</ValueOn>
+      <ValueOff>89-87-80-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+</Trainer>
