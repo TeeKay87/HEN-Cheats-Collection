@@ -122,6 +122,8 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-11-04 | ADDED | PPSA05916 | 01.001.000 | [BloodRayne: ReVamped](https://hencheats.vercel.app/game/PPSA05916/01.001.000) |
+| 2026-11-04 | REMOVED | PPSA17163 | 01.001.000 | [Jets'n'Guns 2](https://hencheats.vercel.app/game/PPSA17163/01.001.000) |
 | 2026-11-04 | ADDED | PPSA02721 | 01.000.000 | [Neptunia ReVerse](https://hencheats.vercel.app/game/PPSA02721/01.000.000) |
 | 2026-11-04 | ADDED | PPSA04609 | 01.018.001 | [Elden Ring](https://hencheats.vercel.app/game/PPSA04609/01.018.001) |
 | 2026-11-04 | ADDED | PPSA06929 | 01.004.000 | [DEADCRAFT](https://hencheats.vercel.app/game/PPSA06929/01.004.000) |
