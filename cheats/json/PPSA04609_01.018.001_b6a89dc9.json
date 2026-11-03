@@ -1,0 +1,283 @@
+{
+  "name": "Elden Ring",
+  "id": "PPSA04609",
+  "version": "01.018.001",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Max Runes - 999999999 (gain or spend) - created by RomaniEs",
+      "type": "checkbox",
+      "hint": "PS5 PPSA04609 v01.018.001 only. Load your character, enable, then gain a rune or make an affordable purchase. Disabling restores normal rune changes; it does not reset your current balance. Re-enable after launching the game, or use CheatRunner Autoload.",
+      "memory": [
+        {
+          "offset": "E87FF",
+          "on": "4889C290",
+          "off": "480F4FD0",
+          "expected": "480F4FD0",
+          "absolute": false
+        }
+      ],
+      "description": "PS5 PPSA04609 v01.018.001 only. Load your character, enable, then gain a rune or make an affordable purchase. Disabling restores normal rune changes; it does not reset your current balance. Re-enable after launching the game, or use CheatRunner Autoload."
+    },
+    {
+      "name": "Max Smithing Stone [1] + Golden Seed - gain or use - created by RomaniEs",
+      "type": "checkbox",
+      "hint": "Only regular Smithing Stone [1] (40002774) and Golden Seed (4000271A). Gain, spend or transfer either item to set its quantity to the limit calculated by the game. Applies to these items in inventory/storage. Disabling restores normal quantity changes but keeps existing quantities. Re-enable after launch or save CheatRunner Autoload.",
+      "memory": [
+        {
+          "offset": "3243400",
+          "on": "41817C240474270040740B41817C24041A27004075034189C64439F0440F42F0E9E6BCE8FC",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000",
+          "expected": "00000000000000000000000000000000000000000000000000000000000000000000000000",
+          "absolute": false
+        },
+        {
+          "offset": "CF104",
+          "on": "E9F74217039090",
+          "off": "4439F0440F42F0",
+          "expected": "4439F0440F42F0",
+          "absolute": false
+        }
+      ],
+      "description": "Only regular Smithing Stone [1] (40002774) and Golden Seed (4000271A). Gain, spend or transfer either item to set its quantity to the limit calculated by the game. Applies to these items in inventory/storage. Disabling restores normal quantity changes but keeps existing quantities. Re-enable after launch or save CheatRunner Autoload."
+    },
+    {
+      "name": "Infinite HP - Player - created by RomaniEs",
+      "type": "checkbox",
+      "hint": "Restores this stat to its current maximum when the normal stat update runs. Uses the player check verified against live player and NPC records for this build. Does not change base stats or levels.",
+      "memory": [
+        {
+          "offset": "3243500",
+          "on": "9C837F180075068B874C0100009D898748010000E911EF11FD",
+          "off": "00000000000000000000000000000000000000000000000000",
+          "expected": "00000000000000000000000000000000000000000000000000",
+          "absolute": false
+        },
+        {
+          "offset": "362424",
+          "on": "E9D710EE0290",
+          "off": "898748010000",
+          "expected": "898748010000",
+          "absolute": false
+        }
+      ],
+      "description": "Restores this stat to its current maximum when the normal stat update runs. Uses the player check verified against live player and NPC records for this build. Does not change base stats or levels."
+    },
+    {
+      "name": "Infinite FP - Player - created by RomaniEs",
+      "type": "checkbox",
+      "hint": "Restores this stat to its current maximum when the normal stat update runs. Uses the player check verified against live player and NPC records for this build. Does not change base stats or levels.",
+      "memory": [
+        {
+          "offset": "3243580",
+          "on": "9C41837E18007507418B865C0100009D41898658010000E991F611FD",
+          "off": "00000000000000000000000000000000000000000000000000000000",
+          "expected": "00000000000000000000000000000000000000000000000000000000",
+          "absolute": false
+        },
+        {
+          "offset": "362C26",
+          "on": "E95509EE029090",
+          "off": "41898658010000",
+          "expected": "41898658010000",
+          "absolute": false
+        }
+      ],
+      "description": "Restores this stat to its current maximum when the normal stat update runs. Uses the player check verified against live player and NPC records for this build. Does not change base stats or levels."
+    },
+    {
+      "name": "Infinite Stamina - Player - created by RomaniEs",
+      "type": "checkbox",
+      "hint": "Restores this stat to its current maximum when the normal stat update runs. Uses the player check verified against live player and NPC records for this build. Does not change base stats or levels.",
+      "memory": [
+        {
+          "offset": "3243600",
+          "on": "9C41837E18007507418B86680100009D41898664010000E9D2F711FD",
+          "off": "00000000000000000000000000000000000000000000000000000000",
+          "expected": "00000000000000000000000000000000000000000000000000000000",
+          "absolute": false
+        },
+        {
+          "offset": "362DE7",
+          "on": "E91408EE029090",
+          "off": "41898664010000",
+          "expected": "41898664010000",
+          "absolute": false
+        }
+      ],
+      "description": "Restores this stat to its current maximum when the normal stat update runs. Uses the player check verified against live player and NPC records for this build. Does not change base stats or levels."
+    },
+    {
+      "name": "Damage x10 - Non-player HP loss - created by RomaniEs",
+      "type": "checkbox",
+      "hint": "Choose only ONE damage mode. Turn the current damage mode OFF before enabling another. Affects HP decreases of non-player characters, including damage from other sources and friendly NPCs; healing is unchanged. Local player is excluded. The displayed hit number may differ from actual HP loss.",
+      "memory": [
+        {
+          "offset": "3243700",
+          "on": "480F49C18B009C837F1800741A4439E07D15524489E229C2486BD20A4489E04829D0790231C05A9DE9F7EC11FD909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "expected": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "absolute": false
+        },
+        {
+          "offset": "36241E",
+          "on": "E9DD12EE0290",
+          "off": "480F49C18B00",
+          "expected": "480F49C18B00",
+          "absolute": false
+        }
+      ],
+      "description": "Choose only ONE damage mode. Turn the current damage mode OFF before enabling another. Affects HP decreases of non-player characters, including damage from other sources and friendly NPCs; healing is unchanged. Local player is excluded. The displayed hit number may differ from actual HP loss."
+    },
+    {
+      "name": "Damage x100 - Non-player HP loss - created by RomaniEs",
+      "type": "checkbox",
+      "hint": "Choose only ONE damage mode. Turn the current damage mode OFF before enabling another. Affects HP decreases of non-player characters, including damage from other sources and friendly NPCs; healing is unchanged. Local player is excluded. The displayed hit number may differ from actual HP loss.",
+      "memory": [
+        {
+          "offset": "3243780",
+          "on": "480F49C18B009C837F1800741A4439E07D15524489E229C2486BD2644489E04829D0790231C05A9DE977EC11FD909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "expected": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "absolute": false
+        },
+        {
+          "offset": "36241E",
+          "on": "E95D13EE0290",
+          "off": "480F49C18B00",
+          "expected": "480F49C18B00",
+          "absolute": false
+        }
+      ],
+      "description": "Choose only ONE damage mode. Turn the current damage mode OFF before enabling another. Affects HP decreases of non-player characters, including damage from other sources and friendly NPCs; healing is unchanged. Local player is excluded. The displayed hit number may differ from actual HP loss."
+    },
+    {
+      "name": "One Hit Kill - Non-player HP loss - created by RomaniEs",
+      "type": "checkbox",
+      "hint": "Choose only ONE damage mode. Turn the current damage mode OFF before enabling another. Affects HP decreases of non-player characters, including damage from other sources and friendly NPCs; healing is unchanged. Local player is excluded. The displayed hit number may differ from actual HP loss.",
+      "memory": [
+        {
+          "offset": "3243800",
+          "on": "480F49C18B009C837F180074074439E07D0231C09DE90AEC11FD90909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "expected": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "absolute": false
+        },
+        {
+          "offset": "36241E",
+          "on": "E9DD13EE0290",
+          "off": "480F49C18B00",
+          "expected": "480F49C18B00",
+          "absolute": false
+        }
+      ],
+      "description": "Choose only ONE damage mode. Turn the current damage mode OFF before enabling another. Affects HP decreases of non-player characters, including damage from other sources and friendly NPCs; healing is unchanged. Local player is excluded. The displayed hit number may differ from actual HP loss."
+    },
+    {
+      "name": "Max Stackable Items - game limit up to 999 - created by RomaniEs",
+      "type": "checkbox",
+      "hint": "Gain, use or transfer an item to fill its stack to the limit calculated by the game, capped at 999. Limits of 0 or 1 retain normal quantity changes. Does not create unowned items. Covers inventory and storage. Alternative to the Smithing Stone/Golden Seed-only option: enable only one item mode. Disable this option before deliberately consuming/removing all of a stack.",
+      "memory": [
+        {
+          "offset": "3243900",
+          "on": "83F801760641BEE70300004439F0440F42F0E9F4B7E8FC",
+          "off": "0000000000000000000000000000000000000000000000",
+          "expected": "0000000000000000000000000000000000000000000000",
+          "absolute": false
+        },
+        {
+          "offset": "CF104",
+          "on": "E9F74717039090",
+          "off": "4439F0440F42F0",
+          "expected": "4439F0440F42F0",
+          "absolute": false
+        }
+      ],
+      "description": "Gain, use or transfer an item to fill its stack to the limit calculated by the game, capped at 999. Limits of 0 or 1 retain normal quantity changes. Does not create unowned items. Covers inventory and storage. Alternative to the Smithing Stone/Golden Seed-only option: enable only one item mode. Disable this option before deliberately consuming/removing all of a stack."
+    },
+    {
+      "name": "Stealth - Enemy detection - created by RomaniEs",
+      "type": "checkbox",
+      "hint": "Suppresses the normal enemy detection update. Enable before approaching an unaware enemy. Attacking can reveal you; does not guarantee removal of existing aggression. Separate from No Enemy Attacks.",
+      "memory": [
+        {
+          "offset": "213D43",
+          "on": "80BFBA00000001",
+          "off": "80BFBA00000000",
+          "expected": "80BFBA00000000",
+          "absolute": false
+        }
+      ],
+      "description": "Suppresses the normal enemy detection update. Enable before approaching an unaware enemy. Attacking can reveal you; does not guarantee removal of existing aggression. Separate from No Enemy Attacks."
+    },
+    {
+      "name": "No Enemy Attacks - created by RomaniEs",
+      "type": "checkbox",
+      "hint": "Disables the normal enemy attack decision gates. Does not freeze walking or cancel attacks/projectiles already in progress. Independent of Stealth. Scripted/environmental damage may still occur.",
+      "memory": [
+        {
+          "offset": "181B7D",
+          "on": "740F",
+          "off": "750F",
+          "expected": "750F",
+          "absolute": false
+        },
+        {
+          "offset": "2DA99C",
+          "on": "7432",
+          "off": "7532",
+          "expected": "7532",
+          "absolute": false
+        }
+      ],
+      "description": "Disables the normal enemy attack decision gates. Does not freeze walking or cancel attacks/projectiles already in progress. Independent of Stealth. Scripted/environmental damage may still occur."
+    },
+    {
+      "name": "Player Speed x2 - Movement and animation - created by RomaniEs",
+      "type": "checkbox",
+      "hint": "Choose ONE speed mode. Turn the current speed mode OFF before selecting another. Multiplies the local player animation time step, accelerating movement and actions such as attacks and rolls. Does not multiply the world or NPC time step. Turning it OFF restores normal speed immediately; mounted/Torrent behavior is not guaranteed. Exact PS5 PPSA04609 v01.018.001 build only.",
+      "memory": [
+        {
+          "offset": "3243A00",
+          "on": "C5FA5983F81500009C5052488B43084885C07410488D15DDFCDC004839107504C5FA58C05A589DE9436F0FFD90909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "expected": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "absolute": false
+        },
+        {
+          "offset": "33A967",
+          "on": "E99490F002909090",
+          "off": "C5FA5983F8150000",
+          "expected": "C5FA5983F8150000",
+          "absolute": false
+        }
+      ],
+      "description": "Choose ONE speed mode. Turn the current speed mode OFF before selecting another. Multiplies the local player animation time step, accelerating movement and actions such as attacks and rolls. Does not multiply the world or NPC time step. Turning it OFF restores normal speed immediately; mounted/Torrent behavior is not guaranteed. Exact PS5 PPSA04609 v01.018.001 build only."
+    },
+    {
+      "name": "Player Speed x4 - Movement and animation - created by RomaniEs",
+      "type": "checkbox",
+      "hint": "Choose ONE speed mode. Turn the current speed mode OFF before selecting another. Multiplies the local player animation time step, accelerating movement and actions such as attacks and rolls. Does not multiply the world or NPC time step. Turning it OFF restores normal speed immediately; mounted/Torrent behavior is not guaranteed. Exact PS5 PPSA04609 v01.018.001 build only.",
+      "memory": [
+        {
+          "offset": "3243B00",
+          "on": "C5FA5983F81500009C5052488B43084885C07414488D15DDFBDC004839107508C5FA58C0C5FA58C05A589DE93F6E0FFD909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "expected": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "absolute": false
+        },
+        {
+          "offset": "33A967",
+          "on": "E99491F002909090",
+          "off": "C5FA5983F8150000",
+          "expected": "C5FA5983F8150000",
+          "absolute": false
+        }
+      ],
+      "description": "Choose ONE speed mode. Turn the current speed mode OFF before selecting another. Multiplies the local player animation time step, accelerating movement and actions such as attacks and rolls. Does not multiply the world or NPC time step. Turning it OFF restores normal speed immediately; mounted/Torrent behavior is not guaranteed. Exact PS5 PPSA04609 v01.018.001 build only."
+    }
+  ],
+  "credits": [
+    "RomaniEs"
+  ]
+}
