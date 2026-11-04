@@ -122,6 +122,7 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-11-05 | ADDED | PPSA30391 | 01.000.009 | [Alien: Rogue Incursion Evolved Edition](https://hencheats.vercel.app/game/PPSA30391/01.000.009) |
 | 2026-11-04 | ADDED | PPSA16960 | 01.000.000 | [Richman 11](https://hencheats.vercel.app/game/PPSA16960/01.000.000) |
 | 2026-11-04 | ADDED | PPSA27581 | 01.003.001 | [Hellblade: Senua’s Sacrifice](https://hencheats.vercel.app/game/PPSA27581/01.003.001) |
 | 2026-11-04 | UPDATE | PPSA31246 | 01.200.000 | [Resident Evil Requiem](https://hencheats.vercel.app/game/PPSA31246/01.200.000) |

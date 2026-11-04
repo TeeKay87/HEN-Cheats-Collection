@@ -1,0 +1,915 @@
+{
+  "name": "Alien: Rogue Incursion Evolved Edition",
+  "id": "PPSA30391",
+  "version": "01.000.009",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Master Code",
+      "description": "GWorld -> GameInstance -> LocalPlayers[0] -> PlayerController -> Pawn",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8B23F01",
+          "on": "00009643",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF01",
+          "section": 6,
+          "sectionOffset": "33BF01"
+        },
+        {
+          "offset": "8B23F06",
+          "on": "00009643",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF06",
+          "section": 6,
+          "sectionOffset": "33BF06"
+        },
+        {
+          "offset": "8B23F0B",
+          "on": "00009643",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF0B",
+          "section": 6,
+          "sectionOffset": "33BF0B"
+        },
+        {
+          "offset": "8B23F10",
+          "on": "00009643",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF10",
+          "section": 6,
+          "sectionOffset": "33BF10"
+        },
+        {
+          "offset": "8B23F15",
+          "on": "00004844",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF15",
+          "section": 6,
+          "sectionOffset": "33BF15"
+        },
+        {
+          "offset": "8B23F1A",
+          "on": "00007A44",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF1A",
+          "section": 6,
+          "sectionOffset": "33BF1A"
+        },
+        {
+          "offset": "8B23F1F",
+          "on": "01000000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF1F",
+          "section": 6,
+          "sectionOffset": "33BF1F"
+        },
+        {
+          "offset": "8B23F24",
+          "on": "64000000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF24",
+          "section": 6,
+          "sectionOffset": "33BF24"
+        },
+        {
+          "offset": "8B23F29",
+          "on": "01000000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF29",
+          "section": 6,
+          "sectionOffset": "33BF29"
+        },
+        {
+          "offset": "8B23F2E",
+          "on": "64000000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF2E",
+          "section": 6,
+          "sectionOffset": "33BF2E"
+        },
+        {
+          "offset": "8B23F33",
+          "on": "64000000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF33",
+          "section": 6,
+          "sectionOffset": "33BF33"
+        },
+        {
+          "offset": "8B23F38",
+          "on": "01000000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF38",
+          "section": 6,
+          "sectionOffset": "33BF38"
+        },
+        {
+          "offset": "8B23F3D",
+          "on": "01000000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF3D",
+          "section": 6,
+          "sectionOffset": "33BF3D"
+        },
+        {
+          "offset": "8B23F42",
+          "on": "01000000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF42",
+          "section": 6,
+          "sectionOffset": "33BF42"
+        },
+        {
+          "offset": "8B23F47",
+          "on": "01000000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF47",
+          "section": 6,
+          "sectionOffset": "33BF47"
+        },
+        {
+          "offset": "8B23F4C",
+          "on": "01000000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF4C",
+          "section": 6,
+          "sectionOffset": "33BF4C"
+        },
+        {
+          "offset": "8B23F51",
+          "on": "01000000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF51",
+          "section": 6,
+          "sectionOffset": "33BF51"
+        },
+        {
+          "offset": "8B23F56",
+          "on": "64000000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF56",
+          "section": 6,
+          "sectionOffset": "33BF56"
+        },
+        {
+          "offset": "8B23F5B",
+          "on": "01000000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF5B",
+          "section": 6,
+          "sectionOffset": "33BF5B"
+        },
+        {
+          "offset": "8B23F60",
+          "on": "64000000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF60",
+          "section": 6,
+          "sectionOffset": "33BF60"
+        },
+        {
+          "offset": "8B23F65",
+          "on": "0A000000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF65",
+          "section": 6,
+          "sectionOffset": "33BF65"
+        },
+        {
+          "offset": "8B23F6A",
+          "on": "0A000000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF6A",
+          "section": 6,
+          "sectionOffset": "33BF6A"
+        },
+        {
+          "offset": "8B23F6F",
+          "on": "0A000000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF6F",
+          "section": 6,
+          "sectionOffset": "33BF6F"
+        },
+        {
+          "offset": "8B23F74",
+          "on": "0A000000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF74",
+          "section": 6,
+          "sectionOffset": "33BF74"
+        },
+        {
+          "offset": "8B23F79",
+          "on": "0A000000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF79",
+          "section": 6,
+          "sectionOffset": "33BF79"
+        },
+        {
+          "offset": "68B7000",
+          "on": "9C505152565741504151415241534883EC085341544155415641574883EC78803DF8CE2602017538C605EFCE2602028B05EACE2602B90100000039C80F4FC189",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "68B7040",
+          "on": "442460C7442464E6060000C7442468CBF41DE54C8D3C256070CB06E991040000803DBCCE2602017538C605B3CE2602028B05AECE2602B9B80B000039C80F4FC1",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "68B7080",
+          "on": "89442460C74424640E080000C7442468457F6B834C8D3C25A170CB06E950040000803D80CE2602017538C60577CE2602028B0572CE2602B90100000039C80F4F",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "68B70C0",
+          "on": "C189442460C74424645A050000C74424687A09B1744C8D3C25E270CB06E90F040000803D44CE2602017538C6053BCE2602028B0536CE2602B92700000039C80F",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "68B7100",
+          "on": "4FC189442460C744246496060000C7442468125229414C8D3C252371CB06E9CE030000803D08CE2602017538C605FFCD2602028B05FACD2602B90F00000039C8",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "68B7140",
+          "on": "0F4FC189442460C74424643E080000C744246848BDD78E4C8D3C256471CB06E98D030000803DCCCD2602017538C605C3CD2602028B05BECD2602B90100000039",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "68B7180",
+          "on": "C80F4FC189442460C74424646C0A0000C74424684EB40F124C8D3C25A571CB06E94C030000803D90CD2602017538C60587CD2602028B0582CD2602B901000000",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "68B71C0",
+          "on": "39C80F4FC189442460C7442464DC090000C7442468932A0C404C8D3C25E671CB06E90B030000803D54CD2602017538C6054BCD2602028B0546CD2602B9010000",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "68B7200",
+          "on": "0039C80F4FC189442460C7442464B40B0000C7442468510A2CC44C8D3C252772CB06E9CA020000803D18CD2602017538C6050FCD2602028B050ACD2602B90100",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "68B7240",
+          "on": "000039C80F4FC189442460C7442464480B0000C744246800B2F4F94C8D3C256872CB06E989020000803DDCCC2602017538C605D3CC2602028B05CECC2602B901",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "68B7280",
+          "on": "00000039C80F4FC189442460C7442464120D0000C7442468D856FF654C8D3C25A972CB06E948020000803DA0CC2602017538C60597CC2602028B0592CC2602B9",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "68B72C0",
+          "on": "0100000039C80F4FC189442460C7442464AA050000C74424680118E3F14C8D3C25EA72CB06E907020000803D64CC2602017538C6055BCC2602028B0556CC2602",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "68B7300",
+          "on": "B91800000039C80F4FC189442460C7442464E8060000C744246817ADC0114C8D3C252B73CB06E9C6010000803D28CC2602017538C6051FCC2602028B051ACC26",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "68B7340",
+          "on": "02B90100000039C80F4FC189442460C7442464EC050000C74424680414F8004C8D3C256C73CB06E985010000803DECCB2602017538C605E3CB2602028B05DECB",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "68B7380",
+          "on": "2602B9E703000039C80F4FC189442460C744246438070000C744246808DF6CBD4C8D3C25AD73CB06E944010000803DB0CB2602017538C605A7CB2602028B05A2",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "68B73C0",
+          "on": "CB2602B90A00000039C80F4FC189442460C7442464F00B0000C744246850541F624C8D3C25EE73CB06E903010000803D74CB2602017538C6056BCB2602028B05",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "68B7400",
+          "on": "66CB2602B91400000039C80F4FC189442460C74424642A0B0000C7442468C50D46AD4C8D3C252F74CB06E9C2000000803D38CB2602017538C6052FCB2602028B",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "68B7440",
+          "on": "052ACB2602B92800000039C80F4FC189442460C7442464340A0000C7442468AC593CA94C8D3C257074CB06E981000000803DFCCA2602017535C605F3CA260202",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "68B7480",
+          "on": "8B05EECA2602B92800000039C80F4FC189442460C7442464120A0000C7442468585705644C8D3C25AE74CB06EB43803DC3CA2602017535C605BACA2602028B05",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "68B74C0",
+          "on": "B5CA2602B91400000039C80F4FC189442460C7442464980A0000C7442468288C919D4C8D3C25EC74CB06EB05E9E8010000488B0D608F16024885C90F842A0100",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "68B7500",
+          "on": "0048F7C1070000000F851D010000488B51104885D20F8410010000817A58680100000F8C03010000488B89600100004885C90F84F3000000488B890803000048",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "68B7540",
+          "on": "85C90F84E3000000488B094885C90F84D7000000488B89680300004885C90F84C7000000488B89B80400004885C90F84B700000048F7C1070000000F85AA0000",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "68B7580",
+          "on": "004885C90F84A10000004889CBC7442450C8030000C74424547A6EE87C4C8D3425AA75CB06E9840000004C8B6B1041BE004000004D85ED74724D8B65484D85E4",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "68B75C0",
+          "on": "741341FFCE746445395C2418740D4D8B642428EBE84D8B6D40EBD98B442464894424508B442468894424544C8D3425F575CB06EB3948C74424200000000048C7",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "68B7600",
+          "on": "4424280000000044895C24208B442460894424284889DF4C89E6488D54242048B80026810000000000FFD041FFE74C8D054B94F801458B48084531D24539CA7F",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "68B7640",
+          "on": "EA4B8B54D0104885D20F848200000041BB000002004539CA7504458B580C4901D34889D04C39D873680FB7083B4C24507530C1E906F60001740201C9488D7002",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "68B7680",
+          "on": "BFC59D1C81440FB62E4431EF69FF9301000148FFC6FFC975EC3B7C2454741F0FB70889CEC1EE067428F7C101000000740201F683C60383E6FE4801F0EBA64829",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "68B76C0",
+          "on": "D048D1E84589D341C1E3104109C341FFE641FFC2E963FFFFFF4883C478415F415E415D415C5B4883C408415B415A415941585F5E488B055D8D16024885C00F84",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "68B7700",
+          "on": "C1020000488B80E00100004885C00F84B1020000837840000F8EA7020000488B40384885C00F849A020000488B004885C00F848E020000488B40304885C00F84",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "68B7740",
+          "on": "81020000488B80300300004885C00F8471020000803DA5C7260201755048A9070000007548488B50104885D2743F817A58B80400007C364889C1488B89B00400",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "68B7780",
+          "on": "004885C9742748F7C107000000751E488B51104885D27415817A58500200007C0C8B155AC7260289914C020000803D51C7260201755048A9070000007548488B",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "68B77C0",
+          "on": "50104885D2743F817A58B80400007C364889C1488B89B00400004885C9742748F7C107000000751E488B51104885D27415817A584C0200007C0C8B1506C72602",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "68B7800",
+          "on": "899148020000803DFDC6260201755048A9070000007548488B50104885D2743F817A58900400007C364889C1488B89880400004885C9742748F7C10700000075",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "68B7840",
+          "on": "1E488B51104885D27415817A58D40000007C0C8B15B2C626028991D0000000803DA9C6260201755348A907000000754B488B50104885D27442817A5890040000",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "68B7880",
+          "on": "7C394889C1488B89880400004885C9742A48F7C1070000007521488B51104885D27418817A58AC0000007C0F4881C1A80000008B1557C626028911803D52C626",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "68B78C0",
+          "on": "0201757F48A9070000007577488B50104885D2746E817A58980400007C654889C1488B89900400004885C9745648F7C107000000754D488B51104885D2744481",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "68B7900",
+          "on": "7A58F80300007C3B488B89F00300004885C9742F48F7C1070000007526488B51104885D2741D817A58B80100007C144881C1B00100004883C1008B15D5C52602",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "68B7940",
+          "on": "895104803DCFC5260201757948A9070000007571488B50104885D27468817A58980400007C5F4889C1488B89900400004885C9745048F7C1070000007547488B",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "68B7980",
+          "on": "51104885D2743E817A58F80300007C35488B89F00300004885C9742948F7C1070000007520488B51104885D27417837A58387C114883C1304883C1008B1558C5",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "68B79C0",
+          "on": "26028951045A59589D554889E54157E932ACB5F9",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "412600",
+          "on": "E9FB494A0690",
+          "off": "554889E54157"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8B23F00",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF00",
+          "section": 6,
+          "sectionOffset": "33BF00"
+        }
+      ]
+    },
+    {
+      "name": "--Max HP",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8B23F05",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF05",
+          "section": 6,
+          "sectionOffset": "33BF05"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Stamina",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8B23F0A",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF0A",
+          "section": 6,
+          "sectionOffset": "33BF0A"
+        }
+      ]
+    },
+    {
+      "name": "--Max Stamina",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8B23F0F",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF0F",
+          "section": 6,
+          "sectionOffset": "33BF0F"
+        }
+      ]
+    },
+    {
+      "name": "--Max Crouch Speed",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8B23F14",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF14",
+          "section": 6,
+          "sectionOffset": "33BF14"
+        }
+      ]
+    },
+    {
+      "name": "--Max Walk Speed",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8B23F19",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF19",
+          "section": 6,
+          "sectionOffset": "33BF19"
+        }
+      ]
+    },
+    {
+      "name": "--Equippable.Gun.Flamethrower",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8B23F1E",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF1E",
+          "section": 6,
+          "sectionOffset": "33BF1E"
+        }
+      ]
+    },
+    {
+      "name": "--Equippable.Gun.Flamethrower.Ammo",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8B23F23",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF23",
+          "section": 6,
+          "sectionOffset": "33BF23"
+        }
+      ]
+    },
+    {
+      "name": "--Equippable.Gun.Pistol",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8B23F28",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF28",
+          "section": 6,
+          "sectionOffset": "33BF28"
+        }
+      ]
+    },
+    {
+      "name": "--Equippable.Gun.Pistol.Ammo",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8B23F2D",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF2D",
+          "section": 6,
+          "sectionOffset": "33BF2D"
+        }
+      ]
+    },
+    {
+      "name": "--Equippable.Gun.Pistol.Ammo.Flare",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8B23F32",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF32",
+          "section": 6,
+          "sectionOffset": "33BF32"
+        }
+      ]
+    },
+    {
+      "name": "--Equippable.Gun.PulseRifle.Upgrade.Grenade",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8B23F37",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF37",
+          "section": 6,
+          "sectionOffset": "33BF37"
+        }
+      ]
+    },
+    {
+      "name": "--Equippable.Gun.PulseRifle.Upgrade.Laser",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8B23F3C",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF3C",
+          "section": 6,
+          "sectionOffset": "33BF3C"
+        }
+      ]
+    },
+    {
+      "name": "--Equippable.Gun.PulseRifle.Upgrade.Laser.Recipe",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8B23F41",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF41",
+          "section": 6,
+          "sectionOffset": "33BF41"
+        }
+      ]
+    },
+    {
+      "name": "--Equippable.Gun.PulseRifle.Upgrade.MuzzleBrake",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8B23F46",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF46",
+          "section": 6,
+          "sectionOffset": "33BF46"
+        }
+      ]
+    },
+    {
+      "name": "--Equippable.Gun.PulseRifle.Upgrade.MuzzleBrake.Recipe",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8B23F4B",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF4B",
+          "section": 6,
+          "sectionOffset": "33BF4B"
+        }
+      ]
+    },
+    {
+      "name": "--Equippable.Gun.Shotgun",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8B23F50",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF50",
+          "section": 6,
+          "sectionOffset": "33BF50"
+        }
+      ]
+    },
+    {
+      "name": "--Equippable.Gun.Shotgun.Ammo",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8B23F55",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF55",
+          "section": 6,
+          "sectionOffset": "33BF55"
+        }
+      ]
+    },
+    {
+      "name": "--Equippable.Gun.SmartGun",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8B23F5A",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF5A",
+          "section": 6,
+          "sectionOffset": "33BF5A"
+        }
+      ]
+    },
+    {
+      "name": "--Equippable.Gun.SmartGun.Ammo",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8B23F5F",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF5F",
+          "section": 6,
+          "sectionOffset": "33BF5F"
+        }
+      ]
+    },
+    {
+      "name": "--Inventory.CraftingMaterial.ElectronicComponents",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8B23F64",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF64",
+          "section": 6,
+          "sectionOffset": "33BF64"
+        }
+      ]
+    },
+    {
+      "name": "--Inventory.CraftingMaterial.EnergeticPolymers",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8B23F69",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF69",
+          "section": 6,
+          "sectionOffset": "33BF69"
+        }
+      ]
+    },
+    {
+      "name": "--Inventory.CraftingMaterial.FlexibleAlloy",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8B23F6E",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF6E",
+          "section": 6,
+          "sectionOffset": "33BF6E"
+        }
+      ]
+    },
+    {
+      "name": "--Inventory.CraftingMaterial.HardenedMetal",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8B23F73",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF73",
+          "section": 6,
+          "sectionOffset": "33BF73"
+        }
+      ]
+    },
+    {
+      "name": "--Inventory.CraftingMaterial.NeotericSolvent",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8B23F78",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "36BF78",
+          "section": 6,
+          "sectionOffset": "33BF78"
+        }
+      ]
+    },
+    {
+      "name": "Inf Ammo",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "68B79F4",
+          "on": "C5FA118B28010000E9A45274FD",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "3FFCC9D",
+          "on": "E952AD8B02909090",
+          "off": "C5FA118328010000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}
