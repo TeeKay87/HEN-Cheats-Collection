@@ -122,6 +122,9 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-11-04 | ADDED | PPSA16960 | 01.000.000 | [Richman 11](https://hencheats.vercel.app/game/PPSA16960/01.000.000) |
+| 2026-11-04 | ADDED | PPSA27581 | 01.003.001 | [Hellblade: Senua’s Sacrifice](https://hencheats.vercel.app/game/PPSA27581/01.003.001) |
+| 2026-11-04 | UPDATE | PPSA31246 | 01.200.000 | [Resident Evil Requiem](https://hencheats.vercel.app/game/PPSA31246/01.200.000) |
 | 2026-11-04 | ADDED | PPSA05916 | 01.001.000 | [BloodRayne: ReVamped](https://hencheats.vercel.app/game/PPSA05916/01.001.000) |
 | 2026-11-04 | REMOVED | PPSA17163 | 01.001.000 | [Jets'n'Guns 2](https://hencheats.vercel.app/game/PPSA17163/01.001.000) |
 | 2026-11-04 | ADDED | PPSA02721 | 01.000.000 | [Neptunia ReVerse](https://hencheats.vercel.app/game/PPSA02721/01.000.000) |
