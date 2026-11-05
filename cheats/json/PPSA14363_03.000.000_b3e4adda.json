@@ -1,0 +1,679 @@
+{
+  "name": "Metal Gear Solid - Master Collection Version",
+  "id": "PPSA14363",
+  "version": "03.000.000",
+  "process": "eboot.bin",
+  "credits": [
+    "k4k0gh0st",
+    "port of CUSA41300 01.02 trainer"
+  ],
+  "mods": [
+    {
+      "name": "Master Code",
+      "type": "checkbox",
+      "description": "Required: enable first. Does nothing on its own. Default version: US English.",
+      "memory": [
+        {
+          "offset": "80C480",
+          "on": "41FFC74183C604488B8B402100004885C90F842E0200004889CA4881C1301700004883E910EB0781125E03006300EB0781265E03006300EB0781145E03006300EB0781285E03006300EB0781165E03006300EB07812A5E03006300EB0781185E03006300EB07812C5E03006300EB07811A5E03006300EB07812E5E03006300EB07811C5E03006300EB0781305E03006300EB07811E5E03006300EB0781325E03006300EB0781205E03006300EB0781345E03006300EB0781225E03006300EB0781365E03006300EB0781245E03006300EB0781385E03006300EB053B5E030000EB053D5E030000EB053F5E030000EB05415E030000EB05435E030000EB05455E030000EB05475E030000EB05495E030000EB054B5E030000EB054D5E030000EB054F5E030000EB05515E030000EB05535E030000EB0781545E03006300EB07816A5E03006300EB0781565E03006300EB07816C5E03006300EB0781585E03006300EB07816E5E03006300EB055B5E030000EB07815C5E0300FF00EB07815E5E0300FF00EB05615E030000EB05635E030000EB05655E030000EB05675E030000EB0781685E03000000EB08065E030000060006EB07818CCA02000004EB0781725E03000000EB07822A75030000000FB7B2582D030083FE080F8568000000EB0782F68E03000000488BBB482100004885FF0F844F000000EB07879CB505000000EB0787B44A05000000EB078778FE06000000EB0787087405000000EB07877C9907000000EB0787A87C06000000488BBB502100004885FF0F8409000000EB0787B68C03000000E94E1B89FF",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "9E211",
+          "on": "E96AE276009090",
+          "off": "41FFC74183C604"
+        }
+      ]
+    },
+    {
+      "name": "Version: Europe English (UK)",
+      "type": "checkbox",
+      "description": "Use only if you play the Europe English (UK) version. Enable only one; none = US English.",
+      "memory": [
+        {
+          "offset": "80C49D",
+          "on": "10000000",
+          "off": "30170000"
+        }
+      ]
+    },
+    {
+      "name": "Version: French (FRA)",
+      "type": "checkbox",
+      "description": "Use only if you play the French (FRA) version. Enable only one; none = US English.",
+      "memory": [
+        {
+          "offset": "80C49D",
+          "on": "A0050000",
+          "off": "30170000"
+        }
+      ]
+    },
+    {
+      "name": "Version: German (DEU)",
+      "type": "checkbox",
+      "description": "Use only if you play the German (DEU) version. Enable only one; none = US English.",
+      "memory": [
+        {
+          "offset": "80C49D",
+          "on": "E8040000",
+          "off": "30170000"
+        }
+      ]
+    },
+    {
+      "name": "Version: Italian (ITA)",
+      "type": "checkbox",
+      "description": "Use only if you play the Italian (ITA) version. Enable only one; none = US English.",
+      "memory": [
+        {
+          "offset": "80C49D",
+          "on": "78000000",
+          "off": "30170000"
+        }
+      ]
+    },
+    {
+      "name": "Version: Spanish (ESP)",
+      "type": "checkbox",
+      "description": "Use only if you play the Spanish (ESP) version. Enable only one; none = US English.",
+      "memory": [
+        {
+          "offset": "80C49D",
+          "on": "48010000",
+          "off": "30170000"
+        }
+      ]
+    },
+    {
+      "name": "Version: Japanese (JP)",
+      "type": "checkbox",
+      "description": "Use only if you play the Japanese (JP) version. Enable only one; none = US English.",
+      "memory": [
+        {
+          "offset": "80C49D",
+          "on": "A0F9FFFF",
+          "off": "30170000"
+        }
+      ]
+    },
+    {
+      "name": "Life",
+      "type": "checkbox",
+      "description": "Life and max life locked at 0x600.",
+      "memory": [
+        {
+          "offset": "80C628",
+          "on": "C781",
+          "off": "EB08"
+        }
+      ]
+    },
+    {
+      "name": "O2",
+      "type": "checkbox",
+      "description": "O2 (air) locked at full (0x400).",
+      "memory": [
+        {
+          "offset": "80C632",
+          "on": "66C7",
+          "off": "EB07"
+        }
+      ]
+    },
+    {
+      "name": "Weapons",
+      "type": "checkbox",
+      "description": "All weapons with 99 ammo.",
+      "memory": [
+        {
+          "offset": "80C4A5",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C4AE",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C4B7",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C4C0",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C4C9",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C4D2",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C4DB",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C4E4",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C4ED",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C4F6",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C4FF",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C508",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C511",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C51A",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C523",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C52C",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C535",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C53E",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C547",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C550",
+          "on": "66C7",
+          "off": "EB07"
+        }
+      ]
+    },
+    {
+      "name": "Cigs",
+      "type": "checkbox",
+      "description": "Have Cigs.",
+      "memory": [
+        {
+          "offset": "80C559",
+          "on": "C681",
+          "off": "EB05"
+        }
+      ]
+    },
+    {
+      "name": "Scope",
+      "type": "checkbox",
+      "description": "Have Scope.",
+      "memory": [
+        {
+          "offset": "80C560",
+          "on": "C681",
+          "off": "EB05"
+        }
+      ]
+    },
+    {
+      "name": "Cbox A",
+      "type": "checkbox",
+      "description": "Have Cbox A.",
+      "memory": [
+        {
+          "offset": "80C567",
+          "on": "C681",
+          "off": "EB05"
+        }
+      ]
+    },
+    {
+      "name": "Cbox B",
+      "type": "checkbox",
+      "description": "Have Cbox B.",
+      "memory": [
+        {
+          "offset": "80C56E",
+          "on": "C681",
+          "off": "EB05"
+        }
+      ]
+    },
+    {
+      "name": "Cbox C",
+      "type": "checkbox",
+      "description": "Have Cbox C.",
+      "memory": [
+        {
+          "offset": "80C575",
+          "on": "C681",
+          "off": "EB05"
+        }
+      ]
+    },
+    {
+      "name": "NVG",
+      "type": "checkbox",
+      "description": "Have NVG.",
+      "memory": [
+        {
+          "offset": "80C57C",
+          "on": "C681",
+          "off": "EB05"
+        }
+      ]
+    },
+    {
+      "name": "Therm G",
+      "type": "checkbox",
+      "description": "Have Therm G.",
+      "memory": [
+        {
+          "offset": "80C583",
+          "on": "C681",
+          "off": "EB05"
+        }
+      ]
+    },
+    {
+      "name": "GasMask",
+      "type": "checkbox",
+      "description": "Have GasMask.",
+      "memory": [
+        {
+          "offset": "80C58A",
+          "on": "C681",
+          "off": "EB05"
+        }
+      ]
+    },
+    {
+      "name": "Body Armor",
+      "type": "checkbox",
+      "description": "Have Body Armor.",
+      "memory": [
+        {
+          "offset": "80C591",
+          "on": "C681",
+          "off": "EB05"
+        }
+      ]
+    },
+    {
+      "name": "Ketchup",
+      "type": "checkbox",
+      "description": "Have Ketchup.",
+      "memory": [
+        {
+          "offset": "80C598",
+          "on": "C681",
+          "off": "EB05"
+        }
+      ]
+    },
+    {
+      "name": "Stealth",
+      "type": "checkbox",
+      "description": "Have Stealth.",
+      "memory": [
+        {
+          "offset": "80C59F",
+          "on": "C681",
+          "off": "EB05"
+        }
+      ]
+    },
+    {
+      "name": "Bandana",
+      "type": "checkbox",
+      "description": "Have Bandana.",
+      "memory": [
+        {
+          "offset": "80C5A6",
+          "on": "C681",
+          "off": "EB05"
+        }
+      ]
+    },
+    {
+      "name": "Camera",
+      "type": "checkbox",
+      "description": "Have Camera.",
+      "memory": [
+        {
+          "offset": "80C5AD",
+          "on": "C681",
+          "off": "EB05"
+        }
+      ]
+    },
+    {
+      "name": "Ration",
+      "type": "checkbox",
+      "description": "Ration x99.",
+      "memory": [
+        {
+          "offset": "80C5B4",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C5BD",
+          "on": "66C7",
+          "off": "EB07"
+        }
+      ]
+    },
+    {
+      "name": "Medicine",
+      "type": "checkbox",
+      "description": "Medicine x99.",
+      "memory": [
+        {
+          "offset": "80C5C6",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C5CF",
+          "on": "66C7",
+          "off": "EB07"
+        }
+      ]
+    },
+    {
+      "name": "Diazepam",
+      "type": "checkbox",
+      "description": "Diazepam x99.",
+      "memory": [
+        {
+          "offset": "80C5D8",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C5E1",
+          "on": "66C7",
+          "off": "EB07"
+        }
+      ]
+    },
+    {
+      "name": "Enable Pal Key",
+      "type": "checkbox",
+      "description": "Have the PAL Key. Pick a color below (one at a time).",
+      "memory": [
+        {
+          "offset": "80C5EA",
+          "on": "C681",
+          "off": "EB05"
+        }
+      ]
+    },
+    {
+      "name": "Pal Key Yellow",
+      "type": "checkbox",
+      "description": "PAL Key set to Yellow. Enable only one color.",
+      "memory": [
+        {
+          "offset": "80C63B",
+          "on": "66C781725E03000000",
+          "off": "EB0781725E03000000"
+        }
+      ]
+    },
+    {
+      "name": "Pal Key Red",
+      "type": "checkbox",
+      "description": "PAL Key set to Red. Enable only one color.",
+      "memory": [
+        {
+          "offset": "80C63B",
+          "on": "66C781725E03000100",
+          "off": "EB0781725E03000000"
+        }
+      ]
+    },
+    {
+      "name": "Pal Key Cyan",
+      "type": "checkbox",
+      "description": "PAL Key set to Cyan. Enable only one color.",
+      "memory": [
+        {
+          "offset": "80C63B",
+          "on": "66C781725E03000200",
+          "off": "EB0781725E03000000"
+        }
+      ]
+    },
+    {
+      "name": "Card LV.255",
+      "type": "checkbox",
+      "description": "Key card level 255.",
+      "memory": [
+        {
+          "offset": "80C5F1",
+          "on": "66C7",
+          "off": "EB07"
+        }
+      ]
+    },
+    {
+      "name": "Timer Bomb",
+      "type": "checkbox",
+      "description": "Timer Bomb item (value 255).",
+      "memory": [
+        {
+          "offset": "80C5FA",
+          "on": "66C7",
+          "off": "EB07"
+        }
+      ]
+    },
+    {
+      "name": "Mine D",
+      "type": "checkbox",
+      "description": "Have Mine D.",
+      "memory": [
+        {
+          "offset": "80C603",
+          "on": "C681",
+          "off": "EB05"
+        }
+      ]
+    },
+    {
+      "name": "Disc",
+      "type": "checkbox",
+      "description": "Have Disc.",
+      "memory": [
+        {
+          "offset": "80C60A",
+          "on": "C681",
+          "off": "EB05"
+        }
+      ]
+    },
+    {
+      "name": "Rope",
+      "type": "checkbox",
+      "description": "Have Rope.",
+      "memory": [
+        {
+          "offset": "80C611",
+          "on": "C681",
+          "off": "EB05"
+        }
+      ]
+    },
+    {
+      "name": "Handker",
+      "type": "checkbox",
+      "description": "Have Handker.",
+      "memory": [
+        {
+          "offset": "80C618",
+          "on": "C681",
+          "off": "EB05"
+        }
+      ]
+    },
+    {
+      "name": "Suppressor Socom",
+      "type": "checkbox",
+      "description": "Have the SOCOM suppressor.",
+      "memory": [
+        {
+          "offset": "80C61F",
+          "on": "66C7",
+          "off": "EB07"
+        }
+      ]
+    },
+    {
+      "name": "Never Catch a Cold (US)",
+      "type": "checkbox",
+      "description": "No cold/sneezing. US version only.",
+      "memory": [
+        {
+          "offset": "80C644",
+          "on": "66C7",
+          "off": "EB07"
+        }
+      ]
+    },
+    {
+      "name": "Boss Kill: Ninja (hold R1)",
+      "type": "checkbox",
+      "description": "During the Ninja fight, hold only R1 to drop its health to 0. US version only.",
+      "memory": [
+        {
+          "offset": "80C676",
+          "on": "66C7",
+          "off": "EB07"
+        }
+      ]
+    },
+    {
+      "name": "Boss Kill: Psycho Mantis (hold R1)",
+      "type": "checkbox",
+      "description": "During the Psycho Mantis fight, hold only R1 to drop its health to 0. US version only.",
+      "memory": [
+        {
+          "offset": "80C6BC",
+          "on": "66C7",
+          "off": "EB07"
+        }
+      ]
+    },
+    {
+      "name": "Boss Kill: Hind D (hold R1)",
+      "type": "checkbox",
+      "description": "During the Hind D fight, hold only R1 to drop its health to 0. US version only.",
+      "memory": [
+        {
+          "offset": "80C67F",
+          "on": "66C7",
+          "off": "EB07"
+        }
+      ]
+    },
+    {
+      "name": "Boss Kill: Sniper Wolf (snow) (hold R1)",
+      "type": "checkbox",
+      "description": "During the Sniper Wolf (snow) fight, hold only R1 to drop its health to 0. US version only.",
+      "memory": [
+        {
+          "offset": "80C688",
+          "on": "66C7",
+          "off": "EB07"
+        }
+      ]
+    },
+    {
+      "name": "Boss Kill: Vulcan Raven (hold R1)",
+      "type": "checkbox",
+      "description": "During the Vulcan Raven fight, hold only R1 to drop its health to 0. US version only.",
+      "memory": [
+        {
+          "offset": "80C691",
+          "on": "66C7",
+          "off": "EB07"
+        }
+      ]
+    },
+    {
+      "name": "Boss Kill: Metal Gear REX (hold R1)",
+      "type": "checkbox",
+      "description": "During the Metal Gear REX fight, hold only R1 to drop its health to 0. US version only.",
+      "memory": [
+        {
+          "offset": "80C65D",
+          "on": "66C7",
+          "off": "EB07"
+        }
+      ]
+    },
+    {
+      "name": "Boss Kill: Liquid (final fight) (hold R1)",
+      "type": "checkbox",
+      "description": "During the Liquid (final fight) fight, hold only R1 to drop its health to 0. US version only.",
+      "memory": [
+        {
+          "offset": "80C69A",
+          "on": "66C7",
+          "off": "EB07"
+        }
+      ]
+    },
+    {
+      "name": "Ocelot 0 Bullets (hold R1)",
+      "type": "checkbox",
+      "description": "During the Ocelot fight, hold only R1: he runs out of bullets. US version only.",
+      "memory": [
+        {
+          "offset": "80C6A3",
+          "on": "66C7",
+          "off": "EB07"
+        }
+      ]
+    }
+  ]
+}

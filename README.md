@@ -122,6 +122,7 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-11-05 | ADDED | PPSA14363 | 03.000.000 | [Metal Gear Solid - Master Collection Version](https://hencheats.vercel.app/game/PPSA14363/03.000.000) |
 | 2026-11-05 | ADDED | PPSA15687 | 01.005.000 | [Death or Treat](https://hencheats.vercel.app/game/PPSA15687/01.005.000) |
 | 2026-11-05 | ADDED | PPSA25212 | 01.000.000 | [RetroRealms: Double Feature - Halloween & Ash vs Evil Dead](https://hencheats.vercel.app/game/PPSA25212/01.000.000) |
 | 2026-11-05 | ADDED | PPSA24381 | 02.000.000 | [The Thing: Remastered](https://hencheats.vercel.app/game/PPSA24381/02.000.000) |
