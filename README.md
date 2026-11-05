@@ -122,6 +122,8 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-11-05 | ADDED | PPSA24381 | 02.000.000 | [The Thing: Remastered](https://hencheats.vercel.app/game/PPSA24381/02.000.000) |
+| 2026-11-05 | UPDATE | PPSA30391 | 01.000.009 | [Alien: Rogue Incursion Evolved Edition](https://hencheats.vercel.app/game/PPSA30391/01.000.009) |
 | 2026-11-05 | UPDATE | PPSA15186 | 01.000.003 | [Vampire: The Masquerade - Bloodlines 2](https://hencheats.vercel.app/game/PPSA15186/01.000.003) |
 | 2026-11-05 | UPDATE | PPSA15186 | 01.000.013 | [Vampire: The Masquerade - Bloodlines 2](https://hencheats.vercel.app/game/PPSA15186/01.000.013) |
 | 2026-11-05 | UPDATE | CUSA10870 | 01.00 | [Overcooked! 2](https://hencheats.vercel.app/game/CUSA10870/01.00) |
