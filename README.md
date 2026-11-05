@@ -122,6 +122,12 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-11-05 | UPDATE | PPSA15186 | 01.000.003 | [Vampire: The Masquerade - Bloodlines 2](https://hencheats.vercel.app/game/PPSA15186/01.000.003) |
+| 2026-11-05 | UPDATE | PPSA15186 | 01.000.013 | [Vampire: The Masquerade - Bloodlines 2](https://hencheats.vercel.app/game/PPSA15186/01.000.013) |
+| 2026-11-05 | UPDATE | CUSA10870 | 01.00 | [Overcooked! 2](https://hencheats.vercel.app/game/CUSA10870/01.00) |
+| 2026-11-05 | UPDATE | CUSA10870 | 01.13 | [Overcooked! 2](https://hencheats.vercel.app/game/CUSA10870/01.13) |
+| 2026-11-05 | ADDED | PPSA01528 | 01.015.000 | [Overcooked! All You Can Eat](https://hencheats.vercel.app/game/PPSA01528/01.015.000) |
+| 2026-11-05 | ADDED | PPSA15186 | 01.000.013 | [Vampire: The Masquerade® - Bloodlines™ 2](https://hencheats.vercel.app/game/PPSA15186/01.000.013) |
 | 2026-11-05 | ADDED | PPSA30391 | 01.000.009 | [Alien: Rogue Incursion Evolved Edition](https://hencheats.vercel.app/game/PPSA30391/01.000.009) |
 | 2026-11-04 | ADDED | PPSA16960 | 01.000.000 | [Richman 11](https://hencheats.vercel.app/game/PPSA16960/01.000.000) |
 | 2026-11-04 | ADDED | PPSA27581 | 01.003.001 | [Hellblade: Senua’s Sacrifice](https://hencheats.vercel.app/game/PPSA27581/01.003.001) |

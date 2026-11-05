@@ -1,0 +1,38 @@
+{
+  "name": "Vampire: The Masquerade - Bloodlines 2",
+  "id": "PPSA15186",
+  "version": "01.000.013",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "infinite health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "56CFF00",
+          "on": "83BF2802000000742383BF2C02000000741A83BF3802000000741183BF3C020000007408C5F82E470C7301C3C5FA11470CC3",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "3C5D2A0",
+          "on": "E95B2CA701909090909090",
+          "off": "554889E5C5FA11470C5DC3"
+        }
+      ]
+    },
+    {
+      "name": "no decrease items+Resonance+Ability Points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3866898",
+          "on": "7F",
+          "off": "74"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "allexander.xv"
+  ]
+}

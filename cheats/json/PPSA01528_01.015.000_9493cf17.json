@@ -1,0 +1,277 @@
+{
+  "name": "Overcooked! All You Can Eat",
+  "id": "PPSA01528",
+  "version": "01.015.000",
+  "process": "eboot.bin",
+  "credits": [
+    "k4k0gh0st (PS5 port)",
+    "original author of CUSA10870 1.13 cheats"
+  ],
+  "mods": [
+    {
+      "name": "Freeze Round Timer",
+      "type": "checkbox",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "6CD015",
+          "on": "C5F25FC8",
+          "off": "C5F258C8"
+        },
+        {
+          "offset": "6F7299",
+          "on": "C5F25FC8",
+          "off": "C5F258C8"
+        },
+        {
+          "offset": "51F453",
+          "on": "C5F25FC0",
+          "off": "C5F25CC0"
+        },
+        {
+          "offset": "27C64F",
+          "on": "C5F25FC0",
+          "off": "C5F25CC0"
+        }
+      ],
+      "description": "The round timer does not count down."
+    },
+    {
+      "name": "Orders Never Expire",
+      "type": "checkbox",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "51FE0D",
+          "on": "C5F25FC8",
+          "off": "C5F25CC8"
+        }
+      ],
+      "description": "Orders never run out of time."
+    },
+    {
+      "name": "Instant Chop",
+      "type": "checkbox",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "6865F9",
+          "on": "B97F000000",
+          "off": "B901000000"
+        }
+      ],
+      "description": "One chop finishes the ingredient."
+    },
+    {
+      "name": "No Burning (not with Instant Cook)",
+      "type": "checkbox",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "191808",
+          "on": "9090",
+          "off": "770F"
+        },
+        {
+          "offset": "81E94D",
+          "on": "C5FA5905DF5CF500",
+          "off": "C5FA5905579AD500"
+        },
+        {
+          "offset": "81F3B6",
+          "on": "EB34",
+          "off": "7634"
+        }
+      ],
+      "description": "Food never burns or catches fire. Do not use with Instant Cook + No Burning."
+    },
+    {
+      "name": "Instant Cook + No Burning",
+      "type": "checkbox",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "823724",
+          "on": "C5FA5845DC",
+          "off": "C5FA5945DC"
+        },
+        {
+          "offset": "191808",
+          "on": "9090",
+          "off": "770F"
+        },
+        {
+          "offset": "81E94D",
+          "on": "C5FA5905DF5CF500",
+          "off": "C5FA5905579AD500"
+        },
+        {
+          "offset": "81F3B6",
+          "on": "EB34",
+          "off": "7634"
+        }
+      ],
+      "description": "Food cooks instantly and never burns. Do not use with No Burning."
+    },
+    {
+      "name": "No Over-Mixing",
+      "type": "checkbox",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "2EB408",
+          "on": "EB06",
+          "off": "7606"
+        },
+        {
+          "offset": "51CED0",
+          "on": "EB23",
+          "off": "7623"
+        },
+        {
+          "offset": "51CF5A",
+          "on": "C5FA5905D2762501",
+          "off": "C5FA59054AB40501"
+        }
+      ],
+      "description": "Mixers never over-mix."
+    },
+    {
+      "name": "Instant Wash",
+      "type": "checkbox",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "684A52",
+          "on": "C5FA58C1",
+          "off": "C5FA59C1"
+        },
+        {
+          "offset": "683348",
+          "on": "C5EA5EC0",
+          "off": "C5EA59C0"
+        }
+      ],
+      "description": "Plates are washed instantly."
+    },
+    {
+      "name": "ALL IN ONE (use alone)",
+      "type": "checkbox",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "823724",
+          "on": "C5FA5845DC",
+          "off": "C5FA5945DC"
+        },
+        {
+          "offset": "191808",
+          "on": "9090",
+          "off": "770F"
+        },
+        {
+          "offset": "81E94D",
+          "on": "C5FA5905DF5CF500",
+          "off": "C5FA5905579AD500"
+        },
+        {
+          "offset": "81F3B6",
+          "on": "EB34",
+          "off": "7634"
+        },
+        {
+          "offset": "2EB408",
+          "on": "EB06",
+          "off": "7606"
+        },
+        {
+          "offset": "51CED0",
+          "on": "EB23",
+          "off": "7623"
+        },
+        {
+          "offset": "51CF5A",
+          "on": "C5FA5905D2762501",
+          "off": "C5FA59054AB40501"
+        },
+        {
+          "offset": "684A52",
+          "on": "C5FA58C1",
+          "off": "C5FA59C1"
+        },
+        {
+          "offset": "683348",
+          "on": "C5EA5EC0",
+          "off": "C5EA59C0"
+        },
+        {
+          "offset": "6865F9",
+          "on": "B97F000000",
+          "off": "B901000000"
+        },
+        {
+          "offset": "51FE0D",
+          "on": "C5F25FC8",
+          "off": "C5F25CC8"
+        },
+        {
+          "offset": "6CD015",
+          "on": "C5F25FC8",
+          "off": "C5F258C8"
+        },
+        {
+          "offset": "6F7299",
+          "on": "C5F25FC8",
+          "off": "C5F258C8"
+        },
+        {
+          "offset": "51F453",
+          "on": "C5F25FC0",
+          "off": "C5F25CC0"
+        },
+        {
+          "offset": "27C64F",
+          "on": "C5F25FC0",
+          "off": "C5F25CC0"
+        }
+      ],
+      "description": "All kitchen cheats combined. Enable it alone, without the others."
+    },
+    {
+      "name": "3 Stars Always (not with Instant Finish)",
+      "type": "checkbox",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "59C7D0",
+          "on": "B803000000C3",
+          "off": "554889E54157"
+        }
+      ],
+      "description": "Always get 3 stars at the end of the level. Do not use with Instant Finish."
+    },
+    {
+      "name": "Instant Finish 3 Stars (not with 3 Stars)",
+      "type": "checkbox",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "59C7D0",
+          "on": "B803000000C3",
+          "off": "554889E54157"
+        },
+        {
+          "offset": "6CCFB2",
+          "on": "9090",
+          "off": "756F"
+        },
+        {
+          "offset": "6CCFA8",
+          "on": "C4C17A104718",
+          "off": "C4C17A104714"
+        }
+      ],
+      "description": "The level ends immediately with 3 stars. Do not use with 3 Stars Always."
+    }
+  ]
+}
