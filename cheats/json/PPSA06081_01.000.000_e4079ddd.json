@@ -1,0 +1,159 @@
+{
+  "name": "Totally Accurate Battle Simulator",
+  "id": "PPSA06081",
+  "version": "01.000.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Master Code",
+      "description": "static roots via the il2cpp TypeInfo table, resolved every frame",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "833A3F01",
+          "on": "0F270000",
+          "off": "00000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 3,
+          "logicalOffset": "47BF01",
+          "section": 18,
+          "sectionOffset": "223F01"
+        },
+        {
+          "offset": "833A3F06",
+          "on": "E7030000",
+          "off": "00000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 3,
+          "logicalOffset": "47BF06",
+          "section": 18,
+          "sectionOffset": "223F06"
+        },
+        {
+          "offset": "821DA23B",
+          "on": "9C50515241504151803DB69C1C01010F858900000048B8E8CE588300000000488B004885C07477488B8090C201004885C0746B488B80B80000004885C0745F48",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "24B223B",
+          "section": 14,
+          "sectionOffset": "24B223B"
+        },
+        {
+          "offset": "821DA27B",
+          "on": "83C010488B004885C07453480570020000488B004885C074454883C078488B004885C074394883C010488B004885C0742D488B50184885D274248B48204883C2",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "24B227B",
+          "section": 14,
+          "sectionOffset": "24B227B"
+        },
+        {
+          "offset": "821DA2BB",
+          "on": "2083F9007E18488D4210488B004885C0740C4883C0148B152A9C1C018910803D259C1C01010F85A900000048B8E8CE588300000000488B004885C00F84930000",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "24B22BB",
+          "section": 14,
+          "sectionOffset": "24B22BB"
+        },
+        {
+          "offset": "821DA2FB",
+          "on": "00488B80B07101004885C00F8483000000488B80B80000004885C074774883C008488B004885C0746B488B50184885D274628B48204883C22049B8C0CE588300",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "24B22FB",
+          "section": 14,
+          "sectionOffset": "24B22FB"
+        },
+        {
+          "offset": "821DA33B",
+          "on": "0000004D8B004981C030F4A60085C974434C8B4A084D85C9740E4D8B49104D85C974054D390174084883C218FFC9EBDD488D4210488B004885C074184883C010",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "24B233B",
+          "section": 14,
+          "sectionOffset": "24B233B"
+        },
+        {
+          "offset": "821DA37B",
+          "on": "488B004885C0740C4883C0208B15799B1C018910415941585A59589D554889E54157E9B415C6FF",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "24B237B",
+          "section": 14,
+          "sectionOffset": "24B237B"
+        },
+        {
+          "offset": "81E3B950",
+          "on": "E9E6E8390090",
+          "off": "554889E54157",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "2113950",
+          "section": 14,
+          "sectionOffset": "2113950"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Money",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "833A3F00",
+          "on": "01",
+          "off": "00",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 3,
+          "logicalOffset": "47BF00",
+          "section": 18,
+          "sectionOffset": "223F00"
+        }
+      ]
+    },
+    {
+      "name": "--999 Max Unit",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "833A3F05",
+          "on": "01",
+          "off": "00",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 3,
+          "logicalOffset": "47BF05",
+          "section": 18,
+          "sectionOffset": "223F05"
+        }
+      ]
+    },
+    {
+      "name": "Unlock All Secret Units",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "801064D0",
+          "on": "B801000000C3",
+          "off": "554889E54156",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "3DE4D0",
+          "section": 14,
+          "sectionOffset": "3DE4D0"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}
