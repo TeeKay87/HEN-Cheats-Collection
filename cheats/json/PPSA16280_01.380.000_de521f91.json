@@ -1,0 +1,444 @@
+{
+  "name": "Ultros",
+  "id": "PPSA16280",
+  "version": "01.380.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "IL2CPP hook (CMeleeWeapon.LateUpdate)",
+      "description": "static roots via the il2cpp TypeInfo table, resolved every frame",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8344FF01",
+          "on": "00004842",
+          "off": "00000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 3,
+          "logicalOffset": "3DFF01",
+          "section": 21,
+          "sectionOffset": "227F01"
+        },
+        {
+          "offset": "8344FF06",
+          "on": "32000000",
+          "off": "00000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 3,
+          "logicalOffset": "3DFF06",
+          "section": 21,
+          "sectionOffset": "227F06"
+        },
+        {
+          "offset": "8344FF0C",
+          "on": "E7030000",
+          "off": "00000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 3,
+          "logicalOffset": "3DFF0C",
+          "section": 21,
+          "sectionOffset": "227F0C"
+        },
+        {
+          "offset": "8344FF11",
+          "on": "0000A040",
+          "off": "00000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 3,
+          "logicalOffset": "3DFF11",
+          "section": 21,
+          "sectionOffset": "227F11"
+        },
+        {
+          "offset": "8344FF16",
+          "on": "61000000",
+          "off": "00000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 3,
+          "logicalOffset": "3DFF16",
+          "section": 21,
+          "sectionOffset": "227F16"
+        },
+        {
+          "offset": "8344FF1B",
+          "on": "00002041",
+          "off": "00000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 3,
+          "logicalOffset": "3DFF1B",
+          "section": 21,
+          "sectionOffset": "227F1B"
+        },
+        {
+          "offset": "8344FF20",
+          "on": "00002041",
+          "off": "00000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 3,
+          "logicalOffset": "3DFF20",
+          "section": 21,
+          "sectionOffset": "227F20"
+        },
+        {
+          "offset": "822840BA",
+          "on": "9C50515241504151803D37BE1C01010F858C00000048B8307D638300000000488B004885C0747A488B80504000004885C0746E488B80B80000004885C0746248",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "25580BA",
+          "section": 17,
+          "sectionOffset": "25580BA"
+        },
+        {
+          "offset": "822840FA",
+          "on": "8B004885C0745A488B50184885D274518B48204883C22083F9007E45488D4210488B004885C07439837818007E33488B40104885C0742A837818007E244883C0",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "25580FA",
+          "section": 17,
+          "sectionOffset": "25580FA"
+        },
+        {
+          "offset": "8228413A",
+          "on": "20488B004885C074184883C060488B004885C0740C4883C0208B15A8BD1C018910803DA3BD1C01010F858C00000048B8307D638300000000488B004885C0747A",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "255813A",
+          "section": 17,
+          "sectionOffset": "255813A"
+        },
+        {
+          "offset": "8228417A",
+          "on": "488B80504000004885C0746E488B80B80000004885C07462488B004885C0745A488B50184885D274518B48204883C22083F9007E45488D4210488B004885C074",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "255817A",
+          "section": 17,
+          "sectionOffset": "255817A"
+        },
+        {
+          "offset": "822841BA",
+          "on": "39837818007E33488B40104885C0742A837818007E244883C020488B004885C074184883C060488B004885C0740C4883C02C8B1514BD1C018910803D0FBD1C01",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "25581BA",
+          "section": 17,
+          "sectionOffset": "25581BA"
+        },
+        {
+          "offset": "822841FA",
+          "on": "010F858700000048B8307D638300000000488B004885C07475488B80504000004885C07469488B80B80000004885C0745D488B004885C07455488B50184885D2",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "25581FA",
+          "section": 17,
+          "sectionOffset": "25581FA"
+        },
+        {
+          "offset": "8228423A",
+          "on": "744C8B48204883C22083F9007E40488D4210488B004885C07434837818007E2E488B40104885C07425837818007E1F4883C020488B004885C074134883C06048",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "255823A",
+          "section": 17,
+          "sectionOffset": "255823A"
+        },
+        {
+          "offset": "8228427A",
+          "on": "8B004885C074074883C024C60001803D7CBC1C01010F85A000000048B8307D638300000000488B004885C00F848A000000488B80504000004885C0747E488B80",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "255827A",
+          "section": 17,
+          "sectionOffset": "255827A"
+        },
+        {
+          "offset": "822842BA",
+          "on": "B80000004885C07472488B004885C0746A488B50184885D274618B48204883C22083F9007E55488D4210488B004885C07449837818007E43488B40104885C074",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "25582BA",
+          "section": 17,
+          "sectionOffset": "25582BA"
+        },
+        {
+          "offset": "822842FA",
+          "on": "3A837818007E344883C020488B004885C074284805D8000000488B004885C0741A4805C8000000488B004885C0740C4883C0408B15D9BB1C018910803DD4BB1C",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "25582FA",
+          "section": 17,
+          "sectionOffset": "25582FA"
+        },
+        {
+          "offset": "8228433A",
+          "on": "01010F85A600000048B8307D638300000000488B004885C00F8490000000488B80504000004885C00F8480000000488B80B80000004885C07474488B004885C0",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "255833A",
+          "section": 17,
+          "sectionOffset": "255833A"
+        },
+        {
+          "offset": "8228437A",
+          "on": "746C488B50184885D274638B48204883C22083F9007E57488D4210488B004885C0744B837818007E45488B40104885C0743C837818007E364883C020488B0048",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "255837A",
+          "section": 17,
+          "sectionOffset": "255837A"
+        },
+        {
+          "offset": "822843BA",
+          "on": "85C0742A4805D8000000488B004885C0741C480548010000488B004885C0740E4805C80000008B152BBB1C018910803D26BB1C0101757448B8307D6383000000",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "25583BA",
+          "section": 17,
+          "sectionOffset": "25583BA"
+        },
+        {
+          "offset": "822843FA",
+          "on": "00488B004885C07462488B80781D00004885C07456488B40584885C0744D488B80B80000004885C07441488B004885C074394883C048488B004885C0742D8378",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "25583FA",
+          "section": 17,
+          "sectionOffset": "25583FA"
+        },
+        {
+          "offset": "8228443A",
+          "on": "18007E27488B40104885C0741E837818007E184883C020488B004885C0740C4883C0188B15B3BA1C018910803DAEBA1C01010F858E00000048B8307D63830000",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "255843A",
+          "section": 17,
+          "sectionOffset": "255843A"
+        },
+        {
+          "offset": "8228447A",
+          "on": "0000488B004885C0747C488B80504000004885C07470488B80B80000004885C07464488B004885C0745C488B50184885D274538B48204883C22083F9007E4748",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "255847A",
+          "section": 17,
+          "sectionOffset": "255847A"
+        },
+        {
+          "offset": "822844BA",
+          "on": "8D4210488B004885C0743B837818007E35488B40104885C0742C837818007E264883C020488B004885C0741A4883C068488B004885C0740E4805CC0000008B15",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "25584BA",
+          "section": 17,
+          "sectionOffset": "25584BA"
+        },
+        {
+          "offset": "822844FA",
+          "on": "1DBA1C018910803D18BA1C01010F85A000000048B8307D638300000000488B004885C00F848A000000488B80504000004885C0747E488B80B80000004885C074",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "25584FA",
+          "section": 17,
+          "sectionOffset": "25584FA"
+        },
+        {
+          "offset": "8228453A",
+          "on": "72488B004885C0746A488B50184885D274618B48204883C22083F9007E55488D4210488B004885C07449837818007E43488B40104885C0743A837818007E3448",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "255853A",
+          "section": 17,
+          "sectionOffset": "255853A"
+        },
+        {
+          "offset": "8228457A",
+          "on": "83C020488B004885C074284883C068488B004885C0741C480548010000488B004885C0740E4805C80000008B1575B91C018910415941585A59589D554889E553",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "255857A",
+          "section": 17,
+          "sectionOffset": "255857A"
+        },
+        {
+          "offset": "822845BA",
+          "on": "E9960F0AFE",
+          "off": "0000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "25585BA",
+          "section": 17,
+          "sectionOffset": "25585BA"
+        },
+        {
+          "offset": "80325550",
+          "on": "E965EBF501",
+          "off": "554889E553",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "5F9550",
+          "section": 17,
+          "sectionOffset": "5F9550"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8344FF00",
+          "on": "01",
+          "off": "00",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 3,
+          "logicalOffset": "3DFF00",
+          "section": 21,
+          "sectionOffset": "227F00"
+        }
+      ]
+    },
+    {
+      "name": "--Max Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8344FF05",
+          "on": "01",
+          "off": "00",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 3,
+          "logicalOffset": "3DFF05",
+          "section": 21,
+          "sectionOffset": "227F05"
+        }
+      ]
+    },
+    {
+      "name": "--Invulnerable",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8344FF0A",
+          "on": "01",
+          "off": "00",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 3,
+          "logicalOffset": "3DFF0A",
+          "section": 21,
+          "sectionOffset": "227F0A"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Ammo",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8344FF0B",
+          "on": "01",
+          "off": "00",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 3,
+          "logicalOffset": "3DFF0B",
+          "section": 21,
+          "sectionOffset": "227F0B"
+        }
+      ]
+    },
+    {
+      "name": "--Jump Height",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8344FF10",
+          "on": "01",
+          "off": "00",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 3,
+          "logicalOffset": "3DFF10",
+          "section": 21,
+          "sectionOffset": "227F10"
+        }
+      ]
+    },
+    {
+      "name": "--99 Item Amount",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8344FF15",
+          "on": "01",
+          "off": "00",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 3,
+          "logicalOffset": "3DFF15",
+          "section": 21,
+          "sectionOffset": "227F15"
+        }
+      ]
+    },
+    {
+      "name": "--Max Walk Speed",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8344FF1A",
+          "on": "01",
+          "off": "00",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 3,
+          "logicalOffset": "3DFF1A",
+          "section": 21,
+          "sectionOffset": "227F1A"
+        }
+      ]
+    },
+    {
+      "name": "--Max Run Speed",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8344FF1F",
+          "on": "01",
+          "off": "00",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 3,
+          "logicalOffset": "3DFF1F",
+          "section": 21,
+          "sectionOffset": "227F1F"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}
