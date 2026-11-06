@@ -122,6 +122,13 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-11-06 | ADDED | PPSA08045 | 01.004.000 | [The Knight Witch](https://hencheats.vercel.app/game/PPSA08045/01.004.000) |
+| 2026-11-06 | ADDED | PPSA16626 | 01.014.000 | [Achilles: Legends Untold](https://hencheats.vercel.app/game/PPSA16626/01.014.000) |
+| 2026-11-06 | ADDED | PPSA16833 | 01.010.000 | [LEGO Batman: Legacy of the Dark Knight](https://hencheats.vercel.app/game/PPSA16833/01.010.000) |
+| 2026-11-06 | ADDED | PPSA25991 | 01.002.000 | [Senua's Saga: Hellblade II](https://hencheats.vercel.app/game/PPSA25991/01.002.000) |
+| 2026-11-06 | ADDED | PPSA29617 | 01.001.004 | [Kusan: City of Wolves](https://hencheats.vercel.app/game/PPSA29617/01.001.004) |
+| 2026-11-06 | ADDED | PPSA32193 | 01.100.000 | [The Adventures of Elliot: The Millennium Tales](https://hencheats.vercel.app/game/PPSA32193/01.100.000) |
+| 2026-11-06 | ADDED | PPSA32559 | 02.000.005 | [Abyssus](https://hencheats.vercel.app/game/PPSA32559/02.000.005) |
 | 2026-11-05 | ADDED | PPSA06081 | 01.000.000 | [Totally Accurate Battle Simulator](https://hencheats.vercel.app/game/PPSA06081/01.000.000) |
 | 2026-11-05 | ADDED | PPSA14363 | 03.000.000 | [Metal Gear Solid - Master Collection Version](https://hencheats.vercel.app/game/PPSA14363/03.000.000) |
 | 2026-11-05 | ADDED | PPSA15687 | 01.005.000 | [Death or Treat](https://hencheats.vercel.app/game/PPSA15687/01.005.000) |
