@@ -122,6 +122,7 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-11-07 | ADDED | PPSA18054 | 01.000.003 | [Star Wars Zero Company](https://hencheats.vercel.app/game/PPSA18054/01.000.003) |
 | 2026-11-07 | ADDED | CUSA12824 | 01.06 | [Hogwarts Legacy](https://hencheats.vercel.app/game/CUSA12824/01.06) |
 | 2026-11-07 | ADDED | PPSA16280 | 01.380.000 | [Ultros](https://hencheats.vercel.app/game/PPSA16280/01.380.000) |
 | 2026-11-06 | ADDED | PPSA08045 | 01.004.000 | [The Knight Witch](https://hencheats.vercel.app/game/PPSA08045/01.004.000) |

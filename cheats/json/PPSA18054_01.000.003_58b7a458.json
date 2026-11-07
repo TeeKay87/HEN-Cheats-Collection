@@ -1,0 +1,775 @@
+{
+  "name": "Star Wars Zero Company",
+  "id": "PPSA18054",
+  "version": "01.000.003",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Master Code",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "D30BF02",
+          "on": "00004040",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "38FF02",
+          "section": 6,
+          "sectionOffset": "357F02"
+        },
+        {
+          "offset": "D30BF07",
+          "on": "9F860100",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "38FF07",
+          "section": 6,
+          "sectionOffset": "357F07"
+        },
+        {
+          "offset": "D30BF0C",
+          "on": "64000000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "38FF0C",
+          "section": 6,
+          "sectionOffset": "357F0C"
+        },
+        {
+          "offset": "D30BF11",
+          "on": "E7030000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "38FF11",
+          "section": 6,
+          "sectionOffset": "357F11"
+        },
+        {
+          "offset": "D30BF16",
+          "on": "E7030000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "38FF16",
+          "section": 6,
+          "sectionOffset": "357F16"
+        },
+        {
+          "offset": "801EC8DE",
+          "on": "9C505152415041514152803D11F6118D010F8535050000488B050C870F8D4885C00F842505000048A9070000000F85190500004C8B40104D85C00F840C050000",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "4408DE",
+          "section": 13,
+          "sectionOffset": "4408DE"
+        },
+        {
+          "offset": "801EC91E",
+          "on": "49F7C0070000000F85FF04000041817858B80100000F8CF1040000448B400C4585C00F88E40400004C8D0D03D20F8D453B41140F8DD30400004D8B094D85C90F",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "44091E",
+          "section": 13,
+          "sectionOffset": "44091E"
+        },
+        {
+          "offset": "801EC95E",
+          "on": "84C70400004589C241C1EA104F8B0CD14D85C90F84B30400004181E0FFFF00004D6BC0184D01C14939010F859C04000041F74108000020BC0F858E040000488B",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "44095E",
+          "section": 13,
+          "sectionOffset": "44095E"
+        },
+        {
+          "offset": "801EC99E",
+          "on": "80B00100004885C00F847E04000048A9070000000F85720400004C8B40104D85C00F846504000049F7C0070000000F855804000041817858A00300000F8C4A04",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "44099E",
+          "section": 13,
+          "sectionOffset": "44099E"
+        },
+        {
+          "offset": "801EC9DE",
+          "on": "0000448B400C4585C00F883D0400004C8D0D5CD10F8D453B41140F8D2C0400004D8B094D85C90F84200400004589C241C1EA104F8B0CD14D85C90F840C040000",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "4409DE",
+          "section": 13,
+          "sectionOffset": "4409DE"
+        },
+        {
+          "offset": "801ECA1E",
+          "on": "4181E0FFFF00004D6BC0184D01C14939010F85F503000041F74108000020BC0F85E703000083B898030000000F8EDA030000488B80900300004885C00F84CA03",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "440A1E",
+          "section": 13,
+          "sectionOffset": "440A1E"
+        },
+        {
+          "offset": "801ECA5E",
+          "on": "0000488B004885C00F84BE03000048A9070000000F85B20300004C8B40104D85C00F84A503000049F7C0070000000F859803000041817858300400000F8C8A03",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "440A5E",
+          "section": 13,
+          "sectionOffset": "440A5E"
+        },
+        {
+          "offset": "801ECA9E",
+          "on": "0000448B400C4585C00F887D0300004C8D0D9CD00F8D453B41140F8D6C0300004D8B094D85C90F84600300004589C241C1EA104F8B0CD14D85C90F844C030000",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "440A9E",
+          "section": 13,
+          "sectionOffset": "440A9E"
+        },
+        {
+          "offset": "801ECADE",
+          "on": "4181E0FFFF00004D6BC0184D01C14939010F853503000041F74108000020BC0F85270300004C8D0D664B7B8C4C39080F8517030000488B80000400004885C00F",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "440ADE",
+          "section": 13,
+          "sectionOffset": "440ADE"
+        },
+        {
+          "offset": "801ECB1E",
+          "on": "840703000048A9070000000F85FB0200004C8B40104D85C00F84EE02000049F7C0070000000F85E102000041817858500300000F8CD3020000448B400C4585C0",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "440B1E",
+          "section": 13,
+          "sectionOffset": "440B1E"
+        },
+        {
+          "offset": "801ECB5E",
+          "on": "0F88C60200004C8D0DE5CF0F8D453B41140F8DB50200004D8B094D85C90F84A90200004589C241C1EA104F8B0CD14D85C90F84950200004181E0FFFF00004D6B",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "440B5E",
+          "section": 13,
+          "sectionOffset": "440B5E"
+        },
+        {
+          "offset": "801ECB9E",
+          "on": "C0184D01C14939010F857E02000041F74108000020BC0F85700200008B904803000085D20F8E6202000083FA080F8F59020000488B88400300004885C90F8449",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "440B9E",
+          "section": 13,
+          "sectionOffset": "440B9E"
+        },
+        {
+          "offset": "801ECBDE",
+          "on": "02000048F7C1070000000F853C020000488B014885C00F842402000048A9070000000F85180200004C8B40104D85C00F840B02000049F7C0070000000F85FE01",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "440BDE",
+          "section": 13,
+          "sectionOffset": "440BDE"
+        },
+        {
+          "offset": "801ECC1E",
+          "on": "000041817858F00900000F8CF0010000448B400C4585C00F88E30100004C8D0D0ECF0F8D453B41140F8DD20100004D8B094D85C90F84C60100004589C241C1EA",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "440C1E",
+          "section": 13,
+          "sectionOffset": "440C1E"
+        },
+        {
+          "offset": "801ECC5E",
+          "on": "104F8B0CD14D85C90F84B20100004181E0FFFF00004D6BC0184D01C14939010F859B01000041F74108000020BC0F858D010000488B80E80900004885C00F847D",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "440C5E",
+          "section": 13,
+          "sectionOffset": "440C5E"
+        },
+        {
+          "offset": "801ECC9E",
+          "on": "01000048A9070000000F85710100004C8B40104D85C00F846401000049F7C0070000000F855701000041817858F01000000F8C49010000448B400C4585C00F88",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "440C9E",
+          "section": 13,
+          "sectionOffset": "440C9E"
+        },
+        {
+          "offset": "801ECCDE",
+          "on": "3C0100004C8D0D67CE0F8D453B41140F8D2B0100004D8B094D85C90F841F0100004589C241C1EA104F8B0CD14D85C90F840B0100004181E0FFFF00004D6BC018",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "440CDE",
+          "section": 13,
+          "sectionOffset": "440CDE"
+        },
+        {
+          "offset": "801ECD1E",
+          "on": "4D01C14939010F85F400000041F74108000020BC0F85E600000083B8E8100000030F8CD9000000488B80E01000004885C00F84C9000000488B40104885C00F84",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "440D1E",
+          "section": 13,
+          "sectionOffset": "440D1E"
+        },
+        {
+          "offset": "801ECD5E",
+          "on": "BC00000048A9070000000F85B00000004C8B40104D85C00F84A300000049F7C0070000000F859600000041817858180100000F8C88000000448B400C4585C078",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "440D5E",
+          "section": 13,
+          "sectionOffset": "440D5E"
+        },
+        {
+          "offset": "801ECD9E",
+          "on": "7F4C8D0DAACD0F8D453B41147D724D8B094D85C9746A4589C241C1EA104F8B0CD14D85C9745A4181E0FFFF00004D6BC0184D01C1493901754741F74108000020",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "440D9E",
+          "section": 13,
+          "sectionOffset": "440D9E"
+        },
+        {
+          "offset": "801ECDDE",
+          "on": "BC753DC780C000000000000000C780C400000000000000C780100100000000803FC780140100000000803F448B80B4000000448980A0000000448980A4000000",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "440DDE",
+          "section": 13,
+          "sectionOffset": "440DDE"
+        },
+        {
+          "offset": "801ECE1E",
+          "on": "4883C108FFCA0F85C4FDFFFF803DD0F0118D010F8536050000488B05CA810F8D4885C00F842605000048A9070000000F851A0500004C8B40104D85C00F840D05",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "440E1E",
+          "section": 13,
+          "sectionOffset": "440E1E"
+        },
+        {
+          "offset": "801ECE5E",
+          "on": "000049F7C0070000000F850005000041817858B80100000F8CF2040000448B400C4585C00F88E50400004C8D0DC1CC0F8D453B41140F8DD40400004D8B094D85",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "440E5E",
+          "section": 13,
+          "sectionOffset": "440E5E"
+        },
+        {
+          "offset": "801ECE9E",
+          "on": "C90F84C80400004589C241C1EA104F8B0CD14D85C90F84B40400004181E0FFFF00004D6BC0184D01C14939010F859D04000041F74108000020BC0F858F040000",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "440E9E",
+          "section": 13,
+          "sectionOffset": "440E9E"
+        },
+        {
+          "offset": "801ECEDE",
+          "on": "488B80B00100004885C00F847F04000048A9070000000F85730400004C8B40104D85C00F846604000049F7C0070000000F855904000041817858A00300000F8C",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "440EDE",
+          "section": 13,
+          "sectionOffset": "440EDE"
+        },
+        {
+          "offset": "801ECF1E",
+          "on": "4B040000448B400C4585C00F883E0400004C8D0D1ACC0F8D453B41140F8D2D0400004D8B094D85C90F84210400004589C241C1EA104F8B0CD14D85C90F840D04",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "440F1E",
+          "section": 13,
+          "sectionOffset": "440F1E"
+        },
+        {
+          "offset": "801ECF5E",
+          "on": "00004181E0FFFF00004D6BC0184D01C14939010F85F603000041F74108000020BC0F85E803000083B898030000000F8EDB030000488B80900300004885C00F84",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "440F5E",
+          "section": 13,
+          "sectionOffset": "440F5E"
+        },
+        {
+          "offset": "801ECF9E",
+          "on": "CB030000488B004885C00F84BF03000048A9070000000F85B30300004C8B40104D85C00F84A603000049F7C0070000000F859903000041817858300400000F8C",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "440F9E",
+          "section": 13,
+          "sectionOffset": "440F9E"
+        },
+        {
+          "offset": "801ECFDE",
+          "on": "8B030000448B400C4585C00F887E0300004C8D0D5ACB0F8D453B41140F8D6D0300004D8B094D85C90F84610300004589C241C1EA104F8B0CD14D85C90F844D03",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "440FDE",
+          "section": 13,
+          "sectionOffset": "440FDE"
+        },
+        {
+          "offset": "801ED01E",
+          "on": "00004181E0FFFF00004D6BC0184D01C14939010F853603000041F74108000020BC0F85280300004C8D0D24467B8C4C39080F85180300004C8B80280400004D85",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "44101E",
+          "section": 13,
+          "sectionOffset": "44101E"
+        },
+        {
+          "offset": "801ED05E",
+          "on": "C00F84080300004C3B80480300000F85FB020000488B80000400004885C00F84EB02000048A9070000000F85DF0200004C8B40104D85C00F84D202000049F7C0",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "44105E",
+          "section": 13,
+          "sectionOffset": "44105E"
+        },
+        {
+          "offset": "801ED09E",
+          "on": "070000000F85C502000041817858500300000F8CB7020000448B400C4585C00F88AA0200004C8D0D86CA0F8D453B41140F8D990200004D8B094D85C90F848D02",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "44109E",
+          "section": 13,
+          "sectionOffset": "44109E"
+        },
+        {
+          "offset": "801ED0DE",
+          "on": "00004589C241C1EA104F8B0CD14D85C90F84790200004181E0FFFF00004D6BC0184D01C14939010F856202000041F74108000020BC0F85540200008B90480300",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "4410DE",
+          "section": 13,
+          "sectionOffset": "4410DE"
+        },
+        {
+          "offset": "801ED11E",
+          "on": "0085D20F8E4602000083FA080F8F3D020000488B88400300004885C90F842D02000048F7C1070000000F8520020000488B014885C00F840802000048A9070000",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "44111E",
+          "section": 13,
+          "sectionOffset": "44111E"
+        },
+        {
+          "offset": "801ED15E",
+          "on": "000F85FC0100004C8B40104D85C00F84EF01000049F7C0070000000F85E201000041817858F00900000F8CD4010000448B400C4585C00F88C70100004C8D0DAF",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "44115E",
+          "section": 13,
+          "sectionOffset": "44115E"
+        },
+        {
+          "offset": "801ED19E",
+          "on": "C90F8D453B41140F8DB60100004D8B094D85C90F84AA0100004589C241C1EA104F8B0CD14D85C90F84960100004181E0FFFF00004D6BC0184D01C14939010F85",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "44119E",
+          "section": 13,
+          "sectionOffset": "44119E"
+        },
+        {
+          "offset": "801ED1DE",
+          "on": "7F01000041F74108000020BC0F8571010000488B80E80900004885C00F846101000048A9070000000F85550100004C8B40104D85C00F844801000049F7C00700",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "4411DE",
+          "section": 13,
+          "sectionOffset": "4411DE"
+        },
+        {
+          "offset": "801ED21E",
+          "on": "00000F853B01000041817858F01000000F8C2D010000448B400C4585C00F88200100004C8D0D08C90F8D453B41140F8D0F0100004D8B094D85C90F8403010000",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "44121E",
+          "section": 13,
+          "sectionOffset": "44121E"
+        },
+        {
+          "offset": "801ED25E",
+          "on": "4589C241C1EA104F8B0CD14D85C90F84EF0000004181E0FFFF00004D6BC0184D01C14939010F85D800000041F74108000020BC0F85CA00000083B8E810000002",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "44125E",
+          "section": 13,
+          "sectionOffset": "44125E"
+        },
+        {
+          "offset": "801ED29E",
+          "on": "0F8CBD000000488B80E01000004885C00F84AD000000488B40084885C00F84A000000048A9070000000F85940000004C8B40104D85C00F848700000049F7C007",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "44129E",
+          "section": 13,
+          "sectionOffset": "44129E"
+        },
+        {
+          "offset": "801ED2DE",
+          "on": "000000757E41817858A00000007C74448B400C4585C0786B4C8D0D53C80F8D453B41147D5E4D8B094D85C974564589C241C1EA104F8B0CD14D85C974464181E0",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "4412DE",
+          "section": 13,
+          "sectionOffset": "4412DE"
+        },
+        {
+          "offset": "801ED31E",
+          "on": "FFFF00004D6BC0184D01C1493901753341F74108000020BC7529448B05C3EB118D448980880000004489808C00000041B80000803F448980980000004489809C",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "44131E",
+          "section": 13,
+          "sectionOffset": "44131E"
+        },
+        {
+          "offset": "801ED35E",
+          "on": "0000004883C108FFCA0F85E0FDFFFF8A0593EB118D0A0592EB118D0A0591EB118D0A0590EB118D84C00F84FD030000488B05747C0F8D4885C00F84ED03000048",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "44135E",
+          "section": 13,
+          "sectionOffset": "44135E"
+        },
+        {
+          "offset": "801ED39E",
+          "on": "A9070000000F85E10300004C8B40104D85C00F84D403000049F7C0070000000F85C703000041817858B80100000F8CB9030000448B400C4585C00F88AC030000",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "44139E",
+          "section": 13,
+          "sectionOffset": "44139E"
+        },
+        {
+          "offset": "801ED3DE",
+          "on": "4C8D0D6BC70F8D453B41140F8D9B0300004D8B094D85C90F848F0300004589C241C1EA104F8B0CD14D85C90F847B0300004181E0FFFF00004D6BC0184D01C149",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "4413DE",
+          "section": 13,
+          "sectionOffset": "4413DE"
+        },
+        {
+          "offset": "801ED41E",
+          "on": "39010F856403000041F74108000020BC0F8556030000488B80B00100004885C00F844603000048A9070000000F853A0300004C8B40104D85C00F842D03000049",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "44141E",
+          "section": 13,
+          "sectionOffset": "44141E"
+        },
+        {
+          "offset": "801ED45E",
+          "on": "F7C0070000000F852003000041817858A00300000F8C12030000448B400C4585C00F88050300004C8D0DC4C60F8D453B41140F8DF40200004D8B094D85C90F84",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "44145E",
+          "section": 13,
+          "sectionOffset": "44145E"
+        },
+        {
+          "offset": "801ED49E",
+          "on": "E80200004589C241C1EA104F8B0CD14D85C90F84D40200004181E0FFFF00004D6BC0184D01C14939010F85BD02000041F74108000020BC0F85AF02000083B898",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "44149E",
+          "section": 13,
+          "sectionOffset": "44149E"
+        },
+        {
+          "offset": "801ED4DE",
+          "on": "030000000F8EA2020000488B80900300004885C00F8492020000488B004885C00F848602000048A9070000000F857A0200004C8B40104D85C00F846D02000049",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "4414DE",
+          "section": 13,
+          "sectionOffset": "4414DE"
+        },
+        {
+          "offset": "801ED51E",
+          "on": "F7C0070000000F856002000041817858B80300000F8C52020000448B400C4585C00F88450200004C8D0D04C60F8D453B41140F8D340200004D8B094D85C90F84",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "44151E",
+          "section": 13,
+          "sectionOffset": "44151E"
+        },
+        {
+          "offset": "801ED55E",
+          "on": "280200004589C241C1EA104F8B0CD14D85C90F84140200004181E0FFFF00004D6BC0184D01C14939010F85FD01000041F74108000020BC0F85EF0100004C8D0D",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "44155E",
+          "section": 13,
+          "sectionOffset": "44155E"
+        },
+        {
+          "offset": "801ED59E",
+          "on": "A6CA7A8C4C39080F85DF010000488B80B00300004885C00F84CF01000048A9070000000F85C30100004C8B40104D85C00F84B601000049F7C0070000000F85A9",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "44159E",
+          "section": 13,
+          "sectionOffset": "44159E"
+        },
+        {
+          "offset": "801ED5DE",
+          "on": "01000041817858880300000F8C9B010000448B400C4585C00F888E0100004C8D0D4DC50F8D453B41140F8D7D0100004D8B094D85C90F84710100004589C241C1",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "4415DE",
+          "section": 13,
+          "sectionOffset": "4415DE"
+        },
+        {
+          "offset": "801ED61E",
+          "on": "EA104F8B0CD14D85C90F845D0100004181E0FFFF00004D6BC0184D01C14939010F854601000041F74108000020BC0F85380100004C8D0D5FA47E8C4C39080F85",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "44161E",
+          "section": 13,
+          "sectionOffset": "44161E"
+        },
+        {
+          "offset": "801ED65E",
+          "on": "28010000488B88180300004885C90F841801000083B820030000040F8C0B010000488B90780300004885D20F84FB000000448B90800300004181FA000200000F",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "44165E",
+          "section": 13,
+          "sectionOffset": "44165E"
+        },
+        {
+          "offset": "801ED69E",
+          "on": "87E7000000803D5CE8118D0175304C8B014D85C074284989D14489D085C0741E4D394120750D448B053CE8118D45894150EB0B4981C1C8000000FFC875E2803D",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "44169E",
+          "section": 13,
+          "sectionOffset": "44169E"
+        },
+        {
+          "offset": "801ED6DE",
+          "on": "28E8118D0175314C8B41184D85C074284989D14489D085C0741E4D394120750D448B0507E8118D45894150EB0B4981C1C8000000FFC875E2803DF3E7118D0175",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "4416DE",
+          "section": 13,
+          "sectionOffset": "4416DE"
+        },
+        {
+          "offset": "801ED71E",
+          "on": "314C8B41304D85C074284989D14489D085C0741E4D394120750D448B05D2E7118D45894150EB0B4981C1C8000000FFC875E2803DBEE7118D0175314C8B41484D",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "44171E",
+          "section": 13,
+          "sectionOffset": "44171E"
+        },
+        {
+          "offset": "801ED75E",
+          "on": "85C074284989D14489D085C0741E4D394120750D448B059DE7118D45894150EB0B4981C1C8000000FFC875E2415A415941585A59589D554889E54157E98701E0",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "44175E",
+          "section": 13,
+          "sectionOffset": "44175E"
+        },
+        {
+          "offset": "801ED79E",
+          "on": "80",
+          "off": "00",
+          "sectionName": "libSceNpCppWebApi.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "44179E",
+          "section": 13,
+          "sectionOffset": "44179E"
+        },
+        {
+          "offset": "FED920",
+          "on": "E9B9EF1F7F90",
+          "off": "554889E54157"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Hp Party",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "D30BF00",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "38FF00",
+          "section": 6,
+          "sectionOffset": "357F00"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Accions",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "D30BF01",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "38FF01",
+          "section": 6,
+          "sectionOffset": "357F01"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Credits",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "D30BF06",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "38FF06",
+          "section": 6,
+          "sectionOffset": "357F06"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Intelligence",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "D30BF0B",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "38FF0B",
+          "section": 6,
+          "sectionOffset": "357F0B"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Resources",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "D30BF10",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "38FF10",
+          "section": 6,
+          "sectionOffset": "357F10"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Contacts",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "D30BF15",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "38FF15",
+          "section": 6,
+          "sectionOffset": "357F15"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}
