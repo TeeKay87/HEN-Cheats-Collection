@@ -1,0 +1,191 @@
+{
+  "name": "Silent Hill: Townfall",
+  "id": "PPSA33286",
+  "version": "02.003.000",
+  "process": "eboot.bin",
+  "credits": [
+    "k4k0gh0st"
+  ],
+  "mods": [
+    {
+      "name": "Infinite Health (Player)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "747A040",
+          "on": "C5FA5F877C060000E993E223FD",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "893EE08",
+          "on": "40A0870700000000",
+          "off": "E082AB0400000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo (no ammo removed)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "46A85A1",
+          "on": "31D2",
+          "off": "F7DA"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Weapon Durability",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "46A99B4",
+          "on": "0F1F440000",
+          "off": "C5FA5C459C"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Items (items never removed)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "46A8613",
+          "on": "B1010F1F00",
+          "off": "85D20F9EC1"
+        },
+        {
+          "offset": "46A861C",
+          "on": "B001",
+          "off": "31C0"
+        }
+      ]
+    },
+    {
+      "name": "Hidden from AI (enter a hiding spot once)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "46BC58A",
+          "on": "0F1F440000",
+          "off": "4584FF7418"
+        }
+      ]
+    },
+    {
+      "name": "Ending: Justice (good)",
+      "type": "checkbox",
+      "description": "Any score counts as Justice. Sets the game's ending thresholds (GoodEnding/BadEnding) through the BPGlobalVariableManager pointer. Enable only one Ending cheat. WHEN: load the last autosave, the one right after the beach scene where you meet Richard (final chapter), enable this cheat, then play to the end and keep it on until the ending plays. If the ending score was already computed (later save), load that earlier autosave.",
+      "memory": [
+        {
+          "offset": "747A800",
+          "on": "8B87380A0000488B0D7B0411024885C97414C78184030000F2D8FFFFC78188030000F1D8FFFFE94F5D1BFD",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4630574",
+          "on": "E987A2E40290",
+          "off": "8B87380A0000"
+        }
+      ]
+    },
+    {
+      "name": "Ending: Forever (normal)",
+      "type": "checkbox",
+      "description": "Any score counts as Forever. Sets the game's ending thresholds (GoodEnding/BadEnding) through the BPGlobalVariableManager pointer. Enable only one Ending cheat. WHEN: load the last autosave, the one right after the beach scene where you meet Richard (final chapter), enable this cheat, then play to the end and keep it on until the ending plays. If the ending score was already computed (later save), load that earlier autosave.",
+      "memory": [
+        {
+          "offset": "747A840",
+          "on": "8B87380A0000488B0D3B0411024885C97414C781840300000F270000C78188030000F1D8FFFFE90F5D1BFD",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4630574",
+          "on": "E9C7A2E40290",
+          "off": "8B87380A0000"
+        }
+      ]
+    },
+    {
+      "name": "Ending: Abandoned (bad)",
+      "type": "checkbox",
+      "description": "Any score counts as Abandoned. Sets the game's ending thresholds (GoodEnding/BadEnding) through the BPGlobalVariableManager pointer. Enable only one Ending cheat. WHEN: load the last autosave, the one right after the beach scene where you meet Richard (final chapter), enable this cheat, then play to the end and keep it on until the ending plays. If the ending score was already computed (later save), load that earlier autosave.",
+      "memory": [
+        {
+          "offset": "747A880",
+          "on": "8B87380A0000488B0DFB0311024885C97414C781840300000F270000C781880300000E270000E9CF5C1BFD",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4630574",
+          "on": "E907A3E40290",
+          "off": "8B87380A0000"
+        }
+      ]
+    },
+    {
+      "name": "Unlock All Endings (marks every ending as unlocked)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "483810A",
+          "on": "B0010F1F4000",
+          "off": "0FA3F00F92C0"
+        }
+      ]
+    },
+    {
+      "name": "Give All Weapons + Pistol-3000 + Ammo (enable, heal or take damage, disable)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "747A400",
+          "on": "57565251415041515341544883EC28C5FA11442420488B9F180900004885DB0F84A8020000488D3C24BE04000000E87D0031FD4889DF488D3424BA0100000031C9B8000080BFC5F96EC041B8FFFFFFFF41B901000000E815CD22FD488B3C244885FF7405E827D6C3F8488D3C24BE08000000E8390031FD4889DF488D3424BA0100000031C9B8000080BFC5F96EC041B8FFFFFFFF41B901000000E8D1CC22FD488B3C244885FF7405E8E3D5C3F8488D3C24BE05000000E8F5FF30FD4889DF488D3424BA0100000031",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "747A4C8",
+          "on": "C9B8000080BFC5F96EC041B8FFFFFFFF41B901000000E88DCC22FD488B3C244885FF7405E89FD5C3F8488D3C24BE09000000E8B1FF30FD4889DF488D3424BA0100000031C9B8000080BFC5F96EC041B8FFFFFFFF41B901000000E849CC22FD488B3C244885FF7405E85BD5C3F8488D3C24BE07000000E86DFF30FD4889DF488D3424BA0100000031C9B8000080BFC5F96EC041B8FFFFFFFF41B901000000E805CC22FD488B3C244885FF7405E817D5C3F8488D3C24BE08000000E8490031FD4889DF488D3424BA01",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "747A590",
+          "on": "00000031C9B8000080BFC5F96EC041B8FFFFFFFF41B901000000E8C1CB22FD488B3C244885FF7405E8D3D4C3F8488D3C24BE09000000E8050031FD4889DF488D3424BA0100000031C9B8000080BFC5F96EC041B8FFFFFFFF41B901000000E87DCB22FD488B3C244885FF7405E88FD4C3F8488D3C24BE0A000000E8A1FE30FD4889DF488D3424BA3200000031C9B8000080BFC5F96EC041B8FFFFFFFF41B901000000E839CB22FD488B3C244885FF7405E84BD4C3F8488D3C24BE0C000000E85DFE30FD4889DF488D",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "747A658",
+          "on": "3424BA1400000031C9B8000080BFC5F96EC041B8FFFFFFFF41B901000000E8F5CA22FD488B3C244885FF7405E807D4C3F8488D3C24BE0B000000E819FE30FD4889DF488D3424BA0A00000031C9B8000080BFC5F96EC041B8FFFFFFFF41B901000000E8B1CA22FD488B3C244885FF7405E8C3D3C3F8C5FA104424204883C428415C5B41594158595A5E5FE9F9BC21FD",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "46B82FE",
+          "on": "E8FD20DC02",
+          "off": "E8DDE0FDFF"
+        }
+      ]
+    },
+    {
+      "name": "Completion Time = 1 hour (trophy: finish under 4h)",
+      "type": "checkbox",
+      "description": "Time played getters (current playthrough, record, total) return 3600 s. Enable before the final sequence and keep it on until the results screen / trophy.",
+      "memory": [
+        {
+          "offset": "45F5C34",
+          "on": "B80020AC4048C1E020488902",
+          "off": "C5FB108750040000C5FB1102"
+        },
+        {
+          "offset": "45F5C94",
+          "on": "B80020AC4048C1E020488902",
+          "off": "C5FB108798040000C5FB1102"
+        },
+        {
+          "offset": "45F67E4",
+          "on": "B80020AC4048C1E020488902",
+          "off": "C5FB1087D8020000C5FB1102"
+        }
+      ]
+    }
+  ]
+}

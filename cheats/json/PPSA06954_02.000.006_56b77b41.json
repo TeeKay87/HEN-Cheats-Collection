@@ -1,0 +1,102 @@
+{
+  "name": "Granblue Fantasy: Relink",
+  "id": "PPSA06954",
+  "version": "02.000.006",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "infi health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2AC9430",
+          "on": "483B7710720548897710C3C3",
+          "off": "48897710C3CCCCCCCCCCCCCC"
+        }
+      ]
+    },
+    {
+      "name": "No Rupie Loss",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "42BB380",
+          "on": "413B04247204418904244C89E7E94608BBFC",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "E6BBD1",
+          "on": "E9AAF744039090",
+          "off": "418904244C89E7"
+        }
+      ]
+    },
+    {
+      "name": "Materials 999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "42BB3A0",
+          "on": "C74004E70300004C8D7804E933B0B5FC",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "E163DC",
+          "on": "E9BF4F4A039090",
+          "off": "0168044C8D7804"
+        }
+      ]
+    },
+    {
+      "name": "Mastery Points 9999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "42BB3B0",
+          "on": "41C7070F2700004C89FFE919D478FC",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "A487D2",
+          "on": "E9D92B870390",
+          "off": "4189074C89FF"
+        }
+      ]
+    },
+    {
+      "name": "Unlock All Treasure and Key Items (999)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "42BB3D0",
+          "on": "837D04007507C74504E7030000E919B7B1FC",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "DD6AF5",
+          "on": "E9D6484E0390",
+          "off": "837D040074E5"
+        }
+      ]
+    },
+    {
+      "name": "Character Level 100",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "42BB3C0",
+          "on": "41C707640000004C89FFE9AFB378FC",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "A46778",
+          "on": "E9434C870390",
+          "off": "4589274C89FF"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "allexander.xv"
+  ]
+}

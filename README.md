@@ -122,6 +122,9 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-11-07 | ADDED | PPSA06954 | 02.000.006 | [Granblue Fantasy: Relink](https://hencheats.vercel.app/game/PPSA06954/02.000.006) |
+| 2026-11-07 | UPDATE | PPSA14363 | 03.000.000 | [Metal Gear Solid - Master Collection Version](https://hencheats.vercel.app/game/PPSA14363/03.000.000) |
+| 2026-11-07 | UPDATE | PPSA33286 | 02.003.000 | [Silent Hill: Townfall](https://hencheats.vercel.app/game/PPSA33286/02.003.000) |
 | 2026-11-07 | ADDED | PPSA18054 | 01.000.003 | [Star Wars Zero Company](https://hencheats.vercel.app/game/PPSA18054/01.000.003) |
 | 2026-11-07 | ADDED | CUSA12824 | 01.06 | [Hogwarts Legacy](https://hencheats.vercel.app/game/CUSA12824/01.06) |
 | 2026-11-07 | ADDED | PPSA16280 | 01.380.000 | [Ultros](https://hencheats.vercel.app/game/PPSA16280/01.380.000) |
