@@ -24,6 +24,19 @@ body:
       value: |
         ## Problem
 
+  - type: checkboxes
+    id: ps5_cheat_tools
+    attributes:
+      label: Which PS5 cheat tools did you use?
+      description: Select all tools you tested the affected cheat with.
+      options:
+        - label: CheatRunner
+        - label: etaHEN
+        - label: Kylin Core
+        - label: onionHEN
+        - label: PHU Game Tools
+        - label: PS5 Upload
+
   - type: textarea
     id: affected_cheats
     attributes:
