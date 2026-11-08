@@ -122,6 +122,9 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-11-09 | ADDED | CUSA12089 | 02.01 | [Shadow of the Tomb Raider](https://hencheats.vercel.app/game/CUSA12089/02.01) |
+| 2026-11-09 | ADDED | CUSA20602 | 01.28 | [Spelunky 2](https://hencheats.vercel.app/game/CUSA20602/01.28) |
+| 2026-11-09 | UPDATE | PPSA25991 | 01.002.000 | [Senua's Saga: Hellblade II](https://hencheats.vercel.app/game/PPSA25991/01.002.000) |
 | 2026-11-07 | ADDED | PPSA06954 | 02.000.006 | [Granblue Fantasy: Relink](https://hencheats.vercel.app/game/PPSA06954/02.000.006) |
 | 2026-11-07 | UPDATE | PPSA14363 | 03.000.000 | [Metal Gear Solid - Master Collection Version](https://hencheats.vercel.app/game/PPSA14363/03.000.000) |
 | 2026-11-07 | UPDATE | PPSA33286 | 02.003.000 | [Silent Hill: Townfall](https://hencheats.vercel.app/game/PPSA33286/02.003.000) |
