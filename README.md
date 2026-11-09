@@ -122,9 +122,29 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-11-09 | UPDATE | CUSA20602 | 01.28 | [Spelunky 2](https://hencheats.vercel.app/game/CUSA20602/01.28) |
+| 2026-11-09 | UPDATE | CUSA54714 | 01.13 | [Yakuza Kiwami 3 & Dark Ties](https://hencheats.vercel.app/game/CUSA54714/01.13) |
+| 2026-11-09 | UPDATE | PPSA01284 | 03.000.004 | [Returnal](https://hencheats.vercel.app/game/PPSA01284/03.000.004) |
+| 2026-11-09 | UPDATE | PPSA01467 | 01.008.001 | [Marvel's Spider-Man Remastered](https://hencheats.vercel.app/game/PPSA01467/01.008.001) |
+| 2026-11-09 | UPDATE | PPSA01593 | 01.000.010 | [Hogwarts Legacy](https://hencheats.vercel.app/game/PPSA01593/01.000.010) |
+| 2026-11-09 | UPDATE | PPSA01716 | 01.000.027 | [Need for Speed Unbound](https://hencheats.vercel.app/game/PPSA01716/01.000.027) |
+| 2026-11-09 | UPDATE | PPSA02015 | 01.013.000 | [Death Stranding 2: On the Beach](https://hencheats.vercel.app/game/PPSA02015/01.013.000) |
+| 2026-11-09 | UPDATE | PPSA03099 | 01.000.001 | [Dead Island 2](https://hencheats.vercel.app/game/PPSA03099/01.000.001) |
+| 2026-11-09 | UPDATE | PPSA03396 | 01.003.000 | [The Last of Us: Part I](https://hencheats.vercel.app/game/PPSA03396/01.003.000) |
+| 2026-11-09 | UPDATE | PPSA05389 | 01.002.000 | [Uncharted: Legacy of Thieves Collection](https://hencheats.vercel.app/game/PPSA05389/01.002.000) |
+| 2026-11-09 | UPDATE | PPSA06389 | 01.000.000 | [System Shock](https://hencheats.vercel.app/game/PPSA06389/01.000.000) |
+| 2026-11-09 | UPDATE | PPSA08329 | 05.005.000 | [God of War: Ragnarok](https://hencheats.vercel.app/game/PPSA08329/05.005.000) |
+| 2026-11-09 | UPDATE | PPSA08332 | 05.005.000 | [God of War: Ragnarok](https://hencheats.vercel.app/game/PPSA08332/05.005.000) |
+| 2026-11-09 | UPDATE | PPSA08710 | 01.005.000 | [Silent Hill 2](https://hencheats.vercel.app/game/PPSA08710/01.005.000) |
+| 2026-11-09 | UPDATE | PPSA10662 | 01.001.030 | [The Last of Us: Part II Remastered](https://hencheats.vercel.app/game/PPSA10662/01.001.030) |
+| 2026-11-09 | UPDATE | PPSA13195 | 01.014.001 | [Stellar Blade](https://hencheats.vercel.app/game/PPSA13195/01.014.001) |
+| 2026-11-09 | UPDATE | PPSA20396 | 01.019.076 | [Assassin's Creed Shadows](https://hencheats.vercel.app/game/PPSA20396/01.019.076) |
+| 2026-11-09 | UPDATE | PPSA20397 | 01.019.076 | [Assassin's Creed Shadows](https://hencheats.vercel.app/game/PPSA20397/01.019.076) |
+| 2026-11-09 | UPDATE | PPSA25991 | 01.002.000 | [Senua's Saga: Hellblade II](https://hencheats.vercel.app/game/PPSA25991/01.002.000) |
+| 2026-11-09 | UPDATE | PPSA26344 | 01.008.000 | [Ghost of Yotei](https://hencheats.vercel.app/game/PPSA26344/01.008.000) |
+| 2026-11-09 | UPDATE | PPSA34008 | 01.000.010 | [Mortal Shell II](https://hencheats.vercel.app/game/PPSA34008/01.000.010) |
 | 2026-11-09 | ADDED | CUSA12089 | 02.01 | [Shadow of the Tomb Raider](https://hencheats.vercel.app/game/CUSA12089/02.01) |
 | 2026-11-09 | ADDED | CUSA20602 | 01.28 | [Spelunky 2](https://hencheats.vercel.app/game/CUSA20602/01.28) |
-| 2026-11-09 | UPDATE | PPSA25991 | 01.002.000 | [Senua's Saga: Hellblade II](https://hencheats.vercel.app/game/PPSA25991/01.002.000) |
 | 2026-11-07 | ADDED | PPSA06954 | 02.000.006 | [Granblue Fantasy: Relink](https://hencheats.vercel.app/game/PPSA06954/02.000.006) |
 | 2026-11-07 | UPDATE | PPSA14363 | 03.000.000 | [Metal Gear Solid - Master Collection Version](https://hencheats.vercel.app/game/PPSA14363/03.000.000) |
 | 2026-11-07 | UPDATE | PPSA33286 | 02.003.000 | [Silent Hill: Townfall](https://hencheats.vercel.app/game/PPSA33286/02.003.000) |
