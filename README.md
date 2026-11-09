@@ -122,6 +122,7 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-11-09 | ADDED | PPSA15210 | 03.000.005 | [Dragon Ball: Sparking! ZERO](https://hencheats.vercel.app/game/PPSA15210/03.000.005) |
 | 2026-11-09 | UPDATE | CUSA20602 | 01.28 | [Spelunky 2](https://hencheats.vercel.app/game/CUSA20602/01.28) |
 | 2026-11-09 | UPDATE | CUSA54714 | 01.13 | [Yakuza Kiwami 3 & Dark Ties](https://hencheats.vercel.app/game/CUSA54714/01.13) |
 | 2026-11-09 | UPDATE | PPSA01284 | 03.000.004 | [Returnal](https://hencheats.vercel.app/game/PPSA01284/03.000.004) |
