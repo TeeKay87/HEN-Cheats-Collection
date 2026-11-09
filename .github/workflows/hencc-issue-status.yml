@@ -4,6 +4,13 @@
 # GitHub Pages must use Settings > Pages > Source: GitHub Actions.
 name: HENCC - Cheat Issue Status
 
+# CONFIGURATION: Minimum number of DISTINCT GitHub reporters required
+# to automatically flag an individual cheat file.
+# Change only this value (e.g. '1', '2', or '3') and run the workflow.
+# Values must be positive whole numbers; invalid values fail safely.
+env:
+  HENCC_MIN_REPORTERS: '2'
+
 on:
   workflow_dispatch:
   issues:
@@ -81,6 +88,17 @@ jobs:
         with:
           script: |
             const fs = require('fs');
+            // The threshold is configured once at the top of this workflow.
+            const rawMinReporters = process.env.HENCC_MIN_REPORTERS;
+            const minReporters = Number(rawMinReporters);
+            if (!/^[1-9]\d*$/.test(rawMinReporters || '') ||
+                !Number.isSafeInteger(minReporters)) {
+              throw new Error(
+                `Invalid HENCC_MIN_REPORTERS: "${rawMinReporters}". ` +
+                'Set a positive whole number (for example 1, 2 or 3).'
+              );
+            }
+            core.info(`Minimum unique reporters for automatic flagging: ${minReporters}`);
             const label = 'Cheat Issue';
             const markerRegex = /<!--\s*HENCC:\s*([A-Z]{4}[0-9]{5})\/([0-9.]+)\/source:([a-fA-F0-9]{8})\s*-->/;
             const isLabeled = issue =>
@@ -201,7 +219,7 @@ jobs:
               files[fileKey] = {
                 openReports: reports.length,
                 uniqueReporters,
-                issueFlag: uniqueReporters >= 2,
+                issueFlag: uniqueReporters >= minReporters,
                 reportedCheats: Object.fromEntries(
                   [...cheatMap].sort(([a], [b]) => a.localeCompare(b))
                 ),
