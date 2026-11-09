@@ -1,0 +1,248 @@
+# HEN Cheats Collection: published cheat-issue status.
+# Production target: TeeKay87/HEN-Cheats-Collection, default branch master.
+# Add this file as .github/workflows/hencc-issue-status.yml only after approval.
+# GitHub Pages must use Settings > Pages > Source: GitHub Actions.
+name: HENCC - Cheat Issue Status
+
+on:
+  workflow_dispatch:
+  issues:
+    types: [opened, edited, closed, reopened, labeled, unlabeled]
+  # Recompute the entire snapshot in case GitHub missed/delayed an event.
+  schedule:
+    - cron: '17 * * * *'
+
+# Serialise entire generate+deploy cycles. The default single pending slot
+# coalesces bursts; each run reads CURRENT repository data, not stored deltas.
+concurrency:
+  group: hencc-cheat-issue-status-pages
+  cancel-in-progress: false
+
+# Each job receives only the permissions it needs.
+permissions: {}
+
+jobs:
+  label:
+    name: Label new HENCC reports
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    outputs:
+      applied: ${{ steps.apply-label.outputs.applied }}
+    steps:
+      - name: Add Cheat Issue label to new structured report
+        id: apply-label
+        if: github.event_name == 'issues' && github.event.action == 'opened'
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const issue = context.payload.issue;
+            const marker = /<!--\s*HENCC:\s*[A-Z]{4}[0-9]{5}\/[0-9.]+\/source:[a-fA-F0-9]{8}\s*-->/;
+            // Only the dedicated cheat-reporting flow is eligible.
+            // Other issue templates keep their own labels unchanged.
+            // Both supported title prefixes must start at character zero:
+            //   Cheat Issue: ...
+            //   [Cheat Issue] ...
+            const titlePrefix = /^(?:Cheat Issue: |\[Cheat Issue\] )/;
+            const isCheatReport =
+              typeof issue?.title === 'string' &&
+              titlePrefix.test(issue.title) &&
+              marker.test(issue.body || '');
+            if (!isCheatReport) {
+              core.info('Not a structured Cheat Issue report. No label applied.');
+              return;
+            }
+
+            if (!(issue.labels || []).some(label => label.name === 'Cheat Issue')) {
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                labels: ['Cheat Issue']
+              });
+              core.info(`Added Cheat Issue label to #${issue.number}.`);
+            } else {
+              core.info(`Issue #${issue.number} already has the Cheat Issue label.`);
+            }
+            // Used only if GitHub's issue read is temporarily behind our write.
+            core.setOutput('applied', 'true');
+
+  generate:
+    name: Generate issue snapshot
+    needs: label
+    runs-on: ubuntu-latest
+    permissions:
+      issues: read
+    steps:
+      - name: Build complete JSON from current open GitHub issues
+        uses: actions/github-script@v8
+        env:
+          HENCC_NEW_ISSUE_LABELED: ${{ needs.label.outputs.applied }}
+        with:
+          script: |
+            const fs = require('fs');
+            const label = 'Cheat Issue';
+            const markerRegex = /<!--\s*HENCC:\s*([A-Z]{4}[0-9]{5})\/([0-9.]+)\/source:([a-fA-F0-9]{8})\s*-->/;
+            const isLabeled = issue =>
+              (issue.labels || []).some(value =>
+                (typeof value === 'string' ? value : value?.name) === label);
+
+            // GitHub is the sole authoritative report store. Full rebuild
+            // on every event; pagination handles more than 100 reports.
+            const issues = await github.paginate(github.rest.issues.listForRepo, {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: label,
+              per_page: 100
+            });
+
+            // The filtered list can lag behind a newly added label or a
+            // close/edit/reopen/unlabel. A fresh point-read also ensures an
+            // old queued event cannot restore its stale event-body/state.
+            if (context.eventName === 'issues' && context.payload.issue?.number) {
+              const issueNumber = context.payload.issue.number;
+              const {data: current} = await github.rest.issues.get({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issueNumber
+              });
+              const index = issues.findIndex(item => item.number === issueNumber);
+              if (index >= 0) issues.splice(index, 1);
+
+              // Label job runs before this job. Only if an 'opened' event
+              // successfully labeled the new issue do we allow its freshly
+              // fetched issue through a temporarily stale labels response.
+              const justLabeled = context.payload.action === 'opened' &&
+                process.env.HENCC_NEW_ISSUE_LABELED === 'true';
+              const eligible = isLabeled(current) ||
+                (justLabeled && markerRegex.test(current.body || ''));
+
+              if (current.state === 'open' && eligible) {
+                issues.push(current);
+                core.info(`Reconciled current issue #${issueNumber} via GitHub API.`);
+              }
+            }
+
+            // Dedupe the same issue if GitHub returns it more than once.
+            const byNumber = new Map();
+            for (const issue of issues) {
+              if (!issue || issue.pull_request || issue.state !== 'open' ||
+                  !issue.user?.id || !isLabeled(issue)) {
+                // For just-labeled new issues, the per-issue GET may lag.
+                const justLabeledNumber = context.eventName === 'issues' &&
+                  context.payload.action === 'opened' &&
+                  process.env.HENCC_NEW_ISSUE_LABELED === 'true'
+                    ? context.payload.issue?.number : null;
+                if (!issue || issue.pull_request || issue.state !== 'open' ||
+                    !issue.user?.id || issue.number !== justLabeledNumber) continue;
+              }
+              byNumber.set(issue.number, issue);
+            }
+
+            const groups = new Map();
+            for (const issue of byNumber.values()) {
+              const body = (issue.body || '').replace(/\r\n?/g, '\n');
+              const marker = body.match(markerRegex);
+              if (!marker) continue;
+              const fileKey = `${marker[1]}/${marker[2]}/source:${marker[3].toLowerCase()}`;
+
+              const match = body.match(/^### Which cheat\(s\) have problems\?[ \t]*\n([\s\S]*?)(?=^### |$(?![\s\S]))/m);
+              const section = match?.[1] || '';
+              const cheats = new Set();
+              for (const line of section.split('\n')) {
+                // Accept plain bullets and checked GitHub checkbox bullets.
+                // Never count unchecked checkbox entries.
+                const parsed = line.match(/^\s*[-*]\s+(?:\[([xX ])\]\s+)?(.+?)\s*$/);
+                if (!parsed || (parsed[1] && parsed[1].toLowerCase() !== 'x')) continue;
+                const name = parsed[2].trim();
+                if (name) cheats.add(name);
+              }
+
+              if (!groups.has(fileKey)) groups.set(fileKey, []);
+              groups.get(fileKey).push({
+                number: issue.number,
+                authorId: issue.user.id,
+                author: issue.user.login,
+                url: `https://github.com/${context.repo.owner}/${context.repo.repo}/issues/${issue.number}`,
+                cheats: [...cheats]
+              });
+            }
+
+            // Null-prototype dictionary and Map prevent __proto__-style
+            // property collisions when titles/cheat names are user-editable.
+            const files = Object.create(null);
+            for (const [fileKey, reports] of [...groups].sort(([a], [b]) => a.localeCompare(b))) {
+              reports.sort((a, b) => a.number - b.number);
+              const uniqueReporters = new Set(reports.map(item => item.authorId)).size;
+              const cheatMap = new Map();
+              const unclassifiedReports = [];
+              for (const report of reports) {
+                const ref = {number: report.number, author: report.author, url: report.url};
+                if (report.cheats.length === 0) unclassifiedReports.push(ref);
+                for (const name of report.cheats) {
+                  if (!cheatMap.has(name)) cheatMap.set(name, []);
+                  cheatMap.get(name).push(ref);
+                }
+              }
+              files[fileKey] = {
+                openReports: reports.length,
+                uniqueReporters,
+                issueFlag: uniqueReporters >= 2,
+                reportedCheats: Object.fromEntries(
+                  [...cheatMap].sort(([a], [b]) => a.localeCompare(b))
+                ),
+                unclassifiedReports
+              };
+            }
+
+            const snapshot = {
+              schema: 1,
+              generatedUtc: new Date().toISOString(),
+              files
+            };
+            const outputDir = 'public-issue-status';
+            fs.mkdirSync(outputDir, {recursive: true});
+            fs.writeFileSync(
+              `${outputDir}/github-issues.json`,
+              JSON.stringify(snapshot, null, 2) + '\n'
+            );
+            fs.writeFileSync(
+              `${outputDir}/index.html`,
+              '<!doctype html><html lang="en"><head><meta charset="utf-8"><title>HENCC issue status</title></head><body><a href="github-issues.json">Issue status JSON</a></body></html>\n'
+            );
+            fs.writeFileSync(`${outputDir}/.nojekyll`, '');
+            core.info(JSON.stringify({
+              generatedUtc: snapshot.generatedUtc,
+              issueCount: byNumber.size,
+              fileCount: groups.size,
+              flaggedFiles: Object.values(files).filter(file => file.issueFlag).length
+            }));
+
+      - name: Upload debug JSON artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: hencc-issue-snapshot
+          path: public-issue-status/github-issues.json
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: public-issue-status
+
+  deploy:
+    name: Publish snapshot on GitHub Pages
+    needs: generate
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy public JSON
+        id: deployment
+        uses: actions/deploy-pages@v4
