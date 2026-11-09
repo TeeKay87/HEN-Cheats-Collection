@@ -150,13 +150,26 @@ jobs:
               const match = body.match(/^### Which cheat\(s\) have problems\?[ \t]*\n([\s\S]*?)(?=^### |$(?![\s\S]))/m);
               const section = match?.[1] || '';
               const cheats = new Set();
-              for (const line of section.split('\n')) {
-                // Accept plain bullets and checked GitHub checkbox bullets.
-                // Never count unchecked checkbox entries.
-                const parsed = line.match(/^\s*[-*]\s+(?:\[([xX ])\]\s+)?(.+?)\s*$/);
-                if (!parsed || (parsed[1] && parsed[1].toLowerCase() !== 'x')) continue;
-                const name = parsed[2].trim();
-                if (name) cheats.add(name);
+              const contentLines = section.split('\n')
+                .map(line => line.trim()).filter(Boolean);
+              // Only treat a complete, bullet-only section as a structured
+              // selection of cheat names. Older Issue Forms allow free text;
+              // such text can contain troubleshooting bullet lists, which
+              // MUST NOT be misclassified as individual cheats (issue #98).
+              // Unstructured or mixed content remains unclassified without
+              // changing its contribution to file-level reporter counts.
+              const itemRegex = /^[-*]\s+(?:\[([xX ])\]\s+)?(.+?)\s*$/;
+              const structuredList = contentLines.length > 0 &&
+                contentLines.every(line => itemRegex.test(line));
+              if (structuredList) {
+                for (const line of contentLines) {
+                  // Accept plain bullets and checked GitHub checkbox bullets.
+                  // Never count unchecked checkbox entries.
+                  const parsed = line.match(itemRegex);
+                  if (!parsed || (parsed[1] && parsed[1].toLowerCase() !== 'x')) continue;
+                  const name = parsed[2].trim();
+                  if (name) cheats.add(name);
+                }
               }
 
               if (!groups.has(fileKey)) groups.set(fileKey, []);
