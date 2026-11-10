@@ -27,11 +27,12 @@ body:
   - type: checkboxes
     id: ps5_cheat_tools
     attributes:
-      label: Which PS5 cheat tools did you use?
+      label: Which cheat tools did you use?
       description: Select all tools you tested the affected cheat with.
       options:
         - label: CheatRunner
         - label: etaHEN
+        - label: GoldHEN
         - label: Kylin Core
         - label: onionHEN
         - label: PHU Game Tools
