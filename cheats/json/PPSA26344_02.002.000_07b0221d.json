@@ -1,0 +1,496 @@
+{
+  "name": "Ghost of Yotei",
+  "id": "PPSA26344",
+  "version": "02.002.000",
+  "process": "eboot.bin",
+  "credits": [
+    "Yharnam (original Infinite Health and One Hit Kill code)",
+    "ToKaMaK0 / Codex (independent resources, high jump, infinite resolve, labels and packaging)"
+  ],
+  "_sonic_enabled": false,
+  "mods": [
+    {
+      "name": "Infinite Health (Бесконечное здоровье)",
+      "hint": "Original Yharnam code for 02.002.000, unchanged. Not independently combat-tested in this package. / Готовый код Yharnam для 02.002.000. Проверка в бою ещё не выполнена.",
+      "type": "checkbox",
+      "_sonic_enabled": false,
+      "memory": [
+        {
+          "offset": "17E8E00",
+          "on": "813F58C60D02751183BF28010000007508C5FA108714180000C5FA118718180000E9EC9CCCFF",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "14B2B0A",
+          "on": "E9F1623300909090",
+          "off": "C5FA118718180000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Resolve (Бесконечная воля)",
+      "hint": "Prevents spending the current yellow-circle reserve. If empty, drink sake first. Normal replenishment still works. / Сохраняет текущий запас жёлтых кружков при расходовании. Если запас пуст, сначала выпейте сакэ.",
+      "type": "checkbox",
+      "_sonic_enabled": false,
+      "memory": [
+        {
+          "offset": "17EBA00",
+          "on": "9C505248B808437C0500000000488B004885C074344839C7752F660F7EC03D0000807F73248B97BC33000085D2741A81FA00401C46771239D0730E660F3A22C20031C0660F3A22C8005A589D554889E541574156E91F4064FF",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "E2FA70",
+          "on": "E98BBF9B00909090",
+          "off": "554889E541574156"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill (Убийство одним ударом)",
+      "hint": "Original Yharnam code for 02.002.000, unchanged. Not independently combat-tested in this package. / Готовый код Yharnam для 02.002.000. Проверка в бою ещё не выполнена.",
+      "type": "checkbox",
+      "_sonic_enabled": false,
+      "memory": [
+        {
+          "offset": "17E9E00",
+          "on": "664181FEF8B575030F57C0C5FA108F18180000E9F28CCCFF",
+          "off": "000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "14B2B02",
+          "on": "E9F9723300909090",
+          "off": "C5FA108F18180000"
+        }
+      ]
+    },
+    {
+      "name": "Enhanced High Jump (Высокий прыжок — усиленный)",
+      "hint": "Boosts ordinary standing and running jumps. Disable to restore the next jump. Not an infinite-air-jump cheat; the internal scale is not a measured height multiplier. / Усиленные обычные прыжки с места и на бегу. После отключения следующий прыжок снова обычный.",
+      "type": "checkbox",
+      "_sonic_enabled": false,
+      "memory": [
+        {
+          "offset": "17EB800",
+          "on": "660F1183D40000009C5048B808437C0500000000488B004885C0746048394338755A8B839000000083F802740583F804754A8B83E80000003D0000803F723D3D",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "17EB840",
+          "on": "0000FA4377364883EC10F30F7F0424F30F1083E8000000F30F58C0F30F58C0F30F58C0F30F58C0F30F58C0F30F1183E8000000F30F6F04244883C410589DE9B74DFDFE",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "7C0632",
+          "on": "E9C9B10201909090",
+          "off": "C5F91183D4000000"
+        }
+      ]
+    },
+    {
+      "name": "Mon (Coins) - Minimum 99,999 (Монеты — минимум 99 999)",
+      "hint": "Raises only this resource to the minimum when it is gained or spent. Opening the inventory alone does not refill it. / При получении или расходовании этого ресурса. Остальные ресурсы не меняет.",
+      "type": "checkbox",
+      "_sonic_enabled": false,
+      "memory": [
+        {
+          "offset": "17EA100",
+          "on": "9C83FE26751185D2780D81FA9F8601007D05BA9F8601009D554889E54157E9D3CB5AFF",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "D96CF0",
+          "on": "E90B34A50090",
+          "off": "554889E54157"
+        }
+      ]
+    },
+    {
+      "name": "Flowers - Minimum 1,000 (Цветы — минимум 1000)",
+      "hint": "Raises only this resource to the minimum when it is gained or spent. Opening the inventory alone does not refill it. / При получении или расходовании этого ресурса. Остальные ресурсы не меняет.",
+      "type": "checkbox",
+      "_sonic_enabled": false,
+      "memory": [
+        {
+          "offset": "17EA200",
+          "on": "9C83FE24751185D2780D81FAE80300007D05BAE80300009D415641554154E9D9CA5AFF",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "D96CF6",
+          "on": "E90535A50090",
+          "off": "415641554154"
+        }
+      ]
+    },
+    {
+      "name": "Sake - Minimum 1,000 (Сакэ — минимум 1000)",
+      "hint": "Raises only this resource to the minimum when it is gained or spent. Opening the inventory alone does not refill it. / При получении или расходовании этого ресурса. Остальные ресурсы не меняет.",
+      "type": "checkbox",
+      "_sonic_enabled": false,
+      "memory": [
+        {
+          "offset": "17EA300",
+          "on": "9C83FE18751185D2780D81FAE80300007D05BAE80300009D534883EC38E9DFC95AFF",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "D96CFC",
+          "on": "E9FF35A500",
+          "off": "534883EC38"
+        }
+      ]
+    },
+    {
+      "name": "Mushrooms - Minimum 1,000 (Грибы — минимум 1000)",
+      "hint": "Refills mushrooms on gain or spending; fish has its own independent switch. / Грибы: при получении или расходовании — минимум 1000. Рыбу не меняет.",
+      "type": "checkbox",
+      "_sonic_enabled": false,
+      "memory": [
+        {
+          "offset": "17EA400",
+          "on": "9C83FE1E751185D2780D81FAE80300007D05BAE80300009D49BCA0932702000000004D8B2424E9DDC85AFF",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "D96D01",
+          "on": "E9FA36A5009090",
+          "off": "4C8B2598260E01"
+        }
+      ]
+    },
+    {
+      "name": "Fish - Minimum 1,000 (Рыба — минимум 1000)",
+      "hint": "Refills fish on gain or spending; mushrooms have their own independent switch. / При получении или расходовании этого ресурса. Остальные ресурсы не меняет.",
+      "type": "checkbox",
+      "_sonic_enabled": false,
+      "memory": [
+        {
+          "offset": "17EAF00",
+          "on": "9C83FE1F75184585F678134181FEE80300007D0A41BEE8030000448975C89D4439F20F8435BF5AFFE935BE5AFF",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "D96D59",
+          "on": "E9A241A50090909090",
+          "off": "4439F20F84FB000000"
+        }
+      ]
+    },
+    {
+      "name": "Plants / Ezo Spruce - Minimum 1,000 (Растения / ель Эдзо — минимум 1000)",
+      "hint": "Plants and Ezo Spruce are two labels for one shared counter. Refilled on gain or spending. / Растения и ель Эдзо используют один общий запас. При получении или расходовании — минимум 1000.",
+      "type": "checkbox",
+      "_sonic_enabled": false,
+      "memory": [
+        {
+          "offset": "17EA500",
+          "on": "9C83FE23751185D2780D81FAE80300007D05BAE80300009D4189D64889FBE9EBC75AFF",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "D96D08",
+          "on": "E9F337A50090",
+          "off": "4189D64889FB"
+        }
+      ]
+    },
+    {
+      "name": "Silk / Bast Cloth - Minimum 1,000 (Шёлк / ткань из лыка — минимум 1000)",
+      "hint": "Silk and Bast Cloth are two labels for one shared counter. Refilled on gain or spending. / Шёлк и ткань из лыка используют один общий запас. При получении или расходовании — минимум 1000.",
+      "type": "checkbox",
+      "_sonic_enabled": false,
+      "memory": [
+        {
+          "offset": "17EA600",
+          "on": "9C83FE20751485D2781081FAE80300007D08BAE80300004189D69D41BD180A0000E9EEC65AFF",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "D96D0E",
+          "on": "E9ED38A50090",
+          "off": "41BD180A0000"
+        }
+      ]
+    },
+    {
+      "name": "Young Bamboo - Minimum 1,000 (Молодой бамбук — минимум 1000)",
+      "hint": "Raises only this resource to the minimum when it is gained or spent. Opening the inventory alone does not refill it. / При получении или расходовании этого ресурса. Остальные ресурсы не меняет.",
+      "type": "checkbox",
+      "_sonic_enabled": false,
+      "memory": [
+        {
+          "offset": "17EA700",
+          "on": "9C83FE21751485D2781081FAE80300007D08BAE80300004189D69D498B0424488945D0E9F4C55AFF",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "D96D14",
+          "on": "E9E739A500909090",
+          "off": "498B0424488945D0"
+        }
+      ]
+    },
+    {
+      "name": "Precious Wood - Minimum 1,000 (Ценная древесина — минимум 1000)",
+      "hint": "Raises only this resource to the minimum when it is gained or spent. Opening the inventory alone does not refill it. / При получении или расходовании этого ресурса. Остальные ресурсы не меняет.",
+      "type": "checkbox",
+      "_sonic_enabled": false,
+      "memory": [
+        {
+          "offset": "17EA900",
+          "on": "9C83FE22751785D2781381FAE80300007D0BBAE80300004189D68955C89D488D47308975CCE900C45AFF",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "D96D23",
+          "on": "E9D83BA5009090",
+          "off": "488D47308975CC"
+        }
+      ]
+    },
+    {
+      "name": "Metals - Minimum 1,000 (Металлы — минимум 1000)",
+      "hint": "Raises only this resource to the minimum when it is gained or spent. Opening the inventory alone does not refill it. / При получении или расходовании этого ресурса. Остальные ресурсы не меняет.",
+      "type": "checkbox",
+      "_sonic_enabled": false,
+      "memory": [
+        {
+          "offset": "17EA800",
+          "on": "9C83FE1B751485D2781081FAE80300007D08BAE80300004189D69D48894DC08955C8E9FCC45AFF",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "D96D1C",
+          "on": "E9DF3AA5009090",
+          "off": "48894DC08955C8"
+        }
+      ]
+    },
+    {
+      "name": "Precious Metals - Minimum 1,000 (Драгоценные металлы — минимум 1000)",
+      "hint": "Raises only this resource to the minimum when it is gained or spent. Opening the inventory alone does not refill it. / При получении или расходовании этого ресурса. Остальные ресурсы не меняет.",
+      "type": "checkbox",
+      "_sonic_enabled": false,
+      "memory": [
+        {
+          "offset": "17EAD00",
+          "on": "9C83FE1C75184585F678134181FEE80300007D0A41BEE8030000448975C89D4901C54C63FEE927C05AFF",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "D96D4B",
+          "on": "E9B03FA50090",
+          "off": "4901C54C63FE"
+        }
+      ]
+    },
+    {
+      "name": "Viper Supplies - Minimum 1,000 (Припасы гадюк — минимум 1000)",
+      "hint": "Raises only this resource to the minimum when it is gained or spent. Opening the inventory alone does not refill it. / При получении или расходовании этого ресурса. Остальные ресурсы не меняет.",
+      "type": "checkbox",
+      "_sonic_enabled": false,
+      "memory": [
+        {
+          "offset": "17EAE00",
+          "on": "9C83FE2A75184585F678134181FEE80300007D0A41BEE8030000448975C89D438B54BD20E92DBF5AFF",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "D96D51",
+          "on": "E9AA40A500",
+          "off": "438B54BD20"
+        }
+      ]
+    },
+    {
+      "name": "Demon Servant Mask Fragments - Minimum 1,000 (Фрагменты масок слуг демона — минимум 1000)",
+      "hint": "Raises only this resource to the minimum when it is gained or spent. Opening the inventory alone does not refill it. / При получении или расходовании этого ресурса. Остальные ресурсы не меняет.",
+      "type": "checkbox",
+      "_sonic_enabled": false,
+      "memory": [
+        {
+          "offset": "17EB000",
+          "on": "9C83FE2775184585F678134181FEE80300007D0A41BEE8030000448975C89D448845BFE906BD5AFF",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "D96CE2",
+          "on": "E91943A500",
+          "off": "CCCCCCCCCC"
+        },
+        {
+          "offset": "D96D2A",
+          "on": "EBB69090",
+          "off": "448845BF"
+        }
+      ]
+    },
+    {
+      "name": "Shinobi Steel - Minimum 1,000 (Сталь синоби — минимум 1000)",
+      "hint": "Raises only this resource to the minimum when it is gained or spent. Opening the inventory alone does not refill it. / При получении или расходовании этого ресурса. Остальные ресурсы не меняет.",
+      "type": "checkbox",
+      "_sonic_enabled": false,
+      "memory": [
+        {
+          "offset": "17EB100",
+          "on": "9C83FE2875184585F678134181FEE80300007D0A41BEE8030000448975C89D8955B8E932BC5AFF",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "D96CE7",
+          "on": "E91444A500",
+          "off": "CCCCCCCCCC"
+        },
+        {
+          "offset": "D96D56",
+          "on": "EB8F90",
+          "off": "8955B8"
+        }
+      ]
+    },
+    {
+      "name": "Gun Parts - Minimum 1,000 (Детали ружей — минимум 1000)",
+      "hint": "Raises only this resource to the minimum when it is gained or spent. Opening the inventory alone does not refill it. / При получении или расходовании этого ресурса. Остальные ресурсы не меняет.",
+      "type": "checkbox",
+      "_sonic_enabled": false,
+      "memory": [
+        {
+          "offset": "17EB200",
+          "on": "9C83FE2975184585F678134181FEE80300007D0A41BEE8030000448975C89D48BA00AE1D0700000000488B12E938BB5AFF",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "D96D62",
+          "on": "E99944A5009090",
+          "off": "488B1597400406"
+        }
+      ]
+    },
+    {
+      "name": "Black Powder - Minimum 1,000 (Чёрный порох — минимум 1000)",
+      "hint": "Raises only this resource to the minimum when it is gained or spent. Opening the inventory alone does not refill it. / При получении или расходовании этого ресурса. Остальные ресурсы не меняет.",
+      "type": "checkbox",
+      "_sonic_enabled": false,
+      "memory": [
+        {
+          "offset": "17EAA00",
+          "on": "9C83FE1D75184585F678134181FEE80300007D0A41BEE8030000448975C89D48B9D8244905000000000FB609E904C35AFF",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "D96D2E",
+          "on": "E9CD3CA5009090",
+          "off": "0FB60DA3B72F04"
+        }
+      ]
+    },
+    {
+      "name": "Arrows - Full Capacity (Стрелы — полный запас)",
+      "hint": "Refills this arrow type to the player's current capacity when its amount changes. Other ammunition types are unchanged. / Пополнение до текущей вместимости при получении или расходовании стрел. Остальные ресурсы не меняет.",
+      "type": "checkbox",
+      "_sonic_enabled": false,
+      "memory": [
+        {
+          "offset": "17EAB00",
+          "on": "9C5083FE0075404585F6783B48B808437C0500000000488B004885C0742983B840300000017C2081B840300000E80300007F14443BB0403000007D0B448BB040300000448975C8589D8D51FF80FA02E9E7C15AFF",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "D96D35",
+          "on": "E9C63DA50090",
+          "off": "8D51FF80FA02"
+        }
+      ]
+    },
+    {
+      "name": "Heavy Arrows - Full Capacity (Тяжёлые стрелы — полный запас)",
+      "hint": "Refills this arrow type to the player's current capacity when its amount changes. Other ammunition types are unchanged. / Пополнение до текущей вместимости при получении или расходовании стрел. Остальные ресурсы не меняет.",
+      "type": "checkbox",
+      "_sonic_enabled": false,
+      "memory": [
+        {
+          "offset": "17EAC00",
+          "on": "9C5083FE0375404585F6783B48B808437C0500000000488B004885C0742983B84C300000017C2081B84C300000E80300007F14443BB04C3000007D0B448BB04C300000448975C8589D0F87FCC05AFF0FB6D2E9E9C05AFF",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "D96D3B",
+          "on": "E9C03EA500",
+          "off": "770E0FB6D2"
+        }
+      ]
+    },
+    {
+      "name": "Flaming Arrows - Full Capacity (Горящие стрелы — полный запас)",
+      "hint": "Refills this arrow type to the player's current capacity when its amount changes. Other ammunition types are unchanged. / Пополнение до текущей вместимости при получении или расходовании стрел. Остальные ресурсы не меняет.",
+      "type": "checkbox",
+      "_sonic_enabled": false,
+      "memory": [
+        {
+          "offset": "17EB300",
+          "on": "9C5083FE0175404585F6783B48B808437C0500000000488B004885C0742983B844300000017C2081B844300000E80300007F14443BB0443000007D0B448BB044300000448975C8589D80F901BAE0270000E937BA5AFF",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "D96D85",
+          "on": "E97645A500909090",
+          "off": "80F901BAE0270000"
+        }
+      ]
+    },
+    {
+      "name": "Poison Arrows - Full Capacity (Отравленные стрелы — полный запас)",
+      "hint": "Refills this arrow type to the player's current capacity when its amount changes. Other ammunition types are unchanged. / Пополнение до текущей вместимости при получении или расходовании стрел. Остальные ресурсы не меняет.",
+      "type": "checkbox",
+      "_sonic_enabled": false,
+      "memory": [
+        {
+          "offset": "17EB400",
+          "on": "9C5083FE0275404585F6783B48B808437C0500000000488B004885C0742983B848300000017C2081B848300000E80300007F14443BB0483000007D0B448BB048300000448975C8589DBF900C0000450FB6C0E93FB95AFF",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "D96D8D",
+          "on": "E96E46A50090909090",
+          "off": "BF900C0000450FB6C0"
+        }
+      ]
+    },
+    {
+      "name": "Disarming Arrows - Full Capacity (Обезоруживающие стрелы — полный запас)",
+      "hint": "Refills this arrow type to the player's current capacity when its amount changes. Other ammunition types are unchanged. / Пополнение до текущей вместимости при получении или расходовании стрел. Остальные ресурсы не меняет.",
+      "type": "checkbox",
+      "_sonic_enabled": false,
+      "memory": [
+        {
+          "offset": "17EB500",
+          "on": "9C5083FE0475404585F6783B48B808437C0500000000488B004885C0742983B850300000017C2081B850300000E80300007F14443BB0503000007D0B448BB050300000448975C8589D480F44FA80F903E948B85AFF",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "D96D96",
+          "on": "E96547A5009090",
+          "off": "480F44FA80F903"
+        }
+      ]
+    },
+    {
+      "name": "Explosive Arrows - Full Capacity (Взрывные стрелы — полный запас)",
+      "hint": "Refills this arrow type to the player's current capacity when its amount changes. Other ammunition types are unchanged. / Пополнение до текущей вместимости при получении или расходовании стрел. Остальные ресурсы не меняет.",
+      "type": "checkbox",
+      "_sonic_enabled": false,
+      "memory": [
+        {
+          "offset": "17EB600",
+          "on": "9C5083FE0675404585F6783B48B808437C0500000000488B004885C0742983B858300000017C2081B858300000E80300007F14443BB0583000007D0B448BB058300000448975C8589DB998220000480F45CFE94FB75AFF",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "D96D9D",
+          "on": "E95E48A50090909090",
+          "off": "B998220000480F45CF"
+        }
+      ]
+    }
+  ]
+}
