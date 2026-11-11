@@ -1,0 +1,69 @@
+{
+  "name": "Serious Sam: Siberian Mayhem",
+  "id": "PPSA07020",
+  "version": "01.000.002",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "56BCA9",
+          "on": "9090909090",
+          "off": "E822F9D9FF"
+        }
+      ]
+    },
+    {
+      "name": "Inf Ammo",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "173768C",
+          "on": "8945E4E997F0DCFE",
+          "off": "0000000000000000"
+        },
+        {
+          "offset": "506725",
+          "on": "E9620F230190",
+          "off": "4429F08945E4"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "D72FA9",
+          "on": "909090",
+          "off": "014328"
+        }
+      ]
+    },
+    {
+      "name": "Inf Skills Points",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "17376B4",
+          "on": "BA63000000418917498B4F10E9F08CDEFE",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "5203AE",
+          "on": "E9017321019090",
+          "off": "418917498B4F10"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

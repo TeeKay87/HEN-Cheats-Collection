@@ -1,0 +1,64 @@
+{
+  "name": "Serious Sam 4",
+  "id": "PPSA03751",
+  "version": "01.000.001",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5CC19F",
+          "on": "9090909090",
+          "off": "E8ECFED6FF"
+        }
+      ]
+    },
+    {
+      "name": "Inf Ammo",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "55DDD2",
+          "on": "909090",
+          "off": "4429F0"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "E64142",
+          "on": "90909090",
+          "off": "41014528"
+        }
+      ]
+    },
+    {
+      "name": "Inf Skills Points",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "188CB8C",
+          "on": "BA63000000418917498B4F10E908D8CEFE",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "57A39E",
+          "on": "E9E92731019090",
+          "off": "418917498B4F10"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

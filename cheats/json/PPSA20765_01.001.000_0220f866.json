@@ -1,0 +1,494 @@
+{
+  "name": "CRYSTAR",
+  "id": "PPSA20765",
+  "version": "01.001.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Master Code",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F37F01",
+          "on": "E7030000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "173F01",
+          "section": 6,
+          "sectionOffset": "147F01"
+        },
+        {
+          "offset": "1F37F06",
+          "on": "E7030000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "173F06",
+          "section": 6,
+          "sectionOffset": "147F06"
+        },
+        {
+          "offset": "1F37F0B",
+          "on": "E7030000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "173F0B",
+          "section": 6,
+          "sectionOffset": "147F0B"
+        },
+        {
+          "offset": "1F37F10",
+          "on": "E7030000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "173F10",
+          "section": 6,
+          "sectionOffset": "147F10"
+        },
+        {
+          "offset": "1F37F15",
+          "on": "E7030000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "173F15",
+          "section": 6,
+          "sectionOffset": "147F15"
+        },
+        {
+          "offset": "1F37F1A",
+          "on": "E7030000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "173F1A",
+          "section": 6,
+          "sectionOffset": "147F1A"
+        },
+        {
+          "offset": "1F37F1F",
+          "on": "E7030000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "173F1F",
+          "section": 6,
+          "sectionOffset": "147F1F"
+        },
+        {
+          "offset": "1F37F24",
+          "on": "E7030000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "173F24",
+          "section": 6,
+          "sectionOffset": "147F24"
+        },
+        {
+          "offset": "1F37F29",
+          "on": "E7030000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "173F29",
+          "section": 6,
+          "sectionOffset": "147F29"
+        },
+        {
+          "offset": "1F37F2E",
+          "on": "E7030000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "173F2E",
+          "section": 6,
+          "sectionOffset": "147F2E"
+        },
+        {
+          "offset": "1F37F33",
+          "on": "0000803F",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "173F33",
+          "section": 6,
+          "sectionOffset": "147F33"
+        },
+        {
+          "offset": "1F37F38",
+          "on": "3F420F00",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "173F38",
+          "section": 6,
+          "sectionOffset": "147F38"
+        },
+        {
+          "offset": "19279CC",
+          "on": "9C50515241504151803D2505610001756748B808C3B58200000000488B004885C07455488B80E04500004885C07449488B40584885C07440488B80B800000048",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1927A0C",
+          "on": "85C07434488B004885C0742C480588020000488B004885C0741E837818007E184883C020488B004885C0740C4883C0208B15BF0461008910803DBA0461000175",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1927A4C",
+          "on": "6748B808C3B58200000000488B004885C07455488B80E04500004885C07449488B40584885C07440488B80B80000004885C07434488B004885C0742C48058802",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1927A8C",
+          "on": "0000488B004885C0741E837818007E184883C020488B004885C0740C4883C0248B15540461008910803D4F04610001756748B808C3B58200000000488B004885",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1927ACC",
+          "on": "C07455488B80E04500004885C07449488B40584885C07440488B80B80000004885C07434488B004885C0742C480588020000488B004885C0741E837818007E18",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1927B0C",
+          "on": "4883C020488B004885C0740C4883C0288B15E90361008910803DE403610001756748B808C3B58200000000488B004885C07455488B80E04500004885C0744948",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1927B4C",
+          "on": "8B40584885C07440488B80B80000004885C07434488B004885C0742C480588020000488B004885C0741E837818007E184883C020488B004885C0740C4883C02C",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1927B8C",
+          "on": "8B157E0361008910803D7903610001756748B808C3B58200000000488B004885C07455488B80E04500004885C07449488B40584885C07440488B80B800000048",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1927BCC",
+          "on": "85C07434488B004885C0742C480588020000488B004885C0741E837818007E184883C020488B004885C0740C4883C0308B15130361008910803D0E0361000175",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1927C0C",
+          "on": "6748B808C3B58200000000488B004885C07455488B80E04500004885C07449488B40584885C07440488B80B80000004885C07434488B004885C0742C48058802",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1927C4C",
+          "on": "0000488B004885C0741E837818007E184883C020488B004885C0740C4883C0348B15A80261008910803DA302610001756748B808C3B58200000000488B004885",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1927C8C",
+          "on": "C07455488B80E04500004885C07449488B40584885C07440488B80B80000004885C07434488B004885C0742C480588020000488B004885C0741E837818007E18",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1927CCC",
+          "on": "4883C020488B004885C0740C4883C0388B153D0261008910803D3802610001756748B808C3B58200000000488B004885C07455488B80E04500004885C0744948",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1927D0C",
+          "on": "8B40584885C07440488B80B80000004885C07434488B004885C0742C480588020000488B004885C0741E837818007E184883C020488B004885C0740C4883C03C",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1927D4C",
+          "on": "8B15D20161008910803DCD01610001756748B808C3B58200000000488B004885C07455488B80E04500004885C07449488B40584885C07440488B80B800000048",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1927D8C",
+          "on": "85C07434488B004885C0742C480588020000488B004885C0741E837818007E184883C020488B004885C0740C4883C0508B15670161008910803D620161000175",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1927DCC",
+          "on": "6748B808C3B58200000000488B004885C07455488B80E04500004885C07449488B40584885C07440488B80B80000004885C07434488B004885C0742C48058802",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1927E0C",
+          "on": "0000488B004885C0741E837818007E184883C020488B004885C0740C4883C0548B15FC0061008910803DF700610001753648B808C3B58200000000488B004885",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1927E4C",
+          "on": "C07424488B80706500004885C07418488B80B80000004885C0740C4883C0088B15C20061008910803DBD00610001755748B808C3B58200000000488B004885C0",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1927E8C",
+          "on": "7445488B80E04500004885C07439488B40584885C07430488B80B80000004885C07424488B004885C0741C480578020000488B004885C0740E4805280100008B",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1927ECC",
+          "on": "15670061008910415941585A59589D554889E553E9103C8B7E",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "801DBAF0",
+          "on": "E9D7BE7481",
+          "off": "554889E553",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "4AFAF0",
+          "section": 16,
+          "sectionOffset": "4AFAF0"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F37F00",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "173F00",
+          "section": 6,
+          "sectionOffset": "147F00"
+        }
+      ]
+    },
+    {
+      "name": "--Max Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F37F05",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "173F05",
+          "section": 6,
+          "sectionOffset": "147F05"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Sp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F37F0A",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "173F0A",
+          "section": 6,
+          "sectionOffset": "147F0A"
+        }
+      ]
+    },
+    {
+      "name": "--Max Sp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F37F0F",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "173F0F",
+          "section": 6,
+          "sectionOffset": "147F0F"
+        }
+      ]
+    },
+    {
+      "name": "--Max Attack",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F37F14",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "173F14",
+          "section": 6,
+          "sectionOffset": "147F14"
+        }
+      ]
+    },
+    {
+      "name": "--Max Defense",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F37F19",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "173F19",
+          "section": 6,
+          "sectionOffset": "147F19"
+        }
+      ]
+    },
+    {
+      "name": "--Max Magic Attack",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F37F1E",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "173F1E",
+          "section": 6,
+          "sectionOffset": "147F1E"
+        }
+      ]
+    },
+    {
+      "name": "--Max Magic Defense",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F37F23",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "173F23",
+          "section": 6,
+          "sectionOffset": "147F23"
+        }
+      ]
+    },
+    {
+      "name": "--Max Luck",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F37F28",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "173F28",
+          "section": 6,
+          "sectionOffset": "147F28"
+        }
+      ]
+    },
+    {
+      "name": "--Max Mind",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F37F2D",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "173F2D",
+          "section": 6,
+          "sectionOffset": "147F2D"
+        }
+      ]
+    },
+    {
+      "name": "--Game Speed",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F37F32",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "173F32",
+          "section": 6,
+          "sectionOffset": "147F32"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Money",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F37F37",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "173F37",
+          "section": 6,
+          "sectionOffset": "147F37"
+        }
+      ]
+    },
+    {
+      "name": "Inf items",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "82973F7E",
+          "on": "1400000000000000",
+          "off": "0000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 3,
+          "logicalOffset": "67BF7E",
+          "section": 20,
+          "sectionOffset": "4D3F7E"
+        },
+        {
+          "offset": "818F7D86",
+          "on": "0F8C83698DFE4531ED85C9410F4ECD8B0DE3C10701894818E94C698DFE",
+          "off": "0000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "1BCBD86",
+          "section": 16,
+          "sectionOffset": "1BCBD86"
+        },
+        {
+          "offset": "801CE6DE",
+          "on": "E9A3967201909090909090909090909090",
+          "off": "4429F17C2C4531ED85C9410F4ECD894818",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "4A26DE",
+          "section": 16,
+          "sectionOffset": "4A26DE"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

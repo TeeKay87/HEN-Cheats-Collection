@@ -1,0 +1,279 @@
+{
+  "name": "A Game About Digging A Hole",
+  "id": "PPSA30552",
+  "version": "01.100.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Master Code",
+      "description": "GWorld -> GameInstance -> LocalPlayers[0] -> PlayerController -> Pawn",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6F6BF01",
+          "on": "9F860100",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "313F01",
+          "section": 6,
+          "sectionOffset": "2EBF01"
+        },
+        {
+          "offset": "6F6BF06",
+          "on": "0000000000388F40",
+          "off": "0000000000000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "313F06",
+          "section": 6,
+          "sectionOffset": "2EBF06"
+        },
+        {
+          "offset": "6F6BF0F",
+          "on": "0000000000388F40",
+          "off": "0000000000000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "313F0F",
+          "section": 6,
+          "sectionOffset": "2EBF0F"
+        },
+        {
+          "offset": "6F6BF18",
+          "on": "0000000000388F40",
+          "off": "0000000000000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "313F18",
+          "section": 6,
+          "sectionOffset": "2EBF18"
+        },
+        {
+          "offset": "6F6BF21",
+          "on": "0000000000388F40",
+          "off": "0000000000000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "313F21",
+          "section": 6,
+          "sectionOffset": "2EBF21"
+        },
+        {
+          "offset": "6F6BF2A",
+          "on": "E7030000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "313F2A",
+          "section": 6,
+          "sectionOffset": "2EBF2A"
+        },
+        {
+          "offset": "6F6BF2F",
+          "on": "63000000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "313F2F",
+          "section": 6,
+          "sectionOffset": "2EBF2F"
+        },
+        {
+          "offset": "6F6BF34",
+          "on": "63000000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "313F34",
+          "section": 6,
+          "sectionOffset": "2EBF34"
+        },
+        {
+          "offset": "55CC21C",
+          "on": "9C505152488B0569938E014885C00F84D0010000488B80D80100004885C00F84C0010000837840000F8EB6010000488B40384885C00F84A9010000488B004885",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "55CC25C",
+          "on": "C00F849D010000488B40304885C00F8490010000488B80F80200004885C00F8480010000803D79FC990101752648A907000000751E488B50104885D27415817A",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "55CC29C",
+          "on": "58DC0800007C0C8B1558FC99018990D8080000803D4FFC990101752848A9070000007520488B50104885D27417817A58E00900007C0E488B152DFC9901488990",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "55CC2DC",
+          "on": "D8090000803D27FC990101752848A9070000007520488B50104885D27417817A58200900007C0E488B1505FC990148899018090000803DFFFB990101752848A9",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "55CC31C",
+          "on": "070000007520488B50104885D27417817A58980900007C0E488B15DDFB990148899090090000803DD7FB990101752848A9070000007520488B50104885D27417",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "55CC35C",
+          "on": "817A58A00900007C0E488B15B5FB990148899098090000803DAFFB990101752648A907000000751E488B50104885D27415817A58AC0800007C0C8B158EFB9901",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "55CC39C",
+          "on": "8990A8080000803D85FB990101752648A907000000751E488B50104885D27415817A582C0A00007C0C8B1564FB99018990280A0000803D5BFB990101752648A9",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "55CC3DC",
+          "on": "07000000751E488B50104885D27415817A58801800007C0C8B153AFB990189907C1800005A59589D554889E54157E9F722E4FA",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "40E700",
+          "on": "E917DB1B0590",
+          "off": "554889E54157"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Money",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6F6BF00",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "313F00",
+          "section": 6,
+          "sectionOffset": "2EBF00"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6F6BF05",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "313F05",
+          "section": 6,
+          "sectionOffset": "2EBF05"
+        }
+      ]
+    },
+    {
+      "name": "--Max Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6F6BF0E",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "313F0E",
+          "section": 6,
+          "sectionOffset": "2EBF0E"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Battery",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6F6BF17",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "313F17",
+          "section": 6,
+          "sectionOffset": "2EBF17"
+        }
+      ]
+    },
+    {
+      "name": "--Max Battery",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6F6BF20",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "313F20",
+          "section": 6,
+          "sectionOffset": "2EBF20"
+        }
+      ]
+    },
+    {
+      "name": "--Inventory Size",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6F6BF29",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "313F29",
+          "section": 6,
+          "sectionOffset": "2EBF29"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Dynamite",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6F6BF2E",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "313F2E",
+          "section": 6,
+          "sectionOffset": "2EBF2E"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Lamps",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6F6BF33",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "313F33",
+          "section": 6,
+          "sectionOffset": "2EBF33"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

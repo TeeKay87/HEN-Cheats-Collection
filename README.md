@@ -122,6 +122,16 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-11-11 | ADDED | PPSA03751 | 01.000.001 | [Serious Sam 4](https://hencheats.vercel.app/game/PPSA03751/01.000.001) |
+| 2026-11-11 | ADDED | PPSA06831 | 01.000.009 | [Tad the Lost Explorer](https://hencheats.vercel.app/game/PPSA06831/01.000.009) |
+| 2026-11-11 | ADDED | PPSA07020 | 01.000.002 | [Serious Sam: Siberian Mayhem](https://hencheats.vercel.app/game/PPSA07020/01.000.002) |
+| 2026-11-11 | ADDED | PPSA20765 | 01.001.000 | [CRYSTAR](https://hencheats.vercel.app/game/PPSA20765/01.001.000) |
+| 2026-11-11 | ADDED | PPSA23767 | 01.000.008 | [Bionic Bay](https://hencheats.vercel.app/game/PPSA23767/01.000.008) |
+| 2026-11-11 | ADDED | PPSA24280 | 01.000.000 | [RUSHING BEAT X: Return Of Brawl Brothers](https://hencheats.vercel.app/game/PPSA24280/01.000.000) |
+| 2026-11-11 | ADDED | PPSA28238 | 03.000.000 | [Scott Pilgrim EX](https://hencheats.vercel.app/game/PPSA28238/03.000.000) |
+| 2026-11-11 | ADDED | PPSA30552 | 01.100.000 | [A Game About Digging A Hole](https://hencheats.vercel.app/game/PPSA30552/01.100.000) |
+| 2026-11-11 | ADDED | PPSA30896 | 01.000.004 | [Death Howl](https://hencheats.vercel.app/game/PPSA30896/01.000.004) |
+| 2026-11-11 | ADDED | PPSA35245 | 01.000.000 | [Godzilla: Destroy All Monsters Melee Remastered](https://hencheats.vercel.app/game/PPSA35245/01.000.000) |
 | 2026-11-11 | ADDED | PPSA03846 | 01.000.006 | [Dead Space](https://hencheats.vercel.app/game/PPSA03846/01.000.006) |
 | 2026-11-11 | ADDED | PPSA24558 | 01.001.000 | [Turok](https://hencheats.vercel.app/game/PPSA24558/01.001.000) |
 | 2026-11-11 | ADDED | PPSA36301 | 01.300.000 | [TCG Card Shop Simulator](https://hencheats.vercel.app/game/PPSA36301/01.300.000) |

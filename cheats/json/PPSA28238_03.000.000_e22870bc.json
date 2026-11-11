@@ -1,0 +1,62 @@
+{
+  "name": "Scott Pilgrim EX",
+  "id": "PPSA28238",
+  "version": "03.000.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Ing Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "A82AB3",
+          "on": "909090",
+          "off": "894354"
+        }
+      ]
+    },
+    {
+      "name": "Ing Gp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "C5AA61",
+          "on": "909090",
+          "off": "89435C"
+        }
+      ]
+    },
+    {
+      "name": "Inf Money",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "35B3F00",
+          "on": "7F96980000000000",
+          "off": "0000000000000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "9B7F00",
+          "section": 6,
+          "sectionOffset": "67F00"
+        },
+        {
+          "offset": "180A4AD",
+          "on": "8B3D4D9ADA0189B860010000E9AD8827FF",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "A82D65",
+          "on": "E94377D80090",
+          "off": "89B860010000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}
