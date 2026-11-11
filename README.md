@@ -122,6 +122,9 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-11-11 | ADDED | PPSA03846 | 01.000.006 | [Dead Space](https://hencheats.vercel.app/game/PPSA03846/01.000.006) |
+| 2026-11-11 | ADDED | PPSA24558 | 01.001.000 | [Turok](https://hencheats.vercel.app/game/PPSA24558/01.001.000) |
+| 2026-11-11 | ADDED | PPSA36301 | 01.300.000 | [TCG Card Shop Simulator](https://hencheats.vercel.app/game/PPSA36301/01.300.000) |
 | 2026-11-11 | ADDED | PPSA31665 | 01.000.003 | [Neon Inferno](https://hencheats.vercel.app/game/PPSA31665/01.000.003) |
 | 2026-11-11 | UPDATE | PPSA06954 | 02.000.006 | [Granblue Fantasy: Relink](https://hencheats.vercel.app/game/PPSA06954/02.000.006) |
 | 2026-11-10 | ADDED | CUSA27372 | 01.28 | [The Callisto Protocol](https://hencheats.vercel.app/game/CUSA27372/01.28) |

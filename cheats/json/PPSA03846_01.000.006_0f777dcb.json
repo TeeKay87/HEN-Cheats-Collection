@@ -1,0 +1,93 @@
+{
+  "name": "Dead Space",
+  "id": "PPSA03846",
+  "version": "01.000.006",
+  "process": "eboot.bin",
+  "credits": [
+    "k4k0gh0st"
+  ],
+  "mods": [
+    {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "description": "Isaac health never decreases (player only).",
+      "memory": [
+        {
+          "offset": "5EC3C30",
+          "on": "41817C240800CEAFE37507C4C17A10442444C4C17A11442440E9F7A911FB",
+          "off": "000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "FDE63E",
+          "on": "E9ED55EE049090",
+          "off": "C4C17A11442440"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill",
+      "type": "checkbox",
+      "description": "Enemies die in one hit. Avoid using it against bosses.",
+      "memory": [
+        {
+          "offset": "5EC3C62",
+          "on": "C5F25F8D64FFFFFF41813C24E07E4607750E41817C240800CEAFE374030F57C0E9B3A911FB",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "FDE632",
+          "on": "E92B56EE04909090",
+          "off": "C5F25F8D64FFFFFF"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Oxygen",
+      "type": "checkbox",
+      "description": "Oxygen never runs out in vacuum.",
+      "memory": [
+        {
+          "offset": "FE873D",
+          "on": "C4C17A115E60",
+          "off": "C4C17A114660"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo & Stasis",
+      "type": "checkbox",
+      "description": "Ammo and Stasis never decrease.",
+      "memory": [
+        {
+          "offset": "1365D15",
+          "on": "90909090",
+          "off": "41895F38"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Credits, Nodes & Items (No Reduction)",
+      "type": "checkbox",
+      "description": "Credits, Nodes and items do not decrease when spent/used.",
+      "memory": [
+        {
+          "offset": "3A96EDC",
+          "on": "909090",
+          "off": "4429F8"
+        }
+      ]
+    },
+    {
+      "name": "100 Million Credits",
+      "type": "checkbox",
+      "description": "Buy or sell something at the store and turn the cheat OFF right after. Do not move items into or out of storage while it is on.",
+      "memory": [
+        {
+          "offset": "DAF090",
+          "on": "BE00E1F50589771CC3",
+          "off": "89771CC3CCCCCCCCCC"
+        }
+      ]
+    }
+  ]
+}

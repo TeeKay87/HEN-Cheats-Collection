@@ -1,0 +1,41 @@
+{
+  "name": "TCG Card Shop Simulator",
+  "id": "PPSA36301",
+  "version": "01.300.000",
+  "process": "Il2CppUserAssemblies.prx",
+  "mods": [
+    {
+      "name": "No Money Decrease on Purchases",
+      "description": "Prevents money from decreasing when making purchases. Tested with one purchase on PPSA36301, game version 01.300.000.",
+      "hint": "Only for game version 01.300.000. Tested successfully with one purchase.",
+      "type": "checkbox",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "_sonic_enabled": false,
+      "memory": [
+        {
+          "offset": "3476B2",
+          "on": "90909090",
+          "off": "C5F25CC8"
+        },
+        {
+          "offset": "3476CA",
+          "on": "C5F928C2",
+          "off": "C5EB5CC1"
+        },
+        {
+          "offset": "39A413",
+          "on": "9090909090",
+          "off": "C5FA5C4310"
+        },
+        {
+          "offset": "39A438",
+          "on": "90909090",
+          "off": "C5FB5CC1"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "darkuser89"
+  ]
+}
