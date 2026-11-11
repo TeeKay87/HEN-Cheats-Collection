@@ -94,9 +94,36 @@
           "off": "4589274C89FF"
         }
       ]
+    },
+    {
+      "name": "Infinite SBA",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "042BB400",
+          "on": "48C7C000007A44C5F96EC0C4C17A118680000000E948CF32FC",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "005E8358",
+          "on": "E9A330CD0390909090",
+          "off": "C4C17A118680000000"
+        }
+      ]
+    },
+    {
+      "name": "No Skill Cooldown",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "02AC2B86",
+          "on": "EB10",
+          "off": "7710"
+        }
+      ]
     }
   ],
   "credits": [
-    "allexander.xv"
+    "allexander.xv & ston3d"
   ]
 }
