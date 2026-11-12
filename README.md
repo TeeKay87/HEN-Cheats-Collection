@@ -122,6 +122,7 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-11-12 | ADDED | PPSA04118 | 01.000.001 | [Shantae: Half-Genie Hero Ultimate Edition](https://hencheats.vercel.app/game/PPSA04118/01.000.001) |
 | 2026-11-12 | UPDATE | PPSA36301 | 01.300.000 | [TCG Card Shop Simulator](https://hencheats.vercel.app/game/PPSA36301/01.300.000) |
 | 2026-11-11 | ADDED | PPSA03751 | 01.000.001 | [Serious Sam 4](https://hencheats.vercel.app/game/PPSA03751/01.000.001) |
 | 2026-11-11 | ADDED | PPSA06831 | 01.000.009 | [Tad the Lost Explorer](https://hencheats.vercel.app/game/PPSA06831/01.000.009) |
