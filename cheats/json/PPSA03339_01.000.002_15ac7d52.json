@@ -1,0 +1,122 @@
+{
+  "name": "Lost at Sea",
+  "id": "PPSA03339",
+  "version": "01.000.002",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Master Code",
+      "description": "static roots via the il2cpp TypeInfo table, resolved every frame",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "83D7FF01",
+          "on": "00004842",
+          "off": "00000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 3,
+          "logicalOffset": "4B7F01",
+          "section": 18,
+          "sectionOffset": "2BBF01"
+        },
+        {
+          "offset": "83D7FF06",
+          "on": "0000F041",
+          "off": "00000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 3,
+          "logicalOffset": "4B7F06",
+          "section": 18,
+          "sectionOffset": "2BBF06"
+        },
+        {
+          "offset": "82DC64E2",
+          "on": "9C50515241504151803D0F9AFB0001754A48B8E06DEC8300000000488B004885C07438488B80803601004885C0742C488B80B80000004885C07420488B004885",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "309E4E2",
+          "section": 14,
+          "sectionOffset": "309E4E2"
+        },
+        {
+          "offset": "82DC6522",
+          "on": "C074184883C070488B004885C0740C4883C0308B15C699FB008910803DC199FB0001754A48B8E06DEC8300000000488B004885C07438488B80803601004885C0",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "309E522",
+          "section": 14,
+          "sectionOffset": "309E522"
+        },
+        {
+          "offset": "82DC6562",
+          "on": "742C488B80B80000004885C07420488B004885C074184883C070488B004885C0740C4883C0608B157899FB008910415941585A59589D554889E54883EC10E9E3",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "309E562",
+          "section": 14,
+          "sectionOffset": "309E562"
+        },
+        {
+          "offset": "82DC65A2",
+          "on": "1F9AFD",
+          "off": "000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "309E5A2",
+          "section": 14,
+          "sectionOffset": "309E5A2"
+        },
+        {
+          "offset": "80768580",
+          "on": "E95DDF6502909090",
+          "off": "554889E54883EC10",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "A40580",
+          "section": 14,
+          "sectionOffset": "A40580"
+        }
+      ]
+    },
+    {
+      "name": "--Walk Speed",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "83D7FF00",
+          "on": "01",
+          "off": "00",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 3,
+          "logicalOffset": "4B7F00",
+          "section": 18,
+          "sectionOffset": "2BBF00"
+        }
+      ]
+    },
+    {
+      "name": "--Super Jump",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "83D7FF05",
+          "on": "01",
+          "off": "00",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 3,
+          "logicalOffset": "4B7F05",
+          "section": 18,
+          "sectionOffset": "2BBF05"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

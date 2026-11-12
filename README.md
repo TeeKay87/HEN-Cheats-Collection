@@ -122,6 +122,11 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-11-13 | ADDED | PPSA02483 | 01.002.000 | [Foreclosed](https://hencheats.vercel.app/game/PPSA02483/01.002.000) |
+| 2026-11-13 | ADDED | PPSA03244 | 01.000.005 | [Rustler](https://hencheats.vercel.app/game/PPSA03244/01.000.005) |
+| 2026-11-13 | ADDED | PPSA03339 | 01.000.002 | [Lost at Sea](https://hencheats.vercel.app/game/PPSA03339/01.000.002) |
+| 2026-11-13 | ADDED | PPSA08102 | 01.000.000 | [Outer Wilds](https://hencheats.vercel.app/game/PPSA08102/01.000.000) |
+| 2026-11-13 | UPDATE | PPSA02433 | 01.000.002 | [Crash Bandicoot 4: It's About Time Digital Purchase Pack](https://hencheats.vercel.app/game/PPSA02433/01.000.002) |
 | 2026-11-12 | ADDED | PPSA04118 | 01.000.001 | [Shantae: Half-Genie Hero Ultimate Edition](https://hencheats.vercel.app/game/PPSA04118/01.000.001) |
 | 2026-11-12 | UPDATE | PPSA36301 | 01.300.000 | [TCG Card Shop Simulator](https://hencheats.vercel.app/game/PPSA36301/01.300.000) |
 | 2026-11-11 | ADDED | PPSA03751 | 01.000.001 | [Serious Sam 4](https://hencheats.vercel.app/game/PPSA03751/01.000.001) |
