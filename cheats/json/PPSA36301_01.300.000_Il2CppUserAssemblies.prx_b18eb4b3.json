@@ -6,8 +6,8 @@
   "mods": [
     {
       "name": "No Money Decrease on Purchases",
-      "description": "Prevents money from decreasing when making purchases. Tested with one purchase on PPSA36301, game version 01.300.000.",
-      "hint": "Only for game version 01.300.000. Tested successfully with one purchase.",
+      "description": "Prevents money from decreasing when making purchases.",
+      "hint": "Working on PPSA36301, version 01.300.000.",
       "type": "checkbox",
       "module_name": "Il2CppUserAssemblies.prx",
       "_sonic_enabled": false,
@@ -31,6 +31,156 @@
           "offset": "39A438",
           "on": "90909090",
           "off": "C5FB5CC1"
+        }
+      ]
+    },
+    {
+      "name": "Customers Buy at Any Price",
+      "description": "Bypasses price-based rejection for shelf items and individual cards, including the individual-card budget check.",
+      "hint": "Working on PPSA36301, version 01.300.000.",
+      "type": "checkbox",
+      "_sonic_enabled": false,
+      "memory": [
+        {
+          "offset": "403E52",
+          "on": "B864000000",
+          "off": "E8397A0800"
+        },
+        {
+          "offset": "4052AF",
+          "on": "B864000000",
+          "off": "E8DC650800"
+        },
+        {
+          "offset": "405459",
+          "on": "909090909090",
+          "off": "0F82E0000000"
+        }
+      ],
+      "module_name": "Il2CppUserAssemblies.prx"
+    },
+    {
+      "name": "Customers Shop Faster",
+      "description": "Doubles normal customer walking speed and shortens shopping pauses.",
+      "hint": "Working on PPSA36301, version 01.300.000.",
+      "type": "checkbox",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "_sonic_enabled": false,
+      "memory": [
+        {
+          "offset": "40F517",
+          "on": "909090909090",
+          "off": "0F86AB020000"
+        },
+        {
+          "offset": "40F61E",
+          "on": "909090909090",
+          "off": "0F86A4010000"
+        },
+        {
+          "offset": "4888E4",
+          "on": "C5F857C090909090",
+          "off": "C5FA1005A06E3D03"
+        },
+        {
+          "offset": "40FB1C",
+          "on": "C5FA58C090909090",
+          "off": "C5FA5983E0010000"
+        },
+        {
+          "offset": "40EA88",
+          "on": "909090909090",
+          "off": "0F8600FFFFFF"
+        },
+        {
+          "offset": "40F471",
+          "on": "909090909090",
+          "off": "0F8651030000"
+        },
+        {
+          "offset": "40F4C4",
+          "on": "909090909090",
+          "off": "0F86FE020000"
+        },
+        {
+          "offset": "40F678",
+          "on": "909090909090",
+          "off": "0F864A010000"
+        }
+      ]
+    },
+    {
+      "name": "Customers Buy More Items",
+      "description": "Customers take up to eight shelf items per selection, depending on available stock and special item rules. Does not increase individual-card quantities.",
+      "hint": "Working on PPSA36301, version 01.300.000.",
+      "type": "checkbox",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "_sonic_enabled": false,
+      "memory": [
+        {
+          "offset": "403C0C",
+          "on": "B808000000",
+          "off": "E80FDD6D02"
+        },
+        {
+          "offset": "403C96",
+          "on": "B808000000",
+          "off": "E885DC6D02"
+        },
+        {
+          "offset": "403F99",
+          "on": "9090",
+          "off": "730E"
+        },
+        {
+          "offset": "403FA3",
+          "on": "E986FDFFFF90",
+          "off": "0F8285FDFFFF"
+        }
+      ]
+    },
+    {
+      "name": "Always 5-Star Reviews",
+      "description": "Sets newly generated customer reviews to five stars.",
+      "hint": "Working on PPSA36301, version 01.300.000.",
+      "type": "checkbox",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "_sonic_enabled": false,
+      "memory": [
+        {
+          "offset": "48FDC3",
+          "on": "B10590",
+          "off": "4401E1"
+        }
+      ]
+    },
+    {
+      "name": "2x Shop XP",
+      "description": "Doubles earned shop XP.",
+      "hint": "Working on PPSA36301, version 01.300.000. Use only one XP multiplier at a time; disable the other first.",
+      "type": "checkbox",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "_sonic_enabled": false,
+      "memory": [
+        {
+          "offset": "3A3444",
+          "on": "41D1E69090",
+          "off": "E8273FDF01"
+        }
+      ]
+    },
+    {
+      "name": "4x Shop XP",
+      "description": "Quadruples earned shop XP.",
+      "hint": "Working on PPSA36301, version 01.300.000. Use only one XP multiplier at a time; disable the other first.",
+      "type": "checkbox",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "_sonic_enabled": false,
+      "memory": [
+        {
+          "offset": "3A3444",
+          "on": "41C1E60290",
+          "off": "E8273FDF01"
         }
       ]
     }
