@@ -122,6 +122,7 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-11-13 | UPDATE | PPSA31665 | 01.000.003 | [Neon Inferno](https://hencheats.vercel.app/game/PPSA31665/01.000.003) |
 | 2026-11-13 | ADDED | PPSA02483 | 01.002.000 | [Foreclosed](https://hencheats.vercel.app/game/PPSA02483/01.002.000) |
 | 2026-11-13 | ADDED | PPSA03244 | 01.000.005 | [Rustler](https://hencheats.vercel.app/game/PPSA03244/01.000.005) |
 | 2026-11-13 | ADDED | PPSA03339 | 01.000.002 | [Lost at Sea](https://hencheats.vercel.app/game/PPSA03339/01.000.002) |
