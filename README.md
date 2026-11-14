@@ -122,6 +122,37 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-11-14 | ADDED | CUSA09910 | 01.01 | [Nights of Azure 2: Bride of the New Moon](https://hencheats.vercel.app/game/CUSA09910/01.01) |
+| 2026-11-14 | UPDATE | CUSA04787 | 01.01 | [Marvel: Ultimate Alliance](https://hencheats.vercel.app/game/CUSA04787/01.01) |
+| 2026-11-14 | UPDATE | CUSA04788 | 01.01 | [Marvel: Ultimate Alliance 2](https://hencheats.vercel.app/game/CUSA04788/01.01) |
+| 2026-11-14 | UPDATE | CUSA06339 | 01.01 | [Twin Robots](https://hencheats.vercel.app/game/CUSA06339/01.01) |
+| 2026-11-14 | UPDATE | CUSA06633 | 01.03 | [Outlast 2](https://hencheats.vercel.app/game/CUSA06633/01.03) |
+| 2026-11-14 | UPDATE | CUSA10872 | 02.01 | [Shadow of the Tomb Raider](https://hencheats.vercel.app/game/CUSA10872/02.01) |
+| 2026-11-14 | UPDATE | CUSA11622 | 01.07 | [Agony](https://hencheats.vercel.app/game/CUSA11622/01.07) |
+| 2026-11-14 | UPDATE | CUSA12403 | 01.01 | [Fall of Light: Darkest Edition](https://hencheats.vercel.app/game/CUSA12403/01.01) |
+| 2026-11-14 | UPDATE | CUSA12458 | 01.10 | [Earthfall](https://hencheats.vercel.app/game/CUSA12458/01.10) |
+| 2026-11-14 | UPDATE | CUSA13612 | 01.02 | [Hitman: Blood Money HD](https://hencheats.vercel.app/game/CUSA13612/01.02) |
+| 2026-11-14 | UPDATE | CUSA14925 | 02.28 | [Bus Simulator 21](https://hencheats.vercel.app/game/CUSA14925/02.28) |
+| 2026-11-14 | UPDATE | CUSA14939 | 01.09 | [Maid of Sker](https://hencheats.vercel.app/game/CUSA14939/01.09) |
+| 2026-11-14 | UPDATE | CUSA15094 | 01.33 | [Deep Rock Galactic](https://hencheats.vercel.app/game/CUSA15094/01.33) |
+| 2026-11-14 | UPDATE | CUSA15289 | 02.30 | [Slay the Spire](https://hencheats.vercel.app/game/CUSA15289/02.30) |
+| 2026-11-14 | UPDATE | CUSA16161 | 01.02 | [Vanquish](https://hencheats.vercel.app/game/CUSA16161/01.02) |
+| 2026-11-14 | UPDATE | CUSA16195 | 06.02 | [Dirt 5](https://hencheats.vercel.app/game/CUSA16195/06.02) |
+| 2026-11-14 | UPDATE | CUSA16345 | 01.34 | [Immortals Fenyx Rising](https://hencheats.vercel.app/game/CUSA16345/01.34) |
+| 2026-11-14 | UPDATE | CUSA17806 | 01.25 | [Hellpoint](https://hencheats.vercel.app/game/CUSA17806/01.25) |
+| 2026-11-14 | UPDATE | CUSA19177 | 01.13 | [Construction Simulator](https://hencheats.vercel.app/game/CUSA19177/01.13) |
+| 2026-11-14 | UPDATE | CUSA19595 | 01.12 | [Shing!](https://hencheats.vercel.app/game/CUSA19595/01.12) |
+| 2026-11-14 | UPDATE | CUSA20549 | 01.01 | [Bite the Bullet](https://hencheats.vercel.app/game/CUSA20549/01.01) |
+| 2026-11-14 | UPDATE | CUSA24463 | 01.00 | [Dynasty Warriors 9 Empires](https://hencheats.vercel.app/game/CUSA24463/01.00) |
+| 2026-11-14 | UPDATE | CUSA25757 | 01.01 | [Curse of the Sea Rats](https://hencheats.vercel.app/game/CUSA25757/01.01) |
+| 2026-11-14 | UPDATE | CUSA25924 | 01.02 | [Mickey Storm and the Cursed Mask](https://hencheats.vercel.app/game/CUSA25924/01.02) |
+| 2026-11-14 | UPDATE | CUSA26688 | 01.00 | [Road Fury](https://hencheats.vercel.app/game/CUSA26688/01.00) |
+| 2026-11-14 | UPDATE | CUSA29346 | 01.03 | [Axiom Verge 2](https://hencheats.vercel.app/game/CUSA29346/01.03) |
+| 2026-11-14 | UPDATE | CUSA29579 | 01.32 | [Stranger of Paradise: Final Fantasy Origin](https://hencheats.vercel.app/game/CUSA29579/01.32) |
+| 2026-11-14 | UPDATE | CUSA30448 | 02.00 | [Sonic Origins](https://hencheats.vercel.app/game/CUSA30448/02.00) |
+| 2026-11-14 | UPDATE | CUSA31340 | 01.06 | [Prodeus](https://hencheats.vercel.app/game/CUSA31340/01.06) |
+| 2026-11-14 | UPDATE | CUSA35005 | 01.01 | [Blade Assault](https://hencheats.vercel.app/game/CUSA35005/01.01) |
+| 2026-11-14 | UPDATE | CUSA41097 | 01.05 | [Afterimage](https://hencheats.vercel.app/game/CUSA41097/01.05) |
 | 2026-11-14 | UPDATE | PPSA20515 | 01.005.004 | [Enotria: The Last Song](https://hencheats.vercel.app/game/PPSA20515/01.005.004) |
 | 2026-11-14 | ADDED | PPSA09663 | 04.000.001 | [Dragon's Dogma 2](https://hencheats.vercel.app/game/PPSA09663/04.000.001) |
 | 2026-11-14 | ADDED | PPSA20515 | 01.005.004 | [Enotria](https://hencheats.vercel.app/game/PPSA20515/01.005.004) |
