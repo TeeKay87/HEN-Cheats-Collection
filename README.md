@@ -122,6 +122,62 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-11-14 | ADDED | CUSA19324 | 01.01 | [My Universe - My Baby](https://hencheats.vercel.app/game/CUSA19324/01.01) |
+| 2026-11-14 | ADDED | CUSA20311 | 01.13 | [Praey For the Gods](https://hencheats.vercel.app/game/CUSA20311/01.13) |
+| 2026-11-14 | ADDED | CUSA30301 | 01.03 | [Krut The Mythic Wings](https://hencheats.vercel.app/game/CUSA30301/01.03) |
+| 2026-11-14 | ADDED | CUSA32740 | 01.18 | [SONIC SUPERSTARS](https://hencheats.vercel.app/game/CUSA32740/01.18) |
+| 2026-11-14 | ADDED | CUSA43622 | 01.01 | [The Smurfs 2: The Prisoner of the Green Stone](https://hencheats.vercel.app/game/CUSA43622/01.01) |
+| 2026-11-14 | ADDED | PPSA08329 | 06.006.000 | [God of War: Ragnarok](https://hencheats.vercel.app/game/PPSA08329/06.006.000) |
+| 2026-11-14 | ADDED | PPSA18471 | 01.005.000 | [Tales of Kenzera: ZAU](https://hencheats.vercel.app/game/PPSA18471/01.005.000) |
+| 2026-11-14 | ADDED | PPSA18629 | 01.010.000 | [Master Detective Archives: RAIN CODE Plus](https://hencheats.vercel.app/game/PPSA18629/01.010.000) |
+| 2026-11-14 | UPDATE | CUSA07722 | 01.05 | [Strafe](https://hencheats.vercel.app/game/CUSA07722/01.05) |
+| 2026-11-14 | UPDATE | CUSA09172 | 01.04 | [L.A. Noire](https://hencheats.vercel.app/game/CUSA09172/01.04) |
+| 2026-11-14 | UPDATE | CUSA11993 | 01.19 | [Marvel's Spider-Man](https://hencheats.vercel.app/game/CUSA11993/01.19) |
+| 2026-11-14 | UPDATE | CUSA14158 | 01.01 | [Croc's World](https://hencheats.vercel.app/game/CUSA14158/01.01) |
+| 2026-11-14 | UPDATE | CUSA15128 | 01.07 | [DYSMANTLE](https://hencheats.vercel.app/game/CUSA15128/01.07) |
+| 2026-11-14 | UPDATE | CUSA15406 | 01.00 | [Croc's World Run](https://hencheats.vercel.app/game/CUSA15406/01.00) |
+| 2026-11-14 | UPDATE | CUSA15702 | 01.00 | [Croc's World 2](https://hencheats.vercel.app/game/CUSA15702/01.00) |
+| 2026-11-14 | UPDATE | CUSA16444 | 02.20 | [AeternoBlade II](https://hencheats.vercel.app/game/CUSA16444/02.20) |
+| 2026-11-14 | UPDATE | CUSA16668 | 01.20 | [Gold Rush: The Game](https://hencheats.vercel.app/game/CUSA16668/01.20) |
+| 2026-11-14 | UPDATE | CUSA17425 | 01.40 | [SnowRunner](https://hencheats.vercel.app/game/CUSA17425/01.40) |
+| 2026-11-14 | UPDATE | CUSA18934 | 01.01 | [Everreach: Project Eden](https://hencheats.vercel.app/game/CUSA18934/01.01) |
+| 2026-11-14 | UPDATE | CUSA19177 | 01.18 | [Construction Simulator](https://hencheats.vercel.app/game/CUSA19177/01.18) |
+| 2026-11-14 | UPDATE | CUSA19484 | 01.01 | [Panzer Dragoon: Remake](https://hencheats.vercel.app/game/CUSA19484/01.01) |
+| 2026-11-14 | UPDATE | CUSA20097 | 01.05 | [Thief Simulator](https://hencheats.vercel.app/game/CUSA20097/01.05) |
+| 2026-11-14 | UPDATE | CUSA24653 | 01.05 | [Alan Wake Remastered](https://hencheats.vercel.app/game/CUSA24653/01.05) |
+| 2026-11-14 | UPDATE | CUSA24813 | 01.01 | [Balan Wonderworld](https://hencheats.vercel.app/game/CUSA24813/01.01) |
+| 2026-11-14 | UPDATE | CUSA24828 | 01.01 | [Paw Paw Paw](https://hencheats.vercel.app/game/CUSA24828/01.01) |
+| 2026-11-14 | UPDATE | CUSA26370 | 01.03 | [New Joe & Mac: Caveman Ninja](https://hencheats.vercel.app/game/CUSA26370/01.03) |
+| 2026-11-14 | UPDATE | CUSA26944 | 01.04 | [The Forgotten City](https://hencheats.vercel.app/game/CUSA26944/01.04) |
+| 2026-11-14 | UPDATE | CUSA27274 | 02.04 | [Orcs Must Die! 3](https://hencheats.vercel.app/game/CUSA27274/02.04) |
+| 2026-11-14 | UPDATE | CUSA27816 | 01.02 | [Marsupilami: Hoobadventure](https://hencheats.vercel.app/game/CUSA27816/01.02) |
+| 2026-11-14 | UPDATE | CUSA28261 | 06.01 | [Grid Legends](https://hencheats.vercel.app/game/CUSA28261/06.01) |
+| 2026-11-14 | UPDATE | CUSA29504 | 01.03 | [EVIL BELOW](https://hencheats.vercel.app/game/CUSA29504/01.03) |
+| 2026-11-14 | UPDATE | CUSA33315 | 01.01 | [Adventures of Chris](https://hencheats.vercel.app/game/CUSA33315/01.01) |
+| 2026-11-14 | UPDATE | CUSA33686 | 01.00 | [Remoteness](https://hencheats.vercel.app/game/CUSA33686/01.00) |
+| 2026-11-14 | UPDATE | CUSA34255 | 01.09 | [LEGO 2K Drive](https://hencheats.vercel.app/game/CUSA34255/01.09) |
+| 2026-11-14 | UPDATE | CUSA34306 | 01.13 | [Tchia](https://hencheats.vercel.app/game/CUSA34306/01.13) |
+| 2026-11-14 | UPDATE | CUSA34526 | 01.03 | [Asterix & Obelix XXXL: The Ram From Hibernia](https://hencheats.vercel.app/game/CUSA34526/01.03) |
+| 2026-11-14 | UPDATE | CUSA36848 | 01.01 | [Lies of P](https://hencheats.vercel.app/game/CUSA36848/01.01) |
+| 2026-11-14 | UPDATE | CUSA36848 | 01.02 | [Lies of P](https://hencheats.vercel.app/game/CUSA36848/01.02) |
+| 2026-11-14 | UPDATE | CUSA39370 | 01.12 | [Transport Fever 2: Console Edition](https://hencheats.vercel.app/game/CUSA39370/01.12) |
+| 2026-11-14 | UPDATE | CUSA41217 | 01.01 | [Transformers: Earthspark: Expedition](https://hencheats.vercel.app/game/CUSA41217/01.01) |
+| 2026-11-14 | UPDATE | CUSA42498 | 01.01 | [DreamWorks All-Star Kart Racing](https://hencheats.vercel.app/game/CUSA42498/01.01) |
+| 2026-11-14 | UPDATE | CUSA42722 | 01.02 | [The Walking Dead: Destinies](https://hencheats.vercel.app/game/CUSA42722/01.02) |
+| 2026-11-14 | UPDATE | CUSA42847 | 01.01 | [Bud Spencer & Terence Hill: Slaps and Beans 2](https://hencheats.vercel.app/game/CUSA42847/01.01) |
+| 2026-11-14 | UPDATE | CUSA44067 | 01.02 | [Sniper Elite: Resistance](https://hencheats.vercel.app/game/CUSA44067/01.02) |
+| 2026-11-14 | UPDATE | CUSA49939 | 01.10 | [Like a Dragon: Pirate Yakuza in Hawaii](https://hencheats.vercel.app/game/CUSA49939/01.10) |
+| 2026-11-14 | UPDATE | PPSA08330 | 06.006.000 | [God of War: Ragnarok](https://hencheats.vercel.app/game/PPSA08330/06.006.000) |
+| 2026-11-14 | UPDATE | PPSA36301 | 01.300.000 | [TCG Card Shop Simulator](https://hencheats.vercel.app/game/PPSA36301/01.300.000) |
+| 2026-11-14 | ADDED | CUSA23749 | 01.06 | [Who Wants to Be a Millionaire?](https://hencheats.vercel.app/game/CUSA23749/01.06) |
+| 2026-11-14 | ADDED | PPSA03233 | 01.001.000 | [Stranger of Paradise: Final Fantasy Origin](https://hencheats.vercel.app/game/PPSA03233/01.001.000) |
+| 2026-11-14 | ADDED | PPSA07498 | 02.000.000 | [Asterix & Obelix XXL 3: The Crystal Menhir](https://hencheats.vercel.app/game/PPSA07498/02.000.000) |
+| 2026-11-14 | ADDED | PPSA08162 | 01.001.000 | [Asterix & Obelix XXL: Romastered](https://hencheats.vercel.app/game/PPSA08162/01.001.000) |
+| 2026-11-14 | ADDED | PPSA08164 | 01.001.000 | [Asterix & Obelix XXL 2](https://hencheats.vercel.app/game/PPSA08164/01.001.000) |
+| 2026-11-14 | UPDATE | CUSA26882 | 01.03 | [35MM](https://hencheats.vercel.app/game/CUSA26882/01.03) |
+| 2026-11-14 | UPDATE | PPSA02663 | 01.000.000 | [Alex Kidd in Miracle World DX](https://hencheats.vercel.app/game/PPSA02663/01.000.000) |
+| 2026-11-14 | UPDATE | PPSA05916 | 01.001.000 | [BloodRayne: ReVamped](https://hencheats.vercel.app/game/PPSA05916/01.001.000) |
+| 2026-11-14 | UPDATE | PPSA05975 | 01.001.000 | [BloodRayne 2: ReVamped](https://hencheats.vercel.app/game/PPSA05975/01.001.000) |
 | 2026-11-13 | UPDATE | PPSA31665 | 01.000.003 | [Neon Inferno](https://hencheats.vercel.app/game/PPSA31665/01.000.003) |
 | 2026-11-13 | ADDED | PPSA02483 | 01.002.000 | [Foreclosed](https://hencheats.vercel.app/game/PPSA02483/01.002.000) |
 | 2026-11-13 | ADDED | PPSA03244 | 01.000.005 | [Rustler](https://hencheats.vercel.app/game/PPSA03244/01.000.005) |

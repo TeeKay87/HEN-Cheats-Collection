@@ -1,0 +1,341 @@
+{
+  "name": "Tales of Kenzera: ZAU",
+  "id": "PPSA18471",
+  "version": "01.005.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Master Code",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "85D7F01",
+          "on": "00C07944",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F01",
+          "section": 6,
+          "sectionOffset": "343F01"
+        },
+        {
+          "offset": "85D7F06",
+          "on": "00C07944",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F06",
+          "section": 6,
+          "sectionOffset": "343F06"
+        },
+        {
+          "offset": "85D7F0B",
+          "on": "00004346",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F0B",
+          "section": 6,
+          "sectionOffset": "343F0B"
+        },
+        {
+          "offset": "85D7F10",
+          "on": "00000000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F10",
+          "section": 6,
+          "sectionOffset": "343F10"
+        },
+        {
+          "offset": "85D7F15",
+          "on": "14000000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F15",
+          "section": 6,
+          "sectionOffset": "343F15"
+        },
+        {
+          "offset": "85D7F1A",
+          "on": "0000803F",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F1A",
+          "section": 6,
+          "sectionOffset": "343F1A"
+        },
+        {
+          "offset": "85D7F1F",
+          "on": "3F420F00",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F1F",
+          "section": 6,
+          "sectionOffset": "343F1F"
+        },
+        {
+          "offset": "85D7F24",
+          "on": "003C1C46",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F24",
+          "section": 6,
+          "sectionOffset": "343F24"
+        },
+        {
+          "offset": "85D7F29",
+          "on": "003C1C46",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F29",
+          "section": 6,
+          "sectionOffset": "343F29"
+        },
+        {
+          "offset": "5BD6FAC",
+          "on": "9C505152488B05F10299024885C00F8495030000488B80800100004885C00F8485030000837840000F8E7B030000488B40384885C00F846E030000488B004885",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "5BD6FEC",
+          "on": "C00F8462030000488B40304885C00F8455030000488B80500200004885C00F8445030000803DE90EA00201755048A9070000007548488B50104885D2743F817A",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "5BD702C",
+          "on": "58C00400007C364889C1488B89B80400004885C9742748F7C107000000751E488B51104885D27415817A58500100007C0C8B159E0EA00289914C010000803D95",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "5BD706C",
+          "on": "0EA00201755048A9070000007548488B50104885D2743F817A58C00400007C364889C1488B89B80400004885C9742748F7C107000000751E488B51104885D274",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "5BD70AC",
+          "on": "15817A58340100007C0C8B154A0EA002899130010000803D410EA00201755048A9070000007548488B50104885D2743F817A58180D00007C364889C1488B8910",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "5BD70EC",
+          "on": "0D00004885C9742748F7C107000000751E488B51104885D27415817A58CC0000007C0C8B15F60DA0028991C8000000803DED0DA00201755048A9070000007548",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "5BD712C",
+          "on": "488B50104885D2743F817A58180D00007C364889C1488B89100D00004885C9742748F7C107000000751E488B51104885D27415817A58E80000007C0C8B15A20D",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "5BD716C",
+          "on": "A0028991E4000000803D990DA00201755048A9070000007548488B50104885D2743F817A58B80C00007C364889C1488B89B00C00004885C9742748F7C1070000",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "5BD71AC",
+          "on": "00751E488B51104885D27415817A58C40000007C0C8B154E0DA0028991C0000000803D450DA00201755048A9070000007548488B50104885D2743F817A58B80C",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "5BD71EC",
+          "on": "00007C364889C1488B89B00C00004885C9742748F7C107000000751E488B51104885D27415817A58BC0000007C0C8B15FA0CA0028991B8000000803DF10CA002",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "5BD722C",
+          "on": "01757448A907000000756C488B50104885D27463817A58000D00007C5A4889C1488B89F80C00004885C9744B48F7C1070000007542488B51104885D27439817A",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "5BD726C",
+          "on": "58D00000007C30488B89C80000004885C9742448F7C107000000751B488B51104885D27412837A586C7C0C4883C1688B157E0CA0028911803D790CA002017550",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "5BD72AC",
+          "on": "48A9070000007548488B50104885D2743F817A58F00600007C364889C1488B89E80600004885C9742748F7C107000000751E488B51104885D27415817A589001",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "5BD72EC",
+          "on": "00007C0C8B152E0CA00289918C010000803D250CA00201755048A9070000007548488B50104885D2743F817A58F00600007C364889C1488B89E80600004885C9",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "5BD732C",
+          "on": "742748F7C107000000751E488B51104885D27415817A58940100007C0C8B15DA0BA0028991900100005A59589D554889E54157E93200E2FB",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "19F7390",
+          "on": "E917FC1D0490",
+          "off": "554889E54157"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "85D7F00",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F00",
+          "section": 6,
+          "sectionOffset": "343F00"
+        }
+      ]
+    },
+    {
+      "name": "--Max Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "85D7F05",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F05",
+          "section": 6,
+          "sectionOffset": "343F05"
+        }
+      ]
+    },
+    {
+      "name": "--Max Ammo",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "85D7F0A",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F0A",
+          "section": 6,
+          "sectionOffset": "343F0A"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Ammo",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "85D7F0F",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F0F",
+          "section": 6,
+          "sectionOffset": "343F0F"
+        }
+      ]
+    },
+    {
+      "name": "--Spirit Pips Count",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "85D7F14",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F14",
+          "section": 6,
+          "sectionOffset": "343F14"
+        }
+      ]
+    },
+    {
+      "name": "--Easy Spirit Pip",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "85D7F19",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F19",
+          "section": 6,
+          "sectionOffset": "343F19"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Skill Points",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "85D7F1E",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F1E",
+          "section": 6,
+          "sectionOffset": "343F1E"
+        }
+      ]
+    },
+    {
+      "name": "--Max Walk Speed",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "85D7F23",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F23",
+          "section": 6,
+          "sectionOffset": "343F23"
+        }
+      ]
+    },
+    {
+      "name": "--Max Walk Speed Crouched",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "85D7F28",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "363F28",
+          "section": 6,
+          "sectionOffset": "343F28"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}
