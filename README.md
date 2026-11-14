@@ -122,6 +122,7 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-11-14 | UPDATE | PPSA20515 | 01.005.004 | [Enotria: The Last Song](https://hencheats.vercel.app/game/PPSA20515/01.005.004) |
 | 2026-11-14 | ADDED | CUSA09910 | 01.01 | [Nights of Azure 2: Bride of the New Moon](https://hencheats.vercel.app/game/CUSA09910/01.01) |
 | 2026-11-14 | UPDATE | CUSA04787 | 01.01 | [Marvel: Ultimate Alliance](https://hencheats.vercel.app/game/CUSA04787/01.01) |
 | 2026-11-14 | UPDATE | CUSA04788 | 01.01 | [Marvel: Ultimate Alliance 2](https://hencheats.vercel.app/game/CUSA04788/01.01) |
@@ -153,7 +154,6 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 | 2026-11-14 | UPDATE | CUSA31340 | 01.06 | [Prodeus](https://hencheats.vercel.app/game/CUSA31340/01.06) |
 | 2026-11-14 | UPDATE | CUSA35005 | 01.01 | [Blade Assault](https://hencheats.vercel.app/game/CUSA35005/01.01) |
 | 2026-11-14 | UPDATE | CUSA41097 | 01.05 | [Afterimage](https://hencheats.vercel.app/game/CUSA41097/01.05) |
-| 2026-11-14 | UPDATE | PPSA20515 | 01.005.004 | [Enotria: The Last Song](https://hencheats.vercel.app/game/PPSA20515/01.005.004) |
 | 2026-11-14 | ADDED | PPSA09663 | 04.000.001 | [Dragon's Dogma 2](https://hencheats.vercel.app/game/PPSA09663/04.000.001) |
 | 2026-11-14 | ADDED | PPSA20515 | 01.005.004 | [Enotria](https://hencheats.vercel.app/game/PPSA20515/01.005.004) |
 | 2026-11-14 | ADDED | PPSA25468 | 01.007.000 | [Atelier Yumia: The Alchemist of Memories & the Envisioned Land](https://hencheats.vercel.app/game/PPSA25468/01.007.000) |
