@@ -122,6 +122,8 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-11-14 | ADDED | PPSA21349 | 02.000.000 | [Hotel Barcelona](https://hencheats.vercel.app/game/PPSA21349/02.000.000) |
+| 2026-11-14 | ADDED | PPSA24913 | 01.001.001 | [Ace Combat 8: Wings of Theve](https://hencheats.vercel.app/game/PPSA24913/01.001.001) |
 | 2026-11-14 | UPDATE | PPSA20515 | 01.005.004 | [Enotria: The Last Song](https://hencheats.vercel.app/game/PPSA20515/01.005.004) |
 | 2026-11-14 | ADDED | CUSA09910 | 01.01 | [Nights of Azure 2: Bride of the New Moon](https://hencheats.vercel.app/game/CUSA09910/01.01) |
 | 2026-11-14 | UPDATE | CUSA04787 | 01.01 | [Marvel: Ultimate Alliance](https://hencheats.vercel.app/game/CUSA04787/01.01) |

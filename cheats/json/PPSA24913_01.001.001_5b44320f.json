@@ -1,0 +1,62 @@
+{
+  "name": "Ace Combat 8: Wings of Theve",
+  "id": "PPSA24913",
+  "version": "01.001.001",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "God Mode",
+      "description": "GWorld -> GameInstance -> LocalPlayers[0] -> PlayerController -> Pawn",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8FC0F5C",
+          "on": "9C505152488B05A9E0F8034885C0745C488B80D80100004885C07450837840007E4A488B40384885C07441488B004885C07439488B40304885C07430488B80D0",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "8FC0F9C",
+          "on": "0200004885C07424803D556FFF0301751B48A9070000007513488B50104885D2740A837A585B7C0480605AFB5A59589D554889E54157E92FE52CF7",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "28F500",
+          "on": "E9571AD30890",
+          "off": "554889E54157"
+        }
+      ]
+    },
+    {
+      "name": "--God Mode",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "CFB7F00",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "583F00",
+          "section": 6,
+          "sectionOffset": "54FF00"
+        }
+      ]
+    },
+    {
+      "name": "Inf Missiles",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "790D55E",
+          "on": "9090",
+          "off": "FFC8"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

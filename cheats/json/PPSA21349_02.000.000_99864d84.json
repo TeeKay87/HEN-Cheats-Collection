@@ -1,0 +1,204 @@
+{
+  "name": "Hotel Barcelona",
+  "id": "PPSA21349",
+  "version": "02.000.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Master Code",
+      "description": "static roots via the il2cpp TypeInfo table, resolved every frame",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "84F47F01",
+          "on": "00C07944",
+          "off": "00000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 3,
+          "logicalOffset": "5B3F01",
+          "section": 20,
+          "sectionOffset": "22FF01"
+        },
+        {
+          "offset": "84F47F06",
+          "on": "00C07944",
+          "off": "00000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 3,
+          "logicalOffset": "5B3F06",
+          "section": 20,
+          "sectionOffset": "22FF06"
+        },
+        {
+          "offset": "834991B7",
+          "on": "9C50515241504151803D44EDAA0101752D48B880F6128500000000488B004885C0741B488B80D06A00004885C0740F488B80B80000004885C07403C60001803D",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "36E91B7",
+          "section": 16,
+          "sectionOffset": "36E91B7"
+        },
+        {
+          "offset": "834991F7",
+          "on": "04EDAA01010F858000000048B880F6128500000000488B004885C0746E488B8060D501004885C07462488B80B80000004885C07456488B004885C0744E480580",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "36E91F7",
+          "section": 16,
+          "sectionOffset": "36E91F7"
+        },
+        {
+          "offset": "83499237",
+          "on": "000000488B004885C07440480510010000488B004885C074324883C068488B004885C07426480558020000488B004885C074184883C038488B004885C0740C48",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "36E9237",
+          "section": 16,
+          "sectionOffset": "36E9237"
+        },
+        {
+          "offset": "83499277",
+          "on": "83C0148B1581ECAA018910803D7CECAA01010F858000000048B880F6128500000000488B004885C0746E488B8060D501004885C07462488B80B80000004885C0",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "36E9277",
+          "section": 16,
+          "sectionOffset": "36E9277"
+        },
+        {
+          "offset": "834992B7",
+          "on": "7456488B004885C0744E480580000000488B004885C07440480510010000488B004885C074324883C068488B004885C07426480560020000488B004885C07418",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "36E92B7",
+          "section": 16,
+          "sectionOffset": "36E92B7"
+        },
+        {
+          "offset": "834992F7",
+          "on": "4883C038488B004885C0740C4883C0148B15F9EBAA018910415941585A59589D554889E54156E9F4231BFD",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "36E92F7",
+          "section": 16,
+          "sectionOffset": "36E92F7"
+        },
+        {
+          "offset": "8064B710",
+          "on": "E9A2DAE40290",
+          "off": "554889E54156",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "89B710",
+          "section": 16,
+          "sectionOffset": "89B710"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "84F47F00",
+          "on": "01",
+          "off": "00",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 3,
+          "logicalOffset": "5B3F00",
+          "section": 20,
+          "sectionOffset": "22FF00"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Stamina",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "84F47F05",
+          "on": "01",
+          "off": "00",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 3,
+          "logicalOffset": "5B3F05",
+          "section": 20,
+          "sectionOffset": "22FF05"
+        }
+      ]
+    },
+    {
+      "name": "--Stop Timer",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "84F47F0A",
+          "on": "01",
+          "off": "00",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 3,
+          "logicalOffset": "5B3F0A",
+          "section": 20,
+          "sectionOffset": "22FF0A"
+        }
+      ]
+    },
+    {
+      "name": "Inf Items",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "83499342",
+          "on": "B80F27000089449120498B06E90C4105FD",
+          "off": "0000000000000000000000000000000000",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "36E9342",
+          "section": 16,
+          "sectionOffset": "36E9342"
+        },
+        {
+          "offset": "804ED458",
+          "on": "E9E5BEFA029090",
+          "off": "01449120498B06",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "73D458",
+          "section": 16,
+          "sectionOffset": "73D458"
+        }
+      ]
+    },
+    {
+      "name": "Inf Ammo",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80778842",
+          "on": "9090",
+          "off": "FFCA",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "9C8842",
+          "section": 16,
+          "sectionOffset": "9C8842"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "talixme",
+    "Talixme"
+  ]
+}
