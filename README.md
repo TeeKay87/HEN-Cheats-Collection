@@ -122,6 +122,15 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-11-14 | UPDATE | PPSA20515 | 01.005.004 | [Enotria: The Last Song](https://hencheats.vercel.app/game/PPSA20515/01.005.004) |
+| 2026-11-14 | ADDED | PPSA09663 | 04.000.001 | [Dragon's Dogma 2](https://hencheats.vercel.app/game/PPSA09663/04.000.001) |
+| 2026-11-14 | ADDED | PPSA20515 | 01.005.004 | [Enotria](https://hencheats.vercel.app/game/PPSA20515/01.005.004) |
+| 2026-11-14 | ADDED | PPSA25468 | 01.007.000 | [Atelier Yumia: The Alchemist of Memories & the Envisioned Land](https://hencheats.vercel.app/game/PPSA25468/01.007.000) |
+| 2026-11-14 | ADDED | PPSA25469 | 01.007.000 | [Atelier Yumia: The Alchemist of Memories & the Envisioned Land](https://hencheats.vercel.app/game/PPSA25469/01.007.000) |
+| 2026-11-14 | ADDED | PPSA31217 | 01.001.000 | [Atelier Ryza 3: Alchemist of the End & the Secret Key DX](https://hencheats.vercel.app/game/PPSA31217/01.001.000) |
+| 2026-11-14 | ADDED | PPSA34299 | 01.006.000 | [WWE 2K26](https://hencheats.vercel.app/game/PPSA34299/01.006.000) |
+| 2026-11-14 | ADDED | PPSA34971 | 01.000.002 | [Hollow Knight: Voidheart Edition](https://hencheats.vercel.app/game/PPSA34971/01.000.002) |
+| 2026-11-14 | UPDATE | PPSA16096 | 01.003.000 | [Visions of Mana](https://hencheats.vercel.app/game/PPSA16096/01.003.000) |
 | 2026-11-14 | ADDED | CUSA19324 | 01.01 | [My Universe - My Baby](https://hencheats.vercel.app/game/CUSA19324/01.01) |
 | 2026-11-14 | ADDED | CUSA20311 | 01.13 | [Praey For the Gods](https://hencheats.vercel.app/game/CUSA20311/01.13) |
 | 2026-11-14 | ADDED | CUSA30301 | 01.03 | [Krut The Mythic Wings](https://hencheats.vercel.app/game/CUSA30301/01.03) |

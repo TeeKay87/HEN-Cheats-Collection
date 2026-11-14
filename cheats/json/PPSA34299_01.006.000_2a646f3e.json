@@ -1,0 +1,40 @@
+{
+  "name": "WWE 2K26",
+  "id": "PPSA34299",
+  "version": "01.006.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "CA23DF",
+          "on": "9090909090",
+          "off": "C5FA5C45C0"
+        }
+      ]
+    },
+    {
+      "name": "Allways 5 Stars",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3AE290C",
+          "on": "B89F8601008987DC090000E9B3C507FD",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "B5EEC9",
+          "on": "E93E3AF80290",
+          "off": "8987DC090000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

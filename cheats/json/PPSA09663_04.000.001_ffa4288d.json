@@ -1,0 +1,140 @@
+{
+  "name": "Dragon's Dogma 2",
+  "id": "PPSA09663",
+  "version": "04.000.001",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Health (player)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0A8B5000",
+          "on": "41817F3C003C1C467405C5FA5C45CCE9521292FF",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "0A1D6261",
+          "on": "E99AED6D00",
+          "off": "C5FA5C45CC"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health (pawns)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0A8B50C0",
+          "on": "C5FA1145BC498B47184885C07428A8077524488B40284885C0741BA807751781781463006800750E66837818317507C745CC00000000E9661192FF",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "0A1D625C",
+          "on": "E95FEE6D00",
+          "off": "C5FA1145BC"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0601A513",
+          "on": "C5FA10432C",
+          "off": "C5FA584320"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "060BD630",
+          "on": "90909090",
+          "off": "66895A22"
+        },
+        {
+          "offset": "060BCE01",
+          "on": "9090909090",
+          "off": "6641894722"
+        }
+      ]
+    },
+    {
+      "name": "Max Gold (on pick up or spend)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "05FA231A",
+          "on": "90909090",
+          "off": "410F4CC5"
+        }
+      ]
+    },
+    {
+      "name": "Infinite DCP (999,999 on skill purchase)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0A8B5040",
+          "on": "41C744242C3F420F00E96D5EC1FF",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "0A4CAEB6",
+          "on": "E985A13E00",
+          "off": "412954242C"
+        }
+      ]
+    },
+    {
+      "name": "Max XP / Levels (on next XP gain)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0A8B5080",
+          "on": "41817C242800CA9A3B7309418144242800CA9A3BE9D6FFE4FF",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "0A70506A",
+          "on": "E911001B00",
+          "off": "41015C2428"
+        }
+      ]
+    },
+    {
+      "name": "No Weight",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "060827DE",
+          "on": "31C99090909090",
+          "off": "488B8DF0FEFFFF"
+        }
+      ]
+    },
+    {
+      "name": "Max Vocation Rank (current vocation, on next kill)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0A8B5140",
+          "on": "8B8D18FFFFFF498B46204885C07421A807751D418B5628FFCA3B501C7312817C902040420F007D08C744902040420F00E922FFE4FF",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "0A705091",
+          "on": "E9AA001B0090",
+          "off": "8B8D18FFFFFF"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "allexander.xv"
+  ]
+}
