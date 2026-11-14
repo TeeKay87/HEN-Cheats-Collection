@@ -1,0 +1,59 @@
+{
+  "name": "The Legend of Heroes: Trails through Daybreak",
+  "id": "PPSA18986",
+  "version": "01.002.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "All Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "55FFB0",
+          "on": "4188948678700B0048BFAC70B87800080000B99708000041B8620200004489074883C704FFC975F5B9F800000041B8620B00004489074883C704FFC975F5E911F4D2FF",
+          "off": "4188948678700B0048BFAC70B87800080000B99708000041B8620200004489074883C704FFC975F5B9F800000041B8620B00004489074883C704FFC975F5E911F4D2FF"
+        },
+        {
+          "offset": "28F3FC",
+          "on": "E9AF0B2D00909090",
+          "off": "4188948678700B00"
+        }
+      ]
+    },
+    {
+      "name": "Inf. Money",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "55FFA0",
+          "on": "B807CA9A3B8987A8011900E984F9D2FF",
+          "off": "B807CA9A3B8987A8011900E984F9D2FF"
+        },
+        {
+          "offset": "28F92E",
+          "on": "E96D062D0090",
+          "off": "8987A8011900"
+        }
+      ]
+    },
+    {
+      "name": "Max XP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "55FF90",
+          "on": "41C747087F9698006690E96142B2FF",
+          "off": "41C747087F9698006690E96142B2FF"
+        },
+        {
+          "offset": "841FA",
+          "on": "E991BD4D0090",
+          "off": "418947086690"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Ston3d"
+  ]
+}

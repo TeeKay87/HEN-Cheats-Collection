@@ -122,6 +122,9 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-11-14 | ADDED | PPSA17775 | 04.000.000 | [Laika: Aged Through Blood](https://hencheats.vercel.app/game/PPSA17775/04.000.000) |
+| 2026-11-14 | ADDED | PPSA18986 | 01.002.000 | [The Legend of Heroes: Trails through Daybreak](https://hencheats.vercel.app/game/PPSA18986/01.002.000) |
+| 2026-11-14 | ADDED | PPSA24326 | 01.002.000 | [The Legend of Heroes: Trails through Daybreak II](https://hencheats.vercel.app/game/PPSA24326/01.002.000) |
 | 2026-11-14 | ADDED | PPSA21349 | 02.000.000 | [Hotel Barcelona](https://hencheats.vercel.app/game/PPSA21349/02.000.000) |
 | 2026-11-14 | ADDED | PPSA24913 | 01.001.001 | [Ace Combat 8: Wings of Theve](https://hencheats.vercel.app/game/PPSA24913/01.001.001) |
 | 2026-11-14 | UPDATE | PPSA20515 | 01.005.004 | [Enotria: The Last Song](https://hencheats.vercel.app/game/PPSA20515/01.005.004) |

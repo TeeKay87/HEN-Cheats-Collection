@@ -1,0 +1,70 @@
+{
+  "name": "The Legend of Heroes: Trails through Daybreak II",
+  "id": "PPSA24326",
+  "version": "01.002.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "All Items",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6FBFA0",
+          "on": "6641899486E86A1900488D6424809C5751415048BF2C6A279800080000B9E708000041B8620003004489074883C704FFC975F5B99F00000041B862000B004489074883C704FFC975F54158595F9D488DA42480000000E97271CCFF",
+          "off": "6641899486E86A1900488D6424809C5751415048BF2C6A279800080000B9E708000041B8620003004489074883C704FFC975F5B99F00000041B862000B004489074883C704FFC975F54158595F9D488DA42480000000E97271CCFF"
+        },
+        {
+          "offset": "3C3164",
+          "on": "E9378E330090909090",
+          "off": "6641899486E86A1900"
+        }
+      ]
+    },
+    {
+      "name": "Inf. Hacking Time",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4BD7A1",
+          "on": "909090909090",
+          "off": "C4C17A114608"
+        }
+      ]
+    },
+    {
+      "name": "Max Money",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6FBF90",
+          "on": "C787E80C2700FFC99A3BE9A976CCFF",
+          "off": "C787E80C2700FFC99A3BE9A976CCFF"
+        },
+        {
+          "offset": "3C3642",
+          "on": "E94989330090",
+          "off": "8987E80C2700"
+        }
+      ]
+    },
+    {
+      "name": "Max Xp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6FBF70",
+          "on": "C4E278F2C3C74108FFC99A3BE962209BFF",
+          "off": "C4E278F2C3C74108FFC99A3BE962209BFF"
+        },
+        {
+          "offset": "ADFDB",
+          "on": "E990DF6400909090",
+          "off": "C4E278F2C3894108"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Ston3d"
+  ]
+}
