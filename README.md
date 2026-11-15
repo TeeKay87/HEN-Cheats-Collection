@@ -122,6 +122,10 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-11-15 | ADDED | CUSA00265 | 03.43 | [Minecraft: PlayStation 4 Edition](https://hencheats.vercel.app/game/CUSA00265/03.43) |
+| 2026-11-15 | ADDED | PPSA02957 | 01.003.000 | [Shing!](https://hencheats.vercel.app/game/PPSA02957/01.003.000) |
+| 2026-11-15 | ADDED | PPSA09663 | 04.000.000 | [Dragon's Dogma 2](https://hencheats.vercel.app/game/PPSA09663/04.000.000) |
+| 2026-11-15 | REMOVED | PPSA09663 | 04.000.001 | [Dragon's Dogma 2](https://hencheats.vercel.app/game/PPSA09663/04.000.001) |
 | 2026-11-14 | ADDED | PPSA17775 | 04.000.000 | [Laika: Aged Through Blood](https://hencheats.vercel.app/game/PPSA17775/04.000.000) |
 | 2026-11-14 | ADDED | PPSA18986 | 01.002.000 | [The Legend of Heroes: Trails through Daybreak](https://hencheats.vercel.app/game/PPSA18986/01.002.000) |
 | 2026-11-14 | ADDED | PPSA24326 | 01.002.000 | [The Legend of Heroes: Trails through Daybreak II](https://hencheats.vercel.app/game/PPSA24326/01.002.000) |
