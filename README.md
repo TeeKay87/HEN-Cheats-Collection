@@ -122,6 +122,8 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-11-17 | ADDED | PPSA06732 | 01.008.000 | [Teenage Mutant Ninja Turtles: Shredder's Revenge](https://hencheats.vercel.app/game/PPSA06732/01.008.000) |
+| 2026-11-17 | UPDATE | PPSA35399 | 01.000.000 | [Castlevania: Belmont's Curse](https://hencheats.vercel.app/game/PPSA35399/01.000.000) |
 | 2026-11-16 | ADDED | PPSA03463 | 02.000.001 | [Mighty Goose](https://hencheats.vercel.app/game/PPSA03463/02.000.001) |
 | 2026-11-16 | ADDED | PPSA04294 | 01.000.000 | [Enter Digiton: Heart of Corruption](https://hencheats.vercel.app/game/PPSA04294/01.000.000) |
 | 2026-11-16 | ADDED | PPSA04914 | 01.000.000 | [Demoniaca: Everlasting Night](https://hencheats.vercel.app/game/PPSA04914/01.000.000) |
