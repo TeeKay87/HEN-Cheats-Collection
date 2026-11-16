@@ -122,6 +122,9 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-11-16 | UPDATE | PPSA35399 | 01.000.000 | [Castlevania: Belmont's Curse](https://hencheats.vercel.app/game/PPSA35399/01.000.000) |
+| 2026-11-16 | ADDED | CUSA08519 | 01.00 | [Red Dead Redemption II](https://hencheats.vercel.app/game/CUSA08519/01.00) |
+| 2026-11-16 | ADDED | PPSA09663 | 04.000.001 | [Dragon's Dogma 2](https://hencheats.vercel.app/game/PPSA09663/04.000.001) |
 | 2026-11-15 | ADDED | CUSA00265 | 03.43 | [Minecraft: PlayStation 4 Edition](https://hencheats.vercel.app/game/CUSA00265/03.43) |
 | 2026-11-15 | ADDED | PPSA02957 | 01.003.000 | [Shing!](https://hencheats.vercel.app/game/PPSA02957/01.003.000) |
 | 2026-11-15 | ADDED | PPSA09663 | 04.000.000 | [Dragon's Dogma 2](https://hencheats.vercel.app/game/PPSA09663/04.000.000) |

@@ -1,0 +1,225 @@
+{
+  "name": "Castlevania: Belmont's Curse",
+  "id": "PPSA35399",
+  "version": "01.000.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "No Trap Damage",
+      "description": "Spikes, saw blades, slamming fists, pits and enemies can't hurt you, push you back or teleport you to the last safe spot. Combines three patches: FatalFallRespawn.CanStart returns false (no fall teleport); Damageable.ApplyDamages' SkipApplyDamagesDebugFlag check is pointed at the player (no damage); HeroHitStrategy.ApplyHitBump and ApplyCustomHitBump return right away (no knockback).",
+      "type": "checkbox",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "365da0",
+          "on": "31c0c390",
+          "off": "554889e5",
+          "expected": "554889e5",
+          "absolute": false
+        },
+        {
+          "offset": "3e1f58",
+          "on": "d493d604",
+          "off": "0c94d604",
+          "expected": "0c94d604",
+          "absolute": false
+        },
+        {
+          "offset": "3e1f93",
+          "on": "9993d604",
+          "off": "d193d604",
+          "expected": "d193d604",
+          "absolute": false
+        },
+        {
+          "offset": "62b130",
+          "on": "c3909090",
+          "off": "554889e5",
+          "expected": "554889e5",
+          "absolute": false
+        },
+        {
+          "offset": "62b2b0",
+          "on": "c3909090",
+          "off": "554889e5",
+          "expected": "554889e5",
+          "absolute": false
+        }
+      ]
+    },
+    {
+      "name": "Unlimited Jumps",
+      "description": "Jump again in mid-air as often as you like. StartJumpFeature.CanStart always returns true.",
+      "type": "checkbox",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "9069d0",
+          "on": "b001c390",
+          "off": "554889e5",
+          "expected": "554889e5",
+          "absolute": false
+        }
+      ]
+    },
+    {
+      "name": "Reveal All Map Icons",
+      "description": "Shows every save elevator and some other map icons; the rooms themselves still have to be explored. Turns on the game's own DEBUG_revealAllMap flag. Switching it off takes effect after you reload the save.",
+      "type": "checkbox",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "423428",
+          "on": "41808ea800000001",
+          "off": "4180bea800000000",
+          "expected": "4180bea800000000",
+          "absolute": false
+        },
+        {
+          "offset": "4234c4",
+          "on": "41808ea800000001",
+          "off": "4180bea800000000",
+          "expected": "4180bea800000000",
+          "absolute": false
+        },
+        {
+          "offset": "4235c9",
+          "on": "41808ea800000001",
+          "off": "4180bea800000000",
+          "expected": "4180bea800000000",
+          "absolute": false
+        },
+        {
+          "offset": "42368e",
+          "on": "41808ea800000001",
+          "off": "4180bea800000000",
+          "expected": "4180bea800000000",
+          "absolute": false
+        },
+        {
+          "offset": "423819",
+          "on": "41808ea800000001",
+          "off": "4180bea800000000",
+          "expected": "4180bea800000000",
+          "absolute": false
+        },
+        {
+          "offset": "423972",
+          "on": "41808fa800000001",
+          "off": "4180bfa800000000",
+          "expected": "4180bfa800000000",
+          "absolute": false
+        },
+        {
+          "offset": "423a0d",
+          "on": "41808fa800000001",
+          "off": "4180bfa800000000",
+          "expected": "4180bfa800000000",
+          "absolute": false
+        },
+        {
+          "offset": "423ae9",
+          "on": "41808ea800000001",
+          "off": "4180bea800000000",
+          "expected": "4180bea800000000",
+          "absolute": false
+        },
+        {
+          "offset": "42462c",
+          "on": "41808fa800000001",
+          "off": "4180bfa800000000",
+          "expected": "4180bfa800000000",
+          "absolute": false
+        },
+        {
+          "offset": "424ca2",
+          "on": "41808fa800000001",
+          "off": "4180bfa800000000",
+          "expected": "4180bfa800000000",
+          "absolute": false
+        },
+        {
+          "offset": "424d3d",
+          "on": "41808fa800000001",
+          "off": "4180bfa800000000",
+          "expected": "4180bfa800000000",
+          "absolute": false
+        },
+        {
+          "offset": "424e19",
+          "on": "41808ea800000001",
+          "off": "4180bea800000000",
+          "expected": "4180bea800000000",
+          "absolute": false
+        },
+        {
+          "offset": "42519c",
+          "on": "41808fa800000001",
+          "off": "4180bfa800000000",
+          "expected": "4180bfa800000000",
+          "absolute": false
+        },
+        {
+          "offset": "42564a",
+          "on": "41808fa800000001",
+          "off": "4180bfa800000000",
+          "expected": "4180bfa800000000",
+          "absolute": false
+        },
+        {
+          "offset": "425d0c",
+          "on": "41808fa800000001",
+          "off": "4180bfa800000000",
+          "expected": "4180bfa800000000",
+          "absolute": false
+        },
+        {
+          "offset": "42617a",
+          "on": "808ba800000001",
+          "off": "80bba800000000",
+          "expected": "80bba800000000",
+          "absolute": false
+        },
+        {
+          "offset": "426237",
+          "on": "41808ea800000001",
+          "off": "4180bea800000000",
+          "expected": "4180bea800000000",
+          "absolute": false
+        },
+        {
+          "offset": "4268ec",
+          "on": "41808fa800000001",
+          "off": "4180bfa800000000",
+          "expected": "4180bfa800000000",
+          "absolute": false
+        },
+        {
+          "offset": "426e2d",
+          "on": "41808fa800000001",
+          "off": "4180bfa800000000",
+          "expected": "4180bfa800000000",
+          "absolute": false
+        },
+        {
+          "offset": "42723d",
+          "on": "41808fa800000001",
+          "off": "4180bfa800000000",
+          "expected": "4180bfa800000000",
+          "absolute": false
+        },
+        {
+          "offset": "427509",
+          "on": "41808ea800000001",
+          "off": "4180bea800000000",
+          "expected": "4180bea800000000",
+          "absolute": false
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Magnus",
+    "Hydra"
+  ]
+}

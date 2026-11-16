@@ -1,0 +1,248 @@
+{
+  "name": "Red Dead Redemption II",
+  "id": "CUSA08519",
+  "version": "01.00",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "God Mode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6413A28",
+          "on": "5051498B46084883E0F0488B0DAF36F1004885C9741A483B410859580F84642954FBF6C2100F855B2954FBE9692054FB5958EBEE",
+          "off": "5051498B46084883E0F0488B0DAF36F1004885C9741A483B410859580F84642954FBF6C2100F855B2954FBE9692054FB5958EBEE"
+        },
+        {
+          "offset": "1955AB8",
+          "on": "E96BDFAB0490909090",
+          "off": "F6C2100F85ED080000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health / Stamina / Dead Eye Cores",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8B6C1D",
+          "on": "90909090",
+          "off": "C5FA1100"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Dead Eye Bar",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "12599AE",
+          "on": "909090",
+          "off": "FF5048"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Stamina Bar",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "00E5CD1D",
+          "on": "EB63",
+          "off": "7563"
+        },
+        {
+          "offset": "00E5EE25",
+          "on": "E9C900000090",
+          "off": "0F85C8000000"
+        },
+        {
+          "offset": "00E5F7F5",
+          "on": "E9A600000090",
+          "off": "0F85A5000000"
+        },
+        {
+          "offset": "00E60B59",
+          "on": "E98100000090",
+          "off": "0F8580000000"
+        },
+        {
+          "offset": "00E61106",
+          "on": "E99E00000090",
+          "off": "0F859D000000"
+        },
+        {
+          "offset": "00E615D5",
+          "on": "E98A00000090",
+          "off": "0F8589000000"
+        },
+        {
+          "offset": "00E61790",
+          "on": "E9CA00000090",
+          "off": "0F85C9000000"
+        },
+        {
+          "offset": "00E61BAD",
+          "on": "E9BB00000090",
+          "off": "0F85BA000000"
+        },
+        {
+          "offset": "00E61BFE",
+          "on": "EB6D",
+          "off": "756D"
+        },
+        {
+          "offset": "012D0805",
+          "on": "EB7C",
+          "off": "757C"
+        },
+        {
+          "offset": "01BBA18E",
+          "on": "EB64",
+          "off": "7564"
+        },
+        {
+          "offset": "01FF6F2B",
+          "on": "EB70",
+          "off": "7570"
+        },
+        {
+          "offset": "01FF7080",
+          "on": "EB70",
+          "off": "7570"
+        },
+        {
+          "offset": "01FF71D5",
+          "on": "EB70",
+          "off": "7570"
+        },
+        {
+          "offset": "01FF732A",
+          "on": "EB70",
+          "off": "7570"
+        },
+        {
+          "offset": "01FF747F",
+          "on": "EB70",
+          "off": "7570"
+        },
+        {
+          "offset": "01FF75D4",
+          "on": "EB6B",
+          "off": "756B"
+        },
+        {
+          "offset": "025B025E",
+          "on": "E9BA00000090",
+          "off": "0F85B9000000"
+        },
+        {
+          "offset": "02780D56",
+          "on": "E99400000090",
+          "off": "0F8593000000"
+        },
+        {
+          "offset": "027DC85E",
+          "on": "E94703000090",
+          "off": "0F8546030000"
+        },
+        {
+          "offset": "02B4743C",
+          "on": "E9B900000090",
+          "off": "0F85B8000000"
+        },
+        {
+          "offset": "034941F9",
+          "on": "EB70",
+          "off": "7570"
+        },
+        {
+          "offset": "03D91AA3",
+          "on": "E97501000090",
+          "off": "0F8574010000"
+        },
+        {
+          "offset": "03D91B8E",
+          "on": "E9A200000090",
+          "off": "0F85A1000000"
+        },
+        {
+          "offset": "03D930F5",
+          "on": "E96E05000090",
+          "off": "0F856D050000"
+        },
+        {
+          "offset": "03D931C4",
+          "on": "E9681B000090",
+          "off": "0F85671B0000"
+        },
+        {
+          "offset": "03E77936",
+          "on": "E98200000090",
+          "off": "0F8581000000"
+        },
+        {
+          "offset": "03F423BD",
+          "on": "EB78",
+          "off": "7578"
+        },
+        {
+          "offset": "043BF8FF",
+          "on": "E9BC00000090",
+          "off": "0F85BB000000"
+        }
+      ]
+    },
+    {
+      "name": "Unlimited Ammo / No Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "24E6F02",
+          "on": "E969CBF20390",
+          "off": "0F8564010000"
+        },
+        {
+          "offset": "6413A70",
+          "on": "0F85F6350DFC488B056B36F1004885C0741B488B40084885C074128B8E9C0000003B889C0000000F84CF350DFCE966340DFC",
+          "off": "0F85F6350DFC488B056B36F1004885C0741B488B40084885C074128B8E9C0000003B889C0000000F84CF350DFCE966340DFC"
+        }
+      ]
+    },
+    {
+      "name": "Max Cash $21,474,836.47",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1B15843",
+          "on": "C74028FFFFFF7FB8FFFFFF7F",
+          "off": "488B4028483DFEFFFF7F7E09"
+        },
+        {
+          "offset": "1B15880",
+          "on": "B001909090",
+          "off": "E83BD803FF"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Valuables & Consumables",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1AE66DD",
+          "on": "B001909090",
+          "off": "E80EA502FF"
+        },
+        {
+          "offset": "1AE6781",
+          "on": "B001909090",
+          "off": "E8EA6602FF"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "illusional"
+  ]
+}
