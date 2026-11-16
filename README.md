@@ -122,6 +122,13 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-11-16 | ADDED | PPSA03463 | 02.000.001 | [Mighty Goose](https://hencheats.vercel.app/game/PPSA03463/02.000.001) |
+| 2026-11-16 | ADDED | PPSA04294 | 01.000.000 | [Enter Digiton: Heart of Corruption](https://hencheats.vercel.app/game/PPSA04294/01.000.000) |
+| 2026-11-16 | ADDED | PPSA04914 | 01.000.000 | [Demoniaca: Everlasting Night](https://hencheats.vercel.app/game/PPSA04914/01.000.000) |
+| 2026-11-16 | ADDED | PPSA15753 | 01.000.003 | [Nightmare Reaper](https://hencheats.vercel.app/game/PPSA15753/01.000.003) |
+| 2026-11-16 | ADDED | PPSA18690 | 02.001.000 | [Lost Ruins](https://hencheats.vercel.app/game/PPSA18690/02.001.000) |
+| 2026-11-16 | ADDED | PPSA30803 | 01.310.000 | [Resident Evil Requiem](https://hencheats.vercel.app/game/PPSA30803/01.310.000) |
+| 2026-11-16 | ADDED | PPSA31246 | 01.310.000 | [Resident Evil Requiem](https://hencheats.vercel.app/game/PPSA31246/01.310.000) |
 | 2026-11-16 | UPDATE | PPSA35399 | 01.000.000 | [Castlevania: Belmont's Curse](https://hencheats.vercel.app/game/PPSA35399/01.000.000) |
 | 2026-11-16 | ADDED | CUSA08519 | 01.00 | [Red Dead Redemption II](https://hencheats.vercel.app/game/CUSA08519/01.00) |
 | 2026-11-16 | ADDED | PPSA09663 | 04.000.001 | [Dragon's Dogma 2](https://hencheats.vercel.app/game/PPSA09663/04.000.001) |

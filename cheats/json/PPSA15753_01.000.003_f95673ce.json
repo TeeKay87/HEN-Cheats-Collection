@@ -1,0 +1,138 @@
+{
+  "name": "Nightmare Reaper",
+  "id": "PPSA15753",
+  "version": "01.000.003",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Master Code",
+      "description": "GWorld -> GameInstance -> LocalPlayers[0] -> PlayerController -> Pawn",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "71F3F01",
+          "on": "E7030000",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "2DFF01",
+          "section": 6,
+          "sectionOffset": "2CBF01"
+        },
+        {
+          "offset": "71F3F06",
+          "on": "0000FA45",
+          "off": "00000000",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "2DFF06",
+          "section": 6,
+          "sectionOffset": "2CBF06"
+        },
+        {
+          "offset": "4FA203C",
+          "on": "9C505152488B05810420024885C00F84D8000000488B80800100004885C00F84C8000000837840000F8EBE000000488B40384885C00F84B1000000488B004885",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4FA207C",
+          "on": "C00F84A5000000488B40304885C00F8498000000488B80500200004885C00F8488000000803D591E250201752648A907000000751E488B50104885D27415817A",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4FA20BC",
+          "on": "58100700007C0C8B15381E250289900C070000803D2F1E250201755048A9070000007548488B50104885D2743F817A58900200007C364889C1488B8988020000",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4FA20FC",
+          "on": "4885C9742748F7C107000000751E488B51104885D27415817A58900100007C0C8B15E41D250289918C0100005A59589D554889E54157E92F6B15FC",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "10F8C60",
+          "on": "E9D793EA0390",
+          "off": "554889E54157"
+        }
+      ]
+    },
+    {
+      "name": "--Inf Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "71F3F00",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "2DFF00",
+          "section": 6,
+          "sectionOffset": "2CBF00"
+        }
+      ]
+    },
+    {
+      "name": "--Max Walk Speed",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "71F3F05",
+          "on": "01",
+          "off": "00",
+          "sectionName": "executable",
+          "sectionProtection": 3,
+          "logicalOffset": "2DFF05",
+          "section": 6,
+          "sectionOffset": "2CBF05"
+        }
+      ]
+    },
+    {
+      "name": "Inf Ammo",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "92E2DD",
+          "on": "909090",
+          "off": "4401F9"
+        }
+      ]
+    },
+    {
+      "name": "No Reload",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "BAE80B",
+          "on": "909090",
+          "off": "4429F0"
+        }
+      ]
+    },
+    {
+      "name": "Inf Gold",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4FA2157",
+          "on": "41C787D40600003F420F00E963A898FB",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "92C9C3",
+          "on": "E98F5767049090",
+          "off": "418987D4060000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

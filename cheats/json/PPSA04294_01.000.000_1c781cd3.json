@@ -1,0 +1,45 @@
+{
+  "name": "Enter Digiton: Heart of Corruption",
+  "id": "PPSA04294",
+  "version": "01.000.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf Hp",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FEE58BB",
+          "on": "90909090",
+          "off": "41895E30",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "1BD8BB",
+          "section": 14,
+          "sectionOffset": "1BD8BB"
+        }
+      ]
+    },
+    {
+      "name": "Inf Dash",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FE92999",
+          "on": "909090909090",
+          "off": "C4C17A584768",
+          "sectionName": "Il2CppUserAssemblies.prx",
+          "sectionProtection": 5,
+          "logicalOffset": "16A999",
+          "section": 14,
+          "sectionOffset": "16A999"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}
