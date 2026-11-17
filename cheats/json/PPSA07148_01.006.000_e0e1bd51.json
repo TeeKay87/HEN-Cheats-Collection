@@ -1,0 +1,167 @@
+{
+  "name": "The Outer Worlds: Spacer's Choice Edition",
+  "id": "PPSA07148",
+  "version": "01.006.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Health (player)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0660D300",
+          "on": "48813F98D1D408750AC5F82ECA7304C5F828CAC5F25DE0C5F2C2CB01E98EB2D9FA",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "013A85A6",
+          "on": "E9554D260590909090",
+          "off": "C5F25DE0C5F2C2CB01"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Energy (TTD)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01563E41",
+          "on": "C5F828C8",
+          "off": "C5DA58CD"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo & Items (no decrease)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0149A1A2",
+          "on": "909090",
+          "off": "4429F9"
+        }
+      ]
+    },
+    {
+      "name": "Weapon & Armor Durability (stays 100%)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01498634",
+          "on": "C5F828C2",
+          "off": "C5F258C0"
+        }
+      ]
+    },
+    {
+      "name": "Fast Level Up (XP x100)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0660D340",
+          "on": "69F6640000008975D485F6E9063EF4FA",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "01551151",
+          "on": "E9EAC10B05",
+          "off": "8975D485F6"
+        }
+      ]
+    },
+    {
+      "name": "Fast Level Up (XP x1000)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0660D380",
+          "on": "69F6E80300008975D485F6E9C63DF4FA",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "01551151",
+          "on": "E92AC20B05",
+          "off": "8975D485F6"
+        }
+      ]
+    },
+    {
+      "name": "Fast Level Up (XP x10000)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0660D3C0",
+          "on": "69F6102700008975D485F6E9863DF4FA",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "01551151",
+          "on": "E96AC20B05",
+          "off": "8975D485F6"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Skill Points (no decrease)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0155361E",
+          "on": "909090909090",
+          "off": "2997AC070000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Perk Points (no decrease)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01345BCA",
+          "on": "9090",
+          "off": "FFC8"
+        }
+      ]
+    },
+    {
+      "name": "Weight 0 (drop a items)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "014B6A9E",
+          "on": "C5F857C090909090",
+          "off": "C5FA588300030000"
+        },
+        {
+          "offset": "014B6B07",
+          "on": "C5F857C0",
+          "off": "C5EA5CC0"
+        },
+        {
+          "offset": "014B69D0",
+          "on": "C5F857C0",
+          "off": "C5FA58C1"
+        }
+      ]
+    },
+    {
+      "name": "Pickup x10 (have 1 item at least)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0660D400",
+          "on": "456BED0A45016C2408E9B1C4E8FA",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "014998BA",
+          "on": "E9413B1705",
+          "off": "45016C2408"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "allexander.xv"
+  ]
+}

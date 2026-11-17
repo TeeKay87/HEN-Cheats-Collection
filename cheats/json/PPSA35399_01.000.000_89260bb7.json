@@ -5,8 +5,53 @@
   "process": "eboot.bin",
   "mods": [
     {
+      "name": "One Hit Kill",
+      "description": "Normal enemies die in one hit.",
+      "type": "checkbox",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "629F90",
+          "on": "b83f420f00c3",
+          "off": "554889e54157",
+          "expected": "554889e54157",
+          "absolute": false
+        }
+      ]
+    },
+    {
+      "name": "Invincible",
+      "description": "The player takes no damage.",
+      "type": "checkbox",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "62A7A0",
+          "on": "31c0c390",
+          "off": "554889e5",
+          "expected": "554889e5",
+          "absolute": false
+        }
+      ]
+    },
+    {
+      "name": "Free Spells",
+      "description": "Spells cost no mana.",
+      "type": "checkbox",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "488740",
+          "on": "31c0c390",
+          "off": "554889e5",
+          "expected": "554889e5",
+          "absolute": false
+        }
+      ]
+    },
+    {
       "name": "No Trap Damage",
-      "description": "Spikes, saw blades, slamming fists, pits and enemies can't hurt you, push you back or teleport you to the last safe spot. Combines three patches: FatalFallRespawn.CanStart returns false (no fall teleport); Damageable.ApplyDamages' SkipApplyDamagesDebugFlag check is pointed at the player (no damage); HeroHitStrategy.ApplyHitBump and ApplyCustomHitBump return right away (no knockback).",
+      "description": "No damage, knockback or fall teleport from traps and enemies.",
       "type": "checkbox",
       "module_name": "Il2CppUserAssemblies.prx",
       "memory": [
@@ -49,7 +94,7 @@
     },
     {
       "name": "Unlimited Jumps",
-      "description": "Jump again in mid-air as often as you like. StartJumpFeature.CanStart always returns true.",
+      "description": "Jump again in mid-air without limit.",
       "type": "checkbox",
       "module_name": "Il2CppUserAssemblies.prx",
       "memory": [
@@ -63,8 +108,30 @@
       ]
     },
     {
-      "name": "Reveal All Map Icons",
-      "description": "Shows every save elevator and some other map icons; the rooms themselves still have to be explored. Turns on the game's own DEBUG_revealAllMap flag. Switching it off takes effect after you reload the save.",
+      "name": "Infinite Health Potions",
+      "description": "Health potions are not used up.",
+      "type": "checkbox",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "3aa22c0",
+          "on": "4d85e40f847e37e5fc498b7f104885ff0f847137e5fc4889de31d2e8d015b8fc413b47287d0f498b7f10418b772831d2e84b18b8fce9f935e5fc",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "expected": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "absolute": false
+        },
+        {
+          "offset": "8f58ea",
+          "on": "e9d1c91a0390909090",
+          "off": "4d85e40f8454010000",
+          "expected": "4d85e40f8454010000",
+          "absolute": false
+        }
+      ]
+    },
+    {
+      "name": "Reveal All Maps",
+      "description": "Shows everything. Causes load screen mismatch",
       "type": "checkbox",
       "module_name": "Il2CppUserAssemblies.prx",
       "memory": [
@@ -219,7 +286,7 @@
     },
     {
       "name": "Lasting Time Slow",
-      "description": "Chronomantic Dive and the clock mechanisms keep their time slow, green tint and slow music until this code is turned off (effects end within a second or two of turning it off). IMPORTANT: once per game session, hit a clock mechanism first; after that, every Chronomantic Dive gives the clock's full effect. Before a clock has been hit, the spell keeps only the slow time. Changing area clears the effect.",
+      "description": "Time slow lasts until turned off or new area.",
       "type": "checkbox",
       "module_name": "Il2CppUserAssemblies.prx",
       "memory": [
@@ -296,8 +363,8 @@
       ]
     },
     {
-      "name": "Infinite Aerial Rush",
-      "description": "Aerial Rush (air dash) can be used any number of times in the air and chained back to back, even in the middle of a dash. Side effects: action cooldowns and attack locks are removed and actions can be chained early, so the back dash and attacks also chain faster.",
+      "name": "Infinite Rush/slide",
+      "description": "Air dash, slide and back dash without limit.",
       "type": "checkbox",
       "module_name": "Il2CppUserAssemblies.prx",
       "memory": [
@@ -330,10 +397,10 @@
           "absolute": false
         },
         {
-          "offset": "8f0ce0",
-          "on": "b001c390",
-          "off": "554889e5",
-          "expected": "554889e5",
+          "offset": "8f0dfb",
+          "on": "eb2a",
+          "off": "752a",
+          "expected": "752a",
           "absolute": false
         },
         {
@@ -342,19 +409,122 @@
           "off": "554889e5",
           "expected": "554889e5",
           "absolute": false
+        }
+      ]
+    },
+    {
+      "name": "Unlock All Arcana Spells",
+      "description": "Open the spell menu to get all spells.",
+      "type": "checkbox",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "3aa2b00",
+          "on": "57564883ec08e89564cafc84c0751a488b742408488b7c24104885f6740b31d231c9e8a96bcafcb0014883c4085e5fc3",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "expected": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "absolute": false
         },
         {
-          "offset": "2969e40",
-          "on": "9090909090909090",
-          "off": "85c0785c39c37c58",
-          "expected": "85c0785c39c37c58",
+          "offset": "6b5aba",
+          "on": "e841d03e03",
+          "off": "e8e1340900",
+          "expected": "e8e1340900",
+          "absolute": false
+        },
+        {
+          "offset": "6f2028",
+          "on": "e8d30a3b03",
+          "off": "e8736f0500",
+          "expected": "e8736f0500",
+          "absolute": false
+        }
+      ]
+    },
+    {
+      "name": "Unlock All Weapons",
+      "description": "Open the weapon menu to get all weapons.",
+      "type": "checkbox",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "3aa2b40",
+          "on": "57564883ec08e85564cafc84c0751a488b742408488b7c24104885f6740b31d231c9e8696bcafcb0014883c4085e5fc3",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "expected": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "absolute": false
+        },
+        {
+          "offset": "6f3ea9",
+          "on": "e892ec3a03",
+          "off": "e8f2500500",
+          "expected": "e8f2500500",
+          "absolute": false
+        },
+        {
+          "offset": "6f41f5",
+          "on": "e846e93a03",
+          "off": "e8a64d0500",
+          "expected": "e8a64d0500",
+          "absolute": false
+        }
+      ]
+    },
+    {
+      "name": "Unlock All Relics",
+      "description": "Open the relic menu to get all relics.",
+      "type": "checkbox",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "3aa2b80",
+          "on": "57564883ec08e81564cafc84c0751a488b742408488b7c24104885f6740b31d231c9e8296bcafcb0014883c4085e5fc3",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "expected": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "absolute": false
+        },
+        {
+          "offset": "6ef27c",
+          "on": "e8ff383b03",
+          "off": "e81f9d0500",
+          "expected": "e81f9d0500",
+          "absolute": false
+        }
+      ]
+    },
+    {
+      "name": "Unlock All Outfits",
+      "description": "Open the outfit menu to get all outfits.",
+      "type": "checkbox",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "3aa2bc0",
+          "on": "57564883ec08e8d563cafc84c0751a488b742408488b7c24104885f6740b31d231c9e8e96acafcb0014883c4085e5fc3",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "expected": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "absolute": false
+        },
+        {
+          "offset": "6f9fcd",
+          "on": "e8ee8b3a03",
+          "off": "e8ceef0400",
+          "expected": "e8ceef0400",
+          "absolute": false
+        },
+        {
+          "offset": "6fa355",
+          "on": "e866883a03",
+          "off": "e846ec0400",
+          "expected": "e846ec0400",
           "absolute": false
         }
       ]
     }
   ],
   "credits": [
-    "Magnus",
-    "Hydra"
+    "Some codes use ideas from the PC Cheat Engine table (fearlessrevolution.com)",
+    "prey33 (Invincible, One Hit Kill, Free Spells, Infinite Health Potions)",
+    "Claude (Anthropic AI), with MagnusHydra (Lasting Time Slow, Infinite Rush/slide, Unlock All Arcana Spells, Unlock All Weapons, Unlock All Relics, Unlock All Outfits)"
   ]
 }

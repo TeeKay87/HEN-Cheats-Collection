@@ -1,0 +1,281 @@
+{
+  "name": "Diablo II: Resurrected",
+  "id": "PPSA03912",
+  "version": "01.039.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1D6AD00",
+          "on": "8945BC4885DB74144183FF06750E833B0075094139C60F8CC74778FE4885DBE9444778FE",
+          "off": "8945BC4885DB74144183FF06750E833B0075094139C60F8CC74778FE4885DBE9444778FE"
+        },
+        {
+          "offset": "4EF462",
+          "on": "E999B8870190",
+          "off": "8945BC4885DB"
+        },
+        {
+          "offset": "1D6ADC0",
+          "on": "85D20F84214878FE79134885FF740E83FE067509833F000F840C4878FE4989FFE9B04778FE",
+          "off": "85D20F84214878FE79134885FF740E83FE067509833F000F840C4878FE4989FFE9B04778FE"
+        },
+        {
+          "offset": "4EF58E",
+          "on": "E92DB887019090",
+          "off": "85D274574989FF"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Mana",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1D6AD40",
+          "on": "4183FF08750F833B00750A443B75BC0F8C8E4778FE440FB6ABBD010000E9144778FE",
+          "off": "4183FF08750F833B00750A443B75BC0F8C8E4778FE440FB6ABBD010000E9144778FE"
+        },
+        {
+          "offset": "4EF46E",
+          "on": "E9CDB88701909090",
+          "off": "440FB6ABBD010000"
+        },
+        {
+          "offset": "1D6AE00",
+          "on": "85D2790F83FE08750A41833F000F84D64778FE410FB6BFBD010000E9864778FE",
+          "off": "85D2790F83FE08750A41833F000F84D64778FE410FB6BFBD010000E9864778FE"
+        },
+        {
+          "offset": "4EF59E",
+          "on": "E95DB88701909090",
+          "off": "410FB6BFBD010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1D6AD80",
+          "on": "4183FF0A750F833B00750A443B75BC0F8C4E4778FE488BB388000000E9DC4678FE",
+          "off": "4183FF0A750F833B00750A443B75BC0F8C4E4778FE488BB388000000E9DC4678FE"
+        },
+        {
+          "offset": "4EF476",
+          "on": "E905B987019090",
+          "off": "488BB388000000"
+        },
+        {
+          "offset": "1D6AE40",
+          "on": "85D2790F83FE0A750A41833F000F84964778FE4189F6498BB788000000E94E4778FE",
+          "off": "85D2790F83FE0A750A41833F000F84964778FE4189F6498BB788000000E94E4778FE"
+        },
+        {
+          "offset": "4EF5A6",
+          "on": "E995B887019090909090",
+          "off": "4189F6498BB788000000"
+        }
+      ]
+    },
+    {
+      "name": "Gold Find +900% (gold x10)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1D6AB40",
+          "on": "4883EC08E8674C78FE4883C4080584030000C3",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "597732",
+          "on": "0A347D01",
+          "off": "7A80F5FF"
+        }
+      ]
+    },
+    {
+      "name": "Magic Find +2000%",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1D6AB60",
+          "on": "4883EC08E8474C78FE4883C40805D0070000C3",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "5978E4",
+          "on": "78327D01",
+          "off": "C87EF5FF"
+        }
+      ]
+    },
+    {
+      "name": "No empty drops (NoDrop = 0)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5967F8",
+          "on": "4531E490",
+          "off": "448B661C"
+        }
+      ]
+    },
+    {
+      "name": "More drops (x3 picks, game caps at 6 items per kill)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1D6AB80",
+          "on": "8B431885C07E036BC00389C1E965B582FE",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "5960F1",
+          "on": "E98A4A7D01",
+          "off": "8B431889C1"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo (arrows/bolts/throwing weapons don't deplete)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "70495F",
+          "on": "90E9CA000000",
+          "off": "0F85CA000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Gold (free purchases)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "739E12",
+          "on": "41BE01000000E90A01000090",
+          "off": "4189DF41BE010000004529EF"
+        }
+      ]
+    },
+    {
+      "name": "Experience x5",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1D6AC00",
+          "on": "458B6C24048D1C9B01C3E9B81A9CFE",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "72C6C0",
+          "on": "E93BE563019090",
+          "off": "458B6C240401C3"
+        }
+      ]
+    },
+    {
+      "name": "Gambling: always Unique (item level 99)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1D6AC40",
+          "on": "4881EC40010000B963000000E987339DFE",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "73DFD1",
+          "on": "E96ACC62019090",
+          "off": "4881EC40010000"
+        },
+        {
+          "offset": "73E2F5",
+          "on": "83C8FF",
+          "off": "4439E2"
+        },
+        {
+          "offset": "73E302",
+          "on": "EB1A",
+          "off": "7C1A"
+        }
+      ]
+    },
+    {
+      "name": "Gambling: always Exceptional/Elite base",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "73E1C4",
+          "on": "4489D20F1F440000",
+          "off": "39C30F8EE0000000"
+        },
+        {
+          "offset": "73E2A3",
+          "on": "0F1F4000",
+          "off": "440F4FD2"
+        }
+      ]
+    },
+    {
+      "name": "Cube: transmuting keeps the ingredients",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1D6AC80",
+          "on": "4D85FF741C4C89EF488DB510EFFFFF488D9510EBFFFF4C89F94531C0E8DF6A81FE4D89FE4D39E60F8433B98DFEE98AB88DFE",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "646527",
+          "on": "E954477201",
+          "off": "4531F6EB10"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Skill Points (points are not spent)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "70B79F",
+          "on": "31D2",
+          "off": "F7DA"
+        },
+        {
+          "offset": "70B80B",
+          "on": "31D290",
+          "off": "4489E2"
+        }
+      ]
+    },
+    {
+      "name": "All Waypoints Unlocked",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "31DA2B",
+          "on": "9090",
+          "off": "7453"
+        },
+        {
+          "offset": "61AB8A",
+          "on": "660F1F440000",
+          "off": "0F84E9030000"
+        },
+        {
+          "offset": "5E89B2",
+          "on": "660F1F440000",
+          "off": "0F8418030000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Dang3rZone"
+  ]
+}
