@@ -1,0 +1,145 @@
+{
+  "name": "The Blood of Dawnwalker",
+  "id": "PPSA28000",
+  "version": "01.005.000",
+  "process": "eboot.bin",
+  "credits": [
+    "Sorts"
+  ],
+  "mods": [
+    {
+      "name": "God Mode (player takes no damage)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "05FB7780",
+          "on": "C5FA10474C488D059CFA8C024839077408C5FA5C87DC000000E9A7E413FB",
+          "off": "000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "010F5C38",
+          "on": "E9431BEC049090909090909090",
+          "off": "C5FA10474CC5FA5C87DC000000"
+        }
+      ]
+    },
+    {
+      "name": "One-Hit Kill (enemies)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "05FB7850",
+          "on": "488D05E9648C02483907750BC5F82E474C7304C5F857C0554889E54157E942E413FB",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "010F5CAE",
+          "on": "E99D1BEC0490",
+          "off": "554889E54157"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Money",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "05FB7700",
+          "on": "498B57188B75BC4863CB41837D006E751741817D04E9AD94DE750D85F60F8FC21A58FBE99E1858FBE9901858FB",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "01538FB3",
+          "on": "E948E7A7049090909090",
+          "off": "498B57188B75BC4863CB"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Skill Points",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "04DFCF66",
+          "on": "0F1F00",
+          "off": "294348"
+        }
+      ]
+    },
+    {
+      "name": "Unlock All Skills (no requirements)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "04DFAB2C",
+          "on": "802320",
+          "off": "803B00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Stamina + Vampire Power/Blood",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "05FB7730",
+          "on": "488D05F1FA8C02483947807406483947907507C5F82E47087205C5FA114708C3",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "000A8BCA",
+          "on": "E961EBF005",
+          "off": "554889E5C5"
+        }
+      ]
+    },
+    {
+      "name": "XP x2 (use one XP option at a time)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "05FB7880",
+          "on": "6BF602017340488DBB38030000E9AF35E4FE",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "04DFAE37",
+          "on": "E944CA1B019090909090",
+          "off": "017340488DBB38030000"
+        }
+      ]
+    },
+    {
+      "name": "XP x5 (use one XP option at a time)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "05FB78A0",
+          "on": "6BF605017340488DBB38030000E98F35E4FE",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "04DFAE37",
+          "on": "E964CA1B019090909090",
+          "off": "017340488DBB38030000"
+        }
+      ]
+    },
+    {
+      "name": "XP x10 (use one XP option at a time)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "05FB78C0",
+          "on": "6BF60A017340488DBB38030000E96F35E4FE",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "04DFAE37",
+          "on": "E984CA1B019090909090",
+          "off": "017340488DBB38030000"
+        }
+      ]
+    }
+  ]
+}

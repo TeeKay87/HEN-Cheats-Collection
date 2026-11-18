@@ -122,6 +122,9 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-11-18 | ADDED | PPSA21567 | 01.019.000 | [Astro Bot](https://hencheats.vercel.app/game/PPSA21567/01.019.000) |
+| 2026-11-18 | UPDATE | PPSA28000 | 01.005.000 | [The Blood of Dawnwalker](https://hencheats.vercel.app/game/PPSA28000/01.005.000) |
+| 2026-11-18 | UPDATE | PPSA28465 | 01.006.000 | [Trails in the Sky 1st Chapter](https://hencheats.vercel.app/game/PPSA28465/01.006.000) |
 | 2026-11-18 | ADDED | CUSA05350 | 01.52 | [Dragon Ball: Xenoverse 2](https://hencheats.vercel.app/game/CUSA05350/01.52) |
 | 2026-11-17 | ADDED | CUSA00021 | 01.05 | [Watch Dogs](https://hencheats.vercel.app/game/CUSA00021/01.05) |
 | 2026-11-17 | ADDED | PPSA03912 | 01.039.000 | [Diablo II: Resurrected](https://hencheats.vercel.app/game/PPSA03912/01.039.000) |
