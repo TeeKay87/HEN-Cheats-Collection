@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Trainer Game="God of War Sons of Sparta" Moder="illusional" Cusa="CUSA57767" Version="01.01" Process="eboot.bin">
+  <Genres Name="Action" />
+  <Items />
+  <Cheat Text="Infinite Health + Infinite Spirit">
+  <Cheatline>
+      <Absolute>True</Absolute>
+      <Offset>80A8D600</Offset>
+      <Section>0</Section>
+      <ValueOn>48-83-EC-10-C5-FA-11-04-24-48-89-DF-31-F6-E8-2D-3A-65-06-48-89-C7-31-F6-E8-33-D8-FC-01-84-C0-75-14-C5-FA-10-04-24-48-83-C4-10-31-C0-80-7B-2C-00-E9-1D-60-D0-01-C5-FA-10-43-40-C5-FA-5C-43-38-48-83-C4-10-31-C0-80-7B-2C-00-E9-04-60-D0-01</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Absolute>True</Absolute>
+      <Offset>8279364C</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-AF-9F-2F-FE-90</ValueOn>
+      <ValueOff>31-C0-80-7B-2C-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Absolute>True</Absolute>
+      <Offset>80A71C00</Offset>
+      <Section>0</Section>
+      <ValueOn>C5-FA-10-4B-24-C5-F2-5C-4B-20-C5-F2-58-43-20-E9-A6-66-D1-01</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Absolute>True</Absolute>
+      <Offset>827882B5</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-46-99-2E-FE</ValueOn>
+      <ValueOff>C5-F2-58-43-20</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Absolute>True</Absolute>
+      <Offset>80A71C40</Offset>
+      <Section>0</Section>
+      <ValueOn>C5-FA-10-43-24-C5-FA-10-4B-24-E9-ED-70-D1-01</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Absolute>True</Absolute>
+      <Offset>82788D37</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-04-8F-2E-FE</ValueOn>
+      <ValueOff>C5-FA-10-4B-24</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="Materials - 2,000,000">
+  <Cheatline>
+      <Absolute>True</Absolute>
+      <Offset>819D6AF0</Offset>
+      <Section>0</Section>
+      <ValueOn>53-41-54-41-55-41-56-41-57-48-89-FB-4C-8B-63-28-4D-85-E4-74-3D-4D-8B-6C-24-10-4D-85-ED-74-33-45-8B-74-24-18-45-31-FF-45-39-F7-7D-26-4B-8B-44-FD-20-48-85-C0-74-17-48-8B-48-20-48-85-C9-74-0E-83-79-54-04-75-08-48-C7-40-28-80-84-1E-00-41-FF-C7-EB-D5-4C-89-E0-41-5F-41-5E-41-5D-41-5C-5B-C3</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Absolute>True</Absolute>
+      <Offset>82B6ECB0</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-3B-7E-E6-FE</ValueOn>
+      <ValueOff>48-8B-47-28-C3</ValueOff>
+    </Cheatline>
+  </Cheat>
+</Trainer>

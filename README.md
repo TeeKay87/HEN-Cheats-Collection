@@ -122,6 +122,8 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-11-18 | ADDED | CUSA57767 | 01.01 | [God of War Sons of Sparta](https://hencheats.vercel.app/game/CUSA57767/01.01) |
+| 2026-11-18 | ADDED | PPSA34577 | 01.002.001 | [Majogami](https://hencheats.vercel.app/game/PPSA34577/01.002.001) |
 | 2026-11-18 | ADDED | PPSA21567 | 01.019.000 | [Astro Bot](https://hencheats.vercel.app/game/PPSA21567/01.019.000) |
 | 2026-11-18 | UPDATE | PPSA28000 | 01.005.000 | [The Blood of Dawnwalker](https://hencheats.vercel.app/game/PPSA28000/01.005.000) |
 | 2026-11-18 | UPDATE | PPSA28465 | 01.006.000 | [Trails in the Sky 1st Chapter](https://hencheats.vercel.app/game/PPSA28465/01.006.000) |

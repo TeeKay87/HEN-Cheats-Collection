@@ -1,0 +1,43 @@
+{
+  "name": "Majogami",
+  "id": "PPSA34577",
+  "version": "01.002.001",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Inf. Hp",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "15DFFF0",
+          "on": "C787A00600000000C842E9109F8BFF",
+          "off": "C787A00600000000C842E9109F8BFF"
+        },
+        {
+          "offset": "E99F07",
+          "on": "E9E4607400909090",
+          "off": "C5FA1187A0060000"
+        }
+      ]
+    },
+    {
+      "name": "Inf. Money",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "15DFFE0",
+          "on": "C781C0170000FFC99A3BE928D84DFF",
+          "off": "C781C0170000FFC99A3BE928D84DFF"
+        },
+        {
+          "offset": "ABD811",
+          "on": "E9CA27B20090",
+          "off": "8981C0170000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Ston3d"
+  ]
+}
