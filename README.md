@@ -122,6 +122,7 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-11-18 | ADDED | CUSA05350 | 01.52 | [Dragon Ball: Xenoverse 2](https://hencheats.vercel.app/game/CUSA05350/01.52) |
 | 2026-11-17 | ADDED | CUSA00021 | 01.05 | [Watch Dogs](https://hencheats.vercel.app/game/CUSA00021/01.05) |
 | 2026-11-17 | ADDED | PPSA03912 | 01.039.000 | [Diablo II: Resurrected](https://hencheats.vercel.app/game/PPSA03912/01.039.000) |
 | 2026-11-17 | ADDED | PPSA07148 | 01.006.000 | [The Outer Worlds: Spacer's Choice Edition](https://hencheats.vercel.app/game/PPSA07148/01.006.000) |
