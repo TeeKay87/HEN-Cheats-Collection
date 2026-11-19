@@ -1,0 +1,38 @@
+{
+  "name": "Yu-Gi-Oh! Legacy of the Duelist: Link Evolution",
+  "id": "CUSA17678",
+  "version": "01.01",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Max DP 999,999 (buy something)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0x10F1E7",
+          "on": "B83F420F00488947109090",
+          "off": "480F46F04829F048894710"
+        }
+      ]
+    },
+    {
+      "name": "All Cards x3 (buy 1 pack)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0xE0E000",
+          "on": "BFFDFFFFFFE8D6FF2FFF4989C631DB89DFE86A5824FF85C074274189C789C7E87C5824FF39D87519430FB60C3E89CA83E20783FA03740A80E1F080C90343880C3EFFC381FBB627000072C44C89F0E94DA538FF",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "0x198596",
+          "on": "E9655AC7009090909090",
+          "off": "BFFDFFFFFFE8405AF7FF"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "allexander.xv"
+  ]
+}

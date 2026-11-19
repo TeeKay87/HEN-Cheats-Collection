@@ -122,6 +122,9 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-11-19 | ADDED | CUSA17678 | 01.01 | [Yu-Gi-Oh! Legacy of the Duelist: Link Evolution](https://hencheats.vercel.app/game/CUSA17678/01.01) |
+| 2026-11-19 | ADDED | CUSA44839 | 01.05 | [Tomb Raider IV-VI Remastered](https://hencheats.vercel.app/game/CUSA44839/01.05) |
+| 2026-11-19 | ADDED | PPSA07587 | 01.013.000 | [Sea of Stars](https://hencheats.vercel.app/game/PPSA07587/01.013.000) |
 | 2026-11-18 | ADDED | CUSA57767 | 01.01 | [God of War Sons of Sparta](https://hencheats.vercel.app/game/CUSA57767/01.01) |
 | 2026-11-18 | ADDED | PPSA34577 | 01.002.001 | [Majogami](https://hencheats.vercel.app/game/PPSA34577/01.002.001) |
 | 2026-11-18 | ADDED | PPSA21567 | 01.019.000 | [Astro Bot](https://hencheats.vercel.app/game/PPSA21567/01.019.000) |
