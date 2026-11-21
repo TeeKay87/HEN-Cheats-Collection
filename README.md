@@ -122,6 +122,7 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-11-21 | UPDATE | CUSA17678 | 01.01 | [Yu-Gi-Oh! Legacy of the Duelist: Link Evolution](https://hencheats.vercel.app/game/CUSA17678/01.01) |
 | 2026-11-19 | ADDED | CUSA17678 | 01.01 | [Yu-Gi-Oh! Legacy of the Duelist: Link Evolution](https://hencheats.vercel.app/game/CUSA17678/01.01) |
 | 2026-11-19 | ADDED | CUSA44839 | 01.05 | [Tomb Raider IV-VI Remastered](https://hencheats.vercel.app/game/CUSA44839/01.05) |
 | 2026-11-19 | ADDED | PPSA07587 | 01.013.000 | [Sea of Stars](https://hencheats.vercel.app/game/PPSA07587/01.013.000) |
