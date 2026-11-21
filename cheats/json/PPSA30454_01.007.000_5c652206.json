@@ -1,0 +1,96 @@
+{
+  "name": "Achilles: Survivor",
+  "id": "PPSA30454",
+  "version": "01.007.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Gold & Bronze (spending does not reduce them)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4B74508",
+          "on": "85DB7E410118",
+          "off": "011885DB7E3F"
+        }
+      ]
+    },
+    {
+      "name": "Free Buildings & Improvements (no resources needed)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4B80D40",
+          "on": "B001C390",
+          "off": "554889E5"
+        },
+        {
+          "offset": "4B81190",
+          "on": "C3909090",
+          "off": "554889E5"
+        },
+        {
+          "offset": "4B86510",
+          "on": "B001C390",
+          "off": "554889E5"
+        },
+        {
+          "offset": "4B86830",
+          "on": "B001C390",
+          "off": "554889E5"
+        }
+      ]
+    },
+    {
+      "name": "Damage x2",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6DBF000",
+          "on": "C5FA58C0498B4500483B45D0E90FEAD3FD",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "4AFDA18",
+          "on": "E9E3152C020F1F00",
+          "off": "498B4500483B45D0"
+        }
+      ]
+    },
+    {
+      "name": "Attack Speed x2 (power cooldowns halved)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6DBF040",
+          "on": "B80000003FC5F96ED0C5F259CAC5FA1005A76A7700C5FA5FC1E9FEFBD3FD",
+          "off": "000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4AFEC50",
+          "on": "E9EB032C020F1F8000000000",
+          "off": "C5FA1005A46EA302C5FA5FC1"
+        }
+      ]
+    },
+    {
+      "name": "Striking Speed x2 (experimental)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6DBF080",
+          "on": "C5FA58C0498B0424483B45D8E9DD01D4FD",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "4AFF266",
+          "on": "E915FE2B020F1F00",
+          "off": "498B0424483B45D8"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Dang3rZone"
+  ]
+}

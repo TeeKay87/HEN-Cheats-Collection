@@ -122,6 +122,11 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-11-21 | ADDED | PPSA21567 | 01.018.000 | [Astro Bot](https://hencheats.vercel.app/game/PPSA21567/01.018.000) |
+| 2026-11-21 | ADDED | PPSA24096 | 01.010.001 | [Cronos: The New Dawn](https://hencheats.vercel.app/game/PPSA24096/01.010.001) |
+| 2026-11-21 | ADDED | PPSA30454 | 01.007.000 | [Achilles: Survivor](https://hencheats.vercel.app/game/PPSA30454/01.007.000) |
+| 2026-11-21 | UPDATE | PPSA25872 | 01.002.000 | [Terminator 2D: No Fate](https://hencheats.vercel.app/game/PPSA25872/01.002.000) |
+| 2026-11-21 | UPDATE | PPSA34971 | 01.000.002 | [Hollow Knight: Voidheart Edition](https://hencheats.vercel.app/game/PPSA34971/01.000.002) |
 | 2026-11-21 | UPDATE | CUSA17678 | 01.01 | [Yu-Gi-Oh! Legacy of the Duelist: Link Evolution](https://hencheats.vercel.app/game/CUSA17678/01.01) |
 | 2026-11-19 | ADDED | CUSA17678 | 01.01 | [Yu-Gi-Oh! Legacy of the Duelist: Link Evolution](https://hencheats.vercel.app/game/CUSA17678/01.01) |
 | 2026-11-19 | ADDED | CUSA44839 | 01.05 | [Tomb Raider IV-VI Remastered](https://hencheats.vercel.app/game/CUSA44839/01.05) |

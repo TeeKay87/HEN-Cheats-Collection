@@ -1,0 +1,117 @@
+{
+  "name": "Terminator 2D: No Fate",
+  "id": "PPSA25872",
+  "version": "01.002.000",
+  "process": "eboot.bin",
+  "credits": [
+    "k4k0gh0st"
+  ],
+  "mods": [
+    {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FFEA13E",
+          "on": "909090909090",
+          "off": "FF8B94000000"
+        },
+        {
+          "offset": "7FFEA149",
+          "on": "909090909090",
+          "off": "898394000000"
+        },
+        {
+          "offset": "7FFFBD46",
+          "on": "909090909090",
+          "off": "898394000000"
+        },
+        {
+          "offset": "8005037A",
+          "on": "909090909090",
+          "off": "FF90F8020000"
+        },
+        {
+          "offset": "8001585A",
+          "on": "90909090909090",
+          "off": "41298694000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Grenades",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FFEB0B2",
+          "on": "909090909090",
+          "off": "8983C8000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Time",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "800E9D26",
+          "on": "9090909090",
+          "off": "C5FB114120"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Weapon",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FFE28D5",
+          "on": "909090909090",
+          "off": "898388040000"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7FFB8AC3",
+          "on": "4531FF",
+          "off": "4529E7"
+        },
+        {
+          "offset": "80068484",
+          "on": "83A0940000000090909090909090909090909090",
+          "off": "FF8894000000488B87B8000000488B80D00D0000"
+        },
+        {
+          "offset": "800A9988",
+          "on": "B80100000090",
+          "off": "8B8394000000"
+        },
+        {
+          "offset": "8005BCDD",
+          "on": "31C00F1F440000",
+          "off": "412B8668030000"
+        },
+        {
+          "offset": "8005EA21",
+          "on": "31C00F1F440000",
+          "off": "412B8668030000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite continues",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "801A854D",
+          "on": "909090909090",
+          "off": "FF88A0020000"
+        }
+      ]
+    }
+  ]
+}
