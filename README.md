@@ -122,6 +122,8 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-11-25 | ADDED | CUSA18723 | 01.26 | [Elden Ring](https://hencheats.vercel.app/game/CUSA18723/01.26) |
+| 2026-11-25 | UPDATE | PPSA21567 | 01.019.000 | [Astro Bot](https://hencheats.vercel.app/game/PPSA21567/01.019.000) |
 | 2026-11-23 | ADDED | CUSA05532 | 01.08 | [Final Fantasy XII: The Zodiac Age](https://hencheats.vercel.app/game/CUSA05532/01.08) |
 | 2026-11-23 | ADDED | CUSA08519 | 01.32 | [Red Dead Redemption II](https://hencheats.vercel.app/game/CUSA08519/01.32) |
 | 2026-11-23 | ADDED | CUSA33388 | 01.12 | [Resident Evil 4](https://hencheats.vercel.app/game/CUSA33388/01.12) |

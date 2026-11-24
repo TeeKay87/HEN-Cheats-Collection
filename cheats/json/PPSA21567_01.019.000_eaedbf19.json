@@ -1,0 +1,43 @@
+{
+  "name": "Astro Bot",
+  "id": "PPSA21567",
+  "version": "01.019.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "No Coin Decrease",
+      "description": "Prevents the coin balance from decreasing when spending coins.",
+      "hint": "Working on PPSA21567, version 01.019.000. Purchases still require enough coins.",
+      "type": "checkbox",
+      "_sonic_enabled": false,
+      "memory": [
+        {
+          "offset": "5961532",
+          "on": "909090",
+          "off": "4429F8"
+        },
+        {
+          "offset": "5961676",
+          "on": "909090",
+          "off": "4429F8"
+        }
+      ]
+    },
+    {
+      "name": "Inf Jumps Ezz Jump",
+      "description": "",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6134E6A",
+          "on": "90909090909090",
+          "off": "C6835801000001"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Ezz & Fayrouz",
+    "k4k0gh0st"
+  ]
+}
