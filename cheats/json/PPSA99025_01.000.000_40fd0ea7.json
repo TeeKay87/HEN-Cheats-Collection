@@ -1,0 +1,96 @@
+{
+  "name": "The Legend of Zelda: Ocarina of Time",
+  "id": "PPSA99025",
+  "version": "01.000.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Rupees",
+      "description": "Rupees never go down. Picking them up still works.",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1D59B000",
+          "on": "9C5148B9A842EA8410000000488B094885C97420498B8C0CD80000004881C1509600004839C1750C413B54041C7D05418B54041C599D418954041CE9F6455BE7",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4B4F631",
+          "on": "E9CAB9A418",
+          "off": "418954041C"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Deku Nuts",
+      "description": "Deku Nuts never go down.",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1D59B040",
+          "on": "9C515248B9A842EA8410000000488B094885C97421498B8C0CD80000004881C1389F00004839C1750D418B54041C3953687D038953685A599D418B4C0410E9A3455BE7",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4B4F621",
+          "on": "E91ABAA418",
+          "off": "418B4C0410"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Deku Sticks",
+      "description": "Deku Sticks never go down.",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1D59B090",
+          "on": "9C5248BAA842EA8410000000488B124885D27422498B9414D80000004881C2889F00004839CA750E418B540C1C39D07D0589D08953685A9D418B4C0C1CE938455BE7",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4B4F605",
+          "on": "E986BAA418",
+          "off": "418B4C0C1C"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Deku Seeds",
+      "description": "Slingshot seeds never go down.",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1D59B130",
+          "on": "5248BAA842EA8410000000488B124885D2741E498B9414D80000004881C2609F0000483B5360750939C87D0589C8894B685A39C10F948309010000E9A7445BE7",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4B4F610",
+          "on": "E91BBBA4189090",
+          "off": "0F948309010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health",
+      "description": "Health never goes down. Healing still works.",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1D59B180",
+          "on": "41817C0E048055AB31750639C27D0289C2F0410FB1140EE9640BE8E4",
+          "off": "00000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "241BCFA",
+          "on": "E981F4171B90",
+          "off": "F0410FB1140E"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Claude (Anthropic AI), with MagnusHydra"
+  ]
+}

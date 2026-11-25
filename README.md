@@ -122,6 +122,7 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-11-25 | ADDED | PPSA99025 | 01.000.000 | [The Legend of Zelda: Ocarina of Time](https://hencheats.vercel.app/game/PPSA99025/01.000.000) |
 | 2026-11-25 | UPDATE | PPSA02182 | 01.024.000 | [Suicide Squad: Kill the Justice League](https://hencheats.vercel.app/game/PPSA02182/01.024.000) |
 | 2026-11-25 | UPDATE | PPSA25468 | 01.007.000 | [Atelier Yumia: The Alchemist of Memories & the Envisioned Land](https://hencheats.vercel.app/game/PPSA25468/01.007.000) |
 | 2026-11-25 | UPDATE | PPSA31246 | 01.310.000 | [Resident Evil Requiem](https://hencheats.vercel.app/game/PPSA31246/01.310.000) |
