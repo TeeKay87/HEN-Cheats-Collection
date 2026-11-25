@@ -1,0 +1,264 @@
+{
+  "name": "Suicide Squad: Kill the Justice League",
+  "id": "PPSA02182",
+  "version": "01.024.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Untouchable",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0x3A322C0",
+          "on": "C3",
+          "off": "55"
+        },
+        {
+          "offset": "0x3AC6260",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "1 Hit Kill",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0x956AAA0",
+          "on": "837B700174030F57C0C4C172594F2CE9EADE33F8",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "0x18A8998",
+          "on": "E90321CC0790",
+          "off": "C4C172594F2C"
+        }
+      ]
+    },
+    {
+      "name": "Infi Shield",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0x956A8A0",
+          "on": "837B7001750CC743500024F448C5FA105350C5FA115350E904E133F8",
+          "off": "00000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "0x18A89BB",
+          "on": "E9E01ECC07",
+          "off": "C5FA115350"
+        }
+      ]
+    },
+    {
+      "name": "Infi Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0x5818B8B",
+          "on": "448BBFC01700004489FE89F34989FE9090",
+          "off": "448BBFC817000089F34989FE4139F77407"
+        }
+      ]
+    },
+    {
+      "name": "Infi Traversal ATK",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0x60F216",
+          "on": "0F28D190",
+          "off": "C5EA58D0"
+        }
+      ]
+    },
+    {
+      "name": "Infi Jetpack",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0xA0AB24",
+          "on": "0F28C290",
+          "off": "C5EA5CC0"
+        }
+      ]
+    },
+    {
+      "name": "Infi Traversal (Boomerang)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0xC03E42",
+          "on": "C5F828C1",
+          "off": "C5F25CC0"
+        }
+      ]
+    },
+    {
+      "name": "Infi Traversal (Harley)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0x99845F",
+          "on": "909090909090",
+          "off": "FF83B8030000"
+        },
+        {
+          "offset": "0x998440",
+          "on": "C5FA58C8",
+          "off": "C5EA58C9"
+        }
+      ]
+    },
+    {
+      "name": "Infi Traversal (King Shark)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0xC0F227",
+          "on": "C5FA10833C0700000F1F840000000000",
+          "off": "C5DA5985D8F8FFFFC5FA5883BC050000"
+        },
+        {
+          "offset": "0xC0F418",
+          "on": "0F1F8000000000",
+          "off": "C683C005000001"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ultimate (stays 100%)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0x87DE8C",
+          "on": "C4C17A1047540F1F4000",
+          "off": "C4C17A104750C5FA5CC2"
+        }
+      ]
+    },
+    {
+      "name": "Unlimited Currency (all 13)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0x4ED99D5",
+          "on": "E989000000",
+          "off": "418B064129"
+        }
+      ]
+    },
+    {
+      "name": "Max Currency 999999 (on gain)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0x956AD00",
+          "on": "8B45A04101463041813E3F420F007D0741C7063F420F0051B90600000041813C8E3F420F007D0841C7048E3F420F00FFC183F90B72E7598B45A0E9F12C73F7",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "0xC9DA29",
+          "on": "E9D2D28C089090",
+          "off": "8B45A041014630"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Skill Points (still gain)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0x956ACC0",
+          "on": "C5FA7E12C5F1EFC9C4E2693DD1E9DCBB69FB",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "0x4C068A6",
+          "on": "E915449604909090",
+          "off": "C5FA7E12C5F1EFC9"
+        },
+        {
+          "offset": "0x956ACE0",
+          "on": "448B7A084585FF78034401F8438944260CE9F3BB69FB",
+          "off": "00000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "0x4C068E1",
+          "on": "E9FA439604909090",
+          "off": "034208438944260C"
+        }
+      ]
+    },
+    {
+      "name": "Max Squad Points 9999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0x956ACA0",
+          "on": "81FE0F2700007D05BE0F27000089B7B4060000E99A7FDFF7",
+          "off": "000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "0x1362C4C",
+          "on": "E94F80200890",
+          "off": "89B7B4060000"
+        }
+      ]
+    },
+    {
+      "name": "Quick Level (XP x10)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0x956AC00",
+          "on": "8BB374030000410FAF74245069F60A000000E91E8369FB",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "0x4C02F29",
+          "on": "E9D27C960490909090909090",
+          "off": "8BB374030000410FAF742450"
+        }
+      ]
+    },
+    {
+      "name": "Quick Level (XP x100)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0x956AC40",
+          "on": "8BB374030000410FAF74245069F664000000E9DE8269FB",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "0x4C02F29",
+          "on": "E9127D960490909090909090",
+          "off": "8BB374030000410FAF742450"
+        }
+      ]
+    },
+    {
+      "name": "Quick Level (XP x1000)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "0x956AC80",
+          "on": "8BB374030000410FAF74245069F6E8030000E99E8269FB",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "0x4C02F29",
+          "on": "E9527D960490909090909090",
+          "off": "8BB374030000410FAF742450"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Yharnam",
+    "allexander.xv"
+  ]
+}

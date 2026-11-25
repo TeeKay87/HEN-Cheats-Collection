@@ -122,6 +122,9 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-11-25 | UPDATE | PPSA02182 | 01.024.000 | [Suicide Squad: Kill the Justice League](https://hencheats.vercel.app/game/PPSA02182/01.024.000) |
+| 2026-11-25 | UPDATE | PPSA25468 | 01.007.000 | [Atelier Yumia: The Alchemist of Memories & the Envisioned Land](https://hencheats.vercel.app/game/PPSA25468/01.007.000) |
+| 2026-11-25 | UPDATE | PPSA31246 | 01.310.000 | [Resident Evil Requiem](https://hencheats.vercel.app/game/PPSA31246/01.310.000) |
 | 2026-11-25 | ADDED | CUSA18723 | 01.26 | [Elden Ring](https://hencheats.vercel.app/game/CUSA18723/01.26) |
 | 2026-11-25 | UPDATE | PPSA21567 | 01.019.000 | [Astro Bot](https://hencheats.vercel.app/game/PPSA21567/01.019.000) |
 | 2026-11-23 | ADDED | CUSA05532 | 01.08 | [Final Fantasy XII: The Zodiac Age](https://hencheats.vercel.app/game/CUSA05532/01.08) |
