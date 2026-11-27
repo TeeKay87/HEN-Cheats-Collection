@@ -122,6 +122,8 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-11-27 | UPDATE | PPSA38500 | 01.002.001 | [Grand Theft Auto VI](https://hencheats.vercel.app/game/PPSA38500/01.002.001) |
+| 2026-11-26 | ADDED | PPSA38500 | 01.002.001 | [Grand Theft Auto VI](https://hencheats.vercel.app/game/PPSA38500/01.002.001) |
 | 2026-11-26 | ADDED | PPSA05163 | 01.040.000 | [SD Gundam Battle Alliance](https://hencheats.vercel.app/game/PPSA05163/01.040.000) |
 | 2026-11-26 | ADDED | PPSA05164 | 01.040.000 | [SD Gundam Battle Alliance](https://hencheats.vercel.app/game/PPSA05164/01.040.000) |
 | 2026-11-26 | ADDED | PPSA16566 | 01.010.000 | [Romancing SaGa 2: Revenge of the Seven](https://hencheats.vercel.app/game/PPSA16566/01.010.000) |
