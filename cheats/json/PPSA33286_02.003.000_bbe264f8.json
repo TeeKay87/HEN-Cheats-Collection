@@ -1,0 +1,59 @@
+{
+  "name": "Silent Hill: Townfall",
+  "id": "PPSA33286",
+  "version": "02.003.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Invisible to Enemies (Sight Only)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4A59E54",
+          "absolute": true,
+          "on": "EB65",
+          "off": "7465"
+        }
+      ]
+    },
+    {
+      "name": "Save Count Zero",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4AB82A6",
+          "absolute": true,
+          "on": "83A7240A000000488D9FC80800009090",
+          "off": "FF87240A00004889FB4881C3C8080000"
+        },
+        {
+          "offset": "4C38A90",
+          "absolute": true,
+          "on": "554889E583A7E002000000C687D1020000015DC3",
+          "off": "554889E5FF87E0020000C687D1020000015DC3CC"
+        }
+      ]
+    },
+    {
+      "name": "Freeze Play Timer (Zero)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4C3971F",
+          "absolute": true,
+          "on": "C5F157C990909090",
+          "off": "C5F1588B50040000"
+        },
+        {
+          "offset": "4C3972F",
+          "absolute": true,
+          "on": "C5F957C090909090",
+          "off": "C5FB5883D8020000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "GeeOhGee"
+  ]
+}

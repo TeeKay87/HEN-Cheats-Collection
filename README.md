@@ -122,6 +122,11 @@ Restart and re-jailbreak the PlayStation after installing the cheats.
 
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-11-28 | ADDED | PPSA30630 | 01.018.000 | [MLB The Show 26](https://hencheats.vercel.app/game/PPSA30630/01.018.000) |
+| 2026-11-28 | ADDED | PPSA34474 | 02.002.000 | [eBaseball: PRO Spirit 2026](https://hencheats.vercel.app/game/PPSA34474/02.002.000) |
+| 2026-11-28 | UPDATE | PPSA33286 | 02.003.000 | [Silent Hill: Townfall](https://hencheats.vercel.app/game/PPSA33286/02.003.000) |
+| 2026-11-28 | UPDATE | PPSA34299 | 01.006.000 | [WWE 2K26](https://hencheats.vercel.app/game/PPSA34299/01.006.000) |
+| 2026-11-28 | UPDATE | PPSA38500 | 01.002.001 | [Grand Theft Auto VI](https://hencheats.vercel.app/game/PPSA38500/01.002.001) |
 | 2026-11-27 | UPDATE | PPSA38500 | 01.002.001 | [Grand Theft Auto VI](https://hencheats.vercel.app/game/PPSA38500/01.002.001) |
 | 2026-11-26 | ADDED | PPSA38500 | 01.002.001 | [Grand Theft Auto VI](https://hencheats.vercel.app/game/PPSA38500/01.002.001) |
 | 2026-11-26 | ADDED | PPSA05163 | 01.040.000 | [SD Gundam Battle Alliance](https://hencheats.vercel.app/game/PPSA05163/01.040.000) |

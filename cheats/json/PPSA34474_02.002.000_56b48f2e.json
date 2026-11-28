@@ -1,0 +1,251 @@
+{
+  "name": "eBaseball: PRO Spirit 2026",
+  "id": "PPSA34474",
+  "version": "02.002.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Star Player Ratings 99 (hitter) - created by GenLee937",
+      "type": "checkbox",
+      "hint": "PS5 PPSA34474 v02.002.000 only. Star Player mode (hitter): the ratings the game recalculates come out as 99 - contact, power, speed, arm, catching, throwing and the fielding position you play. Turn it on, then do one training session or game. Experience is not changed. The 99s go into the player's ratings; with the cheat off they should return to normal the next time the game recalculates them.",
+      "description": "PS5 PPSA34474 v02.002.000 only. Star Player mode (hitter): the ratings the game recalculates come out as 99 - contact, power, speed, arm, catching, throwing and the fielding position you play. Turn it on, then do one training session or game. Experience is not changed. The 99s go into the player's ratings; with the cheat off they should return to normal the next time the game recalculates them.",
+      "memory": [
+        {
+          "offset": "81827841",
+          "on": "4489E090",
+          "off": "410F4DC4",
+          "expected": "410F4DC4",
+          "absolute": false
+        },
+        {
+          "offset": "81827943",
+          "on": "4489E090",
+          "off": "410F4DC4",
+          "expected": "410F4DC4",
+          "absolute": false
+        },
+        {
+          "offset": "81827A45",
+          "on": "4489E090",
+          "off": "410F4DC4",
+          "expected": "410F4DC4",
+          "absolute": false
+        },
+        {
+          "offset": "81827B47",
+          "on": "4489E090",
+          "off": "410F4DC4",
+          "expected": "410F4DC4",
+          "absolute": false
+        },
+        {
+          "offset": "81827C49",
+          "on": "4489E090",
+          "off": "410F4DC4",
+          "expected": "410F4DC4",
+          "absolute": false
+        },
+        {
+          "offset": "81827D4B",
+          "on": "4489E090",
+          "off": "410F4DC4",
+          "expected": "410F4DC4",
+          "absolute": false
+        },
+        {
+          "offset": "81827E4F",
+          "on": "4489E090",
+          "off": "410F4DC4",
+          "expected": "410F4DC4",
+          "absolute": false
+        },
+        {
+          "offset": "81827F50",
+          "on": "4489E290",
+          "off": "410F4DD4",
+          "expected": "410F4DD4",
+          "absolute": false
+        }
+      ]
+    },
+    {
+      "name": "Star Player Fatigue Stays 0 - created by GenLee937",
+      "type": "checkbox",
+      "hint": "PS5 PPSA34474 v02.002.000 only. Star Player mode: whenever the game changes your fatigue it becomes 0. It takes effect at the next training session, rest or game, not the moment you switch it on.",
+      "description": "PS5 PPSA34474 v02.002.000 only. Star Player mode: whenever the game changes your fatigue it becomes 0. It takes effect at the next training session, rest or game, not the moment you switch it on.",
+      "memory": [
+        {
+          "offset": "812CF48E",
+          "on": "31C990",
+          "off": "0F43CF",
+          "expected": "0F43CF",
+          "absolute": false
+        },
+        {
+          "offset": "818541FF",
+          "on": "31FF90",
+          "off": "0F42FA",
+          "expected": "0F42FA",
+          "absolute": false
+        },
+        {
+          "offset": "81858370",
+          "on": "31C990",
+          "off": "0F43CF",
+          "expected": "0F43CF",
+          "absolute": false
+        },
+        {
+          "offset": "8185926A",
+          "on": "4531C090",
+          "off": "440F42C6",
+          "expected": "440F42C6",
+          "absolute": false
+        },
+        {
+          "offset": "8185948A",
+          "on": "4531C090",
+          "off": "440F42C6",
+          "expected": "440F42C6",
+          "absolute": false
+        },
+        {
+          "offset": "81859642",
+          "on": "4531C090",
+          "off": "440F42C6",
+          "expected": "440F42C6",
+          "absolute": false
+        },
+        {
+          "offset": "818596C3",
+          "on": "4531C090",
+          "off": "440F42C6",
+          "expected": "440F42C6",
+          "absolute": false
+        },
+        {
+          "offset": "8185973A",
+          "on": "4531C090",
+          "off": "440F42C6",
+          "expected": "440F42C6",
+          "absolute": false
+        },
+        {
+          "offset": "81859888",
+          "on": "4531C090",
+          "off": "440F42C6",
+          "expected": "440F42C6",
+          "absolute": false
+        },
+        {
+          "offset": "81859AFA",
+          "on": "4531C090",
+          "off": "440F42C6",
+          "expected": "440F42C6",
+          "absolute": false
+        },
+        {
+          "offset": "81859D12",
+          "on": "4531C090",
+          "off": "440F42C6",
+          "expected": "440F42C6",
+          "absolute": false
+        },
+        {
+          "offset": "81859ECA",
+          "on": "4531C090",
+          "off": "440F42C6",
+          "expected": "440F42C6",
+          "absolute": false
+        },
+        {
+          "offset": "81859F4B",
+          "on": "4531C090",
+          "off": "440F42C6",
+          "expected": "440F42C6",
+          "absolute": false
+        },
+        {
+          "offset": "81859FC2",
+          "on": "4531C090",
+          "off": "440F42C6",
+          "expected": "440F42C6",
+          "absolute": false
+        },
+        {
+          "offset": "8185A110",
+          "on": "4531C090",
+          "off": "440F42C6",
+          "expected": "440F42C6",
+          "absolute": false
+        },
+        {
+          "offset": "81860E0D",
+          "on": "4531D290",
+          "off": "450F42D0",
+          "expected": "450F42D0",
+          "absolute": false
+        },
+        {
+          "offset": "81866FD4",
+          "on": "4531C090",
+          "off": "440F42C6",
+          "expected": "440F42C6",
+          "absolute": false
+        },
+        {
+          "offset": "81867055",
+          "on": "4531C090",
+          "off": "440F42C6",
+          "expected": "440F42C6",
+          "absolute": false
+        },
+        {
+          "offset": "8186730C",
+          "on": "31C990",
+          "off": "0F43CF",
+          "expected": "0F43CF",
+          "absolute": false
+        },
+        {
+          "offset": "8186751C",
+          "on": "31C990",
+          "off": "0F43CF",
+          "expected": "0F43CF",
+          "absolute": false
+        },
+        {
+          "offset": "818A7C0F",
+          "on": "31C090",
+          "off": "0F4DC2",
+          "expected": "0F4DC2",
+          "absolute": false
+        },
+        {
+          "offset": "81970CFA",
+          "on": "31C990",
+          "off": "0F43CE",
+          "expected": "0F43CE",
+          "absolute": false
+        },
+        {
+          "offset": "81973C04",
+          "on": "31C990",
+          "off": "0F43CF",
+          "expected": "0F43CF",
+          "absolute": false
+        },
+        {
+          "offset": "8197FF54",
+          "on": "31FF90",
+          "off": "0F42FA",
+          "expected": "0F42FA",
+          "absolute": false
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "GenLee937"
+  ]
+}

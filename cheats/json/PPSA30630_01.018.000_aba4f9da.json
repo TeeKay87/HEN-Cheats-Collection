@@ -1,0 +1,83 @@
+{
+  "name": "MLB The Show 26",
+  "id": "PPSA30630",
+  "version": "01.018.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Franchise Budget Locked at $950M (your team) - created by GenLee937",
+      "type": "checkbox",
+      "hint": "PS5 PPSA30630 v01.018.000 only. Franchise mode: locks the budget of the team you control at $950M, in season and on the offseason budget screen, so signings and trades do not lower it. Reopen the Budget or trade screen after turning it on. The money is not written into your save, so turn it on again after restarting the game (or use Autoload). Turning it off shows your real budget.",
+      "memory": [
+        {
+          "offset": "2673F40",
+          "on": "E8BBA430FE4439F07505BB408E5338E9CE372AFE",
+          "off": "0000000000000000000000000000000000000000",
+          "expected": "0000000000000000000000000000000000000000",
+          "absolute": false
+        },
+        {
+          "offset": "9175D6",
+          "on": "E965C9D501",
+          "off": "E947010000",
+          "expected": "E947010000",
+          "absolute": false
+        },
+        {
+          "offset": "2673F60",
+          "on": "83FF1D0F8748462AFE89FBE890A430FE39D8750AB880D99F38E933462AFE89DFE956452AFE",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000",
+          "expected": "00000000000000000000000000000000000000000000000000000000000000000000000000",
+          "absolute": false
+        },
+        {
+          "offset": "9184D2",
+          "on": "E989BAD50190909090",
+          "off": "83FF1D0F87D6000000",
+          "expected": "83FF1D0F87D6000000",
+          "absolute": false
+        }
+      ],
+      "description": "PS5 PPSA30630 v01.018.000 only. Franchise mode: locks the budget of the team you control at $950M, in season and on the offseason budget screen, so signings and trades do not lower it. Reopen the Budget or trade screen after turning it on. The money is not written into your save, so turn it on again after restarting the game (or use Autoload). Turning it off shows your real budget."
+    },
+    {
+      "name": "Free Agents 100% Motivated to Sign (your team) - created by GenLee937",
+      "type": "checkbox",
+      "hint": "PS5 PPSA30630 v01.018.000 only. Franchise mode: free agents are 100% motivated to sign with the team you control, and a low offer does not lower it. Reopen the free agency screen after turning it on. The 100% values are written into those players' records for your team: if you save, they can stay after you turn it off, until the game rebuilds them.",
+      "memory": [
+        {
+          "offset": "2673F90",
+          "on": "83FF1D77284885F6742357564883EC08E85BA430FE4883C4085E5F39F8750EC6460664C6460864B864000000C3554889E54157E98E2E1EFE",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "expected": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "absolute": false
+        },
+        {
+          "offset": "856E50",
+          "on": "E93BD1E10190",
+          "off": "554889E54157",
+          "expected": "554889E54157",
+          "absolute": false
+        },
+        {
+          "offset": "2673FD0",
+          "on": "4885FF7409807F0664750331C0C3554889E54157E9AD521EFE",
+          "off": "00000000000000000000000000000000000000000000000000",
+          "expected": "00000000000000000000000000000000000000000000000000",
+          "absolute": false
+        },
+        {
+          "offset": "859290",
+          "on": "E93BADE10190",
+          "off": "554889E54157",
+          "expected": "554889E54157",
+          "absolute": false
+        }
+      ],
+      "description": "PS5 PPSA30630 v01.018.000 only. Franchise mode: free agents are 100% motivated to sign with the team you control, and a low offer does not lower it. Reopen the free agency screen after turning it on. The 100% values are written into those players' records for your team: if you save, they can stay after you turn it off, until the game rebuilds them."
+    }
+  ],
+  "credits": [
+    "GenLee937"
+  ]
+}
